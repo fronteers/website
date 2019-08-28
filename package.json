@@ -1,0 +1,27 @@
+{
+  "name": "fronteers-website",
+  "version": "0.1.0",
+  "description": "Fronteers website",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel watch src/index.js",
+    "build": "parcel build src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fronteers/website.git"
+  },
+  "author": "Fronteers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fronteers/website/issues"
+  },
+  "homepage": "https://github.com/fronteers/website#readme",
+  "dependencies": {
+    "contentful": "^7.9.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  }
+}
