@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "start": "parcel watch src/index.js",
-    "build": "parcel build src/index.js"
+    "start": "parcel -t node watch src/index.js",
+    "build": "parcel -t node build src/index.js"
   },
   "repository": {
     "type": "git",
