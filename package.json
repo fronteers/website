@@ -22,6 +22,7 @@
     "contentful": "^7.9.1"
   },
   "devDependencies": {
-    "parcel": "^1.12.3"
+    "parcel": "^1.12.3",
+    "table": "^5.4.6"
   }
 }

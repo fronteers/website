@@ -15,6 +15,6 @@ export class FolderCreator {
   }
 
   createFolder(...pathSegments) {
-    return makeDir(join(this.baseDir, ...pathSegments));
+    return makeDir(join(this.baseDir, ...pathSegments), { recursive: true });
   }
 }

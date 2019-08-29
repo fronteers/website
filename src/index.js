@@ -19,6 +19,33 @@ const fetchLocales = async () => {
   const nonDefaultLocals = locales.items.filter(locale => locale.default === false);
 
   nonDefaultLocals.forEach(locale => folderCreator.createFolder(locale.code));
+
+  return locales.items;
 };
 
-fetchLocales();
+const fetchContentTypes = async locales => {
+  const contentTypes = await client.getContentTypes();
+
+  return contentTypes.items;
+};
+
+const fetchContent = async (locales, contentTypes) => {
+  locales.forEach(locale => {
+    contentTypes.forEach(async contentType => {
+      const contentOfType = await client.getEntries({
+        locale: locale.code,
+        content_type: contentType.sys.id,
+      });
+    });
+  });
+};
+
+const convertContent = async () => {};
+
+// Fetch all teh things!
+Promise.all([fetchLocales(), fetchContentTypes()])
+  .then(([locales, contentTypes]) => fetchContent(locales, contentTypes))
+  .catch(err => {
+    console.error(err);
+    console.trace(err.message || err.trace || err);
+  });
