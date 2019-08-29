@@ -28,3 +28,9 @@ content/                # Root content structure
     ├── about.md        # File for entry About
     └── contact.md      # File for entry Contact
 ```
+
+## Useful docs
+
+- [Contentful JS SDK documentation](https://contentful.github.io/contentful.js/contentful/7.9.1/index.html)
+- [Contentful Delivery API documentation](https://www.contentful.com/developers/docs/references/content-delivery-api/)
+- [Other Contentful SDK docs](https://www.contentful.com/developers/docs/javascript/sdks/)
