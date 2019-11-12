@@ -28,9 +28,9 @@ When starting this project, it will/should do the following tasks:
 
 - [Contentful](docs/contentful.md)
 
-## Creative Commons license
+## Open Source
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+This project is licensed under the terms of the MIT license, with the exception of the design.
 
 ## Made possible by
 <a href="https://www.contentful.com/" rel="nofollow" target="_blank" style="max-width:100px;width:100px"><img src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg" style="max-width:100px;width:100px;" width="150px" alt="Powered by Contentful" /></a>
