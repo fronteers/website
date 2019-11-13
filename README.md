@@ -26,6 +26,7 @@ When starting this project, it will/should do the following tasks:
 
 ## Docs
 
+- [Code of Conduct](docs/code-of-conduct.md)
 - [Contentful](docs/contentful.md)
 
 ## Open Source
