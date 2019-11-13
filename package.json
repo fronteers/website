@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "parcel": "^1.12.3",
+    "prettier": "1.19.1",
     "table": "^5.4.6"
   }
 }
