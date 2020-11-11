@@ -1,5 +1,7 @@
 # Fronteers website
 
+# For now, this branch is discontinued!
+
 This is the Fronteers website repository.
 
 ## Stack
