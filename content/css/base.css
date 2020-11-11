@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  font-family: Fabrik, sans-serif;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+code,
+var,
+kbd,
+samp,
+tt,
+abbr,
+acronym,
+blockquote,
+q {
+  -webkit-hyphens: none;
+  hyphens: none;
+}
