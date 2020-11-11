@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+code,
+var,
+kbd,
+samp,
+tt,
+abbr,
+acronym,
+blockquote,
+q {
+  -webkit-hyphens: none;
+  hyphens: none;
+}
