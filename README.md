@@ -36,6 +36,7 @@ npm build
 ## Docs
 
 - [Code of Conduct](docs/code-of-conduct.md)
+- [Definition of done](docs/definition-of-done.md)
 
 ## Open Source
 
