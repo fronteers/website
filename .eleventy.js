@@ -1,11 +1,10 @@
 const glob = require("fast-glob");
+const globcat = require("globcat");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget("./content/css/");
   eleventyConfig.addPassthroughCopy({ "content/fonts": "assets/fonts" });
   eleventyConfig.addPassthroughCopy({ "content/images": "assets/images" });
-
-  // eleventyConfig.addShortcode("tag", (tag) => `<div class="tag">${tag}</div>`);
 
   glob.sync("components/paired/**/*.js").forEach((file) => {
     console.log("file", file);
@@ -22,6 +21,11 @@ module.exports = function(eleventyConfig) {
       eleventyConfig.addShortcode(name, shortcodes[name]);
     });
   });
+
+  eleventyConfig.addShortcode(
+    "include-all",
+    async (glob) => await globcat(glob)
+  );
 
   return {
     dir: {
