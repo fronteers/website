@@ -4,18 +4,34 @@ This is the Fronteers website repository.
 
 ## Stack
 
-- Hugo/11ty (Static site generator)
+- Eleventy (Static site generator)
 - Netlify (Hosting)
 
 ## Setup
 
 When starting this project, it will/should do the following tasks:
 
-1. Build static pages with Hugo/11ty
+```bash
+npm install
+```
+
+1. Build static pages with Eleventy
 
 ## Getting up and running
 
-Will be rewritten…
+Website content is in the `pages` directory, the site will be generated in the `dist` directory.
+
+To start a server and watch the `pages` directory:
+
+```bash
+npm start
+```
+
+To just build a new site:
+
+```bash
+npm build
+```
 
 ## Docs
 
