@@ -1,5 +1,7 @@
 # Fronteers website
 
+## At least for now, we wil not continue in this branch!
+
 This is the Fronteers website repository.
 
 ## Stack
@@ -34,6 +36,7 @@ When starting this project, it will/should do the following tasks:
 This project is licensed under the terms of the [MIT license](LICENSE), with the exception of the design.
 
 ## Made possible by
+
 <a href="https://www.contentful.com/" rel="nofollow" target="_blank" style="max-width:100px;width:100px"><img src="https://images.ctfassets.net/fo9twyrwpveg/44baP9Gtm8qE2Umm8CQwQk/c43325463d1cb5db2ef97fca0788ea55/PoweredByContentful_LightBackground.svg" style="max-width:100px;width:100px;" width="150px" alt="Powered by Contentful" /></a>
 
 <a href="https://www.netlify.com">
