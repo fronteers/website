@@ -1,36 +1,28 @@
 {
-    "name": "fronteers-website",
-    "version": "0.1.0",
-    "description": "Fronteers website",
-    "main": "dist/index.js",
-    "scripts": {
-        "test": "jest",
-        "start": "parcel -t node watch src/index.js",
-        "build": "parcel -t node build src/index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/fronteers/website.git"
-    },
-    "author": "Fronteers",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/fronteers/website/issues"
-    },
-    "homepage": "https://github.com/fronteers/website#readme",
-    "dependencies": {
-        "contentful": "^7.9.1"
-    },
-    "devDependencies": {
-        "husky": "3.0.9",
-        "parcel": "^1.12.3",
-        "prettier": "^1.19.1",
-        "pretty-quick": "^2.0.1",
-        "table": "^5.4.6"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged"
-        }
+  "name": "fronteers-website",
+  "version": "0.2.0",
+  "description": "Fronteers website",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fronteers/website.git"
+  },
+  "author": "Fronteers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fronteers/website/issues"
+  },
+  "homepage": "https://github.com/fronteers/website#readme",
+  "devDependencies": {
+    "husky": "3.0.9",
+    "parcel": "^1.12.3",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "table": "^5.4.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
     }
+  }
 }
