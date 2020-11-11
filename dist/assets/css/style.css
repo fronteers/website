@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Fabrik";
+  src: url("/assets/fonts/Fabrik-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fabrik";
+  src: url("/assets/fonts/Fabrik-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Fabrik, sans-serif;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+code,
+var,
+kbd,
+samp,
+tt,
+abbr,
+acronym,
+blockquote,
+q {
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+
+:root {
+  --purple: #636ddf;
+  --yellow: #ffce2e;
+  --lilac: #b7b7fc;
+  --lilac-light: #e5e5ff;
+  --red: #fe796a;
+}
+
+.block {
+  border: 1px solid #eee;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.tag {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  padding-right: 38px;
+  padding-top: 12px;
+  margin-left: 38px;
+  font-size: 20px;
+  background: url(/assets/images/tag.svg) no-repeat right/auto 100%;
+}
+
+.tag::before {
+  position: absolute;
+  left: -38px;
+  top: 0;
+  content: "";
+  height: 50px;
+  width: 38px;
+  background: url(/assets/images/tag.svg) no-repeat left/auto 100%;
+}
+
+.tag + .tag {
+  margin-left: 58px;
+}
