@@ -6,4 +6,5 @@ lang: en
 
 ## And we do it with pride.
 
-Learn more
+{% tag "Online" %}
+{% tag "Marketingcommissie" %}

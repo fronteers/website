@@ -82,3 +82,28 @@ q {
   --lilac-light: #e5e5ff;
   --red: #fe796a;
 }
+
+.tag {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  padding-right: 38px;
+  padding-top: 12px;
+  margin-left: 38px;
+  font-size: 20px;
+  background: url(/assets/images/tag.svg) no-repeat right/auto 100%;
+}
+
+.tag::before {
+  position: absolute;
+  left: -38px;
+  top: 0;
+  content: "";
+  height: 50px;
+  width: 38px;
+  background: url(/assets/images/tag.svg) no-repeat left/auto 100%;
+}
+
+.tag + .tag {
+  margin-left: 58px;
+}
