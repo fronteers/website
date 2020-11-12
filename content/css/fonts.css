@@ -41,3 +41,84 @@
   font-style: italic;
   font-display: swap;
 }
+
+:root {
+  --font-family-decoration: Fabrik;
+  --font-family-content: Roboto;
+
+  --font-style-normal: normal;
+  --font-weight-bold: bold;
+  --font-weight-normal: normal;
+  --font-size-12: 12px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-30: 30px;
+  --character-spacing-0: 0px;
+  --line-spacing-14: 14px;
+  --line-spacing-24: 24px;
+  --line-spacing-27: 27px;
+  --line-spacing-30: 30px;
+  --line-spacing-36: 36px;
+}
+
+/* Character Styles */
+.character-style-1 {
+  font-family: var(--font-family-fabrik);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-12);
+  line-height: var(--line-spacing-14);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--color-000000);
+}
+
+.character-style-2 {
+  font-family: var(--font-family-fabrik);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-20);
+  line-height: var(--line-spacing-24);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--color-000000);
+}
+
+.character-style-3 {
+  font-family: var(--font-family-roboto);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-18);
+  line-height: var(--line-spacing-27);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--color-000000);
+}
+
+.character-style-4 {
+  font-family: var(--font-family-fabrik);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-30);
+  line-height: var(--line-spacing-36);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--color-000000);
+}
+
+.character-style-5 {
+  font-family: var(--font-family-fabrik);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-20);
+  line-height: var(--line-spacing-27);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--color-000000);
+}
+
+.character-style-6 {
+  font-family: var(--font-family-fabrik);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-24);
+  line-height: var(--line-spacing-30);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--color-000000);
+}

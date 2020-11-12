@@ -1,9 +1,14 @@
 ---
 permalink: assets/css/style.css
+eleventyExcludeFromCollections: true
 ---
 {% include ./fonts.css %}
 {% include ./base.css %}
 {% include ./colors.css %}
 {% include ./typography.css %}
+
+{% include ./layout.css %}
+{% include ./page-header.css %}
+{% include ./page-footer.css %}
 
 {% include-all "components/**/*.css" %}

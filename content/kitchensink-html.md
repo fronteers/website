@@ -1,7 +1,8 @@
 ---
-layout: layout.liquid
-title: Kitchensink
+layout: page.liquid
+title: Kitchensink-HTML
 lang: en
+tag: page
 ---
 
 <div id="wrapper">
