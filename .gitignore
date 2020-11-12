@@ -1,6 +1,6 @@
 # Directories
 node_modules
-dist/**/*.html
+dist/
 public
 
 # Files

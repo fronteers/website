@@ -33,6 +33,10 @@ To just build a new site:
 npm build
 ```
 
+## Deploy
+
+Merges are deployed to [fronteers-beta.netlify.app](https://fronteers-beta.netlify.app/)
+
 ## Docs
 
 - [Code of Conduct](docs/code-of-conduct.md)

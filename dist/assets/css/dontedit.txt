@@ -1,1 +1,0 @@
-The file `style.css` is generated. Edit `content/css/*.css` instead.
