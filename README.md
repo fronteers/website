@@ -40,7 +40,7 @@ Merges are deployed to [fronteers-beta.netlify.app](https://fronteers-beta.netli
 ## Docs
 
 - [Code of Conduct](docs/code-of-conduct.md)
-- [Definition of done](docs/definition-of-done.md)
+- [How to contribute](docs/contribute.md)
 
 ## Open Source
 
