@@ -1,24 +1,38 @@
 .tag {
   position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  background: var(--lilac);
+}
+
+.tag::before,
+.tag::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  content: "";
   display: inline-block;
-  height: 50px;
-  padding-right: 38px;
-  padding-top: 12px;
-  margin-left: 38px;
-  font-size: 20px;
-  background: url(/assets/images/tag.svg) no-repeat right/auto 100%;
+  width: 1em;
+  background: var(--lilac);
 }
 
 .tag::before {
-  position: absolute;
-  left: -38px;
-  top: 0;
-  content: "";
-  height: 50px;
-  width: 38px;
-  background: url(/assets/images/tag.svg) no-repeat left/auto 100%;
+  left: -1em;
+}
+
+.tag::after {
+  right: -1em;
+}
+
+.tag-angle:before {
+  clip-path: polygon(100% 0, 60% 50%, 100% 100%);
+}
+
+.tag-angle:after {
+  clip-path: polygon(0 0, 40% 50%, 0 100%);
 }
 
 .tag + .tag {
-  margin-left: 58px;
+  margin-left: 2em;
 }
