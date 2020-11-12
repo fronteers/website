@@ -6,7 +6,7 @@ lang: en
 
 ## Headings, paragraphs and links
 
-## Second leven heading
+## Second level heading
 
 ### This is a third level heading
 
