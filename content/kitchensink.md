@@ -18,13 +18,21 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 ## Tags
 
-Usage: \{\% tag "Online" \%\}
+```markdown
+{% tag "Online" %}
+```
 
 {% tag "Online" %}
 {% tag "Marketingcommissie" %}
 
 ## POC paired shortcode
 
+```markdown
 {% block "Title" %}
-Dit is de content
+This is content
+{% endblock %}
+```
+
+{% block "Title" %}
+This is content
 {% endblock %}
