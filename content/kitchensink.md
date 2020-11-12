@@ -18,20 +18,16 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 ## Tags
 
-```markdown
-{% tag "Online" %}
-```
+\{\% tag "Online" \%\}
 
 {% tag "Online" %}
 {% tag "Marketingcommissie" %}
 
 ## POC paired shortcode
 
-```markdown
-{% block "Title" %}
+\{\% block "Title" \%\}
 This is content
-{% endblock %}
-```
+\{\% endblock \%\}
 
 {% block "Title" %}
 This is content
