@@ -13,7 +13,7 @@ You can find the documentation here:
 
 ## Kitchensink
 
-When writing pages, check out the [Kitchensink](kitchensink.md) for available
+When writing pages, check out the [Kitchensink](https://fronteers-beta.netlify.app/kitchensink/) for available
 components and how to use them.
 
 ## Components
@@ -39,5 +39,5 @@ Before committing to the repo, make sure you've checked the following:
 
 - Progressive enhancement: all main content should be accessible with JavaScript turned off.
 
-- Add components to the [Kitchensink](kitchensink.md) with various states, so editors know
+- Add components to the [Kitchensink](https://fronteers-beta.netlify.app/kitchensink/) with various states, so editors know
   how to use them.
