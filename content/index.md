@@ -3,5 +3,7 @@ layout: home.liquid
 title: Homepage
 lang: en
 tags: pages
-eleventyExcludeFromCollections: true
+page-footer-navigation:
+  key: Home
+  order: 10
 ---
