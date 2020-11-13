@@ -1,8 +1,10 @@
 <section class="placeholder-block inner-wrapper">
     {% include utility/dynamic-headerlevel level:headerlvl title:"Proud members" %}
     <ul class="list-columns">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        {%- for post in collections.members -%}
+            <li>
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+            </li>
+        {%- endfor -%}
     </ul>
 </section>
