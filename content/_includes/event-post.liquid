@@ -1,0 +1,14 @@
+{% include utility/html-head %}
+<body>
+    <div class="outer-wrapper">
+        {% include page-header/_page-header %}
+
+        <main class="page-content inner-wrapper">
+            <h2>{{ title }}</h2>
+            {{ content }}
+        </main>
+ 
+        {% include page-footer/_page-footer %}
+    </div>
+</body>
+</html>
