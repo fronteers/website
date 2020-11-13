@@ -2,7 +2,10 @@
 layout: page.liquid
 title: Kitchensink-HTML
 lang: en
-tag: page
+tags: pages
+page-header-navigation:
+  key: Kitchensink-HTML
+  order: 99
 ---
 
 <div id="wrapper">

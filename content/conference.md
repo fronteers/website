@@ -2,5 +2,8 @@
 layout: page.liquid
 title: Conference
 lang: en
-tag: page
+tags: pages
+page-header-navigation:
+  key: Conference
+  order: 90
 ---

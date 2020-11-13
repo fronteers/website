@@ -2,7 +2,10 @@
 layout: page.liquid
 title: Kitchensink
 lang: en
-tag: page
+tags: pages
+page-header-navigation:
+  key: Kitchensink
+  order: 99
 ---
 
 ## Headings, paragraphs and links
