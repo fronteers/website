@@ -24,6 +24,12 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 {% tag "Online" %}
 {% tag "Marketingcommissie" %}
 
+## Buttons
+
+\{\% button "button" "Klik mij" \%\}
+
+{% button "button" "Klik mij" %}
+
 ## POC paired shortcode
 
 \{\% block "Title" \%\}
