@@ -32,3 +32,8 @@ q {
   -webkit-hyphens: none;
   hyphens: none;
 }
+
+li::before {
+  content: "\200B"; /* Make VoiceOver + list-style-type: none; play nice */
+  position: absolute;
+}
