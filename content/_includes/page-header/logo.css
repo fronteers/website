@@ -1,0 +1,8 @@
+.page-header-logo h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.page-header-logo a {
+  display: inline-block;
+}

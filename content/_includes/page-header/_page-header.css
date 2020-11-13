@@ -1,0 +1,30 @@
+.page-header {
+  display: grid;
+  background: black;
+  color: white;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: max-content;
+  grid-template-areas:
+    "join-us     logo        search-and-translate"
+    "navigation  navigation  navigation";
+}
+
+.page-header-join-us {
+  grid-area: join-us;
+}
+
+.page-header-logo {
+  grid-area: logo;
+}
+
+.page-header-search-and-translate {
+  grid-area: search-and-translate;
+}
+
+.page-header-translate {
+  grid-area: translate;
+}
+
+.page-navigation--header {
+  grid-area: navigation;
+}
