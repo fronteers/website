@@ -1,17 +1,18 @@
 <nav class="page-header-navigation inner-wrapper">
     <h2 hidden>Main navigation</h2>
     <ul>
-        {%- for post in collections.all -%}
+        {% assign navigation = collections.pages | page-header-navigation | eleventyNavigation | eleventyNavigationToHtml | safe %}
+        {% for page in navigation %}
             <li>
-                <a href="{{ post.url }}">{{ post.data.title }}</a>
-                <button>Open submenu</button>
+                <a href="{{ page.url }}">{{ page.data.title }}</a>
+                <!-- <button>Open submenu</button>
                 <ul>
                     <li>...</li>
                     <li>...</li>
                     <li>...</li>
                     <li>...</li>
-                </ul>
+                </ul> -->
             </li>
-        {%- endfor -%}
+        {% endfor %}
     </ul>
 </nav>
