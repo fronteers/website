@@ -1,5 +1,6 @@
 <nav class="page-header-navigation inner-wrapper">
     <h2 hidden>Main navigation</h2>
+    <h2 class="visually-hidden">Main navigation</h2>
     <ul>
         {% assign navigation = collections.pages | page-header-navigation | eleventyNavigation | eleventyNavigationToHtml | safe %}
         {% for page in navigation %}
