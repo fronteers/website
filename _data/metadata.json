@@ -1,0 +1,15 @@
+{
+  "title": "Fronteers",
+  "url": "https://www.fronteers.nl/",
+  "description": "",
+  "feed": {
+    "subtitle": "",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://www.fronteers.nl/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://www.fronteers.nl/feed/feed.json"
+  }
+}

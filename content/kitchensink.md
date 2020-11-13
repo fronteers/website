@@ -1,7 +1,8 @@
 ---
-layout: layout.liquid
+layout: page.liquid
 title: Kitchensink
 lang: en
+tag: page
 ---
 
 ## Headings, paragraphs and links

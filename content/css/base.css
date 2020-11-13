@@ -1,10 +1,10 @@
 html {
   box-sizing: border-box;
-  font-family: Fabrik, sans-serif;
+  font-family: var(--font-family-decoration), sans-serif;
 }
 
 p {
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-family-content), sans-serif;
 }
 
 *,
@@ -16,6 +16,8 @@ p {
 body {
   -webkit-hyphens: auto;
   hyphens: auto;
+  margin: 0;
+  padding: 0;
 }
 
 code,
