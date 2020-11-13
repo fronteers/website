@@ -36,12 +36,16 @@
   padding: var(--spacing);
 }
 
-.placeholder-block .list-columns {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: var(--spacing);
+@media all and (min-width: 500px) {
+  .placeholder-block .list-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: var(--spacing);
+    margin-bottom: 0;
+  }
 }
 
+.placeholder-block .list-columns li,
 .placeholder-block .list-rows li {
   margin-bottom: var(--spacing);
 }

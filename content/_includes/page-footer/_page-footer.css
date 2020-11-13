@@ -4,10 +4,15 @@
 }
 
 .page-footer .list-columns {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: var(--spacing);
   list-style-type: none;
+}
+
+@media all and (min-width: 500px) {
+  .page-footer .list-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: var(--spacing);
+  }
 }
 
 .page-footer .list-columns li {

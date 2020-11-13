@@ -1,12 +1,17 @@
 .page-header {
-  display: grid;
   background: black;
   color: white;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: max-content;
-  grid-template-areas:
-    "join-us     logo        search-and-translate"
-    "navigation  navigation  navigation";
+}
+
+@media all and (min-width: 500px) {
+  .page-header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: max-content;
+    grid-template-areas:
+      "join-us     logo        search-and-translate"
+      "navigation  navigation  navigation";
+  }
 }
 
 .page-header-join-us {
