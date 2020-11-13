@@ -1,20 +1,20 @@
-<nav class="page-footer-navigation">
+<nav class="page-navigation page-navigation--footer">
     <h2 class="visually-hidden">Footer navigation</h2>
     <ul>
-        <li>
-            Home
-        </li>
-        <li>
-            Contact
-        </li>
-        <li>
-            Members
-        </li>
-        <li>
-            ...
-        </li>
-        <li>
-            ...
-        </li>
+        {% assign footerNavigation = collections.pages | page-footer-navigation | eleventyNavigation | eleventyNavigationToHtml | safe %}
+        {% for page in footerNavigation %}
+            {% if page.data.page-footer-navigation %}
+            <li>
+                <a href="{{ page.url }}">{{ page.data.title }}</a>
+                <!-- <button>Open submenu</button>
+                <ul>
+                    <li>...</li>
+                    <li>...</li>
+                    <li>...</li>
+                    <li>...</li>
+                </ul> -->
+            </li>
+            {% endif %}
+        {% endfor %}
     </ul>
 </nav>

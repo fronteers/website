@@ -1,0 +1,23 @@
+/* navigation */
+
+.page-navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.page-navigation li {
+  display: inline-block;
+  padding: var(--spacing);
+}
+
+.page-navigation li > button,
+.page-navigation li > ul {
+  display: none;
+}
+
+.page-navigation a {
+  color: white;
+}
