@@ -1,4 +1,4 @@
 {
   "permalink": "/{{ locale }}/blogs/{{ page.fileSlug }}/index.html",
-  "tags": "posts_{{locale}}"
+  "tags": "posts_nl"
 }

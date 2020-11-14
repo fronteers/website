@@ -1,3 +1,6 @@
 {
-  "locale": "en"
+  "layout": "layouts/page.liquid",
+  "permalink": "/{{ locale }}/{{ page.fileSlug }}/index.html",
+  "locale": "en",
+  "tags": "pages"
 }

@@ -1,10 +1,6 @@
 ---
-layout: layouts/page.liquid
 title: Kitchensink-HTML
-
-tags: pages
 page-header-navigation:
-  key: Kitchensink-HTML
   order: 99
 ---
 
