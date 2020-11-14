@@ -2,8 +2,8 @@
 layout: layouts/member-list.liquid
 title: Members
 tags: pages
+permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
 page-header-navigation:
-  key: Members
   order: 20
 ---
 

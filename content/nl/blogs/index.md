@@ -2,8 +2,8 @@
 layout: layouts/blog-list.liquid
 title: Blogs
 tags: pages
+permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
 page-header-navigation:
-  key: Blogs
   order: 4
 ---
 

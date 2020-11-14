@@ -1,10 +1,9 @@
 ---
 layout: layouts/member-list.liquid
-title: Members
-
+title: Leden
+permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
 tags: pages
 page-header-navigation:
-  key: Members
   order: 20
 ---
 

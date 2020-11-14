@@ -1,9 +1,9 @@
 ---
 layout: layouts/job-list.liquid
-title: Jobs
+permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
 tags: pages
+title: Jobs
 page-header-navigation:
-  key: Jobs
   order: 4
 ---
 
