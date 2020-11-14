@@ -1,0 +1,21 @@
+{% include partials/html-head %}
+
+<body>
+    <div class="outer-wrapper">
+        {% include partials/page-header/_page-header %}
+
+        <main class="page-content inner-wrapper">
+            <h2>{{ title }}</h2>
+            {{ content }}
+
+            {% for job in jobs %}
+                {% unless job.data.draft == true %}
+                    {% include partials/job %}
+                {% endunless %}
+            {%- endfor -%}
+        </main>
+ 
+        {% include partials/page-footer/_page-footer %}
+    </div>
+</body>
+</html>

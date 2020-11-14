@@ -1,9 +1,9 @@
 <section class="placeholder-block inner-wrapper">
-    {% include utility/dynamic-headerlevel level:headerlvl title:"Proud members" %}
+    {% include partials/dynamic-headerlevel level:headerlvl title:"Proud members" %}
     <ul class="list-columns">
-        {%- for post in collections.members -%}
+        {%- for member in members -%}
             <li>
-                <a href="{{ post.url }}">{{ post.data.title }}</a>
+                {% include partials/member %}
             </li>
         {%- endfor -%}
     </ul>

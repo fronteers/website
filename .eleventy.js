@@ -36,6 +36,16 @@ module.exports = function(eleventyConfig) {
     async (glob) => await globcat(glob)
   );
 
+  /* date filter (localized);
+  /* source https://www.webstoemp.com/blog/multilingual-sites-eleventy/
+  /* can be used as follows:
+  /* <p><time datetime="{{ post.date | date('YYYY-MM-DD') }}">{{ post.item|date("DD MMMM YYYY", locale) }}</time></p> */
+  eleventyConfig.addNunjucksFilter("date", function(date, format, locale) {
+    locale = locale ? locale : "nl";
+    moment.locale(locale);
+    return moment(date).format(format);
+  });
+
   /* All templates in the content directory are parsed and copied to the dist directory */
   return {
     dir: {

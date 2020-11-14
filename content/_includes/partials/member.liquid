@@ -1,0 +1,7 @@
+<a href="{{ member.url }}">{{ member.data.title }}</a><br />
+{{ member.date | date: "%d %B %Y" }}<br />
+{{ member.data.author }} <br />
+{{ member.templateContent | truncate: 200 }}<br />
+{%- for tag in member.data.categories -%}
+    {% tag tag %}
+{% endfor %}

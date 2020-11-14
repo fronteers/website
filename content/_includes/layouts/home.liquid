@@ -1,0 +1,29 @@
+{% include partials/html-head %}
+<body>
+    <div class="outer-wrapper">
+        {% include partials/page-header/_page-header %}
+
+        {{ locale }}
+        
+        <main>
+            {% include blocks/home-hero headerlvl:"h2" %}
+
+            {% include blocks/upcoming-events headerlvl:"h2" %}
+
+            {% include blocks/banner-conference headerlvl:"h2" %}
+
+            {% include blocks/latest-blogs headerlvl:"h2" %}
+
+            {% include blocks/member-special headerlvl:"h2" %}
+
+            {% include blocks/proud-members headerlvl:"h2" %}
+
+            {% include blocks/banner-join-us headerlvl:"h2" %}
+
+            {% include blocks/active-vacancies headerlvl:"h2" %}
+        </main>
+
+        {% include partials/page-footer/_page-footer %}
+    </div>
+</body>
+</html>

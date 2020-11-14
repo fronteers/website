@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="{{ locale }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ metadata.description }}">
+    <title>[{{ locale }}] {{ title or metadata.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+{% if locale == 'nl' %}
+    {% assign blogposts = collections.posts_nl %}
+    {% assign events = collections.events_nl %}
+    {% assign jobs = collections.jobs_nl %} 
+    {% assign members = collections.members_nl %}
+{% else %}
+    {% assign blogposts = collections.posts_en %}
+    {% assign events = collections.events_en %}
+    {% assign jobs = collections.jobs_en %}
+    {% assign members = collections.members_en %}
+{% endif %}

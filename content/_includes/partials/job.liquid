@@ -1,0 +1,7 @@
+<a href="{{ job.url }}">{{ job.data.title }}</a><br />
+{{ job.date | date: "%d %B %Y" }}<br />
+{{ job.data.author }} <br />
+{{ job.templateContent | truncate: 200 }}<br />
+{%- for tag in job.data.categories -%}
+    {% tag tag %}
+{% endfor %}

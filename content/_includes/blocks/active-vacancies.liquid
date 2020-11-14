@@ -1,18 +1,12 @@
 <section class="placeholder-block inner-wrapper">
-    {% include utility/dynamic-headerlevel level:headerlvl title:"Active vacancies" %}
+    {% include partials/dynamic-headerlevel level:headerlvl title:"Active vacancies" %}
     <ul class="list-rows">
-        {%- for job in collections.jobs -%}
-            {% if job.data.active != false %}
+        {% for job in jobs %}
+            {% unless job.data.draft == true %}
             <li>
-                <a href="{{ job.url }}">{{ job.data.title }}</a><br />
-                {{ job.date | date: "%d %B %Y" }}<br />
-                {{ job.data.author }} <br />
-                {{ job.templateContent | truncate: 200 }}<br />
-                {%- for tag in job.data.categories -%}
-                    {% tag tag %}
-                {% endfor %}
+                {% include partials/job %}
             </li>
-            {% endif %}
+            {% endunless %}
         {%- endfor -%}
     </ul>
 </section>

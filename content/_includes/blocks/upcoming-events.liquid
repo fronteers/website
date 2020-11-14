@@ -1,9 +1,9 @@
 <section class="placeholder-block inner-wrapper">
-    {% include utility/dynamic-headerlevel level:headerlvl title:"Upcoming Events" %}
+    {% include partials/dynamic-headerlevel level:headerlvl title:"Upcoming Events" %}
     <ol class="list-columns">
-        {%- for post in collections.events -%}
+        {%- for event in events -%}
             <li>
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
+                {% include partials/event %}
             </li>
         {%- endfor -%}
     </ol>

@@ -1,0 +1,21 @@
+{% include partials/html-head %}
+
+<body>
+    <div class="outer-wrapper">
+        {% include partials/page-header/_page-header %}
+
+        <main class="page-content inner-wrapper">
+            <h2>{{ title }}</h2>
+            {{ content }}
+
+            {% for event in events reversed %}
+                {% unless event.data.draft == true %}
+                    {% include partials/event %}
+                {% endunless %}
+            {%- endfor -%}
+        </main>
+ 
+        {% include partials/page-footer/_page-footer %}
+    </div>
+</body>
+</html>
