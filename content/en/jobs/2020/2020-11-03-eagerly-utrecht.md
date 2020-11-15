@@ -1,5 +1,5 @@
 ---
-layout: layouts/job-post.liquid
+layout: layouts/job-single.liquid
 title: Vacature Medior Frontend Developer bij Eagerly (Utrecht)
 date: 2020-11-03
 author: Bernard Nijenhuis
