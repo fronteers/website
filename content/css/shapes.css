@@ -49,17 +49,52 @@
 .curly-braces::before {
   -webkit-clip-path: url(#curly-brace-open-tiny);
   clip-path: url(#curly-brace-open-tiny);
-  left: calc(-6% + 1.1px);
+  left: calc(-9% + 1.1px);
 }
 
 .curly-braces::after {
   -webkit-clip-path: url(#curly-brace-close-tiny);
   clip-path: url(#curly-brace-close-tiny);
-  right: calc(-6% + 1.1px);
+  right: calc(-9% + 1.1px);
 }
 
 .curly-braces::before,
 .curly-braces::after {
+  content: " ";
+  background-color: inherit;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 9%;
+}
+
+/** For a block decorated with ( and ) **/
+
+.parenthesis {
+  background: var(--red); /* sets a default color */
+  position: relative;
+  display: block;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.parenthesis::before {
+  -webkit-clip-path: url(#parenthesis-open-tiny);
+  clip-path: url(#parenthesis-open-tiny);
+  left: calc(-6% + 1.1px);
+}
+
+.parenthesis::after {
+  -webkit-clip-path: url(#parenthesis-close-tiny);
+  clip-path: url(#parenthesis-close-tiny);
+  right: calc(-6% + 1.1px);
+}
+
+.parenthesis::before,
+.parenthesis::after {
   content: " ";
   background-color: inherit;
   background-size: cover;

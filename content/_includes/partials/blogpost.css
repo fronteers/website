@@ -1,0 +1,16 @@
+.blog-post {
+  background: white;
+  display: grid;
+  grid-template-columns: max-content auto;
+  grid-gap: var(--spacing);
+  margin-bottom: var(--spacing);
+  min-height: 250px;
+}
+
+.blog-graphic {
+  height: 100%;
+}
+
+.blog-content {
+  padding: var(--spacing) 0;
+}
