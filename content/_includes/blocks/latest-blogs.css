@@ -11,17 +11,11 @@ ol {
   grid-template-columns: max-content auto;
   grid-gap: var(--spacing);
   margin-bottom: var(--spacing);
+  min-height: 250px;
 }
 
 .blog-graphic {
-  background: var(--yellow);
-  width: 300px;
-  height: 250px;
-  text-align: center;
-  background-size: cover;
-  -webkit-clip-path: url(#greater-than-right-small);
-  clip-path: url(#greater-than-right-small);
-  grid-row: 1 / 5;
+  height: 100%;
 }
 
 .blog-content {

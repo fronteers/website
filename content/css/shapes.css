@@ -1,5 +1,8 @@
+/** For a block decorated with < and > **/
+
 .greater-than {
-  background: var(--yellow); /* sets a default color */
+  background-color: var(--yellow); /* sets a default color */
+  /* background-image: url(https://source.unsplash.com/600x600?summer); */
   position: relative;
   display: block;
   min-height: 250px;
@@ -10,17 +13,53 @@
 .greater-than::before {
   -webkit-clip-path: url(#greater-than-open-tiny);
   clip-path: url(#greater-than-open-tiny);
-  left: -6.25%;
+  left: calc(-6% + 1.1px);
 }
 
 .greater-than::after {
   -webkit-clip-path: url(#greater-than-close-tiny);
   clip-path: url(#greater-than-close-tiny);
-  right: -6.25%;
+  right: calc(-6% + 1.1px);
 }
 
 .greater-than::before,
 .greater-than::after {
+  content: " ";
+  background-color: inherit;
+  background-image: inherit;
+  background-size: auto;
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 6%;
+}
+
+/** For a block decorated with { and } **/
+
+.curly-braces {
+  background: var(--lilac); /* sets a default color */
+  position: relative;
+  display: block;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.curly-braces::before {
+  -webkit-clip-path: url(#curly-brace-open-tiny);
+  clip-path: url(#curly-brace-open-tiny);
+  left: calc(-6% + 1.1px);
+}
+
+.curly-braces::after {
+  -webkit-clip-path: url(#curly-brace-close-tiny);
+  clip-path: url(#curly-brace-close-tiny);
+  right: calc(-6% + 1.1px);
+}
+
+.curly-braces::before,
+.curly-braces::after {
   content: " ";
   background-color: inherit;
   background-size: cover;
@@ -28,5 +67,34 @@
   top: 0;
   display: block;
   height: 100%;
-  width: 6.25%;
+  width: 6%;
+}
+
+/** for shapes for images for blog items, events etc. **/
+
+.shape-greater-than {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#greater-than-right-small);
+  clip-path: url(#greater-than-right-small);
+}
+
+.shape-curly-brace {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#curly-brace-right-small);
+  clip-path: url(#curly-brace-right-small);
+}
+
+.shape-parenthesis {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#parenthesis-right-small);
+  clip-path: url(#parenthesis-right-small);
 }
