@@ -1,0 +1,29 @@
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-post {
+  background: white;
+  display: grid;
+  grid-template-columns: max-content auto;
+  grid-gap: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+.blog-graphic {
+  background: var(--yellow);
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#greater-than-right-small);
+  clip-path: url(#greater-than-right-small);
+  grid-row: 1 / 5;
+}
+
+.blog-content {
+  padding: var(--spacing) 0;
+}

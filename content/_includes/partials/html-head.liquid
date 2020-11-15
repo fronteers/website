@@ -7,6 +7,14 @@
     <title>{{ title or metadata.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+{% comment %}
+    Include svg shapes so we can refer to them from our CSS.
+    Includes the following clip-paths:   
+        #curly-brace-down
+        #curly-brace-right
+
+{% endcomment %}
+{% include svg/shapes.svg %}
 
 {% if locale == 'nl' %}
     {% assign blogposts = collections.posts_nl %}

@@ -1,0 +1,32 @@
+.greater-than {
+  background: var(--yellow); /* sets a default color */
+  position: relative;
+  display: block;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.greater-than::before {
+  -webkit-clip-path: url(#greater-than-open-tiny);
+  clip-path: url(#greater-than-open-tiny);
+  left: -6.25%;
+}
+
+.greater-than::after {
+  -webkit-clip-path: url(#greater-than-close-tiny);
+  clip-path: url(#greater-than-close-tiny);
+  right: -6.25%;
+}
+
+.greater-than::before,
+.greater-than::after {
+  content: " ";
+  background-color: inherit;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 6.25%;
+}

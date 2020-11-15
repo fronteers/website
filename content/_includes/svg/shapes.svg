@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+    <clipPath id="curly-brace-down-large" clipPathUnits="objectBoundingBox">
+        <path d="M1,0.004 H0.001 v0.283 C0.001,0.563,0.071,0.718,0.157,0.718 h0.214 c0.029,0,0.073,0.023,0.083,0.285 h0.094 C0.558,0.75,0.6,0.722,0.629,0.718 h0.216 c0.087,0,0.156,-0.155,0.156,-0.433"></path>
+    </clipPath>
+
+    <clipPath id="greater-than-open-tiny" clipPathUnits="objectBoundingBox">
+        <path d="M1,1 V0.001 L0,0.496 l1,0.505"></path>
+    </clipPath> 
+    <clipPath id="greater-than-close-tiny" clipPathUnits="objectBoundingBox">
+        <path d="M0,0 V1 L1,0.505,0,0"></path>
+    </clipPath>
+    <clipPath id="curly-brace-open-tiny" clipPathUnits="objectBoundingBox">
+        <path d="M1,0.004 C0.639,0.004,0.416,0.074,0.416,0.161 L0.416,0.376 C0.416,0.405,0.384,0.449,0.015,0.459 L0.015,0.553 C0.384,0.563,0.416,0.607,0.416,0.637 L0.416,0.851 C0.416,0.938,0.639,1,1,1 L1,0.004"></path>
+    </clipPath>
+    <clipPath id="curly-brace-close-tiny" clipPathUnits="objectBoundingBox">
+        <path d="M0.015,0.004 C0.401,0.004,0.619,0.074,0.619,0.16 v0.214 c0,0.029,0.034,0.073,0.396,0.083 v0.094 c-0.361,0.01,-0.396,0.054,-0.396,0.083 v0.214 c0,0.086,-0.219,0.156,-0.603,0.156 V0.004"></path>
+    </clipPath>
+    <clipPath id="parentheses-open-tiny" clipPathUnits="objectBoundingBox">
+        <path d="M1,1 V0.001 S0,0.169,0,0.496 c0,0.327,1,0.505,1,0.505"></path>
+    </clipPath>
+    <clipPath id="parentheses-close-tiny" clipPathUnits="objectBoundingBox">
+        <path d="M0.026,0.001 v1 S1,0.833,1,0.506 C1,0.18,0.026,0.001,0.026,0.001"></path>
+    </clipPath>
+
+    <clipPath id="greater-than-right-small" clipPathUnits="objectBoundingBox">
+    <path d="M0,1 V0.004 h0.806 C0.881,0.004,0.923,0.074,0.923,0.16 v0.214 c0,0.029,0.007,0.073,0.077,0.083 v0.094 c-0.07,0.01,-0.077,0.054,-0.077,0.083 v0.214 c0,0.086,-0.042,0.156,-0.117,0.156 H0"></path>
+    </clipPath>
+
+    <clipPath id="curly-brace-right-small" clipPathUnits="objectBoundingBox">
+    <path d="M995,681.967692 L995,431.999739 L753.129586,431.967692 C730.688862,431.967692 717.981464,449.413372 717.981464,471.025185 L717.981464,524.403758 C717.981464,531.69449 716.088873,542.630588 695,545.234421 L695,568.668917 C716.088873,571.272749 717.981464,582.208847 717.981464,589.499579 L717.981464,642.878153 C717.981464,664.489965 730.688862,681.935645 753.129586,681.935645 L995,681.967692 Z" fill="#000000" fill-rule="nonzero" transform="translate(845.000000, 556.967692) scale(-1, 1) translate(-845.000000, -556.967692) "></path>
+    </clipPath>
+    <clipPath id="parentheses-down-small" clipPathUnits="objectBoundingBox">
+    <path d="M13.4981119,274.077987 C189.252263,275.480145 276.580479,275.408235 275.48276,273.862255 C273.836181,271.543286 275.48276,214.320106 275.48276,148.965013 C275.48276,147.851011 275.48276,106.691693 275.48276,25.4870582 L13.4981119,25.0783036 C13.4981119,25.0783036 -24.5070202,66.8223681 -24.5070202,148.357558 C-24.5070202,229.648631 13.4981119,274.077987 13.4981119,274.077987 Z" fill="#000000" fill-rule="nonzero" transform="translate(125.492980, 150.078304) rotate(270.000000) translate(-125.492980, -150.078304) "></path>
+    </clipPath>
+    <clipPath id="greater-than-down-small" clipPathUnits="objectBoundingBox">
+    <path d="M283.498112,274.077987 C459.252263,275.480145 546.580479,275.408235 545.48276,273.862255 C543.836181,271.543286 545.48276,214.320106 545.48276,148.965013 C545.48276,147.851011 545.48276,106.691693 545.48276,25.4870582 L283.498112,25.0783036 C283.498112,25.0783036 270.829735,66.1713885 245.49298,148.357558 C270.829735,232.171177 283.498112,274.077987 283.498112,274.077987 Z" fill="#000000" fill-rule="nonzero" transform="translate(395.492980, 150.078304) rotate(270.000000) translate(-395.492980, -150.078304) "></path>
+    </clipPath>
+    <clipPath id="curly-brace-down-small-two" clipPathUnits="objectBoundingBox">
+    <path d="M815.813288,275.078304 L815.813288,25.1103508 L573.942874,25.0783036 C551.50215,25.0783036 538.794752,42.5239836 538.794752,64.1357962 L538.794752,117.514369 C538.794752,124.805101 536.902161,135.741199 515.813288,138.345032 L515.813288,161.779528 C536.902161,164.383361 538.794752,175.319459 538.794752,182.610191 L538.794752,235.988764 C538.794752,257.600576 551.50215,275.046256 573.942874,275.046256 L815.813288,275.078304 Z" fill="#000000" fill-rule="nonzero" transform="translate(665.813288, 150.078304) scale(-1, 1) rotate(-90.000000) translate(-665.813288, -150.078304) "></path>
+    </clipPath>
+</svg>
