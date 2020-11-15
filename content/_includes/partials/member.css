@@ -1,0 +1,45 @@
+.member {
+  height: 250px;
+}
+
+.member-graphic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0px auto;
+}
+
+.member-header {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(
+    180deg,
+    var(--page-background) 0%,
+    var(--page-background) 30%,
+    var(--yellow) 30%,
+    var(--yellow) 100%
+  );
+  -webkit-clip-path: url(#curly-brace-down-small);
+  clip-path: url(#curly-brace-down-small);
+  display: block;
+  width: 100%;
+  min-height: 250px;
+}
+
+.member-content {
+  background-color: white;
+  -webkit-clip-path: url(#parenthesis-down-small);
+  clip-path: url(#parenthesis-down-small);
+  z-index: -1;
+  transform: translateY(-100%) scaleY(0.1);
+  padding: 60px var(--spacing);
+}
+
+.member:hover .member-content,
+.member:focus-within .member-content {
+  transform: translateY(-40px) scaleY(1);
+  transition: transform 0.2s ease-in-out;
+  z-index: -1;
+}

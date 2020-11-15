@@ -107,7 +107,7 @@
 
 /** for shapes for images for blog items, events etc. **/
 
-.shape-greater-than {
+.shape-greater-than-right {
   width: 300px;
   height: 250px;
   text-align: center;
@@ -116,7 +116,7 @@
   clip-path: url(#greater-than-right-small);
 }
 
-.shape-curly-brace {
+.shape-curly-brace-right {
   width: 300px;
   height: 250px;
   text-align: center;
@@ -125,11 +125,38 @@
   clip-path: url(#curly-brace-right-small);
 }
 
-.shape-parenthesis {
+.shape-parenthesis-right {
   width: 300px;
   height: 250px;
   text-align: center;
   background-size: cover;
   -webkit-clip-path: url(#parenthesis-right-small);
   clip-path: url(#parenthesis-right-small);
+}
+
+.shape-greater-than-down {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#greater-than-down-small);
+  clip-path: url(#greater-than-down-small);
+}
+
+.shape-curly-brace-down {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#curly-brace-down-small);
+  clip-path: url(#curly-brace-down-small);
+}
+
+.shape-parenthesis-down {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#parenthesis-down-small);
+  clip-path: url(#parenthesis-down-small);
 }

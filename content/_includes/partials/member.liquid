@@ -1,7 +1,20 @@
-{% include partials/dynamic-headerlevel level:headerlvl title:member.data.title link:member.url %}
-{{ member.date | date: "%d %B %Y" }}<br />
-{{ member.data.author }} <br />
-{{ member.templateContent | truncate: 200 }}<br />
-{%- for tag in member.data.categories -%}
-    {% tag tag %}
-{% endfor %}
+<div class="member">
+    <header class="member-header"> 
+        <div class="member-header-background"></div>
+        {% if member.data.graphic %}
+            <img src="{{ member.data.graphic.src }}" 
+                {% if member.data.graphic.alt %}alt="{{ member.data.graphic.alt }}"{% endif %}
+                class="member-graphic {{ member.data.graphic.class unless "null" }}" 
+            />
+        {% endif %}
+        {% include partials/dynamic-headerlevel level:headerlvl title:member.data.title link:member.url %}
+    </header>
+    <div class="member-content">
+        {{ member.date | date: "%d %B %Y" }}<br />
+        {{ member.data.author }} <br />
+        {{ member.templateContent | truncate: 200 }}<br />
+        {%- for tag in member.data.categories -%}
+            {% tag tag %}
+        {% endfor %}
+    </div>
+</div>
