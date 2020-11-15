@@ -1,4 +1,4 @@
-<a href="{{ event.url }}">{{ event.data.title }}</a><br />
+{% include partials/dynamic-headerlevel level:headerlvl title:event.data.title link:event.url %}
 {{ event.date | date: "%d %B %Y" }}<br />
 {{ event.data.author }} <br />
 {{ event.templateContent | truncate: 200 }}<br />

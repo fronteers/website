@@ -2,6 +2,25 @@
     Enables us to set a header level dynamically in every context
 {% endcomment %}
 
-{% if level == 'h2' %}<h2>{{ title }}</h2>{% endif %}
-{% if level == 'h3' %}<h3>{{ title }}</h3>{% endif %}
-{% if level == 'h4' %}<h4>{{ title }}</h4>{% endif %}
+{% capture header %}
+    {% if link %}<a href="{{ link }}">{% endif %}
+        {{ title }}
+    {% if link %}</a>{% endif %}
+{% endcapture %}
+
+{% if level == 'h2' %}
+    <h2>{{ header }}</h2>
+{% endif %}
+
+{% if level == 'h3' %}
+    <h3>{{ header }}</h3>
+{% endif %}
+
+{% if level == 'h4' %}
+    <h4>{{ header }}</h4>
+{% endif %}
+
+{% if level == 'h5' %}
+    <h5>{{ header }}</h5>
+{% endif %}
+

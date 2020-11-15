@@ -4,7 +4,7 @@
         {%- for post in blogposts -%}
         {% unless post.data.draft == true %}
             <li>
-                {% include partials/blogpost %}
+                {% include partials/blogpost headerlvl:"h3" %}
             {% endunless %}
             </li>
         {%- endfor -%}

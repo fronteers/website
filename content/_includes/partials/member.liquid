@@ -1,4 +1,4 @@
-<a href="{{ member.url }}">{{ member.data.title }}</a><br />
+{% include partials/dynamic-headerlevel level:headerlvl title:member.data.title link:member.url %}
 {{ member.date | date: "%d %B %Y" }}<br />
 {{ member.data.author }} <br />
 {{ member.templateContent | truncate: 200 }}<br />
