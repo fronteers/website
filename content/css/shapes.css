@@ -160,3 +160,50 @@
   -webkit-clip-path: url(#parenthesis-down-small);
   clip-path: url(#parenthesis-down-small);
 }
+
+/** background **/
+
+.curly-braces-bg {
+  background-color: var(--yellow); /* sets a default color */
+  background-image: url(https://source.unsplash.com/600x600?summer);
+  position: relative;
+  display: block;
+  background-size: cover;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+  -webkit-clip-path: url(#curly-braces-block-bg);
+  clip-path: url(#curly-braces-block-bg);
+  padding: var(--spacing) 6%;
+  color: white;
+}
+
+.greater-than-bg {
+  background-color: var(--yellow); /* sets a default color */
+  background-image: url(https://source.unsplash.com/600x600?summer);
+  position: relative;
+  display: block;
+  background-size: cover;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+  -webkit-clip-path: url(#greater-than-block-bg);
+  clip-path: url(#greater-than-block-bg);
+  padding: var(--spacing) 6%;
+  color: white;
+}
+
+.parentheses-bg {
+  background-color: var(--yellow); /* sets a default color */
+  background-image: url(https://source.unsplash.com/600x600?summer);
+  position: relative;
+  display: block;
+  background-size: cover;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+  -webkit-clip-path: url(#parentheses-block-bg);
+  clip-path: url(#parentheses-block-bg);
+  padding: var(--spacing) 6%;
+  color: white;
+}
