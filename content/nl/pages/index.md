@@ -4,4 +4,5 @@ title: Homepage
 page-footer-navigation:
   key: Home
   order: 10
+eleventyExcludeFromCollections: true
 ---
