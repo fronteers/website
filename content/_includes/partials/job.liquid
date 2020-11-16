@@ -1,0 +1,7 @@
+{% include partials/dynamic-headerlevel level:headerlvl title:job.data.title link:job.url %}
+{{ job.date | date: "%d %B %Y" }}<br />
+{{ job.data.author }} <br />
+{{ job.templateContent | truncate: 200 }}<br />
+{%- for tag in job.data.categories -%}
+    {% tag tag %}
+{% endfor %}

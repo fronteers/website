@@ -25,6 +25,11 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+  module.exports = function(eleventyConfig) {
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  };
+
   /* Add 'include-all' shortcodes for loading all CSS (used in style.liquid) */
   eleventyConfig.addShortcode(
     "include-all",

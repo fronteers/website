@@ -1,8 +1,12 @@
 <section class="placeholder-block inner-wrapper">
-    {% include utility/dynamic-headerlevel level:headerlvl title:"Active vacancies" %}
+    {% include partials/dynamic-headerlevel level:headerlvl title:"Active vacancies" %}
     <ul class="list-rows">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        {% for job in jobs %}
+            {% unless job.data.draft == true %}
+            <li>
+                {% include partials/job %}
+            </li>
+            {% endunless %}
+        {%- endfor -%}
     </ul>
 </section>

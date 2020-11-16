@@ -1,0 +1,13 @@
+<nav class="page-navigation page-navigation--footer">
+    <h2 class="visually-hidden">Footer navigation</h2>
+    <ul>
+        {% assign footerNavigation = collections.pages | page-footer-navigation | eleventyNavigation | eleventyNavigationToHtml | safe %}
+        {% for page in footerNavigation %}
+            {% if page.data.page-footer-navigation and page.data.locale == locale %}
+            <li{% if page.url == page.url %} class="my-active-class"{% endif %}>
+                <a href="{{ page.url | url }}">{{ page.data.title }}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>

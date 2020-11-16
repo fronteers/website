@@ -1,6 +1,9 @@
 ---
-layout: home.liquid
+layout: layouts/home.liquid
 title: Homepage
-lang: en
-tag: page
+locale: nl
+tags: pages
+page-footer-navigation:
+  key: Home
+  order: 10
 ---

@@ -1,0 +1,17 @@
+<nav class="page-header-translate">
+    <h2  class="visually-hidden">Translate</h2>
+    <ul>
+        <li>{% if locale == 'nl' %}
+                Nederlands
+            {% else %}
+                <a href="/nl/">Nederlands</a>
+            {% endif %}
+        </li>
+        <li lang="en">{% if locale == 'en' %}
+                English
+            {% else %}
+                <a href="/en/">English</a>
+            {% endif %}
+        </li>
+    </ul>
+</nav>

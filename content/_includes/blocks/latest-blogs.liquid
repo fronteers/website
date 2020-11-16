@@ -1,8 +1,12 @@
-<section class="placeholder-block inner-wrapper">
-    {% include utility/dynamic-headerlevel level:headerlvl title:"Latest blogs" %}
+<section class="inner-wrapper">
+    {% include partials/dynamic-headerlevel level:headerlvl title:"Latest blogs" %}
     <ul class="list-rows">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        {%- for post in blogposts -%}
+        {% unless post.data.draft == true %}
+            <li>
+                {% include partials/blogpost headerlvl:"h3" %}
+            {% endunless %}
+            </li>
+        {%- endfor -%}
     </ul>
 </section>

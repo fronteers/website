@@ -1,0 +1,12 @@
+<div class="blog-post">
+    <img src="{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic {{ post.data.graphic.class }}" />
+    <div class="blog-content">
+        {% include partials/dynamic-headerlevel level:headerlvl title:post.data.title link:post.url %}
+        {{ post.date | date: "%d %B %Y" }}<br />
+        {{ post.data.author }} <br />
+        {{ post.templateContent | truncate: 100 }}<br />
+        {%- for tag in post.data.categories -%}
+            {% tag tag %}
+        {% endfor %}
+    </div>
+</div>
