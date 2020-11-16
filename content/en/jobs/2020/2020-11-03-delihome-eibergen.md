@@ -9,13 +9,13 @@ categories:
   - Front-end engineer
 ---
 
-_Deli Home levert constructieve en decoratieve DHZ artikelen en professionele bouwmaterialen. Door de gebundelde kracht en kennis vanuit de eerdergenoemde werkmaatschappijen en merken nemen wij een belangrijke positie in binnen de markt van onze belangrijkste productgroepen: vloer & trap, hout, horren, deuren en opbergen. Hout is de verbindende factor tussen al deze productgroepen, en onze verdere activiteiten; hout zit in ons DNA!_
+Deli Home levert constructieve en decoratieve DHZ artikelen en professionele bouwmaterialen. Door de gebundelde kracht en kennis vanuit de eerdergenoemde werkmaatschappijen en merken nemen wij een belangrijke positie in binnen de markt van onze belangrijkste productgroepen: vloer & trap, hout, horren, deuren en opbergen. Hout is de verbindende factor tussen al deze productgroepen, en onze verdere activiteiten; hout zit in ons DNA!
 
-_Onder de paraplu van Deli Home vallen merken zoals CanDo, Bruynzeel, Lundia, Skantrae en Weekamp._
+Onder de paraplu van Deli Home vallen merken zoals CanDo, Bruynzeel, Lundia, Skantrae en Weekamp.
 
-_Sinds juli 2020 maakt het bedrijf Numdata, dat is gevestigd in Eibergen, onderdeel uit van Deli Home. Numdata is een leverancier van ontwerp-, planning- en productiesystemen voor de meubelindustrie. Voor het productiedeel gaat het daarbij vooral om de productie van opbergsystemen, panelen, kasten, tafels, bureaus, keukens, balies en winkelsystemen. Onze gebruikers bevinden zich in de Benelux, Duitsland en Scandinavië. Numdata ontwikkelt niet alleen maar doet ook de implementatie en support van haar systemen. Daarnaast neemt Numdata actief deel in turnkey projecten die door haar klanten worden gestart waarbij vergaande samenwerking en integratie van verschillende software- en hardwaresystemen het doel is._
+Sinds juli 2020 maakt het bedrijf Numdata, dat is gevestigd in Eibergen, onderdeel uit van Deli Home. Numdata is een leverancier van ontwerp-, planning- en productiesystemen voor de meubelindustrie. Voor het productiedeel gaat het daarbij vooral om de productie van opbergsystemen, panelen, kasten, tafels, bureaus, keukens, balies en winkelsystemen. Onze gebruikers bevinden zich in de Benelux, Duitsland en Scandinavië. Numdata ontwikkelt niet alleen maar doet ook de implementatie en support van haar systemen. Daarnaast neemt Numdata actief deel in turnkey projecten die door haar klanten worden gestart waarbij vergaande samenwerking en integratie van verschillende software- en hardwaresystemen het doel is.
 
-_De bedrijfswaarden van Deli Home en Numdata zijn "Open, Betrouwbaar, Gepassioneerd en Ondernemend"._
+De bedrijfswaarden van Deli Home en Numdata zijn "Open, Betrouwbaar, Gepassioneerd en Ondernemend".
 
 ### In verband met uitbreiding van activiteiten zoekt Numdata een ervaren Software Engineer Front-end
 
