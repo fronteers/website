@@ -1,8 +1,10 @@
-<section class="placeholder-block inner-wrapper">
-    {% include utility/dynamic-headerlevel level:headerlvl title:"Proud members" %}
+<section class="inner-wrapper">
+    {% include partials/dynamic-headerlevel level:headerlvl title:"Proud members" %}
     <ul class="list-columns">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        {%- for member in members -%}
+            <li>
+                {% include partials/member %}
+            </li>
+        {%- endfor -%}
     </ul>
 </section>

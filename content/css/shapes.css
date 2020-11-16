@@ -1,0 +1,209 @@
+/** For a block decorated with < and > **/
+
+.greater-than {
+  background-color: var(--yellow); /* sets a default color */
+  /* background-image: url(https://source.unsplash.com/600x600?summer); */
+  position: relative;
+  display: block;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.greater-than::before {
+  -webkit-clip-path: url(#greater-than-open-tiny);
+  clip-path: url(#greater-than-open-tiny);
+  left: calc(-6% + 1.1px);
+}
+
+.greater-than::after {
+  -webkit-clip-path: url(#greater-than-close-tiny);
+  clip-path: url(#greater-than-close-tiny);
+  right: calc(-6% + 1.1px);
+}
+
+.greater-than::before,
+.greater-than::after {
+  content: " ";
+  background-color: inherit;
+  background-image: inherit;
+  background-size: auto;
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 6%;
+}
+
+/** For a block decorated with { and } **/
+
+.curly-braces {
+  background: var(--lilac); /* sets a default color */
+  position: relative;
+  display: block;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.curly-braces::before {
+  -webkit-clip-path: url(#curly-brace-open-tiny);
+  clip-path: url(#curly-brace-open-tiny);
+  left: calc(-9% + 1.1px);
+}
+
+.curly-braces::after {
+  -webkit-clip-path: url(#curly-brace-close-tiny);
+  clip-path: url(#curly-brace-close-tiny);
+  right: calc(-9% + 1.1px);
+}
+
+.curly-braces::before,
+.curly-braces::after {
+  content: " ";
+  background-color: inherit;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 9%;
+}
+
+/** For a block decorated with ( and ) **/
+
+.parenthesis {
+  background: var(--red); /* sets a default color */
+  position: relative;
+  display: block;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.parenthesis::before {
+  -webkit-clip-path: url(#parenthesis-open-tiny);
+  clip-path: url(#parenthesis-open-tiny);
+  left: calc(-6% + 1.1px);
+}
+
+.parenthesis::after {
+  -webkit-clip-path: url(#parenthesis-close-tiny);
+  clip-path: url(#parenthesis-close-tiny);
+  right: calc(-6% + 1.1px);
+}
+
+.parenthesis::before,
+.parenthesis::after {
+  content: " ";
+  background-color: inherit;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 6%;
+}
+
+/** for shapes for images for blog items, events etc. **/
+
+.shape-greater-than-right {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#greater-than-right-small);
+  clip-path: url(#greater-than-right-small);
+}
+
+.shape-curly-brace-right {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#curly-brace-right-small);
+  clip-path: url(#curly-brace-right-small);
+}
+
+.shape-parenthesis-right {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#parenthesis-right-small);
+  clip-path: url(#parenthesis-right-small);
+}
+
+.shape-greater-than-down {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#greater-than-down-small);
+  clip-path: url(#greater-than-down-small);
+}
+
+.shape-curly-brace-down {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#curly-brace-down-small);
+  clip-path: url(#curly-brace-down-small);
+}
+
+.shape-parenthesis-down {
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#parenthesis-down-small);
+  clip-path: url(#parenthesis-down-small);
+}
+
+/** background **/
+
+.curly-braces-bg {
+  background-color: var(--yellow); /* sets a default color */
+  background-image: url(https://source.unsplash.com/600x600?summer);
+  position: relative;
+  display: block;
+  background-size: cover;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+  -webkit-clip-path: url(#curly-braces-block-bg);
+  clip-path: url(#curly-braces-block-bg);
+  padding: var(--spacing) 6%;
+  color: white;
+}
+
+.greater-than-bg {
+  background-color: var(--yellow); /* sets a default color */
+  background-image: url(https://source.unsplash.com/600x600?summer);
+  position: relative;
+  display: block;
+  background-size: cover;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+  -webkit-clip-path: url(#greater-than-block-bg);
+  clip-path: url(#greater-than-block-bg);
+  padding: var(--spacing) 6%;
+  color: white;
+}
+
+.parentheses-bg {
+  background-color: var(--yellow); /* sets a default color */
+  background-image: url(https://source.unsplash.com/600x600?summer);
+  position: relative;
+  display: block;
+  background-size: cover;
+  min-height: 250px;
+  width: 70%;
+  margin: 0px auto;
+  -webkit-clip-path: url(#parentheses-block-bg);
+  clip-path: url(#parentheses-block-bg);
+  padding: var(--spacing) 6%;
+  color: white;
+}

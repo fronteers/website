@@ -1,0 +1,9 @@
+.home-hero {
+  background: var(--yellow);
+  width: 660px;
+  height: 300px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#curly-brace-down-large);
+  clip-path: url(#curly-brace-down-large);
+}
