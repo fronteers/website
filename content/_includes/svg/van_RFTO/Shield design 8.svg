@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="154" viewBox="0 0 100 154">
+  <defs>
+    <clipPath id="clip-Shield_design_8">
+      <rect width="100" height="154"/>
+    </clipPath>
+  </defs>
+  <g id="Shield_design_8" data-name="Shield design 8" clip-path="url(#clip-Shield_design_8)">
+    <rect width="100" height="154" fill="#f2f2f2"/>
+    <rect id="Rectangle_167" data-name="Rectangle 167" width="50" height="50" fill="#fe796a"/>
+    <rect id="Rectangle_171" data-name="Rectangle 171" width="50" height="50" transform="translate(0 100)" fill="#fe796a"/>
+    <rect id="Rectangle_169" data-name="Rectangle 169" width="50" height="50" transform="translate(50 50)" fill="#fe796a"/>
+    <rect id="Rectangle_168" data-name="Rectangle 168" width="50" height="50" transform="translate(50)" fill="#ffce2e"/>
+    <rect id="Rectangle_172" data-name="Rectangle 172" width="50" height="50" transform="translate(50 100)" fill="#ffce2e"/>
+    <rect id="Rectangle_170" data-name="Rectangle 170" width="50" height="50" transform="translate(0 50)" fill="#ffce2e"/>
+  </g>
+</svg>

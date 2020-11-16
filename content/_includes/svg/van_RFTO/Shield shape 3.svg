@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="154" viewBox="0 0 100 154">
+  <defs>
+    <clipPath id="clip-Shield_shape_3">
+      <rect width="100" height="154"/>
+    </clipPath>
+  </defs>
+  <g id="Shield_shape_3" data-name="Shield shape 3" clip-path="url(#clip-Shield_shape_3)">
+    <rect width="100" height="154" fill="#f2f2f2"/>
+    <path id="Path_33" data-name="Path 33" d="M3697.551,1302.219v131.1l-50.023,22.849-50.022-22.849v-131.1Z" transform="translate(-3597.506 -1302.219)"/>
+  </g>
+</svg>

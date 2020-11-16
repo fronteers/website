@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="72" viewBox="0 0 220 72">
+  <defs>
+    <clipPath id="clip-Button_shape_3">
+      <rect width="220" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="Button_shape_3" data-name="Button shape 3" clip-path="url(#clip-Button_shape_3)">
+    <rect width="220" height="72" fill="#f2f2f2"/>
+    <path id="Path_41" data-name="Path 41" d="M6417.7,1171.733h-95.776l-23.924-36,23.924-36H6417.7Z" transform="translate(-6295.605 -1099.733)"/>
+    <path id="Path_42" data-name="Path 42" d="M6797,1099.734h72.287l23.924,36-23.924,36H6797Z" transform="translate(-6674.998 -1099.734)"/>
+  </g>
+</svg>
