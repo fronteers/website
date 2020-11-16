@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="154" viewBox="0 0 100 154">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_76" data-name="Path 76" d="M0-298.953H100V-449.181H0Z" transform="translate(0 449.181)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_78" data-name="Path 78" d="M0-449.181v125.333l.066,5.408s17.088,19.486,49.469,19.486h0C81.81-298.953,100-318.44,100-318.44h0V-449.181Z" transform="translate(0 449.181)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Shield_design_5">
+      <rect width="100" height="154"/>
+    </clipPath>
+  </defs>
+  <g id="Shield_design_5" data-name="Shield design 5" clip-path="url(#clip-Shield_design_5)">
+    <rect width="100" height="154" fill="#f2f2f2"/>
+    <g id="Group_517" data-name="Group 517">
+      <g id="Group_78" data-name="Group 78" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <g id="Group_77" data-name="Group 77" transform="translate(0 0)">
+          <path id="Path_75" data-name="Path 75" d="M-199-260.176s-18.19,19.487-50.466,19.487c-32.38,0-49.468-19.487-49.468-19.487l-.066-5.408V-390.917h100v130.742Z" transform="translate(299 390.917)" fill="#646ee0"/>
+        </g>
+      </g>
+      <g id="Group_80" data-name="Group 80" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <g id="Group_79" data-name="Group 79" transform="translate(0 -0.001)">
+          <path id="Path_77" data-name="Path 77" d="M0,0V150.227L100,0Z" fill="#fd796a"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

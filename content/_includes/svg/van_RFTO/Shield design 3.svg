@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="154" viewBox="0 0 100 154">
+  <defs>
+    <clipPath id="clip-Shield_design_3">
+      <rect width="100" height="154"/>
+    </clipPath>
+  </defs>
+  <g id="Shield_design_3" data-name="Shield design 3" clip-path="url(#clip-Shield_design_3)">
+    <rect width="100" height="154" fill="#f2f2f2"/>
+    <g id="Group_512" data-name="Group 512">
+      <g id="Group_47" data-name="Group 47" transform="translate(50.167)">
+        <path id="Path_61" data-name="Path 61" d="M49.833,0V131.183L0,150.669V0Z" fill="#fd796a"/>
+      </g>
+      <g id="Group_48" data-name="Group 48">
+        <path id="Path_62" data-name="Path 62" d="M50.167,0V150.669L0,131.183V0Z" fill="#ffce2d"/>
+      </g>
+    </g>
+  </g>
+</svg>

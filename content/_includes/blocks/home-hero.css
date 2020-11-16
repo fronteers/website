@@ -1,4 +1,10 @@
 .home-hero {
+  background: url(/assets/images/home-header-background.svg);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.home-hero .content {
   background: var(--yellow);
   width: 660px;
   height: 300px;
@@ -6,4 +12,9 @@
   background-size: cover;
   -webkit-clip-path: url(#curly-brace-down-large);
   clip-path: url(#curly-brace-down-large);
+  margin: 0px auto;
+}
+
+.content > :first-child {
+  margin-top: 0;
 }

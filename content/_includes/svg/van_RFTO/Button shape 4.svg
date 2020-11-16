@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="72" viewBox="0 0 220 72">
+  <defs>
+    <clipPath id="clip-Button_shape_4">
+      <rect width="220" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="Button_shape_4" data-name="Button shape 4" clip-path="url(#clip-Button_shape_4)">
+    <rect width="220" height="72" fill="#f2f2f2"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="215.223" height="72" transform="translate(2.651)"/>
+  </g>
+</svg>
