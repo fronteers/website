@@ -1,8 +1,8 @@
 ---
 layout: layouts/home.liquid
-title: Homepage
+title: Fronteers
 eleventyExcludeFromCollections: true
-permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
+permalink: "/{{ locale }}/index.html"
 page-footer-navigation:
   key: Home
   order: 10
