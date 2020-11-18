@@ -9,9 +9,7 @@
             {{ content }}
 
             {% for job in jobs %}
-                {% unless job.data.draft == true %}
-                    {% include partials/job %}
-                {% endunless %}
+                {% include partials/job %}
             {%- endfor -%}
         </main>
  

@@ -2,10 +2,11 @@
     <h2 class="visually-hidden">Main navigation</h2>
     <ul>
         {% assign navigation = collections.pages | page-header-navigation | eleventyNavigation | eleventyNavigationToHtml | safe %}
-        {% for page in navigation %}
-            {% if page.data.page-header-navigation and page.data.locale == locale %}
-            <li{% if page.url == page.url %} class="my-active-class"{% endif %}>
-                <a href="{{ page.url | url }}">{{ page.data.title }}</a>
+
+        {% for item in navigation %}
+            {% if item.data.page-header-navigation and item.data.locale == locale %}
+            <li{% if page.url == item.url %} class="current"{% endif %}>
+                <a href="{{ item.url | url }}">{{ item.data.title }}</a>
                 
                 <!-- 
                     TODO: fix this
@@ -18,6 +19,7 @@
             </li>
             {% endif %}
         {% endfor %}
+
     </ul>
 </nav>
 

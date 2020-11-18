@@ -32,13 +32,13 @@
 {% include svg/shapes.svg %}
 
 {% if locale == 'nl' %}
-    {% assign blogposts = collections.posts_nl %}
-    {% assign events = collections.events_nl %}
-    {% assign jobs = collections.jobs_nl %} 
-    {% assign members = collections.members_nl %}
+    {% assign blogposts = collections.published_posts_nl %}
+    {% assign events = collections.published_events_nl %}
+    {% assign jobs = collections.published_jobs_nl %} 
+    {% assign members = collections.published_members_nl %}
 {% else %}
-    {% assign blogposts = collections.posts_en %}
-    {% assign events = collections.events_en %}
-    {% assign jobs = collections.jobs_en %}
-    {% assign members = collections.members_en %}
+    {% assign blogposts = collections.published_posts_en %}
+    {% assign events = collections.published_events_en %}
+    {% assign jobs = collections.published_jobs_en %}
+    {% assign members = collections.published_members_en %}
 {% endif %}
