@@ -1,0 +1,21 @@
+---
+name: Website to-do
+about: Add a to-do task with a Definition of Done
+title: ''
+labels: development
+assignees: ''
+
+---
+
+## Description
+<!-- A clear and concise description of your feature request -->
+
+## Status of the build checklist
+
+- [ ] the design has been turned into HTML and CSS
+- [ ] the CSS is well-organised and cleaned up from development
+- [ ] the HTML is semantic and passes an automated accessibility test
+- [ ] the component is no longer scaffolding but easy to use in the setup of other pages
+- [ ] the work done is added to the `component` folder as a block or as a shortcode
+- [ ] the work done is represented to kitchensink and kitchensink-html for documentation
+- [ ] the work done has been commented or is (really!) self-explanatory
