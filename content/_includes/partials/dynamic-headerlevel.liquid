@@ -3,8 +3,8 @@
 {% endcomment %}
 
 {% capture header %}
-    {% if link %}<a href="{{ link }}">{% endif %}
-        {{ title }}
+    {% if link %}<a href="{{ link | striptags }}">{% endif %}
+        {{ title | striptags }}
     {% if link %}</a>{% endif %}
 {% endcapture %}
 
