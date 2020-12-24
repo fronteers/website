@@ -3,6 +3,11 @@
   color: black;
 }
 
+.page-footer a {
+  color: black;
+  text-decoration: underline;
+}
+
 .page-footer .list-columns {
   list-style-type: none;
 }

@@ -3,7 +3,7 @@
         <div class="member-header-background"></div>
         {% if member.data.graphic %}
             <img src="{{ member.data.graphic.src }}" 
-                {% if member.data.graphic.alt %}alt="{{ member.data.graphic.alt }}"{% endif %}
+                alt="{% if member.data.graphic.alt %}{{ member.data.graphic.alt }}{% endif %}"
                 class="member-graphic {{ member.data.graphic.class unless "null" }}" 
             />
         {% endif %}
