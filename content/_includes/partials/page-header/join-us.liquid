@@ -1,7 +1,12 @@
-<div class="page-header-join-us">
-    {% if locale == 'en' %}
-    <button>Join us</button>
-    {% else %}
-    <button>Word lid</button>
-    {% endif %}
+<div class="page-header-join-us desktop-only">
+    <div class="join-us-link">
+        <a href="/{{ locale }}/join-us">
+        {% if locale == 'en' %}
+            Join us!
+        {% else %}
+            Word lid!
+        {% endif %}
+        </a>
+        <div></div>
+    </div>
 </div>

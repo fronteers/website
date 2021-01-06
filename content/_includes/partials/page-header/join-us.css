@@ -1,3 +1,40 @@
 .page-header-join-us {
   text-align: center;
 }
+
+.join-us-link {
+  inline-size: 10rem;
+  margin: 0 auto 0 var(--spacing);
+}
+
+.join-us-link a {
+  display: block;
+  background-color: var(--red);
+  font-size: var(--font-size-20);
+  font-weight: bold;
+  color: black;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: var(--spacing) 0 0 0;
+}
+
+.join-us-link div {
+  inline-size: 100%;
+  block-size: 0;
+  padding-block-end: 16.8%;
+  display: block;
+  background-color: var(--red);
+  background-size: cover;
+  -webkit-clip-path: url(#parenthesis-down-tiny);
+  clip-path: url(#parenthesis-down-tiny);
+}
+
+.join-us-link a:hover,
+.join-us-link a:focus,
+.join-us-link a:hover + div,
+.join-us-link a:focus + div {
+  background-color: var(--purple);
+  color: white;
+  text-decoration: underline;
+}

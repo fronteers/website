@@ -1,8 +1,34 @@
+.page-header-logo {
+  text-align: left;
+  padding-inline-start: var(--spacing);
+}
+
 .page-header-logo h1 {
   margin: 0;
-  text-align: center;
 }
 
 .page-header-logo a {
-  display: inline-block;
+  display: block;
+}
+
+.page-header-logo svg {
+  max-width: 200px;
+  inline-size: 100%;
+  block-size: 100%;
+  display: block;
+}
+
+@media all and (min-width: 46.875em) {
+  .page-header-logo {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .page-header-logo svg {
+    max-width: 23.125rem;
+  }
+
+  .page-header-logo a {
+    display: inline-block;
+  }
 }

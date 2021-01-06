@@ -1,16 +1,17 @@
-<nav class="page-header-translate" aria-label="{% if locale == 'nl' %}{{ site.nl.metaDescription }}{% else %}{{ site.en.metaDescription }}{% endif %}">
+<nav class="page-header-translate" aria-label="{% if locale == 'nl' %}{{ site.nl.ariaTitleTranslateNav }}{% else %}{{ site.en.ariaTitleTranslateNav }}{% endif %}">
     <h2  class="visually-hidden">Translate</h2>
     <ul>
         <li>{% if locale == 'nl' %}
-                Nederlands
+                <span>NL</span>
             {% else %}
-                <a href="/nl/">Nederlands</a>
+                <a href="/nl/">NL</a>
             {% endif %}
         </li>
-        <li lang="en">{% if locale == 'en' %}
-                English
+        <li lang="en">
+            {% if locale == 'en' %}
+                <span>ENG</span>
             {% else %}
-                <a href="/en/">English</a>
+                <a href="/en/">ENG</a>
             {% endif %}
         </li>
     </ul>
