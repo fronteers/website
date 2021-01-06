@@ -1,0 +1,14 @@
+<section class="inner-wrapper">
+    {% include partials/utility/dynamic-headerlevel level:headerlvl title:partialTitle %}
+    <ul class="desktop-rows mobile-slider">
+        {%- for post in blogposts limit:3 -%}
+            <li class="list-item mobile-slider-item">
+                {% include partials/blogpost headerlvl:"h3" index:forloop.index  %}
+            </li>
+        {%- endfor -%}
+    </ul>
+
+    <div class="button-wrapper">
+        <a href="{{ locale }}/news/" class="button button-parentheses">View all our blogs</a>
+    </div>
+</section>

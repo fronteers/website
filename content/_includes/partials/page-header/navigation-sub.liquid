@@ -1,0 +1,17 @@
+{% assign subnavigation = collections.pages | page-header-navigation | eleventyNavigation(key) | eleventyNavigationToHtml | safe %}
+
+{% if subnavigation.length > 0 %}
+    <ul class="navigation-list navigation-list--sublevel">
+        {%- for subitem in subnavigation -%}
+            {% if subitem.data.page-header-navigation.parent == key %}
+                <li class="navigation-list navigation-list-item--sublevel">
+                    <a href="{{ subitem.url }}" 
+                        {% if subitem.url == page.url %}aria-current="page"{% endif %}
+                    >
+                        {{ subitem.data.title }}
+                    </a>
+                </li>
+            {% endif %}
+        {%- endfor -%}
+    </ul>
+{% endif %}

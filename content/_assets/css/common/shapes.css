@@ -1,0 +1,203 @@
+/** For a block decorated with < and > **/
+
+.greater-than {
+  background-color: var(--yellow); /* sets a default color */
+  /* background-image: url(https://source.unsplash.com/600x600?summer); */
+  position: relative;
+  display: block;
+  min-height: 250px;
+  inline-size: 70%;
+  margin: 0px auto;
+}
+
+.greater-than::before {
+  -webkit-clip-path: url(#greater-than-open-tiny);
+  clip-path: url(#greater-than-open-tiny);
+  left: calc(-6% + 1.1px);
+}
+
+.greater-than::after {
+  -webkit-clip-path: url(#greater-than-close-tiny);
+  clip-path: url(#greater-than-close-tiny);
+  right: calc(-6% + 1.1px);
+}
+
+.greater-than::before,
+.greater-than::after {
+  content: " ";
+  background-color: inherit;
+  background-image: inherit;
+  background-size: auto;
+  position: absolute;
+  top: 0;
+  display: block;
+  block-size: 100%;
+  inline-size: 6%;
+}
+
+/** For a block decorated with { and } **/
+
+.curly-braces {
+  background: var(--lilac); /* sets a default color */
+  position: relative;
+  display: block;
+  min-height: 250px;
+  inline-size: 70%;
+  margin: 0px auto;
+}
+
+.curly-braces::before {
+  -webkit-clip-path: url(#curly-brace-open-tiny);
+  clip-path: url(#curly-brace-open-tiny);
+  left: calc(-9% + 1.1px);
+}
+
+.curly-braces::after {
+  -webkit-clip-path: url(#curly-brace-close-tiny);
+  clip-path: url(#curly-brace-close-tiny);
+  right: calc(-9% + 1.1px);
+}
+
+.curly-braces::before,
+.curly-braces::after {
+  content: " ";
+  background-color: inherit;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: block;
+  block-size: 100%;
+  inline-size: 9%;
+}
+
+/** For a block decorated with ( and ) **/
+
+.parenthesis {
+  background: var(--red); /* sets a default color */
+  position: relative;
+  display: block;
+  min-height: 250px;
+  inline-size: 70%;
+  margin: 0px auto;
+}
+
+.parenthesis::before {
+  -webkit-clip-path: url(#parenthesis-open-tiny);
+  clip-path: url(#parenthesis-open-tiny);
+  left: calc(-6% + 1.1px);
+}
+
+.parenthesis::after {
+  -webkit-clip-path: url(#parenthesis-close-tiny);
+  clip-path: url(#parenthesis-close-tiny);
+  right: calc(-6% + 1.1px);
+}
+
+.parenthesis::before,
+.parenthesis::after {
+  content: " ";
+  background-color: inherit;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  display: block;
+  block-size: 100%;
+  inline-size: 6%;
+}
+
+/** for shapes for images for blog items, activities etc. **/
+
+.shape-greater-than-right {
+  inline-size: 300px;
+  block-size: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#greater-than-right-small);
+  clip-path: url(#greater-than-right-small);
+}
+
+.shape-curly-brace-right {
+  inline-size: 300px;
+  block-size: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#curly-brace-right-small);
+  clip-path: url(#curly-brace-right-small);
+}
+
+.shape-parenthesis-right {
+  inline-size: 300px;
+  block-size: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#parenthesis-right-small);
+  clip-path: url(#parenthesis-right-small);
+}
+
+.shape-greater-than-down {
+  inline-size: 300px;
+  block-size: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#greater-than-down-small);
+  clip-path: url(#greater-than-down-small);
+}
+
+.shape-curly-brace-down {
+  inline-size: 300px;
+  block-size: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#curly-brace-down-small);
+  clip-path: url(#curly-brace-down-small);
+}
+
+.shape-parenthesis-down {
+  inline-size: 300px;
+  block-size: 250px;
+  text-align: center;
+  background-size: cover;
+  -webkit-clip-path: url(#parenthesis-down-small);
+  clip-path: url(#parenthesis-down-small);
+}
+
+/** background **/
+
+.curly-braces-bg,
+.greater-than-bg,
+.parentheses-bg {
+  background-color: var(--yellow); /* sets a default color */
+  position: relative;
+  display: block;
+  background-size: cover;
+  inline-size: 100%;
+  margin: 0px auto;
+  color: white;
+}
+
+.curly-braces-bg {
+  -webkit-clip-path: url(#curly-braces-block-bg);
+  clip-path: url(#curly-braces-block-bg);
+  padding: var(--spacing) 6%;
+}
+
+.greater-than-bg {
+  -webkit-clip-path: url(#greater-than-block-bg);
+  clip-path: url(#greater-than-block-bg);
+  padding: var(--spacing) 6%;
+}
+
+.parentheses-bg {
+  -webkit-clip-path: url(#parentheses-block-bg);
+  clip-path: url(#parentheses-block-bg);
+  padding: var(--spacing) 6%;
+}
+
+@media all and (min-width: 46.875em) {
+  .curly-braces-bg,
+  .greater-than-bg,
+  .parentheses-bg {
+    min-height: 250px;
+    inline-size: 70%;
+  }
+}

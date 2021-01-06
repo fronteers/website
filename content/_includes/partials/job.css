@@ -1,0 +1,132 @@
+.job {
+  background: white;
+  block-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-graphic {
+  block-size: 100%;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  inline-size: 100%;
+  text-align: center;
+  background-size: cover;
+}
+
+.job-1 .job-graphic {
+  -webkit-clip-path: url(#greater-than-down-small);
+  clip-path: url(#greater-than-down-small);
+}
+
+.job-2 .job-graphic {
+  -webkit-clip-path: url(#curly-brace-down-small);
+  clip-path: url(#curly-brace-down-small);
+}
+
+.job-3 .job-graphic {
+  -webkit-clip-path: url(#parenthesis-down-small);
+  clip-path: url(#parenthesis-down-small);
+}
+
+.job-graphic img {
+  max-width: 75%;
+  max-height: 75%;
+  mix-blend-mode: multiply;
+}
+
+.job-content {
+  padding: var(--spacing);
+  padding-block-end: 0;
+}
+
+.job-content .h {
+  margin: 0;
+}
+
+.job-content .h + p {
+  margin-block-start: 0;
+}
+
+.job-summary {
+  font-size: var(--font-size-18);
+  line-height: 1.5;
+}
+
+.job-meta {
+  padding-inline-start: var(--spacing);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.job-byline {
+  margin: 0;
+}
+
+.job-readmore {
+  margin-inline-start: auto;
+  margin-block-start: auto;
+}
+
+.job-tags {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-block-end: var(--spacing);
+}
+
+.job-tags li {
+  display: inline-block;
+}
+
+@media all and (min-width: 46.875em) {
+  .job {
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-template-areas:
+      "job-graphic job-content"
+      "job-graphic job-footer";
+    grid-gap: var(--spacing);
+    margin-block-end: var(--spacing);
+    min-height: 190px;
+  }
+
+  .job-graphic {
+    inline-size: 300px;
+    min-height: 100%;
+    text-align: center;
+    background-size: cover;
+    grid-area: job-graphic;
+  }
+
+  .job-1 .job-graphic {
+    -webkit-clip-path: url(#greater-than-right-small);
+    clip-path: url(#greater-than-right-small);
+  }
+
+  .job-2 .job-graphic {
+    -webkit-clip-path: url(#curly-brace-right-small);
+    clip-path: url(#curly-brace-right-small);
+  }
+
+  .job-3 .job-graphic {
+    -webkit-clip-path: url(#parenthesis-right-small);
+    clip-path: url(#parenthesis-right-small);
+  }
+
+  .job-content {
+    padding-inline-start: 0;
+    grid-area: job-content;
+  }
+
+  .job-content p:last-child {
+    margin: 0;
+  }
+
+  .job-meta {
+    grid-area: job-footer;
+    padding-inline-start: 0;
+  }
+}

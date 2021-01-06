@@ -1,0 +1,14 @@
+<section class="inner-wrapper proud-members">
+    {% include partials/utility/dynamic-headerlevel level:headerlvl title:partialTitle %}
+    <ul class="desktop-columns mobile-slider">
+        {%- for member in members limit:3-%}
+            <li class="list-item mobile-slider-item">
+                {% include partials/member index:forloop.index %}
+            </li>
+        {%- endfor -%}
+    </ul>
+
+    <div class="button-wrapper">
+        <a href="{{ locale }}/members/" class="button button-parentheses">View all our members</a>
+    </div>
+</section>

@@ -1,0 +1,15 @@
+<section class="inner-wrapper upcoming-activities">
+    {% include partials/utility/dynamic-headerlevel level:headerlvl title:partialTitle %}
+    <ol class="desktop-columns mobile-slider">
+        {%- for activity in activities limit:3 -%}
+            <li class="list-item mobile-slider-item">
+                {% include partials/activity headerlvl:"h3" %}
+            </li>
+        {%- endfor -%}
+    </ol>
+
+    <div class="button-wrapper">
+        <a href="{{ locale }}/activities/" class="button button-parentheses">
+            View all upcoming activities</a>
+    </div>
+</section>

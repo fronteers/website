@@ -1,0 +1,104 @@
+.activity {
+  background-color: white;
+  block-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.activity .h {
+  font-family: var(--font-family-decoration);
+  font-weight: bold;
+  font-size: var(--font-size-24);
+  line-height: 1.25em;
+  margin: 0;
+  text-transform: none;
+  block-size: calc(1.25rem * 5);
+}
+
+.activity-time {
+  font-family: var(--font-family-content);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-18);
+  line-height: 1.33;
+}
+
+.activity-header-content {
+  background: var(--yellow);
+  inline-size: 100%;
+  margin: 0px auto;
+  padding: var(--spacing);
+  padding-block-end: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-header--parenthesis .activity-header-content {
+  background-color: var(--yellow);
+}
+
+.activity-header--parenthesis::after {
+  inline-size: 100%;
+  block-size: 0;
+  padding-block-end: 22.8%;
+  content: " ";
+  display: block;
+  background-color: var(--yellow);
+  background-size: cover;
+  -webkit-clip-path: url(#parenthesis-down-tiny);
+  clip-path: url(#parenthesis-down-tiny);
+}
+
+.activity-header--greater-than .activity-header-content {
+  background-color: var(--red);
+}
+
+.activity-header--greater-than::after {
+  inline-size: 100%;
+  block-size: 0;
+  padding-block-end: 22.8%;
+  content: " ";
+  display: block;
+  background-color: var(--red);
+  background-size: cover;
+  -webkit-clip-path: url(#greater-than-down-tiny);
+  clip-path: url(#greater-than-down-tiny);
+}
+
+.activity-header--curly-brace .activity-header-content {
+  background-color: var(--lilac);
+}
+
+.activity-header--curly-brace::after {
+  inline-size: 100%;
+  block-size: 0;
+  padding-block-end: 22.8%;
+  content: " ";
+  display: block;
+  background-color: var(--lilac);
+  background-size: cover;
+  -webkit-clip-path: url(#curly-brace-down-tiny);
+  clip-path: url(#curly-brace-down-tiny);
+}
+
+.activity-content {
+  padding: var(--spacing);
+  padding-block-start: 0;
+}
+
+.activity-location {
+  display: flex;
+  align-items: center;
+  color: var(--purple-wcag-darker);
+  text-transform: capitalize;
+}
+
+.activity-location svg {
+  margin-inline-end: calc(var(--spacing) / 2);
+}
+
+.activity-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-block-start: auto;
+}

@@ -1,0 +1,11 @@
+<section class="inner-wrapper">
+    {% include partials/utility/dynamic-headerlevel level:headerlvl title:partialTitle link:"https://vimeo.com/fronteers" %}
+    <a class="greater-than-bg banner-conference" href="https://vimeo.com/fronteers">
+        {% if locale == 'nl' %}
+            <span class="visually-hidden">{{ site.nl.goToVimeo }}</span>
+        {% else %}
+            <span class="visually-hidden">{{ site.en.goToVimeo }}</span>
+        {% endif %}
+        {% include svg/icons/Button_play.svg %}
+    </a>
+</section>

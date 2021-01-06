@@ -1,0 +1,24 @@
+<a href="#navigation" class="no-javascript" style="display: none">
+    {% include svg/icons/icon_menu.svg %}
+</a>
+<noscript>
+    <style>
+        @media all and (max-width: 46.874em) {
+            .no-javascript[style] {
+                display: inline-block !important;
+            }
+            .no-javascript svg line {
+                stroke: white;
+            }
+        }
+    </style>
+</noscript>
+    
+<div id="load-on-javascript" hidden>  
+    <button class="navigation-open mobile-only">
+        {% include svg/icons/icon_menu.svg %}
+    </button>
+    <button class="navigation-close mobile-only" hidden>
+        {% include svg/icons/icon_close_menu.svg %}
+    </button>
+</div>  
