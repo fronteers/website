@@ -1,10 +1,11 @@
 .member {
-  height: 250px;
+  block-size: 100%;
+  background-color: white;
 }
 
 .member-graphic {
-  width: 150px;
-  height: 150px;
+  inline-size: 150px;
+  block-size: 150px;
   border-radius: 50%;
   display: block;
   margin: 0px auto;
@@ -14,6 +15,35 @@
   text-align: center;
   position: relative;
   z-index: 2;
+  display: block;
+  inline-size: 100%;
+  min-height: 250px;
+  flex: 0 0 0;
+  -webkit-clip-path: url(#curly-brace-down-small);
+  clip-path: url(#curly-brace-down-small);
+}
+
+.member-header-1 {
+  background: linear-gradient(
+    180deg,
+    var(--page-background) 0%,
+    var(--page-background) 30%,
+    var(--red) 30%,
+    var(--red) 100%
+  );
+}
+
+.member-header-2 {
+  background: linear-gradient(
+    180deg,
+    var(--page-background) 0%,
+    var(--page-background) 30%,
+    var(--lilac) 30%,
+    var(--lilac) 100%
+  );
+}
+
+.member-header-3 {
   background: linear-gradient(
     180deg,
     var(--page-background) 0%,
@@ -21,25 +51,40 @@
     var(--yellow) 30%,
     var(--yellow) 100%
   );
-  -webkit-clip-path: url(#curly-brace-down-small);
-  clip-path: url(#curly-brace-down-small);
-  display: block;
-  width: 100%;
-  min-height: 250px;
 }
 
 .member-content {
   background-color: white;
-  -webkit-clip-path: url(#parenthesis-down-small);
-  clip-path: url(#parenthesis-down-small);
-  z-index: -1;
-  transform: translateY(-100%) scaleY(0.1);
-  padding: 60px var(--spacing);
+  padding: var(--spacing);
 }
 
-.member:hover .member-content,
-.member:focus-within .member-content {
-  transform: translateY(-40px) scaleY(1);
-  transition: transform 0.2s ease-in-out;
-  z-index: -1;
+@media all and (min-width: 46.875em) {
+  .member {
+    background: transparent;
+    block-size: 250px;
+  }
+
+  .member-content {
+    -webkit-clip-path: url(#parenthesis-down-small);
+    clip-path: url(#parenthesis-down-small);
+    transform: translateY(-100%) scaleY(0.1);
+    transition: transform 0.2s ease-out;
+    position: relative;
+    padding: calc(var(--spacing) * 2) var(--spacing);
+    min-height: 200px;
+  }
+
+  .member:hover .member-content,
+  .member:focus .member-content {
+    transform: translateY(-40px) scaleY(1);
+    transition: transform 0.2s ease-in-out;
+    z-index: 1;
+  }
+
+  /* duplicate, to avoid issues in IE11 */
+  .member:focus-within .member-content {
+    transform: translateY(-40px) scaleY(1);
+    transition: transform 0.2s ease-in-out;
+    z-index: 1;
+  }
 }
