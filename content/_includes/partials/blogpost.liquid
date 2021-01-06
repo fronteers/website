@@ -1,12 +1,41 @@
-<div class="blog-post">
-    <img src="{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic {{ post.data.graphic.class }}" />
+<div class="blog-post blog-post-{{ index }}">
+    <img src="{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
     <div class="blog-content">
-        {% include partials/dynamic-headerlevel level:headerlvl title:post.data.title link:post.url %}
-        {{ post.date | date: "%d %B %Y" }}<br />
-        {{ post.data.author }} <br />
-        {{ post.templateContent | truncate: 100 }}<br />
-        {%- for tag in post.data.categories -%}
-            {% tag tag %}
-        {% endfor %}
+        {% include partials/utility/dynamic-headerlevel level:headerlvl title:post.data.title link:post.url %}
+    
+        {% if post.data.summary %}
+            <p class="blog-summary">{{ post.data.summary }}</p>
+        {% else %}
+            {{ post.templateContent | striptags | truncate: 215  }}
+        {% endif %}
+    </div>
+
+    <div class="blog-meta">
+        <p class="blog-byline">
+            <time class="blog-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
+                {{ post.date | date: "%d.%m.%y" }}
+            </time>
+
+            {% for member in members %}
+                {% if member.data.title == post.data.author %}
+                    <a href="/{{ locale }}/members/{{ member.fileSlug }}/index.html">{{ post.data.author }}</a>
+                {% endif %}
+            {% endfor %}
+        </p>
+        <ul class="blog-tags">
+            {%- for tag in post.data.categories limit:2 -%}
+                <li>{% tag tag %}</li>
+            {% endfor %}
+        </ul>
+
+        <a href="{{ post.url }}" class="button blog-readmore">
+            {% if locale == 'nl' %}
+                {{ site.nl.blogreadmore }} 
+                <span class="visually-hidden">{{ site.nl.about }} {{ post.data.title }}</span>
+            {% else %}
+                {{ site.en.blogreadmore }}
+                <span class="visually-hidden">{{ site.en.about }} {{ post.data.title }}</span>
+            {% endif %}
+        </a>
     </div>
 </div>

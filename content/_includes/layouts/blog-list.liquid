@@ -1,4 +1,4 @@
-{% include partials/html-head %}
+{% include partials/utility/html-head %}
 
 
 <body>
@@ -9,11 +9,13 @@
             <h2>{{ title }}</h2>
             {{ content }}
             
-            {% for post in blogposts reversed %} 
-                {% unless post.data.draft == true %}
-                    {% include partials/blogpost %}
-                {% endunless %}
-            {% endfor %}
+            <ul class="desktop-rows mobile-slider">
+                {%- for post in blogposts limit:3 -%}
+                    <li class="list-item mobile-slider-item">
+                        {% include partials/blogpost headerlvl:"h3" index:forloop.index  %}
+                    </li>
+                {%- endfor -%}
+            </ul>
         </main>
  
         {% include partials/page-footer/_page-footer %}
