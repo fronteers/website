@@ -40,10 +40,17 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
   };
 
+  eleventyConfig.addCollection("pages", function(collection) {
+    return collection
+      .getFilteredByTag("pages")
+      .sort((a, b) => a.data.order - b.data.order);
+  });
+
   eleventyConfig.addCollection("published_posts_nl", function(collection) {
     return collection
       .getFilteredByTag("posts_nl")
-      .filter((post) => Boolean(!post.data.draft));
+      .filter((post) => Boolean(!post.data.draft))
+      .reverse();
   });
 
   eleventyConfig.addCollection("published_activities_nl", function(collection) {
