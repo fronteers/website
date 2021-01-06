@@ -11,9 +11,9 @@
         {{ activity.templateContent | truncate: 200 }}<br />
 
         {% if activity.data.location %}
-            <p class="activity-location">{% include svg/icons/icon_location.svg %} {{ activity.data.location }}</p>
+            <p class="activity-location">{% include svg/icon_location.svg %} {{ activity.data.location }}</p>
         {% else %}
-            <p class="activity-location">{% include svg/icons/icon_location.svg %} 
+            <p class="activity-location">{% include svg/icon_location.svg %} 
                 {% if locale == 'nl' %}{{ site.nl.locationUnknown }}
                 {% else %}{{ site.en.locationUnknown }}{% endif %}
             </p>
