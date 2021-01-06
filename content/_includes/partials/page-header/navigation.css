@@ -1,7 +1,8 @@
 #navigation {
-    transform: translateX(100%);
+    transform: translateX(200vw);
     position: absolute;
-    padding-inline-start: calc(var(--spacing) / 2);
+    display: none;
+    padding-inline-start: var(--spacing-half);
 }
 
 #navigation:target {

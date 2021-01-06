@@ -1,7 +1,7 @@
 .page-header-translate {
-  text-transform: uppercase;
-  padding-block-start: var(--spacing);
+  text-transform: uppercase; 
   margin-inline-start: auto;
+  padding-block-end: var(--spacing-half);
   text-align: right;
 }
 
@@ -17,12 +17,12 @@
 
 .page-header-translate li:first-child span,
 .page-header-translate li:first-child a {
-  padding-inline-end: calc(var(--spacing) / 2);
+  padding-inline-end: var(--spacing-half);
 }
 
 .page-header-translate li:last-child span,
 .page-header-translate li:last-child a {
-  padding-inline-start: calc(var(--spacing) / 2);
+  padding-inline-start: var(--spacing-half);
 }
 
 .page-header-translate li:first-child::after {
@@ -45,4 +45,11 @@
 .page-header-translate a:hover,
 .page-header-translate a:focus {
   background-color: transparent;
+}
+
+@media all and (min-width: 46.875em) { 
+  .page-header-translate {
+    padding-block-start: var(--spacing);
+    padding-block-end: 0;
+  }
 }

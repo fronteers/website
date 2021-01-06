@@ -87,13 +87,13 @@
 
 .activity-location {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   color: var(--purple-wcag-darker);
   text-transform: capitalize;
 }
 
 .activity-location svg {
-  margin-inline-end: calc(var(--spacing) / 2);
+  margin-inline-end: var(--spacing-half);
 }
 
 .activity-footer {

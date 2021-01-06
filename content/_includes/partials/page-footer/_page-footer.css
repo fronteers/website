@@ -50,7 +50,7 @@
   letter-spacing: 0px;
   color: rgba(0, 0, 0, 1);
   opacity: 1;
-  padding: calc(var(--spacing) / 2);
+  padding: var(--spacing-half);
 }
 
 .social-media-logo {

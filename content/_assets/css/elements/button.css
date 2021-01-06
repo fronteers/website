@@ -1,5 +1,5 @@
 .button {
-  padding: calc(var(--spacing) / 2) var(--spacing);
+  padding: var(--spacing-half) var(--spacing);
   background-color: var(--lilac);
   color: black;
   text-decoration: none;

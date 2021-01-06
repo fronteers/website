@@ -1,5 +1,5 @@
 .no-javascript {
     position: absolute;
-    top: calc(var(--spacing) / 2);
-    right: calc(var(--spacing) / 2);
+    top: var(--spacing-half);
+    right: var(--spacing-half);
 }

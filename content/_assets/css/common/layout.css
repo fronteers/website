@@ -1,4 +1,5 @@
 :root {
+  --spacing-half: 0.625rem; /** (10px) **/
   --spacing: 1.25rem; /** (20px) **/
   --spacing-double: 2.5rem; /** (40px) **/
   --outer-width: 80em; /** (1280px) **/
