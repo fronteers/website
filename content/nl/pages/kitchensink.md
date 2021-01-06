@@ -41,3 +41,17 @@ This is content
 {% block "Title" %}
 This is content
 {% endblock %}
+
+## Using shapes
+
+<section class="inner-wrapper">
+    <div class="greater-than-bg">
+        {% include partials/utility/dynamic-headerlevel level:headerlvl title:partialTitle %}
+    </div>
+    <div class="curly-braces-bg">
+        {% include partials/utility/dynamic-headerlevel level:headerlvl title:partialTitle %}
+    </div>
+    <div class="parentheses-bg">
+        {% include partials/utility/dynamic-headerlevel level:headerlvl title:partialTitle %}
+    </div>
+</section>
