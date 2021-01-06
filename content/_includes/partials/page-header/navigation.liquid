@@ -1,26 +1,21 @@
-<nav class="page-navigation page-navigation--header inner-wrapper">
+{% assign topnavigation = collections.pages | page-header-navigation | eleventyNavigation | eleventyNavigationToHtml | safe  %}
+<nav class="page-navigation page-navigation--header" role="navigation" id="navigation">
     <h2 class="visually-hidden">Main navigation</h2>
-    <ul>
-        {% assign navigation = collections.pages | page-header-navigation | eleventyNavigation | eleventyNavigationToHtml | safe %}
-
-        {% for item in navigation %}
-            {% if item.data.page-header-navigation and item.data.locale == locale %}
-            <li{% if page.url == item.url %} class="current"{% endif %}>
-                <a href="{{ item.url | url }}">{{ item.data.title }}</a>
-                
-                <!-- 
-                    TODO: fix this
-                <button>Open submenu</button>
-                <ul>
-                    {% for child in page.children %}
-                        <li><a href="{{ child.url | url }}">{{ child.title }}</a></li>
-                    {% endfor %}
-                </ul> -->
-            </li>
-            {% endif %}
-        {% endfor %}
-
+    <ul class="navigation-list navigation-list--toplevel">
+    {%- for item in topnavigation -%}
+        {% if item.data.page-header-navigation and item.data.locale == locale %}
+            {% if item.data.toplevelpage == true %}
+                <li class="navigation-list-item navigation-list-item--toplevel">
+                    <a href="{{ item.url }}" 
+                        {% if item.url == page.url %}aria-current="page"{% endif %}
+                    >
+                        {{ item.data.title }}
+                    </a>
+                    
+                    {% include partials/page-header/navigation-sub key:item.data.page-header-navigation.key %}
+                </li>
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
     </ul>
 </nav>
-
-

@@ -1,6 +1,9 @@
 ---
 title: Kitchensink-HTML
-page-header-navigation:
+toplevelpage: true
+layout: layouts/page.liquid
+page-footer-navigation:
+  key: kitchensink
   order: 99
 ---
 

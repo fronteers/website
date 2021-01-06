@@ -1,7 +1,19 @@
-.page-navigation--header {
-  background: black;
+#navigation {
+    transform: translateX(100%);
+    position: absolute;
+    padding-inline-start: calc(var(--spacing) / 2);
 }
 
-.page-navigation--header li {
-  padding-top: 0;
+#navigation:target {
+    transform: none;
+    position: inherit;
+    scroll-margin-top: 8rem;
+}
+
+@media all and (min-width: 46.875em) { 
+    #navigation {
+        transform: none;
+        position: inherit;
+        padding-inline-start: inherit;
+    }
 }

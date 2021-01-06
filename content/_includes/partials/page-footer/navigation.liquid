@@ -1,12 +1,20 @@
 <nav class="page-navigation page-navigation--footer">
     <h2 class="visually-hidden">Footer navigation</h2>
-    <ul>
+    <ul class="navigation-list navigation-list--toplevel">
         {% assign footerNavigation = collections.pages | page-footer-navigation | eleventyNavigation | eleventyNavigationToHtml | safe %}
-        {% for page in footerNavigation %}
-            {% if page.data.page-footer-navigation and page.data.locale == locale %}
-            <li{% if page.url == page.url %} class="my-active-class"{% endif %}>
-                <a href="{{ page.url | url }}">{{ page.data.title }}</a>
-            </li>
+        {% for item in footerNavigation %}
+            {% if item.data.page-footer-navigation and item.data.locale == locale %}
+                {% if item.data.toplevelpage == true %}
+                    <li class="navigation-list-item navigation-list-item--toplevel">
+                        <a href="{{ item.url }}" 
+                            {% if item.url == page.url %}aria-current="page"{% endif %}
+                        >
+                            {{ item.data.title }}
+                        </a>
+                        
+                        {% include partials/page-footer/navigation-sub key:item.data.page-footer-navigation.key %}
+                    </li>
+                {% endif %}
             {% endif %}
         {% endfor %}
     </ul>

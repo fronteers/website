@@ -1,5 +1,8 @@
 ---
-title: Word lid!
+layout: layouts/page.liquid
+title: Become a member!
+toplevelpage: true
+order: 30
 page-header-navigation:
-  order: 30
+  key: join-us
 ---
