@@ -1,24 +1,34 @@
 <footer class="page-footer">
     <h2 class="visually-hidden">Social media</h2>
-    <ul class="list-columns">
+    <ul class="desktop-columns">
         <li>
-            <span class="social-medium">Slack</span>
+            <div class="social-media-header">
+                <img src="/assets/images/icon_slack.svg" class="social-media-logo social-media-logo-slack" />
+                <span class="social-media-title">Slack</span>
+            </div>
             <p>
                 The Fronteers community is highly active on Slack. <a href="https://fronteers-slack.herokuapp.com">Sign up<span class="visually-hidden"> to the Fronteers Slack</span></a> and join the conversation about everything related to front-end development.
            </p>
         </li>
         <li>
-            <span class="social-medium">Twitter</span>
+            <div class="social-media-header">
+                <img src="/assets/images/icon_twitter.svg" class="social-media-logo social-media-logo-twitter" />
+                <span class="social-media-title">Twitter</span>
+            </div>
             <p>You can follow us through <a href="https://twitter.com/fronteers">@Fronteers on Twitter</a>. Questions and comments via that medium are welcome.
             </p>
         </li>
         <li>
-            <span class="social-medium">LinkedIn</span>
+            <div class="social-media-header">
+                <img src="/assets/images/icon_linkedin.svg" class="social-media-logo social-media-logo-linkedin" />
+                <span class="social-media-title">LinkedIn</span>
+            </div>
             <p>Join our network on LinkedIn and see what's happening.</p>
         </li>
         <li>
-            <p><strong>Hey front-ender! Join the force and become a fronteer!</strong></p>
-            <button>Join us</button>
+            <p class="footer-join-us"><strong>Hey front-ender!<br /> 
+                Join the force and become a fronteer!</strong></p>
+            <p class="footer-join-us-link"><a href="{{ locale }}/join-us/" class="button button-parentheses">Join us</a></p>
         </li>
     </ul>
     {% include partials/page-footer/navigation %}
