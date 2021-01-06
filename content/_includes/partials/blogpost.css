@@ -122,10 +122,6 @@
     background-size: cover;
   }
 
-  .blog-readmore {
-    margin-block-start: 0;
-  }
-
   .blog-post-1 .blog-graphic {
     -webkit-clip-path: url(#greater-than-right-small);
     clip-path: url(#greater-than-right-small);
