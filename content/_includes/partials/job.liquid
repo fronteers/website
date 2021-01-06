@@ -1,7 +1,43 @@
-{% include partials/dynamic-headerlevel level:headerlvl title:job.data.title link:job.url %}
-{{ job.date | date: "%d %B %Y" }}<br />
-{{ job.data.author }} <br />
-{{ job.templateContent | truncate: 200 }}<br />
-{%- for tag in job.data.categories -%}
-    {% tag tag %}
-{% endfor %}
+
+
+<div class="job job-{{ index }}">
+    <div class="job-graphic" style="background-color: {{ job.data.backgroundcolor }}">
+        <img src="{{ job.data.graphic.src }}" alt="{{ job.data.graphic.alt }}" />
+    </div>
+    <div class="job-content">
+        {% include partials/utility/dynamic-headerlevel level:headerlvl title:job.data.title link:job.url %}
+
+        {% if job.data.summary %}
+            <p class="job-summary">
+                {{ job.data.summary }}
+            </p>
+        {% else %}
+            {{ job.templateContent | striptags | truncate: 115  }}
+        {% endif %}
+    </div>
+
+    <div class="job-meta">
+        <p class="job-byline">
+            <time class="blog-time" datetime="{{ job.date | date: "%Y-%m-%d" }}">
+                {{ job.date | date: "%d.%m.%y" }}
+            </time>
+            <!-- {{ job.data.author }} -->
+        </p>
+        <ul class="job-tags">
+            {%- for tag in job.data.categories limit:2 -%}
+                <li>{% tag tag %}</li>
+            {% endfor %}
+        </ul>
+
+        <a href="{{ job.url }}" class="button job-readmore">
+            {% if locale == 'nl' %}
+                {{ site.nl.jobreadmore }} 
+                <span class="visually-hidden">{{ site.nl.about }} {{ job.data.title }}</span>
+            {% else %}
+                {{ site.en.jobreadmore }}
+                <span class="visually-hidden">{{ site.en.about }} {{ job.data.title }}</span>
+            {% endif %}
+        </a>
+    </div>
+</div>
+ 

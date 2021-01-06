@@ -40,7 +40,7 @@ main section > .h {
 }
 
 .page-content {
-  background-color: white;
+  /* background-color: white; */
   padding: var(--spacing);
 }
 

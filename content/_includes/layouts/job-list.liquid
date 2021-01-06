@@ -1,4 +1,4 @@
-{% include partials/html-head %}
+{% include partials/utility/html-head %}
 
 <body>
     <div class="outer-wrapper">
@@ -8,9 +8,13 @@
             <h2>{{ title }}</h2>
             {{ content }}
 
-            {% for job in jobs %}
-                {% include partials/job %}
-            {%- endfor -%}
+            <ul class="desktop-rows mobile-slider">
+                {% for job in jobs limit:3%}
+                    <li class="list-item mobile-slider-item">
+                        {% include partials/job headerlvl:"h3" index:forloop.index %}
+                    </li>
+                {%- endfor -%}
+            </ul>
         </main>
  
         {% include partials/page-footer/_page-footer %}
