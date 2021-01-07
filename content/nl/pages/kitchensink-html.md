@@ -1,6 +1,6 @@
 ---
 title: Kitchensink-HTML
-toplevelpage: true
+footer_navigation: true
 layout: layouts/page.liquid
 page-footer-navigation:
   key: kitchensink

@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.liquid
 title: Congres
-toplevelpage: true
+header_navigation_top: true
 order: "100"
 page-header-navigation:
   key: conference

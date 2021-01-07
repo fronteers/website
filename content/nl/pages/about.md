@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.liquid
 title: Over Fronteers
-toplevelpage: true
+header_navigation_top: true
 order: "10"
 page-header-navigation:
   key: about

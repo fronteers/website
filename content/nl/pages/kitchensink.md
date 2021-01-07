@@ -1,7 +1,7 @@
 ---
 title: Kitchensink
 layout: layouts/page.liquid
-toplevelpage: true
+footer_navigation: true
 page-footer-navigation:
   key: kitchensink
   order: 99

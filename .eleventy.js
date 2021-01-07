@@ -37,7 +37,14 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("header_navigation", function(collection) {
     return collection.getFilteredByTag("pages")
-      .filter((page) => Boolean(page.data.toplevelpage))
+      .filter((item) => Boolean(item.data.header_navigation_top))
+      .sort((a, b) => b.data.order - a.data.order)
+      .reverse();
+  });
+
+  eleventyConfig.addCollection("footer_navigation", function(collection) {
+    return collection.getFilteredByTag("pages")
+      .filter((item) => Boolean(item.data.footer_navigation))
       .sort((a, b) => b.data.order - a.data.order)
       .reverse();
   });

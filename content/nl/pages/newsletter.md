@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.liquid
 title: Nieuwsbrief
-toplevelpage: true
+footer_navigation: true
 page-footer-navigation:
   key: newsletter
   order: 50
