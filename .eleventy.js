@@ -75,6 +75,13 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(!post.data.draft));
   });
 
+  eleventyConfig.addCollection("freelancers", function(collection) {
+    return collection
+      .getFilteredByTag("members")
+      .filter((post) => Boolean(post.data.freelancer))
+      .filter((post) => Boolean(!post.data.draft));
+  });
+
   eleventyConfig.addCollection("drafts", function(collection) {
     return collection.getAll().filter((post) => Boolean(post.data.draft));
   });
