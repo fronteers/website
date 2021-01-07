@@ -1,4 +1,4 @@
 {
   "permalink": "/{{ locale }}/jobs/{{ page.fileSlug }}/index.html",
-  "tags": "jobs_nl"
+  "tags": "jobs"
 }

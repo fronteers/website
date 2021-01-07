@@ -67,14 +67,9 @@
     {% endcomment %}
 {% include svg/shapes.svg %}
 
-{% if locale == 'nl' %}
-    {% assign blogposts = collections.published_posts_nl %}
-    {% assign activities = collections.published_activities_nl %}
-    {% assign jobs = collections.published_jobs_nl %} 
-    {% assign members = collections.published_members_nl | random %}
-{% else %}
-    {% assign blogposts = collections.published_posts_en %}
-    {% assign activities = collections.published_activities_en %}
-    {% assign jobs = collections.published_jobs_en %}
-    {% assign members = collections.published_members_en %}
-{% endif %}
+{% assign blogposts = collections.published_posts | where: "locale", locale %}
+{% assign activities = collections.published_activities  | where: "locale", locale %}
+{% assign jobs = collections.published_jobs  | where: "locale", locale %} 
+{% assign members = collections.published_members  | where: "locale", locale | random %}
+{% assign header_navigation = collections.header_navigation | where: "locale", locale %}
+{% assign footer_navigation = collections.footer_navigation | where: "locale", locale %}

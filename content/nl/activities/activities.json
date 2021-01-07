@@ -1,4 +1,4 @@
 {
   "permalink": "/{{ locale }}/activities/{{ page.fileSlug }}/index.html",
-  "tags": "activities_nl"
+  "tags": "activities"
 }

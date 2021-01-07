@@ -49,55 +49,29 @@ module.exports = function(eleventyConfig) {
       .reverse();
   });
   
-  eleventyConfig.addCollection("published_posts_nl", function(collection) {
+  eleventyConfig.addCollection("published_posts", function(collection) {
     return collection
-      .getFilteredByTag("posts_nl")
+      .getFilteredByTag("posts")
       .filter((post) => Boolean(!post.data.draft))
       .reverse();
   });
 
-  eleventyConfig.addCollection("published_activities_nl", function(collection) {
+  eleventyConfig.addCollection("published_activities", function(collection) {
     return collection
-      .getFilteredByTag("activities_nl")
+      .getFilteredByTag("activities")
       .filter((post) => Boolean(!post.data.draft));
   });
 
-  eleventyConfig.addCollection("published_jobs_nl", function(collection) {
+  eleventyConfig.addCollection("published_jobs", function(collection) {
     return collection
-      .getFilteredByTag("jobs_nl")
+      .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
       .reverse();
   });
 
-  eleventyConfig.addCollection("published_members_nl", function(collection) {
+  eleventyConfig.addCollection("published_members", function(collection) {
     return collection
-      .getFilteredByTag("members_nl")
-      .filter((post) => Boolean(!post.data.draft));
-  });
-
-  eleventyConfig.addCollection("published_posts_en", function(collection) {
-    return collection
-      .getFilteredByTag("posts_en")
-      .filter((post) => Boolean(!post.data.draft))
-      .reverse();
-  });
-
-  eleventyConfig.addCollection("published_activities_en", function(collection) {
-    return collection
-      .getFilteredByTag("activities_en")
-      .filter((post) => Boolean(!post.data.draft));
-  });
-
-  eleventyConfig.addCollection("published_jobs_en", function(collection) {
-    return collection
-      .getFilteredByTag("jobs_en")
-      .filter((post) => Boolean(!post.data.draft))
-      .reverse();
-  });
-
-  eleventyConfig.addCollection("published_members_en", function(collection) {
-    return collection
-      .getFilteredByTag("members_en")
+      .getFilteredByTag("members")
       .filter((post) => Boolean(!post.data.draft));
   });
 
