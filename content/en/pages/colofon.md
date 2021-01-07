@@ -1,5 +1,5 @@
 ---
 title: Colophon
-page-footer-navigation:
-  order: 70
+
+order: "70"
 ---

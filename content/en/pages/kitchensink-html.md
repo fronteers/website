@@ -1,7 +1,7 @@
 ---
 title: Kitchensink-HTML
-page-header-navigation:
-  order: 99
+
+order: "99"
 ---
 
 <div id="wrapper">

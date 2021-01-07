@@ -1,7 +1,7 @@
 ---
 title: Kitchensink
-page-header-navigation:
-  order: 99
+
+order: "99"
 ---
 
 ## Headings, paragraphs and links

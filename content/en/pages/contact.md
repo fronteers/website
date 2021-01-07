@@ -1,5 +1,5 @@
 ---
 title: Contact
-page-footer-navigation:
-  order: 30
+
+order: "30"
 ---

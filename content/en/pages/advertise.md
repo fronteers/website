@@ -1,5 +1,5 @@
 ---
 title: Advertise
-page-footer-navigation:
-  order: 40
+
+order: "40"
 ---

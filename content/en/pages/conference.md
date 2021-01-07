@@ -1,5 +1,4 @@
 ---
 title: Conference
-page-header-navigation:
-  order: 90
+order: "90"
 ---

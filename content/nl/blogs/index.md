@@ -5,8 +5,8 @@ header_navigation_top: true
 order: "40"
 tags: pages
 permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
-page-header-navigation:
-  key: blogs
+
+key: blogs
 ---
 
 Inleidende tekst...

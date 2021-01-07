@@ -1,5 +1,5 @@
 ---
 title: Newsletter
-page-footer-navigation:
-  order: 50
+
+order: "50"
 ---

@@ -5,8 +5,7 @@ tags: pages
 title: Jobs
 header_navigation_top: true
 order: "90"
-page-header-navigation:
-  key: job-overview
+key: job-overview
 ---
 
 Inleidende tekst...

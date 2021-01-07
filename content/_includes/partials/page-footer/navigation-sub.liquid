@@ -1,9 +1,7 @@
-{% assign subFooterNavigation = collections.pages | page-footer-navigation | eleventyNavigation(key) | eleventyNavigationToHtml | safe %}
-
-{% if subFooterNavigation.length > 0 %}
+{% if footer_sub_navigation.length > 0 %}
     <ul class="navigation-list navigation-list--sublevel">
-        {%- for subitem in subFooterNavigation -%}
-            {% if subitem.data.page-footer-navigation.parent == key %}
+        {%- for subitem in footer_sub_navigation -%}
+            {% if subitem.data.parent == key %}
                 <li class="navigation-list navigation-list-item--sublevel">
                     <a href="{{ subitem.url }}" 
                         {% if subitem.url == page.url %}aria-current="page"{% endif %}
