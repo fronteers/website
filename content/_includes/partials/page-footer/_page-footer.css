@@ -78,7 +78,7 @@
 .social-media-logo-linkedin {
   -webkit-clip-path: url(#curly-braces-down-small);
   clip-path: url(#curly-braces-down-small);
-  background-color: var(--purple);
+  background-color: var(--purple-wcag-darker);
 }
 
 .social-medium + p {
@@ -90,11 +90,15 @@
   font-size: var(--font-size-24);
 }
 
+.footer-join-us-link a {
+  color: black;
+}
+
 .footer-join-us-link a:hover,
 .footer-join-us-link a:focus,
 .footer-join-us-link a:hover + div,
 .footer-join-us-link a:focus + div {
-  background-color: var(--purple);
+  background-color: var(--purple-wcag-darker);
   color: white;
   text-decoration: underline;
 }

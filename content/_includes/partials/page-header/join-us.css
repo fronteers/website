@@ -34,7 +34,7 @@
 .join-us-link a:focus,
 .join-us-link a:hover + div,
 .join-us-link a:focus + div {
-  background-color: var(--purple);
+  background-color: var(--purple-wcag-darker);
   color: white;
   text-decoration: underline;
 }

@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{{ metadata.description }}">
-    <title>{{ title or metadata.title }}</title>
+    <title>{{ title or site.nl.title }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     
     <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
@@ -17,26 +16,26 @@
     
     <script src="/assets/js/vendor/focus-visible.5.1.0.min.js" crossorigin="anonymous" async></script>
 
-        <meta name="description" content="{% if locale == 'nl' %}{{ site.nl.metaDescription }}{% else %}{{ site.en.metaDescription }}{% endif %}">
-        <meta name="theme-color" content="#">
+    <meta name="description" content="{% if locale == 'nl' %}{{ site.nl.metaDescription }}{% else %}{{ site.en.metaDescription }}{% endif %}">
+    <meta name="theme-color" content="#">
 
-        <link rel="alternate" hreflang="nl-NL" href="{{ site.nl.baseUrl }}" />
-        <link rel="alternate" hreflang="en-GB" href="{{ site.en.baseUrl }}" />
+    <link rel="alternate" hreflang="nl-NL" href="{{ site.nl.baseUrl }}" />
+    <link rel="alternate" hreflang="en-GB" href="{{ site.en.baseUrl }}" />
 
-        <meta property="og:site_name" content="{{ site.nl.siteName }}">
-        <meta property="og:title" content="{{ title or metadata.title }}" />
-        <meta property="og:description" content="{% if locale == 'nl' %}{{ site.nl.metaDescription }}{% else %}{{ site.en.metaDescription }}{% endif %}"/>
-        <meta property="og:image" content="">
-        <meta property="og:image:alt" content="" />
-        <meta property="og:updated_time" content="{{ site.buildTime | date: "%s" }}" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="{{ page.permalink }}">
+    <meta property="og:site_name" content="{{ site.nl.siteName }}">
+    <meta property="og:title" content="{{ title or metadata.title }}" />
+    <meta property="og:description" content="{% if locale == 'nl' %}{{ site.nl.metaDescription }}{% else %}{{ site.en.metaDescription }}{% endif %}"/>
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="" />
+    <meta property="og:updated_time" content="{{ site.buildTime | date: "%s" }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ page.permalink }}">
 
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="{{ title or metadata.title }}" />
-        <meta name="twitter:description" content="{% if locale == 'nl' %}{{ site.nl.metaDescription }}{% else %}{{ site.en.metaDescription }}{% endif %}" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:image:alt" content="" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ title or metadata.title }}" />
+    <meta name="twitter:description" content="{% if locale == 'nl' %}{{ site.nl.metaDescription }}{% else %}{{ site.en.metaDescription }}{% endif %}" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:image:alt" content="" />
 
 </head>
 
@@ -61,7 +60,11 @@
         #parenthesis-down-small
         #greater-than-down-small
         #curly-brace-down-small
-{% endcomment %}
+
+        #parenthesis-down-tiny
+        #greater-than-down-tiny
+        #curly-brace-down-tiny
+    {% endcomment %}
 {% include svg/shapes.svg %}
 
 {% if locale == 'nl' %}

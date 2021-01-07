@@ -48,13 +48,13 @@ p {
 }
 
 a {
-  color: var(--purple);
+  color: var(--purple-wcag-darker-wcag-darker);
 }
 
 a:hover,
 a:focus {
   color: white;
-  background-color: var(--purple);
+  background-color: var(--purple-wcag-darker);
   text-decoration: none;
 }
 
