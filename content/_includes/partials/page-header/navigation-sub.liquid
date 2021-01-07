@@ -1,8 +1,6 @@
-{% assign subnavigation = collections.pages | page-header-navigation | eleventyNavigation(key) | eleventyNavigationToHtml | safe %}
-
-{% if subnavigation.length > 0 %}
+{% if header_sub_navigation.length > 0 %}
     <ul class="navigation-list navigation-list--sublevel">
-        {%- for subitem in subnavigation -%}
+        {%- for subitem in header_sub_navigation -%}
             {% if subitem.data.page-header-navigation.parent == key %}
                 <li class="navigation-list navigation-list-item--sublevel">
                     <a href="{{ subitem.url }}" 

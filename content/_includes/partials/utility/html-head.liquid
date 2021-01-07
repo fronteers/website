@@ -72,4 +72,5 @@
 {% assign jobs = collections.published_jobs  | where: "locale", locale %} 
 {% assign members = collections.published_members  | where: "locale", locale | random %}
 {% assign header_navigation = collections.header_navigation | where: "locale", locale %}
+{% assign header_sub_navigation = collections.pages | where: "locale", locale %}
 {% assign footer_navigation = collections.footer_navigation | where: "locale", locale %}
