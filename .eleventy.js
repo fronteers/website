@@ -35,17 +35,13 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-  module.exports = function(eleventyConfig) {
-    eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  };
-
-  eleventyConfig.addCollection("pages", function(collection) {
-    return collection
-      .getFilteredByTag("pages")
-      .sort((a, b) => a.data.order - b.data.order);
+  eleventyConfig.addCollection("header_navigation", function(collection) {
+    return collection.getFilteredByTag("pages")
+      .filter((page) => Boolean(page.data.toplevelpage))
+      .sort((a, b) => b.data.order - a.data.order)
+      .reverse();
   });
-
+  
   eleventyConfig.addCollection("published_posts_nl", function(collection) {
     return collection
       .getFilteredByTag("posts_nl")
@@ -107,7 +103,7 @@ module.exports = function(eleventyConfig) {
     "include-all",
     async (glob) => await globcat(glob)
   );
-
+ 
   /* All templates in the content directory are parsed and copied to the dist directory */
   return {
     dir: {
@@ -115,4 +111,5 @@ module.exports = function(eleventyConfig) {
       output: "dist",
     },
   };
+
 };

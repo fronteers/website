@@ -1,10 +1,9 @@
-{% assign topnavigation = collections.pages | page-header-navigation | eleventyNavigation | eleventyNavigationToHtml | safe  %}
+{% assign header_navigation = collections.header_navigation  %}
 <nav class="page-navigation page-navigation--header" role="navigation" id="navigation">
     <h2 class="visually-hidden">Main navigation</h2>
     <ul class="navigation-list navigation-list--toplevel">
-    {%- for item in topnavigation -%}
+    {% for item in header_navigation %}
         {% if item.data.page-header-navigation and item.data.locale == locale %}
-            {% if item.data.toplevelpage == true %}
                 <li class="navigation-list-item navigation-list-item--toplevel">
                     <a href="{{ item.url }}" 
                         {% if item.url == page.url %}aria-current="page"{% endif %}
@@ -14,8 +13,7 @@
                     
                     {% include partials/page-header/navigation-sub key:item.data.page-header-navigation.key %}
                 </li>
-            {%- endif -%}
         {%- endif -%}
-    {%- endfor -%}
+    {% endfor %}
     </ul>
 </nav>
