@@ -1,10 +1,11 @@
 ---
 layout: layouts/member-list.liquid
-title: Members
-tags: pages
+title: Leden
 permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
+tags: pages
 
-order: "20"
+key: leden
 ---
 
 Inleidende tekst...
+

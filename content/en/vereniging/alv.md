@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.liquid
-title: Support
+title: Algemene Ledenvergadering
 tags: pages
-order: "70"
-key: history
+order: "30"
+
+key: alv
 parent: about
+  
 ---

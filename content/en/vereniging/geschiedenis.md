@@ -1,8 +1,9 @@
 ---
 layout: layouts/page.liquid
-title: Support
+title: Geschiedenis
 tags: pages
-order: "70"
+order: "80"
+
 key: history
 parent: about
 ---

@@ -1,8 +1,9 @@
 ---
 layout: layouts/page.liquid
-title: Support
+title: Bestuur
 tags: pages
-order: "70"
-key: history
+order: "20"
+
+key: board
 parent: about
 ---

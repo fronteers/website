@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.liquid
-title: Support
+title: Organisatie
 tags: pages
-order: "70"
-key: history
+order: "10"
+
+key: organisation
 parent: about
+  
 ---

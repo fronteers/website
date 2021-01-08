@@ -1,8 +1,9 @@
 ---
 layout: layouts/page.liquid
-title: Support
+title: Commissies
 tags: pages
-order: "70"
-key: history
+order: "40"
+
+key: commissions
 parent: about
 ---

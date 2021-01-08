@@ -1,6 +1,6 @@
 ---
 layout: layouts/activity-list.liquid
-title: Activities
+title: Activiteiten
 tags: pages
 header_navigation_top: true
 order: "20"

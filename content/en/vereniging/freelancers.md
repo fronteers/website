@@ -1,8 +1,9 @@
 ---
 layout: layouts/page.liquid
-title: Support
+title: Freelancers
 tags: pages
-order: "70"
-key: history
+order: "60"
+
+key: freelancers
 parent: about
 ---

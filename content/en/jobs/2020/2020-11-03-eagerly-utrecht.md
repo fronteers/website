@@ -2,10 +2,16 @@
 layout: layouts/job-single.liquid
 title: Vacature Medior Frontend Developer bij Eagerly (Utrecht)
 date: 2020-11-03
+backgroundcolor: skyblue
 author: Bernard Nijenhuis
+summary: Eegerly zoekt een ambitieuze medior front-end developer!
 categories:
   - Medior
   - UX Developer
+graphic:
+  src: /assets/company-logos/eagerly-internet-logo.png
+  alt: ""
+  class:
 ---
 
 Ter versterking van ons team van 15 specialisten zoeken we een ambitieuze medior frontend developer, die met ons mooie en innovatieve websites wil ontwikkelen voor onze opdrachtgevers (zoals TivoliVredenburg, Nederlands Film Festival, Staatsbosbeheer, KNVB, MBO Utrecht en Anne Frank Stichting). Als frontend developer werk je direct samen met onze UI/UX designer(s) en andere developers om snelle en in het oog springende websites te realiseren.

@@ -1,9 +1,12 @@
 ---
 layout: layouts/blog-list.liquid
-title: Blog
+title: Blogs
+header_navigation_top: true
+order: "40"
 tags: pages
 permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
-order: "40"
+
+key: blogs
 ---
 
 Inleidende tekst...
