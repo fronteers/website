@@ -8,26 +8,26 @@
                 blockContent:content %}
 
             {% if activities.length != 0 %}
-                {% include partials/homepage/upcoming-activities headerlvl:"h2" partialTitle:site.nl.blockTitles.upcomingActivities %}
+                {% include partials/homepage/upcoming-activities headerlvl:"h2" partialTitle:site[locale].blockTitles.upcomingActivities %}
             {% endif %}
 
-            {% include partials/homepage/banner-conference headerlvl:"h2" partialTitle:site.nl.blockTitles.conferenceBanner %}
+            {% include partials/homepage/banner-conference headerlvl:"h2" partialTitle:site[locale].blockTitles.conferenceBanner %}
 
             {% if blogs.length != 0 %}
-                {% include partials/homepage/latest-blogs headerlvl:"h2" partialTitle:site.nl.blockTitles.latestBlogs %}
+                {% include partials/homepage/latest-blogs headerlvl:"h2" partialTitle:site[locale].blockTitles.latestBlogs %}
             {% endif %}
 
-            <!-- {% include partials/homepage/member-special headerlvl:"h2" partialTitle:site.nl.blockTitles.membersSpecial %} -->
+            <!-- {% include partials/homepage/member-special headerlvl:"h2" partialTitle:site[locale].blockTitles.membersSpecial %} -->
 
             {% if members.length > 0 %}
-                {% include partials/homepage/proud-members headerlvl:"h2" partialTitle:site.nl.blockTitles.proudMembers %}
+                {% include partials/homepage/proud-members headerlvl:"h2" partialTitle:site[locale].blockTitles.proudMembers %}
             {% endif %}
 
             <!-- {% include partials/homepage/banner-join-us headerlvl:"h2" 
-                partialTitle:site.nl.blockTitles.joinUs %}  -->
+                partialTitle:site[locale].blockTitles.joinUs %}  -->
 
             {% if jobs.length > 0 %}
-                {% include partials/homepage/active-vacancies headerlvl:"h2" partialTitle:site.nl.blockTitles.activeVacancies %}
+                {% include partials/homepage/active-vacancies headerlvl:"h2" partialTitle:site[locale].blockTitles.activeVacancies %}
             {% endif %}
         </main>
 

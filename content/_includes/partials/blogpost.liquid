@@ -29,13 +29,8 @@
         </ul>
 
         <a href="{{ post.url }}" class="button blog-readmore">
-            {% if locale == 'nl' %}
-                {{ site.nl.blogreadmore }} 
-                <span class="visually-hidden">{{ site.nl.about }} {{ post.data.title }}</span>
-            {% else %}
-                {{ site.en.blogreadmore }}
-                <span class="visually-hidden">{{ site.en.about }} {{ post.data.title }}</span>
-            {% endif %}
+            {{ site[locale].blogreadmore }} 
+            <span class="visually-hidden">{{ site[locale].about }} {{ post.data.title }}</span>
         </a>
     </div>
 </div>
