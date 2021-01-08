@@ -1,7 +1,7 @@
 const glob = require("fast-glob");
-const globcat = require("globcat");
+const globcat = require("globcat"); 
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   /* Rebuild when CSS is changed */
   eleventyConfig.addWatchTarget("./content/_assets/css/");
   /* Copy fonts to the dist directory */
@@ -100,6 +100,14 @@ module.exports = function(eleventyConfig) {
     "include-all",
     async (glob) => await globcat(glob)
   );
+
+  eleventyConfig.addFilter("getDutch", function (value) {
+    return value.filter((post) => Boolean(post.data.locale == "nl"));
+  });
+
+  eleventyConfig.addFilter("getEnglish", function (collection) {
+    return collection.filter((post) => Boolean(post.data.locale == "en"));
+  });
  
   /* All templates in the content directory are parsed and copied to the dist directory */
   return {
