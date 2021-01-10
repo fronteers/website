@@ -22,6 +22,15 @@
     <link rel="alternate" hreflang="nl-NL" href="{{ site[locale].baseUrl }}" />
     <link rel="alternate" hreflang="en-GB" href="{{ site.en.baseUrl }}" />
 
+    {% if locale == 'en' %}
+        {% assign canonical = collections.canonical %} 
+        {% for canoo in canonical %}
+            {% if key == canoo.data.key %}
+                <link rel="canonical" href="{{ canoo.url }}" />
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
     <meta property="og:site_name" content="{{ site[locale].siteName }}">
     <meta property="og:title" content="{{ title or site[locale].siteName }}" />
     <meta property="og:description" content="{{ site[locale].metaDescription }}"/>

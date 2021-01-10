@@ -35,6 +35,12 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addCollection("canonical", function(collection) {
+    return collection.getFilteredByTag("pages")
+      .filter((item) => Boolean(item.data.key))
+      .filter((item) => Boolean(item.data.locale == "nl"))
+  });
+
   eleventyConfig.addCollection("header_navigation", function(collection) {
     return collection.getFilteredByTag("pages")
       .filter((item) => Boolean(item.data.header_navigation_top))
