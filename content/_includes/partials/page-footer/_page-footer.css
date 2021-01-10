@@ -2,43 +2,103 @@
   background: var(--lilac);
   color: black;
 }
-
+/* 
 .page-footer a {
   color: black;
   text-decoration: underline;
+} */
+
+.page-footer .button {
+  background-color: var(--red);
+  text-decoration: none;
 }
 
-.page-footer .list-columns {
+.page-footer .desktop-columns {
   list-style-type: none;
 }
 
-@media all and (min-width: 500px) {
-  .page-footer .list-columns {
+@media all and (min-width: 46.875em) {
+  .page-footer .desktop-columns {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: var(--spacing);
   }
 }
 
-.page-footer .list-columns li {
-  padding: var(--spacing) 0;
+.page-footer .desktop-columns li {
+  padding: var(--spacing);
 }
 
-.page-footer .list-columns li:last-child {
-  padding-right: var(--spacing);
+.page-footer .desktop-columns li:last-child {
+  padding-inline-end: var(--spacing);
 }
 
 .page-footer .page-navigation {
-  width: 100%;
+  inline-size: 100%;
 }
 
-.social-medium {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-24) / 29px var(--unnamed-font-family-fabrik);
-  letter-spacing: var(--unnamed-character-spacing-0);
+.social-media-header {
+  display: flex;
+  align-content: flex-end;
+}
+
+.social-media-title {
+  font-size: var(--font-size-24);
+  font-weight: bold;
   text-align: left;
   font: normal normal bold 24px/29px Fabrik;
   letter-spacing: 0px;
   color: rgba(0, 0, 0, 1);
   opacity: 1;
+  padding: var(--spacing-half);
+}
+
+.social-media-logo {
+  inline-size: 60px;
+  block-size: 90px;
+  text-align: center;
+  background-size: cover;
+  display: block;
+  transform: translate(0, -20px);
+  padding: 0 12px;
+}
+
+.social-media-logo-slack {
+  -webkit-clip-path: url(#parenthesis-down-small);
+  clip-path: url(#parenthesis-down-small);
+  background-color: var(--yellow);
+}
+
+.social-media-logo-twitter {
+  -webkit-clip-path: url(#greater-than-down-small);
+  clip-path: url(#greater-than-down-small);
+  background-color: var(--red);
+}
+
+.social-media-logo-linkedin {
+  -webkit-clip-path: url(#curly-braces-down-small);
+  clip-path: url(#curly-braces-down-small);
+  background-color: var(--purple-wcag-darker);
+}
+
+.social-medium + p {
+  margin-block-start: 0;
+  font-size: var(--font-size-18);
+}
+
+.footer-join-us {
+  font-size: var(--font-size-24);
+}
+
+.footer-join-us-link a {
+  color: black;
+}
+
+.footer-join-us-link a:hover,
+.footer-join-us-link a:focus,
+.footer-join-us-link a:hover + div,
+.footer-join-us-link a:focus + div {
+  background-color: var(--purple-wcag-darker);
+  color: white;
+  text-decoration: underline;
 }

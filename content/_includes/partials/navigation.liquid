@@ -1,0 +1,28 @@
+<nav class="page-navigation page-navigation--{{ where }}" role="navigation" id="navigation">
+    <h2 class="visually-hidden">{{ description }}</h2>
+    <ul class="navigation-list navigation-list--toplevel">
+        {% for item in toplevelloop %} 
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="{{ item.url }}" 
+                    {% if item.url == page.url %}aria-current="page"{% endif %}
+                >
+                    {{ item.data.title }}
+                </a>
+
+                <ul class="navigation-list navigation-list--sublevel">
+                    {%- for subitem in sublevelloop -%}
+                        {% if subitem.data.parent == item.data.key %}
+                            <li class="navigation-list navigation-list-item--sublevel">
+                                <a href="{{ subitem.url }}" 
+                                    {% if subitem.url == page.url %}aria-current="page"{% endif %}
+                                >
+                                    {{ subitem.data.title }}
+                                </a>
+                            </li>
+                        {% endif %}
+                    {%- endfor -%}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

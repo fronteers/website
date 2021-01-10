@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="{{ locale }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ title or site[locale].title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/assets/fonts/Fabrik-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/assets/fonts/Roboto-Bold.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/assets/fonts/Roboto-BoldItalic.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/assets/fonts/Roboto-Italic.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+    
+    <script src="/assets/js/vendor/focus-visible.5.1.0.min.js" crossorigin="anonymous" async></script>
+
+    <meta name="description" content="{{ site[locale].metaDescription }}">
+    <meta name="theme-color" content="#">
+
+    <link rel="alternate" hreflang="nl-NL" href="{{ site[locale].baseUrl }}" />
+    <link rel="alternate" hreflang="en-GB" href="{{ site.en.baseUrl }}" />
+
+    {% if locale == 'en' %}
+        {% assign canonical = collections.canonical %} 
+        {% for canoo in canonical %}
+            {% if key == canoo.data.key %}
+                <link rel="canonical" href="{{ canoo.url }}" />
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+    <meta property="og:site_name" content="{{ site[locale].siteName }}">
+    <meta property="og:title" content="{{ title or site[locale].siteName }}" />
+    <meta property="og:description" content="{{ site[locale].metaDescription }}"/>
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="" />
+    <meta property="og:updated_time" content="{{ site.buildTime | date: "%s" }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ page.permalink }}">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ title or site[locale].siteName }}" />
+    <meta name="twitter:description" content="{{ site[locale].metaDescription }}" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:image:alt" content="" />
+
+</head>
+
+{% comment %}
+    Include svg shapes so we can refer to them from our CSS.
+    Includes the following clip-paths:   
+        #curly-brace-down-large
+
+        #curly-brace-open-tiny
+        #curly-brace-close-tiny
+
+        #greater-than-open-tiny
+        #greater-than-close-tiny
+
+        #parenthesis-open-tiny
+        #parenthesis-close-tiny
+
+        #curly-brace-right-small
+        #greater-than-right-small
+        #parenthesis-right-small
+
+        #parenthesis-down-small
+        #greater-than-down-small
+        #curly-brace-down-small
+
+        #parenthesis-down-tiny
+        #greater-than-down-tiny
+        #curly-brace-down-tiny
+    {% endcomment %}
+{% include svg/shapes.svg %}
+
+
+{% if locale == "nl" %}
+    {% assign header_navigation = collections.header_navigation | getDutch %}
+    {% assign header_sub_navigation = collections.sub_navigation | getDutch %}
+    {% assign footer_navigation = collections.footer_navigation | getDutch %}
+    {% assign footer_sub_navigation = collections.sub_navigation | getDutch %}
+    {% assign blogposts = collections.published_posts | getDutch %}
+    {% assign activities = collections.published_activities  | getDutch %}
+    {% assign jobs = collections.published_jobs  | getDutch %} 
+    {% assign members = collections.published_members  | getDutch  %}
+    {% assign freelancers = collections.freelancers  | getDutch  %}
+{% else %}
+    {% assign blogposts = collections.published_posts | getEnglish %}
+    {% assign activities = collections.published_activities  | getEnglish %}
+    {% assign jobs = collections.published_jobs  | getEnglish %} 
+    {% assign members = collections.published_members  | getEnglish  %}
+    {% assign freelancers = collections.freelancers  | getEnglish  %}
+    {% assign header_navigation = collections.header_navigation | getEnglish %}
+    {% assign header_sub_navigation = collections.sub_navigation | getEnglish %}
+    {% assign footer_navigation = collections.footer_navigation | getEnglish %}
+    {% assign footer_sub_navigation = collections.sub_navigation | getEnglish %}
+{% endif %}

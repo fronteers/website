@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72" aria-hidden="true">
+  <defs>
+    <clipPath id="clip-Button_play">
+      <rect width="72" height="72"/>
+    </clipPath>
+  </defs>
+  <g id="Button_play" clip-path="url(#clip-Button_play)">
+    <rect width="72" height="72" fill="transparent"/>
+    <g id="Group_503" data-name="Group 503" transform="translate(-0.204)">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="36" cy="36" r="36" transform="translate(0.204)" fill="#fe796a"/>
+      <path id="Path_120" data-name="Path 120" d="M35.213,0V13.347L17.606,25.291,0,13.347V0Z" transform="translate(26.874 53.282) rotate(-90)"/>
+    </g>
+  </g>
+</svg>

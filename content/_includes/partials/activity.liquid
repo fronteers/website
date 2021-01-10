@@ -1,0 +1,28 @@
+<div class="activity activity--{{ index }}">
+    <div class="activity-header">
+        <div class="activity-header-content">
+            {% include partials/utility/dynamic-headerlevel level:headerlvl title:activity.data.title link:activity.url %}
+            <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
+                {{ activity.data.eventdate | date: "%d %B %Y" }}
+            </time>
+        </div>
+    </div>
+    <div class="activity-content">
+        {{ activity.templateContent | truncate: 200 }}<br />
+
+        {% if activity.data.location %}
+            <p class="activity-location">{% include svg/icon_location.svg %} {{ activity.data.location }}</p>
+        {% else %}
+            <p class="activity-location">{% include svg/icon_location.svg %} 
+                {{ site[locale].locationUnknown }}
+            </p>
+        {% endif %}
+
+        {%- for tag in activity.data.categories -%}
+            {% tag tag %}
+        {% endfor %} 
+    </div>
+    <div class="activity-footer">
+        <a href="{{ activity.url }}" class="button">Meld je aan</a>
+    </div>
+</div>

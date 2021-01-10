@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  font-family: var(--font-family-decoration), sans-serif;
+}
+
+p {
+  font-family: var(--font-family-content), sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  margin: 0;
+  padding: 0;
+}
+
+code,
+var,
+kbd,
+samp,
+tt,
+abbr,
+acronym,
+blockquote,
+q {
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+
+li::before {
+  content: "\200B"; /* Make VoiceOver + list-style-type: none; play nice */
+  position: absolute;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  block-size: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  inline-size: 1px;
+}

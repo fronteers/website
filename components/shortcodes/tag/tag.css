@@ -3,7 +3,9 @@
   display: inline-flex;
   justify-content: space-between;
   padding: 0.5em 1em;
-  background: var(--lilac);
+  margin: 0 1em;
+  background: var(--lilac-light);
+  font-size: var(--font-size-12);
 }
 
 .tag::before,
@@ -13,8 +15,8 @@
   bottom: 0;
   content: "";
   display: inline-block;
-  width: 1em;
-  background: var(--lilac);
+  inline-size: 1em;
+  background: var(--lilac-light);
 }
 
 .tag::before {
@@ -34,5 +36,5 @@
 }
 
 .tag + .tag {
-  margin-left: 2em;
+  margin-inline-start: 2em;
 }

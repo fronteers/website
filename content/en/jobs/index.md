@@ -1,10 +1,14 @@
 ---
 layout: layouts/job-list.liquid
-title: Jobs
-tags: pages
 permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
-page-header-navigation:
-  order: 4
+tags: pages
+
+# navigation settings
+header_navigation_top: true
+key: job-overview
+order: "90"
+
+title: Jobs
 ---
 
-Welcome to our job listings!
+Inleidende tekst...

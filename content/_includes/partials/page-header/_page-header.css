@@ -1,9 +1,10 @@
 .page-header {
   background: black;
   color: white;
+  position: relative;
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 31em) {
   .page-header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -32,4 +33,10 @@
 
 .page-navigation--header {
   grid-area: navigation;
+}
+
+.navigation-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

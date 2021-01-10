@@ -1,0 +1,17 @@
+.proud-members {
+  overflow-x: visible;
+  position: relative;
+}
+
+@media all and (min-width: 500px) {
+  .proud-members .desktop-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: var(--spacing);
+    margin-block-end: 0;
+  }
+}
+
+.proud-members:focus-within {
+  z-index: 3;
+}

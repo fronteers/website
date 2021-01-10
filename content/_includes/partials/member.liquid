@@ -1,20 +1,29 @@
 <div class="member">
-    <header class="member-header"> 
+    <header class="member-header member-header-{{ index }}"> 
         <div class="member-header-background"></div>
         {% if member.data.graphic %}
             <img src="{{ member.data.graphic.src }}" 
                 alt="{% if member.data.graphic.alt %}{{ member.data.graphic.alt }}{% endif %}"
-                class="member-graphic {{ member.data.graphic.class unless "null" }}" 
+                class="member-graphic" 
             />
         {% endif %}
-        {% include partials/dynamic-headerlevel level:headerlvl title:member.data.title link:member.url %}
+        {% include partials/utility/dynamic-headerlevel level:"h3" title:member.data.title link:member.url %}
     </header>
     <div class="member-content">
-        {{ member.date | date: "%d %B %Y" }}<br />
-        {{ member.data.author }} <br />
-        {{ member.templateContent | truncate: 200 }}<br />
-        {%- for tag in member.data.categories -%}
-            {% tag tag %}
-        {% endfor %}
+        {{ member.templateContent | truncate: 150 }}
+
+        {% if member.data.specialties %}
+        <p>
+            <strong>Specialties:</strong><br />
+            {{ member.data.specialties }}
+        </p>
+        {% endif %}
+
+        {% if member.data.status %}
+        <p>
+            <strong>Status:</strong><br />
+            {{ member.data.status }}
+        </p>
+        {% endif %}
     </div>
 </div>

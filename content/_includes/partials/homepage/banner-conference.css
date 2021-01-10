@@ -1,0 +1,30 @@
+.banner-conference {
+  background-image: url("/assets/images/banner-conference.jpg");
+  display: flex;
+  place-content: center;
+  flex-wrap: wrap;
+}
+
+.banner-conference::after {
+  content: " ";
+  inline-size: 100%;
+  block-size: 100%;
+  z-index: 1;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+}
+
+.banner-conference svg {
+  z-index: 2;
+}
+
+.banner-conference:hover svg circle,
+.banner-conference:focus svg circle {
+  fill: var(--purple);
+}
+
+.banner-conference:hover svg path,
+.banner-conference:focus svg path {
+  fill: white;
+}
