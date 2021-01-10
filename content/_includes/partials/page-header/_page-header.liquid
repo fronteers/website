@@ -5,5 +5,7 @@
     {% include partials/page-header/navigation-triggers %}
 
     {% include partials/page-header/search-and-translate %}
-    {% include partials/page-header/navigation %}
+
+    {% include partials/navigation where:"header" description:"Main navigation" toplevelloop:header_navigation sublevelloop:header_sub_navigation %}
+
 </header>

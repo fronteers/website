@@ -34,5 +34,6 @@
             <p class="footer-join-us-link"><a href="{{ locale }}/join-us/" class="button button-parentheses">Join us</a></p>
         </li>
     </ul>
-    {% include partials/page-footer/navigation %}
+
+    {% include partials/navigation where:"footer" description:"Footer navigation" toplevelloop:footer_navigation sublevelloop:footer_sub_navigation %}
 </footer>
