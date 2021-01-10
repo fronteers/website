@@ -1,18 +1,48 @@
+{% assign allURLS = collections.all %} 
+    
 <nav class="page-header-translate" aria-label="{% if locale == 'nl' %}{{ site[locale].ariaTitleTranslateNav }}{% else %}{{ site.en.ariaTitleTranslateNav }}{% endif %}">
     <h2  class="visually-hidden">Translate</h2>
     <ul>
-        <li>{% if locale == 'nl' %}
+        <li lang="nl">
+            {% if locale == 'nl' %}
                 <span>NL</span>
             {% else %}
-                <a href="/nl/">NL</a>
+                {% assign matchFound = false %}
+                {% for item in allURLS %}
+                    <!-- if current page key is the same, use the found link to link user to that translated version -->
+                    {% if key == item.data.key %}
+                        {% if item.data.locale == "nl" %}
+                            {% assign matchFound = true %}
+                            <a href="{{ item.url }}" />NL</a>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+    
+                {% if matchFound == false %} false
+                    <a href="/nl/">ENG</a>
+                {% endif %}
             {% endif %}
         </li>
         <li lang="en">
             {% if locale == 'en' %}
                 <span>ENG</span>
             {% else %}
-                <a href="/en/">ENG</a>
+                {% assign matchFound = false %}
+                {% for item in allURLS %}
+                    <!-- if current page key is the same, use the found link to link user to that translated version -->
+                    {% if key == item.data.key %}
+                        {% if item.data.locale == "en" %}
+                            {% assign matchFound = true %}
+                            <a href="{{ item.url }}" />ENG</a>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if matchFound == false %} false
+                    <a href="/en/">ENG</a>
+                {% endif %}
             {% endif %}
+
         </li>
     </ul>
 </nav>
