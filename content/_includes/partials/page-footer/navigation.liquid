@@ -9,7 +9,21 @@
                     {{ item.data.title }}
                 </a>
                 
-                {% include partials/page-footer/navigation-sub key:item.data.key %}
+                {% if footer_sub_navigation.length > 0 %}
+                    <ul class="navigation-list navigation-list--sublevel">
+                        {%- for subitem in footer_sub_navigation -%}
+                            {% if subitem.data.parent == item.data.key %}
+                                <li class="navigation-list navigation-list-item--sublevel">
+                                    <a href="{{ subitem.url }}" 
+                                        {% if subitem.url == page.url %}aria-current="page"{% endif %}
+                                    >
+                                        {{ subitem.data.title }}
+                                    </a>
+                                </li>
+                            {% endif %}
+                        {%- endfor -%}
+                    </ul>
+                {% endif %}
             </li>
         {% endfor %}
     </ul>
