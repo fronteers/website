@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.liquid
-title: Code of conduct
-order: "30" 
 
+# navigation settings
 key: code-of-conduct
+order: "30"
 parent: join-us
+
+title: Code of conduct
 ---

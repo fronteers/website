@@ -83,22 +83,16 @@
 
 @media all and (min-width: 46.875em) {
   .job {
-    display: grid;
-    grid-template-columns: max-content auto;
-    grid-template-areas:
-      "job-graphic job-content"
-      "job-graphic job-footer";
-    grid-gap: var(--spacing);
-    margin-block-end: var(--spacing);
+    flex-direction: row;
     min-height: 190px;
+    position: relative;
   }
 
   .job-graphic {
-    inline-size: 300px;
+    flex: 0 0 300px;
     min-height: 100%;
     text-align: center;
     background-size: cover;
-    grid-area: job-graphic;
   }
 
   .job-1 .job-graphic {
@@ -116,17 +110,18 @@
     clip-path: url(#parenthesis-right-small);
   }
 
-  .job-content {
-    padding-inline-start: 0;
-    grid-area: job-content;
-  }
-
   .job-content p:last-child {
-    margin: 0;
+    margin-block-end: 0;
   }
 
   .job-meta {
-    grid-area: job-footer;
     padding-inline-start: 0;
+    justify-content: flex-start;
+  }
+
+  .job-readmore {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }

@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.liquid
-title: Voorwaarden
-order: "20" 
 
+# navigation settings
 key: conditions
+order: "20" 
 parent: join-us
+
+title: Voorwaarden
 ---

@@ -62,19 +62,22 @@ module.exports = function (eleventyConfig) {
     return collection
       .getFilteredByTag("posts")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((item) => Boolean(!item.data.parent))
       .reverse();
   });
 
   eleventyConfig.addCollection("published_activities", function(collection) {
     return collection
       .getFilteredByTag("activities")
-      .filter((post) => Boolean(!post.data.draft));
+      .filter((post) => Boolean(!post.data.draft))
+      .filter((item) => Boolean(!item.data.parent));
   });
 
   eleventyConfig.addCollection("published_jobs", function(collection) {
     return collection
       .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((item) => Boolean(!item.data.parent))
       .reverse();
   });
 

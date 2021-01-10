@@ -1,5 +1,7 @@
 <div class="job job-{{ index }}">
-    <div class="job-graphic" style="background-color: {{ job.data.backgroundcolor }}">
+    <div class="job-graphic" 
+    {%- if job.data.backgroundcolor -%}style="background-color: {{ job.data.backgroundcolor }}"
+    {%- endif -%}>
         <img src="{{ job.data.graphic.src }}" alt="{{ job.data.graphic.alt }}" />
     </div>
     <div class="job-content">
@@ -12,25 +14,25 @@
         {% else %}
             {{ job.templateContent | striptags | truncate: 115  }}
         {% endif %}
-    </div>
 
-    <div class="job-meta">
-        <p class="job-byline">
-            <time class="blog-time" datetime="{{ job.date | date: "%Y-%m-%d" }}">
-                {{ job.date | date: "%d.%m.%y" }}
-            </time>
-            <!-- {{ job.data.author }} -->
-        </p>
-        <ul class="job-tags">
-            {%- for tag in job.data.categories limit:2 -%}
-                <li>{% tag tag %}</li>
-            {% endfor %}
-        </ul>
+        <div class="job-meta">
+            <p class="job-byline">
+                <time class="blog-time" datetime="{{ job.date | date: "%Y-%m-%d" }}">
+                    {{ job.date | date: "%d.%m.%y" }}
+                </time>
+                <!-- {{ job.data.author }} -->
+            </p>
+            <ul class="job-tags">
+                {%- for tag in job.data.categories limit:2 -%}
+                    <li>{% tag tag %}</li>
+                {% endfor %}
+            </ul>
 
-        <a href="{{ job.url }}" class="button job-readmore">
-            {{ site[locale].jobreadmore }} 
-            <span class="visually-hidden">{{ site[locale].about }} {{ job.data.title }}</span>
-        </a>
+            <a href="{{ job.url }}" class="button job-readmore">
+                {{ site[locale].jobreadmore }} 
+                <span class="visually-hidden">{{ site[locale].about }} {{ job.data.title }}</span>
+            </a>
+        </div>
     </div>
 </div>
  

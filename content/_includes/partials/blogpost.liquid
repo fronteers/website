@@ -1,34 +1,38 @@
-<div class="blog-post blog-post-{{ index }}">
-    <img src="{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
-    <div class="blog-content">
-        {% include partials/utility/dynamic-headerlevel level:headerlvl title:post.data.title link:post.url %}
-    
-        {% if post.data.summary %}
-            <p class="blog-summary">{{ post.data.summary }}</p>
-        {% else %}
-            {{ post.templateContent | striptags | truncate: 215  }}
-        {% endif %}
+<div class="blog blog-{{ index }}">
+    <div class="content-graphic">
+        <img src="{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
     </div>
 
-    <div class="blog-meta">
-        <p class="blog-byline">
-            <time class="blog-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
+    <div class="content-text">
+        <div class="blog-content">
+            {% include partials/utility/dynamic-headerlevel level:headerlvl title:post.data.title link:post.url %}
+        
+            {% if post.data.summary %}
+                <p class="blog-summary">{{ post.data.summary }}</p>
+            {% else %}
+                <p class="blog-summary">{{ post.templateContent | striptags | truncate: 215 | strip_html  }}</p>
+            {% endif %}
+        </div>
+
+        <div class="content-meta">
+            <time class="content-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
                 {{ post.date | date: "%d.%m.%y" }}
             </time>
 
             {% for member in members %}
                 {% if member.data.title == post.data.author %}
-                    <a href="/{{ locale }}/members/{{ member.fileSlug }}/index.html">{{ post.data.author }}</a>
+                    <p><a href="/{{ locale }}/members/{{ member.fileSlug }}/index.html">{{ post.data.author }}</a></p>
                 {% endif %}
             {% endfor %}
-        </p>
-        <ul class="blog-tags">
-            {%- for tag in post.data.categories limit:2 -%}
-                <li>{% tag tag %}</li>
-            {% endfor %}
-        </ul>
 
-        <a href="{{ post.url }}" class="button blog-readmore">
+            <ul class="blog-tags">
+                {%- for tag in post.data.categories limit:2 -%}
+                    <li>{% tag tag %}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <a href="{{ post.url }}" class="button button-readmore">
             {{ site[locale].blogreadmore }} 
             <span class="visually-hidden">{{ site[locale].about }} {{ post.data.title }}</span>
         </a>

@@ -90,6 +90,7 @@ main section > .h {
 
   .mobile-slider-item {
     margin-inline-end: 0;
+    margin-block-end: var(--spacing);
     inline-size: 100%;
   }
 }

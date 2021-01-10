@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.liquid
-title: Lidmaatschap
-order: "10" 
 
+# navigation settings
 key: membership
+order: "10" 
 parent: join-us
+
+title: Lidmaatschap
 ---
