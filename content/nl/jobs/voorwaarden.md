@@ -1,10 +1,11 @@
 ---
 layout: layouts/page.liquid
+tags: pages
 
 # navigation settings
 key: conditions
 order: "20" 
-parent: join-us
+parent: job-overview
 
 title: Voorwaarden
 ---

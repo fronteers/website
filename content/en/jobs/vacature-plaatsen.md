@@ -1,10 +1,11 @@
 ---
 layout: layouts/page.liquid
+tags: pages
 
 # navigation settings
-key: code-of-conduct
+key: job-archive
 order: "30"
-parent: join-us
+parent: job-overview
 
-title: Code of conduct
+title: Archief
 ---

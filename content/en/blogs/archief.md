@@ -1,8 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Archief
-order: "10" 
+tags: pages
 
+# navigation
 key: blogarchief
+order: "10" 
 parent: blogs
+
+title: Archief
 ---

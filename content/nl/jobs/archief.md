@@ -3,9 +3,9 @@ layout: layouts/page.liquid
 tags: pages
 
 # navigation settings
-key: conditions
-order: "20" 
+key: membership
+order: "10" 
 parent: job-overview
 
-title: Voorwaarden
+title: Lidmaatschap
 ---

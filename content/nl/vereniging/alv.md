@@ -1,10 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Algemene Ledenvergadering
 tags: pages
-order: "30"
 
+# navigation
 key: alv
+order: "30"
 parent: about
-  
+
+title: Algemene Ledenvergadering
 ---

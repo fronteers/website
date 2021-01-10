@@ -1,10 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Organisatie
 tags: pages
-order: "10"
 
+# navigation
 key: organisation
+order: "10"
 parent: about
-  
+
+title: Organisatie
 ---

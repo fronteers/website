@@ -1,9 +1,12 @@
 ---
-title: Kitchensink
 layout: layouts/page.liquid
+
+# navigation
 footer_navigation: true
 key: kitchensink
 order: "99"
+
+title: Kitchensink
 ---
 
 ## Headings, paragraphs and links

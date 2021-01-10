@@ -32,11 +32,11 @@
   flex-direction: column;
 }
 
-.activity-header--parenthesis .activity-header-content {
+.activity--1 .activity-header-content {
   background-color: var(--yellow);
 }
 
-.activity-header--parenthesis::after {
+.activity--1 .activity-header::after {
   inline-size: 100%;
   block-size: 0;
   padding-block-end: 22.8%;
@@ -48,11 +48,11 @@
   clip-path: url(#parenthesis-down-tiny);
 }
 
-.activity-header--greater-than .activity-header-content {
+.activity--2 .activity-header-content {
   background-color: var(--red);
 }
 
-.activity-header--greater-than::after {
+.activity--2 .activity-header::after {
   inline-size: 100%;
   block-size: 0;
   padding-block-end: 22.8%;
@@ -64,11 +64,11 @@
   clip-path: url(#greater-than-down-tiny);
 }
 
-.activity-header--curly-brace .activity-header-content {
+.activity--3 .activity-header-content {
   background-color: var(--lilac);
 }
 
-.activity-header--curly-brace::after {
+.activity--3 .activity-header::after {
   inline-size: 100%;
   block-size: 0;
   padding-block-end: 22.8%;

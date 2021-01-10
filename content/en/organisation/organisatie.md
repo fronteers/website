@@ -1,9 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Geschiedenis
 tags: pages
-order: "80"
 
-key: history
+# navigation
+key: organisation
+order: "10"
 parent: about
+
+title: Organisatie
 ---

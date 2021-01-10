@@ -1,9 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Commissies
 tags: pages
-order: "40"
 
-key: commissions
+# navigation
+key: freelancers
+order: "60"
 parent: about
+
+title: Freelancers
 ---

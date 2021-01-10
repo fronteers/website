@@ -2,10 +2,13 @@
 layout: layouts/job-list.liquid
 permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
 tags: pages
-title: Jobs
+
+# navigation settings
 header_navigation_top: true
-order: "90"
 key: job-overview
+order: "90"
+
+title: Jobs
 ---
 
 Inleidende tekst...

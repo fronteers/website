@@ -1,9 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Freelancers
 tags: pages
-order: "60"
 
+# navigation
 key: freelancers
+order: "60"
 parent: about
+
+title: Freelancers
 ---

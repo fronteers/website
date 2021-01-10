@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.liquid
-title: Mail ons
 
+# navigation 
 key: mail
 parent: contact
 order: "30"
+
+title: Mail us
 ---

@@ -1,8 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Support
 tags: pages
-order: "70"
+
+# navigation
 key: history
+order: "70"
 parent: about
+
+title: Support
 ---

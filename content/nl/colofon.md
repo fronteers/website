@@ -1,7 +1,10 @@
 ---
 layout: layouts/page.liquid
-title: Colofon
+
+# navigation
 footer_navigation: true
-key: colofon
+key: colophon
 order: "70"
+
+title: Colofon
 ---

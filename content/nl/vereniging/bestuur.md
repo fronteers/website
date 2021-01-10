@@ -1,9 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Bestuur
 tags: pages
-order: "20"
 
+# navigation
 key: board
+order: "20"
 parent: about
+
+title: Bestuur
 ---

@@ -1,9 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Leden
 tags: pages
-order: "50"
 
+# navigation
 key: members
+order: "50"
 parent: about
+
+title: Leden
 ---

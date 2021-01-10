@@ -3,9 +3,9 @@ layout: layouts/page.liquid
 tags: pages
 
 # navigation settings
-key: conditions
-order: "20" 
+key: job-archive
+order: "30"
 parent: job-overview
 
-title: Voorwaarden
+title: Archief
 ---

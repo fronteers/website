@@ -1,9 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Geschiedenis
 tags: pages
-order: "80"
 
+# navigation
 key: history
+order: "80"
 parent: about
+
+title: Geschiedenis
 ---

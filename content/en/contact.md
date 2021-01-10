@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.liquid
-title: Contact
-footer_navigation: true
 
+# navigation
+footer_navigation: true
 key: contact
 order: "30"
+
+title: Contact
 ---

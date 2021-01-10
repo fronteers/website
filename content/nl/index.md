@@ -1,11 +1,8 @@
 ---
 layout: layouts/home.liquid
-title: Fronteers
-eleventyExcludeFromCollections: true
 permalink: "/{{ locale }}/index.html"
 
-key: Home
-order: "10"
+title: Fronteers
 ---
 
 ## We unite front-end developers! <br /> And we do it with pride.

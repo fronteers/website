@@ -1,8 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Support
 tags: pages
-order: "70"
-key: history
+
+# navigation
+key: members
+order: "50"
 parent: about
+
+title: Leden
 ---

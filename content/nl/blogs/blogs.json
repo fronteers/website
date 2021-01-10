@@ -1,4 +1,5 @@
 {
+  "layout": "layouts/blog-single.liquid",
   "permalink": "/{{ locale }}/blogs/{{ page.fileSlug }}/index.html",
   "tags": "posts"
 }

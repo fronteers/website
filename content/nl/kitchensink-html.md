@@ -1,10 +1,12 @@
 ---
-title: Kitchensink-HTML
-footer_navigation: true
 layout: layouts/page.liquid
 
+# navigation
+footer_navigation: true
 key: kitchensink
 order: "99"
+
+title: Kitchensink-HTML
 ---
 
 <div id="wrapper">

@@ -1,9 +1,11 @@
 ---
 layout: layouts/page.liquid
-title: Leden
 tags: pages
-order: "50"
 
-key: members
+# navigation
+key: board
+order: "20"
 parent: about
+
+title: Bestuur
 ---

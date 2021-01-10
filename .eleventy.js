@@ -70,7 +70,8 @@ module.exports = function (eleventyConfig) {
     return collection
       .getFilteredByTag("activities")
       .filter((post) => Boolean(!post.data.draft))
-      .filter((item) => Boolean(!item.data.parent));
+      .filter((item) => Boolean(!item.data.parent))
+      .sort((a, b) => a.data.eventdate - b.data.eventdate);
   });
 
   eleventyConfig.addCollection("published_jobs", function(collection) {

@@ -8,3 +8,4 @@ graphic:
 ---
 
 Edwin zit in het bestuur sinds 2017 en vervult de rol van secretaris. Hij woont in een gezellig vol huis in Hilversum met vrouw, dochters en poezen.
+
