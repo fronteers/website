@@ -34,6 +34,18 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 {% button "button" "Klik mij" %}
 
+
+## Navigation
+
+\{\% include partials/navigation 
+where:"header" 
+description:"Main navigation" 
+toplevelloop:header_navigation 
+sublevelloop:header_sub_navigation \%\}
+
+Renders the navigation bars in the header and the footer.
+
+
 ## POC paired shortcode
 
 \{\% block "Title" \%\}
