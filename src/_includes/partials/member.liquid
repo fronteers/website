@@ -10,13 +10,17 @@
         {% include partials/utility/dynamic-headerlevel level:"h3" title:member.data.title link:member.url %}
     </header>
     <div class="member-content">
-        {{ member.templateContent | truncate: 150 }}
+        {% if member.data.summary %}
+            <p class="member-summary">{{ member.data.summary }}</p>
+        {% else %}
+            <p class="member-summary">{{ member.templateContent | striptags | truncate: 150 | strip_html  }}</p>
+        {% endif %}
 
         {% if member.data.specialties %}
-        <p>
-            <strong>Specialties:</strong><br />
-            {{ member.data.specialties }}
-        </p>
+            <p>
+                <strong>Specialties:</strong><br />
+                {{ member.data.specialties }}
+            </p>
         {% endif %}
 
         {% if member.data.status %}

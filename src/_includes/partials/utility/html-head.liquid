@@ -76,7 +76,6 @@
     {% endcomment %}
 {% include svg/shapes.svg %}
 
-
 {% if locale == "nl" %}
     {% assign header_navigation = collections.header_navigation | getDutch %}
     {% assign header_sub_navigation = collections.sub_navigation | getDutch %}
@@ -88,13 +87,13 @@
     {% assign members = collections.published_members  | getDutch  %}
     {% assign freelancers = collections.freelancers  | getDutch  %}
 {% else %}
+    {% assign header_navigation = collections.header_navigation | getEnglish %}
+    {% assign header_sub_navigation = collections.sub_navigation | getEnglish %}
+    {% assign footer_navigation = collections.footer_navigation | getEnglish %}
+    {% assign footer_sub_navigation = collections.sub_navigation | getEnglish %}
     {% assign blogposts = collections.published_posts | getEnglish %}
     {% assign activities = collections.published_activities  | getEnglish %}
     {% assign jobs = collections.published_jobs  | getEnglish %} 
     {% assign members = collections.published_members  | getEnglish  %}
     {% assign freelancers = collections.freelancers  | getEnglish  %}
-    {% assign header_navigation = collections.header_navigation | getEnglish %}
-    {% assign header_sub_navigation = collections.sub_navigation | getEnglish %}
-    {% assign footer_navigation = collections.footer_navigation | getEnglish %}
-    {% assign footer_sub_navigation = collections.sub_navigation | getEnglish %}
 {% endif %}

@@ -3,21 +3,21 @@ const globcat = require("globcat");
 
 module.exports = function (eleventyConfig) {
   /* Rebuild when CSS is changed */
-  eleventyConfig.addWatchTarget("./content/_assets/css/");
+  eleventyConfig.addWatchTarget("./src/_assets/css/");
   /* Copy fonts to the dist directory */
   eleventyConfig.addPassthroughCopy({
-    "content/_assets/fonts": "assets/fonts",
+    "src/_assets/fonts": "assets/fonts",
   });
   /* Copy images to the dist directory */
   eleventyConfig.addPassthroughCopy({
-    "content/_assets/images": "assets/images",
+    "src/_assets/images": "assets/images",
   });
   /* Copy images to the dist directory */
   eleventyConfig.addPassthroughCopy({
-    "content/nl/jobs/company-logos": "assets/company-logos/",
+    "src/nl/jobs/company-logos": "assets/company-logos/",
   });
   /* Copy js to the dist directory */
-  eleventyConfig.addPassthroughCopy({ "content/_assets/js": "assets/js" });
+  eleventyConfig.addPassthroughCopy({ "src/_assets/js": "assets/js" });
 
   /* Load all paired shortcodes */
   glob.sync("components/paired/**/*.js").forEach((file) => {
@@ -122,7 +122,7 @@ module.exports = function (eleventyConfig) {
   /* All templates in the content directory are parsed and copied to the dist directory */
   return {
     dir: {
-      input: "content",
+      input: "src",
       output: "dist",
     },
   };

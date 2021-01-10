@@ -8,7 +8,11 @@
         </div>
     </div>
     <div class="activity-content">
-        {{ activity.templateContent | truncate: 200 }}<br />
+        {% if activity.data.summary %}
+            <p class="activity-summary">{{ activity.data.summary }}</p>
+        {% else %}
+            <p class="activity-summary">{{ activity.templateContent | striptags | truncate: 200 | strip_html  }}</p>
+        {% endif %}
 
         {% if activity.data.location %}
             <p class="activity-location">{% include svg/icon_location.svg %} {{ activity.data.location }}</p>
