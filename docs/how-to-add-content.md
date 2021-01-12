@@ -52,7 +52,7 @@ Then there are some settings to make this page show up in the navigation bars in
 
 - *permalink*: the URL Eleventy should generate for the page, useful for making one-off landingpages. Is used to overwrite the URL for the page to something more reader friendly. Most permalinks are automatically generated following the file structure. For example, `src/nl/jobs/archief` will render to `https://fronteers.nl/nl/jobs/archief/index.html . 
 - *title*: The page title. If exists, is used in the `<title></title>` tag and meta tags
-- *date*: should be either a date in the `YYYY-MM-DD` format, or the literal string "Last Modified"
+- *date*: should be either a date in the `YYYY-MM-DD` format, or the literal string "Last Modified" to let it be the build time. If you add a date in the future, it will be scheduled for that date.
 - *author*: the name of the page author. Use the full name of the person, firstname and lastname, and this will link to the author's member page if it exists.
 
 ## 'Blogs' frontmatter settings
@@ -109,3 +109,10 @@ These are unique fields to the `members` type:
 - *summary*: Add a manual (short) summary for the members
 - *freelancer*: A boolean value. Determines if this member is added to the collection 'freelancers'. 
 - *specialties*: Is just a string, not an array of items.
+
+
+## Pre-configuration of pages' frontmatter
+
+<span id="pre-configuration-of-pages">&nbsp;</span>
+
+In some folders, like `src/nl/jobs/` you'll find a `.JSON` file. This file contains the defaults for the pages (whether they have the `.liquid` or `.md` extensions) in the same folder, and those in the subfolders. 
