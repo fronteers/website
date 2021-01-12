@@ -1,5 +1,7 @@
-{% assign allURLS = collections.all %} 
-    
+{% comment %}
+If we are on a page that is in English, loop through all content on the website (line 12-17) and match the current page's 'key' frontmatter setting and filter out the Dutch pages (line 13). We set a variable `matchFound` (line 14) and count how many times we've been through this loop and had a match (line 14, the `| plus 1` bit). If the loop was succesfull and we found a translated version of this same page, link it (line 15), if we found no matches or way too many (due to the current page not having a key, and it being matched to other key-less pages), just link to the homepage (line 19-21). Yay!
+{% endcomment %}
+
 <nav class="page-header-translate" aria-label="{% if locale == 'nl' %}{{ site[locale].ariaTitleTranslateNav }}{% else %}{{ site.en.ariaTitleTranslateNav }}{% endif %}">
     <h2  class="visually-hidden">Translate</h2>
     <ul>
@@ -7,18 +9,14 @@
             {% if locale == 'nl' %}
                 <span>NL</span>
             {% else %}
-                {% assign matchFound = false %}
-                {% for item in allURLS %}
-                    <!-- if current page key is the same, use the found link to link user to that translated version -->
-                    {% if key == item.data.key %}
-                        {% if item.data.locale == "nl" %}
-                            {% assign matchFound = true %}
-                            <a href="{{ item.url }}" />NL</a>
-                        {% endif %}
+                {% for item in collections.all %}
+                    {% if key == item.data.key and item.data.locale == "nl" %}
+                        {% assign matchFound = matchFound | plus: 1 %}
+                        <a href="{{ item.url }}" />NL</a>
                     {% endif %}
                 {% endfor %}
     
-                {% if matchFound == false %}
+                {% if matchFound == 0 or matchFound >= 2 %}
                     <a href="/nl/">ENG</a>
                 {% endif %}
             {% endif %}
@@ -27,18 +25,15 @@
             {% if locale == 'en' %}
                 <span>ENG</span>
             {% else %}
-                {% assign matchFound = false %}
-                {% for item in allURLS %}
-                    <!-- if current page key is the same, use the found link to link user to that translated version -->
-                    {% if key == item.data.key %}
-                        {% if item.data.locale == "en" %}
-                            {% assign matchFound = true %}
-                            <a href="{{ item.url }}" />ENG</a>
-                        {% endif %}
+                {% assign matchFound == 0 %}
+                {% for item in collections.all %}
+                    {% if key == item.data.key and item.data.locale == "en" %}
+                        {% assign matchFound = matchFound | plus: 1 %}
+                        <a href="{{ item.url }}" />ENG</a>
                     {% endif %}
                 {% endfor %}
 
-                {% if matchFound == false %}
+                {% if matchFound == 0 or matchFound >= 2 %}
                     <a href="/en/">ENG</a>
                 {% endif %}
             {% endif %}
