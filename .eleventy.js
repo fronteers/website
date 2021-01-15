@@ -12,9 +12,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/_assets/images": "assets/images",
   });
-  /* Copy images to the dist directory */
   eleventyConfig.addPassthroughCopy({
-    "src/nl/jobs/company-logos": "assets/company-logos/",
+    "src/_assets/company-logos": "assets/company-logos/",
+  });
+  eleventyConfig.addPassthroughCopy({
+    "src/_assets/member-avatars": "assets/member-avatars/",
   });
   /* Copy js to the dist directory */
   eleventyConfig.addPassthroughCopy({ "src/_assets/js": "assets/js" });

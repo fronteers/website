@@ -74,7 +74,7 @@ a[aria-current="page"]:focus {
     background: black;
     position: absolute;
     top: 100%;
-    z-index: 2;
+    z-index: 5;
     min-width: 300px;
   }
 
