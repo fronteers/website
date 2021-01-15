@@ -1,19 +1,18 @@
 ---
 ## this file is a liquid file, so we could setup pagination correctly and use liquid in this file. Also check the permalink, which conditionally adds bits to the URL per generated paginated page.
-layout: layouts/job-list.liquid
+layout: layouts/activity-list.liquid
 permalink: "/{{ locale }}/{{ page.fileSlug }}/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber }}/{% endif %}index.html"
 
 tags: pages
 
 # navigation settings
 header_navigation_top: true
-key: job-overview
-order: "90"
+key: activities
+order: "20"
 
-title: Jobs
+title: Activiteiten
 
 pagination:
-  data: collections.published_jobs
-  size: 5
+  data: collections.published_activities
+  size: 3
 ---
-
