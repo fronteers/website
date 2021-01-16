@@ -8,6 +8,14 @@
             <h2>{{ title }}</h2>
             {{ content }}
 
+            <h3>Categories</h3>
+            {% for category in collections.jobCategories %}
+              {% if loop.first %}
+                <p><a href="/{{locale}}/{{ page.fileSlug }}/">{{ site[locale].all }}</a></p>
+              {% endif %}
+              <p><a href="/{{locale}}/{{ page.fileSlug }}/categorie/{{ category.slug }}">{{ category.title }}</a></p>
+            {% endfor %}
+
             <ul class="desktop-rows mobile-slider">
                 {% for job in pagination.items limit:5 %}
                     <li class="list-item mobile-slider-item">

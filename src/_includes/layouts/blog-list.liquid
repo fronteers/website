@@ -1,6 +1,5 @@
 {% include partials/utility/html-head %}
 
-
 <body>
     <div class="outer-wrapper">
         {% include partials/page-header/_page-header %}
@@ -8,7 +7,15 @@
         <main class="page-content inner-wrapper">
             <h2>{{ title }}</h2>
             {{ content }}
-            
+
+            <h3>Categories</h3>
+            {% for category in collections.blogCategories %}
+              {% if loop.first %}
+                <p><a href="/{{locale}}/{{ page.fileSlug }}/">{{ site[locale].all }}</a></p>
+              {% endif %}
+              <p><a href="/{{locale}}/{{ page.fileSlug }}/categorie/{{ category.slug }}">{{ category.title }}</a></p>
+            {% endfor %}
+
             <ul class="desktop-rows mobile-slider">
                 {%- for post in blogposts limit:3 -%}
                     <li class="list-item mobile-slider-item">

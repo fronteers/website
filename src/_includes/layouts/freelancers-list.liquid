@@ -8,8 +8,16 @@
             <h2>{{ title }}</h2>
             {{ content }}
 
+            <h3>Categories</h3>
+            {% for category in collections.memberSpecialties %}
+              {% if loop.first %}
+                <p><a href="/{{locale}}/{{ page.fileSlug }}/">{{ site[locale].all }}</a></p>
+              {% endif %}
+              <p><a href="/{{locale}}/{{ page.fileSlug }}/specialiteit/{{ category.slug }}">{{ category.title }}</a></p>
+            {% endfor %}
+
             <ul class="desktop-columns mobile-slider">
-                {%- for member in freelancers limit:3-%}
+                {%- for member in freelancers limit:3 -%}
                     <li class="list-item mobile-slider-item">
                         {% include partials/member index:forloop.index %}
                     </li>
