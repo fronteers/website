@@ -1,5 +1,50 @@
 const glob = require("fast-glob");
 const globcat = require("globcat"); 
+const lodash = require("lodash");
+const slugify = require("slugify");
+
+/**
+ * Get all unique key values from a collection
+ *
+ * @param {Array} collectionArray - collection to loop through
+ * @param {String} key - key to get values from
+ */
+function getAllKeyValues(collectionArray, key) {
+  // get all values from collection
+  let allValues = collectionArray.map((item) => {
+    let values = item.data[key] ? item.data[key] : [];
+    return values;
+  });
+
+  // flatten values array
+  allValues = lodash.flattenDeep(allValues);
+  // to lowercase
+  allValues = allValues.map((item) => item.toLowerCase());
+  // remove duplicates
+  allValues = [...new Set(allValues)];
+  // order alphabetically
+  allValues = allValues.sort(function (a, b) {
+    return a.localeCompare(b, "en", { sensitivity: "base" });
+  });
+  // return
+  return allValues;
+}
+
+/**
+ * Transform a string into a slug
+ * Uses slugify package
+ *
+ * @param {String} str - string to slugify
+ */
+function strToSlug(str) {
+  const options = {
+    replacement: "-",
+    remove: /[&,+()$~%.'":*?<>{}]/g,
+    lower: true
+  };
+
+  return slugify(str, options);
+}
 
 module.exports = function (eleventyConfig) {
   /* Rebuild when CSS is changed */
@@ -89,10 +134,7 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => a.data.eventdate - b.data.eventdate);
   });
 
-
-
   eleventyConfig.addCollection("published_jobs", function (collection) {
-
     return collection
       .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
@@ -119,6 +161,63 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("drafts", function(collection) {
     return collection.getAll().filter((post) => Boolean(post.data.draft));
   });
+ 
+  eleventyConfig.addCollection("memberSpecialties", function (collection) {
+    let allSpecialties = getAllKeyValues(
+      collection.getFilteredByTag("members")
+        .filter((post) => Boolean(post.data.freelancer)),
+      "specialties"
+    );
+
+    let memberSpecialties = allSpecialties.map((category) => ({
+      title: category,
+      slug: strToSlug(category),
+    }));
+
+    return memberSpecialties;
+  });
+
+  eleventyConfig.addCollection("activityCategories", function (collection) {
+    let allCategories = getAllKeyValues(
+      collection.getFilteredByTag("activities"),
+      "categories"
+    );
+
+    let eventCategories = allCategories.map((category) => ({
+      title: category,
+      slug: strToSlug(category),
+    }));
+
+    return eventCategories;
+  });
+
+  eleventyConfig.addCollection("blogCategories", function (collection) {
+    let allCategories = getAllKeyValues(
+      collection.getFilteredByTag("posts"),
+      "categories"
+    );
+
+    let blogCategories = allCategories.map((category) => ({
+      title: category,
+      slug: strToSlug(category),
+    }));
+
+    return blogCategories;
+  });
+
+  eleventyConfig.addCollection("jobCategories", function (collection) {
+    let allCategories = getAllKeyValues(
+      collection.getFilteredByTag("jobs"),
+      "categories"
+    );
+
+    let jobCategories = allCategories.map((category) => ({
+      title: category,
+      slug: strToSlug(category),
+    }));
+
+    return jobCategories;
+  });
 
   /* Add 'include-all' shortcodes for loading all CSS (used in style.liquid) */
   eleventyConfig.addShortcode(
@@ -130,6 +229,9 @@ module.exports = function (eleventyConfig) {
     return collection.filter((post) => Boolean(post.data.locale == locale));
   });
 
+  eleventyConfig.addFilter("slugify", function (string) {
+    return strToSlug(string)
+  });
 
   /* All templates in the content directory are parsed and copied to the dist directory */
   return {

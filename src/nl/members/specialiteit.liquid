@@ -1,0 +1,56 @@
+---
+## This file is used to generate a category page
+permalink: "{{locale}}/freelancers/specialiteit/{{ specialty.slug }}/index.html"
+eleventyExcludeFromCollections: true 
+
+pagination:
+  data: collections.memberSpecialties
+  size: 1
+  alias: specialty
+
+key: specialties-{{ category.slug }}
+---
+  <h2>{{ site[locale].member_specialty }}: {{ specialty.title }}</h2>
+  {% assign posts = collections.all | getLocale: locale %}
+  <ul class="desktop-columns">
+  {% for post in posts %}
+    {% assign post_specialties = post.data.specialties %}
+    {% for post_specialty in post_specialties %}
+        {% assign current_specialty == post_specialty | downcase %} 
+        {% if specialty.title == current_specialty %} 
+          <li class="list-item">
+              {% for content_type in post.data.tags %}
+                {% if content_type == 'activities' %}
+                  {% include partials/activity headerlvl:"h3" index:forloop.index activity:post %}
+                {% endif %}
+                {% if content_type == 'posts' %}
+                  {% include partials/blogpost headerlvl:"h3" index:forloop.index %}
+                {% endif %}
+                {% if content_type == 'members' %}
+                  {% include partials/member headerlvl:"h3" index:forloop.index member:post %}
+                {% endif %}
+                {% if content_type == 'jobs' %}
+                  {% include partials/job headerlvl:"h3" index:forloop.index job:post %}
+                {% endif %}
+                {% break %}
+              {% endfor %}
+          </li>
+        {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+{% if specialty.totalPages > 1 %}
+  <ul>
+    {% if specialty.pageSlugs.previous %}<li><a href="/{{ locale }}/{{ page.fileSlug }}/{{ specialty.pageSlugs.previous }}/">{{ site[locale].previous }}</a></li>{% endif %}
+    {% if specialty.pageSlugs.next %}<li><a href="/{{ locale }}/{{ page.fileSlug }}/{{ specialty.pageSlugs.next }}/">{{ site[locale].next }}</a></li>{% endif %}
+  </ul>
+{% endif %}
+
+<h3>Categories</h3>
+{% for specialty in collections.memberSpecialties %}
+  {% if loop.first %}
+    <p><a href="/{{locale}}/freelancers/">{{ site[locale].all }}</a></p>
+  {% endif %}
+  <p><a href="/{{locale}}/freelancers/specialiteit/{{ specialty.slug }}">{{ specialty.title }}</a></p>
+{% endfor %}

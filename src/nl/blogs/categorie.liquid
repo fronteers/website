@@ -1,0 +1,58 @@
+---
+## This file is used to generate a category page
+eleventyExcludeFromCollections: true 
+permalink: "{{locale}}/blogs/categorie/{{ category.slug }}/index.html"
+
+pagination:
+  data: collections.blogCategories
+  size: 1
+  alias: category
+
+key: blogs-{{ category.slug }}
+---
+<h2>Blog category: {{ category.title }}</h2>
+
+<h3>Categories</h3>
+{% for category in collections.blogCategories %}
+  {% if loop.first %}
+    <p><a href="/{{locale}}/{{ page.fileSlug }}/">{{ site[locale].all }}</a></p>
+  {% endif %}
+  <p><a href="/{{locale}}/{{ page.fileSlug }}/categorie/{{ category.slug }}">{{ category.title }}</a></p>
+{% endfor %}
+
+{% assign posts = collections.all | getLocale: locale %}
+<ul class="desktop-rows">
+{% for post in posts %}
+  {% assign post_categories = post.data.categories %}
+  {% for post_category in post_categories %}
+      {% assign current_category == post_category | downcase %} 
+      {% if category.title == current_category %} 
+        <li class="list-item">
+            {% for content_type in post.data.tags %}
+              {% if content_type == 'activities' %}
+                {% include partials/activity headerlvl:"h3" index:forloop.index activity:post %}
+              {% endif %}
+              {% if content_type == 'posts' %}
+                {% include partials/blogpost headerlvl:"h3" index:forloop.index %}
+              {% endif %}
+              {% if content_type == 'members' %}
+                {% include partials/member headerlvl:"h3" index:forloop.index member:post %}
+              {% endif %}
+              {% if content_type == 'jobs' %}
+                {% include partials/job headerlvl:"h3" index:forloop.index job:post %}
+              {% endif %}
+              {% break %}
+            {% endfor %}
+        </li>
+      {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
+
+{% if category.totalPages > 1 %}
+<ul>
+  {% if category.pageSlugs.previous %}<li><a href="/{{ locale }}/{{ page.fileSlug }}/{{ category.pageSlugs.previous }}/">{{ site[locale].previous }}</a></li>{% endif %}
+  {% if category.pageSlugs.next %}<li><a href="/{{ locale }}/{{ page.fileSlug }}/{{ category.pageSlugs.next }}/">{{ site[locale].next }}</a></li>{% endif %}
+</ul>
+{% endif %}
+
