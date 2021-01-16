@@ -3,11 +3,6 @@ layout: layouts/home.liquid
 locale: nl
 tags: pages
 
-# navigation
-footer_navigation: true
-key: home
-order: "0"
-
 title: Homepage
 ---
 ## We unite front-end developers! <br /> And we do it with pride.

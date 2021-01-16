@@ -8,7 +8,11 @@ graphic:
 
 # Fields available: freelancer, specialties
 freelancer: Beschikbaar vanaf april
-specialties: html, css, accessibility
+specialties: 
+  - html 
+  - css
+  - accessibility
+  - ux design
 ---
 
 Anneke vindt het kick-ass om met jullie samen aan dit project te werken. 🙌
