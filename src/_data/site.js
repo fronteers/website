@@ -24,6 +24,11 @@ module.exports = {
       joinUs: "Join us",
       activeVacancies: "Job openings",
     },
+    member_specialty: "Specialty",
+    job_category: "Category",
+    previous: "Previous",
+    next: "Next",
+    all: "All",
   },
   nl: {
     baseUrl: "https://www.fronteers.nl/nl",
@@ -47,5 +52,10 @@ module.exports = {
       joinUs: "Word ook lid",
       activeVacancies: "Vacatures",
     },
+    member_specialty: "Freelancers met specialiteit",
+    job_category: "Werk in de categorie",
+    previous: "Vorige",
+    next: "Volgende",
+    all: "Alle",
   },
 };
