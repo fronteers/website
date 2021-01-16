@@ -126,14 +126,11 @@ module.exports = function (eleventyConfig) {
     async (glob) => await globcat(glob)
   );
 
-  eleventyConfig.addFilter("getDutch", function (value) {
-    return value.filter((post) => Boolean(post.data.locale == "nl"));
+  eleventyConfig.addFilter("getLocale", function (collection, locale) {
+    return collection.filter((post) => Boolean(post.data.locale == locale));
   });
 
-  eleventyConfig.addFilter("getEnglish", function (collection) {
-    return collection.filter((post) => Boolean(post.data.locale == "en"));
-  });
- 
+
   /* All templates in the content directory are parsed and copied to the dist directory */
   return {
     dir: {

@@ -76,24 +76,12 @@
     {% endcomment %}
 {% include svg/shapes.svg %}
 
-{% if locale == "nl" %}
-    {% assign header_navigation = collections.header_navigation | getDutch %}
-    {% assign header_sub_navigation = collections.sub_navigation | getDutch %}
-    {% assign footer_navigation = collections.footer_navigation | getDutch %}
-    {% assign footer_sub_navigation = collections.sub_navigation | getDutch %}
-    {% assign blogposts = collections.published_posts | getDutch %}
-    {% assign activities = collections.published_activities  | getDutch %}
-    {% assign jobs = collections.published_jobs  | getDutch %} 
-    {% assign members = collections.published_members  | getDutch  %}
-    {% assign freelancers = collections.freelancers  | getDutch  %}
-{% else %}
-    {% assign header_navigation = collections.header_navigation | getEnglish %}
-    {% assign header_sub_navigation = collections.sub_navigation | getEnglish %}
-    {% assign footer_navigation = collections.footer_navigation | getEnglish %}
-    {% assign footer_sub_navigation = collections.sub_navigation | getEnglish %}
-    {% assign blogposts = collections.published_posts | getEnglish %}
-    {% assign activities = collections.published_activities  | getEnglish %}
-    {% assign jobs = collections.published_jobs  | getEnglish %} 
-    {% assign members = collections.published_members  | getEnglish  %}
-    {% assign freelancers = collections.freelancers  | getEnglish  %}
-{% endif %}
+{% assign header_navigation = collections.header_navigation | getLocale: locale %}
+{% assign header_sub_navigation = collections.sub_navigation | getLocale: locale %}
+{% assign footer_navigation = collections.footer_navigation | getLocale: locale %}
+{% assign footer_sub_navigation = collections.sub_navigation | getLocale: locale %}
+{% assign blogposts = collections.published_posts | getLocale: locale %}
+{% assign activities = collections.published_activities  | getLocale: locale %}
+{% assign jobs = collections.published_jobs  | getLocale: locale %} 
+{% assign members = collections.published_members  | getLocale: locale  %}
+{% assign freelancers = collections.freelancers  | getLocale: locale  %}
