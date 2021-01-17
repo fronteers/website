@@ -8,13 +8,7 @@
             <h2>{{ title }}</h2>
             {{ content }}
 
-            <h3>Categories</h3>
-            {% for category in collections.activityCategories %}
-              {% if loop.first %}
-                <p><a href="/{{locale}}/{{ page.fileSlug }}/">{{ site[locale].all }}</a></p>
-              {% endif %}
-              <p><a href="/{{locale}}/{{ page.fileSlug }}/categorie/{{ category.slug }}">{{ category.title }}</a></p>
-            {% endfor %}
+            {% include partials/loop-activity-categories headerlvl:"h3" %}
 
             <ol class="desktop-columns">
                 {%- for activity in activities limit:8 -%}
@@ -34,9 +28,9 @@
 
                 {% if pagination.nextPageLink %}
 
-                  <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">Older Articles</a>
+                  <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">{{ site[locale].olderArticles</a>
                 {% else %}
-                  <span class="pagination__item">Older Articles</span>
+                  <span class="pagination__item">{{ site[locale].olderArticles</span>
                 {% endif %}
               </nav>
             {% endif %}
