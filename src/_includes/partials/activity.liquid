@@ -23,7 +23,7 @@
         {% endif %}
 
         {%- for tag in activity.data.categories -%}
-            {% tag tag %}
+            <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/">{% tag tag %}</a>
         {% endfor %} 
     </div>
     <div class="activity-footer">

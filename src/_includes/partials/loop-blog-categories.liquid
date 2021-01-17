@@ -2,7 +2,7 @@
 
 {% for category in collections.blogCategories %}
   {% if loop.first %}
-    <p><a href="{{ translations[locale].blogURL }}/">{{ translations[locale].all }}</a></p>
+    <p><a href="{{ translations[locale].blogsURL }}/">{{ translations[locale].all }}</a></p>
   {% endif %}
-  <p><a href="{{ translations[locale].blogURL }}/categorie-{{ category.slug }}">{{ category.title }}</a></p>
+  <p><a href="{{ translations[locale].blogsURL }}/categorie-{{ category.slug }}">{{ category.title }}</a></p>
 {% endfor %}

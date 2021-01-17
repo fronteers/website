@@ -24,7 +24,7 @@
             </p>
             <ul class="job-tags">
                 {%- for tag in job.data.categories limit:2 -%}
-                    <li>{% tag tag %}</li>
+                    <li><a href="{{ translations[locale].jobsURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/">{% tag tag %}</a></li>
                 {% endfor %}
             </ul>
 
