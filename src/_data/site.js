@@ -3,5 +3,4 @@ module.exports = {
   baseUrl: "https://www.fronteers.nl",
   name: "Fronteers",
   twitter: "@fronteers",
-  },
 };
