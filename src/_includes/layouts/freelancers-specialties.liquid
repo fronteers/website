@@ -18,7 +18,7 @@ parent:
   
       {% include partials/loop-freelancers-specialties headerlvl:"h3" %}
 
-      <h2>{{ site[locale].member_specialty }}: {{ specialty.title }}</h2>
+      <h2>{{ translations[locale].member_specialty }}: {{ specialty.title }}</h2>
       {% assign posts = collections.all | getLocale: locale %}
       <ul class="desktop-columns">
       {% for post in posts %}

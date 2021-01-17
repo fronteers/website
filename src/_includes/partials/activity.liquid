@@ -18,7 +18,7 @@
             <p class="activity-location">{% include svg/icon_location.svg %} {{ activity.data.location }}</p>
         {% else %}
             <p class="activity-location">{% include svg/icon_location.svg %} 
-                {{ site[locale].locationUnknown }}
+                {{ translations[locale].locationUnknown }}
             </p>
         {% endif %}
 

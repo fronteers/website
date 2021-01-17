@@ -1,8 +1,8 @@
-{% include partials/utility/dynamic-headerlevel level:"h3" title:site[locale].categories %}
+{% include partials/utility/dynamic-headerlevel level:"h3" title:translations[locale].categories %}
 
 {% for category in collections.activityCategories %}
   {% if loop.first %}
-    <p><a href="{{ site[locale].activitiesURL }}/">{{ site[locale].all }}</a></p>
+    <p><a href="{{ translations[locale].activitiesURL }}/">{{ translations[locale].all }}</a></p>
   {% endif %}
-    <p><a href="{{ site[locale].activitiesURL }}/{{ site[locale].category }}-{{ category.slug }}">{{ category.title }}</a></p>
+    <p><a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ category.slug }}">{{ category.title }}</a></p>
 {% endfor %}

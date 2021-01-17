@@ -17,7 +17,7 @@ key: jobs-{{ category.slug }}
 
       {% include partials/loop-job-categories headerlvl:"h3" %}
     
-      <h2>{{ site[locale].job_category }}: {{ category.title }}</h2>
+      <h2>{{ translations[locale].job_category }}: {{ category.title }}</h2>
       {% assign posts = collections.published_jobs | getLocale: locale %}
       <ul class="desktop-rows">
       {% for post in posts %}
@@ -35,8 +35,8 @@ key: jobs-{{ category.slug }}
 
       {% if category.totalPages > 1 %}
         <ul>
-          {% if category.pageSlugs.previous %}<li><a href="/{{ locale }}/{{ page.fileSlug }}/{{ category.pageSlugs.previous }}/">{{ site[locale].previous }}</a></li>{% endif %}
-          {% if category.pageSlugs.next %}<li><a href="/{{ locale }}/{{ page.fileSlug }}/{{ category.pageSlugs.next }}/">{{ site[locale].next }}</a></li>{% endif %}
+          {% if category.pageSlugs.previous %}<li><a href="/{{ locale }}/{{ page.fileSlug }}/{{ category.pageSlugs.previous }}/">{{ translations[locale].previous }}</a></li>{% endif %}
+          {% if category.pageSlugs.next %}<li><a href="/{{ locale }}/{{ page.fileSlug }}/{{ category.pageSlugs.next }}/">{{ translations[locale].next }}</a></li>{% endif %}
         </ul>
       {% endif %}
     </main>
