@@ -67,7 +67,7 @@ module.exports = {
     category: "categorie",
     freelancersURL: "/nl/freelancers",
     blogsURL: "/nl/blogs",
-    activitiesURL: "/nl/activities",
+    activitiesURL: "/nl/activiteiten",
     jobsURL: "/nl/werk-en-freelance",
     olderArticles: "Ouder",
     newerArticles: "Nieuwer",
