@@ -1,6 +1,7 @@
 .page-header-translate {
   text-transform: uppercase; 
   margin-inline-start: auto;
+  padding-block-start: var(--spacing-half);
   padding-block-end: var(--spacing-half);
   text-align: right;
 }

@@ -24,13 +24,13 @@
             </p>
             <ul class="job-tags">
                 {%- for tag in job.data.categories limit:2 -%}
-                    <li>{% tag tag %}</li>
+                    <li><a href="{{ translations[locale].jobsURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/">{% tag tag %}</a></li>
                 {% endfor %}
             </ul>
 
             <a href="{{ job.url }}" class="button job-readmore">
-                {{ site[locale].jobreadmore }} 
-                <span class="visually-hidden">{{ site[locale].about }} {{ job.data.title }}</span>
+                {{ translations[locale].jobreadmore }} 
+                <span class="visually-hidden">{{ translations[locale].about }} {{ job.data.title }}</span>
             </a>
         </div>
     </div>

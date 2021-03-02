@@ -8,26 +8,26 @@
                 blockContent:content %}
 
             {% if activities.length != 0 %}
-                {% include partials/homepage/upcoming-activities headerlvl:"h2" partialTitle:site[locale].blockTitles.upcomingActivities %}
+                {% include partials/homepage/upcoming-activities headerlvl:"h2" partialTitle:translations[locale].blockTitles.upcomingActivities %}
             {% endif %}
 
-            {% include partials/homepage/banner-conference headerlvl:"h2" partialTitle:site[locale].blockTitles.conferenceBanner %}
+            {% include partials/homepage/banner-conference headerlvl:"h2" partialTitle:translations[locale].blockTitles.conferenceBanner %}
 
             {% if blogs.length != 0 %}
-                {% include partials/homepage/latest-blogs headerlvl:"h2" partialTitle:site[locale].blockTitles.latestBlogs %}
+                {% include partials/homepage/latest-blogs headerlvl:"h2" partialTitle:translations[locale].blockTitles.latestBlogs %}
             {% endif %}
 
-            <!-- {% include partials/homepage/member-special headerlvl:"h2" partialTitle:site[locale].blockTitles.membersSpecial %} -->
+            <!-- {% include partials/homepage/member-special headerlvl:"h2" partialTitle:translations[locale].blockTitles.membersSpecial %} -->
 
             {% if members.length > 0 %}
-                {% include partials/homepage/proud-members headerlvl:"h2" partialTitle:site[locale].blockTitles.proudMembers %}
+                {% include partials/homepage/proud-members headerlvl:"h2" partialTitle:translations[locale].blockTitles.proudMembers %}
             {% endif %}
 
             <!-- {% include partials/homepage/banner-join-us headerlvl:"h2" 
-                partialTitle:site[locale].blockTitles.joinUs %}  -->
+                partialTitle:translations[locale].blockTitles.joinUs %}  -->
 
             {% if jobs.length > 0 %}
-                {% include partials/homepage/active-vacancies headerlvl:"h2" partialTitle:site[locale].blockTitles.activeVacancies %}
+                {% include partials/homepage/active-vacancies headerlvl:"h2" partialTitle:translations[locale].blockTitles.activeVacancies %}
             {% endif %}
         </main>
 

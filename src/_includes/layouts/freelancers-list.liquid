@@ -8,8 +8,10 @@
             <h2>{{ title }}</h2>
             {{ content }}
 
+            {% include partials/loop-freelancers-specialties headerlvl:"h3" %}
+
             <ul class="desktop-columns mobile-slider">
-                {%- for member in freelancers limit:3-%}
+                {%- for member in freelancers limit:3 -%}
                     <li class="list-item mobile-slider-item">
                         {% include partials/member index:forloop.index %}
                     </li>
@@ -26,9 +28,9 @@
 
                 {% if pagination.nextPageLink %}
 
-                  <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">Older Articles</a>
+                  <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">{{ translations[locale].olderArticles</a>
                 {% else %}
-                  <span class="pagination__item">Older Articles</span>
+                  <span class="pagination__item">{{ translations[locale].olderArticles</span>
                 {% endif %}
               </nav>
             {% endif %}

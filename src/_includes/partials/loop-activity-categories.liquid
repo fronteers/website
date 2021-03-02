@@ -1,0 +1,8 @@
+{% include partials/utility/dynamic-headerlevel level:"h3" title:translations[locale].categories %}
+
+{% for category in collections.activityCategories %}
+  {% if loop.first %}
+    <p><a href="{{ translations[locale].activitiesURL }}/">{{ translations[locale].all }}</a></p>
+  {% endif %}
+    <p><a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ category.slug }}">{{ category.title }}</a></p>
+{% endfor %}

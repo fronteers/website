@@ -4,7 +4,6 @@ permalink: "/{{ locale }}/index.html"
 
 title: Fronteers
 ---
-
 ## We unite front-end developers! <br /> And we do it with pride.
 
 <a href="{{locale}}/join-us/" class="button button-greater-than">

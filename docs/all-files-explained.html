@@ -1,0 +1,210 @@
+<html>
+    <head>
+        <style>
+            /* Thank you goes to Patrick Lauke https://codepen.io/patrickhlauke/pen/azbYWZ */
+
+            ul.ascii, ul.ascii ul {  margin-left: 0; padding-left: 0;  list-style: none; }
+
+            ul.ascii li { margin: 0; padding: 0; }
+
+            /* level 1 */
+            ul.ascii > li::before { content: ""; }
+
+            /* level 2 */
+            ul.ascii > li > ul > li::before { content: "├──\00a0"; }
+            ul.ascii > li > ul > li:last-child::before { content: "└──\00a0"; }
+
+            /* level 3 */
+            ul.ascii > li > ul > li > ul > li::before { content: "│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li:last-child::before { content: "│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li::before { content: "\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0└──\00a0"; }
+
+            /* level 4 */
+            ul.ascii > li > ul > li > ul > li > ul > li::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li > ul > li:last-child::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li:last-child::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+
+            /* level 5 */
+            ul.ascii > li > ul > li > ul > li > ul > li > ul > li::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li > ul > li > ul > li:last-child::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li > ul > li:last-child > ul > li::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li > ul > li:last-child > ul > li:last-child::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li > ul > li::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li > ul > li:last-child::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li:last-child > ul > li::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li:last-child > ul > li:last-child::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li > ul > li::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li:last-child > ul > li::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li:last-child > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li > ul > li::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+
+            /* level 6 */
+            ul.ascii > li > ul > li > ul > li > ul > li > ul > li > ul > li::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li > ul > li > ul > li > ul > li:last-child::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li > ul > li > ul > li:last-child > ul > li::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li > ul > li > ul > li:last-child > ul > li:last-child::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li > ul > li:last-child > ul > li > ul > li::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li > ul > li:last-child > ul > li > ul > li:last-child::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li > ul > li:last-child > ul > li:last-child > ul > li::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li > ul > li:last-child > ul > li:last-child > ul > li:last-child::before { content: "│\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li > ul > li > ul > li::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li > ul > li > ul > li:last-child::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li > ul > li:last-child > ul > li::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li > ul > li:last-child > ul > li:last-child::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li:last-child > ul > li > ul > li::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li:last-child > ul > li > ul > li:last-child::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child::before { content: "│\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li > ul > li > ul > li::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li > ul > li > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li > ul > li:last-child > ul > li::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li > ul > li:last-child > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li:last-child > ul > li > ul > li::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li:last-child > ul > li > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li:last-child > ul > li:last-child > ul > li::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li > ul > li:last-child > ul > li:last-child > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li > ul > li > ul > li::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li > ul > li > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li > ul > li:last-child > ul > li::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li > ul > li:last-child > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li > ul > li::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0│\00a0\00a0\00a0└──\00a0"; }
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0├──\00a0"}
+            ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child::before { content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+
+            span {
+                color: red;
+            }
+        </style>
+    </head>
+    <body> 
+
+<ul class="ascii">
+    <li>src/
+    <ul>
+        <li>_assets/
+            <ul>
+                <li>css/
+                    <ul>
+                        <li>common/
+                            <ul>
+                                <li>base.css</li>
+                                <li>colors.css</li>
+                                <li>fonts.css</li>
+                                <li>layout.css</li>
+                                <li>shapes.css</li>
+                                <li>typography.css</li>
+                            </ul>
+                        </li>
+                        <li>elements/ <span>Has all the seperate component css</span>
+                            <ul>
+                                <li>button.css</li>
+                                <li>page-navigation.css</li>
+                            </ul>
+                        </li>
+                        <li>style-liquid</li>
+                    </ul>
+                </li>
+                <li>fonts/</li>
+                <li>images/
+                    <ul>
+                        <li>company-logos/</li>
+                        <li>member-avatars/</li>
+                    </ul>
+                </li>
+                <li>js/
+                    <ul>
+                        <li>page-navigation.js</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>_data/
+            <ul>
+                <li>metadata.json <span>Is used for generic site settings</span></li>
+                <li>site.js <span>contains additional settings</span></li>
+                <li>translations.js <span>contains string translations EN/NL</span></li>
+            </ul>
+        </li>
+        <li>_includes/
+            <ul>
+                <li>layouts/ <span>Contains page layouts</span></li>
+                <li>partials/ <span>Contains partials</span>
+                    <ul>
+                        <li>homepage/ <span>contains the blocks used on the homepage (for possible reuse?)</span></li>
+                        <li>page-footer/</li>
+                        <li>page-header/</li>
+                        <li>utility/ <span>contains the some utilities like the html head and a way to add header levels semi-dynamically)</span></li>
+                    </ul>
+                </li>
+                <li>svg/ <span>provides a way for us to inline include SVG code</span></li>
+            </ul>
+        </li>
+        <li>nl/ <span>See en</span>
+        </li>
+        <li>
+            nl/
+            <ul>
+                <li>activities/
+                    <ul>
+                        <li>YEAR/ <span>contains the activity posts</span></li>
+                        <li>activities.json <span>Sets defaults for frontmatter (which can be overwritten individually). Has to have the same name as the folder</span></li>
+                        <li>category.md <span>Enables adding a title and content in markdown to each activity category page.</span></li>
+                        <li>events.md</li>
+                        <li>index.liquid <span>Configures the folder index.html. Needs to have liquid extension because of complexity in frontmatter to enable pagination.</span></li>
+                        <li>workshops.md</li>
+                    </ul>
+                </li>
+                <li>blogs/
+                    <ul>
+                        <li>YEAR/</li>
+                        <li>archive.md</li>
+                        <li>blogs.json <span>Sets defaults for frontmatter (which can be overwritten individually). Has to have the same name as the folder</span></li>
+                        <li>category.md <span>Enables adding a title and content in markdown to each blog category page.</span></li>
+                        <li>index.liquid <span>Configures the folder index.html. Needs to have liquid extension because of complexity in frontmatter to enable pagination.</span></li>
+                    </ul>
+                </li>
+                <li>conference/</li>
+                <li>members/
+                    <ul>
+                        <li>FIRST-AND-LAST-NAME.md <span>generates a members' own profile page</span></li>
+                        <li>index.liquid <span>Configures the folder index.html. Needs to have liquid extension because of complexity in frontmatter to enable pagination.</span></li>
+                        <li>members.json <span>Sets defaults for frontmatter (which can be overwritten individually). Has to have the same name as the folder</span></li>
+                        <li>specialiteit.md <span>Enables adding a title and content in markdown to each member specialty page.</span></li>
+                    </ul>
+                </li>
+                <li>join-us/</li>
+                <li>organisation/
+                    <ul>
+                        <li>freelancers.liquid <span>Shows a filtered list of members that are tagged as being freelancers</span></li>
+                    </ul>
+                </li>
+                <li>jobs/
+                    <ul>
+                        <li>YEAR/</li>
+                        <li>archive.md</li>
+                        <li>category.md <span>Enables adding a title and content in markdown to each job category page.</span></li>
+                        <li>index.liquid <span>Configures the folder index.html. Needs to have liquid extension because of complexity in frontmatter to enable pagination.</span></li>
+                        <li>jobs.json <span>Sets defaults for frontmatter (which can be overwritten individually). Has to have the same name as the folder</span></li>
+                    </ul>
+                </li>
+                <li>nl.json <span>Sets defaults for frontmatter (which can be overwritten individually). Has to have the same name as the folder</span></li>
+            </ul>
+        </li>
+        <li>drafts.md <span>Shows a list of unpublished content for a nice easy overview. Content marked with a frontmatter setting of "draft: true" will show up here.</span></li>
+        <li>index.md <span>The root homepage</span></li>
+    </ul>
+    </li>
+</ul>
+
+</body></html>

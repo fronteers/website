@@ -1,0 +1,4 @@
+{
+  "permalink": "/{{ locale }}/leden/{{ page.fileSlug }}/index.html",
+  "tags": "members"
+}

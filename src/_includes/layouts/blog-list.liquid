@@ -1,6 +1,5 @@
 {% include partials/utility/html-head %}
 
-
 <body>
     <div class="outer-wrapper">
         {% include partials/page-header/_page-header %}
@@ -8,7 +7,9 @@
         <main class="page-content inner-wrapper">
             <h2>{{ title }}</h2>
             {{ content }}
-            
+
+            {% include partials/loop-blog-categories headerlvl:"h3" %}
+
             <ul class="desktop-rows mobile-slider">
                 {%- for post in blogposts limit:3 -%}
                     <li class="list-item mobile-slider-item">
@@ -27,9 +28,9 @@
 
                 {% if pagination.nextPageLink %}
 
-                  <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">Older Articles</a>
+                  <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">{{ translations[locale].olderArticles</a>
                 {% else %}
-                  <span class="pagination__item">Older Articles</span>
+                  <span class="pagination__item">{{ translations[locale].olderArticles</span>
                 {% endif %}
               </nav>
             {% endif %}

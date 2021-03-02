@@ -27,14 +27,16 @@
 
             <ul class="blog-tags">
                 {%- for tag in post.data.categories limit:2 -%}
-                    <li>{% tag tag %}</li>
+                    <li>
+                        <a href="{{ translations[locale].blogsURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/">{% tag tag %}</a>
+                    </li>
                 {% endfor %}
             </ul>
         </div>
 
         <a href="{{ post.url }}" class="button button-readmore">
-            {{ site[locale].blogreadmore }} 
-            <span class="visually-hidden">{{ site[locale].about }} {{ post.data.title }}</span>
+            {{ translations[locale].blogreadmore }} 
+            <span class="visually-hidden">{{ translations[locale].about }} {{ post.data.title }}</span>
         </a>
     </div>
 </div>

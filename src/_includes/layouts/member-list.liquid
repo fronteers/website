@@ -26,9 +26,9 @@
 
                 {% if pagination.nextPageLink %}
 
-                  <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">Older Articles</a>
+                  <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">{{ translations[locale].olderArticles</a>
                 {% else %}
-                  <span class="pagination__item">Older Articles</span>
+                  <span class="pagination__item">{{ translations[locale].olderArticles</span>
                 {% endif %}
               </nav>
             {% endif %}
