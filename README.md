@@ -42,6 +42,10 @@ Merges are deployed to [fronteers-beta.netlify.app](https://fronteers-beta.netli
 - [Code of Conduct](docs/code-of-conduct.md)
 - [How to contribute](docs/contribute.md)
 
+## Design
+
+- [Design by Ready for Take-Off](https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/)
+
 ## Open Source
 
 This project is licensed under the terms of the [MIT license](LICENSE), with the exception of the design.
