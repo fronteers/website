@@ -30,6 +30,7 @@
     #navigation {
         transform: none;
         display: inherit;
+        visibility: inherit;
         position: inherit;
         padding-inline-start: inherit;
     }
