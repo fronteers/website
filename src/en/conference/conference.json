@@ -1,5 +1,5 @@
 {
   "layout": "layouts/page.liquid",
-  "permalink": "/{{ locale }}/conference/{{ page.fileSlug }}/index.html",
+  "permalink": "/{{ page.filePathStem }}/index.html",
   "key": "conference-{{ page.fileSlug }}"
 }
