@@ -1,6 +1,0 @@
-{
-  "layout": "layouts/activity-single.liquid",
-  "permalink": "/{{ locale }}/events/{{ page.fileSlug }}/index.html",
-  "tags": "activities",
-  "key": "activity-{{ page.fileSlug }}"
-}
