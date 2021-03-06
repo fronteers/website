@@ -1,4 +1,4 @@
 {
-  "layout": "layouts/page.liquid", 
-  "key": "conference-{{ page.fileSlug }}"
+  "layout": "layouts/page.liquid",
+  "permalink": "/{{ page.filePathStem }}/index.html"
 }
