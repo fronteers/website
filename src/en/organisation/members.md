@@ -3,9 +3,9 @@ layout: layouts/page.liquid
 tags: pages
 
 # navigation
-key: freelancers
-order: "60"
+key: members
+order: "50"
 parent: about
 
-title: Freelancers
+title: Our members
 ---

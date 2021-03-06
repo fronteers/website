@@ -7,5 +7,5 @@ key: alv
 order: "30"
 parent: about
 
-title: Algemene Ledenvergadering
+title: Membership meeting
 ---

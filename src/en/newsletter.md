@@ -1,10 +1,10 @@
 ---
 layout: layouts/page.liquid
 
-# navigations
+# navigation
 footer_navigation: true
 key: newsletter
 order: "50"
 
-title: Newsletter
+title: Nieuwsbrief
 ---

@@ -1,9 +1,9 @@
 ---
 layout: layouts/page.liquid
-title: Evenementen
+title: Events
 tags: pages
 order: "20"
 
-key: evenementen
+key: events
 parent: activities
 ---

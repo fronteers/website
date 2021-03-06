@@ -1,8 +1,8 @@
 ---
 layout: layouts/page.liquid
-title: Programma
-order: "30" 
+title: Venues
+order: "50" 
 
-key: schedule
+key: venues
 parent: conference
 ---

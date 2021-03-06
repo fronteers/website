@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.liquid
-title: Contact congrescommissie
-permalink: "/{{ locale }}/contact-congrescommissie/index.html"
+
+tags: pages
 order: "90" 
 key: conference_contact
 parent: conference
+
+title: Contact
 ---

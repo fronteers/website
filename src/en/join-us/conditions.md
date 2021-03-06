@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.liquid
-title: Voorwaarden
+title: Conditions
 order: "20" 
 
 key: conditions

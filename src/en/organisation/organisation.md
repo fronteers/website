@@ -3,9 +3,9 @@ layout: layouts/page.liquid
 tags: pages
 
 # navigation
-key: history
-order: "80"
+key: organisation
+order: "10"
 parent: about
 
-title: Geschiedenis
+title: Organisation
 ---

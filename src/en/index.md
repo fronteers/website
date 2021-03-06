@@ -3,8 +3,6 @@ layout: layouts/home.liquid
 permalink: "/{{ locale }}/index.html"
 
 title: Fronteers
-
-key: home
 ---
 ## We unite front-end developers! <br /> And we do it with pride.
 

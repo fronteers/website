@@ -3,9 +3,9 @@ layout: layouts/page.liquid
 tags: pages
 
 # navigation settings
-key: job-archive
+key: post-job
 order: "30"
 parent: job-overview
 
-title: Archief
+title: Post a job on our job board
 ---

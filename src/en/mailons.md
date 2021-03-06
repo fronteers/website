@@ -1,10 +1,10 @@
 ---
 layout: layouts/page.liquid
 
-# navigation 
+# navigation (example of sub-menu in the footer)
 key: mail
 parent: contact
 order: "30"
 
-title: Mail us
+title: Mail ons
 ---

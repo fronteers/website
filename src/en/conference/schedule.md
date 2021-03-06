@@ -1,8 +1,8 @@
 ---
 layout: layouts/page.liquid
-title: Sprekers
-order: "20" 
+title: Schedule
+order: "30" 
 
-key: speakers
+key: schedule
 parent: conference
 ---

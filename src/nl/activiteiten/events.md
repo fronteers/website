@@ -4,6 +4,6 @@ title: Evenementen
 tags: pages
 order: "20"
 
-key: evenementen
+key: events
 parent: activities
 ---

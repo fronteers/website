@@ -3,9 +3,9 @@ layout: layouts/page.liquid
 tags: pages
 
 # navigation
-key: organisation
-order: "10"
+key: board
+order: "20"
 parent: about
 
-title: Organisatie
+title: Board
 ---

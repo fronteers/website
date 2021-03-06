@@ -3,9 +3,9 @@ layout: layouts/page.liquid
 tags: pages
 
 # navigation
-key: members
-order: "50"
+key: commissions
+order: "40"
 parent: about
 
-title: Leden
+title: Committees
 ---

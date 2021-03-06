@@ -3,7 +3,7 @@ layout: layouts/page.liquid
 tags: pages
 
 # navigation settings
-key: conditions
+key: job-conditions
 order: "20" 
 parent: job-overview
 
