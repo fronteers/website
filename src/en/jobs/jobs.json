@@ -1,5 +1,6 @@
 {
   "layout": "layouts/job-single.liquid",
   "permalink": "/{{ locale }}/jobs/{{ page.fileSlug }}/index.html",
-  "tags": "jobs"
+  "tags": "jobs",
+  "key": "job-{{ page.fileSlug }}"
 }

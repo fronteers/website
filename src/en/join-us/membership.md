@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.liquid
-title: Membership
+title: Lidmaatschap
 order: "10" 
 
 key: membership

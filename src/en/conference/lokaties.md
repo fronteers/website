@@ -1,8 +1,8 @@
 ---
 layout: layouts/page.liquid
-title: Speakers
-order: "20" 
+title: Lokaties
+order: "50" 
 
-key: speakers
+key: venues
 parent: conference
 ---

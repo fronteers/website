@@ -1,4 +1,5 @@
 {
   "permalink": "/{{ locale }}/members/{{ page.fileSlug }}/index.html",
-  "tags": "members"
+  "tags": "members",
+  "key": "member-{{ page.fileSlug }}"
   }

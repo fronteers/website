@@ -1,10 +1,7 @@
 ---
 layout: layouts/page.liquid
-
-tags: pages
+title: Contact
 order: "90" 
 key: conference_contact
 parent: conference
-
-title: Contact
 ---

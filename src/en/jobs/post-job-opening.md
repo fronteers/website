@@ -7,5 +7,5 @@ key: post-job
 order: "30"
 parent: job-overview
 
-title: Post a job on our job board
+title: Post an opening
 ---

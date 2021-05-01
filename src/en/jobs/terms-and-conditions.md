@@ -3,9 +3,9 @@ layout: layouts/page.liquid
 tags: pages
 
 # navigation settings
-key: job-conditions
+key: job-terms-and-conditions
 order: "20" 
 parent: job-overview
 
-title: Conditions
+title: Terms and conditions
 ---

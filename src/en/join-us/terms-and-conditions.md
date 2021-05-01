@@ -1,8 +1,8 @@
 ---
 layout: layouts/page.liquid
-title: Conditions
+title: Voorwaarden
 order: "20" 
 
-key: conditions
+key: terms-and-conditions
 parent: join-us
 ---
