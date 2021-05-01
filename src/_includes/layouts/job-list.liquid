@@ -12,9 +12,11 @@
 
             <ul class="desktop-rows mobile-slider">
                 {% for job in pagination.items limit:5 %}
+                  {% if job.data.locale == locale %}
                     <li class="list-item mobile-slider-item">
                         {% include partials/job headerlvl:"h3" index:forloop.index %}
                     </li>
+                    {% endif %}
                 {%- endfor -%}
             </ul>
 

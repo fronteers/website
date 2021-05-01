@@ -1,6 +1,5 @@
 {
   "layout": "layouts/activity-single.liquid",
   "permalink": "/{{ locale }}/activities/{{ page.fileSlug }}/index.html",
-  "tags": "activities",
-  "key": "activity-{{ page.fileSlug }}"
+  "tags": "activities"
 }
