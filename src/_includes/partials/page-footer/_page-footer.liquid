@@ -8,7 +8,8 @@
                 <span class="social-media-title">Slack</span>
             </div>
             <p>
-                The Fronteers community is highly active on Slack. <a href="https://fronteers-slack.herokuapp.com">Sign up<span class="visually-hidden"> to the Fronteers Slack</span></a> and join the conversation about everything related to front-end development.
+                {% comment %} The Fronteers community is highly active on Slack. <a href="https://fronteers-slack.herokuapp.com">Sign up<span class="visually-hidden"> to the Fronteers Slack</span></a> and join the conversation about everything related to front-end development. {% endcomment %}
+                {{ translations[locale].socialMedia.slackText }}
            </p>
         </li>
         <li>
@@ -17,7 +18,9 @@
                 alt="" />
                 <span class="social-media-title">Twitter</span>
             </div>
-            <p>You can follow us through <a href="https://twitter.com/fronteers">@Fronteers on Twitter</a>. Questions and comments via that medium are welcome.
+            <p>
+            {% comment %} You can follow us through <a href="https://twitter.com/fronteers">@Fronteers on Twitter</a>. Questions and comments via that medium are welcome. {% endcomment %}
+                {{ translations[locale].socialMedia.twitterText }}
             </p>
         </li>
         <li>
@@ -26,7 +29,10 @@
                 alt="" />
                 <span class="social-media-title">LinkedIn</span>
             </div>
-            <p>Join our network on LinkedIn and see what's happening.</p>
+            <p>
+                {% comment %} Join our network on LinkedIn and see what's happening. {% endcomment %}
+                {{ translations[locale].socialMedia.linkedinText }}
+            </p>
         </li>
         <li>
             <p class="footer-join-us"><strong>Hey front-ender!<br /> 
