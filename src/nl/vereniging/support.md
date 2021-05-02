@@ -3,7 +3,7 @@ layout: layouts/page.liquid
 tags: pages
 
 # navigation
-key: history
+key: support-us
 order: "70"
 parent: about
 

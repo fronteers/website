@@ -1,4 +1,4 @@
 {
   "permalink": "/{{ locale }}/members/{{ page.fileSlug }}/index.html",
   "tags": "members"
-}
+  }

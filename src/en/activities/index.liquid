@@ -1,0 +1,18 @@
+---
+## this file is a liquid file, so we could setup pagination correctly and use liquid in this file. Also check the permalink, which conditionally adds bits to the URL per generated paginated page.
+layout: layouts/activity-list.liquid
+permalink: "/{{ locale }}/{{ page.fileSlug }}/{% if pagination.pageNumber > 0 %}archief/{{ pagination.pageNumber }}/{% endif %}index.html"
+
+tags: pages
+
+# navigation settings
+header_navigation_top: true
+key: activities
+order: "20"
+
+title: Activities
+
+pagination:
+  data: collections.published_activities
+  size: 3
+---

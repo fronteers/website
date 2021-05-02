@@ -12,6 +12,8 @@ graphic:
   src: /assets/company-logos/deli-home.svg
   alt: ""
   class:
+
+key: job-deli-home-eibergen
 ---
 
 Deli Home levert constructieve en decoratieve DHZ artikelen en professionele bouwmaterialen. Door de gebundelde kracht en kennis vanuit de eerdergenoemde werkmaatschappijen en merken nemen wij een belangrijke positie in binnen de markt van onze belangrijkste productgroepen: vloer & trap, hout, horren, deuren en opbergen. Hout is de verbindende factor tussen al deze productgroepen, en onze verdere activiteiten; hout zit in ons DNA!
