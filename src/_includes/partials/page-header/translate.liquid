@@ -1,22 +1,28 @@
 {% comment %}
-If we are on a page that is in English, loop through all content on the website (line 12-17) and match the current page's 'key' frontmatter setting and filter out the Dutch pages (line 13). We set a variable `matchFound` (line 14) and count how many times we've been through this loop and had a match (line 14, the `| plus 1` bit). If the loop was succesfull and we found a translated version of this same page, link it (line 15), if we found no matches or way too many (due to the current page not having a key, and it being matched to other key-less pages), just link to the homepage (line 19-21). Yay!
+If we are on a page that is in English, loop through all content on the website (line 18-23) and match the current
+page's 'key' frontmatter setting and filter out the Dutch pages (line 19). We set a variable `matchFound` (line 17) and
+count how many times we've been through this loop and had a match (line 20, the `| plus 1` bit). If the loop was
+succesfull and we found a translated version of this same page, link it (line 21), if we found no matches, just link to
+the homepage (line 25-27). Yay!
 {% endcomment %}
 
-<nav class="page-header-translate" aria-label="{% if locale == 'nl' %}{{ translations[locale].ariaTitleTranslateNav }}{% else %}{{ site.en.ariaTitleTranslateNav }}{% endif %}">
-    <h2  class="visually-hidden">Translate</h2>
+<nav class="page-header-translate"
+     aria-label="{% if locale == 'nl' %}{{ translations[locale].ariaTitleTranslateNav }}{% else %}{{ site.en.ariaTitleTranslateNav }}{% endif %}">
+    <h2 class="visually-hidden">Translate</h2>
     <ul>
         <li lang="nl">
             {% if locale == 'nl' %}
                 <span>NL</span>
             {% else %}
+                {% assign matchFound = 0 %}
                 {% for item in collections.all %}
-                    {% if key == item.data.key and item.data.locale == "nl" %}
+                    {% if key == item.data.key and item.data.locale == "nl" and matchFound == 0 %}
                         {% assign matchFound = matchFound | plus: 1 %}
                         <a href="{{ item.url }}" />NL</a>
                     {% endif %}
                 {% endfor %}
-    
-                {% if matchFound == 0 or matchFound >= 2 %}
+
+                {% if matchFound == 0 %}
                     <a href="/nl/">ENG</a>
                 {% endif %}
             {% endif %}
@@ -25,15 +31,15 @@ If we are on a page that is in English, loop through all content on the website 
             {% if locale == 'en' %}
                 <span>ENG</span>
             {% else %}
-                {% assign matchFound == 0 %}
+                {% assign matchFound = 0 %}
                 {% for item in collections.all %}
-                    {% if key == item.data.key and item.data.locale == "en" %}
+                    {% if key == item.data.key and item.data.locale == "en" and matchFound == 0 %}
                         {% assign matchFound = matchFound | plus: 1 %}
                         <a href="{{ item.url }}" />ENG</a>
                     {% endif %}
                 {% endfor %}
 
-                {% if matchFound == 0 or matchFound >= 2 %}
+                {% if matchFound == 0 %}
                     <a href="/en/">ENG</a>
                 {% endif %}
             {% endif %}
