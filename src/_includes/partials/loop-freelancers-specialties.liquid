@@ -2,7 +2,7 @@
 
 {% for specialty in collections.memberSpecialties %}
   {% if loop.first %}
-    <p><a href="{{ translations[locale].freelancersURL }}/">{{ translations[locale].all }}</a></p>
+    <p><a href="/{{ translations[locale].freelancersURL }}/">{{ translations[locale].all }}</a></p>
   {% endif %}
-    <p><a href="{{ translations[locale].freelancersURL }}/{{ translations[locale].specialty }}-{{ specialty.slug }}">{{ specialty.title }}</a></p>
+    <p><a href="/{{ translations[locale].freelancersURL }}/{{ translations[locale].specialty }}-{{ specialty.slug }}">{{ specialty.title }}</a></p>
 {% endfor %}

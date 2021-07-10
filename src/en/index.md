@@ -1,8 +1,7 @@
 ---
 layout: layouts/home.liquid
 permalink: "/{{ locale }}/index.html"
-locale: en
-tags: pages
+key: homepage
 
 # navigation
 footer_navigation: true

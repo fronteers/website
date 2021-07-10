@@ -7,6 +7,7 @@ tags: pages
 footer_navigation: true
 key: home
 order: "0"
+permalink: "/"
 
 title: Homepage
 ---

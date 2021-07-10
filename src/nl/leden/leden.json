@@ -1,4 +1,4 @@
 {
-  "permalink": "/{{ locale }}/leden/{{ page.fileSlug }}/index.html",
+  "permalink": "/{{ page.filePathStem }}/index.html",
   "tags": "members"
 }

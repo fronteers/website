@@ -2,7 +2,7 @@
 
 {% for category in collections.activityCategories %}
   {% if loop.first %}
-    <p><a href="{{ translations[locale].activitiesURL }}/">{{ translations[locale].all }}</a></p>
+    <p><a href="/{{ translations[locale].activitiesURL }}/">{{ translations[locale].all }}</a></p>
   {% endif %}
-    <p><a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ category.slug }}">{{ category.title }}</a></p>
+    <p><a href="/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ category.slug }}">{{ category.title }}</a></p>
 {% endfor %}

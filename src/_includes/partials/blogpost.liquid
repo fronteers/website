@@ -21,7 +21,7 @@
 
             {% for member in members %}
                 {% if member.data.title == post.data.author %}
-                    <p><a href="/{{ locale }}/members/{{ member.fileSlug }}/index.html">{{ post.data.author }}</a></p>
+                    <p><a href="/{{ membersURL }}/{{ member.fileSlug }}/index.html">{{ post.data.author }}</a></p>
                 {% endif %}
             {% endfor %}
 
