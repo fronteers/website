@@ -14,13 +14,19 @@
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Italic.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">
     
-    <script src="/assets/js/vendor/focus-visible.5.1.0.min.js" crossorigin="anonymous" async></script>
-
     <meta name="description" content="{{ translations[locale].metaDescription }}">
     <meta name="theme-color" content="#">
 
-    <link rel="alternate" hreflang="nl-NL" href="{{ translations[locale].baseUrl }}" />
-    <link rel="alternate" hreflang="en-GB" href="{{ site.en.baseUrl }}" />
+    {% for lgg in site.languages %}
+    {% assign translatedUrl = "/" + lgg.code + "/" %}
+
+    {% for item in collections.all %}
+            {% if item.data.key == key and item.data.locale == lgg.code %}
+                {% assign translatedUrl = item.url %}
+                <link rel="alternate" hreflang="{{ lgg.code }}" href="{{ translatedUrl }}" />
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
 
     {% if locale == 'en' %}
         {% assign canonical = collections.canonical %} 
