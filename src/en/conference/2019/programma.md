@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.liquid
-title: Programma
+title: Schedule
 order: "30" 
 
 key: conference_2019_schedule

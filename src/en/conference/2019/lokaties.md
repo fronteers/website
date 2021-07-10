@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.liquid
-title: Lokaties
+title: Venues
 order: "50" 
 
 key: conference_2019_venues
