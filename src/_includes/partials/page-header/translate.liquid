@@ -1,48 +1,30 @@
-{% comment %}
-If we are on a page that is in English, loop through all content on the website (line 18-23) and match the current
-page's 'key' frontmatter setting and filter out the Dutch pages (line 19). We set a variable `matchFound` (line 17) and
-count how many times we've been through this loop and had a match (line 20, the `| plus 1` bit). If the loop was
-succesfull and we found a translated version of this same page, link it (line 21), if we found no matches, just link to
-the homepage (line 25-27). Yay!
-{% endcomment %}
+{% for lgg in site.languages %}
+    {% if loop.first %}<ul>{% endif %}
 
-<nav class="page-header-translate"
-     aria-label="{% if locale == 'nl' %}{{ translations[locale].ariaTitleTranslateNav }}{% else %}{{ site.en.ariaTitleTranslateNav }}{% endif %}">
-    <h2 class="visually-hidden">Translate</h2>
-    <ul>
-        <li lang="nl">
-            {% if locale == 'nl' %}
-                <span>NL</span>
-            {% else %}
-                {% assign matchFound = 0 %}
-                {% for item in collections.all %}
-                    {% if key == item.data.key and item.data.locale == "nl" and matchFound == 0 %}
-                        {% assign matchFound = matchFound | plus: 1 %}
-                        <a href="{{ item.url }}" />NL</a>
-                    {% endif %}
-                {% endfor %}
+    {% assign translatedUrl = "/" + lgg.code + "/" %}
 
-                {% if matchFound == 0 %}
-                    <a href="/nl/">ENG</a>
-                {% endif %}
-            {% endif %}
-        </li>
-        <li lang="en">
-            {% if locale == 'en' %}
-                <span>ENG</span>
-            {% else %}
-                {% assign matchFound = 0 %}
-                {% for item in collections.all %}
-                    {% if key == item.data.key and item.data.locale == "en" and matchFound == 0 %}
-                        {% assign matchFound = matchFound | plus: 1 %}
-                        <a href="{{ item.url }}" />ENG</a>
-                    {% endif %}
-                {% endfor %}
+    {% assign activeClass = "is-active" if lgg.code == locale else "" %}
 
-                {% if matchFound == 0 %}
-                    <a href="/en/">ENG</a>
-                {% endif %}
-            {% endif %}
-        </li>
-    </ul>
-</nav>
+    {% if lgg.code == locale %}
+        {% assign currentLabel = true %}
+    {% else %}
+        {% assign false = true %}
+    {% endif %}
+
+    {% for item in collections.all %}
+
+    {% if item.data.key == key and item.data.locale == lgg.code %}
+        {% assign translatedUrl = item.url %}
+    {% endif %}
+
+    {% endfor %}
+
+    <li class="c-lggnav__item">
+        <a class="c-lggnav__link  {{ activeClass }}" href="{{ translatedUrl }}">
+            <span class="visually-hidden">{{ lgg.currentLabel }}</span>
+            {{ lgg.label }}
+        </a>
+    </li>
+
+  {% if loop.last %}</ul>{% endif %}
+{% endfor %}
