@@ -5,16 +5,16 @@ module.exports = {
     twitter: "@fronteers",
     languages: [
     {
-        label: "EN",
-        code: "en",
-        currentLabel: "Current language:",
-        switchLabel: "Schakel naar"
-    },
-    {
         label: "NL",
         code: "nl",
         currentLabel: "Current language:",
         switchLabel: "Switch to"
+    },
+    {
+        label: "EN",
+        code: "en",
+        currentLabel: "Current language:",
+        switchLabel: "Schakel naar"
     },
   ],
 };
