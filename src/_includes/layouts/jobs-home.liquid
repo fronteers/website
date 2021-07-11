@@ -11,12 +11,10 @@
             {% include partials/loop-job-categories headerlvl:"h3" %}
 
             <ul class="desktop-rows mobile-slider">
-                {% for job in pagination.items limit:5 %}
-                  {% if job.data.locale == locale %}
+                {% for job in jobs %}
                     <li class="list-item mobile-slider-item">
                         {% include partials/job headerlvl:"h3" index:forloop.index %}
                     </li>
-                    {% endif %}
                 {%- endfor -%}
             </ul>
 
@@ -29,7 +27,6 @@
                 {% endif %}
 
                 {% if pagination.nextPageLink %}
-
                   <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">{{ translations[locale].next }}</a>
                 {% else %}
                   <span class="pagination__item">{{ translations[locale].next }}</span>

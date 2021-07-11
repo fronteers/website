@@ -1,5 +1,5 @@
 ---
-layout: layouts/job-category.liquid
+layout: layouts/jobs-category.liquid
 permalink: "/{{ page.filePathStem }}/{{ category.slug }}/index.html"
 tags: pages
 title: Jobs per category 

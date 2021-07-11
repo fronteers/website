@@ -11,15 +11,15 @@ const slugify = require("slugify");
  */
 function getAllKeyValues(collectionArray, key) {
   // get all values from collection
-  let allValues = collectionArray.map((item) => {
-    let values = item.data[key] ? item.data[key] : [];
+  let allValues = collectionArray.map((post) => {
+    let values = post.data[key] ? post.data[key] : [];
     return values;
   });
 
   // flatten values array
   allValues = lodash.flattenDeep(allValues);
   // to lowercase
-  allValues = allValues.map((item) => item.toLowerCase());
+  allValues = allValues.map((post) => post.toLowerCase());
   // remove duplicates
   allValues = [...new Set(allValues)];
   // order alphabetically
@@ -86,14 +86,14 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("canonical", function(collection) {
     return collection.getFilteredByTag("pages")
-      .filter((item) => Boolean(item.data.key))
+      .filter((post) => Boolean(post.data.key))
       .filter((post) => Boolean(post.date <= now))
-      .filter((item) => Boolean(item.data.locale == "nl"))
+      .filter((post) => Boolean(post.data.locale == "nl"))
   });
 
   eleventyConfig.addCollection("header_navigation", function(collection) {
     return collection.getFilteredByTag("pages")
-      .filter((item) => Boolean(item.data.header_navigation_top))
+      .filter((post) => Boolean(post.data.header_navigation_top))
       .filter((post) => Boolean(post.date <= now))
       .sort((a, b) => b.data.order - a.data.order)
       .reverse();
@@ -101,18 +101,18 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("sub_navigation", function(collection) {
     return collection.getFilteredByTag("pages")
-      .filter((item) => Boolean(!item.data.header_navigation_top))
-      .filter((item) => Boolean(!item.data.footer_navigation))
-      .filter((item) => Boolean(!item.data.hide_from_navigation))
+      .filter((post) => Boolean(!post.data.header_navigation_top))
+      .filter((post) => Boolean(!post.data.footer_navigation))
+      .filter((post) => Boolean(!post.data.hide_from_navigation))
       .filter((post) => Boolean(post.date <= now))
-      .filter((item) => Boolean(item.data.parent))
+      .filter((post) => Boolean(post.data.parent))
       .sort((a, b) => b.data.order - a.data.order)
       .reverse();
   });
 
   eleventyConfig.addCollection("footer_navigation", function(collection) {
     return collection.getFilteredByTag("pages")
-      .filter((item) => Boolean(item.data.footer_navigation))
+      .filter((post) => Boolean(post.data.footer_navigation))
       .sort((a, b) => b.data.order - a.data.order)
       .reverse();
   });
@@ -122,7 +122,7 @@ module.exports = function (eleventyConfig) {
       .getFilteredByTag("posts")
       .filter((post) => Boolean(!post.data.draft))
       .filter((post) => Boolean(post.date <= now))
-      .filter((item) => Boolean(!item.data.parent))
+      .filter((post) => Boolean(!post.data.parent))
       .reverse();
   });
 
@@ -131,7 +131,7 @@ module.exports = function (eleventyConfig) {
       .getFilteredByTag("activities")
       .filter((post) => Boolean(!post.data.draft))
       .filter((post) => Boolean(post.date <= now))
-      .filter((item) => Boolean(!item.data.parent))
+      .filter((post) => Boolean(!post.data.parent))
       .sort((a, b) => a.data.eventdate - b.data.eventdate);
   });
 
@@ -140,7 +140,7 @@ module.exports = function (eleventyConfig) {
       .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
       .filter((post) => Boolean(post.date <= now))
-      .filter((item) => Boolean(!item.data.parent))
+      .filter((post) => Boolean(!post.data.parent))
       .reverse();
   });
 
