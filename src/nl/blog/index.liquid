@@ -1,7 +1,7 @@
 ---
 ## this file is a liquid file, so we could setup pagination correctly and use liquid in this file. Also check the permalink, which conditionally adds bits to the URL per generated paginated page.
 layout: layouts/blog-list.liquid
-permalink: "/{{ page.filePathStem }}/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}index.html"
+permalink: "/{{ locale }}/{{ page.fileSlug }}/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}index.html"
 
 tags: pages
 
@@ -10,7 +10,7 @@ header_navigation_top: true
 key: blogs
 order: "40"
 
-title: Blogs
+title: Blog
 
 pagination:
   data: collections.published_posts
