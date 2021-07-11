@@ -3,30 +3,29 @@
 
 {% assign currentLanguage = locale %}
 
-{% for lgg in site.languages %}
-    {% if loop.first %}<ul>{% endif %}
+    <ul role="list">
+        {% for lgg in site.languages %}
 
-    {% assign translatedUrl = "/" + lgg.code + "/" %}
-    {% assign activeClass = "is-active" if lgg.code == locale else "" %}
+            {% assign translatedUrl = "/" + lgg.code + "/" %}
+            {% assign activeClass = "is-active" if lgg.code == locale else "" %}
 
-    {% for item in collections.all %}
-        {% if item.data.key == key and item.data.locale == lgg.code %}
-            {% assign translatedUrl = item.url %}
-        {% endif %}
-    {% endfor %}
+            {% for item in collections.all %}
+                {% if item.data.key == key and item.data.locale == lgg.code %}
+                    {% assign translatedUrl = item.url %}
+                {% endif %}
+            {% endfor %}
 
-    <li lang="{{ lgg.code }}">
-        {% if currentLanguage == lgg.code %}
-            <span>{{ lgg.label }}</span>
-        {% else %}
-            <a class="c-lggnav__link  {{ activeClass }}" href="{{ translatedUrl }}">
-                <span class="visually-hidden">{{ lgg.currentLabel }}</span>
-                {{ lgg.label }}
-            </a>
-        {% endif %}
-    </li> 
+            <li lang="{{ lgg.code }}">
+                {% if currentLanguage == lgg.code %}
+                    <span>{{ lgg.label }}</span>
+                {% else %}
+                    <a class="c-lggnav__link  {{ activeClass }}" href="{{ translatedUrl }}">
+                        <span class="visually-hidden">{{ lgg.currentLabel }}</span>
+                        {{ lgg.label }}
+                    </a>
+                {% endif %}
+            </li> 
 
-    {% if loop.last %}</ul>{% endif %}
-{% endfor %}
-
+        {% endfor %}
+    </ul>
 </nav>
