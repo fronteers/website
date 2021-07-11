@@ -19,13 +19,13 @@ key: jobs-{{ category.slug }}
     
       <h2>{{ translations[locale].job_category }}: {{ category.title }}</h2>
       {% assign posts = collections.published_jobs | getLocale: locale %}
-      <ul class="desktop-rows">
+      <ul class="desktop-rows mobile-slider">
       {% for post in posts %}
         {% assign post_categories = post.data.categories %}
         {% for post_category in post_categories %}
             {% assign current_category == post_category | downcase %} 
             {% if category.title == current_category %} 
-              <li class="list-item">
+              <li class="list-item mobile-slider-item">
                 {% include partials/job headerlvl:"h3" index:forloop.index job:post %}
               </li>
             {% endif %}

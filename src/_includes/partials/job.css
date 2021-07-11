@@ -90,7 +90,7 @@
 
   .job-graphic {
     flex: 0 0 300px;
-    min-height: 100%;
+    min-height: 200px;
     text-align: center;
     background-size: cover;
   }
