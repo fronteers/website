@@ -103,6 +103,7 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByTag("pages")
       .filter((item) => Boolean(!item.data.header_navigation_top))
       .filter((item) => Boolean(!item.data.footer_navigation))
+      .filter((item) => Boolean(!item.data.hide_from_navigation))
       .filter((post) => Boolean(post.date <= now))
       .filter((item) => Boolean(item.data.parent))
       .sort((a, b) => b.data.order - a.data.order)
