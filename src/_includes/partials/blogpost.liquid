@@ -28,7 +28,7 @@
             <ul class="blog-tags">
                 {%- for tag in post.data.categories limit:2 -%}
                     <li>
-                        <a href="{{ translations[locale].blogsURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/">{% tag tag %}</a>
+                        <a href="{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/">{% tag tag %}</a>
                     </li>
                 {% endfor %}
             </ul>

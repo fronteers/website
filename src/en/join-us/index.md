@@ -1,5 +1,5 @@
 ---
-permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
+permalink: "/{{ page.filePathStem }}/index.html"
 layout: layouts/page.liquid
 title: Become a member
 order: "30"

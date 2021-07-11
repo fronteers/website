@@ -1,8 +1,5 @@
 {% include partials/utility/dynamic-headerlevel level:"h3" title:translations[locale].categories %}
 
 {% for category in collections.jobCategories %}
-  {% if loop.first %}
-    <p><a href="/{{ translations[locale].jobsURL }}/">{{ translations[locale].all }}</a></p>
-  {% endif %}
-    <p><a href="/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}-{{ category.slug }}">{{ category.title }}</a></p>
+    <p><a href="/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{{ category.slug }}">{{ category.title }}</a></p>
 {% endfor %}

@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.liquid
-permalink: "/{{ locale }}/{{ page.fileSlug }}/index.html"
+permalink: "/{{ page.filePathStem }}/index.html"
 
 # navigation
 header_navigation_top: true
