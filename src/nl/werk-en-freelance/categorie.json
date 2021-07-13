@@ -1,0 +1,9 @@
+
+{
+    "layout": "layouts/jobs-category.liquid",
+    "permalink": "/{{ page.filePathStem }}/{{ category.slug }}/index.html",
+    "tags": "pages",
+    "hide_from_navigation": true,
+    "key": "jobs-category",
+    "parent": "job-home"
+}

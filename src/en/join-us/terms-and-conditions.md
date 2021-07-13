@@ -1,5 +1,4 @@
 ---
-layout: layouts/page.liquid
 title: Terms and conditions
 order: "20" 
 

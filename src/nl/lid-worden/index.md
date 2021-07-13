@@ -1,5 +1,4 @@
 ---
-layout: layouts/page.liquid
 title: Word lid
 header_navigation_top: true
 order: "30"

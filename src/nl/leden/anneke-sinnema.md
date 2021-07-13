@@ -1,5 +1,4 @@
 ---
-layout: layouts/members-single.liquid
 title: Anneke Sinnema
 date: 2020-11-10
 graphic:

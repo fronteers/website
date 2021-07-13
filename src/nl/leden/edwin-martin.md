@@ -1,5 +1,4 @@
 ---
-layout: layouts/members-single.liquid
 title: Edwin
 date: 2020-11-10
 graphic:

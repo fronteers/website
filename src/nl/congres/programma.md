@@ -1,5 +1,4 @@
 ---
-layout: layouts/page.liquid
 title: Programma
 order: "30" 
 

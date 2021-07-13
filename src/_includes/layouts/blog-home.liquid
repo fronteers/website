@@ -10,10 +10,10 @@
 
             {% include partials/loop-blog-categories headerlvl:"h3" %}
 
-            <ul class="desktop-columns mobile-slider">
+            <ul class="desktop-rows mobile-slider">
                 {%- for post in paginated_posts limit:pagination.size -%}
                     <li class="list-item mobile-slider-item">
-                        {% include partials/member index:forloop.index %}
+                        {% include partials/blogpost headerlvl:"h3" index:forloop.index  %}
                     </li>
                 {%- endfor -%}
             </ul>

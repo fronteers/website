@@ -1,7 +1,4 @@
 ---
-layout: layouts/page.liquid
-tags: pages
-
 # navigation
 key: alv
 order: "30"

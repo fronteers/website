@@ -1,0 +1,15 @@
+
+{
+    "layout": "layouts/blog-home.liquid",
+    "permalink": "/{{ locale }}/{{ page.fileSlug }}/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}index.html",
+    "tags": "pages",
+    "hide_from_navigation": true,
+    "header_navigation_top": true,
+    "key": "blogs",
+    "order": "40",
+    "pagination": {
+        "data": "collections.published_posts_nl",
+        "size": "3",
+        "alias": "paginated_posts"
+    }
+}

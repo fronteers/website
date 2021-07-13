@@ -1,5 +1,4 @@
 ---
-layout: layouts/page.liquid
 title: Code of conduct
 order: "30" 
 

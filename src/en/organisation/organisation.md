@@ -1,7 +1,4 @@
 ---
-layout: layouts/page.liquid
-tags: pages
-
 # navigation
 key: organisation
 order: "10"

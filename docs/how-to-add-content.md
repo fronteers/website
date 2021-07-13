@@ -14,7 +14,7 @@ For example, check out the homepage: `src/index.md`:
 ---
 layout: layouts/home.liquid
 locale: nl
-tags: pages
+
 
 # navigation
 footer_navigation: true

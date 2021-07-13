@@ -1,7 +1,4 @@
 ---
-layout: layouts/page.liquid
-tags: pages
-
 # navigation
 key: commissions
 order: "40"

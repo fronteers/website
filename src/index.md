@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.liquid
 locale: nl
-tags: pages
+
 
 # navigation
 footer_navigation: true

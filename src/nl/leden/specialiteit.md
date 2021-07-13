@@ -1,6 +1,3 @@
 ---
-layout: layouts/freelancers-specialties.liquid
-permalink: "/{{ page.filePathStem }}/{{ specialty.slug }}/index.html"
-tags: pages
-title: Freelancers op specialiteit
+title: Freelancers gesorteerd per specialiteit
 ---

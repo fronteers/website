@@ -1,0 +1,7 @@
+
+{
+    "layout": "layouts/freelancers-specialties.liquid",
+    "permalink": "/{{ page.filePathStem }}/{{ specialty.slug }}/index.html",
+    "tags": "pages",
+    "hide_from_navigation": true
+}

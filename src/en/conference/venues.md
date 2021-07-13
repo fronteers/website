@@ -1,5 +1,4 @@
 ---
-layout: layouts/page.liquid
 title: Venues
 order: "50" 
 

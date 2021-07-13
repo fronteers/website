@@ -1,5 +1,4 @@
 ---
-layout: layouts/page.liquid
 title: Membership
 order: "10" 
 
