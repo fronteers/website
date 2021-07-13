@@ -11,7 +11,7 @@
             {% include partials/loop-freelancers-specialties headerlvl:"h3" %}
 
             <ul class="desktop-columns mobile-slider">
-                {%- for member in freelancers limit:3 -%}
+                {% for member in pagination.items limit:pagination.size %}
                     <li class="list-item mobile-slider-item">
                         {% include partials/member index:forloop.index %}
                     </li>
@@ -19,20 +19,19 @@
             </ul>
 
             {% if pagination.pageLinks.length > 1 %}
-              <nav class="pagination">
+                <nav class="pagination">
                 {% if pagination.previousPageLink %}
-                  <a class="pagination__item" href="{{ pagination.previousPageHref | url }}">Newer Articles</a>
+                    <a class="pagination__item" href="{{ pagination.previousPageHref | url }}">Newer Articles</a>
                 {% else %}
-                  <span class="pagination__item">Newer Articles</span>
+                    <span class="pagination__item">Newer Articles</span>
                 {% endif %}
 
                 {% if pagination.nextPageLink %}
-
-                  <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">{{ translations[locale].next }}</a>
+                    <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">Older Articles</a>
                 {% else %}
-                  <span class="pagination__item">{{ translations[locale].next }}</span>
+                    <span class="pagination__item">Older Articles</span>
                 {% endif %}
-              </nav>
+                </nav>
             {% endif %}
         </main>
  

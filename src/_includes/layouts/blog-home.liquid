@@ -10,29 +10,28 @@
 
             {% include partials/loop-blog-categories headerlvl:"h3" %}
 
-            <ul class="desktop-rows mobile-slider">
-                {%- for post in blogposts limit:3 -%}
+            <ul class="desktop-columns mobile-slider">
+                {%- for post in paginated_posts limit:pagination.size -%}
                     <li class="list-item mobile-slider-item">
-                        {% include partials/blogpost headerlvl:"h3" index:forloop.index  %}
+                        {% include partials/member index:forloop.index %}
                     </li>
                 {%- endfor -%}
             </ul>
 
             {% if pagination.pageLinks.length > 1 %}
-              <nav class="pagination">
+                <nav class="pagination">
                 {% if pagination.previousPageLink %}
-                  <a class="pagination__item" href="{{ pagination.previousPageHref | url }}">Newer Articles</a>
+                    <a class="pagination__item" href="{{ pagination.previousPageHref | url }}">Newer Articles</a>
                 {% else %}
-                  <span class="pagination__item">Newer Articles</span>
+                    <span class="pagination__item">Newer Articles</span>
                 {% endif %}
 
                 {% if pagination.nextPageLink %}
-
-                  <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">{{ translations[locale].next }}</a>
+                    <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">Older Articles</a>
                 {% else %}
-                  <span class="pagination__item">{{ translations[locale].next }}</span>
+                    <span class="pagination__item">Older Articles</span>
                 {% endif %}
-              </nav>
+                </nav>
             {% endif %}
         </main>
  
