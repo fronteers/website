@@ -1,0 +1,23 @@
+{
+	"folders": [
+        {
+			"path": "src",
+            "name": "Source folder",
+		},
+		{
+			"path": "docs",
+            "name": "Documentatie"
+		},
+		{
+			"path": "stories",
+            "name": "Storybook"
+		},
+    ],
+    "settings": {
+        "files.exclude": {
+            "node_modules/": true,
+            ".github": true,
+            "dist": true
+        }
+    }
+}
