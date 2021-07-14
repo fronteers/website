@@ -6,7 +6,7 @@ title: Activities per category
 hide_from_navigation: true
 
 key: activities-category
-parent: activities
+
 ---
 
 

@@ -1,9 +1,6 @@
 ---
-
 footer_navigation: true
 key: kitchensink
-order: "99"
-
 title: Kitchensink-HTML
 ---
 

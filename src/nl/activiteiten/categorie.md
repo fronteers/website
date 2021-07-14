@@ -6,5 +6,5 @@ title: Activiteiten per categorie
 hide_from_navigation: true
 
 key: activities-category
-parent: activities
+
 ---

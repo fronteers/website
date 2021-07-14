@@ -5,7 +5,7 @@ permalink: "/{{ locale }}/index.html"
 
 footer_navigation: true
 key: home
-order: "0"
+
 
 title: Homepage
 ---

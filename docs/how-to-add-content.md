@@ -19,7 +19,7 @@ locale: nl
 
 footer_navigation: true
 key: home
-order: "0"
+
 
 title: Homepage
 ---
