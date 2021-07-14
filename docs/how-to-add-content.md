@@ -86,7 +86,6 @@ Blogs and jobs use an image in their layouts. This is how you set a graphic:
 graphic:
   src: /assets/images/banner-conference.jpg
   alt:
-  class: shape-curly-brace-right
 ```
 
 If you only want to upload a company logo, you can add it in the `nl/jobs/company-logos` folder and refer to it with the graphic src `/assets/company-logos/eagerly-internet-logo.png` 

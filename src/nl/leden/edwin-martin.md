@@ -2,7 +2,7 @@
 title: Edwin
 date: 2020-11-10
 graphic:
-  src: https://source.unsplash.com/600x600?autumn
+  src: /assets/images/banner-conference.jpg
   alt:
 
 key: edwin-martin
