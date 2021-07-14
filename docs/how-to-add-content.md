@@ -15,9 +15,6 @@ For example, check out the homepage: `src/index.md`:
 layout: layouts/home.liquid
 locale: nl
 
-
-
-
 key: home
 title: Homepage
 ---

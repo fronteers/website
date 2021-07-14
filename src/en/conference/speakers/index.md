@@ -1,5 +1,4 @@
 ---
 title: Sprekers
 key: speakers
-
 ---

@@ -1,8 +1,4 @@
 ---
 title: Evenementen
-
-
-
 key: events
-
 ---

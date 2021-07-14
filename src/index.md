@@ -2,9 +2,6 @@
 layout: layouts/home.liquid
 locale: nl
 
-
-
-
 key: home
 
 permalink: "/"

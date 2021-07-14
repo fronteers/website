@@ -4,7 +4,6 @@ about: Add a to do for building/updating a component from the design of the webs
 title: "\U0001F3D7  Component: "
 labels: ''
 assignees: ''
-
 ---
 
 ## Status of the build checklist
