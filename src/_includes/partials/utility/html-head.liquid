@@ -81,16 +81,8 @@
     {% endcomment %}
 {% include svg/shapes.svg %}
 
-{% assign footer_navigation = collections.footer_navigation | getLocale: locale %}
 {% assign blogposts = collections.published_posts | getLocale: locale %}
 {% assign activities = collections.published_activities  | getLocale: locale %}
 {% assign jobs = collections.published_jobs  | getLocale: locale %} 
 {% assign members = collections.published_members  | getLocale: locale  %}
 {% assign freelancers = collections.freelancers  | getLocale: locale  %}
-
-{{ layout }}<br />
-{{ tags }}<br />
-{{ permalink }}<br />
-
-{{ page.filePathStem }}<br />
-"/{{ locale }}/{{ page.fileSlug }}/index.html"<br />

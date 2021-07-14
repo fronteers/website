@@ -1,5 +1,4 @@
 {
   "layout": "layouts/blog-single.liquid",
-  "permalink": "/{{ page.filePathStem }}/index.html",
   "tags": "posts"
   }

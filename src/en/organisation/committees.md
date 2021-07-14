@@ -1,8 +1,4 @@
 ---
-
 key: commissions
-
-
-
 title: Committees
 ---

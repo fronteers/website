@@ -17,10 +17,8 @@ locale: nl
 
 
 
-footer_navigation: true
+
 key: home
-
-
 title: Homepage
 ---
 

@@ -1,8 +1,4 @@
 ---
-
 key: board
-
-
-
 title: Board
 ---

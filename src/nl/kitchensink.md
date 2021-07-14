@@ -1,5 +1,4 @@
 ---
-footer_navigation: true
 key: kitchensink
 title: Kitchensink
 ---

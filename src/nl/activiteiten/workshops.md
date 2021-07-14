@@ -1,8 +1,4 @@
 ---
 title: Workshops
-
-
-
 key: workshops
-
 ---

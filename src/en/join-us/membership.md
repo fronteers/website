@@ -1,7 +1,5 @@
 ---
 title: Membership
- 
-
 key: membership
 
 ---

@@ -4,7 +4,7 @@ locale: nl
 
 
 
-footer_navigation: true
+
 key: home
 
 permalink: "/"

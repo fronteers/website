@@ -1,5 +1,4 @@
 {
   "layout": "layouts/jobs-single.liquid",
-  "permalink": "/{{ page.filePathStem }}/index.html",
   "tags": "jobs"
 }

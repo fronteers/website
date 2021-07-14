@@ -1,8 +1,4 @@
 ---
-
 key: history
-
-
-
 title: History
 ---

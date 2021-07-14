@@ -1,0 +1,19 @@
+debug urls
+
+
+{% comment %}
+<div>
+    <table>
+        
+        {% for page in collections.all %}
+            <tr>
+                <td>{{ page.data.title }} </td>
+                <td>{{ page.data.permalink }}</td>
+                <td><a href="{{ page.url }}">{{ page.url }}</a></td>
+                <td>{{ page.filePathStem }}</td>
+                <td>/{{ locale }}/{{ page.fileSlug }}/index.html</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endcomment %}

@@ -1,7 +1,5 @@
 ---
 title: Speakers
- 
-
 key: speakers
 
 ---

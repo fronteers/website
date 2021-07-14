@@ -1,7 +1,5 @@
 ---
 title: Programma
- 
-
 key: schedule
 
 ---

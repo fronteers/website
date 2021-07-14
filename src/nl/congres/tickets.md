@@ -1,7 +1,5 @@
 ---
 title: Tickets
- 
-
 key: tickets
 
 ---

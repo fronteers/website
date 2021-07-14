@@ -1,0 +1,11 @@
+{
+    "layout": "layouts/activity-home.liquid",
+    "permalink": "/{{ locale }}/{{ page.fileSlug }}/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}index.html",
+    "tags": "pages",
+    "key": "activities",
+    "pagination": {
+        "data": "collections.published_activities_en",
+        "size": "3",
+        "alias": "paginated_activities"
+    }
+}

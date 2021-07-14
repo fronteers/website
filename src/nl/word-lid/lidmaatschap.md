@@ -1,7 +1,5 @@
 ---
 title: Lidmaatschap
- 
-
 key: membership
 
 ---

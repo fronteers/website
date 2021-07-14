@@ -1,7 +1,5 @@
 ---
 title: Venues
- 
-
 key: venues
 
 ---
