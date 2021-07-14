@@ -1,4 +1,4 @@
 ---
 key: newsletter
-title: Nieuwsbrief
+title: Newsletter
 ---

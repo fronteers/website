@@ -1,4 +1,4 @@
 ---
 key: board
-title: Bestuur
+title: Board
 ---

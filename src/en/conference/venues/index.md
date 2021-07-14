@@ -1,4 +1,4 @@
 ---
-title: Locaties
+title: Venues
 key: venues
 ---

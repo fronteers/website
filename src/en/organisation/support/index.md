@@ -1,4 +1,4 @@
 ---
 key: support-us
-title: Support
+title: Support us
 ---

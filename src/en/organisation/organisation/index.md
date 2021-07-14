@@ -1,4 +1,4 @@
 ---
 key: organisation
-title: Organisatie
+title: Organisation
 ---

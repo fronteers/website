@@ -1,4 +1,4 @@
 ---
 key: colophon
-title: Colofon
+title: Colophon
 ---

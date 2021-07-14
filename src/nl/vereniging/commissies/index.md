@@ -1,4 +1,4 @@
 ---
-key: commissions
+key: committees
 title: Commissies
 ---

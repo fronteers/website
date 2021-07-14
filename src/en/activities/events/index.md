@@ -1,4 +1,4 @@
 ---
-title: Evenementen
+title: Events
 key: events
 ---

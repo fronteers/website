@@ -1,3 +1,3 @@
 ---
-title: Voorwaarden
+title: Terms and conditions
 ---

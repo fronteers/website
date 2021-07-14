@@ -1,3 +1,3 @@
 ---
-title: Vacature plaatsen
+title: Post a job opening
 ---

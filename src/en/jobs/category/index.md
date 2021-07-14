@@ -1,3 +1,3 @@
 ---
-title: Werk of opdracht per categorie
+title: Jobs by category
 ---

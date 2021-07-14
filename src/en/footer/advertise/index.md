@@ -1,4 +1,4 @@
 ---
 key: advertisement
-title: Adverteren
+title: Advertise
 ---

@@ -1,11 +1,8 @@
 ---
 layout: layouts/home.liquid
 locale: nl
-
 key: home
-
 permalink: "/"
-
 title: Homepage
 ---
 ## We unite front-end developers! <br /> And we do it with pride.

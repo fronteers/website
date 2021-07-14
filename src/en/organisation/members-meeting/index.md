@@ -1,4 +1,4 @@
 ---
 key: alv
-title: Algemene Ledenvergadering
+title: Membership meeting
 ---

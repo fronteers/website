@@ -1,4 +1,4 @@
 ---
 key: history
-title: Geschiedenis
+title: History
 ---

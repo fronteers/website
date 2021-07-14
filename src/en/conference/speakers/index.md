@@ -1,4 +1,4 @@
 ---
-title: Sprekers
+title: Speakers
 key: speakers
 ---

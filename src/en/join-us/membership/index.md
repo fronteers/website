@@ -1,4 +1,4 @@
 ---
-title: Lidmaatschap
+title: Membership
 key: membership
 ---

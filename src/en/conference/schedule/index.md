@@ -1,4 +1,4 @@
 ---
-title: Programma
+title: Schedule
 key: schedule
 ---
