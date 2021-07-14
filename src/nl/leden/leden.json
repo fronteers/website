@@ -1,5 +1,4 @@
 {
     "layout": "layouts/members-single.liquid",
-  
     "tags": "members"
 }
