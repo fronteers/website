@@ -78,8 +78,13 @@
         #parenthesis-down-tiny
         #greater-than-down-tiny
         #curly-brace-down-tiny
-    {% endcomment %}
+{% endcomment %}
+
 {% include svg/shapes.svg %}
+
+{% comment %}
+    assign collections to a variable, to simplify looping through the content
+{% endcomment %}
 
 {% assign blogposts = collections.published_posts | getLocale: locale %}
 {% assign activities = collections.published_activities  | getLocale: locale %}
