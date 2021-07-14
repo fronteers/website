@@ -1,4 +1,3 @@
-
 {
     "layout": "layouts/freelancers-home.liquid",
     "permalink": "/{{ locale }}/{{ page.fileSlug }}/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}index.html",

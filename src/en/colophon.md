@@ -1,5 +1,5 @@
 ---
-# navigation
+
 footer_navigation: true
 key: colophon
 order: "70"

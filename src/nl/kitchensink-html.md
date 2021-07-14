@@ -1,5 +1,5 @@
 ---
-# navigation
+
 footer_navigation: true
 key: kitchensink
 order: "99"

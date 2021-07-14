@@ -1,9 +1,0 @@
-
-{
-    "layout": "layouts/page.liquid",
-    "permalink": "/{{ page.filePathStem }}/index.html",
-    "tags": "pages",
-    "header_navigation_top": true,
-    "key": "about",
-    "order": "10"
-}

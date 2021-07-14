@@ -1,6 +1,6 @@
 {
   "layout": "layouts/page.liquid",
-  "permalink": "/{{ page.filePathStem }}/index.html",
+  "permalink": "/{{ locale }}/{{ page.fileSlug }}/index.html",
   "locale": "nl",
   "tags": "pages"
 }

@@ -91,32 +91,6 @@ module.exports = function (eleventyConfig) {
       .filter((post) => Boolean(post.data.locale == "nl"))
   });
 
-  eleventyConfig.addCollection("header_navigation", function(collection) {
-    return collection.getFilteredByTag("pages")
-      .filter((post) => Boolean(post.data.header_navigation_top))
-      .filter((post) => Boolean(post.date <= now))
-      .sort((a, b) => b.data.order - a.data.order)
-      .reverse();
-  });
-
-  eleventyConfig.addCollection("sub_navigation", function(collection) {
-    return collection.getFilteredByTag("pages")
-      .filter((post) => Boolean(!post.data.header_navigation_top))
-      .filter((post) => Boolean(!post.data.footer_navigation))
-      .filter((post) => Boolean(!post.data.hide_from_navigation))
-      .filter((post) => Boolean(post.date <= now))
-      .filter((post) => Boolean(post.data.parent))
-      .sort((a, b) => b.data.order - a.data.order)
-      .reverse();
-  });
-
-  eleventyConfig.addCollection("footer_navigation", function(collection) {
-    return collection.getFilteredByTag("pages")
-      .filter((post) => Boolean(post.data.footer_navigation))
-      .sort((a, b) => b.data.order - a.data.order)
-      .reverse();
-  });
-  
   eleventyConfig.addCollection("published_posts", function(collection) {
     return collection
       .getFilteredByTag("posts")

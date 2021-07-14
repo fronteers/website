@@ -2,7 +2,7 @@
 layout: layouts/home.liquid
 permalink: "/{{ locale }}/index.html"
 
-# navigation
+
 footer_navigation: true
 key: home
 order: "0"

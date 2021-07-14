@@ -41,7 +41,19 @@
         </li>
     </ul>
 
-    {% include partials/navigation where:"footer" description:"Footer navigation" toplevelloop:footer_navigation sublevelloop:footer_sub_navigation %}
+    {% if locale == "nl" %}
+        {% include partials/navigation 
+            nav_location:"footer" 
+            nav_description:"Footer navigation" 
+            nav_selection: navigation.footer.nl
+        %}
+    {% elsif locale == "en" %}
+        {% include partials/navigation 
+            nav_location:"footer" 
+            nav_description:"Footer navigation" 
+            nav_selection: navigation.footer.en
+        %}
+    {% endif %}
 
     <script src="/assets/js/page-navigation.js"></script>
 </footer>

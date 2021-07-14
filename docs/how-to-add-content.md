@@ -16,7 +16,7 @@ layout: layouts/home.liquid
 locale: nl
 
 
-# navigation
+
 footer_navigation: true
 key: home
 order: "0"

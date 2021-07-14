@@ -18,9 +18,8 @@
     <meta name="theme-color" content="#">
 
     {% for lgg in site.languages %}
-    {% assign translatedUrl = "/" + lgg.code + "/" %}
-
-    {% for item in collections.all %}
+        {% assign translatedUrl = "/" + lgg.code + "/" %}
+        {% for item in collections.all %}
             {% if item.data.key == key and item.data.locale == lgg.code %}
                 {% assign translatedUrl = item.url %}
                 <link rel="alternate" hreflang="{{ lgg.code }}" href="{{ translatedUrl }}" />
@@ -82,15 +81,16 @@
     {% endcomment %}
 {% include svg/shapes.svg %}
 
-{% assign header_navigation = collections.header_navigation | getLocale: locale %}
-{% assign header_sub_navigation = collections.sub_navigation | getLocale: locale %}
 {% assign footer_navigation = collections.footer_navigation | getLocale: locale %}
-{% assign footer_sub_navigation = collections.sub_navigation | getLocale: locale %}
 {% assign blogposts = collections.published_posts | getLocale: locale %}
 {% assign activities = collections.published_activities  | getLocale: locale %}
 {% assign jobs = collections.published_jobs  | getLocale: locale %} 
 {% assign members = collections.published_members  | getLocale: locale  %}
 {% assign freelancers = collections.freelancers  | getLocale: locale  %}
 
-{{ layout }}
-{{ tags }}
+{{ layout }}<br />
+{{ tags }}<br />
+{{ permalink }}<br />
+
+{{ page.filePathStem }}<br />
+"/{{ locale }}/{{ page.fileSlug }}/index.html"<br />
