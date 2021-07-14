@@ -1,4 +1,0 @@
----
-key: newsletter
-title: Newsletter
----

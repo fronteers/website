@@ -54,6 +54,20 @@ module.exports = {
                 ]
             },
             {
+                "url": "/nl/activiteiten/",
+                "title": "Activiteiten",
+                "subnav": [
+                    {
+                        "url": "/nl/activiteiten/events/",
+                        "title": "Meetups"
+                    },
+                    {
+                        "url": "/nl/activiteiten/workshops/",
+                        "title": "Workshops"
+                    }
+                ]
+            },
+            {
                 "title": "Blog",
                 "url": "/nl/blog/",
             },
@@ -76,7 +90,7 @@ module.exports = {
                 ]
             },
             {
-                "url": "/nl/congres/index/",
+                "url": "/nl/congres/",
                 "title": "Congres",
                 "subnav": [
                     {
@@ -168,6 +182,20 @@ module.exports = {
                 ]
             },
             {
+                "url": "/en/activities/",
+                "title": "Activiteiten",
+                "subnav": [
+                    {
+                        "url": "/en/activities/events/",
+                        "title": "Meetups"
+                    },
+                    {
+                        "url": "/en/activities/workshops/",
+                        "title": "Workshops"
+                    }
+                ]
+            },
+            {
                 "title": "Blog",
                 "url": "/en/blog/",
             },
@@ -194,27 +222,27 @@ module.exports = {
                 "title": "Conference",
                 "subnav": [
                     {
-                        "url": "/en/conference/tickets/",
+                        "url": "/en/conference/tickets.html",
                         "title": "Tickets"
                     },
                     {
-                        "url": "/en/conference/speakers/",
+                        "url": "/en/conference/speakers.html",
                         "title": "Speakers"
                     },
                     {
-                        "url": "/en/conference/schedule/",
+                        "url": "/en/conference/schedule.html",
                         "title": "Schedule"
                     },
                     {
-                        "url": "/en/conference/workshops/",
+                        "url": "/en/conference/workshops.html",
                         "title": "Workshops"
                     },
                     {
-                        "url": "/en/conference/venues/",
+                        "url": "/en/conference/venues.html",
                         "title": "Venues"
                     },
                     {
-                        "url": "/en/conference/contact/",
+                        "url": "/en/conference/contact.html",
                         "title": "Contact"
                     },
                     {
@@ -232,45 +260,45 @@ module.exports = {
     "footer": {
         "nl": [
             {
-                "url": "/nl/contact/",
+                "url": "/nl/footer/contact/",
                 "title": "Contact"
             },
             {
-                "url": "/nl/nieuwsbrief/",
+                "url": "/nl/footer/nieuwsbrief/",
                 "title": "Nieuwsbrief"
             },
             {
-                "url": "/nl/privacy-en-cookies/",
+                "url": "/nl/footer/privacy-en-cookies/",
                 "title": "Privacy &amp; cookie statement"
             },
             {
-                "url": "/nl/colofon/",
+                "url": "/nl/footer/colofon/",
                 "title": "Colofon"
             },
             {
-                "url": "/nl/adverteren/",
+                "url": "/nl/footer/adverteren/",
                 "title": "Adverteren"
             }
         ],
         "en": [
             {
-                "url": "/en/contact/",
+                "url": "/en/footer/contact/",
                 "title": "Contact"
             },
             {
-                "url": "/en/newsletter/",
+                "url": "/en/footer/newsletter/",
                 "title": "Newsletter"
             },
             {
-                "url": "/en/privacy-and-cookies/",
+                "url": "/en/footer/privacy-and-cookies/",
                 "title": "Privacy &amp; cookie statement"
             },
             {
-                "url": "/en/colophon/",
+                "url": "/en/footer/colophon/",
                 "title": "Colophon"
             },
             {
-                "url": "/en/advertise/",
+                "url": "/en/footer/advertise/",
                 "title": "Advertise"
             }
         ]

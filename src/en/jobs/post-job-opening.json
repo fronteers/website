@@ -1,7 +1,0 @@
-{
-    "layout": "layouts/page.liquid",
-    "tags": "pages",
-    "key": "post-job",
-    "order": "30",
-    "parent": "job-home"
-}

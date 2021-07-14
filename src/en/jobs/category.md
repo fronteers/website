@@ -1,3 +1,0 @@
----
-title: Jobs per category 
----

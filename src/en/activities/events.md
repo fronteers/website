@@ -1,7 +1,0 @@
----
-title: Events
-
-
-key: events
-
----

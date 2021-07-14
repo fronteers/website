@@ -1,4 +1,0 @@
----
-key: advertisement
-title: Advertising
----

@@ -1,4 +1,0 @@
----
-key: board
-title: Board
----

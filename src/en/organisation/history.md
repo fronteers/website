@@ -1,4 +1,0 @@
----
-key: history
-title: History
----

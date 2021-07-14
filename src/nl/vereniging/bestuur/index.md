@@ -1,0 +1,4 @@
+---
+key: board
+title: Bestuur
+---

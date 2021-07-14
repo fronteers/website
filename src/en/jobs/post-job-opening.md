@@ -1,3 +1,0 @@
----
-title: Post an opening
----
