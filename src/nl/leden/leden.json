@@ -1,4 +1,5 @@
 {
+    "permalink": "/{{ page.filePathStem }}/index.html",
     "layout": "layouts/members-single.liquid",
     "tags": "members"
 }

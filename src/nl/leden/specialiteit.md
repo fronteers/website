@@ -1,3 +1,3 @@
 ---
-title: Freelancers gesorteerd per specialiteit
+title: Freelancers gesorteerd op specialiteit
 ---

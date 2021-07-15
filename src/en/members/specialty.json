@@ -2,5 +2,11 @@
 {
     "layout": "layouts/freelancers-specialties.liquid",
     "permalink": "/{{ page.filePathStem }}/{{ specialty.slug }}/index.html",
-    "tags": "pages"
+    "tags": "pages",
+    "pagination": {
+        "data": "collections.memberSpecialties",
+        "size": 1,
+        "alias": "memberSpecialties"
+    },
+    "key": "specialties-{{ specialty.slug }}"
 }

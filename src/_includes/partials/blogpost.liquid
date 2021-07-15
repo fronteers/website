@@ -21,14 +21,14 @@
 
             {% for member in members %}
                 {% if member.data.title == post.data.author %}
-                    <p><a href="/{{ membersURL }}/{{ member.fileSlug }}/index.html">{{ post.data.author }}</a></p>
+                    <p><a href="{{ member.url }}">{{ post.data.author }}</a></p>
                 {% endif %}
             {% endfor %}
 
             <ul class="blog-tags">
                 {%- for tag in post.data.categories limit:2 -%}
                     <li>
-                        <a href="{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/">{% tag tag %}</a>
+                        <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}">{% tag tag %}</a>
                     </li>
                 {% endfor %}
             </ul>

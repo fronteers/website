@@ -1,8 +1,12 @@
 
 {
     "layout": "layouts/jobs-category.liquid",
-    "permalink": "/{{ page.filePathStem }}/{{ category.slug }}/index.html",
+    "permalink": "/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{% if category.slug %}{{ category.slug }}/{% endif %}index.html",
     "tags": "pages",
-    "key": "jobs-category",
-    "parent": "job-home"
+    "pagination": {
+        "data": "collections.jobsCategories",
+        "size": 1,
+        "alias": "category"
+    },
+    "key": "jobs-{{ category.slug }}"
 }

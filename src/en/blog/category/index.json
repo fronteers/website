@@ -1,6 +1,11 @@
-
 {
     "layout": "layouts/blog-category.liquid",
-    "permalink": "/{{ page.filePathStem }}/{{ category.slug }}/index.html",
-    "tags": "pages"
+    "permalink": "/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{% if category.slug %}{{ category.slug }}/{% endif %}index.html",
+    "tags": "pages",
+    "pagination": {
+        "data": "collections.blogCategories",
+        "size": 1,
+        "alias": "category"
+    },
+    "key": "blog-{{ category.slug }}"
 }

@@ -1,5 +1,5 @@
 {% include partials/utility/dynamic-headerlevel level:"h3" title:translations[locale].categories %}
 
 {% for category in collections.blogCategories %}
-  <p><a href="/{{ translations[locale].blogsURL }}/categorie/{{ category.slug }}">{{ category.title }}</a></p>
+  <p><a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ category.slug }}">{{ category.title }}</a></p>
 {% endfor %}

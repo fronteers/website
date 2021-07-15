@@ -1,3 +1,3 @@
 ---
-title: Activities per category
+title: Activities
 ---
