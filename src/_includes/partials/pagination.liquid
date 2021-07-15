@@ -1,0 +1,15 @@
+{% if pagination.pageLinks.length > 1 %}
+    <nav class="pagination">
+    {% if pagination.previousPageLink %}
+        <a class="pagination__item" href="{{ pagination.previousPageHref | url }}">{{ translations[locale].previous }}</a>
+    {% else %}
+        <span class="pagination__item">{{ translations[locale].previous }}</span>
+    {% endif %}
+
+    {% if pagination.nextPageLink %}
+        <a class="pagination__item" href="{{ pagination.nextPageHref | url }}">{{ translations[locale].next }}</a>
+    {% else %}
+        <span class="pagination__item">{{ translations[locale].next }}</span>
+    {% endif %}
+    </nav>
+{% endif %}
