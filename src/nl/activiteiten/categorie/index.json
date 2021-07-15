@@ -6,6 +6,5 @@
         "data": "collections.activityCategories",
         "size": 1,
         "alias": "category"
-    },
-    "key": "activity-{{ category.slug }}"
+    }
 }

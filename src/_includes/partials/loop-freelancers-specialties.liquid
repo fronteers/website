@@ -1,4 +1,4 @@
-{% include partials/utility/dynamic-headerlevel level:"h3" title:translations[locale].specialties %}
+{% include partials/utility/dynamic-headerlevel level:headerlvl title:translations[locale].specialties %}
 
 {% for specialty in collections.memberSpecialties %}
     <p><a href="/{{ translations[locale].membersURL }}/{{ translations[locale].specialty }}/{{ specialty.slug }}">{{ specialty.title }}</a></p>

@@ -17,24 +17,15 @@
     <meta name="description" content="{{ translations[locale].metaDescription }}">
     <meta name="theme-color" content="#">
 
-    {% for lgg in site.languages %}
-        {% assign translatedUrl = "/" + lgg.code + "/" %}
+    {% for language in site.languages %}
+        {% assign translatedUrl = "/" + language.code + "/" %}
         {% for item in collections.all %}
-            {% if item.data.key == key and item.data.locale == lgg.code %}
+            {% if item.data.title == title and item.data.locale == language.code %}
                 {% assign translatedUrl = item.url %}
-                <link rel="alternate" hreflang="{{ lgg.code }}" href="{{ translatedUrl }}" />
+                <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ language.baseLang }}{{ translatedUrl }}" />
             {% endif %}
         {% endfor %}
     {% endfor %}
-
-    {% if locale == 'en' %}
-        {% assign canonical = collections.canonical %} 
-        {% for canoo in canonical %}
-            {% if key == canoo.data.key %}
-                <link rel="canonical" href="{{ canoo.url }}" />
-            {% endif %}
-        {% endfor %}
-    {% endif %}
 
     <meta property="og:site_name" content="{{ translations[locale].siteName }}">
     <meta property="og:title" content="{{ title or translations[locale].siteName }}" />
