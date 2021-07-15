@@ -1,8 +1,8 @@
 {
 	"folders": [
         {
-			"path": "src",
-            "name": "Source folder",
+			"path": ".",
+            "name": "Everything",
 		},
 		{
 			"path": "docs",
