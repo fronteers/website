@@ -8,7 +8,7 @@
             <h2>{{ title }}</h2>
             {{ content }}
 
-            {% include partials/loop-job-categories headerlvl:"h3" %}
+            {% include partials/jobs/loop-job-categories headerlvl:"h3" %}
 
             <ul class="desktop-rows mobile-slider">
                 {% for job in pagination.items limit:pagination.size %}

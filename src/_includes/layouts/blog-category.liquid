@@ -7,7 +7,7 @@
             <h2>{{ title }}</h2>
             {{ content }}
 
-            {% include partials/loop-blog-categories headerlvl:"h3" %}
+            {% include partials/blog/loop-blog-categories headerlvl:"h3" %}
             
             <h2>Blog category: {{ category.title }}</h2>
             {% assign posts = collections.all | getLocale: locale %}

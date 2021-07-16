@@ -8,7 +8,7 @@
             <h2>{{ title }}</h2>
             {{ content }}
 
-            {% include partials/loop-freelancers-specialties headerlvl:"h3" %}
+            {% include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" %}
 
             <ul class="desktop-columns mobile-slider">
                 {% for member in pagination.items limit:pagination.size %}

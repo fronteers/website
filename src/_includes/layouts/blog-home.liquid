@@ -8,7 +8,7 @@
             <h2>{{ title }}</h2>
             {{ content }}
 
-            {% include partials/loop-blog-categories headerlvl:"h3" %}
+            {% include partials/blog/loop-blog-categories headerlvl:"h3" %}
 
             <ul class="desktop-rows mobile-slider">
                 {%- for post in paginated_posts limit:pagination.size -%}
