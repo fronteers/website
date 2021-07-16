@@ -82,7 +82,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-block-end: var(--spacing);
+  /* margin-block-end: var(--spacing); */
 }
 
 .blog-tags li {

@@ -9,6 +9,7 @@
   border-radius: 50%;
   display: block;
   margin: 0px auto;
+  object-fit: cover;
 }
 
 .member-header {

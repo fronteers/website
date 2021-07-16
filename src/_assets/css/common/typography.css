@@ -48,7 +48,7 @@ p {
 }
 
 a {
-  color: var(--purple-wcag-darker-wcag-darker);
+  color: var(--purple-wcag-darker);
 }
 
 a:hover,
@@ -58,6 +58,32 @@ a:focus {
   text-decoration: none;
 }
 
+.tag-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.tag-link:hover,
+.tag-link:focus {
+    background-color: transparent;
+    color: white;
+}
+    .tag-link:hover .tag,
+    .tag-link:focus .tag,
+    .tag-link:hover .tag::before,
+    .tag-link:focus .tag::before,
+    .tag-link:hover .tag::after,
+    .tag-link:focus .tag::after {
+        background: var(--purple-wcag-darker);
+    }
+
+    .tag-link:focus-within .tag,
+    .tag-link:focus-within .tag::after,
+    .tag-link:focus-within .tag::before {
+        background: var(--purple-wcag-darker);
+        color: white;
+    }
+    
 .h {
   font-family: var(--font-family-decoration);
 }

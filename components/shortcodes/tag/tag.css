@@ -6,9 +6,12 @@
   margin: 0 1em;
   background: var(--lilac-light);
   font-size: var(--font-size-12);
+
+  -webkit-clip-path: url(#button-greater-than);
+  clip-path: url(#button-greater-than);
 }
 
-.tag::before,
+/* .tag::before,
 .tag::after {
   position: absolute;
   top: 0;
@@ -17,14 +20,17 @@
   display: inline-block;
   inline-size: 1em;
   background: var(--lilac-light);
+  flex: 0 0 1em;
 }
 
 .tag::before {
   left: -1em;
+  transform: translateX(.2px);
 }
 
 .tag::after {
   right: -1em;
+  transform: translateX(-.2px)
 }
 
 .tag-angle:before {
@@ -33,7 +39,7 @@
 
 .tag-angle:after {
   clip-path: polygon(0 0, 40% 50%, 0 100%);
-}
+} */
 
 .tag + .tag {
   margin-inline-start: 2em;
