@@ -1,6 +1,7 @@
 # Contributing
 
-If you want to help us, read through this readme first to get an idea of the way you can contribute. There are various ways you can help:
+You want to help us? Great! Please read through this document first to get an idea of the way you can contribute. There are various ways you can help:
+
 - by giving us advice on tooling
 - by  [building components](https://github.com/fronteers/website/issues?q=is%3Aissue+component+is%3Aopen).
 - by improving components (making them leaner, faster, smarter, more robust or mobile-friendly)
@@ -46,7 +47,21 @@ Want to get your hands dirty? Follow the steps below!
 
     Don't understand one of these steps or want to have it explained differently? [Join us on Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`. We'll brainstorm with you on how best to get you up to speed! 
 
-## Step 1: Install node modules
+## Step 1: Clone the repository on your computer
+
+If you don't have it installed yet, [download and install Git](https://git-scm.com/downloads) for your computer.
+Git is a version management tool. While coding, you create "save points" (called commits), which makes it really useful when coding with other people. They can see what you've done and why, because you'll add a descriptive 'commit message'. And if you both edited a file, it'll help you make sure you don't overwrite the other person's code. [This article on Git by Milu Franz is a great explanation](https://dev.to/milu_franz/git-explained-the-basics-igc). [Roger Dudler's git guide](https://rogerdudler.github.io/git-guide/) lists all the useful commands.
+Git articles and video's online can be a little intimidating. It can help to install a good [Git graphical user interface](https://git-scm.com/downloads/guis).
+
+Once you have Git, open a command line and go to a folder on your harddisk where you want to keep a copy of the Fronteers website code.
+
+```bash
+git clone https://github.com/fronteers/website.git
+```
+
+This makes a copy of all the code on your harddrive. Stay in this location on the commandline, we'll continue working here.
+
+## Step 2: Install node modules
 
 First, make sure to install all the necessary modules with NPM:
 
@@ -54,10 +69,27 @@ First, make sure to install all the necessary modules with NPM:
 npm install
 ```
 
-If this command seems foreign to you, check out this article: "[A beginner's guide to NPM](https://www.stackchief.com/tutorials/A%20Beginner%27s%20Guide%20to%20NPM)". 
-Summarised, it installs all the necessary modules to run Eleventy.
+If this command seems foreign to you, check out this article: "[A beginner's guide to NPM](https://www.stackchief.com/tutorials/A%20Beginner%27s%20Guide%20to%20NPM)". In summary, it will install all the necessary modules to run Eleventy.
+If you haven't worked with it before, you will also need to [install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-installer-to-install-nodejs-and-npm) ([If you have iOS or Windows, this link](https://nodejs.org/en/download/)).
 
-## Step 2: Run Eleventy
+## Step 3: Create a git branch to work on
+
+We'll make a branch, sort of a copy of the code where you save all your changes (`commits`). This helps keep all your changes in making a new component or a bugfix together. After you finish coding, you'll make a `pull-request`, which is essentially the expression we use for asking feedback of the team and permission to add your changes to the project.
+
+```bash
+git checkout -b [branch-name]
+```
+
+Replace [branch-name] in the above command with a name that explains what the end-result will be. Here are some examples:
+```
+git checkout -b /feature/about-hero-element
+
+git checkout -b /bugfix/fix-typos-on-homepage
+
+git checkout -b /content/add-my-meetup
+``` 
+
+## Step 4: Run Eleventy
 
 After you've installed all the necessary node modules, run
 
@@ -80,7 +112,7 @@ You don't really need to do this, because we host the site on Netlify, and it do
 npm start build
 ```
 
-## Step 3: Start coding
+## Step 5: Start coding
 
 Every issue that is open on the [issues page](https://github.com/fronteers/website/issues) has a little checklist that shows what still needs to be done to consider it finished. This reflects our Definition of Done:
 
