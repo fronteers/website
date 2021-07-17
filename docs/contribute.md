@@ -7,33 +7,33 @@ If you want to help us, read through this readme first to get an idea of the way
 - by building functionality for the website (a lot has been done, but could maybe do with finetuning)
 - by building [advanced functionality](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge)
 
-## Good first issues
+## 🏗 Good first issues
 
 We have labelled issues that might be good first issues to help out with as [Good first issues](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 These are usually issues that need help with styling. 
 
-## Challenging issues
+## ✨ Challenging issues
 
 Issues that require back-end expertise, knowledge/experience of Liquid, or knowledge of a certain technical solution that we would love to add to the website that would help UX in a big way.
 
 Why don't you take a look? [Check out all challenging issues](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge).
 
-## Issues that need some research into the best option
+## 💡 Issues that need some research into the best option
 
 We're not sure yet about how to tackle a few things, and we've marked those as [questions](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion). What is your advice on how to do this? Have you seen a website where something seems to be working super smoothly? 
 
-## Have a question for our designers?
+## 🤔 Have a question for our designers?
 
 We collect questions and feedback in batches, so the designers have one point of contact and can work on this project with 100% focus. [Leave your question/feedback in this issue](https://github.com/fronteers/website/issues/79)
 
-## Just have an opinion or see something buggy?
+## 🐛 Just have an opinion or see something buggy?
 
 As we are all volunteers working on this, it would be most helpful to us if you could open a pull-request. But we understand it if you are a little daunted by all of this, or not at home with the code enough to confidently make a change. We get it!
 
-You can [open a bug report](https://github.com/fronteers/website/issues/new?assignees=&labels=&template=bug_report.md&title=) here on GitHub
+You can [open a bug report](https://github.com/fronteers/website/issues/new?assignees=&labels=&template=bug_report.md&title=🐛) here on GitHub
 or if you think more discussion would be helpful [join us on Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`.
 
-## How to start developing
+# How to start developing
 
 The website is built using [Eleventy](https://www.11ty.dev/) (Static site generator) and hosted on [Netlify](https://www.netlify.com/). 
 
@@ -44,11 +44,7 @@ Most issues also have a checklist, so you can tick off any boxes when you've don
 
 Want to get your hands dirty? Follow the steps below!
 
-<div style="padding: 10px; border: 1px solid white; box-shadow: inset 0 0 1px 1px #000000; margin-bottom: 1rem" markdown="1">
-
-Don't understand one of these steps or want to have it explained differently? [Join us on Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`. We'll brainstorm with you on how best to get you up to speed! 
-
-</div>
+    Don't understand one of these steps or want to have it explained differently? [Join us on Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`. We'll brainstorm with you on how best to get you up to speed! 
 
 ## Step 1: Install node modules
 
@@ -71,14 +67,9 @@ npm run start
 
 This command tells Eleventy to go through all the files in the `src` folder. When run, first it generates the site in the `dist` directory. After it finishes doing that, it tells you at what address in the browser you can find a running version of the website. Then it goes into `watch` mode, which means it will keep an eye on the files you edit and save. If it sees you make changes to a `.md`, `.html` or `.liquid` file, it will regenerate all the files and automatically refresh the browser.
 
-<div style="padding: 10px; border: 1px solid white; box-shadow: inset 0 0 1px 1px #000000; margin-bottom: 1rem" markdown="1">
+    ### Sidenote
 
-### Sidenote
-
-All this is really smart, but it is not _that_ smart. If you generated a html page, which you're looking at in the browser, and you delete it so the page in the browser shouldn't exist anymore, it will look to you as if nothing changes. This is because Eleventy doesn't delete all the files in the `dist` folder before it generates all the pages again. 
-
-</div>
-
+    All this is really smart, but it is not _that_ smart. If you generated a html page, which you're looking at in the browser, and you delete it so the page in the browser shouldn't exist anymore, it will look to you as if nothing changes. This is because Eleventy doesn't delete all the files in the `dist` folder before it generates all the pages again. 
 
 ### Just generating the site
 
