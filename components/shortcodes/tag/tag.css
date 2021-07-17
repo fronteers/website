@@ -6,40 +6,25 @@
   margin: 0 1em;
   background: var(--lilac-light);
   font-size: var(--font-size-12);
+}
 
+/* Angled tags, like with < and > */
+.tag-angle {
   -webkit-clip-path: url(#button-greater-than);
   clip-path: url(#button-greater-than);
 }
 
-/* .tag::before,
-.tag::after {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  content: "";
-  display: inline-block;
-  inline-size: 1em;
-  background: var(--lilac-light);
-  flex: 0 0 1em;
+/* Rounded tags, like with ( and ) */
+.tag-parentheses {
+  -webkit-clip-path: url(#button-parentheses);
+  clip-path: url(#button-parentheses);
 }
 
-.tag::before {
-  left: -1em;
-  transform: translateX(.2px);
+/* Rounded tags, like with { and } */
+.tag-curly-braces {
+   -webkit-clip-path: url(#button-curly-braces);
+  clip-path: url(#button-curly-braces);
 }
-
-.tag::after {
-  right: -1em;
-  transform: translateX(-.2px)
-}
-
-.tag-angle:before {
-  clip-path: polygon(100% 0, 60% 50%, 100% 100%);
-}
-
-.tag-angle:after {
-  clip-path: polygon(0 0, 40% 50%, 0 100%);
-} */
 
 .tag + .tag {
   margin-inline-start: 2em;
