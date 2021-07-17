@@ -47,8 +47,9 @@ function strToSlug(str) {
 }
 
 module.exports = function (eleventyConfig) {
-  /* Rebuild when CSS is changed */
-  eleventyConfig.addWatchTarget("./src/_assets/css/");
+  /* Rebuild when any of the files are changed */
+  eleventyConfig.addWatchTarget("./components/");
+  eleventyConfig.addWatchTarget("./src/");
   /* Copy fonts to the dist directory */
   eleventyConfig.addPassthroughCopy({
     "src/_assets/fonts": "assets/fonts",
