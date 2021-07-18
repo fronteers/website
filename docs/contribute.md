@@ -45,7 +45,7 @@ Most issues also have a checklist, so you can tick off any boxes when you've don
 
 Want to get your hands dirty? Follow the steps below!
 
-    Don't understand one of these steps or want to have it explained differently? [Join us on Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`. We'll brainstorm with you on how best to get you up to speed! 
+> Don't understand one of these steps or want to have it explained differently? [Join us on Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`. We'll brainstorm with you on how best to get you up to speed! 
 
 ## Step 1: Clone the repository on your computer
 
@@ -99,11 +99,10 @@ npm run start
 
 This command tells Eleventy to go through all the files in the `src` folder. When run, first it generates the site in the `dist` directory. After it finishes doing that, it tells you at what address in the browser you can find a running version of the website. Then it goes into `watch` mode, which means it will keep an eye on the files you edit and save. If it sees you make changes to a `.md`, `.html` or `.liquid` file, it will regenerate all the files and automatically refresh the browser.
 
-![Example of what you get when running the command npm run start](https://github.com/fronteers/website/blob/main/designs/afterrunningnpmstart.png?raw=true)
+![Example of what you get when running the command npm run start](https://github.com/fronteers/website/blob/main/docs/afterrunningnpmstart.png?raw=true)
 
-    ### Sidenote
-
-    All this is really smart, but it is not _that_ smart. If you generated a html page, which you're looking at in the browser, and you delete it so the page in the browser shouldn't exist anymore, it will look to you as if nothing changes. This is because Eleventy doesn't delete all the files in the `dist` folder before it generates all the pages again. 
+> Sidenote
+> All this is really smart, but it is not _that_ smart. If you generated a html page, which you're looking at in the browser, and you delete it so the page in the browser shouldn't exist anymore, it will look to you as if nothing changes. This is because Eleventy doesn't delete all the files in the `dist` folder before it generates all the pages again. 
 
 ### Just generating the site
 
