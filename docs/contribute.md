@@ -13,19 +13,15 @@ You want to help us? Great! Please read through this document first to get an id
 Before you start contributing consider the following principles:
 
 **1. This is for everyone**  
-
 Make sure everyone feels welcome to contribute to fronteers.nl. Keep your feedback or issue descriptions civil and on point.
 
 **2. Three see more than two, see more than one**  
-
 There are a lot of smart people in our community, so ask for feedback on your idea, and let's learn from each other!
 
 **3. Keep it simple, sweetie**  
-
 We're all volunteers with limited time, so keep your contributions small and simple so people can easily pick up where you left off.
 
 **4. There's no harm in asking**  
-
 When you are stuck or want to get started on an issue but are not entirely sure how, ask around in Fronteers Slack. There's always someone willing to help. If you're not a member of our Slack community yet, you can [register here](https://fronteers-slack.herokuapp.com/).
 
 ## 🏗 Good first issues
