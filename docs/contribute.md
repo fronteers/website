@@ -8,10 +8,26 @@ You want to help us? Great! Please read through this document first to get an id
 - by building functionality for the website (a lot has been done, but could maybe do with finetuning)
 - by building [advanced functionality](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge)
 
+## 👯 Development principles
+
+Before you start contributing consider the following principles:
+
+**1. This is for everyone**  
+Make sure everyone feels welcome to contribute to fronteers.nl. Keep your feedback or issue descriptions civil and on point.
+
+**2. Three see more than two, see more than one**  
+There are a lot of smart people in our community, so ask for feedback on your idea, and let's learn from each other!
+
+**3. Keep it simple, sweetie**  
+We're all volunteers with limited time, so keep your contributions small and simple so people can easily pick up where you left off.
+
+**4. There's no harm in asking**  
+When you are stuck or want to get started on an issue but are not entirely sure how, ask around in Fronteers Slack. There's always someone willing to help. If you're not a member of our Slack community yet, you can [register here](https://fronteers-slack.herokuapp.com/).
+
 ## 🏗 Good first issues
 
 We have labelled issues that might be good first issues to help out with as [Good first issues](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
-These are usually issues that need help with styling. 
+These are usually issues that need help with styling.
 
 ## ✨ Challenging issues
 
@@ -21,7 +37,7 @@ Why don't you take a look? [Check out all challenging issues](https://github.com
 
 ## 💡 Issues that need some research into the best option
 
-We're not sure yet about how to tackle a few things, and we've marked those as [questions](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion). What is your advice on how to do this? Have you seen a website where something seems to be working super smoothly? 
+We're not sure yet about how to tackle a few things, and we've marked those as [questions](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion). What is your advice on how to do this? Have you seen a website where something seems to be working super smoothly?
 
 ## 🤔 Have a question for our designers?
 
@@ -36,16 +52,16 @@ or if you think more discussion would be helpful [join us on Slack](https://fron
 
 # How to start developing
 
-The website is built using [Eleventy](https://www.11ty.dev/) (Static site generator) and hosted on [Netlify](https://www.netlify.com/). 
+The website is built using [Eleventy](https://www.11ty.dev/) (Static site generator) and hosted on [Netlify](https://www.netlify.com/).
 
 Every time a new pull-request is made, at the bottom of the pull-request detail page you'll see a link from Netlify where reviewers can see what everything looks like if the changes would be merged. The `main` branch also has a [preview link](https://fronteers-beta.netlify.app/) if you want to look at what has been built so far!
 
-In most issues, we mention a link to the design file. Our designers directly share [the design](https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/grid) with us through the AdobeXD platform. 
+In most issues, we mention a link to the design file. Our designers directly share [the design](https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/grid) with us through the AdobeXD platform.
 Most issues also have a checklist, so you can tick off any boxes when you've done some work that has been merged, or notice that it has been done. So the next person can see what is still left to do.
 
 Want to get your hands dirty? Follow the steps below!
 
-> Don't understand one of these steps or want to have it explained differently? [Join us on Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`. We'll brainstorm with you on how best to get you up to speed! 
+> Don't understand one of these steps or want to have it explained differently? [Join us on Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`. We'll brainstorm with you on how best to get you up to speed!
 
 ## Step 1: Clone the repository on your computer
 
@@ -87,7 +103,7 @@ git checkout -b /feature/about-hero-element
 git checkout -b /bugfix/fix-typos-on-homepage
 
 git checkout -b /content/add-my-meetup
-``` 
+```
 
 ## Step 4: Run Eleventy
 
@@ -102,11 +118,11 @@ This command tells Eleventy to go through all the files in the `src` folder. Whe
 ![Example of what you get when running the command npm run start](https://github.com/fronteers/website/blob/main/docs/afterrunningnpmstart.png?raw=true)
 
 > Sidenote
-> All this is really smart, but it is not _that_ smart. If you generated a html page, which you're looking at in the browser, and you delete it so the page in the browser shouldn't exist anymore, it will look to you as if nothing changes. This is because Eleventy doesn't delete all the files in the `dist` folder before it generates all the pages again. 
+> All this is really smart, but it is not _that_ smart. If you generated a html page, which you're looking at in the browser, and you delete it so the page in the browser shouldn't exist anymore, it will look to you as if nothing changes. This is because Eleventy doesn't delete all the files in the `dist` folder before it generates all the pages again.
 
 ### Just generating the site
 
-If you're not developing, but just want to have Eleventy generate a copy of the website, you can use the following command. 
+If you're not developing, but just want to have Eleventy generate a copy of the website, you can use the following command.
 You don't really need to do this, because we host the site on Netlify, and it does this for us by downloading the main GitHub branch and then running this. (You can see it on [our Netlify beta version](https://fronteers-beta.netlify.app/))
 
 ```bash
