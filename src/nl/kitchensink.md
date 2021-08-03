@@ -29,13 +29,38 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 {% button "button" "Klik mij" %}
 
 
-#
+## Vimeo
 
-\{\% include partials/navigation 
-nav_location:"header" 
-description:"Main navigation"  \%\}
+\{\% vimeo "15982903" \%\}
 
-Renders the navigation bars in the header and the footer.
+{% vimeo "15982903" %}
+
+
+## Youtube
+
+\{\% youtube "rhgwIhB58PA" \%\}
+
+{% youtube "rhgwIhB58PA" %}
+
+
+## Codepen
+
+\{\% codepen "MWmBYog" "Pool rules" \%\}
+
+{% codepen "MWmBYog" "Pool rules" %}
+
+
+## JSfiddle
+
+\{\% jsfiddle "lensco" "yYQdf" \%\}
+
+{% jsfiddle "lensco" "yYQdf" %}
+
+## Google Maps
+
+\{\% googlemaps "Marconilaan 8, Weert, nl" \%\}
+
+{% googlemaps "Marconilaan 8, Weert, nl" %}
 
 
 ## POC paired shortcode
