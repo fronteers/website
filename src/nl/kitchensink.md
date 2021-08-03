@@ -50,17 +50,19 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 {% codepen "MWmBYog" "Pool rules" %}
 
 
-## JSfiddle
-
-\{\% jsfiddle "lensco" "yYQdf" \%\}
-
-{% jsfiddle "lensco" "yYQdf" %}
 
 ## Google Maps
 
 \{\% googlemaps "Marconilaan 8, Weert, nl" \%\}
 
 {% googlemaps "Marconilaan 8, Weert, nl" %}
+
+
+## JSfiddle
+
+\{\% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" \%\}
+
+{% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" %}
 
 
 ## POC paired shortcode
