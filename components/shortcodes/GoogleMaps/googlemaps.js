@@ -1,0 +1,2 @@
+exports.googlemaps = (address) => `
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19494.556226829136!2d4.888344389550781!3d52.355558400000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609eec1bb16e5%3A0xd54373ae6a408585!2s${address}!5e0!3m2!1sen!2snl!4v1627994301527!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`;
