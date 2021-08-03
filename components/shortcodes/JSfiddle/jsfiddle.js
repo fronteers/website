@@ -1,1 +1,1 @@
-exports.jsfiddle = (user, code) => `<script async src="//jsfiddle.net/${user}/${code}/embed/">`;
+exports.jsfiddle = (user, code, title) => `<a href="https://jsfiddle.net/${user}/${code}">${title}</a>`;
