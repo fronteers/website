@@ -48,7 +48,7 @@ function strToSlug(str) {
 
 module.exports = function (eleventyConfig) {
   /* Rebuild when any of the files are changed */
-  eleventyConfig.addWatchTarget("./components/");
+  eleventyConfig.addWatchTarget("./src/_components/");
   eleventyConfig.addWatchTarget("./src/");
   /* Copy fonts to the dist directory */
   eleventyConfig.addPassthroughCopy({
@@ -68,7 +68,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/_assets/js": "assets/js" });
 
   /* Load all paired shortcodes */
-  glob.sync("components/paired/**/*.js").forEach((file) => {
+  glob.sync("src/_components/paired/**/*.js").forEach((file) => {
     let shortcodes = require(`./${file}`);
     Object.keys(shortcodes).forEach((name) => {
       eleventyConfig.addPairedShortcode(name, shortcodes[name]);
@@ -76,7 +76,7 @@ module.exports = function (eleventyConfig) {
   });
 
   /* Load all shortcodes */
-  glob.sync("components/shortcodes/**/*.js").forEach((file) => {
+  glob.sync("src/_components/shortcodes/**/*.js").forEach((file) => {
     let shortcodes = require(`./${file}`);
     Object.keys(shortcodes).forEach((name) => {
       eleventyConfig.addShortcode(name, shortcodes[name]);
