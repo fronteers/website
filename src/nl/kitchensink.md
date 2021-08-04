@@ -65,6 +65,38 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 {% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" %}
 
 
+## Slideshare
+
+\{\% slideshare "2hNXWKt7JGPKpi" \%\}
+
+{% slideshare "2hNXWKt7JGPKpi" %}
+
+
+## Slides.com
+
+\{\% slides "sdrasner" "functional-fronteers" \%\}
+
+{% slides "sdrasner" "functional-fronteers" %}
+
+## Speakerdeck
+
+\{\% speakerdeck "g00glen00b" "fronteers-javascript-at-your-enterprise-dutch" "View Javascript at your enterprise" \%\}
+
+{% speakerdeck "g00glen00b" "fronteers-javascript-at-your-enterprise-dutch" "View Javascript at your enterprise" %}
+
+## Mailchimp signup form
+
+\{\% mailchimp \%\}
+
+{% mailchimp %}
+
+## Quote
+
+\{\% quote "Anneke Sinnema" "This is a quote" \%\}
+
+{% quote "Anneke Sinnema" "This is a quote" %}
+
+
 ## POC paired shortcode
 
 \{\% block "Title" \%\}
