@@ -29,13 +29,72 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 {% button "button" "Klik mij" %}
 
 
-#
+## Vimeo
 
-\{\% include partials/navigation 
-nav_location:"header" 
-description:"Main navigation"  \%\}
+\{\% vimeo "15982903" \%\}
 
-Renders the navigation bars in the header and the footer.
+{% vimeo "15982903" %}
+
+
+## Youtube
+
+\{\% youtube "rhgwIhB58PA" \%\}
+
+{% youtube "rhgwIhB58PA" %}
+
+
+## Codepen
+
+\{\% codepen "MWmBYog" "Pool rules" \%\}
+
+{% codepen "MWmBYog" "Pool rules" %}
+
+
+
+## Google Maps
+
+\{\% googlemaps "Marconilaan 8, Weert, nl" \%\}
+
+{% googlemaps "Marconilaan 8, Weert, nl" %}
+
+
+## JSfiddle
+
+\{\% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" \%\}
+
+{% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" %}
+
+
+## Slideshare
+
+\{\% slideshare "2hNXWKt7JGPKpi" \%\}
+
+{% slideshare "2hNXWKt7JGPKpi" %}
+
+
+## Slides.com
+
+\{\% slides "sdrasner" "functional-fronteers" \%\}
+
+{% slides "sdrasner" "functional-fronteers" %}
+
+## Speakerdeck
+
+\{\% speakerdeck "g00glen00b" "fronteers-javascript-at-your-enterprise-dutch" "View Javascript at your enterprise" \%\}
+
+{% speakerdeck "g00glen00b" "fronteers-javascript-at-your-enterprise-dutch" "View Javascript at your enterprise" %}
+
+## Mailchimp signup form
+
+\{\% mailchimp \%\}
+
+{% mailchimp %}
+
+## Quote
+
+\{\% quote "Anneke Sinnema" "This is a quote" \%\}
+
+{% quote "Anneke Sinnema" "This is a quote" %}
 
 
 ## POC paired shortcode
