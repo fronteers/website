@@ -1,0 +1,2 @@
+<rect x="0" y="0" height="100%" width="100%" style="fill: {{ primary }}"/>
+<path d="M0,0L100,0L100,154" style="fill: {{ secondary }}"/>

@@ -1,0 +1,2 @@
+<rect x="0" y="0" height="100%" width="100%" style="fill: {{ primary }}"/>
+<rect x="25%" y="0" height="100%" width="50%" style="fill: {{ secondary }}"/>
