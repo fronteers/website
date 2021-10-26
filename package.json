@@ -30,8 +30,5 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  },
-  "dependencies": {
-    "seed-random": "^2.2.0"
   }
 }
