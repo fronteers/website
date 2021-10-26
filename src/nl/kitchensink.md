@@ -90,16 +90,16 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 ## Shield
 
-\{\% shield "french" "split-horizontal" "red" "yellow" \%\}
+\{\% shield "accolade" "split-horizontal" "red" "yellow" \%\}
 
 <table>
   <thead>
     <tr>
       <td></td>
+      <th scope="col" width="100">accolade</th>
       <th scope="col" width="100">checkerboard</th>
       <th scope="col" width="100">diagonal</th>
       <th scope="col" width="100">dot</th>
-      <th scope="col" width="100">french</th>
       <th scope="col" width="100">thunder</th>
       <th scope="col" width="100">split-horizontal</th>
       <th scope="col" width="100">stripe</th>
@@ -107,41 +107,41 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
   </thead>
   <tbody>
     <tr>
-      <th scope="row">french</th>
-      <td>{% shield "french" "checkerboard" "red" "yellow" %}</td>
-      <td>{% shield "french" "diagonal" "red" "yellow" %}</td>
-      <td>{% shield "french" "dot" "red" "yellow" %}</td>
-      <td>{% shield "french" "french" "red" "yellow" %}</td>
-      <td>{% shield "french" "thunder" "red" "yellow" %}</td>
-      <td>{% shield "french" "split-horizontal" "red" "yellow" %}</td>
-      <td>{% shield "french" "stripe" "red" "yellow" %}</td>
+      <th scope="row">accolade</th>
+      <td>{% shield "accolade" "accolade" "red" "yellow" %}</td>
+      <td>{% shield "accolade" "checkerboard" "red" "yellow" %}</td>
+      <td>{% shield "accolade" "diagonal" "red" "yellow" %}</td>
+      <td>{% shield "accolade" "dot" "red" "yellow" %}</td>
+      <td>{% shield "accolade" "thunder" "red" "yellow" %}</td>
+      <td>{% shield "accolade" "split-horizontal" "red" "yellow" %}</td>
+      <td>{% shield "accolade" "stripe" "red" "yellow" %}</td>
     </tr>
     <tr>
       <th scope="row">rectangular</th>
+      <td>{% shield "rectangular" "accolade" "red" "yellow" %}</td>
       <td>{% shield "rectangular" "checkerboard" "red" "yellow" %}</td>
       <td>{% shield "rectangular" "diagonal" "red" "yellow" %}</td>
       <td>{% shield "rectangular" "dot" "red" "yellow" %}</td>
-      <td>{% shield "rectangular" "french" "red" "yellow" %}</td>
       <td>{% shield "rectangular" "thunder" "red" "yellow" %}</td>
       <td>{% shield "rectangular" "split-horizontal" "red" "yellow" %}</td>
       <td>{% shield "rectangular" "stripe" "red" "yellow" %}</td>
     </tr>
     <tr>
       <th scope="row">rounded</th>
+      <td>{% shield "rounded" "accolade" "red" "yellow" %}</td>
       <td>{% shield "rounded" "checkerboard" "red" "yellow" %}</td>
       <td>{% shield "rounded" "diagonal" "red" "yellow" %}</td>
       <td>{% shield "rounded" "dot" "red" "yellow" %}</td>
-      <td>{% shield "rounded" "french" "red" "yellow" %}</td>
       <td>{% shield "rounded" "thunder" "red" "yellow" %}</td>
       <td>{% shield "rounded" "split-horizontal" "red" "yellow" %}</td>
       <td>{% shield "rounded" "stripe" "red" "yellow" %}</td>
     </tr>
     <tr>
       <th scope="row">triangular</th>
+      <td>{% shield "triangular" "accolade" "red" "yellow" %}</td>
       <td>{% shield "triangular" "checkerboard" "red" "yellow" %}</td>
       <td>{% shield "triangular" "diagonal" "red" "yellow" %}</td>
       <td>{% shield "triangular" "dot" "red" "yellow" %}</td>
-      <td>{% shield "triangular" "french" "red" "yellow" %}</td>
       <td>{% shield "triangular" "thunder" "red" "yellow" %}</td>
       <td>{% shield "triangular" "split-horizontal" "red" "yellow" %}</td>
       <td>{% shield "triangular" "stripe" "red" "yellow" %}</td>
