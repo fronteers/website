@@ -1,6 +1,8 @@
 <div class="blog blog-{{ index }}">
     <div class="content-graphic">
-        <img src="{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
+        {% if post.data.graphic.src %}
+            <img src="{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
+        {% endif %}
     </div>
 
     <div class="content-text">
