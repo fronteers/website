@@ -3,7 +3,7 @@
         <div class="activity-header-content">
             {% include partials/utility/dynamic-headerlevel level:headerlvl title:activity.data.title link:activity.url %}
             <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
-                {{ activity.data.eventdate | date: "%d %B %Y" }}
+                {{ activity.data.eventdate | displayDate: locale }}
             </time>
         </div>
     </div>
