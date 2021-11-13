@@ -18,7 +18,7 @@
         <div class="job-meta">
             <p class="job-byline">
                 <time class="blog-time" datetime="{{ job.date | date: "%Y-%m-%d" }}">
-                    {{ job.date | date: "%d.%m.%y" }}
+                    {{ job.date | displayDate: locale }}
                 </time>
                 <!-- {{ job.data.author }} -->
             </p>
@@ -35,4 +35,3 @@
         </div>
     </div>
 </div>
- 
