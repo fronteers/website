@@ -12,7 +12,6 @@
   line-height: 1.25em;
   margin: 0;
   text-transform: none;
-  block-size: calc(1.25rem * 5);
 }
 
 .activity-time {
@@ -30,6 +29,16 @@
   padding-block-end: 0;
   display: flex;
   flex-direction: column;
+  height: 8.5rem;
+}
+
+/* Clamp heading to three lines */
+.activity-header-content .h {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
 }
 
 .activity--1 .activity-header-content {
