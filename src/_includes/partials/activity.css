@@ -92,6 +92,9 @@
 .activity-content {
   padding: var(--spacing);
   padding-block-start: 0;
+  display: flex;
+  flex-direction: column;
+  height: 19rem;
 }
 
 .activity-location {
@@ -99,6 +102,7 @@
   align-items: flex-start;
   color: var(--purple-wcag-darker);
   text-transform: capitalize;
+  margin-top: auto;
 }
 
 .activity-location svg {
