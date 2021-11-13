@@ -97,6 +97,15 @@
   height: 19rem;
 }
 
+.activity-summary {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 7;
+  line-clamp: 7;
+  margin: 1rem 0;
+}
+
 .activity-location {
   display: flex;
   align-items: flex-start;
