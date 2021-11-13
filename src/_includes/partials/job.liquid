@@ -1,19 +1,19 @@
 <div class="job job-{{ index }}">
-    <div class="job-graphic" 
-    {%- if job.data.backgroundcolor -%}style="background-color: {{ job.data.backgroundcolor }}"
-    {%- endif -%}>
+    <div class="job-graphic"
+         {%- if job.data.backgroundcolor -%}style="background-color: {{ job.data.backgroundcolor }}"
+            {%- endif -%}>
         <img src="{{ job.data.graphic.src }}" alt="{{ job.data.graphic.alt }}" />
     </div>
     <div class="job-content">
-        {% include partials/utility/dynamic-headerlevel level:headerlvl title:job.data.title link:job.url %}
+        {% include partials/utility/dynamic-headerlevel level: headerlvl title: job.data.title link: job.url %}
 
-        {% if job.data.summary %}
-            <p class="job-summary">
+        <p class="job-summary">
+            {% if job.data.summary %}
                 {{ job.data.summary }}
-            </p>
-        {% else %}
-            {{ job.templateContent | striptags | truncate: 115  }}
-        {% endif %}
+            {% else %}
+                {{ job.templateContent | strip_html | truncate: 280 }}
+            {% endif %}
+        </p>
 
         <div class="job-meta">
             <p class="job-byline">
@@ -23,13 +23,15 @@
                 <!-- {{ job.data.author }} -->
             </p>
             <ul class="job-tags">
-                {%- for tag in job.data.categories limit:2 -%}
-                    <li><a href="/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/" class="tag-link">{% tag tag %}</a></li>
+                {%- for tag in job.data.categories limit: 2 -%}
+                    <li>
+                        <a href="/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/"
+                           class="tag-link">{% tag tag %}</a></li>
                 {% endfor %}
             </ul>
 
             <a href="{{ job.url }}" class="button job-readmore">
-                {{ translations[locale].jobreadmore }} 
+                {{ translations[locale].jobreadmore }}
                 <span class="visually-hidden">{{ translations[locale].about }} {{ job.data.title }}</span>
             </a>
         </div>
