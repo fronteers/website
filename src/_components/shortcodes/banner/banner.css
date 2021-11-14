@@ -1,0 +1,51 @@
+.banner_component {
+  display: flex;
+  place-content: center;
+  flex-wrap: wrap;
+  min-height: 250px;
+  inline-size: 70%;
+}
+
+.banner_component::after {
+  content: " ";
+  inline-size: 100%;
+  block-size: 100%;
+  z-index: 1;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+}
+
+.banner_component svg {
+  z-index: 2;
+}
+
+.banner_component:hover svg circle,
+.banner_component:focus svg circle {
+  fill: var(--purple);
+}
+
+.banner_component:hover svg path,
+.banner_component:focus svg path {
+  fill: white;
+}
+
+.banner_component .visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  block-size: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  inline-size: 1px;
+}
+
+@media all and (max-width: 46.874em) {
+  .banner_component {
+    -webkit-clip-path: none;
+    clip-path: none;
+    padding: var(--spacing) 6%;
+    min-height: 30vh;
+    width: 100%;
+  }
+}

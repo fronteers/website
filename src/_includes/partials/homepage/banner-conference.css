@@ -1,5 +1,8 @@
+.no-padding {
+  padding: 0;
+}
+
 .banner-conference {
-  background-image: url("/assets/images/banner-conference.jpg");
   display: flex;
   place-content: center;
   flex-wrap: wrap;
@@ -27,4 +30,13 @@
 .banner-conference:hover svg path,
 .banner-conference:focus svg path {
   fill: white;
+}
+
+@media all and (max-width: 46.874em) {
+  .banner-conference {
+    -webkit-clip-path: none;
+    clip-path: none;
+    padding: var(--spacing) 6%;
+    min-height: 30vh;
+  }
 }

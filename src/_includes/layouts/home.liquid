@@ -11,7 +11,17 @@
                 {% include partials/homepage/upcoming-activities headerlvl:"h2" partialTitle:translations[locale].blockTitles.upcomingActivities %}
             {% endif %}
 
-            {% include partials/homepage/banner-conference headerlvl:"h2" partialTitle:translations[locale].blockTitles.conferenceBanner %}
+            {% include partials/homepage/banner-conference headerlvl:"h2" type:"parentheses" partialTitle:translations[locale].blockTitles.conferenceBanner link:"https://en.wikipedia.org/wiki/" image:"assets/images/fronteers-conference.jpg" %}
+            <!--{% include partials/homepage/banner-conference headerlvl:"h2" type:"greater" partialTitle:translations[locale].blockTitles.conferenceBanner link:"https://en.wikipedia.org/wiki/" image:"assets/images/fronteers-conference.jpg" %} -->
+            <!--{% include partials/homepage/banner-conference headerlvl:"h2" type:"curly" partialTitle:translations[locale].blockTitles.conferenceBanner link:"https://en.wikipedia.org/wiki/" image:"assets/images/fronteers-conference.jpg" %} -->
+            <!--{% include partials/homepage/banner-conference headerlvl:"h2" type:"none" partialTitle:translations[locale].blockTitles.conferenceBanner link:"https://en.wikipedia.org/wiki/" image:"assets/images/fronteers-conference.jpg" %} -->
+
+            <section class="inner-wrapper">
+            {% banner "parentheses" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" %}
+            <!--{% banner "greater" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" %} -->
+            <!--{% banner "curly" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" %} -->
+            <!--{% banner "none" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" %} -->
+            </section>
 
             {% if blogs.length != 0 %}
                 {% include partials/homepage/latest-blogs headerlvl:"h2" partialTitle:translations[locale].blockTitles.latestBlogs %}
