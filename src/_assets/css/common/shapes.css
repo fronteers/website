@@ -2,7 +2,7 @@
 
 .greater-than {
   background-color: var(--yellow); /* sets a default color */
-  
+
   position: relative;
   display: block;
   min-height: 250px;
@@ -165,7 +165,8 @@
 
 .curly-braces-bg,
 .greater-than-bg,
-.parentheses-bg {
+.parentheses-bg,
+.none-bg {
   background-color: var(--yellow); /* sets a default color */
   position: relative;
   display: block;
@@ -193,10 +194,17 @@
   padding: var(--spacing) 6%;
 }
 
+.none-bg {
+  -webkit-clip-path: none;
+  clip-path: none;
+  padding: var(--spacing) 6%;
+}
+
 @media all and (min-width: 46.875em) {
   .curly-braces-bg,
   .greater-than-bg,
-  .parentheses-bg {
+  .parentheses-bg,
+  .none-bg {
     min-height: 250px;
     inline-size: 70%;
   }

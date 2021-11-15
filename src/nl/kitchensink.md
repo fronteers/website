@@ -28,13 +28,11 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 {% button "button" "Klik mij" %}
 
-
 ## Vimeo
 
 \{\% vimeo "15982903" \%\}
 
 {% vimeo "15982903" %}
-
 
 ## Youtube
 
@@ -42,14 +40,11 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 {% youtube "rhgwIhB58PA" %}
 
-
 ## Codepen
 
 \{\% codepen "MWmBYog" "Pool rules" \%\}
 
 {% codepen "MWmBYog" "Pool rules" %}
-
-
 
 ## Google Maps
 
@@ -57,20 +52,17 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 {% googlemaps "Marconilaan 8, Weert, nl" %}
 
-
 ## JSfiddle
 
 \{\% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" \%\}
 
 {% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" %}
 
-
 ## Slideshare
 
 \{\% slideshare "2hNXWKt7JGPKpi" \%\}
 
 {% slideshare "2hNXWKt7JGPKpi" %}
-
 
 ## Slides.com
 
@@ -96,6 +88,23 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 {% quote "Anneke Sinnema" "This is a quote" %}
 
+## Banners
+
+\{\% banner "greater" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "\_blank" "h3" "go to vimeo" %\}
+
+{% banner "greater" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" %}
+
+\{\% banner "curly" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "\_blank" "h3" "go to vimeo" %\}
+
+{% banner "curly" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" %}
+
+\{\% banner "parentheses" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "\_blank" "h3" "go to vimeo" %\}
+
+{% banner "parentheses" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" %}
+
+\{\% banner "none" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "\_blank" "h3" "go to vimeo" %\}
+
+{% banner "none" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" %}
 
 ## POC paired shortcode
 
