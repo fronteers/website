@@ -13,6 +13,10 @@
   position: relative;
 }
 
+.outer-wrapper {
+  overflow: hidden;
+}
+
 /* page-container */
 .outer-wrapper {
   max-width: var(--outer-width);
