@@ -3,7 +3,7 @@ title: 'Labels zijn niet altijd wat ze lijken: hoe wordt de Accessible Name bere
 date: 2021-01-01
 author: Sophie Ragas
 summary: Sinds november ben ik aan de slag als Web Accessibility Consultant bij [Eleven Ways](https://www.elevenways.be). Het toegankelijk maken van websites (zodat iedereen ze kan gebruiken) is altijd al een onderwerp geweest waar ik me graag voor wilde inzetten.
-categories: 
+categories:
   - Adventskalender
 ---
 Sinds november ben ik aan de slag als Web Accessibility Consultant bij [Eleven Ways](https://www.elevenways.be). Het toegankelijk maken van websites (zodat iedereen ze kan gebruiken) is altijd al een onderwerp geweest waar ik me graag voor wilde inzetten.
@@ -57,7 +57,7 @@ Laten we even naar een eenvoudig voorbeeld kijken:
 <a href="/overons" title="Ons bedrijf">Ons familiebedrijf</a>
 ```
 
-Visueel zal _Ons familiebedrijf_ getoond worden. Het `title` attribuut wordt genegeerd door hulpsoftware omdat het de laagste prioriteit heeft. De inhoud tussen de begin- en eindtag krijgt voorrang.
+Visueel zal _Ons familiebedrijf_ getoond worden. Het `title` attribuut wordt genegeerd door hulpsoftware oat het de laagste prioriteit heeft. De inhoud tussen de begin- en eindtag krijgt voorrang.
 
 (Merk op dat in sommige situaties het `title` attribuut toch wordt opgepikt door hulpsoftware, maar dan uitsluitend als “tooltip”. Omdat je er nooit zeker van kan zijn dat de informatie wordt voorgelezen, is het dus geen goed idee om essentiële informatie te verstoppen in een `title` attribuut.)
 
