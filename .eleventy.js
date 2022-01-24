@@ -48,7 +48,6 @@ function strToSlug(str) {
 
 module.exports = function(eleventyConfig) {
   /* Rebuild when any of the files are changed */
-  eleventyConfig.addWatchTarget("./src/_components/");
   eleventyConfig.addWatchTarget("./src/");
   /* Copy fonts to the dist directory */
   eleventyConfig.addPassthroughCopy({
