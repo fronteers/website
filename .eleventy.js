@@ -2,6 +2,7 @@ const glob = require("fast-glob");
 const globcat = require("globcat");
 const lodash = require("lodash");
 const slugify = require("slugify");
+const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 
 /**
  * Get all unique key values from a collection
@@ -47,6 +48,9 @@ function strToSlug(str) {
 }
 
 module.exports = function(eleventyConfig) {
+  /* Add id to heading elements */
+  eleventyConfig.addPlugin(pluginAddIdToHeadings);
+
   /* Rebuild when any of the files are changed */
   eleventyConfig.addWatchTarget("./src/");
   /* Copy fonts to the dist directory */
