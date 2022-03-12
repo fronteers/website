@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+.navigation-list-item--toplevel {
+  white-space: nowrap;
+}
+
 .page-navigation a {
   color: white;
   text-decoration: none;

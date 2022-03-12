@@ -7,7 +7,7 @@
 @media all and (min-width: 31em) {
   .page-header {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr 40px;
     grid-template-rows: max-content;
     grid-template-areas:
       "join-us     logo        search-and-translate"
