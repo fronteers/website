@@ -39,6 +39,11 @@
 
 .curly-braces {
   background: var(--lilac); /* sets a default color */
+}
+
+.curly-braces,
+.curly-braces-open,
+.curly-braces-close {
   position: relative;
   display: block;
   min-height: 250px;
@@ -59,7 +64,11 @@
 }
 
 .curly-braces::before,
-.curly-braces::after {
+.curly-braces::after,
+.curly-braces-open::before,
+.curly-braces-open::after,
+.curly-braces-close::before,
+.curly-braces-close::after {
   content: " ";
   background-color: inherit;
   background-size: cover;
@@ -68,6 +77,26 @@
   display: block;
   block-size: 100%;
   inline-size: 9%;
+}
+
+.curly-braces-open,
+.curly-braces-close {
+  height: 100%;
+}
+
+.curly-braces-open::before {
+  -webkit-clip-path: url(#curly-brace-left);
+  clip-path: url(#curly-brace-left);
+  left: calc(-9% + 1px);
+  background: var(--lilac); /* sets a default color */
+}
+
+.curly-braces-close::after {
+  -webkit-clip-path: url(#curly-brace-left);
+  clip-path: url(#curly-brace-left);
+  right: calc(-9% + 1px);
+  background: var(--lilac); /* sets a default color */
+  transform: rotateY(180deg);
 }
 
 /** For a block decorated with ( and ) **/
