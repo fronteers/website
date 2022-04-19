@@ -1,6 +1,7 @@
-<section class="inner-wrapper">
-    {% include partials/utility/dynamic-headerlevel level:headerlvl title:partialTitle link:"https://vimeo.com/fronteers" %}
-    <a class="greater-than-bg banner-conference" href="https://vimeo.com/fronteers">
+<section class="inner-wrapper no-padding"> 
+    {% include partials/utility/dynamic-headerlevel level:headerlvl title:partialTitle link:"{{link}}" %}
+    <a class="{% case type %}{% when 'parentheses' %}parentheses-bg{% when 'greater' %}greater-than-bg{% when 'curly' %}curly-braces-bg{% when 'none' %}none-bg{% else %}parentheses-bg{% endcase %}
+ banner-conference" style="{% if image != '' %}background-image: url({{image}}){% endif %}" href="{{bannerlink}}">
         <span class="visually-hidden">{{ translations[locale].goToVimeo }}</span>
         {% include svg/button_play.svg %}
     </a>

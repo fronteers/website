@@ -3,7 +3,7 @@
 You want to help us? Great! Please read through this document first to get an idea of the way you can contribute. There are various ways you can help:
 
 - by giving us advice on tooling
-- by  [building components](https://github.com/fronteers/website/issues?q=is%3Aissue+component+is%3Aopen).
+- by [building components](https://github.com/fronteers/website/issues?q=is%3Aissue+component+is%3Aopen).
 - by improving components (making them leaner, faster, smarter, more robust or mobile-friendly)
 - by building functionality for the website (a lot has been done, but could maybe do with finetuning)
 - by building [advanced functionality](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge)
@@ -97,6 +97,7 @@ git checkout -b [branch-name]
 ```
 
 Replace [branch-name] in the above command with a name that explains what the end-result will be. Here are some examples:
+
 ```
 git checkout -b /feature/about-hero-element
 
@@ -110,7 +111,7 @@ git checkout -b /content/add-my-meetup
 After you've installed all the necessary node modules, run
 
 ```bash
-npm run start
+npm start
 ```
 
 This command tells Eleventy to go through all the files in the `src` folder. When run, first it generates the site in the `dist` directory. After it finishes doing that, it tells you at what address in the browser you can find a running version of the website. Then it goes into `watch` mode, which means it will keep an eye on the files you edit and save. If it sees you make changes to a `.md`, `.html` or `.liquid` file, it will regenerate all the files and automatically refresh the browser.
@@ -126,7 +127,7 @@ If you're not developing, but just want to have Eleventy generate a copy of the 
 You don't really need to do this, because we host the site on Netlify, and it does this for us by downloading the main GitHub branch and then running this. (You can see it on [our Netlify beta version](https://fronteers-beta.netlify.app/))
 
 ```bash
-npm start build
+npm run build
 ```
 
 ## Step 5: Start coding

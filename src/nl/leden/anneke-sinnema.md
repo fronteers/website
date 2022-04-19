@@ -6,9 +6,10 @@ graphic:
   alt:
 
 # Fields available: freelancer, specialties
+jobtitle: frontender
 freelancer: Beschikbaar vanaf april
-specialties: 
-  - html 
+specialties:
+  - html
   - css
   - accessibility
   - ux design
