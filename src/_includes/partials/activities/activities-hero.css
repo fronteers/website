@@ -81,6 +81,10 @@
     margin-inline-end: var(--spacing);
 }
 
+.activities-hero a {
+    color: black; /** temporary fix for low contrast */
+}
+
 @media all and (min-width: 46.875em) {
   .activities-hero .inner-wrapper {
       display: grid;
