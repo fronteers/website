@@ -52,7 +52,7 @@
     </clipPath>
     <clipPath id="greater-than-down-small" clipPathUnits="objectBoundingBox">
         <path
-            d="M0.998,0.873 c0.006,-0.586,0.005,-0.877,-0.001,-0.873 c-0.009,0.006,-0.238,0,-0.5,0 H0.004 L0.002,0.873 l0.493,0.127,0.503,-0.127">
+            d="M 1 0.873 c 0 0 0 0 0 -0.873 c 0 0 0 0 0 0 H 0 L 0 0.873 l 0.5 0.127 l 0.5 -0.127">
         </path>
     </clipPath>
     <clipPath id="curly-brace-down-small" clipPathUnits="objectBoundingBox">
