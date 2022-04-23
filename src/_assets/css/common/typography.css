@@ -63,6 +63,14 @@ a:focus {
     text-decoration: none;
 }
 
+.tag-link:first-of-type .tag {
+    margin-left: 0;
+}
+
+.tag-link:last-of-type .tag {
+    margin-right: 0;
+}
+
 .tag-link:hover,
 .tag-link:focus {
     background-color: transparent;

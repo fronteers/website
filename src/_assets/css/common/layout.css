@@ -76,13 +76,21 @@ main section > .h {
   align-content: stretch;
   -webkit-overflow-scrolling: touch;
   scroll-snap-type: x mandatory;
+  padding-block-end: var(--spacing);
 }
 
 .mobile-slider-item {
   inline-size: 85%;
+  max-width: 250px;
   flex-shrink: 0;
   scroll-snap-align: start;
   margin-inline-end: var(--spacing);
+}
+
+@media all and (min-width: 44rem) {
+    .mobile-slider-item {
+        max-width: 400px;
+    }
 }
 
 @media all and (min-width: 46.875em) {
@@ -90,12 +98,17 @@ main section > .h {
     display: grid;
     overflow-x: initial;
     scroll-snap-type: none;
+    padding-block-end: 0;  
+    direction: rtl;
   }
 
   .mobile-slider-item {
     margin-inline-end: 0;
     margin-block-end: var(--spacing);
     inline-size: 100%;
+    max-width: inherit;
+    direction: ltr;
+    text-align: left;
   }
 }
 
