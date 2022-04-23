@@ -6,7 +6,52 @@
 <section class="outer-wrapper activities-hero">
     <div class="hero-graphic">
         <div class="hero-content">
-            {{ blockContent }}
+            <div class="inner-wrapper">
+            {%- for activity in activities limit:1 -%} 
+
+                <div class="activities-hero-graphic-wrapper">
+                    <div class="img-background">
+                        {% if post.data.graphic.src %}
+                            <img src="/assets/images/{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="activities-hero-graphic" width="100" height="100" />
+                        {% else %}
+                            <img src="/assets/images/default_blog_image.png" alt="{{ post.data.graphic.alt }}" class="activities-hero-graphic" width="100" height="100" />
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <div class="activities-hero-content-wrapper">
+                    {% comment %}
+                    This is hacky but it works to concatenate a subtitle into the title 
+                    {% endcomment %}
+
+                    {% assign part_A = '<span class="sup-title">' | append: translations[locale].nextEvent | append: '</span>' | %}
+                    {% assign part_B = activity.data.title %}
+                    {% assign firstUpcomingActivityTitle = part_A | append: part_B %}
+
+                    {% include partials/utility/dynamic-headerlevel 
+                        level:"h2" 
+                    title:firstUpcomingActivityTitle link:activity.url %}
+                        
+                    <div class="activity-time-and-location-wrapper">
+                        <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
+                            {{ activity.data.eventdate | displayDate: locale }}
+                        </time>
+
+                        {% if activity.data.location %}
+                            <p class="activity-location">
+                                {{ activity.data.location }}
+                            </p>
+                        {% else %}
+                            <p class="activity-location">
+                                {{ translations[locale].locationUnknown }}
+                            </p>
+                        {% endif %}
+                    </div>
+    
+                    <a href="{{ activity.url }}">Read more<span class="visually-hidden">about {{ activity.data.title }}</span></a>
+                </div>
+            {%- endfor -%}
+            </div>
         </div>
     </div>
 </section>

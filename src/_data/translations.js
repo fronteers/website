@@ -35,6 +35,7 @@ module.exports = {
     specialties: "Specialties",
     specialty: "specialty",
     category: "category",
+    categories: "Categories:",
     membersURL: "en/members",
     freelancersURL: "en/freelancers",
     blogsURL: "en/blog",
@@ -43,6 +44,7 @@ module.exports = {
     conferenceURL: "en/conference",
     olderArticles: "Older articles",
     newerArticles: "Newer articles",
+    nextEvent: "Next event"
   },
   nl: {
     baseUrl: "https://www.fronteers.nl/nl",
@@ -80,6 +82,7 @@ module.exports = {
     specialty: "specialiteit",
     specialties: "Specialiteiten",
     category: "categorie",
+    categories: "Categoriën:",
     membersURL: "nl/leden",
     freelancersURL: "nl/freelancers",
     blogsURL: "nl/blog",
@@ -88,5 +91,6 @@ module.exports = {
     conferenceURL: "nl/congres",
     olderArticles: "Ouder",
     newerArticles: "Nieuwer",
+    nextEvent: "Binnenkort"
   },
 };

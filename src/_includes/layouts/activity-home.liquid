@@ -4,21 +4,24 @@
     <div class="outer-wrapper">
         {% include partials/page-header/_page-header %}
 
-        <main class="page-content inner-wrapper">
-            <h2>{{ title }}</h2>
-            {{ content }}
+        <main>
+            <h2 class="visually-hidden">{{ title }}</h2>
 
-            {% include partials/activities/loop-activity-categories headerlvl:"h3" %}
+            {% include partials/activities/activities-hero %}
 
-            <ol class="desktop-columns">
-                {%- for activity in paginated_activities limit:pagination.size -%}
-                    <li class="list-item">
-                        {% include partials/activity headerlvl:"h3" %}
-                    </li>
-                {%- endfor -%}
-            </ol>
+            <div class="page-content inner-wrapper">
+                {% include partials/activities/loop-activity-categories headerlvl:"h3" %}
 
-            {% include partials/pagination %} 
+                <ol class="desktop-columns">
+                    {%- for activity in paginated_activities limit:pagination.size -%}
+                        <li class="list-item">
+                            {% include partials/activity headerlvl:"h3" %}
+                        </li>
+                    {%- endfor -%}
+                </ol>
+
+                {% include partials/pagination %} 
+            </div>
         </main>
 
         {% include partials/page-footer/_page-footer %}
