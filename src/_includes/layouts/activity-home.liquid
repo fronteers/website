@@ -15,7 +15,7 @@
                 <ol class="desktop-columns">
                     {%- for activity in paginated_activities limit:pagination.size -%}
                         <li class="list-item">
-                            {% include partials/activity headerlvl:"h3" %}
+                            {% include partials/activity headerlvl:"h3" index:forloop.index %}
                         </li>
                     {%- endfor -%}
                 </ol>

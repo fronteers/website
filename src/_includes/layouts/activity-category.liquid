@@ -19,7 +19,7 @@
                 {% assign current_category == post_category | downcase %} 
                 {% if category.title == current_category %} 
                     <li class="list-item"> 
-                    {% include partials/activity headerlvl:"h3" index:forloop.index activity:post %} 
+                        {% include partials/activity headerlvl:"h3" index:forloop.index activity:post %} 
                     </li>
                 {% endif %}
             {% endfor %}

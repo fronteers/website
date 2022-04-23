@@ -63,12 +63,16 @@ a:focus {
     text-decoration: none;
 }
 
+.tag-link--large .tag { 
+    font-size: var(--font-size-14);
+}
+
 .tag-link:first-of-type .tag {
-    margin-left: 0;
+    margin-inline-start: 0;
 }
 
 .tag-link:last-of-type .tag {
-    margin-right: 0;
+    margin-inline-end: 0;
 }
 
 .tag-link:hover,
