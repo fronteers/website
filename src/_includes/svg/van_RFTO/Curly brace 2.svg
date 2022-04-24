@@ -6,7 +6,7 @@
   </defs>
   <g id="Curly_brace_2" data-name="Curly brace 2" clip-path="url(#clip-Curly_brace_2)">
     <rect width="30" height="72" fill="#f2f2f2"/>
-    <g id="Group_9" data-name="Group 9" transform="translate(4.886)">
+    <g   transform="translate(4.886)">
       <path id="Path_30" data-name="Path 30" d="M2627.714,371.709v-15.7c0-4.441,1.755-7.2,5.037-8.425-3.282-1.226-5.037-3.984-5.037-8.425v-15.7c0-2.912.534-7.276-5.724-7.276h-2.6v-4.6h5.495c5.571,0,8.4,4.367,8.4,10.725v15.7c0,2.144-.229,6.892,5.722,7.66V349.5c-5.952.768-5.722,5.516-5.722,7.66v15.7c0,6.358-2.825,10.725-8.4,10.725H2619.4v-4.6h2.6C2628.248,378.985,2627.714,374.621,2627.714,371.709Z" transform="translate(-2619.395 -311.583)"/>
     </g>
   </g>

@@ -9,11 +9,11 @@
   </defs>
   <g id="Shield_design_4" data-name="Shield design 4" clip-path="url(#clip-Shield_design_4)">
     <rect width="100" height="154" fill="#f2f2f2"/>
-    <g id="Group_515" data-name="Group 515" clip-path="url(#clip-path)">
+    <g   clip-path="url(#clip-path)">
       <g id="Group_513" data-name="Group 513">
         <path id="Path_249" data-name="Path 249" d="M0,0V130.988c0,7.766,6.066,11.7,14.9,11.7H36.7c2.978,0,9.573-.32,10.639,7.977h5.315c1.067-8.3,7.662-7.977,10.639-7.977H85.1c8.83,0,14.9-3.937,14.9-11.7V0Z" fill="#fe796a"/>
       </g>
-      <g id="Group_514" data-name="Group 514" transform="translate(25.084 25.669)">
+      <g   transform="translate(25.084 25.669)">
         <path id="Path_250" data-name="Path 250" d="M-49.084-98.169a24.666,24.666,0,0,0,24.666-24.666A24.666,24.666,0,0,0-49.084-147.5,24.666,24.666,0,0,0-73.75-122.834,24.666,24.666,0,0,0-49.084-98.169" transform="translate(73.75 147.5)" fill="#ffce2e"/>
       </g>
     </g>
