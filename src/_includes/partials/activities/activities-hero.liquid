@@ -6,18 +6,15 @@
 <section class="outer-wrapper activities-hero">
     <div class="hero-graphic">
         <div class="hero-content">
-            <div class="inner-wrapper">
             {%- for activity in activities limit:1 -%} 
-
-                <div class="activities-hero-graphic-wrapper">
-                    <div class="img-background">
-                        {% if post.data.graphic.src %}
-                            <img src="/assets/images/{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="activities-hero-graphic" width="104" height="118" />
-                        {% else %}
-                            <img src="/assets/images/default_blog_image.png" alt="{{ post.data.graphic.alt }}" class="activities-hero-graphic" width="104" height="118" />
-                        {% endif %}
+            <div class="inner-wrapper {% if activity.data.graphic.src %}grid-setup{% endif %}">
+                {% if activity.data.graphic.src %}
+                    <div class="activities-hero-graphic-wrapper">
+                        <div class="img-background">
+                            <img src="/assets/images/{{ activity.data.graphic.src }}" alt="{{ activity.data.graphic.alt }}" class="activities-hero-graphic" width="104" height="118" />
+                        </div>
                     </div>
-                </div>
+                {% endif %}
                 
                 <div class="activities-hero-content-wrapper">
                     {% comment %}
@@ -50,8 +47,8 @@
     
                     <a href="{{ activity.url }}">Read more<span class="visually-hidden">about {{ activity.data.title }}</span></a>
                 </div>
-            {%- endfor -%}
             </div>
+            {%- endfor -%}
         </div>
     </div>
 </section>

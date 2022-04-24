@@ -87,9 +87,12 @@
 
 @media all and (min-width: 46.875em) {
   .activities-hero .inner-wrapper {
+      padding-block-start: 0;
+  }
+  
+  .activities-hero .grid-setup {
       display: grid;
       grid-template-columns: 1fr 2fr 1fr;
-      padding-block-start: 0;
   }
 
   .activities-hero .hero-graphic {
