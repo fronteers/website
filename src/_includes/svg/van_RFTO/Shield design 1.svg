@@ -7,11 +7,11 @@
   <g id="Shield_design_1" data-name="Shield design 1" clip-path="url(#clip-Shield_design_1)">
     <rect width="100" height="154" fill="#f2f2f2"/>
     <path id="Path_252" data-name="Path 252" d="M3697.841,1300.231v134.08l-49.361,18.622-50.975-18.622v-134.08Z" transform="translate(-3597.842 -1300.804)" fill="#b7b7fd"/>
-    <g id="Group_516" data-name="Group 516" transform="translate(-0.336 49.749)">
+    <g   transform="translate(-0.336 49.749)">
       <g id="Group_85" data-name="Group 85" transform="translate(49.909 0)">
         <path id="Path_82" data-name="Path 82" d="M0,79.341v51l50.427,19.718V99.142Z" transform="translate(0 -79.341)" fill="#636ddf"/>
       </g>
-      <g id="Group_415" data-name="Group 415" transform="translate(0 0)">
+      <g   transform="translate(0 0)">
         <path id="Path_82-2" data-name="Path 82" d="M0,79.341v51l50.427,19.718V99.142Z" transform="translate(0 -79.341)" fill="#636ddf"/>
       </g>
     </g>
