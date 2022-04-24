@@ -1,4 +1,4 @@
-<nav class="page-navigation page-navigation--{{ nav_location }}" role="navigation" id="navigation">
+<nav class="page-navigation page-navigation--{{ nav_location }}" role="navigation" {% if nav_location == 'header' %}id="navigation"{% endif %}>
     <h2 class="visually-hidden">{{ nav_description }}</h2>
     <ul class="navigation-list navigation-list--toplevel">
         {% for item in nav_selection %}

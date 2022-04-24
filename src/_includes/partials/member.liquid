@@ -19,8 +19,13 @@
         {% if member.data.specialties %}
             <p>
                 <strong>{{ translations[locale].specialties }}:</strong><br />
+                
                 {% for specialty in member.data.specialties %}
-                    <a href="/{{ translations[locale].membersURL }}/{{ translations[locale].specialty }}/{{ specialty | slugify }}/">{% tag specialty %}</a>
+                    {% if specialty %}
+                        {% comment %} <a href="/{{ translations[locale].membersURL }}/{{ translations[locale].specialty }}/{{ specialty | slugify }}/"></a> {% endcomment %}
+                            
+                        {% tag specialty %}
+                    {% endif %}
                 {% endfor %}
             </p>
         {% endif %}
