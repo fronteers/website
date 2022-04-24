@@ -6,7 +6,7 @@
   </defs>
   <g id="Icon_search" clip-path="url(#clip-Icon_search)">
     <rect width="26" height="26" fill="#f2f2f2"/>
-    <g id="Group_500" data-name="Group 500" transform="translate(-1260.088 -120.999)">
+    <g   transform="translate(-1260.088 -120.999)">
       <circle id="Ellipse_5" data-name="Ellipse 5" cx="9.789" cy="9.789" r="9.789" transform="translate(1262 123)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3"/>
       <line id="Line_4" data-name="Line 4" x1="5.488" y1="5.488" transform="translate(1279.026 140.026)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3"/>
     </g>
