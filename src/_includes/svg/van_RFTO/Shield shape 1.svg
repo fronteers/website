@@ -6,7 +6,7 @@
   </defs>
   <g id="Shield_shape_1" data-name="Shield shape 1" clip-path="url(#clip-Shield_shape_1)">
     <rect width="100" height="154" fill="#f2f2f2"/>
-    <g id="Group_11" data-name="Group 11" transform="translate(0 -13)">
+    <g   transform="translate(0 -13)">
       <path id="Path_31" data-name="Path 31" d="M2497.99,1312.927v134.134c0,7.766-6.066,11.7-14.9,11.7h-21.807c-2.978,0-9.573-.32-10.639,7.977h-5.315c-1.066-8.3-7.661-7.977-10.639-7.977h-21.807c-8.83,0-14.9-3.937-14.9-11.7V1312.927" transform="translate(-2397.99 -1300.074)"/>
     </g>
   </g>

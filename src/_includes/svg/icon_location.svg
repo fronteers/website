@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-  <g stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" data-name="Group 526" transform="translate(1 1)" fill="none">
+<svg aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"  transform="translate(1 1)" fill="none">
     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" data-name="Path 139"/>
     <circle cx="3" cy="3" r="3" data-name="Ellipse 6" transform="translate(9 7)"/>
   </g>

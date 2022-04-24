@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+<svg aria-hidden="true" focusable="false"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
   <defs>
     <clipPath id="clip-Icon_close_menu">
       <rect width="26" height="26"/>
     </clipPath>
   </defs>
   <g id="Icon_close_menu" clip-path="url(#clip-Icon_close_menu)">
-    <g id="Group_502" data-name="Group 502" transform="translate(-318.5 -13)">
+    <g   transform="translate(-318.5 -13)">
       <line id="Line_20" data-name="Line 20" x2="22.89" y2="22.889" transform="translate(320.5 14.5)" fill="none" stroke="#fff" stroke-width="3"/>
       <line id="Line_22" data-name="Line 22" y1="22.906" x2="22.89" transform="translate(320.5 14.5)" fill="none" stroke="#fff" stroke-width="3"/>
     </g>
