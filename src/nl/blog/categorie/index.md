@@ -1,3 +1,3 @@
 ---
-title: Blogs per categorie
+title: "Blogs per categorie"
 ---
