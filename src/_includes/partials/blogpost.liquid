@@ -1,8 +1,7 @@
 <div class="blog blog-{{ index }}">
     {% if post.data.graphic.src %}
     <div class="blog-graphic-wrapper">
-            <img src="/assets/images/{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
-        {% endif %}
+        <img src="/assets/images/{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
     </div>
     {% endif %}
 
