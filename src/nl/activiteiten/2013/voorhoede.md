@@ -13,11 +13,11 @@ Op donderdag 18 april is Fronteers te gast bij De Voorhoede in Amsterdam. Dit ke
 Pecha Kucha is een presentatiestijl waarbij 20 slides worden getoond die elk 20 seconden in beeld zijn. Hierdoor krijg je snelle en beknopte presentaties.
 Door de korte tijd van 6 minuut 40 is het ook voor mensen die geen uur willen of kunnen volpraten, een stuk aantrekkelijker om een presentatie te geven.
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
 
 # Programma
 
@@ -29,7 +29,7 @@ Door de korte tijd van 6 minuut 40 is het ook voor mensen die geen uur willen of
 
 # Presentaties
 
-(Hidden)
+
 
 ## Arjan Eising, Jasmine Tests 101 in 6 minuut 40
 
@@ -113,4 +113,3 @@ Door de korte tijd van 6 minuut 40 is het ook voor mensen die geen uur willen of
 * Stef Laarman, Amsterdam
 * Stefan Jonker, Amsterdam
 
-(Hidden)

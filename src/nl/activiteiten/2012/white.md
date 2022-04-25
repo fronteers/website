@@ -63,4 +63,3 @@ Parallelweg Oost 23
 
 Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2012/fronteers-white/). *Inschrijven via het onderstaande formulier is echter verplicht!*
 
-(Hidden)

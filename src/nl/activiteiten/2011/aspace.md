@@ -44,25 +44,25 @@ Enkele don't: `accesskey`s, die gaan voor native keys in verschillende browsers.
 
 * [Slides van de presentatie van Roel](http://www.slideshare.net/roelvangils/keyboard-accessibility-youve-been-doing-it-wrong-8410245)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
+
+
+
 
 # Aanwezigen
 
@@ -100,4 +100,3 @@ Enkele don't: `accesskey`s, die gaan voor native keys in verschillende browsers.
 * Mathias Baert
 * Joris Hens
 
-(Hidden)

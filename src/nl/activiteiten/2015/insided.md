@@ -42,7 +42,7 @@ inSided is gevestigd aan de Singel 118A, 1015 AE Amsterdam, op ongeveer 5 minute
 
 {% googlemaps "Singel 118A, 1015 AE Amsterdam" %}
 
-(Hidden)
+
 
 # Aanmeldingen
 

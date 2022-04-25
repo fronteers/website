@@ -6,7 +6,7 @@ location:
 categories: 
     - meetup
 ---
-(Hidden)
+
 
 Woensdag 19 mei was Fronteers te gast bij [e-sites](http://esites.nl) in Breda. Anne van Kesteren vertelde over CSS3, en Nikolai Onken ging in op HTML5 Apps.
 
@@ -81,6 +81,5 @@ Dit probleem wordt opgelost door projecten zoals [PhoneGap](http://www.phonegap.
 * Martijn Croonen
 * en nog 8 personen
 
-(Hidden)
 
-(Hidden)
+

@@ -23,9 +23,9 @@ Dit evenement vindt plaats bij [BetaGroup/Parkoffice](http://www.parkoffice.be/e
 
 Aanwezigen kunnen die dag gratis gebruik maken van de co-working-ruimte bij Parkoffice. Je kan dus gerust op voorhand naar de locatie afzakken (handig om eventuele files te vermijden) en daar overdag je werkzaamheden uitvoeren.
 
-(Hidden)
 
-(Hidden)
+
+
 
 # Aanmeldingen
 
@@ -94,6 +94,5 @@ Aanwezigen kunnen die dag gratis gebruik maken van de co-working-ruimte bij Park
 * Karel Van Haeverbeek (Kortrijk, fiets)
 * Arn Vanhoutte (Wervik, auto)
 
-(Hidden)
 
-(Hidden)
+

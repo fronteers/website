@@ -6,13 +6,13 @@ location:
 categories: 
     - meetup
 ---
-(Hidden)
+
 
 Op donderdag 1 november is Fronteers te gast bij Netvlies Internetdiensten in Breda. Dit keer is het geen bijeenkomst met 2 presentaties, maar een Pecha Kucha met 10 presentaties van 6 minuut 40.
 
 # Het programma is als volgt:
 
-(Hidden)
+
 
 * 18.30 Inloop
 * 19.30 [Paul Verbeek - Intro + All your phones are belong to us](/bijeenkomsten/2012/netvlies/all-your-phones-are-belong-to-us)
@@ -31,31 +31,31 @@ Op donderdag 1 november is Fronteers te gast bij Netvlies Internetdiensten in Br
 Pecha Kucha is een presentatiestijl waarbij 20 slides worden getoond die elk 20 seconden in beeld zijn. Hierdoor krijg je snelle en beknopte presentaties.
 Door de korte tijd van 6 minuut 40 is het ook voor mensen die geen uur willen of kunnen volpraten, een stuk aantrekkelijker om een presentatie te geven.
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
 
 # Waar?
 
 {% googlemaps "Netvlies Internetdiensten, Haven 14, 4811 WL Breda." %}
 
-(Hidden)
 
-(Hidden)
+
+
 
 Dit evenement vindt plaats bij Netvlies in Breda. Het adres is <strike>Prinsenkade 7, 4811 VB, Breda</strike> de bijeenkomst is verplaatst naar een grotere ruimte, gevestigd aan Haven 14, 4811 WL Breda. Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Geef wel even aan dat je komt door middel van onderstaand formulier, er is ook [een Lanyrd pagina](http://lanyrd.com/2012/fronteers-netvlies/). *Er is slechts ruimte voor 45 personen, inclusief sprekers.*
 
-(Hidden)
 
-(Hidden)
+
+
 
 # Aanwezigen
 
@@ -105,6 +105,6 @@ Dit evenement vindt plaats bij Netvlies in Breda. Het adres is <strike>Prinsenka
 * Hidde de Vries
 * Thomas van Zuijlen
 
-(Hidden)
+
 
 *Inschrijven voor deze bijeenkomst is gesloten. Neem [contact op](/contact) om op de reservelijst te komen staan.*

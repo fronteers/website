@@ -25,7 +25,7 @@ Eten kan vooraf berekend worden: iedere deelnemer betaalt zelf het eten, het uit
 
 [Neem contact op met de Activiteitencommissie](/vereniging/commissies/activiteiten).
 
-(Hidden)
+
 
 <table>
 <tr>

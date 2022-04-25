@@ -27,7 +27,7 @@ Een nieuw soort bijeenkomst, speciaal voor onze leden: samen flexwerken én kenn
 
 Ieder betalend lid is welkom, dus ook als je geen freelancer of ZZP'er bent. Wanneer je nog geen lid bent, dan kun je voor 11 maart [lid worden](/inschrijven). Er is beperkt plaats, voor circa 15 mannen en vrouwen. Aanmelden via onderstaand aanmeldformulier is verplicht. Je krijgt kort voor de bijeenkomst nog bericht, maar je kunt ervan uitgaan, dat je melding definitief is, als je hieronder je naam ziet verschijnen. Vol is vol! Voor vragen, een plaats op de wachtlijst of een afmelding kun je terecht bij de [activiteitencommissie](/vereniging/commissies/activiteiten).
 
-(Hidden)
+
 
 # Aanmeldingen ({aanmeldingen} van de {max})
 

@@ -39,9 +39,9 @@ Competa is gevestigd aan de Verrijn Stuartlaan 20, 2288 EL Rijswijk. Parkeren ka
 Kom je met de trein of het OV? Vanaf station Rijswijk rijdt er bus 30 (richting Zoetermeer Centrum West) en tram 17 (richting statenkwartier), deze stoppen vlakbij. Reis je met OV vanuit Den Haag? Vervoerder HTM meldt een [omleiding voor de tram vanaf Den Haag HS](http://www.htm.nl/reisinformatie/wijzigingen/omleiding-tram-bij-station-hs-van-28-april-tm-25-mei/). 
 Plan je route naar Verrijn Stuartlaan 20, 2288 EL Rijswijk met [9292.nl](http://9292.nl/).
 
-(Hidden)
 
-(Hidden)
+
+
 
 {% googlemaps "Verrijn Stuartlaan 20, 2288 EL Rijswijk" %}
 
@@ -95,4 +95,3 @@ Plan je route naar Verrijn Stuartlaan 20, 2288 EL Rijswijk met [9292.nl](http://
 * Christopher Johnson (Den Haag, fiets)
 * Charis Rooda (Den Haag, OV)
 
-(Hidden)

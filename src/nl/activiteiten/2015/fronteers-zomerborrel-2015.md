@@ -22,11 +22,11 @@ Café Nieuwe Dikke Dries is gevestigd aan de Oudkerkhof 36, 3512 GL Utrecht. Mee
 
 [Neem contact op met de Activiteitencommissie.](/vereniging/commissies/activiteiten)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
 
 # Aanmeldingen
 

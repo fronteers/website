@@ -44,7 +44,7 @@ Er is ruimte voor 60 mensen, en zowel leden als niet-leden zijn van harte welkom
 
 # Aanmelden
 
-(Hidden)
+
 
 Deze bijeenkomst zit nu vol, maar we hebben een wachtlijst! Stuur een mailtje naar hidde@fronteers.nl als je daar op wilt.
 

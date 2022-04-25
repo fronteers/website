@@ -77,6 +77,5 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 * Maikel Celis (Limburg, openbaar vervoer)
 * En nog 2 personen
 
-(Hidden)
 
-(Hidden)
+

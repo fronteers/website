@@ -7,7 +7,7 @@ categories:
 ---
 Op donderdag 4 november is Fronteers te gast bij Netlog in Gent (jawel, in België!). Er worden twee presentaties voorzien. Eerst komt [Peter-Paul Koch](http://www.quirksmode.org/about/) (PPK) praten over _mobile web development_; vervolgens vertelt [Lennart Schoors](http://lensco.be/) wat over _web design for right-to-left languages_.
 
-(Hidden)
+
 
 # Het programma is als volgt:
 

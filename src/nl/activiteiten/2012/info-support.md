@@ -69,6 +69,6 @@ Werkende CSS produceren is makkelijk. Maar simpele, onderhoudbare CSS schrijven,
 
 Info Support is gevestigd aan Kruisboog 42, 3905 TG Veenendaal. Zoals gebruikelijk is de bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je doorgeeft dat je aanwezig zult zijn via het onderstaande formulier.
 
-(Hidden)
+
 
 *Het is niet meer mogelijk je aan te melden voor deze bijeenkomst.*

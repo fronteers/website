@@ -67,6 +67,6 @@ Als er gerichte vragen zijn (stuur ze in via het [contactformulier](/contact)), 
 
 Lajos is gevestigd aan Melkpad 25a5, 1217 KA Hilversum. Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je via onderstaand formulier doorgeeft dat je aanwezig kunt zijn. *Er is ruimte voor circa 30 personen.*
 
-(Hidden)
+
 
 *De bijeenkomst zit inmiddels vol.*

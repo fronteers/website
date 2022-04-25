@@ -6,27 +6,27 @@ location:
 categories: 
     - meetup
 ---
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
+
+
+
+
 
 Op donderdag 10 februari was Fronteers te gast bij [Lable](http://lable.org) in Leeuwarden. Hidde de Vries heet iedereen welkom.
 
@@ -101,4 +101,3 @@ Er gingen twee iPad's de zaal door, zodat iedereen even kon kijken en voelen hoe
 * Matthijs Hoekstra
 * en nog 9 anderen
 
-(Hidden)

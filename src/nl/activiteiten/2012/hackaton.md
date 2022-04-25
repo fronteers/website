@@ -22,19 +22,19 @@ Ook de jury had niet stilgezeten en had touch events en een chatfunctie toegevoe
 
 Fronteers bedankt [Nomadz](http://nomadz.nl/) voor de ruimte, en [Frontlab](http://frontlab.nl/) voor de borrel.
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
 
 # Aanwezigen
 
@@ -64,6 +64,5 @@ Fronteers bedankt [Nomadz](http://nomadz.nl/) voor de ruimte, en [Frontlab](http
 
 ![[Frontlab](http://frontlab.nl/)](https://fronteers.nl/_img/sponsoren/frontlab-hackaton-logo.png)
 
-(Hidden)
 
-(Hidden)
+

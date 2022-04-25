@@ -36,7 +36,7 @@ Kabisa is gevestigd op de Marconilaan 8, 6003 DD Weert. Op dit bedrijventerrein 
 
 {% googlemaps "Kabisa, Marconilaan 8, 6003 DD Weert" %}
 
-(Hidden)
+
 
 # Aanmeldingen
 

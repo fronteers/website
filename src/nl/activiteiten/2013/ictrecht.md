@@ -36,9 +36,9 @@ Open source software is gratis maar dat wil niet zeggen dat je er alles mee mag 
 * [Bekijk de hoge kwaliteit video op Vimeo](https://vimeo.com/60207619)
 * [Download video](/_downloads/2013/wouter-dammers-open-source-in-de-praktijk.webm) (WebM, 275MB)
 
-(Hidden)
 
-(Hidden)
+
+
 
 # Aanwezigen
 

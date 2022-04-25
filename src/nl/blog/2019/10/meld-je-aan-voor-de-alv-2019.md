@@ -82,4 +82,4 @@ I understand Dutch [o Yes|No]
 Opmerkingen [+ small]
 [Verstuur](voorzitter@fronteers.nl;melding:Je aanmelding is verstuurd! Fijn dat je er bij bent. Uiterlijk de week voor de ALV krijg je een e-mail met details en stukken. Tot 29 november! / Thank you for signing up! We look forward to having you with us. In the week before the meeting you will receive an e-mail with the details and financial documents. See you on the 29th of November!;max:100))
 
-(Hidden)
+

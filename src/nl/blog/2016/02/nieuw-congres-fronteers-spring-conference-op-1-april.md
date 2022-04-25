@@ -8,7 +8,7 @@ categories:
 ---
 Op vrijdag 1 april organiseert Fronteers een nieuw themacongres in EYE in Amsterdam. We gaan ons een dag lang met 10 interessante sprekers verdiepen in Web Performance onder leiding van Phil Hawksworth. Leden van Fronteers kunnen voordelig deelnemen - én krijgen voorrang.
 
-(Hidden)
+
 
 Dit congres heet [Fronteers Spring Conference](https://fronteers.nl/congres/2016-spring); het is speciaal opgezet als een 'leden-first' aanvulling op ons congresaanbod in oktober. Iedereen is welkom, maar leden van Fronteers krijgen fikse korting én voorrang.
 

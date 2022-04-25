@@ -75,4 +75,3 @@ Zoals altijd is de bijeenkomst gratis toegankelijk voor zowel leden als niet-led
 * Simon Wisselink
 * En nog één persoon
 
-(Hidden)

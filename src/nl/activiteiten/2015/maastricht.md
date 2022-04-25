@@ -37,8 +37,7 @@ Website: [http://cafelure.nl](http://cafelure.nl)
 
 # Aanmeldingen
 
-(Hidden)
+
 
 Inschrijven is niet meer mogelijk, deze bijeenkomst vervalt en de presentaties worden verplaatst.
 
-(Hidden)

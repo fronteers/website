@@ -17,7 +17,7 @@ There was a session before the meeting designed for new representatives. It fill
 
 The meeting runs as a series of presentations on a subject, after which members who have questions or comments queue at the mic to ask their question. Some materials presented are made publicly available, others are member only. The [Strategic Highlights Overview](https://www.w3.org/2019/04/w3c-highlights/Overview.html) is public.
 
-(Hidden)
+
 
 There was a good discussion about diversity in the W3C. Of particular use to me was the discussion *A, B, C's of being an AC rep*, which included questions such as:
 

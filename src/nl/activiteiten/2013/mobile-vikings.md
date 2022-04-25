@@ -116,8 +116,7 @@ Iedereen is welkom. Er is echter beperkt plaats, voor circa 70 mannen en vrouwen
 * Rotimi Aluko (Openbaar vervoer)
 * Geert Vanheusden (Hasselt, auto)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+

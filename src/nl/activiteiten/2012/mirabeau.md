@@ -89,6 +89,6 @@ Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als 
 * Thomas van Zuijlen (Amsterdam, auto)
 * En nog 1 persoon…
 
-(Hidden)
+
 
 *De bijeenkomst zit helaas vol. Stuur een e-mail naar <arjan@fronteers.nl> om op de wachtlijst gezet te worden.*

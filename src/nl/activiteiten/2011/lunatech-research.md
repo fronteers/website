@@ -24,23 +24,23 @@ Jeroen legt uit hoe je video in je site kunt plaatsen met de HTML5 video tag, en
 
 Todo in HTML5: fullscreen support in Firefox. Captions (tekstuele representatie van het geluid), descriptions (tekstuele representatie van het beeld) en subtitles komen er ook aan. Ook belangrijk is het goed streamen van de video's. Je wilt eigenlijk adaptive streamen. Zodra er bandbreedte over is, wordt er een hogere kwaliteit gedownload. En andersom.
 
-(Hidden)
+
 
 # Overige materialen en verslagen
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
 
 * [Slides van de presentatie van Egor](/_downloads/2011/enterprise-web.pdf)
 * [Slides van de presentatie van Jeroen](/_downloads/2011/html5-video.pdf)
@@ -73,6 +73,5 @@ Todo in HTML5: fullscreen support in Firefox. Captions (tekstuele representatie 
 * Jeroen Wijering
 * En nog 3 personen
 
-(Hidden)
 
-(Hidden)
+

@@ -27,13 +27,13 @@ Dit evenement vond plaats bij [Nucleus](https://www.nucleus.be/) te Antwerpen.
 
 {% vimeo "98509890" %}
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
 
 # Aanmeldingen
 
@@ -88,6 +88,5 @@ Dit evenement vond plaats bij [Nucleus](https://www.nucleus.be/) te Antwerpen.
 * Erwin Heiser (Antwerpen, auto)
 * Arne Sneyers (Beringen)
 
-(Hidden)
 
-(Hidden)
+

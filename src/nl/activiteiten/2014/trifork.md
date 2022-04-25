@@ -107,6 +107,5 @@ Donderdag 13 februari was Fronteers te gast bij [Trifork](http://trifork.nl) in 
 * JD
 * Verena Ruf
 
-(Hidden)
 
-(Hidden)
+

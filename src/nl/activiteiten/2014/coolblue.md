@@ -38,7 +38,7 @@ Met de auto komen kan ook, er kan dan geparkeerd worden in de parkeergarage Ween
 
 {% googlemaps "Weena 664, 3012 CN, Rotterdam" %}
 
-(Hidden)
+
 
 # Aanmeldingen, 75 van de 75
 

@@ -44,23 +44,23 @@ Implementatie model vs het mentaal model: hoe het werkt vs hoe je er iets mee ku
 
 Daarna stipt hij het puntje aan om te kijken naar interfaces die zich al hebben bewezen, zogenoemde design patterns. Je kunt eenvoudig een interface element overnemen van een al bestaande applicatie, als die al goed werkt voor gebruikers.
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
+
+
 
 # Overige materialen en verslagen
 
@@ -121,6 +121,5 @@ Daarna stipt hij het puntje aan om te kijken naar interfaces die zich al hebben 
 * Pascal Vree
 * Nog 4 personen
 
-(Hidden)
 
-(Hidden)
+

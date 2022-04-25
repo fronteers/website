@@ -61,10 +61,10 @@ Van deze ALV zijn de notulen beschikbaar:
 
 [Notulen ALV 14 oktober 2020](https://fronteers.nl/vereniging/bestuur/notulen/notulen-alv-14-oktober-2020)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+

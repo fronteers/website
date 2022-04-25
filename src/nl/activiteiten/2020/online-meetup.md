@@ -1,5 +1,7 @@
 ---
 title: Online meetup met Rachel Andrew en Darice de Cuba
+date: 2020-05-15
+eventdate: 2020-06-19
 ---
 **Op vrijdag 19 juni verzorgen we onze eerste online Fronteers meetup. Deze is voor iedereen (lid of geen lid) vanuit huis te volgen. Deelname is gratis.**
 

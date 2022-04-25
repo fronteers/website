@@ -79,4 +79,3 @@ Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd
 
 # *Deze bijeenkomst is volzet!*
 
-(Hidden)

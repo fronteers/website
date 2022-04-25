@@ -51,7 +51,7 @@ De locatie is voor sommige (verouderde) navigaties wat lastig te vinden, de Arch
 
 [Neem contact op met de Activiteitencommissie](/vereniging/commissies/activiteiten).
 
-(Hidden)
+
 
 # Aanmeldingen
 
