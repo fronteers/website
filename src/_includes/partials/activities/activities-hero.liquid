@@ -7,12 +7,12 @@
     <div class="hero-graphic"></div>
         <div class="hero-content">
 
-            {% set activity = collections.published_activities %}
-            <div class="inner-wrapper {% if activity[0].data.graphic.src %}grid-setup{% endif %}">
-                {% if activity[0].data.graphic.src %}
+            {%- for activity in paginated_activities limit:1 -%} 
+            <div class="inner-wrapper {% if activity.data.graphic.src %}grid-setup{% endif %}">
+                {% if activity.data.graphic.src %}
                     <div class="activities-hero-graphic-wrapper">
                         <div class="img-background img-nice">
-                            <img src="/assets/images/{{ activity[0].data.graphic.src }}" alt="{{ activity[0].data.graphic.alt }}" class="activities-hero-graphic" width="{{ activity[0].data.graphic.width }}" height="{{ activity[0].data.graphic.height }}" />
+                            <img src="/assets/images/{{ activity.data.graphic.src }}" alt="{{ activity.data.graphic.alt }}" class="activities-hero-graphic" width="{{ activity.data.graphic.width }}" height="{{ activity.data.graphic.height }}" />
                         </div>
                         <div class="img-background--bottom"></div>
                     </div>
@@ -23,21 +23,21 @@
                         This is hacky but it works to concatenate a subtitle into the title 
                     {% endcomment %}
                     {% assign part_A = '<span class="sup-title">' | append: translations[locale].nextEvent | append: '</span>' | %}
-                    {% assign part_B = activity[0].data.title %}
+                    {% assign part_B = activity.data.title %}
                     {% assign firstUpcomingActivityTitle = part_A | append: part_B %}
 
                     {% include partials/utility/dynamic-headerlevel 
                         level:"h2" 
-                        title:firstUpcomingActivityTitle link:activity[0].url %}
+                    title:firstUpcomingActivityTitle link:activity.url %}
                         
                     <div class="activity-time-and-location-wrapper">
-                        <time class="activity-time" datetime="{{ activity[0].date | date: "%Y-%m-%d" }}">
-                            {{ activity[0].data.eventdate | displayDate: locale }}
+                        <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
+                            {{ activity.data.eventdate | displayDate: locale }}
                         </time>
 
-                        {% if activity[0].data.location %}
+                        {% if activity.data.location %}
                             <p class="activity-location">
-                                {{ activity[0].data.location }}
+                                {{ activity.data.location }}
                             </p>
                         {% else %}
                             <p class="activity-location">
@@ -46,7 +46,7 @@
                         {% endif %}
                     </div>
     
-                    <a href="{{ activity[0].url }}">Read more<span class="visually-hidden">about {{ activity[0].data.title }}</span></a>
+                    <a href="{{ activity.url }}">Read more<span class="visually-hidden">about {{ activity.data.title }}</span></a>
                 </div>
             </div>
             {%- endfor -%}

@@ -7,7 +7,14 @@
         <main>
             <h2 class="visually-hidden">{{ title }}</h2>
 
-            {% include partials/activities/activities-hero %}
+{% if pagination.pageLinks.length > 1 %}
+    {% if pagination.previousPageLink %}
+    {% else %}
+            {% include partials/activities/activities-hero %} 
+    {% endif %}
+{% else %}
+    {% include partials/activities/activities-hero %} 
+{% endif %}
 
             <div class="page-content inner-wrapper">
                 {% include partials/activities/loop-activity-categories headerlvl:"h3" %}
