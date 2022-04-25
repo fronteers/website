@@ -1,8 +1,7 @@
 ---
-title: Beveiligde gegevens ophalen met OpenID Connect en access tokens
+title: "Beveiligde gegevens ophalen met OpenID Connect en access tokens"
 date: 2020-12-31
 author: Jasha Joachimsthal
-summary: Wat hebben de website van je bank, een webshop en Twitter gemeen? Ze hebben een publiek gedeelte en tonen daarnaast content op basis van je account. Nadat je bent ingelogd, kun je bij je bank je saldo bekijken, geld overmaken of een nieuwe pas aanvragen. Op de webshop kun je eerdere bestellingen raadplegen of je verlanglijstje bijwerken. Bij Twitter kun je tweets plaatsen, notificaties ontvangen of je profiel aanpassen.
 categories: 
   - Adventskalender
 ---
