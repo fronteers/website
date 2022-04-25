@@ -1,8 +1,7 @@
 ---
-title: Een &quot;that's all folks&quot; animatie in CSS met slechts één div
+title: "Een &quot;that's all folks&quot; animatie in CSS met slechts één div"
 date: 2021-01-05
 author: Kilian Valkhof
-summary: CSS is opgebouwd uit allemaal rechthoeken. Rechthoeken kunnen boven of onder andere rechthoeken liggen. Rechthoeken kunnen ook weer andere rechthoeken in zich hebben, en dan kan je er voor kiezen dat de binnenste rechthoeken ook buiten hun omringende rechthoek zichtbaar zijn (dat ze _overflowen_) of dat ze afgekapt worden door de omringende rechthoek (met overflow:hidden).  Maar als je wilt dat een rechthoek aan één zijde wel buiten de omringende rechthoek zichtbaar is, maar niet aan de andere kant, dan kan dat niet. Toch?
 categories: 
   - Adventskalender
 ---

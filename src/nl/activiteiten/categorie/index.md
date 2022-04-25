@@ -1,3 +1,3 @@
 ---
-title: Activiteiten per categorie
+title: "Activiteiten per categorie"
 ---
