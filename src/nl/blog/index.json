@@ -6,7 +6,7 @@
     "key": "blogs",
     "pagination": {
         "data": "collections.published_posts_nl",
-        "size": "3",
+        "size": "30",
         "alias": "paginated_posts"
     }
 }
