@@ -6,6 +6,10 @@
         </path>
     </clipPath>
 
+    <clipPath id="greater-than-close-large" clipPathUnits="objectBoundingBox">
+        <path d="M0,0 v0.518 l0.5,0.482,0.5,-0.482 V0 H0"/>
+    </clipPath>
+
     <clipPath id="greater-than-open-tiny" clipPathUnits="objectBoundingBox">
         <path d="M1,0.999 V0 L0,0.495 L1,1"></path>
     </clipPath>
@@ -107,4 +111,6 @@
         <path
             d="M.55.16667V.38889C.56251.43709.46145.482.3.5.46145.518.56251.56291.55.61111V.83333C.55.875.55.93056.85.93056H1V1H.7C.45,1,.3.94444.3.84722V.63889C.3.59722.3.54167,0,.52778V.47222C.3.45833.3.40278.3.36111V.15278C.3.05556.4,0,.7,0H1V.06944H.85C.55.06944.55.125.55.16667Z" />
     </clipPath>
+
+    
 </svg>

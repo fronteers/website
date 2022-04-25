@@ -104,8 +104,10 @@
     inline-size: 100%;
     max-width: 100%;
     background-color: var(--lilac);
-    -webkit-clip-path: url(#greater-than-down-small);
-    clip-path: url(#greater-than-down-small);
+    /* -webkit-clip-path: url(#greater-than-down-small);
+    clip-path: url(#greater-than-down-small); */
+    -webkit-clip-path: url(#greater-than-close-large);
+    clip-path: url(#greater-than-close-large);
   }
 
   .activities-hero .hero-graphic::after {
