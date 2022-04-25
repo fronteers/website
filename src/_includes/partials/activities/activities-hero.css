@@ -5,8 +5,8 @@
     https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/screen/f38cbe49-ff62-428b-8bb0-c6c29d831bac/
 */
 
-.activities-hero {
-    margin-top: -1px;
+.activities-hero { 
+    position: relative;
 }
 
 .activities-hero .hero-graphic::after {
@@ -23,7 +23,7 @@
 
 
 .activities-hero-graphic-wrapper {
-    height: 240px;
+    height: 307px;
     z-index: 10;
     position: relative;
     display: flex;
@@ -38,10 +38,15 @@
     align-items: center;
 }
 
-.activities-hero-graphic-wrapper:after {
+.img-background img {
+    max-width: 100px;
+    max-height: 120px;
+}
+
+.img-background--bottom {
     inline-size: 100%;
     block-size: 0;
-    padding-block-end: 22.8%;
+    padding-block-end: 30%;
     content: " ";
     display: block;
     background-color: white;
@@ -60,6 +65,11 @@
     display: block;
     text-transform: uppercase;
     margin-bottom: var(--spacing);
+}
+
+.activities-hero a:hover .sup-title {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .activities-hero .activity-location {
@@ -112,6 +122,14 @@
 
   .activities-hero .hero-graphic::after {
     content: none;
+  }
+
+  .activities-hero .hero-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
   }
 
   .activities-hero-content-wrapper {
