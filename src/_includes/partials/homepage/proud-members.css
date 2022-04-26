@@ -3,7 +3,7 @@
   position: relative;
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 31.25rem) {
   .proud-members .desktop-columns {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

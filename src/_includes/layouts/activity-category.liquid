@@ -30,14 +30,14 @@
             <ul>
                 {% if category.pageSlugs.previous %}
                     <li>
-                        <a href="/{{ activitiesURL }}/{{ translations[locale].category }}/{{ category.pageSlugs.previous }}/">
+                        <a href="/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ category.pageSlugs.previous }}/">
                             {{ translations[locale].previous }}
                         </a>
                     </li>
                 {% endif %}
                 {% if category.pageSlugs.next %}
                     <li>
-                        <a href="/{{ activitiesURL }}/{{ translations[locale].category }}/{{ category.pageSlugs.next }}/">
+                        <a href="/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ category.pageSlugs.next }}/">
                             {{ translations[locale].next }}
                         </a>
                     </li>

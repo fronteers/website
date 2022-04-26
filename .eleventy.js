@@ -131,7 +131,8 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(!post.data.draft))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
-      .sort((a, b) => a.data.eventdate - b.data.eventdate);
+      .sort((a, b) => b.data.eventdate - a.data.eventdate);
+      
   });
 
   eleventyConfig.addCollection("published_activities_nl", function(collection) {
