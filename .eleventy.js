@@ -131,9 +131,9 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(!post.data.draft))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
-      .sort((a, b) => a.data.eventdate - b.data.eventdate);
+      .sort((a, b) => b.data.eventdate - a.data.eventdate);
   });
-
+    
   eleventyConfig.addCollection("published_activities_nl", function(collection) {
     return collection
       .getFilteredByTag("activities")
@@ -141,7 +141,7 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .filter((post) => Boolean(post.data.locale == "nl"))
-      .sort((a, b) => a.data.eventdate - b.data.eventdate);
+      .sort((a, b) => b.data.eventdate - a.data.eventdate);
   });
 
   eleventyConfig.addCollection("published_activities_en", function(collection) {
@@ -151,7 +151,7 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .filter((post) => Boolean(post.data.locale == "en"))
-      .sort((a, b) => a.data.eventdate - b.data.eventdate);
+      .sort((a, b) => b.data.eventdate - a.data.eventdate);
   });
 
   eleventyConfig.addCollection("published_jobs", function(collection) {

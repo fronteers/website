@@ -29,7 +29,7 @@
   padding-block-end: 0;
   display: flex;
   flex-direction: column;
-  height: 8.5rem;
+  height: 9rem;
 }
 
 /* Clamp heading to three lines */
@@ -39,13 +39,18 @@
   overflow: hidden;
   -webkit-line-clamp: 3;
   line-clamp: 3;
+  margin-block-end: var(--spacing-half);
 }
 
-.activity--1 .activity-header-content {
+.activity--1 .activity-header-content,
+.activity--4 .activity-header-content,
+.activity--7 .activity-header-content {
   background-color: var(--yellow);
 }
 
-.activity--1 .activity-header::after {
+.activity--1 .activity-header::after,
+.activity--4 .activity-header::after,
+.activity--7 .activity-header::after {
   inline-size: 100%;
   block-size: 0;
   padding-block-end: 22.8%;
@@ -57,11 +62,15 @@
   clip-path: url(#parenthesis-down-tiny);
 }
 
-.activity--2 .activity-header-content {
+.activity--2 .activity-header-content,
+.activity--5 .activity-header-content,
+.activity--8 .activity-header-content {
   background-color: var(--red);
 }
 
-.activity--2 .activity-header::after {
+.activity--2 .activity-header::after,
+.activity--5 .activity-header::after,
+.activity--8 .activity-header::after {
   inline-size: 100%;
   block-size: 0;
   padding-block-end: 22.8%;
@@ -73,11 +82,15 @@
   clip-path: url(#greater-than-down-tiny);
 }
 
-.activity--3 .activity-header-content {
+.activity--3 .activity-header-content,
+.activity--6 .activity-header-content,
+.activity--9 .activity-header-content {
   background-color: var(--lilac);
 }
 
-.activity--3 .activity-header::after {
+.activity--3 .activity-header::after,
+.activity--6 .activity-header::after,
+.activity--9 .activity-header::after {
   inline-size: 100%;
   block-size: 0;
   padding-block-end: 22.8%;
@@ -93,8 +106,8 @@
   padding: var(--spacing);
   padding-block-start: 0;
   display: flex;
-  flex-direction: column;
-  height: 19rem;
+  flex-direction: column; 
+  min-height: 19rem;
 }
 
 .activity-summary {
@@ -104,6 +117,7 @@
   -webkit-line-clamp: 7;
   line-clamp: 7;
   margin: 1rem 0;
+  min-height: 12rem;
 }
 
 .activity-location {
@@ -123,4 +137,10 @@
   align-items: flex-end;
   justify-content: flex-end;
   margin-block-start: auto;
+}
+
+@media all and (min-width: 46.875em) {
+    .activity-header-content { 
+        height: 9rem; 
+    }
 }

@@ -1,3 +1,3 @@
 ---
-title: Activiteiten
+title: "Activiteiten"
 ---

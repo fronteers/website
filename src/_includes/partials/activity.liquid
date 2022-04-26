@@ -9,24 +9,29 @@
     </div>
     <div class="activity-content">
         {% if activity.data.summary %}
-            <p class="activity-summary">{{ activity.data.summary }}</p>
+            <p class="activity-summary">{{ activity.data.summary | striptags | truncatewords: 60 | truncate: 320 | strip_html }}</p>
         {% else %}
-            <p class="activity-summary">{{ activity.templateContent | striptags | truncate: 300 | strip_html  }}</p>
+            <p class="activity-summary">{{ activity.templateContent | striptags | truncatewords: 60 | truncate: 320 | strip_html  }}</p>
         {% endif %}
-
+ 
         {% if activity.data.location %}
-            <p class="activity-location">{% include svg/icon_location.svg %} {{ activity.data.location }}</p>
+            <p class="activity-location">{% include svg/icon_location.svg %}
+                <span class="visually-hidden">{{ translations[locale].location }}</span>
+                {{ activity.data.location }}
+            </p>
         {% else %}
             <p class="activity-location">{% include svg/icon_location.svg %} 
+                <span class="visually-hidden">{{ translations[locale].location }}</span>
                 {{ translations[locale].locationUnknown }}
             </p>
         {% endif %}
 
+        <!-- 
         {%- for tag in activity.data.categories -%}
             <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/" class="tag-link">{% tag tag %}</a>
-        {% endfor %} 
+        {% endfor %}  -->
     </div>
     <div class="activity-footer">
-        <a href="{{ activity.url }}" class="button">Meld je aan</a>
+        <a href="{{ activity.url }}" class="button">{{ translations[locale].signUp }}</a>
     </div>
 </div>

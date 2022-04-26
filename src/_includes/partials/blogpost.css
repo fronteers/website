@@ -5,11 +5,18 @@
   flex-direction: column;
 }
 
-.content-graphic {
+@media (min-width: 54.875em) {
+    .blog {
+        max-height: 340px;
+    }
+
+}
+
+.blog-graphic-wrapper {
   block-size: 200px;
 }
 
-.content-text {
+.blog-content-wrapper {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -17,7 +24,7 @@
   font-size: var(--font-size-18);
 }
 
-.content-text .h {
+.blog-content-wrapper .h {
   margin: 0;
 }
 
@@ -58,19 +65,22 @@
 .blog-summary {
   font-size: var(--font-size-18);
   line-height: 1.5;
+    overflow: hidden;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
 }
 
-.content-meta {
+.blog-meta {
   padding: var(--spacing);
   padding-block-start: 0;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin-top: auto;
-  align-items: center;
+  margin-top: var(--spacing);
 }
 
-.content-time {
+.blog-author {
+  padding-inline-end: var(--spacing);
+}
+
+.blog-time {
   padding-inline-end: var(--spacing);
 }
 
@@ -82,19 +92,20 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /* margin-block-end: var(--spacing); */
+  margin-block-start: var(--spacing);
+  margin-block-end: var(--spacing);
 }
 
 .blog-tags li {
   display: inline-block;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 46.875rem) {
   .blog {
     flex-direction: row;
   }
 
-  .content-graphic {
+  .blog-graphic-wrapper {
     block-size: 100%;
     inline-size: 100%;
     flex: 0 0 300px;
@@ -103,9 +114,26 @@
     max-width: 300px;
   }
 
-  .content-meta {
+  .blog-summary {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+  }
+
+  .blog-meta {  
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: flex-start;
     padding-block-end: 0;
+    margin-block-start: var(--spacing);
+    margin-block-end: var(--spacing);
+  }
+
+  .blog-tags {
+    margin: 0;
   }
 
   .blog-1 .blog-graphic {
@@ -121,5 +149,30 @@
   .blog-3 .blog-graphic {
     -webkit-clip-path: url(#parenthesis-right-small);
     clip-path: url(#parenthesis-right-small);
+  }
+}
+
+@media all and (min-width: 52.875rem) {
+    .blog-summary {
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+    }
+}
+
+@media all and (min-width: 54.875rem) {
+    .blog-summary { 
+        -webkit-line-clamp: 5;
+        line-clamp: 5;
+    }
+
+    .blog-meta {
+        margin-block-start: 0;
+    }
+}
+
+@media all and (min-width: 60.875rem) {
+  .blog-summary { 
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
   }
 }

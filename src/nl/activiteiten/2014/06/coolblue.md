@@ -38,7 +38,7 @@ Met de auto komen kan ook, er kan dan geparkeerd worden in de parkeergarage Ween
 
 (TODO: Weena 664, 3012 CN, Rotterdam (364))
 
-(Hidden)
+
 
 # Aanmeldingen, 75 van de 75
 

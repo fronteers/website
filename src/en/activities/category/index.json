@@ -4,7 +4,7 @@
     "tags": "pages",
     "pagination": {
         "data": "collections.activityCategories",
-        "size": 1,
+        "size": 6,
         "alias": "category"
     }
 }
