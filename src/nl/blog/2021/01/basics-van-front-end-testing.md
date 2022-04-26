@@ -4,6 +4,8 @@ date: 2021-01-04
 author: Melle Wynia
 categories: 
   - Adventskalender
+graphic:
+  src: sigmund-LCun3uxh-z0-unsplash.jpeg
 ---
 Als front-end developer zullen de begrippen unit test, integration test en end-to-end test je waarschijnlijk wel bekend voorkomen. Maar wat is het en wanneer gebruik je welke test? Dit artikel is een kleine intro tot de verschillende soorten tests en tools die je als front-end developer tot je beschikking hebt om je code te testen en uiteindelijk de kwaliteit te verbeteren.
 

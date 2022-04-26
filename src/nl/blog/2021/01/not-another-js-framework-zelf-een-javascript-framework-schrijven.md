@@ -4,6 +4,8 @@ date: 2021-01-02
 author: Josee Wouters
 categories: 
   - Adventskalender
+graphic:
+  src: pankaj-patel-1IW4HQuauSU-unsplash.jpeg
 ---
 React beter leren. Het staat al een hele tijd op mijn to do list, omdat we op mijn werk met React werken. Ik leer het beste door dingen te doen, maar ik hou niet van korte "Hello World" tutorials van een uurtje waarna je eigenlijk nog niets hebt geleerd. Daarom kreeg ik een studieopdracht op het werk: bouw React na. Mijn eigen JavaScript framework maken... Ik moest even slikken. Dat kan ik toch nooit?! Maar ik liet het even bezinken, kreeg wat eerste instructies en ging toen toch aan de slag. Omdat ik ook goed leer door op te schrijven wat ik heb gedaan, doe ik dat hier. Wellicht inspireert het jou om ook zoiets te proberen.
 
