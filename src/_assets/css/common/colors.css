@@ -1,6 +1,8 @@
 :root {
   --purple: #646ee0;
-  --purple-wcag-darker: #5964de;
+  /* --purple-wcag-darker: #5964de;
+   */
+  --purple-wcag-darker: #2532BB;
   --yellow: #ffce2e;
   --lilac: #b7b7fd;
   --lilac-light: #e5e5ff;

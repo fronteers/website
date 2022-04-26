@@ -17,11 +17,11 @@ Hier voegen we dus de volgende zes namen aan toe:
 
 *[Alex Graul](http://www.sho.ch/)* is gespecialiseerd in gegevensvisualisatie. Hoe breng je gegevens over zonder dat het saai wordt? Alex is ook mede-ontwikkelaar van [Miso](http://misoproject.com/), een open source toolkit om gemakkelijk interactieve verhalen en gegevensvisualisaties te maken.
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
 
 Tijdens het accessibility-panel gaan *[Bram Duvigneau](https://twitter.com/bramduvigneau)*, *[Bor Verkroost](http://www.eborfoundation.com/)* en *Antoine Hegeman*, ervaringsdeskundigen op het gebied van de (on)toegankelijkheid van het web, ons aan de hand van praktijkvoorbeelden een beeld schetsen van de valkuilen die zij op het web tegenkomen. Dit jaar dus geen presentatie over hoe het _zou moeten_ in theorie, maar hoe het op dit moment _is_ in de praktijk. De moderator is Chris Heilmann.
 
@@ -31,4 +31,4 @@ En of je nu naar het congres komt of niet, er zijn in ieder geval nog wel kaarte
 
 We hebben nog een maand en een hoop voorbereidingen te gaan, maar we hebben er weer zin in!
 
-(Hidden)
+

@@ -29,4 +29,4 @@ Het bestuur nodigt alle leden nadrukkelijk uit om vragen, ideeën of voorstellen
 
 Na afloop van de vergadering kunnen we op de 11e verdieping (met een indrukwekkend uitzicht over Amsterdam) tot 22.30 uur een biertje (en meer!) drinken.
 
-(Hidden)
+

@@ -18,11 +18,11 @@ Wat maakt apps anders: ze zijn taakgeoriënteerd, hebben een nauwe focus en hebb
 
 Met de Chrome Store kunnen ontwikkelaars een zipje uploaden naar Google. Google zorgt dan voor de rest, zoals de distributie en upgrades. Ook dien je als ontwikkelaar aan te geven welke URLs van binnenuit je applicatie geopend kunnen worden, en welke APIs het gebruikt (zoals Geolocatie). De betaling kan ook door Google afgehandeld worden via Google Checkout, dit kan eenmalig, per maand of per jaar.
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
 
 ![](https://fronteers.nl/_img/2011/07/fronteers-bier.jpg)
 
@@ -40,9 +40,9 @@ Web Intents. Een applicatie op je telefoon of computer kan een event aanroepen, 
 
 Voor een actie maak je een manifest file aan met het type en de URL. Met slechts enkele stukjes code kun je met de browser communiceren hoe een bepaalde actie uitegevoerd moet worden.
 
-(Hidden)
 
-(Hidden)
+
+
 
 # Overige materialen en verslagen
 
@@ -93,6 +93,5 @@ Voor een actie maak je een manifest file aan met het type en de URL. Met slechts
 * Johan Voeten
 * Hidde de Vries
 
-(Hidden)
 
-(Hidden)
+

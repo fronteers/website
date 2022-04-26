@@ -59,4 +59,3 @@ Iedereen is welkom. Er is echter beperkt plaats, voor circa 75 mannen en vrouwen
 * Sebastiaan Smid (Breda, auto)
 * Dieter Wyns (Gent, zoekt nog vervoer)
 
-(Hidden)

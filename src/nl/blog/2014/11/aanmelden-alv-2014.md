@@ -33,7 +33,7 @@ Dit jaar treden Vasilis van Gemert en Krijn Hoetmer af. Twee nieuwe leden hebben
 
 Ben je van plan te komen, dan vragen we je vriendelijk je hieronder hiervoor in te schrijven, zodat we een idee hebben van de te verwachten opkomst.
 
-(Hidden)
+
 
 # Aanwezigen
 

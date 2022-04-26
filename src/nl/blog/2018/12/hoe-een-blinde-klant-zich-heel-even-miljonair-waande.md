@@ -13,9 +13,9 @@ Is dat nou echt nodig? Of maakt het je webinhoud juist minder toegankelijk? Dat 
 
 ![Collage: stapel eurobiljetten en icoon van een luidspreker](https://fronteers.nl/_img/adventskalender/euros-full.jpg)
 
-(Hidden)
 
-(Hidden)
+
+
 
 # What the FAQ?
 

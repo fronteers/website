@@ -24,27 +24,27 @@ De syntax voor transities is vrij simpel. Met `transition: property tijd easing`
 
 CSS Animaties zijn vrij nieuw. Ze moeten een declaratief blok hebben met de keyframes. Omdat ze met alle vendor prefixes aangemaakt moeten worden, is je CSS bestand al snel heel erg groot. De beschikbare easingfuncties zijn onder andere ease, linear, ease-in/out/in-out en cubic-bezier om je eigen easing te maken. Zie ook [generator door Lea Verou](http://cubic-bezier.com).
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
+
+
+
+
 
 # Aanwezigen
 
@@ -97,6 +97,5 @@ CSS Animaties zijn vrij nieuw. Ze moeten een declaratief blok hebben met de keyf
 * Thomas Bossée
 * Kenneth Claes
 
-(Hidden)
 
-(Hidden)
+

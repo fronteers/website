@@ -59,4 +59,3 @@ Eduhub is gevestigd aan Rokin 75, 1012 KL Amsterdam. De bijeenkomst is gratis bi
 * en nog 5 personen
 * jij?
 
-(Hidden)

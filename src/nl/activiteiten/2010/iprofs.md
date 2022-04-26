@@ -56,4 +56,3 @@ Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-l
 
 Samen reizen met iemand? Neem even [contact](/contact) op met de ledenadministratie en we koppelen jullie aan elkaar.
 
-(Hidden)

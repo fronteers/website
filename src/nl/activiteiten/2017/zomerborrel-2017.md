@@ -14,9 +14,9 @@ Je bent vanaf 18:00 welkom! We beginnen om 19:00 aan het eten.
 
 Helaas kun je je niet meer aanmelden.
 
-(Hidden)
 
-(Hidden)
+
+
 
 <table>
 <tr>

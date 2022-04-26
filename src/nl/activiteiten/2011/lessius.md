@@ -46,9 +46,9 @@ _Herbruikbare CSS._ Met pattern libraries zoals [Bootstrap] kun je gemakkelijk v
 
 _Extra's._ Verwijder nooit de `outline`s bij `:focus` als je niet een aparte stijl hebt gedefinieerd.
 
-(Hidden)
 
-(Hidden)
+
+
 
 # Overige materialen en verslagen
 
@@ -56,27 +56,27 @@ _Extra's._ Verwijder nooit de `outline`s bij `:focus` als je niet een aparte sti
 * [Slides van de presentatie van Johan](http://www.slideshare.net/Wolfr/design-for-developersonlineversionlong) (Slideshare)
 * [Verslag geschreven door Thomas Deceuninck](http://creativeskills.be/articles/fronteers-meetup-lessius/)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
+
+
 
 # Aanmeldingen
 
-(Hidden)
+
 
 * Mathias Bynens
 * Roel Van Gils
@@ -151,6 +151,5 @@ _Extra's._ Verwijder nooit de `outline`s bij `:focus` als je niet een aparte sti
 * Stijn Michiels
 * Glenn Billiau
 
-(Hidden)
 
-(Hidden)
+

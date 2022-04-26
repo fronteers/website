@@ -6,7 +6,7 @@ location:
 categories: 
     - meetup
 ---
-(Hidden)
+
 
 Op donderdag 10 december 2015 is Fronteers te gast bij [Netvlies](http://www.netvlies.nl/) in Breda. Er staan drie sprekers op het programma.
 
@@ -72,7 +72,7 @@ Iedereen is welkom, je hoeft geen lid te zijn van Fronteers. Er is echter beperk
 
 Volg de discussie op [Twitter](https://twitter.com/fronteers).
 
-(Hidden)
+
 
 # Aanmeldingen
 

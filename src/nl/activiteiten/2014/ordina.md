@@ -34,15 +34,15 @@ Dit evenement vindt plaats bij Ordina te Mechelen.
 
 {% googlemaps "Blarenberglaan 3, 2800 Mechelen" %}
 
-(Hidden)
 
-(Hidden)
+
+
 
 Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23fronteersbe).
 
 # Aanmeldingen
 
-(Hidden)
+
 
 * Mathias Bynens (Grembergen, auto)
 * Roel Van Gils (Gent, openbaar vervoer)
@@ -115,8 +115,7 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 * Jürgen De Commer (Gent, auto)
 * Wouter Vandersyppe (Gent, onbekend)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+

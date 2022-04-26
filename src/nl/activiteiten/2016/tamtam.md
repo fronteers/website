@@ -44,7 +44,7 @@ Zie ook [https://www.tamtam.nl/contact/](https://www.tamtam.nl/contact/)
 
 {% googlemaps "Tam Tam, Helicopterstraat 25, Amsterdam" %}
 
-(Hidden)
+
 
 # Vragen?
 

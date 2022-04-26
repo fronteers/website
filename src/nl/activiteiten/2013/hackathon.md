@@ -47,4 +47,3 @@ De hackathon is gratis voor leden en niet-leden en er is plek voor 30 hackers. L
 * Hetty de Vries (Amsterdam)
 * Arend van Waart (Delft)
 
-(Hidden)

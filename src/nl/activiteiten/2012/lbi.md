@@ -201,6 +201,6 @@ Wanneer je toch niet kunt komen, verzoeken wij je af te melden via [e-mail](mail
 * Charlie van der Zwan (Rotterdam, auto)
 * Adriaan Zwiers (Leiden, openbaar vervoer)
 
-(Hidden)
+
 
 _*De bijeenkomst zit vol. Wil je graag op de reservelijst, mail dan naar <arjan@fronteers.nl>*_

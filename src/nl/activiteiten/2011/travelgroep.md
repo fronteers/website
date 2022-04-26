@@ -8,29 +8,29 @@ categories:
 ---
 Op donderdag 25 augustus was Fronteers welkom bij [Travelgroep](http://travelgroep.nl) in Amsterdam. Reinier Linthorst Homan vertelde over zoekmachineoptimalisatie, en <strike>Ruslan Matveev zal een Engelstalig praatje houden over het door hem gebouwde jPath</strike>  Arjan Eising herhaalde zijn presentatie over WAI-ARIA.
 
-(Hidden)
 
-(Hidden)
+
+
 
 # Arjan Eising over WAI-ARIA
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
+
+
 
 (TODO: 640x360
 /_downloads/2011/arjan-eising-travelgroep.webm (156))
@@ -57,4 +57,4 @@ Op donderdag 25 augustus was Fronteers welkom bij [Travelgroep](http://travelgro
 * Bas Ben Zineb
 * Thomas van Zuijlen
 
-(Hidden)
+

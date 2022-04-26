@@ -73,8 +73,7 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 * Davy Maes (Dendermonde, auto)
 * Kristof Houben (Diepenbeek, auto)
 
-(Hidden)
+
 
 Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2012/fronteersbe-microsoft/).
 
-(Hidden)

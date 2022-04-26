@@ -82,6 +82,6 @@ Er kan gratis geparkeerd worden bij het VPRO / NET3 gebouw. Meld even dat je voo
 * Guido Wesdorp (Rotterdam, auto)
 * En nog drie anderen
 
-(Hidden)
+
 
 *Deze bijeenkomst zit vol. Wil je op de reservelijst, mail dan naar <arjan@fronteers.nl>*

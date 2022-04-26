@@ -44,25 +44,25 @@ Dit leidde tot een discussie over de verhoogde kans op een phising aanval, omdat
 [Slides van de presentatie van Thomas](http://www.phil.uu.nl/~tmarkus/presentations/fronteers-2010-06-14.pdf)
 [Slides van de presentatie van Andreas](http://www.slideshare.net/andreascreten/data-portability-fronteers-meetup)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
+
+
+
 
 # Aanwezigen
 
@@ -110,6 +110,5 @@ Dit leidde tot een discussie over de verhoogde kans op een phising aanval, omdat
 * Peter
 * +9
 
-(Hidden)
 
-(Hidden)
+

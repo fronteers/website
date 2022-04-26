@@ -11,7 +11,7 @@ Om het nieuwe jaar vrolijk te laten ingaan, organiseert Fronteers op *donderdag 
 
 Wel moeten we van tevoren weten met hoeveel mensen we zijn. Derhalve verzoeken we je je in te schrijven via onderstaand formulier, als je wilt komen.
 
-(Hidden)
+
 
 # Aanwezigen
 

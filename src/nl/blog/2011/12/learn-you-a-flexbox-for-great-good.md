@@ -150,7 +150,7 @@ Om te begrijpen welk effect een aantal Flexbox properties hebben op flexbox item
 
 Mja. Dat is lastig uitleggen. Laten we een plaatje tekenen:
 
-(Hidden)
+
 
 ![Bij horizontaal geplaatste items is de main axis horizontaal.](https://fronteers.nl/_img/2011/12/axis.png)
 

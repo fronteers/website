@@ -100,7 +100,7 @@ Op CodeSandbox is het [het volledige voorbeeld van een simpele kalenderweergave]
 
 ![Voorbeeld van versimpelde kalenderweergave](https://fronteers.nl/_img/adventskalender/02-12-2019-1.png)
 
-(Hidden)
+
 
 Voor een meer uitgebreide versie kan je naast extra styling ook denken aan event handlers voor datumselectie en het formatteren van de datums met bijvoorbeeld [moment.js](https://momentjs.com/) of [date-fns](https://date-fns.org/).
 
@@ -150,7 +150,7 @@ const amountOfWeeks = Math.ceil((realOffset + daysInMonth) / 7);
 
 ![Een voorbeeld van een kalendercomponent waarbij de begindag van de week kan worden ingesteld](https://fronteers.nl/_img/adventskalender/02-12-2019-2.png)
 
-(Hidden)
+
 
 # De mogelijkheden
 
@@ -164,7 +164,7 @@ Ook kun je dezelfde logica in een agenda gebruiken:
 
 ![Toepassing van het component in een kalender-app](https://fronteers.nl/_img/adventskalender/02-12-2019-4.gif)
 
-(Hidden)
+
 
 Wie weet volgt er binnenkort nog een vervolgpost voor de toegankelijkheid van deze componenten.
 

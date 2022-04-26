@@ -62,4 +62,3 @@ Future in IT heeft een zaal gehuurd bij [Rokin View](http://www.rokinview.nl/): 
 * Hetty de Vries
 * Adriaan Zwiers
 
-(Hidden)

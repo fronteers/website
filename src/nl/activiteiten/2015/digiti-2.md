@@ -36,7 +36,7 @@ Iedereen is welkom. Er is echter beperkt plaats, voor circa 175 mannen en vrouwe
 
 Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23fronteersbe).
 
-(Hidden)
+
 
 # Aanmeldingen
 

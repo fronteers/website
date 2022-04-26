@@ -62,4 +62,3 @@ Hieronder vind je de videos van de bijeenkomst:
 
 Competa is gevestigd aan de Verrijn Stuartlaan 20, 2288 EL Rijswijk Zuid Holland. Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je via onderstaand formulier doorgeeft dat je aanwezig kunt zijn.
 
-(Hidden)

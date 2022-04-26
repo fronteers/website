@@ -34,7 +34,7 @@ Het bestuur stelt het volgende voor.
 Lidmaatschap W3C: 1.950 euro per jaar. 
 (Noot: na twee jaar gaat [dit bedrag](https://www.w3.org/Consortium/fees?countryCode=NL&quarter=07-01&year=2018#results) omhoog naar 7.800 euro. Dit is de voornaamste reden om in 2020 het lidmaatschap te evalueren.)
 
-(Hidden)
+
 
 Vertegenwoordigersfee: 25.000 euro per jaar. Dit is inclusief eventuele reiskosten naar W3C-meetings. Rachel Andrew is akkoord gegaan met dit bedrag.
 

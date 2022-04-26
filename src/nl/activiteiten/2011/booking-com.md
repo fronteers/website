@@ -31,23 +31,23 @@ Tracking is de standaardbreedte tussen twee letters, en kerning lijkt daar veel 
 * [Slides van de presentatie van Roy, op Speakerdeck](http://speakerdeck.com/u/roy/p/git-your-act-together)
 * [Slides van de presentatie van Febio, HTML](http://www.antanix.net/_presentation/typography/) (laadt langzaam)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
+
+
 
 # Aanwezigen
 
@@ -110,4 +110,3 @@ Tracking is de standaardbreedte tussen twee letters, en kerning lijkt daar veel 
 * Maikel van der Zande
 * En nog 2 personen
 
-(Hidden)

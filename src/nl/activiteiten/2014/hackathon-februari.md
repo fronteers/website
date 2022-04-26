@@ -40,7 +40,7 @@ Na een goede bak koffie gaan we aan de slag om mooie dingen te maken. Je kan erv
 * 16.30 uur borrel
 * 17.00 uur einde
 
-(Hidden)
+
 
 > Good ideas never go out of style
 
@@ -59,4 +59,3 @@ Lijkt het je leuk om hieraan mee te denken en te werken? Meld je dan hieronder a
 * Maarten Verbaarschot
 * Peter Stroeken
 
-(Hidden)

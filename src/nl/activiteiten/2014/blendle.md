@@ -48,7 +48,7 @@ Blendle is gevestigd in Media Plaza, Croeselaan 6, 3521 CA, Utrecht. Media Plaza
 
 {% googlemaps "Media Plaza, Croeselaan 6, 3521 CA, Utrecht" %}
 
-(Hidden)
+
 
 # Aanmeldingen (165 van de 175)
 

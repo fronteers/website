@@ -37,9 +37,9 @@ Lange Vijverberg 3, 2513 AC, Den Haag
 
 We raden aan met openbaar vervoer naar het centrum van Den Haag te komen. Er zijn veel parkeermogelijkheden in de buurt, houd er wel rekening mee dat het betaald parkeren is.
 
-(Hidden)
 
-(Hidden)
+
+
 
 # Aanmeldingen
 
@@ -207,6 +207,5 @@ We raden aan met openbaar vervoer naar het centrum van Den Haag te komen. Er zij
 </table>
 
 
-(Hidden)
 
-(Hidden)
+

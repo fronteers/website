@@ -61,4 +61,3 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 * Jochen Vandendriessche (Brugge, met de auto)
 * Bram De Smijter (Oudenaarde, auto)
 
-(Hidden)

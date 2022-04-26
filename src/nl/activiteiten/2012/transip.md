@@ -76,4 +76,3 @@ Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als 
 {% form %}
 {% endcomment %}
 
-(Hidden)

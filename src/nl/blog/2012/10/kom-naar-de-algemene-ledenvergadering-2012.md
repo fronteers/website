@@ -67,4 +67,4 @@ _De ALV vindt op donderdag 22 november om 19.00 uur plaats in [vergadercentrum H
 
 Meld je aan voor de ALV via het [aanmeldformulier](/vereniging/bestuur#formulier-1).
 
-(Hidden)
+

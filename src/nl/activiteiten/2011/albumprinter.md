@@ -17,19 +17,19 @@ Bram Duvigneau heeft als webdeveloper met een visuele beperking zeer veel ervari
 * Vergeet keyboard accessibility niet.
 * Accessibility testen kan ondermeer met de gratis [NVDA-plugin](http://www.nvda-project.org/) voor Firefox.
 
-(Hidden)
 
-(Hidden)
+
+
 
 # CSS Selectors, door Arjan Eising
 
 CSS Selectors zijn de stille kracht achter elke stylesheet. Met de komst van CSS Selectors level 3, en de browsers die het tegenwoordig allemaal ondersteunen, zijn we met enkele slimme selectors in staat 'krachtige' stijlen toe te passen. Daar komt nu een nieuwe set bij: CSS Selectors level 4, waarin vele handige selectors worden toegevoegd. [Arjan Eising](http://arjaneising.nl) gaf in zijn presentatie een chronologisch overzicht van de ontwikkeling van CSS-selectors van versie 1 tot versie 4.
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
 
 Nu de uitfasering van IE6 bijna een feit is, zou je bijna vergeten dat IE7 een betere CSS-selector-ondersteuning heeft dan zijn voorganger. De volgende selectors kun je dan ook probleemloos inzetten vanaf IE7:
 
@@ -71,4 +71,3 @@ De volledige presentatie van Arjan is terug te vinden op <http://codex.arjaneisi
 * Maarten Wensveen
 * en nog 3 personen
 
-(Hidden)

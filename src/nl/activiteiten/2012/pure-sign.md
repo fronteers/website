@@ -84,4 +84,3 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 
 Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2012/fronteersbe-puresign/). *Inschrijven via het onderstaande formulier is echter verplicht!*
 
-(Hidden)

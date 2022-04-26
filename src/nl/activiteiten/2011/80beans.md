@@ -30,21 +30,21 @@ De algemene gedacht is om te denken: mobile first.
 
 Vasilis heeft in een weekeind de Flickr.com site aangepast voor mobiele devices. De zoekbalk valt op een andere plaats als het scherm minder breed is. En met `::before` worden teksten ingekort. De afbeeldingen zijn standaard in lage resolutie. Met een stukje JavaScript laadt hij de grotere afbeeldingen in.
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
 
-(Hidden)
+
+
+
+
+
+
+
+
 
 # Overige materialen en verslagen
 
@@ -107,6 +107,5 @@ Vasilis heeft in een weekeind de Flickr.com site aangepast voor mobiele devices.
 * Joris Witteman
 * Peter van der Zee
 
-(Hidden)
 
-(Hidden)
+

@@ -61,4 +61,3 @@ Zoals gebruikelijk is iedereen welkom, zowel leden, als niet-leden. Er is ruimte
 * Phi Son (Amsterdam)
 * Dennis Burger (Amsterdam)
 
-(Hidden)

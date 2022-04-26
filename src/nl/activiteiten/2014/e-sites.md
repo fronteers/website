@@ -83,4 +83,3 @@ Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als ni
 * Gert-Jan van Dijk
 * + ongeveer 10 collega's van E-sites
 
-(Hidden)

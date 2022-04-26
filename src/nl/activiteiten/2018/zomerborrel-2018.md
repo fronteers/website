@@ -14,7 +14,7 @@ We hebben helaas geen bowlingbaan weten te verzekeren maar er wandelt een klein 
 
 Aanmelden is helaas niet meer mogelijk, maar als je even een berichtje naar ons stuurt via [twitter](https://twitter.com/fronteers) kunnen we nog rekening houden met je komst.
 
-(Hidden)
+
 
 <table>
 <tr>

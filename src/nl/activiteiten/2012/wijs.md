@@ -90,6 +90,6 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 
 Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2012/fronteersbe-wijs/). *Inschrijven via het onderstaande formulier is echter verplicht!*
 
-(Hidden)
+
 
 *Deze bijeenkomst is volzet!* Als je op de wachtlijst staat, contacteren we je zodra er een plaatsje vrijkomt.

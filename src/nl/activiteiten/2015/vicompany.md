@@ -50,13 +50,13 @@ Dit evenement vindt plaats bij VI Company, Stationsplein 45 (unit A4.194), 3013 
 Ga naar de hoofdingang (ingang A) van het Groot Handelsgebouw. Daar kun je de lift naar de vierde verdieping nemen, VI Company zit links aan het eind van de gang.
 Er wordt gezorgd voor pizzapunten, grote eters doen er goed aan zelf nog een hapje te eten.
 
-(Hidden)
+
 
 # Vragen?
 
 [Neem contact op met de Activiteitencommissie.](/vereniging/commissies/activiteiten)
 
-(Hidden)
+
 
 # Aanmeldingen
 

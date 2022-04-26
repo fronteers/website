@@ -28,7 +28,7 @@ Het bestuur nodigt alle leden nadrukkelijk uit om vragen, ideeën of voorstellen
 
 Meld je zo gauw mogelijk aan voor de ALV middels onderstaand formulier, zodat wij ons enigzins een beeld kunnen vormen van de verwachte toeloop. Je komst is niet voor niks. Ten eerste bepaal je mede de koers van Fronteers in 2011, ten tweede scoor je die exclusieve Fronteersgadget die niemand anders heeft (_onder voorbehoud_). Samen reizen met iemand? Neem even [contact](/contact) op met de ledenadministratie en we koppelen jullie aan elkaar.
 
-(Hidden)
+
 
 # Aanmeldingen
 

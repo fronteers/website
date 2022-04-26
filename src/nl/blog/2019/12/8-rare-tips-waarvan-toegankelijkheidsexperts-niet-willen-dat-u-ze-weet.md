@@ -21,7 +21,7 @@ Een Flesch-Kincaid-score is een geweldige maatstaf om je te concentreren op lees
 
 ![Een heel smal bord met de tekst "geen alcohol voorbij dit punt". Er zijn gemiddeld 2 letters op elke regel. De tekst is vrijwel onleesbaar en ziet eruit als een lijst met afkortingen.](https://fronteers.nl/_img/adventskalender/04-12-2019-1.png)
 
-(Hidden)
+
 
 # 2. Pagina's die WAI-ARIA gebruiken zijn minder toegankelijk
 
@@ -35,7 +35,7 @@ De echte tip is niet om ARIA op zichzelf te vermijden, maar om het gebruik van A
 
 ![Een kleine papieren paraplu bedekt nauwelijks een open kroonsteen met electriciteitsdraden. Het vormt een hopeloos schild tegen regen.](https://fronteers.nl/_img/adventskalender/04-12-2019-2.png)
 
-(Hidden)
+
 
 # 3. Geautomatiseerde tests dekken slechts 20% van WCAG
 
@@ -56,7 +56,7 @@ Gefeliciteerd, je kan nu moeiteloos veel problemen vinden!
 
 ![Een betegelde muur heeft een uitsparing in de vorm van een wastafel en zijn silhouette. De wasbak was er duidelijk eerder dan de muur.](https://fronteers.nl/_img/adventskalender/04-12-2019-3.png)
 
-(Hidden)
+
 
 # 4. Je kan een toegankelijk alternatief aanbieden
 
@@ -82,7 +82,7 @@ De discussie mag echter nooit over het aantal mensen gaan. Praten over cijfers w
 
 ![Een parkeerplek die is gemarkeerd als toegankelijk is omgeven door een aaneengesloten stoeprand](https://fronteers.nl/_img/adventskalender/04-12-2019-4.png)
 
-(Hidden)
+
 
 # 7. De standaard focusindicator is veilig
 
@@ -94,7 +94,7 @@ Het is wel goed om te weten dat [standaard focusindicatoren steeds beter worden]
 
 ![Een stopcontact waar water uit giet](https://fronteers.nl/_img/adventskalender/04-12-2019-5.png)
 
-(Hidden)
+
 
 # 8. Onderscheid elementen op je pagina met een mooi fontje
 

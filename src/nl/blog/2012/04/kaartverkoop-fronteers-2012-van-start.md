@@ -19,7 +19,7 @@ Fronteersleden|€ 200
 Fronteersleden|€ 275
 Niet-leden|€ 350)
 
-(Hidden)
+
 
 Fronteersleden krijgen in de komende dagen een mailtje met daarin hun kortingscode. Korting voor leden geldt alleen voor mensen die voor of op 5 april 2012 lid zijn geworden. Studenten kunnen gebruik maken van de studentenkorting door [contact](/contact) met ons op te nemen. Kaarten zijn te bestellen via [Paydro](https://fronteers.paydro.net/).
 

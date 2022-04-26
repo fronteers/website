@@ -63,9 +63,9 @@ Philipssite 5 - bus 10
 
 [Route plannen met Google Maps](https://www.google.be/maps/place/Kunstmaan/@50.867195,4.7107903,17z/data=!3m1!4b1!4m5!3m4!1s0x47c160e1fd1d81db:0x792791c9a757a87a!8m2!3d50.867195!4d4.712895?hl=en)
 
-(Hidden)
 
-(Hidden)
+
+
 
 <table>
 <tr>

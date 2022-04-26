@@ -89,6 +89,5 @@ Met het openbaar vervoer kun je per trein arriveren op Schiphol. Vanaf Schiphol 
 
 {% googlemaps "Royal Schiphol Group" %}
 
-(Hidden)
 
-(Hidden)
+

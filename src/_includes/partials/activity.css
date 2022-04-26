@@ -42,11 +42,15 @@
   margin-block-end: var(--spacing-half);
 }
 
-.activity--1 .activity-header-content {
+.activity--1 .activity-header-content,
+.activity--4 .activity-header-content,
+.activity--7 .activity-header-content {
   background-color: var(--yellow);
 }
 
-.activity--1 .activity-header::after {
+.activity--1 .activity-header::after,
+.activity--4 .activity-header::after,
+.activity--7 .activity-header::after {
   inline-size: 100%;
   block-size: 0;
   padding-block-end: 22.8%;
@@ -58,11 +62,15 @@
   clip-path: url(#parenthesis-down-tiny);
 }
 
-.activity--2 .activity-header-content {
+.activity--2 .activity-header-content,
+.activity--5 .activity-header-content,
+.activity--8 .activity-header-content {
   background-color: var(--red);
 }
 
-.activity--2 .activity-header::after {
+.activity--2 .activity-header::after,
+.activity--5 .activity-header::after,
+.activity--8 .activity-header::after {
   inline-size: 100%;
   block-size: 0;
   padding-block-end: 22.8%;
@@ -74,11 +82,15 @@
   clip-path: url(#greater-than-down-tiny);
 }
 
-.activity--3 .activity-header-content {
+.activity--3 .activity-header-content,
+.activity--6 .activity-header-content,
+.activity--9 .activity-header-content {
   background-color: var(--lilac);
 }
 
-.activity--3 .activity-header::after {
+.activity--3 .activity-header::after,
+.activity--6 .activity-header::after,
+.activity--9 .activity-header::after {
   inline-size: 100%;
   block-size: 0;
   padding-block-end: 22.8%;

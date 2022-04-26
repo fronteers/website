@@ -84,6 +84,5 @@ Door [Roel Van Gils](https://twitter.com/roelvangils), [Lennart Schoors](https:/
 * Sophie Debals (Gent, openbaar vervoer)
 * En verder nog 5 anonieme aanmeldingen
 
-(Hidden)
 
-(Hidden)
+

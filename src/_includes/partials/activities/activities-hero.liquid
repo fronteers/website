@@ -1,12 +1,56 @@
-<!-- variant of src/_includes/partials/homepage/home-hero.liquid.
+{% comment %}
+    variant of src/_includes/partials/homepage/home-hero.liquid.
     Take a look at that one, to see if it's more recent/better, or 
     could benefit from anything you learned here :-)  
-    Check here for the design: https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/screen/f38cbe49-ff62-428b-8bb0-c6c29d831bac/ -->
+    Check here for the design: https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/screen/f38cbe49-ff62-428b-8bb0-c6c29d831bac/ 
+{% endcomment %}
 
 <section class="outer-wrapper activities-hero">
-    <div class="hero-graphic">
-        <div class="hero-content">
-            {{ blockContent }}
+    <div class="activities-hero-graphic"></div>
+    <div class="activities-hero-content">
+
+        {%- for activity in paginated_activities limit:1 -%} 
+        <div class="inner-wrapper {% if activity.data.graphic.src %}activities-hero-content-grid{% endif %}">
+            {% if activity.data.graphic.src %}
+                <div class="activities-hero-graphic-wrapper">
+                    <div class="img-background">
+                        <img src="/assets/images/{{ activity.data.graphic.src }}" alt="{{ activity.data.graphic.alt }}" class="activities-hero-graphic-img" width="{{ activity.data.graphic.width }}" height="{{ activity.data.graphic.height }}" />
+                    </div>
+                    <div class="img-background--bottom"></div>
+                </div>
+            {% endif %}
+            
+            <div class="activities-hero-content-wrapper">
+                {% comment %}
+                    This is hacky but it works to concatenate a subtitle into the title 
+                {% endcomment %}
+                {% assign part_A = '<span class="sup-title">' | append: translations[locale].nextEvent | append: '</span>' | %}
+                {% assign part_B = activity.data.title %}
+                {% assign firstUpcomingActivityTitle = part_A | append: part_B %}
+
+                {% include partials/utility/dynamic-headerlevel 
+                    level:"h2" 
+                title:firstUpcomingActivityTitle link:activity.url %}
+                    
+                <div class="activity-time-and-location-wrapper">
+                    <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
+                        {{ activity.data.eventdate | displayDate: locale }}
+                    </time>
+
+                    {% if activity.data.location %}
+                        <p class="activity-location">
+                            {{ activity.data.location }}
+                        </p>
+                    {% else %}
+                        <p class="activity-location">
+                            {{ translations[locale].locationUnknown }}
+                        </p>
+                    {% endif %}
+                </div>
+
+                <a href="{{ activity.url }}">Read more<span class="visually-hidden">about {{ activity.data.title }}</span></a>
+            </div>
         </div>
+        {%- endfor -%}
     </div>
 </section>

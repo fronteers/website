@@ -1,5 +1,7 @@
 {% include partials/utility/dynamic-headerlevel level:"h3" title:translations[locale].categories %}
 
+<ul role="list" class="category-list">
 {% for category in collections.activityCategories %}
-    <p><a href="/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ category.slug }}">{{ category.title }}</a></p>
+    <li><a href="/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ category.slug }}" class="tag-link tag-link--large">{% tag category.title %} </a></li>
 {% endfor %}
+</ul>
