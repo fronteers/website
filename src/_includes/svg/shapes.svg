@@ -6,7 +6,7 @@
         </path>
     </clipPath>
 
-    <clipPath id="greater-than-close-large" clipPathUnits="objectBoundingBox">
+    <clipPath id="greater-than-down-large" clipPathUnits="objectBoundingBox">
         <path d="M0,0 v0.518 l0.5,0.482,0.5,-0.482 V0 H0"/>
     </clipPath>
 
