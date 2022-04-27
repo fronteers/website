@@ -14,7 +14,6 @@
         <main class="page-content single-blog inner-wrapper ">
 
             <header class="single-blog-hero">
-                <div class="single-blog-hero-graphic"></div>
                 <div class="single-blog-hero-content ">
                     <div class="content-wrapper">
                         <h2>{{ title }}</h2>
@@ -37,12 +36,18 @@
                             {% endfor %}
                         </ul>
                     </div>
-
                 </div>
+                <div class="single-blog-hero-graphic"></div>
             </header>
 
             <div class="single-blog-content">
                 <div class="content-wrapper">
+                    <div class="blog-graphic-wrapper">
+                        {% if graphic.src %}
+                            <img src="/assets/images/{{ graphic.src }}" alt="{{ graphic.alt }}" class="blog-graphic" />
+                        {% endif %}
+                    </div>
+                    
                     {{ content }}
                 </div>
             </div>

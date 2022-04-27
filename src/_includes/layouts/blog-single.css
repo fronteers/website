@@ -12,6 +12,7 @@
     left: -1px;
     background: white;
     margin-block-end: -2px;
+    height: 23em;
 }
 
 .single-blog-hero-graphic {
@@ -39,7 +40,7 @@
 }
 
 .single-blog-hero-content {
-  background-color: var(--yellow);
+  background-color: var(--red);
   padding: var(--spacing);    
 }
 
@@ -117,10 +118,9 @@
   }
 
   .single-blog-hero-graphic {
-    padding-block-end: 5rem;
-    padding-block-start: 0; 
     background-size: cover;
     inline-size: 100%;
+    block-size: 100%;
     max-width: 100%;
     background-color: var(--red);
     -webkit-clip-path: url(#curly-brace-down-large);
@@ -139,10 +139,10 @@
       text-align: left;
       background: transparent;
       padding: calc(2 * var(--spacing)) 0 calc(3 * var(--spacing));
+      z-index: 1;
   }
 
   .single-blog-hero-content-wrapper {
       padding-block-start: calc(2 * var(--spacing));
   }
-
 }
