@@ -4,6 +4,7 @@
   --spacing-double: 2.5rem; /** (40px) **/
   --outer-width: 80em; /** (1280px) **/
   --inner-width: 61em; /** (990px) **/
+  --content-width: 36.37em;
 }
 
 .inner-wrapper,
@@ -29,6 +30,19 @@
   padding: var(--spacing);
   overflow-x: hidden;
   margin-bottom: var(--spacing);
+}
+
+.content-wrapper {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    text-align: left;
+    padding-block-end: var(--spacing);
+}
+
+@media all and (min-width: 46.875em) {
+    .content-wrapper {
+        padding-block-end: calc(4 * var(--spacing));
+    }
 }
 
 main {

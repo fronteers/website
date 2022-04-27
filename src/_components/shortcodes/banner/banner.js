@@ -22,6 +22,12 @@ const style = `
   min-height: 250px;
   inline-size: 70%;
 }
+.content-wrapper .banner_component {
+  inline-size: 110%;
+  transform: translateX(-5%);
+  margin-block-end: var(--spacing);
+  display: inline-flex;
+}
 
 .banner_component::after {
   content: " ";
