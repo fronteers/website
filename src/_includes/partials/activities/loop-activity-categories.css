@@ -13,4 +13,6 @@
 
 .category-list li {
     display: inline-block;
+    padding-block-end: var(--spacing-half);
+    padding-inline-end: var(--spacing-half);
 }
