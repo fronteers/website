@@ -148,6 +148,7 @@
       text-align: center;
       background: transparent;
       padding: 0;
+      z-index: 1;
   }
 
   .activities-hero-content-wrapper {
