@@ -22,6 +22,17 @@ const style = `
   min-height: 250px;
   inline-size: 70%;
 }
+.content-wrapper .banner_component {
+  margin-block-end: var(--spacing);
+  display: inline-flex;
+}
+
+@media all and (min-width: 46.875em) {
+    .content-wrapper .banner_component {
+        inline-size: 110%;
+        transform: translateX(-5%);
+    }
+}
 
 .banner_component::after {
   content: " ";

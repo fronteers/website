@@ -4,9 +4,6 @@ date: 2021-01-05
 author: Kilian Valkhof
 categories: 
   - Adventskalender
-graphic: 
-  src: bloemen.png
-  alt: Lampionnen
 ---
 CSS is opgebouwd uit allemaal rechthoeken. Rechthoeken kunnen boven of onder andere rechthoeken liggen. Rechthoeken kunnen ook weer andere rechthoeken in zich hebben, en dan kan je er voor kiezen dat de binnenste rechthoeken ook buiten hun omringende rechthoek zichtbaar zijn (dat ze _overflowen_) of dat ze afgekapt worden door de omringende rechthoek (met overflow:hidden).
 

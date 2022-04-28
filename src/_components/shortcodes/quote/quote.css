@@ -1,0 +1,56 @@
+.simple-quote {
+    display: flex;
+    margin-inline-start: var(--spacing-half);
+    margin-inline-end: var(--spacing-half);
+    align-items: center;
+}
+
+.simple-quote-content {
+    align-items: center;
+    flex-grow: 1;
+    padding: var(--spacing-half);
+}
+
+.simple-quote-content blockquote,
+.simple-quote-author { 
+    margin: 0;
+    padding: 0;
+}
+
+.simple-quote-content blockquote {
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.simple-quote-content p {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+.simple-quote-content blockquote p:first-child {
+    margin-top: 0;
+}
+
+.simple-quote-author {
+    justify-self: flex-end;
+}
+
+.simple-quote_decorative-start,
+.simple-quote_decorative-end {
+  font-family: var(--font-family-decoration), sans-serif;
+  color: var(--purple);
+  font-size: 6rem;
+  margin-top: -1rem;
+}
+
+@media all and (min-width: 46.875em) {
+    .simple-quote_decorative-start,
+    .simple-quote_decorative-end {
+        font-size: 14rem;
+    }
+
+    .simple-quote-content {
+        padding: var(--spacing);
+    }
+}
