@@ -133,7 +133,7 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(!post.data.parent))
       .sort((a, b) => b.data.eventdate - a.data.eventdate);
   });
-    
+
   eleventyConfig.addCollection("published_activities_nl", function(collection) {
     return collection
       .getFilteredByTag("activities")
@@ -310,6 +310,11 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("displayDate", function(date, locale) {
     return new Intl.DateTimeFormat(locale, { dateStyle: "long" }).format(date);
+  });
+
+  eleventyConfig.setLiquidOptions({
+    dynamicPartials: false,
+    strictFilters: false,
   });
 
   /* All templates in the content directory are parsed and copied to the dist directory */
