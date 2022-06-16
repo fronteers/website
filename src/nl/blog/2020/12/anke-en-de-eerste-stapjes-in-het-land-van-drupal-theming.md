@@ -2,7 +2,7 @@
 title: "Anke en de eerste stapjes in het land van Drupal Theming"
 date: 2020-12-26
 author: Anke Willems
-categories: 
+categories:
   - Adventskalender
 ---
 Halverwege 2020 switchte ik van baan, en begon ik als front-ender bij een webbureau dat voornamelijk met het CMS Drupal werkt. Ik heb nooit veel met Drupal gewerkt, maar front-end is front-end, toch?
@@ -47,6 +47,7 @@ De [Twig debugging](https://www.drupal.org/docs/theming-drupal/twig-in-drupal/de
 Een voorbeeld van de vereenvoudigde template `node--agenda-detail--full.html.twig` voor een fictieve agenda pagina:
 
 ```
+{% raw %}
 {# We zetten een aantal praktische basisclasses #}
     {\% set classes = [
         'node',
@@ -59,7 +60,7 @@ Een voorbeeld van de vereenvoudigde template `node--agenda-detail--full.html.twi
     ] %}
 
     <article{{ attributes.addClass(classes) }}>
-        
+
         {# De titel #}
         <h1 class="agenda-detail__page-title">{{ node.title() }}</h1>
         {# De organisator + een labeltje dat we vertalen met de 't' functie #}
@@ -95,6 +96,7 @@ Een voorbeeld van de vereenvoudigde template `node--agenda-detail--full.html.twi
         {% endif %}
 
     </article>
+{% endraw %}
 ```
 
 In bovenstaande template heb je alle ruimte om je eigen CSS en HTML toe te voegen.
