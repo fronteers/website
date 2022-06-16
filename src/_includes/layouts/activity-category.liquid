@@ -6,7 +6,7 @@
     <main class="page-content inner-wrapper">
         <h2>{{ title }}</h2>
         {{ content }}
-    
+
         {% include partials/activities/loop-activity-categories %}
 
         <h2><span>{{ translations[locale].category }}</span>: {{ category.title }}</h2>
@@ -16,10 +16,10 @@
             {% for post in posts %}
             {% assign post_categories = post.data.categories %}
             {% for post_category in post_categories %}
-                {% assign current_category == post_category | downcase %} 
-                {% if category.title == current_category %} 
-                    <li class="list-item"> 
-                        {% include partials/activity headerlvl:"h3" index:forloop.index activity:post %} 
+                {% assign current_category = post_category | downcase %}
+                {% if category.title == current_category %}
+                    <li class="list-item">
+                        {% include partials/activity headerlvl:"h3" index:forloop.index activity:post %}
                     </li>
                 {% endif %}
             {% endfor %}
@@ -50,5 +50,4 @@
 </div>
 </body>
 </html>
-    
-    
+

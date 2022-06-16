@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ title or translations[locale].title }} - {{ translations[locale].siteName }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
-    
+
     <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Fabrik-Regular.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Bold.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-BoldItalic.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Italic.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">
-    
+
     <meta name="description" content="{{ translations[locale].metaDescription }}">
     <meta name="theme-color" content="#">
 
     {% for language in site.languages %}
-        {% assign translatedUrl = "/" + language.code + "/" %}
+        {% assign translatedUrl = "/{{ language.code }}/" %}
         {% for item in collections.all %}
             {% if item.data.title == title and item.data.locale == language.code %}
                 {% assign translatedUrl = item.url %}
@@ -46,7 +46,7 @@
 
 {% comment %}
     Include svg shapes so we can refer to them from our CSS.
-    Includes the following clip-paths:   
+    Includes the following clip-paths:
         #curly-brace-down-large
 
         #curly-brace-open-tiny
@@ -79,6 +79,6 @@
 
 {% assign blogposts = collections.published_posts | getLocale: locale %}
 {% assign activities = collections.published_activities  | getLocale: locale %}
-{% assign jobs = collections.published_jobs  | getLocale: locale %} 
+{% assign jobs = collections.published_jobs  | getLocale: locale %}
 {% assign members = collections.published_members  | getLocale: locale  %}
 {% assign freelancers = collections.freelancers  | getLocale: locale  %}
