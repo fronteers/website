@@ -6,7 +6,7 @@
     "pagination": {
         "data": "collections.memberSpecialties",
         "size": 1,
-        "alias": "memberSpecialties"
+        "alias": "specialty"
     },
     "key": "specialties-{{ specialty.slug }}"
 }
