@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Fronteers website",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve --incremental",
     "build": "npx @11ty/eleventy",
     "lint": "prettier --check src/**/*",
     "format": "prettier --write src/**/*"
