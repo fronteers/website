@@ -1,6 +1,7 @@
 const glob = require("fast-glob");
 const globcat = require("globcat");
 const lodash = require("lodash");
+const slinkity = require("slinkity");
 const slugify = require("slugify");
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 
@@ -311,6 +312,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("displayDate", function(date, locale) {
     return new Intl.DateTimeFormat(locale, { dateStyle: "long" }).format(date);
   });
+
+  /* Wire up Vite through slinkity for faster asset builds & optimisations */
+  eleventyConfig.addPlugin(slinkity.plugin, slinkity.defineConfig({}));
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
