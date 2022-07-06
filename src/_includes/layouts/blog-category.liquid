@@ -8,15 +8,15 @@
             {{ content }}
 
             {% include partials/blog/loop-blog-categories headerlvl:"h3" %}
-            
+
             <h2>Blog category: {{ category.title }}</h2>
             {% assign posts = collections.all | getLocale: locale %}
             <ul class="desktop-rows">
             {% for post in posts %}
               {% assign post_categories = post.data.categories %}
               {% for post_category in post_categories %}
-                  {% assign current_category == post_category | downcase %} 
-                  {% if category.title == current_category %} 
+                  {% assign current_category = post_category | downcase %}
+                  {% if category.title == current_category %}
                     <li class="list-item">
                       {% include partials/blogpost headerlvl:"h3" index:forloop.index %}
                     </li>
@@ -32,10 +32,10 @@
             </ul>
             {% endif %}
           </main>
- 
+
           {% include partials/page-footer/_page-footer %}
       </div>
   </body>
   </html>
-      
-      
+
+

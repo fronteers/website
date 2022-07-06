@@ -8,14 +8,14 @@
       {{ content }}
 
       {% include partials/jobs/loop-job-categories headerlvl:"h3" %}
-    
+
       <h2>{{ translations[locale].job_category }}: {{ category.title }}</h2>
       <ul class="desktop-rows mobile-slider">
       {% for post in jobs %}
         {% assign post_categories = post.data.categories %}
         {% for post_category in post_categories %}
-            {% assign current_category == post_category | downcase %} 
-            {% if category.title == current_category %} 
+            {% assign current_category = post_category | downcase %}
+            {% if category.title == current_category %}
               <li class="list-item mobile-slider-item">
                 {% include partials/job headerlvl:"h3" index:forloop.index job:post %}
               </li>
@@ -31,7 +31,7 @@
         </ul>
       {% endif %}
     </main>
- 
+
     {% include partials/page-footer/_page-footer %}
   </div>
 </body>

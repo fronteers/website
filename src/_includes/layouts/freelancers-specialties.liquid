@@ -14,7 +14,7 @@ key: specialties-{{ specialty.slug }}
     <main class="page-content inner-wrapper">
       <h2>{{ title }}</h2>
       {{ content }}
-  
+
       {% include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" %}
 
       <h2>{{ translations[locale].member_specialty }}: {{ specialty.title }}</h2>
@@ -23,8 +23,8 @@ key: specialties-{{ specialty.slug }}
       {% for post in posts %}
         {% assign post_specialties = post.data.specialties %}
         {% for post_specialty in post_specialties %}
-            {% assign current_specialty == post_specialty | downcase %} 
-            {% if specialty.title == current_specialty %} 
+            {% assign current_specialty = post_specialty | downcase %}
+            {% if specialty.title == current_specialty %}
               <li class="list-item">
                   {% include partials/member headerlvl:"h3" index:forloop.index member:post %}
               </li>

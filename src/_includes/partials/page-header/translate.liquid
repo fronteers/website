@@ -6,8 +6,12 @@
     <ul role="list">
         {% for lgg in site.languages %}
 
-            {% assign translatedUrl = "/" + lgg.code + "/" %}
-            {% assign activeClass = "is-active" if lgg.code == locale else "" %}
+            {% assign translatedUrl = "/{{ lgg.code }}/" %}
+            {% if lgg.code == locale %}
+                {% assign activeClass = "is-active" %}
+            {% else %}
+                {% assign activeClass = "" %}
+            {% endif %}
 
             {% for item in collections.all %}
                 {% if item.data.key == key and item.data.locale == lgg.code %}
@@ -24,7 +28,7 @@
                         {{ lgg.label }}
                     </a>
                 {% endif %}
-            </li> 
+            </li>
 
         {% endfor %}
     </ul>

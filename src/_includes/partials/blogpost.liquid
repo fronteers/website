@@ -4,8 +4,8 @@
     {% else %}
         {% assign authorHasAProfilePage = false %}
     {% endif %}
-{% endfor %}            
-            
+{% endfor %}
+
 <div class="blog blog-{{ index }}">
     <div class="blog-graphic-wrapper">
         {% if post.data.graphic.src %}
@@ -18,11 +18,11 @@
     <div class="blog-content-wrapper">
         <div class="blog-content">
             {% include partials/utility/dynamic-headerlevel level:headerlvl title:post.data.title link:post.url %}
-        
+
             {% if post.data.summary %}
-                <p class="blog-summary">{{ post.data.summary | striptags | truncatewords: 60 | truncate: 320 | strip_html }}</p>
+                <p class="blog-summary">{{ post.data.summary | strip_html | truncatewords: 60 | truncate: 320 }}</p>
             {% else %}
-                <p class="blog-summary">{{ post.templateContent | striptags | truncatewords: 60 | truncate: 320 | strip_html  }}</p>
+                <p class="blog-summary">{{ post.templateContent | strip_html | truncatewords: 60 | truncate: 320 }}</p>
             {% endif %}
         </div>
 
@@ -47,7 +47,7 @@
         </div>
 
         <a href="{{ post.url }}" class="button button-readmore">
-            {{ translations[locale].blogreadmore }} 
+            {{ translations[locale].blogreadmore }}
             <span class="visually-hidden">{{ translations[locale].about }} {{ post.data.title }}</span>
         </a>
     </div>
