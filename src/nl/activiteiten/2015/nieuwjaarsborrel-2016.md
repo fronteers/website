@@ -2,8 +2,8 @@
 title: "Nieuwjaarsborrel 2016"
 date: 2015-12-30
 eventdate: 2015-12-30
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 # Een nieuw jaar, tijd voor de Fronteers nieuwjaarsborrel, speciaal voor leden!
@@ -18,7 +18,7 @@ Fronteers geeft een drankje weg.. en misschien nóg wel een... Het aantal drankj
 
 Café Nieuwe Dikke Dries is gevestigd aan de Oudkerkhof 36, 3512 GL Utrecht. Meer info is te vinden op [dikkedries.nl](http://www.dikkedries.nl/).
 
-{% googlemaps "Cafe de Nieuwe Dikke Dries" %}
+{%- googlemaps "Cafe de Nieuwe Dikke Dries" -%}
 
 # Vragen?
 

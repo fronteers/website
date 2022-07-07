@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Digiti op 31 oktober 2013"
 date: 2013-10-31
 eventdate: 2013-10-31
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 31 oktober 2013 is Fronteers te gast bij [Digiti](http://www.digiti.be) in Zoersel (bij Antwerpen). We hebben twee sprekers uitgenodigd.
@@ -23,7 +23,7 @@ Dit evenement vindt plaats bij Digiti in Zoersel. Het adres is Rodendijk 60 in 2
 
 Iedereen is welkom. Er is echter beperkt plaats, voor circa 75 mannen en vrouwen. Geef je daarom op via onderstaand aanmeldformulier. Vol is vol! Mocht je je al ingeschreven hebben en onverhoopt toch niet kunnen komen, dan kan je je plaats afstaan door dit even te melden via [@fronteersbe](https://twitter.com/fronteersbe).
 
-{% googlemaps "Rodendijk 60, B-2980 Zoersel" %}
+{%- googlemaps "Rodendijk 60, B-2980 Zoersel" -%}
 
 # Aanmeldingen
 

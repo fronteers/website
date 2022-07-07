@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Nucleus op 25 februari 2016"
 date: 2016-02-25
 eventdate: 2016-02-25
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 25 februari is Fronteers te gast bij [Nucleus](http://nucleus.be/) in Antwerpen. Er worden twee presentaties voorzien.
@@ -20,7 +20,7 @@ Op donderdag 25 februari is Fronteers te gast bij [Nucleus](http://nucleus.be/) 
 
 Dit evenement vindt plaats bij Nucleus te Antwerpen.
 
-{% googlemaps "Nucleus, Noorderlaan 133 bus 8, 2030 Antwerpen" %}
+{%- googlemaps "Nucleus, Noorderlaan 133 bus 8, 2030 Antwerpen" -%}
 
 ![Kaart](https://fronteers.nl/_img/bijeenkomsten/07041d7c-9296-11e5-8a78-ebe57f367ebe.png)
 
@@ -31,9 +31,9 @@ Iedereen is welkom. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen
 Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23fronteersbe).
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 # Aanmeldingen ({aanmeldingen} van de {max})

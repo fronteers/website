@@ -2,8 +2,8 @@
 title: "Meetup bij Netvlies over performance, teams en data-analyse"
 date: 2017-03-17
 eventdate: 2017-03-17
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op woensdag 12 april 2017 is Fronteers weer te gast bij [Netvlies](https://www.netvlies.nl/) in Breda, voor een meetup met als thema's performance, zelfsturing en de uitdagingen bij het verzamelen van customer journey data. We hebben drie Nederlandstalige talks, van *Jelmer de Maat*, *Jeroen Ooms* en *Erik Driessen*. De bijeenkomst is gratis voor leden en niet-leden, en Netvlies zorgt voor broodjes en soep!
@@ -45,9 +45,9 @@ Prinsenkade 8
 [Route plannen met Google Maps](https://www.google.nl/maps/place/Netvlies+Internetdiensten/@51.5893757,4.7696247,17z/data=!3m1!4b1!4m5!3m4!1s0x47c69f8880b3b979:0x5b7e016b6d08e358!8m2!3d51.5893757!4d4.7718134)
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 <table>

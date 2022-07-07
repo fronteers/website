@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Kabisa op 8 april 2015"
 date: 2015-04-08
 eventdate: 2015-04-08
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op woensdag 8 april 2015 is Fronteers te gast bij [Kabisa](http://www.kabisa.nl) in Weert. Er worden twee presentaties gehouden.
@@ -22,19 +22,19 @@ Geen tijd om na je werk nog ergens een hapje te gaan eten? Geen nood: er staat v
 
 Rik zal spreken over Conditioner.js, een door hem ontwikkelde javascript library die je kunt gebruiken voor het ontkoppelen en context-based laden van JavaScript functionaliteit op het multi device web.
 
-{% vimeo "144794951" %}
+{%- vimeo "144794951" -%}
 
 # Koen Kivits - Bowser in de browser  ([slides](http://koenkivits.github.io/slides/20150408-kabisafronteers/))
 
 Wat gebeurt er als je 30 jaar oude techniek naar de browsers van nu brengt? Koen vertelt over het experimenteren met nieuwe browser API's om de NES console nieuw leven in te blazen.
 
-{% vimeo "145654653" %}
+{%- vimeo "145654653" -%}
 
 # Bereikbaarheid
 
 Kabisa is gevestigd op de Marconilaan 8, 6003 DD Weert. Op dit bedrijventerrein is voldoende parkeergelegenheid. Met openbaar vervoer kan ook: pak bus 61 of 82 vanaf station Weert naar halte Marconilaan, dan 5 minuutjes lopen. Meld je bij aankomst even bij de receptie van het Dancohr gebouw, dan word je naar binnen geloodst.
 
-{% googlemaps "Kabisa, Marconilaan 8, 6003 DD Weert" %}
+{%- googlemaps "Kabisa, Marconilaan 8, 6003 DD Weert" -%}
 
 
 

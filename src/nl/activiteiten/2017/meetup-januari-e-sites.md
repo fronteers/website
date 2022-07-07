@@ -2,8 +2,8 @@
 title: "Meetup bij E-sites over CSS op dinsdag 24 januari 2017"
 date: 2016-12-15
 eventdate: 2016-12-15
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op dinsdag 24 januari 2017 is Fronteers weer te gast bij [E-sites](https://www.e-sites.nl/) in Breda, voor een meetup met CSS als thema. We hebben twee Nederlandstalige talks, van *Iain van der Wiel* en *Bram Smulders*. De bijeenkomst is gratis voor leden en niet-leden, en we zorgen voor iets lekkers te eten!
@@ -27,7 +27,7 @@ In deze talk toont hij een aantal CSS-methodieken die jou en je team kunnen help
 
 Iain van der Wiel ([@iain_vdw](https://twitter.com/iain_vdw)) is Senior Front-End Developer bij E-sites. Hij is gefascineerd door het web en de invloed die het web heeft op ons leven. Iain maakt met HTML5, CSS3 en JavaScript gebruiksvriendelijke en toegankelijke websites en webapplicaties.
 
-{% vimeo "232172746" %}
+{%- vimeo "232172746" -%}
 
 ## Talk 2: Atomic design met Pattern Lab | Bram Smulders ([slides](https://bramsmulders.github.io/slides/atomic-design-met-pattern-lab.html))
 
@@ -52,9 +52,9 @@ Reduitlaan 29
 [Route plannen met Google Maps](https://www.google.nl/maps/place/E-sites/@51.5904382,4.7595443,17z/data=!3m1!4b1!4m5!3m4!1s0x47c69f8ba0e605e7:0x1cd03fa12ed1995f!8m2!3d51.5904382!4d4.761733)
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 <table>

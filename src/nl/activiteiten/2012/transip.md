@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij TransIP op 8 februari 2012"
 date: 2012-02-08
 eventdate: 2012-02-08
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op woensdag 8 februari zijn we te gast bij [TransIP](http://www.transip.nl) in Leiden. Johan Schuyt geeft een presentatie over de Google Closure Compiler, en Peter Nederlof duikt de diepte in over CSS Transities en Transformaties in combinatie met JavaScript.
@@ -28,7 +28,7 @@ CSS wordt steeds complexer; sommige properties lijken zelfs al meer geschikt om 
 
 TransIP is gevestigd aan de Schipholweg 11e, 2316 XB te Leiden. Dit is circa vijf minuten lopen vanaf treinstation Leiden Centraal.
 
-{% googlemaps "Schipholweg 11e, 2316 XB, Leiden" %}
+{%- googlemaps "Schipholweg 11e, 2316 XB, Leiden" -%}
 
 Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via onderstaand contactformulier. Je kunt de bijeenkomst ook [attenden of tracken op Lanyrd](http://lanyrd.com/2012/fronteers-transip/).
 
@@ -72,7 +72,7 @@ Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als 
 * Sybren Wartna (Rotterdam, openbaar vervoer)
 * En nog twee personen…
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 

@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Microsoft op 6 maart 2012"
 date: 2012-03-06
 eventdate: 2012-03-06
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Na een [succesvolle avond bij Pure Sign](/bijeenkomsten/2012/pure-sign) is het tijd voor een nieuwe Belgische Fronteers-bijeenkomst.
@@ -21,7 +21,7 @@ Op dinsdag 6 maart 2012 is Fronteers te gast bij Microsoft in Zaventem. Er worde
 
 Dit evenement vindt plaats bij Microsoft te Zaventem.
 
-{% googlemaps "Leonardo Da Vincilaan 3, 1935 Zaventem" %}
+{%- googlemaps "Leonardo Da Vincilaan 3, 1935 Zaventem" -%}
 
 # Wie?
 

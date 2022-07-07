@@ -2,8 +2,8 @@
 title: "Bijeenkomst over toegankelijkheid op 8 november 2016"
 date: 2016-11-08
 eventdate: 2016-11-08
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 _Please note: this meetup will be held in English, there is no entry fee (but please do sign up using the [form](#formulier-1) below). We'll have Karl Groves talk about accessibility with JavaScript and a talk of Job van Achterberg about automating accessibility testing._
@@ -15,7 +15,7 @@ Op 8 november host Fronteers een bijeenkomst over toegankelijkheid, met als eers
 * 18:00 inloop met een hapje en een drankje
 * 19:00 introductie door Fronteers
 * 19:10 Karl Groves - Noscript is dead. Using JavaScript to improve accessible user experience
-* 20:00 pauze 
+* 20:00 pauze
 * 20:30 Job van Achterberg - Automatica11y: trends, patterns, predictions in audit tooling and data
 * 21:15 borrel
 
@@ -25,7 +25,7 @@ Op 8 november host Fronteers een bijeenkomst over toegankelijkheid, met als eers
 
 Toegankelijkheid en het gebruik van JavaScript hoeven elkaar helemaal niet in de weg te zitten. Sterker nog: het wordt steeds beter mogelijk om JavaScript in te zetten om je toegankelijkheid te verbeteren! Karl's talk zal hier dieper op ingaan. Met behulp van praktische codevoorbeelden zal hij laten zien hoe we onze websites een stuk toegankelijker kunnen maken.
 
-{% vimeo "202607215" %}
+{%- vimeo "202607215" -%}
 
 ## Job van Achterberg - Automatica11y: trends, patterns, predictions in audit tooling and data
 
@@ -33,7 +33,7 @@ Toegankelijkheid en het gebruik van JavaScript hoeven elkaar helemaal niet in de
 
 Het is tegenwoordig steeds beter mogelijk een deel van je toegankelijkheid automatisch te testen. Job zal in zijn talk een vergelijking maken tussen verschillende audit-tools voor toegankelijkheid, en ingaan op hun voor- en nadelen. Daarnaast zal ingaan op wat dit soort tools bieden en hoe ze gebruikt worden. Tot slot werpt hij een blik op de toekomst van het automatisch testen van toegankelijkheid.
 
-{% vimeo "202660755" %}
+{%- vimeo "202660755" -%}
 
 ![Studio met opgestelde camera's](https://fronteers.nl/_img/blog/2016/smet.jpg)
 
@@ -47,12 +47,12 @@ Desmet Studio's is gevestigd in Amsterdam aan de Plantage Middenlaan ([routebesc
 
 Kom je met de auto? Parkeren in de buurt kan het makkelijkst bij Artis. Desmet heeft uitrijkaarten (€14,50).
 
-{% googlemaps "Plantage Middenlaan 4a, 1018 DD, Amsterdam" %}
+{%- googlemaps "Plantage Middenlaan 4a, 1018 DD, Amsterdam" -%}
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 # Wie komen er nog meer? ({aanmeldingen}/{max})

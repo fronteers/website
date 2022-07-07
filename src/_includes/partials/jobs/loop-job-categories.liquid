@@ -1,5 +1,5 @@
-{% include partials/utility/dynamic-headerlevel level:headerlvl title:translations[locale].categories %}
+{%- include partials/utility/dynamic-headerlevel level: headerlvl title: translations[locale].categories -%}
 
-{% for category in collections.jobCategories %}
+{%- for category in collections.jobCategories -%}
     <p><a href="/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{{ category.slug }}">{{ category.title }}</a></p>
-{% endfor %}
+{%- endfor -%}

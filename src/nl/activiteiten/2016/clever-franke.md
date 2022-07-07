@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij CLEVER°FRANKE"
 date: 2016-05-05
 eventdate: 2016-05-05
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 _Please note: this meetup will be held in English. / Let op: de voertaal van deze bijeenkomst zal Engels zijn._
@@ -13,7 +13,7 @@ _Please note: this meetup will be held in English. / Let op: de voertaal van dez
 # Programma
 
 * 18:00 Ontvangst met drankjes en hapjes
-* 18:30 Gert Franke - Lessons learned in building a datavisualization agency 
+* 18:30 Gert Franke - Lessons learned in building a datavisualization agency
 * 19:15 Pauze
 * 19:30 Jan Hoogeveen: Overcoming complexity and what that means for development
 * 20:15 borrel
@@ -22,7 +22,7 @@ _Please note: this meetup will be held in English. / Let op: de voertaal van dez
 
 Imagine you’ve build a design agency for data visualization, what are the most important lessons you’ve learned? And how do you ensure the projects become truly successful? Gert Franke, Co-founder of design agency CLEVER°FRANKE, will share his experiences and challenges he faced in making the agency successful. From an interactive installation on your body cells to the development of a complex interactive website of the city of Chicago, from 2 to 20 employees and everything in between. Gert Franke will share the ins and outs of growth and the challenges it brings.
 
-{% vimeo "179510752" %}
+{%- vimeo "179510752" -%}
 
 Above video is a part of the presentation. It was not recorded in total.
 
@@ -34,14 +34,14 @@ The web changes fast. New frameworks are out every few months and keeping up wit
 
 CLEVER°FRANKE is gevestigd in het centrum van Utrecht. Je kunt de bus nemen van Utrecht Centraal. Lopend is het zo'n 12-15 minuten. Als je met de auto wilt komen: er is voldoende parkeerplek in de buurt (betaald).
 
-{% googlemaps "Boothstraat 2, 3512BW, Utrecht" %}
+{%- googlemaps "Boothstraat 2, 3512BW, Utrecht" -%}
 
 Het adres:  Boothstraat 2, 3512BW, Utrecht
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 # Vragen?

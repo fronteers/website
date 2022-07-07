@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Mobile Vikings op 22 november 2012"
 date: 2012-11-22
 eventdate: 2012-11-22
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 22 november 2012 is Fronteers te gast bij Mobile Vikings in Hasselt. Er worden twee presentaties voorzien. Eerst komt Nick Looijmans praten over UX op mobiele apparaten; vervolgens zullen Tom Claus en Kristof Houben wat vertellen over _responsive content_.
@@ -19,7 +19,7 @@ Op donderdag 22 november 2012 is Fronteers te gast bij Mobile Vikings in Hasselt
 
 Dit evenement vindt plaats bij Mobile Vikings te Hasselt.
 
-{% googlemaps "Kempische Steenweg 293 / 12, 3500 Hasselt (City Live, Research Campus)" %}
+{%- googlemaps "Kempische Steenweg 293 / 12, 3500 Hasselt (City Live, Research Campus)" -%}
 
 # Wie?
 

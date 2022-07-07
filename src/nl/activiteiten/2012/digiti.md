@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Digiti op 21 juni 2012"
 date: 2012-06-21
 eventdate: 2012-06-21
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 21 juni 2012 is Fronteers te gast bij [Digiti](http://digiti.be/) in Zoersel. Er worden twee presentaties voorzien.
@@ -19,7 +19,7 @@ Op donderdag 21 juni 2012 is Fronteers te gast bij [Digiti](http://digiti.be/) i
 
 Dit evenement vindt plaats bij Digiti te Zoersel.
 
-{% googlemaps "Rodendijk 60 B, 2980 Zoersel" %}
+{%- googlemaps "Rodendijk 60 B, 2980 Zoersel" -%}
 
 Aan het kantoor zelf is er niet voldoende parking, maar er bevindt zich een Park & Ride-parking recht tegenover Digiti, op minder dan 50 meter van het kantoor.
 

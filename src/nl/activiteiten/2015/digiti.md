@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Digiti op 12 maart 2015"
 date: 2015-03-12
 eventdate: 2015-03-12
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 12 maart 2015 is Fronteers te gast bij [Digiti](http://digiti.be/) in Zoersel. Er worden twee presentaties voorzien.
@@ -19,13 +19,13 @@ Op donderdag 12 maart 2015 is Fronteers te gast bij [Digiti](http://digiti.be/) 
 
 De symbiose tussen de front-end en de content, de raakvlakken en tegenstellingen, de kansen en de valkuilen. En vooral: hoe kunnen we elkaar helpen onze projecten naar een hoger niveau te tillen?
 
-{% vimeo "144844462" %}
+{%- vimeo "144844462" -%}
 
 # Bert Timmermans - Your own Minecraft, thanks to three.js! ([slides](https://speakerdeck.com/berttimmermans/your-own-minecraft-thanks-to-three-dot-js))
 
 It took Bert from Digiti a while, but he succeeded in building his own 3D-world with the help of JavaScript and Three.js. It was a great challenge, but he wants to share it with you! During Bert’s presentation, you’ll notice how easy it is to build your own 3D-world, and discover the challenges he has dealt with while building his.
 
-{% vimeo "145030756" %}
+{%- vimeo "145030756" -%}
 
 Long story short: Everything is possible thanks to JavaScript. The only limit is your imagination!
 
@@ -33,7 +33,7 @@ Long story short: Everything is possible thanks to JavaScript. The only limit is
 
 Dit evenement vindt plaats bij Digiti te Zoersel.
 
-{% googlemaps "Rodendijk 60, 2980 Zoersel" %}
+{%- googlemaps "Rodendijk 60, 2980 Zoersel" -%}
 
 Aan het kantoor zelf is er niet voldoende parking, maar er bevindt zich een Park & Ride-parking recht tegenover Digiti, op minder dan 50 meter van het kantoor.
 

@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij mediaCT op 8 december 2011"
 date: 2011-12-08
 eventdate: 2011-12-08
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 8 december is Fronteers te gast bij [mediaCT](http://mediact.nl) te Groningen. Vasilis van Gemert geeft een presentatie over Adaptive development, en Bas Rozema over Git.
@@ -28,7 +28,7 @@ Versiebeheer, bah. Iedereen moet er wat mee, en niemand heeft er zin in. Toch mo
 
 MediaCT is gevestigd aan Zuiderpark 22, 9724 AH  Groningen, circa vijf minuten lopen vanaf station Groningen. Er is ruimte om te parkeren in de buurt. Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden van Fronteers. Wel is gewenst dat je jezelf opgeeft via onderstaand formulier.
 
-{% googlemaps "Zuiderpark 22, 9724 AH Groningen" %}
+{%- googlemaps "Zuiderpark 22, 9724 AH Groningen" -%}
 
 # Aanwezigen
 

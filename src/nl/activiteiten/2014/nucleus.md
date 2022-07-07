@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Nucleus op 24 april 2014"
 date: 2014-04-24
 eventdate: 2014-04-24
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 24 april 2014 was Fronteers te gast bij Nucleus in Antwerpen. Er werden twee presentaties voorzien.
@@ -21,11 +21,11 @@ Dit evenement vond plaats bij [Nucleus](https://www.nucleus.be/) te Antwerpen.
 
 # Performance
 
-{% vimeo "98466383" %}
+{%- vimeo "98466383" -%}
 
 # Adding SVG to your tool belt
 
-{% vimeo "98509890" %}
+{%- vimeo "98509890" -%}
 
 
 

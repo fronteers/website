@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Cronos op 19 juni 2014"
 date: 2014-06-19
 eventdate: 2014-06-19
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 19 juni 2014 is Fronteers te gast bij Cronos in Kontich. Er worden twee presentaties voorzien.
@@ -17,26 +17,26 @@ Op donderdag 19 juni 2014 is Fronteers te gast bij Cronos in Kontich. Er worden 
 
 # JavaScript at your enterprise, Dimitri Mestdagh
 
-{% vimeo "107045511" %}
+{%- vimeo "107045511" -%}
 
 # Terugkeren naar de roots van JavaScript, Bram(us) Van Damme
 
-{% vimeo "107234684" %}
+{%- vimeo "107234684" -%}
 
 # Waar?
 
 Dit evenement vindt plaats in zaal Atlantis bij Cronos te Kontich.
 
-{% googlemaps "Veldkant 39, 2550 Kontich" %}
+{%- googlemaps "Veldkant 39, 2550 Kontich" -%}
 
 # Wie?
 
 Iedereen is welkom. Er is echter beperkt plaats, voor circa 40 mannen en vrouwen. Geef je daarom op via onderstaand aanmeldformulier. Vol is vol!
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 # Aanmeldingen, {aanmeldingen} van de {max}

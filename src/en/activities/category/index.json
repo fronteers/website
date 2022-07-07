@@ -1,6 +1,6 @@
 {
     "layout": "layouts/activity-category.liquid",
-    "permalink": "/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{% if category.slug %}{{ category.slug }}/{% endif %}index.html",
+    "permalink": "/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{%- if category.slug -%}{{ category.slug }}/{%- endif -%}index.html",
     "tags": "pages",
     "pagination": {
         "data": "collections.activityCategories",

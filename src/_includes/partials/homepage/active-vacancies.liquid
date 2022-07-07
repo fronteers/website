@@ -1,9 +1,9 @@
 <section class="inner-wrapper">
-    {% include partials/utility/dynamic-headerlevel level:headerlvl title:partialTitle %}
+    {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
     <ul class="desktop-rows mobile-slider">
-        {% for job in jobs limit:5 %}
+        {%- for job in jobs limit:5 -%}
             <li class="list-item mobile-slider-item">
-                {% include partials/job headerlvl:"h3" index:forloop.index %}
+                {%- include partials/job headerlvl:"h3" index:forloop.index -%}
             </li>
         {%- endfor -%}
     </ul>

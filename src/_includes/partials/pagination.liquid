@@ -2,18 +2,18 @@
     https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/screen/f38cbe49-ff62-428b-8bb0-c6c29d831bac/
 -->
 
-{% if pagination.pageLinks.length > 1 %}
+{%- if pagination.pageLinks.length > 1 -%}
     <nav class="pagination">
-    {% if pagination.previousPageLink %}
+    {%- if pagination.previousPageLink -%}
         <a class="pagination__item button button-parentheses" href="{{ pagination.previousPageHref | url }}">{{ translations[locale].previous }}</a>
-    {% else %}
+    {%- else -%}
         <span class="pagination__item pagination__item--disabled">{{ translations[locale].previous }}</span>
-    {% endif %}
+    {%- endif -%}
 
-    {% if pagination.nextPageLink %}
+    {%- if pagination.nextPageLink -%}
         <a class="pagination__item button button-parentheses" href="{{ pagination.nextPageHref | url }}">{{ translations[locale].next }}</a>
-    {% else %}
+    {%- else -%}
         <span class="pagination__item pagination__item--disabled">{{ translations[locale].next }}</span>
-    {% endif %}
+    {%- endif -%}
     </nav>
-{% endif %}
+{%- endif -%}

@@ -1,35 +1,35 @@
 <div class="activity activity--{{ index }}">
     <div class="activity-header">
         <div class="activity-header-content">
-            {% include partials/utility/dynamic-headerlevel level:headerlvl title:activity.data.title link:activity.url %}
+            {%- include partials/utility/dynamic-headerlevel level: headerlvl title: activity.data.title link: activity.url -%}
             <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
                 {{ activity.data.eventdate | displayDate: locale }}
             </time>
         </div>
     </div>
     <div class="activity-content">
-        {% if activity.data.summary %}
+        {%- if activity.data.summary -%}
             <p class="activity-summary">{{ activity.data.summary | strip_html | truncatewords: 60 | truncate: 320 }}</p>
-        {% else %}
+        {%- else -%}
             <p class="activity-summary">{{ activity.templateContent | strip_html | truncatewords: 60 | truncate: 320  }}</p>
-        {% endif %}
+        {%- endif -%}
 
-        {% if activity.data.location %}
-            <p class="activity-location">{% include svg/icon_location.svg %}
+        {%- if activity.data.location -%}
+            <p class="activity-location">{%- include svg/icon_location.svg -%}
                 <span class="visually-hidden">{{ translations[locale].location }}</span>
                 {{ activity.data.location }}
             </p>
-        {% else %}
-            <p class="activity-location">{% include svg/icon_location.svg %}
+        {%- else -%}
+            <p class="activity-location">{%- include svg/icon_location.svg -%}
                 <span class="visually-hidden">{{ translations[locale].location }}</span>
                 {{ translations[locale].locationUnknown }}
             </p>
-        {% endif %}
+        {%- endif -%}
 
         <!--
         {%- for tag in activity.data.categories -%}
-            <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/" class="tag-link">{% tag tag %}</a>
-        {% endfor %}  -->
+            <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
+        {%- endfor -%}  -->
     </div>
     <div class="activity-footer">
         <a href="{{ activity.url }}" class="button">{{ translations[locale].signUp }}</a>

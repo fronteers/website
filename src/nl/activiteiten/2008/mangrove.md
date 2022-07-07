@@ -2,15 +2,15 @@
 title: "Bijeenkomst bij Mangrove op 16 oktober 2008"
 date: 2008-10-16
 eventdate: 2008-10-16
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op 16 oktober 2008 organiseerde [Mangrove](http://www.mangrove.nl/) voor de tweede keer een Fronteers bijeenkomst. Bijna zestig aanwezigen kwamen in Rotterdam bij elkaar voor twee presentaties en vooral veel en gezellig voor- en na-kletsen. De gelukkigen wisten tijdens de presentaties een plaatsje op de comfortabele stoelen of zitzakken te bemachtigen, de rest kon de presentaties staande aan de bar volgen.
 
 # The web's hidden agenda, door Wietse Hage
 
-{% vimeo "2016178" %}
+{%- vimeo "2016178" -%}
 
 Wietse Hage van [Milq Media](http://www.milq.nl/) gaf een zeer vlotte presentatie waarin hij een aantal ontwikkelingen in de browser wereld uit de afgelopen paar jaar met elkaar in verband bracht. Hij vertelde dat er in wezen een zeer vreemde situatie bestaat, waarin we rekening moeten houden met nog ~39% marktaandeel van IE6 - technologie uit 2001 - terwijl er ook valt te vertrouwen op 97% marktaandeel van Flash 9 - technologie uit 2006. Er zijn naar zijn mening situaties waar Flash de juiste techniek is om te gebruiken, maar nog veel meer situaties waar dit zeker niet de juiste techniek is. Het web is sinds de eerste pagina "open source" geweest, en het risico bestaat dat proprietary technieken zoals Flash dit zeer sterke aspect van het web teniet beginnen te doen.
 
@@ -20,7 +20,7 @@ De presentatie kwam uiteindelijk weer "full circle", met het recente nieuws dat 
 
 # Frameworks killed the front-end star, door Joris Verbogt en Ruben Bos
 
-{% vimeo "2025795" %}
+{%- vimeo "2025795" -%}
 
 Ruben Bos en Joris Verbogt van Mangrove hielden vervolgens een presentatie waarin ze lieten zien hoe er momenteel een aantal ontwikkelingen met grote frameworks plaats vinden die het ontwikkelen van web applicaties vergelijkbaar maken met het ontwikkelen van desktop applicaties. Ruben liet allereerst [Squarespace](http://www.squarespace.com/) zien, een volledig web gebaseerd CMS waarin een website volledig met drag 'n drop in elkaar gezet kon worden. Vervolgens liet Joris zien hoe interface design van een iPhone applicatie met [Interface Builder](http://developer.apple.com/tools/interfacebuilder.html) zonder _één_ regel code gegenereerd kan worden. En met [Cappuccino](http://cappuccino.org/) valt op bijna dezelfde manier een web applicatie in elkaar te zetten.
 

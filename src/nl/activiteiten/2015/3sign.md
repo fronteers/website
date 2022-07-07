@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij 3SIGN op 28 april 2015"
 date: 2015-04-28
 eventdate: 2015-04-28
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op dinsdag 28 april 2015 is Fronteers te gast bij 3SIGN in Eeklo. Er worden twee presentaties voorzien.
@@ -19,7 +19,7 @@ Op dinsdag 28 april 2015 is Fronteers te gast bij 3SIGN in Eeklo. Er worden twee
 
 Dit evenement vindt plaats bij 3SIGN te Eeklo.
 
-{% googlemaps "Boelare 116, 9900 Eeklo" %}
+{%- googlemaps "Boelare 116, 9900 Eeklo" -%}
 
 # Wie?
 
@@ -145,6 +145,6 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 
 Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2015/fronteersbe-3sign/). *Inschrijven via het onderstaande formulier is echter verplicht!*
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}

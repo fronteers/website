@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij inSided op 24 februari 2015"
 date: 2015-02-24
 eventdate: 2015-02-24
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op dinsdag 24 februari 2015 is Fronteers te gast bij [inSided](http://www.insided.com) in Amsterdam. Er worden drie presentaties gehouden.
@@ -22,25 +22,25 @@ Op dinsdag 24 februari 2015 is Fronteers te gast bij [inSided](http://www.inside
 
 At inSided we are currently working on a big refactor of our frontend code. Updating our stylesheets was a big part of this. We have used a modular Sass setup which will win us a lot of time creating custom themes for our customers. We will show you the way this is setup. Will also include a little peek into our grunt/jenkins deploy setup.
 
-{% vimeo "148347296" %}
+{%- vimeo "148347296" -%}
 
 # Mauro Mandracchia - A new custom font rendering tool and workflow (English) ([slides](http://m3kh.github.io/FontFabrique-workflow-story/))
 
 Mauro has been working on a tool to build a icon font sets from svg files saved in a dropbox folder. This tool will automatically create the need font files, with css and upload them to our amazon servers. Creating a real nice workflow for keeping our icons up to date.
 
-{% vimeo "148851343" %}
+{%- vimeo "148851343" -%}
 
 # Flurin Egger - Skynet.js (English) ([slides](http://skynetjs.talks.flurin.nl/#/))
 
 We’ve been able to use JavaScript in the browser for quite some time now and even on the server it’s nothing new, but what if we could use JavaScript to control hardware? With the rise of “the Internet of Things” and the simplicity of the Arduino platform this is no longer just a dream it offers us a vast amount of possibilities. In this session we’re going to look at just the tip of the iceberg of these options (no worries, we will not create any self-aware machinery).
 
-{% vimeo "148376843" %}
+{%- vimeo "148376843" -%}
 
 # Bereikbaarheid
 
 inSided is gevestigd aan de Singel 118A, 1015 AE Amsterdam, op ongeveer 5 minuten loopafstand van het station. Parkeren voor de deur is erg lastig.
 
-{% googlemaps "Singel 118A, 1015 AE Amsterdam" %}
+{%- googlemaps "Singel 118A, 1015 AE Amsterdam" -%}
 
 
 

@@ -2,8 +2,8 @@
 title: "Meetup bij Royal Schiphol Group"
 date: 2017-10-11
 eventdate: 2017-10-11
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op woensdag 29 november 2017 is Fronteers weer te gast bij [Royal Schiphol Group](https://www.schiphol.nl). We hebben die avond twee interessante talks, verzorgd door *Ischa Gast* en *Tamara Forza*. De bijeenkomst is gratis voor leden en niet-leden, en Royal Schiphol Group zorgt voor iets te eten en drankjes!
@@ -33,7 +33,7 @@ Op woensdag 29 november 2017 is Fronteers weer te gast bij [Royal Schiphol Group
 
 Kleine websites, grote websites het maakt allemaal niet uit, bijna op iedere website is wel een toegankelijk ding te vinden wat beter kan. Ik ga laten zien wat er vaak fout gaat, hoe ik probeer het zo goed mogelijk te doen en welke tools ik gebruik voor het testen van toegankelijkheid. Daarnaast komt er een speciale Gast van [accessibility.nl](https://www.accessibility.nl) om jullie hopelijk iets te laten ervaren wat ik tot op de dag van vandaag nog steeds supervet vind.
 
-{% vimeo "251623341" %}
+{%- vimeo "251623341" -%}
 
 ```
 
@@ -41,11 +41,11 @@ Kleine websites, grote websites het maakt allemaal niet uit, bijna op iedere web
 
 ## Lightning Talk: Automated Accessibility testing met aXe, *Wesley van de Korput*
 
-{% vimeo "252072176" %}
+{%- vimeo "252072176" -%}
 
 ## Talk: Rad van Toegankelijkheid met speciale Gast 👤 van [Accessibility.nl](https://www.accessibility.nl)
 
-{% vimeo "251556515" %}
+{%- vimeo "251556515" -%}
 
 ![Foto Tamara Forza](https://fronteers.nl/_img/bijeenkomsten/schiphol/tamara.jpg)
 
@@ -53,7 +53,7 @@ Kleine websites, grote websites het maakt allemaal niet uit, bijna op iedere web
 
 It doesn't happen often that a big airport like Amsterdam Schiphol Airport launches a completely redesigned new website. Last year in December we did just that and we learnt a lot from it. In this talk I'll tell you how the launch went, how our users reacted and how our development flow changed afterwards.
 
-{% vimeo "251547138" %}
+{%- vimeo "251547138" -%}
 
 ```
 
@@ -67,11 +67,11 @@ At Schiphol we develop and maintain a Component Library, which is reused across 
 DRYing UI’s comes with some challenges, we try to solve them; by keeping in mind all the aspects that goes from developing to optimised releases.
 In the talk we’ll show you what we built till now and what are our future plans; by mind mapping our areas of concerns.
 
-{% vimeo "252522070" %}
+{%- vimeo "252522070" -%}
 
 ## Lightning Talk: *Arjen Geerse*
 
-{% vimeo "250678938" %}
+{%- vimeo "250678938" -%}
 
 ```
 
@@ -87,7 +87,7 @@ Royal Schiphol Group is gevestigd in het [Schipholgebouw](https://nl.wikipedia.o
 
 Met het openbaar vervoer kun je per trein arriveren op Schiphol. Vanaf Schiphol Plaza loop je in circa 10 minuten naar het Schipholgebouw. Daarnaast rijden er diverse bussen naar bushalte Schipholgebouw.
 
-{% googlemaps "Royal Schiphol Group" %}
+{%- googlemaps "Royal Schiphol Group" -%}
 
 
 

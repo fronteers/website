@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Incentro op 27 november 2012"
 date: 2012-11-27
 eventdate: 2012-11-27
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op dinsdag 27 november is Fronteers te gast bij [Incentro](http://www.incentro.com) in Amsterdam. Rob van der Burgt vertelt hoe je hardware zoals een microfoon en webcam kunt gebruiken in een webapplicatie, en Nikolai Onken licht de graphics library BonsaiJS toe.
@@ -63,6 +63,6 @@ BonsaiJS is an open-source graphics library which Uxebu developed during buildin
 
 Incentro is gevestigd aan de Hessenbergweg 109-119, 1101 BS Amsterdam. Zoals gebruikelijk is de bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je doorgeeft dat je aanwezig zult zijn via het onderstaande formulier. *Er is plek voor circa 40 personen.*
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
