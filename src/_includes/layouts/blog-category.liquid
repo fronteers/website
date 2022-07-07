@@ -10,7 +10,7 @@
             {%- include partials/blog/loop-blog-categories headerlvl:"h3" -%}
 
             <h2>Blog category: {{ category.title }}</h2>
-            {%- assign posts = collections.all | getLocale: locale -%}
+            {%- assign posts = collections.published_posts | getLocale: locale -%}
             <ul class="desktop-rows">
             {%- for post in posts -%}
               {%- assign post_categories = post.data.categories -%}

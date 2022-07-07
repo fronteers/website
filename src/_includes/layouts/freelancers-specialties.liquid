@@ -18,7 +18,7 @@ key: specialties-{{ specialty.slug }}
       {%- include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" -%}
 
       <h2>{{ translations[locale].member_specialty }}: {{ specialty.title }}</h2>
-      {%- assign posts = collections.all | getLocale: locale -%}
+      {%- assign posts = collections.members | getLocale: locale -%}
       <ul class="desktop-columns">
       {%- for post in posts -%}
         {%- assign post_specialties = post.data.specialties -%}
