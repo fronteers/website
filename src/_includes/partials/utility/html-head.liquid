@@ -18,13 +18,7 @@
     <meta name="theme-color" content="#">
 
     {%- for language in site.languages -%}
-        {%- assign translatedUrl = "/{{ language.code }}/" -%}
-        {%- for item in collections.all -%}
-            {%- if item.data.title == title and item.data.locale == language.code -%}
-                {%- assign translatedUrl = item.url -%}
-                <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ language.baseLang }}{{ translatedUrl }}" />
-            {%- endif -%}
-        {%- endfor -%}
+        <link rel="alternate" hreflang="{{ language.hreflang }}" href="/{{ language.code }}/" />
     {%- endfor -%}
 
     <meta property="og:site_name" content="{{ translations[locale].siteName }}">
