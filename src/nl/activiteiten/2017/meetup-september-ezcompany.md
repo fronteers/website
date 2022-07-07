@@ -2,8 +2,8 @@
 title: "Meetup ‘Dino’s van het internet’ bij ezCompany"
 date: 2017-07-20
 eventdate: 2017-07-20
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 14 september 2017 is Fronteers te gast bij [ezCompany](https://www.ezcompany.nl) in Tilburg. We hebben die avond twee interessante talks, verzorgd door twee _"dino’s van het internet"_, *Wilfred Nas* en *Frank Schaap*. De bijeenkomst is gratis voor leden en niet-leden, en ezCompany zorgt voor pizza en drankjes!
@@ -60,9 +60,9 @@ Tivolistraat 50
 [Route plannen met Google Maps](https://www.google.nl/maps/place/Tivolistraat+50,+5017+HR+Tilburg/@51.5580676,5.0931246,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6bfcc6cb3615d:0x9e96b36ba0c6be1b!8m2!3d51.5581284!4d5.0952378)
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 <table>

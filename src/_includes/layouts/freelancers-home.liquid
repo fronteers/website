@@ -1,27 +1,27 @@
-{% include partials/utility/html-head %}
+{%- include partials/utility/html-head -%}
 
 <body>
     <div class="outer-wrapper">
-        {% include partials/page-header/_page-header %}
+        {%- include partials/page-header/_page-header -%}
 
         <main class="page-content inner-wrapper">
             <h2>{{ title }}</h2>
             {{ content }}
 
-            {% include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" %}
+            {%- include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" -%}
 
             <ul class="desktop-columns mobile-slider">
-                {% for member in pagination.items limit:pagination.size %}
+                {%- for member in pagination.items limit:pagination.size -%}
                     <li class="list-item mobile-slider-item">
-                        {% include partials/member index:forloop.index %}
+                        {%- include partials/member index:forloop.index -%}
                     </li>
                 {%- endfor -%}
             </ul>
 
-            {% include partials/pagination %} 
+            {%- include partials/pagination -%}
         </main>
- 
-        {% include partials/page-footer/_page-footer %}
+
+        {%- include partials/page-footer/_page-footer -%}
     </div>
 </body>
 </html>

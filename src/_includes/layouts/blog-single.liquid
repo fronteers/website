@@ -1,15 +1,15 @@
-{% for member in members %}
-    {% if member.data.title == author %}
-        {% assign authorHasAProfilePage = true %}
-    {% else %}
-        {% assign authorHasAProfilePage = false %}
-    {% endif %}
-{% endfor %}   
+{%- for member in members -%}
+    {%- if member.data.title == author -%}
+        {%- assign authorHasAProfilePage = true -%}
+    {%- else -%}
+        {%- assign authorHasAProfilePage = false -%}
+    {%- endif -%}
+{%- endfor -%}
 
-{% include partials/utility/html-head  %}
+{%- include partials/utility/html-head  -%}
 <body>
     <div class="outer-wrapper">
-        {% include partials/page-header/_page-header  %}
+        {%- include partials/page-header/_page-header  -%}
 
         <main class="page-content single-blog inner-wrapper ">
 
@@ -22,18 +22,18 @@
                             {{ date | displayDate: locale  | date: "%d.%m.%y" }}
                         </time>
 
-                        {% if authorHasAProfilePage %}
+                        {%- if authorHasAProfilePage -%}
                             <a href="{{ member.url }}" class="blog-author">{{ author }}</a>
-                        {% else %}
+                        {%- else -%}
                             <span class="blog-author">{{ author }}</span>
-                        {% endif %}
+                        {%- endif -%}
 
                         <ul class="blog-tags" role="list" aria-label="Tagged">
                             {%- for tag in categories limit:2 -%}
                                 <li>
                                     <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{{ tag }}</a>
                                 </li>
-                            {% endfor %}
+                            {%- endfor -%}
                         </ul>
                     </div>
                 </div>
@@ -43,18 +43,18 @@
             <div class="single-blog-content">
                 <div class="content-wrapper">
                     <div class="blog-graphic-wrapper">
-                        {% if graphic.src %}
+                        {%- if graphic.src -%}
                             <img src="/assets/images/{{ graphic.src }}" alt="{{ graphic.alt }}" class="blog-graphic" />
-                        {% endif %}
+                        {%- endif -%}
                     </div>
-                    
+
                     {{ content }}
                 </div>
             </div>
 
         </main>
- 
-        {% include partials/page-footer/_page-footer  %}
+
+        {%- include partials/page-footer/_page-footer  -%}
     </div>
 </body>
 </html>

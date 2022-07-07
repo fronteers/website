@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij E-sites op 19 april 2012"
 date: 2012-04-19
 eventdate: 2012-04-19
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 19 april is Fronteers wederom te gast bij [e-sites](http://e-sites.nl) in Breda. De presentaties zijn gerelateerd aan JavaScript, en gaan redelijk diep in op de materie. Nikolai Onken en Anne van Kesteren zullen spreken.
@@ -24,7 +24,7 @@ From bytes to code points, same-origin to cross-origin, and mutation events to o
 
 E-sites is gevestigd aan Reduitlaan 33, UNIT 2.09, 4814 DC in Breda. Kom je met de trein, dan is het een klein kwartiertje lopen vanaf station Breda.
 
-{% googlemaps "Reduitlaan 33, 4814 DC in Breda" %}
+{%- googlemaps "Reduitlaan 33, 4814 DC in Breda" -%}
 
 Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via onderstaand formulier.
 
@@ -61,6 +61,6 @@ Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als ni
 * Peter van der Zee (auto)
 * En nog 2 personen
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}

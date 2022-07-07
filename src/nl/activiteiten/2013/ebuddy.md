@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij eBuddy op 30 mei 2013"
 date: 2013-05-30
 eventdate: 2013-05-30
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Donderdag 30 mei is Fronteers te gast bij [eBuddy](http://ebuddy.com) in Amsterdam. Twee presentaties staan op het programma. Jan van Hellemond vertelt over SVG voor het responsive web, en Andrei Rusu spreekt over client-side architectuur van server sent events.
@@ -24,7 +24,7 @@ Scalable Vector Graphics (SVG) zijn een eersterangs burger geworden in HTML5. Ee
 
 Bekijk [de video op Vimeo](https://vimeo.com/80191459) (_De geluidskwaliteit kan wat te wensen overlaten. Tip: gebruik oortjes of een hoofdtelefoon._) en [de slides op Speaker Deck](https://speakerdeck.com/jvhellemond/svg-for-the-responsive-web).
 
-{% vimeo "80191459" %}
+{%- vimeo "80191459" -%}
 
 # [lang="en"] Real time client-server architecture using Server-Sent Events
 

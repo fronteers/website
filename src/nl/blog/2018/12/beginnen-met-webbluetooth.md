@@ -2,7 +2,7 @@
 title: "Beginnen met WebBluetooth"
 date: 2018-12-15
 author: Niels Leenheer
-categories: 
+categories:
   - Adventskalender
 ---
 Het web is traditioneel altijd goed geweest in het praten met servers. De hele infrastructuur van het web is erop gebaseerd. Maar nu het web dankzij Progressive Web Apps naar native applicaties toe beweegt, hebben we ook de mogelijkheden van native apps nodig. Het ophalen en tonen van tekst, afbeeldingen en formulieren is niet meer genoeg.
@@ -45,7 +45,7 @@ En tot slot, elke value bestaat uit één of meerdere bytes. Geen strings, of ob
 
 Laten we naar een echt Bluetooth-apparaat kijken: een Mipow Playbulb Sphere. Je kunt een app gebruiken, zoals BLE Scanner of nRF Connect om connectie te maken met het apparaat, en dan alle services en characteristics bekijken. In dit geval gebruik ik de BLE Scanner-app voor iOS.
 
-{% vimeo "" %}
+{%- vimeo "" -%}
 
 Het eerste wat je ziet als je een connectie maakt met de lamp, is een lijst van alle services. Er zijn een aantal standaard services, zoals 'device information' en de 'battery' service. Maar er zijn ook een aantal eigen services. Ik ben vooral geïnteresseerd in de service met de 16 bit UUID `0xff0f`. Als je deze service bekijkt, zie je een lange lijst met characteristics. En ik heb geen idee wat de meeste van deze characteristics doen, het is geen onderdeel van de standaard, er is helaas geen beschrijving en ze hebben alleen een nietszeggende UUID.
 
@@ -65,8 +65,8 @@ Omdat de requestDevice() function een promise teruggeeft, kunnen we het resultaa
 
 ```
 let device = await navigator.bluetooth.requestDevice({
-    filters: [ 
-        { namePrefix: 'PLAYBULB' } 
+    filters: [
+        { namePrefix: 'PLAYBULB' }
     ],
     optionalServices: [ 0xff0f ]
 });
@@ -117,7 +117,7 @@ Als we de huidige kleur van de lamp willen weten, dan kunnen we de readValue() f
 ```
 let value = await characteristic.readValue();
 
-let r = value.getUint8(1); 
+let r = value.getUint8(1);
 let g = value.getUint8(2);
 let b = value.getUint8(3);
 ```
@@ -131,7 +131,7 @@ Als de value van de characteristic op het apparaat verandert, dan is het makkeli
 ```
 characteristic.addEventListener(
     'characteristicvaluechanged', e => {
-        let r = e.target.value.getUint8(1); 
+        let r = e.target.value.getUint8(1);
         let g = e.target.value.getUint8(2);
         let b = e.target.value.getUint8(3);
     }
@@ -148,7 +148,7 @@ De bandbreedte van het Bluetooth-netwerk is beperkt, daarom moeten we handmatig 
 
 En dit is ongeveer 90% van de WebBluetooth API en alles wat je moet weten om te beginnen. Door een paar functions aan te roepen en 4 bytes aan te passen kunnen we een web app maken die de kleuren van je lampen kan aanpassen. Een paar regels meer en je kunt een speelgoedauto besturen of zelfs een drone laten vliegen. En met steeds meer Bluetooth-apparaten op de markt zijn de mogelijkheden eindeloos.
 
-{% vimeo "" %}
+{%- vimeo "" -%}
 
 ## Meer informatie:
 

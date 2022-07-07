@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Incentro op 24 september 2014"
 date: 2014-09-24
 eventdate: 2014-09-24
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op woensdag 24 september 2014 is Fronteers te gast bij [Incentro](http://www.incentro.com/) in Amsterdam. Er worden drie presentaties gegeven.
@@ -21,23 +21,23 @@ Op woensdag 24 september 2014 is Fronteers te gast bij [Incentro](http://www.inc
 
 Bij webapplicaties krijg je al snel te maken met veel verschillende modules. Soms is het slim deze op te delen in eigen applicaties maar soms is hier geen mogelijkheid toe. [Kasper](http://www.incentro.com/en/people/kasperreijnders) laat zijn oplossing voor dit probleem zien waarbij de applicatie geheel modulair wordt opgebouwd.
 
-{% vimeo "113512816" %}
+{%- vimeo "113512816" -%}
 
 # Frontend Maturity Model - Steven Chim
 
-[Steven](http://www.incentro.com/en/people/stevenchim) werkt bij Incentro en vertelt over het Frontend Matury Model. 
+[Steven](http://www.incentro.com/en/people/stevenchim) werkt bij Incentro en vertelt over het Frontend Matury Model.
 Het frontend vakgebied wordt steeds rijker, browsers krijgen met de dag meer features en ondertussen wordt er druk gewerkt aan de web-standaarden van morgen. Elke website zou je op duizend-en-één manieren kunnen bouwen. Hoe ga je om met de verschillende browsers, features en standaarden? Welke methodologieën moet je toepassen? Hoe garandeer je de kwaliteit? Hoeveel tijd en geld gaat het kosten?
 
 Naarmate een team of project groter wordt, krijg je te maken met meer professionals uit andere vakgebieden. Hoe zorg je ervoor dat iedereen over hetzelfde praat. En hoe maak je de juiste keuzes? Frontend blijft abracadabra voor veel mensen. Met het Frontend Maturity Model heb je eindelijk een hulpmiddel om ruis van de lijn te halen, zodat je met de juiste stakeholders de juiste keuzes kunt maken en plannen.
 
-{% vimeo "113784410" %}
+{%- vimeo "113784410" -%}
 
 # The Mobile Viewports - Peter-Paul Koch
 
-Als je eenmaal de dimensies van de layout viewport gelijk hebt gemaakt aan die van de ideal viewport, kan je de device-width media query gebruiken om die dimensies uit te lezen, en daarmee een idee te krijgen van het apparaat waar je website op draait. Drie viewports (layout, visual, and ideal), heb je ze allemaal nodig? Waarom werkt responsive design zoals het werkt? (Niet hoe. Waarom.) Wat gebeurt er als je de meta viewport instelt? Hoe gaan browsers de fout in? En hoe zit het met de resolutie, of DPR? PPK geeft antwoord op deze vragen en meer. 
+Als je eenmaal de dimensies van de layout viewport gelijk hebt gemaakt aan die van de ideal viewport, kan je de device-width media query gebruiken om die dimensies uit te lezen, en daarmee een idee te krijgen van het apparaat waar je website op draait. Drie viewports (layout, visual, and ideal), heb je ze allemaal nodig? Waarom werkt responsive design zoals het werkt? (Niet hoe. Waarom.) Wat gebeurt er als je de meta viewport instelt? Hoe gaan browsers de fout in? En hoe zit het met de resolutie, of DPR? PPK geeft antwoord op deze vragen en meer.
 Tijdens deze bijeenkomst deelt PPK nog eens zijn kennis, net als tijdens de [workshop](/workshops/viewports-peter-paul-koch) in april voor Fronteers en zijn presentatie tijdens [CSS Day](http://cssday.nl/2014/programme#peter-paul-koch).
 
-{% vimeo "113784592" %}
+{%- vimeo "113784592" -%}
 
 # Bereikbaarheid
 
@@ -45,7 +45,7 @@ Incentro heet Fronteers welkom in de gloednieuwe vestiging in de mediahaven in A
 
 De locatie is voor sommige (verouderde) navigaties wat lastig te vinden, de Archangelkade (ligt parallel aan de Moermanskkade) staat er wel in. Je kunt gratis parkeren onder het pand, op straat is het betaald parkeren.
 
-{% googlemaps "Moermanskkade 113. 1013 BC Amsterdam" %}
+{%- googlemaps "Moermanskkade 113. 1013 BC Amsterdam" -%}
 
 # Vragen, carpoolen of afmelden?
 

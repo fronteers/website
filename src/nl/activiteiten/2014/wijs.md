@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Wijs op 23 oktober 2014"
 date: 2014-09-18
 eventdate: 2014-09-18
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 23 oktober 2014 is Fronteers te gast bij Wijs in Gent. Er worden drie presentaties voorzien.
@@ -19,7 +19,7 @@ Op donderdag 23 oktober 2014 is Fronteers te gast bij Wijs in Gent. Er worden dr
 
 Dit evenement vindt plaats bij Wijs te Gent.
 
-{% googlemaps "Voorhavenlaan 31, 9000 Gent" %}
+{%- googlemaps "Voorhavenlaan 31, 9000 Gent" -%}
 
 # Wie?
 
@@ -290,6 +290,6 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 
 Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2014/fronteersbe-wijs/). *Inschrijven via het onderstaande formulier is echter verplicht!*
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}

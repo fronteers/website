@@ -2,8 +2,8 @@
 title: "Fronteers-BBQ in Utrecht op 8 augustus 2014"
 date: 2014-08-08
 eventdate: 2014-08-08
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op 8 augustus organiseert de activiteitencommissie een BBQ bij Restaurant Griftpark 1 in Utrecht, vanaf 17:30 uur inloop en borrel. Het buffet is besteld om 19:00 uur. Borrelen met leden van Fronteers is altijd tof! Doe je weer mee?
@@ -19,7 +19,7 @@ Het restaurant is gevestigd aan de Blauwkapelseweg 30, 3572 KC Utrecht. Het dakt
 Fronteers geeft een drankje weg.. en misschien nóg wel een... Het aantal drankjes is afhankelijk van het aantal deelnemers.
 Eten kan vooraf berekend worden: iedere deelnemer betaalt zelf het eten, het uitgebreide BBQ-buffet kost 25 euro per persoon.  Bij binnenkomst meld je je aan en betaal je het eten contant.
 
-{% googlemaps "Blauwkapelseweg 30, 3572 KC Utrecht" %}
+{%- googlemaps "Blauwkapelseweg 30, 3572 KC Utrecht" -%}
 
 # Vragen?
 

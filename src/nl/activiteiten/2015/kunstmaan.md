@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Kunstmaan op 19 november 2015"
 date: 2015-11-19
 eventdate: 2015-11-19
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 19 november 2015 is Fronteers te gast bij [Kunstmaan](http://kunstmaan.be/) in Leuven. Er worden drie presentaties voorzien.
@@ -19,21 +19,21 @@ Op donderdag 19 november 2015 is Fronteers te gast bij [Kunstmaan](http://kunstm
 
 # Web-audio-api en de web-midi-api - Sam Bellen ([slides](https://sambego.github.io/pedalboard-presentation/))
 
-{% vimeo "149896521" %}
+{%- vimeo "149896521" -%}
 
 # Starten met es6 -  Jens Gyselinck ([slides](https://speakerdeck.com/diskwriter/getting-started-in-es6))
 
-{% vimeo "150007551" %}
+{%- vimeo "150007551" -%}
 
 # Hybrid Apps met Ionic Framework - Bram(us) van Damme ([slides](http://www.slideshare.net/bramus/hybrid-apps-with-ionic-framework))
 
-{% vimeo "152013818" %}
+{%- vimeo "152013818" -%}
 
 # Waar?
 
 Dit evenement vindt plaats bij Kunstmaan te Leuven.
 
-{% googlemaps "Kunstmaan, Philipssite 5, 3000 Leuven" %}
+{%- googlemaps "Kunstmaan, Philipssite 5, 3000 Leuven" -%}
 
 # Wie?
 

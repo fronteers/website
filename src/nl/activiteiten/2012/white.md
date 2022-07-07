@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij WHITE op 30 augustus 2012"
 date: 2012-08-30
 eventdate: 2012-08-30
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 30 augustus 2012 is Fronteers te gast bij [WHITE](http://www.white.nl/) in Valkenswaard. Er zijn twee presentaties voorzien.
@@ -31,7 +31,7 @@ Deze bijeenkomst vindt plaats bij WHITE in Valkenswaard.
 Parallelweg Oost 23
 5555 XA Valkenswaard
 
-{% googlemaps "Parallelweg Oost 23 5555 XA Valkenswaard" %}
+{%- googlemaps "Parallelweg Oost 23 5555 XA Valkenswaard" -%}
 
 # Slides en verslagen
 

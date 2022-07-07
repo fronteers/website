@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij De Voorhoede op 18 april 2013"
 date: 2013-03-24
 eventdate: 2013-03-24
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 18 april is Fronteers te gast bij De Voorhoede in Amsterdam. Dit keer is het geen bijeenkomst met presentaties, maar een Pecha Kucha met 10 presentaties van 6 minuut 40.
@@ -23,7 +23,7 @@ Door de korte tijd van 6 minuut 40 is het ook voor mensen die geen uur willen of
 
 * 18:00 Inloop met een hapje en een drankje
 * 19:30 - 20:30 Pecha Kucha 1 t/m 5
-* 20:30 - 20:50 Pauze 
+* 20:30 - 20:50 Pauze
 * 20:50 - 21:50 Pecha Kucha 6 t/m 10
 * 21:50 Borrelen
 
@@ -33,39 +33,39 @@ Door de korte tijd van 6 minuut 40 is het ook voor mensen die geen uur willen of
 
 ## Arjan Eising, Jasmine Tests 101 in 6 minuut 40
 
-{% vimeo "91783821" %}
+{%- vimeo "91783821" -%}
 
 ## Wilfred Nas, Figuring out the details in HTML5
 
-{% vimeo "91790735" %}
+{%- vimeo "91790735" -%}
 
 ## Ruud Ravenhorst, Gemeentes en websites
 
-{% vimeo "91801026" %}
+{%- vimeo "91801026" -%}
 
 ## Mariepauline Hollman, Webrichtlijnen - de contentkant
 
-{% vimeo "91801096" %}
+{%- vimeo "91801096" -%}
 
 ## Jasha Joachimsthal, Samenwerken in Thymeleaf templates?
 
-{% vimeo "91931632" %}
+{%- vimeo "91931632" -%}
 
 ## Hylke van Maaren, Understanding the designer
 
-{% vimeo "91920394" %}
+{%- vimeo "91920394" -%}
 
 ## Jasper Moelker, Metadata: Coding for Computers
 
-{% vimeo "92022876" %}
+{%- vimeo "92022876" -%}
 
 ## Marco Kuiper, Strike with Knockout
 
-{% vimeo "92028119" %}
+{%- vimeo "92028119" -%}
 
 ## Sanne Veroude, The real world on the web
 
-{% vimeo "92064454" %}
+{%- vimeo "92064454" -%}
 
 # Aanwezigen
 

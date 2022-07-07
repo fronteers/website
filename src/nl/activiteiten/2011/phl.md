@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Provinciale Hogeschool Limburg op 31 maart 2011"
 date: 2011-03-31
 eventdate: 2011-03-31
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Na een [succesvolle avond bij Netlog](/bijeenkomsten/2010/netlog) is het tijd voor een nieuwe Belgische Fronteers-bijeenkomst.
@@ -21,7 +21,7 @@ Er worden twee presentaties voorzien. Eerst komt [Jochen Vandendriessche](http:/
 
 Dit evenement vindt plaats bij de Provinciale Hogeschool Limburg te Hasselt.
 
-{% googlemaps "Elfde Liniestraat 23a, 3500 Hasselt" %}
+{%- googlemaps "Elfde Liniestraat 23a, 3500 Hasselt" -%}
 
 # Wie?
 

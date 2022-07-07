@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Coolblue op 24 juni 2014"
 date: 2014-06-24
 eventdate: 2014-06-24
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op dinsdag 24 juni 2014 was Fronteers te gast bij [Coolblue](http://www.coolblue.nl) in Rotterdam. Er werden twee presentaties gehouden.
@@ -22,13 +22,13 @@ Op dinsdag 24 juni 2014 was Fronteers te gast bij [Coolblue](http://www.coolblue
 
 Marijn en Frank vertellen over hoe Coolblue software ontwikkelt en ze die meerdere malen per dag releasen. Kleine stapjes, elke dag een beetje beter, elke sprint een beetje beter. Zo ontwikkelen ze de grootste PHP E-commerce site van Europa.
 
-{% vimeo "109780388" %}
+{%- vimeo "109780388" -%}
 
 # Reinier Ladan - Research, development en professioneel aanklooien [(slides)](https://speakerdeck.com/reinier/research-development-en-professioneel-aanklooien)
 
 Reinier deelt zijn persoonlijke zoektocht naar een leven lang leren als front-end developer en designer. Wat kan aanklooien voor je persoonlijke ontwikkeling betekenen en hoe kun je research en development integreren in je huidige werkzaamheden.
 
-{% vimeo "109780389" %}
+{%- vimeo "109780389" -%}
 
 # Bereikbaarheid
 
@@ -36,7 +36,7 @@ Coolblue is gevestigd aan de Weena 664, 3012 CN, Rotterdam. Dit is vlak naast he
 
 Met de auto komen kan ook, er kan dan geparkeerd worden in de parkeergarage Weena Plaza (niet goedkoop). Houd wel rekening met extra reistijd i.v.m. de spits in de binnenstad en werkzaamheden rondom het station.
 
-{% googlemaps "Weena 664, 3012 CN, Rotterdam" %}
+{%- googlemaps "Weena 664, 3012 CN, Rotterdam" -%}
 
 
 

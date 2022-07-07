@@ -1,33 +1,33 @@
-<nav class="page-navigation page-navigation--{{ nav_location }}" role="navigation" {% if nav_location == 'header' %}id="navigation"{% endif %}>
+<nav class="page-navigation page-navigation--{{ nav_location }}" role="navigation" {%- if nav_location == 'header' -%}id="navigation"{%- endif -%}>
     <h2 class="visually-hidden">{{ nav_description }}</h2>
     <ul class="navigation-list navigation-list--toplevel">
-        {% for item in nav_selection %}
-            
+        {%- for item in nav_selection -%}
+
             <li class="navigation-list-item navigation-list-item--toplevel">
-                <a href="{{ item.url }}" 
-                    {% if item.url == page.url %}aria-current="page"{% endif %}
+                <a href="{{ item.url }}"
+                    {%- if item.url == page.url -%}aria-current="page"{%- endif -%}
                 >
                     {{ item.title }}
                 </a>
 
-                {% if item.subnav %}
+                {%- if item.subnav -%}
                     <ul class="navigation-list navigation-list--sublevel">
-                {% endif %}
-                
-                    {% for subitem in item.subnav %}
+                {%- endif -%}
+
+                    {%- for subitem in item.subnav -%}
                         <li class="navigation-list navigation-list-item--sublevel">
-                            <a href="{{ subitem.url }}" 
-                                {% if subitem.url == page.url %}aria-current="page"{% endif %}
+                            <a href="{{ subitem.url }}"
+                                {%- if subitem.url == page.url -%}aria-current="page"{%- endif -%}
                             >
                                 {{ subitem.title }}
                             </a>
                         </li>
-                    {% endfor %}
-                
-                {% if item.subnav %}
+                    {%- endfor -%}
+
+                {%- if item.subnav -%}
                     </ul>
-                {% endif %}
+                {%- endif -%}
             </li>
-        {% endfor %}
+        {%- endfor -%}
     </ul>
 </nav>

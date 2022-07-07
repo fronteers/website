@@ -2,8 +2,8 @@
 title: "Meetup bij Teamleader op woensdag 27 september 2017"
 date: 2017-09-27
 eventdate: 2017-09-27
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op *woensdag 27 september 2017* vliegt Fronteers België er terug in met onze tweede meetup. Ditmaal zijn we te gast bij [Teamleader](https://public.teamleader.be/nl-be/) in *Gent*. De talks worden voorzien door *Roel Van Gils* en *Thomas Coopman*. De bijeenkomst is gratis voor leden en niet-leden, en Teamleader zorgt voor iets lekkers te eten!
@@ -73,9 +73,9 @@ Dan kan je via de Sassevaartstraat de ondergrondse parking van Dok-Noord bereike
 [https://public.teamleader.be](https://public.teamleader.be) — [Route plannen met Google Maps](https://www.google.be/maps/place/Team+Leader+Belgium/@51.065842,3.730843,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3714c8b7ba26b:0xea7545cb4d31b6f3!8m2!3d51.065842!4d3.733037)
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 # Aanmeldingen ({aanmeldingen} van de {max})

@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Ordina op 22 mei 2014"
 date: 2014-05-22
 eventdate: 2014-05-22
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 22 mei 2014 is Fronteers te gast bij Ordina in Mechelen. Er worden drie presentaties voorzien.
@@ -18,21 +18,21 @@ Op donderdag 22 mei 2014 is Fronteers te gast bij Ordina in Mechelen. Er worden 
 
 # Frank Baele | Frontend workflow with Grunt
 
-{% vimeo "101963188" %}
+{%- vimeo "101963188" -%}
 
 # Pieter Beulque | Gulp.js — The streaming build system
 
-{% vimeo "104863080" %}
+{%- vimeo "104863080" -%}
 
 # Gregory Van Looy | Modular design with CSS
 
-{% vimeo "104863217" %}
+{%- vimeo "104863217" -%}
 
 # Waar?
 
 Dit evenement vindt plaats bij Ordina te Mechelen.
 
-{% googlemaps "Blarenberglaan 3, 2800 Mechelen" %}
+{%- googlemaps "Blarenberglaan 3, 2800 Mechelen" -%}
 
 
 
@@ -109,7 +109,7 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 * David Gillain (Antwerpen, auto)
 * Dieter Crombé (Londerzeel, auto)
 * Kevin DeRudder (De Pinte, auto)
-* Moorkens Frederic (onbekend, auto) 
+* Moorkens Frederic (onbekend, auto)
 * Bruno De Simpelaere (Mechelen, fiets)
 * Derya Duru (Eindhoven, auto)
 * Jürgen De Commer (Gent, auto)

@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij de Persgroep op 27 november 2014"
 date: 2014-11-10
 eventdate: 2014-11-10
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 27 november 2014 is Fronteers te gast bij De Persgroep Publishing in Asse (Kobbegem). Er worden drie presentaties voorzien.
@@ -18,21 +18,21 @@ Op donderdag 27 november 2014 is Fronteers te gast bij De Persgroep Publishing i
 
 # Harald Bertels, _Design collaboration_
 
-{% vimeo "131763124" %}
+{%- vimeo "131763124" -%}
 
 # Pieter Mergan, _Schema.org microdata_
 
-{% vimeo "131802282" %}
+{%- vimeo "131802282" -%}
 
 # Jochen Vandendriessche, _Large Scale JavaScript Design Patterns (and how we use them at De Persgroep)_
 
-{% vimeo "131802423" %}
+{%- vimeo "131802423" -%}
 
 # Waar?
 
 Dit evenement vindt plaats bij De Persgroep Publishing te Asse (Kobbegem).
 
-{% googlemaps "Brusselsesteenweg 347, 1730 Asse" %}
+{%- googlemaps "Brusselsesteenweg 347, 1730 Asse" -%}
 
 # Wie?
 
@@ -233,6 +233,6 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 
 Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2014/fronteersbe-persgroep/). *Inschrijven via het onderstaande formulier is echter verplicht!*
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}

@@ -2,8 +2,8 @@
 title: "How does Subgrid end up in your browser"
 date: 2019-06-14
 eventdate: 2019-06-14
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 # W3C Meetup at Compagnietheater
@@ -24,16 +24,16 @@ Compagnietheater
 Kloveniersburgwal 50
 1012CX Amsterdam
 
-{% googlemaps "Kloveniersburgwal 50, Amsterdam" %}
+{%- googlemaps "Kloveniersburgwal 50, Amsterdam" -%}
 
 ## Sign up
 
 We hope to see a lot of you on February 7th! [Register now on meetup.com](https://www.meetup.com/Fronteers-NL/events/259696785/) so that we know how many snacks and drinks we have to prepare. If you're hesitant to sign up for meetup.com, feel free to use the form at the bottom of this page instead.
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 <table>

@@ -2,8 +2,8 @@
 title: "Hackathon &quot;Automatiseer je front-end&quot; 2013"
 date: 2013-05-11
 eventdate: 2013-05-11
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op zaterdag 11 mei zal er een hackathon worden georganiseerd voor leden en niet-leden van Fronteers. De dag begint rond half 11 met twee korte presentaties onder het genot van een kopje koffie of thee. Na een verzorgde lunch kan gehackt worden aan een project wat ter plekke gepitcht kan worden. Aan het einde van de dag sluiten we af met een borrel zodat we kunnen zien wat iedereen gemaakt heeft.
@@ -22,7 +22,7 @@ GruntJS en Jasmine zijn twee van de nieuwere tools voor front-end programmeurs o
 
 # GruntJS, door Tom Greuter
 
-{% vimeo "79915877" %}
+{%- vimeo "79915877" -%}
 
 De hackathon is gratis voor leden en niet-leden en er is plek voor 30 hackers. Locatie is [Nomadz](http://nomadz.nl) op de 3de verdieping van Bink36 aan de Binckhorstlaan 36 in Den Haag. Aanmelden kan via het formulier hieronder.
 
