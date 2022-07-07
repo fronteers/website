@@ -20,7 +20,9 @@
                 <time class="blog-time" datetime="{{ job.date | date: "%Y-%m-%d" }}">
                     {{ job.date | displayDate: locale }}
                 </time>
-                <!-- {{ job.data.author }} -->
+                {% comment %}
+                    {{ job.data.author }}
+                {% endcomment %}
             </p>
             <ul class="job-tags">
                 {%- for tag in job.data.categories limit: 2 -%}

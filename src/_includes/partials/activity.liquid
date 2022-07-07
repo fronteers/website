@@ -26,10 +26,11 @@
             </p>
         {%- endif -%}
 
-        <!--
-        {%- for tag in activity.data.categories -%}
-            <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
-        {%- endfor -%}  -->
+        {% comment %}
+            {%- for tag in activity.data.categories -%}
+                <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
+            {%- endfor -%}
+        {% endcomment %}
     </div>
     <div class="activity-footer">
         <a href="{{ activity.url }}" class="button">{{ translations[locale].signUp }}</a>
