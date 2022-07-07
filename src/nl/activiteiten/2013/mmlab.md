@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij MMLab op 11 juli 2013"
 date: 2013-07-11
 eventdate: 2013-07-11
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 11 juli 2013 is Fronteers te gast bij [Multimedia Lab (iMinds / Universiteit Gent)](http://multimedialab.elis.ugent.be/about) in Gent. Er worden twee presentaties voorzien.
@@ -19,7 +19,7 @@ Op donderdag 11 juli 2013 is Fronteers te gast bij [Multimedia Lab (iMinds / Uni
 
 Dit evenement vindt plaats bij MMLab te Gent.
 
-{% googlemaps "Gaston Crommenlaan 8, 9050 Ledeberg-Gent" %}
+{%- googlemaps "Gaston Crommenlaan 8, 9050 Ledeberg-Gent" -%}
 
 # Wie?
 

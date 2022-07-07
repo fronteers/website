@@ -1,35 +1,35 @@
 
-<nav class="page-header-translate" aria-label="{% if locale == 'nl' %}{{ translations[locale].ariaTitleTranslateNav }}{% else %}{{ site.en.ariaTitleTranslateNav }}{% endif %}">
+<nav class="page-header-translate" aria-label="{%- if locale == 'nl' -%}{{ translations[locale].ariaTitleTranslateNav }}{%- else -%}{{ site.en.ariaTitleTranslateNav }}{%- endif -%}">
 
-{% assign currentLanguage = locale %}
+{%- assign currentLanguage = locale -%}
 
     <ul role="list">
-        {% for lgg in site.languages %}
+        {%- for lgg in site.languages -%}
 
-            {% assign translatedUrl = "/{{ lgg.code }}/" %}
-            {% if lgg.code == locale %}
-                {% assign activeClass = "is-active" %}
-            {% else %}
-                {% assign activeClass = "" %}
-            {% endif %}
+            {%- assign translatedUrl = "/{{ lgg.code }}/" -%}
+            {%- if lgg.code == locale -%}
+                {%- assign activeClass = "is-active" -%}
+            {%- else -%}
+                {%- assign activeClass = "" -%}
+            {%- endif -%}
 
-            {% for item in collections.all %}
-                {% if item.data.key == key and item.data.locale == lgg.code %}
-                    {% assign translatedUrl = item.url %}
-                {% endif %}
-            {% endfor %}
+            {%- for item in collections.all -%}
+                {%- if item.data.key == key and item.data.locale == lgg.code -%}
+                    {%- assign translatedUrl = item.url -%}
+                {%- endif -%}
+            {%- endfor -%}
 
             <li lang="{{ lgg.code }}">
-                {% if currentLanguage == lgg.code %}
+                {%- if currentLanguage == lgg.code -%}
                     <span>{{ lgg.label }}</span>
-                {% else %}
+                {%- else -%}
                     <a class="c-lggnav__link  {{ activeClass }}" href="{{ translatedUrl }}">
                         <span class="visually-hidden">{{ lgg.currentLabel }}</span>
                         {{ lgg.label }}
                     </a>
-                {% endif %}
+                {%- endif -%}
             </li>
 
-        {% endfor %}
+        {%- endfor -%}
     </ul>
 </nav>

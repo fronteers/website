@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij The Creativity Gym op 12 november 2015"
 date: 2015-11-12
 eventdate: 2015-11-12
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 12 november 2015 is Fronteers te gast bij [The Creativity Gym](http://www.thecreativitygym.be/) in Mechelen. Er wordt één presentatie voorzien.
@@ -16,14 +16,14 @@ Op donderdag 12 november 2015 is Fronteers te gast bij [The Creativity Gym](http
 
 # Microsoft Edge is not just another new browser
 
-Jeff Burtoft (HTML5 Evangelist at Microsoft) will explain the anatomy of Microsoft Edge and the impact it will have on the web. This next-generation browser is built into Windows 10 and respects all the things we appreciate and love as front end developers. 
+Jeff Burtoft (HTML5 Evangelist at Microsoft) will explain the anatomy of Microsoft Edge and the impact it will have on the web. This next-generation browser is built into Windows 10 and respects all the things we appreciate and love as front end developers.
 But there is more. A number of converging standards and tools are making webapps portable. Our web platform allows you to leverage your HTML skills from cross-browser to cross-device. Come and hear what you can do more with the knowledge you already have.
 
 # Waar?
 
 Dit evenement vindt plaats bij The Creativity Gym, Thomas More Mechelen Campus Kruidtuin, Lange Ridderstraat 44, 2800 Mechelen.
 
-{% googlemaps "The Creativity Gym, Thomas More Mechelen Campus Kruidtuin, Lange Ridderstraat 44, 2800 Mechelen" %}
+{%- googlemaps "The Creativity Gym, Thomas More Mechelen Campus Kruidtuin, Lange Ridderstraat 44, 2800 Mechelen" -%}
 
 # Wie?
 
@@ -344,6 +344,6 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 
 Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2015/fronteersbe/). *Inschrijven via het onderstaande formulier is echter verplicht!*
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}

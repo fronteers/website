@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Mobile Vikings op 5 december 2013"
 date: 2013-12-05
 eventdate: 2013-12-05
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 5 december 2013 is Fronteers te gast bij [Mobile Vikings](http://www.mobilevikings.be) in Hasselt. We hebben twee sprekers uitgenodigd.
@@ -21,7 +21,7 @@ De frontend krijgt steeds een belangrijker rol. Een website is nu een webapp met
 
 Slides: [Fronteers 20131205 the realtime web](http://www.slideshare.net/bertwijnants/fronteers-20131205-the-realtime-web) (SlideShare)
 
-{% vimeo "84561335" %}
+{%- vimeo "84561335" -%}
 
 # Building better client-side JavaScript applications with Domain Driven Design door Toon Ketels
 
@@ -31,7 +31,7 @@ Domain Driven Design is an approach to develop complex software by putting the f
 
 Slides: [Building better client-side JavaScript applications - Tools & Domain Driven Design](https://speakerdeck.com/toonketels/building-better-client-side-javascript-applications-tools-and-domain-driven-design) (Speaker Deck)
 
-{% vimeo "85507375" %}
+{%- vimeo "85507375" -%}
 
 Let op: deze video is niet volledig opgenomen, de laatste 10 minuten ontbreken helaas!
 
@@ -43,7 +43,7 @@ Dit evenement vindt plaats bij Mobile Vikings in Hasselt. Het adres is Kempische
 
 Iedereen is welkom. Er is echter beperkt plaats, voor circa 70 mannen en vrouwen. Geef je daarom op via onderstaand aanmeldformulier. Vol is vol! Mocht je je al ingeschreven hebben en onverhoopt toch niet kunnen komen, dan kan je je plaats afstaan door dit even te melden via [@fronteersbe](https://twitter.com/fronteersbe).
 
-{% googlemaps "Kempische Steenweg 309 / 1, 3500 Hasselt" %}
+{%- googlemaps "Kempische Steenweg 309 / 1, 3500 Hasselt" -%}
 
 # Aanmeldingen
 

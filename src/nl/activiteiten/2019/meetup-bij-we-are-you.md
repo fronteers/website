@@ -2,8 +2,8 @@
 title: "Meetup bij We are you"
 date: 2019-05-16
 eventdate: 2019-05-16
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 # Testen van processen in applicaties en websites is tijdrovend werk
@@ -44,12 +44,12 @@ We are you Rotterdam
 Schiekade 189, 6e verdieping (Schieblock)
 3013 BR, Rotterdam
 
-{% googlemaps "We are you, Rotterdam" %}
+{%- googlemaps "We are you, Rotterdam" -%}
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 <table>

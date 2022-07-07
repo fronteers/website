@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Thomas More op 23 mei 2013"
 date: 2013-05-23
 eventdate: 2013-05-23
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 23 mei 2013 is Fronteers te gast bij de opleiding Interactive Multimedia Design aan de Thomas More-hogeschool te Mechelen met als centrale thema _data-visualisatie_.
@@ -26,7 +26,7 @@ Daarnaast geven Bart de Man ([Ticketmatic](http://www.ticketmatic.com/)), Johan 
 
 Dit evenement vindt plaats bij [Thomas More Mechelen](http://www.lessius.eu/contact/campussen/vest), meerbepaald op Campus “De Vest” in aula 2.
 
-{% googlemaps "Zandpoortvest 60, 2800 Mechelen" %}
+{%- googlemaps "Zandpoortvest 60, 2800 Mechelen" -%}
 
 Deze campus bevindt zich tussen de treinstations Mechelen en Mechelen Nekkerspoel; van aan deze stations is het ongeveer 10 minuten stappen.
 

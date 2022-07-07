@@ -1,29 +1,29 @@
-{% for member in members %}
-    {% if member.data.title == post.data.author %}
-        {% assign authorHasAProfilePage = true %}
-    {% else %}
-        {% assign authorHasAProfilePage = false %}
-    {% endif %}
-{% endfor %}
+{%- for member in members -%}
+    {%- if member.data.title == post.data.author -%}
+        {%- assign authorHasAProfilePage = true -%}
+    {%- else -%}
+        {%- assign authorHasAProfilePage = false -%}
+    {%- endif -%}
+{%- endfor -%}
 
 <div class="blog blog-{{ index }}">
     <div class="blog-graphic-wrapper">
-        {% if post.data.graphic.src %}
+        {%- if post.data.graphic.src -%}
             <img src="/assets/images/{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
-        {% else %}
+        {%- else -%}
             <img src="/assets/images/default_blog_image.png" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
-        {% endif %}
+        {%- endif -%}
     </div>
 
     <div class="blog-content-wrapper">
         <div class="blog-content">
-            {% include partials/utility/dynamic-headerlevel level:headerlvl title:post.data.title link:post.url %}
+            {%- include partials/utility/dynamic-headerlevel level: headerlvl title: post.data.title link: post.url -%}
 
-            {% if post.data.summary %}
+            {%- if post.data.summary -%}
                 <p class="blog-summary">{{ post.data.summary | strip_html | truncatewords: 60 | truncate: 320 }}</p>
-            {% else %}
+            {%- else -%}
                 <p class="blog-summary">{{ post.templateContent | strip_html | truncatewords: 60 | truncate: 320 }}</p>
-            {% endif %}
+            {%- endif -%}
         </div>
 
         <div class="blog-meta">
@@ -31,18 +31,18 @@
                 {{ post.date | displayDate: locale  | date: "%d.%m.%y" }}
             </time>
 
-            {% if authorHasAProfilePage %}
+            {%- if authorHasAProfilePage -%}
                 <a href="{{ member.url }}" class="blog-author">{{ post.data.author }}</a>
-            {% else %}
+            {%- else -%}
                 <span class="blog-author">{{ post.data.author }}</span>
-            {% endif %}
+            {%- endif -%}
 
             <ul class="blog-tags" role="list" aria-label="Tagged">
                 {%- for tag in post.data.categories limit:2 -%}
                     <li>
-                        <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{% tag tag %}</a>
+                        <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{%- tag tag -%}</a>
                     </li>
-                {% endfor %}
+                {%- endfor -%}
             </ul>
         </div>
 

@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Pure Sign op 19 januari 2012"
 date: 2012-01-19
 eventdate: 2012-01-19
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Na een [succesvolle avond bij Lessius](/bijeenkomsten/2011/lessius) is het tijd voor een nieuwe Belgische Fronteers-bijeenkomst.
@@ -21,7 +21,7 @@ Op donderdag 19 januari 2012 is Fronteers te gast bij Pure Sign in Gent. Er word
 
 Dit evenement vindt plaats bij [Pure Sign](http://puresign.be/) te Gent (Wondelgem).
 
-{% googlemaps "Liefkensstraat 35 B, 9032 Gent (Wondelgem)" %}
+{%- googlemaps "Liefkensstraat 35 B, 9032 Gent (Wondelgem)" -%}
 
 # Wie?
 

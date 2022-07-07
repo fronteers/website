@@ -2,8 +2,8 @@
 title: "Bijeenkomst over muziek en het web op 7 december 2016"
 date: 2016-12-07
 eventdate: 2016-12-07
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 _Please note: this meetup will be held in English, there is no entry fee (but please do sign up using the [form](#formulier-1) below). This time, our speakers are Adrian Holovaty, who will talk about the sheet music engine he built in JavaScript, and Sam Bellen, who can use the Web Audio API to change *live* audio._
@@ -27,14 +27,14 @@ De Fronteers-bijeenkomst op 7 december staat in het teken van muziek en het web,
 
 Adrian Holovaty was gek genoeg om een dynamische bladmuziek _rendering engine_ te bouwen in JavaScript en HTML5. Het heet [Soundslice](https://www.soundslice.com), en in deze talk zal hij je overweldigen met een hoop praktische tips, die hij ‘the hard way’ leerde tijdens het bouwen ervan. Je krijgt een kijkje achter de schermen bij `<canvas>` hacks, benaderingen van JavaScript, Service Worker workarounds, ideeën over UI en meer.
 
-{% vimeo "223509380" %}
+{%- vimeo "223509380" -%}
 
 # Sam Bellen - Changing live audio with the Web Audio API
 
 Als gitaarspeler gebruikt Sam meestal enkele effect-pedalen om het geluid van zijn gitaar aan te passen. Hij vroeg zich af of het mogelijk was om deze effecten na te maken met de web-audio-api. Het blijkt zeker mogelijk te zijn.
 Deze talk geeft je een korte introductie in het gebruiken van de web-audio-api, en de bijhorende audio-nodes, om zo een enkele basis-effecten te maken.
 
-{% vimeo "223733926" %}
+{%- vimeo "223733926" -%}
 
 ![Studio met opgestelde camera's](https://fronteers.nl/_img/blog/2016/smet-binnen.jpg)
 
@@ -46,12 +46,12 @@ De bijeenkomst vindt plaats bij Desmet Studio's in Amsterdam. Op deze legendaris
 
 Desmet Studio's is gevestigd in Amsterdam aan de Plantage Middenlaan ([routebeschrijving](http://www.desmet.tv/routebeschrijving/)).
 
-{% googlemaps "Plantage Middenlaan 4a, 1018 DD, Amsterdam" %}
+{%- googlemaps "Plantage Middenlaan 4a, 1018 DD, Amsterdam" -%}
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 # Wie komen er nog meer? ({aanmeldingen}/{max})

@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij internetbureau WHITE op 29 oktober 2014"
 date: 2014-10-29
 eventdate: 2014-10-29
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op woensdag 29 oktober 2014 is Fronteers te gast bij [internetbureau WHITE](http://www.white.nl) in Valkenswaard. Er worden twee presentaties gehouden.
@@ -20,24 +20,24 @@ Op woensdag 29 oktober 2014 is Fronteers te gast bij [internetbureau WHITE](http
 
 Hoe start je snel met Angular? Wat zijn de dingen waar je als eerste tegenaan loopt? Wat zijn de voor- en nadelen ten opzichte van andere frameworks?
 
-{% vimeo "118277515" %}
+{%- vimeo "118277515" -%}
 
 # Bob Donderwinkel - "De voordelen van BEM (Block, Element, Modifier) CSS" ([slides](http://www.slideshare.net/BobDonderwinkel/bem-presentation-40907446))
 
 Introductie, voorbeelden en overige praktische (on)zin.
 
-{% vimeo "118326813" %}
+{%- vimeo "118326813" -%}
 
 # Bereikbaarheid
 
 WHITE is gevestigd aan de Parallelweg Oost 23, 5555XA, Valkenswaard. Parkeren kan op de parkeerplaats achter het pand of elders in de straat. Met het openbaar vervoer reis je naar Eindhoven Centraal waarna je bus 171 of 172 naar de Markt in Valkenswaard neemt. Vanaf daar is het zo'n 10 minuten lopen.
 
-{% googlemaps "Parallelweg Oost 23, 5555XA, Valkenswaard" %}
+{%- googlemaps "Parallelweg Oost 23, 5555XA, Valkenswaard" -%}
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 # Aanmeldingen ({aanmeldingen} van de {max})

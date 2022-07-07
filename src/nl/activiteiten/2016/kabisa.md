@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Kabisa op 14 april 2016"
 date: 2016-04-14
 eventdate: 2016-04-14
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 14 april zijn front-enders en andere ambachtslieden van het wereldwijde web welkom bij Kabisa in Weert. Onder het genot van een hapje en drankje worden twee presentaties gegeven. Kabisa's Matthijs Groen vertelt over het ontwikkelen van zijn in-browser game en Roy Tomeij spreekt over de rol van preprocessors in moderne CSS.
@@ -22,7 +22,7 @@ Geen tijd om na je werk nog ergens een hapje te gaan eten? Geen nood: er staat v
 
 Zoals velen van ons kwam Matthijs in aanraking met programmeren door het spelen van games. Maar net zoals velen van ons kwam hij nooit echt toe aan het _maken_ van een game. Want waar vind je de tijd? Nou, tijdens dat half uurtje lunch! Matthijs laat zien hoe je in kleine sprongen een complete _side scrolling shooter_ kan bouwen - in de browser.
 
-{% vimeo "166241198" %}
+{%- vimeo "166241198" -%}
 
 # [Roy Tomeij](https://twitter.com/roy) - "De toekomst van preprocessors"
 
@@ -32,16 +32,16 @@ Zullen preprocessors overbodig worden nu CSS steeds krachtiger wordt? Of kunnen 
 
 [Kabisa](https://www.kabisa.nl/) is gevestigd op de Marconilaan 8, 6003 DD Weert. Dit zit direct naast de A2 en op dit bedrijventerrein is voldoende parkeergelegenheid. Met openbaar vervoer kan ook: pak bus 61 of 82 vanaf station Weert naar halte Marconilaan, dan 5 minuutjes lopen. Volg de bordjes naar de ingang en je komt er vanzelf.
 
-{% googlemaps "Kabisa, Marconilaan 8, 6003 DD Weert" %}
+{%- googlemaps "Kabisa, Marconilaan 8, 6003 DD Weert" -%}
 
 # Vragen?
 
 [Neem contact op met de Activiteitencommissie.](/vereniging/commissies/activiteiten)
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 # Aanmeldingen ({aanmeldingen} van de {max})

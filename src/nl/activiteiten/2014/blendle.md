@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Blendle op 25 november 2014"
 date: 2014-11-25
 eventdate: 2014-11-25
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op dinsdag 25 november 2014 is Fronteers te gast bij [Blendle](http://www.blendle.nl) in Utrecht. Er worden twee presentaties gehouden.
@@ -20,13 +20,13 @@ Op dinsdag 25 november 2014 is Fronteers te gast bij [Blendle](http://www.blendl
 
 Waar is het team van Blendle tegen aan gelopen en wat hebben ze gedaan om het op te lossen? Onder andere memory issues, separation of concerns, deployment en testing komen aan bod.
 
-{% vimeo "126039080" %}
+{%- vimeo "126039080" -%}
 
 # Paul van Buuren - "Edge Case Design" ([slides](http://wbvb.nl/edge-case-design/))
 
 Voorkom grote verrassingen. Hou vanaf het begin van elk webproject rekening met extremiteiten. Hoe je creativiteit en flexibiliteit bevordert door over grenzen heen te denken.
 
-{% vimeo "126039206" %}
+{%- vimeo "126039206" -%}
 
 # Foto's ([PeterPeerdeman.nl](http://peterpeerdeman.nl/))
 
@@ -46,7 +46,7 @@ Voorkom grote verrassingen. Hou vanaf het begin van elk webproject rekening met 
 
 Blendle is gevestigd in Media Plaza, Croeselaan 6, 3521 CA, Utrecht. Media Plaza zit in de Jaarbeurs, parkeren kan dus op een parkeerterrein daarvan. Het station is op nog geen 10 minuten loopafstand. Eenmaal bij de Jaarbeurs is Blendle bereikbaar via Ingang Oost en dan met de roltrap naar boven.
 
-{% googlemaps "Media Plaza, Croeselaan 6, 3521 CA, Utrecht" %}
+{%- googlemaps "Media Plaza, Croeselaan 6, 3521 CA, Utrecht" -%}
 
 
 

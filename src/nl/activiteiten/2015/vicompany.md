@@ -2,15 +2,15 @@
 title: "Bijeenkomst bij VI Company op 3 juni 2015"
 date: 2015-06-03
 eventdate: 2015-06-03
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op woensdag 3 juni 2015 is Fronteers te gast bij VI Company in Rotterdam. Er worden twee presentaties en een demo voorzien rondom het thema Frontend & Mobile.
 
 # Programma
 
-[Jan Jongboom](http://janjongboom.com/) werkt als een software developer én is evangelist van Firefox OS, met de focus op low-cost devices. 
+[Jan Jongboom](http://janjongboom.com/) werkt als een software developer én is evangelist van Firefox OS, met de focus op low-cost devices.
 VI Company host een [Open Device Lab](http://odl.vicompany.nl/) en heeft als eerste ODL in Nederland een Alcatel OneTouch Fire E in huis, met Firefox OS 1.3.
 Niels Leenheer weet er vast 'meer' van! Kijk maar op [https://html5test.com/devicelab](https://html5test.com/devicelab).
 
@@ -20,7 +20,7 @@ Dat móet wel een topbijeenkomst worden waar het enthousiasme over Mobile Device
 
 * 18:00 Inloop met een pizzapunt
 * 18:40 intro Fronteers en VI Company
-* 18:45 Fun met JavaScript en sensoren - Jan Jongboom 
+* 18:45 Fun met JavaScript en sensoren - Jan Jongboom
 * 19:30 demo [ODL](http://odl.vicompany.nl/) door VI Company
 * 19:45 pauze
 * 20:15 Vreemde browsers - Niels Leenheer
@@ -34,7 +34,7 @@ Als webdevelopers beschouwen we mobiele telefoons nog vaak als kleine PCs. We we
 
 In een met demo's gevulde talk gooit Jan Jongboom telefoons in de lucht, maakt hij een theremin, mishandelt wat telefoons met een schroevendraaier, speelt met de gyroscoop, tagt dingen met bluetooth beacons, en demonstreert hij zijn jongleer-skills. En dat allemaal... met JavaScript.
 
-{% vimeo "149281705" %}
+{%- vimeo "149281705" -%}
 
 # Vreemde browsers - Niels Leenheer ([slides](https://speakerdeck.com/nielsleenheer/vreemde-browsers))
 
@@ -42,7 +42,7 @@ In een met demo's gevulde talk gooit Jan Jongboom telefoons in de lucht, maakt h
 
 Niet iedereen gebruikt een iPhone of Samsung Galaxy en er zijn meer browsers dan Internet Explorer, Chrome, Firefox en Safari en de Android browser. Een overzicht van vreemde browsers en rare devices en veronderstellingen waar front-end ontwikkelaars van uit gaan die misschien wel niet kloppen.
 
-{% vimeo "149170885" %}
+{%- vimeo "149170885" -%}
 
 # Waar?
 

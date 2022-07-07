@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Schiphol op 29 september 2016"
 date: 2016-09-29
 eventdate: 2016-09-29
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 # _Thema: de uitdagingen van front-end in high demand_
@@ -25,25 +25,25 @@ Tijdens de avond wordt de allerlaatste [Fronteers Conference 2016](/congres/2016
 
 ## introductie door Arjen Geerse
 
-{% vimeo "189349761" %}
+{%- vimeo "189349761" -%}
 
 ## Tamara Forza: Component Driven JavaScript
 
 _Deze presentatie is in het Engels._ In de beta-website van Schiphol wordt gebruik gemaakt van een set eigen componenten, die samenwerken met een pub/sub-systeem. Tamara vertelt over de ontwikkeling en het gebruik van deze componenten.
 
-{% vimeo "189041280" %}
+{%- vimeo "189041280" -%}
 
 ## Ischa Gast: ***Flawless CSS
 
 De weg naar vlekkeloze CSS met een team van 8 front-enders op dezelfde codebase.
 
-{% vimeo "189361331" %}
+{%- vimeo "189361331" -%}
 
 ## Joost Lubach: Pinch
 
 Pinch geeft een vernieuwende draai aan datamodellering door middel van interactief visueel programmeren. Dit vereist een zeer krachtige maar ook veelzijdige UI. Joost vertelt over hoe hij Web Workers inzet in een React / Flux-omgeving om de UI van Pinch zo snel mogelijk te maken, en gebruikers toch alle kracht van een spreadsheetprogramma te bieden.
 
-{% vimeo "189450610" %}
+{%- vimeo "189450610" -%}
 
 # Eten en drinken
 
@@ -55,7 +55,7 @@ Schiphol Group is gevestigd in het [Schipholgebouw](https://nl.wikipedia.org/wik
 
 Met het openbaar vervoer kun je per trein arriveren op Schiphol. Vanaf Schiphol Plaza loop je in circa 10 minuten naar het Schipholgebouw. Daarnaast rijden er diverse bussen naar bushalte Schipholgebouw.
 
-{% googlemaps "Evert van de Beekstraat 202 1118CP Schiphol" %}
+{%- googlemaps "Evert van de Beekstraat 202 1118CP Schiphol" -%}
 
 # Vragen? Opmerkingen?
 
@@ -415,6 +415,6 @@ Neem contact op met de [activiteitencommisie](/vereniging/commissies/activiteite
 </table>
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}

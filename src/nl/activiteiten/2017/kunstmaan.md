@@ -2,8 +2,8 @@
 title: "Meetup bij Kunstmaan over Elm en browser-API's op donderdag 22 juni 2017"
 date: 2017-06-01
 eventdate: 2017-06-01
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 We did it! Op 22 juni 2017 zal het 555 dagen geleden zijn sinds de laatste Fronteers meetup in België. Hiermee verbreken we het record van 541 dagen zonder Belgische regering na de verkiezingen van 13 juni 2010.
@@ -39,7 +39,7 @@ Ilias Van Peer ([@zwilias](https://github.com/zwilias)) is Front-End Developer b
 
 ```
 
-{% vimeo "232216879" %}
+{%- vimeo "232216879" -%}
 
 ## Talk 2: I didn't know the browser could do that!
 
@@ -49,7 +49,7 @@ The times when a browser simply had to parse and show some markup are long gone.
 
 Sam Bellen  ([@sambego](https://github.com/sambego)) is Front-End Developer bij madewithlove.
 
-{% vimeo "232176042" %}
+{%- vimeo "232176042" -%}
 
 ![Kunstmaan](https://fronteers.nl/_img/bijeenkomsten/km.jpg)
 

@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Lable op 10 februari 2011"
 date: 2011-02-10
 eventdate: 2011-02-10
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 
@@ -50,7 +50,7 @@ Er gingen twee iPad's de zaal door, zodat iedereen even kon kijken en voelen hoe
 
 # Jurriaan Mous over het bouwen van een zorgdossier in HTML5/CSS3/GWT
 
-{% vimeo "19870301" %}
+{%- vimeo "19870301" -%}
 
 * [Video van de presentatie van Juriaan Mous](http://vimeo.com/19870301) met dank aan Frank Zijlstra
 
@@ -64,7 +64,7 @@ Er gingen twee iPad's de zaal door, zodat iedereen even kon kijken en voelen hoe
 * Peter Wouda
 * Eelco Wiersma
 * Sint Smeding
-* Marco van der Kuur 
+* Marco van der Kuur
 * Gerard Salomons
 * Kris de Jong
 * Remco van der Steen

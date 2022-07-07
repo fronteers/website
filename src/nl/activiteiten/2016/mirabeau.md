@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Mirabeau op 18 augustus 2016"
 date: 2016-07-18
 eventdate: 2016-07-18
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 _Please note: this meetup will be held in English. / Let op: de voertaal van deze bijeenkomst zal Engels zijn._
@@ -14,11 +14,11 @@ Progressive Web Apps is een verzameling standaarden en best practices om te zorg
 
 # Video - The progression of Web Apps | Niels Leenheer
 
-{% vimeo "182681749" %}
+{%- vimeo "182681749" -%}
 
 # Video - Progressive Web Apps (and where to find them) | Dan Applequist
 
-{% vimeo "182717078" %}
+{%- vimeo "182717078" -%}
 
 # Programma
 
@@ -36,7 +36,7 @@ Deze bijeenkomst zal plaatsvinden bij Mirabeau in Rotterdam. Zij zijn gevestigd 
 
 Het adres is: Conradstraat 38, kamer: D8.131, Rotterdam.
 
-{% googlemaps "Conradstraat 38, Rotterdam" %}
+{%- googlemaps "Conradstraat 38, Rotterdam" -%}
 
 # Voor wie?
 

@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij e-sites op 19 januari 2009"
 date: 2009-01-19
 eventdate: 2009-01-19
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op maandag 19 januari trotseerden ongeveer 50 voornamelijk nieuwe gezichten het slechte weer om bij [e-sites](http://www.e-sites.nl/) in Breda de 1e bijeenkomst van 2009 (en de 14e in totaal) te bezoeken. Op het programma stonden twee presentaties. Na vanavond zouden we weer op de hoogte zijn van de stand van zaken in SEOland, het een en ander afweten van web analytics en overrompeld worden door de beerput die Webstandaarden heet.
@@ -20,6 +20,6 @@ Na de vraag hoeveel tijd er nog over was (10 minuten) bleek dat we ondertussen o
 
 [Zoals](/bijeenkomsten/2008/info-nl) [altijd](/congres/2008/sessions#video-in-html5) had Anne weer een interessant verhaal over Webstandaarden en enkele recente ontwikkelingen op dit gebied. Zijn [presentatie](http://annevankesteren.nl/2009/over-webstandaarden-enzo) (HTML) staat online, voor iedereen die het nog eens door wil nemen. Hier kun je weer het best Opera in fullscreen voor gebruiken.
 
-{% vimeo "3270831" %}
+{%- vimeo "3270831" -%}
 
 Vragen over deze bijeenkomst? Stel ze gerust op [het blog](/blog/2009/01/bijeenkomst-januari#reageer).

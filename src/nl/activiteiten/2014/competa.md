@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Competa op 8 mei 2014"
 date: 2014-05-08
 eventdate: 2014-05-08
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 8 mei 2014 is Fronteers te gast bij [Competa ](http://www.competa.com/) in Rijswijk. Er worden drie presentaties gehouden.
@@ -21,29 +21,29 @@ Op donderdag 8 mei 2014 is Fronteers te gast bij [Competa ](http://www.competa.c
 
 IndexedDB en WebSQL zijn twee soorten databases die je in een browser kan gebruiken. Mede dankzij deze techniek kan een website volledig offline gebruikt worden. Elmer vertelt over een aantal problemen en bijbehorende oplossingen die hij zelf is tegengekomen bij het gebruik van IndexedDB en WebSQL.
 
-{% vimeo "100079630" %}
+{%- vimeo "100079630" -%}
 
 # Jasper Moelker - Frontendarchitectuur en Angular voor je projectteam
 
 De presentatie van Jasper is te vinden [op slideshare.net/jbmoelker](http://www.slideshare.net/jbmoelker/voorhoede-frontend-architecture).
 
-{% vimeo "100181696" %}
+{%- vimeo "100181696" -%}
 
 # Jules Ernst - Demo toegankelijke staafdiagrammen en grafieken
 
-{% vimeo "100243987" %}
+{%- vimeo "100243987" -%}
 
 # Bereikbaarheid
 
-Competa is gevestigd aan de Verrijn Stuartlaan 20, 2288 EL Rijswijk. Parkeren kan gratis in de buurt. 
-Kom je met de trein of het OV? Vanaf station Rijswijk rijdt er bus 30 (richting Zoetermeer Centrum West) en tram 17 (richting statenkwartier), deze stoppen vlakbij. Reis je met OV vanuit Den Haag? Vervoerder HTM meldt een [omleiding voor de tram vanaf Den Haag HS](http://www.htm.nl/reisinformatie/wijzigingen/omleiding-tram-bij-station-hs-van-28-april-tm-25-mei/). 
+Competa is gevestigd aan de Verrijn Stuartlaan 20, 2288 EL Rijswijk. Parkeren kan gratis in de buurt.
+Kom je met de trein of het OV? Vanaf station Rijswijk rijdt er bus 30 (richting Zoetermeer Centrum West) en tram 17 (richting statenkwartier), deze stoppen vlakbij. Reis je met OV vanuit Den Haag? Vervoerder HTM meldt een [omleiding voor de tram vanaf Den Haag HS](http://www.htm.nl/reisinformatie/wijzigingen/omleiding-tram-bij-station-hs-van-28-april-tm-25-mei/).
 Plan je route naar Verrijn Stuartlaan 20, 2288 EL Rijswijk met [9292.nl](http://9292.nl/).
 
 
 
 
 
-{% googlemaps "Verrijn Stuartlaan 20, 2288 EL Rijswijk" %}
+{%- googlemaps "Verrijn Stuartlaan 20, 2288 EL Rijswijk" -%}
 
 # Aanmeldingen
 

@@ -17,15 +17,15 @@
     <meta name="description" content="{{ translations[locale].metaDescription }}">
     <meta name="theme-color" content="#">
 
-    {% for language in site.languages %}
-        {% assign translatedUrl = "/{{ language.code }}/" %}
-        {% for item in collections.all %}
-            {% if item.data.title == title and item.data.locale == language.code %}
-                {% assign translatedUrl = item.url %}
+    {%- for language in site.languages -%}
+        {%- assign translatedUrl = "/{{ language.code }}/" -%}
+        {%- for item in collections.all -%}
+            {%- if item.data.title == title and item.data.locale == language.code -%}
+                {%- assign translatedUrl = item.url -%}
                 <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ language.baseLang }}{{ translatedUrl }}" />
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endfor -%}
 
     <meta property="og:site_name" content="{{ translations[locale].siteName }}">
     <meta property="og:title" content="{{ title or translations[locale].siteName }}" />
@@ -44,7 +44,7 @@
 
 </head>
 
-{% comment %}
+{%- comment -%}
     Include svg shapes so we can refer to them from our CSS.
     Includes the following clip-paths:
         #curly-brace-down-large
@@ -69,16 +69,16 @@
         #parenthesis-down-tiny
         #greater-than-down-tiny
         #curly-brace-down-tiny
-{% endcomment %}
+{%- endcomment -%}
 
-{% include svg/shapes.svg %}
+{%- include svg/shapes.svg -%}
 
-{% comment %}
+{%- comment -%}
     assign collections to a variable, to simplify looping through the content
-{% endcomment %}
+{%- endcomment -%}
 
-{% assign blogposts = collections.published_posts | getLocale: locale %}
-{% assign activities = collections.published_activities  | getLocale: locale %}
-{% assign jobs = collections.published_jobs  | getLocale: locale %}
-{% assign members = collections.published_members  | getLocale: locale  %}
-{% assign freelancers = collections.freelancers  | getLocale: locale  %}
+{%- assign blogposts = collections.published_posts | getLocale: locale -%}
+{%- assign activities = collections.published_activities  | getLocale: locale -%}
+{%- assign jobs = collections.published_jobs  | getLocale: locale -%}
+{%- assign members = collections.published_members  | getLocale: locale  -%}
+{%- assign freelancers = collections.freelancers  | getLocale: locale  -%}

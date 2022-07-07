@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij VPRO op 3 mei 2012"
 date: 2012-05-03
 eventdate: 2012-05-03
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op 3 mei zijn we te gast bij VPRO Digitaal, de digitale afdeling van de omroep. Bekend van populaire websites als 3VOOR12 en Cinema.nl, maar ook  de maker van vele websites bij eigen programma's. Hay Kranen en Frank Bosma zullen in hun talks ingaan op respectievelijk het gebruik van RequireJS en het Model View Controller design pattern.
@@ -29,7 +29,7 @@ Frank Bosma geeft een presentatie over het Model View Controller (MVC) design pa
 
 De VPRO is gevestigd op het Mediapark in Hilversum, naast treinstation Hilversum Noord. Het adres is: Sumatralaan 49, 1217 GP, Hilversum ([routebeschrijving](http://www.vpro.nl/overdevpro/3779664/adres+en+contact))
 
-{% googlemaps "Sumatralaan 49, 1217 GP, Hilversum" %}
+{%- googlemaps "Sumatralaan 49, 1217 GP, Hilversum" -%}
 
 (Bovenstaande kaartje komt niet geheel overeen met de werkelijke locatie, zie voor een betere versie: [de profielpagina op Google Maps](http://maps.google.nl/maps/place?q=VPRO,+Sumatralaan,+Hilversum&hl=nl&cid=14140673195079151899).)
 

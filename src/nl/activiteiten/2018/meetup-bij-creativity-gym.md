@@ -2,8 +2,8 @@
 title: "Meetup bij Creativity Gym op donderdag 22 februari 2018"
 date: 2018-01-31
 eventdate: 2018-01-31
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 ![Creativity-Gym](https://fronteers.nl/_img/bijeenkomsten/creativity.jpg)
@@ -26,7 +26,7 @@ De bijeenkomst is gratis voor leden en niet-leden, en Fronteers zorgt voor iets 
 
 So you inherited a legacy code base, how bad can it be? After actually taking a look at the code you realise that it is actually kinda bad, very bad. Well no turning back now, let's make the best of this. You have a battle plan sorted out, but how will you actually keep going? This and more general tips will be answered. Cause you might not be working on a legacy project at the moment, but maybe tomorrow you will!
 
-{% vimeo "268143337" %}
+{%- vimeo "268143337" -%}
 
 # Talk 2:  Deep Dive - Puppeteer a Headless Chrome Node API
 
@@ -43,11 +43,11 @@ In this talk I'll:
 * mix it with docker & serverless for mass parallel testing
 * use the automation for datamining and bypass some browser detections systems
 
-{% vimeo "268150918" %}
+{%- vimeo "268150918" -%}
 
 ## Extra talk: Image Recognition with Deep Learning: From prototype to production
 
-{% vimeo "268149187" %}
+{%- vimeo "268149187" -%}
 
 # Locatie
 

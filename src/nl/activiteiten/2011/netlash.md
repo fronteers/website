@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Netlash op 5 mei 2011"
 date: 2011-05-05
 eventdate: 2011-05-05
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Na een [succesvolle avond bij de Provinciale Hogeschool Limburg](/bijeenkomsten/2011/phl) is het tijd voor een nieuwe Belgische Fronteers-bijeenkomst.
@@ -21,7 +21,7 @@ Op donderdag 5 mei 2011 is Fronteers te gast bij Netlash in Gent. Er worden twee
 
 Dit evenement vindt plaats bij Netlash te Gent.
 
-{% googlemaps "Voorhavenlaan 31, 9000 Gent" %}
+{%- googlemaps "Voorhavenlaan 31, 9000 Gent" -%}
 
 # Wie?
 

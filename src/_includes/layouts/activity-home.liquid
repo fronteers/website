@@ -1,37 +1,37 @@
-{% include partials/utility/html-head %}
+{%- include partials/utility/html-head -%}
 
 <body>
     <div class="outer-wrapper">
-        {% include partials/page-header/_page-header %}
+        {%- include partials/page-header/_page-header -%}
 
         <main>
             <h2 class="visually-hidden">{{ title }}</h2>
 
-            {% if pagination.pageLinks.length > 1 %}
-                {% if pagination.previousPageLink %}
-                {% else %}
-                        {% include partials/activities/activities-hero %} 
-                {% endif %}
-            {% else %}
-                {% include partials/activities/activities-hero %} 
-            {% endif %}
+            {%- if pagination.pageLinks.length > 1 -%}
+                {%- if pagination.previousPageLink -%}
+                {%- else -%}
+                        {%- include partials/activities/activities-hero -%}
+                {%- endif -%}
+            {%- else -%}
+                {%- include partials/activities/activities-hero -%}
+            {%- endif -%}
 
             <div class="page-content inner-wrapper">
-                {% include partials/activities/loop-activity-categories headerlvl:"h3" %}
+                {%- include partials/activities/loop-activity-categories headerlvl:"h3" -%}
 
                 <ol class="desktop-columns">
                     {%- for activity in paginated_activities limit:pagination.size -%}
                         <li class="list-item">
-                            {% include partials/activity headerlvl:"h3" index:forloop.index %}
+                            {%- include partials/activity headerlvl:"h3" index:forloop.index -%}
                         </li>
                     {%- endfor -%}
                 </ol>
 
-                {% include partials/pagination %} 
+                {%- include partials/pagination -%}
             </div>
         </main>
 
-        {% include partials/page-footer/_page-footer %}
+        {%- include partials/page-footer/_page-footer -%}
     </div>
 </body>
 </html>
