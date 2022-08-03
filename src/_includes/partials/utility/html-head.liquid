@@ -4,7 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ title or translations[locale].title }} - {{ translations[locale].siteName }}</title>
+    <title>
+        {% if title == "Homepage" %}
+            {{ translations[locale].headTitle }}
+        {% else %}
+            {{ title  }} - {{ translations[locale].siteName }}
+        {% endif %}
+    </title>
     <link rel="stylesheet" href="/assets/css/style.css">
 
     <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
@@ -22,7 +28,7 @@
     {%- endfor -%}
 
     <meta property="og:site_name" content="{{ translations[locale].siteName }}">
-    <meta property="og:title" content="{{ title or translations[locale].siteName }}" />
+    <meta property="og:title" content="{{ title || translations[locale].siteName }}" />
     <meta property="og:description" content="{{ translations[locale].metaDescription }}"/>
     <meta property="og:image" content="">
     <meta property="og:image:alt" content="" />
@@ -31,7 +37,7 @@
     <meta property="og:url" content="{{ page.permalink }}">
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{{ title or translations[locale].siteName }}" />
+    <meta name="twitter:title" content="{{ title || translations[locale].siteName }}" />
     <meta name="twitter:description" content="{{ translations[locale].metaDescription }}" />
     <meta name="twitter:image" content="" />
     <meta name="twitter:image:alt" content="" />
