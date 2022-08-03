@@ -24,7 +24,7 @@
 }
 
 .job-content-wrapper .h {
-  margin: 0;
+  margin: unset;
 }
 
 .job-graphic {
@@ -54,14 +54,14 @@
 
 .job-content {
   padding: var(--spacing);
-  padding-block-end: 0;
+  padding-block-end: unset;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .job-content p {
-  margin-block-end: 0;
+  margin-block-end: unset;
 }
 
 .job-summary {
@@ -74,7 +74,7 @@
 
 .job-meta {
   padding: var(--spacing);
-  padding-block-start: 0;
+  padding-block-start: unset;
   margin-top: var(--spacing);
 }
 
@@ -92,8 +92,8 @@
 
 .job-tags {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: unset;
+  padding: unset;
   margin-block-start: var(--spacing);
   margin-block-end: var(--spacing);
 }
@@ -129,13 +129,13 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    padding-block-end: 0;
+    padding-block-end: unset;
     margin-block-start: var(--spacing);
     margin-block-end: var(--spacing);
   }
 
   .job-tags {
-    margin: 0;
+    margin: unset;
   }
 
   .job-1 .job-graphic,
@@ -171,7 +171,7 @@
     }
 
     .job-meta {
-        margin-block-start: 0;
+        margin-block-start: unset;
     }
 }
 
