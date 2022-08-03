@@ -183,7 +183,7 @@ module.exports = {
       },
       {
         url: "/en/activities/",
-        title: "Activiteiten",
+        title: "Activities",
         subnav: [
           {
             url: "/en/activities/events/",
