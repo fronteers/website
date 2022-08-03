@@ -1,79 +1,100 @@
 .job {
   background: white;
+  display: flex;
   block-size: 100%;
+  flex-direction: column;
+}
+
+@media (min-width: 54.875em) {
+    .job {
+        max-height: 340px;
+    }
+}
+
+.job-graphic-wrapper {
+  block-size: 200px;
+}
+
+.job-content-wrapper {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  position: relative;
+  font-size: var(--font-size-18);
+}
+
+.job-content-wrapper .h {
+  margin: 0;
 }
 
 .job-graphic {
   block-size: 100%;
-  display: flex;
-  place-items: center;
-  place-content: center;
   inline-size: 100%;
-  text-align: center;
-  background-size: cover;
+  object-fit: cover;
+  object-position: center;
 }
 
-.job-1 .job-graphic {
+.job-1 .job-graphic,
+.job-4 .job-graphic {
   -webkit-clip-path: url(#greater-than-down-small);
   clip-path: url(#greater-than-down-small);
 }
 
-.job-2 .job-graphic {
+.job-2 .job-graphic,
+.job-5 .job-graphic {
   -webkit-clip-path: url(#curly-brace-down-small);
   clip-path: url(#curly-brace-down-small);
 }
 
-.job-3 .job-graphic {
+.job-3 .job-graphic,
+.job-6 .job-graphic {
   -webkit-clip-path: url(#parenthesis-down-small);
   clip-path: url(#parenthesis-down-small);
-}
-
-.job-graphic img {
-  max-width: 75%;
-  max-height: 75%;
-  mix-blend-mode: multiply;
 }
 
 .job-content {
   padding: var(--spacing);
   padding-block-end: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.job-content .h {
-  margin: 0;
-}
-
-.job-content .h + p {
-  margin-block-start: 0;
+.job-content p {
+  margin-block-end: 0;
 }
 
 .job-summary {
   font-size: var(--font-size-18);
   line-height: 1.5;
+    overflow: hidden;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
 }
 
 .job-meta {
-  padding-inline-start: var(--spacing);
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  padding: var(--spacing);
+  padding-block-start: 0;
+  margin-top: var(--spacing);
 }
 
-.job-byline {
-  margin: 0;
+.job-author {
+  padding-inline-end: var(--spacing);
 }
 
-.job-readmore {
+.job-time {
+  padding-inline-end: var(--spacing);
+}
+
+.job .button-readmore {
   margin-inline-start: auto;
-  margin-block-start: auto;
 }
 
 .job-tags {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-block-start: var(--spacing);
   margin-block-end: var(--spacing);
 }
 
@@ -81,47 +102,82 @@
   display: inline-block;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 46.875rem) {
   .job {
     flex-direction: row;
-    min-height: 190px;
-    position: relative;
   }
 
-  .job-graphic {
+  .job-graphic-wrapper {
+    block-size: 100%;
+    inline-size: 100%;
     flex: 0 0 300px;
-    min-height: 200px;
     text-align: center;
     background-size: cover;
+    max-width: 300px;
   }
 
-  .job-1 .job-graphic {
+  .job-summary {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+  }
+
+  .job-meta {  
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-block-end: 0;
+    margin-block-start: var(--spacing);
+    margin-block-end: var(--spacing);
+  }
+
+  .job-tags {
+    margin: 0;
+  }
+
+  .job-1 .job-graphic,
+  .job-4 .job-graphic {
     -webkit-clip-path: url(#greater-than-right-small);
     clip-path: url(#greater-than-right-small);
   }
 
-  .job-2 .job-graphic {
+  .job-2 .job-graphic,
+  .job-5 .job-graphic {
     -webkit-clip-path: url(#curly-brace-right-small);
     clip-path: url(#curly-brace-right-small);
   }
 
-  .job-3 .job-graphic {
+  .job-3 .job-graphic,
+  .job-6 .job-graphic {
     -webkit-clip-path: url(#parenthesis-right-small);
     clip-path: url(#parenthesis-right-small);
   }
+}
 
-  .job-content p:last-child {
-    margin-block-end: 0;
-  }
+@media all and (min-width: 52.875rem) {
+    .job-summary {
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+    }
+}
 
-  .job-meta {
-    padding-inline-start: 0;
-    justify-content: flex-start;
-  }
+@media all and (min-width: 54.875rem) {
+    .job-summary { 
+        -webkit-line-clamp: 5;
+        line-clamp: 5;
+    }
 
-  .job-readmore {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    .job-meta {
+        margin-block-start: 0;
+    }
+}
+
+@media all and (min-width: 60.875rem) {
+  .job-summary { 
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
   }
 }
