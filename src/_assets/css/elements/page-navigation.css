@@ -37,6 +37,11 @@ a[aria-current="page"]:focus {
   font-weight: normal;
 }
 
+.navigation-list--sublevel a:hover, .navigation-list--sublevel a:focus {
+  background-color: unset;
+  color: var(--yellow);
+}
+
 .navigation-list--sublevel a:before {
   content: " ";
   position: absolute;
