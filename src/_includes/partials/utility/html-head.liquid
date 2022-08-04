@@ -11,6 +11,12 @@
             {{ title  }} - {{ translations[locale].siteName }}
         {% endif %}
     </title>
+
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" crossorigin="anonymous">
+    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="any">
+    <link rel="icon" href="/assets/favicon/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
+
     <link rel="stylesheet" href="/assets/css/style.css">
 
     <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
@@ -21,7 +27,8 @@
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">
 
     <meta name="description" content="{{ translations[locale].metaDescription }}">
-    <meta name="theme-color" content="#">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffce2e">
 
     {%- for language in site.languages -%}
         <link rel="alternate" hreflang="{{ language.hreflang }}" href="/{{ language.code }}/" />
