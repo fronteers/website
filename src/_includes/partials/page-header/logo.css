@@ -21,7 +21,7 @@
 @media all and (min-width: 46.875em) {
   .page-header-logo {
     text-align: center;
-    padding-left: 0;
+    padding-inline-start: unset;
   }
 
   .page-header-logo svg {

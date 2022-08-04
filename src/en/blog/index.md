@@ -1,4 +1,5 @@
 ---
-title: Blogs
+title: Blog
+excludeFromCollection: true
 ---
 
