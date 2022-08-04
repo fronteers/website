@@ -26,7 +26,7 @@ module.exports = {
     socialMedia: {
       slackText: `The Fronteers community is highly active on Slack. <a href="https://fronteers-slack.herokuapp.com/">Sign up to the Fronteers Slack</a> and join the conversation about everything related to front-end development.`,
       twitterText: `You can follow us through <a href="https://twitter.com/fronteers">@Fronteers on Twitter</a>. Questions and comments via that medium are welcome.`,
-      linkedinText: `Join <a href="https://www.linkedin.com/company/fronteers">our network on LinkedIn</a> and see what's happening.`,
+      linkedinText: `Join our network on <a href="https://www.linkedin.com/company/fronteers">LinkedIn</a> and see what's happening.`,
     },
     member_specialty: "Specialty",
     job_category: "Category",
@@ -74,7 +74,7 @@ module.exports = {
     socialMedia: {
       slackText: `Veel Fronteersleden zijn erg actief op Slack. <a href="https://fronteers-slack.herokuapp.com/">Meld je aan voor onze Slack</a> en praat mee over allerlei zaken omtrent frontend development.`,
       twitterText: `Je kunt ons volgen via <a href="https://twitter.com/fronteers">@Fronteers op Twitter</a>. Vragen en opmerkingen over wat we doen kun je daar kwijt`,
-      linkedinText: `Sluit je aan bij <a href="https://www.linkedin.com/company/fronteers">ons netwerk op Linkedin</a> en volg waar we ons mee bezig houden.`,
+      linkedinText: `Sluit je aan bij ons netwerk op <a href="https://www.linkedin.com/company/fronteers">Linkedin</a> en volg waar we ons mee bezig houden.`,
     },
     member_specialty: "Freelancers met specialiteit",
     job_category: "Werk in de categorie",

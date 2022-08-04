@@ -2,11 +2,12 @@
   background: var(--lilac);
   color: black;
 }
-/* 
+
 .page-footer a {
-  color: black;
-  text-decoration: underline;
-} */
+  /* color: black;
+  text-decoration: underline; */
+  display: inline-block;
+} 
 
 .page-footer .button {
   background-color: var(--red);
