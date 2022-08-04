@@ -61,6 +61,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/_assets/images": "assets/images",
   });
+  /* Copy favicon to the dist directory */
+  eleventyConfig.addPassthroughCopy({
+    "src/_assets/favicon": "assets/favicon",
+  });
   eleventyConfig.addPassthroughCopy({
     "src/_assets/company-logos": "assets/company-logos/",
   });
