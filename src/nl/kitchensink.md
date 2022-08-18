@@ -96,6 +96,12 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 {%- mailchimp -%}
 
+## About Us Hero
+
+\{\% aboutushero "We are a proud union" "Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." \%\}
+
+{%- aboutushero "We are a proud union" "Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." -%}
+
 ## Quote
 
 \{\% quote "Anneke Sinnema" "This is a quote" \%\}
