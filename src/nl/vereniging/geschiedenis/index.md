@@ -4,11 +4,11 @@ title: Geschiedenis van de vereniging
 ---
 Fronteers is in oktober 2007 opgericht. In de maanden daarvoor werd duidelijk dat een vereniging als deze bestaansrecht zou hebben.
 
-Op 27 april 2007 riep Peter-Paul Koch 12 mensen bijeen in Amsterdam, om zijn plannen tot oprichting van een vakvereniging voor front-end ontwikkelaars te bespreken. Een maand later bleken [50 mensen bij Lost Boys](/activiteiten/2007/lost-boys.html) dit ook een interessant idee te vinden.
+Op 27 april 2007 riep Peter-Paul Koch 12 mensen bijeen in Amsterdam, om zijn plannen tot oprichting van een vakvereniging voor front-end ontwikkelaars te bespreken. Een maand later bleken [50 mensen bij Lost Boys](/nl/activiteiten/2007/lost-boys.html) dit ook een interessant idee te vinden.
 
-De tijdelijke naam, die door middel van een vragenlijst naar voren kwam, was iets met _gilde_ en _front-end_; Gilde van Front-Enders. In de daaropvolgende maanden werd deze naam aangehouden. Tijdens [het oprichtingscongres](/activiteiten/2007/oprichtingscongres) in Pakhuis De Zwijger werd de naam weggestemd.
+De tijdelijke naam, die door middel van een vragenlijst naar voren kwam, was iets met _gilde_ en _front-end_; Gilde van Front-Enders. In de daaropvolgende maanden werd deze naam aangehouden. Tijdens [het oprichtingscongres](/nl/activiteiten/2007/oprichtingscongres) in Pakhuis De Zwijger werd de naam weggestemd.
 
-Na een digitale stemming uit 37 [voorgestelde namen](/vereniging/geschiedenis/namen) bleek dat _Fronteers_ de voorkeur had en werd dit de naam.
+Na een digitale stemming uit 37 [voorgestelde namen](/nl/vereniging/geschiedenis/namen) bleek dat _Fronteers_ de voorkeur had en werd dit de naam.
 
 # Bestuur
 
@@ -39,5 +39,5 @@ Wegens bijzondere verdiensten voor de vereniging, heeft het bestuur de volgende 
 
 | Naam | Jaar |
 |---|---|
-| Peter-Paul Koch| [Sinds 2012](/vereniging/bestuur/notulen/22-11-2012.html), bij aftreden als voorzitter |
-| Krijn Hoetmer  | [Sinds 2015](/blog/2015/12/wijzigingen-na-alv.html), bij overdracht ledenadministratie |
+| Peter-Paul Koch| [Sinds 2012](/nl/vereniging/bestuur/notulen/22-11-2012.html), bij aftreden als voorzitter |
+| Krijn Hoetmer  | [Sinds 2015](/nl/blog/2015/12/wijzigingen-na-alv.html), bij overdracht ledenadministratie |
