@@ -10,4 +10,4 @@ Doel: Het organiseren van [Fronteers Conference](/nl/congres) in 2019.
 * Tamara Forza
 * Christian Schaeffer
 
-{% form %}
+A FORM WAS HERE!
