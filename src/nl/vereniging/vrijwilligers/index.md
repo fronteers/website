@@ -21,4 +21,4 @@ Hieronder vind je een aantal commissies waarvoor we momenteel nog mensen zoeken.
 
 Indien je een van de bovenstaande rollen op je zou willen nemen of meer informatie wil, horen we graag van je middels onderstaand formulier!
 
-{% form %}
+A FORM WAS HERE!
