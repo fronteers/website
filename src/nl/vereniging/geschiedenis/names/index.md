@@ -36,7 +36,7 @@ De volgende namen zijn voorgesteld (in alfabetische volgorde):
 
 * Argo
 * Avantgarde
-* <body>
+* &lt;body&gt;
 * Beroepsorganisatie voor Frontend-Ontwikkelaars
 * Beroepsorganisatie Nederlandse Front-end Webdevelopers
 * Beroepsvereniging voor Frontend-Ontwikkelaars
