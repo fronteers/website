@@ -12,4 +12,4 @@ De Belgische commissie zorgt voor bijeenkomsten, workshops, en andere leuke acti
 * Ibe Vanmeenen
 * Tom Janssens
 
-{% form %}
+A FORM WAS HERE!
