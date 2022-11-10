@@ -12,7 +12,7 @@ We communiceren via de volgende kanalen:
 
 Fronteers heeft een eigen Slack kanaal waar we front-enders samen willen brengen om te praten over interessante technieken en elkaar te helpen. Fronteers heeft een non-profit account waarbij de chat geschiedenis kostenloos wordt bewaard. De commissie Online Community zorgt voor moderatie.
 
-Leden en niet-leden kunnen meer lezen en zich aanmelden op: [https://fronteers.nl/blog/2016/02/fronteers-op-slack](/nl/blog/2016/02/fronteers-op-slack).
+Leden en niet-leden kunnen meer lezen en zich aanmelden op: [https://fronteers.nl/nl/blog/2016/02/fronteers-op-slack](/nl/blog/2016/02/fronteers-op-slack).
 
 # Twitter
 
