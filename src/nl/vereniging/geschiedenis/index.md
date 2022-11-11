@@ -14,30 +14,30 @@ Na een digitale stemming uit 37 [voorgestelde namen](/nl/vereniging/geschiedenis
 
 De volgende leden hebben gedurende het bestaan van Fronteers zitting gehad in het bestuur:
 
-| Naam                 | Periode  | Posities                                                                 |
+| <span style="color: #ff9999">Naam </span>                | <span style="color: #ff9999">Periode</span>  | <span style="color: #ff9999">Posities </span>                                                                |
 |----------------------|----------|--------------------------------------------------------------------------|
-| Peter-Paul Koch      |2007-2012 | Voorzitter                                                               |
-| Tom Greuter          |2007-2013 | Secretaris (2007-2012) & Voorzitter (2012-2013)                          |
-| Arjan Eising         |2007-2016 | Algemeen bestuurslid & Secretaris (2012-2013)                            |
-| Krijn Hoetmer        |2008-2014 | Penningmeester (2008-2012), Algemeen bestuurslid & Secretaris (2013-2014)|
-| Sander van Lambalgen |2008-2016 | Algemeen bestuurslid & Voorzitter (2013-2016) |
-| Matijs Brinkhuis     |2009-2015 | Algemeen bestuurslid & Penningmeester (2012-2014) |
-| Vasilis van Gemert   |2012-2014 | Algemeen bestuurslid |
-| Roy Tomeij           |2012-2015 | Algemeen bestuurslid & Penningmeester (2014-2015) |
-| Hidde de Vries       |2014-2016 | Algemeen bestuurslid & Penningmeester (2015-2016) |
-| Jaco Koster          |2014-2017 | Secretaris (2014-2016) & Voorzitter (2016-2017) |
-| Thomas van Zuijlen   |2015-2016 | Algemeen bestuurslid |
-| Michael Hastrich     |2016      | Algemeen bestuurslid |
-| Roy Tomeij           |2016-2017 | Algemeen bestuurslid |
-| Sander Vink          |2016-     | Penningmeester |
-| Anneke Sinnema       |2017-     | Voorzitter |
-| Edwin Martin         |2017-     | Secretaris |
+|<span style="color: #ff9999"> `Peter-Paul Koch`      |2007-2012 | Voorzitter                                                               |
+|<span style="color: #ff9999">  `Tom Greuter`          |2007-2013 | `Secretaris` (2007-2012) & `Voorzitter` (2012-2013)                          |
+|<span style="color: #ff9999">  `Arjan Eising`         |2007-2016 |` Algemeen bestuurslid` & `Secretaris` (2012-2013)                            |
+|<span style="color: #ff9999"> ` Krijn Hoetmer`        |2008-2014 | `Penningmeester` (2008-2012), Algemeen `bestuurslid` & `Secretaris` (2013-2014)|
+|<span style="color: #ff9999">  `Sander van Lambalgen` |2008-2016 | `Algemeen bestuurslid` & `Voorzitter` (2013-2016) |
+| <span style="color: #ff9999"> `Matijs Brinkhuis`     |2009-2015 | `Algemeen bestuurslid` & `Penningmeester` (2012-2014) |
+| <span style="color: #ff9999"> `Vasilis van Gemert`   |2012-2014 | `Algemeen bestuurslid` |
+|<span style="color: #ff9999">  `Roy Tomeij`           |2012-2015 | `Algemeen bestuurslid` & `Penningmeester` (2014-2015) |
+| <span style="color: #ff9999"> `Hidde de Vries`       |2014-2016 | `Algemeen bestuurslid` & `Penningmeester` (2015-2016) |
+| <span style="color: #ff9999"> `Jaco Koster`          |2014-2017 | `Secretaris` (2014-2016) & `Voorzitter` (2016-2017) |
+| <span style="color: #ff9999"> `Thomas van Zuijlen`   |2015-2016 | Algemeen bestuurslid |
+|<span style="color: #ff9999">  `Michael Hastrich`     |2016      | `Algemeen bestuurslid` |
+|<span style="color: #ff9999">  `Roy Tomeij`           |2016-2017 | `Algemeen bestuurslid` |
+|<span style="color: #ff9999">  `Sander Vink`          |2016-     | `Penningmeester` |
+|<span style="color: #ff9999">  `Anneke Sinnema`       |2017-     | `Voorzitter` |
+|<span style="color: #ff9999">  `Edwin Martin`         |2017-     | `Secretaris` |
 
 # Ereleden
 
 Wegens bijzondere verdiensten voor de vereniging, heeft het bestuur de volgende leden tot erelid benoemd:
 
-| Naam | Jaar |
+|<span style="color: #ff9999"> Naam |<span style="color: #ff9999"> Jaar |
 |---|---|
-| Peter-Paul Koch| [Sinds 2012](/nl/vereniging/bestuur/notulen/22-11-2012.html), bij aftreden als voorzitter |
-| Krijn Hoetmer  | [Sinds 2015](/nl/blog/2015/12/wijzigingen-na-alv.html), bij overdracht ledenadministratie |
+| <span style="color: #ff9999"> `Peter-Paul Koch`| [Sinds 2012](/nl/vereniging/bestuur/notulen/22-11-2012.html), `bij aftreden als voorzitter` |
+|<span style="color: #ff9999">  `Krijn Hoetmer`  | [Sinds 2015](/nl/blog/2015/12/wijzigingen-na-alv.html), `bij overdracht ledenadministratie` |
