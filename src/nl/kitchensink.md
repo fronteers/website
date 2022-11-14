@@ -13,6 +13,12 @@ title: Kitchensink
 
 This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his _armour-like_ back, and if he [lifted his head](#) a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
 
+
+| Left aligned syntax      | Centered Description | Right align Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 [Learn more](https://fronteers.nl)
 
 ## Tags
