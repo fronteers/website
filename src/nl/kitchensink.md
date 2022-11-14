@@ -18,6 +18,10 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+|---        |----   |    --- |
+| A footer |
 
 [Learn more](https://fronteers.nl)
 
