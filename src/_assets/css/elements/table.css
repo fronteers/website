@@ -1,0 +1,19 @@
+table { 
+  border-collapse: border-collapse;
+}
+
+table th, table td {
+  border: 1px solid black;
+}
+
+table thead th { 
+  font-weight: bold;
+}
+
+table tbody th {
+  font-weight: bold;
+}
+
+table tbody tr:nth-child(2n+1) {
+  background-color: green;
+}
