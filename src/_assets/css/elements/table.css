@@ -1,17 +1,50 @@
-table { 
-  border-collapse: border-collapse;
+/* tables */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
 }
 
-table th, table td {
-  border: 1px solid black;
+caption {
+	text-align: left;
+	margin-bottom: 5px;
+	color: #333333;
+	font-weight: bold;
 }
 
-table thead th { 
-  font-weight: bold;
+th, td {
+	border: 1px solid #AFAFAF;
+	padding: 0.5em 1em;
+	text-align: left;
+	vertical-align: top;
 }
 
-table tbody th {
-  font-weight: bold;
+th ul, th ol,
+td ul, td ol
+td p {
+	margin: 0 0 1em 1em;
+}
+
+td p {
+	font-size: 100%;
+	margin-bottom: 0.5em;
+}
+
+td p:last-child { 
+	margin-bottom: 0; /* remove excess whitespace */
+}
+
+thead th {
+	background-color: #E5E5E5;
+	font-weight: bold;
+}
+
+tfoot th, tfoot td {
+	background-color: #EFEFEF;
+}
+
+tbody th, tfoot th {
+	font-weight: bold;
 }
 
 table tbody tr:nth-child(2n+1) {
