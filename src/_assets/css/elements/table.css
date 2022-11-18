@@ -48,5 +48,5 @@ tbody th, tfoot th {
 }
 
 table tbody tr:nth-child(2n+1) {
-  background-color: green;
+  background-color: #FFCE2E;
 }
