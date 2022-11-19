@@ -17,6 +17,8 @@ th, td {
 	padding: 0.5em 1em;
 	text-align: left;
 	vertical-align: top;
+	font-size: var(--font-size-16);
+	font-family: var(--font-family-content), sans-serif;
 }
 
 th ul, th ol,
@@ -48,5 +50,5 @@ tbody th, tfoot th {
 }
 
 table tbody tr:nth-child(2n+1) {
-  background-color: #FFCE2E;
+  background-color: var(--lilac-light);
 }
