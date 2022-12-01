@@ -110,7 +110,10 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 ## Shield
 
-\{\% shield "accolade" "split-horizontal" "red" "yellow" \%\}
+{% assign shield_color_primary = "purple" %}
+{% assign shield_color_secondary = "red" %}
+
+\{\% shield "accolade" "split-horizontal" "{{shield_color_primary}}" "{{shield_color_secondary}}" \%\}
 
 <table>
   <thead>
@@ -128,43 +131,76 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
   <tbody>
     <tr>
       <th scope="row">accolade</th>
-      <td>{% shield "accolade" "accolade" "red" "yellow" %}</td>
-      <td>{% shield "accolade" "checkerboard" "red" "yellow" %}</td>
-      <td>{% shield "accolade" "diagonal" "red" "yellow" %}</td>
-      <td>{% shield "accolade" "dot" "red" "yellow" %}</td>
-      <td>{% shield "accolade" "thunder" "red" "yellow" %}</td>
-      <td>{% shield "accolade" "split-horizontal" "red" "yellow" %}</td>
-      <td>{% shield "accolade" "stripe" "red" "yellow" %}</td>
+      <td>{% shield "accolade" "accolade" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "accolade" "checkerboard" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "accolade" "diagonal" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "accolade" "dot" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "accolade" "thunder" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "accolade" "split-horizontal" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "accolade" "stripe" shield_color_primary shield_color_secondary %}</td>
     </tr>
     <tr>
       <th scope="row">rectangular</th>
-      <td>{% shield "rectangular" "accolade" "red" "yellow" %}</td>
-      <td>{% shield "rectangular" "checkerboard" "red" "yellow" %}</td>
-      <td>{% shield "rectangular" "diagonal" "red" "yellow" %}</td>
-      <td>{% shield "rectangular" "dot" "red" "yellow" %}</td>
-      <td>{% shield "rectangular" "thunder" "red" "yellow" %}</td>
-      <td>{% shield "rectangular" "split-horizontal" "red" "yellow" %}</td>
-      <td>{% shield "rectangular" "stripe" "red" "yellow" %}</td>
+      <td>{% shield "rectangular" "accolade" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rectangular" "checkerboard" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rectangular" "diagonal" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rectangular" "dot" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rectangular" "thunder" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rectangular" "split-horizontal" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rectangular" "stripe" shield_color_primary shield_color_secondary %}</td>
     </tr>
     <tr>
       <th scope="row">rounded</th>
-      <td>{% shield "rounded" "accolade" "red" "yellow" %}</td>
-      <td>{% shield "rounded" "checkerboard" "red" "yellow" %}</td>
-      <td>{% shield "rounded" "diagonal" "red" "yellow" %}</td>
-      <td>{% shield "rounded" "dot" "red" "yellow" %}</td>
-      <td>{% shield "rounded" "thunder" "red" "yellow" %}</td>
-      <td>{% shield "rounded" "split-horizontal" "red" "yellow" %}</td>
-      <td>{% shield "rounded" "stripe" "red" "yellow" %}</td>
+      <td>{% shield "rounded" "accolade" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rounded" "checkerboard" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rounded" "diagonal" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rounded" "dot" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rounded" "thunder" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rounded" "split-horizontal" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "rounded" "stripe" shield_color_primary shield_color_secondary %}</td>
     </tr>
     <tr>
       <th scope="row">triangular</th>
-      <td>{% shield "triangular" "accolade" "red" "yellow" %}</td>
-      <td>{% shield "triangular" "checkerboard" "red" "yellow" %}</td>
-      <td>{% shield "triangular" "diagonal" "red" "yellow" %}</td>
-      <td>{% shield "triangular" "dot" "red" "yellow" %}</td>
-      <td>{% shield "triangular" "thunder" "red" "yellow" %}</td>
-      <td>{% shield "triangular" "split-horizontal" "red" "yellow" %}</td>
-      <td>{% shield "triangular" "stripe" "red" "yellow" %}</td>
+      <td>{% shield "triangular" "accolade" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "triangular" "checkerboard" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "triangular" "diagonal" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "triangular" "dot" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "triangular" "thunder" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "triangular" "split-horizontal" shield_color_primary shield_color_secondary %}</td>
+      <td>{% shield "triangular" "stripe" shield_color_primary shield_color_secondary %}</td>
+    </tr>
+  </tbody>
+</table>
+
+## Generate Shield
+
+\{\% generateShield "An arbitrary string" \%\}
+
+<table>
+  <thead>
+  <tr> 
+    <th scope="col" width="100">Alice</th>
+    <th scope="col" width="100">Bob</th>
+    <th scope="col" width="100">Charlie</th>
+    <th scope="col" width="100">Dave</th>
+    <th scope="col" width="100">Erin</th>
+    <th scope="col" width="100">Frank</th>
+    <th scope="col" width="100">Grace</th>
+    <th scope="col" width="100">Heidi</th>
+    <th scope="col" width="100">Ivan</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{% generateShield "Alice" %}</td>
+      <td>{% generateShield "Bob" %}</td>
+      <td>{% generateShield "Charlie" %}</td>
+      <td>{% generateShield "Dave" %}</td>
+      <td>{% generateShield "Erin" %}</td>
+      <td>{% generateShield "Frank" %}</td>
+      <td>{% generateShield "Grace" %}</td>
+      <td>{% generateShield "Heidi" %}</td>
+      <td>{% generateShield "Ivan" %}</td>
     </tr>
   </tbody>
 </table>
