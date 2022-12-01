@@ -1,12 +1,40 @@
-<!-- variant of src/_includes/partials/homepage/home-hero.liquid.
-    Take a look at that one, to see if it's more recent/better, or 
-    could benefit from anything you learned here :-)  
-    Check here for the design: https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/screen/eec3a419-36af-4c47-bff2-5b7af91160fc/ -->
+{%- for member in members -%}
+  {%- if member.data.title == heroPost.data.author -%}
+    {%- assign authorHasAProfilePage = true -%}
+  {%- else -%}
+    {%- assign authorHasAProfilePage = false -%}
+  {%- endif -%}
+{%- endfor -%}
 
 <section class="outer-wrapper blog-hero">
-    <div class="hero-graphic">
-        <div class="hero-content">
-            {{ blockContent }}
-        </div>
+  <div class="hero--hero">
+    <div class="hero-image-wrapper">
+      <div class="hero--hero-image">
+        {%- if post.data.graphic.src -%}
+          <img src="/assets/images/{{ heroPost.data.graphic.src }}" alt="{{ heroPost.data.graphic.alt }}" class="hero-image"/>
+        {%- else -%}
+          <img src="/assets/images/default_blog_image.png" alt="{{ heroPost.data.graphic.alt }}" class="hero-image"/>
+        {%- endif -%}
+      </div>
     </div>
+
+    <div class="hero-content-wrapper">
+      <div class="hero-main-container">
+        <div class="hero-main-content">
+            <h3 class="hero-lable">{{ heroLable }}</h3>
+            {%- include partials/utility/dynamic-headerlevel level: headerlvl title: heroPost.data.title link: heroPost.url -%}
+            <p>
+                <time class="blog-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
+                    {{ heroPost.date | displayDate: locale  | date: "%d.%m.%y" }}
+                </time>
+
+                {%- if authorHasAProfilePage -%}
+                    <a href="{{ member.url }}" class="blog-author">{{ heroPost.data.author }}</a>
+                {%- else -%}
+                    <span class="blog-author">{{ heroPost.data.author }}</span>
+                {%- endif -%}
+            </p>
+        </div>
+      </div> 
+  </div>
 </section>
