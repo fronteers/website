@@ -1,4 +1,5 @@
 ---
 title: Jobs
+excludeFromCollection: true
 ---
 

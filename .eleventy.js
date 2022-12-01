@@ -61,6 +61,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/_assets/images": "assets/images",
   });
+  /* Copy favicon to the dist directory */
+  eleventyConfig.addPassthroughCopy({
+    "src/_assets/favicon": "assets/favicon",
+  });
   eleventyConfig.addPassthroughCopy({
     "src/_assets/company-logos": "assets/company-logos/",
   });
@@ -100,6 +104,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("posts")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .reverse();
@@ -109,6 +114,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("posts")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .filter((post) => Boolean(post.data.locale == "nl"))
@@ -119,6 +125,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("posts")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .filter((post) => Boolean(post.data.locale == "en"))
@@ -129,6 +136,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("activities")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .sort((a, b) => b.data.eventdate - a.data.eventdate);
@@ -138,6 +146,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("activities")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .filter((post) => Boolean(post.data.locale == "nl"))
@@ -148,6 +157,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("activities")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .filter((post) => Boolean(post.data.locale == "en"))
@@ -158,6 +168,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .reverse();
@@ -167,6 +178,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .filter((post) => Boolean(post.data.locale == "nl"))
@@ -177,6 +189,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .filter((post) => Boolean(post.data.locale == "en"))
@@ -187,6 +200,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(!post.data.draft));
   });
 
@@ -195,6 +209,7 @@ module.exports = function(eleventyConfig) {
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.data.locale == "nl"));
   });
 
@@ -203,12 +218,14 @@ module.exports = function(eleventyConfig) {
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.data.locale == "en"));
   });
 
   eleventyConfig.addCollection("freelancers", function(collection) {
     return collection
       .getFilteredByTag("members")
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(post.data.freelancer))
       .filter((post) => Boolean(!post.data.draft));
@@ -218,6 +235,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.data.freelancer))
       .filter((post) => Boolean(post.data.locale == "nl"))
       .filter((post) => Boolean(!post.data.draft));
@@ -227,6 +245,7 @@ module.exports = function(eleventyConfig) {
     return collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.data.freelancer))
       .filter((post) => Boolean(post.data.locale == "en"))
       .filter((post) => Boolean(!post.data.draft));

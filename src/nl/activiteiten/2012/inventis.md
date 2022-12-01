@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Inventis op 10 april 2012"
 date: 2012-04-10
 eventdate: 2012-04-10
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Na een [succesvolle avond bij Microsoft](/bijeenkomsten/2012/microsoft) is het tijd voor een nieuwe Belgische Fronteers-bijeenkomst.
@@ -25,7 +25,7 @@ _Jurgen Dedeckere_ werkt als front-end web designer voor Proximity BBDO Brussels
 
 Dit evenement vindt plaats bij Inventis te Houthalen (Limburg).
 
-{% googlemaps "Weg naar Zwartberg 85, 3530 Houthalen-Helchteren, Limburg" %}
+{%- googlemaps "Weg naar Zwartberg 85, 3530 Houthalen-Helchteren, Limburg" -%}
 
 # Wie?
 
@@ -79,6 +79,6 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 
 Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2012/fronteersbe-inventis/).
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}

@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij KaHo St-Lieven op 25 april 2013"
 date: 2013-04-25
 eventdate: 2013-04-25
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 25 april 2013 is Fronteers te gast bij de opleiding [Professionele Bachelor ICT](http://www.ikdoeict.be/) (KaHo St-Lieven) te Gent. Er worden twee presentaties voorzien. Bram(us) Van Damme zal het hebben over hoe kaartprojecties, coördinatensystemen, en geografische data binnen een front-end geïmplementeerd kunnen worden; Bart De Clercq van AnySurfer geeft een presentatie over _accessibility_ voor front-end-ontwikkelaars.
@@ -19,7 +19,7 @@ Op donderdag 25 april 2013 is Fronteers te gast bij de opleiding [Professionele 
 
 Dit evenement vindt plaats in het J-blok van de Technologiecampus van KaHo St-Lieven te Gent. De campus heeft als adres Gebroeders De Smetstraat 1, maar het juiste lokaal bevindt zich eerder ter hoogte van de Guldenvliesstraat 14 te Gent.
 
-{% googlemaps "Guldenvliesstraat 14, 9000 Gent" %}
+{%- googlemaps "Guldenvliesstraat 14, 9000 Gent" -%}
 
 # Wie?
 

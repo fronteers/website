@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij iDA Mediafoundry op 24 maart 2016"
 date: 2016-03-24
 eventdate: 2016-03-24
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 24 maart is Fronteers te gast bij [iDA Mediafoundry](http://www.ida-mediafoundry.be/) in Mechelen. Er worden twee presentaties voorzien.
@@ -18,17 +18,17 @@ Op donderdag 24 maart is Fronteers te gast bij [iDA Mediafoundry](http://www.ida
 
 # Mario Van den Eynde | From null to full in under 30 minutes, building a React app
 
-{% vimeo "168345012" %}
+{%- vimeo "168345012" -%}
 
 # Johan Ronsse | Welcome to Bedrock
 
-{% vimeo "168385979" %}
+{%- vimeo "168385979" -%}
 
 # Waar?
 
 Dit evenement vindt plaats in Moonbeat, Mechelen. Moonbeat is gelegen op wandelafstand van het Mechelse Centraal station.
 
-{% googlemaps "Moonbeat, Oude Brusselsestraat 10, 2800 Mechelen" %}
+{%- googlemaps "Moonbeat, Oude Brusselsestraat 10, 2800 Mechelen" -%}
 
 # Wie?
 
@@ -37,9 +37,9 @@ Iedereen is welkom. Er is echter beperkt plaats, voor circa 80 vrouwen en mannen
 Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23fronteersbe).
 
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}
 
 
 # Aanmeldingen ({aanmeldingen} van de {max})

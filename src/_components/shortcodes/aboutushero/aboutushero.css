@@ -1,0 +1,83 @@
+.about-us-hero {
+  position: relative;
+  inline-size: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.about-us-hero svg {
+  width: 100%;
+  left: 0;
+  top: -20rem;
+  z-index: 1;
+  position: absolute;
+}
+
+.about-us-hero-graphic::after {
+  inline-size: 100%;
+  block-size: 0;
+  padding-block-end: 22.8%;
+  content: " ";
+  display: block;
+  background-color: var(--red);
+  background-size: cover;
+  -webkit-clip-path: url(#curly-brace-down-tiny);
+  clip-path: url(#curly-brace-down-tiny);
+}
+
+.about-us-hero-content {
+  background-color: var(--red);
+  margin-block-start: 0;
+  padding: 16rem var(--spacing) var(--spacing);
+}
+
+.about-us-hero-content h2 {
+  text-transform: none;
+}
+
+.about-us-hero-content p {
+  margin: 0;
+}
+
+@media all and (min-width: 46.875em) {
+  .about-us-hero-graphic {
+    padding-block-end: var(--spacing);
+    padding-block-start: var(--spacing);
+    padding-inline-end: calc(var(--spacing));
+    padding-inline-start: calc(var(--spacing));
+    -webkit-clip-path: url(#curly-brace-down-large);
+    clip-path: url(#curly-brace-down-large);
+    inline-size: 100%;
+    block-size: 20rem;
+    background-color: var(--red);
+  }
+
+  .hero-graphic::after {
+    content: none;
+  }
+
+  .about-us-hero svg {
+    height: 92%;
+    width: unset;
+    top: 1px;
+    left: 3rem;
+    overflow: visible;
+  }
+
+  .about-us-hero-content {
+    padding: calc(2 * var(--spacing)) calc(11 * var(--spacing));
+  }
+
+  .about-us-hero-content h2 {
+    font-size: 2.5rem;
+    line-height: 1.275;
+    font-family: var(--font-family-decoration), sans-serif;
+    margin: 0;
+  }
+
+  .about-us-hero p {
+    padding: 1rem;
+  }
+}

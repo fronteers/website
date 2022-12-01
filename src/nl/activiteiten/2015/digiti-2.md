@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Digiti op 15 december 2015"
 date: 2015-12-15
 eventdate: 2015-12-15
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op dinsdag 15 december 2015 is Fronteers te gast bij [Digiti](http://digiti.be/) in Herentals. Er worden twee presentaties voorzien.
@@ -18,17 +18,17 @@ Op dinsdag 15 december 2015 is Fronteers te gast bij [Digiti](http://digiti.be/)
 
 # Je eigen dashboard met HTML, CSS en JavaScript! - Bert Timmermans ([slides](http://200ok.nl/presie/fronteers-digiti.php#/))
 
-{% vimeo "167120947" %}
+{%- vimeo "167120947" -%}
 
 # Maak a11y makkelijk - Jules Ernst
 
-{% vimeo "167173385" %}
+{%- vimeo "167173385" -%}
 
 # Waar?
 
 Dit evenement vindt plaats bij Digiti te Herentals.
 
-{% googlemaps "Digti, Diamantstraat 8, 2200 Herentals" %}
+{%- googlemaps "Digti, Diamantstraat 8, 2200 Herentals" -%}
 
 # Wie?
 

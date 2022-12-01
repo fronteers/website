@@ -1,26 +1,26 @@
-{% comment %}
+{%- comment -%}
     Enables us to set a header level dynamically in every context
-{% endcomment %}
+{%- endcomment -%}
 
-{% capture header %}
-    {% if link %}<a href="{{ link | strip_html }}">{% endif %}
+{%- capture header -%}
+    {%- if link -%}<a href="{{ link | strip_html }}">{%- endif -%}
         {{ title | strip_html }}
-    {% if link %}</a>{% endif %}
-{% endcapture %}
+    {%- if link -%}</a>{%- endif -%}
+{%- endcapture -%}
 
-{% if level == 'h2' %}
+{%- if level == 'h2' -%}
     <h2 class="h">{{ header }}</h2>
-{% endif %}
+{%- endif -%}
 
-{% if level == 'h3' %}
+{%- if level == 'h3' -%}
     <h3 class="h">{{ header }}</h3>
-{% endif %}
+{%- endif -%}
 
-{% if level == 'h4' %}
+{%- if level == 'h4' -%}
     <h4 class="h">{{ header }}</h4>
-{% endif %}
+{%- endif -%}
 
-{% if level == 'h5' %}
+{%- if level == 'h5' -%}
     <h5 class="h">{{ header }}</h5>
-{% endif %}
+{%- endif -%}
 

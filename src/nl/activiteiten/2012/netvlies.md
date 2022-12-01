@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Netvlies op 1 november 2012"
 date: 2012-11-01
 eventdate: 2012-11-01
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 
@@ -45,7 +45,7 @@ Door de korte tijd van 6 minuut 40 is het ook voor mensen die geen uur willen of
 
 # Waar?
 
-{% googlemaps "Netvlies Internetdiensten, Haven 14, 4811 WL Breda." %}
+{%- googlemaps "Netvlies Internetdiensten, Haven 14, 4811 WL Breda." -%}
 
 
 

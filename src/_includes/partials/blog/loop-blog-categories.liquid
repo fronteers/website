@@ -1,7 +1,7 @@
-{% include partials/utility/dynamic-headerlevel level:headerlvl title:translations[locale].categories %}
+{%- include partials/utility/dynamic-headerlevel level: headerlvl title: translations[locale].categories -%}
 
 <ul role="list" class="category-list">
-{% for category in collections.blogCategories %}
-    <li><a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ category.slug }}" class="tag-link tag-link--large">{% tag category.title %} </a></li>
-{% endfor %}
+{%- for category in collections.blogCategories -%}
+    <li><a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ category.slug }}" class="tag-link tag-link--large">{%- tag category.title -%} </a></li>
+{%- endfor -%}
 </ul>

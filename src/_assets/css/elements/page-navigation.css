@@ -21,20 +21,25 @@
   display: block;
 }
 
-a[aria-current="page"] {
-  color: var(--lilac);
+.page-navigation a:hover, .page-navigation a:focus {
+  background-color: unset;
+  color: var(--yellow);
+  text-decoration: underline;
 }
 
-a[aria-current="page"]:hover,
-a[aria-current="page"]:focus {
-  color: white;
-  cursor: default;
+a[aria-current="page"] {
+  color: var(--lilac);
 }
 
 .navigation-list--sublevel a {
   padding-inline-start: 30px;
   position: relative;
   font-weight: normal;
+}
+
+.navigation-list--sublevel a:hover, .navigation-list--sublevel a:focus {
+  background-color: unset;
+  color: var(--yellow);
 }
 
 .navigation-list--sublevel a:before {
@@ -50,6 +55,10 @@ a[aria-current="page"]:focus {
   top: 0.85rem;
   left: 0;
   background-size: 50% auto;
+}
+
+.navigation-list--sublevel a:hover:before, .navigation-list--sublevel a:focus:before {
+  background-image: url(/assets/images/chevron-right-yellow.svg);
 }
 
 @media all and (min-width: 46.875em) {

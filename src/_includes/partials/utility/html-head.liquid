@@ -4,7 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ title or translations[locale].title }} - {{ translations[locale].siteName }}</title>
+    <title>
+        {% if title == "Homepage" %}
+            {{ translations[locale].headTitle }}
+        {% else %}
+            {{ title  }} - {{ translations[locale].siteName }}
+        {% endif %}
+    </title>
+
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" crossorigin="anonymous">
+    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="any">
+    <link rel="icon" href="/assets/favicon/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
+
     <link rel="stylesheet" href="/assets/css/style.css">
 
     <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
@@ -15,20 +27,15 @@
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">
 
     <meta name="description" content="{{ translations[locale].metaDescription }}">
-    <meta name="theme-color" content="#">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffce2e">
 
-    {% for language in site.languages %}
-        {% assign translatedUrl = "/{{ language.code }}/" %}
-        {% for item in collections.all %}
-            {% if item.data.title == title and item.data.locale == language.code %}
-                {% assign translatedUrl = item.url %}
-                <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ language.baseLang }}{{ translatedUrl }}" />
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
+    {%- for language in site.languages -%}
+        <link rel="alternate" hreflang="{{ language.hreflang }}" href="/{{ language.code }}/" />
+    {%- endfor -%}
 
     <meta property="og:site_name" content="{{ translations[locale].siteName }}">
-    <meta property="og:title" content="{{ title or translations[locale].siteName }}" />
+    <meta property="og:title" content="{{ title || translations[locale].siteName }}" />
     <meta property="og:description" content="{{ translations[locale].metaDescription }}"/>
     <meta property="og:image" content="">
     <meta property="og:image:alt" content="" />
@@ -37,14 +44,14 @@
     <meta property="og:url" content="{{ page.permalink }}">
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{{ title or translations[locale].siteName }}" />
+    <meta name="twitter:title" content="{{ title || translations[locale].siteName }}" />
     <meta name="twitter:description" content="{{ translations[locale].metaDescription }}" />
     <meta name="twitter:image" content="" />
     <meta name="twitter:image:alt" content="" />
 
 </head>
 
-{% comment %}
+{%- comment -%}
     Include svg shapes so we can refer to them from our CSS.
     Includes the following clip-paths:
         #curly-brace-down-large
@@ -69,16 +76,16 @@
         #parenthesis-down-tiny
         #greater-than-down-tiny
         #curly-brace-down-tiny
-{% endcomment %}
+{%- endcomment -%}
 
-{% include svg/shapes.svg %}
+{%- include svg/shapes.svg -%}
 
-{% comment %}
+{%- comment -%}
     assign collections to a variable, to simplify looping through the content
-{% endcomment %}
+{%- endcomment -%}
 
-{% assign blogposts = collections.published_posts | getLocale: locale %}
-{% assign activities = collections.published_activities  | getLocale: locale %}
-{% assign jobs = collections.published_jobs  | getLocale: locale %}
-{% assign members = collections.published_members  | getLocale: locale  %}
-{% assign freelancers = collections.freelancers  | getLocale: locale  %}
+{%- assign blogposts = collections.published_posts | getLocale: locale -%}
+{%- assign activities = collections.published_activities  | getLocale: locale -%}
+{%- assign jobs = collections.published_jobs  | getLocale: locale -%}
+{%- assign members = collections.published_members  | getLocale: locale  -%}
+{%- assign freelancers = collections.freelancers  | getLocale: locale  -%}

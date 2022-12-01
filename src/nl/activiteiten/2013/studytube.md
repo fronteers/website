@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Studytube op 22 januari 2013"
 date: 2013-01-22
 eventdate: 2013-01-22
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Dinsdag 22 januari is Fronteers te gast bij [StudyTube](http://www.studytube.nl/) in Amsterdam. De bijeenkomst haakt in op het raakvlak tussen back-end en front-end development. Matthew Eichler zal vertellen over het automatiseren van accepatatietesten. Jan van Hellemond zal daarna een presentatie geven over Amazon Web Services en hoe je als front-end developer hier gebruik van kunt maken.
@@ -44,6 +44,6 @@ StudyTube is gevestigd aan de Weteringschans 28, 1017 SG Amsterdam. Dit is het o
 * Yolijn
 * Thomas van Zuijlen
 
-{% comment %}
-{% form %}
-{% endcomment %}
+{%- comment -%}
+{%- form -%}
+{%- endcomment -%}

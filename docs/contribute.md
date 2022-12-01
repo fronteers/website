@@ -8,6 +8,8 @@ You want to help us? Great! Please read through this document first to get an id
 - by building functionality for the website (a lot has been done, but could maybe do with finetuning)
 - by building [advanced functionality](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge)
 
+Curious as to how the site looks right now? Check out [the Fronteers website beta on Netlify](https://fronteers-beta.netlify.app/)! :)
+
 ## 👯 Development principles
 
 Before you start contributing consider the following principles:

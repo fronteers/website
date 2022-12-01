@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij BetaGroup/Parkoffice Kortrijk op 13 maart 2014"
 date: 2014-03-13
 eventdate: 2014-03-13
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 13 maart 2014 is Fronteers te gast bij [BetaGroup/Parkoffice Kortrijk](http://kortrijk.betagroup.be/) in Kortrijk. We hebben twee sprekers uitgenodigd.
@@ -19,7 +19,7 @@ Op donderdag 13 maart 2014 is Fronteers te gast bij [BetaGroup/Parkoffice Kortri
 
 Dit evenement vindt plaats bij [BetaGroup/Parkoffice](http://www.parkoffice.be/en/locations/business-centre-meeting-room-kortrijk), Doorniksestraat 63, 8500 Kortrijk.
 
-{% googlemaps "Doorniksestraat 63, 8500 Kortrijk" %}
+{%- googlemaps "Doorniksestraat 63, 8500 Kortrijk" -%}
 
 Aanwezigen kunnen die dag gratis gebruik maken van de co-working-ruimte bij Parkoffice. Je kan dus gerust op voorhand naar de locatie afzakken (handig om eventuele files te vermijden) en daar overdag je werkzaamheden uitvoeren.
 

@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Netlog op 4 november 2010"
 date: 2010-11-04
 eventdate: 2010-11-04
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Fronteers, de vakvereniging voor front-end developers, werd in 2007 opgericht in Nederland, maar is nu klaar om ook in België voet aan de grond te krijgen. Bij wijze van kennismaking organiseren we een eerste, informele bijeenkomst.
@@ -21,7 +21,7 @@ Er worden twee presentaties voorzien. Eerst komt [Peter-Paul Koch](http://www.qu
 
 Dit evenement vindt plaats bij Netlog NV te Gent.
 
-{% googlemaps "Emile Braunplein 18, 9000 Gent" %}
+{%- googlemaps "Emile Braunplein 18, 9000 Gent" -%}
 
 # Wie?
 

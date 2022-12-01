@@ -1,11 +1,11 @@
 debug urls
 
 
-{% comment %}
+{%- comment -%}
 <div>
     <table>
-        
-        {% for page in collections.all %}
+
+        {%- for page in collections.all -%}
             <tr>
                 <td>{{ page.data.title }} </td>
                 <td>{{ page.data.permalink }}</td>
@@ -13,7 +13,7 @@ debug urls
                 <td>{{ page.filePathStem }}</td>
                 <td>/{{ locale }}/{{ page.fileSlug }}/index.html</td>
             </tr>
-        {% endfor %}
+        {%- endfor -%}
     </table>
 </div>
-{% endcomment %}
+{%- endcomment -%}

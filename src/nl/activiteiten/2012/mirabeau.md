@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Mirabeau op 15 februari 2012"
 date: 2012-02-15
 eventdate: 2012-02-15
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op woensdag 15 februari zijn we te gast bij [Mirabeau](http://mirabeau.nl) in Rotterdam. Johan Ronsse, die op zijn verjaardag speciaal voor ons uit België af komt reizen, geeft een presentatie over interface design. Paul Martens, front-end developer bij Mirabeau, vertelt over spriting en workflow.
@@ -32,7 +32,7 @@ In ongeveer drie kwartier laat ik zien hoe ik spriting als basis voor mijn workf
 
 Mirabeau Rotterdam is gevestigd in het Groothandelsgebouw direct naast station Rotterdam Centraal. Het adres is: Conradstraat 38, Kamer: D8.131, 3013 AP Rotterdam. Ga naar hoofdingang (A), met de lift naar 7e etage. Volg je linkerhand, ga door de klapdeuren. De tweede trappengang aan je rechterhand (gebouwdeel D) ga je in en zo loop je naar de 8e etage waar Mirabeau zit.
 
-{% googlemaps "Conradstraat 38, 3013 AP Rotterdam" %}
+{%- googlemaps "Conradstraat 38, 3013 AP Rotterdam" -%}
 
 Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via onderstaand contactformulier. Je kunt de bijeenkomst ook [attenden of tracken op Lanyrd](http://lanyrd.com/2012/fronteers-mirabeau-rotterdam/).
 

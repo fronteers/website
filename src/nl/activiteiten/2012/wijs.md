@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Wijs op 19 juli 2012"
 date: 2012-07-19
 eventdate: 2012-07-19
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 19 juli 2012 is Fronteers te gast bij [Wijs](http://wijs.be/) in Gent. Er worden twee presentaties voorzien. Eerst komt [Xavier Bertels](https://twitter.com/xavez) praten over ritme en ratio’s in layout en typografie voor het web; vervolgens zal [Denis Defreyne](https://twitter.com/ddfreyne) wat vertellen over static site generators zoals [nanoc](http://nanoc.stoneship.org/).
@@ -19,7 +19,7 @@ Op donderdag 19 juli 2012 is Fronteers te gast bij [Wijs](http://wijs.be/) in Ge
 
 Dit evenement vindt plaats bij Wijs te Gent.
 
-{% googlemaps "Voorhavenlaan 31, 9000 Gent" %}
+{%- googlemaps "Voorhavenlaan 31, 9000 Gent" -%}
 
 # Wie?
 

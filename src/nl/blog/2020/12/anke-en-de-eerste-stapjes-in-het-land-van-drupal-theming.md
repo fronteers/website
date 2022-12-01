@@ -69,11 +69,11 @@ Een voorbeeld van de vereenvoudigde template `node--agenda-detail--full.html.twi
         </p>
 
         {# De output van de optionele introductie #}
-        {% if content.field_intro.0 %}
+        {%- if content.field_intro.0 -%}
             <div class="agenda-detail__intro">
                 {{ content.field_intro.0 }}
             </div>
-        {% endif %}
+        {%- endif -%}
 
         {# De output van de (agenda)data #}
         {{ content.field_agenda_data }}
@@ -85,15 +85,15 @@ Een voorbeeld van de vereenvoudigde template `node--agenda-detail--full.html.twi
         {{ content.field_contact }}
 
         {# Een knop om je in te schrijven, mits je ingelogd bent #}
-        {% if logged_in == false %}
+        {%- if logged_in == false -%}
             <a href="/login?destination={{ url }}">
                 {{ 'Log in to sign up'|t }}
             </a>
-        {% else %}
+        {%- else -%}
             <a target="{{ button.target }}" class="button" href="{{ button.url }}">
                 {{ button.text|t }}
             </a>
-        {% endif %}
+        {%- endif -%}
 
     </article>
 {% endraw %}

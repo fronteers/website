@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij KaHo St-Lieven op 21 mei 2012"
 date: 2012-05-21
 eventdate: 2012-05-21
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op maandag 21 mei 2012 is Fronteers te gast bij de opleiding [Professionele Bachelor ICT](http://www.ikdoeict.be/nl/) (KaHo St-Lieven) te Gent. Er worden twee presentaties voorzien. Bram(us) Van Damme zal het hebben over RESTful APIs (met zijdelings Ajax, jQuery, JSON/JSONP, CORS en URL design). De heren van Pixel Lab, die samen met Zeptolab [de HTML5-versie van Cut The Rope](http://www.cuttherope.ie/dev/) hebben gebouwd, hebben ook vast iets interessants te vertellen — in het Engels, weliswaar.
@@ -19,7 +19,7 @@ Op maandag 21 mei 2012 is Fronteers te gast bij de opleiding [Professionele Bach
 
 Dit evenement vindt plaats in het J-blok van de Technologiecampus van KaHo St-Lieven te Gent. De campus heeft als adres Gebroeders De Smetstraat 1, maar het juiste lokaal bevindt zich eerder ter hoogte van de Guldenvliesstraat 14 te Gent.
 
-{% googlemaps "Guldenvliesstraat 14, 9000 Gent" %}
+{%- googlemaps "Guldenvliesstraat 14, 9000 Gent" -%}
 
 # Wie?
 

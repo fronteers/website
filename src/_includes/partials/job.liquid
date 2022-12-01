@@ -1,39 +1,46 @@
 <div class="job job-{{ index }}">
-    <div class="job-graphic"
-         {%- if job.data.backgroundcolor -%}style="background-color: {{ job.data.backgroundcolor }}"
-            {%- endif -%}>
-        <img src="{{ job.data.graphic.src }}" alt="{{ job.data.graphic.alt }}" />
+    <div class="job-graphic-wrapper">
+        {%- if job.data.graphic.src -%}
+            <img src="/assets/images/{{ job.data.graphic.src }}" alt="{{ job.data.graphic.alt }}" class="job-graphic" />
+        {%- else -%}
+            <img src="/assets/images/default_blog_image.png" alt="{{ job.data.graphic.alt }}" class="job-graphic" />
+        {%- endif -%}
     </div>
-    <div class="job-content">
-        {% include partials/utility/dynamic-headerlevel level: headerlvl title: job.data.title link: job.url %}
 
-        <p class="job-summary">
-            {% if job.data.summary %}
-                {{ job.data.summary }}
-            {% else %}
-                {{ job.templateContent | strip_html | truncate: 280 }}
-            {% endif %}
-        </p>
+    <div class="job-content-wrapper">
+        <div class="job-content">
+            {%- include partials/utility/dynamic-headerlevel level: headerlvl title: job.data.title link: job.url -%}
+
+            {%- if job.data.summary -%}
+                <p class="job-summary">{{ job.data.summary | strip_html | truncatewords: 60 | truncate: 320 }}</p>
+            {%- else -%}
+                <p class="job-summary">{{ job.templateContent | strip_html | truncatewords: 60 | truncate: 320 }}</p>
+            {%- endif -%}
+        </div>
 
         <div class="job-meta">
-            <p class="job-byline">
-                <time class="blog-time" datetime="{{ job.date | date: "%Y-%m-%d" }}">
-                    {{ job.date | displayDate: locale }}
-                </time>
-                <!-- {{ job.data.author }} -->
-            </p>
-            <ul class="job-tags">
-                {%- for tag in job.data.categories limit: 2 -%}
-                    <li>
-                        <a href="/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/"
-                           class="tag-link">{% tag tag %}</a></li>
-                {% endfor %}
-            </ul>
+            <time class="job-time" datetime="{{ job.date | date: "%Y-%m-%d" }}">
+                {{ job.date | displayDate: locale  | date: "%d.%m.%y" }}
+            </time>
 
-            <a href="{{ job.url }}" class="button job-readmore">
-                {{ translations[locale].jobreadmore }}
-                <span class="visually-hidden">{{ translations[locale].about }} {{ job.data.title }}</span>
-            </a>
+            {%- if authorHasAProfilePage -%}
+                <a href="{{ member.url }}" class="job-author">{{ job.data.author }}</a>
+            {%- else -%}
+                <span class="job-author">{{ job.data.author }}</span>
+            {%- endif -%}
+
+            <ul class="job-tags" role="list" aria-label="Tagged">
+                {%- for tag in job.data.categories limit:2 -%}
+                    <li>
+                        <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{%- tag tag -%}</a>
+                    </li>
+                {%- endfor -%}
+            </ul>
         </div>
+
+        <a href="{{ job.url }}" class="button button-readmore">
+            {{ translations[locale].blogreadmore }}
+            <span class="visually-hidden">{{ translations[locale].about }} {{ job.data.title }}</span>
+        </a>
     </div>
 </div>

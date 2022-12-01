@@ -1,35 +1,20 @@
 
-<nav class="page-header-translate" aria-label="{% if locale == 'nl' %}{{ translations[locale].ariaTitleTranslateNav }}{% else %}{{ site.en.ariaTitleTranslateNav }}{% endif %}">
-
-{% assign currentLanguage = locale %}
-
+<nav class="page-header-translate" aria-label="{%- if locale == 'nl' -%}{{ translations[locale].ariaTitleTranslateNav }}{%- else -%}{{ site.en.ariaTitleTranslateNav }}{%- endif -%}">
     <ul role="list">
-        {% for lgg in site.languages %}
-
-            {% assign translatedUrl = "/{{ lgg.code }}/" %}
-            {% if lgg.code == locale %}
-                {% assign activeClass = "is-active" %}
-            {% else %}
-                {% assign activeClass = "" %}
-            {% endif %}
-
-            {% for item in collections.all %}
-                {% if item.data.key == key and item.data.locale == lgg.code %}
-                    {% assign translatedUrl = item.url %}
-                {% endif %}
-            {% endfor %}
-
+        {%- for lgg in site.languages -%}
             <li lang="{{ lgg.code }}">
-                {% if currentLanguage == lgg.code %}
-                    <span>{{ lgg.label }}</span>
-                {% else %}
-                    <a class="c-lggnav__link  {{ activeClass }}" href="{{ translatedUrl }}">
+                {%- if locale == lgg.code -%}
+                    <span>
                         <span class="visually-hidden">{{ lgg.currentLabel }}</span>
                         {{ lgg.label }}
+                    </span>
+                {%- else -%}
+                    <a class="c-lggnav__link" href="/{{ lgg.code }}/">
+                        <span class="visually-hidden">{{ lgg.switchLabel }}</span>
+                        {{ lgg.label }}
                     </a>
-                {% endif %}
+                {%- endif -%}
             </li>
-
-        {% endfor %}
+        {%- endfor -%}
     </ul>
 </nav>

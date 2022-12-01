@@ -2,8 +2,8 @@
 title: "Bijeenkomst bij Future in IT op 20 september 2012"
 date: 2012-09-20
 eventdate: 2012-09-20
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
 Op donderdag 20 september is Fronteers te gast bij [Future in IT](http://futureinit.nl/) in Amsterdam. Arjan Eising geeft een presentatie over CoffeeScript, en Bran van der Meer gaat grids in design nader bekijken.
@@ -26,7 +26,7 @@ Nu webdesign steeds verder volwassen wordt, komt de vraag om een grid ook in de 
 
 # Waar?
 
-{% googlemaps "Rokin 38-E 1012 KT Amsterdam" %}
+{%- googlemaps "Rokin 38-E 1012 KT Amsterdam" -%}
 
 Future in IT heeft een zaal gehuurd bij [Rokin View](http://www.rokinview.nl/): Rokin 38-E, 1012 KT Amsterdam. Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je via onderstaand formulier doorgeeft dat je aanwezig kunt zijn. *Er is ruimte voor slechts 30 personen.*
 
