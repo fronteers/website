@@ -1,0 +1,35 @@
+.banner-join-us { 
+    text-align: center; 
+}
+
+.banner-join-us .curly-braces-bg { display: flex; 
+    flex-wrap: wrap; 
+    padding: 32px; 
+}
+
+.banner-join-us-dialog, 
+.banner-join-us-dialog h2, 
+.banner-join-us-description, 
+.banner-join-us .footer-join-us-link { 
+    width: 100%; 
+    text-align: center; 
+}
+
+.banner-join-us .button { 
+    background-color: var(--red); 
+    text-decoration: none; 
+}
+
+.banner-join-us-dialog { 
+    color: black; 
+}
+
+.banner-join-us-dialog h2 { 
+    text-transform: none; 
+    margin-bottom: 0; 
+}
+
+.banner-join-us-description { 
+    margin-top: 0; 
+}
+

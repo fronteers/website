@@ -1,5 +1,4 @@
 const glob = require("fast-glob");
-const globcat = require("globcat");
 const lodash = require("lodash");
 const slugify = require("slugify");
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
@@ -48,20 +47,74 @@ function strToSlug(str) {
 }
 
 module.exports = function(eleventyConfig) {
+  const quick = Boolean(process.env.BUILD_QUICK)
+  const now = new Date();
+
+  // There is a quick build function (npm run start:quick) that only loads the
+  // recent content (YTD and previous year), by excluding all year folders from
+  // older content. We process this first so that any plugin doesn't even see
+  // these files.
+  if (quick) {
+    glob.sync("src/{nl,en}/{activiteiten,activities,blog,congres,conference,werk-en-freelance}/**/*.md").forEach((file) => {
+      const parts = file.split('/');
+
+      let year = Number(parts[parts.length - 3]);
+      if (isNaN(year)) {
+        // Sometimes there is no "month" directory
+        year = Number(parts[parts.length - 2]);
+        if (isNaN(year)) {
+          return;
+        }
+      }
+
+      if (year >= now.getFullYear() - 1) {
+        return;
+      }
+
+      eleventyConfig.ignores.add(file);
+      console.debug("[ignore] ", file);
+    });
+
+    eleventyConfig.ignores.add('src/nl/vereniging/bestuur/notulen')
+  }
+
   /* Add id to heading elements */
   eleventyConfig.addPlugin(pluginAddIdToHeadings);
 
-  /* Rebuild when any of the files are changed */
+  // Rebuild when any of the files are changed, but exclude css because that is
+  // handled by the asset pipeline.
+  //
   eleventyConfig.addWatchTarget("./src/");
+
   /* Copy fonts to the dist directory */
+  // eleventyConfig.watchIgnores.add("./src/_assets/css/**");
+  // eleventyConfig.watchIgnores.add("./src/_components/**/*.css");
+  // eleventyConfig.watchIgnores.add("./src/_includes/**/*.css");
+
+  // Setup the pass through rules for CSS files. This way we can use regular
+  // CSS imports without any magic, and later use a minification and/or purge
+  // step on the result.
+  //
+  // Why do it this way? We want to preserve the directory structure so that the
+  // import paths are traversable in your IDE.
+  //
+  eleventyConfig.addPassthroughCopy({ "src/_assets/css": "assets/css" });
+  glob.sync("src/{_components,_includes}/**/*.css").forEach((file) => {
+    const input = String(file).split('/').slice(0, -1).join('/')
+    const output = input.replace(/^src\//, 'assets/');
+
+    const mapping = {}
+    mapping[`${input}/*.css`] = output
+    eleventyConfig.addPassthroughCopy(mapping);
+  })
+
+  /* Copy static assets to the dist directory */
   eleventyConfig.addPassthroughCopy({
     "src/_assets/fonts": "assets/fonts",
   });
-  /* Copy images to the dist directory */
   eleventyConfig.addPassthroughCopy({
     "src/_assets/images": "assets/images",
   });
-  /* Copy favicon to the dist directory */
   eleventyConfig.addPassthroughCopy({
     "src/_assets/favicon": "assets/favicon",
   });
@@ -71,6 +124,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/_assets/member-avatars": "assets/member-avatars/",
   });
+
   /* Copy js to the dist directory */
   eleventyConfig.addPassthroughCopy({ "src/_assets/js": "assets/js" });
 
@@ -89,8 +143,6 @@ module.exports = function(eleventyConfig) {
       eleventyConfig.addShortcode(name, shortcodes[name]);
     });
   });
-
-  const now = new Date();
 
   eleventyConfig.addCollection("canonical", function(collection) {
     return collection
@@ -312,12 +364,6 @@ module.exports = function(eleventyConfig) {
 
     return jobCategories;
   });
-
-  /* Add 'include-all' shortcodes for loading all CSS (used in style.liquid) */
-  eleventyConfig.addShortcode(
-    "include-all",
-    async (glob) => await globcat(glob)
-  );
 
   eleventyConfig.addFilter("getLocale", function(collection, locale) {
     return collection.filter((post) => Boolean(post.data.locale == locale));
