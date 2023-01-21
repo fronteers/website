@@ -42,3 +42,50 @@
   color: black;
   cursor: not-allowed;
 }
+
+.pagination__page-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.pagination__page-list-items {
+  margin: 1em;
+}
+
+.pagination__page-number {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  padding: 0.5em;
+  margin: -0.5em;
+}
+
+.pagination__page-number:hover {
+  color: black;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.pagination__page-number--active {
+  position: relative;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  z-index: 1;
+}
+
+.pagination__page-number--active:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+  margin-top: -12px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: -1;
+}
+

@@ -13,22 +13,25 @@
 
         {% comment %}
         todo:
-        1. unordered list maken met listitems erin
-        2. zit je op currentpage, dan span laten zien
+        1. unordered list maken met listitems erin - check
+        2. zit je op currentpage, dan span laten zien - check
+        3. Bij 5 of meer pagina's ... toevoegen, bijv 1 2 3 ... 10
 
         {% endcomment %}
-
+    <ul class="pagination__page-list">
         {%- for page in pagination -%}
-            <li>
+            <li class="pagination__page-list-items">
                 {%- if pagination.pageNumber == forloop.index0 -%}
-                    <span>
+                    <span class="pagination__page-number--active">
                         {{ forloop.index0 | plus: 1 }}
                     </span>
                 {%- else -%}
-                    <a href="{{ pagination.hrefs[ forloop.index0 ] }}">{{ forloop.index0 | plus: 1 }}[{{pagination.pageNumber}}]</a>
+                    <a class="pagination__page-number" href="{{ pagination.hrefs[ forloop.index0 ] }}">{{ forloop.index0 | plus: 1 }}</a>
                 {%- endif -%}
             </li>
-        {% endfor -%}
+        {%- endfor -%}
+    </ul>
+
 
         {%- if pagination.nextPageLink -%}
         <a class="pagination__item button button-parentheses"
@@ -38,6 +41,3 @@
         {%- endif -%}
     </nav>
 {%- endif -%}
-
-
-//nl/blog/13/index.h
