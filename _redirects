@@ -1,0 +1,8 @@
+# All files that exist don't need to be excluded, as they will have preference
+# over anything listed here and in the netlify config TOML.
+
+# We want to redirect non-translated content (so without /locale/) to the
+# localized page.
+
+/blog/_ /nl/blog/:splat 302
+/workshops/_ /nl/workshops/:splat 302
