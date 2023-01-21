@@ -6,6 +6,7 @@
     "prepare": "husky install",
     "clean": "rimraf dist",
     "start": "npm run clean && npx @11ty/eleventy --serve --incremental",
+    "start:quick": "cross-env BUILD_QUICK=1 npm run start",
     "build": "npm run clean && npx @11ty/eleventy",
     "lint": "prettier --check src/**/*",
     "format": "prettier --write src/**/*"
@@ -24,6 +25,7 @@
     "@11ty/eleventy": "^2.0.0-beta.1",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@orchidjs/eleventy-plugin-ids": "^0.1.1",
+    "cross-env": "^7.0.3",
     "fast-glob": "^3.2.11",
     "husky": "8.0.3",
     "lodash": "^4.17.21",

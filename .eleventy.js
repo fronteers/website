@@ -47,6 +47,37 @@ function strToSlug(str) {
 }
 
 module.exports = function(eleventyConfig) {
+  const quick = Boolean(process.env.BUILD_QUICK)
+  const now = new Date();
+
+  // There is a quick build function (npm run start:quick) that only loads the
+  // recent content (YTD and previous year), by excluding all year folders from
+  // older content. We process this first so that any plugin doesn't even see
+  // these files.
+  if (quick) {
+    glob.sync("src/{nl,en}/{activiteiten,activities,blog,congres,conference,werk-en-freelance}/**/*.md").forEach((file) => {
+      const parts = file.split('/');
+
+      let year = Number(parts[parts.length - 3]);
+      if (isNaN(year)) {
+        // Sometimes there is no "month" directory
+        year = Number(parts[parts.length - 2]);
+        if (isNaN(year)) {
+          return;
+        }
+      }
+
+      if (year >= now.getFullYear() - 1) {
+        return;
+      }
+
+      eleventyConfig.ignores.add(file);
+      console.debug("[ignore] ", file);
+    });
+
+    eleventyConfig.ignores.add('src/nl/vereniging/bestuur/notulen')
+  }
+
   /* Add id to heading elements */
   eleventyConfig.addPlugin(pluginAddIdToHeadings);
 
@@ -54,6 +85,8 @@ module.exports = function(eleventyConfig) {
   // handled by the asset pipeline.
   //
   eleventyConfig.addWatchTarget("./src/");
+
+  /* Copy fonts to the dist directory */
   // eleventyConfig.watchIgnores.add("./src/_assets/css/**");
   // eleventyConfig.watchIgnores.add("./src/_components/**/*.css");
   // eleventyConfig.watchIgnores.add("./src/_includes/**/*.css");
@@ -110,8 +143,6 @@ module.exports = function(eleventyConfig) {
       eleventyConfig.addShortcode(name, shortcodes[name]);
     });
   });
-
-  const now = new Date();
 
   eleventyConfig.addCollection("canonical", function(collection) {
     return collection
