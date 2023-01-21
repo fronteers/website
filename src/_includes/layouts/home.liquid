@@ -31,7 +31,7 @@
             {%- include partials/homepage/proud-members headerlvl:"h2" partialTitle:translations[locale].blockTitles.proudMembers -%}
         {%- endif -%}
 
-        <!-- {%- include partials/homepage/banner-join-us headerlvl:"h2" partialTitle:translations[locale].blockTitles.joinUs -%}  -->
+        {%- include partials/homepage/banner-join-us headerlvl:"h2" partialTitle:translations[locale].blockTitles.joinUs partialContent:translations[locale].blockTitles.joinUsDescription -%}
 
         {%- if jobs.length > 0 -%}
             {%- include partials/homepage/active-vacancies headerlvl:"h2" partialTitle:translations[locale].blockTitles.activeVacancies -%}
