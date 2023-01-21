@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "Fronteers website",
   "scripts": {
+    "prepare": "husky install",
     "clean": "rimraf dist",
     "start": "npm run clean && npx @11ty/eleventy --serve --incremental",
     "build": "npm run clean && npx @11ty/eleventy",
