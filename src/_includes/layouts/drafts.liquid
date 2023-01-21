@@ -1,39 +1,37 @@
 {%- include partials/utility/html-head -%}
 <body>
-    <div class="outer-wrapper">
-        {%- include partials/page-header/_page-header -%}
+    {%- include partials/page-header/_page-header -%}
 
-        <main class="page-content inner-wrapper">
-            <h2>{{ title }}</h2>
-            {{ content }}
+    <main class="page-content inner-wrapper">
+        <h2>{{ title }}</h2>
+        {{ content }}
 
-            {%- if collections.drafts.size > 0 -%}
-              <p>Deze pagina's staan klaar om gedeeld te worden:</p>
+        {%- if collections.drafts.size > 0 -%}
+            <p>Deze pagina's staan klaar om gedeeld te worden:</p>
 
-              <table  markdown="1">
-                <thead></thead>
-                <tbody>
-                  <tr>
+            <table  markdown="1">
+            <thead></thead>
+            <tbody>
+                <tr>
                     <td>Taal</td>
                     <td>Titel pagina</td>
                     <td>Type pagina</td>
-                  </tr>
-                  {%- for draft in collections.drafts -%}
-                    <tr>
-                      <td>{{ draft.data.locale }}</td>
-                      <td><a href="{{ draft.url }}">{{ draft.data.title }}</a></td>
-                      <td>{%- for tag in draft.data.tags -%} {{ tag }}{%- endfor -%}</td>
-                    </tr>
-                  {%- endfor -%}
-                </tbody>
-              </table>
+                </tr>
+                {%- for draft in collections.drafts -%}
+                <tr>
+                    <td>{{ draft.data.locale }}</td>
+                    <td><a href="{{ draft.url }}">{{ draft.data.title }}</a></td>
+                    <td>{%- for tag in draft.data.tags -%} {{ tag }}{%- endfor -%}</td>
+                </tr>
+                {%- endfor -%}
+            </tbody>
+        </table>
 
-            {%- else -%}
-              Er zijn geen pagina's als 'draft' opgeslagen!
-            {%- endif -%}
-        </main>
+        {%- else -%}
+            Er zijn geen pagina's als 'draft' opgeslagen!
+        {%- endif -%}
+    </main>
 
-        {%- include partials/page-footer/_page-footer -%}
-    </div>
+    {%- include partials/page-footer/_page-footer -%}
 </body>
 </html>

@@ -1,51 +1,63 @@
-<footer class="page-footer">
-    <h2 class="visually-hidden">Social media</h2>
-    <ul class="desktop-columns">
-        <li>
-            <div class="social-media-header">
-                <img src="/assets/images/icon_slack.svg" class="social-media-logo social-media-logo-slack"
-                alt="" />
-                <span class="social-media-title">Slack</span>
-            </div>
-            <p>
-                {%- comment -%} The Fronteers community is highly active on Slack. <a href="https://fronteers-slack.herokuapp.com">Sign up<span class="visually-hidden"> to the Fronteers Slack</span></a> and join the conversation about everything related to front-end development. {%- endcomment -%}
-                {{ translations[locale].socialMedia.slackText }}
-           </p>
-        </li>
-        <li>
-            <div class="social-media-header">
-                <img src="/assets/images/icon_twitter.svg" class="social-media-logo social-media-logo-twitter"
-                alt="" />
-                <span class="social-media-title">Twitter</span>
-            </div>
-            <p>
-            {%- comment -%} You can follow us through <a href="https://twitter.com/fronteers">@Fronteers on Twitter</a>. Questions and comments via that medium are welcome. {%- endcomment -%}
-                {{ translations[locale].socialMedia.twitterText }}
-            </p>
-        </li>
-        <li>
-            <div class="social-media-header">
-                <img src="/assets/images/icon_linkedin.svg" class="social-media-logo social-media-logo-linkedin"
-                alt="" />
-                <span class="social-media-title">LinkedIn</span>
-            </div>
-            <p>
-                {%- comment -%} Join our network on LinkedIn and see what's happening. {%- endcomment -%}
-                {{ translations[locale].socialMedia.linkedinText }}
-            </p>
-        </li>
-        <li>
-            <p class="footer-join-us"><strong>Hey front-ender!<br />
-                Join the force and become a fronteer!</strong></p>
-            <p class="footer-join-us-link"><a href="{{ locale }}/join-us/" class="button button-parentheses">Join us</a></p>
-        </li>
-    </ul>
+<div class="page-footer-wrapper">
+    <footer class="page-footer">
+        <h2 class="visually-hidden">Social media</h2>
+        <ul class="desktop-columns">
+            <li>
+                <div class="social-media-header">
+                    <img
+                        src="/assets/images/icon_slack.svg"
+                        class="social-media-logo social-media-logo-slack"
+                        alt="" />
+                    <span class="social-media-title">Slack</span>
+                </div>
+                <p>
+                    {%- comment -%} The Fronteers community is highly active on Slack. <a href="https://fronteers-slack.herokuapp.com">Sign up<span class="visually-hidden"> to the Fronteers Slack</span></a> and join the conversation about everything related to front-end development. {%- endcomment -%}
+                    {{ translations[locale].socialMedia.slackText }}
+                </p>
+            </li>
+            <li>
+                <div class="social-media-header">
+                    <img
+                        src="/assets/images/icon_twitter.svg"
+                        class="social-media-logo social-media-logo-twitter"
+                        alt="" />
+                    <span class="social-media-title">Twitter</span>
+                </div>
+                <p>
+                    {%- comment -%} You can follow us through <a href="https://twitter.com/fronteers">@Fronteers on Twitter</a>. Questions and comments via that medium are welcome. {%- endcomment -%}
+                    {{ translations[locale].socialMedia.twitterText }}
+                </p>
+            </li>
+            <li>
+                <div class="social-media-header">
+                    <img
+                        src="/assets/images/icon_linkedin.svg"
+                        class="social-media-logo social-media-logo-linkedin"
+                        alt="" />
+                    <span class="social-media-title">LinkedIn</span>
+                </div>
+                <p>
+                    {%- comment -%} Join our network on LinkedIn and see what's happening. {%- endcomment -%}
+                    {{ translations[locale].socialMedia.linkedinText }}
+                </p>
+            </li>
+            <li>
+                <p class="footer-join-us">
+                    <strong>Hey front-ender!<br/>
+                        Join the force and become a fronteer!</strong>
+                </p>
+                <p class="footer-join-us-link">
+                    <a href="{{ locale }}/join-us/" class="button button-parentheses">Join us</a>
+                </p>
+            </li>
+        </ul>
 
-    {%- if locale == "nl" -%}
-        {%- include partials/navigation nav_location:"footer" nav_description:"Footer navigation" nav_selection: navigation.footer.nl -%}
-    {%- elsif locale == "en" -%}
-        {%- include partials/navigation nav_location:"footer" nav_description:"Footer navigation" nav_selection: navigation.footer.en -%}
-    {%- endif -%}
+        {%- if locale == "nl" -%}
+            {%- include partials/navigation nav_location: "footer" nav_description: "Footer navigation" nav_selection: navigation.footer.nl -%}
+        {%- elsif locale == "en" -%}
+            {%- include partials/navigation nav_location: "footer" nav_description: "Footer navigation" nav_selection: navigation.footer.en -%}
+        {%- endif -%}
 
-    <script src="/assets/js/page-navigation.js"></script>
-</footer>
+        <script src="/assets/js/page-navigation.js"></script>
+    </footer>
+</div>
