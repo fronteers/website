@@ -102,11 +102,11 @@ git checkout -b [branch-name]
 Replace [branch-name] in the above command with a name that explains what the end-result will be. Here are some examples:
 
 ```
-git checkout -b /feature/about-hero-element
+git checkout -b feature/about-hero-element
 
-git checkout -b /bugfix/fix-typos-on-homepage
+git checkout -b bugfix/fix-typos-on-homepage
 
-git checkout -b /content/add-my-meetup
+git checkout -b content/add-my-meetup
 ```
 
 ## Step 4: Run Eleventy
