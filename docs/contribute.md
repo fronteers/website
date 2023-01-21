@@ -72,6 +72,7 @@ Git is a version management tool. While coding, you create "save points" (called
 Git articles and video's online can be a little intimidating. It can help to install a good [Git graphical user interface](https://git-scm.com/downloads/guis).
 
 Once you have Git, open a command line and go to a folder on your harddisk where you want to keep a copy of the Fronteers website code.
+**For example:** Go to a folder like `your-username/github/`, and do the following command. It will then create the Fronteers website code in `your-username/github/website` :)
 
 ```bash
 git clone https://github.com/fronteers/website.git
