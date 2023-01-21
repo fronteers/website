@@ -6,14 +6,38 @@
     <nav class="pagination">
     {%- if pagination.previousPageLink -%}
         <a class="pagination__item button button-parentheses" href="{{ pagination.previousPageHref | url }}">{{ translations[locale].previous }}</a>
+
     {%- else -%}
         <span class="pagination__item pagination__item--disabled">{{ translations[locale].previous }}</span>
     {%- endif -%}
 
-    {%- if pagination.nextPageLink -%}
-        <a class="pagination__item button button-parentheses" href="{{ pagination.nextPageHref | url }}">{{ translations[locale].next }}</a>
-    {%- else -%}
+        {% comment %}
+        todo:
+        1. unordered list maken met listitems erin
+        2. zit je op currentpage, dan span laten zien
+
+        {% endcomment %}
+
+        {%- for page in pagination -%}
+            <li>
+                {%- if pagination.pageNumber == forloop.index0 -%}
+                    <span>
+                        {{ forloop.index0 | plus: 1 }}
+                    </span>
+                {%- else -%}
+                    <a href="{{ pagination.hrefs[ forloop.index0 ] }}">{{ forloop.index0 | plus: 1 }}[{{pagination.pageNumber}}]</a>
+                {%- endif -%}
+            </li>
+        {% endfor -%}
+
+        {%- if pagination.nextPageLink -%}
+        <a class="pagination__item button button-parentheses"
+           href="{{ pagination.nextPageHref | url }}">{{ translations[locale].next }}</a>
+        {%- else -%}
         <span class="pagination__item pagination__item--disabled">{{ translations[locale].next }}</span>
-    {%- endif -%}
+        {%- endif -%}
     </nav>
 {%- endif -%}
+
+
+//nl/blog/13/index.h
