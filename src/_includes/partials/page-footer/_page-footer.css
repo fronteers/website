@@ -21,7 +21,7 @@
 
 .page-footer .desktop-columns {
   list-style-type: none;
-  /* max-width: var(--outer-width); */
+  max-width: var(--outer-width);
   width: 100%;
   margin: 0 auto 20px;
 }
