@@ -1,13 +1,17 @@
-.page-footer {
+.page-footer-wrapper {
   background: var(--lilac);
   color: black;
+}
+
+.page-footer {
+  width: 100%;
 }
 
 .page-footer a {
   /* color: black;
   text-decoration: underline; */
   display: inline-block;
-} 
+}
 
 .page-footer .button {
   background-color: var(--red);
@@ -16,6 +20,9 @@
 
 .page-footer .desktop-columns {
   list-style-type: none;
+  max-width: var(--outer-width);
+  width: 100%;
+  margin: 0 auto 20px;
 }
 
 @media all and (min-width: 46.875em) {

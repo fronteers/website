@@ -86,11 +86,6 @@ module.exports = function(eleventyConfig) {
   //
   eleventyConfig.addWatchTarget("./src/");
 
-  /* Copy fonts to the dist directory */
-  // eleventyConfig.watchIgnores.add("./src/_assets/css/**");
-  // eleventyConfig.watchIgnores.add("./src/_components/**/*.css");
-  // eleventyConfig.watchIgnores.add("./src/_includes/**/*.css");
-
   // Setup the pass through rules for CSS files. This way we can use regular
   // CSS imports without any magic, and later use a minification and/or purge
   // step on the result.
@@ -109,6 +104,7 @@ module.exports = function(eleventyConfig) {
   })
 
   /* Copy static assets to the dist directory */
+  eleventyConfig.addPassthroughCopy('_redirects')
   eleventyConfig.addPassthroughCopy({
     "src/_assets/fonts": "assets/fonts",
   });

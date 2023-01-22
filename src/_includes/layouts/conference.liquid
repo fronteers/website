@@ -1,30 +1,28 @@
 {%- include partials/utility/html-head -%}
 <body>
-    <div class="outer-wrapper">
-        {%- include partials/page-header/_page-header -%}
+    {%- include partials/page-header/_page-header -%}
 
-        <main class="page-content inner-wrapper">
-            <h2>{{ title }}</h2>
+    <main class="page-content inner-wrapper">
+        <h2>{{ title }}</h2>
 
-            {%- assign conference_subpages = collections.all | getLocale: locale -%}
-            <ul class="conference-subpages">
-                {%- for subitem in conference_subpages -%}
-                    {%- if subitem.data.parent == key -%}
-                        <li class="navigation-list navigation-list-item--sublevel">
-                            <a href="{{ subitem.url }}"
-                                {%- if subitem.url == page.url -%}aria-current="page"{%- endif -%}
-                            >
-                                {{ subitem.data.title }}
-                            </a>
-                        </li>
-                    {%- endif -%}
-                {%- endfor -%}
-            </ul>
+        {%- assign conference_subpages = collections.all | getLocale: locale -%}
+        <ul class="conference-subpages">
+            {%- for subitem in conference_subpages -%}
+                {%- if subitem.data.parent == key -%}
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="{{ subitem.url }}"
+                            {%- if subitem.url == page.url -%}aria-current="page"{%- endif -%}
+                        >
+                            {{ subitem.data.title }}
+                        </a>
+                    </li>
+                {%- endif -%}
+            {%- endfor -%}
+        </ul>
 
-            {{ content }}
-        </main>
+        {{ content }}
+    </main>
 
-        {%- include partials/page-footer/_page-footer -%}
-    </div>
+    {%- include partials/page-footer/_page-footer -%}
 </body>
 </html>
