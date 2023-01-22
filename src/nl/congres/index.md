@@ -4,7 +4,7 @@ title: Congres
 ---
 # Fronteers Congres
 
-[Fronteers](/nl/about hosts a world-class front-end web development conference each year: **Fronteers Conference**. We've made it our mission to create safe, accessible and stimulating conferences for the front-end community.</p>
+[Fronteers](/nl/about) hosts a world-class front-end web development conference each year: **Fronteers Conference**. We've made it our mission to create safe, accessible and stimulating conferences for the front-end community.</p>
 
 Stay in touch by [following @FronteersConf on Twitter](https://twitter.com/FronteersConf).</p>
      
