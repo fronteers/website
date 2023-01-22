@@ -2,13 +2,13 @@
 key: conference
 title: Conference
 ---
-# Fronteers Congres
+# Fronteers Conference
 
 Fronteers hosts a world-class front-end web development conference each year: **Fronteers Conference**. We've made it our mission to create safe, accessible and stimulating conferences for the front-end community.</p>
 
 Stay in touch by [following @FronteersConf on Twitter](https://twitter.com/FronteersConf).</p>
      
-## Onze congressen
+## Our conferences
 
 | Conference         | Date            | Venue                         | Visitors |
 |--------------------|-----------------|-------------------------------|----------|
