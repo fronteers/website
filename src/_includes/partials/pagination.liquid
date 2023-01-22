@@ -16,28 +16,73 @@
         1. unordered list maken met listitems erin - check
         2. zit je op currentpage, dan span laten zien - check
         3. Bij 5 of meer pagina's ... toevoegen, bijv 1 2 3 ... 10
+                3a. Laat maximaal 5 pagina's zien - check
+                3b. Zijn er meer dan 5 pagina's, laat dan -1 pagina, huidige pagina, +1 pagina, ... , en laatste pagina zien - check
+                3c. Zit je met de -1 pagina op index nummer -1, laat dan de komende twee pagina's zien, ..., en laatste pagina
+                3d. Zit je met de +1 pagina over de pagination.length, dan laat je de huidige pagina, + -4 zien
+        4. Vorige en volgende button styling aanpassen
 
         {% endcomment %}
     <ul class="pagination__page-list">
-        {%- for page in pagination -%}
-            <li class="pagination__page-list-items">
-                {%- if pagination.pageNumber == forloop.index0 -%}
-                    <span class="pagination__page-number--active">
+    {% if  pagination.pageLinks.length <= 5 %}
+
+    {%- for page in pagination -%}
+
+        <li class="pagination__page-list-items">
+            {%- if pagination.pageNumber == forloop.index0 -%}
+                <span class="pagination__page-number--active">
                         {{ forloop.index0 | plus: 1 }}
                     </span>
-                {%- else -%}
-                    <a class="pagination__page-number" href="{{ pagination.hrefs[ forloop.index0 ] }}">{{ forloop.index0 | plus: 1 }}</a>
-                {%- endif -%}
+            {%- else -%}
+                <a class="pagination__page-number"
+                   href="{{ pagination.hrefs[ forloop.index0 ] }}">{{ forloop.index0 | plus: 1 }}</a>
+            {%- endif -%}
+        </li>
+
+    {%- endfor -%}
+
+    {% endif %}
+
+        {% if pagination.hrefs.length > 5 and pagination.href.previous %}
+            <li class="pagination__page-list-items">
+                <a class="pagination__page-number"
+                   href="{{ pagination.href.previous }}">{{ pagination.pageNumber }}</a>
             </li>
-        {%- endfor -%}
-    </ul>
+            <li class="pagination__page-list-items">
+                <span class="pagination__page-number--active">
+                {{ pagination.pageNumber | plus: 1 }}
+                </span>
+            </li>
+            <li class="pagination__page-list-items">
+                <a class="pagination__page-number"
+                   href="{{ pagination.href.next }}">{{ pagination.pageNumber | plus: 2 }}</a>
+            </li>
+            <li class="pagination__page-list-items">
+                <span class="pagination__page-number">
+                ...
+                </span>
+            </li>
+            <li class="pagination__page-list-items">
+                <a class="pagination__page-number"
+                   href="{{ pagination.href.last }}">{{ pagination.hrefs.length }}</a>
+            </li>
+
+        {% endif %}
+
+        {% comment %}{% if pagination.hrefs.length > 5 and !=pagination.href.previous %}{% endcomment %}
+            {% comment %}<li class="pagination__page-list-items">{% endcomment %}
+                {% comment %}<span class="pagination__page-number">{% endcomment %}
+                {% comment %}...{% endcomment %}
+                {% comment %}</span>{% endcomment %}
+            {% comment %}</li>{% endcomment %}
+        </ul>
 
 
-        {%- if pagination.nextPageLink -%}
-        <a class="pagination__item button button-parentheses"
-           href="{{ pagination.nextPageHref | url }}">{{ translations[locale].next }}</a>
-        {%- else -%}
-        <span class="pagination__item pagination__item--disabled">{{ translations[locale].next }}</span>
-        {%- endif -%}
+    {%- if pagination.nextPageLink -%}
+    <a class="pagination__item button button-parentheses"
+       href="{{ pagination.nextPageHref | url }}">{{ translations[locale].next }}</a>
+    {%- else -%}
+    <span class="pagination__item pagination__item--disabled">{{ translations[locale].next }}</span>
+    {%- endif -%}
     </nav>
 {%- endif -%}
