@@ -2,13 +2,19 @@
     https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/screen/f38cbe49-ff62-428b-8bb0-c6c29d831bac/
 -->
 
-{%- if pagination.pageLinks.length > 1 -%}
+{% comment %}{%- if pagination.pageLinks.length > 1 -%}{% endcomment %}
+    {% comment %}<nav class="pagination">{% endcomment %}
+    {% comment %}{%- if pagination.previousPageLink -%}{% endcomment %}
+        {% comment %}<a class="pagination__item button button-parentheses" href="{{ pagination.previousPageHref | url }}">{{ translations[locale].previous }}</a>{% endcomment %}
+{% comment %}{% endcomment %}
+    {% comment %}{%- else -%}{% endcomment %}
+        {% comment %}<span class="pagination__item pagination__item--disabled">{{ translations[locale].previous }}</span>{% endcomment %}
+    {% comment %}{%- endif -%}{% endcomment %}
+
+        {%- if pagination.pageLinks.length > 1 -%}
     <nav class="pagination">
     {%- if pagination.previousPageLink -%}
-        <a class="pagination__item button button-parentheses" href="{{ pagination.previousPageHref | url }}">{{ translations[locale].previous }}</a>
-
-    {%- else -%}
-        <span class="pagination__item pagination__item--disabled">{{ translations[locale].previous }}</span>
+        <a aria-label="{{ translations[locale].previous }}" class="pagination__navigation-button" href="{{ pagination.previousPageHref | url }}"><</a>
     {%- endif -%}
 
         {% comment %}
@@ -161,12 +167,9 @@
 
     </ul>
 
-
     {%- if pagination.nextPageLink -%}
-    <a class="pagination__item button button-parentheses"
-       href="{{ pagination.nextPageHref | url }}">{{ translations[locale].next }}</a>
-    {%- else -%}
-    <span class="pagination__item pagination__item--disabled">{{ translations[locale].next }}</span>
+    <a aria-label="{{ translations[locale].next }}" class="pagination__navigation-button" href="{{ pagination.nextPageHref | url }}">></a>
     {%- endif -%}
     </nav>
+
 {%- endif -%}

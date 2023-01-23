@@ -12,46 +12,73 @@
 .pagination {
   display: flex;
   justify-content: center;
-  gap: var(--spacing);
-  padding-block: var(--spacing-double);
+  align-items: center;
+  gap: var(--spacing-half);
+  padding-block: var(--spacing);
 }
 
-.pagination__item {
-  padding: var(--spacing-half) var(--spacing);
+.pagination__navigation-button {
+  position: relative;
+  color: white;
+  background-color: black;
+  text-transform: capitalize;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: bold;
-  font-size: var(--font-size-12);
-  line-height: 1.2;
-  display: inline-block;
+  font-size: var(--font-size-24);
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  z-index: 1;
 }
 
-@media (min-width: 20em) {
-  .pagination__item {
-    font-size: var(--font-size-16);
-  }
-}
+/*.pagination__navigation-button:before {*/
+/*  content: "";*/
+/*  position: absolute;*/
+/*  left: -9px;*/
+/*  width: 35px;*/
+/*  height: 35px;*/
+/*  background-color: black;*/
+/*  border-radius: 50%;*/
+/*  z-index: -1;*/
+/*}*/
 
-@media all and (min-width: 46.875em) {
-  .pagination__item {
-    font-size: var(--font-size-20);
-  }
-}
+/*.pagination__item {*/
+/*  padding: var(--spacing-half) var(--spacing);*/
+/*  text-decoration: none;*/
+/*  text-transform: uppercase;*/
+/*  font-weight: bold;*/
+/*  font-size: var(--font-size-12);*/
+/*  line-height: 1.2;*/
+/*  display: inline-block;*/
+/*}*/
 
-.pagination__item--disabled {
-  color: black;
-  cursor: not-allowed;
-}
+/*@media (min-width: 20em) {*/
+/*  .pagination__item {*/
+/*    font-size: var(--font-size-16);*/
+/*  }*/
+/*}*/
+
+/*@media all and (min-width: 46.875em) {*/
+/*  .pagination__item {*/
+/*    font-size: var(--font-size-20);*/
+/*  }*/
+/*}*/
+
+/*.pagination__item--disabled {*/
+/*  color: black;*/
+/*  cursor: not-allowed;*/
+/*}*/
 
 .pagination__page-list {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   list-style-type: none;
+  padding: 0;
 }
 
 .pagination__page-list-items {
-  margin: 1em;
+  margin: var(--spacing);
 }
 
 .pagination__page-number {
@@ -62,8 +89,8 @@
   margin: -0.5em;
 }
 
-.pagination__page-number:hover {
-  color: black;
+a.pagination__page-number:hover {
+  color: var(--purple-wcag-darker);
   background-color: transparent;
   font-weight: bold;
 }
