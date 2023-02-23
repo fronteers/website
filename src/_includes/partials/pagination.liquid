@@ -2,15 +2,6 @@
     https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/screen/f38cbe49-ff62-428b-8bb0-c6c29d831bac/
 -->
 
-{% comment %}{%- if pagination.pageLinks.length > 1 -%}{% endcomment %}
-    {% comment %}<nav class="pagination">{% endcomment %}
-    {% comment %}{%- if pagination.previousPageLink -%}{% endcomment %}
-        {% comment %}<a class="pagination__item button button-parentheses" href="{{ pagination.previousPageHref | url }}">{{ translations[locale].previous }}</a>{% endcomment %}
-{% comment %}{% endcomment %}
-    {% comment %}{%- else -%}{% endcomment %}
-        {% comment %}<span class="pagination__item pagination__item--disabled">{{ translations[locale].previous }}</span>{% endcomment %}
-    {% comment %}{%- endif -%}{% endcomment %}
-
         {%- if pagination.pageLinks.length > 1 -%}
     <nav class="pagination">
     {%- if pagination.previousPageLink -%}
@@ -27,9 +18,13 @@
                 3c. Als er meer dan 5 pagina’s zijn en de volgende pagina is de laatste pagina: laat first page zien, … span, previousPage, currentPage en lastPage - check
                 3d. Als er meer dan 5 pagina’s zijn er is geen previousPage dan: laat currentPage zien, nextPage, nextPage+1, … span, en lastPage - check
                 3e. Bij meer dan 5 pagina’s en er is geen nextPage, laat dan 5 pagina’s zien: firstPage, … span, previousPage -1, previousPage, currentPage - check maar doet nog raar met het twee na laatste getal
-        4. Vorige en volgende button styling aanpassen
-
+        4. Vorige en volgende button styling aanpassen - check
+        5. Issue regel 150 met dubbele hyperlink
+        6. Component maken van ul?
+        7. Aria labels toevoegen aan pagina nummers?
+        8. @media in css toevoegen?
         {% endcomment %}
+
     <ul class="pagination__page-list">
 
         {% comment %}Als er minder dan 5 pagina’s zijn, laat dan alle pagina’s zien{% endcomment %}
@@ -55,7 +50,7 @@
 
         {% comment %}Bij meer dan 5 pagina’s, laat max 5 pagina’s zien: de previousPage, currentPage, nextPage, … span, en lastPage (bijv 2 3 4 … 13){% endcomment %}
 
-        {% if pagination.hrefs.length > 5 and pagination.href.previous and pagination.href.next %}
+        {% if pagination.hrefs.length > 5 and pagination.href.previous and pagination.href.next and pagination.href.next != pagination.href.last %}
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
                    href="{{ pagination.href.previous }}">{{ pagination.pageNumber }}</a>
@@ -83,7 +78,6 @@
 
         {% comment %}Als er meer dan 5 pagina’s zijn en de volgende pagina is de laatste pagina: laat first page zien, … span, previousPage, currentPage en lastPage{% endcomment %}
 
-
         {% if pagination.hrefs.length > 5 and pagination.href.previous and pagination.href.next == pagination.href.last %}
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
@@ -99,8 +93,9 @@
                    href="{{ pagination.href.previous }}">{{ pagination.pageNumber }}</a>
             </li>
             <li class="pagination__page-list-items">
-                <a class="pagination__page-number--active"
-                   href="{{ pagination.pageNumber}}">{{ pagination.pageNumber | plus: 1 }}</a>
+                <span class="pagination__page-number--active">
+                    {{ pagination.pageNumber | plus: 1 }}
+                </span>
             </li>
 
             <li class="pagination__page-list-items">
