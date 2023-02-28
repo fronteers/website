@@ -2,171 +2,163 @@
     https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/screen/f38cbe49-ff62-428b-8bb0-c6c29d831bac/
 -->
 
-        {%- if pagination.pageLinks.length > 1 -%}
+{%- if pagination.pageLinks.length > 1 -%}
     <nav class="pagination" aria-label="{{ translations[locale].pagination }}">
-    {%- if pagination.previousPageLink -%}
-        <a class="pagination__navigation-button" href="{{ pagination.previousPageHref | url }}"><<span class="visually-hidden">{{ translations[locale].previous}} {{ translations[locale].page}}</span></a>
-    {%- endif -%}
+        {%- if pagination.previousPageLink -%}
+            <a class="pagination__navigation-button" href="{{ pagination.previousPageHref | url }}"><<span
+                        class="visually-hidden">{{ translations[locale].previous }} {{ translations[locale].page }}</span></a>
+        {%- endif -%}
 
-        {% comment %}
-        todo:
-        1. unordered list maken met listitems erin - check
-        2. zit je op currentpage, dan span laten zien - check
-        3. Bij 5 of meer pagina's ... toevoegen, bijv 1 2 3 ... 10
-                3a. Als er minder dan 5 pagina’s zijn, laat dan alle pagina’s zien - check
-                3b. Bij meer dan 5 pagina’s, laat max 5 pagina’s zien: de previousPage, currentPage, nextPage, … span, en lastPage (bijv 2 3 4 … 13) - check
-                3c. Als er meer dan 5 pagina’s zijn en de volgende pagina is de laatste pagina: laat first page zien, … span, previousPage, currentPage en lastPage - check
-                3d. Als er meer dan 5 pagina’s zijn er is geen previousPage dan: laat currentPage zien, nextPage, nextPage+1, … span, en lastPage - check
-                3e. Bij meer dan 5 pagina’s en er is geen nextPage, laat dan 5 pagina’s zien: firstPage, … span, previousPage -1, previousPage, currentPage - check maar doet nog raar met het twee na laatste getal
-        4. Vorige en volgende button styling aanpassen - check
-        5. Issue regel 150 met dubbele hyperlink, gewoon uitcommenten - check
-        6. Component maken van ul? - niet nodig, check
-        7. Aria labels toevoegen aan pagina nummers?
-        8. @media in css toevoegen? - check
-        9. Comments in engels maken - check
-        {% endcomment %}
+        <ul class="pagination__page-list">
 
-    <ul class="pagination__page-list">
+            {% comment %}If there are less than 5 pages, show all pages{% endcomment %}
 
-        {% comment %}If there are less than 5 pages, show all pages{% endcomment %}
+            {% if pagination.pageLinks.length <= 5 %}
 
-        {% if  pagination.pageLinks.length <= 5 %}
+                {%- for page in pagination -%}
 
-    {%- for page in pagination -%}
+                    <li class="pagination__page-list-items">
+                        {%- if pagination.pageNumber == forloop.index0 -%}
+                            <span class="pagination__page-number--active"> {{ forloop.index0 | plus: 1 }} </span>
+                        {%- else -%}
+                            <a class="pagination__page-number" href="{{ pagination.hrefs[ forloop.index0 ] }}">
+                                <span class="visually-hidden"> {{ translations[locale].page }} </span> {{ forloop.index0 | plus: 1 }}
+                            </a>
+                        {%- endif -%}
+                    </li>
 
-        <li class="pagination__page-list-items">
-            {%- if pagination.pageNumber == forloop.index0 -%}
-                <span class="pagination__page-number--active">
-                        {{ forloop.index0 | plus: 1 }}
-                    </span>
-            {%- else -%}
-                <a class="pagination__page-number"
-                   href="{{ pagination.hrefs[ forloop.index0 ] }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ forloop.index0 | plus: 1 }}</a>
-            {%- endif -%}
-        </li>
+                {%- endfor -%}
 
-    {%- endfor -%}
+            {% endif %}
 
-    {% endif %}
+            {% comment %}If more than 5 pages, show max 5 pages: the previousPage, currentPage, nextPage, … span, and lastPage (e.g. 2 3 4 … 13){% endcomment %}
 
-        {% comment %}If more than 5 pages, show max 5 pages: the previousPage, currentPage, nextPage, … span, and lastPage (e.g. 2 3 4 … 13){% endcomment %}
-
-        {% if pagination.hrefs.length > 5 and pagination.href.previous and pagination.href.next and pagination.href.next != pagination.href.last %}
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.href.previous }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber }}</a>
-            </li>
-            <li class="pagination__page-list-items">
+            {% if pagination.hrefs.length > 5 and pagination.href.previous and pagination.href.next and pagination.href.next != pagination.href.last %}
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.href.previous }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> {{ pagination.pageNumber }}
+                    </a>
+                </li>
+                <li class="pagination__page-list-items">
                 <span class="pagination__page-number--active">
                 {{ pagination.pageNumber | plus: 1 }}
                 </span>
-            </li>
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.href.next }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber | plus: 2 }}</a>
-            </li>
-            <li class="pagination__page-list-items">
+                </li>
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.href.next }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> {{ pagination.pageNumber | plus: 2 }}
+                    </a>
+                </li>
+                <li class="pagination__page-list-items">
                 <span class="pagination__page-number">
                 ...
                 </span>
-            </li>
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.href.last }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.hrefs.length }}</a>
-            </li>
+                </li>
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.href.last }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> {{ pagination.hrefs.length }}
+                    </a>
+                </li>
 
-        {% endif %}
+            {% endif %}
 
-        {% comment %}If there are more than 5 pages and the next page is the last page: show firstPage, … span, previousPage, currentPage and lastPage{% endcomment %}
+            {% comment %}If there are more than 5 pages and the next page is the last page: show firstPage, … span, previousPage, currentPage and lastPage{% endcomment %}
 
-        {% if pagination.hrefs.length > 5 and pagination.href.previous and pagination.href.next == pagination.href.last %}
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.href.first }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> 1</a>
-            </li>
-            <li class="pagination__page-list-items">
+            {% if pagination.hrefs.length > 5 and pagination.href.previous and pagination.href.next == pagination.href.last %}
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.href.first }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> 1</a>
+                </li>
+                <li class="pagination__page-list-items">
                 <span class="pagination__page-number">
                 ...
                 </span>
-            </li>
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.href.previous }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber }}</a>
-            </li>
-            <li class="pagination__page-list-items">
+                </li>
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.href.previous }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> {{ pagination.pageNumber }}
+                    </a>
+                </li>
+                <li class="pagination__page-list-items">
                 <span class="pagination__page-number--active">
                     {{ pagination.pageNumber | plus: 1 }}
                 </span>
-            </li>
+                </li>
 
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.href.last }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.hrefs.length }} </a>
-            </li>
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.href.last }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> {{ pagination.hrefs.length }}
+                    </a>
+                </li>
 
-        {% endif %}
+            {% endif %}
 
-        {% comment %}If there are more than 5 pages and there is no previousPage then: show currentPage, nextPage, nextPage+1, ... span, and lastPage{% endcomment %}
+            {% comment %}If there are more than 5 pages and there is no previousPage then: show currentPage, nextPage, nextPage+1, ... span, and lastPage{% endcomment %}
 
-        {% if pagination.hrefs.length > 5 and pagination.href.previous == null and pagination.href.next %}
-            <li class="pagination__page-list-items">
+            {% if pagination.hrefs.length > 5 and pagination.href.previous == null and pagination.href.next %}
+                <li class="pagination__page-list-items">
                 <span class="pagination__page-number--active">
                 {{ pagination.pageNumber | plus: 1 }}
                 </span>
-            </li>
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.href.next }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber | plus: 2 }}</a>
-            </li>
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.pageNumber | plus: 2 }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber | plus: 3 }}</a>
-            </li>
-            <li class="pagination__page-list-items">
+                </li>
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.href.next }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> {{ pagination.pageNumber | plus: 2 }}
+                    </a>
+                </li>
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.pageNumber | plus: 2 }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> {{ pagination.pageNumber | plus: 3 }}
+                    </a>
+                </li>
+                <li class="pagination__page-list-items">
                 <span class="pagination__page-number">
                 ...
                 </span>
-            </li>
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.href.last }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.hrefs.length }}</a>
-            </li>
-        {% endif %}
+                </li>
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.href.last }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> {{ pagination.hrefs.length }}
+                    </a>
+                </li>
+            {% endif %}
 
-        {% comment %}If more than 5 pages and there is no nextPage, show 5 pages: firstPage, ... span, previousPage -1, previousPage, currentPage{% endcomment %}
-        {% if pagination.hrefs.length > 5 and pagination.nextPageHref == null and pagination.href.previous %}
+            {% comment %}If more than 5 pages and there is no nextPage, show 5 pages: firstPage, ... span, previousPage -1, previousPage, currentPage{% endcomment %}
+            {% if pagination.hrefs.length > 5 and pagination.nextPageHref == null and pagination.href.previous %}
 
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.href.first }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> 1</a>
-            </li>
-            <li class="pagination__page-list-items">
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.href.first }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> 1</a>
+                </li>
+                <li class="pagination__page-list-items">
                 <span class="pagination__page-number">
                 ...
                 </span>
-            </li>
-            {% comment %}Here we would like to show the page before the previous page. Pagination does not have a standard for this and combines the page url you are on and the new page number, instead of just showing the new page number. For now we decided to leave it out because it's not a uce case of great importance. If Pagination will be updated with better use for this case, we can do it how we originally designed it.{% endcomment %}
-            {% comment %}<li class="pagination__page-list-items">{% endcomment %}
+                </li>
+                {% comment %}Here we would like to show the page before the previous page. Pagination does not have a standard for this and combines the page url you are on and the new page number, instead of just showing the new page number. For now we decided to leave it out because it's not a uce case of great importance. If Pagination will be updated with better use for this case, we can do it how we originally designed it.{% endcomment %}
+                {% comment %}<li class="pagination__page-list-items">{% endcomment %}
                 {% comment %}<a class="pagination__page-number"{% endcomment %}
-                   {% comment %}href="{{ pagination.pageNumber | minus: 2 }}">{{ pagination.pageNumber | minus: 1 }}</a>{% endcomment %}
-            {% comment %}</li>{% endcomment %}
-            <li class="pagination__page-list-items">
-                <a class="pagination__page-number"
-                   href="{{ pagination.href.previous }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber }}</a>
-            </li>
-            <li class="pagination__page-list-items">
+                {% comment %}href="{{ pagination.pageNumber | minus: 2 }}">{{ pagination.pageNumber | minus: 1 }}</a>{% endcomment %}
+                {% comment %}</li>{% endcomment %}
+                <li class="pagination__page-list-items">
+                    <a class="pagination__page-number" href="{{ pagination.href.previous }}"><span
+                                class="visually-hidden"> {{ translations[locale].page }} </span> {{ pagination.pageNumber }}
+                    </a>
+                </li>
+                <li class="pagination__page-list-items">
                 <span class="pagination__page-number--active">
                 {{ pagination.pageNumber | plus: 1 }}
                 </span>
-            </li>
+                </li>
 
-        {% endif %}
+            {% endif %}
 
-    </ul>
+        </ul>
 
-    {%- if pagination.nextPageLink -%}
-    <a class="pagination__navigation-button" href="{{ pagination.nextPageHref | url }}">><span class="visually-hidden">{{ translations[locale].next}} {{ translations[locale].page}}</span></a>
-    {%- endif -%}
+        {%- if pagination.nextPageLink -%}
+            <a class="pagination__navigation-button" href="{{ pagination.nextPageHref | url }}">><span
+                        class="visually-hidden">{{ translations[locale].next }} {{ translations[locale].page }}</span></a>
+        {%- endif -%}
     </nav>
 
 {%- endif -%}
