@@ -30,6 +30,7 @@
   height: 35px;
   border-radius: 50%;
   z-index: 1;
+  flex-shrink: 0;
 }
 
 /*.pagination__navigation-button:before {*/
@@ -78,7 +79,13 @@
 }
 
 .pagination__page-list-items {
-  margin: var(--spacing);
+  margin: var(--spacing) var(--spacing-half);
+}
+
+@media (min-width: 30em) {
+  .pagination__page-list-items {
+    margin: var(--spacing);
+  }
 }
 
 .pagination__page-number {
@@ -115,4 +122,3 @@ a.pagination__page-number:hover {
   border-radius: 50%;
   z-index: -1;
 }
-
