@@ -3,9 +3,9 @@
 -->
 
         {%- if pagination.pageLinks.length > 1 -%}
-    <nav class="pagination">
+    <nav class="pagination" aria-label="{{ translations[locale].pagination }}">
     {%- if pagination.previousPageLink -%}
-        <a aria-label="{{ translations[locale].previous }}" class="pagination__navigation-button" href="{{ pagination.previousPageHref | url }}"><</a>
+        <a class="pagination__navigation-button" href="{{ pagination.previousPageHref | url }}"><<span class="visually-hidden">{{ translations[locale].previous}} {{ translations[locale].page}}</span></a>
     {%- endif -%}
 
         {% comment %}
@@ -41,7 +41,7 @@
                     </span>
             {%- else -%}
                 <a class="pagination__page-number"
-                   href="{{ pagination.hrefs[ forloop.index0 ] }}">{{ forloop.index0 | plus: 1 }}</a>
+                   href="{{ pagination.hrefs[ forloop.index0 ] }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ forloop.index0 | plus: 1 }}</a>
             {%- endif -%}
         </li>
 
@@ -54,7 +54,7 @@
         {% if pagination.hrefs.length > 5 and pagination.href.previous and pagination.href.next and pagination.href.next != pagination.href.last %}
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.href.previous }}">{{ pagination.pageNumber }}</a>
+                   href="{{ pagination.href.previous }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber }}</a>
             </li>
             <li class="pagination__page-list-items">
                 <span class="pagination__page-number--active">
@@ -63,7 +63,7 @@
             </li>
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.href.next }}">{{ pagination.pageNumber | plus: 2 }}</a>
+                   href="{{ pagination.href.next }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber | plus: 2 }}</a>
             </li>
             <li class="pagination__page-list-items">
                 <span class="pagination__page-number">
@@ -72,7 +72,7 @@
             </li>
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.href.last }}">{{ pagination.hrefs.length }}</a>
+                   href="{{ pagination.href.last }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.hrefs.length }}</a>
             </li>
 
         {% endif %}
@@ -82,7 +82,7 @@
         {% if pagination.hrefs.length > 5 and pagination.href.previous and pagination.href.next == pagination.href.last %}
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.href.first }}">1</a>
+                   href="{{ pagination.href.first }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> 1</a>
             </li>
             <li class="pagination__page-list-items">
                 <span class="pagination__page-number">
@@ -91,7 +91,7 @@
             </li>
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.href.previous }}">{{ pagination.pageNumber }}</a>
+                   href="{{ pagination.href.previous }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber }}</a>
             </li>
             <li class="pagination__page-list-items">
                 <span class="pagination__page-number--active">
@@ -101,7 +101,7 @@
 
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.href.last }}">{{ pagination.hrefs.length }}</a>
+                   href="{{ pagination.href.last }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.hrefs.length }} </a>
             </li>
 
         {% endif %}
@@ -116,11 +116,11 @@
             </li>
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.href.next }}">{{ pagination.pageNumber | plus: 2 }}</a>
+                   href="{{ pagination.href.next }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber | plus: 2 }}</a>
             </li>
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.pageNumber | plus: 2 }}">{{ pagination.pageNumber | plus: 3 }}</a>
+                   href="{{ pagination.pageNumber | plus: 2 }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber | plus: 3 }}</a>
             </li>
             <li class="pagination__page-list-items">
                 <span class="pagination__page-number">
@@ -129,7 +129,7 @@
             </li>
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.href.last }}">{{ pagination.hrefs.length }}</a>
+                   href="{{ pagination.href.last }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.hrefs.length }}</a>
             </li>
         {% endif %}
 
@@ -138,7 +138,7 @@
 
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.href.first }}">1</a>
+                   href="{{ pagination.href.first }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> 1</a>
             </li>
             <li class="pagination__page-list-items">
                 <span class="pagination__page-number">
@@ -152,7 +152,7 @@
             {% comment %}</li>{% endcomment %}
             <li class="pagination__page-list-items">
                 <a class="pagination__page-number"
-                   href="{{ pagination.href.previous }}">{{ pagination.pageNumber }}</a>
+                   href="{{ pagination.href.previous }}"><span class="visually-hidden"> {{ translations[locale].page}} </span> {{ pagination.pageNumber }}</a>
             </li>
             <li class="pagination__page-list-items">
                 <span class="pagination__page-number--active">
@@ -165,7 +165,7 @@
     </ul>
 
     {%- if pagination.nextPageLink -%}
-    <a aria-label="{{ translations[locale].next }}" class="pagination__navigation-button" href="{{ pagination.nextPageHref | url }}">></a>
+    <a class="pagination__navigation-button" href="{{ pagination.nextPageHref | url }}">><span class="visually-hidden">{{ translations[locale].next}} {{ translations[locale].page}}</span></a>
     {%- endif -%}
     </nav>
 
