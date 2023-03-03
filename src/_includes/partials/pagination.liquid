@@ -136,10 +136,9 @@
                 </span>
                 </li>
                 {% comment %}Here we would like to show the page before the previous page. Pagination does not have a standard for this and combines the page url you are on and the new page number, instead of just showing the new page number. For now we decided to leave it out because it's not a uce case of great importance. If Pagination will be updated with better use for this case, we can do it how we originally designed it.{% endcomment %}
-                {% comment %}<li class="pagination__page-list-items">{% endcomment %}
-                {% comment %}<a class="pagination__page-number"{% endcomment %}
-                {% comment %}href="{{ pagination.pageNumber | minus: 2 }}">{{ pagination.pageNumber | minus: 1 }}</a>{% endcomment %}
-                {% comment %}</li>{% endcomment %}
+                <li class="pagination__page-list-items">
+                <a class="pagination__page-number" href="/{[locale}}/blog/{{ pagination.pageNumber | minus: 2 }}">{{ pagination.pageNumber | minus: 1 }}</a>
+                </li>
                 <li class="pagination__page-list-items">
                     <a class="pagination__page-number" href="{{ pagination.href.previous }}"><span
                                 class="visually-hidden"> {{ translations[locale].page }} </span> {{ pagination.pageNumber }}
