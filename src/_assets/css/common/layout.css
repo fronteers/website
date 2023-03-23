@@ -67,6 +67,10 @@ main section > .h {
   padding: var(--spacing);
 }
 
+.page-content--styledheader {
+    padding-top: 0;
+}
+
 .page-content > :first-child {
   margin-block-start: 0;
 }

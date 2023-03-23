@@ -3,8 +3,11 @@
     <div class="outer-wrapper">
         {%- include partials/page-header/_page-header -%}
 
-        <main class="page-content inner-wrapper">
-            <h2>{{ title }}</h2>
+        <main class="page-content inner-wrapper {% if useHero %}page-content--styledheader{% endif %}">
+            {% if useHero != true %}
+                <h2>{{ title }}</h2>
+            {% endif %}       
+
             {{ content }}
         </main>
 
