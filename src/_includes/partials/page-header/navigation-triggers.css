@@ -50,6 +50,8 @@
   right: var(--spacing);
 }
 
+/* Make mobile navigation scrollable */
+
 #navigation-close,
 .navigation-opened #navigation-open {
   display: none;
@@ -57,4 +59,37 @@
 
 .navigation-opened #navigation-close {
   display: block;
+}
+.navigation-opened {
+  overflow: hidden;
+}
+
+.navigation-opened .page-header-wrapper {
+  position: fixed;
+  width: 100vw;
+  background-color: transparent;
+  z-index: 100;
+}
+
+.navigation-opened .page-navigation {
+  overflow: auto;
+  height: calc(100vh - 78px + 42px);
+  top: 36px;
+}
+
+.navigation-opened main {
+  position: relative;
+  top: 78px;
+}
+
+.navigation-opened .page-header-logo {
+  background-color: black;
+  height: 36px;
+}
+
+.navigation-opened .navigation-list-item--toplevel > a {
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 10;
 }
