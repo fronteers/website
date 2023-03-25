@@ -1,7 +1,13 @@
-.page-header {
+.page-header-wrapper {
   background: black;
   color: white;
+}
+
+.page-header {
+  width: 100%;
+  max-width: var(--outer-width);
   position: relative;
+  margin: 0 auto;
 }
 
 @media all and (min-width: 31em) {

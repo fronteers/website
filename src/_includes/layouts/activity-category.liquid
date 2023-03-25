@@ -1,6 +1,5 @@
 {%- include partials/utility/html-head -%}
 <body>
-<div class="outer-wrapper">
     {%- include partials/page-header/_page-header -%}
 
     <main class="page-content inner-wrapper">
@@ -14,15 +13,15 @@
         {%- assign posts = collections.published_activities | getLocale: locale -%}
         <ul class="desktop-columns">
             {%- for post in posts -%}
-            {%- assign post_categories = post.data.categories -%}
-            {%- for post_category in post_categories -%}
-                {%- assign current_category = post_category | downcase -%}
-                {%- if category.title == current_category -%}
-                    <li class="list-item">
-                        {%- include partials/activity headerlvl:"h3" index:forloop.index activity:post -%}
-                    </li>
-                {%- endif -%}
-            {%- endfor -%}
+                {%- assign post_categories = post.data.categories -%}
+                {%- for post_category in post_categories -%}
+                    {%- assign current_category = post_category | downcase -%}
+                    {%- if category.title == current_category -%}
+                        <li class="list-item">
+                            {%- include partials/activity headerlvl:"h3" index:forloop.index activity:post -%}
+                        </li>
+                    {%- endif -%}
+                {%- endfor -%}
             {%- endfor -%}
         </ul>
 
@@ -47,7 +46,5 @@
     </main>
 
     {%- include partials/page-footer/_page-footer -%}
-</div>
 </body>
 </html>
-

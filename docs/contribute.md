@@ -14,16 +14,16 @@ Curious as to how the site looks right now? Check out [the Fronteers website bet
 
 Before you start contributing consider the following principles:
 
-**1. This is for everyone**  
+**1. This is for everyone**
 Make sure everyone feels welcome to contribute to fronteers.nl. Keep your feedback or issue descriptions civil and on point.
 
-**2. Three see more than two, see more than one**  
+**2. Three see more than two, see more than one**
 There are a lot of smart people in our community, so ask for feedback on your idea, and let's learn from each other!
 
-**3. Keep it simple, sweetie**  
+**3. Keep it simple, sweetie**
 We're all volunteers with limited time, so keep your contributions small and simple so people can easily pick up where you left off.
 
-**4. There's no harm in asking**  
+**4. There's no harm in asking**
 When you are stuck or want to get started on an issue but are not entirely sure how, ask around in Fronteers Slack. There's always someone willing to help. If you're not a member of our Slack community yet, you can [register here](https://fronteers-slack.herokuapp.com/).
 
 ## 🏗 Good first issues
@@ -72,6 +72,7 @@ Git is a version management tool. While coding, you create "save points" (called
 Git articles and video's online can be a little intimidating. It can help to install a good [Git graphical user interface](https://git-scm.com/downloads/guis).
 
 Once you have Git, open a command line and go to a folder on your harddisk where you want to keep a copy of the Fronteers website code.
+**For example:** Go to a folder like `your-username/github/`, and do the following command. It will then create the Fronteers website code in `your-username/github/website` :)
 
 ```bash
 git clone https://github.com/fronteers/website.git
@@ -101,11 +102,11 @@ git checkout -b [branch-name]
 Replace [branch-name] in the above command with a name that explains what the end-result will be. Here are some examples:
 
 ```
-git checkout -b /feature/about-hero-element
+git checkout -b feature/about-hero-element
 
-git checkout -b /bugfix/fix-typos-on-homepage
+git checkout -b bugfix/fix-typos-on-homepage
 
-git checkout -b /content/add-my-meetup
+git checkout -b content/add-my-meetup
 ```
 
 ## Step 4: Run Eleventy
@@ -121,7 +122,11 @@ This command tells Eleventy to go through all the files in the `src` folder. Whe
 ![Example of what you get when running the command npm run start](https://github.com/fronteers/website/blob/main/docs/afterrunningnpmstart.png?raw=true)
 
 > Sidenote
-> All this is really smart, but it is not _that_ smart. If you generated a html page, which you're looking at in the browser, and you delete it so the page in the browser shouldn't exist anymore, it will look to you as if nothing changes. This is because Eleventy doesn't delete all the files in the `dist` folder before it generates all the pages again.
+> All this is really smart, but it is not _that_ smart. If you generated a html page, which you're looking at in the browser, and you delete it so the page in the browser shouldn't exist anymore, it will look to you as if nothing changes. This is because Eleventy doesn't delete all the files in the `dist` folder before it generates all the pages again. However, re-running npm `start` solves this problem.
+
+### Quick build
+
+If you are working with files that trigger a full re-build, such as `.liquid` files, you probably don't want to wait for all files to re-generate. In this case, run `npm run start:quick` instead to exclude all older content.
 
 ### Just generating the site
 

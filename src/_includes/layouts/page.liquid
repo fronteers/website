@@ -1,17 +1,15 @@
 {%- include partials/utility/html-head -%}
 <body>
-    <div class="outer-wrapper">
-        {%- include partials/page-header/_page-header -%}
+    {%- include partials/page-header/_page-header -%}
 
-        <main class="page-content inner-wrapper {% if useHero %}page-content--styledheader{% endif %}">
-            {% if useHero != true %}
-                <h2>{{ title }}</h2>
-            {% endif %}       
+    <main class="page-content inner-wrapper {% if useHero %}page-content--styledheader{% endif %}">
+        {% if useHero != true %}
+            <h2>{{ title }}</h2>
+        {% endif %}       
 
-            {{ content }}
-        </main>
+        {{ content }}
+    </main>
 
-        {%- include partials/page-footer/_page-footer -%}
-    </div>
+    {%- include partials/page-footer/_page-footer -%}
 </body>
 </html>

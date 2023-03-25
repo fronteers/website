@@ -21,6 +21,7 @@ module.exports = {
       conferenceBanner: "Get a taste of our conference",
       membersSpecial: "Member's Special",
       joinUs: "Join us",
+      joinUsDescription: "Join Fronteers and don't miss a thing!",
       activeVacancies: "Job openings",
     },
     socialMedia: {
@@ -45,7 +46,9 @@ module.exports = {
     conferenceURL: "en/conference",
     olderArticles: "Older articles",
     newerArticles: "Newer articles",
-    nextEvent: "Next event"
+    nextEvent: "Next event",
+    page: "Page",
+    pagination: "Pagination"
   },
   nl: {
     baseUrl: "https://www.fronteers.nl/nl",
@@ -69,6 +72,7 @@ module.exports = {
       conferenceBanner: "Bekijk video's van ons congres",
       membersSpecial: "Speciaal voor leden",
       joinUs: "Word ook lid",
+      joinUsDescription: "Wordt lid van onze vereniging en mis niets meer!",
       activeVacancies: "Vacatures",
     },
     socialMedia: {
@@ -93,6 +97,8 @@ module.exports = {
     conferenceURL: "nl/congres",
     olderArticles: "Ouder",
     newerArticles: "Nieuwer",
-    nextEvent: "Binnenkort"
+    nextEvent: "Binnenkort",
+    page: "Pagina",
+    pagination: "Paginering"
   },
 };
