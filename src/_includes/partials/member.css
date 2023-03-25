@@ -62,30 +62,24 @@
 @media all and (min-width: 46.875em) {
   .member {
     background: transparent;
-    block-size: 250px;
   }
 
   .member-content {
     -webkit-clip-path: url(#parenthesis-down-small);
     clip-path: url(#parenthesis-down-small);
-    transform: translateY(-100%) scaleY(0.1);
-    transition: transform 0.2s ease-out;
     position: relative;
+    top: -40px;
     padding: calc(var(--spacing) * 2) var(--spacing);
     min-height: 200px;
   }
 
   .member:hover .member-content,
   .member:focus .member-content {
-    transform: translateY(-40px) scaleY(1);
-    transition: transform 0.2s ease-in-out;
     z-index: 1;
   }
 
   /* duplicate, to avoid issues in IE11 */
   .member:focus-within .member-content {
-    transform: translateY(-40px) scaleY(1);
-    transition: transform 0.2s ease-in-out;
     z-index: 1;
   }
 }
