@@ -183,5 +183,6 @@ Ten slotte wil ik graag JavaScript-whizzkid [Mathias Bynens](https://mathiasbyne
 (TODO: Over Roel Van Gils
 2011/12/roel-van-gils.jpg
 Roel Van Gils noemt zichzelf webarchitect. Als zelfstandig consultant geeft hij advies en helpt bedrijven en overheden met het bouwen van efficiënte, toegankelijke en gebruiksvriendelijke websites en applicaties. Hij werkt voor het web sinds 2000 en is mede-initiatiefnemer van [AnySurfer](http://www.anysurfer.be/), een Belgische organisatie die ijvert voor een toegankelijker internet voor mensen met een handicap. Roel steekt ook graag een handje toe bij het organiseren van [Fronteers-bijeenkomsten](/bijeenkomsten) in Vlaanderen. Hij twittert als [@roelvangils](https://twitter.com/roelvangils).
-Donatie: Belgisch Centrum voor Geleidehonden
+
+**Donatie:** Belgisch Centrum voor Geleidehonden
 In mijn omgeving heb ik zelf gezien hoe een geleidehond het leven van iemand die slechtziend of blind is helemaal kan veranderen. Ik ken jammer genoeg ook mensen die al jaren uitkijken naar een eigen geleidehond–of een opvolger voor een hond die te oud was geworden. Het opleiden van een hond is enorm tijdsintensief en daardoor is de wachtlijst lang. Ik steun het [Belgisch Centrum voor Geleidehonden](http://www.geleidehond.be/), een vzw die sinds 1990 alles in het werkt stelt om honden op te leiden en ze daarna kosteloos ter beschikking stelt aan wie ze echt nodig heeft.)

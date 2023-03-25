@@ -46,7 +46,8 @@ Nu Flash eindelijk ten dode opgeschreven is en IE6 zijn laatste adem uitblaast k
 (TODO: Over Andreas Creten
 2011/12/andreas-creten.jpg
 [Andreas](https://twitter.com/andreascreten) is de zaakvoerder van [madewithlove](http://madewithlove.be). Met een klein team ontwikkelen ze webapplicaties en verlenen ze technisch advies aan bedrijven en startups. Andreas heeft een bachelor in informatica en studeert een master in management. In zijn vrije tijd reist hij, al dan niet op skies, en geniet hij van [elektronische muziek](http://muff.be).
-Donatie: PROTOS
+
+**Donatie:** PROTOS
 Ik heb voor [PROTOS](http://protos.be/) gekozen, omdat een groot oom van me er voorzitter van was. Twee jaar geleden heb ik op kerstdag een wandeling met deze bijna blinde man gemaakt en het raakte me hoe gedreven hij over zijn ervaringen kon vertellen. Ik ben er dus van overtuigd dat het geld goed en correct besteed zal worden.
 Samen met haar partners en de lokale bevolking slaagt PROTOS erin om jaarlijks zowat honderdduizend mensen aan betere hygiënische voorzieningen, drinkbaar water en/of irrigatiewater voor de voedselvoorziening te helpen. De gemiddelde kostprijs van onze werking per begunstigde inwoner van het Zuiden is 50€.
 Maar het werk is nog niet af.  Er zijn nog steeds 1.1 miljard mensen zonder toegang tot veilig drinkwater, en liefst één derde van de wereldbevolking heeft nog geen voldoende sanitaire voorzieningen.

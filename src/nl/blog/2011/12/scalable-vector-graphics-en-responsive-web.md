@@ -45,5 +45,6 @@ Hopelijk heb ik jullie een beetje kunnen overtuigen om in toekomstige projecten 
 /2011/12/jochen-vandendriessche.jpg
 Freelance front-end developer onder de naam builtbyrobot. Viel als kind in een vat Red Bull en bijgevolg gigantisch energiek. Overtuigde Apple fanboy, houdt van open webstandaarden en een goede portie JavaScript. Twittert als [@joggink](https://twitter.com/joggink). Blogt ook van tijd tot tijd eens op [joggink.com](http://joggink.com/) en dan voornamelijk over front-end gerelateerde zaken en slechte internet providers. Is momenteel bezig aan een web based SVG editor, genaamd [Willistrator](http://willistrator.com) die naast SVG RaphaelJS kan genereren. 
 Favoriete slogan: 'Develop for the best, optimize for the rest!'
-Donatie: [Think pink](http://www.think-pink.be/)
+
+**Donatie:** [Think pink](http://www.think-pink.be/)
 Vier jaar geleden, op 10 december 2007, verloor mijn moeder een vijf jaar durende strijd tegen borstkanker. Vijf moeilijke jaren met af en toe een sprankeltje hoop, die helaas de kop werd ingedrukt door uitzaaiingen van deze agressieve tumor. Hopelijk kan deze donatie iets uitmaken aan de levensverwachting van andere vrouwen, moeders, dochters.)

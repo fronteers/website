@@ -172,5 +172,6 @@ Wat je ook kiest, basiskennis van HTML, CSS en JavaScript is voldoende om aan de
 (TODO: Over Tim Severien
 /adventskalender/tim-severien.png
 Tim Severien is een front-end developer uit Nederland. Naast zijn werk blogt hij wel eens op [timseverien.com](https://timseverien.com/) en uit hij zijn creativiteit op [codepen.io/timseverien](https://codepen.io/timseverien).
-Donatie: WNF
+
+**Donatie:** WNF
 Ik hou enorm van dieren en de natuur en ik wil dat ze onderdeel blijven van dit kleine brokje in het universum. Daarom doneer ik aan het WNF.)

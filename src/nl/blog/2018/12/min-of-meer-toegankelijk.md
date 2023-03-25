@@ -52,5 +52,6 @@ Zorg dat je voldoende kennis hebt van HTML, CSS en WAI-ARIA als je een website o
 (TODO: Over Jules Ernst
 /adventskalender/jules.jpg
 [Jules Ernst](https://www.200ok.nl/) weet heel veel van digitale toegankelijkheid. Hij helpt organisaties om digitale toegankelijkheid te realiseren en te borgen. Dit doet hij door mee te werken in projecten, trainingen en workshops te geven en websites en webapplicaties te onderzoeken op toegankelijkheid.
-Donatie: [Niketan](https://www.niketan.nl/)
+
+**Donatie:** [Niketan](https://www.niketan.nl/)
 Kinderen met een beperking een kans geven. Ze de mogelijkheid geven dat ze later zelf keuzes kunnen maken. Niketan is een bijzondere stichting die zich daarmee bezig houdt en waarvan je zeker weet dat je geld goed besteed wordt.)

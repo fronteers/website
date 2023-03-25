@@ -74,5 +74,6 @@ En als je het écht goed doet, snappen ze zelfs die wondere wereld van unicorns,
 (TODO: Over Ruben Bos
 2011/12/ruben-bos.png
 Overdag Creative Director bij [Mangrove](http://mangrove.nl/). 's Avonds de wijsneus met zijn alter ego [Bossing Around](http://bossingaround.com/). Half-Iers. Verslaafd aan roze koeken. Schreef ooit een [boek over webdesign](http://webdesignrules.nl/) voor opdrachtgevers van websitebouwers. Volg op Twitter: [@rubenbos](https://twitter.com/rubenbos)
-Donatie: Oxfam Novib 
+
+**Donatie:** Oxfam Novib 
 Mijn donatie gaat naar de [aankoop van 150 mangrovebomen](http://www.oxfamnovibpaktuit.nl/pages/detail/s1/21030000000027-2-21010000000083.aspx). Want mangroves zijn niet alleen vis- en dierrijke ecosystemen, maar bieden ook levensreddende bescherming tegen erosie en overstromingen.)

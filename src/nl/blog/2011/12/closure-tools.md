@@ -137,5 +137,6 @@ Het blijft lastig om zo’n uitgebreide toolset in een keer te introduceren, maa
 (TODO: Over Johan Schuyt
 2011/12/johan-schuyt.jpg
 Johan is werkzaam bij [TransIP](https://www.transip.nl/) waar hij zich voornamelijk bezighoudt met alle client-side ontwikkelingen. Ook zijn er veel blog posts van hem te vinden op op [blog.transip.nl](http://blog.transip.nl/). Van tijd tot tijd zal hij wat ventileren op zijn Twitter account [@johansglock](https://twitter.com/johansglock).
-Donatie: [Red een kind](http://www.redeenkind.nl/)
+
+**Donatie:** [Red een kind](http://www.redeenkind.nl/)
 Kinderen zijn de toekomst, en verdienen een zorgeloos te kunnen opgroeien. Niks is meer belangrijk, vandaar dat ik graag Red een kind ondersteun.)

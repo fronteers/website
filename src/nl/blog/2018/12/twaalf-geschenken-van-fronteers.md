@@ -91,4 +91,5 @@ Ik ben benieuwd wat Fronteers haar leden in 2019 zal schenken, en aan welke ding
 /adventskalender/job.jpeg
 Job werkt als toegankelijkheidsspecialist (mooi Scrabblewoord) en ontwikkelaar bij Tenon (https://www.tenon.io). Hij gooit met slangen en water bij de vrijwillige brandweer.
 
-Donatie: Stichting Lezen en Schrijven)
+
+**Donatie:** Stichting Lezen en Schrijven)

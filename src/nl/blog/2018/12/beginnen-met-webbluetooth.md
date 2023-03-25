@@ -160,4 +160,5 @@ En dit is ongeveer 90% van de WebBluetooth API en alles wat je moet weten om te 
 (TODO: Over Niels Leenheer
 /adventskalender/niels.jpg
 Niels is een browser-geek. Vanaf het moment dat iemand hem de allereerste Nexus browser op een NeXT Cube liet zien is hij bezig met browsers. Niels is de maker van HTML5test.com, de CSS selector test, spreekt op conferenties en zit sinds 2018 in de congrescommissie van Fronteers.
-Donatie: KWF Kankerbestrijding)
+
+**Donatie:** KWF Kankerbestrijding)

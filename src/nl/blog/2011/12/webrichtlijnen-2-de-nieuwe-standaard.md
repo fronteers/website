@@ -61,5 +61,6 @@ Al met al een hoop veranderingen voor een meer flexibele en toekomstgerichte set
 2011/12/janita-top.jpg
 Janita is freelance front-end developer en zit namens Fronteers in de Normcommissie Drempelvrij.nl. Haar kernwoorden, zowel in werk als privé, zijn kwaliteit en duurzaamheid. Ze is gek op (trein)reizen, fietsen en gaat geregeld naar (pop)concerten.
 Ze is te vinden op [Twitter](https://twitter.com/sigvi) en op haar eigen website [janitatop.nl](http://www.janitatop.nl/).
-Donatie: Sea Shepherd
+
+**Donatie:** Sea Shepherd
 [Sea Shepherd](http://www.seashepherd.nl/) voert directe actie op zee om de afslachting van o.a. walvissen en dolfijnen tegen te gaan en de vernietiging van de leefomgeving te stoppen. Dit is hard nodig om ecosystemen en soorten te beschermen en te behouden. De organisatie krijgt geen subsidies en is daardoor volledig afhankelijk van donaties.)

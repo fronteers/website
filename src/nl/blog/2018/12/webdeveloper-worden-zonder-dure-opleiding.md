@@ -105,4 +105,5 @@ Het lijstje hierboven is zeker niet volledig, en er zijn er nog veel meer te noe
 (TODO: Over Tim Oerlemans
 /adventskalender/tim-oerlemans.png
 28 jaar, 3 jaar ervaring en momenteel werkzaam als front-end webdeveloper bij TrueLime in Breda. Leergierig en wil constant nieuwe dingen leren.
-Donatie: NSGK)
+
+**Donatie:** NSGK)

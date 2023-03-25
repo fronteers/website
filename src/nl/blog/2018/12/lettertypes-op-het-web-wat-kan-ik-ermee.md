@@ -240,5 +240,6 @@ Probeer het uit! Met een snel inelkaargeflanst pagina’tje kan je leuk experime
 (TODO: Over Amy Davis
 /adventskalender/amy.jpg
 Ik ben opgegroeid met computers, en altijd gefascineerd geweest door het web, HTML, CSS en JS. In het dagelijkse leven ben ik Senior Front-end developer bij [B-ware Business Software](https://www.b-ware.com). Sinds 2016 ben ik lid van Fronteers en de meeste dagen te vinden op de [Fronteers Slack](https://fronteers-slack.herokuapp.com/). Mijn favoriete kleur is #6c48a4.
-Donatie: Wikimedia Foundation
+
+**Donatie:** Wikimedia Foundation
 Ik vind het prachtig om een artikel te schrijven over dingen waar ik verstand van heb en zo anderen verder te helpen. Dé organisatie die dit faciliteert op wereldwijde schaal is de [Wikimedia Foundation](https://wikimediafoundation.org/), bekend van Wikipedia en [vele andere crowd-sourced projecten](https://wikimediafoundation.org/our-work/wikimedia-projects/).)

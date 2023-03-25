@@ -42,5 +42,6 @@ Heel spannend allemaal, maar ook vandaag al kan je allerlei CSS technieken gebru
 (TODO: Over Lennart Schoors
 2011/12/lennart-schoors.jpg
 [Lennart Schoors](http://lensco.be/) uit Gent, België werkte meer dan vijf jaar aan sociaal netwerk Netlog, maar is sinds kort freelance interface designer en front-end developer. Schrijft af en toe korte postjes over HTML/CSS op [Bricss](http://bricss.net/).
-Donatie: Wikipedia
+
+**Donatie:** Wikipedia
 Wat is de gemakkelijkste manier om dat hoofd van Jimmy Wales uit de header van Wikipedia te kegelen? Hint: niet door erover te klagen op Twitter. Gratis kennis voor de hele wereld, hoera!)

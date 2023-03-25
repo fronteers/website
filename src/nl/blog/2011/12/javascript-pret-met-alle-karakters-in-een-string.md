@@ -123,5 +123,6 @@ Deze oplossing is net als de vorige volledig ES3-compatibel, en werkt bovendien 
 (TODO: Over Mathias Bynens
 2011/12/mathias-bynens.jpg
 [Mathias](https://mathiasbynens.be/) is een freelance webontwikkelaar uit Grembergen, België. In zijn vrije tijd organiseert hij samen met enkele andere vrijwilligers [Fronteers-meetups in België](https://twitter.com/fronteersbe).
-Donatie: ErKriDo
+
+**Donatie:** ErKriDo
 Wat het goede doel betreft: m’n keuze was snel gemaakt :) [ErKriDo](http://erkrido.blogspot.com/) is de Buggenhoutse aftakking van [Kom Op Tegen Kanker](http://www.tegenkanker.be/kom_op_tegen_kanker). Zij organiseren jaarlijks o.a. een benefietconcert waarvan de opbrengst integraal naar de Vlaamse Liga Tegen Kanker gaat, en dus goed besteed wordt.)

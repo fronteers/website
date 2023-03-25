@@ -96,4 +96,5 @@ Wil je meer lezen? Hier enkele leestips:
 (TODO: Over Bart Veneman
 /adventskalender/bart.jpeg
 Bart is frontend developer met een sterke voorliefde voor CSS op elke schaal, maar is ook niet vies van een portie backend op zijn tijd. Al zijn vaardigheden bundelt hij in het bouwen van [ProjectWallace.com](http://projectwallace.com/), een platform voor CSS analytics.
-Donatie: KiKa!)
+
+**Donatie:** KiKa!)

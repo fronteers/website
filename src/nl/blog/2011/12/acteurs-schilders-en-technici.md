@@ -49,5 +49,6 @@ Nog even en ik kan zeggen dat ik een acteur-schilder-technicus ben. En dat ieman
 2011/12/paul-van-buuren.jpg
 Houdt van mooie dingen maken. Werkt bij [Matchminds](http://www.matchminds.nl/).  Verzamelt [rare woorden](http://www.paulvanbuuren.nl/content/category/bon-mot-du-jour/). En mag sinds de geboorte van z'n kinderen weer met Lego spelen.
 [Twitter](https://twitter.com/paulvanbuuren), [Website](http://paulvanbuuren.nl/about/), [LinkedIn](http://nl.linkedin.com/in/paulvanbuuren)
-Donatie: [Stichting Zwerfjongeren](http://www.zwerfjongeren.nl/)
+
+**Donatie:** [Stichting Zwerfjongeren](http://www.zwerfjongeren.nl/)
 Het is raar en onbegrijpelijk dat we hier in Nederland zwerfjongeren hebben. Toch zijn ze er, bijna 10.000 en vooral in de grote steden. Geef ze weer toekomstperspectief. Vind ik.)

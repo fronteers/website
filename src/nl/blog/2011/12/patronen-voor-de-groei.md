@@ -121,6 +121,7 @@ Dus, waar wacht je nog op!? Start je volgende project met een van de bovenstaand
 2011/12/egor-kloos.jpg
 Geboren in Dublin en woont al decennia in Rotterdam. [Dutchcelt](http://dutchcelt.nl/ "Weblog van Egor Kloos") creëert sinds 1997 met bloed zweet en tranen moderne websites. Vanaf het begin is 'Web Standards' een passie geweest. De kracht van CSS werd hem heel snel duidelijk en resulteerde in zijn 2003 [CSS Zen Garden inzending](http://www.csszengarden.com/062 "Egor's dubbelzinnige 'gemination'"). Twee site designs (eentje voor IE6) via en enkele CSS en javascript.
 Hiermee legde hij de basis voor het maken (en herbouwen) van grote websites in de Enterprise wereld. Daar begeleidt hij zijn klant in alles wat web design en moderne front-end te maken heeft. Nu hij voor [Lunatech Research](http://www.lunatech-research.com/) werkt, heeft hij een deel van zijn [kennis in front-end online](http://www1.lunatech.com/~egor/fep/) kunnen zetten.
-Donatie: Electronic Frontier Foundation
+
+**Donatie:** Electronic Frontier Foundation
 Het internet verandert de wereld en als individu is het helaas opboksen tegen te de belangen van overheden en grote bedrijven. Wat we denken, wat we doen en wie dat mag weten, wordt niet altijd in het belang van het individu bepaald. Muziek op je muziekspeler, video op tablet computer en bloggen vanaf je laptop is al gebonden aan regels. Waar gaat dat heen?
 De [Electronic Frontier Foundation](https://www.eff.org/) vecht voor onze privacy, vecht voor innovatie en dat we onszelf kunnen uiten. Als front-enders werken we op en met het internet en de EFF staat in onze hoek.)

@@ -151,4 +151,5 @@ Regular expressions zijn een uitgebreid onderwerp. Het kan even duren voordat je
 (TODO: Over Melle Wynia
 /adventskalender/melle.jpg
 Melle Wynia werkt als freelance front-end developer/consultant. Voor zijn klanten sluit hij aan bij hun teams om kennis over te dragen, de kwaliteit te waarborgen, beveiliging op peil te brengen en nieuwe features te realiseren. Tot zijn tools behoren onder andere Node, Angular en Vue.js.
-Donatie: de Hersenstichting)
+
+**Donatie:** de Hersenstichting)

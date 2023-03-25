@@ -97,5 +97,6 @@ Deze en vele andere instellingen die je leven in de terminal verbeteren, zijn ov
 (TODO: Over Jan Moesen
 2011/12/jan-moesen.jpg
 [Jan](https://twitter.com/janmoesen) is een webnerd die zich zowel in de browser als op de terminal thuis voelt, en mensen wil doen inzien dat die terminal echt efficiënt is. Dat doet hij op zijn dagtaak als webontwikkelaar, en vanaf begin 2012 ook [op bestelling bij jou](http://tervelo.com/).
-Donatie: [APOPO](http://www.apopo.org/)
+
+**Donatie:** [APOPO](http://www.apopo.org/)
 Vroeger vond ik ratten vieze ziekteverspreiders. APOPO heeft dat echter veranderd: zij leiden heroRATs op. Zo'n Rat 2.0 rédt mensenlevens. Ze worden opgeleid om tuberculose—tering!—vast te stellen of om landmijnen op te sporen. Ontmijnen zit er nog niet in, maar mits genoeg fondsen komt er misschien wel een RatGyver?)

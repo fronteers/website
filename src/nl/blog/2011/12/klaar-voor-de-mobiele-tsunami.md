@@ -138,5 +138,6 @@ En zeg nou zelf, een dynamisch nieuw ecosysteem met tien operating systems en vi
 (TODO: Over Peter-Paul Koch
 2011/12/peter-paul-koch.jpg
 Peter-Paul Koch is oprichter en voorzitter van Fronteers, en houdt de stand van zaken in de chaotische mobiele browsermarkt bij op [QuirksMode.org](http://quirksmode.org/). Hij spreekt in binnen- en buitenland, doet wat consultancy, en werkt gestaag aan zijn mobiele telefooncollectie, die op dit moment uit tweeëntwintig prachtexemplaren bestaat. Zijn volgende leerproces wordt het op het gehoor leren herkennen van mobiele telefoons aan de hand van het geluid dat ze maken als ze op de grond vallen.
-Donatie: [Bits of Freedom](https://www.bof.nl/)
+
+**Donatie:** [Bits of Freedom](https://www.bof.nl/)
 Waarom Bits of Freedom? Omdat digitale burgerrechten steeds belangrijker worden.)

@@ -48,5 +48,6 @@ Aan iedereen die deze maand heeft meegelezen: bedankt voor je overlevend overlez
 (TODO: Over Krijn Hoetmer
 2011/12/krijn-hoetmer.jpg
 Krijgt door dit soort stukjes _alweer_ zin om [kronkels.net](http://kronkels.net/) nieuw leven in te blazen, maar gaat er waarschijnlijk niet aan toekomen door tijdgebrek. Iets wat in 2012 gaat veranderen.
-Donatie: Wikipedia
+
+**Donatie:** Wikipedia
 Omdat deze site het bewijs is dat je nooit uitgeleerd kunt zijn.)

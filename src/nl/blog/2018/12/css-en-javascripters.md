@@ -68,4 +68,5 @@ En als alles perfect loopt, ligt het boek rond maart 2020 in de winkel.
 (TODO: Over Peter-Paul Koch
 /adventskalender/ppk.jpg
 Peter-Paul Koch is front-end consultant en congresorganisator te Amsterdam. Hij bestudeerde browsers op https://quirksmode.org, praat wat, schrijft wat, runt samen met Krijn Hoetmer [CSS Day](https://cssday.nl) en [performance.now()](https://perfnow.nl), richtte ooit tussen de bedrijven door Fronteers en het Fronteers-congres op, en zoekt nu naar nieuwe manieren om moderne front-enders te behoeden voor dezelfde fouten die tien of twintig jaar geleden zijn gemaakt.
-Donatie: Bits of Freedom)
+
+**Donatie:** Bits of Freedom)

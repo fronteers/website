@@ -96,4 +96,5 @@ En om af te sluiten nog een aantal praktische bronnen voor als je nog meer wil w
 (TODO: Over Erik Kroes
 /adventskalender/erik.jpg
 Erik is onderdeel van het accessibility team van ING. Elke dag probeert hij weer zijn steentje bij te dragen aan de digitale toegankelijkheid van de apps en websites. Daarnaast is hij creatief actief en maakt hij onder andere illustraties voor de Volkskrant.
-Donatie: de Hersenstichting)
+
+**Donatie:** de Hersenstichting)

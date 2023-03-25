@@ -118,5 +118,6 @@ Dit artikel is slechts een introductie in de werking van het deferred-object. jQ
 (TODO: Over Edwin Martin
 2011/12/edwin-martin.jpg
 Edwin Martin is freelance front-end webontwikkelaar en woont met vrouw en twee dochtertjes in Hilversum. Binnen Fronteers helpt hij mee met het organiseren van de Fronteers conferentie. Hij houdt een blog bij over front-end op [bitstorm.org](http://www.bitstorm.org/) en is te vinden op twitter als [@edwinm](https://twitter.com/edwinm).
-Donatie: [Electronic Frontier Foundation](https://www.eff.org/)
+
+**Donatie:** [Electronic Frontier Foundation](https://www.eff.org/)
 Mijn echte goede doel is natuurlijk Fronteers, maar dat past niet zo bij de kerstgedachte. Daarom kies ik voor de EFF, die opkomt voor onze rechten in de digitale wereld. Zo helpen ze bijvoorbeeld softwareontwikkelaars die plots een (onterechte) rechtszaak van een groot bedrijf aan de broek krijgen.)

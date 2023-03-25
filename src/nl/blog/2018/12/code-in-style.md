@@ -284,4 +284,5 @@ Het proces zoals hierboven beschreven is natuurlijk niet de enige manier om een 
 /adventskalender/lody.png
 Lody Borgers is front-end developer bij TAF Verzekeringen in Eindhoven. Naast zijn kennis op het gebied van front-end is hij mede geroemd om zijn scherp inzicht, zijn enthousiasme voor JavaScript, en zijn ongelooflijke bescheidenheid. Hij kijkt altijd meer uit naar een meeting dan de mensen die deze meeting met hem hebben. Studeerde naast ICT ook Communicatie, maar zegt zelf nooit teveel. [@lodybo](https://www.twitter.com/lodybo)
 
-Donatie: Nederlandse Hartstichting)
+
+**Donatie:** Nederlandse Hartstichting)

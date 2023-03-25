@@ -140,5 +140,6 @@ Alan Watt, ADDISON-WESLEY, ISBN 0-201-15442-0
 (TODO: Over Arjan Westerdiep
 2011/12/arjan-westerdiep.jpg
 Arjan Westerdiep is gediplomeerd kunstenaar, woordblind en probeert met wisselend succes zowel zijn linker als rechter hersenhelft te gebruiken en te combineren, was weer welkom op de lagere school zodra hij het telefoonnummer van zijn ouderlijk huis wist te onthouden, vindt iets mooi of lelijk en is de maker van [drububu.com](http://www.drububu.com).
-Donatie: Leger des Heils
+
+**Donatie:** Leger des Heils
 Het Leger des Heils bekommert zich om degenen die niet de middelen, mogelijkheden en luxe hebben zich met zaken als anti-aliasing en z-buffers bezig te houden, omdat het ze ontbeert aan de meest basale middelen om een menswaardig leven te leiden en doen dat zonder enige vorm van discriminatie.)

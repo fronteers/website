@@ -192,5 +192,6 @@ Voor mobiele apparaten is het sowieso nu het best om HTML5 te gebruiken (hetzij 
 2011/12/jeroen-wijering.jpg
 Jeroen Wijering is de ontwikkelaar [achter de succesvolle JW Player](http://www.whoisjw.tv/), die wordt gebruikt op miljoenen websites wereldwijd. Zijn bedrijf [LongTail Video](http://www.longtailvideo.com/) beheert ook een gratis online platform waarbinnen bedrijven hun video's kunnen encoderen en publiceren.
 Jeroen is te vinden [op twitter](https://twitter.com/jeroenw) en schrijft af en toe een artikel op [www.longtailvideo.com/blog](http://www.longtailvideo.com/blog).
-Donatie: Stichting Aap
+
+**Donatie:** Stichting Aap
 [Stichting Aap](http://www.aap.nl/) is een sympathiek en kleinschalig opvangcentrum voor uitheemse dieren. De dieren die er terecht komen zijn afkomstig van proefdierlaboratoria, circussen, louche dierentuinen of particulieren. Belangrijker is dat ze ook campagnes voeren voor preventie en gewaarwording, zowel in de politiek als bij het publiek.)

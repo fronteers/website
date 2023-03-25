@@ -38,5 +38,6 @@ Het is tijd dat we de woorden slicer, slice en slicing vergeten en schrappen uit
 (TODO: Over Stijn Janssen
 2011/12/stijn-janssen.jpg
 Door de dag vermomd als webdeveloper bij [Inventis](http://www.inventis.be/), 's avonds als freelance front-end developer bij [Recode](http://www.recode.be/). [Stijn](http://www.stijnjanssen.be/) is dag en nacht bezig met front-end development.
-Donatie: Project OSJOSMA
+
+**Donatie:** Project OSJOSMA
 [VZW Osjosma](http://www.osjosma.be/) is een kleine organisatie die een weeshuis heeft gebouwd in Haïti. Ik ken het verhaal van de organisatie al een tijdje en het is een organisatie met duidelijke doelen en een mooie toekomstvisie. De hoofdzetel van de organisatie is amper 2 straten verder dan mijn woonst. Ik ben blij dat ik via deze weg de kinderen in het weeshuis mee kan steunen.)

@@ -301,5 +301,6 @@ Maar het allerbelangrijkste: gebruik van front-end meta languages is leuker en m
 (TODO: Over Roy Tomeij
 2011/12/roy-tomeij.jpg
 Roy Tomeij is co-founder van [80beans](http://www.80beans.com/) en [SliceCraft](http://www.slicecraft.nl/) in Amsterdam, front-end developer en spreker. Hij houdt van front-end meta languages zoals Haml, Sass en CoffeeScript. Als je meer wilt weten, neem dan contact op met [@roy](https://twitter.com/roy) via Twitter.
-Donatie: Doe Een Wens Stichting Nederland
+
+**Donatie:** Doe Een Wens Stichting Nederland
 De vergoeding voor dit artikel gaat naar [Doe Een Wens Stichting Nederland](http://www.doeeenwens.nl/), zodat de liefste wens van kinderen met een levensbedreigende ziekte vervult kan worden.)

@@ -219,5 +219,6 @@ Oh, en prettige feestdagen! ;)
 (TODO: Over Peter van der Zee
 2011/12/peter-van-der-zee.jpg
 [Peter](http://qfox.nl/) is gespecialiseerd in in JavaScript/ECMAScript en werkt voor [Uxebu](http://uxebu.com/), voornamelijk aan JavaScript gerelateerde projecten.
-Donatie: [Bits of Freedom](https://www.bof.nl/)
+
+**Donatie:** [Bits of Freedom](https://www.bof.nl/)
 Peter heeft Fronteers de vrijheid gegeven om een goed doel (of geen) te kiezen en we hebben als tegenhanger voor het EFF voor Bits of Freedom gekozen.)
