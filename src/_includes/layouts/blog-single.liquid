@@ -15,7 +15,9 @@
         <header class="single-blog-hero">
             <div class="single-blog-hero-content ">
                 <div class="content-wrapper">
-                    <h2>{{ title }}</h2>
+                    {% unless useHero %}
+            <h2>{{ title }}</h2>
+        {% endunless %}  
 
                     <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
                         {{ date | displayDate: locale  | date: "%d.%m.%y" }}

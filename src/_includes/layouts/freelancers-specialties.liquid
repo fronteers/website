@@ -10,27 +10,34 @@ key: specialties-{{ specialty.slug }}
 <body>
     {%- include partials/page-header/_page-header -%}
 
-    <main class="page-content inner-wrapper">
-        <h2>{{ title }}</h2>
-        {{ content }}
+    <main class="{% if useHero %}styledheader{% endif %}">
+        <div class="inner-wrapper">
+            <div class="page-content">
+                {% unless useHero %}
+                    <h2>{{ title }}</h2>
+                {% endunless %}  
+                {{ content }}
+            </div>
 
-        {%- include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" -%}
+            {%- include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" -%}
 
-        <h2>{{ translations[locale].member_specialty }}: {{ specialty.title }}</h2>
-        {%- assign posts = collections.members | getLocale: locale -%}
-        <ul class="desktop-columns">
-        {%- for post in posts -%}
-            {%- assign post_specialties = post.data.specialties -%}
-            {%- for post_specialty in post_specialties -%}
-                {%- assign current_specialty = post_specialty | downcase -%}
-                {%- if specialty.title == current_specialty -%}
-                <li class="list-item">
-                    {%- include partials/member headerlvl:"h3" index:forloop.index member:post -%}
-                </li>
-                {%- endif -%}
+            <h2>{{ translations[locale].member_specialty }}: {{ specialty.title }}</h2>
+
+            {%- assign posts = collections.members | getLocale: locale -%}
+            <ul class="desktop-columns">
+            {%- for post in posts -%}
+                {%- assign post_specialties = post.data.specialties -%}
+                {%- for post_specialty in post_specialties -%}
+                    {%- assign current_specialty = post_specialty | downcase -%}
+                    {%- if specialty.title == current_specialty -%}
+                    <li class="list-item">
+                        {%- include partials/member headerlvl:"h3" index:forloop.index member:post -%}
+                    </li>
+                    {%- endif -%}
+                {%- endfor -%}
             {%- endfor -%}
-        {%- endfor -%}
-        </ul>
+            </ul>
+        </div>
     </main>
 
     {%- include partials/page-footer/_page-footer -%}
