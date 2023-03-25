@@ -16,7 +16,7 @@ Hieronder vind je een aantal commissies waarvoor we momenteel nog mensen zoeken.
 
 - [Het bestuur zoekt versterking](/nl/vereniging/vrijwilliger-worden/bestuursleden)
 - [Commissie Activiteiten](/nl/vereniging/vrijwilliger-worden/activiteiten)
-<!-- - [Commissie Congres](/nl/vereniging/vrijwilliger-worden/congres) -->
+- [Commissie Congres](/nl/vereniging/vrijwilliger-worden/congres)
 - [Commissie Website](/nl/vereniging/vrijwilliger-worden/vacature-commissie-website)
 - [Commissie Workshops](/nl/vereniging/vrijwilliger-worden/workshops)
 

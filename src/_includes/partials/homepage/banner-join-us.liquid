@@ -2,8 +2,12 @@
     <div class="curly-braces-bg">
         <div class="banner-join-us-dialog">
             {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
-            <p class="banner-join-us-description">{%- echo partialContent -%}</p>
+            <p class="banner-join-us-description">
+                {{ echo partialContent }}
+            </p>
         </div>
-        <p class="footer-join-us-link"><a href="{{ locale }}/join-us/" class="button button-parentheses">Join us</a></p>
+        <p class="footer-join-us-link">
+            <a href="{{ locale }}/join-us/" class="button button-parentheses">Join us</a>
+        </p>
     </div>
 </section>

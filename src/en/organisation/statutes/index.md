@@ -1,11 +1,9 @@
 ---
 key: statutes
-title: Statuten
-useHero: true
+title: Association founding statutes
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 ---
-{%- aboutushero "Association founding statutes" "" -%}
-
-<br /> <!-- strange bug, if there's no <br /> tag the next paragraph doesn't get a paragraph tag -->
 Today, appeared before me, Mr. Maria Arina Janna Elizabeth Hazenberg, notary in Amsterdam:
 
 1. Mr. Peter-Paul Koch

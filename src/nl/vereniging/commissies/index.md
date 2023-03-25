@@ -1,10 +1,9 @@
 ---
 key: committees
 title: Commissies binnen de vereniging
-useHero: true
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 ---
-{%- aboutushero "Commissies binnen de vereniging" "" -%}
-<br />
 
 We hebben op dit moment 21 vrijwilligers, verdeeld over het bestuur en zes commissies. Voor een aantal commissies zoeken we nog vrijwilligers.
 

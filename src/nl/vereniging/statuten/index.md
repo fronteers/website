@@ -1,11 +1,9 @@
 ---
 key: statutes
 title: Statuten oprichting vereniging
-useHero: true
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 ---
-{%- aboutushero "Statuten oprichting vereniging" "" -%}
-<br /> <!-- strange bug, if there's no <br /> tag the next paragraph doesn't get a paragraph tag -->
-
 Heden, verschenen voor mij, Mr. Maria Arina Janna Elizabeth Hazenberg, notaris te Amsterdam:
 
 1. de heer Peter-Paul Koch

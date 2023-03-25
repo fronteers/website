@@ -14,4 +14,5 @@ exports.aboutushero = (herotitle, herotext) => `
     </div>
   </div>
 </section>
+<br />
 `;

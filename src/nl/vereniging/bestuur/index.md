@@ -1,10 +1,9 @@
 ---
 key: board
 title: Bestuur van de vereniging
-useHero: true
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 ---
-{%- aboutushero "Bestuur van de vereniging" "" -%}
-<br />
 
 | Rol           | Persoon        | 
 |---------------|----------------|

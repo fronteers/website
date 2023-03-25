@@ -1,11 +1,9 @@
 ---
 key: history
 title: History
-useHero: true
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 ---
-{%- aboutushero "Our history" "" -%}
-<br /> <!-- strange bug, if there's no <br /> tag the next paragraph doesn't get a paragraph tag -->
-
 Fronteers was founded in October 2007. In the months before it became clear that an association like this would have a right to exist. On April 27, 2007, Peter-Paul Koch gathered 12 people in Amsterdam to discuss his plans to establish a union for front-end developers. A month later 50 people at Lost Boys also found this an interesting idea.
 
 The temporary name, which came up through a questionnaire, was something with *guild* and *front-end*; Guild of Front-Enders. In the months that followed, this name was retained. During the founding congress in Pakhuis De Zwijger, the name was voted down.

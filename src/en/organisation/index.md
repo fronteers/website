@@ -1,11 +1,9 @@
 ---
 title: About Fronteers
 key: about
-useHero: true
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 ---
-{%- aboutushero "About Fronteers" "" -%}
-<br /> <!-- strange bug, if there's no <br /> tag the next paragraph doesn't get a paragraph tag -->
-
 Fronteers is an association with full legal capacity, established in October 2007. Our mission: to professionalise the profession of front-end developer. The [board](/en/organisation/board/) of the association is responsible for the day-to-day affairs, but outsources the organization of most of the association's activities to a number of [committees](/en/organisation/committees/). Fronteers runs entirely on volunteers. However - in order to spare volunteers as much as possible - where necessary we cooperate with external parties to support the various committees.
 
 Fronteers currently unites [approximately 200 front-end developers](/en/members). Both employees of large and small web agencies, as well as freelancers and employees of non-web agencies are involved in the association.
