@@ -1,11 +1,9 @@
 ---
 key: history
 title: Geschiedenis van de vereniging
-useHero: true
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 ---
-{%- aboutushero "Geschiedenis van de vereniging" "" -%}
-<br /> <!-- strange bug, if there's no <br /> tag the next paragraph doesn't get a paragraph tag -->
-
 Fronteers is in oktober 2007 opgericht. In de maanden daarvoor werd duidelijk dat een vereniging als deze bestaansrecht zou hebben.
 
 Op 27 april 2007 riep Peter-Paul Koch 12 mensen bijeen in Amsterdam, om zijn plannen tot oprichting van een vakvereniging voor front-end ontwikkelaars te bespreken. Een maand later bleken [50 mensen bij Lost Boys](/nl/activiteiten/2007/lost-boys.html) dit ook een interessant idee te vinden.

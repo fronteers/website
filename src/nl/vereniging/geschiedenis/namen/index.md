@@ -1,11 +1,10 @@
 ---
 key: history-names
 title: Mogelijke namen voor de vereniging
-useHero: true
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 ---
-{%- aboutushero "Mogelijke namen voor de vereniging" "Op deze pagina vind je de namen voor het 'Gilde' die in de aanloopfase voor de oprichting door leden zijn voorgesteld, alsmede een bestuursadvies hierover." -%}
-<br /> <!-- strange bug, if there's no <br /> tag the next paragraph doesn't get a paragraph tag -->
-
+Op deze pagina vind je de namen voor het 'Gilde' die in de aanloopfase voor de oprichting door leden zijn voorgesteld, alsmede een bestuursadvies hierover.
 Alle voorlopige leden mochten stemmen, en de uitkomst werd *Fronteers*.
 
 ### Bestuursadvies

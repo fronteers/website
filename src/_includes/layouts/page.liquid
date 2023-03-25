@@ -2,12 +2,18 @@
 <body>
     {%- include partials/page-header/_page-header -%}
 
-    <main class="page-content inner-wrapper {% if useHero %}page-content--styledheader{% endif %}">
-        {% if useHero != true %}
-            <h2>{{ title }}</h2>
-        {% endif %}       
+    <main class="{% if useHero %}styledheader{% endif %}">
+        {% if useHero == 'aboutushero' %}
+            {%- aboutushero title heroSlogan -%}
+        {% endif %}
 
-        {{ content }}
+        <div class="page-content inner-wrapper">
+            {% unless useHero %}
+                <h2>{{ title }}</h2>
+            {% endunless %}   
+            
+            {{ content }}
+        </div>
     </main>
 
     {%- include partials/page-footer/_page-footer -%}
