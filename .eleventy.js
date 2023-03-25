@@ -93,7 +93,12 @@ module.exports = function(eleventyConfig) {
   // Why do it this way? We want to preserve the directory structure so that the
   // import paths are traversable in your IDE.
   //
-  eleventyConfig.addPassthroughCopy({ "src/_assets/css": "assets/css" });
+  eleventyConfig.addPassthroughCopy({
+    "src/_assets/css/common": "assets/css/common",
+    "src/_assets/css/elements": "assets/css/elements",
+    "src/_assets/css/style.css": "assets/css/style.css",
+  });
+
   glob.sync("src/{_components,_includes}/**/*.css").forEach((file) => {
     const input = String(file).split('/').slice(0, -1).join('/')
     const output = input.replace(/^src\//, 'assets/');

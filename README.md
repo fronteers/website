@@ -25,6 +25,7 @@ If you'd like to contribute, we'd love to have you on board. You can check our [
 - [Eleventy](https://www.11ty.dev/docs/)
 - [Markdown (CommonMark spec)](https://spec.commonmark.org/0.29/)
 - [Liquid](https://shopify.github.io/liquid/) (the version Eleventy uses, is a little older, and does not include the `| where` filter. We have built our own)
+- [Content status](../../issues/204)
 
 ## Design
 

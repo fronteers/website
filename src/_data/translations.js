@@ -47,7 +47,9 @@ module.exports = {
     conferenceURL: "en/conference",
     olderArticles: "Older articles",
     newerArticles: "Newer articles",
-    nextEvent: "Next event"
+    nextEvent: "Next event",
+    page: "Page",
+    pagination: "Pagination"
   },
   nl: {
     baseUrl: "https://www.fronteers.nl/nl",
@@ -97,6 +99,8 @@ module.exports = {
     conferenceURL: "nl/congres",
     olderArticles: "Ouder",
     newerArticles: "Nieuwer",
-    nextEvent: "Binnenkort"
+    nextEvent: "Binnenkort",
+    page: "Pagina",
+    pagination: "Paginering"
   },
 };

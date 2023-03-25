@@ -1,4 +1,0 @@
----
-title: Voorwaarden
-excludeFromCollection: true
----
