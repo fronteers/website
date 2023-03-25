@@ -3,21 +3,25 @@
 <body>
     {%- include partials/page-header/_page-header -%}
 
-    <main class="page-content inner-wrapper">
-        <h2>{{ title }}</h2>
-        {{ content }}
+    <main class="{% if useHero %}styledheader{% endif %}">
+        <div class="inner-wrapper">
+            <div class="page-content">
+                <h2 class="visually-hidden">{{ title }}</h2>
+                {{ content }}
+            </div>
 
-        {%- include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" -%}
+            {%- include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" -%}
 
-        <ul class="desktop-columns mobile-slider">
-            {%- for member in pagination.items limit:pagination.size -%}
-                <li class="list-item mobile-slider-item">
-                    {%- include partials/member index:forloop.index -%}
-                </li>
-            {%- endfor -%}
-        </ul>
+            <ul class="desktop-columns mobile-slider">
+                {%- for member in pagination.items limit:pagination.size -%}
+                    <li class="list-item mobile-slider-item">
+                        {%- include partials/member index:forloop.index -%}
+                    </li>
+                {%- endfor -%}
+            </ul>
 
-        {%- include partials/pagination -%}
+            {%- include partials/pagination -%}
+        </div>
     </main>
 
     {%- include partials/page-footer/_page-footer -%}
