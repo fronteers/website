@@ -16,7 +16,7 @@
 
 .activity-time {
   font-family: var(--font-family-content);
-  font-weight: var(--font-weight-normal);
+  font-weight: normal;
   font-size: var(--font-size-18);
   line-height: 1.33;
 }
@@ -60,6 +60,7 @@
   background-size: cover;
   -webkit-clip-path: url(#parenthesis-down-tiny);
   clip-path: url(#parenthesis-down-tiny);
+  margin-top: -1px;
 }
 
 .activity--2 .activity-header-content,
@@ -80,6 +81,7 @@
   background-size: cover;
   -webkit-clip-path: url(#greater-than-down-tiny);
   clip-path: url(#greater-than-down-tiny);
+  margin-top: -1px;
 }
 
 .activity--3 .activity-header-content,
@@ -100,6 +102,7 @@
   background-size: cover;
   -webkit-clip-path: url(#curly-brace-down-tiny);
   clip-path: url(#curly-brace-down-tiny);
+  margin-top: -1px;
 }
 
 .activity-content {
