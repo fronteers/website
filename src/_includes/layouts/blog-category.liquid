@@ -2,7 +2,7 @@
 <body>
     {%- include partials/page-header/_page-header -%}
 
-    <main class="{% if useHero %}styledheader{% endif %}">
+    <main class="inner-wrapper {% if useHero %}styledheader{% endif %}">
         <div class="page-content">
             {% unless useHero %}
             <h2>{{ title }}</h2>
@@ -13,18 +13,19 @@
         <div class="inner-wrapper">
             {%- include partials/blog/loop-blog-categories headerlvl:"h3" -%}
 
-        <h2>Blog category: {{ category.title }}</h2>
-        {%- assign posts = collections.published_posts | getLocale: locale -%}
-        <ul class="desktop-rows mobile-slider">
-        {%- for post in posts -%}
-            {%- assign post_categories = post.data.categories -%}
-            {%- for post_category in post_categories -%}
-                {%- assign current_category = post_category | downcase -%}
-                {%- if category.title == current_category -%}
-                    <li class="list-item mobile-slider-item">
-                    {%- include partials/blogpost headerlvl:"h3" index:forloop.index -%}
-                    </li>
-                {%- endif -%}
+            <h2>Blog category: {{ category.title }}</h2>
+            {%- assign posts = collections.published_posts | getLocale: locale -%}
+            <ul class="desktop-rows mobile-slider">
+            {%- for post in posts -%}
+                {%- assign post_categories = post.data.categories -%}
+                {%- for post_category in post_categories -%}
+                    {%- assign current_category = post_category | downcase -%}
+                    {%- if category.title == current_category -%}
+                        <li class="list-item mobile-slider-item">
+                        {%- include partials/blogpost headerlvl:"h3" index:forloop.index -%}
+                        </li>
+                    {%- endif -%}
+                {%- endfor -%}
             {%- endfor -%}
             </ul>
 
