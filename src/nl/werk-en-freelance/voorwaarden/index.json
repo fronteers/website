@@ -1,7 +1,0 @@
-{
-    "layout": "layouts/page.liquid",
-    "tags": "pages",
-    "key": "job-terms-and-conditions",
-    
-    "parent": "job-home"
-}

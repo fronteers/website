@@ -1,6 +1,10 @@
 ---
+key: alv
 title: Algemene ledenvergadering
+useHero: true
 ---
+{%- aboutushero "Algemene ledenvergadering" "" -%}
+
 Minimaal 1x per kalenderjaar organiseert het bestuur een algemene ledenvergadering. Deze vindt traditioneel aan het eind van het jaar plaats, zodat het afgelopen congres en de begroting voor het komende jaar besproken kunnen worden. Het bestuur kan indien daar behoefte aan is meerdere ledenvergaderingen per jaar organiseren, en ook de leden kunnen er een doen plaatsvinden d.m.v. een oproep door minimaal 10% van de leden. Aankondiging van de ALV vindt steeds schriftelijk aan alle leden plaats, uiterlijk 1 week voorafgaand aan de datum van de ALV.
 
 De ALV is effectief het hoogste orgaan binnen de vereniging, waar opdrachten aan het bestuur kunnen worden gegeven, en plannen van het bestuur kunnen worden aangepast. In de praktijk zal dit zich voornamelijk uiten in het goed- of afkeuren van specifieke punten op de begroting, en in het goed- of afkeuren van ingediende beleidsvoorstellen.

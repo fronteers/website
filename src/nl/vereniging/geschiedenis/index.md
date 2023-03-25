@@ -1,7 +1,11 @@
 ---
 key: history
 title: Geschiedenis van de vereniging
+useHero: true
 ---
+{%- aboutushero "Geschiedenis van de vereniging" "" -%}
+<br /> <!-- strange bug, if there's no <br /> tag the next paragraph doesn't get a paragraph tag -->
+
 Fronteers is in oktober 2007 opgericht. In de maanden daarvoor werd duidelijk dat een vereniging als deze bestaansrecht zou hebben.
 
 Op 27 april 2007 riep Peter-Paul Koch 12 mensen bijeen in Amsterdam, om zijn plannen tot oprichting van een vakvereniging voor front-end ontwikkelaars te bespreken. Een maand later bleken [50 mensen bij Lost Boys](/nl/activiteiten/2007/lost-boys.html) dit ook een interessant idee te vinden.
@@ -10,7 +14,7 @@ De tijdelijke naam, die door middel van een vragenlijst naar voren kwam, was iet
 
 Na een digitale stemming uit 37 [voorgestelde namen](/nl/vereniging/geschiedenis/namen) bleek dat _Fronteers_ de voorkeur had en werd dit de naam.
 
-# Bestuur
+### Bestuur
 
 De volgende leden hebben gedurende het bestaan van Fronteers zitting gehad in het bestuur:
 
@@ -32,12 +36,13 @@ De volgende leden hebben gedurende het bestaan van Fronteers zitting gehad in he
 | Sander Vink          |2016-     | Penningmeester |
 | Anneke Sinnema       |2017-     | Voorzitter |
 | Edwin Martin         |2017-     | Secretaris |
+| Wim van Iersel       | 2022-    | Penningmeester-in-training, Algemeen bestuurslid |
 
-# Ereleden
+### Ereleden
 
 Wegens bijzondere verdiensten voor de vereniging, heeft het bestuur de volgende leden tot erelid benoemd:
 
 | Naam | Jaar |
 |---|---|
-| Peter-Paul Koch| [Sinds 2012](/nl/vereniging/bestuur/notulen/22-11-2012.html), bij aftreden als voorzitter |
-| Krijn Hoetmer  | [Sinds 2015](/nl/blog/2015/12/wijzigingen-na-alv.html), bij overdracht ledenadministratie |
+| Peter-Paul Koch| Sinds 2012, bij aftreden als voorzitter |
+| Krijn Hoetmer  | Sinds 2015, bij overdracht ledenadministratie |

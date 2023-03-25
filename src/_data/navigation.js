@@ -5,34 +5,42 @@ module.exports = {
                 title: "Over Fronteers",
                 url: "/nl/vereniging",
                 subnav: [
-                    {
-                        title: "Organisatie",
-                        url: "/nl/vereniging/organisatie",
-                    },
+                    // {
+                    //     title: "Organisatie",
+                    //     url: "/nl/vereniging/organisatie",
+                    // },
                     {
                         title: "Bestuur",
                         url: "/nl/vereniging/bestuur",
-                    },
-                    {
-                        title: "Algemene Ledenvergadering",
-                        url: "/nl/vereniging/alv",
                     },
                     {
                         title: "Commissies",
                         url: "/nl/vereniging/commissies",
                     },
                     {
-                        title: "Freelancers",
-                        url: "/nl/freelancers",
+                        title: "Vrijwilliger worden",
+                        url: "/nl/vereniging/vrijwilliger-worden",
                     },
                     {
-                        title: "Support",
-                        url: "/nl/vereniging/support",
+                        title: "Algemene Ledenvergadering",
+                        url: "/nl/vereniging/alv",
                     },
                     {
                         title: "Geschiedenis",
                         url: "/nl/vereniging/geschiedenis",
                     },
+                    {
+                        title: "Statuten",
+                        url: "/nl/vereniging/statuten",
+                    },
+                    {
+                        title: "Contact",
+                        url: "/nl/vereniging/contact",
+                    },
+                    // {
+                    //     title: "Support",
+                    //     url: "/nl/vereniging/support",
+                    // },
                 ],
             },
             {
@@ -50,6 +58,10 @@ module.exports = {
                     {
                         url: "/nl/word-lid/code-of-conduct/",
                         title: "Code of conduct",
+                    },
+                    {
+                        title: "Community",
+                        url: "/nl/word-lid/community",
                     },
                 ],
             },
@@ -80,12 +92,12 @@ module.exports = {
                 title: "Werk en freelance",
                 subnav: [
                     {
-                        url: "/nl/werk-en-freelance/voorwaarden/",
-                        title: "Voorwaarden",
-                    },
-                    {
                         url: "/nl/werk-en-freelance/vacature-plaatsen/",
                         title: "Vacature plaatsen",
+                    },
+                    {
+                        title: "Freelancers",
+                        url: "/nl/freelancers",
                     },
                 ],
             },
@@ -133,34 +145,38 @@ module.exports = {
                 title: "About Fronteers",
                 url: "/en/organisation",
                 subnav: [
-                    {
-                        title: "Organisation",
-                        url: "/en/organisation/organisation",
-                    },
+                    // {
+                    //     title: "Organisation",
+                    //     url: "/en/organisation/organisation",
+                    // },
                     {
                         title: "Board",
                         url: "/en/organisation/board",
-                    },
-                    {
-                        title: "Membership meeting",
-                        url: "/en/organisation/members-meeting",
                     },
                     {
                         title: "Committees",
                         url: "/en/organisation/committees",
                     },
                     {
-                        title: "Freelancers",
-                        url: "/en/freelancers",
-                    },
-                    {
-                        title: "Support",
-                        url: "/en/organisation/support",
+                        title: "Membership meeting",
+                        url: "/en/organisation/members-meeting",
                     },
                     {
                         title: "History",
                         url: "/en/organisation/history",
                     },
+                    {
+                        title: "Statutes",
+                        url: "/en/organisation/statutes",
+                    },
+                    {
+                        title: "Contact us",
+                        url: "/nl/organisation/contact",
+                    },
+                    // {
+                    //     title: "Support",
+                    //     url: "/en/organisation/support",
+                    // },
                 ],
             },
             {
@@ -178,6 +194,10 @@ module.exports = {
                     {
                         url: "/en/join-us/code-of-conduct/",
                         title: "Code of conduct",
+                    },
+                    {
+                        title: "Community",
+                        url: "/en/join-us/community",
                     },
                 ],
             },
@@ -208,12 +228,12 @@ module.exports = {
                 title: "Jobs",
                 subnav: [
                     {
-                        url: "/en/jobs/terms-and-conditions/",
-                        title: "Terms and conditions",
-                    },
-                    {
                         url: "/en/jobs/post-job-opening/",
                         title: "Post a job opening",
+                    },
+                    {
+                        title: "Freelancers",
+                        url: "/en/jobs/freelancers",
                     },
                 ],
             },
