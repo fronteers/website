@@ -2,7 +2,7 @@
 <body>
     {%- include partials/page-header/_page-header -%}
 
-    <main class="inner-wrapper">
+    <main class="inner-wrapper {% if useHero %}styledheader{% endif %}">
         <div class="page-content">
             {% unless useHero %}
             <h2>{{ title }}</h2>
