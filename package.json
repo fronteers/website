@@ -22,16 +22,16 @@
   },
   "homepage": "https://github.com/fronteers/website#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-beta.1",
+    "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@orchidjs/eleventy-plugin-ids": "^0.1.1",
     "cross-env": "^7.0.3",
     "fast-glob": "^3.2.11",
     "husky": "8.0.3",
     "lodash": "^4.17.21",
-    "prettier": "^2.8.3",
+    "prettier": "^2.8.7",
     "pretty-quick": "^3.1.3",
-    "rimraf": "^4.1.1",
+    "rimraf": "^4.4.1",
     "slugify": "^1.6.5"
   },
   "husky": {
