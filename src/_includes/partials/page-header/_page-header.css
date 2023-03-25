@@ -18,6 +18,7 @@
     grid-template-areas:
       "join-us     logo        search-and-translate search-and-translate"
       "navigation  navigation  navigation navigation";
+    margin-bottom: -2px;
   }
 }
 
