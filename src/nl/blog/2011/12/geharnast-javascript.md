@@ -200,9 +200,9 @@ Om verder up-speed te komen met Jasmine kan het [inleidende artikel op Nettuts](
 
 Wanneer moet je nu alles uit de kast halen met unittesten? Als je een JavaScript-library, plugins of herbruikbare componenten schrijft, zijn unittesten een must. Maar ook in langlopende projecten met een snelle release cycle zijn unittesten onmisbaar om mogelijke regressiebugs af te vangen. Zelfs als je korte toevoeging schrijft voor een kleine website kunnen unittesten erg nuttig blijken. Ze laten je anders tegen je code aankijken, waardoor je code robuuster, leesbaarder en makkelijker overdraagbaar wordt. Ook voor front-enders belangrijke waarden.
 
-(TODO: Over Tom Greuter
-2011/12/tom-greuter.jpg
+### Over Tom Greuter
+<!-- <img src="/archief/_img/2011/12/tom-greuter.jpg" alt="Foto van tom greuter uit 2011" class="floating-portrait"> -->
 Tom Greuter is lead front-end developer bij [Info.nl](http://info.nl/) en bestuurslid van Fronteers. Naast het web is hij geboeid door voetbalclub [ФК Томь](http://fctomtomsk.ru/) uit Tomsk. Verder is hij binnen de WHATWG co-author van de draft van het nieuwe HTML6-element '<idle do-not-disturb="true">'.
 
-**Donatie:** Varkens in nood
-In Nederland leven ieder jaar ruim 20 miljoen intelligente en sociale varkens een verschrikkelijk bestaan in kleine hokken. Stichting [Varkens in Nood](http://www.varkensinnood.nl/) komt op voor de varkens. Met beschaafde, actuele en spraakmakende campagnes probeert Varkens in Nood consumenten en supermarkten ervan te overtuigen dat onze varkens een beter leven verdienen. Om de intensieve veehouderij een halt toe te roepen, moet de publieke opinie ten gunste van de dieren veranderen.)
+Donatie: Varkens in nood
+In Nederland leven ieder jaar ruim 20 miljoen intelligente en sociale varkens een verschrikkelijk bestaan in kleine hokken. Stichting [Varkens in Nood](http://www.varkensinnood.nl/) komt op voor de varkens. Met beschaafde, actuele en spraakmakende campagnes probeert Varkens in Nood consumenten en supermarkten ervan te overtuigen dat onze varkens een beter leven verdienen. Om de intensieve veehouderij een halt toe te roepen, moet de publieke opinie ten gunste van de dieren veranderen.

@@ -266,10 +266,10 @@ Dit soort specs zijn geweldig om mee te experimenteren. En ondersteuning komt sn
 
 Veel plezier ermee (en fijne feestdagen) :)
 
-(TODO: Over Stephen Hay
-2011/12/stephen-hay.jpg
+### Over Stephen Hay
+<!-- <img src="/archief/_img/2011/12/stephen-hay.jpg" alt="Foto van stephen hay uit 2011" class="floating-portrait"> -->
 [Stephen](https://twitter.com/stephenhay) is een designer/developer met een sterke interesse in CSS en multi-platform design. Hij spreekt en schrijft ook graag over deze onderwerpen.
 
-**Donatie:** ICCF Holland
+Donatie: ICCF Holland
 Overal (en veel in ons vakgebied) kun je zien dat de inspanningen van enkelingen en kleine groepen mensen een groot verschil kunnen maken. [ICCF Holland](http://iccf-holland.org/) is ook zo'n groep: vrijwilligers die kinderen helpen in Kibaale, Uganda. Als je de Vim text editor gebruikt, dan heb je er vast van gehoord: Vim is “charityware”; gebruikers worden gevraagd om een donatie te doen aan ICCF Holland. 
-Het project is kleinschalig, en dat spreekt mij erg aan. 99% van al het gedoneerde geld gaat naar het project. Mocht je meer willen weten over dit project: op de website kun je foto's van het project zien en bezoekverslagen lezen.)
+Het project is kleinschalig, en dat spreekt mij erg aan. 99% van al het gedoneerde geld gaat naar het project. Mocht je meer willen weten over dit project: op de website kun je foto's van het project zien en bezoekverslagen lezen.

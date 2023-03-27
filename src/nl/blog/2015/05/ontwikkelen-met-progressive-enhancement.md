@@ -115,9 +115,8 @@ Hetzelfde geldt voor de manier waarop we websites bouwen: gebruikers moeten alti
 Progressive enhancement biedt ons een aantal praktische methodes waarmee we:
 
 * door middel van feature detection geavanceerde technieken kunnen aanbieden aan moderne browsers, terwijl de basiservaring altijd beschikbaar is voor minder capabele browsers.
-* 
 * een website bestand maken tegen onverwachte gebeurtenissen, waardoor deze ook bruikbaar is in het geval van een instabiele internetverbinding.
 
-(TODO: Over Sanne Veroude
-blog/2015/sanneveroude.png
-Front-end developer, likes building stuff accessible for everyone and on every device)
+### Over Sanne Veroude
+<img src="/archief/_img/blog/2015/sanneveroude.png" alt="Foto van Sanne">
+Front-end developer, likes building stuff accessible for everyone and on every device

@@ -157,8 +157,8 @@ En dit is ongeveer 90% van de WebBluetooth API en alles wat je moet weten om te 
 * [Source code van de demos](https://github.com/BluetoothRocks)
 * [GATT registry met documentatie voor een aantal apparaten](https://github.com/opengatt/registry)
 
-(TODO: Over Niels Leenheer
-/adventskalender/niels.jpg
+### Over Niels Leenheer
+<!-- <img src="/archief/_img/adventskalender/niels.jpg" alt="Foto van Niels Leenheer" class="floating-portrait"> -->
 Niels is een browser-geek. Vanaf het moment dat iemand hem de allereerste Nexus browser op een NeXT Cube liet zien is hij bezig met browsers. Niels is de maker van HTML5test.com, de CSS selector test, spreekt op conferenties en zit sinds 2018 in de congrescommissie van Fronteers.
 
-**Donatie:** KWF Kankerbestrijding)
+Donatie: KWF Kankerbestrijding

@@ -108,8 +108,8 @@ In eerste instantie was Prettier bedoelt voor JavaScript, maar al gauw kwamen da
 
 Op 7 november 2018 is daar met [versie 1.15](https://prettier.io/blog/2018/11/07/1.15.0.html) ook HTML-, Vue-, Angular- and MDX-ondersteuning bijgekomen. Er is dus haast geen front-endcode meer die je niet door Prettier kan laten opmaken.
 
-(TODO: Over Edwin Martin
-/adventskalender/edwin.jpg
+### Over Edwin Martin
+<!-- <img src="/archief/_img/adventskalender/edwin.jpg" alt="Foto van Edwin Martin" class="floating-portrait"> -->
 Edwin loopt alweer een tijdje mee en kent het internet nog van toen er nog geen World Wide Web was. Toen dit kwam, was hij gelijk verkocht. Edwin is sinds 2000 freelancer en [blogt](https://bitstorm.org/) en [twittert](https://twitter.com/edwinm).
 Donatie
-Mijn donatie gaat naar Artsen zonder Grenzen. Zij zorgen voor noodzakelijke medische hulp bij natuurrampen en in oorlogsgebieden.)
+Mijn donatie gaat naar Artsen zonder Grenzen. Zij zorgen voor noodzakelijke medische hulp bij natuurrampen en in oorlogsgebieden.

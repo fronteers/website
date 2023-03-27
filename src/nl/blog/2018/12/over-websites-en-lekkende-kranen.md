@@ -151,9 +151,9 @@ Ik geef het niet graag toe, maar mijn website is eigenlijk nog steeds een lekken
 * [https://github.com/JoseeWouters/Josee-Wouters](https://github.com/JoseeWouters/Josee-Wouters)
 * [https://fronteers.nl/workshops/workshop-netlify-static-site-generators](https://fronteers.nl/workshops/workshop-netlify-static-site-generators)
 
-(TODO: Over Josee Wouters
-/adventskalender/josee-square.jpg
+### Over Josee Wouters
+<img src="/archief/_img/adventskalender/josee-square.jpg" alt="Foto van Josee" class="floating-portrait">
 Front-end developer en vrijwilliger bij Fronteers. Werkt naast haar reguliere werk ook freelance en heeft in haar vrije tijd een app genaamd What Dinner? gemaakt. Programmeert ook graag met Arduino.
 
-**Donatie:** Nationaal Fonds Kinderhulp
-Kinderhulp vindt dat in Nederland armoede geen reden mag zijn dat kinderen worden buitengesloten. Kinderhulp wil ervoor zorgen dat alle kinderen er gewoon bij kunnen horen.)
+Donatie: Nationaal Fonds Kinderhulp
+Kinderhulp vindt dat in Nederland armoede geen reden mag zijn dat kinderen worden buitengesloten. Kinderhulp wil ervoor zorgen dat alle kinderen er gewoon bij kunnen horen.

@@ -99,7 +99,7 @@ De hierboven genoemde maatregelen zijn maar een kleine selectie van acties die j
 
 Op naar een veiliger decennium!
 
-(TODO: Over Melle Wynia
-/adventskalender/melle.jpg
+### Over Melle Wynia
+<!-- <img src="/archief/_img/adventskalender/melle.jpg" alt="Foto van Melle Wynia" class="floating-portrait"> -->
 Melle Wynia werkt als freelance front-end developer/consultant/architect. Voor zijn klanten sluit hij aan bij hun teams om kennis over te dragen, de kwaliteit te waarborgen, beveiliging op peil te brengen en nieuwe features te realiseren. Tot zijn tools behoren onder andere Node, Angular en Vue.js.
-Melles donatie gaat naar de Hersenstichting.)
+Melles donatie gaat naar de Hersenstichting.

@@ -170,13 +170,12 @@ Voor een [zeer uitgebreid artikel over contrast](http://iacobien.nl/artikelen/co
 
 Vragen kun je altijd stellen in het accessibility-kanaal van de [Slack van Fronteers](https://fronteers-slack.herokuapp.com/).
 
-(TODO: Over Marjon
-/adventskalender/toegankelijkheid-eerste-design/marjon-bakker.jpg
+### Over Marjon
+<!-- <img src="/archief/_img/adventskalender/toegankelijkheid-eerste-design/marjon-bakker.jpg" alt="Foto van Marjon" class="floating-portrait"> -->
 Marjon Bakker is sinds 2017 adviseur digitale toegankelijkheid bij [Firm Ground](https://www.firmground.nl). Zij werkt het liefst op het snijvlak tussen communicatie en frontend development, met oog voor bruikbaarheid van websites voor alle bezoekers. Ze heeft zich gespecialiseerd in technisch onderzoek en het uitwerken van praktische oplossingen voor developers en opdrachtgevers. Haar toegankelijkheidswerkzaamheden sluiten goed aan en bouwen voort op haar eerdere werkervaring als webredacteur en communitymanager.
 Marjons donatie gaat naar Bits of Freedom.)
 
-# Contact
-
+#### Contact
 * [marjon@firmground.nl](mailto:marjon@firmground.nl)
 * [LinkedIn](https://www.linkedin.com/in/marjonbakker/)
 * [Twitter](https://twitter.com/MarjonBakker)

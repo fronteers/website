@@ -171,7 +171,7 @@ Vrede op aarde.
 
 (Dit is een vertaling van een praatje dat ik eerder gaf bij de Fronteers Jam Sessions in oktober.)
 
-(TODO: Over Paul van Buuren
-/adventskalender/paul.jpeg
+### Over Paul van Buuren
+<!-- <img src="/archief/_img/adventskalender/paul.jpg" alt="Foto van Paul van Buuren" class="floating-portrait"> -->
 Paul van Buuren maakt websites sinds 1998. Zijn vooropleiding heeft niks met webdesign te maken, want dat bestond domweg nog niet. Onder de noemer WBVB Rotterdam werkt hij als zelfstandige voor diverse opdrachtgevers. Z'n specialiteit is het maken van toegankelijke WordPress-sites. Hij praat opvallend vaak in algemeenheden en tegeltjeswijsheden.
-Pauls donatie gaat naar KiKa.)
+Pauls donatie gaat naar KiKa.

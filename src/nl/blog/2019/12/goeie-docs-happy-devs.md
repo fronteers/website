@@ -128,7 +128,7 @@ Dit waren mijn tips. Hopelijk helpt deze blog je op weg als je de volgende keer 
 * Tips voor een goede README op Medium: [A Beginners Guide to writing a Kickass README](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
 * Hoe schermvideo’s opnemen op de Mac: [Apple: How to record the screen on your iPhone, iPad, or iPod touch](https://support.apple.com/en-us/HT207935) [Apple: How to record the screen on your Mac](https://support.apple.com/en-us/HT208721)
 
-(TODO: Over Anke Willems
-/adventskalender/anke.jpeg
+### Over Anke Willems
+<img src="/archief/_img/adventskalender/anke.jpeg" alt="Foto van anke" class="floating-portrait">
 Anke is webdesigner en front-end developer bij Two Kings. In een eerder leven was ze grafisch ontwerper (met drukwerk en papier en zo), maar digitaal vind ze toch echt leuker. Heeft een grote liefde voor het maken van kleine gebruiksaanwijzingen die op een post-it moeten passen. Maakte de afgelopen twee jaar ook de sketch notes van de Fronteers Conferentie.
-Ankes donatie gaat naar Stem op een vrouw.)
+Ankes donatie gaat naar Stem op een vrouw.

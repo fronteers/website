@@ -39,9 +39,9 @@ Die laatste demonstratie licht alvast een tipje van de sluier wat de toekomst be
 
 Heel spannend allemaal, maar ook vandaag al kan je allerlei CSS technieken gebruiken om grafische elementen op te maken, zodat je niet langer je site moet gaan overladen met afbeeldingen. Doen!
 
-(TODO: Over Lennart Schoors
-2011/12/lennart-schoors.jpg
+### Over Lennart Schoors
+<!-- <img src="/archief/_img/2011/12/lennart-schoors.jpg" alt="Foto van lennart schoors uit 2011" class="floating-portrait"> -->
 [Lennart Schoors](http://lensco.be/) uit Gent, België werkte meer dan vijf jaar aan sociaal netwerk Netlog, maar is sinds kort freelance interface designer en front-end developer. Schrijft af en toe korte postjes over HTML/CSS op [Bricss](http://bricss.net/).
 
-**Donatie:** Wikipedia
-Wat is de gemakkelijkste manier om dat hoofd van Jimmy Wales uit de header van Wikipedia te kegelen? Hint: niet door erover te klagen op Twitter. Gratis kennis voor de hele wereld, hoera!)
+Donatie: Wikipedia
+Wat is de gemakkelijkste manier om dat hoofd van Jimmy Wales uit de header van Wikipedia te kegelen? Hint: niet door erover te klagen op Twitter. Gratis kennis voor de hele wereld, hoera!

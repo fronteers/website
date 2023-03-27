@@ -67,8 +67,8 @@ Meta alert: Natuurlijk heb ik deze blogpost ook uitgetekend, hieronder de sketch
 
 ![De sketchnote van de sketchnotes](https://fronteers.nl/_img/adventskalender/blogpost-sketchnotes-anke-small.jpeg)
 
-(TODO: Over Anke Willems
-/adventskalender/anke.jpeg
+### Over Anke Willems
+<img src="/archief/_img/adventskalender/anke.jpeg" alt="Foto van anke" class="floating-portrait">
 Anke is webdesigner en frontend developer bij Two Kings in Den Haag. Ze houdt zich bezig met alles vanaf het eerste gesprek met de klant, via het inventariseren van alle wensen en daarvoor de UX uitwerken tot het bouwen van de templates. In een eerder leven was ze grafisch ontwerper (met drukwerk en papier en zo), maar digitaal vind ze toch echt leuker. Heeft een grote liefde voor het maken van kleine gebruiksaanwijzingen die op een post-it moeten passen. Motorrijder, breimuts en poezenvrouwtje.
 Donatie
-Het Haags Dierencentrum is het dierenasiel in Den Haag. Ze zijn voor de meest basic dingen, zoals een nieuwe operatietafel of een nieuw dak op de kattenverblijven afhankelijk van donaties. Omdat ik vind dat ze ontzettend goed werk verrichten sponsor ik ze graag.)
+Het Haags Dierencentrum is het dierenasiel in Den Haag. Ze zijn voor de meest basic dingen, zoals een nieuwe operatietafel of een nieuw dak op de kattenverblijven afhankelijk van donaties. Omdat ik vind dat ze ontzettend goed werk verrichten sponsor ik ze graag.

@@ -120,9 +120,9 @@ Deze oplossing is net als de vorige volledig ES3-compatibel, en werkt bovendien 
 
 [JavaScript maakt intern gebruik van de UCS-2-encodering](https://mathiasbynens.be/notes/javascript-encoding) (de voorloper van UTF-16). Alle ingebouwde string-eigenschappen en functies (zoals `String#length`, `String#split` en `String#slice`) werken op basis van 16-bit code-eenheden in plaats van Unicode-karakters. Dit geeft soms op het eerste zicht [onverwachte resultaten](https://mathiasbynens.be/notes/javascript-unicode). Als je `encode`-functie Unicode code-points in plaats van UCS-2/UTF-16 code-eenheden verwacht, zal je dus nog een conversie-functie nodig hebben.
 
-(TODO: Over Mathias Bynens
-2011/12/mathias-bynens.jpg
+### Over Mathias Bynens
+<!-- <img src="/archief/_img/2011/12/mathias-bynens.jpg" alt="Foto van mathias bynens uit 2011" class="floating-portrait"> -->
 [Mathias](https://mathiasbynens.be/) is een freelance webontwikkelaar uit Grembergen, België. In zijn vrije tijd organiseert hij samen met enkele andere vrijwilligers [Fronteers-meetups in België](https://twitter.com/fronteersbe).
 
-**Donatie:** ErKriDo
-Wat het goede doel betreft: m’n keuze was snel gemaakt :) [ErKriDo](http://erkrido.blogspot.com/) is de Buggenhoutse aftakking van [Kom Op Tegen Kanker](http://www.tegenkanker.be/kom_op_tegen_kanker). Zij organiseren jaarlijks o.a. een benefietconcert waarvan de opbrengst integraal naar de Vlaamse Liga Tegen Kanker gaat, en dus goed besteed wordt.)
+Donatie: ErKriDo
+Wat het goede doel betreft: m’n keuze was snel gemaakt :) [ErKriDo](http://erkrido.blogspot.com/) is de Buggenhoutse aftakking van [Kom Op Tegen Kanker](http://www.tegenkanker.be/kom_op_tegen_kanker). Zij organiseren jaarlijks o.a. een benefietconcert waarvan de opbrengst integraal naar de Vlaamse Liga Tegen Kanker gaat, en dus goed besteed wordt.

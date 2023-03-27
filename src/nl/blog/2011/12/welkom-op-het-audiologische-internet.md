@@ -57,9 +57,9 @@ Persoonlijk geloof ik meer in een API die het gros van de berekeningen op een ge
 
 Toch is er nog veel discussie aan de gang, en beide APIs zijn nog niet volledig in staat om met alle andere specificaties te integreren: de `<video>` en `<audio>` elementen, microfoon input via de `getUserMedia()`-methode en het synchroniseren van meerdere geluidsstromen via de nieuwe HTML5 [MediaController interface](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#synchronising-multiple-media-elements). Dit zijn allemaal vraagstukken waarop we in 2012 een antwoord gaan krijgen, want op het gebied van multimedia gaat het een heel interessant jaar worden!
 
-(TODO: Over Peter Beverloo
+### Over Peter Beverloo
 /2011/12/peter-beverloo.jpg
 [Peter Beverloo](http://peter.sh/) is een Software Engineer bij Google en onderdeel van de Chromium en WebKit teams. Hiernaast is hij actief op [Twitter](https://twitter.com/beverloo), deelnemer van projecten als [HTML5 Boilerplate](http://html5boilerplate.com/) en [W3Fools](http://w3fools.com/) en vrijwilliger bij de Fronteers en Mobilism conferenties.
 
-**Donatie:** [Electronic Frontier Foundation](https://www.eff.org/)
-Electronic Frontier Foundation zal ook namens mij een donatie ontvangen. Hun bezigheden zijn essentieel voor het voortbestaan van het vrije internet zoals we dat vandaag kennen.)
+Donatie: [Electronic Frontier Foundation](https://www.eff.org/)
+Electronic Frontier Foundation zal ook namens mij een donatie ontvangen. Hun bezigheden zijn essentieel voor het voortbestaan van het vrije internet zoals we dat vandaag kennen.

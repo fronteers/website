@@ -165,9 +165,9 @@ Dat neemt niet weg dat het altijd de moeite loont om je website te testen met ee
 
 En, oh ja: maak je niet al te druk over iedere synthetische _slip of the tongue_, want dat doen jouw gebruikers ook niet.
 
-(TODO: Over Roel van Gils
-/adventskalender/roel.jpg
+### Over Roel van Gils
+<!-- <img src="/archief/_img/adventskalender/roel.jpg" alt="Foto van Roel van Gils" class="floating-portrait"> -->
 Roel noemt zichzelf een Digital Accessibility Nerd. Met zijn bedrijf Eleven Ways (gevestigd in Gent) helpt hij overheden en bedrijven die hun websites en apps voor zoveel mogelijk mensen toegankelijk willen maken. Roel steekt ook wel eens een handje toe bij het organiseren van Fronteers-bijeenkomsten in Vlaanderen. Hij twittert als [@roelvangils](https://twitter.com/roelvangils).
 
-**Donatie:** Belgisch Centrum voor Geleidehonden
-In mijn omgeving heb ik zelf gezien hoe een geleidehond het leven van iemand die slechtziend of blind is helemaal kan veranderen. Ik ken jammer genoeg ook mensen die al jaren uitkijken naar een eigen geleidehond–of een opvolger voor een hond die te oud was geworden. Het opleiden van een hond is enorm tijdsintensief en daardoor is de wachtlijst lang. Ik steun het Belgisch Centrum voor Geleidehonden, een vzw die sinds 1990 alles in het werkt stelt om honden op te leiden en ze daarna kosteloos ter beschikking stelt aan wie ze echt nodig heeft.)
+Donatie: Belgisch Centrum voor Geleidehonden
+In mijn omgeving heb ik zelf gezien hoe een geleidehond het leven van iemand die slechtziend of blind is helemaal kan veranderen. Ik ken jammer genoeg ook mensen die al jaren uitkijken naar een eigen geleidehond–of een opvolger voor een hond die te oud was geworden. Het opleiden van een hond is enorm tijdsintensief en daardoor is de wachtlijst lang. Ik steun het Belgisch Centrum voor Geleidehonden, een vzw die sinds 1990 alles in het werkt stelt om honden op te leiden en ze daarna kosteloos ter beschikking stelt aan wie ze echt nodig heeft.

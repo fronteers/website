@@ -91,8 +91,8 @@ Misschien is een deel van je doelgroep kleurenblind of slechtziend? Bij het kiez
 
 [Axe](https://www.deque.com/axe/) – kleurcontrast checker voor je browser developer toolbar.
 
-(TODO: Over Monique Dubbelman
-/adventskalender/monique-dubbelman.jpg
+### Over Monique Dubbelman
+<img src="/archief/_img/adventskalender/monique-dubbelman.jpg" alt="Foto van Monique" class="floating-portrait">
 Monique Dubbelman is in de vorige eeuw opgeleid als grafica. Omdat dat inmiddels een fossiel beroep is, bouwt en ontwerpt ze sinds de jaren negentig websites, tegenwoordig vooral met WordPress. Eerst als hobby, vanaf 2011 als professional onder de naam BOE!media. In 2016 behaalde ze haar bachelor in Media, Informatie en Communicatie aan de Hogeschool van Amsterdam. Monique maakt zich druk over de inhoud, structuur en gebruiksvriendelijkheid van websites en vindt bovendien dat er een heldere strategie achter mag zitten. Naast UX designer noemt ze zich daarom ook digitaal of contentstrateeg. Op het internet is ze ook nog terug te vinden als wormenfluisteraar.
 Donatie
-Mijn donatie gaat naar Stichting No Guts No Glory. Deze stichting zamelt geld in voor behandelingen tegen kanker die nog niet vergoed worden door zorgverzekeraars. Niet door zielige verhalen te vertellen, maar door het leven te vieren met als motto: no guts no glory! Ze bieden financiële en morele steun aan kankerpatiënten en gebruiken (social) media om aandacht te vragen voor het probleem. Zij vinden namelijk dat geld geen reden mag zijn om iemand een kans op extra behandelingen te ontnemen (en ik ben het daar mee eens!).)
+Mijn donatie gaat naar Stichting No Guts No Glory. Deze stichting zamelt geld in voor behandelingen tegen kanker die nog niet vergoed worden door zorgverzekeraars. Niet door zielige verhalen te vertellen, maar door het leven te vieren met als motto: no guts no glory! Ze bieden financiële en morele steun aan kankerpatiënten en gebruiken (social) media om aandacht te vragen voor het probleem. Zij vinden namelijk dat geld geen reden mag zijn om iemand een kans op extra behandelingen te ontnemen (en ik ben het daar mee eens!).

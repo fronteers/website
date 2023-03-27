@@ -57,7 +57,7 @@ Wat helaas niet zo makkelijk kan, is het veranderen van de aanwijsrichting van j
 
 Lees meer [over `details` en `summary` op MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary).
 
-(TODO: Over Roel van Gils
-/adventskalender/roel.jpg
+### Over Roel van Gils
+<!-- <img src="/archief/_img/adventskalender/roel.jpg" alt="Foto van Roel van Gils" class="floating-portrait"> -->
 Roel noemt zichzelf een Digital Accessibility Nerd. Met zijn bedrijf Eleven Ways (gevestigd in Gent) helpt hij overheden en bedrijven die hun websites en apps voor zoveel mogelijk mensen toegankelijk willen maken. Roel steekt ook wel eens een handje toe bij het organiseren van Fronteers-bijeenkomsten in Vlaanderen. Hij twittert als [@roelvangils](https://twitter.com/roelvangils).
-Roels donatie gaat naar de Hersenstichting.)
+Roels donatie gaat naar de Hersenstichting.

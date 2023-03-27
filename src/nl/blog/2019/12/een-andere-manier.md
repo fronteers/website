@@ -153,7 +153,7 @@ git clone https://github.com/murb/turbolinks-stimulus-fronteers.git
 
 Sorry, geen hot reloading, maar met bijvoorbeeld Python (`python -m SimpleHTTPServer 8000`) of  Ruby (`ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 4000, :DocumentRoot => Dir.pwd).start'`) kun je er snel mee experimenteren.
 
-(TODO: Over Maarten
-/adventskalender/maarten.jpeg
+Over Maarten
+<img src="/archief/_img/adventskalender/maarten.jpeg" alt="Foto van maarten" class="floating-portrait">
 Maarten Brouwers is freelance ontwikkelaar van webapplicaties. Heeft een liefde voor standaarden en het vinden van De Juiste Manier. Hij combineert dat graag met interesse voor de eindgebruiker, maar zit net zo lief diep in server side Ruby (veelal on Rails) code. Blogt onregelmatig op [murb.nl](http://murb.nl/).
 Maartens donatie gaat naar Bits of Freedom.)
