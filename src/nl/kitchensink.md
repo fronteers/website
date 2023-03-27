@@ -56,11 +56,11 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 {%- vimeo "15982903" -%}
 
-## InlineVideo
+## inlineVideo
  
-\{\% InlineVideo "480" "270" "/_downloads/2010/fronteers-2010-compilatie" "webm" \%\}
+\{\% inlineVideo "480" "270" "/_downloads/2010/fronteers-2010-compilatie" "webm" \%\}
 
-{%- InlineVideo "480" "270" "/_downloads/2010/fronteers-2010-compilatie" "webm -%} 
+{%- inlineVideo "480" "270" "/_downloads/2010/fronteers-2010-compilatie" "webm" -%} 
  
 ## Youtube
 
