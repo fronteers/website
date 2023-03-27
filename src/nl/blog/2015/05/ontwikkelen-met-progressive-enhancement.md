@@ -63,7 +63,9 @@ Browsers gaan hier [op verschillende manieren](https://speakerdeck.com/zachleat/
 
 ![](https://fronteers.nl/_img/blog/2015/example-of-foit.png)
 
-(TODO: Een voorbeeld van FOIT)
+<p class="note">
+Een voorbeeld van FOIT
+</p>
 
 Uiteraard willen we dat onze content zo snel mogelijk beschikbaar is: een font request zou geen single point of failure moeten zijn. We moeten websites op zo’n manier bouwen dat ze bij onverwachte omstandigheden, zoals een falende internetverbinding, nog steeds bruikbaar zijn.
 

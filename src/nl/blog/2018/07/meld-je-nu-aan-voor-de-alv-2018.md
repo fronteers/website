@@ -31,12 +31,4 @@ Het staat leden tot het begin van de ALV vrij voorstellen voor de agenda in te d
 # Aanmelden
 
 Ben je van plan te komen, dan vragen we je vriendelijk je hieronder hiervoor in te schrijven, zodat we enigszins een idee hebben van de verwachte opkomst.
-
-(TODO: [Meld je aan voor de ALV van vrijdag 19 oktober]
-Naam [f text]
-E-mailadres [a text]
-Ik eet graag een broodje mee [o Ja|Nee]
-Opmerkingen [+ small]
-[Verstuur](voorzitter@fronteers.nl;melding:Je aanmelding is verstuurd! Fijn dat je er bij bent. Uiterlijk de week voor de ALV krijg je een e-mail met details en stukken. Tot 19 oktober!;max:100))
-
-(TODO: 3906)
+ 

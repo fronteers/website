@@ -121,7 +121,9 @@ Ya, I know it sounds daft, with me just giving you all these layers and all. But
 
 It looks nice, doing stuff with that kind of selector, it will make you look really smart and all. But it will bind you to a specific dom construction and that is not something you have total control over at all times.
 
-(TODO: (Same goes for the adjacent sibling combinator (+) and the general sibling combinator (~)))
+<p class="note">
+(Same goes for the adjacent sibling combinator (+) and the general sibling combinator (~))
+</p>
 
 ## Talk about it
 

@@ -31,4 +31,4 @@ Ga vrijdag de 29e naar tickets.fronteers.nl om je kaartje binnen te halen!
 
 # Over #fronteers15
 
-(TODO: Het Fronteerscongres is een van de grootste congressen over front-end development in Europa. Het wordt sinds 2008 jaarlijks georganiseerd door de vereniging Fronteers. De editie van dit jaar wordt de achtste, en zal opnieuw plaatsvinden in het prachtige Pathé Tuschinski. De congresdata zijn donderdag en vrijdag 8 en 9 oktober 2015. Op woensdag 7 oktober organiseren we bovendien een extra dag met workshops.)
+Het Fronteerscongres is een van de grootste congressen over front-end development in Europa. Het wordt sinds 2008 jaarlijks georganiseerd door de vereniging Fronteers. De editie van dit jaar wordt de achtste, en zal opnieuw plaatsvinden in het prachtige Pathé Tuschinski. De congresdata zijn donderdag en vrijdag 8 en 9 oktober 2015. Op woensdag 7 oktober organiseren we bovendien een extra dag met workshops.

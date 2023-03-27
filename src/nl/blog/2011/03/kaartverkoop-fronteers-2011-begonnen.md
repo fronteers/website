@@ -9,12 +9,14 @@ De kaartverkoop voor het [Fronteers Congres](http://fronteers.nl/congres/2011) o
 
 Zoals altijd staat de prijs van het Fronteers congres niet echt in verhouding tot de kwaliteit en voor Fronteersleden is het een waar vriendenprijsje:
 
-(TODO: [Early-bird]|[Prijs]
-Fronteersleden |€ 200,-
-Niet leden |€ 275,-)
+| Early-bird | Prijs |
+| ---------- | ----- |
+| Fronteersleden | € 200,- | 
+| Niet leden | € 275,- | 
 
-(TODO: [Normaal ticket]|[Prijs]
-Fronteersleden|€ 300,-
-Niet-leden|€ 375,-)
+| Normaal ticket | Prijs |
+| ---------- | ----- |
+| Fronteersleden | € 300,- | 
+| Niet-leden | € 375,- | 
 
 De early-bird periode is nu gestart en loopt tot eind juni. Fronteersleden kunnen [een kortingscode aanvragen](/congres/2011/contact). Korting voor leden geldt alleen voor mensen die inmiddels lid zijn, mensen die na 30 maart lid zijn geworden krijgen geen korting. Kaarten zijn te bestellen [via Paydro](http://fronteers.paydro.net/).

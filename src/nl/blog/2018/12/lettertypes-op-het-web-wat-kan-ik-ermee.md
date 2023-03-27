@@ -166,8 +166,7 @@ Als je alle 9 diktes gebruikt op een site, heb je 9 verschillende bestanden nodi
 
 Daar komt gelukkig langzamerhand verandering in: Variabele lettertypes zijn een relatief nieuwe ontwikkeling waarbij je maar één bestand hoeft te downloaden. Makers van variabele lettertypes bouwen als het ware knoppen in waar je met CSS aan kan draaien. Deze knoppen kunnen de meest uiteenlopende dingen aanpassen aan het uiterlijk van het lettertype. Met variabele lettertypes zijn zelfs meer dan de 9 diktes beschikbaar, en kan je alles tussen `font-weight: 1;` en `font-weight: 1000` gebruiken. Browser ondersteuning [wordt steeds beter](https://caniuse.com/#feat=variable-fonts).
 
-(TODO: 480x270
-/_downloads/2018/adventskalender/2019-vf.mp4)
+{%- inlineVideo "480" "270" "archief/_downloads/2018/adventskalender/2019-vf" "mp4" -%} 
 
 Je kan variabele lettertypen gebruiken met fallback naar niet-variabele lettertypen:
 

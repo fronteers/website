@@ -13,7 +13,6 @@ Laat het ons weten via [Twitter](https://twitter.com/FronteersConf), [IRC](http:
 
 Om jullie er nog even aan te herinneren hoe het er afgelopen jaar aan toe ging, hieronder een sfeerimpressie van [Fronteers 2010](http://vimeo.com/16670431) (gemaakt door [Frank Zijlstra](http://vimeo.com/fzijlstra)):
 
-(TODO: 480x270
-/_downloads/2010/fronteers-2010-compilatie.webm)
+{%- inlineVideo "480" "270" "archief/_downloads/2010/fronteers-2010-compilatie" "webm" -%} 
 
 Wij hebben er zin in; jullie hopelijk ook!

@@ -30,14 +30,4 @@ Aan het eind van zijn bestuurstermijn treedt dit jaar Jaco Koster af, en hij ste
 # Aanmelden
 
 Ben je van plan te komen, dan vragen we je vriendelijk je hieronder hiervoor in te schrijven, zodat we enigszins een idee hebben van de verwachte opkomst.
-
-(TODO: [Meld je aan voor de ALV van donderdag 30 november]
-Naam [f text]
-E-mailadres [a text]
-Ik eet graag een broodje mee [o Ja|Nee]
-Opmerkingen [+ small]
-[Verstuur](jaco.koster@gmail.com;melding:Je aanmelding is verstuurd! Tot op 30 november!;max:100))
-
-# Aanmeldingen
-
-(TODO: 3812)
+ 

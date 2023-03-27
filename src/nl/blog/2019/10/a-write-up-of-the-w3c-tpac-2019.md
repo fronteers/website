@@ -41,7 +41,9 @@ As a follow-on from the discussion on globalization and inclusion was a session 
 
 The group are working to update the CEPC following feedback and referencing other best practices for Codes of Conduct. In addition to producing a document, the group is helping to train people as ombuds who will help in situations where the code has been broken, or when someone has a concern.
 
-(TODO: The group are keen to receive feedback on the draft, which you can find [here](https://w3c.github.io/PWETF/).)
+<p class="note">
+The group are keen to receive feedback on the draft, which you can find [here](https://w3c.github.io/PWETF/).
+</p>
 
 # Incubation
 
@@ -57,7 +59,9 @@ Chris Wilson gave a presentation about the [WICG](https://github.com/wicg/) and 
 6. WG (horizontal review, iterate, lock down, implementations) →
 7. W3C Recommendation
 
-(TODO: As anyone who has seen one of my talks knows, I am very keen to encourage web designers and developers to get involved with web platform features. So do take a look at [the threads in the WICG discussions](https://discourse.wicg.io/), and see if there are features you have use cases for.)
+<p class="note">
+As anyone who has seen one of my talks knows, I am very keen to encourage web designers and developers to get involved with web platform features. So do take a look at [the threads in the WICG discussions](https://discourse.wicg.io/), and see if there are features you have use cases for.
+</p>
 
 # Lightning talks
 
@@ -102,4 +106,6 @@ In addition it was resolved that the [CSS Writing Modes](https://www.w3.org/TR/c
 
 If any Fronteers member wants to know more about any of the above, please get in touch with me, It's part of my role to pass on any relevant information, or put you in touch with the right people to help.
 
-(TODO: Members of Fronteers are encouraged to seek access to a members-only channel on our Slack space. If you haven't joined it yet, you can [sign up for our Slack automatically](https://fronteers-slack.herokuapp.com/). To join the members-only channel, send a private message to Anneke Sinnema (@anneke).)
+<p class="note">
+Members of Fronteers are encouraged to seek access to a members-only channel on our Slack space. If you haven't joined it yet, you can [sign up for our Slack automatically](https://fronteers-slack.herokuapp.com/). To join the members-only channel, send a private message to Anneke Sinnema (@anneke).
+</p>

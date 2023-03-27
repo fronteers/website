@@ -32,8 +32,7 @@ Op donderdag 25 augustus was Fronteers welkom bij [Travelgroep](http://travelgro
 
 
 
-(TODO: 640x360
-/_downloads/2011/arjan-eising-travelgroep.webm (156))
+{%- inlineVideo "640" "360" "archief/_downloads/2011/arjan-eising-travelgroep" "webm" "156" -%} 
 
 # Aanmeldingen
 

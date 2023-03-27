@@ -24,11 +24,3 @@ You may write about every topic related to front-end development. For example, a
 You can send in your proposal until October 31st by mailing to marketing@fronteers.nl or by filling in the form below. We would like to receive a topic/title, language and a short synopsis of your blog post. In the first week of november we'll announce the writers for this years advent calendar. The deadline for sending in your blog post is november 25th.
 
 On behalf of the authors, Fronteers will donate 75 euros for each writer to a charity of their choice. Writers can choose between one of these charities: Hersenstichting, KWF, KiKa, Bits or Freedom or Stem op een Vrouw. This year we made a selection of charities to make our treasurer's job a bit easier.
-
-(TODO: [Schrijf mee aan de adventskalender 2019]
-Naam/Name [f text]
-E-mail [a text]
-Onderwerp/subject [_text]
-Taal/language [_text]
-Omschrijving/Description [+ small]
-[Verstuur](marketing@fronteers.nl;melding:Bedankt voor je aanmelding, in de eerste week van november krijg je bericht van ons. Je kunt natuurlijk al wel vast gaan schrijven! Thank you for signing up! In the first week of November we'll get in touch with you. Of course you're welcome to start writing!))

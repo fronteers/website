@@ -11,7 +11,9 @@ Je zult er vast wel eens van gehoord hebben of misschien heeft een van je colleg
 
 ![Ducky Shine 3 is herkenbaar door de voor Ducky typerende spatiebalk](https://fronteers.nl/_img/blog/ducky-shine.jpg)
 
-(TODO: Ducky Shine 3 is herkenbaar door de voor Ducky typerende spatiebalk)
+<p class="note">
+Ducky Shine 3 is herkenbaar door de voor Ducky typerende spatiebalk
+</p>
 
 # Wat is een mechanisch toetsenbord eigenlijk?
 
@@ -25,7 +27,9 @@ Bij een mechanisch toetsenbord heb je deze nadelen niet. Afhankelijk van de swit
 
 ![Deze Magic Force is een budgetkeuze met een opvallend uiterlijk](https://fronteers.nl/_img/blog/magic-force.jpg)
 
-(TODO: Deze Magic Force is een budgetkeuze met een opvallend uiterlijk)
+<p class="note">
+Deze Magic Force is een budgetkeuze met een opvallend uiterlijk
+</p>
 
 # Welke switches zijn er?
 
@@ -35,7 +39,9 @@ Er zijn verschillende soorten switches. [Cherry MX](https://www.cherrymx.de/en),
 
 ![Bij deze Magic Force zie je dat er is gekozen voor brown switches](https://fronteers.nl/_img/blog/brown-switches.jpg)
 
-(TODO: Bij deze Magic Force zie je dat er is gekozen voor brown switches)
+<p class="note">
+Bij deze Magic Force zie je dat er is gekozen voor brown switches
+</p>
 
 Om het iets makkelijker te maken: er wordt een onderscheid gemaakt tussen tactile switches en linear switches. Een lineaire switch moet je tot de bodem indrukken voor deze een aanslag registreert. Een tactile switch heeft halverwege een voelbare bump, op dit punt wordt de aanslag geregistreerd en kun je verder typen. Je hoeft de toets dus niet verder in te drukken: het kan wel. 
 Een derde type, die je minder tegenkomt, is de clicky switch. Deze heeft naast een voelbare bump van een tactile switch, ook een hoorbare klik. Deze switches zouden nog wel eens tot geïrriteerde collega's kunnen leiden.
@@ -51,7 +57,9 @@ Mijn daily driver is een Ducky Miya Pro Sakura met Cherry MX Brown switches. De 
 
 ![Dit zuurstokroze toetsenbord is mijn Ducky Miya Pro Sakura.](https://fronteers.nl/_img/blog/ducky-sakura.jpg)
 
-(TODO: Dit zuurstokroze toetsenbord is mijn Ducky Miya Pro Sakura.)
+<p class="note">
+Dit zuurstokroze toetsenbord is mijn Ducky Miya Pro Sakura.
+</p>
 
 Er zijn ook speciale switches. Zoals bijvoorbeeld de silent serie van Cherry. Deze zijn er in Red en Black en zijn stille(re) varianten van deze kleuren. Dan is er ook de Cherry MX Speed Silver, ideaal voor games. Deze linear switch een lage actuation force en actuation point. Mijn advies zou zijn om deze speciale switches achterwege te laten bij je keus, dat maakt het in mijn ogen onnodig ingewikkeld.
 
@@ -63,7 +71,9 @@ Deze switches zijn bij de meeste webwinkels ook te bestellen, bijvoorbeeld bij [
 
 ![De Wooting One (een Nederlands merk) is een toetsenbord waarbij je zelf kunt wisselen tussen red en blue switches.](https://fronteers.nl/_img/blog/wooting-one.jpg)
 
-(TODO: De Wooting One (een Nederlands merk) is een toetsenbord waarbij je zelf kunt wisselen tussen red en blue switches.)
+<p class="note">
+De Wooting One (een Nederlands merk) is een toetsenbord waarbij je zelf kunt wisselen tussen red en blue switches.
+</p>
 
 Of heb je collega's of mensen in je omgeving die een mechanisch toetsenbord hebben? Vraag of je het eens mag uitproberen.
 

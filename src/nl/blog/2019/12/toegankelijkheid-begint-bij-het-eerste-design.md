@@ -28,7 +28,9 @@ Een goede koppenstructuur helpt je screenreadergebruikers enorm op weg. Zij kunn
 
 ![Screenshot koppenlijst VoiceOver, homepage Volkskrant, allemaal verkeerd gebruikte h4's en h3's](https://fronteers.nl/_img/adventskalender/toegankelijkheid-eerste-design/koppenlijst-voiceover-homepage-volkskrant.png)
 
-(TODO: Een screenshot van een koppenlijst in VoiceOver, homepage volkskrant.nl)
+<p class="note">
+Een screenshot van een koppenlijst in VoiceOver, homepage volkskrant.nl
+</p>
 
 Designers maken visueel wel koppen, maar denken vaak niet na over de kopniveaus. Het is ook de taak van contentmanagers of content designers om over dit soort informatiestructuren na te denken. Hebben ze dat niet gedaan, dan is het aan de developer of de toegankelijkheidsadviseur om vragen te gaan stellen.
 
@@ -54,7 +56,9 @@ De afbeelding en de h4 vallen bóven de h3 die beschrijft waar dit blokje over g
 
 ![Verkeerde koppenstructuur bij nieuwsblokje homepage Volkskrant, eerst h4 (chapeau) en dan h3](https://fronteers.nl/_img/adventskalender/toegankelijkheid-eerste-design/heading-levels-volkskrant.png)
 
-(TODO: Een chapeau met h4 staat boven de kop met h3, volkskrant.nl)
+<p class="note">
+Een chapeau met h4 staat boven de kop met h3, volkskrant.nl
+</p>
 
 ### Moet dit wel een kop zijn?
 
@@ -96,7 +100,9 @@ Omzeilende links (skiplinks) bieden hier vaak uitkomst. Mocht je je daar nog nik
 
 ![Screenshot skiplink Rijksoverheid.nl](https://fronteers.nl/_img/adventskalender/toegankelijkheid-eerste-design/screenshot-skiplink-rijksoverheid.png)
 
-(TODO: Zo ziet de skiplink eruit op Rijksoverheid.nl)
+<p class="note">
+Zo ziet de skiplink eruit op Rijksoverheid.nl
+</p>
 
 Omzeilende links zijn niet alleen handig voor de hoofdinhoud van een pagina, maar ook voor andere belangrijke plekken op de pagina, zoals de zoekfunctie, een blok met contactinformatie of een lijst met filters bij een zoekresultatenpagina. Er kunnen dus meerdere skiplinks bestaan die leiden naar verschillende belangrijke onderdelen van een pagina.
 

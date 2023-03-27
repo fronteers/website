@@ -16,9 +16,7 @@ Grand Café Lebowski in Utrecht heeft veel lekkere bieren, ook van de tap. En bi
 
 Domplein 17, naast de Dom in Utrecht, ongeveer 10 minuten lopen van Utrecht Centraal Station. Op de website van Grand Café Lebowski vind je de routebeschrijving.
 Parkeren in Utrecht is geen probleem, maar bekijk wel even de tarieven. Kies voor garage Springweg of één van de andere parkeergarages rond Hoog Catharijne.
-
-(TODO: Grand Cafe Lebowski, Domplein, Binnenstad, Utrecht)
-
+ 
 # Nog meer borrelen?
 
 Op donderdag 8 januari is er een nieuwjaarsreceptie van ISOC, ook daar kun je leden van Fronteers tegenkomen. [Lees hier verder.](/blog/2014/11/nieuwjaarsreceptie-isoc)
@@ -27,15 +25,4 @@ Op donderdag 8 januari is er een nieuwjaarsreceptie van ISOC, ook daar kun je le
 
 Ben je lid van Fronteers en doe je mee? Meld je dan aan.
 
-(TODO: [Meld je aan voor de bijeenkomst op vrijdag 16 januari]
-Naam [_ text]
-E-mailadres [_ text]
-Gebruikersnaam op Twitter [_ text]
-Ik reis die avond vanuit de regio [_ text]
-Ik kom met [o De auto|De auto (meerijders welkom)|Openbaar vervoer|De fiets|Anders|Weet ik nog niet]
-Opmerkingen [+ small]
-[Verstuur](melding:Je aanmelding is verstuurd! Tot op 16 januari!;max:80))
-
-# Aanmeldingen ({aanmeldingen} van de {max})
-
-(TODO: 3019)
+ 

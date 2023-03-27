@@ -9,13 +9,17 @@ De Commissie Cursussen heeft haar naam veranderd in Commissie Workshops en kondi
 
 De Commissie Cursussen heeft besloten om haar naam te veranderen. Van Dale definieert een cursus als volgt:
 
-(TODO: cur·sus de;
-    m -sen 1 reeks van lessen 2 schooljaar)
+``` 
+cur·sus de;
+    m -sen 1 reeks van lessen 2 schooljaar
+```
 
 Aangezien al onze ‘cursussen’ slechts een dag duren en al helemaal geen schooljaar zijn, dekte ‘cursussen’ de lading niet al te best.
 
-(TODO: work·shop [wu:rksjop] de;
+```
+work·shop [wu:rksjop] de;
   m -s het praktisch, creatief werken in groepjes)
+```
 
 …daarentegen, dekt de lading een stuk beter. Vandaar dus deze naamswijziging en de nodige url-wijzigingen op de site. Niet in de laatste plaats te danken aan een puik stukje internationaal scrummen.
 

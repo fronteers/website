@@ -20,13 +20,3 @@ Deze schrijvers doen al mee:
 * Niels Leenheer
 * Tim Severien
 * Koen Kivits
-
-Meld je aan via onderstaand formulier:
-
-(TODO: [Ik schrijf mee aan de Fronteers Adventskalender!]
-Naam [f text]
-E-mailadres [a text]   
-Weet je al waar je over wil schrijven? [+ small]
-Weet je al welk goede doel je wil ondersteunen? [+ small]
-Eventuele opmerkingen of vragen [+ small]
-[Verstuur](marketing@fronteers.nl;melding:Bedankt voor je aanmelding! We nemen zo spoedig mogelijk contact met je op.))

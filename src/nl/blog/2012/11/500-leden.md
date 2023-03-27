@@ -12,7 +12,7 @@ Tot volgende week, maandag 12 november, vanaf een uurtje of 18, bij [De Winkel v
 
 Hieronder wat getalletjes, voor de gekte.
 
-(TODO: Vaakst voorkomende namen van leden
+Vaakst voorkomende namen van leden
 Martijn	12 keer
 Peter	10 keer
 Jeroen	9 keer
@@ -22,7 +22,7 @@ Paul	6 keer
 Johan	6 keer
 Tom	6 keer)
 
-(TODO: Steden met de meeste leden
+Steden met de meeste leden
 Amsterdam	67 leden
 Utrecht	41 leden
 Rotterdam	29 leden
@@ -31,20 +31,20 @@ Groningen	11 leden
 Delft	11 leden
 Den Bosch	10 leden)
 
-(TODO: Bedrijven met de meeste leden
+Bedrijven met de meeste leden
 Mirabeau|11 leden
 eFocus|6 leden
 Stichting Accessibility|5 leden
 Ordina|5 leden)
 
-(TODO: Ledengroei door de jaren heen
+Ledengroei door de jaren heen
 2008	147 leden	+147 (ja, echt!)
 2009	222 leden	+75
 2010	327 leden	+105
 2011	431 leden	+104
 2012	510 leden	+79 (and counting!))
 
-(TODO: Willekeurige getallen
+Willekeurige getallen
 Sinds 2008 onverstoord lid|96 leden
 Vaakst voorkomende naam van leden die al sinds 2008 lid zijn|Jeroen
 Minimaal één halfjaar lid geweest|734 personen

@@ -19,11 +19,15 @@ Bash, de standaardshell, gebruikt de Readline-bibliotheek om je invoer in te lez
 
 Zet de volgende regel in je `.inputrc` zodat `cd dOwN<Tab>` netjes wordt aangevuld tot `cd Downloads`:
 
-(TODO: set completion-ignore-case On)
+```
+set completion-ignore-case On
+```
 
 Daarbij aansluitend zet je dit in je `.bashrc`, zodat `ls -alF *.jpg` zowel `IMG_1234.JPG` als `Screenshot 2011-12-01.jpg` toont:
 
-(TODO: shopt -s nocaseglob)
+```
+shopt -s nocaseglob
+```
 
 Als die bestandjes nog niet bestaan, kan je ze gewoon aanmaken. De volgende keer dat je je shell (of je terminal) start, worden ze ingelezen.
 
@@ -33,16 +37,19 @@ Hoe meer tijd je in de terminal doorbrengt, hoe vaker je bepaalde commando's zal
 
 Ikzelf vind het wel gemakkelijk als de pijltjes omhoog en omlaag zich wat intelligenter gedragen. Als je onderstaande code toevoegt aan je `inputrc`, houdt Readline rekening met wat je al getypt hebt:
 
-(TODO: # Use more intelligent Up/Down behaviour: use the text that has already been
+```
+# Use more intelligent Up/Down behaviour: use the text that has already been
 # typed as the prefix for searching through commands, like in Vim.
 "\e[B": history-search-forward
 "\e[A": history-search-backward)
+```
 
 Concreet: als je nu `git com` typt, en dan pijltje omhoog, heb je meteen je vorige `git commit` te pakken. Of `curl what` en je krijgt `curl whatismyip.org`—ervan uitgaande dat je dat al ooit getypt had. (Handige tip, overigens: zo zie je meteen je externe IP-adres.)
 
 Ook in `.bashrc` voor geschiedenis zijn er enkele handige instellingen. Ik hou wel van deze:
 
-(TODO: # Als je twee keer `foo` typt, hoeft dat niet twee keer in de geschiedenis.
+```
+# Als je twee keer `foo` typt, hoeft dat niet twee keer in de geschiedenis.
 # Zo vervuil je minder en kan je sneller door de geschiedenis navigeren.
 export HISTCONTROL=ignoredups;
 
@@ -53,18 +60,23 @@ shopt -s histreedit;
 
 # Standaard houdt Bash de laatste 500 opdrachten bij. Dat mag meer zijn.
 export HISTSIZE=4096;)
+```
 
 # 3. Word een controlefreak
 
 De shell biedt een heel krachtige manier om je computer te bedienen. Dat is erg prettig, maar missen is menselijk. Daarom, voor je eigen veiligheid, voeg je best een extra controle toe voor je bestanden onherroepelijk verneukt. Immers, als je een bestand kopieert naar een map waar al een bestand met dezelfde naam staat, zal een GUI je wel vragen of je zeker bent, maar de terminal niet. Je moet dat expliciet instellen. Voor `cp` ("copy"), `mv` ("move" en hernoem) en natuurlijk `rm` ("remove") doe je dat als volgt in `.bashrc`:
 
-(TODO: alias cp='cp -i';
+```
+alias cp='cp -i';
 alias mv='mv -i';
 alias rm='rm -i';)
+```
 
 Als je nu een keer `rm final.css` doet, zal je deze vraag krijgen:
 
-(TODO: remove final.css?)
+```
+remove final.css?
+```
 
 Deze controle vereist dat je `y` ingeeft (of `yes`, of `you betcha!`, of eender wat met een `y` vanvoor), of het bestand wordt niet verwijderd.
 
@@ -72,7 +84,9 @@ Deze controle vereist dat je `y` ingeeft (of `yes`, of `you betcha!`, of eender 
 
 De standaardprompt (het tekstje dat verschijnt voor jij kan beginnen typen) is niet bepaald geïnspireerd: `<computernaam>:<huidige map> <gebruikersnaam>`. Dat is op zijn zachtst gezegd beknopt. Het is ook niet handig om te zien waar de uitvoer van je commando's begint en eindigt. Daarom gebruik ik wat kleur. In je `.bashrc` ziet dat er zo uit:
 
-(TODO: export PS1="\[$(tput setaf 4; tput bold)\](\t) \u@\h \W\n\$ $(tput sgr0)")
+```
+export PS1="\[$(tput setaf 4; tput bold)\](\t) \u@\h \W\n\$ $(tput sgr0)"
+```
 
 Dat is een hele boterham, en in tegenstelling tot wat je moeder altijd zei tijdens het mosselen eten, is het wél nuttig om je voedsel te ontleden:
 

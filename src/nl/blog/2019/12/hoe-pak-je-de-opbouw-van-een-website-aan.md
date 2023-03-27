@@ -41,7 +41,9 @@ Je diensten kun je bijvoorbeeld op een pagina zetten, maar je kunt er ook voor k
 
 ![Voorbeeld van een flowchart](https://fronteers.nl/_img/adventskalender/marieke-webdesign-flowchart.png)
 
-(TODO: Voorbeeld flowcart)
+<p class="note">
+Voorbeeld flowchart
+</p>
 
 # Stap 7: Bepaal de inhoud van je homepage
 

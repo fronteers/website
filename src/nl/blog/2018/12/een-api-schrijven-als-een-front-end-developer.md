@@ -17,7 +17,9 @@ Als front-ender kies je er natuurlijk voor om zoveel mogelijk met JavaScript te 
 
 Als database heb ik gekozen voor MySQL, omdat ik er al ervaring mee had. Aangezien ik geen MySQL queries wil schrijven gebruik ik _[Sequelize](http://docs.sequelizejs.com/)_. Sequelize is een JavaScript *ORM* [(Object Relational Mapping)](https://en.wikipedia.org/wiki/Object-relational_mapping) zodat je met JavaScript queries kan schrijven.
 
-(TODO: (Ik heb gekozen voor MySQL in dit project maar als ik het weer zou doen, zou ik kiezen voor Mongo of een andere NoSQL taal. NoSQL sluit namelijk beter aan bij JavaScript.))
+<p class="note">
+(Ik heb gekozen voor MySQL in dit project maar als ik het weer zou doen, zou ik kiezen voor Mongo of een andere NoSQL taal. NoSQL sluit namelijk beter aan bij JavaScript.)
+</p>
 
 ```
 this.UserSchema.User.findAll({
@@ -31,7 +33,9 @@ _Een sequelize query die alle usernames en beroepsrollen uit de “user” tabel
 
 Als laatste heb ik het populaire _[Express Framework](https://www.express.com/)_ gebruikt. Dit is een eenvoudig en snel in te zetten framework om web applicatie’s te bouwen.
 
-(TODO: Express was echter geen goede keus voor dit project omdat ik enkel JSON terug ga sturen, Polka zou een betere keuze zijn geweest. Express heeft namelijk een rendering engine in zich maar dat is in dit specifieke geval overkill.)
+<p class="note">
+Express was echter geen goede keus voor dit project omdat ik enkel JSON terug ga sturen, Polka zou een betere keuze zijn geweest. Express heeft namelijk een rendering engine in zich maar dat is in dit specifieke geval overkill.
+</p>
 
 # Projectstructuur
 

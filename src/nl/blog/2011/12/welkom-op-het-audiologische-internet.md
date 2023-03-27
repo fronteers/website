@@ -27,11 +27,14 @@ Een tegenhanger hiervan is de [Web Audio API](http://www.w3.org/2011/audio/draft
 
 Om een vergelijking te schetsen tussen de twee voorstellen:
 
-(TODO: [Audio Data API]|[Web Audio API]
-Mozilla Firefox|Google Chrome, Apple Safari, binnenkort mogelijk iOS.
-Imperatief|Declaratief (met mogelijkheid tot imperatief)
-Low-level, zelf de berekeningen doen|High-level met Nodes voor de meeste operaties, maar opnieuw met de mogelijkheid tot low-level.
-1 input, 1 bewerking, 1 output|1 of meer inputs, 1 of meer bewerkingen, 1 output)
+| Audio Data API                       | Web Audio API                                                |
+| ------------------------------------ | ------------------------------------------------------------ |
+| Mozilla Firefox                      | Google Chrome, Apple Safari, binnenkort mogelijk iOS.        |
+| Imperatief                           | Declaratief (met mogelijkheid tot imperatief)                |
+| Low-level, zelf de berekeningen doen | High-level met Nodes voor de meeste operaties, maar opnieuw met de mogelijkheid tot low-level. |
+| 1 input, 1 bewerking, 1 output       | 1 of meer inputs, 1 of meer bewerkingen, 1 output            |
+
+
 
 De Web Audio API is in principe een superset van de Audio Data API: het biedt dezelfde functionaliteiten, maar geeft de ontwikkelaar ook de optie om gebruik te maken van geoptimaliseerde procedures die veelal tot hetzelfde effect zullen leiden. Er zijn al verschillende JavaScript libraries voor Mozilla’s Audio Data API geschreven om tot datzelfde punt te komen, zoals [DSP.js](https://github.com/corbanbrook/dsp.js/).
 

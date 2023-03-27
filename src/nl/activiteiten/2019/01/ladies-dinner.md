@@ -22,9 +22,7 @@ Our intention is to introduce female developers to eachother to exchange experie
 This _ladies dinner_ will be the first of its kind and we're very curious to see how this experiment will turn out! Will you join us? Sign up using the form below.
 
 Two weeks in advance we'll send you an e-mail with details on the exact location and the evening's programme. Because we would like to see as many people as possible we're going to look for a dinner location in Utrecht (in walking distance from the train station).
-
-(TODO: Form)
-
+ 
 <table>
 <tr>
 <th>Name</th>

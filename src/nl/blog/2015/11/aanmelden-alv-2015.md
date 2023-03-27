@@ -28,14 +28,4 @@ Dit jaar treden Matijs Brinkhuis en Roy Tomeij af, en stellen zich niet opnieuw 
 > Dag Fronteers, ik heet Thomas en ik ben sinds 2009 lid van de vereniging. Af en toe doe ik een inleiding bij spreekavonden, en sinds 2013 ben ik actief in de organisatie van het congres. Vandaag stel ik me kandidaat als bestuurslid.
 
 Ben je van plan te komen, dan vragen we je vriendelijk je hieronder hiervoor in te schrijven, zodat we een idee hebben van de te verwachten opkomst.
-
-(TODO: [Meld je aan voor de ALV van donderdag 3 december]
-Naam [f text]
-E-mailadres [a text]
-Ik eet graag een broodje mee om 18:30 [o Ja|Nee]
-Opmerkingen [+ small]
-[Verstuur](voorzitter@fronteers.nl;cc:jaco.koster@gmail.com;melding:Je aanmelding is verstuurd! Tot op 3 december!;max:100))
-
-# Aanmeldingen
-
-(TODO: 3347)
+ 
