@@ -69,17 +69,4 @@ Below, you'll find the provisional program of the evening. The financial documen
 * Presentation of our new branding
 * Round of questions
 * Close
-
-## Sign up
-
-If you plan to attend, please sign up using the form below, so we know how many members we can expect to join us!
-
-(TODO: [Meld je aan voor de ALV van vrijdag 29 november (Sign up for the ALV of friday, the 29th of November)]
-Naam (Name) [f text]
-E-mailadres [a text]
-Ik maak graag gebruik van het buffet (I would like to make use of the buffet) [o Ja|Nee]
-I understand Dutch [o Yes|No]
-Opmerkingen [+ small]
-[Verstuur](voorzitter@fronteers.nl;melding:Je aanmelding is verstuurd! Fijn dat je er bij bent. Uiterlijk de week voor de ALV krijg je een e-mail met details en stukken. Tot 29 november! / Thank you for signing up! We look forward to having you with us. In the week before the meeting you will receive an e-mail with the details and financial documents. See you on the 29th of November!;max:100))
-
-
+ 

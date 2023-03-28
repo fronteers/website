@@ -22,7 +22,7 @@ Progressive Web Apps is een verzameling standaarden en best practices om te zorg
 
 # Programma
 
-(TODO: 18:00 | Ontvangst met drankjes en pizza (!)
+18:00 | Ontvangst met drankjes en pizza (!)
 18:30 | Niels Leenheer: The progression of Web Apps
 19:15 | Pauze
 19:30 | Daniel Appelquist

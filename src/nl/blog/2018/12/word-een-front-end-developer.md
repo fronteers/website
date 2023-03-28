@@ -22,35 +22,35 @@ Tijdens de experimentele fase zal je vooral het volgende leren:
 
 Beginnen met HTML en CSS is makkelijk, maar het goed doen is een ander verhaal en vergt best veel kennis. Ik verwacht niet dat junior developers bekend zijn met alle onderwerpen in het lijstje hieronder, maar er van bewust zijn dat het bestaat en wat je kunt leren, kan je wel een voorsprong geven:
 
-(TODO: HTML
-    Basis: in staat zijn om functionerende HTML te schrijven
-    Validiteit: in staat zijn om HTML te schrijven met weinig fouten
-    Browser compatibiliteit: hoe om te gaan met browser incompatibiliteit
-    Memorisatie: bekend zijn welke HTML tags bestaan
-    Semantiek: weten welke HTML tag goed is in welke situatie
-    Toegankelijkheid: markup optimaliseren voor iedereen, ook mensen met beperkingen)
+HTML
+- ​Basis: in staat zijn om functionerende HTML te schrijven
+- ​Validiteit: in staat zijn om HTML te schrijven met weinig fouten
+- ​Browser compatibiliteit: hoe om te gaan met browser incompatibiliteit
+- ​Memorisatie: bekend zijn welke HTML tags bestaan
+- ​Semantiek: weten welke HTML tag goed is in welke situatie
+- ​Toegankelijkheid: markup optimaliseren voor iedereen, ook mensen met beperkingen
 
-(TODO: CSS
-    Basis: in staat zijn om functionerende CSS te schrijven
-    Validiteit: in staat zijn om CSS te schrijven met weinig fouten
-    Browser compatibiliteit: hoe om te gaan met browser incompatibiliteit
-    Responsive ontwerp: weten hoe je een ontwerp optimaliseert voor verschillende apparaten en schermen
-    Architectuur: weten hoe je dingen moet noemen, verantwoordelijkheden scheidt, bestanden organiseert, en de code onderhoudbaar houdt
-    Toegankelijkheid: weten wat voor rol stijling bijdraagt aan toegankelijkheid en afweten van beste en slechte praktijken)
+CSS
+- ​Basis: in staat zijn om functionerende CSS te schrijven
+- ​Validiteit: in staat zijn om CSS te schrijven met weinig fouten
+- ​Browser compatibiliteit: hoe om te gaan met browser incompatibiliteit
+- ​Responsive ontwerp: weten hoe je een ontwerp optimaliseert voor verschillende apparaten en schermen
+- ​Architectuur: weten hoe je dingen moet noemen, verantwoordelijkheden scheidt, bestanden organiseert, en de code onderhoudbaar houdt
+- ​Toegankelijkheid: weten wat voor rol stijling bijdraagt aan toegankelijkheid en afweten van beste en slechte praktijken
 
-(TODO: JavaScript
-    Basis: in staat zijn om functionerende JS te schrijven
-    Probleemoplossend vermogen: weten hoe je een probleem aanpakt om een doel te behalen
-    Debuggen: hoe je bugs vindt, isoleert en oplost
-    Web platform: wat kennis van de DOM API (HTML hiërarchie tijdens runtime) en wat Web APIs
-    Principes: scheiden van verantwoordelijkheden, KISS, etc
-    Onderhoudbaarheid: hoe je de code onderhoudbaar houdt
-    Wanneer je het moet gebruiken, en wanneer niet
-    Verschil tussen ECMAScript en JavaScript)
+JavaScript
+- ​Basis: in staat zijn om functionerende JS te schrijven
+- ​Probleemoplossend vermogen: weten hoe je een probleem aanpakt om een doel te behalen
+- ​Debuggen: hoe je bugs vindt, isoleert en oplost
+- ​Web platform: wat kennis van de DOM API (HTML hiërarchie tijdens runtime) en wat Web APIs
+- ​Principes: scheiden van verantwoordelijkheden, KISS, etc
+- ​Onderhoudbaarheid: hoe je de code onderhoudbaar houdt
+- ​Wanneer je het moet gebruiken, en wanneer niet
+- ​Verschil tussen ECMAScript en JavaScript
 
-(TODO: Browsers en het internet
-    HTTP Protocol: hoe browsers inhoud laden
-    Media encoderingen: weten wanneer je gif, jpg, png, svg, webp, mp3, mp4, etc. moet gebruiken)
+Browsers en het internet
+- ​HTTP Protocol: hoe browsers inhoud laden
+- ​Media encoderingen: weten wanneer je gif, jpg, png, svg, webp, mp3, mp4, etc. moet gebruiken
 
 Bovenstaande lijst lijkt misschien veel, maar maak je geen zorgen. Focus vooral op HTML, CSS en basis JavaScript. De rest volgt vanzelf.
 
@@ -169,8 +169,9 @@ Er zijn veel manieren om front-end web developer te worden. Je kan het jezelf aa
 
 Wat je ook kiest, basiskennis van HTML, CSS en JavaScript is voldoende om aan de slag te gaan. De rest volgt vanzelf.
 
-(TODO: Over Tim Severien
-/adventskalender/tim-severien.png
+### Over Tim Severien
+<img src="/archief/_img/adventskalender/tim-severien.png" alt="Foto van Tim" class="floating-portrait">
 Tim Severien is een front-end developer uit Nederland. Naast zijn werk blogt hij wel eens op [timseverien.com](https://timseverien.com/) en uit hij zijn creativiteit op [codepen.io/timseverien](https://codepen.io/timseverien).
+
 Donatie: WNF
-Ik hou enorm van dieren en de natuur en ik wil dat ze onderdeel blijven van dit kleine brokje in het universum. Daarom doneer ik aan het WNF.)
+Ik hou enorm van dieren en de natuur en ik wil dat ze onderdeel blijven van dit kleine brokje in het universum. Daarom doneer ik aan het WNF.

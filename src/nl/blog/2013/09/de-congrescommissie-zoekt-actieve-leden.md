@@ -17,10 +17,3 @@ Hopelijk haken sommigen door deze opsomming af, en dat is ook de bedoeling. Het 
 Mocht bovenstaande, incomplete, opsomming van taken je juist aanspreken, en mocht je graag, het liefst meerdere jaren, mee willen werken aan een van dé nerd-happenings van Nederland, meld je dan via onderstaand formulier aan als commisielid. Met een motivatie, met [de werkzaamheden die je graag zou willen doen](/congres/2013/colophon). Je gaat dan wellicht deel uitmaken van een bijzonder toffe, goed geoliede, ervaren commissie, en je kunt dan rekenen op de ondersteuning van (oud) leden. Maar onthoud, het is absoluut een eervolle taak, een heel erg leuk om te doen, en een groot feest, maar het is ook écht heel veel werk.
 
 Als je nog vragen hebt hierover, neem dan contact op met een van de [huidige leden van de commissie](/congres/2013/colophon). Je kan hun contactgegevens gewoon vinden op het internet! Ze zijn ook vaak te vinden op het [IRC kanaal van Fronteers](http://webchat.freenode.net/?channels=fronteers) en ze lopen natuurlijk rond op het congres zelf. Jezelf aanmelden kan tot 21 oktober. Eind oktober, begin november krijg je dan te horen of je je volgend jaar uit de naad mag werken voor de volgende editie van dit prachtige evenement.
-
-(TODO: [Aanmeldformulier voor de congrescommissie]
-Naam [_ text]
-E-mailadres [e text]
-Lid van Fronteers [x Ja]
-Ik wil graag lid worden van de congrescommissie, want… [+]
-[Verstuur](congres@lists.fronteers.nl;cc:bestuur@lists.fronteers.nl;melding:Het aanmeldformulier is verstuurd. Wij nemen rond het eind van oktober contact met je op.))

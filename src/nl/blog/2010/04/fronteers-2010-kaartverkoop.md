@@ -25,14 +25,17 @@ Zoals gezegd gaat vandaag ook de early-bird kaartverkoop online. Net als vorig j
 
 Hieronder de prijzen voor dit jaar (exclusief 19% btw):
 
-(TODO: Early-bird ticket voor 2 dagen|€ 275,00
-Early-bird ticket voor 1 dag|€ 175,00
-Early-bird ticket voor 2 dagen voor Fronteers leden|€ 200,00
-Early-bird ticket voor 2 dagen voor nieuwe Fronteers leden (per 27-04)|€ 225,00
-Early-bird ticket voor 1 dag voor Fronteers leden|€ 125,00
-Workshop Advanced CSS styling|€ 350,00
-Workshop Advanced CSS styling voor Fronteers leden|€ 275,00
-Workshop Advanced CSS styling voor nieuwe Fronteers leden (per 27-04)|€ 300,00)
+| Type ticket                                                  | Prijs    |
+| ------------------------------------------------------------ | -------- |
+| Early-bird ticket voor 2 dagen                               | € 275,00 |
+| Early-bird ticket voor 1 dag                                 | € 175,00 |
+| Early-bird ticket voor 2 dagen voor Fronteers leden          | € 200,00 |
+| Early-bird ticket voor 2 dagen voor nieuwe Fronteers leden (per 27-04) | € 225,00 |
+| Early-bird ticket voor 1 dag voor Fronteers leden            | € 125,00 |
+| Workshop Advanced CSS styling                                | € 350,00 |
+| Workshop Advanced CSS styling voor Fronteers lede            | € 275,00 |
+| Workshop Advanced CSS styling voor nieuwe Fronteers leden (per 27-04) | € 300,00 |
+
 
 [Fronteers leden](/leden) krijgen via de mailinglist in de komende dagen hun kortingscode doorgemaild, dus hou de hand nog even op de knip. Mensen die vanaf vandaag lid worden krijgen ook korting, maar niet de volledige korting (aangezien deze hoger ligt dan de lidmaatschapskosten). Voor de niet-leden: [boek je tickets nu!](/congres/2010/tickets)
 

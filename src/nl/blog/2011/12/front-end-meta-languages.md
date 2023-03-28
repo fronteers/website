@@ -298,8 +298,9 @@ Als je een zelfstandige front-ender bent die HTML of CSS oplevert, dan staat nie
 
 Maar het allerbelangrijkste: gebruik van front-end meta languages is leuker en maakt je leven makkelijker. Happy holidays!
 
-(TODO: Over Roy Tomeij
-2011/12/roy-tomeij.jpg
+### Over Roy Tomeij
+<!-- <img src="/archief/_img/2011/12/roy-tomeij.jpg" alt="Foto van roy tomeij uit 2011" class="floating-portrait"> -->
 Roy Tomeij is co-founder van [80beans](http://www.80beans.com/) en [SliceCraft](http://www.slicecraft.nl/) in Amsterdam, front-end developer en spreker. Hij houdt van front-end meta languages zoals Haml, Sass en CoffeeScript. Als je meer wilt weten, neem dan contact op met [@roy](https://twitter.com/roy) via Twitter.
+
 Donatie: Doe Een Wens Stichting Nederland
-De vergoeding voor dit artikel gaat naar [Doe Een Wens Stichting Nederland](http://www.doeeenwens.nl/), zodat de liefste wens van kinderen met een levensbedreigende ziekte vervult kan worden.)
+De vergoeding voor dit artikel gaat naar [Doe Een Wens Stichting Nederland](http://www.doeeenwens.nl/), zodat de liefste wens van kinderen met een levensbedreigende ziekte vervult kan worden.

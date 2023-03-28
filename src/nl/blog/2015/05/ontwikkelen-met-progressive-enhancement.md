@@ -63,7 +63,9 @@ Browsers gaan hier [op verschillende manieren](https://speakerdeck.com/zachleat/
 
 ![](https://fronteers.nl/_img/blog/2015/example-of-foit.png)
 
-(TODO: Een voorbeeld van FOIT)
+<p class="note">
+Een voorbeeld van FOIT
+</p>
 
 Uiteraard willen we dat onze content zo snel mogelijk beschikbaar is: een font request zou geen single point of failure moeten zijn. We moeten websites op zo’n manier bouwen dat ze bij onverwachte omstandigheden, zoals een falende internetverbinding, nog steeds bruikbaar zijn.
 
@@ -115,9 +117,8 @@ Hetzelfde geldt voor de manier waarop we websites bouwen: gebruikers moeten alti
 Progressive enhancement biedt ons een aantal praktische methodes waarmee we:
 
 * door middel van feature detection geavanceerde technieken kunnen aanbieden aan moderne browsers, terwijl de basiservaring altijd beschikbaar is voor minder capabele browsers.
-* 
 * een website bestand maken tegen onverwachte gebeurtenissen, waardoor deze ook bruikbaar is in het geval van een instabiele internetverbinding.
 
-(TODO: Over Sanne Veroude
-blog/2015/sanneveroude.png
-Front-end developer, likes building stuff accessible for everyone and on every device)
+### Over Sanne Veroude
+<img src="/archief/_img/blog/2015/sanneveroude.png" alt="Foto van Sanne">
+Front-end developer, likes building stuff accessible for everyone and on every device

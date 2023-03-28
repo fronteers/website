@@ -57,9 +57,10 @@ Voor wie de verschillen wil zien tussen WCAG1.0 en WCAG2.0 staat hier het [mappi
 
 Al met al een hoop veranderingen voor een meer flexibele en toekomstgerichte set Webrichtlijnen, waar de huidige gebruikte technieken beter in passen. En met de mogelijkheid van een AMvB is er eindelijk ook een stok achter de deur voor (mede-)overheden om er echt aan te gaan voldoen.
 
-(TODO: Over Janita Top
-2011/12/janita-top.jpg
+### Over Janita Top
+<!-- <img src="/archief/_img/2011/12/janita-top.jpg" alt="Foto van janita top uit 2011" class="floating-portrait"> -->
 Janita is freelance front-end developer en zit namens Fronteers in de Normcommissie Drempelvrij.nl. Haar kernwoorden, zowel in werk als privé, zijn kwaliteit en duurzaamheid. Ze is gek op (trein)reizen, fietsen en gaat geregeld naar (pop)concerten.
 Ze is te vinden op [Twitter](https://twitter.com/sigvi) en op haar eigen website [janitatop.nl](http://www.janitatop.nl/).
+
 Donatie: Sea Shepherd
-[Sea Shepherd](http://www.seashepherd.nl/) voert directe actie op zee om de afslachting van o.a. walvissen en dolfijnen tegen te gaan en de vernietiging van de leefomgeving te stoppen. Dit is hard nodig om ecosystemen en soorten te beschermen en te behouden. De organisatie krijgt geen subsidies en is daardoor volledig afhankelijk van donaties.)
+[Sea Shepherd](http://www.seashepherd.nl/) voert directe actie op zee om de afslachting van o.a. walvissen en dolfijnen tegen te gaan en de vernietiging van de leefomgeving te stoppen. Dit is hard nodig om ecosystemen en soorten te beschermen en te behouden. De organisatie krijgt geen subsidies en is daardoor volledig afhankelijk van donaties.

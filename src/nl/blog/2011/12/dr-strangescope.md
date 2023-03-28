@@ -117,8 +117,9 @@ Overigens kunnen alle vier de functies bij het argument van de ouderfunctie: `el
 
 *Fijne feestdagen!*
 
-(TODO: Over Arjan Eising
+### Over Arjan Eising
 /2011/12/arjan-eising.jpg
 Front-end developer bij [Springest](http://www.springest.nl). Bestuurslid en bijeenkomstenorganisator bij Fronteers. Kijkt te veel films.
+
 Donatie: Fonds Psychische Gezondheid
-[Fonds Psychische Gezondheid](http://www.psychischegezondheid.nl/) zorgt voor onderzoek om de zorg voor mensen met psychische klachten te verbeteren, alsmede voorlichting voor patiënten en betrokkenen.)
+[Fonds Psychische Gezondheid](http://www.psychischegezondheid.nl/) zorgt voor onderzoek om de zorg voor mensen met psychische klachten te verbeteren, alsmede voorlichting voor patiënten en betrokkenen.

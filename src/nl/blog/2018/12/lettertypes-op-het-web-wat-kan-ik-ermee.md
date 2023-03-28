@@ -166,8 +166,7 @@ Als je alle 9 diktes gebruikt op een site, heb je 9 verschillende bestanden nodi
 
 Daar komt gelukkig langzamerhand verandering in: Variabele lettertypes zijn een relatief nieuwe ontwikkeling waarbij je maar één bestand hoeft te downloaden. Makers van variabele lettertypes bouwen als het ware knoppen in waar je met CSS aan kan draaien. Deze knoppen kunnen de meest uiteenlopende dingen aanpassen aan het uiterlijk van het lettertype. Met variabele lettertypes zijn zelfs meer dan de 9 diktes beschikbaar, en kan je alles tussen `font-weight: 1;` en `font-weight: 1000` gebruiken. Browser ondersteuning [wordt steeds beter](https://caniuse.com/#feat=variable-fonts).
 
-(TODO: 480x270
-/_downloads/2018/adventskalender/2019-vf.mp4)
+{%- inlineVideo "480" "270" "archief/_downloads/2018/adventskalender/2019-vf" "mp4" -%} 
 
 Je kan variabele lettertypen gebruiken met fallback naar niet-variabele lettertypen:
 
@@ -237,8 +236,9 @@ Probeer het uit! Met een snel inelkaargeflanst pagina’tje kan je leuk experime
 </html>
 ```
 
-(TODO: Over Amy Davis
-/adventskalender/amy.jpg
+### Over Amy Davis
+<!-- <img src="/archief/_img/adventskalender/amy.jpg" alt="Foto van Amy Davis" class="floating-portrait"> -->
 Ik ben opgegroeid met computers, en altijd gefascineerd geweest door het web, HTML, CSS en JS. In het dagelijkse leven ben ik Senior Front-end developer bij [B-ware Business Software](https://www.b-ware.com). Sinds 2016 ben ik lid van Fronteers en de meeste dagen te vinden op de [Fronteers Slack](https://fronteers-slack.herokuapp.com/). Mijn favoriete kleur is #6c48a4.
+
 Donatie: Wikimedia Foundation
-Ik vind het prachtig om een artikel te schrijven over dingen waar ik verstand van heb en zo anderen verder te helpen. Dé organisatie die dit faciliteert op wereldwijde schaal is de [Wikimedia Foundation](https://wikimediafoundation.org/), bekend van Wikipedia en [vele andere crowd-sourced projecten](https://wikimediafoundation.org/our-work/wikimedia-projects/).)
+Ik vind het prachtig om een artikel te schrijven over dingen waar ik verstand van heb en zo anderen verder te helpen. Dé organisatie die dit faciliteert op wereldwijde schaal is de [Wikimedia Foundation](https://wikimediafoundation.org/), bekend van Wikipedia en [vele andere crowd-sourced projecten](https://wikimediafoundation.org/our-work/wikimedia-projects/).

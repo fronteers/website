@@ -9,7 +9,9 @@ Letterlijk is een ‘cliché’ een metalen plaat waarmee je illustraties kunt a
 
 ![Een cliché voor reclame voor King pepermunt](https://fronteers.nl/_img/adventskalender/cliches/king-pepermunt-cliche.jpg)
 
-(TODO: Een cliché voor reclame voor King pepermunt)
+<p class="note">
+Een cliché voor reclame voor King pepermunt
+</p>
 
 Clichés zijn niet per definitie onwaar of fout. Het kan heel handig zijn om in clichés te denken. Het is doodvermoeiend en zonde van je tijd om altijd overal over na te denken. Clichés helpen je dan, zodat je niet te lang hoeft na te denken. Maar je moet niet alles geloven wat je denkt, want soms is wat je denkt gewoon fout.
 
@@ -27,7 +29,9 @@ We zijn gewend geraakt aan enorme hero images, schermvullend en topzwaar. Hierdo
 
 ![Screenshot van Frankwatching.com (november 2019)](https://fronteers.nl/_img/adventskalender/cliches/screenshot-frankwatching-20191127.jpg)
 
-(TODO: Screenshot van Frankwatching.com (november 2019))
+<p class="note">
+Screenshot van Frankwatching.com (november 2019)
+</p>
 
 ## Stockfoto’s
 
@@ -37,31 +41,45 @@ Resultaat? “[Aap eet banaan](https://paulvanbuuren.nl/aap-eet-banaan/)“, een
 
 ![Ariane The Overexposed Stockphoto Model](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-01-ariane-the-overused.jpg)
 
-(TODO: Ariane The Overexposed Stockphoto Model)
+<p class="note">
+Ariane The Overexposed Stockphoto Model
+</p>
 
 ![Zoek op “Success”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-02-succes.jpg)
 
-(TODO: Zoek op “Success”)
+<p class="note">
+Zoek op “Success”
+</p>
 
 ![Zoek op “Men shaking hands”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-03-men-shaking-hands.jpg)
 
-(TODO: Zoek op “Men shaking hands”)
+<p class="note">
+Zoek op “Men shaking hands”
+</p>
 
 ![Zoek op “Boy toys”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-04-boys-toys.jpg)
 
-(TODO: Zoek op “Boy toys”)
+<p class="note">
+Zoek op “Boy toys”
+</p>
 
 ![Zoek op “Girl toys”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-05-girls-toys.jpg)
 
-(TODO: Zoek op “Girl toys”)
+<p class="note">
+Zoek op “Girl toys”
+</p>
 
 ![Zoek op “Woman eating salad”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-07-woman-eating-salad.jpg)
 
-(TODO: Zoek op “Woman eating salad”)
+<p class="note">
+Zoek op “Woman eating salad”
+</p>
 
 ![Zoek op “Hacker”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-06-hackers.jpg)
 
-(TODO: Zoek op “Hacker”)
+<p class="note">
+Zoek op “Hacker”
+</p>
 
 ## Icoontjes
 
@@ -81,7 +99,9 @@ De tweelingbroer van Klik Hier is Lees Meer. Ook met ‘lees meer’ vertel je n
 
 ![Stapels boeken](https://fronteers.nl/_img/adventskalender/cliches/lees-meer-boeken.jpg)
 
-(TODO: Dit is een prima aansporing: “Lees meer”, als je bedoelt: lees meer boeken)
+<p class="note">
+Dit is een prima aansporing: “Lees meer”, als je bedoelt: lees meer boeken
+</p>
 
 Klik anders hier even: [click-here.nl](http://click-here.nl/)
 
@@ -89,7 +109,9 @@ Klik anders hier even: [click-here.nl](http://click-here.nl/)
 
 ![Social media knoppen](https://fronteers.nl/_img/adventskalender/cliches/vijf-knoppen-om-een-pagina-te-delen-facebook-twitter-whatsapp-linkedin-email.jpg)
 
-(TODO: Klik hier)
+<p class="note">
+Klik hier
+</p>
 
 Die knoppen om een pagina te delen op social media? Ze werken amper. Ik ken geen onderzoeken die aantonen dat ze een groot effect hebben op het wel of niet delen van een pagina. Maximaal 1% van je bezoekers gebruikt die knoppen om een pagina te delen.
 
@@ -147,7 +169,9 @@ Weet je wat daar zo handig van is? Je vertelt daarmee aan je gebruiker wat hij m
 
 ![Liftknopjes zonder nummer](https://fronteers.nl/_img/adventskalender/cliches/lift-knopjes.jpg)
 
-(TODO: O jee, geen labels. Wat nu? [Het origineel is trouwens niet veel beter](https://www.reddit.com/r/CrappyDesign/comments/78gcgt/this_elevator_button_panel/).)
+<p class="note">
+O jee, geen labels. Wat nu? [Het origineel is trouwens niet veel beter](https://www.reddit.com/r/CrappyDesign/comments/78gcgt/this_elevator_button_panel/).
+</p>
 
 # Cliche 7: niet-onderstreepte links
 
@@ -171,7 +195,7 @@ Vrede op aarde.
 
 (Dit is een vertaling van een praatje dat ik eerder gaf bij de Fronteers Jam Sessions in oktober.)
 
-(TODO: Over Paul van Buuren
-/adventskalender/paul.jpeg
+### Over Paul van Buuren
+<!-- <img src="/archief/_img/adventskalender/paul.jpg" alt="Foto van Paul van Buuren" class="floating-portrait"> -->
 Paul van Buuren maakt websites sinds 1998. Zijn vooropleiding heeft niks met webdesign te maken, want dat bestond domweg nog niet. Onder de noemer WBVB Rotterdam werkt hij als zelfstandige voor diverse opdrachtgevers. Z'n specialiteit is het maken van toegankelijke WordPress-sites. Hij praat opvallend vaak in algemeenheden en tegeltjeswijsheden.
-Pauls donatie gaat naar KiKa.)
+Pauls donatie gaat naar KiKa.

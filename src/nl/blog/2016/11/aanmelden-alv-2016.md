@@ -59,14 +59,4 @@ Eerdere discussie over dit onderwerp valt ook [in de bestuursnotulen](/verenigin
 # Aanmelden
 
 Ben je van plan te komen, dan vragen we je vriendelijk je hieronder hiervoor in te schrijven, zodat we enigszins een idee hebben van de verwachte opkomst.
-
-(TODO: [Meld je aan voor de ALV van maandag 28 november]
-Naam [f text]
-E-mailadres [a text]
-Ik eet graag een broodje mee om 18:00 [o Ja|Nee]
-Opmerkingen [+ small]
-[Verstuur](voorzitter@fronteers.nl;cc:jaco.koster@gmail.com;melding:Je aanmelding is verstuurd! Tot op 28 november!;max:100))
-
-# Aanmeldingen
-
-(TODO: 3636)
+ 

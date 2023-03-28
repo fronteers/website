@@ -18,8 +18,7 @@ Daniel komt nu aan het woord. Hij vraagt aan het publiek of ze een specifieke ri
 
 Bij dergelijke editors gaat het met content knippen en plakken vanuit Word vaak mis. Logisch, dat deze vraag uit het publiek komt. Volgens Gerard filtert de editor dit wanneer het in de database wordt opgeslagen.
 
-(TODO: 480x263
-/_downloads/2010/daniel-doesburg-gerard-wijngaarden.ogv (156))
+{%- inlineVideo "480" "263" "archief/_downloads/2010/daniel-doesburg-gerard-wijngaarden" "ogv" "156" -%} 
 
 [Download deze video](/_downloads/2010/daniel-doesburg-gerard-wijngaarden.ogv) (OGV, 85MB)
 
@@ -37,8 +36,7 @@ De editor die Koen heeft gemaakt, geeft visueel weer welke HTML elementen worden
 
 Koen hoopt binnen enkele maanden zijn editor open source op het internet te publiceren.
 
-(TODO: 480x272
-/_downloads/2010/koen-willems-tfe.ogv (156))
+{%- inlineVideo "480" "272" "archief/_downloads/2010/koen-willems-tfe" "ogv" "156" -%} 
 
 [Download deze video](/_downloads/2010/koen-willems-tfe.ogv) (OGV, 65MB)
 

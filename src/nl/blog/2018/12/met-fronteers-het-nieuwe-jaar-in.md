@@ -28,8 +28,8 @@ Moeten we aan bedrijven met kleine front-end teams meer consultancy taken aan ga
 Je merkt het: genoeg energie en ideëen om een positieve invulling te geven aan het verenigingswerk.
 Mocht je hierover eens met me willen babbelen, kun je me vinden op [Slack](/blog/2016/02/fronteers-op-slack) en op [Twitter](https://twitter.com/asinnema)!
 
-(TODO: Over Anneke Sinnema
-/adventskalender/anneke.png
+### Over Anneke Sinnema
+<img src="/archief/_img/adventskalender/anneke.png" alt="Foto van anneke" class="floating-portrait">
 Anneke Sinnema is een freelance front-end developer uit Enschede. Met haar voorzitterschap van Fronteers probeert Anneke een positieve bijdrage te leveren aan het dagelijks werk van collega developers. <3
 Donatie
-Mijn donatie gaat naar [Unicef](https://www.unicef.nl/wat-is-unicef-basics), als bijdrage voor hun actie om kinderen in het Syrisch oorlogsgebied te voorzien van kleding, dekens en en schoon water.)
+Mijn donatie gaat naar [Unicef](https://www.unicef.nl/wat-is-unicef-basics), als bijdrage voor hun actie om kinderen in het Syrisch oorlogsgebied te voorzien van kleding, dekens en en schoon water.

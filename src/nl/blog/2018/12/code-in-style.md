@@ -280,8 +280,9 @@ En dat is het. We hebben nu een eigen project gemaakt dat onze eigen ESLint en B
 
 Het proces zoals hierboven beschreven is natuurlijk niet de enige manier om een coding styleguide te maken met je team. En zoals voor veel dingen geldt in de wereld van development: your mileage may vary. Het belangrijkste is dat er een set richtlijnen vastligt waardoor het hele team zich kan richten op het schrijven van goede code!
 
-(TODO: Over Lody Borgers
-/adventskalender/lody.png
+### Over Lody Borgers
+<img src="/archief/_img/adventskalender/lody.png" alt="Foto van lody" class="floating-portrait">
 Lody Borgers is front-end developer bij TAF Verzekeringen in Eindhoven. Naast zijn kennis op het gebied van front-end is hij mede geroemd om zijn scherp inzicht, zijn enthousiasme voor JavaScript, en zijn ongelooflijke bescheidenheid. Hij kijkt altijd meer uit naar een meeting dan de mensen die deze meeting met hem hebben. Studeerde naast ICT ook Communicatie, maar zegt zelf nooit teveel. [@lodybo](https://www.twitter.com/lodybo)
 
-Donatie: Nederlandse Hartstichting)
+
+Donatie: Nederlandse Hartstichting

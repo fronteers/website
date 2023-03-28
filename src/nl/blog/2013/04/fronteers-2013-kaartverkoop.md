@@ -9,13 +9,13 @@ Op 10 en 11 oktober 2013 gaat het Fronteers-congres weer plaatsvinden, wederom i
 
 Net als in voorgaande jaren is er een beperkt aantal early bird kaarten dat verkocht wordt voor de reguliere kaartverkoop van start gaat. De kaartprijzen zijn niet veranderd ten opzichte van vorig jaar. *Voor de early bird kaarten geldt dit jaar wel: op=op, wees er dus snel bij.*
 
-(TODO: Fronteers 2013 early bird kaartje (exclusief 21% btw)
-Fronteersleden|€ 200
-Niet-leden|€ 275)
+Fronteers 2013 early bird kaartje (exclusief 21% btw)
+Fronteersleden €200
+Niet-leden €275
 
-(TODO: Fronteers 2013 regulier kaartje (exclusief 21% btw)
-Fronteersleden|€ 275
-Niet-leden|€ 350)
+Fronteers 2013 regulier kaartje (exclusief 21% btw)
+Fronteersleden €275
+Niet-leden €350
 
 # Ledenkorting
 

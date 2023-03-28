@@ -287,7 +287,7 @@ Both the [international](https://make.wordpress.org/chat/) and the [Dutch WordPr
 
 While WordPress is in a lot of ways an ancient piece of software, there are a lot of positive things happening in the WordPress ecosystem. It might be fun to completely write off WordPress due to its age, but its market share keeps growing. So why not look a bit further at WordPress’ modern bits and re-evaluate if this really can’t be part of your toolbox? If not, then no worries; at least you’ve read up on the newer capabilities of the platform and can make a more informed decision for your next project.
 
-(TODO: About Luc Princen
+### About Luc Princen
 /adventskalender/luc-princen.jpg
 Luc Princen is an independent developer and designer from The Netherlands specializing in WordPress and frontend development. He loves open source, elegant code, fast load times, Dungeons & Dragons and playing the occasional (grand) strategy game. You can find him on Twitter with the handle [@LucP](https://twitter.com/LucP).
-Luc's donation will go to Dutch charity _Stem op een Vrouw_.)
+Luc's donation will go to Dutch charity _Stem op een Vrouw_.

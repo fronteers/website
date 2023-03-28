@@ -26,11 +26,6 @@ Wil je meedoen? Gebruik dan het formulier hieronder om je op te geven, dan neemt
 
 Meer informatie over WeCamp vind je op [http://weca.mp/2016](http://weca.mp/2016)
 
-(TODO: *: We zullen je dus niet letterlijk inparachuteren, je gaat netjes met de boot. Safety first.)
-
-(TODO: [Ga mee naar WeCamp 2016!]
-Naam [_ text]
-E-mailadres [_ text]
-Wanneer wil je gaan?: [x donderdag 25 augustus|vrijdag 26 augustus]
-Opmerkingen of vragen [+ small]
-[Ik ga!](stefan@ingewikkeld.net,thomas@fronteers.nl;melding:Bedankt! Je krijgt bericht van Stefan over de logistiek!))
+<p class="note">
+*: We zullen je dus niet letterlijk inparachuteren, je gaat netjes met de boot. Safety first.
+</p>

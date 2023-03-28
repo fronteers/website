@@ -7,7 +7,9 @@ categories:
 ---
 Heugelijk nieuws! Ons jaarlijkse congres, [Fronteers Conference](https://fronteers.nl/congres/2018) vindt dit jaar voor het eerst sinds 2010 niet plaats in Pathé Tuschinski, maar verhuist naar een grotere lokatie. Er is hard gezocht naar een plek in Amsterdam die centraal ligt, meer mensen kan huizen dan Tuschinski (waar we aan een maximum van 550 zaten) maar waar we in sfeer niets hoeven in te leveren. Uiteindelijk is de keuze gevallen op het DeLaMar Theater, waar we rond de 900 personen kunnen verwelkomen. De conferentie vindt plaats op 4 en 5 oktober 2018.
 
-(TODO: [This article is also available in English](/congres/2018/fronteers-conference-moving-to-the-delamar-theatre))
+<p class="note">
+[This article is also available in English](/congres/2018/fronteers-conference-moving-to-the-delamar-theatre)
+</p>
 
 # Waarom deze verhuizing van het 'grote' congres?
 

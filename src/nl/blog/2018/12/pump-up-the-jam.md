@@ -84,8 +84,8 @@ Zelf ben ik erg fan van de combinatie Netlify + Gatsby + Contentful (of Netlify 
 
 Hopelijk heb ik je hiermee geīnspireerd om er zelf een keer mee aan de slag te gaan. Kom je ergens niet uit? Kom even langs in de [Fronteers Slack](https://fronteers-slack.herokuapp.com/) en stel gerust je vraag!
 
-(TODO: Over Iain van der Wiel
-/adventskalender/iain.png
+### Over Iain van der Wiel
+<img src="/archief/_img/adventskalender/iain.png" alt="Foto van iain" class="floating-portrait">
 Iain van der Wiel is een front-end developer bij Frontmen in Eindhoven. Met passie voor UX, standaarden en toegankelijkheid probeert hij elke dag het web ietsje beter te maken. Tevens is hij Fronteers Slack coryfee. 😄
 Donatie
 Mijn donatie gaat naar de Hersenstichting. Een kwart van de mensen in Nederland heeft in meer of mindere mate een hersenaandoening. De Hersenstichting steunt onderzoek, voorlichting en ondersteuning voor deze grote groep mensen.)

@@ -17,7 +17,9 @@ Tenminste, als je de berichtgeving uit onze industrie soms mag geloven. Klantwer
 
 Het werken met klanten ervaar ik juist als één van de leukste onderdelen van mijn werk. Eigenlijk heeft die klant, als je eenmaal luistert, af en toe best wel goede ideeën ... Beter gezegd, die invloeden van 'buitenaf' zorgen juist voor veel inspiratie en nieuwe inzichten. Maar voordat je daar wat mee kan, zal je het eerst goed moeten inrichten. De afgelopen jaren zijn we daar op mijn werkplek uitgebreid mee bezig geweest. Er is genoeg ruimte voor verbetering, maar ik geloof wel dat we de goede, klantvriendelijke weg zijn ingeslagen.
 
-(TODO: Note: ik spreek uit het perspectief van werken bij een bureau. Voor freelancers/zzp'ers of bureaus met weinig personeel in dienst zal niet alles even toepasbaar zijn.)
+<p class="note">
+Note: ik spreek uit het perspectief van werken bij een bureau. Voor freelancers/zzp'ers of bureaus met weinig personeel in dienst zal niet alles even toepasbaar zijn.
+</p>
 
 # Geen fffffuuuuuuuuuunctioneel ontwerp
 
@@ -29,7 +31,9 @@ Door deze opzet blijft het mogelijk om de invulling aan te passen aan nieuwe inz
 
 ![User Story, User Story aan de wand, wat heeft de hoogste prio van het land?](https://fronteers.nl/_img/2011/12/product-backlog.jpg)
 
-(TODO: Post-its maken niet alleen voor het team, maar ook de klant, duidelijk wat er nog moet gebeuren.)
+<p class="note">
+Post-its maken niet alleen voor het team, maar ook de klant, duidelijk wat er nog moet gebeuren.
+</p>
 
 # Voortraject
 
@@ -57,7 +61,9 @@ Hier hebben we uiteraard allerlei sektarische rituelen en gebruiken voor, maar o
 
 ![Werkplek van Team Brutal bij Mangrove](https://fronteers.nl/_img/2011/12/mangrove-werkplek.jpg)
 
-(TODO: Werkplek van Team Brutal bij Mangrove. [Foto's door WOVOX workplace](http://wovox.com/workplace/mangrove-internetbureau/rotterdam/mangrove#mangrove-internetbureau-45 "Mangrove op WOVOX").)
+<p class="note">
+Werkplek van Team Brutal bij Mangrove. [Foto's door WOVOX workplace](http://wovox.com/workplace/mangrove-internetbureau/rotterdam/mangrove#mangrove-internetbureau-45 "Mangrove op WOVOX").
+</p>
 
 Hoe beter de klant het team kan ondersteunen en input kan geven, hoe beter het eindresultaat. Klanten helpen bijvoorbeeld met vullen van content of openstaande vragen te beantwoorden. De grootste reden is echter dat de klant mede-eigenaar wordt van beslissingen. Tijdens zijn aanwezigheid heeft hij een actieve bijdrage bij het oplossen van design, code en interactievraagstukken.
 
@@ -71,8 +77,9 @@ De meeste problemen ontstaan doordat je de klant niet hebt weten te overtuigen. 
 
 En als je het écht goed doet, snappen ze zelfs die wondere wereld van unicorns, double rainbows en lolcatz.
 
-(TODO: Over Ruben Bos
+### Over Ruben Bos
 2011/12/ruben-bos.png
 Overdag Creative Director bij [Mangrove](http://mangrove.nl/). 's Avonds de wijsneus met zijn alter ego [Bossing Around](http://bossingaround.com/). Half-Iers. Verslaafd aan roze koeken. Schreef ooit een [boek over webdesign](http://webdesignrules.nl/) voor opdrachtgevers van websitebouwers. Volg op Twitter: [@rubenbos](https://twitter.com/rubenbos)
+
 Donatie: Oxfam Novib 
-Mijn donatie gaat naar de [aankoop van 150 mangrovebomen](http://www.oxfamnovibpaktuit.nl/pages/detail/s1/21030000000027-2-21010000000083.aspx). Want mangroves zijn niet alleen vis- en dierrijke ecosystemen, maar bieden ook levensreddende bescherming tegen erosie en overstromingen.)
+Mijn donatie gaat naar de [aankoop van 150 mangrovebomen](http://www.oxfamnovibpaktuit.nl/pages/detail/s1/21030000000027-2-21010000000083.aspx). Want mangroves zijn niet alleen vis- en dierrijke ecosystemen, maar bieden ook levensreddende bescherming tegen erosie en overstromingen.

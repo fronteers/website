@@ -27,11 +27,14 @@ Een tegenhanger hiervan is de [Web Audio API](http://www.w3.org/2011/audio/draft
 
 Om een vergelijking te schetsen tussen de twee voorstellen:
 
-(TODO: [Audio Data API]|[Web Audio API]
-Mozilla Firefox|Google Chrome, Apple Safari, binnenkort mogelijk iOS.
-Imperatief|Declaratief (met mogelijkheid tot imperatief)
-Low-level, zelf de berekeningen doen|High-level met Nodes voor de meeste operaties, maar opnieuw met de mogelijkheid tot low-level.
-1 input, 1 bewerking, 1 output|1 of meer inputs, 1 of meer bewerkingen, 1 output)
+| Audio Data API                       | Web Audio API                                                |
+| ------------------------------------ | ------------------------------------------------------------ |
+| Mozilla Firefox                      | Google Chrome, Apple Safari, binnenkort mogelijk iOS.        |
+| Imperatief                           | Declaratief (met mogelijkheid tot imperatief)                |
+| Low-level, zelf de berekeningen doen | High-level met Nodes voor de meeste operaties, maar opnieuw met de mogelijkheid tot low-level. |
+| 1 input, 1 bewerking, 1 output       | 1 of meer inputs, 1 of meer bewerkingen, 1 output            |
+
+
 
 De Web Audio API is in principe een superset van de Audio Data API: het biedt dezelfde functionaliteiten, maar geeft de ontwikkelaar ook de optie om gebruik te maken van geoptimaliseerde procedures die veelal tot hetzelfde effect zullen leiden. Er zijn al verschillende JavaScript libraries voor Mozilla’s Audio Data API geschreven om tot datzelfde punt te komen, zoals [DSP.js](https://github.com/corbanbrook/dsp.js/).
 
@@ -57,8 +60,9 @@ Persoonlijk geloof ik meer in een API die het gros van de berekeningen op een ge
 
 Toch is er nog veel discussie aan de gang, en beide APIs zijn nog niet volledig in staat om met alle andere specificaties te integreren: de `<video>` en `<audio>` elementen, microfoon input via de `getUserMedia()`-methode en het synchroniseren van meerdere geluidsstromen via de nieuwe HTML5 [MediaController interface](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html#synchronising-multiple-media-elements). Dit zijn allemaal vraagstukken waarop we in 2012 een antwoord gaan krijgen, want op het gebied van multimedia gaat het een heel interessant jaar worden!
 
-(TODO: Over Peter Beverloo
+### Over Peter Beverloo
 /2011/12/peter-beverloo.jpg
 [Peter Beverloo](http://peter.sh/) is een Software Engineer bij Google en onderdeel van de Chromium en WebKit teams. Hiernaast is hij actief op [Twitter](https://twitter.com/beverloo), deelnemer van projecten als [HTML5 Boilerplate](http://html5boilerplate.com/) en [W3Fools](http://w3fools.com/) en vrijwilliger bij de Fronteers en Mobilism conferenties.
+
 Donatie: [Electronic Frontier Foundation](https://www.eff.org/)
-Electronic Frontier Foundation zal ook namens mij een donatie ontvangen. Hun bezigheden zijn essentieel voor het voortbestaan van het vrije internet zoals we dat vandaag kennen.)
+Electronic Frontier Foundation zal ook namens mij een donatie ontvangen. Hun bezigheden zijn essentieel voor het voortbestaan van het vrije internet zoals we dat vandaag kennen.

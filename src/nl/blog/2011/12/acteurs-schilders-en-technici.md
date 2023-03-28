@@ -43,11 +43,14 @@ Dus.
 
 Nog even en ik kan zeggen dat ik een acteur-schilder-technicus ben. En dat iemand dan zegt: "Ah, dus je maakt dus websites?"
 
-(TODO: Overigens ben ik van mening dat er meer vrouwen aan de front-end moeten komen! En dat InDesign alleen gebruikt mag worden voor het layouten van foldertjes.)
+<p class="note">
+Overigens ben ik van mening dat er meer vrouwen aan de front-end moeten komen! En dat InDesign alleen gebruikt mag worden voor het layouten van foldertjes.
+</p>
 
-(TODO: Over Paul van Buuren
-2011/12/paul-van-buuren.jpg
+### Over Paul van Buuren
+<img src="/archief/_img/2011/12/paul-van-buuren.jpg" alt="Foto van paul van buuren">
 Houdt van mooie dingen maken. Werkt bij [Matchminds](http://www.matchminds.nl/).  Verzamelt [rare woorden](http://www.paulvanbuuren.nl/content/category/bon-mot-du-jour/). En mag sinds de geboorte van z'n kinderen weer met Lego spelen.
 [Twitter](https://twitter.com/paulvanbuuren), [Website](http://paulvanbuuren.nl/about/), [LinkedIn](http://nl.linkedin.com/in/paulvanbuuren)
+
 Donatie: [Stichting Zwerfjongeren](http://www.zwerfjongeren.nl/)
-Het is raar en onbegrijpelijk dat we hier in Nederland zwerfjongeren hebben. Toch zijn ze er, bijna 10.000 en vooral in de grote steden. Geef ze weer toekomstperspectief. Vind ik.)
+Het is raar en onbegrijpelijk dat we hier in Nederland zwerfjongeren hebben. Toch zijn ze er, bijna 10.000 en vooral in de grote steden. Geef ze weer toekomstperspectief. Vind ik.

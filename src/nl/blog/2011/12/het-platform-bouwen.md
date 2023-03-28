@@ -32,8 +32,9 @@ Features toevoegen aan het platform gebeurt redelijk informeel. En belangrijker,
 
 Hierdoor, en uiteindelijke iteratie over mogelijke features die het probleem oplossen, middels specificatie, implementatie, discussie, en uitproberen door web developers, wordt het platform steeds een stukje beter. En kun je morgen iets meer problemen oplossen dan vandaag. Succes ermee! ;-)
 
-(TODO: Over Anne van Kesteren
-2011/12/anne-van-kesteren.jpg
+### Over Anne van Kesteren
+<img src="/archief/_img/2011/12/anne-van-kesteren.jpg" alt="Foto van anne van kesteren">
 [Anne van Kesteren](http://annevankesteren.nl/) chillt 'm in Utrecht wanneer hij niet ergens anders is en bouwt aan het platform. Momenteel druk met [XMLHttpRequest](http://dvcs.w3.org/hg/xhr/raw-file/tip/Overview.html), [Cross-Origin Resource Sharing](http://dvcs.w3.org/hg/cors/raw-file/tip/Overview.html), en de nieuwe [DOM](http://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html) standaard. Hij werkt voor [Opera Software](http://www.opera.com/), een browsermakertje uit Noorwegen.
+
 Donatie: [Electronic Frontier Foundation](https://www.eff.org/)
-Mijn goede doel keuze is de Electronic Frontier Foundation omdat het beschermen van onze vrijheden en privacy op het internet enorm belangrijk is. Ik match dan ook de donatie van Fronteers.)
+Mijn goede doel keuze is de Electronic Frontier Foundation omdat het beschermen van onze vrijheden en privacy op het internet enorm belangrijk is. Ik match dan ook de donatie van Fronteers.

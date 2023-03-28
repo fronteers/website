@@ -93,7 +93,8 @@ En om af te sluiten nog een aantal praktische bronnen voor als je nog meer wil w
 
 ![](https://fronteers.nl/_img/adventskalender/toegankelijkheid-testen/title-describes-topic-or-purpose.jpeg)
 
-(TODO: Over Erik Kroes
-/adventskalender/erik.jpg
+### Over Erik Kroes
+<!-- <img src="/archief/_img/adventskalender/erik.jpg" alt="Foto van Erik Kroes" class="floating-portrait"> -->
 Erik is onderdeel van het accessibility team van ING. Elke dag probeert hij weer zijn steentje bij te dragen aan de digitale toegankelijkheid van de apps en websites. Daarnaast is hij creatief actief en maakt hij onder andere illustraties voor de Volkskrant.
-Donatie: de Hersenstichting)
+
+Donatie: de Hersenstichting

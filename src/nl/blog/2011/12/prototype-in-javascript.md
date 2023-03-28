@@ -216,8 +216,9 @@ Ik heb geen idee hoe moeilijk of makkelijk dit is, maar ik hoop dat de voorbeeld
 
 Oh, en prettige feestdagen! ;)
 
-(TODO: Over Peter van der Zee
-2011/12/peter-van-der-zee.jpg
+### Over Peter van der Zee
+<img src="/archief/_img/2011/12/peter-van-der-zee.jpg" alt="Foto van Peter">
 [Peter](http://qfox.nl/) is gespecialiseerd in in JavaScript/ECMAScript en werkt voor [Uxebu](http://uxebu.com/), voornamelijk aan JavaScript gerelateerde projecten.
+
 Donatie: [Bits of Freedom](https://www.bof.nl/)
-Peter heeft Fronteers de vrijheid gegeven om een goed doel (of geen) te kiezen en we hebben als tegenhanger voor het EFF voor Bits of Freedom gekozen.)
+Peter heeft Fronteers de vrijheid gegeven om een goed doel (of geen) te kiezen en we hebben als tegenhanger voor het EFF voor Bits of Freedom gekozen.

@@ -11,10 +11,12 @@ De afgelopen weken hebben we ons best gedaan om de kalender voor dit najaar te v
 
 De volgende workshops vinden dit najaar plaats:
 
-(TODO: [Advanced Sass](/workshops/advanced-sass-roy-tomeij/) | Roy Tomeij | 29 september | vol
-[Angular 2](/workshops/angular-2-rachel-heimbach) | Rachèl Heimbach | 20 oktober | [Aanmelden](/workshops/angular-2-rachel-heimbach/20-oktober-2016)
-[HTML/CSS voor beginners](/workshops/html-css-frances-de-waal) | Frances de Waal | 25 november | [Aanmelden](/workshops/html-css-frances-de-waal/25-november-2016)
-[Toegankelijk bouwen voor webontwikkelaars](/workshops/toegankelijk-bouwen-voor-front-enders-jules-ernst) | Jules Ernst | 9 december | [Aanmelden](/workshops/toegankelijk-bouwen-voor-front-enders-jules-ernst/9-december-2016))
+| Workshop | Docent | Datum |
+|----------|--------|-------|
+| [Advanced Sass](/workshops/advanced-sass-roy-tomeij/) | Roy Tomeij | 29 september | 
+| [Angular 2](/workshops/angular-2-rachel-heimbach) | Rachèl Heimbach | 20 oktober |  
+| [HTML/CSS voor beginners](/workshops/html-css-frances-de-waal) | Frances de Waal | 25 november |  
+| [Toegankelijk bouwen voor webontwikkelaars](/workshops/toegankelijk-bouwen-voor-front-enders-jules-ernst) | Jules Ernst | 9 december |
 
 Bovenstaande data kun je dus vast in je agenda zetten! De kosten voor deze workshops zijn €250,- (Fronteers-leden betalen slechts €150,-).
 

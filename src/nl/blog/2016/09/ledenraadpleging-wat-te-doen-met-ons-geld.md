@@ -33,13 +33,3 @@ De reden dat we in het verleden huiverig zijn geweest om dit te doen, is dat de 
 Misschien dan maar de inkomsten uit de vacaturebank gebruiken om het congres en de workshops te 'sponsoren' en ze voor iedereen - inclusief niet-leden - goedkoper te maken?
 
 *Moet het lidmaatschapsgeld dan niet gewoon omlaag?* Tja, we zullen dat dit jaar wederom voorleggen aan de ALV, zoals we om de paar jaar doen, maar de verwachting is dat de ALV voorstander zal zijn van het handhaven van het huidige niveau, met de redenering dat een minimale drempel van dit niveau zin heeft om een lidmaatschap iets te laten zijn dat alleen wordt overwogen door mensen die serieus bezig zijn met front-end, en specifiek de meerwaarde van het bestaan van Fronteers zien.
-
-(TODO: [Dus, wat vind je er van? Moeten we:]
-Onze vrijwilligers gaan betalen? [o Ja | Nee]
-Extra energie steken in onze vrijwilligers op training te sturen? [o Ja | Nee]
-Namens onze vrijwilligers geld aan een goed doel gaan geven? [o Ja | Nee]
-Congres/workshops goedkoper maken voor leden? [o Ja | Nee]
-Congres/workshops goedkoper maken voor iedereen? [o Ja | Nee]
-Het lidmaatschap goedkoper maken? [o Ja | Nee]
-Of iets totaal anders, wat je ons met een reactie hieronder gaat vertellen...? [x]
-[Verstuur](bestuur@fronteers.nl;melding:Bedankt voor je mening, we zullen over een paar dagen wat eerste resultaten delen in de reacties op de blogpost.))

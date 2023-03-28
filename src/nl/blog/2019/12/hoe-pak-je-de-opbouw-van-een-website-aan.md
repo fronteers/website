@@ -41,7 +41,9 @@ Je diensten kun je bijvoorbeeld op een pagina zetten, maar je kunt er ook voor k
 
 ![Voorbeeld van een flowchart](https://fronteers.nl/_img/adventskalender/marieke-webdesign-flowchart.png)
 
-(TODO: Voorbeeld flowcart)
+<p class="note">
+Voorbeeld flowchart
+</p>
 
 # Stap 7: Bepaal de inhoud van je homepage
 
@@ -53,7 +55,7 @@ Je homepage is de etalage van je website. Deze pagina is vaak anders van opbouw 
 
 De basis voor de opbouw van je website heb je nu staan. De volgende stap is het uitdenken van je huisstijl. Lettertypes, vormgeving en kleuren. Hier kan een grafisch vormgever je goed in adviseren.
 
-(TODO: Over Marieke
+Over Marieke
 /adventskalender/marieke-webdesign.png
 Marieke Kuit, dat ben ik. Aangenaam! Geboren en getogen in het pittoreske Noord-Hollandse Sint Maartensbrug. Waar ik heb geleerd normaal te doen, want dan doe ik al gek genoeg. Nuchter te zijn, hard te werken, maar vooral mezelf te zijn. Zonder opsmuk, gewoon puur.
 Mariekes donatie gaat naar KiKa.)

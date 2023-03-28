@@ -148,7 +148,8 @@ Regular expressions zijn een uitgebreid onderwerp. Het kan even duren voordat je
 
 [MDN web docs over regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
-(TODO: Over Melle Wynia
-/adventskalender/melle.jpg
+### Over Melle Wynia
+<!-- <img src="/archief/_img/adventskalender/melle.jpg" alt="Foto van Melle Wynia" class="floating-portrait"> -->
 Melle Wynia werkt als freelance front-end developer/consultant. Voor zijn klanten sluit hij aan bij hun teams om kennis over te dragen, de kwaliteit te waarborgen, beveiliging op peil te brengen en nieuwe features te realiseren. Tot zijn tools behoren onder andere Node, Angular en Vue.js.
-Donatie: de Hersenstichting)
+
+Donatie: de Hersenstichting

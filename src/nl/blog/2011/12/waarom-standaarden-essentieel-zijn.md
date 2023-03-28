@@ -43,11 +43,12 @@ Toch is er nog heel veel werk. We moeten het internet herbedenken, en niet enkel
 
 Nu Flash eindelijk ten dode opgeschreven is en IE6 zijn laatste adem uitblaast kunnen we door standaarden te gebruiken het internet nog dichter bij de echte wereld brengen.
 
-(TODO: Over Andreas Creten
-2011/12/andreas-creten.jpg
+### Over Andreas Creten
+<!-- <img src="/archief/_img/2011/12/andreas-creten.jpg" alt="Foto van andreas creten uit 2011" class="floating-portrait"> -->
 [Andreas](https://twitter.com/andreascreten) is de zaakvoerder van [madewithlove](http://madewithlove.be). Met een klein team ontwikkelen ze webapplicaties en verlenen ze technisch advies aan bedrijven en startups. Andreas heeft een bachelor in informatica en studeert een master in management. In zijn vrije tijd reist hij, al dan niet op skies, en geniet hij van [elektronische muziek](http://muff.be).
+
 Donatie: PROTOS
 Ik heb voor [PROTOS](http://protos.be/) gekozen, omdat een groot oom van me er voorzitter van was. Twee jaar geleden heb ik op kerstdag een wandeling met deze bijna blinde man gemaakt en het raakte me hoe gedreven hij over zijn ervaringen kon vertellen. Ik ben er dus van overtuigd dat het geld goed en correct besteed zal worden.
 Samen met haar partners en de lokale bevolking slaagt PROTOS erin om jaarlijks zowat honderdduizend mensen aan betere hygiënische voorzieningen, drinkbaar water en/of irrigatiewater voor de voedselvoorziening te helpen. De gemiddelde kostprijs van onze werking per begunstigde inwoner van het Zuiden is 50€.
 Maar het werk is nog niet af.  Er zijn nog steeds 1.1 miljard mensen zonder toegang tot veilig drinkwater, en liefst één derde van de wereldbevolking heeft nog geen voldoende sanitaire voorzieningen.
-Is het werk van PROTOS dan een druppel op een hete plaat? Nee! Voor de mensen die net in die druppel wonen maakt het wél een enorm verschil! In plaats van elke dag 4 uur te moeten besteden aan water halen, kunnen kinderen nu naar school en kunnen de vrouwen hun tijd besteden aan landbouw en/of aan activiteiten die inkomsten verzekeren!)
+Is het werk van PROTOS dan een druppel op een hete plaat? Nee! Voor de mensen die net in die druppel wonen maakt het wél een enorm verschil! In plaats van elke dag 4 uur te moeten besteden aan water halen, kunnen kinderen nu naar school en kunnen de vrouwen hun tijd besteden aan landbouw en/of aan activiteiten die inkomsten verzekeren!

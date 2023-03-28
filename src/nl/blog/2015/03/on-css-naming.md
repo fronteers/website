@@ -121,13 +121,16 @@ Ya, I know it sounds daft, with me just giving you all these layers and all. But
 
 It looks nice, doing stuff with that kind of selector, it will make you look really smart and all. But it will bind you to a specific dom construction and that is not something you have total control over at all times.
 
-(TODO: (Same goes for the adjacent sibling combinator (+) and the general sibling combinator (~)))
+<p class="note">
+(Same goes for the adjacent sibling combinator (+) and the general sibling combinator (~))
+</p>
 
 ## Talk about it
 
 This is the most important advice I can give you on CSS naming conventions. There is no ultimate solution for your problem, you have to decide on that with your whole team. If you talk about your naming convention and get everybody on board, it is more probable that everyone will adhere to these conventions.
 
-(TODO: Over Wilfred Nas
-blog/2015/wilfrednas.jpeg
+### Over Wilfred Nas
+
+<img src="/archief/_img/blog/2015/wilfrednas.jpeg" alt="Foto van Wilfred">
 Freelance front end developer, loves to travel by rocket, father of two sons and founding member of the gang of 5. Nuts about html5 forms and semantics.
-He writes more at [wnas.nl](http://wnas.nl) and rants on twitter as [@wnas](https://twitter.com/wnas).)
+He writes more at [wnas.nl](http://wnas.nl) and rants on twitter as [@wnas](https://twitter.com/wnas).

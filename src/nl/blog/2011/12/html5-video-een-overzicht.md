@@ -27,17 +27,20 @@ Er is ook een belangrijkere, maar minder concrete reden. Om online video echt su
 
 Wie ondersteunt HTML5 video vandaag? Hier is [een overzichtje](http://gs.statcounter.com/) (oktober 2011), met daarin de desktop-browsers en mobiele apparaten gemixt:
 
-(TODO: [Browser]	[Marktaandeel]	[HTML5 ondersteuning]	[Flash ondersteuning]
-Internet Explorer 6/7/8	 30%	 Nee	 Ja
-Firefox	 25%	 Ja (WebM)	 Ja
-Chrome	 20%	 Ja (MP4 + WebM)¹	 Ja
-Internet Explorer 9	 10%	 Ja (MP4)	 Ja
-Safari	 4%	 Ja (MP4)	 Ja
-iOS	 3%	 Ja (MP4)	 Nee
-Opera	 2%	 Ja (WebM)	 Ja
-Android	 1%	 Ja (MP4)	 Ja²
-Windows Phone	 0%	 Ja (MP4)	 Nee
-Overig ("dumbphones")	 5%	 Nee	 Nee)
+
+
+| Browser |	Marktaandeel | HTML5 ondersteuning | Flash ondersteuning |
+| ------ | ------ | ------- | ------ |
+| Internet Explorer 6/7/8	|  30%	|  Nee	|  Ja | 
+| Firefox	|  25%	|  Ja (WebM)	|  Ja | 
+| Chrome	|  20%	|  Ja (MP4 + WebM)¹	|  Ja | 
+| Internet Explorer 9	|  10%	|  Ja (MP4)	|  Ja | 
+| Safari	|  4%	|  Ja (MP4)	|  Ja | 
+| iOS	|  3%	|  Ja (MP4)	|  Nee | 
+| Opera	|  2%	|  Ja (WebM)	|  Ja | 
+| Android	|  1%	|  Ja (MP4)	|  Ja² | 
+| Windows Phone	|  0%	|  Ja (MP4)	|  Nee | 
+| Overig ("dumbphones")	|  5% |  Nee  |  Nee | 
 
 1. Chrome heeft afgelopen januari aangekondigd MP4 ["binnenkort" te verwijderen](http://blog.chromium.org/2011/01/html-video-codec-support-in-chrome.html). Tot dusver werkt het nog.
 2. Adobe is [gestopt met het ontwikkelen](http://blogs.adobe.com/conversations/2011/11/flash-focus.html) van Flash voor mobiel. Android 4.0 is de laatste versie met Flash ondersteuning.
@@ -66,7 +69,9 @@ Qua kwaliteit doen de twee formaten [niet veel onder voor elkaar](http://www.str
 
 In deze afweging tussen pragmatisme en patenten hebben sommige browsers gekozen voor het eerste (MP4) en anderen voor het laatste (WebM). Het resultaat is dat je nu je video twee keer moet encoderen om alle HTML5 browsers te ondersteunen. Als WebM op termijn meer tractie krijgt, zal dat veranderen, maar dit is een langzaam proces.
 
-(TODO: Er is trouwens nog een derde HTML5 formaat: [Ogg](http://en.wikipedia.org/wiki/Ogg). Het is kwalitatief stukken minder dan MP4/WebM, maar werd ondersteund door Firefox en Opera voordat [Google WebM vrijgaf](http://www.longtailvideo.com/support/blog/12120/googles-vp8webm-and-what-it-means-for-you). De enige browser die nog Ogg vereist, is [het snel verdwijnende](http://gs.statcounter.com/#browser_version-ww-monthly-201101-201112) Firefox 3.6.)
+<p class="note">
+Er is trouwens nog een derde HTML5 formaat: [Ogg](http://en.wikipedia.org/wiki/Ogg). Het is kwalitatief stukken minder dan MP4/WebM, maar werd ondersteund door Firefox en Opera voordat [Google WebM vrijgaf](http://www.longtailvideo.com/support/blog/12120/googles-vp8webm-and-what-it-means-for-you). De enige browser die nog Ogg vereist, is [het snel verdwijnende](http://gs.statcounter.com/#browser_version-ww-monthly-201101-201112) Firefox 3.6.
+</p>
 
 # Video en sources
 
@@ -93,7 +98,9 @@ Om het twee-codec-probleem te faciliteren bevat HTML5 een tweede element: `<sour
 </video>
 ```
 
-(TODO: De [HTML5 specificatie](http://www.w3.org/TR/html5/video.html) beschrijft ook het toevoegen van de audio/video codecs aan de type optie. In de praktijk is dit niet nodig, omdat alle browsers deze waardes negeren en codecs detecteren tijdens het downloaden van de video.)
+<p class="note">
+De [HTML5 specificatie](http://www.w3.org/TR/html5/video.html) beschrijft ook het toevoegen van de audio/video codecs aan de type optie. In de praktijk is dit niet nodig, omdat alle browsers deze waardes negeren en codecs detecteren tijdens het downloaden van de video.
+</p>
 
 Bovenstaand stukje HTML resulteert in theorie in een consistente video weergave in alle HTML5 browsers. In de praktijk zijn er echter nog allerlei [bugs en gaten in implementatie](http://camendesign.com/code/video_for_everybody#notes). Het handmatig omzeilen van deze issues is een rotklus. Een HTML5 Video Player kan daarbij helpen.
 
@@ -188,9 +195,10 @@ Op de lange termijn vervangt HTML5 Flash voor het afspelen van video. Momenteel 
 
 Voor mobiele apparaten is het sowieso nu het best om HTML5 te gebruiken (hetzij integraal, hetzij als fallback). Android en iOS ondersteunen beide HTML5, terwijl Flash op Android aan het verdwijnen is. Bovendien ondersteunen ze, in tegenstelling tot desktop browsers, beiden één formaat (MP4).
 
-(TODO: Over Jeroen Wijering
-2011/12/jeroen-wijering.jpg
+### Over Jeroen Wijering
+<!-- <img src="/archief/_img/2011/12/jeroen-wijering.jpg" alt="Foto van jeroen wijering uit 2011" class="floating-portrait"> -->
 Jeroen Wijering is de ontwikkelaar [achter de succesvolle JW Player](http://www.whoisjw.tv/), die wordt gebruikt op miljoenen websites wereldwijd. Zijn bedrijf [LongTail Video](http://www.longtailvideo.com/) beheert ook een gratis online platform waarbinnen bedrijven hun video's kunnen encoderen en publiceren.
 Jeroen is te vinden [op twitter](https://twitter.com/jeroenw) en schrijft af en toe een artikel op [www.longtailvideo.com/blog](http://www.longtailvideo.com/blog).
+
 Donatie: Stichting Aap
-[Stichting Aap](http://www.aap.nl/) is een sympathiek en kleinschalig opvangcentrum voor uitheemse dieren. De dieren die er terecht komen zijn afkomstig van proefdierlaboratoria, circussen, louche dierentuinen of particulieren. Belangrijker is dat ze ook campagnes voeren voor preventie en gewaarwording, zowel in de politiek als bij het publiek.)
+[Stichting Aap](http://www.aap.nl/) is een sympathiek en kleinschalig opvangcentrum voor uitheemse dieren. De dieren die er terecht komen zijn afkomstig van proefdierlaboratoria, circussen, louche dierentuinen of particulieren. Belangrijker is dat ze ook campagnes voeren voor preventie en gewaarwording, zowel in de politiek als bij het publiek.

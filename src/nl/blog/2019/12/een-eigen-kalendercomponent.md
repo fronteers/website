@@ -168,7 +168,7 @@ Ook kun je dezelfde logica in een agenda gebruiken:
 
 Wie weet volgt er binnenkort nog een vervolgpost voor de toegankelijkheid van deze componenten.
 
-(TODO: Over Joep van der Heijden
-/adventskalender/joep.jpeg
+### Over Joep van der Heijden
+<!-- <img src="/archief/_img/adventskalender/joep.jpeg" alt="Foto van joep" class="floating-portrait"> -->
 Sinds een kleine 3 jaar is Joep lead front-end developer bij de startup Withlocals in Eindhoven waar hij een team van 5 front-enders leidt. Naast het werk houdt hij zich bezig met het organiseren van de Eindhoven Developers Meetup, waar je elke meetup een kijkje neemt bij een anderbedrijf in de regio Eindhoven.
-Joeps donatie gaat naar Bits of Freedom.)
+Joeps donatie gaat naar Bits of Freedom.

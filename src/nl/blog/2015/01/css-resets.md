@@ -71,6 +71,6 @@ Gebruik jij een reset? Zo ja, welke en waarom? Zo nee, waarom niet?
 * [Harry Roberts: Reset restarted (2011)](http://csswizardry.com/2011/10/reset-restarted/)
 * [Jens Oliver Meiert: Why “Reset” Style Sheets Are Bad (2008)](http://meiert.com/en/blog/20080419/reset-style-sheets-are-bad/)
 
-(TODO: Over Kaj Rietberg
+### Over Kaj Rietberg
 blog/2014/kajrietberg.png
-Kaj is Front-end ontwikkelaar bij Zorgweb in Zwolle. Zijn specialisaties zijn webforms, CSS, CSS-architectuur, Sass en hij verdiept zich momenteel in het responsive bouwen van webformulieren met grote tabellen.)
+Kaj is Front-end ontwikkelaar bij Zorgweb in Zwolle. Zijn specialisaties zijn webforms, CSS, CSS-architectuur, Sass en hij verdiept zich momenteel in het responsive bouwen van webformulieren met grote tabellen.
