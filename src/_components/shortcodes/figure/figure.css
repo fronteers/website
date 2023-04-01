@@ -1,0 +1,8 @@
+.figure {
+  margin: 0;
+}
+
+.figure__caption {
+  font-style: italic;
+  margin-top: 1rem;
+}

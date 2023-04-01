@@ -24,6 +24,7 @@
 @import "../_components/shortcodes/tag/tag.css";
 @import "../_components/shortcodes/Vimeo/vimeo.css";
 @import "../_components/shortcodes/YouTube/youtube.css";
+@import "../_components/shortcodes/figure/figure.css";
 
 @import "../_includes/layouts/blog-single.css";
 @import "../_includes/partials/activities/activities-hero.css";

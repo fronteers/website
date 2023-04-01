@@ -48,3 +48,8 @@ li::before {
   white-space: nowrap;
   inline-size: 1px;
 }
+
+img, picture {
+  display: block;
+  max-width: 100%;
+}

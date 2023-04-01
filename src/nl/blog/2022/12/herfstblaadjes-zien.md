@@ -3,19 +3,17 @@ title: Herfstblaadjes zien
 date: 2022-12-24
 author: Job van Achterberg
 summary: ---
-categories: 
+categories:
   - Adventskalender
 ---
+
 ---
 
 {% quote "Maurice Merleau-Ponty, Het Zichtbare en het Onzichtbare (1968)" "[...] als we ons afvragen wat dit wij is, wat zien is en wat ding of wereld is, komen we terecht in een labyrint van moeilijkheden en tegenstrijdigheden. Wat Sint-Augustinus zei over de tijd — dat het voor iedereen volkomen bekend is, maar dat niemand van ons het aan de anderen kan uitleggen — moet ook van de wereld worden gezegd." %}
 
-
 Afgelopen herfstvakantie was ons gezin op vakantie in de Duitse Eifel. Ons zoontje Sam was 16 maanden oud, en naast rondgesjouwd worden in de schouderdrager wilde hij graag ook zelf stukjes lopen. Sam houdt niet van schoenen, en wanneer hij deze (onder luid protest) wél aan moet, gaat hij liever kruipen dan lopen. Dus dan maar op blote voeten.
 
-![Een foto genomen op een asfalt bospad, dat zich uitstrekkend in de verte met een flauwe bocht naar rechts beweegt. Aan de linkerkant een heuvelrand, begroeid met bomen en struiken. Rechts een vangrail waarachter meer bomen te zien zijn. Het pad is bezaaid met herstbladeren. Een drietal personen, 2 volwassenen (man, vrouw) en een klein kind wandelen over het pad, met hun rug naar de camera. De man houdt het linkerhandje van het kind vast, in de rechterhand houdt het kind een herfstblaadje. De vrouw draagt een rode messenger-bag, donkere hoodie en spijkerbroek. De man draagt een platte pet, bruine jas en spijkerbroek. Het kind kijkt naar achter richting de camera, de volwassenen hebben hun blik op het kind gericht.](https://fronteers.nl/_img/adventskalender/afbeelding-job-1.jpeg)
-
-*Aan de wandel op blote voeten. Foto: auteur.*
+{% figure "https://fronteers.nl/_img/adventskalender/afbeelding-job-1.jpeg" "Een foto genomen op een asfalt bospad, dat zich uitstrekkend in de verte met een flauwe bocht naar rechts beweegt. Aan de linkerkant een heuvelrand, begroeid met bomen en struiken. Rechts een vangrail waarachter meer bomen te zien zijn. Het pad is bezaaid met herstbladeren. Een drietal personen, 2 volwassenen (man, vrouw) en een klein kind wandelen over het pad, met hun rug naar de camera. De man houdt het linkerhandje van het kind vast, in de rechterhand houdt het kind een herfstblaadje. De vrouw draagt een rode messenger-bag, donkere hoodie en spijkerbroek. De man draagt een platte pet, bruine jas en spijkerbroek. Het kind kijkt naar achter richting de camera, de volwassenen hebben hun blik op het kind gericht." "Aan de wandel op blote voeten. Foto: auteur." %}
 
 # Blaadjes zien
 
@@ -51,7 +49,7 @@ In beide gedichten staat het zien van — de ervaring van, de ontmoeting met —
 
 # Niet zien
 
-Beide gedichten over de bloem veronderstellen de aanwezigheid van de bloem. Dat deze is waargenomen. En hoewel ik bij het keuren van een ontwerp me probeer te realiseren wat ik zie, is het weten wat ik _niet_ zie  — en waarom — evenmin zo belangrijk. Denk bijvoorbeeld aan fenomenen zoals [Banner Blindness](https://en.wikipedia.org/wiki/Banner_blindness).
+Beide gedichten over de bloem veronderstellen de aanwezigheid van de bloem. Dat deze is waargenomen. En hoewel ik bij het keuren van een ontwerp me probeer te realiseren wat ik zie, is het weten wat ik _niet_ zie — en waarom — evenmin zo belangrijk. Denk bijvoorbeeld aan fenomenen zoals [Banner Blindness](https://en.wikipedia.org/wiki/Banner_blindness).
 
 Wat we waarnemen is al het product van onbewuste selecties: van alle optische zenuwsignalen die onze visuele cortex bereiken is er gewoonweg te veel om alles te verwerken. Er wordt geselecteerd op wat er voor ons relevant is, en dat wordt primair gestuurd vanuit onze _doelen_.
 
@@ -59,7 +57,7 @@ Neem het beroemde experiment waarbij er een video getoond werd waarin twee groep
 
 ![Een scene van een ruimte: op de achtergrond 3 liften. Verspreid door de ruimte staan verscheidene mensen in witte en zwarte t-shirts. Twee mensen in witte t-shirts staan dichtbij de camera, naar elkaar toe gericht. De rechterpersoon is licht door de knieën gebogen en houdt een bruine basketbal vast. In het midden van de ruimte staat een persoon in een gorillapak, kijkend naar de camera.](https://fronteers.nl/_img/adventskalender/afbeelding-job-2.png)
 
-*Een frame uit [de video die bij een van de selectieve-aandacht experimenten werd gebruikt](https://www.youtube.com/watch?v=vJG698U2Mvo).*
+_Een frame uit [de video die bij een van de selectieve-aandacht experimenten werd gebruikt](https://www.youtube.com/watch?v=vJG698U2Mvo)._
 
 {% quote "Daniel Simons & Christopher Chabris, Gorillas in our midst: Sustained inattention blindness for dynamic events (1999)" "Approximately half of observers fail to notice an ongoing and highly salient but unexpected event while they are engaged in a primary monitoring task. This extends the phenomenon of inattentional blindness by at least an order of magnitude in the duration of the event that can be missed." %}
 
@@ -71,7 +69,7 @@ Het komt ook voor dat we meer in staat geraken om dingen waar te nemen doordat a
 
 Hoe de mogelijkheid tot _zien_ en _niet-zien_ door cultuur en opvoeding kan worden beïnvloed, wordt ook prachtig beschreven door de taalkundige en oud-missionair [Daniel Everett](https://en.wikipedia.org/wiki/Daniel_Everett) in het boek “Don’t Sleep, There Are Snakes”. Hierin vertelt hij over zijn leven bij de Amazoniaanse Pirahã stam:
 
-Daniel Everett, _Don’t Sleep, There Are Snakes: Life and Language in the Amazonian Jungle (2008)
+Daniel Everett, \_Don’t Sleep, There Are Snakes: Life and Language in the Amazonian Jungle (2008)
 
 It was still around seventy-two degrees, though humid, far below the hundred-degree-plus heat of midday. I was rubbing the sleep from my eyes. I turned to Kohoi, my principal language teacher, and asked, "What's up?" He was standing to my right, his strong, brown, lean body tensed from what he was looking at.
 
@@ -99,7 +97,7 @@ Everyone continued to look toward the beach. I heard Kristene, my six-year-old d
 
 De ervaring van Everett bij de Pirahā is vergelijkbaar met het probleem binnen AI en computerzicht: AI beeldherkenning is notoir slecht in het herkennen van zaken die voor de AI niet of onduidelijk bestaan. Net zoals Everett Xigagaí gewoonweg niet _kan_ zien (en de Pirahã vergelijkbaar verkeerssignalen en markeringen niet _zagen_ toen enkelen van hen met Everett naar een nabijgelegen stad reisden) is een AI engine niet in staat om dingen te zien die het model niet begrijpt of kent.
 
-Dit “begrip van de wereld” probleem is onderdeel van het  [Frame Problem](https://plato.stanford.edu/entries/frame-problem/). De cognitief wetenschapper en filosoof [Daniel Dennett](https://nl.wikipedia.org/wiki/Daniel_Dennett) schrijft over de opgave om een AI systeem te bouwen wat op elk moment uit de werkelijkheid die het ervaart de _juiste_ patronen weet te herkennen, en conclusies te trekken zonder in eindeloze verwerking terecht te komen waarbij de juiste aannames over de wereld worden gebruikt. Dennett beschrijft op humoristische wijze hoe een voor mensen relatief [eenvoudige taak als een boterham smeren](https://www.youtube.com/watch?v=cDA3_5982h8) voor een AI een onoverkomelijk moeilijk probleem kan zijn. Hoe weet de AI (met zogenaamde [AGI](https://nl.wikipedia.org/wiki/Kunstmatige_algemene_intelligentie) - “algemene intelligentie”) dat het temperatuurverschil in de kamer waar het zich bevindt niet relevant is voor de opdracht die het moet uitvoeren — of het feit dat er op dat moment geen olifanten in de buurt zijn?
+Dit “begrip van de wereld” probleem is onderdeel van het [Frame Problem](https://plato.stanford.edu/entries/frame-problem/). De cognitief wetenschapper en filosoof [Daniel Dennett](https://nl.wikipedia.org/wiki/Daniel_Dennett) schrijft over de opgave om een AI systeem te bouwen wat op elk moment uit de werkelijkheid die het ervaart de _juiste_ patronen weet te herkennen, en conclusies te trekken zonder in eindeloze verwerking terecht te komen waarbij de juiste aannames over de wereld worden gebruikt. Dennett beschrijft op humoristische wijze hoe een voor mensen relatief [eenvoudige taak als een boterham smeren](https://www.youtube.com/watch?v=cDA3_5982h8) voor een AI een onoverkomelijk moeilijk probleem kan zijn. Hoe weet de AI (met zogenaamde [AGI](https://nl.wikipedia.org/wiki/Kunstmatige_algemene_intelligentie) - “algemene intelligentie”) dat het temperatuurverschil in de kamer waar het zich bevindt niet relevant is voor de opdracht die het moet uitvoeren — of het feit dat er op dat moment geen olifanten in de buurt zijn?
 Een model als [GPT-3](https://en.wikipedia.org/wiki/GPT-3) is tot indrukwekkende resultaten in staat, maar handelt exclusief binnen het gebied van taalkundige verwerking en valt daardoor onder [narrow AI](https://en.wikipedia.org/wiki/Weak_artificial_intelligence).
 
 Daniel Dennett, Cognitive Wheels: The Frame Problem of AI (1984)
@@ -114,7 +112,7 @@ Als ik naar de Grand Canyon kijk, kan ik dit op meerdere manieren zien. Als enor
 
 ![Een rij van 3 foto’s van de Grand Canyon. De meest linkse is een hoog genomen luchtfoto, waarin de GC als scheur door het landschap trekt. De middelste foto is genomen vanaf de rand van een plek in de GC, een groot ravijn tonend waar onderin een rivier loopt. De rechtse foto toont een wand van de GC waarin de verscheidene aardlagen duidelijk zichtbaar worden.](https://fronteers.nl/_img/adventskalender/afbeelding-job-3.png)
 
-*Meerdere manieren om naar de Grand Canyon te kijken.*
+_Meerdere manieren om naar de Grand Canyon te kijken._
 
 Als toeristen-attractie. Als geologisch fenomeen. En ga zo maar door.
 
@@ -140,23 +138,23 @@ A _brink_, the edge of a cliff, is a very significant terrain feature. It is a f
 
 A step, or stepping-off place, differs from a brink in size, relative to the size of the animal. It thus affords pedestrian locomotion. A stairway, a layout of adjacent steps, affords both descent and ascent. Note that a stairway consists of convex edges and concave corners alternating, in the nomenclature here employed.
 
-Deze manier van de omgeving waarnemen — als iets dat _faciliteert:_ af-vallen, of af-stappen  — probeer ik ook toe te passen op de manier waarop ik naar een ontwerp of een interface kijk. Dat betekent concreet dat ik probeer te zien wat het element van de interface betekent voor mij als gebruiker.
+Deze manier van de omgeving waarnemen — als iets dat _faciliteert:_ af-vallen, of af-stappen — probeer ik ook toe te passen op de manier waarop ik naar een ontwerp of een interface kijk. Dat betekent concreet dat ik probeer te zien wat het element van de interface betekent voor mij als gebruiker.
 
 Dus niet alleen sign-up-formulier, maar ook _uitnodiging om lid te worden,_ en _plek om informatie te delen_. Niet alleen _link,_ ook _navigatie, verplaatsing,_ en in het geval van bijvoorbeeld een link “view comments” ook interpretaties als _“plek met bijdragen”,_ waaruit wellicht de vraag komt of het relevant is dat de hoeveelheid comments er bij wordt vermeld, en waarom er comments mogelijk zijn, hoe dat past in de rest van de interface, en zo verder.
 
 ![Een foto van een baby die richting een vrouw kruipt. De baby kruipt binnen een houten vierkante frameconstructie met glazen bodem waarvan de helft door een geblokt patroon bedekt is. De vrouw staat buiten het houten frame en nodigt de baby lachend uit om naar haar toe te kruipen. De baby is bijna halverwege en begint de doorzichtige helft van de ondergrond te bereiken.](https://fronteers.nl/_img/adventskalender/afbeelding-job-5.png)
 
-*Een foto van het [“Visual Cliff” experiment van Eleanor J. Gibson uit 1960](https://en.wikipedia.org/wiki/Visual_cliff). Is het een plaats om af te vallen, of af te stappen? Het doel van het kind is uiteindelijk om de moeder te bereiken. Hoe ervaart het kind de werkelijkheid?*
+_Een foto van het [“Visual Cliff” experiment van Eleanor J. Gibson uit 1960](https://en.wikipedia.org/wiki/Visual_cliff). Is het een plaats om af te vallen, of af te stappen? Het doel van het kind is uiteindelijk om de moeder te bereiken. Hoe ervaart het kind de werkelijkheid?_
 
-Deze “reducerende geest” die voortdurend de vraag stelt “waar kijk ik naar, en welke ervaring heb ik hierbij?” is terug te vinden in de kunsten. Zie bijvoorbeeld hoe een [tronie](https://nl.wikipedia.org/wiki/Tronie_(schilderkunst)) zoals het _Meisje met de Parel_ een grotere gelijkenis vertoont met de zintuigelijke ervaring, terwijl het kubisme van Picasso experimenteert met herkenbaarheid, vormen en patronen. De _Black Square_ van Malevich en _Composition II in Red, Blue and Yellow_ van Mondriaan stellen ons steeds weer de vraag over wat het is om naar pure vormen, lijnen en kleuren te kijken en wat dit met ons doet.
+Deze “reducerende geest” die voortdurend de vraag stelt “waar kijk ik naar, en welke ervaring heb ik hierbij?” is terug te vinden in de kunsten. Zie bijvoorbeeld hoe een [tronie](<https://nl.wikipedia.org/wiki/Tronie_(schilderkunst)>) zoals het _Meisje met de Parel_ een grotere gelijkenis vertoont met de zintuigelijke ervaring, terwijl het kubisme van Picasso experimenteert met herkenbaarheid, vormen en patronen. De _Black Square_ van Malevich en _Composition II in Red, Blue and Yellow_ van Mondriaan stellen ons steeds weer de vraag over wat het is om naar pure vormen, lijnen en kleuren te kijken en wat dit met ons doet.
 
 Een iconische meubel zoals de _Zig-Zag Stoel_ van Rietveld doet dit vergelijkbaar. We zien waarschijnlijk dat het een stoel is. Maar waarom? Wanneer is dit niet langer het geval? Voor wie is dit geen herkenbare, of zelfs bruikbare stoel?
 
 ![5 afbeeldingen in een horizontale rij. 1: een schilderij van een jong blank meisje, en profil in linkerrichting. Ze draagt een blauw met gele tulband, haar gezicht lichtjes naar de camera gedraaid. Ze draagt een kleine parel in haar linker-oor. 2: een cubistische weergave van een vrouw die een mandoline bespeelt. 3: een zwart vlak omlijnd door een wit vlak in de ratio 1:3. 4: Een grid met meerdere vierkanten in verscheidene groottes. 3 zijn gekleurd: rechtsboven (rood), rechtsonder (geel) en linksonder (blauw). De anderen zijn wit, en elk vierkant is gescheiden van het andere door een dikke zwarte lijn. 5: een houten stoel samengesteld uit 4 vierkante platen die aan elkaar bevestigd zijn zodat 1 platte de "voet" vormt, 1 platte het zitvlak, 1 staande de rugleuning, en 1 verbindt het zitvlak en voet.](https://fronteers.nl/_img/adventskalender/afbeelding-job-6.png)
 
-*Van links naar rechts: Meisje met de Parel, Johannes Vermeer; Girl with a Mandolin, Pablo Picasso; Black Square, Kazimir Malevich; Composition II in Red, Blue, and Yellow, Piet Mondriaan; Zig-Zag Stoel, Gerrit Rietveld.*
+_Van links naar rechts: Meisje met de Parel, Johannes Vermeer; Girl with a Mandolin, Pablo Picasso; Black Square, Kazimir Malevich; Composition II in Red, Blue, and Yellow, Piet Mondriaan; Zig-Zag Stoel, Gerrit Rietveld._
 
-Dit raakt aan zowel [ontologie](https://nl.wikipedia.org/wiki/Ontologie_(filosofie)) — de categorieën van het Zijn — als aan [fenomenologie](https://nl.wikipedia.org/wiki/Fenomenologie): wat is het om te ervaren? Welke categorieën en beelden komen in ons op wanneer we kijken, wanneer we lezen?
+Dit raakt aan zowel [ontologie](<https://nl.wikipedia.org/wiki/Ontologie_(filosofie)>) — de categorieën van het Zijn — als aan [fenomenologie](https://nl.wikipedia.org/wiki/Fenomenologie): wat is het om te ervaren? Welke categorieën en beelden komen in ons op wanneer we kijken, wanneer we lezen?
 
 # Merels zien
 
@@ -214,7 +212,6 @@ Masoud Yazdani, Iconic Communication [chapter 6: Communication Through Icons, by
 
 The argument that we should consider the combination of text and icon as a solution to our communicative objective may be a positive step forward. Is it not true that we see in our everyday life people combining spoken language with gestures, hand and eye movements, intonational variations?
 
-
 # Kom en zie
 
 Uiteindelijk beschouw ik het keuren van een ontwerp als een existentiële handeling. Het vertelt me iets over een ander, of anderen: zij die het ontwerp tot stand brachten. Het zegt iets over hun kijk op de wereld, en hoe een spectrum van mogelijke doelen door hen naar een ontwerp wordt vertaald.
@@ -230,4 +227,5 @@ Wat we zien, en niet zien. De herfst, het bos, het asfaltpad. Je vrouw. Je zoont
 Hoe ik dit alles concreet toepas tijdens het samenstellen van een keuringsrapport schrijf ik in een vervolg. 🍂
 
 ---
+
 Met dank aan [Dick Verstegen](https://boeddhistischdagblad.nl/auteurs/30649-column-dick/). Alle afbeeldingen via Wikipedia behalve wanneer anders vermeld.
