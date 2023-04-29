@@ -62,6 +62,7 @@
 }
 .navigation-opened {
   overflow: hidden;
+  height: 100vh;
 }
 
 .navigation-opened .page-header-wrapper {
@@ -84,7 +85,7 @@
 
 .navigation-opened .page-header-logo {
   background-color: black;
-  height: 36px;
+  height: 78px;
 }
 
 .navigation-opened .navigation-list-item--toplevel > a {

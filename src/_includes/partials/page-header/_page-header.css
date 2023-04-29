@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 
-@media all and (min-width: 31em) {
+@media all and (min-width: 46.875em) {
   .page-header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr 40px;
