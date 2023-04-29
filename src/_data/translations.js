@@ -4,7 +4,8 @@ module.exports = {
     siteName: "Fronteers",
     headTitle: "Fronteers — vakvereniging for front-end developers",
     metaTitle: "Fronteers — vakvereniging for front-end developers",
-    metaDescription: "Fronteers is the non-profit professional association of Dutch-speaking front-end developers.",
+    metaDescription:
+      "Fronteers is the non-profit professional association of Dutch-speaking front-end developers.",
     ariaTitleTranslateNav: "Translations",
     location: "Location",
     locationUnknown: "to be determined",
@@ -20,9 +21,11 @@ module.exports = {
       proudMembers: "Get to know our members",
       conferenceBanner: "Get a taste of our conference",
       membersSpecial: "Member's Special",
-      joinUs: "Join us",
+      joinUsTitle: "Join our community",
+      joinUs: "Join us!",
       joinUsPath: "/en/join-us/",
-      joinUsDescription: "Join Fronteers and don't miss a thing!",
+      joinUsDescription:
+        "Become a member of the Fronteers community and contribute to the professionalization of the front-end profession.",
       activeVacancies: "Job openings",
     },
     socialMedia: {
@@ -49,20 +52,21 @@ module.exports = {
     newerArticles: "Newer articles",
     nextEvent: "Next event",
     page: "Page",
-    pagination: "Pagination"
+    pagination: "Pagination",
   },
   nl: {
     baseUrl: "https://www.fronteers.nl/nl",
     siteName: "Fronteers",
     headTitle: "Fronteers — vakvereniging voor front-end developers",
     metaTitle: "Fronteers — vakvereniging voor front-end developers",
-    metaDescription: "Fronteers is een vereniging met volledige rechtsbevoegdheid, die in oktober 2007 is opgericht, met als doel de professionalisering van het beroep van web-front-end ontwikkelaar.",
-    ariaTitleTranslateNav: "Vertaalmenu", 
+    metaDescription:
+      "Fronteers is een vereniging met volledige rechtsbevoegdheid, die in oktober 2007 is opgericht, met als doel de professionalisering van het beroep van web-front-end ontwikkelaar.",
+    ariaTitleTranslateNav: "Vertaalmenu",
     jobreadmore: "Bekijk vacature",
     blogreadmore: "Lees meer",
     about: "over",
     goToVimeo: "Ga naar ons profiel op Vimeo",
-    location: "Lokatie",
+    location: "Locatie",
     locationUnknown: "nog te bepalen",
     signUp: "Meld je aan",
     blockTitles: {
@@ -72,9 +76,11 @@ module.exports = {
       proudMembers: "Trotse leden",
       conferenceBanner: "Bekijk video's van ons congres",
       membersSpecial: "Speciaal voor leden",
+      joinUsTitle: "Sluit je aan bij onze community",
       joinUs: "Word ook lid",
       joinUsPath: "/nl/word-lid/",
-      joinUsDescription: "Wordt lid van onze vereniging en mis niets meer!",
+      joinUsDescription:
+        "Word lid van de Fronteers community en draag hiermee bij aan de professionalisering van het front-end vak.",
       activeVacancies: "Vacatures",
     },
     socialMedia: {
@@ -101,6 +107,6 @@ module.exports = {
     newerArticles: "Nieuwer",
     nextEvent: "Binnenkort",
     page: "Pagina",
-    pagination: "Paginering"
+    pagination: "Paginering",
   },
 };

@@ -201,8 +201,14 @@
   display: block;
   background-size: cover;
   inline-size: 100%;
-  margin: 0px auto;
+  margin: 0 auto;
   color: white;
+}
+
+.curly-braces-bg {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .curly-braces-bg {
@@ -235,6 +241,5 @@
   .parentheses-bg,
   .none-bg {
     min-height: 250px;
-    inline-size: 70%;
   }
 }
