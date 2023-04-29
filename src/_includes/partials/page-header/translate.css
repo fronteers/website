@@ -8,6 +8,10 @@
   z-index: 20;
 }
 
+.navigation-opened .page-header-translate {
+  top: -44px;
+}
+
 .page-header-translate ul {
   list-style-type: none;
   margin: 0;
