@@ -13,6 +13,11 @@ p {
   box-sizing: inherit;
 }
 
+/* To prevent horzontal scrolling due to menu on right side of page */
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   -webkit-hyphens: auto;
   hyphens: auto;
