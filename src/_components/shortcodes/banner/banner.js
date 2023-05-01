@@ -21,6 +21,9 @@ const style = `
   flex-wrap: wrap;
   min-height: 250px;
   inline-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .content-wrapper .banner_component {
   margin-block-end: var(--spacing);
@@ -100,7 +103,7 @@ exports.banner = (
     type === "greater" ? "greater-than-bg" : ""
   }${type === "parentheses" ? "parentheses-bg" : ""}${
     type === "none" ? "none-bg" : ""
-  } banner_component" style="background: url(${image})" href="${link}" target="${target}">
+  } banner_component" style="background-image: url(${image})" href="${link}" target="${target}">
     <span class="visually-hidden">${hint}</span>
     ${svgButton}
 </a>
