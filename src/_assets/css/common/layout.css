@@ -119,6 +119,15 @@ main section > .h {
   margin-block-start: 0;
 }
 
+.page-edit-wrapper {
+  color: black;
+  text-align: center;
+}
+
+.page-edit-wrapper a {
+    padding-inline: var(--spacing-half);
+}
+
 .desktop-columns,
 .desktop-rows {
   list-style-type: none;
