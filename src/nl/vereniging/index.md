@@ -4,7 +4,7 @@ title: Over Fronteers
 # if there's a subtitle, put it in heroSlogan:
 heroSlogan: ""
 ---
-Fronteers is een[label](vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html) vereniging met volledige rechtsbevoegdheid, die in oktober 2007 is opgericht. Ons doel: de professionalisering van het beroep van web-front-end ontwikkelaar. Het [bestuur](/nl/vereniging/bestuur) van de vereniging is verantwoordelijk voor de dagelijkse gang van zaken, maar besteedt de organisatie van de meeste activiteiten van de vereniging uit naar een aantal [commissies](/nl/vereniging/commissies). Fronteers draait volledig op vrijwilligers. Wel wordt - om vrijwilligers zo veel mogelijk te ontzien - waar nodig samengewerkt met externe partijen voor het ondersteunen van de verschillende commissies.
+Fronteers is een vakvereniging met volledige rechtsbevoegdheid, die in oktober 2007 is opgericht. Ons doel: de professionalisering van het beroep van web-front-end ontwikkelaar. Het [bestuur](/nl/vereniging/bestuur) van de vereniging is verantwoordelijk voor de dagelijkse gang van zaken, maar besteedt de organisatie van de meeste activiteiten van de vereniging uit naar een aantal [commissies](/nl/vereniging/commissies). Fronteers draait volledig op vrijwilligers. Wel wordt - om vrijwilligers zo veel mogelijk te ontzien - waar nodig samengewerkt met externe partijen voor het ondersteunen van de verschillende commissies.
 
 Fronteers verenigt op dit moment [circa 190 front-end programmeurs](/nl/leden). Zowel werknemers van grote en kleine webbureaus, als freelancers en werknemers van niet-webbureaus zijn bij de vereniging betrokken.
 
