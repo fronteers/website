@@ -11,7 +11,7 @@ Front-endontwikkelaars die hun werk testen met een screenreader — dat is een p
 
 Is dat nou echt nodig? Of maakt het je webinhoud juist minder toegankelijk? Dat onderzoek ik voor je in dit artikel.
 
-![Collage: stapel eurobiljetten en icoon van een luidspreker](https://fronteers.nl/_img/adventskalender/euros-full.jpg)
+![Collage: stapel eurobiljetten en icoon van een luidspreker](/_img/adventskalender/euros-full.jpg)
 
 
 

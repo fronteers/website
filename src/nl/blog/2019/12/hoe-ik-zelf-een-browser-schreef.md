@@ -15,7 +15,7 @@ En toen ging ik terug naar de browser, waar ik telkens maar één viewport kon z
 
 Rond dezelfde tijd was ik aan het spelen met [Electron](https://electronjs.org/), een framework waarmee je desktop applicaties kunt maken met webtechnieken. Ik besloot om een prototype te ontwikkelen waarin je dezelfde website in meerdere viewports naast elkaar zag, net zoals mijn indeling in Sketch. Na een paar avonden klooien had ik iets wat al best fijn werkte:
 
-![Screenshot van het eerste prototype](https://fronteers.nl/_img/adventskalender/eigen-browser/screenshot-polypane-prototype.png)
+![Screenshot van het eerste prototype](/_img/adventskalender/eigen-browser/screenshot-polypane-prototype.png)
 
 Je kon er niet echt veel mee, maar je kon een URL invullen en die werd dan getoond in meerdere afmetingen. Best cool!
 
@@ -33,7 +33,7 @@ Met iedere functie die ik toevoegde begon ik me meer en meer af te vragen waarom
 
 Door de feedback die ik op mijn browser kreeg was ik er inmiddels achter hoeveel beter een browser kan werken voor front-enders als de *hele* interface gericht is op hun werk. Hierdoor besloot ik mijn browser als serieus product aan te gaan bieden. Sinds het begin van dit jaar ben ik fulltime bezig met het doorontwikkelen en mijn ideeën en die van gebruikers te implementeren. Daar zijn nieuwe functies als full-page screenshots, live reloading en device emulation uit gekomen.
 
-![Screenshot van de browser nu](https://fronteers.nl/_img/adventskalender/eigen-browser/screenshot-polypane-now.png)
+![Screenshot van de browser nu](/_img/adventskalender/eigen-browser/screenshot-polypane-now.png)
 
 # Browsers kunnen zoveel meer
 

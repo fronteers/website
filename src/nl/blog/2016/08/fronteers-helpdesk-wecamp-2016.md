@@ -8,7 +8,7 @@ categories:
 ---
 Deze zomer combineert Fronteers twee favoriete front-end-activiteiten, namelijk "mooie dingen maken" en "een eiland-uitstapje maken", in "een eiland-uitstapje maken om mooie dingen te maken". Fronteersleden die het leuk vinden om een dag of twee deel te nemen aan *WeCamp 2016*, sturen we namelijk naar het uitverkochte WeCamp-eiland in het Veluwemeer.
 
-![Luchtfoto van het WeCamp-eiland in het Veluwemeer](https://fronteers.nl/_img/blog/2016/wecamp-wider-full.jpg)
+![Luchtfoto van het WeCamp-eiland in het Veluwemeer](/_img/blog/2016/wecamp-wider-full.jpg)
 
 Van *23 tot en met 27 augustus* verblijven vijf teams van vijf personen op het eiland om webapplicaties te bedenken, te bouwen en te presenteren, onder begeleiding van coaches. Een snelkookpan voor web-productontwikkeling, maar dan op een eiland. Het evenement is uitverkocht, maar Fronteers mag enkele front-enders inparachuteren* om part-time deel te nemen.
 

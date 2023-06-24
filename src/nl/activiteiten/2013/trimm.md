@@ -8,7 +8,7 @@ categories:
 ---
 [TriMM](http://trimm.nl) host op 21 februari een nieuw soort Fronteersbijeenkomst, een "bijeenstorm". Doel is om zowel kennis te delen die je zelf hebt over front-end, maar ook iets te leren van andere knappe koppen. Daarnaast leer je die avond op een andere wijze je collega's front-enders kennen.
 
-![Poster bijeenstorm TriMM](https://fronteers.nl/_img/2013/bijeenstorm-trimm.jpg)
+![Poster bijeenstorm TriMM](/_img/2013/bijeenstorm-trimm.jpg)
 
 # Opzet van de avond
 

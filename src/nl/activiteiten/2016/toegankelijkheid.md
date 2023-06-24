@@ -21,7 +21,7 @@ Op 8 november host Fronteers een bijeenkomst over toegankelijkheid, met als eers
 
 ## Karl Groves - Noscript is dead. Using JavaScript to improve accessible user experience
 
-![Karl Groves aan het woord](https://fronteers.nl/_img/bijeenkomsten/karl.jpg)
+![Karl Groves aan het woord](/_img/bijeenkomsten/karl.jpg)
 
 Toegankelijkheid en het gebruik van JavaScript hoeven elkaar helemaal niet in de weg te zitten. Sterker nog: het wordt steeds beter mogelijk om JavaScript in te zetten om je toegankelijkheid te verbeteren! Karl's talk zal hier dieper op ingaan. Met behulp van praktische codevoorbeelden zal hij laten zien hoe we onze websites een stuk toegankelijker kunnen maken.
 
@@ -29,13 +29,13 @@ Toegankelijkheid en het gebruik van JavaScript hoeven elkaar helemaal niet in de
 
 ## Job van Achterberg - Automatica11y: trends, patterns, predictions in audit tooling and data
 
-![Job van Achterberg aan het woord](https://fronteers.nl/_img/bijeenkomsten/job.jpg)
+![Job van Achterberg aan het woord](/_img/bijeenkomsten/job.jpg)
 
 Het is tegenwoordig steeds beter mogelijk een deel van je toegankelijkheid automatisch te testen. Job zal in zijn talk een vergelijking maken tussen verschillende audit-tools voor toegankelijkheid, en ingaan op hun voor- en nadelen. Daarnaast zal ingaan op wat dit soort tools bieden en hoe ze gebruikt worden. Tot slot werpt hij een blik op de toekomst van het automatisch testen van toegankelijkheid.
 
 {%- vimeo "202660755" -%}
 
-![Studio met opgestelde camera's](https://fronteers.nl/_img/blog/2016/smet.jpg)
+![Studio met opgestelde camera's](/_img/blog/2016/smet.jpg)
 
 # Locatie
 

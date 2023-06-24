@@ -9,7 +9,7 @@ categories:
 Van 10 t/m 12 februari wordt de [Dutch Blockchain Hackathon](https://blockchainhackathon.eu) in Groningen georganiseerd. Hier zullen 50 teams in 5 verschillende tracks proberen innovatieve oplossingen te bedenken voor diverse uitdagingen die door de organisatie zijn opgesteld.
 [EBPI](https://www.ebpi.nl/), dat deelneemt met drie teams, is nog op zoek naar front-end developers om hun teams te versterken.
 
-![](https://fronteers.nl/_img/blog/2017/blockchainhackathon.jpg)
+![](/_img/blog/2017/blockchainhackathon.jpg)
 
 Johan Mastenbroek en Ralph Verhelst van EBPI zijn druk bezig met het samenstellen van de teams, bestaande uit mensen met diverse expertises. EBPI zal, zoals gezegd, met drie teams aan de hackathon deelnemen. De [tracks](https://blockchainhackathon.eu/tracks) waaraan zij zullen gaan deelnemen zijn:
 

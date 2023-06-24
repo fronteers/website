@@ -11,13 +11,13 @@ De bijeenkomst stond geheel in het tegen van toegankelijkheid. Als sprekers ware
 
 # Wat hebben we geleerd?
 
-![Karl Groves met publiek](https://fronteers.nl/_img/blog/2016/karl-praat.jpg)
+![Karl Groves met publiek](/_img/blog/2016/karl-praat.jpg)
 
 _Karl Groves laat zien hoe je een ‘dialog’ toegankelijker maakt_
 
 Karl liet een aantal manieren zien om met JavaScript toegankelijkheid te verbeteren. Het idee dat toegankelijkheid betekent dat een pagina zonder JavaScript moet werken, ontkrachtte hij. Een toegankelijke pagina beantwoordt de vraag ‘wat is dit en wat moet het doen?’. Volgens Karl kan JavaScript daar _juist_ goed bij helpen, bijvoorbeeld door roles, tabgedrag en focus vanuit scripts te beïnvloeden. Via de speakers van Desmet luisterden we samen naar hoe screenreader VoiceOver de door hem gebouwde interacties interpreteerde. Karl liet ons vervolgens zien hoe dat eenvoudig een stuk beter kon.
 
-![Job van Achterberg](https://fronteers.nl/_img/blog/2016/job-praat.jpg)
+![Job van Achterberg](/_img/blog/2016/job-praat.jpg)
 
 _Job haalt fronteers.nl door de W3C validator. Gelukkig, geen errors!_
 
@@ -25,7 +25,7 @@ Job ging in zijn talk in op een aantal tools die je pagina kunnen analyseren. Er
 
 # Meer bijeenkomsten op eigen locaties
 
-![](https://fronteers.nl/_img/blog/2016/desmet-buiten.jpg)
+![](/_img/blog/2016/desmet-buiten.jpg)
 
 De eerste niet-bij-een-bedrijf-bijeenkomst was een groot succes te noemen. Het team activiteiten is van plan om elk kwartaal een bijeenkomst zoals deze te organiseren, op een door Fronteers gehuurde locatie. Het idee is dus: elke maand een bijeenkomst, waarvan elk kwartaal eentje op een eigen locatie. Bijeenkomsten bij bedrijven blijven dus ook terugkomen.
 

@@ -27,4 +27,4 @@ Sprekers worden bekend gemaakt zodra de early bird kaarten zijn uitverkocht. Wel
 
 Update:
 
-![[Buy tickets (you will be sent to Paydro)](https://fronteers.paydro.net)](https://fronteers.nl/_img/congres/2012/graphics/buttons/buy.png)
+![[Buy tickets (you will be sent to Paydro)](https://fronteers.paydro.net)](/_img/congres/2012/graphics/buttons/buy.png)

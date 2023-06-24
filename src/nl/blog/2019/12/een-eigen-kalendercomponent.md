@@ -98,7 +98,7 @@ De volgende componenten zien hiervoor gemaakt:
 
 Op CodeSandbox is het [het volledige voorbeeld van een simpele kalenderweergave](https://codesandbox.io/s/heuristic-mestorf-oxmtu) te zien.
 
-![Voorbeeld van versimpelde kalenderweergave](https://fronteers.nl/_img/adventskalender/02-12-2019-1.png)
+![Voorbeeld van versimpelde kalenderweergave](/_img/adventskalender/02-12-2019-1.png)
 
 
 
@@ -148,7 +148,7 @@ const amountOfWeeks = Math.ceil((realOffset + daysInMonth) / 7);
 
 [Op CodeSandbox vind je een voorbeeld van deze berekening.](https://codesandbox.io/s/vigorous-tesla-97y6s)
 
-![Een voorbeeld van een kalendercomponent waarbij de begindag van de week kan worden ingesteld](https://fronteers.nl/_img/adventskalender/02-12-2019-2.png)
+![Een voorbeeld van een kalendercomponent waarbij de begindag van de week kan worden ingesteld](/_img/adventskalender/02-12-2019-2.png)
 
 
 
@@ -156,13 +156,13 @@ const amountOfWeeks = Math.ceil((realOffset + daysInMonth) / 7);
 
 Nu het duidelijk is hoe een kalender te genereren kun je de logica op verschillende manieren gebruiken. Zoals bijvoorbeeld in een datepicker of een daterange-picker:
 
-![Een daterange-picker](https://fronteers.nl/_img/adventskalender/02-12-2019-3.gif)
+![Een daterange-picker](/_img/adventskalender/02-12-2019-3.gif)
 
 ## Een daterange-picker
 
 Ook kun je dezelfde logica in een agenda gebruiken:
 
-![Toepassing van het component in een kalender-app](https://fronteers.nl/_img/adventskalender/02-12-2019-4.gif)
+![Toepassing van het component in een kalender-app](/_img/adventskalender/02-12-2019-4.gif)
 
 
 

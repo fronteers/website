@@ -33,7 +33,7 @@ Aan de andere kant merk ik ook af en toe dat er soms erg makkelijk over front-en
 
 Aan het eind van de dag zal het project worden opgeleverd. Ik ben er van overtuigd dat het resultaat van het project er visueel gezien anders uitziet als een back-end developer die ook front-end werk erbij doet. Je hebt immers niet voor niets een front-end specialist. Een ultiem voorbeeld kwam mij onlangs voorbij toen ik een berg luiers voor mijn dochter bestelde bij Kruidvat Online. Je wordt netjes doorverwezen naar Ogone Payments. Bekijk het zelf. Het werkt. Alles wat je hieronder ziet is functioneel. Precies wat een back-end developer moet doen. Alleen, als ik nog maar naar de ‘Ga verder’ button kijk, gaat het bij mij enorm kriebelen. Je snapt vast wat ik bedoel. Er zit niet eens styling op. Verder staat er dan wel een Norton logo bij, maar dan nog oogt het bij mij nog steeds een beetje ‘unsecure’. Het heeft wat mij betreft meer een beetje de stijl van van een oplichter, die me een email stuurt om mij in te laten loggen bij mijn bank. Ik ben er dan ook echt van overtuigd dat een specialist als een front-end developer wel degelijk een andere denkwijze heeft dan andere specialisten.
 
-![Betaalpagina van Ogone Payments](https://fronteers.nl/_img/adventskalender/ogone-payments.png)
+![Betaalpagina van Ogone Payments](/_img/adventskalender/ogone-payments.png)
 
 # Wat vind jij?
 

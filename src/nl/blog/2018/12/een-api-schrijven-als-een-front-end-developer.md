@@ -39,7 +39,7 @@ Express was echter geen goede keus voor dit project omdat ik enkel JSON terug ga
 
 # Projectstructuur
 
-![De projectstructuur](https://fronteers.nl/_img/adventskalender/projectstructuur.png)
+![De projectstructuur](/_img/adventskalender/projectstructuur.png)
 
 Om een overzichtelijk project te hebben is het van belang dat je van te voren nadenkt over de projectstructuur. Ik maak gebruik van MVCS (Model Controller View Service), een variant van [MVC](https://nl.wikipedia.org/wiki/Model-view-controller-model).
 

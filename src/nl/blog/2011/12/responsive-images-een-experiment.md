@@ -45,7 +45,7 @@ Meteen nadat de browser het pagina-DOM heeft ingelezen, schiet Mingy in actie ([
 
 Je zal terecht opmerken dat we het aantal HTTP-requests op deze manier wel opvoeren. Een praktijktest illustreert echter dat dat eigenlijk helemaal niet opweegt tegen het verminderde gewicht en de verminderde laadtijd van een pagina met veel afbeeldingen. Het [Network Link Conditioner preference pane](http://9to5mac.com/2011/08/10/new-in-os-x-lion-network-link-conditioner-utility-lets-you-simulate-internet-and-bandwidth-conditions/) in Xcode 4 voor Mac OS X Lion helpt je om te simuleren hoe webpagina's ingeladen worden op apparaten met een trage verbinding:
 
-![Schermafbeelding van het voorkeurenpaneel 'Netwerk Link Conditioner' in Mac OS X](https://fronteers.nl/_img/2011/12/nlc.png)
+![Schermafbeelding van het voorkeurenpaneel 'Netwerk Link Conditioner' in Mac OS X](/_img/2011/12/nlc.png)
 
 # Hoe gebruik je het?
 
@@ -150,7 +150,7 @@ Omdat de afbeeldingen toch op de server bijgeknipt worden (en gecachet), lag het
 
 Onderstaand screenshot illustreert trouwens ook duidelijk wat ik eerder beschreef: initieel worden de placeholder PNG's van 68 bytes geladen en hierna pas de werkelijke afbeeldingen.
 
-![Schermafbeelding van het Tabblad 'Net → Images' in Firebug voor Firefox](https://fronteers.nl/_img/2011/12/firebug.png)
+![Schermafbeelding van het Tabblad 'Net → Images' in Firebug voor Firefox](/_img/2011/12/firebug.png)
 
 ## Retina
 

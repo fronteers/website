@@ -7,7 +7,7 @@ categories:
 ---
 Zelf, met de hand, een website maken is tegenwoordig zo lastig nog niet. Echter, een grote maatwerk website is heel andere koek. In het begin lijkt het wel simpel maar iedere beslissing heeft invloed op je volgende beslissing en één verkeerde beslissing kan heel snel tot frustratie leiden. Mocht je toevallig het (on)geluk hebben om meerdere grote websites te maken en te onderhouden, dan ben je, als je niet uitkijkt, al heel snel de sigaar.
 
-![](https://fronteers.nl/_img/2011/12/patterns-box.png)
+![](/_img/2011/12/patterns-box.png)
 
 Waarom? Niets blijft hetzelfde en het maken van een website is een oefening in constante verandering.
 

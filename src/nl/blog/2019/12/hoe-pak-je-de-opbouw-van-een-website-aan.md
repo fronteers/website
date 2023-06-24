@@ -39,7 +39,7 @@ Na de brainstorm ga je alle ideeën categoriseren. Je gaat ze bundelen op A4’t
 Nu je alles gecategoriseerd hebt, heb je in de basis ook de pagina’s die op je website komen. Het is belangrijk dat je pagina’s op een logische manier in het menu komen. Dit kun je het beste doen door het uit te tekenen in een Flowchart.
 Je diensten kun je bijvoorbeeld op een pagina zetten, maar je kunt er ook voor kiezen om onder het kopje Diensten een submenu te maken. Diensten - Webdesign, Logo ontwerp, Huisstijl
 
-![Voorbeeld van een flowchart](https://fronteers.nl/_img/adventskalender/marieke-webdesign-flowchart.png)
+![Voorbeeld van een flowchart](/_img/adventskalender/marieke-webdesign-flowchart.png)
 
 <p class="note">
 Voorbeeld flowchart

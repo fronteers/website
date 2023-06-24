@@ -38,7 +38,7 @@ Met Shadow DOM is het mogelijk om binnen je eigen tag een hele HTML-structuur op
 
 In de browser inspector is het mogelijk om in de Shadow DOM te kijken:
 
-![Een screenshot van Firefox Devtools, waarin de shadow DOM van een element wordt gemarkeerd met "#shadow-root"](https://fronteers.nl/_img/adventskalender/2020/shadow-root.png)
+![Een screenshot van Firefox Devtools, waarin de shadow DOM van een element wordt gemarkeerd met "#shadow-root"](/_img/adventskalender/2020/shadow-root.png)
 
 ## Custom Elements
 
@@ -92,7 +92,7 @@ Dit custom element zou je als volgt in HTML kunnen gebruiken:
 
 In de browser ziet dit er zo uit:
 
-![Een blok met een rode rand met daarin de tekst "Dit is een waarschuwing"](https://fronteers.nl/_img/adventskalender/2020/my-warning.png)
+![Een blok met een rode rand met daarin de tekst "Dit is een waarschuwing"](/_img/adventskalender/2020/my-warning.png)
 
 Je kan de code en het resultaat ook bekijken en aanpassen in deze [Codepen](https://codepen.io/edwinm/pen/QWKMaKy).
 

@@ -7,7 +7,7 @@ categories:
 ---
 Letterlijk is een ‘cliché’ een metalen plaat waarmee je illustraties kunt afdrukken. Figuurlijk is een cliché een afgesleten manier van spreken of denken. De eerste keer dat je een grap maakt, is ‘ie leuk. De tweede keer is ‘ie al minder. Na tien keer is ‘ie saai. Clichés zijn de doodgeslagen cola van je denkvermogen, om het op z’n BLØFs te zeggen.
 
-![Een cliché voor reclame voor King pepermunt](https://fronteers.nl/_img/adventskalender/cliches/king-pepermunt-cliche.jpg)
+![Een cliché voor reclame voor King pepermunt](/_img/adventskalender/cliches/king-pepermunt-cliche.jpg)
 
 <p class="note">
 Een cliché voor reclame voor King pepermunt
@@ -27,7 +27,7 @@ Sure, maar welke 1000 woorden zegt jouw plaatje? Zegt je plaatje “Ik had geen 
 
 We zijn gewend geraakt aan enorme hero images, schermvullend en topzwaar. Hierdoor denken we dat bij elk bericht een foto hoort. Het probleem is dat niet iedereen een geweldige foto-bibliotheek ter beschikking heeft. Het resultaat? Websites vol plaatjes-omdat-het-moet. Het liefst clipart met teksten die verkeerd afgesneden worden. Fotoredactie is het ondergeschoven kindje van modern webwerk.
 
-![Screenshot van Frankwatching.com (november 2019)](https://fronteers.nl/_img/adventskalender/cliches/screenshot-frankwatching-20191127.jpg)
+![Screenshot van Frankwatching.com (november 2019)](/_img/adventskalender/cliches/screenshot-frankwatching-20191127.jpg)
 
 <p class="note">
 Screenshot van Frankwatching.com (november 2019)
@@ -39,43 +39,43 @@ Niet iedereen heeft een geweldige smaak of fantasie, sorry dat ik het zeg. En ev
 
 Resultaat? “[Aap eet banaan](https://paulvanbuuren.nl/aap-eet-banaan/)“, een uitdrukking van ontwerpers voor een ontwerp dat er te dik bovenop ligt. Denk aan een hamer als logo voor een timmerman. Een aap-eet-banaan-slogan is: ‘Voor al uw timmerwerk’.
 
-![Ariane The Overexposed Stockphoto Model](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-01-ariane-the-overused.jpg)
+![Ariane The Overexposed Stockphoto Model](/_img/adventskalender/cliches/google-image-search-01-ariane-the-overused.jpg)
 
 <p class="note">
 Ariane The Overexposed Stockphoto Model
 </p>
 
-![Zoek op “Success”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-02-succes.jpg)
+![Zoek op “Success”](/_img/adventskalender/cliches/google-image-search-02-succes.jpg)
 
 <p class="note">
 Zoek op “Success”
 </p>
 
-![Zoek op “Men shaking hands”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-03-men-shaking-hands.jpg)
+![Zoek op “Men shaking hands”](/_img/adventskalender/cliches/google-image-search-03-men-shaking-hands.jpg)
 
 <p class="note">
 Zoek op “Men shaking hands”
 </p>
 
-![Zoek op “Boy toys”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-04-boys-toys.jpg)
+![Zoek op “Boy toys”](/_img/adventskalender/cliches/google-image-search-04-boys-toys.jpg)
 
 <p class="note">
 Zoek op “Boy toys”
 </p>
 
-![Zoek op “Girl toys”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-05-girls-toys.jpg)
+![Zoek op “Girl toys”](/_img/adventskalender/cliches/google-image-search-05-girls-toys.jpg)
 
 <p class="note">
 Zoek op “Girl toys”
 </p>
 
-![Zoek op “Woman eating salad”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-07-woman-eating-salad.jpg)
+![Zoek op “Woman eating salad”](/_img/adventskalender/cliches/google-image-search-07-woman-eating-salad.jpg)
 
 <p class="note">
 Zoek op “Woman eating salad”
 </p>
 
-![Zoek op “Hacker”](https://fronteers.nl/_img/adventskalender/cliches/google-image-search-06-hackers.jpg)
+![Zoek op “Hacker”](/_img/adventskalender/cliches/google-image-search-06-hackers.jpg)
 
 <p class="note">
 Zoek op “Hacker”
@@ -97,7 +97,7 @@ Moet ik nog vertellen waarom dat een slechte gewoonte is? Ten eerste geldt: hoe 
 
 De tweelingbroer van Klik Hier is Lees Meer. Ook met ‘lees meer’ vertel je niet waar je naartoe gaat. Je hebt pech als je afhankelijk bent van een screenreader om wijs te worden uit een pagina met twintig keer een link met ‘lees meer’ als tekst. Beschrijf met je linktekst alsjeblieft waar je heen gaat en maak deze tekst uniek voor je webpagina. Mocht je omwille van het design van je pagina toch veroordeeld zijn tot korte linkteksten, gebruik dan een list. Gebruik bijvoorbeeld het [‘aria-label’-attribuut als alternatief](https://www.w3.org/WAI/GL/wiki/Using_aria-label_for_link_purpose), of gebruik de titel van de pagina waarnaar je verwijst als linktekst, maar [verberg die louter visueel](https://a11yproject.com/posts/how-to-hide-content/).
 
-![Stapels boeken](https://fronteers.nl/_img/adventskalender/cliches/lees-meer-boeken.jpg)
+![Stapels boeken](/_img/adventskalender/cliches/lees-meer-boeken.jpg)
 
 <p class="note">
 Dit is een prima aansporing: “Lees meer”, als je bedoelt: lees meer boeken
@@ -107,7 +107,7 @@ Klik anders hier even: [click-here.nl](http://click-here.nl/)
 
 # Cliche 3: Social media-knoppen
 
-![Social media knoppen](https://fronteers.nl/_img/adventskalender/cliches/vijf-knoppen-om-een-pagina-te-delen-facebook-twitter-whatsapp-linkedin-email.jpg)
+![Social media knoppen](/_img/adventskalender/cliches/vijf-knoppen-om-een-pagina-te-delen-facebook-twitter-whatsapp-linkedin-email.jpg)
 
 <p class="note">
 Klik hier
@@ -119,7 +119,7 @@ Waar ze wel goed voor zijn? Eh.
 
 Ze zijn vooral bedoeld om je opdrachtgever het fijne gevoel te geven helemaal hip & happening te zijn, want als je niet op sociale media meedoet besta je niet.
 
-![Satansboek](https://fronteers.nl/_img/adventskalender/cliches/satansboek.jpg)
+![Satansboek](/_img/adventskalender/cliches/satansboek.jpg)
 
 Afhankelijk van hoe je die knoppen implementeert kun je het [satanische Facebook](https://satansboek.nl/) helpen om je bezoeker over het hele internet te achtervolgen.
 
@@ -167,7 +167,7 @@ Ik denk dat het onkunde is dat er zoveel formulieren zonder fatsoenlijke labels 
 
 Weet je wat daar zo handig van is? Je vertelt daarmee aan je gebruiker wat hij moet doen.
 
-![Liftknopjes zonder nummer](https://fronteers.nl/_img/adventskalender/cliches/lift-knopjes.jpg)
+![Liftknopjes zonder nummer](/_img/adventskalender/cliches/lift-knopjes.jpg)
 
 <p class="note">
 O jee, geen labels. Wat nu? [Het origineel is trouwens niet veel beter](https://www.reddit.com/r/CrappyDesign/comments/78gcgt/this_elevator_button_panel/).

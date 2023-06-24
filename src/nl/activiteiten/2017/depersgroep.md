@@ -8,7 +8,7 @@ categories:
 ---
 Op *donderdag 30 november 2017* vliegt Fronteers België er terug in met onze derde en laatste meetup voor 2017. Ditmaal zijn we te gast bij [De Persgroep](http://www.persgroep.be/) te *Asse*. De talks worden voorzien door *Jochen Vandendriessche* ([@joggink](https://github.com/joggink)) en *Bram Van Damme* ([@bramus](https://github.com/bramus)). De bijeenkomst is gratis voor leden en niet-leden, en De Persgroep zorgt voor iets lekkers te eten!
 
-![](https://fronteers.nl/_img/bijeenkomsten/header.jpg)
+![](/_img/bijeenkomsten/header.jpg)
 
 # Programma
 
@@ -39,7 +39,7 @@ Sinds de komst van ES6 (ES2015) gaat het snel vooruit in JavaScript-land. Minder
 
 Bram Van Damme ([@bramus](https://github.com/bramus)), tinkers with all things web.
 
-![](https://fronteers.nl/_img/bijeenkomsten/depersgroep-locatie-full.jpg)
+![](/_img/bijeenkomsten/depersgroep-locatie-full.jpg)
 
 # Locatie
 

@@ -33,7 +33,7 @@ Omdat het een DOM heeft, kan je deze aanspreken met JavaScript om bepaalde zaken
 
 Het klinkt allemaal veelbelovend en te mooi om waar te zijn, en jammer genoeg is het dat ook een klein beetje. De meeste moderne browsers ondersteunen SVG native, maar voor sommige zal er toch een fallback voorzien moeten worden. Godzijdank zijn er hier diverse libraries voor, maar ééntje in het bijzonder springt hier toch wel uit: [RaphaelJS](http://raphaeljs.com/).
 
-![](https://fronteers.nl/_img/2011/12/browsersupport-svg.png)
+![](/_img/2011/12/browsersupport-svg.png)
 
 Een overzicht van de browsersupport (bron: <http://www.codedread.com/svg-support.php>).
 

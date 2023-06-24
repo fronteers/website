@@ -65,7 +65,7 @@ De sketchnotes van Fronteers 2018 kan je [hier](https://twitter.com/i/moments/10
 
 Meta alert: Natuurlijk heb ik deze blogpost ook uitgetekend, hieronder de sketchnotes van de sketchnotes!
 
-![De sketchnote van de sketchnotes](https://fronteers.nl/_img/adventskalender/blogpost-sketchnotes-anke-small.jpeg)
+![De sketchnote van de sketchnotes](/_img/adventskalender/blogpost-sketchnotes-anke-small.jpeg)
 
 ### Over Anke Willems
 <img src="/_img/adventskalender/anke.jpeg" alt="Foto van anke" class="floating-portrait">

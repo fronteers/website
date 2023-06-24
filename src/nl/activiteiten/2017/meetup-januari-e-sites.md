@@ -19,7 +19,7 @@ Op dinsdag 24 januari 2017 is Fronteers weer te gast bij [E-sites](https://www.e
 
 ## Talk 1: Voorkomen van complexiteit in je CSS | Iain van der Wiel ([slides](https://iainvdw.github.io/preso-css-complexiteit/))
 
-![Iain van der Wiel](https://fronteers.nl/_img/bijeenkomsten/iain-van-der-wiel-160.jpg)
+![Iain van der Wiel](/_img/bijeenkomsten/iain-van-der-wiel-160.jpg)
 
 Heb jij wel eens `!important` in je CSS moeten toepassen? Heb je wel eens problemen gehad met de cascade? Of met inheritance? Of met specificity? Iain denkt dat iedereen die ooit met CSS bezig is geweest, wel minstens één van deze vragen met een volmondig 'JA' kan beantwoorden.
 
@@ -31,7 +31,7 @@ Iain van der Wiel ([@iain_vdw](https://twitter.com/iain_vdw)) is Senior Front-En
 
 ## Talk 2: Atomic design met Pattern Lab | Bram Smulders ([slides](https://bramsmulders.github.io/slides/atomic-design-met-pattern-lab.html))
 
-![Bram Smulders](https://fronteers.nl/_img/bijeenkomsten/bram-smulders-160.jpg)
+![Bram Smulders](/_img/bijeenkomsten/bram-smulders-160.jpg)
 
 In de wereld van responsive web design moeten we voorbij het traditionele full-page, top-down designproces kijken. Het principe van ‘atomic design’ helpt ons om design op te splitsen in gescheiden lagen. Startend vanuit de kleinste (atomische) elementen, die de moleculen en organismen vormen, voegen we die uiteindelijk samen in oneindig veel paginalayouts.
 
@@ -39,7 +39,7 @@ Door Pattern Lab te gebruiken, geeft Bram deze filosofie vorm in een uitgebreid 
 
 Bram Smulders ([@bramsmulders](https://twitter.com/bramsmulders)) is Lead Front-End developer bij Colours. Met een sterke focus op accessibility en progressive enhancement maakt hij rijke online ervaringen met HTML5, CSS3 & JavaScript.
 
-![Het E-café bij E-sites in](https://fronteers.nl/_img/bijeenkomsten/venue-e-sites.jpeg)
+![Het E-café bij E-sites in](/_img/bijeenkomsten/venue-e-sites.jpeg)
 
 # Locatie
 

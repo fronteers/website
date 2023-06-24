@@ -244,13 +244,13 @@ En nu komen we aan het spannendste deel van de avond: het uittesten van onze con
 
 Zoals eerder gezegd, geeft ESLint geen fout of waarschuwing op het gebruik van `eval()` in onze code. Het draaien van `npx eslint --no-eslintrc src/index.js` geeft het volgende resultaat:
 
-![EsLint zonder config](https://fronteers.nl/_img/adventskalender/code-in-style/eslint-no-config.png)
+![EsLint zonder config](/_img/adventskalender/code-in-style/eslint-no-config.png)
 
 Hier is te zien wat ESLint standaard teruggeeft: `eval()` is toegestaan, en aangezien ESLint normaal gesproken uitgaat van een ES5 omgeving is `const` niet toegestaan.
 
 Wanneer we onze eigen shareable config gebruiken krijgen we een heel ander resultaat:
 
-![](https://fronteers.nl/_img/adventskalender/code-in-style/eslint-shareable-config.png)
+![](/_img/adventskalender/code-in-style/eslint-shareable-config.png)
 
 Hierin kunnen we zien dat ESLint een fout geeft op het gebruik van `eval()`, maar het gebruik van `const` toestaat in onze code.
 
@@ -258,11 +258,11 @@ Hierin kunnen we zien dat ESLint een fout geeft op het gebruik van `eval()`, maa
 
 We kunnen een zelfde test uitvoeren wanneer we Babel draaien. Wanneer we Babel zonder configuratie draaien moet de output er hetzelfde uitzien als onze source code, want Babel doet van zichzelf niks:
 
-![Babel zonder config](https://fronteers.nl/_img/adventskalender/code-in-style/babel-no-config.png)
+![Babel zonder config](/_img/adventskalender/code-in-style/babel-no-config.png)
 
 Dit geeft ons het volgende resultaat:
 
-![Resultaat van Babel zonder config](https://fronteers.nl/_img/adventskalender/code-in-style/babel-no-config-result-3.png)
+![Resultaat van Babel zonder config](/_img/adventskalender/code-in-style/babel-no-config-result-3.png)
 
 Maar als we onze `npm` script uitvoeren krijgen we een ander resultaat, omdat onze Babel preset dan wél uitgevoerd wordt:
 
@@ -272,7 +272,7 @@ $ npm run build
 
 Dit geeft:
 
-![Resultaat van Babel met custom preset](https://fronteers.nl/_img/adventskalender/code-in-style/babel-custom-preset-result-3.png)
+![Resultaat van Babel met custom preset](/_img/adventskalender/code-in-style/babel-custom-preset-result-3.png)
 
 En dat is het. We hebben nu een eigen project gemaakt dat onze eigen ESLint en Babel configuratie (of preset) gebruikt op de source code. Wil je de voorbeeldcode in actie zien? Dan kan je het altijd terugvinden op [Github](https://github.com/lodybo/code-in-style-examples).
 

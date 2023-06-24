@@ -29,7 +29,7 @@ Veel online winkels denken niet echt na over wat hun doelgroep is met als gevolg
 
 Neem eens een website die hoorapparaten verkoopt. Op de stockfoto’s staan alleen ouderen afgebeeld. Ik was 12 jaar toen ik mijn eerste paar hoorapparaten kreeg. Slechthorendheid is een beperking die in iedere leeftijdsgroep voorkomt. Als ik vandaag nog baat had met hoorapparaten dan zou ik zeker meer aandacht (en geld) besteden aan de website die mij aanspreekt. (Voorbeeld geen rekening houden met wie doelgroep echt is: [https://www.specsavers.nl/horen](https://www.specsavers.nl/horen))
 
-![Voorbeeld geen rekening houden met wie doelgroep echt is: Specsavers](https://fronteers.nl/_img/adventskalender/specsavers.jpg)
+![Voorbeeld geen rekening houden met wie doelgroep echt is: Specsavers](/_img/adventskalender/specsavers.jpg)
 
 Hoe vaak hebben we zuchtend een blog gelezen over een onderwerp dat nieuw voor ons was. We wilden er meer over weten, maar de schrijver gebruikte veel moeilijke en ingewikkelde zinnen. Er is zoveel te lezen en te doen online dat het teveel energie vergt om online een tekst te gaan lezen die te ingewikkeld is geschreven, terwijl dat niet hoeft. Stel iemand is bezig met een medisch behandeling die stress met zich brengt, hun geheugen aantast en dan komen ze een website tegen met lange zinnen en moeilijke woorden. Zo’n website is noninclusive voor hen.
 

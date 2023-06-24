@@ -6,7 +6,7 @@ location:
 categories: 
     - meetup
 ---
-![](https://fronteers.nl/_img/logo-with-text.png)
+![](/_img/logo-with-text.png)
 
 Op 12 oktober, de dag na het Fronteerscongres, organiseert Fronteers samen met Google een Web Platform Doc Sprint in Amsterdam. Kom samen met mede-developers de [Web Platform Docs](http://docs.webplatform.org/) verbeteren en uitbreiden!
 

@@ -17,7 +17,7 @@ Tijdens deze hands-on Master Class, die volledig Engelstalig zal zijn, leer je h
 * Quick-win performance-optimalisaties
 * Geavanceerde performance-optimalisaties
 
-![twee ontwikkelaars die naar broncode op een beeldscherm kijken](https://fronteers.nl/_img/blog/2016/voorhoede-blog-post-full.jpg)
+![twee ontwikkelaars die naar broncode op een beeldscherm kijken](/_img/blog/2016/voorhoede-blog-post-full.jpg)
 
 # Dagindeling
 

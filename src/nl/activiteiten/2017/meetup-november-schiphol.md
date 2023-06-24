@@ -8,7 +8,7 @@ categories:
 ---
 Op woensdag 29 november 2017 is Fronteers weer te gast bij [Royal Schiphol Group](https://www.schiphol.nl). We hebben die avond twee interessante talks, verzorgd door *Ischa Gast* en *Tamara Forza*. De bijeenkomst is gratis voor leden en niet-leden, en Royal Schiphol Group zorgt voor iets te eten en drankjes!
 
-![Foto Schiphol](https://fronteers.nl/_img/bijeenkomsten/schiphol/schiphol-take-off-full.jpg)
+![Foto Schiphol](/_img/bijeenkomsten/schiphol/schiphol-take-off-full.jpg)
 
 # Programma
 
@@ -27,7 +27,7 @@ Op woensdag 29 november 2017 is Fronteers weer te gast bij [Royal Schiphol Group
 
 ```
 
-![Foto Ischa Gast](https://fronteers.nl/_img/bijeenkomsten/schiphol/ischagast.jpg)
+![Foto Ischa Gast](/_img/bijeenkomsten/schiphol/ischagast.jpg)
 
 ## Talk 1: No Accessibility
 
@@ -47,7 +47,7 @@ Kleine websites, grote websites het maakt allemaal niet uit, bijna op iedere web
 
 {%- vimeo "251556515" -%}
 
-![Foto Tamara Forza](https://fronteers.nl/_img/bijeenkomsten/schiphol/tamara.jpg)
+![Foto Tamara Forza](/_img/bijeenkomsten/schiphol/tamara.jpg)
 
 ## Talk 2: Launching schiphol.nl
 
@@ -59,7 +59,7 @@ It doesn't happen often that a big airport like Amsterdam Schiphol Airport launc
 
 ```
 
-![Foto Mauro Mandracchia](https://fronteers.nl/_img/bijeenkomsten/schiphol/mauro.jpg)
+![Foto Mauro Mandracchia](/_img/bijeenkomsten/schiphol/mauro.jpg)
 
 ## Talk 3: Splitting components packages
 

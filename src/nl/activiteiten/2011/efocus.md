@@ -24,7 +24,7 @@ Met de Chrome Store kunnen ontwikkelaars een zipje uploaden naar Google. Google 
 
 
 
-![](https://fronteers.nl/_img/2011/07/fronteers-bier.jpg)
+![](/_img/2011/07/fronteers-bier.jpg)
 
 # Chromebook Contest
 

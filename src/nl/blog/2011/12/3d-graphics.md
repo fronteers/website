@@ -21,7 +21,7 @@ Om een 3D-graphic te genereren heb je twee zaken nodig: één of meer virtuele v
 
 Virtuele voorwerpen worden in veel gevallen beschreven met behulp van polygonen. Eén enkele polygoon is op zich niet zo interessant. Meerdere polygonen kunnen een virtueel voorwerp representeren, bijvoorbeeld het logo van Fronteers.
 
-![](https://fronteers.nl/_img/2011/12/polygoon-object.png)
+![](/_img/2011/12/polygoon-object.png)
 
 Polygonen zijn oppervlakken die begrensd worden door drie posities of hoekpunten in de ruimte met een x-, y- en z-positie. Polygonen die begrensd worden door drie hoekpunten hebben als voordeel dat ze altijd vlak zijn; je kunt de hoekpunten nooit zo in de virtuele ruimte plaatsen dat de polygoon niet vlak is. Naast polygonen met drie hoekpunten kun je ook polygonen met meer hoekpunten gebruiken, zolang het oppervlak vlak is.
 
@@ -49,7 +49,7 @@ Vervolgens worden alle posities die zich tussen de horizontale start- en eindpos
 
 Hoe meer polygonen gebruikt worden, hoe preciezer een virtueel voorwerp beschreven kan worden. Meer polygonen betekent ook dat er meer berekeningen nodig zijn.
 
-![](https://fronteers.nl/_img/2011/12/polygoon-scanconversion.png)
+![](/_img/2011/12/polygoon-scanconversion.png)
 
 Net als bij het gebruik van afbeeldingen op een website geldt; hoe hoger de kwaliteit, in veel gevallen hoe realistischer het eindresultaat moet worden, hoe langer het duurt voor de afbeelding geladen is, en in het geval van 3D-graphics hoe langer de rendertijd is.
 
@@ -59,13 +59,13 @@ Wanneer de virtuele camera om een virtueel voorwerp gedraaid wordt, is de ene ke
 
 Voor het renderen van een virtuele omgeving is het dus noodzakelijk te kijken welke polygonen zichtbaar zijn en welke niet. De polygonen die zich het dichtst bij de camera bevinden zijn zichtbaar en overlappen mogelijk polygonen die verder van de camera verwijderd zijn. De afstand tot de camera wordt gebruikt om te bepalen welke (delen van de) polygonen wel of niet zichtbaar zijn. De afstand tot de camera wordt uitgedrukt als een z-waarde.
 
-![](https://fronteers.nl/_img/2011/12/scanconversion.png)
+![](/_img/2011/12/scanconversion.png)
 
 Per pixel moet uitgerekend worden welke positie van een polygoon zichtbaar is. Voor elke pixel wordt een stuk geheugen gereserveerd die de z-positie per pixel bijhoudt. Wanneer de z-positie van een polygon lager is dan de waarde in het geheugen (de z-buffer genoemd) wordt deze nieuwe waarde als minimum opgeslagen, met een verwijzing naar de polygoon waar de z-positie aan gerelateerd is.
 
 Je kunt de z-buffer als afbeelding wegschrijven; dit levert een zogenaamde depth image op. Pixels met een hoge intensiteit hebben een lage z-waarde, pixels met een lage intensiteit hebben een hoge z-waarde.
 
-![](https://fronteers.nl/_img/2011/12/depth-image.png)
+![](/_img/2011/12/depth-image.png)
 
 Polygonen die zich achter de camera bevinden, hebben een negatieve waarde en worden niet gebruikt, omdat je geen beeld kan zien dat zich achter de camera bevindt.
 
@@ -85,13 +85,13 @@ De intensiteit van diffuus licht wordt bepaald door de hoek tussen de lichtbron 
 
 De intensiteit van specular wordt bepaald door de hoek tussen de op het oppervlak gereflecteerde lichtstraal en het oog van de toeschouwer te berekenen. De gereflecteerde lichtstraal wordt berekend met behulp van de positie van de lichtbron en de normaal op het oppervlak van de polygoon. De hoek van inval is gelijk aan die van uitval.
 
-![](https://fronteers.nl/_img/2011/12/belichtingsmodel.png)
+![](/_img/2011/12/belichtingsmodel.png)
 
 Het belichtingsmodel beschrijft de manier waarop de virtuele voorwerpen reageren op virtueel licht en bepaalt hoe de virtuele voorwerpen eruit komen te zien. Er bestaan vele belichtingsmodellen. De meest basale belichtingsmodellen zijn flat shading, Gouraud shading en Phong shading.
 
 Flat shading is het meest eenvoudige belichtingsmodel. Voor elke polygoon wordt één enkele intensiteit berekend. Alleen de intensiteit van ambient en diffuus licht wordt gebruikt.
 
-![](https://fronteers.nl/_img/2011/12/shading-types.png)
+![](/_img/2011/12/shading-types.png)
 
 Gouraud shading is iets complexer. Voor elk hoekpunt van de polygoon wordt de intensiteit van ambient en diffuus licht gebruikt. De polygoon wordt vervolgens ingevuld met deze intensiteit. De drie berekende intensiteiten van de hoekpunten vloeien binnen het oppervlak van de polygoon in elkaar over.
 
@@ -113,7 +113,7 @@ De intensiteit van pixels met een hoog contrast wordt herberekend. Door niet é�
 
 De techniek om jagged edges te vermijden wordt anti-aliasing genoemd.
 
-![](https://fronteers.nl/_img/2011/12/anti-aliasing.png)
+![](/_img/2011/12/anti-aliasing.png)
 
 # Conclusie
 

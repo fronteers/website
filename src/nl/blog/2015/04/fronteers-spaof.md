@@ -13,7 +13,7 @@ Met de nieuwe opzet hebben we eindelijk gezorgd dat er in onze code een strikte 
 
 Omdat de CSS op onze site door veel verschillende mensen wordt bijgehouden, lang niet allemaal front-end ontwikkelaars,  zochten we een manier om onze variabelen te scopen en cascading te voorkomen. CSS zelf biedt alleen globale variabelen, dus hebben we besloten onze CSS voortaan in JavaScript te schrijven. De uiteindelijke style rules injecteren we in een style-attribuut in de DOM.
 
-![Screenshots van Angular.js en Bootstrap homepages](https://fronteers.nl/_img/blog/2015/angularbootstrap.png)
+![Screenshots van Angular.js en Bootstrap homepages](/_img/blog/2015/angularbootstrap.png)
 
 We houden ook vast rekening met de toekomst, door bijvoorbeeld gebruik te maken van Bootstrap. Nieuwe ontwikkelaars kunnen zo gemakkelijker bij het team aansluiten, ze hoeven immers alleen Bootstrap te kennen! Ook hebben we jQuery UI toegevoegd, zodat we straks een stuk minder ontwikkeltijd nodig hebben als we bijvoorbeeld een overlay in de site willen implementeren.
 

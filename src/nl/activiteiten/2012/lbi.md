@@ -21,7 +21,7 @@ De middag start met een presentatie door Bruce Lawson. Om 17:00 uur zal er een h
 
 # Bruce Lawson
 
-![Bruce Lawson](https://fronteers.nl/_img/lbi-speaker-bruce-lawson.jpg)
+![Bruce Lawson](/_img/lbi-speaker-bruce-lawson.jpg)
 
 Bruce Lawson evangelises Open Web Standards for Opera. He’s been active in Web Standards since 2002, working with the Web Standards Project, the W3C Mobile Best Practices Working Group and developer education. He co–authored Introducing HTML5, the first full–length book on the subject. He blogs at brucelawson.co.uk. You can follow him at [@brucel.](https://twitter.com/brucel)
 
@@ -31,7 +31,7 @@ The future of the Web is a dangerous Babylon: people talking to each other to do
 
 # Rachel Andrew
 
-![Rachel Andrew](https://fronteers.nl/_img/lbi-speaker-rachel-andrew.jpg)
+![Rachel Andrew](/_img/lbi-speaker-rachel-andrew.jpg)
 
 Rachel Andrew is a front and back-end web developer, author and speaker. Her books include the bestselling CSS Anthology for Sitepoint and she is a regular contributor to a number of publications both on and offline. She writes about business and technology on her own site at rachelandrew.co.uk. In addition to offering consultancy services through the company she founded in 2001 – edgeofmyseat.com – Rachel is also one of the developers of the content management system, Perch.
 

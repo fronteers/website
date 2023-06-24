@@ -19,7 +19,7 @@ Door mijn score in de gaten te houden, kan ik me concentreren op het doel van mi
 
 Een Flesch-Kincaid-score is een geweldige maatstaf om je te concentreren op leesbaarheid, maar het is niet het uiteindelijke doel van je tekst.
 
-![Een heel smal bord met de tekst "geen alcohol voorbij dit punt". Er zijn gemiddeld 2 letters op elke regel. De tekst is vrijwel onleesbaar en ziet eruit als een lijst met afkortingen.](https://fronteers.nl/_img/adventskalender/04-12-2019-1.png)
+![Een heel smal bord met de tekst "geen alcohol voorbij dit punt". Er zijn gemiddeld 2 letters op elke regel. De tekst is vrijwel onleesbaar en ziet eruit als een lijst met afkortingen.](/_img/adventskalender/04-12-2019-1.png)
 
 
 
@@ -33,7 +33,7 @@ Moet je ARIA dan niet gebruiken? Nou [als je het niet nodig hebt, gebruik het da
 
 De echte tip is niet om ARIA op zichzelf te vermijden, maar om het gebruik van ARIA te vermijden in situaties waar dit niet nodig is.
 
-![Een kleine papieren paraplu bedekt nauwelijks een open kroonsteen met electriciteitsdraden. Het vormt een hopeloos schild tegen regen.](https://fronteers.nl/_img/adventskalender/04-12-2019-2.png)
+![Een kleine papieren paraplu bedekt nauwelijks een open kroonsteen met electriciteitsdraden. Het vormt een hopeloos schild tegen regen.](/_img/adventskalender/04-12-2019-2.png)
 
 
 
@@ -54,7 +54,7 @@ Voeg een handmatige toetsenbordtest toe aan je automatische test en je zal waars
 
 Gefeliciteerd, je kan nu moeiteloos veel problemen vinden!
 
-![Een betegelde muur heeft een uitsparing in de vorm van een wastafel en zijn silhouette. De wasbak was er duidelijk eerder dan de muur.](https://fronteers.nl/_img/adventskalender/04-12-2019-3.png)
+![Een betegelde muur heeft een uitsparing in de vorm van een wastafel en zijn silhouette. De wasbak was er duidelijk eerder dan de muur.](/_img/adventskalender/04-12-2019-3.png)
 
 
 
@@ -80,7 +80,7 @@ Misschien heb je inderdaad een website met weinig gehandicapte bezoekers. Heb je
 
 De discussie mag echter nooit over het aantal mensen gaan. Praten over cijfers wekt de indruk dat er ergens na veel rekenen, er een redelijke hoeveelheid mensen is die je wel wil discrimineren en uitsluiten. Als iemand je om cijfers vraagt, vertel diegene dan dat het de verkeerde vraag is om te stellen. Zelfs al zijn de aantallen klein, ze doen er niet toe.
 
-![Een parkeerplek die is gemarkeerd als toegankelijk is omgeven door een aaneengesloten stoeprand](https://fronteers.nl/_img/adventskalender/04-12-2019-4.png)
+![Een parkeerplek die is gemarkeerd als toegankelijk is omgeven door een aaneengesloten stoeprand](/_img/adventskalender/04-12-2019-4.png)
 
 
 
@@ -92,7 +92,7 @@ De kans is groot dat de standaardfocusindicator heel moeilijk te zien is op dele
 
 Het is wel goed om te weten dat [standaard focusindicatoren steeds beter worden](https://blogs.windows.com/msedgedev/2019/10/15/form-controls-microsoft-edge-chromium/).
 
-![Een stopcontact waar water uit giet](https://fronteers.nl/_img/adventskalender/04-12-2019-5.png)
+![Een stopcontact waar water uit giet](/_img/adventskalender/04-12-2019-5.png)
 
 
 

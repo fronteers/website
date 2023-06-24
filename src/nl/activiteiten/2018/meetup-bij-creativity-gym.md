@@ -6,7 +6,7 @@ location:
 categories:
     - meetup
 ---
-![Creativity-Gym](https://fronteers.nl/_img/bijeenkomsten/creativity.jpg)
+![Creativity-Gym](/_img/bijeenkomsten/creativity.jpg)
 
 Op *donderdag 22 februari* 2018 zijn we er terug met een nieuwe meetup. We zullen te gast zijn bij de sympathieke mensen van [Creativity-Gym](http://www.thecreativitygym.be/) in *Mechelen*. Er zijn twee interessante talks voorzien. De talks worden gegeven door Frederick Vanbrabant en Partrick Debois.
 

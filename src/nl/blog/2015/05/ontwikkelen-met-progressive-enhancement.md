@@ -61,7 +61,7 @@ Veel websites gebruiken tegenwoordig web fonts om de typografie te laten aanslui
 
 Browsers gaan hier [op verschillende manieren](https://speakerdeck.com/zachleat/bulletproof-font-icons?slide=68) mee om. Sommige browsers (zoals Chrome 36+, Opera 23+ en Firefox) hebben een timeout voor `@font-face` requests. Als het font na deze timeout nog niet is geladen, wordt het fallback font weergegeven. Andere browsers (Mobile Safari, Safari, Android, Blackberry) hebben geen timeout en verbergen de fallback tekst. De gebruiker wordt daardoor geconfronteerd met een ‘flash of invisible text’ (FOIT): zolang het custom font bezig is met downloaden, is de tekst onzichtbaar.
 
-![](https://fronteers.nl/_img/blog/2015/example-of-foit.png)
+![](/_img/blog/2015/example-of-foit.png)
 
 <p class="note">
 Een voorbeeld van FOIT
@@ -106,7 +106,7 @@ Binnen de class enhanced-font specificeren we in de CSS het custom font:
 
 Met deze werkwijze wordt het standaard lettertype weergegeven terwijl de custom fonts worden geladen, ook wanneer het laden van de fonts lang duurt of mislukt. In plaats van gebruikers FOIT te presenteren bieden we hen het standaard lettertype aan, waardoor de content altijd beschikbaar is. Zodra het custom font beschikbaar is, wordt het als een enhancement toegevoegd.
 
-![](https://fronteers.nl/_img/blog/2015/kapotte-roltrap.png)
+![](/_img/blog/2015/kapotte-roltrap.png)
 
 # Geen liften maar roltrappen
 

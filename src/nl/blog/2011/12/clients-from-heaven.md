@@ -29,7 +29,7 @@ De kern is dat er niet meer vooraf tot in detail wordt vastgelegd wat er gebouwd
 
 Door deze opzet blijft het mogelijk om de invulling aan te passen aan nieuwe inzichten en prioriteiten.
 
-![User Story, User Story aan de wand, wat heeft de hoogste prio van het land?](https://fronteers.nl/_img/2011/12/product-backlog.jpg)
+![User Story, User Story aan de wand, wat heeft de hoogste prio van het land?](/_img/2011/12/product-backlog.jpg)
 
 <p class="note">
 Post-its maken niet alleen voor het team, maar ook de klant, duidelijk wat er nog moet gebeuren.
@@ -59,7 +59,7 @@ Het team maakt een inschatting van de user stories waardoor de klant op de eerst
 
 Hier hebben we uiteraard allerlei sektarische rituelen en gebruiken voor, maar over agile/scrum zijn al genoeg boeken geschreven. Het belangrijkste: we verwachten van de klant dat hij enkele dagen met het team meewerkt. Bij de inrichting van ons pand hebben we er zelfs rekening mee gehouden dat klanten altijd kunnen aanschuiven bij het team. De klant wordt (tijdelijk) collega.
 
-![Werkplek van Team Brutal bij Mangrove](https://fronteers.nl/_img/2011/12/mangrove-werkplek.jpg)
+![Werkplek van Team Brutal bij Mangrove](/_img/2011/12/mangrove-werkplek.jpg)
 
 <p class="note">
 Werkplek van Team Brutal bij Mangrove. [Foto's door WOVOX workplace](http://wovox.com/workplace/mangrove-internetbureau/rotterdam/mangrove#mangrove-internetbureau-45 "Mangrove op WOVOX").

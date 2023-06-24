@@ -94,7 +94,7 @@ De link zal uiteindelijk klinken als _Mijn hele dure Legowinkel_. De naam en de 
 
 In de Developer Tools van Chrome kun je de Accessibility Tree inspecteren. Zo krijg je een idee van hoe de naam van een specifiek element berekend wordt.
 
-![De Accessibility Tree in Chrome dat de naam en rol van een element laat zien](https://fronteers.nl/_img/adventskalender/2020/accessiblename-chrome.jpeg)
+![De Accessibility Tree in Chrome dat de naam en rol van een element laat zien](/_img/adventskalender/2020/accessiblename-chrome.jpeg)
 
 (Dat kan overigens ook in andere browsers.)
 

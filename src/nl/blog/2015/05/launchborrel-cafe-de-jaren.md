@@ -8,7 +8,7 @@ categories:
 ---
 De kaartverkoop voor het Fronteerscongres 2015 start vrijdag 29 mei om 20:00 uur. Om dit te vieren, organiseert Fronteers die avond vanaf 19:00 uur een speciale launchborrel bij Café De Jaren in Amsterdam - en jij bent uitgenodigd.
 
-![Fronteerscongres 2015 Launchborrel bij Café de Jaren. Vrijdag 29 mei 2015 om 19.00 uur](https://fronteers.nl/_img/congres/2015/fronteers15-launchborrel-announcement-image-nl-1024.png)
+![Fronteerscongres 2015 Launchborrel bij Café de Jaren. Vrijdag 29 mei 2015 om 19.00 uur](/_img/congres/2015/fronteers15-launchborrel-announcement-image-nl-1024.png)
 
 # TL;DR
 

@@ -13,7 +13,7 @@ categories:
 
 Afgelopen herfstvakantie was ons gezin op vakantie in de Duitse Eifel. Ons zoontje Sam was 16 maanden oud, en naast rondgesjouwd worden in de schouderdrager wilde hij graag ook zelf stukjes lopen. Sam houdt niet van schoenen, en wanneer hij deze (onder luid protest) wél aan moet, gaat hij liever kruipen dan lopen. Dus dan maar op blote voeten.
 
-{% figure "https://fronteers.nl/_img/adventskalender/afbeelding-job-1.jpeg" "Een foto genomen op een asfalt bospad, dat zich uitstrekkend in de verte met een flauwe bocht naar rechts beweegt. Aan de linkerkant een heuvelrand, begroeid met bomen en struiken. Rechts een vangrail waarachter meer bomen te zien zijn. Het pad is bezaaid met herstbladeren. Een drietal personen, 2 volwassenen (man, vrouw) en een klein kind wandelen over het pad, met hun rug naar de camera. De man houdt het linkerhandje van het kind vast, in de rechterhand houdt het kind een herfstblaadje. De vrouw draagt een rode messenger-bag, donkere hoodie en spijkerbroek. De man draagt een platte pet, bruine jas en spijkerbroek. Het kind kijkt naar achter richting de camera, de volwassenen hebben hun blik op het kind gericht." "Aan de wandel op blote voeten. Foto: auteur." %}
+{% figure "/_img/adventskalender/afbeelding-job-1.jpeg" "Een foto genomen op een asfalt bospad, dat zich uitstrekkend in de verte met een flauwe bocht naar rechts beweegt. Aan de linkerkant een heuvelrand, begroeid met bomen en struiken. Rechts een vangrail waarachter meer bomen te zien zijn. Het pad is bezaaid met herstbladeren. Een drietal personen, 2 volwassenen (man, vrouw) en een klein kind wandelen over het pad, met hun rug naar de camera. De man houdt het linkerhandje van het kind vast, in de rechterhand houdt het kind een herfstblaadje. De vrouw draagt een rode messenger-bag, donkere hoodie en spijkerbroek. De man draagt een platte pet, bruine jas en spijkerbroek. Het kind kijkt naar achter richting de camera, de volwassenen hebben hun blik op het kind gericht." "Aan de wandel op blote voeten. Foto: auteur." %}
 
 # Blaadjes zien
 
@@ -55,7 +55,7 @@ Wat we waarnemen is al het product van onbewuste selecties: van alle optische ze
 
 Neem het beroemde experiment waarbij er een video getoond werd waarin twee groepen mensen elkaar een basketbal toespeelden. Een groep droeg donkere t-shirts, de andere groep witte. De toeschouwers hadden een doel: ze moesten het aantal keren tellen dat de bal tussen personen met een wit t-shirt werd gepasseerd. Halverwege de video liep er een vrouw in een gorilla-pak in beeld, richtte zich naar de camera, imiteerde een gorilla door zichzelf op de borst te slaan, en liep verder. De helft van de toeschouwers bleek later de “gorilla” niet te hebben gezien.
 
-![Een scene van een ruimte: op de achtergrond 3 liften. Verspreid door de ruimte staan verscheidene mensen in witte en zwarte t-shirts. Twee mensen in witte t-shirts staan dichtbij de camera, naar elkaar toe gericht. De rechterpersoon is licht door de knieën gebogen en houdt een bruine basketbal vast. In het midden van de ruimte staat een persoon in een gorillapak, kijkend naar de camera.](https://fronteers.nl/_img/adventskalender/afbeelding-job-2.png)
+![Een scene van een ruimte: op de achtergrond 3 liften. Verspreid door de ruimte staan verscheidene mensen in witte en zwarte t-shirts. Twee mensen in witte t-shirts staan dichtbij de camera, naar elkaar toe gericht. De rechterpersoon is licht door de knieën gebogen en houdt een bruine basketbal vast. In het midden van de ruimte staat een persoon in een gorillapak, kijkend naar de camera.](/_img/adventskalender/afbeelding-job-2.png)
 
 _Een frame uit [de video die bij een van de selectieve-aandacht experimenten werd gebruikt](https://www.youtube.com/watch?v=vJG698U2Mvo)._
 
@@ -110,7 +110,7 @@ En hoewel wij mensen er in vergelijking met AI vreselijk goed in zijn om de comp
 
 Als ik naar de Grand Canyon kijk, kan ik dit op meerdere manieren zien. Als enorm ravijn, als scheur in een landschap, en als doorsnede van een vreselijk oude planeet.
 
-![Een rij van 3 foto’s van de Grand Canyon. De meest linkse is een hoog genomen luchtfoto, waarin de GC als scheur door het landschap trekt. De middelste foto is genomen vanaf de rand van een plek in de GC, een groot ravijn tonend waar onderin een rivier loopt. De rechtse foto toont een wand van de GC waarin de verscheidene aardlagen duidelijk zichtbaar worden.](https://fronteers.nl/_img/adventskalender/afbeelding-job-3.png)
+![Een rij van 3 foto’s van de Grand Canyon. De meest linkse is een hoog genomen luchtfoto, waarin de GC als scheur door het landschap trekt. De middelste foto is genomen vanaf de rand van een plek in de GC, een groot ravijn tonend waar onderin een rivier loopt. De rechtse foto toont een wand van de GC waarin de verscheidene aardlagen duidelijk zichtbaar worden.](/_img/adventskalender/afbeelding-job-3.png)
 
 _Meerdere manieren om naar de Grand Canyon te kijken._
 
@@ -124,7 +124,7 @@ Hart & Hegeman Manufactoring Corporation, Push Switch (1905)
 
 First and foremost, buttons should easily bend to the will of their operators; they should cause no difficulty for pressers …
 
-![Een horizontale serie afbeeldingen van verschillende knoppen. Van links naar rechts: een fysieke drukknop van plastic met groot rond drukvlak; een tekst-knop gemaakt van zwarte tekst "<Apply>" op grijze achtergrond; een grafische knop met zwarte gecentreerde tekst "OK" op grijze achtergrond; een blauwe knop met zwarte gecentreerde tekst "Button", waarbij de knop ronde hoeken heeft en een diepte-effect vertoont; een knop met paars-blauw-groen gradient achtergrond en de zwarte gecentreerde tekst "button".](https://fronteers.nl/_img/adventskalender/afbeelding-job-4.png)
+![Een horizontale serie afbeeldingen van verschillende knoppen. Van links naar rechts: een fysieke drukknop van plastic met groot rond drukvlak; een tekst-knop gemaakt van zwarte tekst "<Apply>" op grijze achtergrond; een grafische knop met zwarte gecentreerde tekst "OK" op grijze achtergrond; een blauwe knop met zwarte gecentreerde tekst "Button", waarbij de knop ronde hoeken heeft en een diepte-effect vertoont; een knop met paars-blauw-groen gradient achtergrond en de zwarte gecentreerde tekst "button".](/_img/adventskalender/afbeelding-job-4.png)
 
 Maar vergeet het experiment met de gorilla niet: we bekijken, filteren en verwerken de werkelijkheid afhankelijk van onze doelen. Dus ook: verwacht ik daar een knop?
 
@@ -142,7 +142,7 @@ Deze manier van de omgeving waarnemen — als iets dat _faciliteert:_ af-vallen,
 
 Dus niet alleen sign-up-formulier, maar ook _uitnodiging om lid te worden,_ en _plek om informatie te delen_. Niet alleen _link,_ ook _navigatie, verplaatsing,_ en in het geval van bijvoorbeeld een link “view comments” ook interpretaties als _“plek met bijdragen”,_ waaruit wellicht de vraag komt of het relevant is dat de hoeveelheid comments er bij wordt vermeld, en waarom er comments mogelijk zijn, hoe dat past in de rest van de interface, en zo verder.
 
-![Een foto van een baby die richting een vrouw kruipt. De baby kruipt binnen een houten vierkante frameconstructie met glazen bodem waarvan de helft door een geblokt patroon bedekt is. De vrouw staat buiten het houten frame en nodigt de baby lachend uit om naar haar toe te kruipen. De baby is bijna halverwege en begint de doorzichtige helft van de ondergrond te bereiken.](https://fronteers.nl/_img/adventskalender/afbeelding-job-5.png)
+![Een foto van een baby die richting een vrouw kruipt. De baby kruipt binnen een houten vierkante frameconstructie met glazen bodem waarvan de helft door een geblokt patroon bedekt is. De vrouw staat buiten het houten frame en nodigt de baby lachend uit om naar haar toe te kruipen. De baby is bijna halverwege en begint de doorzichtige helft van de ondergrond te bereiken.](/_img/adventskalender/afbeelding-job-5.png)
 
 _Een foto van het [“Visual Cliff” experiment van Eleanor J. Gibson uit 1960](https://en.wikipedia.org/wiki/Visual_cliff). Is het een plaats om af te vallen, of af te stappen? Het doel van het kind is uiteindelijk om de moeder te bereiken. Hoe ervaart het kind de werkelijkheid?_
 
@@ -150,7 +150,7 @@ Deze “reducerende geest” die voortdurend de vraag stelt “waar kijk ik naar
 
 Een iconische meubel zoals de _Zig-Zag Stoel_ van Rietveld doet dit vergelijkbaar. We zien waarschijnlijk dat het een stoel is. Maar waarom? Wanneer is dit niet langer het geval? Voor wie is dit geen herkenbare, of zelfs bruikbare stoel?
 
-![5 afbeeldingen in een horizontale rij. 1: een schilderij van een jong blank meisje, en profil in linkerrichting. Ze draagt een blauw met gele tulband, haar gezicht lichtjes naar de camera gedraaid. Ze draagt een kleine parel in haar linker-oor. 2: een cubistische weergave van een vrouw die een mandoline bespeelt. 3: een zwart vlak omlijnd door een wit vlak in de ratio 1:3. 4: Een grid met meerdere vierkanten in verscheidene groottes. 3 zijn gekleurd: rechtsboven (rood), rechtsonder (geel) en linksonder (blauw). De anderen zijn wit, en elk vierkant is gescheiden van het andere door een dikke zwarte lijn. 5: een houten stoel samengesteld uit 4 vierkante platen die aan elkaar bevestigd zijn zodat 1 platte de "voet" vormt, 1 platte het zitvlak, 1 staande de rugleuning, en 1 verbindt het zitvlak en voet.](https://fronteers.nl/_img/adventskalender/afbeelding-job-6.png)
+![5 afbeeldingen in een horizontale rij. 1: een schilderij van een jong blank meisje, en profil in linkerrichting. Ze draagt een blauw met gele tulband, haar gezicht lichtjes naar de camera gedraaid. Ze draagt een kleine parel in haar linker-oor. 2: een cubistische weergave van een vrouw die een mandoline bespeelt. 3: een zwart vlak omlijnd door een wit vlak in de ratio 1:3. 4: Een grid met meerdere vierkanten in verscheidene groottes. 3 zijn gekleurd: rechtsboven (rood), rechtsonder (geel) en linksonder (blauw). De anderen zijn wit, en elk vierkant is gescheiden van het andere door een dikke zwarte lijn. 5: een houten stoel samengesteld uit 4 vierkante platen die aan elkaar bevestigd zijn zodat 1 platte de "voet" vormt, 1 platte het zitvlak, 1 staande de rugleuning, en 1 verbindt het zitvlak en voet.](/_img/adventskalender/afbeelding-job-6.png)
 
 _Van links naar rechts: Meisje met de Parel, Johannes Vermeer; Girl with a Mandolin, Pablo Picasso; Black Square, Kazimir Malevich; Composition II in Red, Blue, and Yellow, Piet Mondriaan; Zig-Zag Stoel, Gerrit Rietveld._
 

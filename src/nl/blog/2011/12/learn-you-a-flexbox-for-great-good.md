@@ -152,7 +152,7 @@ Mja. Dat is lastig uitleggen. Laten we een plaatje tekenen:
 
 
 
-![Bij horizontaal geplaatste items is de main axis horizontaal.](https://fronteers.nl/_img/2011/12/axis.png)
+![Bij horizontaal geplaatste items is de main axis horizontaal.](/_img/2011/12/axis.png)
 
 Onthou main axis en cross axis; we komen er straks op terug.
 

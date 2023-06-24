@@ -19,7 +19,7 @@ Maar als je eenmaal een kleurenschema hebt gekozen, hoe vertaal je dit naar je w
 
 Kies allereerst een dominante kleur. Dit is vaak de kleur die voorkomt in het logo. Gebruik deze kleur voor zaken die de aandacht moeten trekken, zoals bijvoorbeeld koppen, buttons, menu’s. Daarnaast kies je één of twee accentkleuren om een kleurenschema te maken. Afhankelijk van de sfeer die je wilt gebruiken, kan dit een complementaire kleur, tint of schaduw zijn. Kies tot slot een rustige achtergrondkleur, maar vaak is wit een goede keuze.
 
-![Kleurenschema Fronteers](https://fronteers.nl/_img/adventskalender/mooi-rood/kleurenschema-fronteers.jpg)
+![Kleurenschema Fronteers](/_img/adventskalender/mooi-rood/kleurenschema-fronteers.jpg)
 
 # 2. Laat je inspireren door goede bestaande voorbeelden (maar wees geen copycat!)
 
@@ -29,15 +29,15 @@ Ook belangrijk: zorg dat je niet te veel op een ander lijkt. Je wilt natuurlijk 
 
 Zo kwam ik laatst op de website van een zonweringsbedrijf, waarvan ik serieus dacht dat ze een onderdeel van Coolblue waren. Misschien heeft de ontwerper gedacht: wat voor Coolblue werkt, werkt vast ook voor ons. Maar uiteindelijk heeft het een averechts effect op het bouwen van een goed en sterk merk. Je wilt toch niet dat bezoekers aan een ander bedrijf denken als ze jouw website bezoeken?
 
-![Website zonwering](https://fronteers.nl/_img/adventskalender/mooi-rood/zonwering-website.jpg)
+![Website zonwering](/_img/adventskalender/mooi-rood/zonwering-website.jpg)
 
 Als we kijken naar de website van Amnesty International, dan is daar duidelijk gekozen om de kleur van het logo als accentkleur te gebruiken. Voor de rest is er een rustig schema gekozen met grijstinten.
 
-![Kleurenschema Amnesty](https://fronteers.nl/_img/adventskalender/mooi-rood/kleurenschema-amnesty.jpg)
+![Kleurenschema Amnesty](/_img/adventskalender/mooi-rood/kleurenschema-amnesty.jpg)
 
 De ANWB heeft ook gekozen voor het gebruik van de logokleuren op de website, maar dan voornamelijk het blauw als accentkleur en ook veel (te veel als je het mij vraagt) tinten blauw ter ondersteuning.
 
-![Kleurenschema ANWB](https://fronteers.nl/_img/adventskalender/mooi-rood/kleurenschema-anwb.jpg)
+![Kleurenschema ANWB](/_img/adventskalender/mooi-rood/kleurenschema-anwb.jpg)
 
 # 3. Gebruik Pinterest voor het maken van moodboards
 
@@ -45,13 +45,13 @@ Het is goed om na te denken over het gevoel dat je op wilt roepen met je website
 
 Met Tineye kun je vervolgens de [kleuren uit een of meerdere foto’s halen](https://labs.tineye.com/color/) en deze toepassen in je website.
 
-![Kleurextractie van een foto](https://fronteers.nl/_img/adventskalender/mooi-rood/tineye-kleurextractie-van-een-foto.jpg)
+![Kleurextractie van een foto](/_img/adventskalender/mooi-rood/tineye-kleurextractie-van-een-foto.jpg)
 
 # 4. Maak gebruik van kleurassociaties
 
 Kleuren hebben betekenis. Afhankelijk van je doelgroep, wil je bepaalde kleuren misschien juist wel of juist niet gebruiken. Zo zal een website of app voor een natuurorganisatie zoals Natuurmonumenten gebruikmaken van groentinten. In ons hoofd is dat een logische keuze. Vraag een kind maar eens een boom te tekenen. Negen van de tien keer wordt dat dan een bruine stam met daarboven een groene wolk. Die enkele kunstzinnige expressionist-in-de-dop daar gelaten. Opvallend bij deze website is overigens wel dat de kleur van het logo niet meteen terugkomt in het kleurgebruik op de site.
 
-![Kleurenschema Natuurmonumenten](https://fronteers.nl/_img/adventskalender/mooi-rood/kleurenschema-natuurmonumenten.jpg)
+![Kleurenschema Natuurmonumenten](/_img/adventskalender/mooi-rood/kleurenschema-natuurmonumenten.jpg)
 
 # 5. Bekijk je kleurkeuze in een breder verband
 

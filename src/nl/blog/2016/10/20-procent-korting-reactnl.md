@@ -18,7 +18,7 @@ Het volledige programma vind je [op de ReactNL website](http://reactnl.org/#prog
 * [elm](http://elm-lang.org/)
 * [Reason](https://facebook.github.io/reason/)
 
-![](https://fronteers.nl/_img/blog/2016/photo00138.jpg)
+![](/_img/blog/2016/photo00138.jpg)
 
 ## React Training - Full Access
 

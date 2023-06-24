@@ -28,7 +28,7 @@ Dat móet wel een topbijeenkomst worden waar het enthousiasme over Mobile Device
 
 # Fun met JavaScript en sensoren - Jan Jongboom ([slides](http://www.slideshare.net/janjongboom/dahoam-2015-abusing-phones-to-make-the-internet-of-things))
 
-![](https://fronteers.nl/_img/bijeenkomsten/vicompany/fronteers-janjongboom-03062015.jpg)
+![](/_img/bijeenkomsten/vicompany/fronteers-janjongboom-03062015.jpg)
 
 Als webdevelopers beschouwen we mobiele telefoons nog vaak als kleine PCs. We werken met responsive design en zijn vooral bezig om de knopjes er iets mooier uit te laten zien. Maar waarom?! We kunnen zoveel meer doen! Dat kleine apparaatje in je zak heeft een groot aantal sensoren in zich, en kan reageren op dingen die in real-life gebeuren. Het is tijd om *dat* te gaan gebruiken!
 
@@ -38,7 +38,7 @@ In een met demo's gevulde talk gooit Jan Jongboom telefoons in de lucht, maakt h
 
 # Vreemde browsers - Niels Leenheer ([slides](https://speakerdeck.com/nielsleenheer/vreemde-browsers))
 
-![](https://fronteers.nl/_img/bijeenkomsten/vicompany/fronteers-nielsleenheer-03062015.jpg)
+![](/_img/bijeenkomsten/vicompany/fronteers-nielsleenheer-03062015.jpg)
 
 Niet iedereen gebruikt een iPhone of Samsung Galaxy en er zijn meer browsers dan Internet Explorer, Chrome, Firefox en Safari en de Android browser. Een overzicht van vreemde browsers en rare devices en veronderstellingen waar front-end ontwikkelaars van uit gaan die misschien wel niet kloppen.
 

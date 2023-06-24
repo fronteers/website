@@ -11,7 +11,7 @@ Op 15 en 16 september 2016 organiseert From the Front, een Fronteers-achtige org
 
 Over het programma is op het moment van schrijven nog weinig bekend, maar ter inspiratie is het misschien interessant om te kijken naar wat ze in [2012](http://2012.fromthefront.it), [2013](http://2013.fromthefront.it), [2014](http://2014.fromthefront.it) en [2015](http://2015.fromthefront.it) te bieden hadden.
 
-![Theaterzaal](https://fronteers.nl/_img/blog/2016/duso.jpg)
+![Theaterzaal](/_img/blog/2016/duso.jpg)
 
 _Teatro Duse in Bologna. Foto: From the Front_
 

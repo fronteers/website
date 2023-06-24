@@ -30,17 +30,17 @@ Voorkom grote verrassingen. Hou vanaf het begin van elk webproject rekening met 
 
 # Foto's ([PeterPeerdeman.nl](http://peterpeerdeman.nl/))
 
-![](https://fronteers.nl/_img/bijeenkomsten/blendle/2014-fronteers-blendle-1.jpg)
+![](/_img/bijeenkomsten/blendle/2014-fronteers-blendle-1.jpg)
 
-![](https://fronteers.nl/_img/bijeenkomsten/blendle/2014-fronteers-blendle-2.jpg)
+![](/_img/bijeenkomsten/blendle/2014-fronteers-blendle-2.jpg)
 
-![](https://fronteers.nl/_img/bijeenkomsten/blendle/2014-fronteers-blendle-3.jpg)
+![](/_img/bijeenkomsten/blendle/2014-fronteers-blendle-3.jpg)
 
-![](https://fronteers.nl/_img/bijeenkomsten/blendle/2014-fronteers-blendle-4.jpg)
+![](/_img/bijeenkomsten/blendle/2014-fronteers-blendle-4.jpg)
 
-![](https://fronteers.nl/_img/bijeenkomsten/blendle/2014-fronteers-blendle-5.jpg)
+![](/_img/bijeenkomsten/blendle/2014-fronteers-blendle-5.jpg)
 
-![](https://fronteers.nl/_img/bijeenkomsten/blendle/2014-fronteers-blendle-6.jpg)
+![](/_img/bijeenkomsten/blendle/2014-fronteers-blendle-6.jpg)
 
 # Bereikbaarheid
 

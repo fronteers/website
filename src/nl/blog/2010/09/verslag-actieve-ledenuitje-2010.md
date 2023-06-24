@@ -13,7 +13,7 @@ Onderweg zagen we onder andere het Muizenfort, en we voeren langs het eiland Pam
 
 We hadden uitstekend weer. Er stond genoeg wind uit het zuidoosten, en de zon zorgde ervoor dat we in een t-shirt konden genieten van de oer-Nederlandse wateren. We sloten de dag af met een barbecue.
 
-![Enkele leden hard aan het werk om de zeilen te heisen.](https://fronteers.nl/_img/2010/09/actieve-leden-uitje.jpg)
+![Enkele leden hard aan het werk om de zeilen te heisen.](/_img/2010/09/actieve-leden-uitje.jpg)
 
 Onder andere [Edwin Martin](http://picasaweb.google.nl/100182639623410231517/FronteersVrijwilligersdag2010), [Tom Greuter](http://www.flickr.com/photos/tomgreuter/tags/fronteerszeilen2010/) en [ondergetekende](http://www.flickr.com/photos/arjaneising/sets/72157624981868442/) hebben foto's gemaakt. Bovenstaande foto is gemaakt door Edwin Martin.
 

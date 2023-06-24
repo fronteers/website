@@ -39,7 +39,7 @@ Zou het niet handig zijn om een tooltje te hebben die je code automatisch naar d
 
 Standaard codestijl? Wat is dat? In veel editors met een eigen codeopmaker kan je heel precies aangeven wat jouw favoriete stijl is. Wil je spaties binnen de haakjes van een if? Wil je een spatie voor de accolade van een while?
 
-![Stijlinstellingen](https://fronteers.nl/_img/adventskalender/stijlinstellingen.png)
+![Stijlinstellingen](/_img/adventskalender/stijlinstellingen.png)
 
 Prettier doet het omgekeerde: het gaat uit van één codestijl, waar ze goed over hebben nagedacht en die voor iedereen geldt.
 
