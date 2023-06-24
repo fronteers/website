@@ -1,6 +1,8 @@
 ---
 title: Word lid  
 key: join-us
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 --- 
 Allereerst ondersteun je door lid te worden natuurlijk front-end web development zelf als discipline. Het voornaamste doel van Fronteers is de professionalisering van onze beroepsgroep. Door lid te worden en je stem te laten horen zet je de front-end op de kaart. Met name onze vacaturebank laat zien dat dit werkt.
 
