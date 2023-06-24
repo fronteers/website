@@ -9,17 +9,20 @@
             {%- include partials/homepage/upcoming-activities headerlvl:"h2" partialTitle:translations[locale].blockTitles.upcomingActivities -%}
         {%- endif -%}
 
-        {%- include partials/homepage/banner-conference headerlvl:"h2" type:"parentheses" partialTitle:translations[locale].blockTitles.conferenceBanner link:"https://en.wikipedia.org/wiki/" image:"assets/images/fronteers-conference.jpg" -%}
+        {%- include partials/homepage/banner-conference headerlvl:"h2" type:"parentheses" partialTitle:translations[locale].blockTitles.conferenceBanner link:"https://vimeo.com/fronteers" image:"/assets/images/fronteers-conference.jpg" -%}
+
         <!--{%- include partials/homepage/banner-conference headerlvl:"h2" type:"greater" partialTitle:translations[locale].blockTitles.conferenceBanner link:"https://en.wikipedia.org/wiki/" image:"assets/images/fronteers-conference.jpg" -%} -->
         <!--{%- include partials/homepage/banner-conference headerlvl:"h2" type:"curly" partialTitle:translations[locale].blockTitles.conferenceBanner link:"https://en.wikipedia.org/wiki/" image:"assets/images/fronteers-conference.jpg" -%} -->
         <!--{%- include partials/homepage/banner-conference headerlvl:"h2" type:"none" partialTitle:translations[locale].blockTitles.conferenceBanner link:"https://en.wikipedia.org/wiki/" image:"assets/images/fronteers-conference.jpg" -%} -->
 
-        <section class="inner-wrapper">
-        {%- banner "parentheses" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%}
-        <!--{%- banner "greater" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%} -->
-        <!--{%- banner "curly" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%} -->
-        <!--{%- banner "none" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%} -->
-        </section>
+        {% comment %}
+            <section class="inner-wrapper">
+            {%- banner "parentheses" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%}
+            <!--{%- banner "greater" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%} -->
+            <!--{%- banner "curly" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%} -->
+            <!--{%- banner "none" "Banner with short code!" "https://github.com/" "https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%} -->
+            </section>
+        {% endcomment %}
 
         {%- if blogs.length != 0 -%}
             {%- include partials/homepage/latest-blogs headerlvl:"h2" partialTitle:translations[locale].blockTitles.latestBlogs -%}
@@ -27,9 +30,10 @@
 
         <!-- {%- include partials/homepage/member-special headerlvl:"h2" partialTitle:translations[locale].blockTitles.membersSpecial -%} -->
 
-        {%- if members.length > 0 -%}
+        {%- if members.length > 10 -%}
             {%- include partials/homepage/proud-members headerlvl:"h2" partialTitle:translations[locale].blockTitles.proudMembers -%}
         {%- endif -%}
+
 
         {%- include partials/homepage/banner-join-us headerlvl:"h2" partialTitle:translations[locale].blockTitles.joinUs partialContent:translations[locale].blockTitles.joinUsDescription -%}
 
