@@ -19,7 +19,7 @@ module.exports = {
                     },
                     {
                         title: "Leden",
-                        url: "/nl/vereniging/leden/"
+                        url: "/nl/leden/"
                     },                    
                     {
                         title: "Vrijwilliger worden",
@@ -159,7 +159,7 @@ module.exports = {
                     },
                     {
                         title: "Members",
-                        url: "/en/organisation/members/"
+                        url: "/en/members/"
                     },     
                     {
                         title: "Membership meeting",
