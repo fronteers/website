@@ -2,8 +2,8 @@ module.exports = {
   en: {
     baseUrl: "https://www.fronteers.nl/en",
     siteName: "Fronteers",
-    headTitle: "Fronteers — vakvereniging for front-end developers",
-    metaTitle: "Fronteers — vakvereniging for front-end developers",
+    headTitle: "Fronteers — professional association for front-end developers",
+    metaTitle: "Fronteers — professional association for front-end developers",
     metaDescription:
       "Fronteers is the non-profit professional association of Dutch-speaking front-end developers.",
     ariaTitleTranslateNav: "Translations",
