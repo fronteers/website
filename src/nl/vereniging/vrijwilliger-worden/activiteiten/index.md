@@ -1,5 +1,6 @@
 ---
 title: Vacature commissie Activiteiten
+heroSlogan: ""
 ---
 We zouden graag als Fronteers met enige regelmaat in Nederland kwalitatief goede bijeenkomsten en activiteiten organiseren, waar front-enders elkaar kunnen ontmoeten en van elkaar kunnen leren. Op dit moment hebben we niet de capaciteit om veel te organiseren. Daarom zijn we op zoek naar enthousiaste vrijwilligers voor de commissie Activiteiten!
 
