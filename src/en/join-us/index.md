@@ -1,6 +1,8 @@
 ---
 title: Become a member
 key: join-us
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 ---
 First of all, by becoming a member you naturally support front-end web development itself as a discipline. The main goal of Fronteers is the professionalization of our profession. By becoming a member and making your voice heard, you put the front-end on the map. Our vacancy database in particular shows that this works.
 
