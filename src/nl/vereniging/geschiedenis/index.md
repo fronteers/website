@@ -1,7 +1,6 @@
 ---
 key: history
 title: Geschiedenis van de vereniging
-# if there's a subtitle, put it in heroSlogan:
 heroSlogan: ""
 ---
 Fronteers is in oktober 2007 opgericht. In de maanden daarvoor werd duidelijk dat een vereniging als deze bestaansrecht zou hebben.
