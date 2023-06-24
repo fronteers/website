@@ -8,7 +8,7 @@ categories:
 ---
 Op donderdag 14 september 2017 is Fronteers te gast bij [ezCompany](https://www.ezcompany.nl) in Tilburg. We hebben die avond twee interessante talks, verzorgd door twee _"dino’s van het internet"_, *Wilfred Nas* en *Frank Schaap*. De bijeenkomst is gratis voor leden en niet-leden, en ezCompany zorgt voor pizza en drankjes!
 
-![](https://fronteers.nl/_img/bijeenkomsten/ezcompany/dinos-full.jpg)
+![](/_img/bijeenkomsten/ezcompany/dinos-full.jpg)
 
 # Programma
 
@@ -23,7 +23,7 @@ Op donderdag 14 september 2017 is Fronteers te gast bij [ezCompany](https://www.
 
 ```
 
-![Foto Wilfred Nas](https://fronteers.nl/_img/bijeenkomsten/ezcompany/wilfrednas.jpg)
+![Foto Wilfred Nas](/_img/bijeenkomsten/ezcompany/wilfrednas.jpg)
 
 ## Talk 1: 22 jaar internet, 22 veelgemaakte fouten
 en misschien ook wat oplossingen
@@ -41,13 +41,13 @@ Wilfred Nas ([@wnas](https://twitter.com/wnas)) is een freelance front-end devel
 ## Talk 2: Bouwersonderzoek: wat klanten
 van jou(w website) vinden!
 
-![Foto Frank Schaap](https://fronteers.nl/_img/bijeenkomsten/ezcompany/frankschaap.jpg)
+![Foto Frank Schaap](/_img/bijeenkomsten/ezcompany/frankschaap.jpg)
 
 De term ‘gebruikersonderzoek’ klopt eigenlijk niet. Je onderzoekt geen gebruikers, maar –  als het goed is – jouw website. Daarbij kom je ook veel te weten over jezelf en jouw blinde vlekken als bouwer. In deze presentatie (met veel voorbeelden!) gaat Frank Schaap in op zijn aanpak bij, kuch, ‘gebruikersonderzoek’, zijn bevindingen, do's & don'ts, en wat hij over zichzelf heeft geleerd.
 
 Frank Schaap ([@fschaap](https://twitter.com/fschaap)) is online strateeg bij ezCompany. Daarvoor werkte hij tien jaar bij de gemeente Vught, waar hij direct verantwoordelijk was voor de realisatie van de toptakensite van Vught. Hij is bovendien voorzitter van de Vereniging Drupal voor Gemeenten.
 
-![](https://fronteers.nl/_img/bijeenkomsten/ezcompany/faxx-gebouw-full.jpg)
+![](/_img/bijeenkomsten/ezcompany/faxx-gebouw-full.jpg)
 
 # Locatie
 

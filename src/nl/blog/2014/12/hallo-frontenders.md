@@ -13,7 +13,7 @@ Ik heb een verzoek aan jullie, namens de grafisch ontwerpers. Nou ja, ik heb het
 
 We hebben jullie hulp nodig. Jullie kunnen ons helpen om webontwerp beter te maken, om het naar het volgende niveau te tillen. Ik zal het zo uitleggen, maar kijk eerst eens naar dit plaatje:
 
-![Benz Motowagen](https://fronteers.nl/_img/blog/2014/benz-patent-motorwagen-nummer-1-02.jpg)
+![Benz Motowagen](/_img/blog/2014/benz-patent-motorwagen-nummer-1-02.jpg)
 
 Dit is de Benz Motorwagen. Hij werd ontworpen door Karl en Bertha Benz in 1886, en hij wordt door veel mensen beschouwd als de allereerste auto. Dat wil zeggen – er waren eerder ook al wel auto-achtige voertuigen, maar dat waren gewoon koetsen waarbij de bouwers het paard weghaalden en er een motor voor terugplaatsten.
 
@@ -23,13 +23,13 @@ Deze auto was de eerste die echt ontworpen is om gebruikt te worden met een moto
 
 In de jaren zestig van de twintigste eeuw noemde Marshall McLuhan dit het ‘_Horseless Carriage Syndrome_’ (het ‘paardloze koets-syndroom’): nieuwe technologieën beginnen altijd met het imiteren van wat er eerder was. Dat hoeft niet per se een probleem te zijn: mensen vinden het makkelijker om iets te begrijpen als het lijkt op iets dat ze kennen. Maar na verloop van tijd wordt het een beperking.
 
-![Een Apple Macintosh desktop uit begin jaren tachtig](https://fronteers.nl/_img/blog/2014/apple-macintosh-desktop.png)
+![Een Apple Macintosh desktop uit begin jaren tachtig](/_img/blog/2014/apple-macintosh-desktop.png)
 
 Kijk bijvoorbeeld eens naar de eerste GUI's (Graphical User Interfaces) van computers. De metafoor van het bureaublad was nuttig: het hielp mensen te begrijpen wat een PC allemaal kon. Op het bureaublad van de PC bevonden zich mappen met documenten erin, een rekenmachine, een prullenbak... Net zoals bij een echt bureau. Maar inmiddels kunnen computers heel veel dingen die niets te maken hebben met echte bureaus – en dan wordt de metafoor een last.
 
 Laten we nu eens naar webontwerp kijken. Toen ik begon als ontwerper, eind jaren negentig, was het heel hip om achtergronden met een structuurtje te gebruiken in websites. Je kent ze vast nog wel, een mooi gekreukeld papiertje, of een kek houtnerfje. Ik heb zelfs een ontwerp gevonden waar ze allebei inzitten!
 
-![Een screenshot van een prachtige jaren-negentig website](https://fronteers.nl/_img/blog/2014/david-hasselhoff-screenshot-van-een-prachtige-jaren-negentig-website.jpg)
+![Een screenshot van een prachtige jaren-negentig website](/_img/blog/2014/david-hasselhoff-screenshot-van-een-prachtige-jaren-negentig-website.jpg)
 
 Mooi, toch?
 
@@ -41,7 +41,7 @@ Zoals je vast wel weet, heet deze gewoonte om een website of een interface te la
 
 Ik denk dat goed ontwerp voortkomt uit een gedegen kennis van de materialen waar je mee werkt.  Lang is het zo geweest dat dit voor ontwerpers min of meer met de paplepel ingegoten werd. Voor de twintigste eeuw bestond ‘grafisch ontwerper’ niet eens als een apart beroep. De persoon die het werk maakte was tegelijkertijd de ontwerper.
 
-![Een foto van een Romeins theater met inscriptie](https://fronteers.nl/_img/blog/2014/inscription-theatre-leptis-magna-libya.jpg)
+![Een foto van een Romeins theater met inscriptie](/_img/blog/2014/inscription-theatre-leptis-magna-libya.jpg)
 
 In het Romeinse rijk, bijvoorbeeld, was degene die de inscripties maakte op een monument ook de ontwerper van de inscriptie. En na de uitvinding van de drukpers waren de mensen die de drukpersen bedienden ook de ontwerpers van de producten die ze drukten.
 
@@ -80,6 +80,6 @@ Denk eens na: je bent hier bij Fronteers om jezelf onder te dompelen in front-en
 Ik weet ook wel dat wat ik hier zeg niet nieuw is. Maar ik denk wel dat het vaker gezegd moet worden! Wij ontwerpers hebben jullie echt nodig, zelfs als we het onszelf niet altijd realiseren ;-)
 
 ### Over Maaike de Laat
-<!-- <img src="/archief/_img/blog/2014/maaikedelaat.png" alt="Foto van Maaike uit 2014" class="floating-portrait"> -->
+<img src="/_img/blog/2014/maaikedelaat.png" alt="Foto van Maaike uit 2014" class="floating-portrait" /> 
 
 Maaike is ontwerper bij [eend](http://eend.nl/).  [Volg haar op twitter](https://twitter.com/maaike).

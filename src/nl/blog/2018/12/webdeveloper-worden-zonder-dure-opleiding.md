@@ -103,7 +103,7 @@ Het lijstje hierboven is zeker niet volledig, en er zijn er nog veel meer te noe
 [Learn JavaScript Today - Zell Liew](https://learnjavascript.today/)
 
 ### Over Tim Oerlemans
-<!-- <img src="/archief/_img/adventskalender/tim-oerlemans.png" alt="Foto van Tim" class="floating-portrait"> -->
+<img src="/_img/adventskalender/tim-oerlemans.png" alt="Foto van Tim" class="floating-portrait" /> 
 28 jaar, 3 jaar ervaring en momenteel werkzaam als front-end webdeveloper bij TrueLime in Breda. Leergierig en wil constant nieuwe dingen leren.
 
 Donatie: NSGK

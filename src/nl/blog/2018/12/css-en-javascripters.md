@@ -66,7 +66,7 @@ Om CSS aan JavaScripters te leren, is het noodzakelijk te denken zoals JavaScrip
 En als alles perfect loopt, ligt het boek rond maart 2020 in de winkel.
 
 Over Peter-Paul Koch
-<img src="/archief/_img/adventskalender/ppk.jpg" alt="Foto van ppk" class="floating-portrait">
+<img src="/_img/adventskalender/ppk.jpg" alt="Foto van ppk" class="floating-portrait">
 Peter-Paul Koch is front-end consultant en congresorganisator te Amsterdam. Hij bestudeerde browsers op https://quirksmode.org, praat wat, schrijft wat, runt samen met Krijn Hoetmer [CSS Day](https://cssday.nl) en [performance.now()](https://perfnow.nl), richtte ooit tussen de bedrijven door Fronteers en het Fronteers-congres op, en zoekt nu naar nieuwe manieren om moderne front-enders te behoeden voor dezelfde fouten die tien of twintig jaar geleden zijn gemaakt.
 
 Donatie: Bits of Freedom

@@ -19,7 +19,7 @@ Maar als je eenmaal een kleurenschema hebt gekozen, hoe vertaal je dit naar je w
 
 Kies allereerst een dominante kleur. Dit is vaak de kleur die voorkomt in het logo. Gebruik deze kleur voor zaken die de aandacht moeten trekken, zoals bijvoorbeeld koppen, buttons, menu’s. Daarnaast kies je één of twee accentkleuren om een kleurenschema te maken. Afhankelijk van de sfeer die je wilt gebruiken, kan dit een complementaire kleur, tint of schaduw zijn. Kies tot slot een rustige achtergrondkleur, maar vaak is wit een goede keuze.
 
-![Kleurenschema Fronteers](https://fronteers.nl/_img/adventskalender/mooi-rood/kleurenschema-fronteers.jpg)
+![Kleurenschema Fronteers](/_img/adventskalender/mooi-rood/kleurenschema-fronteers.jpg)
 
 # 2. Laat je inspireren door goede bestaande voorbeelden (maar wees geen copycat!)
 
@@ -29,15 +29,15 @@ Ook belangrijk: zorg dat je niet te veel op een ander lijkt. Je wilt natuurlijk 
 
 Zo kwam ik laatst op de website van een zonweringsbedrijf, waarvan ik serieus dacht dat ze een onderdeel van Coolblue waren. Misschien heeft de ontwerper gedacht: wat voor Coolblue werkt, werkt vast ook voor ons. Maar uiteindelijk heeft het een averechts effect op het bouwen van een goed en sterk merk. Je wilt toch niet dat bezoekers aan een ander bedrijf denken als ze jouw website bezoeken?
 
-![Website zonwering](https://fronteers.nl/_img/adventskalender/mooi-rood/zonwering-website.jpg)
+![Website zonwering](/_img/adventskalender/mooi-rood/zonwering-website.jpg)
 
 Als we kijken naar de website van Amnesty International, dan is daar duidelijk gekozen om de kleur van het logo als accentkleur te gebruiken. Voor de rest is er een rustig schema gekozen met grijstinten.
 
-![Kleurenschema Amnesty](https://fronteers.nl/_img/adventskalender/mooi-rood/kleurenschema-amnesty.jpg)
+![Kleurenschema Amnesty](/_img/adventskalender/mooi-rood/kleurenschema-amnesty.jpg)
 
 De ANWB heeft ook gekozen voor het gebruik van de logokleuren op de website, maar dan voornamelijk het blauw als accentkleur en ook veel (te veel als je het mij vraagt) tinten blauw ter ondersteuning.
 
-![Kleurenschema ANWB](https://fronteers.nl/_img/adventskalender/mooi-rood/kleurenschema-anwb.jpg)
+![Kleurenschema ANWB](/_img/adventskalender/mooi-rood/kleurenschema-anwb.jpg)
 
 # 3. Gebruik Pinterest voor het maken van moodboards
 
@@ -45,13 +45,13 @@ Het is goed om na te denken over het gevoel dat je op wilt roepen met je website
 
 Met Tineye kun je vervolgens de [kleuren uit een of meerdere foto’s halen](https://labs.tineye.com/color/) en deze toepassen in je website.
 
-![Kleurextractie van een foto](https://fronteers.nl/_img/adventskalender/mooi-rood/tineye-kleurextractie-van-een-foto.jpg)
+![Kleurextractie van een foto](/_img/adventskalender/mooi-rood/tineye-kleurextractie-van-een-foto.jpg)
 
 # 4. Maak gebruik van kleurassociaties
 
 Kleuren hebben betekenis. Afhankelijk van je doelgroep, wil je bepaalde kleuren misschien juist wel of juist niet gebruiken. Zo zal een website of app voor een natuurorganisatie zoals Natuurmonumenten gebruikmaken van groentinten. In ons hoofd is dat een logische keuze. Vraag een kind maar eens een boom te tekenen. Negen van de tien keer wordt dat dan een bruine stam met daarboven een groene wolk. Die enkele kunstzinnige expressionist-in-de-dop daar gelaten. Opvallend bij deze website is overigens wel dat de kleur van het logo niet meteen terugkomt in het kleurgebruik op de site.
 
-![Kleurenschema Natuurmonumenten](https://fronteers.nl/_img/adventskalender/mooi-rood/kleurenschema-natuurmonumenten.jpg)
+![Kleurenschema Natuurmonumenten](/_img/adventskalender/mooi-rood/kleurenschema-natuurmonumenten.jpg)
 
 # 5. Bekijk je kleurkeuze in een breder verband
 
@@ -92,7 +92,7 @@ Misschien is een deel van je doelgroep kleurenblind of slechtziend? Bij het kiez
 [Axe](https://www.deque.com/axe/) – kleurcontrast checker voor je browser developer toolbar.
 
 ### Over Monique Dubbelman
-<img src="/archief/_img/adventskalender/monique-dubbelman.jpg" alt="Foto van Monique" class="floating-portrait">
+<img src="/_img/adventskalender/monique-dubbelman.jpg" alt="Foto van Monique" class="floating-portrait">
 Monique Dubbelman is in de vorige eeuw opgeleid als grafica. Omdat dat inmiddels een fossiel beroep is, bouwt en ontwerpt ze sinds de jaren negentig websites, tegenwoordig vooral met WordPress. Eerst als hobby, vanaf 2011 als professional onder de naam BOE!media. In 2016 behaalde ze haar bachelor in Media, Informatie en Communicatie aan de Hogeschool van Amsterdam. Monique maakt zich druk over de inhoud, structuur en gebruiksvriendelijkheid van websites en vindt bovendien dat er een heldere strategie achter mag zitten. Naast UX designer noemt ze zich daarom ook digitaal of contentstrateeg. Op het internet is ze ook nog terug te vinden als wormenfluisteraar.
 Donatie
 Mijn donatie gaat naar Stichting No Guts No Glory. Deze stichting zamelt geld in voor behandelingen tegen kanker die nog niet vergoed worden door zorgverzekeraars. Niet door zielige verhalen te vertellen, maar door het leven te vieren met als motto: no guts no glory! Ze bieden financiële en morele steun aan kankerpatiënten en gebruiken (social) media om aandacht te vragen voor het probleem. Zij vinden namelijk dat geld geen reden mag zijn om iemand een kans op extra behandelingen te ontnemen (en ik ben het daar mee eens!).

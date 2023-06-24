@@ -6,7 +6,7 @@ author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Ben jij een gemotiveerde, creatieve WordPress developer die niets liever wil dan de allerbeste, snelste, mooiste maatwerk WordPress websites bouwen? Dan komen we graag met je in contact.
 ---
-![[Stuurlui](https://stuurlui.nl/)](https://fronteers.nl/_img/werkgevers/stuurlui.png)
+![[Stuurlui](https://stuurlui.nl/)](/_img/werkgevers/stuurlui.png)
 
 Ben jij een gemotiveerde, creatieve WordPress developer die niets liever wil dan de allerbeste, snelste, mooiste maatwerk WordPress websites bouwen? Dan komen we graag met je in contact.
 

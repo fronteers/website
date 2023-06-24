@@ -12,7 +12,7 @@ Sinds 2010 waren er maar liefsts 30 meetups bij 23 verschillende bedrijven in Be
 
 Op donderdag 22 juni 2017 vliegt Fronteers België er terug in met een eerste meetup bij [Kunstmaan](https://kunstmaan.be/) in Leuven. We hebben twee Engelstalige talks door *Ilias Van Peer* en *Sam Bellen*. De bijeenkomst is gratis voor leden en niet-leden, en we zorgen voor iets lekkers te eten!
 
-![](https://fronteers.nl/_img/bijeenkomsten/km-top.jpg)
+![](/_img/bijeenkomsten/km-top.jpg)
 
 # Programma
 
@@ -29,7 +29,7 @@ Op donderdag 22 juni 2017 vliegt Fronteers België er terug in met een eerste me
 
 ## Talk 1: Elm, a delightful language.
 
-![Ilias Van Peer](https://fronteers.nl/_img/bijeenkomsten/ilias-van-peer.png)
+![Ilias Van Peer](/_img/bijeenkomsten/ilias-van-peer.png)
 
 A programming language is more than just a language. Besides just the core language and its design, there are many more aspects that, together, define our perception of a programming language. In this talk, we’ll have a look at Elm, a purely functional language for the web. Examining the language design, the tooling, ecosystem and community, we’ll discover why Elm can rightfully describe itself as a delightful language for reliable web apps.
 
@@ -43,7 +43,7 @@ Ilias Van Peer ([@zwilias](https://github.com/zwilias)) is Front-End Developer b
 
 ## Talk 2: I didn't know the browser could do that!
 
-![Sam Bellen](https://fronteers.nl/_img/bijeenkomsten/sam-bellen.jpg)
+![Sam Bellen](/_img/bijeenkomsten/sam-bellen.jpg)
 
 The times when a browser simply had to parse and show some markup are long gone. These days they are full of interesting api’s exposing various information and behaviour to web developers. This talk will walk you through a few of these api’s, some of which you might know, some maybe not. I will show a quick example of what some of these api’s can do, and how to use them.
 
@@ -51,7 +51,7 @@ Sam Bellen  ([@sambego](https://github.com/sambego)) is Front-End Developer bij 
 
 {%- vimeo "232176042" -%}
 
-![Kunstmaan](https://fronteers.nl/_img/bijeenkomsten/km.jpg)
+![Kunstmaan](/_img/bijeenkomsten/km.jpg)
 
 # Locatie
 

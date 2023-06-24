@@ -11,7 +11,7 @@ In april presenteert de workshopcommissie met trots een [nieuwe workshop over da
 
 Met de enorme hoeveelheid programma's waarmee je tegenwoordig data kan visualiseren, is het erg makkelijk om vast te komen in je grafiekkeuzes. Altijd maar weer gaan voor de staaf of lijn diagram, zonder echt na te denken over effectiviteit. Tijdens deze workshop zal Nadieh je leren hoe je een meer creatieve en praktische benadering kan nemen in het design van data visualisatie.
 
-![Nadieh Bremer voor het enorme projectiescherm van Tuschinski](https://fronteers.nl/_img/blog/2016/30196726946-a4d24b6fba-k-full.jpg)
+![Nadieh Bremer voor het enorme projectiescherm van Tuschinski](/_img/blog/2016/30196726946-a4d24b6fba-k-full.jpg)
 
 _Nadieh Bremer tijdens Fronteers 2016_
 

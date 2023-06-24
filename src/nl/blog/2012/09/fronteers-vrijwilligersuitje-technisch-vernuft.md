@@ -7,7 +7,7 @@ categories:
 ---
 Met de zeilen gestreken glijdt de De Hoge Wier door het water. De draaibrug wijkt. Fietsers en voetgangers staan stil en aanschouwen onze éémastklipper terwijl ze de Groote Zeesluis binnenloopt.
 
-![Klippers op het IJselmeer.](https://fronteers.nl/_img/blog/img-3526.jpg)
+![Klippers op het IJselmeer.](/_img/blog/img-3526.jpg)
 
 De haven van Muiden ligt achter ons. Voor ons lonkt de wijdsheid van het IJmeer. Aan lijnen wordt getrokken, katrollen doen hun werk, de zeilen worden gehesen en staan bol van de wind. We maken vaart. Dan gooit de schipper het roer om en haalt de grootschoot aan, de giek waait over en we zijn overstag gegaan.
 
@@ -17,7 +17,7 @@ Achter me valt een zwaard in het water. Ik schrik op uit het gesprek en volg de 
 
 Voortgedreven door niets dan wind zijn werelden ontdekt. Daarbij vergeleken vallen de begrenzingen van browsers in het niets. Met technisch vernuft en vakmanschap is alles mogelijk. Laten we een voorbeeld nemen aan de Hollandse scheepsbouwers van weleer en de beperkingen van het web omzetten in elegante technische oplossingen.
 
-![Fronteers op het dek van De Hoge Wier.](https://fronteers.nl/_img/blog/7916225236-af246f3c61-o.jpg)
+![Fronteers op het dek van De Hoge Wier.](/_img/blog/7916225236-af246f3c61-o.jpg)
 
 # Foto’s van het zeilen
 

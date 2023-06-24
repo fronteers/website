@@ -23,7 +23,7 @@ Na het lezen van wat algemene verhalen over dit framework, werd ik al enthousias
 * _Goede documentatie._ De site bevat goede en uitgebreide documentatie met veel voorbeelden.
 * _Cypress heeft een GUI._ Tests zijn gemakkelijk te starten, volgen en stoppen in een duidelijke Graphical User Interface.
 
-![De Cypress GUI a.k.a. test runner](https://fronteers.nl/_img/adventskalender/cypress-io/image001.png)
+![De Cypress GUI a.k.a. test runner](/_img/adventskalender/cypress-io/image001.png)
 
 *Kortom: er zijn een hoop mooie features die het gourmetten op kerstavond een stuk aangenamer maken.*
 
@@ -63,7 +63,7 @@ $ npm run cypress:open
 
 Na het openen van Cypress verschijnt de test runner. Hierin krijg je een overzicht van alle test-bestanden die er in je project zitten. Deze kunnen los van elkaar gestart worden, maar je kunt er ook voor kiezen om alle tests achter elkaar te draaien.
 
-![Cypress mappenindeling](https://fronteers.nl/_img/adventskalender/cypress-io/image003.png)
+![Cypress mappenindeling](/_img/adventskalender/cypress-io/image003.png)
 
 Bij het installeren en de eerste keer openen van Cypress is er al automatisch een map cypress aangemaakt in je project. Deze bevat zelf ook weer diverse mappen, met daarin voorbeeldbestanden. De testscripts kun je terugvinden en toevoegen in *integration*. Dit is de belangrijkste map voor nu.Tijd voor een nieuwe test!
 
@@ -95,7 +95,7 @@ In het script gaan we er van uit dat de te testen pagina op localhost draait. De
 
 Nu de test geschreven is, kan deze gestart worden in de test runner. Nu is het een kwestie van achterover leunen en hopen dat alle test-opdrachten succesvol kunnen worden afgerond.
 
-![De test runner in actie. Bron: cypress.io](https://fronteers.nl/_img/adventskalender/cypress-io/image005.png)
+![De test runner in actie. Bron: cypress.io](/_img/adventskalender/cypress-io/image005.png)
 
 De test wordt in een browser uitgevoerd en je kunt meteen iedere stap meekijken. Aan de linkerkant van je scherm worden meteen alle stappen / interacties op de pagina getoond. Via deze tijdlijn kun je terug gaan naar iedere stap in de test en de DOM op dat specifieke moment bekijken en… manipuleren via de Chrome dev tools. Dankzij deze tijdmachine kun je precies zien wanneer een bepaalde bug zich voordoet en deze meteen debuggen!
 
@@ -258,7 +258,7 @@ Natuurlijk is het niet alleen maar rozengeur en maneschijn. Zo kunnen tests alle
 Maar ondanks dat kan Cypress bij veel projecten een groot deel van de kopzorgen die je als developer kan hebben wegnemen. Het zorgt er in ieder geval voor dat ik komende kerstdagen met een gerust hart nog een stukje kip en champignon in mijn pannetje gooi…
 
 ### Pieter Beekman
-<!-- <img src="/archief/_img//adventskalender/pieter(1).jpg" alt="Foto van Pieter" class="floating-portrait"> -->
+<img src="/_img//adventskalender/pieter(1).jpg" alt="Foto van Pieter" class="floating-portrait" /> 
 
 Pieter is frontend developer bij Dekbed Discounter en werkt hier aan diverse platforms. Met de andere frontenders probeert hij iedere dag (nog) betere conversies te behalen door het toepassen van betere, snellere en mooiere code. Als zijn VS Code even uitstaat speelt hij het liefste boardgames.
 Pieters donatie gaat naar KiKa.

@@ -6,7 +6,7 @@ location:
 categories: 
     - meetup
 ---
-![](https://fronteers.nl/_img/bijeenkomsten/logo.jpeg)
+![](/_img/bijeenkomsten/logo.jpeg)
 
 Op donderdag *25 januari 2018* zijn we er terug met een nieuwe meetup. We starten het nieuwe jaar meteen goed met maar liefst drie interessante talks. We zullen te gast zijn bij de sympathieke mensen van *District01 in Kontich*. De talks worden gegeven door Fabian Meul, Kevin Decock en Enzo Eghermanne.
 

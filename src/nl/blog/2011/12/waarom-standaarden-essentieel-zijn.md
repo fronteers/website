@@ -44,7 +44,7 @@ Toch is er nog heel veel werk. We moeten het internet herbedenken, en niet enkel
 Nu Flash eindelijk ten dode opgeschreven is en IE6 zijn laatste adem uitblaast kunnen we door standaarden te gebruiken het internet nog dichter bij de echte wereld brengen.
 
 ### Over Andreas Creten
-<!-- <img src="/archief/_img/2011/12/andreas-creten.jpg" alt="Foto van andreas creten uit 2011" class="floating-portrait"> -->
+<img src="/_img/2011/12/andreas-creten.jpg" alt="Foto van andreas creten uit 2011" class="floating-portrait" /> 
 [Andreas](https://twitter.com/andreascreten) is de zaakvoerder van [madewithlove](http://madewithlove.be). Met een klein team ontwikkelen ze webapplicaties en verlenen ze technisch advies aan bedrijven en startups. Andreas heeft een bachelor in informatica en studeert een master in management. In zijn vrije tijd reist hij, al dan niet op skies, en geniet hij van [elektronische muziek](http://muff.be).
 
 Donatie: PROTOS

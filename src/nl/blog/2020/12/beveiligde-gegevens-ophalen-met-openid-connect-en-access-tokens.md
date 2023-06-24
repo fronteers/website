@@ -57,7 +57,7 @@ Door de combinatie van de handtekening en deze claims kunnen de frontend en dive
 
 Hoe kom je aan een JWT? Hiervoor zijn standaarden ontwikkeld. Een daarvan is [OpenID Connect](https://openid.net/) (OIDC). OpenID Connect is een laag bovenop [OAuth 2.0](https://oauth.net/). Waar OAuth alleen de authorisatie regelt (wat mag je), regelt OIDC ook de authenticatie (wie ben je). In het vervolg behandel ik ze als één standaard waarbij ik de termen van OpenID Connect gebruik.
 
-![Schematische weergave van gegevens ophalen met OpenID Connect](https://fronteers.nl/_img/adventskalender/2020/oidc-schema-4.svg)
+![Schematische weergave van gegevens ophalen met OpenID Connect](/_img/adventskalender/2020/oidc-schema-4.svg)
 
 Jouw webapplicatie (een Relying Party, RP, genoemd in OpenID Connect) doet een authenticatieverzoek bij de OpenID Provider (OP, de server). Ik zou je aanraden hiervoor een bestaande library te gebruiken. De OpenID Foundation heeft een aantal [libraries gecertificeerd](https://openid.net/certification/#RPs), wat betekent dat ze aan de specificaties voldoen voor een RP implementatie.
 

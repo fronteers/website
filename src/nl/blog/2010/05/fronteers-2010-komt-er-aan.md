@@ -25,7 +25,7 @@ Wij geloven dat we jullie tijdens het congres van dit jaar het beste op het gebi
 
 Eind juni zal de early-bird aflopen. Tot die tijd blijven [de prijzen](/congres/2010/tickets) gelijk. Hoe de prijzen na juni gaan veranderen, is nog niet bekend. Zeker is dat de prijzen na juni omhoog gaan. Wees er dus snel bij, want de kaarten [gaan hard](/congres/2010/attendees). Op 28 april hebben alle leden een mailtje met een kortingscode gekregen. Heb je deze niet ontvangen? Neem dan even [contact met ons op](/congres/2010/contact).
 
-![](https://fronteers.nl/_img/congres/2009/attendees-2.jpg)
+![](/_img/congres/2009/attendees-2.jpg)
 
 # Help ons
 

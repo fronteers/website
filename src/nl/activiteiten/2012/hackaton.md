@@ -62,7 +62,7 @@ Fronteers bedankt [Nomadz](http://nomadz.nl/) voor de ruimte, en [Frontlab](http
 
 # Borrel gesponsord door:
 
-![[Frontlab](http://frontlab.nl/)](https://fronteers.nl/_img/sponsoren/frontlab-hackaton-logo.png)
+![[Frontlab](http://frontlab.nl/)](/_img/sponsoren/frontlab-hackaton-logo.png)
 
 
 

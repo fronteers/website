@@ -7,7 +7,7 @@ backgroundcolor: skyblue
 summary:
 ---
 
-![[Reversed Digital](https://reverseddigital.com/)](https://fronteers.nl/_img/werkgevers/reversed-digital.png)
+![[Reversed Digital](https://reverseddigital.com/)](/_img/werkgevers/reversed-digital.png)
 
 # Even voorstellen
 

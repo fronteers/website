@@ -170,7 +170,7 @@ Er zijn veel manieren om front-end web developer te worden. Je kan het jezelf aa
 Wat je ook kiest, basiskennis van HTML, CSS en JavaScript is voldoende om aan de slag te gaan. De rest volgt vanzelf.
 
 ### Over Tim Severien
-<img src="/archief/_img/adventskalender/tim-severien.png" alt="Foto van Tim" class="floating-portrait">
+<img src="/_img/adventskalender/tim-severien.png" alt="Foto van Tim" class="floating-portrait">
 Tim Severien is een front-end developer uit Nederland. Naast zijn werk blogt hij wel eens op [timseverien.com](https://timseverien.com/) en uit hij zijn creativiteit op [codepen.io/timseverien](https://codepen.io/timseverien).
 
 Donatie: WNF

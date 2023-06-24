@@ -15,7 +15,7 @@ De eerste week zijn er al veel leuke gesprekken gevoerd over leuke onderwerpen, 
 
 [Het IRC-kanaal](/nl/blog/2008/03/fronteers-op-irc) blijft natuurlijk gewoon open.
 
-![](https://fronteers.nl/_img/blog/2016/fronteersopslack.jpg)
+![](/_img/blog/2016/fronteersopslack.jpg)
 
 # Aanmelden
 

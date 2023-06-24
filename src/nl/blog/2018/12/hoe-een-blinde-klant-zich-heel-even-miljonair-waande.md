@@ -11,7 +11,7 @@ Front-endontwikkelaars die hun werk testen met een screenreader — dat is een p
 
 Is dat nou echt nodig? Of maakt het je webinhoud juist minder toegankelijk? Dat onderzoek ik voor je in dit artikel.
 
-![Collage: stapel eurobiljetten en icoon van een luidspreker](https://fronteers.nl/_img/adventskalender/euros-full.jpg)
+![Collage: stapel eurobiljetten en icoon van een luidspreker](/_img/adventskalender/euros-full.jpg)
 
 
 
@@ -166,7 +166,7 @@ Dat neemt niet weg dat het altijd de moeite loont om je website te testen met ee
 En, oh ja: maak je niet al te druk over iedere synthetische _slip of the tongue_, want dat doen jouw gebruikers ook niet.
 
 ### Over Roel van Gils
-<!-- <img src="/archief/_img/adventskalender/roel.jpg" alt="Foto van Roel van Gils" class="floating-portrait"> -->
+<img src="/_img/adventskalender/roel.jpg" alt="Foto van Roel van Gils" class="floating-portrait" /> 
 Roel noemt zichzelf een Digital Accessibility Nerd. Met zijn bedrijf Eleven Ways (gevestigd in Gent) helpt hij overheden en bedrijven die hun websites en apps voor zoveel mogelijk mensen toegankelijk willen maken. Roel steekt ook wel eens een handje toe bij het organiseren van Fronteers-bijeenkomsten in Vlaanderen. Hij twittert als [@roelvangils](https://twitter.com/roelvangils).
 
 Donatie: Belgisch Centrum voor Geleidehonden

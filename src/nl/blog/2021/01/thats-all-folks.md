@@ -9,7 +9,7 @@ CSS is opgebouwd uit allemaal rechthoeken. Rechthoeken kunnen boven of onder and
 
 Maar als je wilt dat een rechthoek aan één zijde wel buiten de omringende rechthoek zichtbaar is, maar niet aan de andere kant, dan kan dat niet. Toch?
 
-![Drie vierkanten waarbij bij de eerste een binnenste element er uit komt met de tekst "Dit kan" er onder. Bij de tweede blijft het binnenste element binnen de zichtbare rand, hier staat "Dit kan ook" onder. Bij de derde komt het binnenste element aan de bovenkant er uit, maar aan de onderkant niet. Hier onder staat "Dit kan ...niet".](https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/selection-633.png)
+![Drie vierkanten waarbij bij de eerste een binnenste element er uit komt met de tekst "Dit kan" er onder. Bij de tweede blijft het binnenste element binnen de zichtbare rand, hier staat "Dit kan ook" onder. Bij de derde komt het binnenste element aan de bovenkant er uit, maar aan de onderkant niet. Hier onder staat "Dit kan ...niet".](/_img/adventskalender/2020/thats-all-folks/selection-633.png)
 
 Misschien gaan er bij jou nu wel allemaal radertjes draaien: wat nou als ik de binnenste rechthoek kopieer en de helft clip en dan er precies boven positioneer dan lijkt het net alsof... Maar in principe kan je er niet voor kiezen dat één element aan bijvoorbeeld de bovenkant uitsteekt, maar niet aan de onderkant. Of toch wel?
 
@@ -26,7 +26,7 @@ Toch zie je het niet veel gebruikt worden, en ook ik had er nog niet heel veel m
 
 De meest interessante 3D transform die ik tegen kwam was deze:
 
-![Drie vlakken die in 3d ruimte boven elkaar zweven.](https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/selection-630.png)
+![Drie vlakken die in 3d ruimte boven elkaar zweven.](/_img/adventskalender/2020/thats-all-folks/selection-630.png)
 
 Hoewel je drie vlakken ziet, is dit slechts éen div. De andere twee vlakken zijn de `::before` en `::after`, die door middel van de `translate()` CSS functie omhoog en omlaag zijn verplaatst, en zo boven elkaar liggen.
 
@@ -34,13 +34,13 @@ Wat me daar op viel was hoe het `::after` element, wat normaal gesproken over ee
 
 Hoewel ik daarvoor al veel andere transforms had gezien was dit de eerste die me echt deed beseffen dat ik elementen in 3D ruimte aan het positioneren was. En als dat kan, dan kunnen ze elkaar dus ook doorkruizen:
 
-![Twee vlakken die elkaar in 3D ruimte doorkruizen.](https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/selection-631.png)
+![Twee vlakken die elkaar in 3D ruimte doorkruizen.](/_img/adventskalender/2020/thats-all-folks/selection-631.png)
 
 Ik wist niet direct wat ik daar mee kon, maar niet veel later zag ik een plaatje van een tekenfilmfiguurtje wat uit een frame leek te komen: aan de onderkant zat het achter het frame, maar het gezicht aan de bovenkant kwam er uit. Zou ik dat met CSS kunnen namaken? En als extra uitdaging, met maar één element?
 
 Ik zat wat te pielen en al vrij snel had ik dit:
 
-![Een oranje vierkant dat door een blauwe rand steekt: aan de bovenkant zit het over de blauwe rand, maar aan de onderkant zit het achter de rand.](https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/selection-632.png)
+![Een oranje vierkant dat door een blauwe rand steekt: aan de bovenkant zit het over de blauwe rand, maar aan de onderkant zit het achter de rand.](/_img/adventskalender/2020/thats-all-folks/selection-632.png)
 
 In dit plaatje zie je één div met een `::before` en een `::after`. De div zelf is transparant, de `::before` heeft een border en de `::after` is op de X-as geroteerd. Doordat de div `perspective` heeft wordt alles in 3d gepositioneerd, en daarmee ligt het `::after` element aan de bovenkant _voor_ de border, en aan de onderkant _achter_ de border.
 
@@ -85,7 +85,7 @@ Je kan dit vergelijken met perspectieftekenen. Als je twee horizonspunten dicht 
 
 De rechthoekjes zijn leuk, maar wat ik eigelijk wilde maken was dit:
 
-![Een filmcel van Porky Pig die uit een cirkel lijkt te komen met de tekst "That's all folks".](https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg)
+![Een filmcel van Porky Pig die uit een cirkel lijkt te komen met de tekst "That's all folks".](/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg)
 
 Het klassieke einde van de looney tunes cartoons, waarbij porky pig uit een cirkel tevoorschijn komt en "that's all folks" stottert. Een mooi uitgeknipte versie van Porky Pig in dit plaatje kon ik niet vinden, maar de [wikipedia pagina](https://en.wikipedia.org/wiki/Porky_Pig) heeft een ander mooi uitgeknipt plaatje, dus die gebruiken we.
 
@@ -128,7 +128,7 @@ box-shadow: 0 0 20px   0px #fff, 0 0 0  30px #CF331F,
 
 We maken hier vijf cirkels van steeds 30 pixels breed. Iedere cirkel heeft een vlakke rode achtergrond en daarboven maken we met behulp van een witte schaduw met een blur radius van 20 pixels het kleurverloop-effect.
 
-![De achtergrond en de cirkels in pure CSS, nog zonder Porky.](https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/selection-629.png)
+![De achtergrond en de cirkels in pure CSS, nog zonder Porky.](/_img/adventskalender/2020/thats-all-folks/selection-629.png)
 
 Als laatste hebben we Porky, laten we beginnen met die op de plek neer te zetten waar we hem uiteindelijk willen hebben, maar voor nu nog vóór de cirkels.
 
@@ -145,7 +145,7 @@ div::after {
 }
 ```
 
-![Porky Pig is boven op de cirkels gepositioneerd.](https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/selection-628.png)
+![Porky Pig is boven op de cirkels gepositioneerd.](/_img/adventskalender/2020/thats-all-folks/selection-628.png)
 
 De afmetingen en positionering hier is een beetje willekeurig, ik heb gekeken wat voor het plaatje mooi uitkwam.
 
@@ -173,7 +173,7 @@ transform: rotateX(-10deg);
 
 Maar als we dat doen, zien we dat het er niet helemaal goed uit ziet, Porky zit nu namelijk deels verstopt achter de blauwe achtergrond, en bij de cirkels gaat er ook iets mis.
 
-![Porky Pig wordt deels afgekapt door de achtergrond en door de cirkels.](https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/selection-626.png)
+![Porky Pig wordt deels afgekapt door de achtergrond en door de cirkels.](/_img/adventskalender/2020/thats-all-folks/selection-626.png)
 
 We kunnen dit proberen op te lossen door Porky ook dichterbij te halen, met `translateZ`, maar wat we beter kunnen doen is de plek waar we roteren te veranderen. Nu doen we dat namelijk in het midden van de afbeelding, waardoor het onderste deel naar achter gaat.
 
@@ -184,7 +184,7 @@ transform: rotateX(-10deg);
 transform-origin:center 120%;
 ```
 
-![Porky Pig komt nu uit de cirkel: Zijn benen zitten achter de cirkels, maar zijn hoofd er boven.](https://fronteers.nl/_img/adventskalender/2020/thats-all-folks/selection-627.png)
+![Porky Pig komt nu uit de cirkel: Zijn benen zitten achter de cirkels, maar zijn hoofd er boven.](/_img/adventskalender/2020/thats-all-folks/selection-627.png)
 
 Mocht je nou in 3d willen zien hoe alles zich verhoud, kijk dan op deze code pen en klik op "show debug".
 

@@ -15,7 +15,7 @@ En toen ging ik terug naar de browser, waar ik telkens maar één viewport kon z
 
 Rond dezelfde tijd was ik aan het spelen met [Electron](https://electronjs.org/), een framework waarmee je desktop applicaties kunt maken met webtechnieken. Ik besloot om een prototype te ontwikkelen waarin je dezelfde website in meerdere viewports naast elkaar zag, net zoals mijn indeling in Sketch. Na een paar avonden klooien had ik iets wat al best fijn werkte:
 
-![Screenshot van het eerste prototype](https://fronteers.nl/_img/adventskalender/eigen-browser/screenshot-polypane-prototype.png)
+![Screenshot van het eerste prototype](/_img/adventskalender/eigen-browser/screenshot-polypane-prototype.png)
 
 Je kon er niet echt veel mee, maar je kon een URL invullen en die werd dan getoond in meerdere afmetingen. Best cool!
 
@@ -33,7 +33,7 @@ Met iedere functie die ik toevoegde begon ik me meer en meer af te vragen waarom
 
 Door de feedback die ik op mijn browser kreeg was ik er inmiddels achter hoeveel beter een browser kan werken voor front-enders als de *hele* interface gericht is op hun werk. Hierdoor besloot ik mijn browser als serieus product aan te gaan bieden. Sinds het begin van dit jaar ben ik fulltime bezig met het doorontwikkelen en mijn ideeën en die van gebruikers te implementeren. Daar zijn nieuwe functies als full-page screenshots, live reloading en device emulation uit gekomen.
 
-![Screenshot van de browser nu](https://fronteers.nl/_img/adventskalender/eigen-browser/screenshot-polypane-now.png)
+![Screenshot van de browser nu](/_img/adventskalender/eigen-browser/screenshot-polypane-now.png)
 
 # Browsers kunnen zoveel meer
 
@@ -54,6 +54,6 @@ Buiten deze functies zijn er zoveel dingen die voor developers belangrijk zijn w
 Na het gedaan te hebben kan ik zeggen: ja, wel een beetje. Maar ik heb iets gemaakt waar ik heel trots op ben en waar veel mensen dagelijks profijt van hebben. Het front-end werkveld is in de afgelopen jaren veel complexer geworden en lijkt soms wel dagelijks of zelfs per uur te veranderen. Daardoor is het gemakkelijk om je *overwhelmed* te voelen of je vooral bezig te houden met alles wat nieuw is en je minder bezig te houden met hoe effectief je nou zelf werkt. Het verbeteren van je proces — bijvoorbeeld door het gebruiken van een browser die je in je werkzaamheden ondersteunt — kan je uren per week tijdswinst opleveren. Zo gek is dat nog niet.
 
 ### Over Kilian
-<img src="/archief/_img/adventskalender/eigen-browser/kilian.png" alt="Foto van Kilian" class="floating-portrait">
+<img src="/_img/adventskalender/eigen-browser/kilian.png" alt="Foto van Kilian" class="floating-portrait">
 Kilian Valkhof is ruim 15 jaar front-end ontwikkelaar en ontwikkelt de browser [Polypane](https://polypane.app/). Fronteersleden kunnen Polypane [met korting gebruiken](https://fronteers.nl/blog/2019/05/25-procent-fronteers-korting-op-nieuwe-browser-polypane).
 Kilians donatie gaat naar Stem op een vrouw.

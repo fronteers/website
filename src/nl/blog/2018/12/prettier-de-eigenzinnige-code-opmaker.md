@@ -39,7 +39,7 @@ Zou het niet handig zijn om een tooltje te hebben die je code automatisch naar d
 
 Standaard codestijl? Wat is dat? In veel editors met een eigen codeopmaker kan je heel precies aangeven wat jouw favoriete stijl is. Wil je spaties binnen de haakjes van een if? Wil je een spatie voor de accolade van een while?
 
-![Stijlinstellingen](https://fronteers.nl/_img/adventskalender/stijlinstellingen.png)
+![Stijlinstellingen](/_img/adventskalender/stijlinstellingen.png)
 
 Prettier doet het omgekeerde: het gaat uit van één codestijl, waar ze goed over hebben nagedacht en die voor iedereen geldt.
 
@@ -109,7 +109,7 @@ In eerste instantie was Prettier bedoelt voor JavaScript, maar al gauw kwamen da
 Op 7 november 2018 is daar met [versie 1.15](https://prettier.io/blog/2018/11/07/1.15.0.html) ook HTML-, Vue-, Angular- and MDX-ondersteuning bijgekomen. Er is dus haast geen front-endcode meer die je niet door Prettier kan laten opmaken.
 
 ### Over Edwin Martin
-<!-- <img src="/archief/_img/adventskalender/edwin.jpg" alt="Foto van Edwin Martin" class="floating-portrait"> -->
+<img src="/_img/adventskalender/edwin.jpg" alt="Foto van Edwin Martin" class="floating-portrait" /> 
 Edwin loopt alweer een tijdje mee en kent het internet nog van toen er nog geen World Wide Web was. Toen dit kwam, was hij gelijk verkocht. Edwin is sinds 2000 freelancer en [blogt](https://bitstorm.org/) en [twittert](https://twitter.com/edwinm).
 Donatie
 Mijn donatie gaat naar Artsen zonder Grenzen. Zij zorgen voor noodzakelijke medische hulp bij natuurrampen en in oorlogsgebieden.

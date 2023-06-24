@@ -11,7 +11,7 @@ Service Workers, push notifications, background sync, “Add to homescreen”, f
 
 We hebben twee sprekers bereid gevonden over dit onderwerp te komen spreken. Daniel Appelquist werkt voor Samsung Internet (de browser op Samsung telefoons en brillen) en is voorzitter van W3C's [TAG](https://www.w3.org/2001/tag/). Niels Leenheer is de maker van [HTML5test.com](http://html5test.com) en runt een heel groot [open device lab](http://html5test.com/devicelab).
 
-![](https://fronteers.nl/_img/blog/2016/dan-niels.jpg)
+![](/_img/blog/2016/dan-niels.jpg)
 
 _Dan Appelquist (links) en Niels Leenheer (rechts)_
 

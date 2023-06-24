@@ -23,7 +23,7 @@ Elk Bluetooth-apparaat is een 'Central'-apparaat, of een 'Peripheral'. Alleen ce
 
 Een peripheral kan zelf geen verbinding maken en kan alleen met een central-apparaat praten. Bovendien kan het maar met één central-apparaat tegelijkertijd praten. Een peripheral kan niet met een andere peripheral praten.
 
-![Voorbeelden van central en peripherals](https://fronteers.nl/_img/adventskalender/bluetooth/central-peripherals.png)
+![Voorbeelden van central en peripherals](/_img/adventskalender/bluetooth/central-peripherals.png)
 
 Een central-apparaat kan met meerdere peripherals tegelijkertijd praten en zou berichten kunnen doorsturen tussen peripherals. Een hartslagmonitor kan niet praten met lampen, beide zijn peripherals. Maar het is mogelijk een programma te schrijven dat draait op het central-apparaat, dat de hartslag uitleest en de lampen rood maakt als de hartslag boven een bepaalde grens komt.
 
@@ -35,7 +35,7 @@ Elke server biedt één of meerdere services aan. Sommige van deze services zijn
 
 Elke service heeft één of meerdere characteristics. Elke characteristic heeft een value welke gelezen of geschreven kan worden. Vergelijk het met een array van objects, met elk object een aantal properties welke een value hebben.
 
-![Array of objects](https://fronteers.nl/_img/adventskalender/bluetooth/array-of-objects.png)
+![Array of objects](/_img/adventskalender/bluetooth/array-of-objects.png)
 
 Maar anders dan properties van objecten, worden de services en characteristics niet geidentificeerd met een naam. Elke service en characteristic heeft een unieke UUID die 16 of 128 bits lang kan zijn. Officieel is de 16 bit UUID gereserveerd voor de standaard services, maar dat is een regel die vrijwel niemand volgt.
 
@@ -74,7 +74,7 @@ let device = await navigator.bluetooth.requestDevice({
 
 Zodra we deze function aanroepen krijgen we een venster te zien met een lijst van alle apparaten die voldoen aan de filters die we hebben opgegeven. We moeten nu handmatig het apparaat selecteren en handmatig hiermee verbinden. Dit is een essentiële stap, omdat we niet willen dat een willekeurige website zomaar verbinding kan maken met apparaten, of alleen al kan zien welke apparaten je allemaal in huis hebt. De gebruiker heeft de controle.
 
-![Bluetooth apparaat verbinden](https://fronteers.nl/_img/adventskalender/bluetooth/connect.png)
+![Bluetooth apparaat verbinden](/_img/adventskalender/bluetooth/connect.png)
 
 Nu we toegang hebben tot het apparaat kunnen we een connectie maken met de GATT-server door de function connnect() aan te roepen op de gatt property van het device object dat we zojuist terug hebben gekregen. Ook hier kunnen we weer wachten op het result door middel van await.
 
@@ -158,7 +158,7 @@ En dit is ongeveer 90% van de WebBluetooth API en alles wat je moet weten om te 
 * [GATT registry met documentatie voor een aantal apparaten](https://github.com/opengatt/registry)
 
 ### Over Niels Leenheer
-<!-- <img src="/archief/_img/adventskalender/niels.jpg" alt="Foto van Niels Leenheer" class="floating-portrait"> -->
+<img src="/_img/adventskalender/niels.jpg" alt="Foto van Niels Leenheer" class="floating-portrait" /> 
 Niels is een browser-geek. Vanaf het moment dat iemand hem de allereerste Nexus browser op een NeXT Cube liet zien is hij bezig met browsers. Niels is de maker van HTML5test.com, de CSS selector test, spreekt op conferenties en zit sinds 2018 in de congrescommissie van Fronteers.
 
 Donatie: KWF Kankerbestrijding

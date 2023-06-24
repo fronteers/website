@@ -44,6 +44,6 @@ Het kan zijn dat je hobby je werk is en dat is natuurlijk geweldig. Maar hoe leu
 Of je nu wel of niet aan persoonlijke projecten werkt, is een keus die je voor jezelf moet maken. Laat je daarbij niet opjagen door bijvoorbeeld je werkgever of collega's. Developer zijn betekent niet dat je in je vrije tijd moet programmeren. Je werkgever zou je tijd moeten bieden om nieuwe dingen te leren, zodat jij je vrije tijd kunt gebruiken voor de dingen die je het liefste doet.
 
 ### Over Josee Wouters
-<img src="/archief/_img/adventskalender/josee-500x500.png" alt="Foto van Josee" class="floating-portrait">
+<img src="/_img/adventskalender/josee-500x500.png" alt="Foto van Josee" class="floating-portrait">
 Josee werkt als developer bij Yoast en hoewel ze daar meer als een full-stack developer werkt, ligt haar hart (ook) bij front-end. Ze is actief als vrijwilliger bij Fronteers en werkt in haar vrije tijd af en toe aan haar app "What Dinner?".
 Josee's donatie gaat naar Stem op een vrouw.

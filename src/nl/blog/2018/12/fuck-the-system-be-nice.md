@@ -17,7 +17,7 @@ Het is de tijd voor de goede voornemens. Laat me je helpen een fijnere collega t
 
 # 1: Jij bent niet je gebruiker
 
-![Tegeltje met de tekst: "Assumption is the mother of all fuck ups"](https://fronteers.nl/_img/adventskalender/assumption-is-the-mother-of-all-fuck-ups-576x576.png)
+![Tegeltje met de tekst: "Assumption is the mother of all fuck ups"](/_img/adventskalender/assumption-is-the-mother-of-all-fuck-ups-576x576.png)
 
 Eigenlijk zijn toegankelijkheidsrichtlijnen een grote les in nederigheid. Elk succescriterium is een herinnering: niet iedereen is zoals jij. Er zijn mensen die het web anders gebruiken dan jij. Ja echt, sorry.  Je kunt nooit alle mogelijke scenario’s testen en ondervangen. Maar je kunt er wel rekening mee houden dat je site-bezoeker niet exact denkt of doet als jij verwacht.
 
@@ -29,7 +29,7 @@ Er zijn bijvoorbeeld mensen die amper een muis gebruiken en alles met een toetse
 
 # 2: Liever één goed elftal dan elf goede ééntallen
 
-![Tuterdetuut: alle soldaten in het gelid. 12 Zoeaven (Franse militairen) met een geweer en een pofbroek.](https://fronteers.nl/_img/adventskalender/zoeaven.jpg)
+![Tuterdetuut: alle soldaten in het gelid. 12 Zoeaven (Franse militairen) met een geweer en een pofbroek.](/_img/adventskalender/zoeaven.jpg)
 
 Tegeltjesgrootmeester Cruyff zei: “[Wat heb je nou liever: één goed elftal of elf goede ééntallen?](https://tegelizr.nl/tegeltje/wat-heb-je-nou-liever-n-goed-elftal-of-elf-goede-ntallen)” Ik weet niks over voetbal. Maar ik weet wel dat diversiteit je team goed doet.
 
@@ -46,11 +46,11 @@ Schrijf stukjes, geef presentaties. Hou je portfolio manisch up-to-date. Wees tr
 
 Het web is bedoeld om open te zijn. In 20 jaar tijd is een totaal nieuwe infrastructuur ontstaan voor het delen en vermeerderen van kennis. En als je wilt kun je daaraan bijdragen. Help bij grote of kleine open source projecten. Linux, WordPress (of Drupal, ja ja…), Wikipedia, allemaal voorbeelden van inmiddels essentiële open source projecten door duizenden vrijwilligers voor miljoenen dankbare gebruikers.
 
-![Foto van Mahatma Ghandi met de tekst: "Be the pull request you want to see in this world - het handige neefje van Mahatma Ghandi"](https://fronteers.nl/_img/adventskalender/be-the-pull-request.png)
+![Foto van Mahatma Ghandi met de tekst: "Be the pull request you want to see in this world - het handige neefje van Mahatma Ghandi"](/_img/adventskalender/be-the-pull-request.png)
 
 # 4: Ars longa, vita brevis (het leven is kort, de kunst is lang)
 
-![Schilderij van Piet Mondriaan met vlakken in diverse kleuren waaronder rood, blauw, geel, wit, zwart en grijs](https://fronteers.nl/_img/adventskalender/piet-mondriaan-1921---composition-en-rouge-jaune-bleu-et-noir-768x766.jpg)
+![Schilderij van Piet Mondriaan met vlakken in diverse kleuren waaronder rood, blauw, geel, wit, zwart en grijs](/_img/adventskalender/piet-mondriaan-1921---composition-en-rouge-jaune-bleu-et-noir-768x766.jpg)
 
 Er zijn bibliotheken volgeschreven over kunststromingen en hoe die ons dagelijks leven hebben beïnvloed. We gebruiken het woord als pittoresk om een landschap te waarden; daarmee zeggen we eigenlijk dat het landschap net zo mooi is als een plaatje van een landschap.
 
@@ -62,7 +62,7 @@ Voorbeelden? Zie Jen Simmons lekker klooien met Mondriaan en CSS Grid: [respons
 
 # 5: Fuck the system, be nice
 
-![Screenshot van een kritisch linkedin-commentaar van een front-ender. Tekst: "Echt serieus? Wat een slechte websites hebben overheidsinstanties. Waar gaat al dat geld naar toe? Gemeente Rotterdam, Gemeente Delft. Ik als webdeveloper kom er zelfs niet uit. Ik krijg programmeererrors te zien. WTF?!? Hebben jullie dan niet gehoort van gebruiksvriendelijkheid, UX? Ik wil best een presentatie komen geven, want het is duidelijk nog niet bekend bij jullie.. #shittysites #vanonzecenten I can’t believe it"](https://fronteers.nl/_img/adventskalender/wim-heitinga-spreekt.png)
+![Screenshot van een kritisch linkedin-commentaar van een front-ender. Tekst: "Echt serieus? Wat een slechte websites hebben overheidsinstanties. Waar gaat al dat geld naar toe? Gemeente Rotterdam, Gemeente Delft. Ik als webdeveloper kom er zelfs niet uit. Ik krijg programmeererrors te zien. WTF?!? Hebben jullie dan niet gehoort van gebruiksvriendelijkheid, UX? Ik wil best een presentatie komen geven, want het is duidelijk nog niet bekend bij jullie.. #shittysites #vanonzecenten I can’t believe it"](/_img/adventskalender/wim-heitinga-spreekt.png)
 
 Het screenshot hiernaast was de aanleiding voor dit artikeltje. Dit is niet de manier om je professioneel te presenteren. Dit is een onderdeel van een zeur- en afzeikcultuur waar we vanaf moeten. Wat weet je nou na het lezen van dit berichtje? We weten dat deze Wim een probleem had; ergens kwamen programmeerfouten aan het licht. Kun je daaruit afleiden dat overheidsinstanties een slechte site hebben? Van iemand die alleen klaagt en geen aanwijzing geeft over waar wat misgaat en ook geen oplossing aandraagt verwacht ik geen constructieve presentatie over UX of gebruiksvriendelijkheid. Met dit soort berichten diskwalificeer je jezelf.
 
@@ -78,7 +78,7 @@ En als je ideeën, systemen wilt afkraken: gebruik humor en argumenten.
 Fuck the system, be nice.
 
 ### Over Paul van Buuren
-<!-- <img src="/archief/_img/adventskalender/paul.jpg" alt="Foto van Paul van Buuren" class="floating-portrait"> -->
+<img src="/_img/adventskalender/paul.jpg" alt="Foto van Paul van Buuren" class="floating-portrait" /> 
 Paul van Buuren maakt websites sinds 1998. Zijn vooropleiding heeft niks met webdesign te maken, want dat bestond domweg nog niet. Onder de noemer WBVB Rotterdam werkt hij als zelfstandige voor diverse opdrachtgevers. Z'n specialiteit is het maken van toegankelijke WordPress-sites. Hij praat opvallend vaak in algemeenheden en tegeltjeswijsheden.
 Donatie:
 Z'n donatie gaat naar KIKA, Stichting Kinderen Kankervrij. Ik weet hoe erg het is als kinderen ziek worden en ik wil zoveel mogelijk doen om ziekte te voorkomen of te genezen.

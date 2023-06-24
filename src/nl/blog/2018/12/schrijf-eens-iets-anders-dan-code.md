@@ -32,7 +32,7 @@ Ik heb even getwijfeld of 'schrijven' een goed onderwerp was voor deze adventska
 Dus ik blijf schrijven en dit is mijn startpunt. Net op tijd om nog mijn goede voornemen voor dit jaar in te kunnen lossen. Fijne feestdagen!
 
 ### Over Koen Kivits
-<img src="/archief/_img/adventskalender/koen.jpeg" alt="Foto van koen" class="floating-portrait">
+<img src="/_img/adventskalender/koen.jpeg" alt="Foto van koen" class="floating-portrait">
 Koen Kivits is een web developer in Eindhoven. Hij hobbyt op zijn [Github](https://github.com/koenkivits), tweet op zijn [Twitter](https://twitter.com/koenkivits) en blogt (sinds kort!) op zijn [website](https://koen.kivits.com/).
 Donatie
 Mijn donatie gaat naar [Stichting Vluchtelingenwerk](https://actie.vluchtelingenwerk.nl/geef-voor-vluchtelingen), omdat zij helpen om meer mensen dezelfde kansen te geven als ik heb gehad.

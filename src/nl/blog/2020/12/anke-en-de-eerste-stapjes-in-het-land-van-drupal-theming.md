@@ -36,7 +36,7 @@ In tegenstelling tot andere CMS'sen waarmee ik gewerkt heb, begin je dus _niet_ 
 
 Je start met uitzoeken welke van de templates op de pagina je moet hebben. Hoe je daar achter komt? Kijk in je broncode!
 
-![Een screenshot van de Drupal template suggesties. Een lijstje templates in de inspector, waarvan eentje als actief is aangeduid met een kruisje.](https://fronteers.nl/_img/adventskalender/2020/twig-debug.png)
+![Een screenshot van de Drupal template suggesties. Een lijstje templates in de inspector, waarvan eentje als actief is aangeduid met een kruisje.](/_img/adventskalender/2020/twig-debug.png)
 
 *De Drupal template suggesties in je inspector. De onderste is het minst specifiek, de bovenste het meest. Het kruisje geeft de gebruikte template aan.*
 

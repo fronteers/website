@@ -45,7 +45,7 @@ Meteen nadat de browser het pagina-DOM heeft ingelezen, schiet Mingy in actie ([
 
 Je zal terecht opmerken dat we het aantal HTTP-requests op deze manier wel opvoeren. Een praktijktest illustreert echter dat dat eigenlijk helemaal niet opweegt tegen het verminderde gewicht en de verminderde laadtijd van een pagina met veel afbeeldingen. Het [Network Link Conditioner preference pane](http://9to5mac.com/2011/08/10/new-in-os-x-lion-network-link-conditioner-utility-lets-you-simulate-internet-and-bandwidth-conditions/) in Xcode 4 voor Mac OS X Lion helpt je om te simuleren hoe webpagina's ingeladen worden op apparaten met een trage verbinding:
 
-![Schermafbeelding van het voorkeurenpaneel 'Netwerk Link Conditioner' in Mac OS X](https://fronteers.nl/_img/2011/12/nlc.png)
+![Schermafbeelding van het voorkeurenpaneel 'Netwerk Link Conditioner' in Mac OS X](/_img/2011/12/nlc.png)
 
 # Hoe gebruik je het?
 
@@ -150,7 +150,7 @@ Omdat de afbeeldingen toch op de server bijgeknipt worden (en gecachet), lag het
 
 Onderstaand screenshot illustreert trouwens ook duidelijk wat ik eerder beschreef: initieel worden de placeholder PNG's van 68 bytes geladen en hierna pas de werkelijke afbeeldingen.
 
-![Schermafbeelding van het Tabblad 'Net → Images' in Firebug voor Firefox](https://fronteers.nl/_img/2011/12/firebug.png)
+![Schermafbeelding van het Tabblad 'Net → Images' in Firebug voor Firefox](/_img/2011/12/firebug.png)
 
 ## Retina
 
@@ -181,7 +181,7 @@ Ik heb dit artikel (en het script) in de eerste plaats geschreven om m'n eigen g
 Ten slotte wil ik graag JavaScript-whizzkid [Mathias Bynens](https://mathiasbynens.be/) bedanken omdat hij zo vriendelijk was om het JavaScript-gedeelte van Mingy met een kritisch oog te bekijken en te optimaliseren. Want eigenlijk ben ik maar een wannabe-developer.
 
 ### Over Roel Van Gils
-<img src="/archief/_img/2011/12/roel-van-gils.jpg" alt="Foto van roel van gils" class="floating-portrait">
+<img src="/_img/2011/12/roel-van-gils.jpg" alt="Foto van roel van gils" class="floating-portrait">
 Roel Van Gils noemt zichzelf webarchitect. Als zelfstandig consultant geeft hij advies en helpt bedrijven en overheden met het bouwen van efficiënte, toegankelijke en gebruiksvriendelijke websites en applicaties. Hij werkt voor het web sinds 2000 en is mede-initiatiefnemer van [AnySurfer](http://www.anysurfer.be/), een Belgische organisatie die ijvert voor een toegankelijker internet voor mensen met een handicap. Roel steekt ook graag een handje toe bij het organiseren van [Fronteers-bijeenkomsten](/bijeenkomsten) in Vlaanderen. Hij twittert als [@roelvangils](https://twitter.com/roelvangils).
 
 Donatie: Belgisch Centrum voor Geleidehonden

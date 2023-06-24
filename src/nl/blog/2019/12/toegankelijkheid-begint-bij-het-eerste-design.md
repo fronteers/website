@@ -26,7 +26,7 @@ Deze onzichtbare informatie is iets waar een designer prima rekening mee kan hou
 
 Een goede koppenstructuur helpt je screenreadergebruikers enorm op weg. Zij kunnen een koppenlijst opvragen die fungeert als inhoudsopgave van de site. Zo navigeren zij snel naar de gezochte informatie op de pagina.
 
-![Screenshot koppenlijst VoiceOver, homepage Volkskrant, allemaal verkeerd gebruikte h4's en h3's](https://fronteers.nl/_img/adventskalender/toegankelijkheid-eerste-design/koppenlijst-voiceover-homepage-volkskrant.png)
+![Screenshot koppenlijst VoiceOver, homepage Volkskrant, allemaal verkeerd gebruikte h4's en h3's](/_img/adventskalender/toegankelijkheid-eerste-design/koppenlijst-voiceover-homepage-volkskrant.png)
 
 <p class="note">
 Een screenshot van een koppenlijst in VoiceOver, homepage volkskrant.nl
@@ -54,7 +54,7 @@ Deze elementen zijn in het nieuwsblokje aanwezig:
 
 De afbeelding en de h4 vallen bóven de h3 die beschrijft waar dit blokje over gaat. Ze vallen dus in de koppenstructuur onder de h3 van het vorige blokje. Op het moment van schrijven was dat het kopje "Manifestatie van start: ‘We schrijven geschiedenis!’", over de staking van ziekenhuispersoneel. Erg verwarrend.
 
-![Verkeerde koppenstructuur bij nieuwsblokje homepage Volkskrant, eerst h4 (chapeau) en dan h3](https://fronteers.nl/_img/adventskalender/toegankelijkheid-eerste-design/heading-levels-volkskrant.png)
+![Verkeerde koppenstructuur bij nieuwsblokje homepage Volkskrant, eerst h4 (chapeau) en dan h3](/_img/adventskalender/toegankelijkheid-eerste-design/heading-levels-volkskrant.png)
 
 <p class="note">
 Een chapeau met h4 staat boven de kop met h3, volkskrant.nl
@@ -98,7 +98,7 @@ Als je een website gebruikt met een muis, een touchpad of een ander point-and-cl
 
 Omzeilende links (skiplinks) bieden hier vaak uitkomst. Mocht je je daar nog niks bij kunnen voorstellen, kijk dan bijvoorbeeld op de site van [Rijksoverheid](https://www.rijksoverheid.nl/). Gebruik je tabtoets om te navigeren. Als de pagina geladen is, verschijnt bij de eerste tab de skiplink met de tekst 'Ga direct naar inhoud'. Activeer je deze link, dan sla je het menu over en komt je toetsenbordfocus meteen in de inhoud van de pagina terecht.
 
-![Screenshot skiplink Rijksoverheid.nl](https://fronteers.nl/_img/adventskalender/toegankelijkheid-eerste-design/screenshot-skiplink-rijksoverheid.png)
+![Screenshot skiplink Rijksoverheid.nl](/_img/adventskalender/toegankelijkheid-eerste-design/screenshot-skiplink-rijksoverheid.png)
 
 <p class="note">
 Zo ziet de skiplink eruit op Rijksoverheid.nl
@@ -177,7 +177,7 @@ Voor een [zeer uitgebreid artikel over contrast](http://iacobien.nl/artikelen/co
 Vragen kun je altijd stellen in het accessibility-kanaal van de [Slack van Fronteers](https://fronteers-slack.herokuapp.com/).
 
 ### Over Marjon
-<!-- <img src="/archief/_img/adventskalender/toegankelijkheid-eerste-design/marjon-bakker.jpg" alt="Foto van Marjon" class="floating-portrait"> -->
+<img src="/_img/adventskalender/toegankelijkheid-eerste-design/marjon-bakker.jpg" alt="Foto van Marjon" class="floating-portrait" /> 
 Marjon Bakker is sinds 2017 adviseur digitale toegankelijkheid bij [Firm Ground](https://www.firmground.nl). Zij werkt het liefst op het snijvlak tussen communicatie en frontend development, met oog voor bruikbaarheid van websites voor alle bezoekers. Ze heeft zich gespecialiseerd in technisch onderzoek en het uitwerken van praktische oplossingen voor developers en opdrachtgevers. Haar toegankelijkheidswerkzaamheden sluiten goed aan en bouwen voort op haar eerdere werkervaring als webredacteur en communitymanager.
 Marjons donatie gaat naar Bits of Freedom.)
 

@@ -36,7 +36,7 @@ Deze talk geeft je een korte introductie in het gebruiken van de web-audio-api, 
 
 {%- vimeo "223733926" -%}
 
-![Studio met opgestelde camera's](https://fronteers.nl/_img/blog/2016/smet-binnen.jpg)
+![Studio met opgestelde camera's](/_img/blog/2016/smet-binnen.jpg)
 
 # Locatie
 

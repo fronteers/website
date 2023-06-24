@@ -6,7 +6,7 @@ author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Als front-end developer bij We are you Rotterdam werk je niet voor, maar mét klanten als Eneco, Van Lanschot of De Goudse verzekeringen om het beste neer te zetten.
 ---
-![[We are you](https://www.weareyou.com/nl)](https://fronteers.nl/_img/werkgevers/weareyou.png)
+![[We are you](https://www.weareyou.com/nl)](/_img/werkgevers/weareyou.png)
 
 Als front-end developer bij We are you Rotterdam werk je niet voor, maar mét klanten als Eneco, Van Lanschot of De Goudse verzekeringen om het beste neer te zetten. Samen met je team realiseer je slimme oplossingen, met name in React, die bepalend zijn voor de business van onze klanten. En die het leven van de eindgebruikers makkelijker maken.
 

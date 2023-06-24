@@ -7,7 +7,7 @@ categories:
 ---
 Afgelopen dinsdag was de eerste editie van de Fronteers boekenclub. Om de -zeg- 3 maanden bespreken we een boek, enigszins relevant voor ons vakgebied en kiezen we een nieuw boek uit voor de volgende keer. Lees je mee de volgende keer?
 
-![](https://fronteers.nl/_img/ethicaldesignhandbook.jpg)
+![](/_img/ethicaldesignhandbook.jpg)
 
 Bij de eerste editie van de Fronteers Boekenclub bespraken we ‘[The Ethical Design Handbook](https://ethicaldesignhandbook.com/)’. We waren met z’n drieën en we waren eensgezind in ons oordeel over het boek: 3 uit 5 sterren. Het is net te oppervlakkig of niet praktisch genoeg. Voor mensen die niet veel te maken hebben gehad met ethische vragen zou het wel een eye-opener kunnen zijn.
 

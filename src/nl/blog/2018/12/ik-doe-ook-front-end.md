@@ -33,14 +33,14 @@ Aan de andere kant merk ik ook af en toe dat er soms erg makkelijk over front-en
 
 Aan het eind van de dag zal het project worden opgeleverd. Ik ben er van overtuigd dat het resultaat van het project er visueel gezien anders uitziet als een back-end developer die ook front-end werk erbij doet. Je hebt immers niet voor niets een front-end specialist. Een ultiem voorbeeld kwam mij onlangs voorbij toen ik een berg luiers voor mijn dochter bestelde bij Kruidvat Online. Je wordt netjes doorverwezen naar Ogone Payments. Bekijk het zelf. Het werkt. Alles wat je hieronder ziet is functioneel. Precies wat een back-end developer moet doen. Alleen, als ik nog maar naar de ‘Ga verder’ button kijk, gaat het bij mij enorm kriebelen. Je snapt vast wat ik bedoel. Er zit niet eens styling op. Verder staat er dan wel een Norton logo bij, maar dan nog oogt het bij mij nog steeds een beetje ‘unsecure’. Het heeft wat mij betreft meer een beetje de stijl van van een oplichter, die me een email stuurt om mij in te laten loggen bij mijn bank. Ik ben er dan ook echt van overtuigd dat een specialist als een front-end developer wel degelijk een andere denkwijze heeft dan andere specialisten.
 
-![Betaalpagina van Ogone Payments](https://fronteers.nl/_img/adventskalender/ogone-payments.png)
+![Betaalpagina van Ogone Payments](/_img/adventskalender/ogone-payments.png)
 
 # Wat vind jij?
 
 Wat voor skills en persoonlijke vaardigheden dient een front-end developer eigenlijk nog meer te hebben volgens jou?
 
 ### Over Sander Langendoen
-<!-- <img src="/archief/_img/adventskalender/sanderlangendoen.jpg" alt="Foto van Sander Langendoen" class="floating-portrait"> -->
+<img src="/_img/adventskalender/sanderlangendoen.jpg" alt="Foto van Sander Langendoen" class="floating-portrait" /> 
 Ik ben Sander Langendoen. Freelance Front-end Developer. Front-end development blijft voor mij een nog niet uitgespeelde game. Ik ben blij dat ik iedere dag betaald mijn hobby mag uitoefenen.
 Donatie
 The Face This foundation is een stichting die Indonesische schooltjes in nood helpt. Ze vragen de leerlingen tekeningen te maken, en vragen op hun beurt getalenteerde artiesten de tekeningen te verwerken op t-shirt prints. Heb jij een cool shirt of hippe trui. Met de opbrengst van de shirts supporten ze weer de schooltjes.

@@ -32,6 +32,6 @@ Ben je werkgever en zoek je naar nieuwe developers? Zoek dan niet automatisch na
 De laatste jaren is 'full-stack' binnen de front-endwereld bijna een vies woord geworden, een symbool voor hoe front-end onderschat wordt en voor onrealistische verwachtingen in vacatures. Dat is jammer, want ik denk dat zowel full-stack als meer gespecialiseerde developers een enorme toegevoegde waarde hebben op het web. Persoonlijk haal ik mijn voldoening uit de afwisseling, maar tegelijk werk ik het liefst samen met experts omdat we daardoor veel van elkaar kunnen leren. Uiteindelijk is het vooral belangrijk om hier een balans in te vinden, want daar zal ons werk alleen maar beter van worden.
 
 Over Koen
-<img src="/archief/_img/adventskalender/koen.jpeg" alt="Foto van koen" class="floating-portrait">
+<img src="/_img/adventskalender/koen.jpeg" alt="Foto van koen" class="floating-portrait">
 Koen Kivits is een full-stack web developer in Eindhoven. Hij hobbyt op [zijn Github](https://github.com/koenkivits), tweet op [zijn Twitter](https://twitter.com/koenkivits) en blogt op [zijn website](https://koen.kivits.com/).
 Koens donatie gaat naar Bits of Freedom.)

@@ -9,7 +9,7 @@ We zijn blij te kunnen melden dat we op 8 november een bijeenkomst over toeganke
 
 Karl Groves stal eerder dit jaar de show bij Fronteers Spring Conference met zijn talk [To hell with performance](https://fronteers.nl/congres/2016-spring/sessions/to-hell-with-performance-by-karl-groves), over toegankelijkheid en performance. In november zal hij het hebben over hoe je met _JavaScript_ meer toegankelijkheid kunt bereiken.
 
-![Karl Groves](https://fronteers.nl/_img/blog/2016/karl.jpg)
+![Karl Groves](/_img/blog/2016/karl.jpg)
 
 _Karl Groves eerder dit jaar bij Fronteers Spring Conference in Amsterdam_
 

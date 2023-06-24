@@ -22,7 +22,7 @@ Dit evenement vindt plaats bij Nucleus te Antwerpen.
 
 {%- googlemaps "Nucleus, Noorderlaan 133 bus 8, 2030 Antwerpen" -%}
 
-![Kaart](https://fronteers.nl/_img/bijeenkomsten/07041d7c-9296-11e5-8a78-ebe57f367ebe.png)
+![Kaart](/_img/bijeenkomsten/07041d7c-9296-11e5-8a78-ebe57f367ebe.png)
 
 # Wie?
 

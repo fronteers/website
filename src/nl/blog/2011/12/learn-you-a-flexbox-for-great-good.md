@@ -152,7 +152,7 @@ Mja. Dat is lastig uitleggen. Laten we een plaatje tekenen:
 
 
 
-![Bij horizontaal geplaatste items is de main axis horizontaal.](https://fronteers.nl/_img/2011/12/axis.png)
+![Bij horizontaal geplaatste items is de main axis horizontaal.](/_img/2011/12/axis.png)
 
 Onthou main axis en cross axis; we komen er straks op terug.
 
@@ -267,7 +267,7 @@ Dit soort specs zijn geweldig om mee te experimenteren. En ondersteuning komt sn
 Veel plezier ermee (en fijne feestdagen) :)
 
 ### Over Stephen Hay
-<!-- <img src="/archief/_img/2011/12/stephen-hay.jpg" alt="Foto van stephen hay uit 2011" class="floating-portrait"> -->
+<img src="/_img/2011/12/stephen-hay.jpg" alt="Foto van stephen hay uit 2011" class="floating-portrait" /> 
 [Stephen](https://twitter.com/stephenhay) is een designer/developer met een sterke interesse in CSS en multi-platform design. Hij spreekt en schrijft ook graag over deze onderwerpen.
 
 Donatie: ICCF Holland

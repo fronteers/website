@@ -18,7 +18,7 @@ Componenten zijn geweldig voor alles wat je meer dan één keer moet doen. Je wi
 
 Wat je dan ook meteen krijgt is consistentie. Daar maak je iedereen blij mee! Denk bijvoorbeeld aan een focus-state die overal hetzelfde is. Dat scheelt een hoop denkwerk.
 
-![Een plastic speelset geplaatst op de dakrand van een flat.](https://fronteers.nl/_img/adventskalender/toepassing-blog-erik-full.png)
+![Een plastic speelset geplaatst op de dakrand van een flat.](/_img/adventskalender/toepassing-blog-erik-full.png)
 
 *Het zit hem helemaal in de toepassing.*
 
@@ -75,7 +75,7 @@ Zodra je componenten gaat combineren kun je ook problemen voorzien. Het liefst z
 
 Hieraan gerelateerd is ook het onderwerp van relaties. Alles wat je zelf aan elkaar knoopt is gevoelig voor fouten. Als je bovenaan je pagina een table of contents hebt, moet je goed opletten hoe die verbonden is aan de content van je pagina. Of wat dacht je van een formulier(veld) en een foutmelding of instructie? Relaties wil je zowel visueel als in de code helder hebben.
 
-![Een projector hangt aan een muur. Een scherm hangt er opgerold boven. Het scherm kan zo niet uitgerold worden, en de projector kan er niet op projecteren.](https://fronteers.nl/_img/adventskalender/advents-erik-2.jpeg)
+![Een projector hangt aan een muur. Een scherm hangt er opgerold boven. Het scherm kan zo niet uitgerold worden, en de projector kan er niet op projecteren.](/_img/adventskalender/advents-erik-2.jpeg)
 
 *De juiste onderdelen in de verkeerde volgorde.*
 
@@ -93,4 +93,4 @@ Stel je waakt nu voor al deze valkuilen. Weet je dan zeker dat het goed komt? Ne
 
 Componenten zijn als de basis van een huis. Bouw je met scheve kozijnen op drijfzand? Succes! Een stevig fundament met kwalitatieve onderdelen is wat je wil. Maar ook daarmee kun je een huis bouwen dat tekort schiet!
 
-![Een muur met hoekjes en een bocht met een plint. De plint is in allemaal losse stukjes in een vergeefse poging om de vorm van de muur te volgen.](https://fronteers.nl/_img/adventskalender/advents-erik-3.png)
+![Een muur met hoekjes en een bocht met een plint. De plint is in allemaal losse stukjes in een vergeefse poging om de vorm van de muur te volgen.](/_img/adventskalender/advents-erik-3.png)

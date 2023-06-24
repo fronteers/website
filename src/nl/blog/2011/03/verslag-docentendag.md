@@ -7,7 +7,7 @@ categories:
 ---
 De [docentendag 2011](/docentendag) zit er weer op. Vijftien docenten zijn in Amsterdam samengekomen om samen met de commissie-Onderwijs, Nikolai Onken en Hedwyg van Groenendaal nader kennis te maken met het vakgebied en met elkaar.
 
-![](https://fronteers.nl/_img/2011/03/prezi.png)
+![](/_img/2011/03/prezi.png)
 
 Nikolai Onken heeft zijn slides over HTML5 apps beschikbaar gesteld via SlideShare: <http://www.slideshare.net/nonken/html5-apps>.
 

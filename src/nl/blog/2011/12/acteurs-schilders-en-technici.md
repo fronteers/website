@@ -13,7 +13,7 @@ Je hebt drie rollen als front-ender: acteur, schilder en technicus.
 
 # De acteur
 
-![](https://fronteers.nl/_img/2011/12/minifig-acteur.jpg)
+![](/_img/2011/12/minifig-acteur.jpg)
 
 Je hebt het inlevingsvermogen nodig van een acteur. Wie zich niet in kan leven in zijn klant en zijn doelgroep is geen goede front-ender. Dit inleven vereist begrijpen wat je klant verwacht, meedenken met je klant _en_ het vereist inleven in de uiteindelijke gebruikers van je website. Voor wie dacht dat het niet de moeite waard is om over toegankelijke websites na te denken:
 
@@ -23,7 +23,7 @@ Veel mensen denken bij accessibility aan blinden en slechtzienden of [aan gehand
 
 # De schilder
 
-![](https://fronteers.nl/_img/2011/12/minifig-schilder.jpg)
+![](/_img/2011/12/minifig-schilder.jpg)
 
 Ik wil graag mooie dingen maken. Webdesign was vroeger het favoriete tijdverdrijf van designers. Dat pikken we nu langzaam maar zeker van ze [af](http://ghehehe.nl/ "Ghehehehe. Lache."). Wie de komende jaren nog ambities heeft om mooie websites te maken heeft niet meer voldoende aan kennis van Photoshop; het liefst moet hij [ontwerpen in de browser](http://24ways.org/2009/make-your-mockup-in-markup). Ik merk dat ik ontwerpers steeds meer moet laten nadenken over de eindeloze mogelijkheden van het web. Je ontwerper komt niet meer weg met alleen een ontwerp voor een pagina van 960px breed. Of met platte plaatjes zonder dat hij nagedacht heeft over interactie. Je moet de taal en de verschillende verschijningsvormen van het web begrijpen. Je hebt te maken met schermgroottes, verschillende _devices_, verschillende browsers. De front-ender van nu moet meedenken over de mogelijkheden die CSS, responsive webdesign en complexe interacties bieden.
 
@@ -35,7 +35,7 @@ Je bent creatief en je kent het medium. Denk mee, schets mee, schrijf mee.
 
 # De technicus
 
-![](https://fronteers.nl/_img/2011/12/minifig-techneut.jpg)
+![](/_img/2011/12/minifig-techneut.jpg)
 
 Tegelijkertijd blijven we codekloppers die kunnen [mierenneuken](/congres/2011/sessions/html5-semantics-bruce-lawson "Bruce Lawson op het Fronteers congres in oktober 2011") [over de ideale editor](http://coding.smashingmagazine.com/2011/09/09/an-introduction-to-less-and-comparison-to-sass/ "SASS versus Less."). Je moet de techniek van CSS, HTML en sommige scripttalen snappen. Je moet uit kunnen leggen wat het verschil is tussen `<div>`, `<span>` en `<section>` is. Dat is techniek, je gereedschap. Dat zijn de [blokken](http://www.miniland.nl/lego%20lied/liedje_1.htm "Van **** kun je alles maken...") waarmee je bouwt. Je moet een betweter zijn, een priechelaar, een speurneus. Je weet wanneer je welke technieken [wel of niet](http://caniuse.com/ "Can I use?") kunt gebruiken.
 
@@ -48,7 +48,7 @@ Overigens ben ik van mening dat er meer vrouwen aan de front-end moeten komen! E
 </p>
 
 ### Over Paul van Buuren
-<img src="/archief/_img/2011/12/paul-van-buuren.jpg" alt="Foto van paul van buuren">
+<img src="/_img/2011/12/paul-van-buuren.jpg" alt="Foto van paul van buuren">
 Houdt van mooie dingen maken. Werkt bij [Matchminds](http://www.matchminds.nl/).  Verzamelt [rare woorden](http://www.paulvanbuuren.nl/content/category/bon-mot-du-jour/). En mag sinds de geboorte van z'n kinderen weer met Lego spelen.
 [Twitter](https://twitter.com/paulvanbuuren), [Website](http://paulvanbuuren.nl/about/), [LinkedIn](http://nl.linkedin.com/in/paulvanbuuren)
 

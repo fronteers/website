@@ -9,7 +9,7 @@ Je zult er vast wel eens van gehoord hebben of misschien heeft een van je colleg
 
 *Maar hoe kies je nu een mechanisch toetsenbord? Over het algemeen is zo'n toetsenbord niet de goedkoopste en je wilt een miskoop vermijden. Maar zodra je even googlet, vliegen de switches je om de oren. Hopelijk zie je met deze guide straks door de toetsen het toetsenbord weer.*
 
-![Ducky Shine 3 is herkenbaar door de voor Ducky typerende spatiebalk](https://fronteers.nl/_img/blog/ducky-shine.jpg)
+![Ducky Shine 3 is herkenbaar door de voor Ducky typerende spatiebalk](/_img/blog/ducky-shine.jpg)
 
 <p class="note">
 Ducky Shine 3 is herkenbaar door de voor Ducky typerende spatiebalk
@@ -25,7 +25,7 @@ Allereerst, een goedkoop toetsenbord is meestal niet slecht. Het zal zeker de kl
 
 Bij een mechanisch toetsenbord heb je deze nadelen niet. Afhankelijk van de switches die je kiest - die het grootste deel van de beleving bepalen - hoef je zoveel kracht te zetten als je wilt en krijg je de feedback die je wilt. Een veel genoemd nadeel van een mechanisch toetsenbord: het maakt veel lawaai. Nu is dit echter ook weer afhankelijk van de switches die je kiest, je manier van typen en je werkomgeving. Een rubber dome toetsenbord is ook niet bepaald stil. En persoonlijk hoor ik liever het gezellige geklik-klak van een mechanisch toetsenbord dan de rammel van een niet-mechanisch toetsenbord.
 
-![Deze Magic Force is een budgetkeuze met een opvallend uiterlijk](https://fronteers.nl/_img/blog/magic-force.jpg)
+![Deze Magic Force is een budgetkeuze met een opvallend uiterlijk](/_img/blog/magic-force.jpg)
 
 <p class="note">
 Deze Magic Force is een budgetkeuze met een opvallend uiterlijk
@@ -37,7 +37,7 @@ Er zijn verschillende soorten switches. [Cherry MX](https://www.cherrymx.de/en),
 
 [Razer](https://www.razer.com/eu-en/gaming-keyboards), vooral bekend van gaming accessoires, maakt onder andere gebruik van eigen hybride switches; een kruising tussen mechanisch en dome. [Logitech](https://www.logitechg.com/nl-nl/articles/romer-g) gebruikt zijn eigen Romer-G switches en andere bekende merken zijn [Topre](http://www.topre.co.jp/en/products/elec/keyboards/) en [Matias](https://matias.ca/). Deze laatste twee zijn vooral bekend bij liefhebbers.
 
-![Bij deze Magic Force zie je dat er is gekozen voor brown switches](https://fronteers.nl/_img/blog/brown-switches.jpg)
+![Bij deze Magic Force zie je dat er is gekozen voor brown switches](/_img/blog/brown-switches.jpg)
 
 <p class="note">
 Bij deze Magic Force zie je dat er is gekozen voor brown switches
@@ -55,7 +55,7 @@ Met deze drie kenmerken, kun je besluiten welke switch voor jou de juiste is.
 
 Mijn daily driver is een Ducky Miya Pro Sakura met Cherry MX Brown switches. De Cherry MX Brown is een populaire tactile switch. De actuation force is met 45g licht en de actuation point gemiddeld, met 2mm. Ik viel voor dit toetsenbord voornamelijk dankzij het geweldige uiterlijk: de kleurtjes en de Japanse kersenbloesem op de spatiebalk en escape-toets. De Cherry MX Brown switches kende ik al en vond ik fijn typen. De keus was snel gemaakt.
 
-![Dit zuurstokroze toetsenbord is mijn Ducky Miya Pro Sakura.](https://fronteers.nl/_img/blog/ducky-sakura.jpg)
+![Dit zuurstokroze toetsenbord is mijn Ducky Miya Pro Sakura.](/_img/blog/ducky-sakura.jpg)
 
 <p class="note">
 Dit zuurstokroze toetsenbord is mijn Ducky Miya Pro Sakura.
@@ -69,7 +69,7 @@ Coolblue heeft in de fysieke winkels zogenoemde testers. Dit zijn kleine bordjes
 
 Deze switches zijn bij de meeste webwinkels ook te bestellen, bijvoorbeeld bij [Candykeys](https://www.candykeys.com/category:switch-testers) en [Keyboardco](https://www.keyboardco.com/product/cherry-mx-switch-sampler.asp)
 
-![De Wooting One (een Nederlands merk) is een toetsenbord waarbij je zelf kunt wisselen tussen red en blue switches.](https://fronteers.nl/_img/blog/wooting-one.jpg)
+![De Wooting One (een Nederlands merk) is een toetsenbord waarbij je zelf kunt wisselen tussen red en blue switches.](/_img/blog/wooting-one.jpg)
 
 <p class="note">
 De Wooting One (een Nederlands merk) is een toetsenbord waarbij je zelf kunt wisselen tussen red en blue switches.

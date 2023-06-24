@@ -131,6 +131,6 @@ This is the most important advice I can give you on CSS naming conventions. Ther
 
 ### Over Wilfred Nas
 
-<img src="/archief/_img/blog/2015/wilfrednas.jpeg" alt="Foto van Wilfred">
+<img src="/_img/blog/2015/wilfrednas.jpeg" alt="Foto van Wilfred">
 Freelance front end developer, loves to travel by rocket, father of two sons and founding member of the gang of 5. Nuts about html5 forms and semantics.
 He writes more at [wnas.nl](http://wnas.nl) and rants on twitter as [@wnas](https://twitter.com/wnas).

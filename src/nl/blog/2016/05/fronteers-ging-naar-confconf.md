@@ -26,7 +26,7 @@ De congresdag bestond uit vier talks en twee paneldiscussies. De sprekers dit ja
 
 We hoorden interessante parallellen met wat wij proberen te doen bij Fronteers Conference: duidelijk communiceren met sprekers, altijd vriendelijk zijn tegen bezoekers en leveranciers, video's na afloop gratis beschikbaar maken en de registratie in de congresmorgen zo eenvoudig en snel mogelijk laten verlopen.
 
-![Twee mannen met ConfConf badges](https://fronteers.nl/_img/blog/2016/thijsthomas.jpg)
+![Twee mannen met ConfConf badges](/_img/blog/2016/thijsthomas.jpg)
 
 Er kwamen ook dingen die wij juist niet deden: sommige organisatoren vertelden bijvoorbeeld over hun uitgebreide marketingstrategieën. En er werd veel gesproken over het benaderen van sponsoren. Omdat wij de afgelopen jaren vrij vlot zijn uitverkocht, zijn wij in een ware luxepositie beland. Onze focus kan daardoor veel meer op de inhoud liggen.
 
@@ -38,7 +38,7 @@ In de panels, de pauzes tussen de talks en de receptie na afloop was er voldoend
 
 We hebben veel geleerd van de anderen, en er werd driftig meegeschreven. Ook konden we zelf wat van onze kennis delen. Het was dus al met al een interessante dag voor de Fronteers-delegatie. Die zal het geleerde vast snel in de praktijk brengen voor [Fronteers Conference 2016](/congres/2016), waarvoor de verkoop voor de eerste batch kaartjes morgen (!) start.
 
-![Een deel van de Fronteers-delegatie, lopend op straat](https://fronteers.nl/_img/blog/2016/joelhidde.jpg)
+![Een deel van de Fronteers-delegatie, lopend op straat](/_img/blog/2016/joelhidde.jpg)
 
 _Discussie over BEM, onderweg naar de congreslocatie. 
 V.l.n.r.: Anneke, Joël, Thomas, Hidde_

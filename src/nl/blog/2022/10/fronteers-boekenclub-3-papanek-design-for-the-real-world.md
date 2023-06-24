@@ -8,7 +8,7 @@ categories:
 ---
 Op dinsdag 25 oktober bespraken we bij de derde Fronteers Boekenclub het boek ["Design for the Real World" van Victor Papanek](https://thamesandhudson.com/design-for-the-real-world-9780500295335).
 
-![Boekomslag voor "Design For The Real World" waarin de boektitel als losse woorden tussen een zin staat. De zin luidt: "Design is composing an epic poem, executing a mural, painting a masterpiece, writing a concerto. But design is also cleaning and reorganizing a desk drawer, pulling an impacted tooth, baking an apple pie, choosing sides for a backlot baseball game, and educating a child"](https://fronteers.nl/_img/papanek-design-for-the-real-world-200w.jpg)
+![Boekomslag voor "Design For The Real World" waarin de boektitel als losse woorden tussen een zin staat. De zin luidt: "Design is composing an epic poem, executing a mural, painting a masterpiece, writing a concerto. But design is also cleaning and reorganizing a desk drawer, pulling an impacted tooth, baking an apple pie, choosing sides for a backlot baseball game, and educating a child"](/_img/papanek-design-for-the-real-world-200w.jpg)
 
 Bij de derde editie van de Fronteers boekenclub lazen we Design For The Real World van Victor Papanek. Het lukte bijna niemand van ons om het boek van kaft tot kaft uit te lezen. Dat lag niet aan de inhoud, maar wel aan de schrijfstijl en verouderde voorbeelden.
 
@@ -32,7 +32,7 @@ Een veel beter boek over design is ‘The Design of Everyday Things’ van Donal
 
 ## FBC4: dinsdag 13 december
 
-![Boekomslag. Chantal Schinkels: "De IT Girl - hoe overleef je een door mannen gedomineerde werkvloer". Uitgegeven door Van Duuren Management](https://fronteers.nl/_img/de-it-girl-cover.png)
+![Boekomslag. Chantal Schinkels: "De IT Girl - hoe overleef je een door mannen gedomineerde werkvloer". Uitgegeven door Van Duuren Management](/_img/de-it-girl-cover.png)
 
 Bij de vierde aflevering bespreken we [‘De IT-Girl’ van Chantal Schinkels](https://chantalschinkels.nl/de-it-girl/), met als ondertitel ‘Hoe overleef je een door mannen gedomineerde werkvloer’. "Dit boek vertelt het eerlijke verhaal wat er momenteel in de Nederlandse tech sector afspeelt en wat we kunnen doen om daar verandering te brengen."
 

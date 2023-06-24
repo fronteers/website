@@ -8,7 +8,7 @@ categories:
 ---
 Op dinsdag 7 juni bespraken we bij de Fronteers Boekenclub het boek ["How Design Makes The World" van Scott Berkun](https://designmtw.com/).
 
-![Boekomslag voor "How Design Makes The World". Sommige letters zijn vervangen door producten als een hamburger, autowiel, Lego, de Eiffeltoren en een iPhone.](https://fronteers.nl/_img/omslag-design-makes-the-world-scott-berkun-200w.jpg)
+![Boekomslag voor "How Design Makes The World". Sommige letters zijn vervangen door producten als een hamburger, autowiel, Lego, de Eiffeltoren en een iPhone.](/_img/omslag-design-makes-the-world-scott-berkun-200w.jpg)
 
 Dit was de tweede keer dat we een boek bespraken. Leonard, Nina en Paul waardeerden het boek, al was de een enthousiaster dan de ander. De blurb beschrijft dit boek met:
 
@@ -37,7 +37,7 @@ We waren het eens over de leesbaarheid van het boek. Leuk geschreven, interessan
 
 ## FBC3: dinsdag 6 september
 
-![Boekomslag voor "Design For The Real World" waarin de boektitel als losse woorden tussen een zin staat. De zin luidt: "Design is composing an epic poem, executing a mural, painting a masterpiece, writing a concerto. But design is also cleaning and reorganizing a desk drawer, pulling an impacted tooth, baking an apple pie, choosing sides for a backlot baseball game, and educating a child"](https://fronteers.nl/_img/papanek-design-for-the-real-world-200w.jpg)
+![Boekomslag voor "Design For The Real World" waarin de boektitel als losse woorden tussen een zin staat. De zin luidt: "Design is composing an epic poem, executing a mural, painting a masterpiece, writing a concerto. But design is also cleaning and reorganizing a desk drawer, pulling an impacted tooth, baking an apple pie, choosing sides for a backlot baseball game, and educating a child"](/_img/papanek-design-for-the-real-world-200w.jpg)
 
 De derde aflevering van de Fronteers Boekenclub is op dinsdag 6 september tussen 20:00 en 21:30. Dan lezen we een klassieker uit 1971, namelijk Victor Papanek: “Design For The Real World”. Weer een boek over design, ja. Er begint een rode lijn te ontstaan.
 

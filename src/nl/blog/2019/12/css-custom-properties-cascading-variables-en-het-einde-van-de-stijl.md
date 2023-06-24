@@ -251,6 +251,6 @@ Tot slot een leuk stukje code uit een [tweet van Micah Godbolt](https://twitter.
 Bedenk eerst zelf wat je antwoord zal zijn en kijk daarna pas naar het [antwoord](https://codepen.io/edwinm/pen/bGGOdpa). Aan de stembalkjes in de [tweet](https://twitter.com/micahgodbolt/status/1131626097349496833?s=20) te zien, zitten er nogal wat mensen naast. Bedenk ook waarom het juiste antwoord het juiste antwoord is.
 
 ### Over Edwin Martin
-<!-- <img src="/archief/_img/adventskalender/edwin.jpg" alt="Foto van Edwin Martin" class="floating-portrait"> -->
+<img src="/_img/adventskalender/edwin.jpg" alt="Foto van Edwin Martin" class="floating-portrait" /> 
 Edwin is freelance frontend webontwikkelaar en woont in Hilversum. Hij [blogt](https://bitstorm.org/), twittert in het Engels over frontendzaken op [@edwinmdev](https://mobile.twitter.com/edwinmdev/) en schrijft af en toe [stukjes code](https://github.com/edwinm).
 Edwins donatie gaat naar Bits of Freedom.

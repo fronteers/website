@@ -7,7 +7,7 @@ categories:
 ---
 Zelf, met de hand, een website maken is tegenwoordig zo lastig nog niet. Echter, een grote maatwerk website is heel andere koek. In het begin lijkt het wel simpel maar iedere beslissing heeft invloed op je volgende beslissing en één verkeerde beslissing kan heel snel tot frustratie leiden. Mocht je toevallig het (on)geluk hebben om meerdere grote websites te maken en te onderhouden, dan ben je, als je niet uitkijkt, al heel snel de sigaar.
 
-![](https://fronteers.nl/_img/2011/12/patterns-box.png)
+![](/_img/2011/12/patterns-box.png)
 
 Waarom? Niets blijft hetzelfde en het maken van een website is een oefening in constante verandering.
 
@@ -118,7 +118,7 @@ Dit is uiteraard maar een begin en patronen zijn een goed begin voor ieder proje
 Dus, waar wacht je nog op!? Start je volgende project met een van de bovenstaande patronen of bouw ze zelf!
 
 ### Over Egor Kloos
-<!-- <img src="/archief/_img/2011/12/egor-kloos.jpg" alt="Foto van egor kloos uit 2011" class="floating-portrait"> -->
+<img src="/_img/2011/12/egor-kloos.jpg" alt="Foto van egor kloos uit 2011" class="floating-portrait" /> 
 Geboren in Dublin en woont al decennia in Rotterdam. [Dutchcelt](http://dutchcelt.nl/ "Weblog van Egor Kloos") creëert sinds 1997 met bloed zweet en tranen moderne websites. Vanaf het begin is 'Web Standards' een passie geweest. De kracht van CSS werd hem heel snel duidelijk en resulteerde in zijn 2003 [CSS Zen Garden inzending](http://www.csszengarden.com/062 "Egor's dubbelzinnige 'gemination'"). Twee site designs (eentje voor IE6) via en enkele CSS en javascript.
 Hiermee legde hij de basis voor het maken (en herbouwen) van grote websites in de Enterprise wereld. Daar begeleidt hij zijn klant in alles wat web design en moderne front-end te maken heeft. Nu hij voor [Lunatech Research](http://www.lunatech-research.com/) werkt, heeft hij een deel van zijn [kennis in front-end online](http://www1.lunatech.com/~egor/fep/) kunnen zetten.
 

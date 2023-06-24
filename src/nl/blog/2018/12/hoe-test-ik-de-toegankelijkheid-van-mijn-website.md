@@ -7,13 +7,13 @@ categories:
 ---
 Top! Je wil testen of je website toegankelijk is voor iedereen. Daarmee help je niet alleen de mensen met een beperking, waarvan er steeds meer zijn in onze vergrijzende maatschappij. Een toegankelijke website is voor iedereen fijner in gebruik, en er zijn nog veel meer [goede redenen](https://www.w3.org/WAI/bcase/Overview) om met toegankelijkheid aan de slag te gaan.
 
-![Twee drempels met opgangen voor rolstoelen, maar in het midden een bord “”Keep clear for wheelchair users” dat de toegang verspert](https://fronteers.nl/_img/adventskalender/toegankelijkheid-testen/keep-clear-accessibility-fail.jpg)
+![Twee drempels met opgangen voor rolstoelen, maar in het midden een bord “”Keep clear for wheelchair users” dat de toegang verspert](/_img/adventskalender/toegankelijkheid-testen/keep-clear-accessibility-fail.jpg)
 
 # Geef mij maar een uitdaging!
 
 Je zou de [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG/) (WCAG) door kunnen nemen. Deze richtlijn van het W3C is verankerd in [regelgeving](https://www.w3.org/WAI/policies/) en is internationaal de standaard voor toegankelijkheid. Als je dit document tot je wil nemen ben je wel even bezig. WCAG bestaat uit 4 principles met 13 guidelines die onderverdeeld zijn in 78 success criteria. En die gaan dan weer gepaard met een paar honderd "techniques and failures". Je voelt hem misschien al aankomen: de meest gebruikte richtlijn is niet het meest toegankelijke startpunt.
 
-![Driehoekig waarschuwingsbord met rolstoel die van helling af glijdt](https://fronteers.nl/_img/adventskalender/toegankelijkheid-testen/wheelchair-sign.jpg)
+![Driehoekig waarschuwingsbord met rolstoel die van helling af glijdt](/_img/adventskalender/toegankelijkheid-testen/wheelchair-sign.jpg)
 
 # Vijf simpele tests om de toegankelijkheid van mijn website testen
 
@@ -29,7 +29,7 @@ Nu kan ik me voorstellen dat je je bij deze getallen niks kan voorstellen. Geluk
 
 Als je eenmaal een tool gekozen hebt kun je alle teksten op je website nagaan.
 
-![Rolstoelopgang die begint met 1 traptrede](https://fronteers.nl/_img/adventskalender/toegankelijkheid-testen/ally.jpg)
+![Rolstoelopgang die begint met 1 traptrede](/_img/adventskalender/toegankelijkheid-testen/ally.jpg)
 
 # Simpele test 2: Zoom in en uit
 
@@ -41,7 +41,7 @@ Een deel van je bezoekers zal gebruiken maken van zogenaamde assistive technolog
 
 Test dus even met je toetsenbord of alles werkt. Ga met TAB door je pagina, en weer terug met SHIFT-TAB. Kijk of je al je interactieve elementen (knoppen, links, formulieren, etc) kan bereiken, en of je ze kan bedienen. Let ook goed op of het altijd zichtbaar is welk element de focus van je toetsenbord heeft.
 
-![Trap met latten die eroverheen liggen](https://fronteers.nl/_img/adventskalender/toegankelijkheid-testen/lb-prague-kunta-hora-14.jpg)
+![Trap met latten die eroverheen liggen](/_img/adventskalender/toegankelijkheid-testen/lb-prague-kunta-hora-14.jpg)
 
 # Simpele test 4: Doe een automatische test
 
@@ -53,7 +53,7 @@ Er zijn verschillende tools die je kan gebruiken. Zelf ben ik een erg tevreden g
 
 De laatste optie is misschien wel de makkelijkste om mee te beginnen. De aXe extensie geeft je developer tools een nieuw tabje met een mooie analyze-knop. Na een druk op de knop krijg je alle issues te zien. Ik zou eerst filteren op "Violations" in plaats van "All issues", dat maakt het een stuk praktischer. Vervolgens krijg je een overzichtelijke lijst met issues inclusief omschrijving, locatie, oplossing en een hele waardevolle "Learn more"-link waar enorm veel nuttige informatie achter zit.
 
-![Bord weelchair ramp available pleas ask at counter](https://fronteers.nl/_img/adventskalender/toegankelijkheid-testen/1514154-408320525965919-1541568371-n-grande.jpg)
+![Bord weelchair ramp available pleas ask at counter](/_img/adventskalender/toegankelijkheid-testen/1514154-408320525965919-1541568371-n-grande.jpg)
 
 # Simpele test 5: Screen reader
 
@@ -67,7 +67,7 @@ Op MacOS heb je [VoiceOver](https://www.apple.com/lae/accessibility/mac/vision/)
 
 Op Windows heb je onder andere [NVDA](https://www.nvaccess.org/) dat het beste werkt met Firefox. Bekijk de [NVDA cheatsheet bij Deque](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts).
 
-![zeer steile trap met daarnaast even steile helling met daarop bord voor rolstoepgebruikers](https://fronteers.nl/_img/adventskalender/toegankelijkheid-testen/m3ed6g0adn001.jpg)
+![zeer steile trap met daarnaast even steile helling met daarop bord voor rolstoepgebruikers](/_img/adventskalender/toegankelijkheid-testen/m3ed6g0adn001.jpg)
 
 # Ok, dan ben ik klaar!
 
@@ -91,10 +91,10 @@ En om af te sluiten nog een aantal praktische bronnen voor als je nog meer wil w
 
 [W3C - WAI - How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
 
-![](https://fronteers.nl/_img/adventskalender/toegankelijkheid-testen/title-describes-topic-or-purpose.jpeg)
+![](/_img/adventskalender/toegankelijkheid-testen/title-describes-topic-or-purpose.jpeg)
 
 ### Over Erik Kroes
-<!-- <img src="/archief/_img/adventskalender/erik.jpg" alt="Foto van Erik Kroes" class="floating-portrait"> -->
+<img src="/_img/adventskalender/erik.jpg" alt="Foto van Erik Kroes" class="floating-portrait" /> 
 Erik is onderdeel van het accessibility team van ING. Elke dag probeert hij weer zijn steentje bij te dragen aan de digitale toegankelijkheid van de apps en websites. Daarnaast is hij creatief actief en maakt hij onder andere illustraties voor de Volkskrant.
 
 Donatie: de Hersenstichting

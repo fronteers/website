@@ -7,7 +7,7 @@ categories:
 ---
 In het begin van het web was dat niet zo veel: de browser deed alles voor je. Het enige waar je controle over had was je HTML. Met semantische [HTML-tags](https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html) gaf je betekenis aan stukjes van je pagina, zoals `<h1>` tot `<h6>` voor kopjes. Je browser besloot dan hoe dat er uit zag. Zo werden kopjes in hoofdletters weergegeven op monochrome tekst-terminals, of groter en dikgedrukt in grafische browsers.
 
-![Screenshot van Mosaic 1.0 met het Choose Font menu opengeklapt: Gebruikers konden voor elk soort tag instellen hoe het er uit zag.](https://fronteers.nl/_img/adventskalender/lettertypes/blog-1.png)
+![Screenshot van Mosaic 1.0 met het Choose Font menu opengeklapt: Gebruikers konden voor elk soort tag instellen hoe het er uit zag.](/_img/adventskalender/lettertypes/blog-1.png)
 
 In de loop van de jaren werd gelukkig steeds meer mogelijk. Zo kregen we met [HTML 2.0](https://www.w3.org/MarkUp/html-spec/html-spec_5.html) niet alleen meer semantische tags zoals `<em>` en `<strong>`, maar ook de typografische tags waarmee we tekst expliciet vet (`<b>`), cursief (`<i>`) of monospaced (`<tt>`) konden maken.
 
@@ -15,7 +15,7 @@ Met [HTML 3.2](https://www.w3.org/TR/2018/SPSD-html32-20180315/#body) kregen we 
 
 Niet dat er veel keuze was, je was beperkt tot het gebruiken van een lettertype dat gebruikers op hun computer hadden staan. In praktijk betekende dit je te beperken tot één van de elf [TrueType core fonts for the Web](https://web.archive.org/web/19990117012320/http://www.microsoft.com:80/typography/faq/faq8.htm) van Microsoft.
 
-![Afbeelding van de elf core fonts for the web: Andale Mono, Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana en Webdings](https://fronteers.nl/_img/adventskalender/lettertypes/blog-7.png)
+![Afbeelding van de elf core fonts for the web: Andale Mono, Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana en Webdings](/_img/adventskalender/lettertypes/blog-7.png)
 
 # CSS
 
@@ -82,19 +82,19 @@ Als je een webfont gebruikt, heb je voor elke `font-weight` een apart bestand no
 }
 ```
 
-![Afbeelding van de negen diktes van het lettertype Exo 2](https://fronteers.nl/_img/adventskalender/lettertypes/blog-6.png)
+![Afbeelding van de negen diktes van het lettertype Exo 2](/_img/adventskalender/lettertypes/blog-6.png)
 
 # Stretch
 
 Lettertypes hebben soms meerdere breedtes, deze kan je kiezen met `font-stretch`. Er zijn 9 waardes: `ultra-condensed`, `extra-condensed`, `condensed`, `semi-condensed`, `normal`, `semi-expanded`, `expanded`, `extra-expanded` en `ultra-expanded`. Sinds kort mag je ook percentages gebruiken zodat je een oneindig aantal breedtes kan hebben, maar dat ondersteunen veel browsers nog niet. `normal` komt dan overeen met 100%, `ultra-condensed` met 25% en `ultra-expanded` met `200%`.
 
-![Afbeelding van Encode Sans met 5 verschillende breedtes.](https://fronteers.nl/_img/adventskalender/lettertypes/blog-8.png)
+![Afbeelding van Encode Sans met 5 verschillende breedtes.](/_img/adventskalender/lettertypes/blog-8.png)
 
 # Cursief vs obliek
 
 Veel lettertypes hebben een cursieve (italic in het Engels) variant. Deze kan je gebruiken met `font-style: italic;`. Tekst simpelweg schuin zetten kan met `font-style: oblique;`, sommige variabele lettertypes hebben tegenwoordig ook ondersteuning voor tekst onder een specifieke hoek schuin te zetten: `font-style: oblique 14deg;`. Meer over variabele lettertypes later.
 
-![Afbeelding van het lettertype Jost* in drie varianten: romein, obliek en cursief.](https://fronteers.nl/_img/adventskalender/lettertypes/blog-5.png)
+![Afbeelding van het lettertype Jost* in drie varianten: romein, obliek en cursief.](/_img/adventskalender/lettertypes/blog-5.png)
 
 Als het lettertype dat je gebruikt geen italic, bold of small-caps ondersteunt, kan een browser die voor je nadoen. Meestal niet zo mooi als een ‘echte’ bold, italic of small-caps, maar het kan goed genoeg zijn. Als je niet wil dat je browser die eigenschappen faket, kan je het uit zetten met `font-synthesis: none;`. Browser ondersteuning hiervoor is helaas [belabberd](https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis#Browser_Compatibility).
 
@@ -102,13 +102,13 @@ Als het lettertype dat je gebruikt geen italic, bold of small-caps ondersteunt, 
 
 Overhang (kerning in het Engels) tussen verschillende lettercombinaties kan bepaald worden door een lettertype. Dit zorgt voor fijner lezende tekst. Normaalgesproken staat dit aan, maar dit kan uit gezet worden met `font-kerning: none;`.
 
-![Afbeelding van Abril Fatface met overhang aan en uit.](https://fronteers.nl/_img/adventskalender/lettertypes/blog-4.png)
+![Afbeelding van Abril Fatface met overhang aan en uit.](/_img/adventskalender/lettertypes/blog-4.png)
 
 # Ligaturen
 
 Met ligaturen worden een set aan gliefen die naast elkaar staan vervangen door een enkele. Een veel voorkomend voorbeeld is de lettercombinatie `f` `i`. Maar hou er rekening mee dat ligaturen taalafhankelijk kunnen zijn. Het turks bijvoorbeeld heeft zowel de letter `i` als `ı` (een i zonder punt). Met een normale fi ligatuur valt dat verschil weg, een goed lettertype houdt hier rekening mee, zorg dus altijd voor de juiste `lang` attributen in je pagina.
 
-![Afbeelding van fi en fı zonder ligaturen, en met ligaturen in het Nederlands en Turks.](https://fronteers.nl/_img/adventskalender/lettertypes/blog-2.png)
+![Afbeelding van fi en fı zonder ligaturen, en met ligaturen in het Nederlands en Turks.](/_img/adventskalender/lettertypes/blog-2.png)
 
 Ligaturen worden in verschillende categorieën onderverdeeld die individueel aan en uitgezet kunnen worden. De fi ligatuur valt onder de alledaagse ligaturen (`common-ligatures`).
 
@@ -134,7 +134,7 @@ Met `font-variant-numeric: lining-nums;` of `font-variant-numeric: oldstyle-nums
 
 Met `font-variant-numeric: proportional-nums;` of `font-variant-numeric: tabular-nums` kan je kiezen tussen cijfers met variabele of vaste breedte, wat soms handig kan zijn voor tabellen, rekening nummers etc.
 
-![Afbeelding van proportional-nums en tabular-nums in Times New Roman, lining-nums en oldstyle-nums in Garamond](https://fronteers.nl/_img/adventskalender/lettertypes/blog-3.png)
+![Afbeelding van proportional-nums en tabular-nums in Times New Roman, lining-nums en oldstyle-nums in Garamond](/_img/adventskalender/lettertypes/blog-3.png)
 
 Andere opties zijn: `slashed-zero` voor een streep door (of stip in) het cijfer 0, om meer onderscheid te maken met de hoofdletter O. Met `diagonal-fractions` en `stacked-fractions` kunnen breuken netter weergegeven worden en met `ordinal` blijven cijfers normaal maar worden alle letters superscript, voor het gebruik als rangtelwoorden (1e).
 
@@ -142,7 +142,7 @@ Andere opties zijn: `slashed-zero` voor een streep door (of stip in) het cijfer 
 
 Lettertypes kunnen variaties van gliefen bevatten. Denk aan extra sierlijke varianten van hoofdletters of een ronde g inplaats van een bolletjes-g.
 
-![Afbeelding van alternatieve gliefen in Plex, het nieuwe lettertype van IBM.](https://fronteers.nl/_img/adventskalender/lettertypes/blog-9.png)
+![Afbeelding van alternatieve gliefen in Plex, het nieuwe lettertype van IBM.](/_img/adventskalender/lettertypes/blog-9.png)
 
 Variaties vallen in de volgende categorieën:
 
@@ -237,7 +237,7 @@ Probeer het uit! Met een snel inelkaargeflanst pagina’tje kan je leuk experime
 ```
 
 ### Over Amy Davis
-<!-- <img src="/archief/_img/adventskalender/amy.jpg" alt="Foto van Amy Davis" class="floating-portrait"> -->
+<img src="/_img/adventskalender/amy.jpg" alt="Foto van Amy Davis" class="floating-portrait" /> 
 Ik ben opgegroeid met computers, en altijd gefascineerd geweest door het web, HTML, CSS en JS. In het dagelijkse leven ben ik Senior Front-end developer bij [B-ware Business Software](https://www.b-ware.com). Sinds 2016 ben ik lid van Fronteers en de meeste dagen te vinden op de [Fronteers Slack](https://fronteers-slack.herokuapp.com/). Mijn favoriete kleur is #6c48a4.
 
 Donatie: Wikimedia Foundation

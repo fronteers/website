@@ -94,7 +94,7 @@ Wil je meer lezen? Hier enkele leestips:
 * [Understanding CSS Stats: How to Make the Most of the Numbers](https://webdesign.tutsplus.com/tutorials/understanding-css-stats-how-to-make-the-most-of-the-numbers--cms-22756)
 
 ### Over Bart Veneman
-<img src="/archief/_img/adventskalender/bart.jpeg" alt="Foto van bart" class="floating-portrait">
+<img src="/_img/adventskalender/bart.jpeg" alt="Foto van bart" class="floating-portrait">
 Bart is frontend developer met een sterke voorliefde voor CSS op elke schaal, maar is ook niet vies van een portie backend op zijn tijd. Al zijn vaardigheden bundelt hij in het bouwen van [ProjectWallace.com](http://projectwallace.com/), een platform voor CSS analytics.
 
 Donatie: KiKa!

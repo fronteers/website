@@ -8,7 +8,7 @@ categories:
 ---
 Op *woensdag 27 september 2017* vliegt Fronteers België er terug in met onze tweede meetup. Ditmaal zijn we te gast bij [Teamleader](https://public.teamleader.be/nl-be/) in *Gent*. De talks worden voorzien door *Roel Van Gils* en *Thomas Coopman*. De bijeenkomst is gratis voor leden en niet-leden, en Teamleader zorgt voor iets lekkers te eten!
 
-![](https://fronteers.nl/_img/bijeenkomsten/teamleader-top.jpg)
+![](/_img/bijeenkomsten/teamleader-top.jpg)
 
 # Programma
 
@@ -25,7 +25,7 @@ Op *woensdag 27 september 2017* vliegt Fronteers België er terug in met onze tw
 
 ## Talk 1: WAI-ARIA: De Renaissance
 
-![](https://fronteers.nl/_img/bijeenkomsten/roelvangils.jpg)
+![](/_img/bijeenkomsten/roelvangils.jpg)
 
 [ARIA](https://www.w3.org/WAI/intro/aria) wordt 11. Op 26 september 2006 zag de eerste Working Draft van deze specificatie voor Accessible Rich Internet Applications het levenslicht. In 2014 studeerde ARIA trots af als 'W3C Recommendation', maar browser vendors en front-end developers namen haar niet bepaald ernstig. ARIA ging bovendien lang gebukt onder een zware identiteitscrisis.
 
@@ -41,7 +41,7 @@ Roel Van Gils ([@roelvangils](https://github.com/roelvangils)) is een freelance 
 
 ## Talk 2: Front-end microservices: Avoiding the frontend monolith
 
-![](https://fronteers.nl/_img/bijeenkomsten/thomascoopman.jpg)
+![](/_img/bijeenkomsten/thomascoopman.jpg)
 
 Op de backend is de monolith al een hele tijd "not done". Er bestaan een heleboel technieken en good practices om de monolith te vermijden, we kennen allemaal de microservices.
 
@@ -52,7 +52,7 @@ In deze talk bekijken we enkele mogelijkheden om de frontend monolith te vermijd
 
 Thomas Coopman ([@tcoopman](https://github.com/tcoopman)) is een Front-end consultant actief binnen Teamleader.
 
-![](https://fronteers.nl/_img/bijeenkomsten/teamleader.jpg)
+![](/_img/bijeenkomsten/teamleader.jpg)
 
 # Locatie
 
