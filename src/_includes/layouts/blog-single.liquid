@@ -16,8 +16,8 @@
             <div class="single-blog-hero-content ">
                 <div class="content-wrapper">
                     {% unless useHero %}
-            <h2>{{ title }}</h2>
-        {% endunless %}  
+                        <h2>{{ title }}</h2>
+                    {% endunless %}  
 
                     <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
                         {{ date | displayDate: locale  | date: "%d.%m.%y" }}
@@ -52,8 +52,9 @@
                 {{ content }}
             </div>
         </div>
-
     </main>
+
+    {%- include partials/utility/edit-this-page -%}
 
     {%- include partials/page-footer/_page-footer  -%}
 </body>

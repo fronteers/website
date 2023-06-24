@@ -99,7 +99,8 @@ a[aria-current="page"] {
 
   li:hover > .navigation-list--sublevel:not(:empty),
   a:hover + .navigation-list--sublevel:not(:empty),
-  a:focus + .navigation-list--sublevel:not(:empty) {
+  a:focus + .navigation-list--sublevel:not(:empty),
+  .navigation-list-item--toplevel:focus-within .navigation-list--sublevel:not(:empty) {
     display: block;
   }
 }
