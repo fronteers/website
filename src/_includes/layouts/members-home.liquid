@@ -18,6 +18,51 @@
                 {%- endfor -%}
             </ul>
 
+
+        
+
+            <table>
+                <thead>
+                    <td>Naam</td>
+                    <td>Werkgever</td>
+                </thead>
+                <tbody>
+                    {%- for lid in members-list %}
+                        {% unless lid.naam == "EOF" %}
+                        <tr>
+                            <td>
+                                {%- for member in members -%}
+                                    {%- if member.data.title == lid.naam -%}
+                                        {%- assign memberHasAProfilePage = true -%}
+                                        {%- assign memberUrl = member.url -%}
+                                    {%- else -%}
+                                        {%- assign memberHasAProfilePage = false -%}
+                                    {%- endif -%}
+                            
+                                    {%- if memberHasAProfilePage -%}
+                                        <a href="{{ memberUrl }}">
+                                            {{ lid.naam }}</a>
+                                        {% break %}
+                                    {%- else -%}
+                                        <span class="blog-author">{{ lid.naam }}</span>
+                                    {%- endif -%}
+                                    {% break %}
+                                {%- endfor -%}
+                            </td>
+                            <td>
+                                {% if lid.werkgever == "-" %}
+                                {% else %}
+                                {{ lid.werkgever }}
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endunless %}
+                    {% endfor -%}
+                </tbody>
+            </table>
+
+
+
             {%- include partials/pagination -%}
         </div>
     </main>
