@@ -28,10 +28,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffce2e">
 
-    {%- for language in site.languages -%}
-        <link rel="alternate" hreflang="{{ language.hreflang }}" href="/{{ language.code }}/" />
-    {%- endfor -%}
-
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://fronteers-beta.netlify.app/assets/images/social-share/og-image-{{ locale }}.jpeg">
     <meta property="og:image:alt" content="Image of Fronteers website" />
