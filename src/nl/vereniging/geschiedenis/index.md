@@ -31,10 +31,10 @@ De volgende leden hebben gedurende het bestaan van Fronteers zitting gehad in he
 | Thomas van Zuijlen   |2015-2016 | Algemeen bestuurslid |
 | Michael Hastrich     |2016      | Algemeen bestuurslid |
 | Roy Tomeij           |2016-2017 | Algemeen bestuurslid |
-| Sander Vink          |2016-     | Penningmeester |
+| Sander Vink          |2016-2022 | Penningmeester |
 | Anneke Sinnema       |2017-     | Voorzitter |
 | Edwin Martin         |2017-     | Secretaris |
-| Wim van Iersel       | 2022-    | Penningmeester-in-training, Algemeen bestuurslid |
+| Wim van Iersel       |2022-     | Penningmeester |
 
 ### Ereleden
 
