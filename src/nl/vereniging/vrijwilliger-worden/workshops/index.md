@@ -1,6 +1,6 @@
 ---
 title: Vacature commissie Workshops
-
+heroSlogan: ""
 ---
 Voor de Fronteers Workshopscommissie zijn we op zoek naar 1 of 2 nieuwe vrijwilligers!
 
