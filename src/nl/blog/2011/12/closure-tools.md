@@ -135,7 +135,7 @@ twitter.addEventListener(
 Het blijft lastig om zo’n uitgebreide toolset in een keer te introduceren, maar zoals je wellicht al hebt gemerkt, zijn de mogelijkheden eindeloos. Mocht je in de nabije toekomst een project hebben waarbij flink wat JavaScript nodig is, duik dan snel wat dieper in deze toolset. Het is een hele opluchting om er mee te mogen werken. Iedereen die hiermee aan de slag wil, kan ik dan ook van harte het boek ‘Closure: The Definitive Guide’ aanraden.
 
 ### Over Johan Schuyt
-<!-- <img src="/archief/_img/2011/12/johan-schuyt.jpg" alt="Foto van johan schuyt uit 2011" class="floating-portrait"> -->
+<img src="/_img/2011/12/johan-schuyt.jpg" alt="Foto van johan schuyt uit 2011" class="floating-portrait" /> 
 Johan is werkzaam bij [TransIP](https://www.transip.nl/) waar hij zich voornamelijk bezighoudt met alle client-side ontwikkelingen. Ook zijn er veel blog posts van hem te vinden op op [blog.transip.nl](http://blog.transip.nl/). Van tijd tot tijd zal hij wat ventileren op zijn Twitter account [@johansglock](https://twitter.com/johansglock).
 
 Donatie: [Red een kind](http://www.redeenkind.nl/)

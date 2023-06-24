@@ -258,7 +258,7 @@ Natuurlijk is het niet alleen maar rozengeur en maneschijn. Zo kunnen tests alle
 Maar ondanks dat kan Cypress bij veel projecten een groot deel van de kopzorgen die je als developer kan hebben wegnemen. Het zorgt er in ieder geval voor dat ik komende kerstdagen met een gerust hart nog een stukje kip en champignon in mijn pannetje gooi…
 
 ### Pieter Beekman
-<!-- <img src="/archief/_img//adventskalender/pieter(1).jpg" alt="Foto van Pieter" class="floating-portrait"> -->
+<img src="/_img//adventskalender/pieter(1).jpg" alt="Foto van Pieter" class="floating-portrait" /> 
 
 Pieter is frontend developer bij Dekbed Discounter en werkt hier aan diverse platforms. Met de andere frontenders probeert hij iedere dag (nog) betere conversies te behalen door het toepassen van betere, snellere en mooiere code. Als zijn VS Code even uitstaat speelt hij het liefste boardgames.
 Pieters donatie gaat naar KiKa.

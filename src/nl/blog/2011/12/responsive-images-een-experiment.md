@@ -181,7 +181,7 @@ Ik heb dit artikel (en het script) in de eerste plaats geschreven om m'n eigen g
 Ten slotte wil ik graag JavaScript-whizzkid [Mathias Bynens](https://mathiasbynens.be/) bedanken omdat hij zo vriendelijk was om het JavaScript-gedeelte van Mingy met een kritisch oog te bekijken en te optimaliseren. Want eigenlijk ben ik maar een wannabe-developer.
 
 ### Over Roel Van Gils
-<img src="/archief/_img/2011/12/roel-van-gils.jpg" alt="Foto van roel van gils" class="floating-portrait">
+<img src="/_img/2011/12/roel-van-gils.jpg" alt="Foto van roel van gils" class="floating-portrait">
 Roel Van Gils noemt zichzelf webarchitect. Als zelfstandig consultant geeft hij advies en helpt bedrijven en overheden met het bouwen van efficiënte, toegankelijke en gebruiksvriendelijke websites en applicaties. Hij werkt voor het web sinds 2000 en is mede-initiatiefnemer van [AnySurfer](http://www.anysurfer.be/), een Belgische organisatie die ijvert voor een toegankelijker internet voor mensen met een handicap. Roel steekt ook graag een handje toe bij het organiseren van [Fronteers-bijeenkomsten](/bijeenkomsten) in Vlaanderen. Hij twittert als [@roelvangils](https://twitter.com/roelvangils).
 
 Donatie: Belgisch Centrum voor Geleidehonden

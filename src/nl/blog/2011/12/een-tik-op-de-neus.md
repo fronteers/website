@@ -104,7 +104,7 @@ Natuurlijk bestaan niet alle sites uit alleen maar navigatie, tekstjes en fotoot
 Een haai een tik op zijn neus geven lijkt eenvoudig, is toch redelijk complex maar is ook goed te overzien, zeker als je het een paar keer hebt gedaan. Ik hoop dat dit artikel je op weg heeft geholpen, niet in het geven van tikken maar wel in het maken van fantastische responsieve designs. Bouw vanuit de content, vanuit de basis, en pas de boel aan aan de mogelijkheden van het apparaat waarmee men toevallig kijkt. [Het voorbeeld wat ik heb gemaakt](/_downloads/2011/haaien/stap-11/) is natuurlijk erg eenvoudig, dat kan je zelf vast veel beter.
 
 ### Over Vasilis van Gemert
-<img src="/archief/_img/2011/12/vasilis-van-gemert.jpg" alt="Foto van vasilis van gemert" class="floating-portrait">
+<img src="/_img/2011/12/vasilis-van-gemert.jpg" alt="Foto van vasilis van gemert" class="floating-portrait">
 Vasilis van Gemert wil graag dat iedereen een betere front-end developer is dan hijzelf (hetgeen niet zo heel moeilijk is). Zolang dat nog niet zo is, zal hij zijn best doen om er voor te zorgen dat dat wel gebeurt. Dat doet hij onder andere door zich in te zetten voor Fronteers, door (ongeveer) dagelijks de [Daily Nerd](http://dailynerd.nl/) te schrijven en door principal front-end developer te zijn bij [Mirabeau](http://mirabeau.nl). In die functie probeert hij er ook voor te zorgen dat (grote) bedrijven (_én_ concurrenten) betere websites gaan maken. Want ook dat vindt hij belangrijk.
 
 Donatie: [Electronic Frontier Foundation](https://www.eff.org/)

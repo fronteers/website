@@ -40,7 +40,7 @@ Aan het eind van de dag zal het project worden opgeleverd. Ik ben er van overtui
 Wat voor skills en persoonlijke vaardigheden dient een front-end developer eigenlijk nog meer te hebben volgens jou?
 
 ### Over Sander Langendoen
-<!-- <img src="/archief/_img/adventskalender/sanderlangendoen.jpg" alt="Foto van Sander Langendoen" class="floating-portrait"> -->
+<img src="/_img/adventskalender/sanderlangendoen.jpg" alt="Foto van Sander Langendoen" class="floating-portrait" /> 
 Ik ben Sander Langendoen. Freelance Front-end Developer. Front-end development blijft voor mij een nog niet uitgespeelde game. Ik ben blij dat ik iedere dag betaald mijn hobby mag uitoefenen.
 Donatie
 The Face This foundation is een stichting die Indonesische schooltjes in nood helpt. Ze vragen de leerlingen tekeningen te maken, en vragen op hun beurt getalenteerde artiesten de tekeningen te verwerken op t-shirt prints. Heb jij een cool shirt of hippe trui. Met de opbrengst van de shirts supporten ze weer de schooltjes.

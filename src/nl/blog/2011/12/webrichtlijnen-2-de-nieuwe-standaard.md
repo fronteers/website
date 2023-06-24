@@ -58,7 +58,7 @@ Voor wie de verschillen wil zien tussen WCAG1.0 en WCAG2.0 staat hier het [mappi
 Al met al een hoop veranderingen voor een meer flexibele en toekomstgerichte set Webrichtlijnen, waar de huidige gebruikte technieken beter in passen. En met de mogelijkheid van een AMvB is er eindelijk ook een stok achter de deur voor (mede-)overheden om er echt aan te gaan voldoen.
 
 ### Over Janita Top
-<!-- <img src="/archief/_img/2011/12/janita-top.jpg" alt="Foto van janita top uit 2011" class="floating-portrait"> -->
+<img src="/_img/2011/12/janita-top.jpg" alt="Foto van janita top uit 2011" class="floating-portrait" /> 
 Janita is freelance front-end developer en zit namens Fronteers in de Normcommissie Drempelvrij.nl. Haar kernwoorden, zowel in werk als privé, zijn kwaliteit en duurzaamheid. Ze is gek op (trein)reizen, fietsen en gaat geregeld naar (pop)concerten.
 Ze is te vinden op [Twitter](https://twitter.com/sigvi) en op haar eigen website [janitatop.nl](http://www.janitatop.nl/).
 

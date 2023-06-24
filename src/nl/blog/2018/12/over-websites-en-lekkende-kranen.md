@@ -152,7 +152,7 @@ Ik geef het niet graag toe, maar mijn website is eigenlijk nog steeds een lekken
 * [https://fronteers.nl/workshops/workshop-netlify-static-site-generators](https://fronteers.nl/workshops/workshop-netlify-static-site-generators)
 
 ### Over Josee Wouters
-<img src="/archief/_img/adventskalender/josee-square.jpg" alt="Foto van Josee" class="floating-portrait">
+<img src="/_img/adventskalender/josee-square.jpg" alt="Foto van Josee" class="floating-portrait">
 Front-end developer en vrijwilliger bij Fronteers. Werkt naast haar reguliere werk ook freelance en heeft in haar vrije tijd een app genaamd What Dinner? gemaakt. Programmeert ook graag met Arduino.
 
 Donatie: Nationaal Fonds Kinderhulp

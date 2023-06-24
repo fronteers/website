@@ -116,7 +116,7 @@ Op het [jQuery-blog](http://blog.jquery.com/2011/11/08/building-a-slimmer-jquery
 Dit artikel is slechts een introductie in de werking van het deferred-object. jQuery ondersteunt nog veel meer functies. Bekijk de [jQuery deferred documentatie](http://api.jquery.com/category/deferred-object/) voor alle mogelijkheden. Zo is het bijvoorbeeld ook mogelijk om met promises de voortgang van een proces bij te houden.
 
 ### Over Edwin Martin
-<!-- <img src="/archief/_img/2011/12/edwin-martin.jpg" alt="Foto van edwin martin uit 2011" class="floating-portrait"> -->
+<img src="/_img/2011/12/edwin-martin.jpg" alt="Foto van edwin martin uit 2011" class="floating-portrait" /> 
 Edwin Martin is freelance front-end webontwikkelaar en woont met vrouw en twee dochtertjes in Hilversum. Binnen Fronteers helpt hij mee met het organiseren van de Fronteers conferentie. Hij houdt een blog bij over front-end op [bitstorm.org](http://www.bitstorm.org/) en is te vinden op twitter als [@edwinm](https://twitter.com/edwinm).
 
 Donatie: [Electronic Frontier Foundation](https://www.eff.org/)

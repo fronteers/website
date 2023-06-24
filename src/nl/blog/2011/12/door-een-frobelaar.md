@@ -56,7 +56,7 @@ Het enige nadeel van werken op het Web? Het kan _altijd_ beter. En dat is ook me
 Aan iedereen die deze maand heeft meegelezen: bedankt voor je overlevend overlezend vermogen. Beleef de komende dagen feestelijk en het nieuwe jaar vooral gelukkig!
 
 ### Over Krijn Hoetmer
-<!-- <img src="/archief/_img/2011/12/krijn-hoetmer.jpg" alt="Foto van krijn hoetmer uit 2011" class="floating-portrait"> -->
+<img src="/_img/2011/12/krijn-hoetmer.jpg" alt="Foto van krijn hoetmer uit 2011" class="floating-portrait" /> 
 Krijgt door dit soort stukjes _alweer_ zin om [kronkels.net](http://kronkels.net/) nieuw leven in te blazen, maar gaat er waarschijnlijk niet aan toekomen door tijdgebrek. Iets wat in 2012 gaat veranderen.
 
 Donatie: Wikipedia

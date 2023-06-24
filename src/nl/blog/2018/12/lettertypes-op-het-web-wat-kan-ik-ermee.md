@@ -237,7 +237,7 @@ Probeer het uit! Met een snel inelkaargeflanst pagina’tje kan je leuk experime
 ```
 
 ### Over Amy Davis
-<!-- <img src="/archief/_img/adventskalender/amy.jpg" alt="Foto van Amy Davis" class="floating-portrait"> -->
+<img src="/_img/adventskalender/amy.jpg" alt="Foto van Amy Davis" class="floating-portrait" /> 
 Ik ben opgegroeid met computers, en altijd gefascineerd geweest door het web, HTML, CSS en JS. In het dagelijkse leven ben ik Senior Front-end developer bij [B-ware Business Software](https://www.b-ware.com). Sinds 2016 ben ik lid van Fronteers en de meeste dagen te vinden op de [Fronteers Slack](https://fronteers-slack.herokuapp.com/). Mijn favoriete kleur is #6c48a4.
 
 Donatie: Wikimedia Foundation

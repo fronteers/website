@@ -38,7 +38,7 @@ Hoe vaak hebben we zuchtend een blog gelezen over een onderwerp dat nieuw voor o
 Als je websites bouwt, kijk verder dan je structuur, code en kleuren. Het kan 100% scoren in de Axe test, Lighthouse audit, Tenon.io en dergelijke, maar toch enorm frustrerend zijn voor veel bezoekers. De beste test tools zijn mensen: een diverse groep mensen. Inclusive design is design. Er bestaat geen mens die niet profiteert van inclusive design.
 
 ### Over Darice de Cuba 
-<img src="/archief/_img/adventskalender/darice-de-cuba-2018.jpg" alt="Foto van Daroce">
+<img src="/_img/adventskalender/darice-de-cuba-2018.jpg" alt="Foto van Daroce">
 Darice is front-end developer en ervaringsdeskundige met een focus op inclusive design. Ze schrijft regelmatig over inclusive design voor doven en slechthorenden op [darice.org](https://darice.org). Als je meer wilt weten over inclusive design kan je contact nemen met @Darice via Twitter. 
 Donatie 
 De Nierstichting zet zich in om de levenskwaliteit van nierpatiënten te verbeteren, informatie geven aan mensen om nierschade te voorkomen en onderzoek voor betere behandelingen en genezing. [www.nierstichting.nl](https://www.nierstichting.nl))

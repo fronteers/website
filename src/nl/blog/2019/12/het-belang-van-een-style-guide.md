@@ -43,6 +43,6 @@ Bij mijn huidige opdrachtgever zijn we onlangs gestart met [Atomic Design]( http
 Maak jij in je huidige werk gebruik van een style guide en/of een pattern libary of zou dit juist goed zijn in de toekomst te gaan doen? Deel je ervaring!
 
 ### Over Sander
-<img src="/archief/_img/adventskalender/sanderlangendoen.jpg" alt="Foto van Kilian" class="floating-portrait">
+<img src="/_img/adventskalender/sanderlangendoen.jpg" alt="Foto van Kilian" class="floating-portrait">
 Ik ben Sander Langendoen. Freelance front-end developer. Momenteel werkzaam voor WPG Media en Uitgevers. Ik ben blij elke dag betaald mijn hobby te mogen uitvoeren.
 Sanders donatie gaat naar de Hersenstichting

@@ -217,7 +217,7 @@ Ik heb geen idee hoe moeilijk of makkelijk dit is, maar ik hoop dat de voorbeeld
 Oh, en prettige feestdagen! ;)
 
 ### Over Peter van der Zee
-<img src="/archief/_img/2011/12/peter-van-der-zee.jpg" alt="Foto van Peter">
+<img src="/_img/2011/12/peter-van-der-zee.jpg" alt="Foto van Peter">
 [Peter](http://qfox.nl/) is gespecialiseerd in in JavaScript/ECMAScript en werkt voor [Uxebu](http://uxebu.com/), voornamelijk aan JavaScript gerelateerde projecten.
 
 Donatie: [Bits of Freedom](https://www.bof.nl/)

@@ -48,7 +48,7 @@ Overigens ben ik van mening dat er meer vrouwen aan de front-end moeten komen! E
 </p>
 
 ### Over Paul van Buuren
-<img src="/archief/_img/2011/12/paul-van-buuren.jpg" alt="Foto van paul van buuren">
+<img src="/_img/2011/12/paul-van-buuren.jpg" alt="Foto van paul van buuren">
 Houdt van mooie dingen maken. Werkt bij [Matchminds](http://www.matchminds.nl/).  Verzamelt [rare woorden](http://www.paulvanbuuren.nl/content/category/bon-mot-du-jour/). En mag sinds de geboorte van z'n kinderen weer met Lego spelen.
 [Twitter](https://twitter.com/paulvanbuuren), [Website](http://paulvanbuuren.nl/about/), [LinkedIn](http://nl.linkedin.com/in/paulvanbuuren)
 

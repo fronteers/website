@@ -88,7 +88,7 @@ Ik ben benieuwd wat Fronteers haar leden in 2019 zal schenken, en aan welke ding
 # Fijne feestdagen!
 
 ### Over Job van Achterberg
-<!-- <img src="/archief/_img/adventskalender/job.jpg" alt="Foto van Job van Achterberg" class="floating-portrait"> -->
+<img src="/_img/adventskalender/job.jpg" alt="Foto van Job van Achterberg" class="floating-portrait" /> 
 Job werkt als toegankelijkheidsspecialist (mooi Scrabblewoord) en ontwikkelaar bij Tenon (https://www.tenon.io). Hij gooit met slangen en water bij de vrijwillige brandweer.
 
 Donatie: Stichting Lezen en Schrijven

@@ -62,7 +62,7 @@ Werk is ook maar werk, durf los te laten! Na werktijd is het tijd voor wat ander
 Nog een laatste inzicht (of eigenlijk meer een verzoek van mij) voor als je bij het kerstdiner aanschuift: Geef je familie en vrienden een extra dikke knuffel dit jaar als je ze ziet, ze zijn het waard!
 
 ### Over Tom Hartwig
-<!-- <img src="/archief/_img/adventskalender/tomhartwig.jpg" alt="Foto van Tom Hartwig" class="floating-portrait"> -->
+<img src="/_img/adventskalender/tomhartwig.jpg" alt="Foto van Tom Hartwig" class="floating-portrait" /> 
 Tom werkt als front-end developer bij een digital agency in Haarlem, klimt graag in zijn vrije tijd, en is op Twitter te vinden als [@tmhrtwg](https://twitter.com/tmhrtwg).
 Donatie
 Bij elke van de adventskalender blogposts deze maand hoort een donatie aan een goed doel. Mijn donatie gaat naar KWF Kankerbestrijding. Ik ben ontzettend blij dat de behandeling van mijn moeder aansloeg en ze deze kerst nog bij ons is!

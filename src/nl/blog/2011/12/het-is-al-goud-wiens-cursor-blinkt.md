@@ -109,7 +109,7 @@ Deze en vele andere instellingen die je leven in de terminal verbeteren, zijn ov
 "Good artists copy; great artists pull."
 
 ### Over Jan Moesen
-<!-- <img src="/archief/_img/2011/12/jan-moesen.jpg" alt="Foto van jan moesen uit 2011" class="floating-portrait"> -->
+<img src="/_img/2011/12/jan-moesen.jpg" alt="Foto van jan moesen uit 2011" class="floating-portrait" /> 
 [Jan](https://twitter.com/janmoesen) is een webnerd die zich zowel in de browser als op de terminal thuis voelt, en mensen wil doen inzien dat die terminal echt efficiënt is. Dat doet hij op zijn dagtaak als webontwikkelaar, en vanaf begin 2012 ook [op bestelling bij jou](http://tervelo.com/).
 
 Donatie: [APOPO](http://www.apopo.org/)

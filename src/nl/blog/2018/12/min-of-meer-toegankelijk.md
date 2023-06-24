@@ -50,7 +50,7 @@ Zorg dat je voldoende kennis hebt van HTML, CSS en WAI-ARIA als je een website o
 * Heb je zelf net niet de expertise huur dan iemand parttime in in je project. Met weinig, maar wel de juiste middelen kan je een boel bereiken.
 
 ### Over Jules Ernst
-<!-- <img src="/archief/_img/adventskalender/jules.jpg" alt="Foto van Jules Ernst" class="floating-portrait"> -->
+<img src="/_img/adventskalender/jules.jpg" alt="Foto van Jules Ernst" class="floating-portrait" /> 
 [Jules Ernst](https://www.200ok.nl/) weet heel veel van digitale toegankelijkheid. Hij helpt organisaties om digitale toegankelijkheid te realiseren en te borgen. Dit doet hij door mee te werken in projecten, trainingen en workshops te geven en websites en webapplicaties te onderzoeken op toegankelijkheid.
 
 Donatie: [Niketan](https://www.niketan.nl/)

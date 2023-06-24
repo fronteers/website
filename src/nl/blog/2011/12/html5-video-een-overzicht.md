@@ -196,7 +196,7 @@ Op de lange termijn vervangt HTML5 Flash voor het afspelen van video. Momenteel 
 Voor mobiele apparaten is het sowieso nu het best om HTML5 te gebruiken (hetzij integraal, hetzij als fallback). Android en iOS ondersteunen beide HTML5, terwijl Flash op Android aan het verdwijnen is. Bovendien ondersteunen ze, in tegenstelling tot desktop browsers, beiden één formaat (MP4).
 
 ### Over Jeroen Wijering
-<!-- <img src="/archief/_img/2011/12/jeroen-wijering.jpg" alt="Foto van jeroen wijering uit 2011" class="floating-portrait"> -->
+<img src="/_img/2011/12/jeroen-wijering.jpg" alt="Foto van jeroen wijering uit 2011" class="floating-portrait" /> 
 Jeroen Wijering is de ontwikkelaar [achter de succesvolle JW Player](http://www.whoisjw.tv/), die wordt gebruikt op miljoenen websites wereldwijd. Zijn bedrijf [LongTail Video](http://www.longtailvideo.com/) beheert ook een gratis online platform waarbinnen bedrijven hun video's kunnen encoderen en publiceren.
 Jeroen is te vinden [op twitter](https://twitter.com/jeroenw) en schrijft af en toe een artikel op [www.longtailvideo.com/blog](http://www.longtailvideo.com/blog).
 

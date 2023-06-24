@@ -111,6 +111,6 @@ Creatieve oplossingen zijn vaak minder effectief dan conventies. Het wijzigen va
 Als je een toegankelijkheidstip ziet, bedenk dan of deze daadwerkelijk iets toevoegt voor je eindgebruiker . Als het niets verbetert aan hun ervaring, wees dan kritisch. De toegankelijkheidsgemeenschap is open en gastvrij. Voel je altijd vrij om de mening van anderen te vragen.
 
 ### Over Erik Kroes
-<img src="/archief/_img/adventskalender/erik-kroes.png" alt="Foto van Erik" class="floating-portrait">
+<img src="/_img/adventskalender/erik-kroes.png" alt="Foto van Erik" class="floating-portrait">
 Erik werkt bij ING aan de toegankelijkheid van het design system en is een toegankelijkheidsadviseur voor [Eleven Ways](https://twitter.com/elevenways_be). Hij is mede-organizator van [Idea11y](https://twitter.com/idea11y), de Inclusive Design & Accessibility meetup. Je kunt hem vinden op [Twitter,](https://twitter.com/erikkroes) waar hij ook af en toe serieus is.
 Eriks donatie gaat naar de Hersenstichting.

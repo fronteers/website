@@ -120,5 +120,5 @@ Progressive enhancement biedt ons een aantal praktische methodes waarmee we:
 * een website bestand maken tegen onverwachte gebeurtenissen, waardoor deze ook bruikbaar is in het geval van een instabiele internetverbinding.
 
 ### Over Sanne Veroude
-<img src="/archief/_img/blog/2015/sanneveroude.png" alt="Foto van Sanne">
+<img src="/_img/blog/2015/sanneveroude.png" alt="Foto van Sanne">
 Front-end developer, likes building stuff accessible for everyone and on every device

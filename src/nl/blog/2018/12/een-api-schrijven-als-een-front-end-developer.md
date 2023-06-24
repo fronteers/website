@@ -372,7 +372,7 @@ Je hebt nu hopelijk genoeg informatie om als hobby-project zelf een API te bouwe
 En als je interesse hebt in een grotere variant, de volledige code is natuurlijk op _[GitHub](https://github.com/Thomas-Machielsen/beer-api)_.
 
 ### Over Thomas Machielsen
-<img src="/archief/_img/adventskalender/thomas.jpeg" alt="Foto van thomas" class="floating-portrait">
+<img src="/_img/adventskalender/thomas.jpeg" alt="Foto van thomas" class="floating-portrait">
 Thomas is een front end developer bij Mirabeau. Daar werkt hij aan allerlei toffe projecten. Dat is ook precies wat die doet in z'n vrije tijd! Zolang het JavaScript is, wordt Thomas gelukkig!
 
 Donatie: Longfonds
