@@ -1,6 +1,8 @@
 ---
 key: conference
 title: Congres
+# if there's a subtitle, put it in heroSlogan:
+heroSlogan: ""
 ---
 # Fronteers Congres
 

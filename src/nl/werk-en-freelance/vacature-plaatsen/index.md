@@ -1,6 +1,7 @@
 ---
 title: Vacature plaatsen
 excludeFromCollection: true
+heroSlogan: ""
 ---
 ### Acceptatiecriteria
 
