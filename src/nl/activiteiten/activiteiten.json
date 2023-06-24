@@ -1,5 +1,4 @@
 {
   "layout": "layouts/activity-single.liquid",
-  "tags": "activities",
-  "useHero": "aboutushero"
+  "tags": "activities"
 }
