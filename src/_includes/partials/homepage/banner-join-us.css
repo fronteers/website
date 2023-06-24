@@ -27,6 +27,7 @@
 }
 
 .banner-join-us .button {
+    color: black;
     background-color: var(--red);
     text-decoration: none;
 }
