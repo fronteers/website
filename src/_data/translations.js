@@ -93,7 +93,7 @@ module.exports = {
       viewAllEvents: "Bekijk alle aanstaande bijeenkomsten",
       viewOurBlogs: "Bekijk alle blogs",
       viewOurMembers: "Bekijk alle members",
-      viewOurJobs: "Bekijk alle bekende vacancies",
+      viewOurJobs: "Bekijk alle bekende vacatures",
     },
     socialMedia: {
       slackTitle: "Slack",  
