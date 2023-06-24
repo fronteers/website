@@ -1,6 +1,7 @@
 ---
 key: membership
 title: Lidmaatschap
+heroSlogan: ""
 ---
 Een lidmaatschap van Fronteers is _persoonlijk_, en staat dus los van een eventuele werkgever.
 

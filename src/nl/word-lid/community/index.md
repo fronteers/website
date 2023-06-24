@@ -1,6 +1,7 @@
 ---
 title: Community
 key: community
+heroSlogan: ""
 ---
 ### Slack
 

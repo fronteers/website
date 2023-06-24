@@ -1,6 +1,7 @@
 ---
 title: Vacature commissie Congres 
 draft: true
+heroSlogan: ""
 ---
 Voor de Fronteers Congrescommissie zijn we op zoek naar 3 nieuwe vrijwilligers!
 

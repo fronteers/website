@@ -1,5 +1,6 @@
 ---
 title: Bestuursleden
+heroSlogan: ""
 ---
 Fronteers is hard op zoek naar nieuwe bestuursleden en vrijwilligers die het net als wij belangrijk vinden om front-end developers in Nederland te ondersteunen in hun werk, door middel van het faciliteren van kennisdeling en netwerkevents.
 

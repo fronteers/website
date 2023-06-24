@@ -1,7 +1,6 @@
 ---
 key: history-names
 title: Mogelijke namen voor de vereniging
-# if there's a subtitle, put it in heroSlogan:
 heroSlogan: ""
 ---
 Op deze pagina vind je de namen voor het 'Gilde' die in de aanloopfase voor de oprichting door leden zijn voorgesteld, alsmede een bestuursadvies hierover.

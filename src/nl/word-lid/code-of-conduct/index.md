@@ -1,6 +1,7 @@
 ---
 title: Code of conduct
 key: code-of-conduct
+heroSlogan: ""
 ---
 Alle leden van ons Fronteers Slack-kanaal moeten akkoord gaan met de volgende gedragscode. De beheerders van het Slack-kanaal handhaven deze code in het hele Slack-kanaal. We verwachten medewerking van alle deelnemers om te helpen zorgen voor een veilige omgeving voor iedereen.
 

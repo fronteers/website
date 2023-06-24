@@ -1,6 +1,7 @@
 ---
 key: become-a-volunteer
 title: Vrijwilliger worden?
+heroSlogan: ""
 ---
 Fronteers is op zoek naar nieuwe vrijwilligers om te helpen bij het behalen van de ambitieuze plannen die we hebben als vereniging. Help je mee?
 
