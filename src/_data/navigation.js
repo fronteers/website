@@ -18,6 +18,10 @@ module.exports = {
                         url: "/nl/vereniging/commissies",
                     },
                     {
+                        title: "Leden",
+                        url: "/nl/vereniging/leden/"
+                    },                    
+                    {
                         title: "Vrijwilliger worden",
                         url: "/nl/vereniging/vrijwilliger-worden",
                     },
@@ -82,10 +86,6 @@ module.exports = {
             {
                 title: "Blog",
                 url: "/nl/blog/",
-            },
-            {
-                url: "/nl/leden/",
-                title: "Leden",
             },
             {
                 url: "/nl/werk-en-freelance/",
@@ -158,9 +158,13 @@ module.exports = {
                         url: "/en/organisation/committees",
                     },
                     {
+                        title: "Members",
+                        url: "/en/organisation/members/"
+                    },     
+                    {
                         title: "Membership meeting",
                         url: "/en/organisation/members-meeting",
-                    },
+                    },            
                     {
                         title: "History",
                         url: "/en/organisation/history",
@@ -171,7 +175,7 @@ module.exports = {
                     },
                     {
                         title: "Contact us",
-                        url: "/nl/organisation/contact",
+                        url: "/en/organisation/contact",
                     },
                     // {
                     //     title: "Support",
@@ -218,10 +222,6 @@ module.exports = {
             {
                 title: "Blog",
                 url: "/en/blog/",
-            },
-            {
-                url: "/en/members/",
-                title: "Members",
             },
             {
                 url: "/en/jobs/",
