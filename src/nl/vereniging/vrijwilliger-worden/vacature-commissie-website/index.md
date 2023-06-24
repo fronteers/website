@@ -1,5 +1,6 @@
 ---
 title: Vacature commissie Website
+heroSlogan: ""
 ---
 Na tien jaar wil Fronteers een nieuwe website. Wil jij als vrijwilliger meehelpen in een nieuw op te richten websitecommissie?
 
