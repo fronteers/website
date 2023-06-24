@@ -36,7 +36,6 @@
 @media all and (min-width: 60em) {
   .page-footer .desktop-columns {
     grid-template-columns: repeat(4, 1fr);
-    column-gap: var(--spacing);
   }
 }
 
@@ -84,7 +83,7 @@
   background-color: var(--yellow);
 }
 
-.social-media-logo-twitter {
+.social-media-logo-elsewhere {
   -webkit-clip-path: url(#greater-than-down-small);
   clip-path: url(#greater-than-down-small);
   background-color: var(--red);
@@ -104,6 +103,7 @@
 .footer-join-us {
   font-size: var(--font-size-24);
   margin-block-start: var(--spacing-half);
+  font-weight: bold;
 }
 
 .footer-join-us-link a {
