@@ -8,46 +8,52 @@
 <section class="outer-wrapper activities-hero">
     <div class="activities-hero-content">
 
-        {%- for activity in paginated_activities limit:1 -%}
-        <div class="inner-wrapper {%- if activity.data.graphic.src -%}activities-hero-content-grid{%- endif -%}">
-            {%- if activity.data.graphic.src -%}
-                <div class="activities-hero-graphic-wrapper">
-                    <div class="img-background">
-                        <img src="/assets/images/{{ activity.data.graphic.src }}" alt="{{ activity.data.graphic.alt }}" class="activities-hero-graphic-img" width="{{ activity.data.graphic.width }}" height="{{ activity.data.graphic.height }}" />
+        {%- for activity in paginated_activities limit: 1 -%}
+            <div class="inner-wrapper {%- if activity.data.graphic.src -%}activities-hero-content-grid{%- endif -%}">
+                {%- if activity.data.graphic.src -%}
+                    <div class="activities-hero-graphic-wrapper">
+                        <div class="img-background">
+                            <img
+                                src="/assets/images/{{ activity.data.graphic.src }}"
+                                alt="{{ activity.data.graphic.alt }}"
+                                class="activities-hero-graphic-img"
+                                width="{{ activity.data.graphic.width }}"
+                                height="{{ activity.data.graphic.height }}" />
+                        </div>
+                        <div class="img-background--bottom"></div>
                     </div>
-                    <div class="img-background--bottom"></div>
+                {%- endif -%}
+
+                <div class="activities-hero-content-wrapper">
+                    {%- comment -%}
+                        This is hacky but it works to concatenate a subtitle into the title
+                    {%- endcomment -%}
+                    {%- assign part_A = '<span class="sup-title">' | append: translations[locale].nextEvent | append: '</span>' | -%}
+                    {%- assign part_B = activity.data.title -%}
+                    {%- assign firstUpcomingActivityTitle = part_A | append: part_B -%}
+
+                    {%- include partials/utility/dynamic-headerlevel level: "h2" title: firstUpcomingActivityTitle link: activity.url -%}
+
+                    <div class="activity-time-and-location-wrapper">
+                        <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
+                            {{ activity.data.eventdate | displayDate: locale }}
+                        </time>
+
+                        {%- if activity.data.location -%}
+                            <p class="activity-location">
+                                {{ activity.data.location }}
+                            </p>
+                        {%- else -%}
+                            <p class="activity-location">
+                                {{ translations[locale].locationUnknown }}
+                            </p>
+                        {%- endif -%}
+                    </div>
+
+                    <a href="{{ activity.url }}">Read more<span class="visually-hidden">about {{ activity.data.title }}</span>
+                    </a>
                 </div>
-            {%- endif -%}
-
-            <div class="activities-hero-content-wrapper">
-                {%- comment -%}
-                    This is hacky but it works to concatenate a subtitle into the title
-                {%- endcomment -%}
-                {%- assign part_A = '<span class="sup-title">' | append: translations[locale].nextEvent | append: '</span>' | -%}
-                {%- assign part_B = activity.data.title -%}
-                {%- assign firstUpcomingActivityTitle = part_A | append: part_B -%}
-
-                {%- include partials/utility/dynamic-headerlevel level: "h2" title: firstUpcomingActivityTitle link: activity.url -%}
-
-                <div class="activity-time-and-location-wrapper">
-                    <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
-                        {{ activity.data.eventdate | displayDate: locale }}
-                    </time>
-
-                    {%- if activity.data.location -%}
-                        <p class="activity-location">
-                            {{ activity.data.location }}
-                        </p>
-                    {%- else -%}
-                        <p class="activity-location">
-                            {{ translations[locale].locationUnknown }}
-                        </p>
-                    {%- endif -%}
-                </div>
-
-                <a href="{{ activity.url }}">Read more<span class="visually-hidden">about {{ activity.data.title }}</span></a>
             </div>
-        </div>
         {%- endfor -%}
     </div>
     <div class="activities-hero-graphic"></div>

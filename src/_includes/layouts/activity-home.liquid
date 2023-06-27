@@ -4,21 +4,45 @@
     {%- include partials/page-header/_page-header -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">
-        <div class="inner-wrapper">
-            <div class="page-content">
-                <h2 class="visually-hidden">{{ title }}</h2>
-                {{ content }}
+
+    {%- for activity in paginated_activities limit:1 -%}
+        {%- assign part_A = '<span class="sup-title">' | append: translations[locale].nextEvent | append: '</span> ' | -%}
+        {%- assign part_B = activity.data.title -%}
+        {%- assign firstUpcomingActivityTitle =  part_B -%}
+
+        {% capture nextUp %}
+            {%- include partials/utility/dynamic-headerlevel level: "h2" title: firstUpcomingActivityTitle link: activity.url -%}
+
+            <div class="activity-time-and-location-wrapper">
+                <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
+                    {{ activity.data.eventdate | displayDate: locale }}
+                </time>
+
+                {%- if activity.data.location -%}
+                    <p class="activity-location">
+                        {{ activity.data.location }}
+                    </p>
+                {%- else -%}
+                    <p class="activity-location">
+                        {{ translations[locale].locationUnknown }}
+                    </p>
+                {%- endif -%}
             </div>
-            
-            {%- if pagination.pageLinks.length > 1 -%}
+
+            <a href="{{ activity.url }}">Read more<span class="visually-hidden">about {{ activity.data.title }}</span></a>
+        {% endcapture %}
+    {%- endfor -%}
+
+        {%- if pagination.pageLinks.length > 1 -%}
                 {%- if pagination.previousPageLink -%}
                 {%- else -%}
-                    {%- include partials/activities/activities-hero -%}
+                    {%- pagehero 'activities' title nextUp content -%}
                 {%- endif -%}
             {%- else -%}
-                {%- include partials/activities/activities-hero -%}
+                {%- pagehero 'activities' title nextUp content-%}
             {%- endif -%}
 
+        <div class="inner-wrapper">
             {%- include partials/activities/loop-activity-categories headerlvl:"h3" -%}
 
             <ol class="desktop-columns">

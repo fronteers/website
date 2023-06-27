@@ -26,12 +26,28 @@
 }
 
 /* if there is a image */
-.hero img:first-child {
-  width: 100%;
-  left: 0;
-  top: -20rem;
+.hero .activities-hero-graphic-wrapper {
+  width: 191px;
   z-index: 1;
   position: absolute;
+  height: 92%;
+    top: 1px;
+    left: 3rem;
+    overflow: visible;
+}
+
+.hero .img-background--bottom {
+    inline-size: 100%;
+    block-size: 0;
+    padding-block-end: 30%;
+    content: " ";
+    display: block;
+    background-color: white;
+    background-size: cover;
+    -webkit-clip-path: url(#curly-brace-down-tiny);
+    clip-path: url(#curly-brace-down-tiny);
+    position: absolute;
+    top: 78%;
 }
 
 .hero-graphic::after {
@@ -44,6 +60,12 @@
   background-size: cover;
   -webkit-clip-path: url(#curly-brace-down-tiny);
   clip-path: url(#curly-brace-down-tiny);
+}
+
+.hero--activities .hero-graphic::after {
+  background-color: var(--lilac);
+  -webkit-clip-path: url(#greater-than-down-tiny);
+  clip-path: url(#greater-than-down-tiny);
 }
 
 .hero-content {
@@ -66,6 +88,11 @@
   background-color: var(--yellow);
 }
 
+.hero--activities .hero-graphic::after,
+.hero--activities .hero-content {
+  background-color: var(--lilac);
+}
+
 .hero-content h2 {
   text-transform: none;
 }
@@ -77,22 +104,36 @@
     margin: 0px auto;
   }
 
-  .hero-graphic {
+    .hero-graphic {
+        padding-block-start: 0;
+        padding-block-end: var(--spacing);
+        padding-inline-end: var(--spacing));
+        padding-inline-start: var(--spacing));
+        -webkit-clip-path: url(#curly-brace-down-large);
+        clip-path: url(#curly-brace-down-large);
+        inline-size: 100%;
+        block-size: auto;
+        background-color: var(--yellow);
+        margin-block-start: -2px;
+    }
+
+   .hero--activities .hero-graphic {
+    padding-block-end: 5rem;
     padding-block-start: 0;
-    padding-block-end: var(--spacing);
-    padding-inline-end: var(--spacing));
-    padding-inline-start: var(--spacing));
-    -webkit-clip-path: url(#curly-brace-down-large);
-    clip-path: url(#curly-brace-down-large);
+    padding-inline-end: calc(3 * var(--spacing));
+    padding-inline-start: calc(3 * var(--spacing));
+    background-size: cover;
     inline-size: 100%;
-    block-size: auto;
-    background-color: var(--yellow);
-    margin-block-start: -2px;
+    max-width: 100%;
+    background-color: var(--lilac);
+    /* -webkit-clip-path: url(#greater-than-down-small);
+    clip-path: url(#greater-than-down-small); */
+    -webkit-clip-path: url(#greater-than-down-large);
+    clip-path: url(#greater-than-down-large);
   }
 
   .hero-graphic::after {
     /* content: none; */
-
     padding-block-start: 0;
     padding-block-end: var(--spacing);
     padding-inline-end: var(--spacing));
