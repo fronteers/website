@@ -1,17 +1,16 @@
-
 <nav class="page-header-translate" aria-label="{%- if locale == 'nl' -%}{{ translations[locale].ariaTitleTranslateNav }}{%- else -%}{{ site.en.ariaTitleTranslateNav }}{%- endif -%}">
     <ul role="list">
         {%- for lgg in site.languages -%}
-            <li lang="{{ lgg.code }}">
+            <li lang="{{ lgg.code }}" {%- if locale == lgg.code -%}aria-current="true"{%- endif -%}>
                 {%- if locale == lgg.code -%}
                     <span>
                         <span class="visually-hidden">{{ lgg.currentLabel }}</span>
-                        {{ lgg.label }}
+                        <span class="languageLabel" aria-label="{{ lgg.ariaLabel }}">{{ lgg.label }}</span>
                     </span>
                 {%- else -%}
                     <a class="c-lggnav__link" href="/{{ lgg.code }}/">
                         <span class="visually-hidden">{{ lgg.switchLabel }}</span>
-                        {{ lgg.label }}
+                        <span class="languageLabel" aria-label="{{ lgg.ariaLabel }}">{{ lgg.label }}</span>
                     </a>
                 {%- endif -%}
             </li>
