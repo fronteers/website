@@ -8,8 +8,8 @@ exports.aboutushero = (herotitle, herotext) => `
     ${heroShield}
     <div class="about-us-hero-graphic">
       <div class="about-us-hero-content">
-        <h2> ${herotitle}</h2>
-        <p>${herotext}</p>
+        <h2> ${herotitle ? herotext : ''}</h2>
+        <p>${herotext ? herotext : ''}</p>
       </div>
     </div>
   </div>
