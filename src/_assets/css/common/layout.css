@@ -72,6 +72,10 @@ main section > .h {
     margin-block-end: calc(var(--spacing) * 4);
 }
 
+.page-content:has(.visually-hidden:only-child) {
+    background-color: transparent;
+}
+
 /* .page-content > p,
 .page-content > address,
 .page-content > ul,
