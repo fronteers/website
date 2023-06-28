@@ -1,11 +1,14 @@
 .page-header-translate {
   position: relative;
-  text-transform: uppercase;
   margin-inline-start: auto;
   padding-block-start: var(--spacing-half);
   padding-block-end: var(--spacing-half);
   text-align: right;
   z-index: 20;
+}
+
+.languageLabel {
+  text-transform: uppercase;
 }
 
 .navigation-opened .page-header-translate {

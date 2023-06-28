@@ -11,6 +11,18 @@
         {% endif %}
     </title>
 
+    {%- for language in site.languages -%}
+        {% if language.code != locale %}
+            {%- for item in collections.all -%}
+                {%- if item.data.key == key and item.data.locale == locale -%}
+                    {%- assign translatedUrl = item.url -%}
+                {%- endif -%}
+            {%- endfor -%}
+
+            <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}" />
+        {% endif %}
+    {%- endfor -%}
+
     <link rel="manifest" href="/assets/favicon/site.webmanifest" crossorigin="anonymous">
     <link rel="icon" href="/assets/favicon/favicon.ico" sizes="any">
     <link rel="icon" href="/assets/favicon/icon.svg" type="image/svg+xml">

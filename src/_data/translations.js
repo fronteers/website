@@ -6,7 +6,7 @@ module.exports = {
         metaTitle: "Fronteers — professional association for front-end developers",
         metaDescription:
             "Fronteers is the non-profit professional association of Dutch-speaking front-end developers.",
-        ariaTitleTranslateNav: "Translations",
+        ariaTitleTranslateNav: "Language",
         location: "Location",
         locationUnknown: "to be determined",
         jobreadmore: "Read more",
@@ -72,7 +72,7 @@ module.exports = {
         metaTitle: "Fronteers — vakvereniging voor front-end developers",
         metaDescription:
             "Fronteers is een vereniging met volledige rechtsbevoegdheid, die in oktober 2007 is opgericht, met als doel de professionalisering van het beroep van web-front-end ontwikkelaar.",
-        ariaTitleTranslateNav: "Vertaalmenu",
+        ariaTitleTranslateNav: "Taal",
         jobreadmore: "Bekijk vacature",
         blogreadmore: "Lees meer",
         readmore: "Lees meer",
