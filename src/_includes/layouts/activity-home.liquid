@@ -6,13 +6,11 @@
     <main class="{% if useHero %}styledheader{% endif %}">
 
     {%- for activity in paginated_activities limit:1 -%}
-        {%- assign part_A = '<span class="sup-title">' | append: translations[locale].nextEvent | append: '</span> ' | -%}
-        {%- assign part_B = activity.data.title -%}
-        {%- assign firstUpcomingActivityTitle =  part_B -%}
+        {% capture nextUpTitle %}
+            <h2><a href="{{ activity.url }}""><span class="sup-title">{{ translations[locale].nextEvent }} </span> {{ activity.data.title }}</a></h2>
+        {% endcapture %}
 
         {% capture nextUp %}
-            {%- include partials/utility/dynamic-headerlevel level: "h2" title: firstUpcomingActivityTitle link: activity.url -%}
-
             <div class="activity-time-and-location-wrapper">
                 <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
                     {{ activity.data.eventdate | displayDate: locale }}
@@ -36,10 +34,10 @@
         {%- if pagination.pageLinks.length > 1 -%}
                 {%- if pagination.previousPageLink -%}
                 {%- else -%}
-                    {%- pagehero 'activities' title nextUp content -%}
+                    {%- pagehero 'activities' nextUpTitle nextUp content -%}
                 {%- endif -%}
             {%- else -%}
-                {%- pagehero 'activities' title nextUp content-%}
+                {%- pagehero 'activities' nextUpTitle nextUp content-%}
             {%- endif -%}
 
         <div class="inner-wrapper">
