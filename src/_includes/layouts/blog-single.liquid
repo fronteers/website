@@ -1,48 +1,41 @@
 {%- for member in members -%}
-    {%- if member.data.title == author -%}
+    {%- if member.data.title == heroPost.data.author -%}
         {%- assign authorHasAProfilePage = true -%}
     {%- else -%}
         {%- assign authorHasAProfilePage = false -%}
     {%- endif -%}
 {%- endfor -%}
 
+{% capture blogMeta %}
+    <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
+        {{ date | displayDate: locale  | date: "%d.%m.%y" }}
+    </time>
+
+    {%- if authorHasAProfilePage -%}
+        <a href="{{ member.url }}" class="blog-author">{{ author }}</a>
+    {%- else -%}
+        <span class="blog-author">{{ author }}</span>
+    {%- endif -%}
+
+    <ul class="blog-tags" role="list" aria-label="Tagged">
+        {%- for tag in categories limit:2 -%}
+            <li>
+                <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{{ tag }}</a>
+            </li>
+        {%- endfor -%}
+    </ul>
+{% endcapture %} 
+
+
 {%- include partials/utility/html-head  -%}
 <body>
     {%- include partials/page-header/_page-header  -%}
 
-    <main class="page-content single-blog inner-wrapper ">
+    <main class="single-blog">
+        {%- pagehero 'single-blog' title blogMeta -%}
 
-        <header class="single-blog-hero">
-            <div class="single-blog-hero-content ">
-                <div class="content-wrapper">
-                    {% unless useHero %}
-                        <h2>{{ title }}</h2>
-                    {% endunless %}  
-
-                    <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
-                        {{ date | displayDate: locale  | date: "%d.%m.%y" }}
-                    </time>
-
-                    {%- if authorHasAProfilePage -%}
-                        <a href="{{ member.url }}" class="blog-author">{{ author }}</a>
-                    {%- else -%}
-                        <span class="blog-author">{{ author }}</span>
-                    {%- endif -%}
-
-                    <ul class="blog-tags" role="list" aria-label="Tagged">
-                        {%- for tag in categories limit:2 -%}
-                            <li>
-                                <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{{ tag }}</a>
-                            </li>
-                        {%- endfor -%}
-                    </ul>
-                </div>
-            </div>
-            <div class="single-blog-hero-graphic"></div>
-        </header>
-
-        <div class="single-blog-content">
-            <div class="content-wrapper">
+        <div class="inner-wrapper">
+            <div class="page-content">
                 <div class="blog-graphic-wrapper">
                     {%- if graphic.src -%}
                         <img src="/assets/images/{{ graphic.src }}" alt="{{ graphic.alt }}" class="blog-graphic" />

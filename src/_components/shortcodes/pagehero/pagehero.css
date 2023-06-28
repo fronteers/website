@@ -104,6 +104,12 @@
   background-color: var(--lilac);
 }
 
+.hero--single-blog .hero-graphic::after,
+.hero--single-blog .hero-graphic,
+.hero--single-blog .hero-content {
+  background-color: var(--lilac);
+}
+
 .hero--jobs .hero-graphic::after,
 .hero--jobs .hero-content {
   background-color: var(--yellow);
