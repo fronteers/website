@@ -8,8 +8,9 @@ exports.pagehero = (heroStyle, herotitle, herotext, heroImage) => `
 <section class="outer-wrapper outer-wrapper--${heroStyle}">
   <div class="hero hero--${heroStyle}">
     ${heroStyle == 'aboutus' ? heroShield : ''}
-    ${heroStyle == 'activities' || 'blog' ? heroImage : ''}
-
+    ${heroStyle == 'activities' ? heroImage : ''}
+    ${heroStyle == 'blog' ? heroImage : ''}
+ 
     <div class="hero-graphic">
       <div class="hero-content">
         ${heroStyle != '' ? `<h2>${herotitle}</h2>` : ''}

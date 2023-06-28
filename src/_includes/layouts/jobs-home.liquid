@@ -4,14 +4,9 @@
     {%- include partials/page-header/_page-header -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">
-        <div class="inner-wrapper">
-            <div class="page-content">
-                {% unless useHero %}
-                    <h2>{{ title }}</h2>
-                {% endunless %}  
-                {{ content }}
-            </div>
+        {%- pagehero 'jobs' title content -%}
 
+        <div class="inner-wrapper"> 
             {%- include partials/jobs/loop-job-categories headerlvl:"h3" -%}
 
             <ul class="desktop-rows mobile-slider">

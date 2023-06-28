@@ -73,6 +73,7 @@
   margin-block-start: 0;
   padding: var(--spacing);
   padding-block-end: 0;
+  hyphens: none;
 }
 
 .hero-content p:has(.button) {
@@ -88,6 +89,11 @@
   background-color: var(--yellow);
 }
 
+.hero--freelancers .hero-graphic::after,
+.hero--freelancers .hero-content {
+  background-color: var(--yellow);
+}
+
 .hero--activities .hero-graphic::after,
 .hero--activities .hero-content {
   background-color: var(--lilac);
@@ -97,6 +103,12 @@
 .hero--blog .hero-content {
   background-color: var(--lilac);
 }
+
+.hero--jobs .hero-graphic::after,
+.hero--jobs .hero-content {
+  background-color: var(--yellow);
+}
+
 
 .hero--activities .hero-content h2 a,
 .hero--blog .hero-content h2 a {

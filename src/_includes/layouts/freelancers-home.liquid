@@ -4,11 +4,9 @@
     {%- include partials/page-header/_page-header -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">
-        <div class="inner-wrapper">
-            <div class="page-content">
-                <h2 class="visually-hidden">{{ title }}</h2>
-                {{ content }}
-            </div>
+        {%- pagehero 'freelancers' title content -%}
+
+        <div class="inner-wrapper"> 
 
             {%- include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" -%}
 
