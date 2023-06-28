@@ -69,6 +69,7 @@ main section > .h {
     max-width: 72ch;
     margin: 0 auto;
     background-color: white;
+    margin-block-end: calc(var(--spacing) * 4);
 }
 
 /* .page-content > p,
