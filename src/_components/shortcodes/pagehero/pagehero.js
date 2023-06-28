@@ -1,3 +1,5 @@
+// Used for hero on home, activities, blog
+
 const { shield } = require("../shield/shield");
 
 const heroShield = shield("triangular", "thunder", "lilac", "purple");
@@ -6,7 +8,7 @@ exports.pagehero = (heroStyle, herotitle, herotext, heroImage) => `
 <section class="outer-wrapper outer-wrapper--${heroStyle}">
   <div class="hero hero--${heroStyle}">
     ${heroStyle == 'aboutus' ? heroShield : ''}
-    ${heroStyle == 'activities' ? heroImage : ''}
+    ${heroStyle == 'activities' || 'blog' ? heroImage : ''}
 
     <div class="hero-graphic">
       <div class="hero-content">
