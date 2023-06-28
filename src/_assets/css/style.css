@@ -28,7 +28,6 @@
 @import "../_components/shortcodes/figure/figure.css";
 
 @import "../_includes/layouts/blog-single.css";
-@import "../_includes/partials/activities/activities-hero.css";
 @import "../_includes/partials/activities/loop-activity-categories.css";
 @import "../_includes/partials/blog/blog-hero.css";
 @import "../_includes/partials/blog/loop-blog-categories.css";
@@ -36,7 +35,6 @@
 @import "../_includes/partials/homepage/active-vacancies.css";
 @import "../_includes/partials/homepage/banner-conference.css";
 @import "../_includes/partials/homepage/banner-join-us.css";
-@import "../_includes/partials/homepage/home-hero.css";
 @import "../_includes/partials/homepage/latest-blogs.css";
 @import "../_includes/partials/homepage/member-special.css";
 @import "../_includes/partials/homepage/proud-members.css";

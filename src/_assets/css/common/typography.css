@@ -84,6 +84,7 @@ a:focus {
 .tag-link:focus {
     background-color: transparent;
     color: white;
+    outline: 0;
 }
 
     .tag-link:hover .tag,
