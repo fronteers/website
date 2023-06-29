@@ -1,9 +1,54 @@
+{% comment %} Get the title and the information from the most recent activity {% endcomment %}
+{%- for blog in paginated_posts limit:1 -%}
+    {%- for member in members -%}
+    {%- if member.data.title == heroPost.data.author -%}
+        {%- assign authorHasAProfilePage = true -%}
+    {%- else -%}
+        {%- assign authorHasAProfilePage = false -%}
+    {%- endif -%}
+    {%- endfor -%}
+
+    {% comment %} Save html in variable nextUpTitle to use on line 38 {% endcomment %}
+    {% capture latestBlogTitle %}
+        <h2><a href="{{ blog.url }}"
+    ><span class="sup-title">{{ translations[locale].latestBlog }}</span
+            ><span class="blog-title">{{ blog.data.title }}</span></a></h2>
+    {% endcapture %}    
+
+    {% capture latestBlog %}<div class="blog-time-wrapper">
+            <time class="blog-date" datetime="{{ blog.date | date: "%Y-%m-%d" }}">
+                {{ blog.date | displayDate: locale }}
+            </time>
+        </div>
+
+        {%- if authorHasAProfilePage -%}
+            <a href="{{ member.url }}" class="blog-author">{{ heroPost.data.author }}</a>
+        {%- else -%}
+            <span class="blog-author">{{ heroPost.data.author }}</span>
+        {%- endif -%}
+        
+        <a href="{{ blog.url }}" class="blog-link" aria-hidden="true">{{ translations[locale].readmore }}<span class="visually-hidden">{{ translations[locale].about }} {{ activity.data.title }}</span></a>
+    {% endcapture %}
+
+    {% capture latestBlogImage %}
+        <div class="hero-image-wrapper">
+            <div class="hero--hero-image">
+                {%- if post.data.graphic.src -%}
+                <img src="/assets/images/{{ heroPost.data.graphic.src }}" alt="{{ heroPost.data.graphic.alt }}" class="hero-image"/>
+                {%- else -%}
+                <img src="/assets/images/default_blog_image.png" alt="{{ heroPost.data.graphic.alt }}" class="hero-image"/>
+                {%- endif -%}
+            </div>
+        </div>
+    {% endcapture %}
+{%- endfor -%}
+
 {%- include partials/utility/html-head -%}
 
 <body>
     {%- include partials/page-header/_page-header -%}
 
-    {%- include partials/blog/blog-hero heroPost:paginated_posts[0] headerlvl:"h3" heroLable:"Latest Blog" -%}
+    {%- pagehero 'blog' latestBlogTitle latestBlog latestBlogImage -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">
         <div class="inner-wrapper">

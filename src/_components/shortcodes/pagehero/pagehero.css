@@ -1,0 +1,354 @@
+.outer-wrapper--homepage {
+  background: url(/assets/images/home-header-background.svg);
+  background-repeat: repeat-x;
+  background-position: center top;
+  background-size: contain;
+  margin-block-end: var(--spacing-double);
+  max-width: 100%;
+}
+
+.hero {
+  position: relative;
+  inline-size: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+/* if there is a shield */
+.hero svg:first-child {
+  width: 100%;
+  left: 0;
+  top: -20rem;
+  z-index: 1;
+  position: absolute;
+}
+
+.hero--blog .hero-image,
+.hero--activities .activities-hero-graphic-wrapper {
+  display: none;
+}
+
+.hero .img-background--bottom {
+    inline-size: 100%;
+    block-size: 0;
+    padding-block-end: 30%;
+    content: " ";
+    display: block;
+    background-color: white;
+    background-size: cover;
+    -webkit-clip-path: url(#curly-brace-down-tiny);
+    clip-path: url(#curly-brace-down-tiny);
+    position: absolute;
+    top: 78%;
+}
+
+.hero-graphic::after {
+  inline-size: 100%;
+  block-size: 0;
+  padding-block-end: 22.8%;
+  content: " ";
+  display: block;
+  background-color: var(--red);
+  background-size: cover;
+  -webkit-clip-path: url(#curly-brace-down-tiny);
+  clip-path: url(#curly-brace-down-tiny);
+}
+
+.hero--activities .hero-graphic::after {
+  background-color: var(--lilac);
+  -webkit-clip-path: url(#greater-than-down-tiny);
+  clip-path: url(#greater-than-down-tiny);
+}
+
+.hero--blog .hero-graphic::after {
+    background-color: var(--lilac); 
+    -webkit-clip-path: url(#parenthesis-down-tiny);
+    clip-path: url(#parenthesis-down-tiny);
+}
+
+.hero-content {
+  background-color: var(--red);
+  margin-block-start: 0;
+  padding: var(--spacing);
+  padding-block-end: 0;
+  hyphens: none;
+}
+
+.hero-content p:has(.button) {
+    margin-block-end: 0;
+}
+
+.hero-content p:empty {
+    display: none;
+}
+
+.hero--homepage .hero-graphic::after,
+.hero--homepage .hero-content {
+  background-color: var(--yellow);
+}
+
+.hero--freelancers .hero-graphic::after,
+.hero--freelancers .hero-content {
+  background-color: var(--yellow);
+}
+
+.hero--activities .hero-graphic::after,
+.hero--activities .hero-content {
+  background-color: var(--lilac);
+}
+
+.hero--blog .hero-graphic::after,
+.hero--blog .hero-content {
+  background-color: var(--lilac);
+}
+
+.hero--single-blog .hero-graphic::after,
+.hero--single-blog .hero-graphic,
+.hero--single-blog .hero-content {
+  background-color: var(--lilac);
+}
+
+.hero--jobs .hero-graphic::after,
+.hero--jobs .hero-content {
+  background-color: var(--yellow);
+}
+
+
+.hero--activities .hero-content h2 a,
+.hero--blog .hero-content h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero--activities .hero-content h2 a:focus,
+.hero--blog .hero-content h2 a:focus {
+    outline: 0;
+}
+
+.hero--activities .hero-content h2 a:hover .nextup-title,
+.hero--activities .hero-content > a:hover,
+.hero--activities .hero-content h2 a:focus .nextup-title,
+.hero--activities .hero-content > a:focus,
+.hero--blog .hero-content h2 a:hover .blog-title,
+.hero--blog .hero-content > a:hover,
+.hero--blog .hero-content h2 a:focus .blog-title,
+.hero--blog .hero-content > a:focus {
+    color: white;
+    padding-inline: 0.7rem;
+}
+
+.hero--activities .hero-content .nextup-title,
+.hero--activities .nextup-time-and-location-wrapper,
+.hero--blog .hero-content .blog-title,
+.hero--blog .blog-time-wrapper {
+  text-transform: none;
+  font-size: 2rem;
+}
+
+.hero--activities .nextup-time-and-location-wrapper,
+.hero--blog .blog-time-wrapper {
+    padding-block-end: 2rem;
+}
+
+.hero--activities .nextup-link,
+.hero--blog .blog-link  {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.hero--activities .nextup-title,
+.hero--blog .blog-title {
+  font-weight: bold;
+  text-transform: none;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-wrap: balance;
+}
+
+.hero--activities .sup-title,
+.hero--blog .sup-title {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+
+@media all and (min-width: 46.875em) {
+    .hero {
+        max-width: var(--outer-width);
+        margin: 0px auto;
+    }
+
+    .hero-graphic {
+        padding-block-start: 0;
+        padding-block-end: var(--spacing);
+        padding-inline-end: var(--spacing));
+        padding-inline-start: var(--spacing));
+        -webkit-clip-path: url(#curly-brace-down-large);
+        clip-path: url(#curly-brace-down-large);
+        inline-size: 100%;
+        block-size: auto;
+        background-color: var(--yellow);
+        margin-block-start: -2px;
+    }
+
+    .hero-graphic::after {
+        /* content: none; */
+        padding-block-start: 0;
+        padding-block-end: var(--spacing);
+        padding-inline-end: var(--spacing));
+        padding-inline-start: var(--spacing));
+        -webkit-clip-path: url(#curly-brace-down-large);
+        clip-path: url(#curly-brace-down-large);
+        inline-size: 100%;
+        block-size: 2rem;
+        background-color: var(--yellow);
+    }
+
+
+    .hero svg {
+        height: 92%;
+        width: unset;
+        top: 1px;
+        left: 3rem;
+        overflow: visible;
+    }
+
+
+    .hero--activities .activities-hero-graphic-wrapper {
+        height: 307px;
+        z-index: 10;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero--activities .img-background {
+        background: white;
+        flex: 0 0 78%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero--activities .activities-hero-graphic-img {
+        max-width: 120px;
+        max-height: 120px;
+        object-fit: cover;
+    }
+
+    .hero--activities .img-background--bottom {
+        inline-size: 100%;
+        block-size: 0;
+        padding-block-end: 30%;
+        content: " ";
+        display: block;
+        background-color: white;
+        background-size: cover;
+        -webkit-clip-path: url(#curly-brace-down-tiny);
+        clip-path: url(#curly-brace-down-tiny);
+        position: absolute;
+        bottom: 0;
+    }
+
+    .hero--activities .activities-hero-graphic-wrapper {
+        width: 16rem;
+        height: 18.125rem;
+        z-index: 1;
+        position: absolute;
+        top: 1px;
+        left: 6rem;
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero--activities .activities-hero-graphic-wrapper + .hero-graphic,
+    .hero--blog .hero-image-wrapper + .hero-graphic { 
+        padding-inline: 22rem;
+        padding-block-start: calc(2 * var(--spacing));
+        padding-block-end: calc(4 * var(--spacing));
+    }
+
+    .hero--activities .hero-content,
+    .hero--blog .hero-content {
+        padding: 0;
+    }
+
+    .hero--activities .hero-graphic,
+    .hero--blog .hero-graphic {
+        padding-block-end: 5rem;
+        padding-block-start: 0;
+        padding-inline-end: calc(3 * var(--spacing));
+        padding-inline-start: calc(3 * var(--spacing));
+        background-size: cover;
+        inline-size: 100%;
+        max-width: 100%;
+        background-color: var(--lilac); 
+        -webkit-clip-path: url(#greater-than-down-large);
+        clip-path: url(#greater-than-down-large);
+    }
+
+    .hero--blog .hero-graphic {
+        -webkit-clip-path: url(#parenthesis-down-small);
+        clip-path: url(#parenthesis-down-small);
+    }
+
+    .hero--blog .hero-image-wrapper {
+        left: 6rem;
+        top: 0;
+        z-index: 1;
+        position: absolute;
+        width: 16rem;
+    }
+
+    .hero--blog .hero-image {
+        display: block;
+        block-size: 100%;
+        inline-size: 100%;
+        object-fit: cover;
+        object-position: center;
+        webkit-clip-path: url(#curly-brace-down-small);
+        clip-path: url(#curly-brace-down-small);
+    }
+
+    .hero-content {
+        padding-inline-start: calc(11 * var(--spacing));
+        padding-inline-end: calc(11 * var(--spacing));
+        padding-block-start: calc(2 * var(--spacing));
+        padding-block-end: calc(4 * var(--spacing));
+    }
+
+    .hero-content h2 {
+        font-size: 2.5rem;
+        line-height: 1.275;
+        font-family: var(--font-family-decoration), sans-serif;
+        margin: 0;
+    }
+
+    .hero p {
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .hero p:empty {
+        display: none;
+    }
+
+    .hero-content .button {
+        transition: transform .15s ease-in;
+    }
+
+    .hero-content .button:focus,
+    .hero-content .button:hover,
+    .hero-content .button:active {
+        transform: rotate(-2deg);
+        transition: transform .15s ease-out;
+    }
+}

@@ -1,5 +1,6 @@
 ---
 title: Notulen bestuursvergadering 16 januari 2020
+date: 2020-01-16
 ---
 # Aanwezig
 
