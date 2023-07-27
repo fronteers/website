@@ -3,24 +3,25 @@
 {%- endcomment -%}
 
 {%- capture header -%}
-    {%- if link -%}<a href="{{ link | strip_html }}">{%- endif -%}
+    {%- if link -%}
+        <a href="{{ link | strip_html }}">
+        {%- endif -%}
         {{ title | strip_html }}
-    {%- if link -%}</a>{%- endif -%}
+        {%- if link -%}
+        </a>
+    {%- endif -%}
 {%- endcapture -%}
 
-{%- if level == 'h2' -%}
+{%- case level -%}
+    {%- when 'h2' -%}
     <h2 class="h">{{ header }}</h2>
-{%- endif -%}
-
-{%- if level == 'h3' -%}
+    {%- when 'h3' -%}
     <h3 class="h">{{ header }}</h3>
-{%- endif -%}
-
-{%- if level == 'h4' -%}
+    {%- when 'h4' -%}
     <h4 class="h">{{ header }}</h4>
-{%- endif -%}
-
-{%- if level == 'h5' -%}
+    {%- when 'h5' -%}
     <h5 class="h">{{ header }}</h5>
-{%- endif -%}
-
+{%- else -%}
+    Invalid header level given to dynamic-headerlevel
+    <code>{{ level }}</code>
+{%- endcase -%}
