@@ -1,5 +1,5 @@
 {%- include partials/utility/html-head -%}
-<body>
+<body data-layout="drafts">
     {%- include partials/page-header/_page-header -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">
@@ -7,7 +7,7 @@
             <div class="page-content">
                 {% unless useHero %}
                     <h2>{{ title }}</h2>
-                {% endunless %}  
+                {% endunless %}
                 {{ content }}
             </div>
 

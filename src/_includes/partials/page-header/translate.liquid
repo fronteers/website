@@ -1,4 +1,7 @@
-<nav class="page-header-translate" aria-label="{%- if locale == 'nl' -%}{{ translations[locale].ariaTitleTranslateNav }}{%- else -%}{{ site.en.ariaTitleTranslateNav }}{%- endif -%}">
+<nav
+    data-partial="page-header/translate"
+    class="page-header-translate"
+    aria-label="{%- if locale == 'nl' -%}{{ translations[locale].ariaTitleTranslateNav }}{%- else -%}{{ site.en.ariaTitleTranslateNav }}{%- endif -%}">
     <ul role="list">
         {%- for lgg in site.languages -%}
 

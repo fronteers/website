@@ -1,10 +1,12 @@
-{%- include partials/utility/dynamic-headerlevel level: headerlvl title: translations[locale].specialties -%}
+<div data-partial="freelancers/loop-freelancers-specialties">
+    {%- include partials/utility/dynamic-headerlevel level: headerlvl title: translations[locale].specialties -%}
 
-<ul role="list" class="category-list">
-    {%- for specialty in collections.memberSpecialties -%}
-        <li>
-            <a href="/{{ translations[locale].membersURL }}/{{ translations[locale].category }}/{{ specialty.slug }}" class="tag-link tag-link--large">{%- tag specialty.title -%}
-            </a>
-        </li>
-    {%- endfor -%}
-</ul>
+    <ul role="list" class="category-list">
+        {%- for specialty in collections.memberSpecialties -%}
+            <li>
+                <a href="/{{ translations[locale].membersURL }}/{{ translations[locale].category }}/{{ specialty.slug }}" class="tag-link tag-link--large">{%- tag specialty.title -%}
+                </a>
+            </li>
+        {%- endfor -%}
+    </ul>
+</div>

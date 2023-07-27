@@ -1,4 +1,4 @@
-<div class="activity activity--{{ index }}">
+<div data-partial="activity" class="activity activity--{{ index }}">
     <div class="activity-header">
         <div class="activity-header-content">
             {%- include partials/utility/dynamic-headerlevel level: headerlvl title: activity.data.title link: activity.url -%}
@@ -11,7 +11,7 @@
         {%- if activity.data.summary -%}
             <p class="activity-summary">{{ activity.data.summary | strip_html | truncatewords: 60 | truncate: 320 }}</p>
         {%- else -%}
-            <p class="activity-summary">{{ activity.templateContent | strip_html | truncatewords: 60 | truncate: 320  }}</p>
+            <p class="activity-summary">{{ activity.templateContent | strip_html | truncatewords: 60 | truncate: 320 }}</p>
         {%- endif -%}
 
         {%- if activity.data.location -%}
@@ -27,7 +27,7 @@
         {%- endif -%}
 
         <!--
-        {%- for tag in activity.data.categories -%}
+            {%- for tag in activity.data.categories -%}
             <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
         {%- endfor -%}  -->
     </div>

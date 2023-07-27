@@ -13,7 +13,7 @@
         <h2><a href="{{ blog.url }}"
     ><span class="sup-title">{{ translations[locale].latestBlog }}</span
             ><span class="blog-title">{{ blog.data.title }}</span></a></h2>
-    {% endcapture %}    
+    {% endcapture %}
 
     {% capture latestBlog %}<div class="blog-time-wrapper">
             <time class="blog-date" datetime="{{ blog.date | date: "%Y-%m-%d" }}">
@@ -26,7 +26,7 @@
         {%- else -%}
             <span class="blog-author">{{ heroPost.data.author }}</span>
         {%- endif -%}
-        
+
         <a href="{{ blog.url }}" class="blog-link" aria-hidden="true">{{ translations[locale].readmore }}<span class="visually-hidden">{{ translations[locale].about }} {{ activity.data.title }}</span></a>
     {% endcapture %}
 
@@ -45,7 +45,7 @@
 
 {%- include partials/utility/html-head -%}
 
-<body>
+<body data-layout="blog-home">
     {%- include partials/page-header/_page-header -%}
 
     {%- pagehero 'blog' latestBlogTitle latestBlog latestBlogImage -%}
@@ -56,7 +56,7 @@
                 <h2 class="visually-hidden">{{ title }}</h2>
                 {{ content }}
             </div>
- 
+
             {%- include partials/blog/loop-blog-categories headerlvl:"h3" -%}
 
             <ul class="desktop-rows mobile-slider">

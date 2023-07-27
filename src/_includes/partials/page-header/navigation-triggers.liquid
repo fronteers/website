@@ -1,32 +1,36 @@
-<a
-    href="#navigation"
-    class="no-javascript"
-    style="display: none">
-    {%- include svg/icon_menu.svg -%}
-    <span class="visually-hidden">Navigation</span>
-</a>
+<div data-partial="page-header/navigation-triggers">
 
-<noscript>
-    <style>
-        @media all and (max-width: 46.874em) {
-            .no-javascript[style] {
-                display: inline-block !important;
-            }
-            .no-javascript svg line {
-                stroke: white;
-            }
-        }
-    </style>
-</noscript>
-
-<div id="load-on-javascript" hidden>
-    <button id="navigation-open" class="navigation-open mobile-only">
+    <a
+        href="#navigation"
+        class="no-javascript"
+        style="display: none">
         {%- include svg/icon_menu.svg -%}
         <span class="visually-hidden">Navigation</span>
-    </button>
+    </a>
 
-    <button id="navigation-close" class="navigation-close mobile-only">
-        {%- include svg/icon_close_menu.svg -%}
-        <span class="visually-hidden">Navigation</span>
-    </button>
+    <noscript>
+        <style>
+            @media all and (max-width: 46.874em) {
+                .no-javascript[style] {
+                    display: inline-block !important;
+                }
+                .no-javascript svg line {
+                    stroke: white;
+                }
+            }
+        </style>
+    </noscript>
+
+    <div id="load-on-javascript" hidden>
+        <button id="navigation-open" class="navigation-open mobile-only">
+            {%- include svg/icon_menu.svg -%}
+            <span class="visually-hidden">Navigation</span>
+        </button>
+
+        <button id="navigation-close" class="navigation-close mobile-only">
+            {%- include svg/icon_close_menu.svg -%}
+            <span class="visually-hidden">Navigation</span>
+        </button>
+    </div>
+
 </div>
