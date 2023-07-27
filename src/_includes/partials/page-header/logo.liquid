@@ -1,7 +1,13 @@
 <div class="page-header-logo">
     <h1>
         <a href="{{ '/' | url }}">
-            <span class="visually-hidden">{{ title or translations[locale].siteName }}</span>
+            <span class="visually-hidden">
+                {% if title %}
+                    {{ title }}
+                {% else %}
+                    {{ translations[locale].siteName }}
+                {% endif %}
+            </span>
             {%- include svg/logo/geel.svg -%}
         </a>
     </h1>
