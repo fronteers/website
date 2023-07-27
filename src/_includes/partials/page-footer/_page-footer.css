@@ -40,7 +40,7 @@
 }
 
 .page-footer .desktop-columns li {
-  padding: var(--spacing) 0;
+  padding: var(--spacing);
 }
 
 .page-footer .desktop-columns li:last-child {
