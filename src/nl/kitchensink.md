@@ -3,137 +3,265 @@ key: kitchensink
 title: Kitchensink
 ---
 
-## Headings, paragraphs and links
+This kitchen sink shows common elements used and usable on this website.
 
-## Second level heading
+## Headings
 
-### This is a third level heading
+The heading "Headings" is an example of a second level heading (h2).
 
-#### This a fourth
+### This is a third level heading (h3)
 
-This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his _armour-like_ back, and if he [lifted his head](#) a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
+#### This is a fourth level heading (h4)
 
+##### This is a fifth level heading (h5)
 
-| Left aligned syntax      | Centered Description | Right align Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+## Paragraphs
 
-[Learn more](https://fronteers.nl)
+This is a paragraph. One morning, when **Gregor Samsa** woke from troubled
+dreams, he found himself transformed in his bed into a horrible vermin. He lay
+on his _armour-like_ back, and if he [lifted his head](#) a little he could see
+his brown belly, slightly domed and divided by arches into stiff sections.
+
+Words and word groups can be marked as **bold**, _italic_, ~~strikken through~~.
+
+## Table
+
+| Left aligned syntax | Centered Description | Right align Text |
+| :------------------ | :------------------: | ---------------: |
+| Header              |        Title         |      Here's this |
+| Paragraph           |         Text         |         And more |
+| Header              |        Title         |      Here's this |
+| Paragraph           |         Text         |         And more |
 
 ## Tags
 
-\{\% tag "Online" \%\}
+Tags can be displayed using the following liquid syntax:
 
-{%- tag "Online" -%}
-{%- tag "Marketingcommissie" -%}
+<!-- {% raw %} -->
+
+```liquid
+{% tag "Online" %}
+```
+
+<!-- {% endraw %} -->
+
+Examples are:
+
+{% tag "Online" %}
+{% tag "Marketingcommissie" %}
 
 ## Links
 
-\{\% link "http://example.com" "Klik mij" \%\}
+Links can be created and formatted as follows:
 
-{%- link "http://example.com/123" "Klik mij" -%}
+<!-- {% raw %} -->
 
-\{\% link "http://example.com" "Klik mij" "curly-braces" \%\}
+```liquid
+{% link "http://example.com" "Klik mij" %}
+{% link "http://example.com" "Klik mij" "curly-braces" %}
+{% link "http://example.com" "Klik mij" "greater-than" %}
+```
 
-{%- link "http://example.com/123" "Klik mij" "curly-braces" -%}
+<!-- {% endraw %} -->
 
-\{\% link "http://example.com" "Klik mij" "greater-than" \%\}
-
-{%- link "http://example.com/123" "Klik mij" "greater-than" -%}
+{% link "http://example.com/123" "Klik mij" %}
+{% link "http://example.com/123" "Klik mij" "curly-braces" %}
+{% link "http://example.com/123" "Klik mij" "greater-than" %}
 
 ## Buttons
 
-\{\% button "button" "Klik mij" \%\}
+<!-- {% raw %} -->
 
-{%- button "button" "Klik mij" -%}
+```liquid
+{% button "button" "Klik mij" %}
+```
 
-## Vimeo
+<!-- {% endraw %} -->
 
-\{\% vimeo "15982903" \%\}
+{% button "button" "Klik mij" %}
 
-{%- vimeo "15982903" -%}
+## Embedding objects
 
-## inlineVideo
- 
-\{\% inlineVideo "480" "270" "/_downloads/2010/fronteers-2010-compilatie" "webm" \%\}
+There are various short-tags to embed objects using liquid templating.
 
-{%- inlineVideo "480" "270" "/_downloads/2010/fronteers-2010-compilatie" "webm" -%} 
- 
-## Youtube
+### Vimeo
 
-\{\% youtube "rhgwIhB58PA" \%\}
+<!-- {% raw %} -->
 
-{%- youtube "rhgwIhB58PA" -%}
+```liquid
+{% vimeo "15982903" %}
+```
 
-## Codepen
+<!-- {% endraw %} -->
 
-\{\% codepen "MWmBYog" "Pool rules" \%\}
+{% vimeo "15982903" %}
 
-{%- codepen "MWmBYog" "Pool rules" -%}
+### Video (inline)
 
-## Google Maps
+<!-- {% raw %} -->
 
-\{\% googlemaps "Marconilaan 8, Weert, nl" \%\}
+```liquid
+{% inlineVideo "480" "270" "/_downloads/2010/fronteers-2010-compilatie" "webm" %}
+```
 
-{%- googlemaps "Marconilaan 8, Weert, nl" -%}
+<!-- {% endraw %} -->
 
-## JSfiddle
+{% inlineVideo "480" "270" "/_downloads/2010/fronteers-2010-compilatie" "webm" %}
 
-\{\% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" \%\}
+### Youtube
 
-{%- jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" -%}
+<!-- {% raw %} -->
 
-## Slideshare
+```liquid
+{% youtube "rhgwIhB58PA" %}
+```
 
-\{\% slideshare "2hNXWKt7JGPKpi" \%\}
+<!-- {% endraw %} -->
 
-{%- slideshare "2hNXWKt7JGPKpi" -%}
+{% youtube "rhgwIhB58PA" %}
 
-## Slides.com
+### Codepen
 
-\{\% slides "sdrasner" "functional-fronteers" \%\}
+<!-- {% raw %} -->
 
-{%- slides "sdrasner" "functional-fronteers" -%}
+```liquid
+{% codepen "MWmBYog" "Pool rules" %}
+```
 
-## Speakerdeck
+<!-- {% endraw %} -->
 
-\{\% speakerdeck "g00glen00b" "fronteers-javascript-at-your-enterprise-dutch" "View Javascript at your enterprise" \%\}
+{% codepen "MWmBYog" "Pool rules" %}
 
-{%- speakerdeck "g00glen00b" "fronteers-javascript-at-your-enterprise-dutch" "View Javascript at your enterprise" -%}
+### Google Maps
 
-## Mailchimp signup form
+<!-- {% raw %} -->
 
-\{\% mailchimp \%\}
+```liquid
+{% googlemaps "Marconilaan 8, Weert, nl" %}
+```
 
-{%- mailchimp -%}
+<!-- {% endraw %} -->
 
-## About Us Hero
+{% googlemaps "Marconilaan 8, Weert, nl" %}
 
-\{\% aboutushero "We are a proud union" "Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." \%\}
+### JSfiddle
 
-{%- aboutushero "We are a proud union" "Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." -%}
+<!-- {% raw %} -->
+
+```liquid
+{% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" %}
+```
+
+<!-- {% endraw %} -->
+
+{% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" %}
+
+### Slideshare
+
+<!-- {% raw %} -->
+
+```liquid
+{% slideshare "2hNXWKt7JGPKpi" %}
+```
+
+<!-- {% endraw %} -->
+
+{% slideshare "2hNXWKt7JGPKpi" %}
+
+### Slides.com
+
+<!-- {% raw %} -->
+
+```liquid
+{% slides "sdrasner" "functional-fronteers" %}
+```
+
+<!-- {% endraw %} -->
+
+{% slides "sdrasner" "functional-fronteers" %}
+
+### Speakerdeck
+
+<!-- {% raw %} -->
+
+```liquid
+{% speakerdeck "g00glen00b" "fronteers-javascript-at-your-enterprise-dutch" "View Javascript at your enterprise" %}
+```
+
+<!-- {% endraw %} -->
+
+{% speakerdeck "g00glen00b" "fronteers-javascript-at-your-enterprise-dutch" "View Javascript at your enterprise" %}
+
+### Mailchimp signup form
+
+<!-- {% raw %} -->
+
+```liquid
+{% mailchimp %}
+```
+
+<!-- {% endraw %} -->
+
+{% mailchimp %}
+
+## Embedding Fronteers elements
+
+There are also various elements that can be embedded /included directly. The common ones are listed here:
+
+### About Us Hero
+
+<!-- {% raw %} -->
+
+```liquid
+{% aboutushero "We are a proud union" "Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
+```
+
+<!-- {% endraw %} -->
+
+{% aboutushero "We are a proud union" "Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
 
 ## Quote
 
-\{\% quote "Anneke Sinnema" "This is a quote" \%\}
+<!-- {% raw %} -->
 
-{%- quote "Anneke Sinnema" "This is a quote" -%}
+```liquid
+{% quote "Anneke Sinnema" "This is a quote" %}
+```
+
+<!-- {% endraw %} -->
+
+{% quote "Anneke Sinnema" "This is a quote" %}
 
 ## Memberquote
 
-\{\% memberquote "Member" "Jobtitle" "Avatar Source" "Member Quote" \%\}
+<!-- {% raw %} -->
 
-{%- memberquote "Anneke Sinnema" "Frontender" "/assets/member-avatars/anneke-sinnema.png" "To all users of technology who are willing to take a chance, make a choice, and try a new way of doing things so that we can nurture and enjoy a happy, healthy planet." -%}
+```liquid
+{% memberquote "Member" "Jobtitle" "Avatar Source" "Member Quote" %}
+```
 
-## Shield
+For example:
+
+```liquid
+{% memberquote "Anneke Sinnema" "Frontender" "/assets/member-avatars/anneke-sinnema.png" "To all users of technology who are willing to take a chance, make a choice, and try a new way of doing things so that we can nurture and enjoy a happy, healthy planet." %}
+```
+
+<!-- {% endraw %} -->
+
+{% memberquote "Anneke Sinnema" "Frontender" "/assets/member-avatars/anneke-sinnema.png" "To all users of technology who are willing to take a chance, make a choice, and try a new way of doing things so that we can nurture and enjoy a happy, healthy planet." %}
+
+## Shields
 
 {% assign shield_color_primary = "purple" %}
 {% assign shield_color_secondary = "red" %}
 
-\{\% shield "accolade" "split-horizontal" "{{shield_color_primary}}" "{{shield_color_secondary}}" \%\}
+<!-- {% raw %} -->
+
+```liquid
+{% shield "accolade" "split-horizontal" "{{shield_color_primary}}" "{{shield_color_secondary}}" %}
+```
+
+<!-- {% endraw %} -->
 
 <table>
   <thead>
@@ -192,13 +320,22 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
   </tbody>
 </table>
 
-## Generate Shield
+### Generate Shield
 
-\{\% generateShield "An arbitrary string" \%\}
+It is also possible to generate a shield for an arbitary string. This is the
+basis of having an identicon for our members.
+
+<!-- {% raw %} -->
+
+```liquid
+{% generateShield "An arbitrary string" %}
+```
+
+<!-- {% endraw %} -->
 
 <table>
   <thead>
-  <tr> 
+  <tr>
     <th scope="col" width="100">Alice</th>
     <th scope="col" width="100">Bob</th>
     <th scope="col" width="100">Charlie</th>
@@ -227,42 +364,97 @@ This is a paragraph. One morning, when **Gregor Samsa** woke from troubled dream
 
 ## Banners
 
-\{\% banner "greater" "Banner with short code!" "https://github.com/" "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "\_blank" "h3" "go to vimeo" %\}
+Banners are desgin elements that can link to another page and look like you can
+click them.
 
-{%- banner "greater" "Banner with short code!" "https://github.com/" "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%}
+<!-- {% raw %} -->
 
-\{\% banner "curly" "Banner with short code!" "https://github.com/" "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "\_blank" "h3" "go to vimeo" %\}
+(remove newlines)
 
-{%- banner "curly" "Banner with short code!" "https://github.com/" "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%}
+```liquid
+{% banner
+  "style"
+  "Heading"
+  "https://example.com/"
+  "/_img/path/to/image"
+  "link target"
+  "heading html element"
+  "link visually hidden label"
+%}
+```
 
-\{\% banner "parentheses" "Banner with short code!" "https://github.com/" "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "\_blank" "h3" "go to vimeo" %\}
+For example (remove newlines):
 
-{%- banner "parentheses" "Banner with short code!" "https://github.com/" "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%}
+```liquid
+{% banner
+  "greater"
+  "Banner with short code! (greater style)"
+  "https://github.com/"
+  "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg"
+  "_blank"
+  "h3"
+  "Go to GitHub"
+%}
+```
 
-\{\% banner "none" "Banner with short code!" "https://github.com/" "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "\_blank" "h3" "go to vimeo" %\}
+<!-- {% endraw %} -->
 
-{%- banner "none" "Banner with short code!" "https://github.com/" "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "go to vimeo" -%}
+{% banner "greater" "Banner with short code! (greater style)" "https://github.com/" "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg" "_blank" "h3" "Go to GitHub" %}
 
-## POC paired shortcode
+Style can be `greater`, `curly`, `parentheses`, or `none`.
 
-\{\% block "Title" \%\}
+## Blocks
+
+<!-- {% raw %} -->
+
+```liquid
+{% block "Title" %}
 This is content
-\{\% endblock \%\}
+{% endblock %}
+```
 
-{%- block "Title" -%}
+<!-- {% endraw %} -->
+
+{% block "Title" %}
 This is content
-{%- endblock -%}
+{% endblock %}
 
-## Using shapes
+## Shapes
+
+You can also use `include` directly, for example to draw shapes (remove newlines from `include`):
+
+<!-- {% raw %} -->
+
+```liquid
+<section class="inner-wrapper">
+    <div class="greater-than-bg">
+        {% include partials/utility/dynamic-headerlevel
+          level: "h3"
+          title: "My greater than shape" %}
+    </div>
+    <div class="curly-braces-bg">
+        {% include partials/utility/dynamic-headerlevel
+          level: "h4"
+          title: "My curly braces shape" %}
+    </div>
+    <div class="parentheses-bg">
+        {% include partials/utility/dynamic-headerlevel
+          level: "h5"
+          title: "My parentheses shape" %}
+    </div>
+</section>
+```
+
+<!-- {% endraw %} -->
 
 <section class="inner-wrapper">
     <div class="greater-than-bg">
-        {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
+        {% include partials/utility/dynamic-headerlevel level: "h3" title: "My greater than shape" %}
     </div>
     <div class="curly-braces-bg">
-        {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
+        {% include partials/utility/dynamic-headerlevel level: "h4" title: "My curly braces shape" %}
     </div>
     <div class="parentheses-bg">
-        {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
+        {% include partials/utility/dynamic-headerlevel level: "h5" title: "My parentheses shape" %}
     </div>
 </section>
