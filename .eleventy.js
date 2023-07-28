@@ -23,7 +23,7 @@ function getAllKeyValues(collectionArray, key) {
   // remove duplicates
   allValues = [...new Set(allValues)];
   // order alphabetically
-  allValues = allValues.sort(function(a, b) {
+  allValues = allValues.sort(function (a, b) {
     return a.localeCompare(b, "en", { sensitivity: "base" });
   });
   // return
@@ -46,8 +46,8 @@ function strToSlug(str) {
   return slugify(str, options);
 }
 
-module.exports = function(eleventyConfig) {
-  const quick = Boolean(process.env.BUILD_QUICK)
+module.exports = function (eleventyConfig) {
+  const quick = Boolean(process.env.BUILD_QUICK);
   const now = new Date();
 
   // There is a quick build function (npm run start:quick) that only loads the
@@ -55,27 +55,31 @@ module.exports = function(eleventyConfig) {
   // older content. We process this first so that any plugin doesn't even see
   // these files.
   if (quick) {
-    glob.sync("src/{nl,en}/{activiteiten,activities,blog,congres,conference,werk-en-freelance}/**/*.md").forEach((file) => {
-      const parts = file.split('/');
+    glob
+      .sync(
+        "src/{nl,en}/{activiteiten,activities,blog,congres,conference,werk-en-freelance}/**/*.md"
+      )
+      .forEach((file) => {
+        const parts = file.split("/");
 
-      let year = Number(parts[parts.length - 3]);
-      if (isNaN(year)) {
-        // Sometimes there is no "month" directory
-        year = Number(parts[parts.length - 2]);
+        let year = Number(parts[parts.length - 3]);
         if (isNaN(year)) {
+          // Sometimes there is no "month" directory
+          year = Number(parts[parts.length - 2]);
+          if (isNaN(year)) {
+            return;
+          }
+        }
+
+        if (year >= now.getFullYear() - 1) {
           return;
         }
-      }
 
-      if (year >= now.getFullYear() - 1) {
-        return;
-      }
+        eleventyConfig.ignores.add(file);
+        console.debug("[ignore] ", file);
+      });
 
-      eleventyConfig.ignores.add(file);
-      console.debug("[ignore] ", file);
-    });
-
-    eleventyConfig.ignores.add('src/nl/vereniging/bestuur/notulen')
+    eleventyConfig.ignores.add("src/nl/vereniging/bestuur/notulen");
   }
 
   /* Add id to heading elements */
@@ -100,16 +104,16 @@ module.exports = function(eleventyConfig) {
   });
 
   glob.sync("src/{_components,_includes}/**/*.css").forEach((file) => {
-    const input = String(file).split('/').slice(0, -1).join('/')
-    const output = input.replace(/^src\//, 'assets/');
+    const input = String(file).split("/").slice(0, -1).join("/");
+    const output = input.replace(/^src\//, "assets/");
 
-    const mapping = {}
-    mapping[`${input}/*.css`] = output
+    const mapping = {};
+    mapping[`${input}/*.css`] = output;
     eleventyConfig.addPassthroughCopy(mapping);
-  })
+  });
 
   /* Copy static assets to the dist directory */
-  eleventyConfig.addPassthroughCopy('_redirects')
+  eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy({
     "src/_assets/fonts": "assets/fonts",
   });
@@ -134,21 +138,23 @@ module.exports = function(eleventyConfig) {
 
   /* Load all paired shortcodes */
   glob.sync("src/_components/paired/**/*.js").forEach((file) => {
-    let shortcodes = require(`./${file}`);
-    Object.keys(shortcodes).forEach((name) => {
-      eleventyConfig.addPairedShortcode(name, shortcodes[name]);
+    const exports = require(`./${file}`);
+    Object.entries(exports).forEach(([name, shortcode]) => {
+      eleventyConfig.addPairedShortcode(name, shortcode);
+      console.debug(`[shortcode] ${name} (paired)`);
     });
   });
 
   /* Load all shortcodes */
   glob.sync("src/_components/shortcodes/**/*.js").forEach((file) => {
-    let shortcodes = require(`./${file}`);
-    Object.keys(shortcodes).forEach((name) => {
-      eleventyConfig.addShortcode(name, shortcodes[name]);
+    const exports = require(`./${file}`);
+    Object.entries(exports).forEach(([name, shortcode]) => {
+      eleventyConfig.addShortcode(name, shortcode);
+      console.debug(`[shortcode] ${name}`);
     });
   });
 
-  eleventyConfig.addCollection("canonical", function(collection) {
+  eleventyConfig.addCollection("canonical", function (collection) {
     return collection
       .getFilteredByTag("pages")
       .filter((post) => Boolean(post.data.key))
@@ -156,7 +162,7 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(post.data.locale == "nl"));
   });
 
-  eleventyConfig.addCollection("published_posts", function(collection) {
+  eleventyConfig.addCollection("published_posts", function (collection) {
     return collection
       .getFilteredByTag("posts")
       .filter((post) => Boolean(!post.data.draft))
@@ -166,7 +172,7 @@ module.exports = function(eleventyConfig) {
       .reverse();
   });
 
-  eleventyConfig.addCollection("published_posts_nl", function(collection) {
+  eleventyConfig.addCollection("published_posts_nl", function (collection) {
     return collection
       .getFilteredByTag("posts")
       .filter((post) => Boolean(!post.data.draft))
@@ -177,7 +183,7 @@ module.exports = function(eleventyConfig) {
       .reverse();
   });
 
-  eleventyConfig.addCollection("published_posts_en", function(collection) {
+  eleventyConfig.addCollection("published_posts_en", function (collection) {
     return collection
       .getFilteredByTag("posts")
       .filter((post) => Boolean(!post.data.draft))
@@ -188,7 +194,7 @@ module.exports = function(eleventyConfig) {
       .reverse();
   });
 
-  eleventyConfig.addCollection("published_activities", function(collection) {
+  eleventyConfig.addCollection("published_activities", function (collection) {
     return collection
       .getFilteredByTag("activities")
       .filter((post) => Boolean(!post.data.draft))
@@ -198,50 +204,56 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => b.data.eventdate - a.data.eventdate);
   });
 
-  eleventyConfig.addCollection("published_activities_nl", function(collection) {
+  eleventyConfig.addCollection(
+    "published_activities_nl",
+    function (collection) {
+      return collection
+        .getFilteredByTag("activities")
+        .filter((post) => Boolean(!post.data.draft))
+        .filter((post) => Boolean(!post.data.excludeFromCollection))
+        .filter((post) => Boolean(post.date <= now))
+        .filter((post) => Boolean(!post.data.parent))
+        .filter((post) => Boolean(post.data.locale == "nl"))
+        .sort((a, b) => b.data.eventdate - a.data.eventdate);
+    }
+  );
+
+  eleventyConfig.addCollection(
+    "published_activities_en",
+    function (collection) {
+      return collection
+        .getFilteredByTag("activities")
+        .filter((post) => Boolean(!post.data.draft))
+        .filter((post) => Boolean(!post.data.excludeFromCollection))
+        .filter((post) => Boolean(post.date <= now))
+        .filter((post) => Boolean(!post.data.parent))
+        .filter((post) => Boolean(post.data.locale == "en"))
+        .sort((a, b) => b.data.eventdate - a.data.eventdate);
+    }
+  );
+
+  eleventyConfig.addCollection("published_jobs", function (collection) {
     return collection
-      .getFilteredByTag("activities")
+      .getFilteredByTag("jobs")
+      .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.parent))
+      .reverse();
+  });
+
+  eleventyConfig.addCollection("published_jobs_nl", function (collection) {
+    return collection
+      .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .filter((post) => Boolean(post.data.locale == "nl"))
-      .sort((a, b) => b.data.eventdate - a.data.eventdate);
-  });
-
-  eleventyConfig.addCollection("published_activities_en", function(collection) {
-    return collection
-      .getFilteredByTag("activities")
-      .filter((post) => Boolean(!post.data.draft))
-      .filter((post) => Boolean(!post.data.excludeFromCollection))
-      .filter((post) => Boolean(post.date <= now))
-      .filter((post) => Boolean(!post.data.parent))
-      .filter((post) => Boolean(post.data.locale == "en"))
-      .sort((a, b) => b.data.eventdate - a.data.eventdate);
-  });
-
-  eleventyConfig.addCollection("published_jobs", function(collection) {
-    return collection
-      .getFilteredByTag("jobs")
-      .filter((post) => Boolean(!post.data.draft))
-      .filter((post) => Boolean(!post.data.excludeFromCollection))
-      .filter((post) => Boolean(post.date <= now))
-      .filter((post) => Boolean(!post.data.parent))
       .reverse();
   });
 
-  eleventyConfig.addCollection("published_jobs_nl", function(collection) {
-    return collection
-      .getFilteredByTag("jobs")
-      .filter((post) => Boolean(!post.data.draft))
-      .filter((post) => Boolean(!post.data.excludeFromCollection))
-      .filter((post) => Boolean(post.date <= now))
-      .filter((post) => Boolean(!post.data.parent))
-      .filter((post) => Boolean(post.data.locale == "nl"))
-      .reverse();
-  });
-
-  eleventyConfig.addCollection("published_jobs_en", function(collection) {
+  eleventyConfig.addCollection("published_jobs_en", function (collection) {
     return collection
       .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
@@ -252,7 +264,7 @@ module.exports = function(eleventyConfig) {
       .reverse();
   });
 
-  eleventyConfig.addCollection("published_members", function(collection) {
+  eleventyConfig.addCollection("published_members", function (collection) {
     return collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
@@ -260,7 +272,7 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(!post.data.draft));
   });
 
-  eleventyConfig.addCollection("published_members_nl", function(collection) {
+  eleventyConfig.addCollection("published_members_nl", function (collection) {
     return collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
@@ -269,7 +281,7 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(post.data.locale == "nl"));
   });
 
-  eleventyConfig.addCollection("published_members_en", function(collection) {
+  eleventyConfig.addCollection("published_members_en", function (collection) {
     return collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
@@ -278,7 +290,7 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(post.data.locale == "en"));
   });
 
-  eleventyConfig.addCollection("freelancers", function(collection) {
+  eleventyConfig.addCollection("freelancers", function (collection) {
     return collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(!post.data.excludeFromCollection))
@@ -287,7 +299,7 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(!post.data.draft));
   });
 
-  eleventyConfig.addCollection("freelancers_nl", function(collection) {
+  eleventyConfig.addCollection("freelancers_nl", function (collection) {
     return collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
@@ -297,7 +309,7 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(!post.data.draft));
   });
 
-  eleventyConfig.addCollection("freelancers_en", function(collection) {
+  eleventyConfig.addCollection("freelancers_en", function (collection) {
     return collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
@@ -307,11 +319,11 @@ module.exports = function(eleventyConfig) {
       .filter((post) => Boolean(!post.data.draft));
   });
 
-  eleventyConfig.addCollection("drafts", function(collection) {
+  eleventyConfig.addCollection("drafts", function (collection) {
     return collection.getAll().filter((post) => Boolean(post.data.draft));
   });
 
-  eleventyConfig.addCollection("memberSpecialties", function(collection) {
+  eleventyConfig.addCollection("memberSpecialties", function (collection) {
     let allSpecialties = getAllKeyValues(
       collection
         .getFilteredByTag("members")
@@ -327,7 +339,7 @@ module.exports = function(eleventyConfig) {
     return memberSpecialties;
   });
 
-  eleventyConfig.addCollection("activityCategories", function(collection) {
+  eleventyConfig.addCollection("activityCategories", function (collection) {
     let allCategories = getAllKeyValues(
       collection.getFilteredByTag("activities"),
       "categories"
@@ -341,7 +353,7 @@ module.exports = function(eleventyConfig) {
     return eventCategories;
   });
 
-  eleventyConfig.addCollection("blogCategories", function(collection) {
+  eleventyConfig.addCollection("blogCategories", function (collection) {
     let allCategories = getAllKeyValues(
       collection.getFilteredByTag("posts"),
       "categories"
@@ -355,7 +367,7 @@ module.exports = function(eleventyConfig) {
     return blogCategories;
   });
 
-  eleventyConfig.addCollection("jobCategories", function(collection) {
+  eleventyConfig.addCollection("jobCategories", function (collection) {
     let allCategories = getAllKeyValues(
       collection.getFilteredByTag("jobs"),
       "categories"
@@ -369,15 +381,15 @@ module.exports = function(eleventyConfig) {
     return jobCategories;
   });
 
-  eleventyConfig.addFilter("getLocale", function(collection, locale) {
+  eleventyConfig.addFilter("getLocale", function (collection, locale) {
     return collection.filter((post) => Boolean(post.data.locale == locale));
   });
 
-  eleventyConfig.addFilter("slugify", function(string) {
+  eleventyConfig.addFilter("slugify", function (string) {
     return strToSlug(string);
   });
 
-  eleventyConfig.addFilter("displayDate", function(date, locale) {
+  eleventyConfig.addFilter("displayDate", function (date, locale) {
     return new Intl.DateTimeFormat(locale, { dateStyle: "long" }).format(date);
   });
 
