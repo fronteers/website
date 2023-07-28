@@ -6,25 +6,25 @@
 }
 
 .member-quote-image-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
+  width: 150px;
+  height: 150px;
+
+  margin: auto;
 }
 
 .member-quote-image {
-  width: 175px;
-  height: 175px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 
-/* TODO: update when flag (/flags) are implemented */
 .member-quote-flag {
   position: absolute;
-  bottom: 15%;
-  left: 30%;
-  width: 30px;
-  height: 50px;
+  bottom: -10px;
+  left: 14px;
+  width: 36px;
+  height: 54px;
 }
 
 .member-quote-text-container {
@@ -74,10 +74,9 @@
     border-radius: 50%;
   }
 
-  /* TODO: update when flag (/flags) are implemented */
   .member-quote-flag {
-    left: 38%;
-    bottom: -15px;
+    left: 10px;
+    bottom: 10px;
   }
 
   .member-quote-text-container {

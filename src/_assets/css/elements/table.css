@@ -1,54 +1,72 @@
 /* tables */
 table {
-	border-collapse: collapse;
-	width: 100%;
-	margin-bottom: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table-responsive {
+  margin-bottom: 20px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.table-responsive > table th {
+  white-space: nowrap;
+}
+
+.table-responsive > table {
+  margin-bottom: 0;
 }
 
 caption {
-	text-align: left;
-	margin-bottom: 5px;
-	color: #333333;
-	font-weight: bold;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #333333;
+  font-weight: bold;
 }
 
-th, td {
-	border: 1px solid #AFAFAF;
-	padding: 0.5em 1em;
-	text-align: left;
-	vertical-align: top;
-	font-size: var(--font-size-16);
-	font-family: var(--font-family-content), sans-serif;
+th,
+td {
+  border: 1px solid #afafaf;
+  padding: 0.5em 1em;
+  text-align: left;
+  vertical-align: top;
+  font-size: var(--font-size-16);
+  font-family: var(--font-family-content), sans-serif;
 }
 
-th ul, th ol,
-td ul, td ol
+th ul,
+th ol,
+td ul,
+td ol td p {
+  margin: 0 0 1em 1em;
+}
+
 td p {
-	margin: 0 0 1em 1em;
+  font-size: 100%;
+  margin-bottom: 0.5em;
 }
 
-td p {
-	font-size: 100%;
-	margin-bottom: 0.5em;
-}
-
-td p:last-child { 
-	margin-bottom: 0; /* remove excess whitespace */
+td p:last-child {
+  margin-bottom: 0; /* remove excess whitespace */
 }
 
 thead th {
-	background-color: #E5E5E5;
-	font-weight: bold;
+  background-color: #e5e5e5;
+  font-weight: bold;
 }
 
-tfoot th, tfoot td {
-	background-color: #EFEFEF;
+tfoot th,
+tfoot td {
+  background-color: #efefef;
 }
 
-tbody th, tfoot th {
-	font-weight: bold;
+tbody th,
+tfoot th {
+  font-weight: bold;
 }
 
-table tbody tr:nth-child(2n+1) {
+table tbody tr:nth-child(2n + 1) {
   background-color: var(--lilac-light);
 }

@@ -4,7 +4,9 @@
 
     <main class="{% if useHero %}styledheader{% endif %}">
         {% if useHero == 'aboutushero' %}
-            {%- aboutushero title heroSlogan -%}
+            {%- aboutushero title -%}
+                {{ heroSlogan }}
+            {%- endaboutushero -%}
         {% endif %}
 
         <div class="page-content inner-wrapper">

@@ -26,12 +26,18 @@ Words and word groups can be marked as **bold**, _italic_, ~~strikken through~~.
 
 ## Table
 
+<div class="table-responsive">
+
 | Left aligned syntax | Centered Description | Right align Text |
 | :------------------ | :------------------: | ---------------: |
 | Header              |        Title         |      Here's this |
 | Paragraph           |         Text         |         And more |
 | Header              |        Title         |      Here's this |
 | Paragraph           |         Text         |         And more |
+
+</div>
+
+Wrap the table in `<div class="table-responsive">` to make it responsive.
 
 ## Tags
 
@@ -213,42 +219,82 @@ There are also various elements that can be embedded /included directly. The com
 <!-- {% raw %} -->
 
 ```liquid
-{% aboutushero "We are a proud union" "Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
+{% aboutushero "We are a proud union" %}
+Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% endaboutushero %}
 ```
 
 <!-- {% endraw %} -->
 
-{% aboutushero "We are a proud union" "Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
+{% aboutushero "We are a proud union" %}
+Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% endaboutushero %}
 
 ## Quote
 
 <!-- {% raw %} -->
 
 ```liquid
-{% quote "Anneke Sinnema" "This is a quote" %}
+{% quote "Anneke Sinnema" %}
+This is a quote
+{% endquote %}
 ```
 
 <!-- {% endraw %} -->
 
-{% quote "Anneke Sinnema" "This is a quote" %}
+{% quote "Anneke Sinnema" %}
+This is a quote
+{% endquote %}
 
-## Memberquote
+## Member Quote
 
 <!-- {% raw %} -->
 
+(Remove newlines):
+
 ```liquid
-{% memberquote "Member" "Jobtitle" "Avatar Source" "Member Quote" %}
+{% memberquote
+  "Member"
+  "Jobtitle"
+  "/path/to/avatar"
+  "Shield value"
+%}Member Quote{% endmemberquote %}
 ```
 
-For example:
+For example (remove newlines):
 
 ```liquid
-{% memberquote "Anneke Sinnema" "Frontender" "/assets/member-avatars/anneke-sinnema.png" "To all users of technology who are willing to take a chance, make a choice, and try a new way of doing things so that we can nurture and enjoy a happy, healthy planet." %}
+{% memberquote
+  "Anneke Sinnema"
+  "Frontender"
+  "/assets/member-avatars/anneke-sinnema.png"
+  "annekesinnema" %}
+  To all users of technology who are willing to take a chance, make a choice, and try a new way of doing things so that we can nurture and enjoy a happy, healthy planet.
+{% endmemberquote %}
 ```
 
 <!-- {% endraw %} -->
 
-{% memberquote "Anneke Sinnema" "Frontender" "/assets/member-avatars/anneke-sinnema.png" "To all users of technology who are willing to take a chance, make a choice, and try a new way of doing things so that we can nurture and enjoy a happy, healthy planet." %}
+{% memberquote "Anneke Sinnema" "Frontender" "/assets/member-avatars/anneke-sinnema.png" "annekesinnema" %}
+To all users of technology who are willing to take a chance, make a choice, and try a new way of doing things so that we can nurture and enjoy a happy, healthy planet.
+{% endmemberquote %}
+
+By default the full name will be used to generate the shield (see below), but some members may prefer you to use a
+changed name, chosen name, nick name, or even email address to generate their flag. In this case, especially if the name
+on display is not the same as the value to generate the flag, provide it as the final argument.
+
+<div class="table-responsive">
+
+| #   | Positional argument            | Expected value                      | Required |
+| --- | ------------------------------ | ----------------------------------- | -------- |
+| 1   | Name (given, chosen, nickname) | A string                            | Yes      |
+| 2   | (Job) title                    | A string or empty string            | Yes      |
+| 3   | Avatar source                  | A path (string)                     | Yes      |
+| 4   | Shield value                   | A consistent string for this member | No       |
+
+</div>
+
+The quote itself is the content inside the paired tag.
 
 ## Shields
 
@@ -263,6 +309,7 @@ For example:
 
 <!-- {% endraw %} -->
 
+<div class="table-responsive">
 <table>
   <thead>
     <tr>
@@ -279,46 +326,47 @@ For example:
   <tbody>
     <tr>
       <th scope="row">accolade</th>
-      <td>{% shield "accolade" "accolade" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "accolade" "checkerboard" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "accolade" "diagonal" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "accolade" "dot" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "accolade" "thunder" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "accolade" "split-horizontal" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "accolade" "stripe" shield_color_primary shield_color_secondary %}</td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "accolade" "accolade" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "accolade" "checkerboard" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "accolade" "diagonal" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "accolade" "dot" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "accolade" "thunder" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "accolade" "split-horizontal" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "accolade" "stripe" shield_color_primary shield_color_secondary %}</div></td>
     </tr>
     <tr>
       <th scope="row">rectangular</th>
-      <td>{% shield "rectangular" "accolade" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rectangular" "checkerboard" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rectangular" "diagonal" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rectangular" "dot" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rectangular" "thunder" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rectangular" "split-horizontal" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rectangular" "stripe" shield_color_primary shield_color_secondary %}</td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rectangular" "accolade" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rectangular" "checkerboard" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rectangular" "diagonal" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rectangular" "dot" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rectangular" "thunder" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rectangular" "split-horizontal" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rectangular" "stripe" shield_color_primary shield_color_secondary %}</div></td>
     </tr>
     <tr>
       <th scope="row">rounded</th>
-      <td>{% shield "rounded" "accolade" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rounded" "checkerboard" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rounded" "diagonal" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rounded" "dot" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rounded" "thunder" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rounded" "split-horizontal" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "rounded" "stripe" shield_color_primary shield_color_secondary %}</td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rounded" "accolade" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rounded" "checkerboard" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rounded" "diagonal" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rounded" "dot" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rounded" "thunder" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rounded" "split-horizontal" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "rounded" "stripe" shield_color_primary shield_color_secondary %}</div></td>
     </tr>
     <tr>
       <th scope="row">triangular</th>
-      <td>{% shield "triangular" "accolade" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "triangular" "checkerboard" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "triangular" "diagonal" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "triangular" "dot" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "triangular" "thunder" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "triangular" "split-horizontal" shield_color_primary shield_color_secondary %}</td>
-      <td>{% shield "triangular" "stripe" shield_color_primary shield_color_secondary %}</td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "triangular" "accolade" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "triangular" "checkerboard" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "triangular" "diagonal" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "triangular" "dot" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "triangular" "thunder" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "triangular" "split-horizontal" shield_color_primary shield_color_secondary %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% shield "triangular" "stripe" shield_color_primary shield_color_secondary %}</div></td>
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Generate Shield
 
@@ -333,6 +381,7 @@ basis of having an identicon for our members.
 
 <!-- {% endraw %} -->
 
+<div class="table-responsive">
 <table>
   <thead>
   <tr>
@@ -349,18 +398,19 @@ basis of having an identicon for our members.
   </thead>
   <tbody>
     <tr>
-      <td>{% generateShield "Alice" %}</td>
-      <td>{% generateShield "Bob" %}</td>
-      <td>{% generateShield "Charlie" %}</td>
-      <td>{% generateShield "Dave" %}</td>
-      <td>{% generateShield "Erin" %}</td>
-      <td>{% generateShield "Frank" %}</td>
-      <td>{% generateShield "Grace" %}</td>
-      <td>{% generateShield "Heidi" %}</td>
-      <td>{% generateShield "Ivan" %}</td>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "Alice" %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "Bob" %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "Charlie" %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "Dave" %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "Erin" %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "Frank" %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "Grace" %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "Heidi" %}</div></td>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "Ivan" %}</div></td>
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Banners
 
