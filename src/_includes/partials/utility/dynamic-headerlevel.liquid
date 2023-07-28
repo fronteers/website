@@ -14,14 +14,16 @@
 
 {%- case level -%}
     {%- when 'h2' -%}
-    <h2 class="h">{{ header }}</h2>
+    <h2 data-partial="utility/dynamic-headerlevel" class="h">{{ header }}</h2>
     {%- when 'h3' -%}
-    <h3 class="h">{{ header }}</h3>
+    <h3 data-partial="utility/dynamic-headerlevel" class="h">{{ header }}</h3>
     {%- when 'h4' -%}
-    <h4 class="h">{{ header }}</h4>
+    <h4 data-partial="utility/dynamic-headerlevel" class="h">{{ header }}</h4>
     {%- when 'h5' -%}
-    <h5 class="h">{{ header }}</h5>
+    <h5 data-partial="utility/dynamic-headerlevel" class="h">{{ header }}</h5>
 {%- else -%}
-    Invalid header level given to dynamic-headerlevel
-    <code>{{ level }}</code>
+    <div data-partial="utility/dynamic-headerlevel">
+        Invalid header level given to dynamic-headerlevel
+        <code>{{ level }}</code>
+    </div>
 {%- endcase -%}

@@ -1,12 +1,12 @@
 {%- include partials/utility/html-head -%}
-<body>
+<body data-layout="activity-single">
     {%- include partials/page-header/_page-header -%}
 
     <main class="inner-wrapper {% if useHero %}styledheader{% endif %}">
         <div class="page-content">
             {% unless useHero %}
             <h2>{{ title }}</h2>
-        {% endunless %}  
+        {% endunless %}
             {{ content }}
         </div>
     </main>

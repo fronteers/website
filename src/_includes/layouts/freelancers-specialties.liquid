@@ -7,7 +7,7 @@ pagination:
 key: specialties-{{ specialty.slug }}
 ---
 {%- include partials/utility/html-head -%}
-<body>
+<body data-layout="freelancers-specialties">
     {%- include partials/page-header/_page-header -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">
@@ -15,7 +15,7 @@ key: specialties-{{ specialty.slug }}
             <div class="page-content">
                 {% unless useHero %}
                     <h2>{{ title }}</h2>
-                {% endunless %}  
+                {% endunless %}
                 {{ content }}
             </div>
 
