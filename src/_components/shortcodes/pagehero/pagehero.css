@@ -220,7 +220,6 @@
         overflow: visible;
     }
 
-
     .hero--activities .activities-hero-graphic-wrapper {
         height: 307px;
         z-index: 10;
@@ -343,6 +342,10 @@
 
     .hero-content .button {
         transition: transform .15s ease-in;
+
+        @media (prefers-reduced-motion) {
+            transition: none;
+        }
     }
 
     .hero-content .button:focus,
@@ -350,5 +353,9 @@
     .hero-content .button:active {
         transform: rotate(-2deg);
         transition: transform .15s ease-out;
+
+        @media (prefers-reduced-motion) {
+            transition: none;
+        }
     }
 }
