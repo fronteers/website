@@ -32,6 +32,9 @@
         {%- endfor -%}  -->
     </div>
     <div class="activity-footer">
-        <a href="{{ activity.url }}" class="button">{{ translations[locale].signUp }}</a>
+        <a
+            href="{{ activity.url }}"
+            class="button"
+            aria-hidden="true">{{ translations[locale].signUp }}</a>
     </div>
 </div>

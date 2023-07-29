@@ -30,6 +30,26 @@
     color: black;
     background-color: var(--red);
     text-decoration: none;
+    transition: transform .15s ease-in;
+
+    @media (prefers-reduced-motion) {
+        transition: none;
+    }
+}
+
+.banner-join-us .button:hover,
+.banner-join-us .button:focus,
+.banner-join-us .button:active {
+    color: var(--red);
+    background-color: black;
+    text-decoration: none;
+
+    transform: rotate(2deg);
+    transition: transform .15s ease-out;
+
+    @media (prefers-reduced-motion) {
+        transition: none;
+    }
 }
 
 .banner-join-us__description {

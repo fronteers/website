@@ -47,7 +47,10 @@
             </ul>
         </div>
 
-        <a href="{{ job.url }}" class="button button-readmore">
+        <a
+            href="{{ job.url }}"
+            class="button button-readmore"
+            aria-hidden="true">
             {{ translations[locale].blogreadmore }}
             <span class="visually-hidden">{{ translations[locale].about }} {{ job.data.title }}</span>
         </a>

@@ -183,9 +183,10 @@ main section > .h {
     margin-block-end: 0;
   }
 
+/*  breaks tab order
   .mobile-slider:has(li:nth-child(3)) {
     direction: rtl;
-  }
+  } */
 
   .mobile-slider-item {
     margin-inline-end: 0;
