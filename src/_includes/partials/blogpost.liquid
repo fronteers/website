@@ -6,12 +6,18 @@
     {%- endif -%}
 {%- endfor -%}
 
-<div class="blog blog-{{ index }}">
+<div data-partial="blogpost" class="blog blog-{{ index }}">
     <div class="blog-graphic-wrapper">
         {%- if post.data.graphic.src -%}
-            <img src="/assets/images/{{ post.data.graphic.src }}" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
+            <img
+                src="/assets/images/{{ post.data.graphic.src }}"
+                alt="{{ post.data.graphic.alt }}"
+                class="blog-graphic" />
         {%- else -%}
-            <img src="/assets/images/default_blog_image.png" alt="{{ post.data.graphic.alt }}" class="blog-graphic" />
+            <img
+                src="/assets/images/default_blog_image.png"
+                alt="{{ post.data.graphic.alt }}"
+                class="blog-graphic" />
         {%- endif -%}
     </div>
 
@@ -28,7 +34,7 @@
 
         <div class="blog-meta">
             <time class="blog-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
-                {{ post.date | displayDate: locale  | date: "%d.%m.%y" }}
+                {{ post.date | displayDate: locale | date: "%d.%m.%y" }}
             </time>
 
             {%- if authorHasAProfilePage -%}
@@ -37,8 +43,11 @@
                 <span class="blog-author">{{ post.data.author }}</span>
             {%- endif -%}
 
-            <ul class="blog-tags" role="list" aria-label="Tagged">
-                {%- for tag in post.data.categories limit:2 -%}
+            <ul
+                class="blog-tags"
+                role="list"
+                aria-label="Tagged">
+                {%- for tag in post.data.categories limit: 2 -%}
                     <li>
                         <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{%- tag tag -%}</a>
                     </li>

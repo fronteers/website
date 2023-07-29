@@ -1,12 +1,12 @@
 {%- include partials/utility/html-head -%}
-<body>
+<body data-layout="blog-category">
     {%- include partials/page-header/_page-header -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">
         <div class="page-content">
             {% unless useHero %}
             <h2>{{ title }}</h2>
-        {% endunless %}  
+        {% endunless %}
             {{ content }}
         </div>
 
@@ -27,7 +27,7 @@
                     {%- endif -%}
                 {%- endfor -%}
             {%- endfor -%}
-        
+
             </ul>
 
             {%- if category.totalPages > 1 -%}

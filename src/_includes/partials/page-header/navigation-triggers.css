@@ -11,7 +11,7 @@
   visibility: hidden;
   padding-inline-start: var(--spacing-half);
   position: absolute;
-  z-index: 10;
+  z-index: 20;
   width: 100%;
 }
 
@@ -22,7 +22,7 @@
   transition: transform 0.3s ease-in;
   scroll-margin-top: 8rem;
   position: absolute;
-  z-index: 10;
+  z-index: 20;
 }
 
 @media all and (min-width: 46.875em) {
@@ -48,6 +48,7 @@
   position: absolute;
   top: var(--spacing-half);
   right: var(--spacing);
+  z-index: 10;
 }
 
 /* Make mobile navigation scrollable */

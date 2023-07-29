@@ -11,7 +11,7 @@
     {%- assign className = "parentheses-bg" -%}
 {%- endcase -%}
 
-<section class="inner-wrapper no-padding">
+<section data-partial="homepage/banner-conference" class="inner-wrapper no-padding">
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle link: "{{link}}" -%}
     <a
         class="banner-conference {% if className %}{{ className }}{% endif %}"
