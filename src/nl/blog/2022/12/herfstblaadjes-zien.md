@@ -7,8 +7,6 @@ categories:
   - Adventskalender
 ---
 
----
-
 {% quote "Maurice Merleau-Ponty, Het Zichtbare en het Onzichtbare (1968)" %}
 [...] als we ons afvragen wat dit wij is, wat zien is en wat ding of wereld is, komen we terecht in een labyrint van moeilijkheden en tegenstrijdigheden. Wat Sint-Augustinus zei over de tijd — dat het voor iedereen volkomen bekend is, maar dat niemand van ons het aan de anderen kan uitleggen — moet ook van de wereld worden gezegd.
 {% endquote %}

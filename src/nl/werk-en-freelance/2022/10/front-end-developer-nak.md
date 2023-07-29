@@ -5,28 +5,32 @@ layout: layouts/jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Als Front-end Developer bij de Nederlandse Algemene Keuringsdienst (NAK) ben je verantwoordelijk voor het bouwen aan de webapplicaties en mobiele apps van de NAK.
+graphic:
+  src: jobs/nak.png
+  alt: ""
 ---
+
 ![[NAK](https://www.nak.nl/)](https://fronteers.nl/_img/werkgevers/nak.png)
 
-NAK Emmeloord is op zoek naar een *Front-end Developer*
+NAK Emmeloord is op zoek naar een _Front-end Developer_
 
 # Wat is vereist?
 
-* Hbo werk- en denkniveau
-* Minimaal 3 jaar relevante werkervaring
-* Ervaring met Javascript, HTML, CSS, C#, .NET, REST en APIs
-* Kennis van Azure DevOps, Xamarin/Maui en lowcode platformen is een pre
-* Goede beheersing Nederlandse en Engelse taal, zowel in woord als geschrift
-* Initiatiefrijk, creatief, communicatief en oplossingsgericht
+- Hbo werk- en denkniveau
+- Minimaal 3 jaar relevante werkervaring
+- Ervaring met Javascript, HTML, CSS, C#, .NET, REST en APIs
+- Kennis van Azure DevOps, Xamarin/Maui en lowcode platformen is een pre
+- Goede beheersing Nederlandse en Engelse taal, zowel in woord als geschrift
+- Initiatiefrijk, creatief, communicatief en oplossingsgericht
 
 # Wat krijg je?
 
-* €3.250 - €4.675 bruto p/m (o.b.v. 38-urige werkweek)
-* 32 tot 40-urige werkweek
-* 24 vakantiedagen + 12 ADV-dagen (o.b.v. 40 uur, met de optie om jaarlijks 10 verlofdagen te (ver)kopen)
-* Mogelijkheden om trainingen en cursussen te volgen
-* Laptop, telefoon, premievrij pensioen
-* Thuiswerkmogelijkheden, reis- en thuiswerkvergoeding
+- €3.250 - €4.675 bruto p/m (o.b.v. 38-urige werkweek)
+- 32 tot 40-urige werkweek
+- 24 vakantiedagen + 12 ADV-dagen (o.b.v. 40 uur, met de optie om jaarlijks 10 verlofdagen te (ver)kopen)
+- Mogelijkheden om trainingen en cursussen te volgen
+- Laptop, telefoon, premievrij pensioen
+- Thuiswerkmogelijkheden, reis- en thuiswerkvergoeding
 
 # Vacature
 
