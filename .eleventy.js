@@ -83,9 +83,8 @@ module.exports = function (eleventyConfig) {
 
     // Rebuild when any of the files are changed, but exclude css because that is
     // handled by the asset pipeline.
-    //
+    // This seemed to cause a bug on refreshing liquid files?
     // eleventyConfig.addWatchTarget("./src/");
-    eleventyConfig.addWatchTarget("./src/_includes/partials/page-header/_page-header.liquid");
 
     // Setup the pass through rules for CSS files. This way we can use regular
     // CSS imports without any magic, and later use a minification and/or purge
