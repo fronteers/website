@@ -1,12 +1,11 @@
 {%- include partials/utility/html-head -%}
-<body>
-
+<body data-layout="jobs-single">
     {%- include partials/page-header/_page-header -%}
 
     <main class="page-content inner-wrapper">
         {% unless useHero %}
             <h2>{{ title }}</h2>
-        {% endunless %}  
+        {% endunless %}
         {{ content }}
     </main>
 

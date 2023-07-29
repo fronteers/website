@@ -3,7 +3,7 @@
 -->
 
 {%- if pagination.pageLinks.length > 1 -%}
-    <nav class="pagination" aria-label="{{ translations[locale].pagination }}">
+    <nav data-partial="pagination" class="pagination" aria-label="{{ translations[locale].pagination }}">
         {%- if pagination.previousPageLink -%}
             <a class="pagination__navigation-button" href="{{ pagination.previousPageHref | url }}"><<span
                         class="visually-hidden">{{ translations[locale].previous }} {{ translations[locale].page }}</span></a>

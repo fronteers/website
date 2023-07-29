@@ -9,7 +9,9 @@ categories:
 
 ---
 
-{% quote "Maurice Merleau-Ponty, Het Zichtbare en het Onzichtbare (1968)" "[...] als we ons afvragen wat dit wij is, wat zien is en wat ding of wereld is, komen we terecht in een labyrint van moeilijkheden en tegenstrijdigheden. Wat Sint-Augustinus zei over de tijd — dat het voor iedereen volkomen bekend is, maar dat niemand van ons het aan de anderen kan uitleggen — moet ook van de wereld worden gezegd." %}
+{% quote "Maurice Merleau-Ponty, Het Zichtbare en het Onzichtbare (1968)" %}
+[...] als we ons afvragen wat dit wij is, wat zien is en wat ding of wereld is, komen we terecht in een labyrint van moeilijkheden en tegenstrijdigheden. Wat Sint-Augustinus zei over de tijd — dat het voor iedereen volkomen bekend is, maar dat niemand van ons het aan de anderen kan uitleggen — moet ook van de wereld worden gezegd.
+{% endquote %}
 
 Afgelopen herfstvakantie was ons gezin op vakantie in de Duitse Eifel. Ons zoontje Sam was 16 maanden oud, en naast rondgesjouwd worden in de schouderdrager wilde hij graag ook zelf stukjes lopen. Sam houdt niet van schoenen, en wanneer hij deze (onder luid protest) wél aan moet, gaat hij liever kruipen dan lopen. Dus dan maar op blote voeten.
 
@@ -21,7 +23,9 @@ Tijdens deze wandelingen is elk gevallen herfstblaadje interessant. Voortdurend 
 
 Wandelingen verlopen langzaam op deze manier, maar om hem zo op zijn gemak bezig te zien met een veelvormigheid aan herfstblaadjes deed me wel afvragen: hoe ontvouwt de werkelijkheid zich voor Sam? Wat maakt juist die blaadjes interessant? Hoe ervaart hij de wereld om zich heen? En hoe heeft deze bewuste ervaring zich gevormd vanuit de “_great blooming, buzzing confusion”_ aan indrukken waarover de psycholoog William James in 1890 schreef?
 
-{% quote "William James, The Principles of Psychology (1890)" "… any number of impressions, from any number of sensory sources, falling simultaneously on a mind which has not yet experienced them separately, will fuse into a single undivided object for that mind. The law is that all things fuse that can fuse, and nothing separates except what must. … The baby, assailed by eyes, ears, nose, skin, and entrails at once, feels it all as one great blooming, buzzing confusion; and to the very end of life, our location of all things in one space is due to the fact that the original extents or bignesses of all the sensations which came to our notice at once, coalesced together into one and the same space. There is no other reason than this why 'the hand I touch and see coincides spatially with the hand I immediately feel.'" %}
+{% quote "William James, The Principles of Psychology (1890)" %}
+… any number of impressions, from any number of sensory sources, falling simultaneously on a mind which has not yet experienced them separately, will fuse into a single undivided object for that mind. The law is that all things fuse that can fuse, and nothing separates except what must. … The baby, assailed by eyes, ears, nose, skin, and entrails at once, feels it all as one great blooming, buzzing confusion; and to the very end of life, our location of all things in one space is due to the fact that the original extents or bignesses of all the sensations which came to our notice at once, coalesced together into one and the same space. There is no other reason than this why 'the hand I touch and see coincides spatially with the hand I immediately feel.'
+{% endquote %}
 
 # Ontwerpen keuren
 
@@ -31,7 +35,9 @@ Vanuit mijn werk in digitale toegankelijkheid word ik soms gevraagd om een ontwe
 
 In zijn onvoltooide werk “Gedachten” — Pensées — schrijft de wiskundige, natuurkundige en filosoof Blaise Pascal over twee manieren van het benaderen van de werkelijkheid: het meetkundige denken, “l’espirit de géométrie”, en het fijne inzicht, “l’espirit de finesse”.
 
-{% quote "Blaise Pascal, Pensées, (1669)" "🇫🇷 Il y a beaucoup de différence entre l'esprit de géométrie et l'esprit de finesse. En l'un les principes sont palpables, mais éloignés de l'usage commun ; de sorte qu'on a peine à tourner la tète de ce côté-là, manque d'habitude : mais pour peu qu'on s'y tourne, on voit les principes à plein ; et il faudroit avoir tout à fait l'esprit faux pour mal raisonner sur des principes si gros qu'il est presque impossible qu'ils échappent. 🇳🇱 Verschil tussen het meetkundige denken en het fijne inzicht. Bij het eerste zijn de beginselen tastbaar, doch liggen buiten het dagelijkse leven, zodat men moeite heeft zijn hoofd in die richting te wenden omdat men dat niet gewoon is: men hoeft er slechts op te letten en men ziet de beginselen duidelijk. En men zou al helemaal een onverstandig mens moeten zijn om verkeerd te redeneren vanuit beginselen, die zo alledaags zijn dat het haast onmogelijk is eraan voorbij te zien." %}
+{% quote "Blaise Pascal, Pensées, (1669)" %}
+🇫🇷 Il y a beaucoup de différence entre l'esprit de géométrie et l'esprit de finesse. En l'un les principes sont palpables, mais éloignés de l'usage commun ; de sorte qu'on a peine à tourner la tète de ce côté-là, manque d'habitude : mais pour peu qu'on s'y tourne, on voit les principes à plein ; et il faudroit avoir tout à fait l'esprit faux pour mal raisonner sur des principes si gros qu'il est presque impossible qu'ils échappent. 🇳🇱 Verschil tussen het meetkundige denken en het fijne inzicht. Bij het eerste zijn de beginselen tastbaar, doch liggen buiten het dagelijkse leven, zodat men moeite heeft zijn hoofd in die richting te wenden omdat men dat niet gewoon is: men hoeft er slechts op te letten en men ziet de beginselen duidelijk. En men zou al helemaal een onverstandig mens moeten zijn om verkeerd te redeneren vanuit beginselen, die zo alledaags zijn dat het haast onmogelijk is eraan voorbij te zien.
+{% endquote %}
 
 De geometrische geest denkt voornamelijk vanuit principes, oorzaken, gevolgen, en verbanden. Geometrisch denken maakt scheidingen tussen zaken, deelt in vakken, tekent lijnen.
 
@@ -41,9 +47,13 @@ De verfijnde geest denkt voornamelijk vanuit intuïtie. Het ervaren van zaken di
 
 Dit verschil tussen meetkundig en verfijnd denken wordt prachtig uitgedrukt in de manier waarop de Japanse dichter Matsuo Bashō en de Britse dichter Lord Alfred Tennyson (19e eeuw) spreken over het zien van een bloem:
 
-{% quote "Matsuo Bashō (17e eeuw)" "🇯🇵 Yokoe mireba nazoena hana sakoe kakine kana 🇳🇱 Zie toch eens hoe het Herderstasje bij die heg in bloei staat; oh, kijk..!" %}
+{% quote "Matsuo Bashō (17e eeuw)" %}
+🇯🇵 Yokoe mireba nazoena hana sakoe kakine kana 🇳🇱 Zie toch eens hoe het Herderstasje bij die heg in bloei staat; oh, kijk..!
+{% endquote %}
 
-{% quote "Lord Alfred Tennyson (19e eeuw)" "🇬🇧 Flower in the crannied wall, I pluck you out of the crannies, I hold you here,root and all, in my hand, Little flower — but if I could understand What you are, root and all, and all in all, I should know what God and man is. 🇳🇱 Bloem in de gebarsten muur, Ik pluk je de spleten uit. Hier houd ik je in mijn hand, wortel en al Klein bloemetje – kon ik maar bevatten wat je bent, wortel en al, en al in al, dan zou ik weten wat God en de mens is." %}
+{% quote "Lord Alfred Tennyson (19e eeuw)" %}
+🇬🇧 Flower in the crannied wall, I pluck you out of the crannies, I hold you here,root and all, in my hand, Little flower — but if I could understand What you are, root and all, and all in all, I should know what God and man is. 🇳🇱 Bloem in de gebarsten muur, Ik pluk je de spleten uit. Hier houd ik je in mijn hand, wortel en al Klein bloemetje – kon ik maar bevatten wat je bent, wortel en al, en al in al, dan zou ik weten wat God en de mens is.
+{% endquote %}
 
 In beide gedichten staat het zien van — de ervaring van, de ontmoeting met — een bloem centraal. Maar de manier waarop de schrijvers een bloem ervaren verschilt sterk. Er is verwondering te lezen in beide gedichten, maar waar Bashō aanschouwt en uitnodigt, begint Tennyson met geometrie: het pakken van de bloem en daaruit te willen analyseren om uiteindelijk te willen begrijpen.
 
@@ -59,13 +69,17 @@ Neem het beroemde experiment waarbij er een video getoond werd waarin twee groep
 
 _Een frame uit [de video die bij een van de selectieve-aandacht experimenten werd gebruikt](https://www.youtube.com/watch?v=vJG698U2Mvo)._
 
-{% quote "Daniel Simons & Christopher Chabris, Gorillas in our midst: Sustained inattention blindness for dynamic events (1999)" "Approximately half of observers fail to notice an ongoing and highly salient but unexpected event while they are engaged in a primary monitoring task. This extends the phenomenon of inattentional blindness by at least an order of magnitude in the duration of the event that can be missed." %}
+{% quote "Daniel Simons & Christopher Chabris, Gorillas in our midst: Sustained inattention blindness for dynamic events (1999)" %}
+Approximately half of observers fail to notice an ongoing and highly salient but unexpected event while they are engaged in a primary monitoring task. This extends the phenomenon of inattentional blindness by at least an order of magnitude in the duration of the event that can be missed.
+{% endquote %}
 
 De selectieve perceptie binnen ons bewustzijn fungeert als een zoeklicht — de fenomenoloog Edmund Husserl noemde dit het _Ichlicht,_ de “ik-lamp”: ons [bewustzijn is altijd ergens op gericht](https://plato.stanford.edu/entries/consciousness-intentionality/), en daardoor zien we andere dingen niet, zoals het experiment demonstreert.
 
 Het komt ook voor dat we meer in staat geraken om dingen waar te nemen doordat anderen dit doen. Een mooi voorbeeld hiervan is dat de ontdekking van de onverwachte planeet Uranus leidde tot meer ontdekkingen door een verschuiving van het mentaal kunnen kijken naar de werkelijkheid:
 
-{% quote "Eviatar Zerubavel, Hidden in Plain Sight (2015)" "It was William Herschel’s discovery of Uranus in 1781, for example, the first discovery of a hitherto unknown planet in several millennia, that made astronomers mentally ready to notice additional ones, 67 as evidenced by the exceptionally rapid successive discoveries of the hitherto undetected four largest asteroids by three different astronomers between 1801 and 1807." %}
+{% quote "Eviatar Zerubavel, Hidden in Plain Sight (2015)" %}
+It was William Herschel’s discovery of Uranus in 1781, for example, the first discovery of a hitherto unknown planet in several millennia, that made astronomers mentally ready to notice additional ones, 67 as evidenced by the exceptionally rapid successive discoveries of the hitherto undetected four largest asteroids by three different astronomers between 1801 and 1807.
+{% endquote %}
 
 Hoe de mogelijkheid tot _zien_ en _niet-zien_ door cultuur en opvoeding kan worden beïnvloed, wordt ook prachtig beschreven door de taalkundige en oud-missionair [Daniel Everett](https://en.wikipedia.org/wiki/Daniel_Everett) in het boek “Don’t Sleep, There Are Snakes”. Hierin vertelt hij over zijn leven bij de Amazoniaanse Pirahã stam:
 
@@ -220,7 +234,9 @@ Tegelijkertijd vertelt het me ook over mijzelf: de dingen die ik zie (of niet zi
 
 Zo gezien (sorry) is ontwerp-keuring een voortdurende dialoog op meerdere aspecten. Een dialoog met een toekomstig gebruiksscenario: wat kan hier misgaan? En op welke manieren en waardoor? Welke perspectieven kan ik hanteren om het ontwerp anders te zien? Van welke dingen ben ik me misschien minder of niet bewust?
 
-{% quote "James Gibson" "One sees the environment not with the eyes but with the eyes-in-the-head-on-the-body-resting-on-the-ground." %}
+{% quote "James Gibson" %}
+One sees the environment not with the eyes but with the eyes-in-the-head-on-the-body-resting-on-the-ground.
+{% endquote %}
 
 Wat we zien, en niet zien. De herfst, het bos, het asfaltpad. Je vrouw. Je zoontje. Blote voetjes. Een vuistje met herfstblaadje.
 

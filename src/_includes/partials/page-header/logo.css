@@ -5,6 +5,7 @@
 
 .page-header-logo h1 {
   margin: 0;
+  display: inline-block;
 }
 
 .page-header-logo a {

@@ -1,6 +1,5 @@
 {%- include partials/utility/html-head -%}
-
-<body>
+<body data-layout="members-home">
     {%- include partials/page-header/_page-header -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">
@@ -8,7 +7,7 @@
             <div class="page-content">
                 <h2 class="visually-hidden">{{ title }}</h2>
                 {{ content }}
- 
+
                 <table>
                     <thead>
                         <td>Naam</td>
@@ -26,7 +25,7 @@
                                         {%- else -%}
                                             {%- assign memberHasAProfilePage = false -%}
                                         {%- endif -%}
-                                
+
                                         {%- if memberHasAProfilePage -%}
                                             <a href="{{ memberUrl }}">
                                                 {{ lid.naam }}</a>

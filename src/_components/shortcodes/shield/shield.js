@@ -57,6 +57,20 @@ function pickPropsByString(string, props, radix = 16) {
 
 let maskId = 0;
 
+/**
+ * Generate a shield based on the given parameters
+ *
+ * @typedef {'accolade' | 'rectangular' | 'rounded' | 'triangular'} ShieldShape
+ * @typedef {'accolade' | 'checkerboard' | 'diagonal' | 'dot' | 'split-horizontal' | 'stripe' | 'thunder' } ShieldPattern
+ * @typedef {'purple' | 'yellow' | 'lilac' | 'red'} ShieldColor
+ *
+ * @param {ShieldShape} shape
+ * @param {ShieldPattern} pattern
+ * @param {ShieldColor} colorPrimary
+ * @param {ShieldColor} colorSecondary
+ *
+ * @returns
+ */
 function getShield(shape, pattern, colorPrimary, colorSecondary) {
   const shapePath = path.resolve(DIR_SHAPES, `${shape}.svg`);
   const shapeSvg = fs.readFileSync(shapePath).toString();
@@ -80,19 +94,29 @@ ${shapeSvg}
 </svg>`;
 }
 
-exports.shield = getShield;
-
 /*
  * This shortcode generates a shield based on arbitrary strings.
  *
  * To avoid similarity of similar names (e.g. Erin and Erik), this function computes a hash of the
  * string and uses that to determine the shield properties.
  */
-exports.generateShield = (term) => {
+function generateShield(term, overrides = {}) {
   const [pattern, shape, [colorPrimary, colorSecondary]] = pickPropsByString(
-    createHash("md5").update(term.toString()).digest("hex"),
+    createHash("md5")
+      .update(String(overrides.term || term))
+      .digest("hex"),
     [PATTERNS, SHAPES, COLOR_SETS]
   );
 
-  return getShield(shape, pattern, colorPrimary, colorSecondary);
+  return getShield(
+    overrides.shape || shape,
+    overrides.pattern || pattern,
+    overrides.colorPrimary || colorPrimary,
+    overrides.colorSecondary || colorSecondary
+  );
+}
+
+module.exports = {
+  shield: getShield,
+  generateShield,
 };
