@@ -1,5 +1,5 @@
 ---
-title: "Fronteers Conference 2023"
+title: "[CANCELLED] Fronteers Conference 2023"
 date: 2023-06-28
 eventdate: 2023-09-09
 location: Utrecht
@@ -12,3 +12,4 @@ graphic:
 ---
 
 
+Unfortunately, there will be no Fronteers conference in 2023.
