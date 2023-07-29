@@ -4,6 +4,10 @@ date: 2023-07-19
 author: Anneke Sinnema
 summary: De vereniging zoekt versterking. Hieronder zet ik uiteen wie we waarvoor zoeken! Lijkt het je leuk om ons te helpen in één van onderstaande rollen, neem dan contact op met het [bestuur](mailto:bestuur@fronteers.nl).
 
+graphic:
+  src: volunteers/brainstorming.jpeg
+  alt: "CSS Days logo"
+
 categories:
   - Commissies
   - Vereniging

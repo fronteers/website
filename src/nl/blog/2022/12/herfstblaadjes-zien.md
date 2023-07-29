@@ -2,7 +2,11 @@
 title: Herfstblaadjes zien
 date: 2022-12-24
 author: Job van Achterberg
-summary: ---
+
+graphic:
+  src: blog/autumn-leaves.jpeg
+  alt: "Afbeelding van herfstblaadjes"
+
 categories:
   - Adventskalender
 ---
