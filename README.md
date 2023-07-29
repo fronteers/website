@@ -40,3 +40,14 @@ This project is licensed under the terms of the [MIT license](LICENSE), with the
 <a href="https://www.netlify.com">
   <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg"/>
 </a>
+
+## Notes
+
+RSS feeds will be available through:
+
+- https://fronteers-beta.netlify.app/blogs.xml
+- https://fronteers-beta.netlify.app/vacatures.xml
+- https://fronteers-beta.netlify.app/activiteiten.xml
+- https://fronteers-beta.netlify.app/blogs-en.xml
+- https://fronteers-beta.netlify.app/jobs.xml
+- https://fronteers-beta.netlify.app/activities.xml
