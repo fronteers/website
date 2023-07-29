@@ -6,7 +6,7 @@ summary: De vereniging zoekt versterking. Hieronder zet ik uiteen wie we waarvoo
 
 graphic:
   src: volunteers/brainstorming.jpeg
-  alt: "CSS Days logo"
+  alt: ""
 
 categories:
   - Commissies

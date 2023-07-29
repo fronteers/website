@@ -3,9 +3,15 @@ title: Vrijwilligersetentje groot succes
 date: 2023-07-29
 author: Anneke Sinnema
 summary: We hebben weer leven in de brouwerij!
-categories: 
+
+graphic:
+  src: volunteers/diner.jpeg
+  alt: ""
+
+categories:
   - Organisation
 ---
+
 On Thursday, July 27th, we dined at LE:EN in Utrecht with existing and new volunteers, discussing Fronteers. As previously mentioned in an earlier post, we were [seeking volunteers](https://fronteers.nl/blog/2023/07/vrijwilligers-gezocht) to help revitalize the association.
 
 Well, we succeeded! Between the "Sprinkhaan Green Goddess"-without-Sprinkhaan and the Choco Pie, we went through the attendees. We now have (the beginning of) a workshop committee, a complete education committee, and a complete marketing and communication committee. Additionally, there are three potential candidates for the board whom we plan to introduce to the role before the General Assembly.
