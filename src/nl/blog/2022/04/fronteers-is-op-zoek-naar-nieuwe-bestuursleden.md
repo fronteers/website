@@ -6,9 +6,12 @@ categories:
   - Commissies
   - Vereniging
 ---
+
 Wil jij graag Fronteers naar een hoger niveau tillen, ben je initiatiefrijk en hou je er van anderen te enthousiasmeren? Dan zijn we op zoek naar jou voor het bestuur van de vereniging!
 
-{%- quote "Anneke Sinnema" "Als je in het bestuur zit geef je front-end ontwikkelaars in heel Nederland een stem" -%}
+{%- quote "Anneke Sinnema" -%}
+Als je in het bestuur zit geef je front-end ontwikkelaars in heel Nederland een stem
+{%- endquote -%}
 
 Als bestuurslid help je mee de vereniging op de kaart te zetten en te houden. Je zorgt er voor dat commissies een zetje krijgen en dat vrijwilligers het zelfvertrouwen hebben om activiteiten te ontplooien voor de vereniging. We hebben de ambitie om weer vaker meetups en activiteiten te organiseren, verlangen naar continuiteit voor het Fronteerscongres, en bouwen door aan onze nieuwe website.
 

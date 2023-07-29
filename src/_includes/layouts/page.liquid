@@ -1,17 +1,19 @@
 {%- include partials/utility/html-head -%}
-<body>
+<body data-layout="page">
     {%- include partials/page-header/_page-header -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">
         {% if useHero == 'aboutushero' %}
-            {%- aboutushero title heroSlogan -%}
+            {%- aboutushero title -%}
+                {{ heroSlogan }}
+            {%- endaboutushero -%}
         {% endif %}
 
         <div class="page-content inner-wrapper">
             {% unless useHero %}
                 <h2>{{ title }}</h2>
-            {% endunless %}   
-            
+            {% endunless %}
+
             {{ content }}
         </div>
     </main>

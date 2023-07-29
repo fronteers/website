@@ -8,18 +8,18 @@
     {% else %}
         {%- assign eventHasHappened = true -%}
     {% endif %}
-    
+
     {% comment %} Save html in variable nextUpTitle to use on line 38 {% endcomment %}
     {% capture nextUpTitle %}
         <h2><a href="{{ activity.url }}"
     ><span class="sup-title">{% if eventHasHappened %}{{ translations[locale].lastEvent }}{% else %}{{ translations[locale].nextEvent }}{% endif %}</span
             ><span class="nextup-title">{{ activity.data.title }}</span></a></h2>
-    {% endcapture %}    
+    {% endcapture %}
 
     {% capture nextUp %}<div class="nextup-time-and-location-wrapper">
             <time class="nextup-time" datetime="{{ activity.eventdate | date: "%Y-%m-%d" }}">
                 {{ activity.data.eventdate | displayDate: locale }}
-            </time> - 
+            </time> -
 
             {%- if activity.data.location -%}
                 <span class="nextup-location">
@@ -35,10 +35,10 @@
         <a href="{{ activity.url }}" class="nextup-link" aria-hidden="true">{{ translations[locale].readmore }}<span class="visually-hidden">{{ translations[locale].about }} {{ activity.data.title }}</span></a>
     {% endcapture %}
 {%- endfor -%}
-    
+
 {%- include partials/utility/html-head -%}
 
-<body>
+<body data-layout="activity-home">
     {%- include partials/page-header/_page-header -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">

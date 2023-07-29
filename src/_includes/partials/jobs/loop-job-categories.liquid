@@ -1,10 +1,12 @@
-{%- include partials/utility/dynamic-headerlevel level: headerlvl title: translations[locale].categories -%}
+<div data-partial="jobs/loop-job-categories">
+    {%- include partials/utility/dynamic-headerlevel level: headerlvl title: translations[locale].categories -%}
 
-<ul role="list" class="category-list">
-    {%- for category in collections.jobCategories -%}
-        <li>
-            <a href="/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{{ category.slug }}" class="tag-link tag-link--large">{%- tag category.title -%}
-            </a>
-        </li>
-    {%- endfor -%}
-</ul>
+    <ul role="list" class="category-list">
+        {%- for category in collections.jobCategories -%}
+            <li>
+                <a href="/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{{ category.slug }}" class="tag-link tag-link--large">{%- tag category.title -%}
+                </a>
+            </li>
+        {%- endfor -%}
+    </ul>
+</div>
