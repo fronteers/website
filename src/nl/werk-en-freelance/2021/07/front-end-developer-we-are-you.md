@@ -1,5 +1,6 @@
 ---
-title: Vacature Front-end developer bij We are you (Rotterdam)
+title: 
+  Vacature Front-end developer bij We are you (Rotterdam)
 date: 2021-07-06
 layout: layouts/jobs-single.liquid
 author: Bernard Nijenhuis
