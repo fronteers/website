@@ -82,6 +82,8 @@ module.exports = function (eleventyConfig) {
     /* Add id to heading elements */
     eleventyConfig.addPlugin(pluginAddIdToHeadings);
 
+    eleventyConfig.addPlugin(pluginRss);
+
     // Rebuild when any of the files are changed, but exclude css because that is
     // handled by the asset pipeline.
     // This seemed to cause a bug on refreshing liquid files?
