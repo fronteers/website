@@ -70,7 +70,7 @@ module.exports = function (eleventyConfig) {
 
     // Enable asset bundling
     eleventyConfig.addPlugin(EleventyVitePlugin, {
-        tempFolderName: '.11ty-vite',
+        tempFolderName: 'dist',
 
         viteOptions: {
             publicDir: 'public',
