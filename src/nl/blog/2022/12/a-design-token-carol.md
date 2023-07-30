@@ -36,23 +36,21 @@ De tweede geest neemt ons mee naar het nu. De tijd waarin we bezig zijn om desig
 
 ## 1. Structuur en Opbouw
 
-Er zijn verschillende manieren om de taxonomie van design tokens in te richten. Zo een structuur zorgt ervoor dat wanneer (nieuwe) tokens geïntroduceerd worden deze dezelfde opbouw hebben. Een voorbeeld vind je in de afbeelding hieronder. Daar bestaat een token altijd uit een design system naam en categorie en zal een token meestal ook een modifier bevatten.
+Er zijn verschillende manieren om de taxonomie van design tokens in te richten. Zo een structuur zorgt ervoor dat wanneer (nieuwe) tokens geïntroduceerd worden deze dezelfde opbouw hebben. Een voorbeeld vind je in de afbeelding hieronder. Daar bestaat een token altijd uit een design system naam en categorie en zal een token meestal ook een modifier bevatten. [Bron](https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676)
 
 ![Een voorbeeld van een structuur van de naamgeving van design tokens](https://fronteers.nl/_img/adventskalender/blog-nina-1.png)
 
-(TODO: Bron: https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676)
 
 ## 2. Naamgeving
 
-Elk design system dat ik ben tegen gekomen hanteert weer andere conventies voor de naamgeving van tokens. Zo maakt [Adobe Spectrum](https://www.notion.so/2317415513144ecc9ff32b5160254bcb) gebruik van de volgende type tokens en lagen: (Zie afbeelding).
+Elk design system dat ik ben tegen gekomen hanteert weer andere conventies voor de naamgeving van tokens. Zo maakt [Adobe Spectrum](https://www.notion.so/2317415513144ecc9ff32b5160254bcb) gebruik van de volgende type tokens en lagen: (Zie afbeelding). 
+[Bron](https://spectrum.adobe.com/page/design-tokens/#Design-token-types)
 
 * globale tokens als basis voor andere tokens zoals bijvoorbeeld een kleur: `blue-400`
 * alias tokens t.b.v. een activiteit of andere toepassing zoals `cta-background-color`  (cta staat hier voor call to action)
 * component specifieke tokens zoals`button-cta-background-color`
 
 ![De naamgeving die Adobe Spectrum hanteert](https://fronteers.nl/_img/adventskalender/blog-nina-2.png)
-
-(TODO: Bron: https://spectrum.adobe.com/page/design-tokens/#Design-token-types)
 
 [Salesforce](https://www.notion.so/2317415513144ecc9ff32b5160254bcb) hanteert een iets andere structuur. Ze hebben bijvoorbeeld 2 type tokens en hanteren  een andere naamgeving zoals bijvoorbeeld voor kleur: `$palette-blue-95` die als basis dient voor `$brand-background-primary` . En [Shopify](https://www.notion.so/2317415513144ecc9ff32b5160254bcb) hanteert ook een eigen structuur. En die heeft  bijvoorbeeld gekozen voor de term interactive in plaats van de afkorting for call to action en houdt het bij 1 token: `p-interactive`.
 

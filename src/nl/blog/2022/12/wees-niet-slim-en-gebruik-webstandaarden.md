@@ -311,14 +311,15 @@ Cache-Control: private, max-age=300, stale-while-revalidate=60, stale-if-error=3
 
 Ik kwam er ook achter dat sommige implementaties van HTTP Caching niet _spec-compliant_ zijn. Ofwel: ze volgen niet de standaard. Cloudflare, bijvoorbeeld, respecteerd de [Vary header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary) niet. Omdat ik wist dat er een standaard was en konden lezen wat de implicaties waren van het niet respecteren van deze header, hebb ik bewuste keuzes kunnen maken.
 
-(TODO: Noot: Ga niet overal caching headers toevoegen. Vooral het gebruik van `max-age` op paginas die worden bijgewerkt kan problemen opleveren als je niet oplet dat dat verwijzingen naar oudere inhoud (zoals CSS en JavaScript bestanden) nog steeds werken tijdens "de max-age" periode. [Jake Archibald heeft mooie dingen geschreven over HTTP Caching](https://jakearchibald.com/2016/caching-best-practices/). Lees dus eerst verder, maar sla je slag!)
+{% note "Noot: Ga niet overal caching headers toevoegen. Vooral het gebruik van `max-age` op paginas die worden bijgewerkt kan problemen opleveren als je niet oplet dat dat verwijzingen naar oudere inhoud (zoals CSS en JavaScript bestanden) nog steeds werken tijdens "de max-age" periode. [Jake Archibald heeft mooie dingen geschreven over HTTP Caching](https://jakearchibald.com/2016/caching-best-practices/). Lees dus eerst verder, maar sla je slag!" %}
 
 Oh en die performance? Bedenk je dat als je `public, max-age=60` toevoegt wat voor effect dat kan hebben op het aantal bezoekers op de server:
 
-(TODO: [Situatie]     | [Bezoekers per minuut] | [Verzoeken per minuut]
-Geen caching | 1000                 | 1000                 
-`max-age=5`  | 1000                 | ~12                  
-`max-age=60` | 1000                 | ~1)
+| [Situatie]     | [Bezoekers per minuut] | [Verzoeken per minuut] |
+| -------------- | ---------------------- | ---------------------- |
+| Geen caching   | 1000                   | 1000                   | 
+| `max-age=5`    | 1000                   | ~12                    |
+| `max-age=60`   | 1000                   | ~1                     |
 
 Zelfs voor privé content die gemarkeerd was als `must-revalidate` (je moet de server vragen om te kijken of wat je in de cache hebt fris is of verouderd is), met een `max-age=0` (het antwoord is voor 0 seconden vers, en daarna muf), kan helpen. Als de server namelijk aangeeft dat wat de cache heeft nog steeds hetzelfde is (door middel van bijvoorbeeld een [ETag vergelijking](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)) dan bespaar je nog steeds alle bandbreedte en tijd die het kost om die data te versturen en ontvangen.
 
@@ -411,7 +412,7 @@ Ik ben op zoek gegaan naar de webstandaard, want als meerdere applicaties allema
 
 De oplossing vond ik in [RFC 2046: Multipurpose Internet Mail Extensions (MIME) Part Two](https://www.rfc-editor.org/rfc/rfc2046.html#section-5.1.4). Hierin staat beschreven hoe e-mails in elkaar zitten en hoe e-mail _readers_ ze moeten behandelen. Hierin is ook beschreven hoe een speciale mediatype `multipart` kan worden gebruikt om een bericht te maken dat uit meerdere delen bestaat, en in het bijzonder `multipart/alternative`.
 
-(TODO: Noot: "Multipart/alternative" may be used, for example, to send a message in a fancy text format in such a way that it can easily be displayed anywhere.)
+{% note "Noot: `Multipart/alternative` may be used, for example, to send a message in a fancy text format in such a way that it can easily be displayed anywhere." %}
 
 En dat was ook exact wat de e-mails deden die het lid liet zien.
 

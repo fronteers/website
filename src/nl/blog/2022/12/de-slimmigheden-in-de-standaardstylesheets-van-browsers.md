@@ -34,11 +34,12 @@ Alle marges in een document zoals die boven en onder koppen en het inspringen va
 
 In plaats van `margin-bottom` gebruiken ze `margin-block-end` en in plaats van `margin-left` gebruiken ze `margin-inline-start`.
 
-(TODO: ['oude' margins] | [Logical properties (voor NL)]
-margin-top | margin-block-start 
-margin-bottom | margin-block-end 
-margin-left | margin-inline-start 
-margin-right | margin-inline-end)
+| 'oude' margins | Logical properties (voor NL) |
+| -------------- | ---------------------------- |
+| margin-top     | margin-block-start           |
+| margin-bottom  | margin-block-end             |
+| margin-left    | margin-inline-start          |
+| margin-right   | margin-inline-end            |
 
 Logical properties gebruiken niet de absolute richtingen top, right, bottom en left, maar block voor de flow richting en inline voor de tekst richting (in latijnse talen respectievelijk van boven naar beneden en van links naar rechts).
 

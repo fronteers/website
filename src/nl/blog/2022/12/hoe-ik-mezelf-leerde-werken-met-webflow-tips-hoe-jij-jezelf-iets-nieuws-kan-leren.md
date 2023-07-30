@@ -18,7 +18,7 @@ Webflow is een platform, waarmee je websites kan maken. Daarbij gebruik je geen 
 
 ![De editor in Webflow met links de instellingen van de website en het overzicht van alle gebruikte elementen op de huidige pagina, in het midden hetgeen dat je aan het maken bent en rechts het menu met instellingen van het geselecteerde element.](https://fronteers.nl/_img/blog-rosita.jpg)
 
-(TODO: De editor in Webflow, hier met een cloneable template gemaakt door Finsweet.)
+De editor in Webflow, hier met een cloneable template gemaakt door Finsweet.
 
 Zelf heb ik voornamelijk ervaring met het maken van websites met WordPress.  [Op mijn werk wordt er al een tijd gewerkt met Webflow](https://www.websitebezorgd.nl/post/wat-is-webflow). Daarom leer ik nu te werken met dit CMS. Webflow werkt heel anders en zit anders in elkaar. WordPress moet je op een server installeren. Terwijl je Webflow in je browser kunt gebruiken en je hier geen aparte hosting voor nodig hebt.
 
@@ -26,7 +26,7 @@ Net als bij WordPress  zijn er 1000 en 1 manieren om een website te bouwen. Elke
 
 Hoe ziet Client First er dan specifiek uit? In Client-First is de structuur en de opbouw van de pagina’s heel belangrijk. En is er een bepaald systeem om de classes een goede herkenbare naam te geven bijvoorbeeld `.section-home-hero`, voor de hero op de homepagina. Ook wordt er gebruik gemaakt van rem in plaats van pixels, met hier en daar een uitzondering. (bijvoorbeeld bij: `footer {border-top-width: 2px;}`).
 
-(TODO: De naam Client-First betekent: “We stellen de belangen van onze klanten voorop in het proces van het bouwen van een website in Webflow.”)
+{% note "De naam Client-First betekent: 'We stellen de belangen van onze klanten voorop in het proces van het bouwen van een website in Webflow.'" %}
 
 Naast Client-First gebruiken we de [Relume library](https://library.relume.io/), een library met (heel veel!) verschillende componenten voor Webflow, die je in projecten kan gebruiken en aanpassen. Relume werkt ook goed samen met Client-First. Op deze manier kun je dus snel een mooie website neerzetten.
 

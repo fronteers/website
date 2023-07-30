@@ -1,5 +1,5 @@
 ---
-title: Remix en Next.js: &quot;echt&quot; full-stack bestaat niet, of wel?
+title: 'Remix en Next.js: "echt" full-stack bestaat niet, of wel?'
 date: 2022-12-07
 author: Lody Borgers
 summary: 'Een goede blog begint altijd met een controversiële titel, zeggen ze toch? Maar er zit wel een gedachte achter.'
@@ -183,7 +183,7 @@ export const action = async ({ request }: ActionArgs) => {
 };
 ```
 
-(TODO: Even een side note: Remix heeft helper functions zoals [`json()`](https://remix.run/docs/en/v1/api/remix#json) dat je kan gebruiken om response terug te sturen. Die helpers zijn kleine wrappers om het daadwerkelijke `Response` object heen. Voor dit voorbeeld wilde ik meer focussen op wat de server kan, dan hoe Remix specifiek werkt. Deze code kan je namelijk ook in Next.js gebruiken.)
+Even een side note: Remix heeft helper functions zoals [`json()`](https://remix.run/docs/en/v1/api/remix#json) dat je kan gebruiken om response terug te sturen. Die helpers zijn kleine wrappers om het daadwerkelijke `Response` object heen. Voor dit voorbeeld wilde ik meer focussen op wat de server kan, dan hoe Remix specifiek werkt. Deze code kan je namelijk ook in Next.js gebruiken.
 
 ## Dure operaties off-loaden naar de server
 
@@ -405,7 +405,7 @@ export default function ContactPage() {
 
 Zoals je ziet in het voorbeeld kunnen we hetzelfde principe toepassen voor TypeScript types: zowel de server als de client kan ze gebruiken.
 
-(TODO: Als je Remix al kent, zie je dat ik `useActionData<typeof action>()` gebruik. In feite geeft dit al het correcte type mee voor `data` in mijn code editor en hoef ik die niet expliciet te typen voor TypeScript. Je kan het altijd nog expliciet meegeven aan `data` wanneer je het declareert.)
+{% note" Als je Remix al kent, zie je dat ik `useActionData<typeof action>()` gebruik. In feite geeft dit al het correcte type mee voor `data` in mijn code editor en hoef ik die niet expliciet te typen voor TypeScript. Je kan het altijd nog expliciet meegeven aan `data` wanneer je het declareert." %}
 
 # State management
 

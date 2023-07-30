@@ -52,7 +52,7 @@ Het gaat natuurlijk niet alleen om het laten zien van een interactie van de butt
 
 Adobe XD kan gedeeltelijk CSS tonen die bij de button hoort. Verwacht geen kant-en-klaar component van HTML en CSS, al zijn daar wel plugins voor. Je krijgt CSS met absolute positionering per laag: de rechthoek (achtergrond, border), het icoontje en het label. Ook alle andere afmetingen zullen absoluut zijn: in px, dp of pt. Als de ontwerper de kleuren een naam heeft gegeven, zie je die als CSS variabelen terug die gelden voor het hele ontwerp. Sowieso krijg je de kleur (ook) direct in de CSS op de manier waarop de ontwerper die heeft gedefinieerd: hex, rgba of hsla.
 
-(TODO: CSS variabelen voor het project gegenereerd door Adobe XD:)
+CSS variabelen voor het project gegenereerd door Adobe XD:
 
 ```
 :root {
@@ -64,7 +64,7 @@ Adobe XD kan gedeeltelijk CSS tonen die bij de button hoort. Verwacht geen kant-
 }
 ```
 
-(TODO: CSS fragment voor de box van de button gegenereerd door Adobe XD:)
+CSS fragment voor de box van de button gegenereerd door Adobe XD:
 
 ```
 /* Layout Properties */
@@ -84,7 +84,7 @@ border-radius: 20px;
 opacity: 1;
 ```
 
-(TODO: CSS fragment voor de box van de button gegenereerd door Adobe XD:)
+CSS fragment voor de box van de button gegenereerd door Adobe XD:
 
 ```
 /* Layout Properties */
@@ -108,7 +108,7 @@ De ontwerper kan een fontgrootte en line-height definiëren, de hoogte van de bo
 
 ![Afstanden binnen de button volgens Adobe XD. Met stippellijntjes en ballonnetjes met cijfers laat Adobe XD zien hoe de uitlijning van de tekst is binnen de button](https://fronteers.nl/_img/blog-jasha-3.png)
 
-(TODO: Afstanden binnen de button volgens Adobe XD)
+Afstanden binnen de button volgens Adobe XD.
 
 Een mogelijkheid om documentatie of een commentaar toe te voegen tijdens het ontwerpen ontbreekt. Opmerkingen kun je alleen in de gepubliceerde online versie toevoegen. In ons design system heb ik van een aantal componenten de gewenste marges erbij gezet.
 
