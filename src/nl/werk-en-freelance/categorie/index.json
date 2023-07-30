@@ -1,6 +1,5 @@
-
 {
-    "layout": "layouts/jobs-category.liquid",
+    "layout": "jobs-category.liquid",
     "permalink": "/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{%- if category.slug -%}{{ category.slug }}/{%- endif -%}index.html",
     "tags": "pages",
     "pagination": {

@@ -1,5 +1,5 @@
 <div data-partial="activities/loop-activity-categories">
-    {%- include partials/utility/dynamic-headerlevel level: "h3" title: translations[locale].categories -%}
+    {%- include 'partials/utility/dynamic-headerlevel' level: "h3" title: translations[locale].categories -%}
 
     <ul role="list" class="category-list">
         {%- for category in collections.activityCategories -%}

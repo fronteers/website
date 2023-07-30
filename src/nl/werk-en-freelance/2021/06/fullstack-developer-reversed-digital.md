@@ -1,7 +1,7 @@
 ---
 title: Vacature Fullstack Developer bij Reversed Digital (Utrecht)
 date: 2021-06-09
-layout: layouts/jobs-single.liquid
+layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary:
@@ -27,25 +27,25 @@ Naast het werk vinden wij ontspanning heel belangrijk. ‘s Middags lunchen we s
 
 # Jij bent een developer die:
 
-- ondernemend is en er 100% voor wil gaan
-- zelfstandig werkt
-- goed kan schakelen met opdrachtgevers en verantwoordelijkheid neemt voor zijn projecten
-- mee wil groeien met Reversed
-- ruime ervaring heeft met React, React Native en Typescript
-- ervaring heeft met Node.JS en GraphQL
-- goed feedback kan ontvangen en geven (we waarderen eerlijkheid)
+-   ondernemend is en er 100% voor wil gaan
+-   zelfstandig werkt
+-   goed kan schakelen met opdrachtgevers en verantwoordelijkheid neemt voor zijn projecten
+-   mee wil groeien met Reversed
+-   ruime ervaring heeft met React, React Native en Typescript
+-   ervaring heeft met Node.JS en GraphQL
+-   goed feedback kan ontvangen en geven (we waarderen eerlijkheid)
 
 # Wij bieden jou:
 
-- een marktconform salaris
-- een super leuke en informele sfeer
-- een sterk design-gedreven team
-- interessante projecten en veel direct contact met opdrachtgevers
-- veel vrijheid en verantwoordelijkheid in je werkzaamheden
-- veel mogelijkheden om te leren
-- een fantastische wintersport
-- gezellige VrijMiBo's
-- mogelijkheid om deels remote te werken
+-   een marktconform salaris
+-   een super leuke en informele sfeer
+-   een sterk design-gedreven team
+-   interessante projecten en veel direct contact met opdrachtgevers
+-   veel vrijheid en verantwoordelijkheid in je werkzaamheden
+-   veel mogelijkheden om te leren
+-   een fantastische wintersport
+-   gezellige VrijMiBo's
+-   mogelijkheid om deels remote te werken
 
 # Meer weten?
 

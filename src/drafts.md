@@ -1,6 +1,5 @@
 ---
-layout: layouts/drafts.liquid
+layout: drafts.liquid
 tags: utility
 title: Drafts
 ---
-

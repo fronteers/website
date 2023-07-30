@@ -1,7 +1,6 @@
 # Directories
 node_modules
 dist/
-public
 
 # Files
 .cache

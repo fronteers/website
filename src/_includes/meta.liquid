@@ -1,0 +1,62 @@
+{%- assign absolutePageUrl = page.url | url -%}
+
+
+{%- for language in site.languages -%}
+    {% if language.code != locale %}
+        {%- for item in collections.all -%}
+            {%- if item.data.key == key and item.data.locale == locale -%}
+                {%- assign translatedUrl = item.url -%}
+            {%- endif -%}
+        {%- endfor -%}
+
+        <link
+            rel="alternate"
+            hreflang="{{ language.hreflang }}"
+            href="{{ translatedUrl }}" />
+    {% endif %}
+{%- endfor -%}
+
+<meta name='description' content='{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}'>
+<link rel='canonical' href='{{ absolutePageUrl }}'>
+<meta name='author' content='{{ site.author }}'>
+<meta name='generator' content='{{ eleventy.generator }}'>
+
+<meta property='og:type' content='website'>
+<meta property='og:site_name' content='{{ site.title }}'>
+<meta property='og:title' content='{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}'>
+<meta property='og:description' content='{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}'>
+<meta property='og:url' content='{{ absolutePageUrl }}'>
+<meta property='og:locale' content='{{ locale }}'>
+
+{%- if image -%}
+    <meta property='og:image' content='{{ image | url }}'>
+{%- else -%}
+    <meta property='og:image' content='https://fronteers-beta.netlify.app/assets/images/social-share/og-image-{{ locale }}.jpeg'>
+    <meta property='og:image:alt' content='Image of Fronteers website'>
+    <meta property='og:image:width' content='1280'>
+    <meta property='og:image:height' content='556'>
+{%- endif -%}
+
+<link
+    rel='apple-touch-icon'
+    sizes='180x180'
+    href='{{ '/assets/images/favicon/apple-touch-icon.png' | url }}'>
+<link
+    rel='icon'
+    type='image/png'
+    href='{{ '/assets/images/favicon/favicon-32x32.png' | url }}'
+    sizes='32x32'>
+<link
+    rel='icon'
+    type='image/png'
+    href='{{ '/assets/images/favicon/favicon-16x16.png' | url }}'
+    sizes='16x16'>
+<link rel='shortcut icon' href='{{ '/assets/images/favicon/favicon.ico' | url }}'>
+<link rel='manifest' href='{{ '/site.webmanifest' | url }}'>
+<meta name='theme-color' content='#ffce2e'>
+
+<link
+    type='application/atom+xml'
+    rel='alternate'
+    href='{{ site.url }}/{{ locale }}feed.xml'
+    title='{{ site.title }}'>

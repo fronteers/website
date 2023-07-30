@@ -1,17 +1,17 @@
 ---
-layout: layouts/jobs-single.liquid
+layout: jobs-single.liquid
 title: Vacature Software Engineer Front-end bij Deli Home (Eibergen)
 date: 2020-11-14
 backgroundcolor: var(--lilac)
 categories:
-  - Medior
-  - Senior
-  - Javascript
-  - Front-end engineer
+    - Medior
+    - Senior
+    - Javascript
+    - Front-end engineer
 graphic:
-  src: /assets/company-logos/deli-home.svg
-  alt: ""
-  class:
+    src: /assets/company-logos/deli-home.svg
+    alt: ''
+    class:
 
 key: job-deli-home-eibergen
 ---
@@ -32,35 +32,35 @@ We hebben ambitieuze plannen voor de uitbreiding en verbreding van ons platform 
 
 ### Jouw werkzaamheden als Software Engineer Front-end
 
-- Jij gaat werken aan feature development samen met backend-ontwikkelaars en UX designers maar ook met kennisdragers (sme) van de business units.
-- Je zult in alle fases van de development life cycle betrokken zijn, met vooral het vertalen van wireframes en designs naar werkende applicaties.
-- Je werkt in een omgeving met software-architects die diepgaande domeinkennis hebben. Zij zullen je intensief begeleiden in de introductie en verdere fases.
+-   Jij gaat werken aan feature development samen met backend-ontwikkelaars en UX designers maar ook met kennisdragers (sme) van de business units.
+-   Je zult in alle fases van de development life cycle betrokken zijn, met vooral het vertalen van wireframes en designs naar werkende applicaties.
+-   Je werkt in een omgeving met software-architects die diepgaande domeinkennis hebben. Zij zullen je intensief begeleiden in de introductie en verdere fases.
 
 ### Jouw competenties als Software Engineer Front-end
 
-- Je hebt een HBO of WO-achtergrond in informatica of gerelateerd gebied
-- Bij voorkeur ervaring in frontend development van data driven, customer facing IT-oplossingen
-- Kennis van Javascript en ervaring in TypeScript, React of andere Javascript frameworks zijn essentieel.
-- Je weet wat er bij komt kijken om onderhoudbare en testbare code te schrijven, hebt kennis van usability patterns en ervaring in continuous integration and deployment (CI/CD)
-- Goede kennis van de Engels taal. Meestal werken we samen met business units en collega’s uit Tsjechië waarbij de voertaal Engels is.
-- Je werkt in een moderne en flexibele omgeving in nauw contact met gebruikers van de systemen die je ontwikkelt. Dat betekent ook dat je wel eens op pad bent en dealers en consumenten bezoekt. Maar ook dat je in fabrieken (bijv. in Nederland, Tsjechië, Polen) bent die met ons MES-systeem worden aangestuurd in de Benelux, bij collega’s in Tsjechië maar ook naar productielocaties.
-- We hebben een onboarding programma om te zorgen dat de collega’s en jij snel met elkaar vertrouwd raken en het teamgevoel wordt versterkt.
+-   Je hebt een HBO of WO-achtergrond in informatica of gerelateerd gebied
+-   Bij voorkeur ervaring in frontend development van data driven, customer facing IT-oplossingen
+-   Kennis van Javascript en ervaring in TypeScript, React of andere Javascript frameworks zijn essentieel.
+-   Je weet wat er bij komt kijken om onderhoudbare en testbare code te schrijven, hebt kennis van usability patterns en ervaring in continuous integration and deployment (CI/CD)
+-   Goede kennis van de Engels taal. Meestal werken we samen met business units en collega’s uit Tsjechië waarbij de voertaal Engels is.
+-   Je werkt in een moderne en flexibele omgeving in nauw contact met gebruikers van de systemen die je ontwikkelt. Dat betekent ook dat je wel eens op pad bent en dealers en consumenten bezoekt. Maar ook dat je in fabrieken (bijv. in Nederland, Tsjechië, Polen) bent die met ons MES-systeem worden aangestuurd in de Benelux, bij collega’s in Tsjechië maar ook naar productielocaties.
+-   We hebben een onboarding programma om te zorgen dat de collega’s en jij snel met elkaar vertrouwd raken en het teamgevoel wordt versterkt.
 
 ### Onze Technology Stack:
 
-- TypeScript
-- React
-- CSS
-- REST
-- Java
-- ROM (DSL)
+-   TypeScript
+-   React
+-   CSS
+-   REST
+-   Java
+-   ROM (DSL)
 
 ### Jouw vooruitzichten als Software Engineer Front-end
 
-- Een marktconform salaris en overige arbeidsvoorwaarden.
-- Een dynamische werkomgeving met een informele werksfeer.
-- Ruimte voor frisse ideeën en een hands-on aanpak.
-- Voldoende gelegenheid en vrijheid voor persoonlijke groei.
+-   Een marktconform salaris en overige arbeidsvoorwaarden.
+-   Een dynamische werkomgeving met een informele werksfeer.
+-   Ruimte voor frisse ideeën en een hands-on aanpak.
+-   Voldoende gelegenheid en vrijheid voor persoonlijke groei.
 
 ### Jouw werkomgeving bij Numdata
 

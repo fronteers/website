@@ -1,0 +1,18 @@
+---
+layout: 'base'
+---
+{%- pagehero 'freelancers' title content -%}
+
+<div data-layout='freelancers-home' class='inner-wrapper'>
+    {%- include 'partials/freelancers/loop-freelancers-specialties', headerlvl: 'h3' -%}
+
+    <ul class='desktop-columns mobile-slider'>
+        {%- for member in pagination.items limit: pagination.size -%}
+            <li class='list-item mobile-slider-item'>
+                {%- include 'partials/member', index: forloop.index -%}
+            </li>
+        {%- endfor -%}
+    </ul>
+
+    {%- include 'partials/pagination' -%}
+</div>
