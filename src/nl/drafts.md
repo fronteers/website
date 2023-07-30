@@ -2,5 +2,5 @@
 layout: drafts.liquid
 tags: utility
 title: Drafts
-permalink: '/drafts.html'
+permalink: '/nl/drafts.html'
 ---
