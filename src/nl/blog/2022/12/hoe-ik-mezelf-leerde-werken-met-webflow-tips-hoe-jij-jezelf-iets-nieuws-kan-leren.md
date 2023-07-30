@@ -2,7 +2,7 @@
 title: Hoe ik mezelf leerde werken met Webflow + tips! (hoe jij jezelf iets nieuws kan leren)
 date: 2022-12-11
 author: Rosita Rampertaap
-summary: Toen Nederland in maart 2020 in lockdown ging, ben ik begonnen met leren coderen. Dit deed ik elke dag. Dat wierp zijn vruchten af want uiteindelijk kreeg ik een baan als developer.
+summary: 'Toen Nederland in maart 2020 in lockdown ging, ben ik begonnen met leren coderen. Dit deed ik elke dag. Dat wierp zijn vruchten af want uiteindelijk kreeg ik een baan als developer.'
 categories: 
   - Adventskalender
 ---

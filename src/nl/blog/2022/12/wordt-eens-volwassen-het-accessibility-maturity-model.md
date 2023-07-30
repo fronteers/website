@@ -2,7 +2,7 @@
 title: Wordt eens volwassen; Het Accessibility Maturity Model
 date: 2022-12-22
 author: Ronny Hendriks
-summary: In een wereldbeeld waarin diversiteit en inclusie gelukkig steeds meer op de agenda staan, is digitale toegankelijkheid voor veel organisaties nog onbekend terrein. De meeste organisaties komen er mee in aanraking door wettelijke eisen, omdat ze bijvoorbeeld producten leveren aan een overheidsorganisatie. Daar wordt gevraagd of ze aan de gestelde eisen rond digitale toegankelijkheid voldoen.
+summary: 'In een wereldbeeld waarin diversiteit en inclusie gelukkig steeds meer op de agenda staan, is digitale toegankelijkheid voor veel organisaties nog onbekend terrein. De meeste organisaties komen er mee in aanraking door wettelijke eisen, omdat ze bijvoorbeeld producten leveren aan een overheidsorganisatie. Daar wordt gevraagd of ze aan de gestelde eisen rond digitale toegankelijkheid voldoen.'
 categories: 
   - Adventskalender
 ---

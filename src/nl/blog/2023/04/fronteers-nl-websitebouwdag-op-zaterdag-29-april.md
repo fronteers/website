@@ -2,7 +2,7 @@
 title: Fronteers.nl websitebouwdag op zaterdag 29 april
 date: 2023-04-20
 author: Edwin Martin
-summary: Op zaterdag 29 april gaan we weer in Utrecht verder samenwerken aan de nieuwe website van Fronteers. Iedereen die zin heeft om aan te haken is welkom. Ervaring met het werken aan de website is niet nodig, er lopen meerdere leden rond die je alles kunnen uitleggen.
+summary: 'Op zaterdag 29 april gaan we weer in Utrecht verder samenwerken aan de nieuwe website van Fronteers. Iedereen die zin heeft om aan te haken is welkom. Ervaring met het werken aan de website is niet nodig, er lopen meerdere leden rond die je alles kunnen uitleggen.'
 categories: 
   - Website
 ---

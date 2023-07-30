@@ -2,7 +2,7 @@
 title: Gezellig, een spelletje
 date: 2022-12-05
 author: Peter Doolaard
-summary: Je zit met de hele familie onder de kerstboom en de veilige gespreksonderwerpen raken uitgeput. Om het gezellig te houden stel je voor om een spelletje te doen. De meesten hebben wel zin in Scrabble, maar je kan die doos nergens vinden! Geen paniek, je bouwt gewoon je eigen spel. Met HTML en CSS timmer je dat bord zo in elkaar.
+summary: 'Je zit met de hele familie onder de kerstboom en de veilige gespreksonderwerpen raken uitgeput. Om het gezellig te houden stel je voor om een spelletje te doen. De meesten hebben wel zin in Scrabble, maar je kan die doos nergens vinden! Geen paniek, je bouwt gewoon je eigen spel. Met HTML en CSS timmer je dat bord zo in elkaar.'
 categories: 
   - Adventskalender
 ---

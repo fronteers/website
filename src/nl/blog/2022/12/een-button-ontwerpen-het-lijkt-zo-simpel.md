@@ -2,7 +2,7 @@
 title: Een button ontwerpen, het lijkt zo simpel
 date: 2022-12-09
 author: Jasha Joachimsthal
-summary: Een van de eerste zaken die ik in Adobe XD heb ontworpen, waren buttons voor het nieuwe design system van mijn werkgever. Onze producten bevatten vooral pagina’s met formulieren en daar horen buttons bij. In prototypes probeer ik die buttons zoveel mogelijk het gedrag mee te geven voor de uiteindelijke implementatie. In deze blogpost beschrijf ik mijn ervaringen met het maken van een button in Adobe XD, het gebruik ervan in prototypes en hoe bruikbaar de CSS is voor de ontwikkelaars.
+summary: 'Een van de eerste zaken die ik in Adobe XD heb ontworpen, waren buttons voor het nieuwe design system van mijn werkgever. Onze producten bevatten vooral pagina’s met formulieren en daar horen buttons bij. In prototypes probeer ik die buttons zoveel mogelijk het gedrag mee te geven voor de uiteindelijke implementatie. In deze blogpost beschrijf ik mijn ervaringen met het maken van een button in Adobe XD, het gebruik ervan in prototypes en hoe bruikbaar de CSS is voor de ontwikkelaars.'
 categories: 
   - Adventskalender
 ---

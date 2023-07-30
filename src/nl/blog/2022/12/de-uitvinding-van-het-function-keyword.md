@@ -2,7 +2,7 @@
 title: De uitvinding van het function keyword
 date: 2022-12-16
 author: Maarten Hus
-summary: Ergens in een parallel universum dicht bij het jouwe... staat Steve Jobs op een groot podium.
+summary: 'Ergens in een parallel universum dicht bij het jouwe... staat Steve Jobs op een groot podium.'
 categories: 
   - Adventskalender
 ---

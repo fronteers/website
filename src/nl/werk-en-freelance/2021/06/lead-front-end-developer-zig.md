@@ -4,7 +4,7 @@ date: 2021-06-10
 layout: layouts/jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
-summary: Wij hebben ambitieuze plannen. We willen de user experience en daarmee de front-end van onze software vernieuwen. Ben jij de lead front-end developer die wij nodig hebben? We zoeken een lead front-end developer die ervaring heeft met de nieuwste technieken, om onze software naar een hoger plan te tillen.
+summary: 'Wij hebben ambitieuze plannen. We willen de user experience en daarmee de front-end van onze software vernieuwen. Ben jij de lead front-end developer die wij nodig hebben? We zoeken een lead front-end developer die ervaring heeft met de nieuwste technieken, om onze software naar een hoger plan te tillen.'
 ---
 ![[Zig](https://zig.nl/)](/_img/werkgevers/zig.png)
 

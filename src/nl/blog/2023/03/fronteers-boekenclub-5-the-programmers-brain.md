@@ -2,7 +2,7 @@
 title: Fronteers Boekenclub 5 - The Programmer's Brain
 date: 2023-03-10
 author: Paul van Buuren
-summary: Bij de vijfde editie van de Fronteers Boekenclub lazen we [“The Programmer’s Brain” van Felienne Hermans](https://www.manning.com/books/the-programmers-brain).
+summary: 'Bij de vijfde editie van de Fronteers Boekenclub lazen we [“The Programmer’s Brain” van Felienne Hermans](https://www.manning.com/books/the-programmers-brain).'
 categories: 
   - Bijeenkomsten
 ---

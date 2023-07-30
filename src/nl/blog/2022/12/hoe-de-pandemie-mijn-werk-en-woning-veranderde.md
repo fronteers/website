@@ -2,7 +2,7 @@
 title: Hoe de pandemie mijn werk en woning veranderde
 date: 2022-12-17
 author: Darice de Cuba
-summary: Maart 2020 was de maand dat de wereld (weer) voorgoed veranderde. Dit is de tweede keer voor mij en velen van ons dat het wereld voorgoed veranderde. Eerst op 11 september 2001 en nu in maart 2020. Hoewel er gesproken wordt over weer naar “normaal” gaan, is het “normaal” van voor maart 2020 is voorgoed weg. Onze manier van werken is voor velen veranderd: de pandemie liet zien dat voor vele vakgebieden thuiswerken mogelijk is, en dat mensen die thuis willen werken dat moeten kunnen, terwijl degenen die liever op kantoor werken dat ook kunnen blijven doen.
+summary: 'Maart 2020 was de maand dat de wereld (weer) voorgoed veranderde. Dit is de tweede keer voor mij en velen van ons dat het wereld voorgoed veranderde. Eerst op 11 september 2001 en nu in maart 2020. Hoewel er gesproken wordt over weer naar “normaal” gaan, is het “normaal” van voor maart 2020 is voorgoed weg. Onze manier van werken is voor velen veranderd: de pandemie liet zien dat voor vele vakgebieden thuiswerken mogelijk is, en dat mensen die thuis willen werken dat moeten kunnen, terwijl degenen die liever op kantoor werken dat ook kunnen blijven doen.'
 categories: 
   - Adventskalender
 ---

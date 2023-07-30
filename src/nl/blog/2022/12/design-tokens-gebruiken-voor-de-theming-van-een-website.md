@@ -2,7 +2,7 @@
 title: Design Tokens gebruiken voor de Theming van een website
 date: 2022-12-19
 author: Sanne Peters
-summary: De kans is groot dat je hier terecht kwam omdat je op zoek was naar een effeciente manier om theming toe te passen in een website. Om te beginnen is het belangrijk om duidelijk te krijgen wat er precies met Theming en Design Tokens bedoeld wordt.
+summary: 'De kans is groot dat je hier terecht kwam omdat je op zoek was naar een effeciente manier om theming toe te passen in een website. Om te beginnen is het belangrijk om duidelijk te krijgen wat er precies met Theming en Design Tokens bedoeld wordt.'
 categories: 
   - Adventskalender
 ---

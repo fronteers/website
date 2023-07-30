@@ -2,7 +2,7 @@
 title: De Balans Tussen DRY en KISS
 date: 2022-12-18
 author: Paul van den Dool
-summary: Als professionele (front-end) developer is de kans groot dat je in een team werkt en dat je rekening moet houden met het feit dat andere developers met jouw code zullen moeten werken. Het is dan van belang dat je nette code schrijft. Allereerst zodat andere developers je code begrijpen, maar—laten we wel wezen—ook omdat je niet wilt dat andere developers denken dat je er niets van bakt. De makkelijkste manier om nette code te schrijven is door je te houden aan development principes.
+summary: 'Als professionele (front-end) developer is de kans groot dat je in een team werkt en dat je rekening moet houden met het feit dat andere developers met jouw code zullen moeten werken. Het is dan van belang dat je nette code schrijft. Allereerst zodat andere developers je code begrijpen, maar—laten we wel wezen—ook omdat je niet wilt dat andere developers denken dat je er niets van bakt. De makkelijkste manier om nette code te schrijven is door je te houden aan development principes.'
 categories: 
   - Adventskalender
 ---

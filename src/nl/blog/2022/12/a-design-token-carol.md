@@ -2,7 +2,7 @@
 title: A Design Token Carol
 date: 2022-12-23
 author: Nina Westenbrink
-summary: Design Tokens implementeren. Waarom zou je eraan willen beginnen? Welke mogelijkheden zijn er? En wat komt men zoal tegen tijdens de implementatie ervan?
+summary: 'Design Tokens implementeren. Waarom zou je eraan willen beginnen? Welke mogelijkheden zijn er? En wat komt men zoal tegen tijdens de implementatie ervan?'
 categories: 
   - Adventskalender
 ---

@@ -2,7 +2,7 @@
 title: Je eerste keer als spreker
 date: 2022-12-06
 author: Stefan Koopmanschap
-summary: Misschien ken je het wel: Je zit in de zaal bij de [Fronteers conferentie](https://fronteers.nl/congres), ziet een spreker op het podium staan en denkt "Hey, dat is misschien ook wel eens leuk om te doen". Of je ziet iemand uit je kring op het overzicht van sprekers staan van een conferentie in New York of Madrid en denkt "wow! Dat is tof! Dat wil ik ook." Maar ja, hoe pak je dat aan, beginnen als spreker? Want is dat niet lastig? Waar moet ik het over hebben? En hoe maak ik zulke briljante slides en kom ik toch op de proppen met zulke verhalen?
+summary: 'Misschien ken je het wel: Je zit in de zaal bij de [Fronteers conferentie](https://fronteers.nl/congres), ziet een spreker op het podium staan en denkt "Hey, dat is misschien ook wel eens leuk om te doen". Of je ziet iemand uit je kring op het overzicht van sprekers staan van een conferentie in New York of Madrid en denkt "wow! Dat is tof! Dat wil ik ook." Maar ja, hoe pak je dat aan, beginnen als spreker? Want is dat niet lastig? Waar moet ik het over hebben? En hoe maak ik zulke briljante slides en kom ik toch op de proppen met zulke verhalen?'
 categories: 
   - Adventskalender
 ---

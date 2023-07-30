@@ -2,7 +2,7 @@
 title: De slimmigheden in de standaardstylesheets van browsers
 date: 2022-12-13
 author: Kilian Valkhof
-summary: Een marge van 8px om je hele pagina, koppen zijn uit zichzelf al groter en wie heeft dat afgrijselijke lettertype uitgekozen? Een "ongestijlde pagina" is stiekem helemaal niet zo ongestijld, maar bevat een flinke bak styling. Waar komt die stijl vandaan?
+summary: 'Een marge van 8px om je hele pagina, koppen zijn uit zichzelf al groter en wie heeft dat afgrijselijke lettertype uitgekozen? Een "ongestijlde pagina" is stiekem helemaal niet zo ongestijld, maar bevat een flinke bak styling. Waar komt die stijl vandaan?'
 categories: 
   - Adventskalender
 ---

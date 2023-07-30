@@ -2,7 +2,7 @@
 title: Vrijwilligers gezocht!
 date: 2023-07-19
 author: Anneke Sinnema
-summary: De vereniging zoekt versterking. Hieronder zet ik uiteen wie we waarvoor zoeken! Lijkt het je leuk om ons te helpen in één van onderstaande rollen, neem dan contact op met het [bestuur](mailto:bestuur@fronteers.nl).
+summary: 'De vereniging zoekt versterking. Hieronder zet ik uiteen wie we waarvoor zoeken! Lijkt het je leuk om ons te helpen in één van onderstaande rollen, neem dan contact op met het [bestuur](mailto:bestuur@fronteers.nl).'
 categories: 
   - Commissies
   - Vereniging

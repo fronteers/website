@@ -2,7 +2,7 @@
 title: Schrijf mee aan de Fronteers Adventskalender 2022!
 date: 2022-09-29
 author: Anneke Sinnema
-summary: In december keert de Fronteers Adventskalender terug. 24 blogs van 24 schrijvers over alles dat met front-end (en Fronteers) te maken heeft. En de schrijvers mogen een donatie van 75 euro uit de verenigingskas doen aan een goed doel naar keuze.
+summary: 'In december keert de Fronteers Adventskalender terug. 24 blogs van 24 schrijvers over alles dat met front-end (en Fronteers) te maken heeft. En de schrijvers mogen een donatie van 75 euro uit de verenigingskas doen aan een goed doel naar keuze.'
 categories:
 - Adventskalender
 ---

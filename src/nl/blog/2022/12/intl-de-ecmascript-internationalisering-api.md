@@ -2,7 +2,7 @@
 title: Intl, de ECMAScript internationalisering API
 date: 2022-12-20
 author: Edwin Martin
-summary: Intl is de standaard ECMAScript internationalisering API en wordt al sinds 2016 door alle browsers ondersteund, maar ontwikkelaars vallen toch vaak terug op onnodige (en verouderde) JavaScript bibliotheken.
+summary: 'Intl is de standaard ECMAScript internationalisering API en wordt al sinds 2016 door alle browsers ondersteund, maar ontwikkelaars vallen toch vaak terug op onnodige (en verouderde) JavaScript bibliotheken.'
 categories: 
   - Adventskalender
 ---

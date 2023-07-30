@@ -2,7 +2,7 @@
 title: Nullish Coalescing en Optional Chaining
 date: 2022-12-10
 author: Tim Severien
-summary: Sinds ECMAScript 2020 zijn twee veelgevraagde features onderdeel geworden van de geliefde (en gehate) taal, JavaScript: de Nullish Coalescing operator en Optional Chaining. Beide zijn vooral *syntactical sugar*; een syntactische toevoeging voor iets wat we al konden schrijven, maar wel toevoegingen die welkom zijn, omdat ze code leesbaarder houden.
+summary: 'Sinds ECMAScript 2020 zijn twee veelgevraagde features onderdeel geworden van de geliefde (en gehate) taal, JavaScript: de Nullish Coalescing operator en Optional Chaining. Beide zijn vooral *syntactical sugar*; een syntactische toevoeging voor iets wat we al konden schrijven, maar wel toevoegingen die welkom zijn, omdat ze code leesbaarder houden.'
 categories: 
   - Adventskalender
 ---

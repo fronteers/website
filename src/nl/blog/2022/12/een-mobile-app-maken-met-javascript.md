@@ -2,7 +2,7 @@
 title: Een mobile app maken met JavaScript
 date: 2022-12-08
 author: Josee Wouters
-summary: Je hebt op je telefoon vast ontelbare apps staan. Misschien heb je wel Netflix, Instagram, de app van Burger King, of de fitness app Sworkit. Wat hebben deze apps met elkaar gemeen? Ze zijn allemaal gemaakt met JavaScript. Verschillende JavaScript frameworks maken het nu mogelijk om ‘gewoon’ met JavaScript, HTML en CSS een mobile app te maken voor bijvoorbeeld iOS of Android. Maar wat komt er nog meer bij kijken als je jouw met JavaScript gemaakte app ook echt wil uitbrengen in de verschillende app stores? Dat probeer ik in deze blog uit te leggen.
+summary: 'Je hebt op je telefoon vast ontelbare apps staan. Misschien heb je wel Netflix, Instagram, de app van Burger King, of de fitness app Sworkit. Wat hebben deze apps met elkaar gemeen? Ze zijn allemaal gemaakt met JavaScript. Verschillende JavaScript frameworks maken het nu mogelijk om ‘gewoon’ met JavaScript, HTML en CSS een mobile app te maken voor bijvoorbeeld iOS of Android. Maar wat komt er nog meer bij kijken als je jouw met JavaScript gemaakte app ook echt wil uitbrengen in de verschillende app stores? Dat probeer ik in deze blog uit te leggen.'
 categories: 
   - Adventskalender
 ---

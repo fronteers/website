@@ -2,7 +2,7 @@
 title: Met korting naar CSS Day 2023
 date: 2023-01-20
 author: Wim van Iersel
-summary: Op 8 en 9 juni organiseert Web Conferences Amsterdam voor de negende keer [CSS Day](https://cssday.nl).
+summary: 'Op 8 en 9 juni organiseert Web Conferences Amsterdam voor de negende keer CSS Day.'
 categories: 
   - Ledenkorting
 ---

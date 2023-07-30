@@ -2,7 +2,7 @@
 title: We leerden een steen hoe hij moest denken, maar nu heeft hij een paar bevooroordeelde meningen…
 date: 2022-12-12
 author: Esther de Vries
-summary: Tegenwoordig kom je ze op steeds meer websites en in (web)applicaties tegen: Algoritmes. Complexe berekeningen op basis van een tal van datasets die samen het perfecte antwoord weten op jouw vraag, probleem of behoefte! Je komt ze tegen als je een film wilt kijken op Netflix, wanneer je een antwoord zoekt op Google en zelfs wanneer je je belastingaangifte doet! Deze kleine helpertjes zitten overal verstopt en zijn natuurlijk een geweldige oplossing voor automatisering, want een computer kan geen mening hebben, toch?
+summary: 'Tegenwoordig kom je ze op steeds meer websites en in (web)applicaties tegen: Algoritmes. Complexe berekeningen op basis van een tal van datasets die samen het perfecte antwoord weten op jouw vraag, probleem of behoefte! Je komt ze tegen als je een film wilt kijken op Netflix, wanneer je een antwoord zoekt op Google en zelfs wanneer je je belastingaangifte doet! Deze kleine helpertjes zitten overal verstopt en zijn natuurlijk een geweldige oplossing voor automatisering, want een computer kan geen mening hebben, toch?'
 categories: 
   - Adventskalender
 ---

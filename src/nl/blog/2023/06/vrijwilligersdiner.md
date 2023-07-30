@@ -2,7 +2,7 @@
 title: Vrijwilligersdiner
 date: 2023-06-30
 author: Anneke Sinnema
-summary: Op donderdagavond 27 juli gaan we met de vrijwilligers van Fronteers uit eten in Utrecht om de staat en de toekomst van Fronteers te bespreken. Maar we kunnen wel wat vers bloed gebruiken.
+summary: 'Op donderdagavond 27 juli gaan we met de vrijwilligers van Fronteers uit eten in Utrecht om de staat en de toekomst van Fronteers te bespreken. Maar we kunnen wel wat vers bloed gebruiken.'
 categories: 
   - Vereniging
 ---

@@ -2,7 +2,7 @@
 title: Remix en Next.js: &quot;echt&quot; full-stack bestaat niet, of wel?
 date: 2022-12-07
 author: Lody Borgers
-summary: Een goede blog begint altijd met een controversiële titel, zeggen ze toch? Maar er zit wel een gedachte achter.
+summary: 'Een goede blog begint altijd met een controversiële titel, zeggen ze toch? Maar er zit wel een gedachte achter.'
 categories: 
   - Adventskalender
 ---

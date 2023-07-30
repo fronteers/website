@@ -2,7 +2,7 @@
 title: Dit is hoe ik omga met het developer imposter syndroom
 date: 2022-12-21
 author: Sander Langendoen
-summary: Wat voor syndroom? Het imposter syndroom. Vrij vertaald naar het Nederlands het ‘bedriegers syndroom’. Ik hoor sommigen denken, wat mankeer je dan? Nou, eigenlijk niets. Zo is er is geen diagnose voor. Maar het is wel degelijk iets. Voornamelijk binnen de tech industrie is het percentage van ‘developer imposter syndroom’ erg hoog. Uit een onderzoek uit 2018 blijkt zelfs meer dan de helft van de developers, er in min of meerdere mate last van hebben.
+summary: 'Wat voor syndroom? Het imposter syndroom. Vrij vertaald naar het Nederlands het ‘bedriegers syndroom’. Ik hoor sommigen denken, wat mankeer je dan? Nou, eigenlijk niets. Zo is er is geen diagnose voor. Maar het is wel degelijk iets. Voornamelijk binnen de tech industrie is het percentage van ‘developer imposter syndroom’ erg hoog. Uit een onderzoek uit 2018 blijkt zelfs meer dan de helft van de developers, er in min of meerdere mate last van hebben.'
 categories: 
   - Adventskalender
 ---
