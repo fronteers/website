@@ -1,0 +1,11 @@
+---
+layout: base
+---
+<div data-layout='members-single' class='page-content'>
+    {% unless useHero %}
+        <h2>{{ title }}</h2>
+    {% endunless %}
+    {{ content }}
+</div>
+
+{%- include 'partials/utility/edit-this-page' -%}

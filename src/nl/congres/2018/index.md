@@ -1,5 +1,5 @@
 ---
-layout: layouts/conference.liquid
+layout: conference.liquid
 title: Congres 2018
 key: conference_2018
 ---

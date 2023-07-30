@@ -1,0 +1,36 @@
+---
+layout: 'base'
+pagination:
+  data: collections.memberSpecialties
+  size: 1
+  alias: specialty
+
+key: specialties-{{ specialty.slug }}
+---
+<div data-layout='freelancers-specialties' class='inner-wrapper'>
+    <div class='page-content'>
+        {% unless useHero %}
+            <h2>{{ title }}</h2>
+        {% endunless %}
+        {{ content }}
+    </div>
+
+    {%- include 'partials/freelancers/loop-freelancers-specialties', headerlvl: 'h3' -%}
+
+    <h2>{{ translations[locale].member_specialty }}: {{ specialty.title }}</h2>
+
+    {%- assign posts = collections.members | getLocale: locale -%}
+    <ul class='desktop-columns'>
+        {%- for post in posts -%}
+            {%- assign post_specialties = post.data.specialties -%}
+            {%- for post_specialty in post_specialties -%}
+                {%- assign current_specialty = post_specialty | downcase -%}
+                {%- if specialty.title == current_specialty -%}
+                    <li class='list-item'>
+                        {%- include 'partials/member', headerlvl: 'h3', index: forloop.index, member: post -%}
+                    </li>
+                {%- endif -%}
+            {%- endfor -%}
+        {%- endfor -%}
+    </ul>
+</div>

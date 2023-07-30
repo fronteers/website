@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+    font-family: var(--font-family-decoration), sans-serif;
+}
+
+p {
+    font-family: var(--font-family-content), sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* To prevent horzontal scrolling due to menu on right side of page */
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    margin: 0;
+    padding: 0;
+    background: var(--page-background);
+}
+
+code,
+var,
+kbd,
+samp,
+tt,
+abbr,
+acronym,
+blockquote,
+q {
+    -webkit-hyphens: none;
+    hyphens: none;
+}
+
+li::before {
+    content: '\200B'; /* Make VoiceOver + list-style-type: none; play nice */
+    position: absolute;
+}
+
+.visually-hidden,
+.sr-only,
+.skiplink {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    block-size: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    inline-size: 1px;
+}
+
+.skiplink:focus {
+    position: absolute;
+    background: black;
+    z-index: 100;
+    left: 8px;
+    top: 8px;
+    padding: 20px;
+    color: var(--yellow, white);
+    font-size: 16px;
+
+    clip: unset;
+    clip-path: unset;
+    block-size: unset;
+    overflow: unset;
+    inline-size: unset;
+}
+
+img,
+picture {
+    display: block;
+    max-width: 100%;
+}

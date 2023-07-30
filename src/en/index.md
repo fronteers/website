@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.liquid
+layout: home.liquid
 key: home
 title: Homepage
 ---

@@ -1,5 +1,5 @@
 <div data-partial="jobs/loop-job-categories">
-    {%- include partials/utility/dynamic-headerlevel level: headerlvl title: translations[locale].categories -%}
+    {%- include 'partials/utility/dynamic-headerlevel' level: headerlvl title: translations[locale].categories -%}
 
     <ul role="list" class="category-list">
         {%- for category in collections.jobCategories -%}

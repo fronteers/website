@@ -15,7 +15,7 @@
 
     <div class="job-content-wrapper">
         <div class="job-content">
-            {%- include partials/utility/dynamic-headerlevel level: headerlvl title: job.data.title link: job.url -%}
+            {%- include 'partials/utility/dynamic-headerlevel' level: headerlvl title: job.data.title link: job.url -%}
 
             {%- if job.data.summary -%}
                 <p class="job-summary">{{ job.data.summary | strip_html | truncatewords: 60 | truncate: 320 }}</p>

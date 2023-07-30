@@ -1,14 +1,15 @@
 ---
 title: Vacature Senior front-end developer bij Iquality (Nijmegen en Eindhoven)
 date: 2022-06-14
-layout: layouts/jobs-single.liquid
+layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Maak jij ons nog "smarter"?
 ---
+
 ![[iquality](https://www.iquality.nl/)](https://fronteers.nl/_img/werkgevers/iquality.png)
 
-*Attention: this job requires you to be _fluent_ in Dutch, both written and spoken.*
+_Attention: this job requires you to be *fluent* in Dutch, both written and spoken._
 
 # Maak jij ons nog "smarter"?
 
@@ -22,31 +23,31 @@ Als senior denk je mee over strategische oplossingen en weet als geen ander hoe 
 
 Eén van de uitdagingen waarmee je aan de slag gaat is, samen met de ervaren collega's in het team, een plan te maken om bij enkele van onze klanten de digitale transitie van een monoliet naar een composable digitaal platform in gang te zetten. Ook in de uitvoering heb je een leidende rol en neem je het ontwikkelen van de frontend voor je rekening.
 
-*Daarnaast weet jij collega’s te inspireren en te motiveren. Je neemt initiatief om bij te dragen aan de kennisdeling binnen Iquality.* Denk hierbij aan het organiseren van hackatons en deep dive sessies. Kortom, je krijgt bij ons de mogelijkheid om het beste uit jezelf en uit anderen te halen.
+_Daarnaast weet jij collega’s te inspireren en te motiveren. Je neemt initiatief om bij te dragen aan de kennisdeling binnen Iquality._ Denk hierbij aan het organiseren van hackatons en deep dive sessies. Kortom, je krijgt bij ons de mogelijkheid om het beste uit jezelf en uit anderen te halen.
 
 # Wat wij jou bieden
 
-* Werken op een manier die voor jou werkt. In een van onze mooie panden in Nijmegen, Eindhoven of gewoon vanuit huis. 
-* Alle kantoren op korte afstand van het station (én goed bereikbaar met de auto of fiets)
-* Je krijgt een thuiswerkvergoeding en alles wat je nodig hebt om thuis comfortabel te werken
-* Tijd en ruimte om jezelf en collega’s te ontwikkelen
-* Bezoeken van congressen
-* Een fijne organisatie waar waardering & persoonlijke betrokkenheid de boventoon voert en waar je hoofd boven het maaiveld uitsteken gewaardeerd wordt
-* Een goed gevulde koelkast op kantoor
-* Gezellige bedrijfs- en teamuitjes
-* Onbeperkt tafeltennissen en darten
-* Wandelingen door het centrum van Eindhoven of het Goffertpark in Nijmegen tijdens de lunch
+-   Werken op een manier die voor jou werkt. In een van onze mooie panden in Nijmegen, Eindhoven of gewoon vanuit huis.
+-   Alle kantoren op korte afstand van het station (én goed bereikbaar met de auto of fiets)
+-   Je krijgt een thuiswerkvergoeding en alles wat je nodig hebt om thuis comfortabel te werken
+-   Tijd en ruimte om jezelf en collega’s te ontwikkelen
+-   Bezoeken van congressen
+-   Een fijne organisatie waar waardering & persoonlijke betrokkenheid de boventoon voert en waar je hoofd boven het maaiveld uitsteken gewaardeerd wordt
+-   Een goed gevulde koelkast op kantoor
+-   Gezellige bedrijfs- en teamuitjes
+-   Onbeperkt tafeltennissen en darten
+-   Wandelingen door het centrum van Eindhoven of het Goffertpark in Nijmegen tijdens de lunch
 
 # Jij…
 
 (TODO: Jij hebt minimaal vier jaar professionele werkervaring met:
- ReactJS
- JavaScript/TypeScript
+ReactJS
+JavaScript/TypeScript
 Je hebt kennis van en/of ervaring met:
- Next.js
- Gatsby
- GraphQL
- Apollo
+Next.js
+Gatsby
+GraphQL
+Apollo
 Je hebt ervaring met ontwikkelen en doorontwikkelen van public facing websites en (headless) CMS
 Jij beschikt over professionele en intellectuele capaciteiten van hbo/wo-niveau.
 Jij weet met jouw communicatieve vaardigheden jouw mening juist over te brengen. Jij kan mensen overtuigen van jouw oplossingen en deze zelfstandig, of samen met het scrum-team, implementeren
