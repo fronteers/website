@@ -2,7 +2,7 @@
 title: Valkuilen van toegankelijke componenten
 date: 2022-12-02
 author: Erik Kroes
-summary: Al zijn je bouwblokken (componenten) nog zo mooi, je kan er nog steeds verkeerd mee bouwen!
+summary: 'Al zijn je bouwblokken (componenten) nog zo mooi, je kan er nog steeds verkeerd mee bouwen!'
 categories:
 - Adventskalender
 ---

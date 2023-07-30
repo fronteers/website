@@ -2,8 +2,8 @@
 title: Fronteers Conference op 9 september 2022
 date: 2022-08-30
 author: Sander Vink
-summary: Nog anderhalve week te gaan totdat Fronteers Conference 2022 van start gaat op vrijdag 9 september, en er 
-zijn nog kaarten verkrijgbaar! Locatie: Pathé Leidsche Rijn in Utrecht.
+summary: 'Nog anderhalve week te gaan totdat Fronteers Conference 2022 van start gaat op vrijdag 9 september, en er zijn nog kaarten verkrijgbaar!'
+Locatie: 'Pathé Leidsche Rijn in Utrecht'
 categories:
   - Congres
 ---

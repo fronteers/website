@@ -2,17 +2,14 @@
 title: Vrijwilligers gezocht!
 date: 2023-07-19
 author: Anneke Sinnema
-summary: De vereniging zoekt versterking. Hieronder zet ik uiteen wie we waarvoor zoeken! Lijkt het je leuk om ons te helpen in één van onderstaande rollen, neem dan contact op met het [bestuur](mailto:bestuur@fronteers.nl).
-
+summary: 'De vereniging zoekt versterking. Hieronder zet ik uiteen wie we waarvoor zoeken! Lijkt het je leuk om ons te helpen in één van onderstaande rollen, neem dan contact op met het [bestuur](mailto:bestuur@fronteers.nl).'
 graphic:
   src: volunteers/brainstorming.jpeg
   alt: ""
-
 categories:
   - Commissies
   - Vereniging
 ---
-
 De vereniging zoekt versterking. Hieronder zet ik uiteen wie we waarvoor zoeken! Lijkt het je leuk om ons te helpen in één van onderstaande rollen, neem dan contact op met het [bestuur](mailto:bestuur@fronteers.nl).
 
 Voor alle posities hieronder geldt het volgende:
@@ -30,7 +27,7 @@ Binnen elke commissie is er 1 persoon die de commissie voorzit. Deze:
 
 # 3 mensen voor de workshopcommissie
 
-(TODO: Doel van de commissie: Faciliteren van kennisdeling)
+{% note "Doel van de commissie: Faciliteren van kennisdeling)" %}
 
 We willen graag in het schooljaar 2023-2024 vier workshops organiseren. Bijvoorbeeld twee in Utrecht en twee in Amsterdam. Jules Ernst (accessibility) en Jad Joubran (JavaScript) zijn beschikbaar. Jeroen Reumkens (https://www.jeroenreumkens.nl/) is misschien een idee (creatief coden, animaties?). We willen graag onderwerpen voor junioren (introductie tot...) en senioren. Mogelijk vooraf een enquete doen/onderzoek om te kijken welke onderwerpen interessant zijn. Ouder idee: VIP developer overvliegen en die in twee of drie steden een workshop vragen te geven bij een gastbedrijf.
 
@@ -39,7 +36,7 @@ We willen graag in het schooljaar 2023-2024 vier workshops organiseren. Bijvoorb
 
 # 3 mensen voor de activiteitencommissie
 
-(TODO: Doel van de commissie: Kennisdeling, collega's helpen netwerken)
+{% note "Doel van de commissie: Kennisdeling, collega's helpen netwerken" %}
 
 We zouden het liefst in het schooljaar 2023-2024 vier activiteiten organiseren om de zichtbaarheid van Fronteers te vergroten. Wat voor activiteit en waar die plaatsvindt, daar zit veel vrijheid in. De online meetups die sinds begin coronatijd zijn opgezet vallen ook onder de activiteitencommissie. Deze staan nu maandelijks ingepland, maar we kunnen de frequentie wat verlagen en de marketing online verhogen. Idee: Een sessie organiseren met/bij een partij als IederIn, Bartiméus voor verhogen bewustzijn toegankelijkheid. Bedrijven zouden waarschijnlijk graag een 'werkbezoek' hosten als we een vorm kunnen vinden om dit te doen zonder al te veel duidelijke 'reclame angle'. Netwerkevents zoals een gezamenlijke fietstocht bijvoorbeeld in de lente en zomer. Ouder idee: VIP developer (zie idee bij workshopcommissie) vragen om te spreken op een meetup
 
@@ -50,7 +47,7 @@ We zouden het liefst in het schooljaar 2023-2024 vier activiteiten organiseren o
 
 # 2 mensen voor de voor onderwijscommissie
 
-(TODO: Doel van de commissie: Kennisdeling, professionaliseren van developers)
+{% note "Doel van de commissie: Kennisdeling, professionaliseren van developers" %}
 
 Vroeger had Fronteers een onderwijscommissie, maar helaas is die al een tijdje inactief.
 Het zou interessant zijn voor Fronteers om opnieuw docenten en de beroepspraktijk met elkaar in contact te brengen, zodat nieuwe developers goed beslagen ten ijs komen bij hun eerste baan (brede kennis hebben van toegankelijkheid, performance en duurzaamheid). En daarnaast onderwijsinstellingen (Hogescholen en bootcamps) te helpen in hun contacten met potentiële (gast)docenten. Bovendien is het goed om studenten te helpen met netwerken zodat ze minder kwetsbaar zijn wanneer ze een 'DEI achtergrond' hebben en (het komt helaas voor) te maken krijgen met lastige werksituaties.
@@ -61,7 +58,7 @@ Het zou interessant zijn voor Fronteers om opnieuw docenten en de beroepspraktij
 
 # 2 mensen voor de marketing- en communicatiecommissie
 
-(TODO: Doel van de commissie: Bekendheid van Fronteers vergroten en andere commissies ondersteunen)
+{% note "Doel van de commissie: Bekendheid van Fronteers vergroten en andere commissies ondersteunen" %}
 
 - ophalen van content en versturen van een nieuwsbrief elke 2 maanden
 - content op de website up to date houden
@@ -74,7 +71,7 @@ Het zou interessant zijn voor Fronteers om opnieuw docenten en de beroepspraktij
 
 # 2 mensen voor het bestuur
 
-(TODO: Doel: voortbestaan van Fronteers garanderen, visie op de vereniging doorontwikkelen)
+{% note "Doel: voortbestaan van Fronteers garanderen, visie op de vereniging doorontwikkelen" %}
 
 Voorzitter Anneke is toe aan vervanging en om het voortbestaan van Fronteers te garanderen hebben we eigenlijk wat meer bestuursleden nodig. Op dit moment hebben we als rollen een voorzitter, een secretaris en een penningmeester. Het liefst komen hier twee bestuursleden bij die het bestuur ondersteunen op het punt van:
 

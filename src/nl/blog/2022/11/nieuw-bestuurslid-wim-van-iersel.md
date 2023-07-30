@@ -2,7 +2,7 @@
 title: Nieuw bestuurslid, Wim van Iersel
 date: 2022-11-16
 author: Anneke Sinnema
-summary: Op de afgelopen ALV is Wim van Iersel toegetreden tot het bestuur. Hij stelt zich graag aan jullie voor!
+summary: 'Op de afgelopen ALV is Wim van Iersel toegetreden tot het bestuur. Hij stelt zich graag aan jullie voor!'
 categories:
 - Vereniging
 ---
