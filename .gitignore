@@ -7,3 +7,4 @@ dist/
 .env
 .idea
 .vscode
+.11ty-vite
