@@ -1,5 +1,4 @@
 ---
-layout: layouts/freelancers-specialties.liquid
+layout: freelancers-specialties.liquid
 title: Freelancers ordered by specialty
 ---
-

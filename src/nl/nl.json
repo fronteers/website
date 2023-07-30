@@ -1,6 +1,6 @@
 {
-  "layout": "layouts/page.liquid",
-  "permalink": "/{{ page.filePathStem }}.html",
-  "locale": "nl",
-  "tags": "pages"
+    "layout": "page.liquid",
+    "permalink": "/{{ page.filePathStem }}.html",
+    "locale": "nl",
+    "tags": "pages"
 }

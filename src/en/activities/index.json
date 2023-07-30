@@ -1,5 +1,5 @@
 {
-    "layout": "layouts/activity-home.liquid",
+    "layout": "activity-home.liquid",
     "permalink": "/{{ locale }}/{{ page.fileSlug }}/{%- if pagination.pageNumber > 0 -%}{{ pagination.pageNumber }}/{%- endif -%}index.html",
     "tags": "pages",
     "key": "activities",

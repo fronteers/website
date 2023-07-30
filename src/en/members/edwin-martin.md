@@ -1,10 +1,7 @@
 ---
-layout: layouts/members-single.liquid
+layout: members-single.liquid
 title: Edwin
 date: 2023-04-29
-graphic:
-  src: /assets/images/banner-conference.jpg
-  alt:
 
 key: edwin-martin
 ---

@@ -1,40 +1,40 @@
 .outer-wrapper--homepage {
-  background: url(/assets/images/home-header-background.svg);
-  background-repeat: repeat-x;
-  background-position: center top;
-  background-size: contain;
-  margin-block-end: var(--spacing-double);
-  max-width: 100%;
+    background: url(/assets/images/home-header-background.svg);
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: contain;
+    margin-block-end: var(--spacing-double);
+    max-width: 100%;
 }
 
 .hero {
-  position: relative;
-  inline-size: 100%;
-  max-width: 100%;
-  max-height: 100%;
-  text-align: center;
-  margin: 0;
+    position: relative;
+    inline-size: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin: 0;
 }
 
 /* if there is a shield */
 .hero svg:first-child {
-  width: 100%;
-  left: 0;
-  top: -20rem;
-  z-index: 1;
-  position: absolute;
+    width: 100%;
+    left: 0;
+    top: -20rem;
+    z-index: 1;
+    position: absolute;
 }
 
 .hero--blog .hero-image,
 .hero--activities .activities-hero-graphic-wrapper {
-  display: none;
+    display: none;
 }
 
 .hero .img-background--bottom {
     inline-size: 100%;
     block-size: 0;
     padding-block-end: 30%;
-    content: " ";
+    content: ' ';
     display: block;
     background-color: white;
     background-size: cover;
@@ -45,35 +45,35 @@
 }
 
 .hero-graphic::after {
-  inline-size: 100%;
-  block-size: 0;
-  padding-block-end: 22.8%;
-  content: " ";
-  display: block;
-  background-color: var(--red);
-  background-size: cover;
-  -webkit-clip-path: url(#curly-brace-down-tiny);
-  clip-path: url(#curly-brace-down-tiny);
+    inline-size: 100%;
+    block-size: 0;
+    padding-block-end: 22.8%;
+    content: ' ';
+    display: block;
+    background-color: var(--red);
+    background-size: cover;
+    -webkit-clip-path: url(#curly-brace-down-tiny);
+    clip-path: url(#curly-brace-down-tiny);
 }
 
 .hero--activities .hero-graphic::after {
-  background-color: var(--lilac);
-  -webkit-clip-path: url(#greater-than-down-tiny);
-  clip-path: url(#greater-than-down-tiny);
+    background-color: var(--lilac);
+    -webkit-clip-path: url(#greater-than-down-tiny);
+    clip-path: url(#greater-than-down-tiny);
 }
 
 .hero--blog .hero-graphic::after {
-    background-color: var(--lilac); 
+    background-color: var(--lilac);
     -webkit-clip-path: url(#parenthesis-down-tiny);
     clip-path: url(#parenthesis-down-tiny);
 }
 
 .hero-content {
-  background-color: var(--red);
-  margin-block-start: 0;
-  padding: var(--spacing);
-  padding-block-end: 0;
-  hyphens: none;
+    background-color: var(--red);
+    margin-block-start: 0;
+    padding: var(--spacing);
+    padding-block-end: 0;
+    hyphens: none;
 }
 
 .hero-content p:has(.button) {
@@ -86,35 +86,34 @@
 
 .hero--homepage .hero-graphic::after,
 .hero--homepage .hero-content {
-  background-color: var(--yellow);
+    background-color: var(--yellow);
 }
 
 .hero--freelancers .hero-graphic::after,
 .hero--freelancers .hero-content {
-  background-color: var(--yellow);
+    background-color: var(--yellow);
 }
 
 .hero--activities .hero-graphic::after,
 .hero--activities .hero-content {
-  background-color: var(--lilac);
+    background-color: var(--lilac);
 }
 
 .hero--blog .hero-graphic::after,
 .hero--blog .hero-content {
-  background-color: var(--lilac);
+    background-color: var(--lilac);
 }
 
 .hero--single-blog .hero-graphic::after,
 .hero--single-blog .hero-graphic,
 .hero--single-blog .hero-content {
-  background-color: var(--lilac);
+    background-color: var(--lilac);
 }
 
 .hero--jobs .hero-graphic::after,
 .hero--jobs .hero-content {
-  background-color: var(--yellow);
+    background-color: var(--yellow);
 }
-
 
 .hero--activities .hero-content h2 a,
 .hero--blog .hero-content h2 a {
@@ -143,8 +142,8 @@
 .hero--activities .nextup-time-and-location-wrapper,
 .hero--blog .hero-content .blog-title,
 .hero--blog .blog-time-wrapper {
-  text-transform: none;
-  font-size: 2rem;
+    text-transform: none;
+    font-size: 2rem;
 }
 
 .hero--activities .nextup-time-and-location-wrapper,
@@ -153,18 +152,18 @@
 }
 
 .hero--activities .nextup-link,
-.hero--blog .blog-link  {
-  font-size: 1.5rem;
-  color: black;
+.hero--blog .blog-link {
+    font-size: 1.5rem;
+    color: black;
 }
 
 .hero--activities .nextup-title,
 .hero--blog .blog-title {
-  font-weight: bold;
-  text-transform: none;
-  font-size: 2rem;
-  text-decoration: underline;
-  text-wrap: balance;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-wrap: balance;
 }
 
 .hero--activities .sup-title,
@@ -178,7 +177,6 @@
     font-size: 2rem;
 }
 
-
 @media all and (min-width: 46.875em) {
     .hero {
         max-width: var(--outer-width);
@@ -188,8 +186,8 @@
     .hero-graphic {
         padding-block-start: 0;
         padding-block-end: var(--spacing);
-        padding-inline-end: var(--spacing));
-        padding-inline-start: var(--spacing));
+        padding-inline-end: var(--spacing);
+        padding-inline-start: var(--spacing);
         -webkit-clip-path: url(#curly-brace-down-large);
         clip-path: url(#curly-brace-down-large);
         inline-size: 100%;
@@ -202,15 +200,14 @@
         /* content: none; */
         padding-block-start: 0;
         padding-block-end: var(--spacing);
-        padding-inline-end: var(--spacing));
-        padding-inline-start: var(--spacing));
+        padding-inline-end: var(--spacing);
+        padding-inline-start: var(--spacing);
         -webkit-clip-path: url(#curly-brace-down-large);
         clip-path: url(#curly-brace-down-large);
         inline-size: 100%;
         block-size: 2rem;
         background-color: var(--yellow);
     }
-
 
     .hero svg {
         height: 92%;
@@ -246,7 +243,7 @@
         inline-size: 100%;
         block-size: 0;
         padding-block-end: 30%;
-        content: " ";
+        content: ' ';
         display: block;
         background-color: white;
         background-size: cover;
@@ -269,7 +266,7 @@
     }
 
     .hero--activities .activities-hero-graphic-wrapper + .hero-graphic,
-    .hero--blog .hero-image-wrapper + .hero-graphic { 
+    .hero--blog .hero-image-wrapper + .hero-graphic {
         padding-inline: 22rem;
         padding-block-start: calc(2 * var(--spacing));
         padding-block-end: calc(4 * var(--spacing));
@@ -289,7 +286,7 @@
         background-size: cover;
         inline-size: 100%;
         max-width: 100%;
-        background-color: var(--lilac); 
+        background-color: var(--lilac);
         -webkit-clip-path: url(#greater-than-down-large);
         clip-path: url(#greater-than-down-large);
     }
@@ -341,7 +338,7 @@
     }
 
     .hero-content .button {
-        transition: transform .15s ease-in;
+        transition: transform 0.15s ease-in;
 
         @media (prefers-reduced-motion) {
             transition: none;
@@ -352,7 +349,7 @@
     .hero-content .button:hover,
     .hero-content .button:active {
         transform: rotate(-2deg);
-        transition: transform .15s ease-out;
+        transition: transform 0.15s ease-out;
 
         @media (prefers-reduced-motion) {
             transition: none;

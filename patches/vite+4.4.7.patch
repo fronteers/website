@@ -1,0 +1,16 @@
+diff --git a/node_modules/vite/dist/node/chunks/dep-3b8eb186.js b/node_modules/vite/dist/node/chunks/dep-3b8eb186.js
+index b95d6c5..50f42b9 100644
+--- a/node_modules/vite/dist/node/chunks/dep-3b8eb186.js
++++ b/node_modules/vite/dist/node/chunks/dep-3b8eb186.js
+@@ -37588,6 +37588,11 @@ function buildHtmlPlugin(config) {
+                                         });
+                                         js += importExpression;
+                                     }
++                                    else if (node.attrs.some((p) => p.name === 'rel' && p.value === 'canonical')) {
++                                      // ignore
++                                    } else if (node.attrs.some((p) => p.name === 'rel' && p.value === 'alternate') && node.attrs.some((p) => p.name === 'hreflang')) {
++                                      // ignore
++                                    }
+                                     else {
+                                         assetUrls.push({
+                                             attr: p,
