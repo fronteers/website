@@ -1,7 +1,7 @@
 <section data-partial="homepage/active-vacancies" class="inner-wrapper">
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
     <ul class="desktop-rows mobile-slider">
-        {%- for job in jobs limit: 5 -%}
+        {%- for job in jobs limit: 2 -%}
             <li class="list-item mobile-slider-item">
                 {%- include partials/job headerlvl: "h3" index: forloop.index -%}
             </li>
@@ -9,7 +9,7 @@
     </ul>
 
     <div class="button-wrapper">
-        <a href="{{ locale }}/jobs/" class="button button-parentheses">
+        <a href="{{ translations[locale].blockTitles.jobsPath }}" class="button button-parentheses">
             {{ translations[locale].blockTitles.viewOurJobs }}
         </a>
     </div>

@@ -2,6 +2,7 @@ const glob = require("fast-glob");
 const lodash = require("lodash");
 const slugify = require("slugify");
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 /**
  * Get all unique key values from a collection
@@ -80,6 +81,8 @@ module.exports = function (eleventyConfig) {
 
     /* Add id to heading elements */
     eleventyConfig.addPlugin(pluginAddIdToHeadings);
+
+    eleventyConfig.addPlugin(pluginRss);
 
     // Rebuild when any of the files are changed, but exclude css because that is
     // handled by the asset pipeline.

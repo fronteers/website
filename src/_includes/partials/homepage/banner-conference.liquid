@@ -16,7 +16,7 @@
     <a
         class="banner-conference {% if className %}{{ className }}{% endif %}"
         style="{%- if image != '' -%}background-image: url({{image}}){%- endif -%}"
-        href="{{bannerlink}}">
+        href="{{link}}">
         <span class="visually-hidden">{{ translations[locale].goToVimeo }}</span>
         {%- include svg/button_play.svg -%}
     </a>

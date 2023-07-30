@@ -32,6 +32,7 @@ module.exports = {
             viewOurBlogs: "View all our blogs",
             viewOurMembers: "View all our members",
             viewOurJobs: "View all known vacancies",
+          jobsPath: '/en/jobs/',
         },
         socialMedia: {
             slackTitle: "Slack",
@@ -98,6 +99,7 @@ module.exports = {
             viewOurBlogs: "Bekijk alle blogs",
             viewOurMembers: "Bekijk alle members",
             viewOurJobs: "Bekijk alle bekende vacatures",
+          jobsPath: '/nl/werk-en-freelance/',
         },
         socialMedia: {
             slackTitle: "Slack",
