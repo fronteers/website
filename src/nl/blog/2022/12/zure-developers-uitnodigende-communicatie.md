@@ -2,7 +2,7 @@
 title: Zure developers &amp; uitnodigende communicatie
 date: 2022-12-04
 author: Wes Oudshoorn
-summary: Iedereen kent ze wel. De zuurpruimen, de klagers. Niets is ooit goed genoeg, en het probleem ligt altijd bij de incompetentie van anderen. Misschien komt er wel meteen een naam en gezicht bij je in beeld. Ik geef toe, ik ben zelf ook niet vies van een beetje gezanik en gezeur.
+summary: 'Iedereen kent ze wel. De zuurpruimen, de klagers. Niets is ooit goed genoeg, en het probleem ligt altijd bij de incompetentie van anderen. Misschien komt er wel meteen een naam en gezicht bij je in beeld. Ik geef toe, ik ben zelf ook niet vies van een beetje gezanik en gezeur.'
 categories:
 - Adventskalender
 ---

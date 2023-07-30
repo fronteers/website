@@ -2,11 +2,9 @@
 title: Herfstblaadjes zien
 date: 2022-12-24
 author: Job van Achterberg
-
 graphic:
   src: blog/autumn-leaves.jpeg
   alt: "Afbeelding van herfstblaadjes"
-
 categories:
   - Adventskalender
 ---
@@ -182,15 +180,11 @@ The only moving thing
 
 Was the eye of the blackbird.
 
----
-
 I was of three minds,
 
 Like a tree
 
 In which there are three blackbirds.
-
----
 
 O thin men of Haddam,
 
@@ -243,7 +237,5 @@ One sees the environment not with the eyes but with the eyes-in-the-head-on-the-
 Wat we zien, en niet zien. De herfst, het bos, het asfaltpad. Je vrouw. Je zoontje. Blote voetjes. Een vuistje met herfstblaadje.
 
 Hoe ik dit alles concreet toepas tijdens het samenstellen van een keuringsrapport schrijf ik in een vervolg. 🍂
-
----
 
 Met dank aan [Dick Verstegen](https://boeddhistischdagblad.nl/auteurs/30649-column-dick/). Alle afbeeldingen via Wikipedia behalve wanneer anders vermeld.

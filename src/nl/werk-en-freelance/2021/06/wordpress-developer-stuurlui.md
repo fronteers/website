@@ -4,7 +4,7 @@ date: 2021-07-01
 layout: layouts/jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
-summary: Ben jij een gemotiveerde, creatieve WordPress developer die niets liever wil dan de allerbeste, snelste, mooiste maatwerk WordPress websites bouwen? Dan komen we graag met je in contact.
+summary: 'Ben jij een gemotiveerde, creatieve WordPress developer die niets liever wil dan de allerbeste, snelste, mooiste maatwerk WordPress websites bouwen? Dan komen we graag met je in contact.'
 ---
 ![[Stuurlui](https://stuurlui.nl/)](/_img/werkgevers/stuurlui.png)
 

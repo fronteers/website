@@ -4,7 +4,7 @@ date: 2021-06-10
 layout: layouts/jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
-summary: Wij hebben ambitieuze plannen voor dit jaar. Een van die plannen is het onder handen nemen van de frontend van ons chat product. Hiervoor zoeken wij iemand die veel ervaring met Javascript heeft en die ownership neemt over het frontend gedeelte van ons chatproduct.
+summary: 'Wij hebben ambitieuze plannen voor dit jaar. Een van die plannen is het onder handen nemen van de frontend van ons chat product. Hiervoor zoeken wij iemand die veel ervaring met Javascript heeft en die ownership neemt over het frontend gedeelte van ons chatproduct.'
 ---
 ![[Zig](https://zig.nl/)](/_img/werkgevers/zig.png)
 

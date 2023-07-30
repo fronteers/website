@@ -2,7 +2,7 @@
 title: Ik ben een div
 date: 2022-12-03
 author: Petra Knip
-summary: Stond er wekenlang als werktitel in de planning. Klinkt niet echt veelbelovend. Ronduit saai eigenlijk.
+summary: 'Stond er wekenlang als werktitel in de planning. Klinkt niet echt veelbelovend. Ronduit saai eigenlijk.'
 categories:
 - Adventskalender
 ---

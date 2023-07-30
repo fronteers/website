@@ -2,7 +2,7 @@
 title: Fronteers Boekenclub 2 - How Design Makes The World
 date: 2022-06-12
 author: Paul van Buuren
-summary: Op dinsdag 7 juni bespraken we bij de Fronteers Boekenclub het boek "How Design Makes The World" van Scott Berkun.
+summary: 'Op dinsdag 7 juni bespraken we bij de Fronteers Boekenclub het boek "How Design Makes The World" van Scott Berkun.'
 categories:
   - Bijeenkomsten
 ---

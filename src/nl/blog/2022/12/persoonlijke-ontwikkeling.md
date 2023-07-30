@@ -2,7 +2,7 @@
 title: Persoonlijke ontwikkeling
 date: 2022-12-01
 author: Robert van der Elst
-summary: Als front end developer bevindt je je in de luxe positie om in het midden te zitten van meerdere disciplines, zoals back end development, UX, design en project management. Doordat je daar in het midden zit heb je ook de mogelijkheid om je te bewegen of te verschuiven in één van die richtingen. Nu zal je daar natuurlijk niet altijd bewust mee bezig zijn, maar soms gebeurt dat van nature, zoals in mijn geval.
+summary: 'Als front end developer bevindt je je in de luxe positie om in het midden te zitten van meerdere disciplines, zoals back end development, UX, design en project management. Doordat je daar in het midden zit heb je ook de mogelijkheid om je te bewegen of te verschuiven in één van die richtingen. Nu zal je daar natuurlijk niet altijd bewust mee bezig zijn, maar soms gebeurt dat van nature, zoals in mijn geval.'
 categories:
 - Adventskalender
 ---

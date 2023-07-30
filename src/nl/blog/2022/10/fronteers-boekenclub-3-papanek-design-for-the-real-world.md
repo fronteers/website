@@ -2,7 +2,7 @@
 title: Fronteers Boekenclub 3 - Design For The Real World
 date: 2022-10-29
 author: Paul van Buuren
-summary: Op dinsdag 25 oktober bespraken we bij de derde Fronteers Boekenclub het boek "Design for the Real World" van Victor Papanek.
+summary: 'Op dinsdag 25 oktober bespraken we bij de derde Fronteers Boekenclub het boek "Design for the Real World" van Victor Papanek.'
 categories:
   - Bijeenkomsten
 ---
