@@ -20,16 +20,16 @@ If you'd like to contribute, we'd love to have you on board. You can check our [
 
 ## Docs
 
-- [Code of Conduct](docs/code-of-conduct.md)
-- [How to contribute](docs/contribute.md)
-- [Eleventy](https://www.11ty.dev/docs/)
-- [Markdown (CommonMark spec)](https://spec.commonmark.org/0.29/)
-- [Liquid](https://shopify.github.io/liquid/) (the version Eleventy uses, is a little older, and does not include the `| where` filter. We have built our own)
-- [Content status](../../issues/204)
+-   [Code of Conduct](docs/code-of-conduct.md)
+-   [How to contribute](docs/contribute.md)
+-   [Eleventy](https://www.11ty.dev/docs/)
+-   [Markdown (CommonMark spec)](https://spec.commonmark.org/0.29/)
+-   [Liquid](https://shopify.github.io/liquid/) (the version Eleventy uses, is a little older, and does not include the `| where` filter. We have built our own)
+-   [Content status](../../issues/204)
 
 ## Design
 
-- [Design by Ready for Take-Off](https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/)
+-   [Design by Ready for Take-Off](https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/)
 
 ## Open Source
 
@@ -45,9 +45,9 @@ This project is licensed under the terms of the [MIT license](LICENSE), with the
 
 RSS feeds will be available through:
 
-- https://fronteers-beta.netlify.app/blogs.xml
-- https://fronteers-beta.netlify.app/vacatures.xml
-- https://fronteers-beta.netlify.app/activiteiten.xml
-- https://fronteers-beta.netlify.app/blogs-en.xml
-- https://fronteers-beta.netlify.app/jobs.xml
-- https://fronteers-beta.netlify.app/activities.xml
+-   https://fronteers-beta.netlify.app/blogs.xml
+-   https://fronteers-beta.netlify.app/vacatures.xml
+-   https://fronteers-beta.netlify.app/activiteiten.xml
+-   https://fronteers-beta.netlify.app/blogs-en.xml
+-   https://fronteers-beta.netlify.app/jobs.xml
+-   https://fronteers-beta.netlify.app/activities.xml

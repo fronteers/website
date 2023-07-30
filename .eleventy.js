@@ -10,6 +10,8 @@ const EleventyPluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighl
  * @param {import('@11ty/eleventy').UserConfig} eleventyConfig
  */
 module.exports = function (eleventyConfig) {
+    eleventyConfig.ignores.add('_ignore');
+
     const quick = Boolean(process.env.BUILD_QUICK);
 
     // There is a quick build function (npm run start:quick) that only loads the
@@ -70,7 +72,7 @@ module.exports = function (eleventyConfig) {
 
     // Enable asset bundling
     eleventyConfig.addPlugin(EleventyVitePlugin, {
-        tempFolderName: 'dist',
+        tempFolderName: '.11ty-vite',
 
         viteOptions: {
             publicDir: 'public',

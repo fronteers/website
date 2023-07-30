@@ -480,29 +480,27 @@ You can also use `include` directly, for example to draw shapes (remove newlines
 
 <!-- {% raw %} -->
 
+<!-- prettier-ignore -->
 ```liquid
 <section class='inner-wrapper'>
-    <div class='greater-than-bg'>
-        {%
-            include partials/utility/dynamic-headerlevel
-            level: "h3"
-            title: "My greater than shape"
-        %}
-    </div>
-    <div class='curly-braces-bg'>
-        {%
-            include partials/utility/dynamic-headerlevel
-            level: "h4"
-            title: "My curly braces shape"
-        %}
-    </div>
-    <div class='parentheses-bg'>
-        {%
-            include partials/utility/dynamic-headerlevel
-            level: "h5"
-            title: "My parentheses shape"
-        %}
-    </div>
+  <div class='greater-than-bg'>
+    {% include partials/utility/dynamic-headerlevel
+          level: "h3"
+          title: "My greater than shape"
+    %}
+  </div>
+  <div class='curly-braces-bg'>
+    {% include partials/utility/dynamic-headerlevel
+          level: "h4"
+          title: "My curly braces shape"
+    %}
+  </div>
+  <div class='parentheses-bg'>
+    {% include partials/utility/dynamic-headerlevel
+          level: "h5"
+          title: "My parentheses shape"
+    %}
+  </div>
 </section>
 ```
 
