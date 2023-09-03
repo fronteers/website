@@ -5,6 +5,7 @@ const EleventyPluginIds = require('@orchidjs/eleventy-plugin-ids');
 const EleventyVitePlugin = require('@11ty/eleventy-plugin-vite');
 const EleventyPluginRss = require('@11ty/eleventy-plugin-rss');
 const EleventyPluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const markdownItAttrs = require('markdown-it-attrs');
 
 /**
  * @param {import('@11ty/eleventy').UserConfig} eleventyConfig
@@ -150,6 +151,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.setLiquidOptions({
         dynamicPartials: true,
         strictFilters: false,
+    });
+
+    eleventyConfig.amendLibrary('md', (md) => {
+        return md.use(markdownItAttrs)
     });
 
     /* All templates in the content directory are parsed and copied to the dist directory */
