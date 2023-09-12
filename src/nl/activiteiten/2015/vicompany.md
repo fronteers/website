@@ -62,9 +62,9 @@ Er wordt gezorgd voor pizzapunten, grote eters doen er goed aan zelf nog een hap
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Andrew Ng</td>

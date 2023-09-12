@@ -43,10 +43,10 @@ title: Kitchensink-HTML
     </caption>
     <thead>
       <tr>
-        <th>Rank</th>
-        <th>Movie</th>
-        <th>Downloads</th>
-        <th>Grosses</th>
+        <th scope="col">Rank</th>
+        <th scope="col">Movie</th>
+        <th scope="col">Downloads</th>
+        <th scope="col">Grosses</th>
       </tr>
     </thead>
     <tfoot>
@@ -56,61 +56,61 @@ title: Kitchensink-HTML
     </tfoot>
     <tbody>
       <tr>
-        <th>1</th>
+        <th scope="row">1</th>
         <td>Fast Five</td>
         <td>9,260,000</td>
         <td>$626,137,675</td>
       </tr>
       <tr>
-        <th>2</th>
+        <th scope="row">2</th>
         <td>The Hangover II</td>
         <td>8,840,000</td>
         <td>$581,464,305</td>
       </tr>
       <tr>
-        <th>3</th>
+        <th scope="row">3</th>
         <td>Thor</td>
         <td>8,330,000</td>
         <td>$449,326,618</td>
       </tr>
       <tr>
-        <th>4</th>
+        <th scope="row">4</th>
         <td>Source Code</td>
         <td>7,910,000</td>
         <td>$123,278,618</td>
       </tr>
       <tr>
-        <th>5</th>
+        <th scope="row">5</th>
         <td>I Am Number Four</td>
         <td>7,670,000</td>
         <td>$144,500,437</td>
       </tr>
       <tr>
-        <th>6</th>
+        <th scope="row">6</th>
         <td>Sucker Punch</td>
         <td>7,200,000</td>
         <td>$89,792,502</td>
       </tr>
       <tr>
-        <th>7</th>
+        <th scope="row">7</th>
         <td>127 Hours</td>
         <td>6,910,000</td>
         <td>$60,738,797</td>
       </tr>
       <tr>
-        <th>8</th>
+        <th scope="row">8</th>
         <td>Rango</td>
         <td>6,480,000</td>
         <td>$245,155,348</td>
       </tr>
       <tr>
-        <th>9</th>
+        <th scope="row">9</th>
         <td>The King’s Speech</td>
         <td>6,250,000</td>
         <td>$414,211,549</td>
       </tr>
       <tr>
-        <th>10</th>
+        <th scope="row">10</th>
         <td>Harry Potter and the Deathly Hallows Part 2</td>
         <td>6,030,000</td>
         <td>$1,328,111,219</td>
@@ -120,10 +120,10 @@ title: Kitchensink-HTML
 
   <table>
     <tr>
-      <th>
+      <th scope="col">
         Table Heading
       </th>
-      <th>
+      <th scope="col">
         Table Heading
       </th>
     </tr>
@@ -455,7 +455,7 @@ title: Kitchensink-HTML
     </caption>
     <thead>
       <tr>
-        <th>
+        <th scope="row">
           Table head th
         </th>
         <td>
@@ -465,7 +465,7 @@ title: Kitchensink-HTML
     </thead>
     <tfoot>
       <tr>
-        <th>
+        <th scope="row">
           Table foot th
         </th>
         <td>
@@ -475,7 +475,7 @@ title: Kitchensink-HTML
     </tfoot>
     <tbody>
       <tr>
-        <th>
+        <th scope="row">
           Table body th
         </th>
         <td>

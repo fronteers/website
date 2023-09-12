@@ -18,9 +18,9 @@ De kaartverkoop voor Fronteers Conference 2016 start vrijdag 27 mei om 20:00 uur
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Anneke</td>

@@ -33,9 +33,9 @@ Ieder betalend lid is welkom, dus ook als je geen freelancer of ZZP'er bent. Wan
 
 <table>
 <tr>
-<th>Naam</th>
-<th></th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Astrid Uneken</td>
