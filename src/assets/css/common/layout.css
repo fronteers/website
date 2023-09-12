@@ -105,6 +105,11 @@ main section > .h {
     margin-block-start: 0;
 }
 
+.page-content[data-layout="kitchensink"] > h4:first-of-type,
+.page-content[data-layout="kitchensink"] > h4 + h5 {
+  margin: 0;
+}
+
 .page-content > ul {
     font-size: inherit;
 }

@@ -1,6 +1,7 @@
 ---
 key: kitchensink
 title: Kitchensink
+layout: kitchensink
 ---
 
 This kitchen sink shows common elements used and usable on this website.
@@ -11,6 +12,7 @@ The heading "Headings" is an example of a third level heading (h3).
 
 ## This is a fourth level heading (h4)
 ### This is a fifth level heading (h5)
+#### This is a sixth level heading (h6)
 
 # Paragraphs
 
