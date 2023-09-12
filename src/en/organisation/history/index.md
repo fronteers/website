@@ -9,7 +9,7 @@ The temporary name, which came up through a questionnaire, was something with *g
 
 After a digital vote from 37 [proposed names](/en/organisation/history/names) it turned out that *Fronteers* was preferred and this became the name.
 
-### Management
+# Management
 
 The following members have served on the board during the existence of Fronteers:
 
@@ -33,7 +33,7 @@ The following members have served on the board during the existence of Fronteers
 | Edwin Martin         | 2017- | Secretary |
 | Wim van Iersel       | 2022- | Treasurer |
 
-### Honorary Members
+# Honorary Members
 
 Due to special merits for the association, the board has appointed the following members as honorary members:
 

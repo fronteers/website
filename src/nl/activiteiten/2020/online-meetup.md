@@ -13,7 +13,7 @@ De live-stream is voor ons de eerste keer, en als deze meetup goed verloopt volg
 De meetup is geheel Engelstalig. Voor ondertiteling wilden we gebruik maken van we automatische ondertiteling van Google/Youtube en deze naderhand corrigeren, maar helaas bleek deze niet te werken (waarschijnlijk omdat de feature niet ondersteund wordt op ons kanaal). Helaas lukte het ons op korte termijn ook niet om een live talk in te schakelen.
 Wanneer de livestream is gestopt zullen we door een externe partij ondertiteling regelen en de video zo snel mogelijk herplaatsen op onze Vimeo account.
 
-### Het programma
+# Het programma
 
 | 19:00 | Workshop 'A short guide to reading a CSS Specification', door Rachel Andrew |
 | ----- | ------------------------------------------------------------ |
@@ -24,7 +24,7 @@ Wanneer de livestream is gestopt zullen we door een externe partij ondertiteling
 | 21:00 | Presentatie [Rachel Andrew](https://rachelandrew.co.uk/): New CSS in 2020. "Almost every major browser release seems to come with some interesting new features. In this talk I'll explain some of the new things we have to look forward to!" |
 | 21:30 | Afsluiting                                                   |
 
-### Hoe doe je mee?
+# Hoe doe je mee?
 
 - De workshop en de meetup zullen worden uitgezonden via [onze Youtube pagina](https://www.youtube.com/watch?v=N2tvZ4P44jY).
 - De quiz is interactiever. Je zult hier aan kunnen meedoen zonder dat je van te voren software hoeft te installeren of ergens voor hoeft te registreren. [Je kunt hier meedoen](https://meet.google.com/vjr-jdhk-fii)

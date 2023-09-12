@@ -8,7 +8,7 @@ Fronteers hosts a world-class front-end web development conference each year: **
 
 Stay in touch by [following @FronteersConf on Twitter](https://twitter.com/FronteersConf).</p>
      
-### Our conferences
+# Our conferences
 
 | Conference         | Date            | Venue                         | Visitors |
 |--------------------|-----------------|-------------------------------|----------|

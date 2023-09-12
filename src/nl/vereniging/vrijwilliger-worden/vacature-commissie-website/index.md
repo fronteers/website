@@ -8,7 +8,7 @@ Het gaat niet om het bouwen zelf, maar om het opstellen van eisen en wensen waar
 
 Voor deze websitecommissie zoeken we minimaal drie vrijwilligers. Laat ons weten als je mee wilt doen.
 
-### Wat verwachten we van onze vrijwilligers?
+# Wat verwachten we van onze vrijwilligers?
 
 Als vrijwilliger bij Fronteers ben je onderdeel van een actieve, jonge vereniging. De leukste manier om te netwerken en nieuwe vaardigheden op te doen!
 
@@ -16,6 +16,6 @@ Als vrijwilliger bij Fronteers ben je onderdeel van een actieve, jonge verenigin
 - Teamplayers die van aanpakken weten (of het durven aan te geven als ze daar hulp bij nodig hebben!)
 - Een kritische blik; zie je dingen die we beter kunnen doen of leuker/mooier zouden kunnen maken als vereniging? We horen het graag!
 
-### Interesse?
+# Interesse?
 
 Lijkt het je leuk om deze commissie te versterken? Neem dan contact met ons op via een e-mail naar [bestuur@fronteers.nl](mailto:bestuur@fronteers.nl)!
