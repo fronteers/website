@@ -1,8 +1,7 @@
+const { JSDOM } = require('jsdom');
 const transforms = {};
 
 transforms['add_table_scope'] = function (content, outputPath) {
-    const { JSDOM } = require('jsdom');
-
     if (!outputPath || !outputPath.endsWith('.html')) {
         return content;
     }
