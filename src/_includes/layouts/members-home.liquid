@@ -16,6 +16,8 @@ layout: base
                     {% unless lid.naam == 'EOF' %}
                         <tr>
                             <td>
+                                <span class='blog-author'>{{ lid.naam }}</span>
+                                <!--
                                 {%- for member in members -%}
                                     {%- if member.data.title == lid.naam -%}
                                         {%- assign memberHasAProfilePage = true -%}
@@ -29,10 +31,11 @@ layout: base
                                         <a href='{{ memberUrl }}'> {{ lid.naam }}</a>
                                         {% break %}
                                     {%- else -%}
-                                        <span class='blog-author'>{{ lid.naam }}</span>
+                                        
                                     {%- endif -%}
                                     {% break %}
                                 {%- endfor -%}
+                                -->
                             </td>
                             <td>
                                 {% if lid.werkgever == '-' %}
