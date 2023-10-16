@@ -8,8 +8,8 @@ layout: base
 
         <table>
             <thead>
-                <td>Naam</td>
-                <td>Werkgever</td>
+                <th>Naam</th>
+                <th>Werkgever</th>
             </thead>
             <tbody>
                 {%- for lid in members-list %}
@@ -22,6 +22,7 @@ layout: base
                                         {%- assign memberUrl = member.url -%}
                                     {%- else -%}
                                         {%- assign memberHasAProfilePage = false -%}
+                                        <span class='blog-author'>{{ lid.naam }}</span>
                                     {%- endif -%}
 
                                     {%- if memberHasAProfilePage -%}
