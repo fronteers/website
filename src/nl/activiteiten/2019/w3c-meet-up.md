@@ -40,8 +40,8 @@ We hope to see a lot of you on February 7th! [Register now on meetup.com](https:
 
 <table>
 <tr>
-<th>Name</th>
-<th>Twitter</th>
+<th scope="col">Name</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Anneke Sinnema</td>

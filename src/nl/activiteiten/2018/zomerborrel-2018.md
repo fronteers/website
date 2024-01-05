@@ -18,9 +18,9 @@ Aanmelden is helaas niet meer mogelijk, maar als je even een berichtje naar ons 
 
 <table>
 <tr>
-<th>Naam</th>
-<th></th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Anne Korteweg</td>

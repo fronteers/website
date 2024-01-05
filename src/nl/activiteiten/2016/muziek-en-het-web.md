@@ -58,9 +58,9 @@ Desmet Studio's is gevestigd in Amsterdam aan de Plantage Middenlaan ([routebesc
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Anne</td>

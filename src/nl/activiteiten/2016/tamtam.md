@@ -54,9 +54,9 @@ Zie ook [https://www.tamtam.nl/contact/](https://www.tamtam.nl/contact/)
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Aalt Westhuis</td>

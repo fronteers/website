@@ -53,9 +53,9 @@ Sta je op  de deelnemerslijst, maar kun je toch niet komen? Afmelden kan door ee
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Anne Lammers</td>
