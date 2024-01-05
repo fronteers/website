@@ -45,9 +45,9 @@ We raden aan met openbaar vervoer naar het centrum van Den Haag te komen. Er zij
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Aleksas Grodis</td>
