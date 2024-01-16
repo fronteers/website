@@ -14,7 +14,7 @@ Fronteers is bij de oprichting ondersteund door het [Platform voor Internet Bure
 
 Bekijk hier de [statuten van de vereniging](/nl/vereniging/statuten).
 
-### Doel van de vereniging
+# Doel van de vereniging
 
 Doelstelling van Fronteers is de professionalisering van het beroep van web-front-end ontwikkelaar; en de erkenning en verbetering van de positie van-, alsmede de ondersteuning van Nederlandstalige web-front-end ontwikkelaars.
 

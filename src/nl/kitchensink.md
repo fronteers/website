@@ -1,21 +1,20 @@
 ---
 key: kitchensink
 title: Kitchensink
+layout: kitchensink
 ---
 
 This kitchen sink shows common elements used and usable on this website.
 
-## Headings
+# Headings
 
-The heading "Headings" is an example of a second level heading (h2).
+The heading "Headings" is an example of a third level heading (h3).
 
-### This is a third level heading (h3)
+## This is a fourth level heading (h4)
+### This is a fifth level heading (h5)
+#### This is a sixth level heading (h6)
 
-#### This is a fourth level heading (h4)
-
-##### This is a fifth level heading (h5)
-
-## Paragraphs
+# Paragraphs
 
 This is a paragraph. One morning, when **Gregor Samsa** woke from troubled
 dreams, he found himself transformed in his bed into a horrible vermin. He lay
@@ -24,7 +23,7 @@ his brown belly, slightly domed and divided by arches into stiff sections.
 
 Words and word groups can be marked as **bold**, _italic_, ~~strikken through~~.
 
-## Table
+# Table
 
 <div class="table-responsive">
 
@@ -39,7 +38,7 @@ Words and word groups can be marked as **bold**, _italic_, ~~strikken through~~.
 
 Wrap the table in `<div class="table-responsive">` to make it responsive.
 
-## Tags
+# Tags
 
 Tags can be displayed using the following liquid syntax:
 
@@ -56,7 +55,7 @@ Examples are:
 {% tag "Online" %}
 {% tag "Marketingcommissie" %}
 
-## Links
+# Links
 
 Links can be created and formatted as follows:
 
@@ -74,7 +73,7 @@ Links can be created and formatted as follows:
 {% link "http://example.com/123" "Klik mij" "curly-braces" %}
 {% link "http://example.com/123" "Klik mij" "greater-than" %}
 
-## Buttons
+# Buttons
 
 <!-- {% raw %} -->
 
@@ -86,11 +85,11 @@ Links can be created and formatted as follows:
 
 {% button "button" "Klik mij" %}
 
-## Embedding objects
+# Embedding objects
 
 There are various short-tags to embed objects using liquid templating.
 
-### Vimeo
+## Vimeo
 
 <!-- {% raw %} -->
 
@@ -102,7 +101,7 @@ There are various short-tags to embed objects using liquid templating.
 
 {% vimeo "15982903" %}
 
-### Video (inline)
+## Video (inline)
 
 <!-- {% raw %} -->
 
@@ -114,7 +113,7 @@ There are various short-tags to embed objects using liquid templating.
 
 {% inlineVideo "480" "270" "/_downloads/2010/fronteers-2010-compilatie" "webm" %}
 
-### Youtube
+## Youtube
 
 <!-- {% raw %} -->
 
@@ -126,7 +125,7 @@ There are various short-tags to embed objects using liquid templating.
 
 {% youtube "rhgwIhB58PA" %}
 
-### Codepen
+## Codepen
 
 <!-- {% raw %} -->
 
@@ -138,7 +137,7 @@ There are various short-tags to embed objects using liquid templating.
 
 {% codepen "MWmBYog" "Pool rules" %}
 
-### Google Maps
+## Google Maps
 
 <!-- {% raw %} -->
 
@@ -150,7 +149,7 @@ There are various short-tags to embed objects using liquid templating.
 
 {% googlemaps "Marconilaan 8, Weert, nl" %}
 
-### JSfiddle
+## JSfiddle
 
 <!-- {% raw %} -->
 
@@ -162,7 +161,7 @@ There are various short-tags to embed objects using liquid templating.
 
 {% jsfiddle "lensco" "yYQdf" "Een voorbeeld van een div" %}
 
-### Slideshare
+## Slideshare
 
 <!-- {% raw %} -->
 
@@ -174,7 +173,7 @@ There are various short-tags to embed objects using liquid templating.
 
 {% slideshare "2hNXWKt7JGPKpi" %}
 
-### Slides.com
+## Slides.com
 
 <!-- {% raw %} -->
 
@@ -186,7 +185,7 @@ There are various short-tags to embed objects using liquid templating.
 
 {% slides "sdrasner" "functional-fronteers" %}
 
-### Speakerdeck
+## Speakerdeck
 
 <!-- {% raw %} -->
 
@@ -198,7 +197,7 @@ There are various short-tags to embed objects using liquid templating.
 
 {% speakerdeck "g00glen00b" "fronteers-javascript-at-your-enterprise-dutch" "View Javascript at your enterprise" %}
 
-### Mailchimp signup form
+## Mailchimp signup form
 
 <!-- {% raw %} -->
 
@@ -210,11 +209,11 @@ There are various short-tags to embed objects using liquid templating.
 
 {% mailchimp %}
 
-## Embedding Fronteers elements
+# Embedding Fronteers elements
 
 There are also various elements that can be embedded /included directly. The common ones are listed here:
 
-### About Us Hero
+## About Us Hero
 
 <!-- {% raw %} -->
 
@@ -230,7 +229,7 @@ Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem
 Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {% endaboutushero %}
 
-## Quote
+# Quote
 
 <!-- {% raw %} -->
 
@@ -246,7 +245,7 @@ This is a quote
 This is a quote
 {% endquote %}
 
-## Member Quote
+# Member Quote
 
 <!-- {% raw %} -->
 
@@ -296,7 +295,7 @@ on display is not the same as the value to generate the flag, provide it as the 
 
 The quote itself is the content inside the paired tag.
 
-## Shields
+# Shields
 
 {% assign shield_color_primary = "purple" %}
 {% assign shield_color_secondary = "red" %}
@@ -368,7 +367,7 @@ The quote itself is the content inside the paired tag.
 </table>
 </div>
 
-### Generate Shield
+## Generate Shield
 
 It is also possible to generate a shield for an arbitary string. This is the
 basis of having an identicon for our members.
@@ -412,7 +411,7 @@ basis of having an identicon for our members.
 </table>
 </div>
 
-## Banners
+# Banners
 
 Banners are desgin elements that can link to another page and look like you can
 click them.
@@ -453,7 +452,7 @@ For example (remove newlines):
 
 Style can be `greater`, `curly`, `parentheses`, or `none`.
 
-## Blocks
+# Blocks
 
 <!-- {% raw %} -->
 
@@ -469,7 +468,7 @@ This is content
 This is content
 {% endblock %}
 
-## Shapes
+# Shapes
 
 You can also use `include` directly, for example to draw shapes (remove newlines from `include`):
 

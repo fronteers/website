@@ -1,0 +1,16 @@
+---
+layout: 'base'
+---
+{% if useHero == 'aboutushero' %}
+    {%- aboutushero title -%}
+        {{ heroSlogan }}
+    {%- endaboutushero -%}
+{% endif %}
+
+<div data-layout='kitchensink' class='page-content inner-wrapper'>
+    {% unless useHero %}
+        <h2>{{ title }}</h2>
+    {% endunless %}
+
+    {{ content }}
+</div>

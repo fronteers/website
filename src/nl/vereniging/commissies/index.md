@@ -7,7 +7,7 @@ heroSlogan: ""
 
 We hebben op dit moment 21 vrijwilligers, verdeeld over het bestuur en zes commissies. Voor een aantal commissies zoeken we nog vrijwilligers.
 
-### De commissies
+# De commissies
 
 * [België](/nl/vereniging/commissies/belgie)
 * [Congres](/nl/vereniging/commissies/congres)

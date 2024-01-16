@@ -12,44 +12,44 @@ Today, appeared before me, Mr. Maria Arina Janna Elizabeth Hazenberg, notary in 
 
 By this deed, the appearing persons declared to establish an association and to adopt the following articles of association for this purpose.
 
-### Name
+# Name
 
-#### Article 1
+## Article 1
 
 The association bears the name: Fronteers.
 
-### Seat
+# Seat
 
-#### Article 2
+## Article 2
 
 It has its registered office in Amsterdam.
 
-### Goal
+# Goal
 
-#### Article 3
+## Article 3
 
 The association aims to:
 
 1. the professionalization of the web front-end developer profession.
 2. the recognition and improvement of the position of, as well as the support of, Dutch web front-end developers.
 
-### Members
+# Members
 
-#### Article 4
+## Article 4
 
 1. Members of the association may be natural or legal persons of age.
 2. The board keeps a register containing the names and addresses of all members.
 
-### Admission
+# Admission
 
-#### Article 5
+## Article 5
 
 1. The board decides on the admission of members.
 2. In the event of non-admission as a member, the general meeting may still decide to admit.
 
-### End of membership
+# End of membership
 
-#### Article 6
+## Article 6
 
 1. Membership ends:
     1. by the death of the member;
@@ -66,22 +66,22 @@ The association aims to:
 7. A decision to terminate membership by the association on the grounds that the association cannot reasonably be required to continue membership and a decision to expel from membership must be made within one month of receipt of the notification. of the resolution may be appealed to the general meeting. To this end, he will be notified in writing of the decision, stating the reasons, as soon as possible. During the appeal period and pending the appeal, the member is suspended.
 8. If membership ends in the course of an association year, the annual contribution will nevertheless remain due for the whole.
 
-### Annual Contributions
+# Annual Contributions
 
-#### Article 7
+## Article 7
 
 1. The members are obliged to pay an annual contribution, which will be determined by the general meeting. To this end, they can be divided into categories that pay a different contribution.
 2. The board is authorized in special cases to grant full or partial exemption from the obligation to pay a contribution.
 
-### Management
+# Management
 
-#### Article 8
+## Article 8
 
 The board consists of at least three persons, who are appointed by the general meeting. The appointment is made from among the members.
 
-### End of Board Membership / Periodic Membership / Suspension
+# End of Board Membership / Periodic Membership / Suspension
 
-#### Article 9
+## Article 9
 
 1. Each board member, even if he has been appointed for a specific period, can be dismissed or suspended at any time by the general meeting. A suspension that is not followed within three months by a decision to dismiss will end when that term expires.
 2. Each board member will retire no later than three years after his appointment, in accordance with a retirement schedule to be drawn up by the board. The retiring person is eligible for re-election; anyone who is appointed to an interim vacancy takes the place of his predecessor on the roster.

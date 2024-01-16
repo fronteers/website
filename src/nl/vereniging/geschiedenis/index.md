@@ -11,7 +11,7 @@ De tijdelijke naam, die door middel van een vragenlijst naar voren kwam, was iet
 
 Na een digitale stemming uit 37 [voorgestelde namen](/nl/vereniging/geschiedenis/namen) bleek dat _Fronteers_ de voorkeur had en werd dit de naam.
 
-### Bestuur
+# Bestuur
 
 De volgende leden hebben gedurende het bestaan van Fronteers zitting gehad in het bestuur:
 
@@ -35,7 +35,7 @@ De volgende leden hebben gedurende het bestaan van Fronteers zitting gehad in he
 | Edwin Martin         |2017-     | Secretaris |
 | Wim van Iersel       |2022-     | Penningmeester |
 
-### Ereleden
+# Ereleden
 
 Wegens bijzondere verdiensten voor de vereniging, heeft het bestuur de volgende leden tot erelid benoemd:
 
