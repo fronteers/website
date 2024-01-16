@@ -6,7 +6,7 @@ location:
 categories:
     - meetup
 ---
-## Deze bijeenkomst vervalt en de presentaties worden verplaatst!
+# Deze bijeenkomst vervalt en de presentaties worden verplaatst!
 
 Op vrijdag 27 november 2015 organiseert Fronteers een bijeenkomst in Maastricht. Er worden twee presentaties voorzien.
 

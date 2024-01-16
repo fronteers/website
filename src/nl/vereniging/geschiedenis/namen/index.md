@@ -6,7 +6,7 @@ heroSlogan: ""
 Op deze pagina vind je de namen voor het 'Gilde' die in de aanloopfase voor de oprichting door leden zijn voorgesteld, alsmede een bestuursadvies hierover.
 Alle voorlopige leden mochten stemmen, en de uitkomst werd *Fronteers*.
 
-### Bestuursadvies
+# Bestuursadvies
 
 Dit bestuursadvies is tot stand gekomen in nauw overleg met Edenspiekermann (toen Eden Design), dat (als sponsoring) een namenspecialist naar ons naamgevingsprobleem heeft laten kijken en enige voorstellen heeft gedaan.
 
@@ -28,11 +28,11 @@ Een goede naam is enigszins associatief, maar verwijdert zich ook niet te ver va
 
 Al deze drie namen hebben een associatie, zijn makkelijk te onthouden, en de domeinen zijn voorlopig door Edenspiekermann gereserveerd. De argumentatie van bestuursfavoriet Fronteers vind je verderop.
 
-### Stemprocedure
+# Stemprocedure
 
 Om te stemmen gebruikten we de zogenaamde [Instant Runoff Voting](http://en.wikipedia.org/wiki/Instant-runoff_voting) methode, waarbij iedere stemmer een lijst van zijn voorkeuren kon indienen.
 
-### Voorgestelde namen
+# Voorgestelde namen
 
 De volgende namen zijn voorgesteld (in alfabetische volgorde):
 
@@ -74,43 +74,43 @@ De volgende namen zijn voorgesteld (in alfabetische volgorde):
 - Vereniging van Nederlandse Frontend Webdevelopers
 - Voorzijde - Beroepsvereniging van Front-End Developers
 
-### Argumentaties
+# Argumentaties
 
 De volgende argumentaties zijn ingeleverd:
 
-#### Argo
+## Argo
 
 Argo is het schip waarmee de griekse helden op zoek gingen naar het Gulden Vlies. Aan boord waren onder andere Ajax en J(a)son. Het schip bood hen bescherming en bracht hen van avontuur naar avontuur.
 Leden zouden dan Argonauten kunnen zijn.
 Ik denk dat de schip-metafoor best leuk kan zijn voor een vereniging als deze. Ontdekken, avonturen, nieuwe werelden verkennen, helden; allemaal goeie associaties.
 
-#### Avantgarde
+## Avantgarde
 
 Betekent Voorhoede.
 
-#### &lt;body&gt;
+## &lt;body&gt;
 
 &lt;body&gt; staat voor de organisatie: het gilde belichaamt ons gezamenlijke doel om ons vakgebied verder te ontwikkelen en daarnaast is &lt;body&gt; natuurlijk het element waarbinnen de diverse front-end technieken samenkomen en het spektakel zich grotendeels afspeelt, zowel voor de gebruiker als voor de ontwikkelaar.
 
-#### De Bron - organisatie voor front-enders
+## De Bron - organisatie voor front-enders
 
 Bron: puur, helder, onmisbaar, betrouwbaar (niet vervuild!)
 Broncode, onder de kap, view source(!), etcetera
 
-#### FEDEV - Organisatie van front-end webdevelopers
+## FEDEV - Organisatie van front-end webdevelopers
 
 De afkorting betekent: Front End DEVelopers;
 Omdat een leek niet per se weet dat een front-ender iets met websites doet, moet in de ondertitel "web" zitten;
 De ondertitel suggereert niet meer dan wat de organisatie is;
 Fedev is als woord uit te spreken (hoeft dus niet gespeld te worden).
 
-#### FEND - Voor betrokken front-enders
+## FEND - Voor betrokken front-enders
 
 Samentrekking hoef ik vast niet uit te leggen.
 Ook internationaal goed te communiceren (uitspraak enz).
 Ondertitel moet vooral houding en werkwijze van leden communiceren.
 
-#### Fronteers
+## Fronteers
 
 Een ideale naam is zowel herkenbaar als associatief. Het "front"-gedeelte van "Fronteers" is een duidelijke verwijzing naar front-end programmeurs; en iedereen associeert het woord als geheel met "frontiers".
 
@@ -120,16 +120,16 @@ Tenslotte ligt de naam makkelijk in het geheugen.
 
 Waarschijnlijk moet hier nog een pay-off aan toegevoegd worden met een beschrijving; iets als "Beroepsorganisatie van front-end ontwikkelaars".
 
-#### FWD
+## FWD
 
 FWD staat voor Front-end Web Developers en tevens voor vooruitgang (en dat is toch waar we naar streven!). Eventueel zou er bij vermeldingen altijd vakvereniging voor kunnen staan, zodat duidelijk wordt dat het om een professionele organisatie gaat. Daarnaast biedt de naam FWD goede mogelijkheden voor een logo of beeldmerk.
 
 'Gecertificeerd door Vakvereniging FWD' of 'FWD Proof', klinkt goed toch?
 
-#### Gilde van Front-End Developers
+## Gilde van Front-End Developers
 
 Ik vind 'gilde' nog steeds een mooie term die wat mij betreft staat voor 'ambacht' en het doorgeven van kennis, en ik hoop dan ook dat het oorspronkelijke voorstel is afgeschoten vanwege 'front-enders' en niet vanwege 'gilde'.
 
-#### Vakvereniging voor Front-end Developers
+## Vakvereniging voor Front-end Developers
 
 Het is belangrijk dat de naam "verkocht" kan worden. Met deze naam kan het management aangeven dat al hun Front-end Developers bij de Vakvereniging voor Front-end Developers zijn aangesloten, iets wat met afwijkende termen en namen een stuk lastiger is. Ook als referentie op de C.V. van de Front-end Developer zelf. Eventueel zou dit ook als ondertitel voor een andere (pakkende) naam kunnen dienen. Het is dan ieder geval voor iedereen duidelijk dat het om een "echte" vak/beroepsvereniging gaat en niet zomaar een collectief van enthousiastelingen.

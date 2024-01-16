@@ -7,7 +7,7 @@ heroSlogan: ""
 On this page you will find the names for the "Guild" that have been proposed by members in the run-up to its establishment, as well as board advice on this.
 All provisional members were allowed to vote, and the result was *Fronteers*.
 
-### Board advice
+# Board advice
 
 This board advice came about in close consultation with Edenspiekermann (then Eden Design), which (as a sponsor) had a name specialist look at our naming problem and made some proposals.
 
@@ -29,11 +29,11 @@ A good name is somewhat associative, but does not stray too far from a concrete 
 
 All these three names have an association, are easy to remember, and the domains have been reserved by Edenspiekermann for the time being. The argumentation of board favorite Fronteers can be found further on.
 
-### Voting procedure
+# Voting procedure
 
 To vote, we used the so-called [Instant Runoff Voting](http://en.wikipedia.org/wiki/Instant-runoff_voting) method, where each voter could submit a list of their preferences.
 
-### Suggested names
+# Suggested names
 
 The following names have been suggested (in alphabetical order):
 
@@ -75,21 +75,21 @@ The following names have been suggested (in alphabetical order):
 - Vereniging van Nederlandse Frontend Webdevelopers
 - Voorzijde - Beroepsvereniging van Front-End Developers
 
-### Arguments
+# Arguments
 
 The following arguments have been submitted:
 
-#### Argo
+## Argo
 
 Argo is the ship with which the Greek heroes went in search of the Golden Fleece. On board were Ajax and J(a)son, among others.
 The ship offered them protection and carried them from adventure to adventure.
 Members could then be Argonauts.
 I think the ship metaphor can be quite fun for an association like this. Discover, adventures, exploring new worlds, heroes; all good associations.
 
-#### Avantgarde
+## Avantgarde
 
 Means vanguard.
 
-#### &lt;body&gt;
+## &lt;body&gt;
 
 &lt;body&gt; stands for the organization: the guild embodies our common goal to further develop our field and in addition, &lt;body&gt; is of course the element within which the various front-end techniques come together and the spectacle largely takes place, both for the user and the
