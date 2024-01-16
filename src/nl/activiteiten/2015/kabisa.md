@@ -42,9 +42,9 @@ Kabisa is gevestigd op de Marconilaan 8, 6003 DD Weert. Op dit bedrijventerrein 
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Arne Sneyers</td>

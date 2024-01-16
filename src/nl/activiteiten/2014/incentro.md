@@ -57,9 +57,9 @@ De locatie is voor sommige (verouderde) navigaties wat lastig te vinden, de Arch
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Andrea Dekker</td>

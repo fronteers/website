@@ -46,9 +46,9 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>An Van den Bosch</td>

@@ -82,9 +82,9 @@ Dan kan je via de Sassevaartstraat de ondergrondse parking van Dok-Noord bereike
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Onbekend</td>

@@ -25,8 +25,8 @@ Two weeks in advance we'll send you an e-mail with details on the exact location
  
 <table>
 <tr>
-<th>Name</th>
-<th>Twitter</th>
+<th scope="col">Name</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Amy Davis-Scholtens</td>

@@ -6,10 +6,8 @@ De Belgische commissie zorgt voor bijeenkomsten, workshops, en andere leuke acti
 
 # Leden
 
-* Roel van Gils
-* Sam Bellen
-* Stijn Janssen
+* Claudia Reynders
 * Ibe Vanmeenen
-* Tom Janssens
+* Thomas Verleye
 
 

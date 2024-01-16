@@ -67,25 +67,25 @@ a:focus {
 }
 
 .tag-link {
-    display: inline-block;
-    text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
 }
 
-.tag-link  .tag,
+.tag-link .tag,
 .tag-link--large .tag {
-    color: var(--purple-wcag-darker);
+  color: var(--purple-wcag-darker);
 }
 
-.tag-link--large .tag { 
-    font-size: var(--font-size-14);
+.tag-link--large .tag {
+  font-size: var(--font-size-14);
 }
 
 .tag-link:first-of-type .tag {
-    margin-inline-start: 0;
+  margin-inline-start: 0;
 }
 
 .tag-link:last-of-type .tag {
-    margin-inline-end: 0;
+  margin-inline-end: 0;
 }
 
 .tag-link:hover,
@@ -125,4 +125,8 @@ a:focus {
 .h a:focus {
   text-decoration: underline;
   background-color: inherit;
+}
+
+pre {
+  overflow-x: scroll;
 }

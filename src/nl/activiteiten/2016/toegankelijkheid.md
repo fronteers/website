@@ -59,9 +59,9 @@ Kom je met de auto? Parkeren in de buurt kan het makkelijkst bij Artis. Desmet h
 
 <table>
 <tr>
-<th>Naam</th>
-<th>Uit regio + vervoer</th>
-<th>Twitter</th>
+<th scope="col">Naam</th>
+<th scope="col">Uit regio + vervoer</th>
+<th scope="col">Twitter</th>
 </tr>
 <tr>
 <td>Andrea</td>
