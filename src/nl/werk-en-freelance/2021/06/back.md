@@ -1,11 +1,12 @@
 ---
 title: Vacature Senior Frontend Developer bij Zig Conversational (Amsterdam/Huizen/Amersfoort)
 date: 2021-06-10
-layout: layouts/jobs-single.liquid
+layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
-summary: 'Wij hebben ambitieuze plannen voor dit jaar. Een van die plannen is het onder handen nemen van de frontend van ons chat product. Hiervoor zoeken wij iemand die veel ervaring met Javascript heeft en die ownership neemt over het frontend gedeelte van ons chatproduct.'
+summary: "Wij hebben ambitieuze plannen voor dit jaar. Een van die plannen is het onder handen nemen van de frontend van ons chat product. Hiervoor zoeken wij iemand die veel ervaring met Javascript heeft en die ownership neemt over het frontend gedeelte van ons chatproduct."
 ---
+
 ![[Zig](https://zig.nl/)](/_img/werkgevers/zig.png)
 
 Wij hebben ambitieuze plannen voor dit jaar. Een van die plannen is het onder handen nemen van de frontend van ons chat product. Hiervoor zoeken wij iemand die veel ervaring met Javascript heeft en die ownership neemt over het frontend gedeelte van ons chatproduct, zodat:
@@ -21,14 +22,14 @@ Jij staat achter het stuur van een UI die in dagelijkse werkzaamheden bij klantc
 
 # Jij…
 
-* Houd je bezig met codebase & code kwaliteit;
-* Zorgt voor levering van SDKs op basis van onze code base;
-* Houd je bezig met design / UX;
-* Bent eindverantwoordelijk voor de gebruikerstevredenheid van de chat UI; 
-* Experimenteert met / ontwerpt nieuwe functionaliteiten;
-* Houd je bezig met eventueel overige front-end werk zoals interne tools / pages;
-* Houd je bezig met verbeterprocessen en optimalisaties;
-* Draagt kennis en ervaring over aan collega’s
+- Houd je bezig met codebase & code kwaliteit;
+- Zorgt voor levering van SDKs op basis van onze code base;
+- Houd je bezig met design / UX;
+- Bent eindverantwoordelijk voor de gebruikerstevredenheid van de chat UI;
+- Experimenteert met / ontwerpt nieuwe functionaliteiten;
+- Houd je bezig met eventueel overige front-end werk zoals interne tools / pages;
+- Houd je bezig met verbeterprocessen en optimalisaties;
+- Draagt kennis en ervaring over aan collega’s
 
 # Jouw skillset omvat:
 
@@ -40,18 +41,18 @@ Je ziet het als een uitdaging om de huidige code-structuur van ons product te he
 
 # Kennis en ervaring:
 
-* Senior front-end development ervaring;
-* HBO werk- en denkniveau;
-* Bewezen kennis en ervaring met de genoemde skillset;
-* React/Redux ervaring of soortgelijk;
-* UX of product design ervaring;
-* Ervaring met ontwikkelen in nauw teamverband;
-* Ervaring met het ontwikkelen van een nieuw product ‘from the ground up’; 
-* Ervaring met ontwikkelen vanuit complexe tegenstrijdige wensen van stakeholders;
-* Staat open voor ideeën van anderen en neemt anderen mee in jouw ideeën;
-* Kan effectief schriftelijk communiceren;
-* Resultaatgericht, analytisch sterk en klantgericht.
-* Pré: geïnteresseerd in taal / communicatie / taalkunde / talen leren.
+- Senior front-end development ervaring;
+- HBO werk- en denkniveau;
+- Bewezen kennis en ervaring met de genoemde skillset;
+- React/Redux ervaring of soortgelijk;
+- UX of product design ervaring;
+- Ervaring met ontwikkelen in nauw teamverband;
+- Ervaring met het ontwikkelen van een nieuw product ‘from the ground up’;
+- Ervaring met ontwikkelen vanuit complexe tegenstrijdige wensen van stakeholders;
+- Staat open voor ideeën van anderen en neemt anderen mee in jouw ideeën;
+- Kan effectief schriftelijk communiceren;
+- Resultaatgericht, analytisch sterk en klantgericht.
+- Pré: geïnteresseerd in taal / communicatie / taalkunde / talen leren.
 
 # Wie zijn wij?
 
@@ -59,16 +60,16 @@ Wij zijn Zig Conversational. Wij zijn een startup binnen een groter bedrijf. Het
 
 # Werken bij Zig betekent onder andere:
 
-* Modern en hoofdzakelijk remote werken ahv verantwoordelijkheden ipv uren;
-* Mogelijkheden om je werktijden flexibel in te richten;
-* Ruimte om dit project op te pakken en naar je hand te zetten;
-* Ruimte jouw kennis te delen;
-* Ruimte om je persoonlijk verder te ontwikkelen via de Zig Academy;
-* 24 vakantiedagen (bij een fulltime dienstverband);
-* Een goede pensioenregeling;
-* Een fijne sfeer binnen een organisatie die altijd in beweging is;
-* Samenwerken met gemotiveerde en gedreven collega’s;
-* Verrassende team-uitjes en ontspannen vrijdagmiddagborrels (zodra het weer kan).
+- Modern en hoofdzakelijk remote werken ahv verantwoordelijkheden ipv uren;
+- Mogelijkheden om je werktijden flexibel in te richten;
+- Ruimte om dit project op te pakken en naar je hand te zetten;
+- Ruimte jouw kennis te delen;
+- Ruimte om je persoonlijk verder te ontwikkelen via de Zig Academy;
+- 24 vakantiedagen (bij een fulltime dienstverband);
+- Een goede pensioenregeling;
+- Een fijne sfeer binnen een organisatie die altijd in beweging is;
+- Samenwerken met gemotiveerde en gedreven collega’s;
+- Verrassende team-uitjes en ontspannen vrijdagmiddagborrels (zodra het weer kan).
 
 # Klinkt goed! En nu?
 

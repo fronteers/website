@@ -1,12 +1,12 @@
 ---
-title: 
-  Vacature Front-end developer bij We are you (Rotterdam)
+title: Vacature Front-end developer bij We are you (Rotterdam)
 date: 2021-07-06
-layout: layouts/jobs-single.liquid
+layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
-summary: 'Als front-end developer bij We are you Rotterdam werk je niet voor, maar mét klanten als Eneco, Van Lanschot of De Goudse verzekeringen om het beste neer te zetten.'
+summary: "Als front-end developer bij We are you Rotterdam werk je niet voor, maar mét klanten als Eneco, Van Lanschot of De Goudse verzekeringen om het beste neer te zetten."
 ---
+
 ![[We are you](https://www.weareyou.com/nl)](/_img/werkgevers/weareyou.png)
 
 Als front-end developer bij We are you Rotterdam werk je niet voor, maar mét klanten als Eneco, Van Lanschot of De Goudse verzekeringen om het beste neer te zetten. Samen met je team realiseer je slimme oplossingen, met name in React, die bepalend zijn voor de business van onze klanten. En die het leven van de eindgebruikers makkelijker maken.
@@ -23,23 +23,23 @@ Van begin tot eind blijf je bij alle aspecten van een project betrokken. Jij ben
 
 ### We vragen van je als front-end developer:
 
-* ruime ervaring op front-end gebied
-* ervaring met het ontwikkelen van web applicaties met Javascript (ES6, ES7), PostCSS/Sass, en React
-* overkoepelende visie op het platform van je klanten
-* een kritische blik op jezelf en je werk
-* beheersing van de Nederlandse taal *(Dutch speaking)*
+- ruime ervaring op front-end gebied
+- ervaring met het ontwikkelen van web applicaties met Javascript (ES6, ES7), PostCSS/Sass, en React
+- overkoepelende visie op het platform van je klanten
+- een kritische blik op jezelf en je werk
+- beheersing van de Nederlandse taal _(Dutch speaking)_
 
 ### Wat kan je van ons verwachten?
 
-* korte lijnen en een open, directe en nuchtere cultuur
-* pensioenregeling 
-* veel ruimte om te groeien en jezelf te ontwikkelen (cursussen, trainingen en experimenteren met nieuwe technieken)
-* 28 vakantiedagen
-* flexibele werktijden; deze stem je af met je team
-* NS Business Card (1e klas)
-* elke dag een uitgebreide lunch op kantoor, zodra het weer kan
-* 69 slimme mensen bij We are you Rotterdam, waar je iedere dag van leert
-* 1400 inspirerende collega’s bij Intracto Group, waar we sinds eind vorig jaar onderdeel van zijn.
+- korte lijnen en een open, directe en nuchtere cultuur
+- pensioenregeling
+- veel ruimte om te groeien en jezelf te ontwikkelen (cursussen, trainingen en experimenteren met nieuwe technieken)
+- 28 vakantiedagen
+- flexibele werktijden; deze stem je af met je team
+- NS Business Card (1e klas)
+- elke dag een uitgebreide lunch op kantoor, zodra het weer kan
+- 69 slimme mensen bij We are you Rotterdam, waar je iedere dag van leert
+- 1400 inspirerende collega’s bij Intracto Group, waar we sinds eind vorig jaar onderdeel van zijn.
 
 En dat niet alleen. We bieden je ook een werkomgeving waarin vertrouwen, trots en plezier voorop staan. Ofwel een officiële Great Place to Work: <https://www.weareyou.com/nl/blogs/great-place-to-work>
 

@@ -1,7 +1,7 @@
 ---
 title: Vacature Front-end Developer bij NAK (Emmeloord)
 date: 2022-10-13
-layout: layouts/jobs-single.liquid
+layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Als Front-end Developer bij de Nederlandse Algemene Keuringsdienst (NAK) ben je verantwoordelijk voor het bouwen aan de webapplicaties en mobiele apps van de NAK.

@@ -1,11 +1,12 @@
 ---
 title: Vacature Front-End Developer voor Zinnige Zaken bij GRRR (Amsterdam)
 date: 2022-06-01
-layout: layouts/jobs-single.liquid
+layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Kunnen programmeren is een groot goed in 2022. Maar hoe wil je deze skills inzetten? Wij gebruiken ze graag om de wereld schoner, eerlijker en inclusiever te maken. Als bureau met sterke idealen werken we soms aan kleine projecten met een korte looptijd, zoals Melkweg en Picl. Maar ook aan grote platforms als The Ocean Cleanup en Stedelijk Museum Amsterdam. Past dit ook bij jou? Dan hebben we een interessante baan voor je.
 ---
+
 ![](https://fronteers.nl/_img/werkgevers/grrr-2.png)
 
 Kunnen programmeren is een groot goed in 2022. Maar hoe wil je deze skills inzetten? Wij gebruiken ze graag om de wereld schoner, eerlijker en inclusiever te maken. Als bureau met sterke idealen werken we soms aan kleine projecten met een korte looptijd, zoals Melkweg en Picl. Maar ook aan grote platforms als [The Ocean Cleanup](https://grrr.nl/projecten/the-ocean-cleanup-boyan-slat/) en [Stedelijk Museum Amsterdam](https://grrr.nl/projecten/stedelijk-museum/). Past dit ook bij jou? Dan hebben we een interessante baan voor je.
@@ -34,20 +35,20 @@ Ons kantoor is gevestigd in het [centrum van Amsterdam](https://goo.gl/maps/aGgB
 
 # Solliciteer als...
 
-* Je met jouw tech talent een positieve impact wilt maken, in plaats van Venture Capital rijk maken.
-* Je HTML, CSS en JavaScript op hoog niveau schrijft. Je maakt code graag maintainable, performant en leesbaar.
-* Je graag het proces en eindresultaat aanstuurt en daarbij graag nauw samenwerkt met de klant.
-* Je creatief en leergierig bent. Je bent geïnteresseerd in ons vak en je blijft op de hoogte van trends en nieuwe ontwikkelingen.
-* Je goed in het Engels communiceert.
-* Je over minstens 3 jaar werkervaring beschikt.
-* Je bent in het bezit van een werkvergunning van de Europese Unie
+- Je met jouw tech talent een positieve impact wilt maken, in plaats van Venture Capital rijk maken.
+- Je HTML, CSS en JavaScript op hoog niveau schrijft. Je maakt code graag maintainable, performant en leesbaar.
+- Je graag het proces en eindresultaat aanstuurt en daarbij graag nauw samenwerkt met de klant.
+- Je creatief en leergierig bent. Je bent geïnteresseerd in ons vak en je blijft op de hoogte van trends en nieuwe ontwikkelingen.
+- Je goed in het Engels communiceert.
+- Je over minstens 3 jaar werkervaring beschikt.
+- Je bent in het bezit van een werkvergunning van de Europese Unie
 
 # Pre’s
 
-* Je hebt affiniteit met digitale toegankelijkheid.
-* Je hebt kennis van TypeScript.
-* Je kunt je redden met kleine PHP klusjes.
-* Je hebt een Github-profiel met open source projecten.
+- Je hebt affiniteit met digitale toegankelijkheid.
+- Je hebt kennis van TypeScript.
+- Je kunt je redden met kleine PHP klusjes.
+- Je hebt een Github-profiel met open source projecten.
 
 # De procedure
 

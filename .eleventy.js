@@ -391,9 +391,14 @@ module.exports = function (eleventyConfig) {
 
     /* All templates in the content directory are parsed and copied to the dist directory */
     return {
+        // templateFormats: ['md', 'njk', 'html', 'liquid'],
+
         dir: {
-            input: "src",
-            output: "dist",
+            input: 'src',
+            output: 'dist',
+            includes: '_includes',
+            layouts: '_includes/layouts',
+            data: '_data',
         },
     };
 };

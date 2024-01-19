@@ -24,7 +24,7 @@
             crossorigin=''
         >
 
-        {%- include 'meta.liquid' -%}
+        {%- include meta.liquid -%}
 
         <script>
             /* Font loading: Critical FOFT with preload, see: https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-with-preload */
@@ -59,7 +59,7 @@
         <link rel='stylesheet' href='/assets/css/style.scss'>
     </head>
     <body data-layout='base'>
-        {%- include 'svg/shapes.svg' -%}
+        {%- include svg/shapes.svg -%}
         {%- assign blogposts = collections.published_posts | getLocale: locale -%}
         {%- assign activities = collections.published_activities | getLocale: locale -%}
         {%- assign jobs = collections.published_jobs | getLocale: locale -%}
@@ -69,13 +69,14 @@
         <a href='#main' class='skiplink'>Skip to main content</a>
 
         <div class='layout' role='document'>
-            {% include 'header' %}
+            {% include partials/page-header/_page-header %}
+            
 
             <main id='main' class='main'>
                 {{ content | safe }}
             </main>
 
-            {% include 'footer' %}
+            {% include partials/page-footer/_page-footer %}
         </div>
 
         <script type='module' src='{{ '/assets/js/main.js' | url }}'></script>

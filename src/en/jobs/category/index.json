@@ -1,12 +1,11 @@
-
 {
-    "layout": "layouts/jobs-category.liquid",
-    "permalink": "/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{%- if category.slug -%}{{ category.slug }}/{%- endif -%}index.html",
-    "tags": "pages",
-    "pagination": {
-        "data": "collections.jobCategories",
-        "size": 1,
-        "alias": "category"
-    },
-    "key": "jobs-{{ category.slug }}"
+  "layout": "jobs-category.liquid",
+  "permalink": "/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{%- if category.slug -%}{{ category.slug }}/{%- endif -%}index.html",
+  "tags": "pages",
+  "pagination": {
+    "data": "collections.jobCategories",
+    "size": 1,
+    "alias": "category"
+  },
+  "key": "jobs-{{ category.slug }}"
 }

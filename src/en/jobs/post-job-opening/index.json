@@ -1,5 +1,5 @@
 {
-    "layout": "layouts/page.liquid",
-    "tags": "pages",
-    "key": "post-job"
+  "layout": "page.liquid",
+  "tags": "pages",
+  "key": "post-job"
 }

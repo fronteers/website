@@ -1,5 +1,5 @@
 ---
-layout: layouts/members-single.liquid
+layout: members-single.liquid
 title: Anneke Sinnema
 date: 2020-11-10
 graphic:
@@ -8,8 +8,8 @@ graphic:
 
 # Fields available: freelancer, specialties
 freelancer: Beschikbaar vanaf april
-specialties: 
-  - html 
+specialties:
+  - html
   - css
   - accessibility
   - ux design

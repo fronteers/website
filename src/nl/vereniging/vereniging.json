@@ -1,4 +1,4 @@
 {
-  "layout": "layouts/page.liquid",
+  "layout": "page.liquid",
   "useHero": "aboutushero"
 }

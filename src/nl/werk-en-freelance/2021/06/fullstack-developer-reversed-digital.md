@@ -1,7 +1,7 @@
 ---
 title: Vacature Fullstack Developer bij Reversed Digital (Utrecht)
 date: 2021-06-09
-layout: layouts/jobs-single.liquid
+layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary:

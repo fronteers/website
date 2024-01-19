@@ -1,13 +1,12 @@
-
 {
-    "layout": "layouts/members-home.liquid",
-    "permalink": "/{{ locale }}/{{ page.fileSlug }}/{%- if pagination.pageNumber > 0 -%}{{ pagination.pageNumber }}/{%- endif -%}index.html",
-    "tags": "pages",
-    "key": "members",
-    "pagination": {
-        "data": "collections.published_members_en",
-        "size": "9",
-        "reverse": true,
-        "alias": "paginated_members"
-    }
+  "layout": "members-home.liquid",
+  "permalink": "/{{ locale }}/{{ page.fileSlug }}/{%- if pagination.pageNumber > 0 -%}{{ pagination.pageNumber }}/{%- endif -%}index.html",
+  "tags": "pages",
+  "key": "members",
+  "pagination": {
+    "data": "collections.published_members_en",
+    "size": "9",
+    "reverse": true,
+    "alias": "paginated_members"
+  }
 }

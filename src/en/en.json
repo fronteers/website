@@ -1,5 +1,5 @@
 {
-  "layout": "layouts/page.liquid",
+  "layout": "page.liquid",
   "permalink": "/{{ page.filePathStem }}.html",
   "locale": "en",
   "tags": "pages"

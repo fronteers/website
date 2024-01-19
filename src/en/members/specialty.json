@@ -1,12 +1,11 @@
-
 {
-    "layout": "layouts/freelancers-specialties.liquid",
-    "permalink": "/{{ page.filePathStem }}/{{ specialty.slug }}/index.html",
-    "tags": "pages",
-    "pagination": {
-        "data": "collections.memberSpecialties",
-        "size": 1,
-        "alias": "specialty"
-    },
-    "key": "specialties-{{ specialty.slug }}"
+  "layout": "freelancers-specialties.liquid",
+  "permalink": "/{{ page.filePathStem }}/{{ specialty.slug }}/index.html",
+  "tags": "pages",
+  "pagination": {
+    "data": "collections.memberSpecialties",
+    "size": 1,
+    "alias": "specialty"
+  },
+  "key": "specialties-{{ specialty.slug }}"
 }

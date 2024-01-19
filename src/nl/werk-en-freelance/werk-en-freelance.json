@@ -1,5 +1,5 @@
 {
-  "layout": "layouts/jobs-single.liquid",
+  "layout": "jobs-single.liquid",
   "tags": "jobs",
   "useHero": "aboutushero"
 }
