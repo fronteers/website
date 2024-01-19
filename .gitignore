@@ -8,3 +8,4 @@ dist/
 .idea
 .vscode
 .11ty-vite
+!.11ty-vite/.gitkeep
