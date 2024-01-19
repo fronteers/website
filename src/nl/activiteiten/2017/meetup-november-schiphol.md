@@ -1,27 +1,28 @@
 ---
-title: "Meetup bij Royal Schiphol Group"
+title: 'Meetup bij Royal Schiphol Group'
 date: 2017-10-11
 eventdate: 2017-10-11
 location:
 categories:
     - meetup
 ---
-Op woensdag 29 november 2017 is Fronteers weer te gast bij [Royal Schiphol Group](https://www.schiphol.nl). We hebben die avond twee interessante talks, verzorgd door *Ischa Gast* en *Tamara Forza*. De bijeenkomst is gratis voor leden en niet-leden, en Royal Schiphol Group zorgt voor iets te eten en drankjes!
+
+Op woensdag 29 november 2017 is Fronteers weer te gast bij [Royal Schiphol Group](https://www.schiphol.nl). We hebben die avond twee interessante talks, verzorgd door _Ischa Gast_ en _Tamara Forza_. De bijeenkomst is gratis voor leden en niet-leden, en Royal Schiphol Group zorgt voor iets te eten en drankjes!
 
 ![Foto Schiphol](/_img/bijeenkomsten/schiphol/schiphol-take-off-full.jpg)
 
-# Programma
+## Programma
 
-* 18:00 · Inloop met eten
-* 18:50 · Introductie en welkomstwoord
-* 19:00 · Talk 1: *Ischa Gast* 💬 No Accessibility
-* 19:25 · Lightning Talk ⚡️  Automated Accessibility testing met aXe, *Wesley van de Korput*
-* 19:35 · Rad van Toegankelijkheid met speciale Gast 👤 van [Accessibility.nl](https://www.accessibility.nl)
-* 20:00 · Pauze
-* 20:15 · Talk 2: *Tamara Forza* 💬 Launching [schiphol.nl](https://www.schiphol.nl/)
-* 20:40 · Talk 3: *Mauro Mandracchia* 💬 Splitting components packages
-* 21:05 · Lightning Talk ⚡️ *Arjen Geerse*
-* 21:15 · Borrel
+-   18:00 · Inloop met eten
+-   18:50 · Introductie en welkomstwoord
+-   19:00 · Talk 1: _Ischa Gast_ 💬 No Accessibility
+-   19:25 · Lightning Talk ⚡️ Automated Accessibility testing met aXe, _Wesley van de Korput_
+-   19:35 · Rad van Toegankelijkheid met speciale Gast 👤 van [Accessibility.nl](https://www.accessibility.nl)
+-   20:00 · Pauze
+-   20:15 · Talk 2: _Tamara Forza_ 💬 Launching [schiphol.nl](https://www.schiphol.nl/)
+-   20:40 · Talk 3: _Mauro Mandracchia_ 💬 Splitting components packages
+-   21:05 · Lightning Talk ⚡️ _Arjen Geerse_
+-   21:15 · Borrel
 
 ```
 
@@ -39,7 +40,7 @@ Kleine websites, grote websites het maakt allemaal niet uit, bijna op iedere web
 
 ```
 
-## Lightning Talk: Automated Accessibility testing met aXe, *Wesley van de Korput*
+## Lightning Talk: Automated Accessibility testing met aXe, _Wesley van de Korput_
 
 {%- vimeo "252072176" -%}
 
@@ -69,7 +70,7 @@ In the talk we’ll show you what we built till now and what are our future plan
 
 {%- vimeo "252522070" -%}
 
-## Lightning Talk: *Arjen Geerse*
+## Lightning Talk: _Arjen Geerse_
 
 {%- vimeo "250678938" -%}
 
@@ -77,17 +78,14 @@ In the talk we’ll show you what we built till now and what are our future plan
 
 ```
 
-# Eten en drinken
+## Eten en drinken
 
 Geen tijd om na je werk nog ergens een hapje te gaan eten? Geen nood: er staat vanaf 18:00 uur een lekker buffet voor je klaar. De entree is natuurlijk gratis (en het buffet ook!).
 
-# Locatie
+## Locatie
 
-Royal Schiphol Group is gevestigd in het [Schipholgebouw](https://nl.wikipedia.org/wiki/Schipholgebouw). Het adres is Evert van de Beekstraat 202, 1118 CP Schiphol. Parkeren kan gratis in [P12](https://www.google.nl/maps/place/Schiphol+P12+Personeel/@52.3049041,4.7495429,17z/data=!4m8!1m2!3m1!2sSchiphol+P12+Personeel!3m4!1s0x0:0xeb4ec5ebb30c4d19!8m2!3d52.304707!4d4.7516922), de receptie van het Schipholgebouw kan de uitrijkaart activeren. *Doe dit gelijk zodra je arriveert.* In P12 zijn er ook verschillende oplaadpalen voor elektrische auto's.
+Royal Schiphol Group is gevestigd in het [Schipholgebouw](https://nl.wikipedia.org/wiki/Schipholgebouw). Het adres is Evert van de Beekstraat 202, 1118 CP Schiphol. Parkeren kan gratis in [P12](https://www.google.nl/maps/place/Schiphol+P12+Personeel/@52.3049041,4.7495429,17z/data=!4m8!1m2!3m1!2sSchiphol+P12+Personeel!3m4!1s0x0:0xeb4ec5ebb30c4d19!8m2!3d52.304707!4d4.7516922), de receptie van het Schipholgebouw kan de uitrijkaart activeren. _Doe dit gelijk zodra je arriveert._ In P12 zijn er ook verschillende oplaadpalen voor elektrische auto's.
 
 Met het openbaar vervoer kun je per trein arriveren op Schiphol. Vanaf Schiphol Plaza loop je in circa 10 minuten naar het Schipholgebouw. Daarnaast rijden er diverse bussen naar bushalte Schipholgebouw.
 
 {%- googlemaps "Royal Schiphol Group" -%}
-
-
-

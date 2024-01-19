@@ -1,14 +1,15 @@
 ---
-title: "Bijeenkomst bij SETUP op 14 juni 2010"
+title: 'Bijeenkomst bij SETUP op 14 juni 2010'
 date: 2010-06-14
 eventdate: 2010-06-14
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 Op 14 juni was Fronteers te gast bij [SETUP](http://www.setuputrecht.nl/) in Utrecht. Het thema van deze bijeenkomst was 'het semantische web'.
 
-# Het semantische web door Thomas Markus van Universiteit Utrecht
+## Het semantische web door Thomas Markus van Universiteit Utrecht
 
 Thomas stelt dat front-end webdevelopers dagelijks bezig zijn met het omvormen van data—die bijvoorbeeld in databases staat—naar HTML, CSS en JavaScript. Maar wat gebeurt er als er twee databases samengevoegd moeten worden? Welke database heeft dan prioriteit als er twee dezelfde items toegevoegd worden?
 
@@ -24,7 +25,7 @@ Met de querytaal [Sparql](http://en.wikipedia.org/wiki/SPARQL) kun je snel en ee
 
 Iemand uit het publiek merkt op dat er een interessant [TED.com presentatie is van Sir Tim Berners-Lee: over het volgende web](http://live5.ted.com/talks/tim_berners_lee_on_the_next_web.html).
 
-# Data portability door Andreas Creten van My Name is E en madewithlove
+## Data portability door Andreas Creten van My Name is E en madewithlove
 
 Om te laten zien dat we veel meer open standaarden gebruiken dan je wellicht verzint, laat Andreas een foto zien van de iPhone, met de vraag welke open standaarden we gebruiken. Dit blijken er een heleboel zijn, waaronder telefoonstandaarden, afbeeldingstandaarden (JPEG), vCards et cetera.
 
@@ -39,76 +40,53 @@ Andreas sluit af met OAuth. Een website kan na toestemming van de gebruiker info
 
 Dit leidde tot een discussie over de verhoogde kans op een phising aanval, omdat alle informatie vanaf één plaats gehaald kan worden. Een cracker hoeft dan slechts één wachtwoord van je af te troggelen, en je bent direct gehackt op meerdere plaatsen op het internet.
 
-# Overige materialen en verslagen
+## Overige materialen en verslagen
 
 [Slides van de presentatie van Thomas](http://www.phil.uu.nl/~tmarkus/presentations/fronteers-2010-06-14.pdf)
 [Slides van de presentatie van Andreas](http://www.slideshare.net/andreascreten/data-portability-fronteers-meetup)
 
+## Aanwezigen
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Aanwezigen
-
-* Matijs Brinkhuis
-* Peter Beverloo
-* Arjan Eising
-* Michel Klomp
-* Luc De Brouwer
-* Luuk Wilms
-* Jan van Hellemond
-* Martijn Jongkind
-* Hidde de Vries
-* Corné Verbruggen
-* George van Veen
-* Joko Ruwhof
-* Monique Martens
-* Bjorn Boonen
-* Niels Claessens
-* Jules Ernst
-* Marc Bruisten
-* Siemen van Dijk
-* Tom Greuter
-* Sander Aarts
-* Chris Dijkshoorn
-* Victor Bastiaansen
-* Jurgen van der Vlist
-* Hans Overbeek
-* Edwin Martin
-* Robin Gruyters
-* Wilfred Nas
-* Krijn
-* Bas Olthoff
-* Peter Westendorp
-* W.H. Fris
-* Nico Druif
-* Vincent Smedinga
-* Mallory van Achterberg
-* Sander van Lambalgen
-* Jan Velthuizen
-* Martijn La Feber
-* Leonard Eshuis
-* Peter van der Zee
-* David Hund
-* Marc van Zee
-* Peter
-* +9
-
-
-
+-   Matijs Brinkhuis
+-   Peter Beverloo
+-   Arjan Eising
+-   Michel Klomp
+-   Luc De Brouwer
+-   Luuk Wilms
+-   Jan van Hellemond
+-   Martijn Jongkind
+-   Hidde de Vries
+-   Corné Verbruggen
+-   George van Veen
+-   Joko Ruwhof
+-   Monique Martens
+-   Bjorn Boonen
+-   Niels Claessens
+-   Jules Ernst
+-   Marc Bruisten
+-   Siemen van Dijk
+-   Tom Greuter
+-   Sander Aarts
+-   Chris Dijkshoorn
+-   Victor Bastiaansen
+-   Jurgen van der Vlist
+-   Hans Overbeek
+-   Edwin Martin
+-   Robin Gruyters
+-   Wilfred Nas
+-   Krijn
+-   Bas Olthoff
+-   Peter Westendorp
+-   W.H. Fris
+-   Nico Druif
+-   Vincent Smedinga
+-   Mallory van Achterberg
+-   Sander van Lambalgen
+-   Jan Velthuizen
+-   Martijn La Feber
+-   Leonard Eshuis
+-   Peter van der Zee
+-   David Hund
+-   Marc van Zee
+-   Peter
+-   +9

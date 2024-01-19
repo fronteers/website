@@ -1,17 +1,18 @@
 ---
-title: "Deferred en promise in jQuery"
+title: 'Deferred en promise in jQuery'
 date: 2011-12-20
 author: Edwin Martin
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Deferred en promise? Gaan we het hebben over uitstellingen en beloftes in jQuery? Nee, gelukkig niet. Deferred en promise zitten sinds versie 1.5 in jQuery en daarmee kan je asynchrone functies zoals Ajax beter afhandelen.
 
 Even een stapje terug in de tijd, toen we nog met guldens en franken betaalden. Als je een muisklik wilde afvangen, deed je dat met `element.onclick = someFunction;` Dat werd een probleem als een ander stukje code ook naar de klik wilde luisteren. Dat kon niet, want aan `onclick` kan je maar één functie toekennen. Dit is destijds opgelost met de DOM-functie `addEventListener`. Daarmee kan je zoveel functies die luisteren toevoegen als je wilt. En sindsdien weten we niet beter.
 
 Nu hebben we een vergelijkbaar probleem met Ajax-aanroepen. Nu niet met events, maar met het gegeven dat Ajax maar één callback-functie accepteert. Niet alleen bij de jQuery `$.ajax()`-aanroep, maar ook bij het onderliggende XMLHttpRequest-object.
 
-# Promise
+## Promise
 
 Tot jQuery 1.5 zag een typische `$.ajax()`-aanroep er als volgt uit:
 
@@ -42,7 +43,7 @@ promise.fail(myErrorFunction);
 
 De voordelen van promises zijn:
 
-1) Je kunt de `done()`- en `fail()`-functies meerdere keren aanroepen, met verschillende callbacks. Misschien heb je wel een callbackfunctie die een animatie stopt, een die een nieuwe Ajax-aanroep doet en een andere functie die de ontvangen gegevens aan de bezoeker toont.
+1. Je kunt de `done()`- en `fail()`-functies meerdere keren aanroepen, met verschillende callbacks. Misschien heb je wel een callbackfunctie die een animatie stopt, een die een nieuwe Ajax-aanroep doet en een andere functie die de ontvangen gegevens aan de bezoeker toont.
 
 ```
 var promise = $.ajax({
@@ -55,9 +56,9 @@ promise.done(myShowInfoFunction);
 promise.fail(myErrorFunction);
 ```
 
-2) Ook als de Ajax-aanroep al geweest is, kan je nog steeds de `done()`- en `fail()`-functies aanroepen en de callbacks worden dan gelijk uitgevoerd. Dus geen gedoe meer met variabelen die de verschillende staten moeten onthouden. Als een Ajax-aanroep afgelopen is, dan komt deze of in de succes-staat of in de fout-staat en deze zal niet meer veranderen.
+2. Ook als de Ajax-aanroep al geweest is, kan je nog steeds de `done()`- en `fail()`-functies aanroepen en de callbacks worden dan gelijk uitgevoerd. Dus geen gedoe meer met variabelen die de verschillende staten moeten onthouden. Als een Ajax-aanroep afgelopen is, dan komt deze of in de succes-staat of in de fout-staat en deze zal niet meer veranderen.
 
-3) Je kunt promises combineren. Soms is het nodig om gelijktijdig twee Ajax-aanroepen te doen en wil je een functie pas aanroepen als beide succesvol zijn verlopen. Hiervoor gebruik je de nieuwe `$.when()`-functie:
+3. Je kunt promises combineren. Soms is het nodig om gelijktijdig twee Ajax-aanroepen te doen en wil je een functie pas aanroepen als beide succesvol zijn verlopen. Hiervoor gebruik je de nieuwe `$.when()`-functie:
 
 ```
 var promise1 = $.ajax("/myServerScript1");
@@ -68,7 +69,7 @@ $.when(promise1, promise2).done(function(response1, response2){
 });
 ```
 
-# Deferred
+## Deferred
 
 Wat is dan een deferred en wat is het verschil met een promise? Zoals je hierboven hebt gezien is een promise een object dat je terugkrijgt van een asynchrone functie. Een deferred heb je nodig als je zelf zo'n functie schrijft.
 
@@ -107,15 +108,16 @@ Het script is ook te vinden op [jsFiddle](http://jsfiddle.net/TT3G5/), zodat je 
 
 De `wait()`-functie is de functie die een promise teruggeeft. Deze wordt resolved via een `setTimeout` van twee seconden. In plaats van de `setTimeout` kan alles gebruikt worden wat asynchroon is, zoals Ajax, animaties, Web workers, enzovoorts. Duidelijk is dat binnen de `wait()`-functie een deferred-object wordt gebruikt, maar dat we het beperkte promise-object teruggeven.
 
-# jQuery-ondersteuning
+## jQuery-ondersteuning
 
 Op het [jQuery-blog](http://blog.jquery.com/2011/11/08/building-a-slimmer-jquery/) is te lezen dat jQuery helemaal voor promises gaat en dat de oude API, met de `.error()`-, `.success()`- en `.complete()`-functies, uiteindelijk zal verdwijnen. Als je deze functies gebruikt, dan kan je alvast beginnen je code te herschrijven en over te stappen op de promise-interface.
 
-# Meer mogelijk
+## Meer mogelijk
 
 Dit artikel is slechts een introductie in de werking van het deferred-object. jQuery ondersteunt nog veel meer functies. Bekijk de [jQuery deferred documentatie](http://api.jquery.com/category/deferred-object/) voor alle mogelijkheden. Zo is het bijvoorbeeld ook mogelijk om met promises de voortgang van een proces bij te houden.
 
-### Over Edwin Martin
+## Over Edwin Martin
+
 <img src="/_img/2011/12/edwin-martin.jpg" alt="Foto van edwin martin uit 2011" class="floating-portrait" /> 
 Edwin Martin is freelance front-end webontwikkelaar en woont met vrouw en twee dochtertjes in Hilversum. Binnen Fronteers helpt hij mee met het organiseren van de Fronteers conferentie. Hij houdt een blog bij over front-end op [bitstorm.org](http://www.bitstorm.org/) en is te vinden op twitter als [@edwinm](https://twitter.com/edwinm).
 

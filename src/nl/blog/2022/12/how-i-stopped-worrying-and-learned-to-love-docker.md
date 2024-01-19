@@ -3,17 +3,18 @@ title: How I stopped worrying and learned to love Docker
 date: 2022-12-15
 author: Anke Willems
 summary: 'Developen is natuurlijk het leukste als de omgeving waarop je werkt ook zonder issues werkt. Dat scheelt veel frustratie en je hoeft alleen maar na te denken over het schrijven van mooie code. Zo werkten we op mijn werk eerst met VirtualBox / Vagrant. We gebruikten één virtual machine waarop alle sites draaiden. Om een website draaiend te krijgen moesten we na een Git clone nog best veel handelingen verrichten om een website daadwerkelijk te kunnen gebruiken. Werkte *oké-ish*, maar daarna zijn we overgestapt naar Docker, en dat vind ik dus een ontzettende verbetering van mijn workflow. Maar ik hoor ook veel geluiden van front-end developers die al beginnen te huilen als ze in de buurt van Docker komen. Dus ik heb besloten uit te leggen hoe wij het ingericht hebben, in de hoop dat andere developers er hun voordeel mee kunnen doen.'
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
-Developen is natuurlijk het leukste als de omgeving waarop je werkt ook zonder issues werkt. Dat scheelt veel frustratie en je hoeft alleen maar na te denken over het schrijven van mooie code. Zo werkten we op mijn werk eerst met VirtualBox / Vagrant. We gebruikten één virtual machine waarop alle sites draaiden. Om een website draaiend te krijgen moesten we na een Git clone nog best veel handelingen verrichten om een website daadwerkelijk te kunnen gebruiken. Werkte *oké-ish*, maar daarna zijn we overgestapt naar Docker, en dat vind ik dus een ontzettende verbetering van mijn workflow. Maar ik hoor ook veel geluiden van front-end developers die al beginnen te huilen als ze in de buurt van Docker komen. Dus ik heb besloten uit te leggen hoe wij het ingericht hebben, in de hoop dat andere developers er hun voordeel mee kunnen doen.
+
+Developen is natuurlijk het leukste als de omgeving waarop je werkt ook zonder issues werkt. Dat scheelt veel frustratie en je hoeft alleen maar na te denken over het schrijven van mooie code. Zo werkten we op mijn werk eerst met VirtualBox / Vagrant. We gebruikten één virtual machine waarop alle sites draaiden. Om een website draaiend te krijgen moesten we na een Git clone nog best veel handelingen verrichten om een website daadwerkelijk te kunnen gebruiken. Werkte _oké-ish_, maar daarna zijn we overgestapt naar Docker, en dat vind ik dus een ontzettende verbetering van mijn workflow. Maar ik hoor ook veel geluiden van front-end developers die al beginnen te huilen als ze in de buurt van Docker komen. Dus ik heb besloten uit te leggen hoe wij het ingericht hebben, in de hoop dat andere developers er hun voordeel mee kunnen doen.
 
 Twee disclaimers:
 
-- Eén: Er zijn veel manieren om Docker in te richten dus ik weet alleen dat onderstaande voor mij werkt met onze opzet.
-- Twee: ik ben geen back-end developer, dus ik weet niet exact waarom zaken zó ingericht zijn en of het beter of anders kan.
+-   Eén: Er zijn veel manieren om Docker in te richten dus ik weet alleen dat onderstaande voor mij werkt met onze opzet.
+-   Twee: ik ben geen back-end developer, dus ik weet niet exact waarom zaken zó ingericht zijn en of het beter of anders kan.
 
-# Waarom gebruiken we Docker?
+## Waarom gebruiken we Docker?
 
 De marketing uitleg: Docker is een zogenoemd ‘containerization platform’ waarmee je sites en apps kan bouwen, deployen en onderhouden met behulp van containers.
 
@@ -23,15 +24,15 @@ Deze verschillen kan je elimineren door je site in te pakken in een Docker conta
 
 Zo kunnen developers dus werken zonder zich druk te maken om de omgeving. Op mijn werk hebben we dit inmiddels _smooth_ aan de praat voor iedereen, en het bevalt prima!
 
-# De Happy Path: Wat doe ik als front-ender als alles goed gaat
+## De Happy Path: Wat doe ik als front-ender als alles goed gaat
 
 In het meest ideale geval verlopen de stappen als volgt:
 
-* `git clone` Ik clone de repo van onze git repository
-* Ik krijg een gezipte database (meestal vanuit de productie website, zodat deze lekker up-to-date is) aangeleverd, en zet die in de lege `/docker/database` directory. Voor multi-site systemen (meerdere websites die draaien op één codebase) zet ik de database een mapje dieper, maar het principe blijft hetzelfde.
-* In de root staat een /.env.example file met de Docker instellingen. Deze kopieer ik naar een nieuwe /.env file . Deze file staat in de .gitignore en wordt dus niet mee gecommit.
-* In een apart terminalvenster draai ik `docker compose up` en hops: mijn containers draaien! Dit venster laat ik open zodat ik eventuele foutmeldingen kan zien.
-* Bij mij betekenen bovenstaande stappen dat ik vervolgens my-website.localhost heb draaien, waar ik kan zien wat ik doe.
+-   `git clone` Ik clone de repo van onze git repository
+-   Ik krijg een gezipte database (meestal vanuit de productie website, zodat deze lekker up-to-date is) aangeleverd, en zet die in de lege `/docker/database` directory. Voor multi-site systemen (meerdere websites die draaien op één codebase) zet ik de database een mapje dieper, maar het principe blijft hetzelfde.
+-   In de root staat een /.env.example file met de Docker instellingen. Deze kopieer ik naar een nieuwe /.env file . Deze file staat in de .gitignore en wordt dus niet mee gecommit.
+-   In een apart terminalvenster draai ik `docker compose up` en hops: mijn containers draaien! Dit venster laat ik open zodat ik eventuele foutmeldingen kan zien.
+-   Bij mij betekenen bovenstaande stappen dat ik vervolgens my-website.localhost heb draaien, waar ik kan zien wat ik doe.
 
 Naast het bovenstaande heb ik als GUI Docker Desktop draaien, waar ik een visueel overzicht heb welke containers draaien. Daar kan ik eventueel ook een enkele container snel weggooien en herstarten indien nodig.
 
@@ -43,7 +44,7 @@ Bovenstaande workflow vereist eigenlijk geen enkele Docker kennis. Als ik een da
 
 Als ik klaar ben met mijn project, of switch van project, ga ik naar het terminalvenster met de draaiende Docker container, en stop ik met ctrl-c alle containers van het project.
 
-# Hoe zit deze opzet in elkaar?
+## Hoe zit deze opzet in elkaar?
 
 Wij ontwikkelen voornamelijk sites op het CMS Drupal, en onze opzet volgt het systeem van [Wodby](https://github.com/wodby/docker4drupal) .
 
@@ -66,21 +67,21 @@ docker-compose.yml
 + de normale files die in de root van je repo staan
 ```
 
-# Gaat alles dan altijd meteen goed?
+## Gaat alles dan altijd meteen goed?
 
 Nee. Sterker nog, in het begin heb ik heel veel moeten troubleshooten om dingen werkend te krijgen. Waar liep ik tegenaan?
 
 ## Containers crashten bij opstarten
 
-Ik was de eerste met een M1 MacBook op kantoor. En regelmatig werkte de specifieke versie van een container die in de .env file stond niet voor de M1. Deze heeft namelijk een nieuwe architectuur van de chip ten opzichte van oudere MacBooks, en dus ook aangepaste images nodig. Hier liep ik regelmatig tegen aan met bijvoorbeeld mariaDB en Nginx containers. Dus dat betekende zoeken tot je een versie had die wel op de M1 werkte en dat in je .env file aanpassen. En omdat de .env file in de .gitignore staat, blijft die wijziging alleen lokaal.  (Ter referentie, dit geeft vaak de volgende error: `runtime: failed to create new OS thread (have 2 already; errno=22`)
+Ik was de eerste met een M1 MacBook op kantoor. En regelmatig werkte de specifieke versie van een container die in de .env file stond niet voor de M1. Deze heeft namelijk een nieuwe architectuur van de chip ten opzichte van oudere MacBooks, en dus ook aangepaste images nodig. Hier liep ik regelmatig tegen aan met bijvoorbeeld mariaDB en Nginx containers. Dus dat betekende zoeken tot je een versie had die wel op de M1 werkte en dat in je .env file aanpassen. En omdat de .env file in de .gitignore staat, blijft die wijziging alleen lokaal. (Ter referentie, dit geeft vaak de volgende error: `runtime: failed to create new OS thread (have 2 already; errno=22`)
 
 ## Geheugenproblemen
 
 Daarnaast heeft mijn MacBook maar 8gb geheugen. En dat is eigenlijk te weinig voor Docker, dat bij default ongeveer 6gb geheugen wil. Je kan het lager instellen (via Docker Desktop) maar naar minder dan 6gb luistert ie eigenlijk niet. En dat betekent dus dat je nog maar 2 gb over hebt voor de rest van je systeem. Spoiler: Dat is te weinig. In mijn geval betekent dat regelmatig mijn PhpStorm en/of Firefox herstarten om wat geheugen vrij te maken. Maar zorg dus dat je in ieder geval 16gb geheugen hebt, als je op een MacBook ontwikkelt.
 
-# Wat gebruik ik daarnaast nog?
+## Wat gebruik ik daarnaast nog?
 
-In elke directory staat NVM ([Node Version Manager](https://github.com/nvm-sh/nvm)), die ons de juiste Node versie serveert. Daarnaast natuurlijk een `package.json` waardoor we met `npm install`  meteen de juiste versies van de benodigde node modules kunnen installeren.
+In elke directory staat NVM ([Node Version Manager](https://github.com/nvm-sh/nvm)), die ons de juiste Node versie serveert. Daarnaast natuurlijk een `package.json` waardoor we met `npm install` meteen de juiste versies van de benodigde node modules kunnen installeren.
 
 Wij draaien Grunt met Browsersync om mijn scss te compileren en live updates te zien in de browser. (Gezien de tijd dat Grunt al meegaat hebben mensen hier vast een mening over, maar het draait en het draait snel en stabiel. ) Bij onze Docker containers gebruiken we de volgende opties van browsersync in de Gruntfile.js:
 
@@ -99,11 +100,11 @@ De `127.0.0.1` is op de Mac vooralsnog nodig, zonder deze extra aanwijzing werkt
 
 Toelichting hierover van mijn back-end collega Paul: Windows / Docker op Windows kan tegenwoordig overweg gaan met subdomeinen van localhost. Mac kan dat (nog) niet. Een oplossing hiervoor kan zijn, om te werken op een daadwerkelijk domein die verwijst naar je localhost, bijv. een .dev domein. Voor nu plaatsen we op de Mac de domeinreferentie in de hosts file, wat het probleem ook oplost.
 
-# Vergeet de README niet!
+## Vergeet de README niet!
 
 Er zijn natuurlijk veel verschillende manieren van het opzetten van je Docker structuur. En de bedoeling van Docker is dat iedereen die het project cloned dezelfde omgeving kan gebruiken en dat het hun leven _makkelijker_ maakt. Zorg dus dat je in de README van het project duidelijk omschrijft welke stappen er nodig zijn om deze Docker container aan de praat te krijgen. En dan liever teveel dan te weinig uitleg, want je wil ook je freelancers en stagiairs die minder kennis hebben van de ‘normale’ workflow in jullie bedrijf goed kunnen helpen.
 
-# Docker compose HUP!
+## Docker compose HUP!
 
 Inmiddels hebben wij alle omgevingen _flawless_ draaien op de computers van alle developers. Ik vind het onzettend fijn werken, omdat je met één command in de juiste directory, namelijk `docker compose up` , in een paar seconden exact de omgeving hebt die je eerder had draaien, totaal onafhankelijk van de andere projecten waar je aan werkt.
 
@@ -113,7 +114,7 @@ Ik hoop dat ik op deze manier een beetje inzicht heb kunnen geven in hoe ik met 
 
 Veel dank aan mijn collega Paul Dudink, die bij ons op Flink de Docker omgevingen heeft ingericht en mij van veel extra informatie en aanvullingen voorzien heeft voor deze blogpost.
 
-# Resources:
+## Resources:
 
-- [kant en klare docker-compose.yml voorbeelden voor diverse omgevingen](https://github.com/docker/awesome-compose)
-- [Wodby documentatie Docker voor Drupal installaties](https://wodby.com/docs/1.0/stacks/drupal/local/)
+-   [kant en klare docker-compose.yml voorbeelden voor diverse omgevingen](https://github.com/docker/awesome-compose)
+-   [Wodby documentatie Docker voor Drupal installaties](https://wodby.com/docs/1.0/stacks/drupal/local/)

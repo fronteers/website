@@ -1,11 +1,12 @@
 ---
-title: "Bijeenkomst bij Namahn op 22 september 2011"
+title: 'Bijeenkomst bij Namahn op 22 september 2011'
 date: 2011-09-22
 eventdate: 2011-09-22
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 Mathias heet iedereen welkom bij alweer de vijfde Fronteersbijeenkomst in Vlaanderen. Deze bijeenkomst werd gehouden bij [Namahn](http://www.namahn.com/) in Brussel.
 
 [Lennart Schoors](http://lensco.be/) geeft de presentatie 'Look ma, no images'. over hoe je 'afbeeldingen' met CSS in plaats van afzonderlijke afbeeldingen kunt gebruiken. Het begon allemaal met [het Opera logo in CSS](http://desandro.com/articles/opera-logo-css/). Kort daarna zag je allerlei indrukwekkende voorbeelden van CSS-afbeeldingen.
@@ -24,78 +25,53 @@ De syntax voor transities is vrij simpel. Met `transition: property tijd easing`
 
 CSS Animaties zijn vrij nieuw. Ze moeten een declaratief blok hebben met de keyframes. Omdat ze met alle vendor prefixes aangemaakt moeten worden, is je CSS bestand al snel heel erg groot. De beschikbare easingfuncties zijn onder andere ease, linear, ease-in/out/in-out en cubic-bezier om je eigen easing te maken. Zie ook [generator door Lea Verou](http://cubic-bezier.com).
 
+## Aanwezigen
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Aanwezigen
-
-* Roel Van Gils
-* Mathias Bynens
-* Ad Eggermont
-* Danny Calders
-* Stijn Janssen
-* Thomas Byttebier
-* Tomas Decrick
-* Nick Looijmans
-* Jurriaan Persyn
-* Rik Rijnders
-* Anthony Ringoet
-* Martijn Croonen
-* Stijn Henderickx
-* Arjan Eising
-* Frederik De Paepe
-* Tom Schuermans
-* Roderik van der Veer
-* Tom Claus
-* Daan Poron
-* Steve De Jonghe
-* Vincent Battaglia
-* Indri Kenens
-* Ibe Vanmeenen
-* Erwin Heiser
-* Bart Geraerts
-* Sophie Schuermans
-* Jochen Vandendriessche
-* Pascal Nosenzo
-* Jan Moesen
-* Melvyn Hills
-* Laurens Surinx
-* Joris Hens
-* Stijn Van Loo
-* Hans Verhaegen
-* Joannes Vandermeulen
-* Bruno Haarscher
-* Kristof Houben
-* Elisa Andre
-* Peter Vermaercke
-* Jessica Longino
-* Danté De Rycke
-* Stijn Huyberechts
-* Thomas Mattheussen
-* Wart Claes
-* Domien Verbeke
-* Vic Rau
-* Thomas Bossée
-* Kenneth Claes
-
-
-
+-   Roel Van Gils
+-   Mathias Bynens
+-   Ad Eggermont
+-   Danny Calders
+-   Stijn Janssen
+-   Thomas Byttebier
+-   Tomas Decrick
+-   Nick Looijmans
+-   Jurriaan Persyn
+-   Rik Rijnders
+-   Anthony Ringoet
+-   Martijn Croonen
+-   Stijn Henderickx
+-   Arjan Eising
+-   Frederik De Paepe
+-   Tom Schuermans
+-   Roderik van der Veer
+-   Tom Claus
+-   Daan Poron
+-   Steve De Jonghe
+-   Vincent Battaglia
+-   Indri Kenens
+-   Ibe Vanmeenen
+-   Erwin Heiser
+-   Bart Geraerts
+-   Sophie Schuermans
+-   Jochen Vandendriessche
+-   Pascal Nosenzo
+-   Jan Moesen
+-   Melvyn Hills
+-   Laurens Surinx
+-   Joris Hens
+-   Stijn Van Loo
+-   Hans Verhaegen
+-   Joannes Vandermeulen
+-   Bruno Haarscher
+-   Kristof Houben
+-   Elisa Andre
+-   Peter Vermaercke
+-   Jessica Longino
+-   Danté De Rycke
+-   Stijn Huyberechts
+-   Thomas Mattheussen
+-   Wart Claes
+-   Domien Verbeke
+-   Vic Rau
+-   Thomas Bossée
+-   Kenneth Claes

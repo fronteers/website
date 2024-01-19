@@ -1,23 +1,24 @@
 ---
-title: "Meetup ‘Dino’s van het internet’ bij ezCompany"
+title: 'Meetup ‘Dino’s van het internet’ bij ezCompany'
 date: 2017-07-20
 eventdate: 2017-07-20
 location:
 categories:
     - meetup
 ---
-Op donderdag 14 september 2017 is Fronteers te gast bij [ezCompany](https://www.ezcompany.nl) in Tilburg. We hebben die avond twee interessante talks, verzorgd door twee _"dino’s van het internet"_, *Wilfred Nas* en *Frank Schaap*. De bijeenkomst is gratis voor leden en niet-leden, en ezCompany zorgt voor pizza en drankjes!
+
+Op donderdag 14 september 2017 is Fronteers te gast bij [ezCompany](https://www.ezcompany.nl) in Tilburg. We hebben die avond twee interessante talks, verzorgd door twee _"dino’s van het internet"_, _Wilfred Nas_ en _Frank Schaap_. De bijeenkomst is gratis voor leden en niet-leden, en ezCompany zorgt voor pizza en drankjes!
 
 ![](/_img/bijeenkomsten/ezcompany/dinos-full.jpg)
 
-# Programma
+## Programma
 
-* 18:00 · Inloop met eten
-* 18:50 · Introductie en welkomstwoord
-* 19:00 · Talk 1: *Wilfred Nas* - 22 jaar internet, 22 veelgemaakte fouten en misschien ook wat oplossingen
-* 19:45 · Pauze
-* 20:00 · Talk 2: *Frank Schaap* - Bouwersonderzoek: wat klanten van jou(w website) vinden!
-* 20:45 · Borrel
+-   18:00 · Inloop met eten
+-   18:50 · Introductie en welkomstwoord
+-   19:00 · Talk 1: _Wilfred Nas_ - 22 jaar internet, 22 veelgemaakte fouten en misschien ook wat oplossingen
+-   19:45 · Pauze
+-   20:00 · Talk 2: _Frank Schaap_ - Bouwersonderzoek: wat klanten van jou(w website) vinden!
+-   20:45 · Borrel
 
 ```
 
@@ -26,6 +27,7 @@ Op donderdag 14 september 2017 is Fronteers te gast bij [ezCompany](https://www.
 ![Foto Wilfred Nas](/_img/bijeenkomsten/ezcompany/wilfrednas.jpg)
 
 ## Talk 1: 22 jaar internet, 22 veelgemaakte fouten
+
 en misschien ook wat oplossingen
 
 Sinds 1995 werkt Wilfred Nas al aan het web. In die tijd heeft hij veel fouten gezien en sommige ook zelf gemaakt. In deze presentatie probeert hij je door middel van voorbeelden iets te leren van het verleden. Door te weten wat we in het verleden fout deden en vooral waarom, kunnen we dit in de toekomst misschien voorkomen.
@@ -39,19 +41,20 @@ Wilfred Nas ([@wnas](https://twitter.com/wnas)) is een freelance front-end devel
 ```
 
 ## Talk 2: Bouwersonderzoek: wat klanten
+
 van jou(w website) vinden!
 
 ![Foto Frank Schaap](/_img/bijeenkomsten/ezcompany/frankschaap.jpg)
 
-De term ‘gebruikersonderzoek’ klopt eigenlijk niet. Je onderzoekt geen gebruikers, maar –  als het goed is – jouw website. Daarbij kom je ook veel te weten over jezelf en jouw blinde vlekken als bouwer. In deze presentatie (met veel voorbeelden!) gaat Frank Schaap in op zijn aanpak bij, kuch, ‘gebruikersonderzoek’, zijn bevindingen, do's & don'ts, en wat hij over zichzelf heeft geleerd.
+De term ‘gebruikersonderzoek’ klopt eigenlijk niet. Je onderzoekt geen gebruikers, maar – als het goed is – jouw website. Daarbij kom je ook veel te weten over jezelf en jouw blinde vlekken als bouwer. In deze presentatie (met veel voorbeelden!) gaat Frank Schaap in op zijn aanpak bij, kuch, ‘gebruikersonderzoek’, zijn bevindingen, do's & don'ts, en wat hij over zichzelf heeft geleerd.
 
 Frank Schaap ([@fschaap](https://twitter.com/fschaap)) is online strateeg bij ezCompany. Daarvoor werkte hij tien jaar bij de gemeente Vught, waar hij direct verantwoordelijk was voor de realisatie van de toptakensite van Vught. Hij is bovendien voorzitter van de Vereniging Drupal voor Gemeenten.
 
 ![](/_img/bijeenkomsten/ezcompany/faxx-gebouw-full.jpg)
 
-# Locatie
+## Locatie
 
-*ezCompany*
+_ezCompany_
 Tivolistraat 50
 5017HR Tilburg
 
@@ -59,11 +62,9 @@ Tivolistraat 50
 
 [Route plannen met Google Maps](https://www.google.nl/maps/place/Tivolistraat+50,+5017+HR+Tilburg/@51.5580676,5.0931246,17z/data=!3m1!4b1!4m5!3m4!1s0x47c6bfcc6cb3615d:0x9e96b36ba0c6be1b!8m2!3d51.5581284!4d5.0952378)
 
-
 {%- comment -%}
 {%- form -%}
 {%- endcomment -%}
-
 
 <table>
 <tr>

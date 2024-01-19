@@ -1,11 +1,12 @@
 ---
-title: "Bijeenkomst bij Lessius op 24 november 2011"
+title: 'Bijeenkomst bij Lessius op 24 november 2011'
 date: 2011-11-24
 eventdate: 2011-11-24
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 Arjan heet iedereen welkom bij [Lessius](http://mechelen.lessius.eu/) en vertelt kort iets over Fronteers.
 
 [Thomas Byttebier](http://www.thehotseat.be/) presenteert vanavond over responsive web design. Hij steekt van wal met een korte geschiedenisles. De auto zorgde in de twintigste eeuw voor een revolutie die alles beïnvloedde in ons leven. Aan het einde van de twintigste eeuw zorgde de personal computer voor eenzelfde soort wijziging, en nu rukt de smartphone op: een handzame personal computer die ervoor zorgt dat we altijd met het internet verbonden zijn.
@@ -18,7 +19,7 @@ Enkele jaren geleden schreef Ethan Marcotte een A List Apart artikel getiteld [r
 
 'It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is the most adaptable to change.' —Charles Darwin. Het idee achter aanpassen aan de omgeving is dus al eeuwenoud.
 
-Responsive web design bestaat uit twee onderdelen. De eerste is een layout fluid opbouwen: met procenten voor de maten in de breedte maak je een layout die pixel-perfect binnen het browserscherm past. *Elk* browserscherm.
+Responsive web design bestaat uit twee onderdelen. De eerste is een layout fluid opbouwen: met procenten voor de maten in de breedte maak je een layout die pixel-perfect binnen het browserscherm past. _Elk_ browserscherm.
 
 Tweede component zijn mediaqueries. Die laden afhankelijk van de breedte (of hoogte) een ander stukje van de CSS in, zodat regels voor kleine schermbreedte toegepast worden. Een voorbeeld is om van elementen die eerst met `float:left` naast elkaar staan, onder kleine breedtes ongedaan worden gemaakt met `float:none`.
 
@@ -46,110 +47,83 @@ _Herbruikbare CSS._ Met pattern libraries zoals [Bootstrap] kun je gemakkelijk v
 
 _Extra's._ Verwijder nooit de `outline`s bij `:focus` als je niet een aparte stijl hebt gedefinieerd.
 
+## Overige materialen en verslagen
 
+-   [Slides van de presentatie van Thomas](http://www.slideshare.net/bytte/responsive-web-design-10389263) (Slideshare)
+-   [Slides van de presentatie van Johan](http://www.slideshare.net/Wolfr/design-for-developersonlineversionlong) (Slideshare)
+-   [Verslag geschreven door Thomas Deceuninck](http://creativeskills.be/articles/fronteers-meetup-lessius/)
 
+## Aanmeldingen
 
-
-# Overige materialen en verslagen
-
-* [Slides van de presentatie van Thomas](http://www.slideshare.net/bytte/responsive-web-design-10389263) (Slideshare)
-* [Slides van de presentatie van Johan](http://www.slideshare.net/Wolfr/design-for-developersonlineversionlong) (Slideshare)
-* [Verslag geschreven door Thomas Deceuninck](http://creativeskills.be/articles/fronteers-meetup-lessius/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Aanmeldingen
-
-
-
-* Mathias Bynens
-* Roel Van Gils
-* Joris Hens
-* Ad Eggermont
-* Jan Moesen
-* Arjan Eising
-* Thomas Deceuninck
-* Lennart Schoors
-* Jurriaan Persyn
-* Kristof Houben
-* Steve Franciscus Julia De Jonghe
-* Gregory Van Looy
-* Tom Claus
-* Stijn Janssen
-* Laurens Peeters
-* Martijn Croonen
-* Bram Janssens
-* Wart Claes
-* Nick Looijmans
-* Tom Schuermans
-* Sander Houttekier
-* Jelle Desramaults
-* Mante Bridts
-* Wim Hendrikx
-* Jochen Vandendriessche
-* Griet Verlinde
-* Sebastien Toussaint
-* Gunter Van Steen
-* Wesley Verbruggen
-* Yannick Onsea
-* Mikael Gyselinck
-* Yasmine Plasmans
-* Bart Houben
-* Dieter Verjans
-* Tomas Berckx
-* Wouter Liekens
-* Vic Rau
-* Shahways Romani
-* Jan Michiels
-* Bruno Byttebier
-* Danny Calders
-* Bramus Van Damme
-* Koen Veestraeten
-* Stijn Debacker
-* Griffin Peeters
-* Ellen De Cock
-* Hannan Amnad
-* Michiel De Smedt
-* Stijn Van Loo
-* Pascal Nosenzo
-* Lorenz Vercauteren-Seghers
-* Ewout Callens
-* Frederick Vanbrabant
-* Barbara Tombeur
-* Maikel Beckers
-* David Heerinckx
-* Kenneth Geenen
-* Barbara Lettany
-* Sara Devuyst
-* Dries Droesbeke
-* Kim Wouters
-* Alexander Strobbe
-* Sara Feskens
-* Thomas Van Roost
-* Mathys Pieter
-* Michiel Kenis
-* Joris Ooms
-* Jeff Nauwelaerts
-* Ben Verschooris
-* Dries Delaey
-* Stijn Michiels
-* Glenn Billiau
-
-
-
+-   Mathias Bynens
+-   Roel Van Gils
+-   Joris Hens
+-   Ad Eggermont
+-   Jan Moesen
+-   Arjan Eising
+-   Thomas Deceuninck
+-   Lennart Schoors
+-   Jurriaan Persyn
+-   Kristof Houben
+-   Steve Franciscus Julia De Jonghe
+-   Gregory Van Looy
+-   Tom Claus
+-   Stijn Janssen
+-   Laurens Peeters
+-   Martijn Croonen
+-   Bram Janssens
+-   Wart Claes
+-   Nick Looijmans
+-   Tom Schuermans
+-   Sander Houttekier
+-   Jelle Desramaults
+-   Mante Bridts
+-   Wim Hendrikx
+-   Jochen Vandendriessche
+-   Griet Verlinde
+-   Sebastien Toussaint
+-   Gunter Van Steen
+-   Wesley Verbruggen
+-   Yannick Onsea
+-   Mikael Gyselinck
+-   Yasmine Plasmans
+-   Bart Houben
+-   Dieter Verjans
+-   Tomas Berckx
+-   Wouter Liekens
+-   Vic Rau
+-   Shahways Romani
+-   Jan Michiels
+-   Bruno Byttebier
+-   Danny Calders
+-   Bramus Van Damme
+-   Koen Veestraeten
+-   Stijn Debacker
+-   Griffin Peeters
+-   Ellen De Cock
+-   Hannan Amnad
+-   Michiel De Smedt
+-   Stijn Van Loo
+-   Pascal Nosenzo
+-   Lorenz Vercauteren-Seghers
+-   Ewout Callens
+-   Frederick Vanbrabant
+-   Barbara Tombeur
+-   Maikel Beckers
+-   David Heerinckx
+-   Kenneth Geenen
+-   Barbara Lettany
+-   Sara Devuyst
+-   Dries Droesbeke
+-   Kim Wouters
+-   Alexander Strobbe
+-   Sara Feskens
+-   Thomas Van Roost
+-   Mathys Pieter
+-   Michiel Kenis
+-   Joris Ooms
+-   Jeff Nauwelaerts
+-   Ben Verschooris
+-   Dries Delaey
+-   Stijn Michiels
+-   Glenn Billiau

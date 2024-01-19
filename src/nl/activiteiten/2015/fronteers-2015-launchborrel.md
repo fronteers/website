@@ -1,20 +1,19 @@
 ---
-title: "Fronteers 2015 launchborrel op 29 mei 2015"
+title: 'Fronteers 2015 launchborrel op 29 mei 2015'
 date: 2015-05-29
 eventdate: 2015-05-29
 location:
 categories:
     - meetup
 ---
-De kaartverkoop voor het Fronteerscongres 2015 start vrijdag 29 mei om 20:00 uur. Om dit te vieren, organiseert Fronteers die avond vanaf 19:00 uur een speciale launchborrel bij Café De Jaren in Amsterdam - en jij bent uitgenodigd. [Meer informatie over deze bijeenkomst](/blog/2015/05/launchborrel-cafe-de-jaren)
 
+De kaartverkoop voor het Fronteerscongres 2015 start vrijdag 29 mei om 20:00 uur. Om dit te vieren, organiseert Fronteers die avond vanaf 19:00 uur een speciale launchborrel bij Café De Jaren in Amsterdam - en jij bent uitgenodigd. [Meer informatie over deze bijeenkomst](/blog/2015/05/launchborrel-cafe-de-jaren)
 
 {%- comment -%}
 {%- form -%}
 {%- endcomment -%}
 
-
-# Aanmeldingen
+## Aanmeldingen
 
 <table>
 <tr>

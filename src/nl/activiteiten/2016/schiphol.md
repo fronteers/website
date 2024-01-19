@@ -1,27 +1,28 @@
 ---
-title: "Bijeenkomst bij Schiphol op 29 september 2016"
+title: 'Bijeenkomst bij Schiphol op 29 september 2016'
 date: 2016-09-29
 eventdate: 2016-09-29
 location:
 categories:
     - meetup
 ---
+
 # _Thema: de uitdagingen van front-end in high demand_
 
-In het hoofdgebouw van Schiphol Group wordt  donderdag 29 september een bijeenkomst gehouden voor front-end developers en andere geïnteresseerden. Tijdens deze dag worden vanuit verschillende hoeken de uitdagingen van front-end in high demand omgevingen belicht. En uiteraard stilgestaan bij de vraag hoe je deze het hoofd kunt bieden. Dit gebeurt aan de hand van drie presentaties.
+In het hoofdgebouw van Schiphol Group wordt donderdag 29 september een bijeenkomst gehouden voor front-end developers en andere geïnteresseerden. Tijdens deze dag worden vanuit verschillende hoeken de uitdagingen van front-end in high demand omgevingen belicht. En uiteraard stilgestaan bij de vraag hoe je deze het hoofd kunt bieden. Dit gebeurt aan de hand van drie presentaties.
 
 Tijdens de avond wordt de allerlaatste [Fronteers Conference 2016](/congres/2016) ticket verloot!
 
-# Het programma
+## Het programma
 
-* 18:00 inloop met dinerbuffet en een drankje
-* 19:00 introductie door Arjen Geerse
-* 19:10 Tamara Forza: Component Driven JavaScript
-* 19:30 Ischa Gast: ***Flawless CSS
-* 19:50 korte pauze
-* 20:10 🎁 [verloting allerlaatste ticket](https://fronteers.nl/blog/2016/09/win-de-laatste-ticket-voor-fronteers-conference-2016) Fronteers Conference 2016! 🎫
-* 20:20 Joost Lubach: Pinch
-* 21:00 borrel
+-   18:00 inloop met dinerbuffet en een drankje
+-   19:00 introductie door Arjen Geerse
+-   19:10 Tamara Forza: Component Driven JavaScript
+-   19:30 Ischa Gast: \*\*\*Flawless CSS
+-   19:50 korte pauze
+-   20:10 🎁 [verloting allerlaatste ticket](https://fronteers.nl/blog/2016/09/win-de-laatste-ticket-voor-fronteers-conference-2016) Fronteers Conference 2016! 🎫
+-   20:20 Joost Lubach: Pinch
+-   21:00 borrel
 
 ## introductie door Arjen Geerse
 
@@ -33,7 +34,7 @@ _Deze presentatie is in het Engels._ In de beta-website van Schiphol wordt gebru
 
 {%- vimeo "189041280" -%}
 
-## Ischa Gast: ***Flawless CSS
+## Ischa Gast: \*\*\*Flawless CSS
 
 De weg naar vlekkeloze CSS met een team van 8 front-enders op dezelfde codebase.
 
@@ -45,19 +46,19 @@ Pinch geeft een vernieuwende draai aan datamodellering door middel van interacti
 
 {%- vimeo "189450610" -%}
 
-# Eten en drinken
+## Eten en drinken
 
 Geen tijd om na je werk nog ergens een hapje te gaan eten? Geen nood: er staat vanaf 18:00 uur een lekker buffet voor je klaar. De entree is natuurlijk gratis (en het buffet ook!).
 
-# Bereikbaarheid
+## Bereikbaarheid
 
-Schiphol Group is gevestigd in het [Schipholgebouw](https://nl.wikipedia.org/wiki/Schipholgebouw). Het adres is Evert van de Beekstraat 202, 1118 CP Schiphol. Parkeren kan gratis in [P22](https://www.google.nl/maps/place/Schiphol+P22/@52.3054109,4.7485183,17z/), de receptie van het Schipholgebouw kan de uitrijkaart activeren. *Doe dit gelijk zodra je arriveert.* In P22 is ook een oplaadpaal voor elektrische auto's.
+Schiphol Group is gevestigd in het [Schipholgebouw](https://nl.wikipedia.org/wiki/Schipholgebouw). Het adres is Evert van de Beekstraat 202, 1118 CP Schiphol. Parkeren kan gratis in [P22](https://www.google.nl/maps/place/Schiphol+P22/@52.3054109,4.7485183,17z/), de receptie van het Schipholgebouw kan de uitrijkaart activeren. _Doe dit gelijk zodra je arriveert._ In P22 is ook een oplaadpaal voor elektrische auto's.
 
 Met het openbaar vervoer kun je per trein arriveren op Schiphol. Vanaf Schiphol Plaza loop je in circa 10 minuten naar het Schipholgebouw. Daarnaast rijden er diverse bussen naar bushalte Schipholgebouw.
 
 {%- googlemaps "Evert van de Beekstraat 202 1118CP Schiphol" -%}
 
-# Vragen? Opmerkingen?
+## Vragen? Opmerkingen?
 
 Neem contact op met de [activiteitencommisie](/vereniging/commissies/activiteiten)
 
@@ -413,7 +414,6 @@ Neem contact op met de [activiteitencommisie](/vereniging/commissies/activiteite
 <td><a href="https://twitter.com/yoeran" rel="nofollow">@yoeran</a></td>
 </tr>
 </table>
-
 
 {%- comment -%}
 {%- form -%}

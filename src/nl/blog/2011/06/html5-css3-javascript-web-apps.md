@@ -1,15 +1,16 @@
 ---
-title: "Uxebu geeft een workshop over HTML5, CSS3, JavaScript en Web Apps"
+title: 'Uxebu geeft een workshop over HTML5, CSS3, JavaScript en Web Apps'
 date: 2011-06-27
 author: Nikolai Onken
-categories: 
-  - Workshops
+categories:
+    - Workshops
 ---
+
 Uxebu wil graag haar kennis met jou delen! Wil je graag (mobiele) apps bouwen? HTML5, Chrome Web Store, WebOS, etc? Dan is nu je kans! Op 11-12 juli geeft Uxebu een workshop in Amsterdam om je kennis op te schroeven. Uxebu zal een workshop van hoog niveau neerzetten en je de fijne kneepjes van het vak bijbrengen. Ze zullen je alles leren over JavaScript en het schrijven van mobiele apps en je laten zien wat de browser tegenwoordig allemaal kan.
 
 Deze workshop wordt gegeven door het bedrijf met hackers die aan open source projecten hebben bijgedragen als Gordon, TouchScroll, EmbedJS, StorageJS en vele andere.
 
-# Inhoud
+## Inhoud
 
 De workshop zal twee dagen duren. In de ochtenden wordt er intensief gewerkt aan de JavaScript kennis. In de middagen brengen ze deze kennis in de praktijk door de verschillende onderdelen van HTML5 te gebruiken en daadwerkelijk apps te bouwen.
 

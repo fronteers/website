@@ -3,16 +3,17 @@ title: Hoe ik mezelf leerde werken met Webflow + tips! (hoe jij jezelf iets nieu
 date: 2022-12-11
 author: Rosita Rampertaap
 summary: 'Toen Nederland in maart 2020 in lockdown ging, ben ik begonnen met leren coderen. Dit deed ik elke dag. Dat wierp zijn vruchten af want uiteindelijk kreeg ik een baan als developer.'
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Toen Nederland in maart 2020 in lockdown ging, ben ik begonnen met leren coderen. Dit deed ik elke dag. Dat wierp zijn vruchten af want uiteindelijk kreeg ik een baan als developer.
 
 Maar nog steeds maak ik elke dag tijd om te leren. Soms maar 15 minuten en soms wel een paar uur. Ondertussen ben ik het wel gewend om dagelijks bezig te zijn met leren coderen en is het een gewoonte geworden. Een goede gewoonte, want in onze branche is leren een vaardigheid die je veel gebruikt. Het is belangrijk om met de tijd mee te gaan en steeds weer wat nieuws te leren of het nu een andere werkwijze of een andere programmeertaal is.
 
 Ik leer niet alleen in mijn vrije tijd, maar ook tijdens mijn werk besteed ik tijd aan leren. Zoals het CMS
 
-# Webflow.
+## Webflow.
 
 Webflow is een platform, waarmee je websites kan maken. Daarbij gebruik je geen code maar werk je met een visueel canvas, waarin je als developer zelf een website op maat maakt door te slepen, klikken en typen. Je hebt dezelfde vrijheid wanneer je het zelf zou programmeren.
 
@@ -20,9 +21,9 @@ Webflow is een platform, waarmee je websites kan maken. Daarbij gebruik je geen 
 
 De editor in Webflow, hier met een cloneable template gemaakt door Finsweet.
 
-Zelf heb ik voornamelijk ervaring met het maken van websites met WordPress.  [Op mijn werk wordt er al een tijd gewerkt met Webflow](https://www.websitebezorgd.nl/post/wat-is-webflow). Daarom leer ik nu te werken met dit CMS. Webflow werkt heel anders en zit anders in elkaar. WordPress moet je op een server installeren. Terwijl je Webflow in je browser kunt gebruiken en je hier geen aparte hosting voor nodig hebt.
+Zelf heb ik voornamelijk ervaring met het maken van websites met WordPress. [Op mijn werk wordt er al een tijd gewerkt met Webflow](https://www.websitebezorgd.nl/post/wat-is-webflow). Daarom leer ik nu te werken met dit CMS. Webflow werkt heel anders en zit anders in elkaar. WordPress moet je op een server installeren. Terwijl je Webflow in je browser kunt gebruiken en je hier geen aparte hosting voor nodig hebt.
 
-Net als bij WordPress  zijn er 1000 en 1 manieren om een website te bouwen. Elke developer heeft een eigen manier van werken. Dat komt de consistentie van de styling niet ten goede. Daarom is het handig om afspraken daarover te maken of bepaalde richtlijnen te volgen. Wij gebruiken daarvoor [Client-First](https://www.finsweet.com/client-first/docs), ontwikkeld door Finsweet. Client-First bestaat uit meerdere styleguides en methodes die zijn ontwikkeld om het bouwen van websites in Webflow makkelijker te maken.
+Net als bij WordPress zijn er 1000 en 1 manieren om een website te bouwen. Elke developer heeft een eigen manier van werken. Dat komt de consistentie van de styling niet ten goede. Daarom is het handig om afspraken daarover te maken of bepaalde richtlijnen te volgen. Wij gebruiken daarvoor [Client-First](https://www.finsweet.com/client-first/docs), ontwikkeld door Finsweet. Client-First bestaat uit meerdere styleguides en methodes die zijn ontwikkeld om het bouwen van websites in Webflow makkelijker te maken.
 
 Hoe ziet Client First er dan specifiek uit? In Client-First is de structuur en de opbouw van de pagina’s heel belangrijk. En is er een bepaald systeem om de classes een goede herkenbare naam te geven bijvoorbeeld `.section-home-hero`, voor de hero op de homepagina. Ook wordt er gebruik gemaakt van rem in plaats van pixels, met hier en daar een uitzondering. (bijvoorbeeld bij: `footer {border-top-width: 2px;}`).
 
@@ -30,7 +31,7 @@ Hoe ziet Client First er dan specifiek uit? In Client-First is de structuur en d
 
 Naast Client-First gebruiken we de [Relume library](https://library.relume.io/), een library met (heel veel!) verschillende componenten voor Webflow, die je in projecten kan gebruiken en aanpassen. Relume werkt ook goed samen met Client-First. Op deze manier kun je dus snel een mooie website neerzetten.
 
-# Hoe ik leer Webflow te gebruiken
+## Hoe ik leer Webflow te gebruiken
 
 Ik maakte een gratis starters account aan bij Webflow. Het is heel beperkt, maar goed genoeg om mee te oefenen. Toen ik voor het eerst de designer van Webflow zag, vond ik het nogal overweldigend. Je kunt er veel kanten mee op.
 
@@ -38,7 +39,7 @@ Gelukkig is er Webflow University. Hier kun je allerlei tutorials volgen om zo h
 
 Om het platform beter te leren kennen, begon ik zelf een thema dat wij al op de plank hadden liggen, na te maken. Vervolgens ging ik verder met het volgen van tutorials door Finsweet op Youtube. En ook hierbij probeerde ik het pasgeleerde toe te passen tijdens het maken van mijn website in Webflow.
 
-# Mijn tips om goed te kunnen leren
+## Mijn tips om goed te kunnen leren
 
 De laatste jaren ben ik veel bezig geweest met leren. Ik heb voor mezelf ondertussen een manier gevonden die voor mij werkt:
 

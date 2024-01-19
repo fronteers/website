@@ -1,13 +1,14 @@
 ---
-title: "Twee workshops op de woensdag voor het congres"
+title: 'Twee workshops op de woensdag voor het congres'
 date: 2012-07-22
 author: Sander Aarts
-categories: 
-  - Congres
+categories:
+    - Congres
 ---
+
 Ook dit jaar organiseert Fronteers weer twee intensieve workshops van hoog niveau, waarmee je een hele dag zoet bent. Dit jaar vinden beide workshops echter op dezelfde dag plaats, namelijk op woensdag 3 oktober.
 
-# Design en JavaScript
+## Design en JavaScript
 
 Mark Boulton zal een workshop Visual Design 101 voor Web Developers geven en Addy Osmani gaat het over JavaScript Application Development hebben.
 Meer informatie zal spoedig te vinden zijn op de [workshopspagina](/congres/2012/workshops).

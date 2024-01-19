@@ -1,44 +1,43 @@
 ---
-title: "Bijeenkomst bij Digiti op 15 december 2015"
+title: 'Bijeenkomst bij Digiti op 15 december 2015'
 date: 2015-12-15
 eventdate: 2015-12-15
 location:
 categories:
     - meetup
 ---
+
 Op dinsdag 15 december 2015 is Fronteers te gast bij [Digiti](http://digiti.be/) in Herentals. Er worden twee presentaties voorzien.
 
-# Het programma is als volgt:
+## Het programma is als volgt:
 
-* 18:00 ontvangst met een hapje en een drankje
-* 19:00 Bert Timmermans ([@Berttimmermans](https://twitter.com/Berttimmermans)) - "Je eigen dashboard met HTML, CSS en JavaScript!"
-* 19:45 korte pauze
-* 20:00 Jules Ernst ([@julezrulez](https://twitter.com/julezrulez)) - "Maak a11y makkelijk"
-* 20:45 naborrelen
+-   18:00 ontvangst met een hapje en een drankje
+-   19:00 Bert Timmermans ([@Berttimmermans](https://twitter.com/Berttimmermans)) - "Je eigen dashboard met HTML, CSS en JavaScript!"
+-   19:45 korte pauze
+-   20:00 Jules Ernst ([@julezrulez](https://twitter.com/julezrulez)) - "Maak a11y makkelijk"
+-   20:45 naborrelen
 
-# Je eigen dashboard met HTML, CSS en JavaScript! - Bert Timmermans ([slides](http://200ok.nl/presie/fronteers-digiti.php#/))
+## Je eigen dashboard met HTML, CSS en JavaScript! - Bert Timmermans ([slides](http://200ok.nl/presie/fronteers-digiti.php#/))
 
 {%- vimeo "167120947" -%}
 
-# Maak a11y makkelijk - Jules Ernst
+## Maak a11y makkelijk - Jules Ernst
 
 {%- vimeo "167173385" -%}
 
-# Waar?
+## Waar?
 
 Dit evenement vindt plaats bij Digiti te Herentals.
 
 {%- googlemaps "Digti, Diamantstraat 8, 2200 Herentals" -%}
 
-# Wie?
+## Wie?
 
 Iedereen is welkom. Er is echter beperkt plaats, voor circa 175 mannen en vrouwen. Geef je daarom op via onderstaand aanmeldformulier. Vol is vol!
 
 Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23fronteersbe).
 
-
-
-# Aanmeldingen
+## Aanmeldingen
 
 <table>
 <tr>
@@ -178,5 +177,4 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 </tr>
 </table>
 
-
-Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2015/fronteersbe/). *Inschrijven via het onderstaande formulier is echter verplicht!*
+Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2015/fronteersbe/). _Inschrijven via het onderstaande formulier is echter verplicht!_

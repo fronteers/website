@@ -5,7 +5,7 @@ title: Kitchensink
 
 This kitchen sink shows common elements used and usable on this website.
 
-# Headings
+## Headings
 
 The heading "Headings" is an example of a third level heading (h3).
 
@@ -15,7 +15,7 @@ The heading "Headings" is an example of a third level heading (h3).
 
 #### This is a sixth level heading (h6)
 
-# Paragraphs
+## Paragraphs
 
 This is a paragraph. One morning, when **Gregor Samsa** woke from troubled
 dreams, he found himself transformed in his bed into a horrible vermin. He lay
@@ -24,7 +24,7 @@ his brown belly, slightly domed and divided by arches into stiff sections.
 
 Words and word groups can be marked as **bold**, _italic_, ~~strikken through~~.
 
-# Table
+## Table
 
 <div class="table-responsive">
 
@@ -39,7 +39,7 @@ Words and word groups can be marked as **bold**, _italic_, ~~strikken through~~.
 
 Wrap the table in `<div class="table-responsive">` to make it responsive.
 
-# Tags
+## Tags
 
 Tags can be displayed using the following liquid syntax:
 
@@ -56,7 +56,7 @@ Examples are:
 {% tag "Online" %}
 {% tag "Marketingcommissie" %}
 
-# Links
+## Links
 
 Links can be created and formatted as follows:
 
@@ -74,7 +74,7 @@ Links can be created and formatted as follows:
 {% link "http://example.com/123" "Klik mij" "curly-braces" %}
 {% link "http://example.com/123" "Klik mij" "greater-than" %}
 
-# Buttons
+## Buttons
 
 <!-- {% raw %} -->
 
@@ -86,7 +86,7 @@ Links can be created and formatted as follows:
 
 {% button "button" "Klik mij" %}
 
-# Embedding objects
+## Embedding objects
 
 There are various short-tags to embed objects using liquid templating.
 
@@ -210,7 +210,7 @@ There are various short-tags to embed objects using liquid templating.
 
 {% mailchimp %}
 
-# Embedding Fronteers elements
+## Embedding Fronteers elements
 
 There are also various elements that can be embedded /included directly. The common ones are listed here:
 
@@ -220,7 +220,8 @@ There are also various elements that can be embedded /included directly. The com
 
 ```liquid
 {% aboutushero "We are a proud union" %}
-Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.
 {% endaboutushero %}
 ```
 
@@ -230,7 +231,7 @@ Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem
 Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {% endaboutushero %}
 
-# Quote
+## Quote
 
 <!-- {% raw %} -->
 
@@ -246,30 +247,34 @@ This is a quote
 This is a quote
 {% endquote %}
 
-# Member Quote
+## Member Quote
 
 <!-- {% raw %} -->
 
 (Remove newlines):
 
 ```liquid
-{% memberquote
-  "Member"
-  "Jobtitle"
-  "/path/to/avatar"
-  "Shield value"
-%}Member Quote{% endmemberquote %}
+{%
+    memberquote "Member"
+    "Jobtitle"
+    "/path/to/avatar"
+    "Shield value"
+-%}
+Member Quote{% endmemberquote %}
 ```
 
 For example (remove newlines):
 
 ```liquid
-{% memberquote
-  "Anneke Sinnema"
-  "Frontender"
-  "/assets/member-avatars/anneke-sinnema.png"
-  "annekesinnema" %}
-  To all users of technology who are willing to take a chance, make a choice, and try a new way of doing things so that we can nurture and enjoy a happy, healthy planet.
+{%
+    memberquote "Anneke Sinnema"
+    "Frontender"
+    "/assets/member-avatars/anneke-sinnema.png"
+    "annekesinnema"
+%}
+To all users of technology who are willing to take a chance, make a choice, and
+try a new way of doing things so that we can nurture and enjoy a happy, healthy
+planet.
 {% endmemberquote %}
 ```
 
@@ -296,7 +301,7 @@ on display is not the same as the value to generate the flag, provide it as the 
 
 The quote itself is the content inside the paired tag.
 
-# Shields
+## Shields
 
 {% assign shield_color_primary = "purple" %}
 {% assign shield_color_secondary = "red" %}
@@ -412,7 +417,7 @@ basis of having an identicon for our members.
 </table>
 </div>
 
-# Banners
+## Banners
 
 Banners are desgin elements that can link to another page and look like you can
 click them.
@@ -422,28 +427,28 @@ click them.
 (remove newlines)
 
 ```liquid
-{% banner
-  "style"
-  "Heading"
-  "https://example.com/"
-  "/_img/path/to/image"
-  "link target"
-  "heading html element"
-  "link visually hidden label"
+{%
+    banner "style"
+    "Heading"
+    "https://example.com/"
+    "/_img/path/to/image"
+    "link target"
+    "heading html element"
+    "link visually hidden label"
 %}
 ```
 
 For example (remove newlines):
 
 ```liquid
-{% banner
-  "greater"
-  "Banner with short code! (greater style)"
-  "https://github.com/"
-  "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg"
-  "_blank"
-  "h3"
-  "Go to GitHub"
+{%
+    banner "greater"
+    "Banner with short code! (greater style)"
+    "https://github.com/"
+    "/_img/adventskalender/2020/thats-all-folks/porky.jpeg-full.jpg"
+    "_blank"
+    "h3"
+    "Go to GitHub"
 %}
 ```
 
@@ -453,7 +458,7 @@ For example (remove newlines):
 
 Style can be `greater`, `curly`, `parentheses`, or `none`.
 
-# Blocks
+## Blocks
 
 <!-- {% raw %} -->
 
@@ -469,28 +474,34 @@ This is content
 This is content
 {% endblock %}
 
-# Shapes
+## Shapes
 
 You can also use `include` directly, for example to draw shapes (remove newlines from `include`):
 
 <!-- {% raw %} -->
 
 ```liquid
-<section class="inner-wrapper">
-    <div class="greater-than-bg">
-        {% include partials/utility/dynamic-headerlevel
-          level: "h3"
-          title: "My greater than shape" %}
+<section class='inner-wrapper'>
+    <div class='greater-than-bg'>
+        {%
+            include partials/utility/dynamic-headerlevel
+            level: "h3"
+            title: "My greater than shape"
+        %}
     </div>
-    <div class="curly-braces-bg">
-        {% include partials/utility/dynamic-headerlevel
-          level: "h4"
-          title: "My curly braces shape" %}
+    <div class='curly-braces-bg'>
+        {%
+            include partials/utility/dynamic-headerlevel
+            level: "h4"
+            title: "My curly braces shape"
+        %}
     </div>
-    <div class="parentheses-bg">
-        {% include partials/utility/dynamic-headerlevel
-          level: "h5"
-          title: "My parentheses shape" %}
+    <div class='parentheses-bg'>
+        {%
+            include partials/utility/dynamic-headerlevel
+            level: "h5"
+            title: "My parentheses shape"
+        %}
     </div>
 </section>
 ```

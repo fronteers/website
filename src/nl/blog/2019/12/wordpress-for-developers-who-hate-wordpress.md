@@ -1,10 +1,11 @@
 ---
-title: "WordPress for developers who hate WordPress"
+title: 'WordPress for developers who hate WordPress'
 date: 2019-12-11
 author: Luc Princen
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 WordPress is now over sixteen years old. In those sixteen years it’s grown to power over 33% of the ten million most popular websites. And yet, the most popular system for publishing websites is one of the most hated systems for developers. At least according to the Stack Overflow developer survey who ranked WordPress as the most dreaded platform to work with this year. It has been in the top three for years now.
 
 WordPress has a reputation among developers that it’s cumbersome, slow to load and insecure. This is true in a lot of cases, but I’d like to show you that it is possible to build modern and easy to maintain websites, plugins and themes with WordPress.
@@ -19,7 +20,7 @@ This article is divided into four parts:
 
 So if you’re either stuck working on a WordPress website, or you think that a huge part of the web shouldn’t be a blind spot in your knowledge; it’s time to pay attention.
 
-# Why should you (still) care about WordPress?
+## Why should you (still) care about WordPress?
 
 WordPress’ market share is an obvious reason to keep an eye on it. It’s the most used CMS by far, and that’s because it’s easy to set up, relatively cost-effective and because it’s widely supported by developers, agencies and hosting companies. This ease of use attracts a lot of people clicking together a site. And while this is a perfectly valid way to get a site up and running, it isn’t what most developers are looking for in a platform. The fact that WordPress is used this way, however, doesn’t mean it _has_ to be used this way.
 
@@ -29,7 +30,7 @@ If content ownership isn’t important to you, maybe money is: Premium WordPress
 
 WordPress is committed to backwards compatibility; they don’t want to break millions of websites. If you’re new to developing for WordPress this can be the cause of a lot of development grievances. It can definitely make your initial development-run a lot harder. But that backwards compatibility also has a positive effect: after the initial build time your project will require a lot less updates to stay compatible. This is true for websites, but also for plugins and themes. As a testament to this feature: I personally had to update a WordPress website that was running version 2.9, which was ten years old at the time. The website kept running without issues after I updated everything. That’s pretty remarkable in a world where an `npm update` command will probably break my application.
 
-# WordPress’ Modern Parts
+## WordPress’ Modern Parts
 
 In 2013 a strapping young WordPress developer by the name of Ryan McCue started working on a modern REST API for WordPress. Although It wouldn’t be added into WordPress core until much later, this would prove to be the spark for much of WordPress’ modern nuts and bolts.
 
@@ -48,14 +49,14 @@ class Endpoint{
         * Register this endpoint
         */
     public function register(){
-        register_rest_route( 
-            'my-plugin/v1', 
-            '/my-endpoint', 
+        register_rest_route(
+            'my-plugin/v1',
+            '/my-endpoint',
             [
                 'methods' => 'GET',
                 'callback' => [ $this, 'callback' ]
             ]
-        );   
+        );
     }
 
     /**
@@ -78,14 +79,14 @@ If you like to process POST, PULL or DELETE requests, you can just change the me
 * Register this endpoint
 */
 public function register(){
-    register_rest_route( 
-        'my-plugin/v1', 
-        '/custom-delete-function', 
+    register_rest_route(
+        'my-plugin/v1',
+        '/custom-delete-function',
         [
             'methods' => 'DELETE',
             'callback' => [ $this, 'callback' ]
         ]
-    );   
+    );
 }
 
 /**
@@ -146,7 +147,7 @@ registerBlockType(
 
             return (
                 <section className={ className }>
-                    <RichText 
+                    <RichText
                         tagName="h4"
                         value={ hello }
                         placeholder={ __('Write your hello world', 'namespace') }
@@ -156,7 +157,7 @@ registerBlockType(
             )
         },
         save( props ){
-            
+
             const { attributes: { hello }, className } = props;
             return (
                 <section className={ className }>
@@ -225,7 +226,7 @@ WP_CLI::add_command( 'myplugin', 'MyPlugin\Cli\Register' );
 
 This example adds the command `myplugin` to your WP CLI command list. It registers two sub-commands `migrate` and `fetch_data`, which are just the function names of this class. Both those functions neatly defer their work to different classes. If you have tasks in the WordPress admin that can be automated, or triggered by a single button-click, it’s worth writing a small command for them, so you can quickly run them from the terminal.
 
-# How to get around all that other legacy?
+## How to get around all that other legacy?
 
 Despite of all the modern JavaScript and a consistent and easy way to handle your data-streams, WordPress is still a legacy system build upon a sixteen-year old foundation. We need some outside help to get around all of this aging technology.
 
@@ -263,7 +264,7 @@ So the big question in dealing with updates is if you are okay with your users u
 
 If you’re not comfortable with handing over control of your stack to people logging into WordPress admin, then it’s possible to take that power away from them. However, stopping updates altogether isn’t a viable option due to security issues. In this case updates should regularly happen through the command-line or your deploys. In any case I’d recommend leaving third party code (like plugins) out of your repository and using either composer and git hooks or a WP CLI method to keep your website up-to-date. The best solution is definitely dependent on what you’re building and how many third party packages you would need.
 
-# The last remaining caveats
+## The last remaining caveats
 
 Despite all of these improvements to the WordPress ecosystem, there are still areas that will confront you with WordPress’ age and the fact that you’re working with legacy software. There really aren’t that many great solutions for these issues, but I’ll try to ease the pain as much as possible in this chapter.
 
@@ -283,11 +284,12 @@ This can give the entire ecosystem an amateur-feel and makes it really hard for 
 
 Both the [international](https://make.wordpress.org/chat/) and the [Dutch WordPress slack-channels](https://nl.wordpress.org/team/) are filled with people who work with WordPress on a professional level. These channels are a great place to ask a question or two about which plugin is right for the job.
 
-# Conclusion
+## Conclusion
 
 While WordPress is in a lot of ways an ancient piece of software, there are a lot of positive things happening in the WordPress ecosystem. It might be fun to completely write off WordPress due to its age, but its market share keeps growing. So why not look a bit further at WordPress’ modern bits and re-evaluate if this really can’t be part of your toolbox? If not, then no worries; at least you’ve read up on the newer capabilities of the platform and can make a more informed decision for your next project.
 
 ### About Luc Princen
+
 /adventskalender/luc-princen.jpg
 Luc Princen is an independent developer and designer from The Netherlands specializing in WordPress and frontend development. He loves open source, elegant code, fast load times, Dungeons & Dragons and playing the occasional (grand) strategy game. You can find him on Twitter with the handle [@LucP](https://twitter.com/LucP).
 Luc's donation will go to Dutch charity _Stem op een Vrouw_.
