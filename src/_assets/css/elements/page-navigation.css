@@ -1,106 +1,115 @@
 .page-navigation {
-  background: black;
-  font-size: var(--font-size-18);
-  font-weight: bold;
+    background: black;
+    font-size: var(--font-size-18);
+    font-weight: bold;
 }
 
 .page-navigation .navigation-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation-list-item--toplevel {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .page-navigation a {
-  color: white;
-  text-decoration: none;
-  padding: var(--spacing-half);
-  display: block;
+    color: white;
+    text-decoration: none;
+    padding: var(--spacing-half);
+    display: block;
 }
 
 .page-navigation a:hover,
 .page-navigation a:focus {
-  background-color: unset;
-  color: var(--yellow);
-  text-decoration: underline;
+    background-color: unset;
+    color: var(--yellow);
+    text-decoration: underline;
 }
 
-a[aria-current="page"] {
-  color: var(--lilac);
+a:has(+ .navigation-list a[aria-current]),
+a[aria-current='page'] {
+    color: var(--lilac);
+    text-decoration: underline;
 }
 
 .navigation-list--sublevel a {
-  padding-inline-start: 30px;
-  position: relative;
-  font-weight: normal;
+    padding-inline-start: 30px;
+    position: relative;
+    font-weight: normal;
 }
 
 .navigation-list--sublevel :is(a:hover, a:active, a:focus) {
-  background-color: unset;
-  color: var(--yellow);
+    background-color: unset;
+    color: var(--yellow);
 }
 
 .navigation-list--sublevel a:before {
-  content: " ";
-  position: absolute;
-  block-size: 1rem;
-  inline-size: 2rem;
-  background: url(/assets/images/chevron-right-white.svg) no-repeat center
-    center;
-  transition: var(--transition-out);
-  display: inline-block;
-  margin-inline-end: 5px;
-  top: 0.85rem;
-  left: 0;
-  background-size: 50% auto;
+    content: ' ';
+    position: absolute;
+    block-size: 1rem;
+    inline-size: 2rem;
+    background: url(/assets/images/chevron-right-white.svg) no-repeat center
+        center;
+    transition: var(--transition-out);
+    display: inline-block;
+    margin-inline-end: 5px;
+    top: 0.85rem;
+    left: 0;
+    background-size: 50% auto;
+}
+
+.navigation-list--sublevel a[aria-current='page']:before {
+    background: url(/assets/images/chevron-right-lilac.svg) no-repeat center
+        center;
+    background-size: 50% auto;
 }
 
 .navigation-list--sublevel :is(a:hover, a:active, a:focus):before {
-  background-image: url(/assets/images/chevron-right-yellow.svg);
+    background-image: url(/assets/images/chevron-right-yellow.svg);
 }
 
 @media all and (min-width: 46.875em) {
-  .page-navigation {
-    font-size: var(--font-size-20);
-  }
+    .page-navigation {
+        font-size: var(--font-size-20);
+    }
 
-  .page-navigation .navigation-list--toplevel {
-    display: flex;
-    align-content: center;
-    position: relative;
-  }
+    .page-navigation .navigation-list--toplevel {
+        display: flex;
+        align-content: center;
+        position: relative;
+    }
 
-  .page-navigation--header .navigation-list--toplevel {
-    justify-content: center;
-  }
+    .page-navigation--header .navigation-list--toplevel {
+        justify-content: center;
+    }
 
-  .page-navigation--footer .navigation-list--toplevel {
-    justify-content: center;
-  }
+    .page-navigation--footer .navigation-list--toplevel {
+        justify-content: center;
+    }
 
-  .navigation-list--sublevel {
-    display: none;
-    padding: 0 var(--spacing);
-    margin: 0;
-    background: black;
-    position: absolute;
-    top: 100%;
-    z-index: 5;
-    min-width: 300px;
-  }
+    .navigation-list--sublevel {
+        display: none;
+        padding: 0 var(--spacing);
+        margin: 0;
+        background: black;
+        position: absolute;
+        top: 100%;
+        z-index: 5;
+        min-width: 300px;
+    }
 
-  .page-navigation--footer .navigation-list--sublevel {
-    top: auto;
-    bottom: 100%;
-  }
+    .page-navigation--footer .navigation-list--sublevel {
+        top: auto;
+        bottom: 100%;
+    }
 
-  li:hover > .navigation-list--sublevel:not(:empty),
-  a:hover + .navigation-list--sublevel:not(:empty),
-  a:focus + .navigation-list--sublevel:not(:empty),
-  .navigation-list-item--toplevel:focus-within .navigation-list--sublevel:not(:empty) {
-    display: block;
-  }
+    li:hover > .navigation-list--sublevel:not(:empty),
+    a:hover + .navigation-list--sublevel:not(:empty),
+    a:focus + .navigation-list--sublevel:not(:empty),
+    .navigation-list-item--toplevel:focus-within
+        .navigation-list--sublevel:not(:empty) {
+        display: block;
+    }
 }
