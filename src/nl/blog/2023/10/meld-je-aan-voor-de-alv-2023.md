@@ -2,15 +2,16 @@
 title: Meld je aan voor de ALV 2023
 date: 2023-10-19
 author: Edwin Martin
-summary: Op vrijdagavond 10 november houden we weer onze jaarlijkse algemene ledenvergadering (ALV)!   Het vindt *online* plaats. Alle leden zijn hiervoor van harte uitgenodigd, en we hopen nieuwe bestuursleden te verwelkomen!
-categories: 
-  - Bijeenkomsten
-  - Leden
-  - Vereniging
+summary: Op vrijdagavond 10 november houden we weer onze jaarlijkse algemene ledenvergadering! Het vindt online plaats. Alle leden zijn hiervoor van harte uitgenodigd, en we hopen nieuwe bestuursleden te verwelkomen!
+categories:
+    - Bijeenkomsten
+    - Leden
+    - Vereniging
 ---
-Op vrijdagavond 10 november houden we weer onze jaarlijkse algemene ledenvergadering (ALV)! 
 
-Het vindt *online* plaats. Alle leden zijn hiervoor van harte uitgenodigd, en we hopen nieuwe bestuursleden te verwelkomen!
+Op vrijdagavond 10 november houden we weer onze jaarlijkse algemene ledenvergadering (ALV)!
+
+Het vindt _online_ plaats. Alle leden zijn hiervoor van harte uitgenodigd, en we hopen nieuwe bestuursleden te verwelkomen!
 
 [English version](#english) below.
 
@@ -24,18 +25,18 @@ Het mag duidelijk zijn: het bestuur zoekt versterking. Niet alleen voor de rol v
 
 Als bestuurslid help je mee de vereniging op de kaart te zetten en te houden. Je zorgt er voor dat commissies een zetje krijgen en dat vrijwilligers het zelfvertrouwen hebben om activiteiten te ontplooien voor de vereniging. We hebben de ambitie om weer vaker meetups en activiteiten te organiseren, zetten graag het Fronteerscongres voort, en zetten onze nieuwe website live. Anneke, Wim en Edwin staan je graag te woord via Slack of [bestuur@fronteers.nl](mailto:bestuur@fronteers.nl) als je ons hierin wilt helpen!
 
-* Opening
-* Vaststelling agenda
-* Toelichting Congres commissie
-* Toelichting Overige commissies
-* Jaarrekening 2022
-* Bevindingen kascommissie
-* Vaststellen jaarrekening
-* Benoeming nieuwe kascommissie
-* Financiën 2023 (voorlopig)
-* Begroting 2024
-* Invulling bestuur
-* Rondvraag
+-   Opening
+-   Vaststelling agenda
+-   Toelichting Congres commissie
+-   Toelichting Overige commissies
+-   Jaarrekening 2022
+-   Bevindingen kascommissie
+-   Vaststellen jaarrekening
+-   Benoeming nieuwe kascommissie
+-   Financiën 2023 (voorlopig)
+-   Begroting 2024
+-   Invulling bestuur
+-   Rondvraag
 
 Meld je aan door een email te sturen naar [secretaris@fronteers.nl](mailto:secretaris@fronteers.nl) of laat het Edwin weten op Slack.
 
@@ -53,17 +54,17 @@ It should be clear: the board is looking for reinforcement. Not only for the rol
 
 As a board member you help to put and keep the association on the map. You ensure that committees get a push and that volunteers have the self-confidence to develop activities for the association. We have the ambition to organize meetups and activities more often, would like to continue the Fronteers Congress, and are putting our new website live. Anneke, Wim and Edwin are happy to speak to you via Slack or [bestuur@fronteers.nl](mailto:bestuur@fronteers.nl) if you would like to help us with this!
 
-* Opening
-* Setting the agenda
-* Explanation of Congress committee
-* Explanation Other committees
-* Annual accounts 2022
-* Audit committee findings
-* Adopting annual accounts
-* Appointment of new audit committee
-* Finances 2023 (provisional)
-* Budget 2024
-* The Board
-* Any other business
+-   Opening
+-   Setting the agenda
+-   Explanation of Congress committee
+-   Explanation Other committees
+-   Annual accounts 2022
+-   Audit committee findings
+-   Adopting annual accounts
+-   Appointment of new audit committee
+-   Finances 2023 (provisional)
+-   Budget 2024
+-   The Board
+-   Any other business
 
 Register by sending an email to [secretaris@fronteers.nl](mailto:secretaris@fronteers.nl) or let Edwin know on Slack.

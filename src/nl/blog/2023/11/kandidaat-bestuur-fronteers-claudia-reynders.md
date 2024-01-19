@@ -1,11 +1,12 @@
 ---
-title: Kandidaat bestuur Fronteers: Claudia Reynders
+title: 'Kandidaat bestuur Fronteers: Claudia Reynders'
 date: 2023-11-08
 author: Claudia Reynders
 summary: Aanstaande vrijdag vindt de jaarlijkse algemene ledenvergadering (ALV) van Fronteers plaats. Een van de onderdelen tijdens de ALV is de bestuursverkiezing. Kandidaat bestuurslid Claudia Reynders stelt zich voor!
-categories: 
-  - Vereniging
+categories:
+    - Vereniging
 ---
+
 Aanstaande vrijdag vindt de jaarlijkse algemene ledenvergadering (ALV) van Fronteers plaats. Een van de onderdelen tijdens de ALV is de bestuursverkiezing. Kandidaat bestuurslid Claudia Reynders stelt zich voor!
 
 Hoi ik ben Claudia Reynders, ondertussen al enkele jaren de drijfveer achter commissie België waar ik met heel veel passie meetups organiseer. Ik leerde Fronteers kennen ergens een goeie 10 jaar geleden dankzij een meetup in het Antwerpse.
@@ -22,7 +23,7 @@ Fronteers heeft sinds het bestaan al veel verandering en verbetering gebracht da
 
 De doelstelling:
 
-"*De professionalisering van het beroep front-end web development. Daarbij streven wij naar erkenning, verbetering en ondersteuning van de (positie van) Nederlandstalige front-end webontwikkelaars.*"
+"_De professionalisering van het beroep front-end web development. Daarbij streven wij naar erkenning, verbetering en ondersteuning van de (positie van) Nederlandstalige front-end webontwikkelaars._"
 
 Maar sinds de start van de pandemie merken we allemaal wel dat Fronteers een stuk minder actief is geworden en daar zou ik graag verandering in willen brengen. Eerst en vooral door de meetups in Nederland terug op gang te trekken, waarna andere activiteiten hopelijk ook volgen. Om dit te kunnen verwezenlijken zijn er natuurlijk mensen nodig die zich daar mee achter willen zetten. Het huidige bestuur heeft al een aanzet gedaan om interesse op te wekken, nu moeten we enkel zien over te gaan op actie. 💪
 
