@@ -123,10 +123,6 @@ Met alles bedoel ik overigens wel écht _alles_. Hoe we platte text beschrijven 
 -   [RFC 9113: HTTP/2](https://datatracker.ietf.org/doc/html/rfc9113)
 -   [RFC 9114: HTTP/3](https://datatracker.ietf.org/doc/html/rfc9114)
 
-(Hidden)
-
-## RFC voor _van alles_
-
 Dat er voor allerlei technische aspecten RFCs bestaan (die dus veelal worden aangenomen als Internet Standaard) is voor mij niet raar. Maar toen ik zei dat er een RFC bestaat voor alles bedoelde ik (nóg) meer. Dus om nog heel even door te ratelen heb ik nog drie voorbeelden.
 
 ### RFC 1121
@@ -161,11 +157,7 @@ Degene die het meest voor komt is [RFC 2119: Key words for use in RFCs to Indica
 
 Er zijn nauwe definities voor de sleutelwoorden hier genoemd, en weten wat die definitie is helpt bij zowel het opstellen van als het lezen van een RFC en subsequent ook een Internet Standaard.
 
-(Hidden)
-
 ## Maar wat heb ik hieraan?
-
-Laten we beginnen met de vraag: _Voor wie is HTTP bedoeld?_. Je hebt het woord _gebruiker_ een aantal maal gelezen, zonder dat ik heb gedefinieerd wie of _wat_ een gebruiker is. Wat is dat, een gebruiker?
 
 Het antwoord hierop kunnen we terug vinden in [RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1](https://www.rfc-editor.org/rfc/rfc2616):
 
@@ -183,13 +175,9 @@ These are often browsers, editors, spiders (web-traversing robots), or other end
 
 Hieruit volgt dat de HTTP standaard niet _alleen_ bedoeld is voor mensen, en ook niet alleen voor browsers.
 
-(Hidden)
-
 ## HTTP: waar is het voor?
 
 Als het protocol niet alleen voor browsers of eind-gebruikers is, dan is er meer aan de hand. Deze standaard wil ons helpen meer te bereiken dan alleen hypertext en andere hypermedia over de netwerkkabel versturen naar onze computerschermen.
-
-We hoeven niet lang te zoeken om erachter te komen welke problemen HTTP probeert te verhelpen of hoe het probeert te faciliteren. Dit artikel is niet de plek om in elke een diepe duik te nemen, maar weet dat er meer is dan de lijst die nu volgt. Slimme mensen hebben bekeken wat de moeilijkheden zijn bij communicatie over het internet, en welke uitdagingen er liggen op om te lossen. HTTP is het resultaat.
 
 ## ⚡ HTTP is de oplossing voor zogenoemde _hard problems_
 
@@ -447,15 +435,11 @@ Helaas is er niet veel meer ondersteuning dan `text/plain` en `text/html`, maar 
 
 Enfin, de makkelijke oplossing hier was uiteindelijk niet de juiste. Hierbij was het dus zo dat de standaard veel meer gebruikscasussen had dan mijn simpele implementatie.
 
-(Hidden)
-
 ## Webstandaarden voor Fronteers
 
 Pakweg 2300 woorden verder en ik vertel je nu dat je al gebruik maakt van webstandaarden. En dan heb ik het niet eens over HTTP, of tools die gebruik maken van standaarden zoals formatters en linters.
 
 ## Produceer je HTML?
-
-Dan heb je te maken de [HTML specificatie](https://html.spec.whatwg.org/)
 
 ## Schrijf je CSS?
 
@@ -486,8 +470,6 @@ Je volgt hoogstwaarschijnlijk de _Web Content Accessibility Guidelines_, zoals b
 
 Bovenstaande is maar een klein onderdeel van de vele vele standaarden waar je al met regelmaat gebruik van maakt, waar je op bouwt, waar je van profiteert. Hoe URLs werken, en wat de regels zijn voor een e-mail adres.
 
-(Hidden)
-
 ## Meedoen met het ontwikkelen van ons WWW
 
 Interesseert dit alles je en heb je ideeën over het web door-ontwikkelen? Ben je ergens tegen aan gelopen die een huidige standaard niet beschrijft? Er zijn ontzettend veel manieren om mee te doen.
@@ -495,8 +477,6 @@ Interesseert dit alles je en heb je ideeën over het web door-ontwikkelen? Ben j
 1. Veel van de organisaties die standaarden ontwikkelen en onderhouden kan je terug vinden op sites als GitHub.com. Voorbeelden hiervan zijn het [WC3](https://github.com/w3c), [WICG](https://github.com/WICG), [WhatWG](https://github.com/whatwg) en [TC39](https://github.com/tc39). Ze hebben allemaal andere regels en richtlijnen, veelal beschreven in hun README en/of Code of Conduct. Dit is een van de eenvoudigste manieren om te zien welke discussies op dit moment leven.
 2. Het WC3 heeft [een eigen website](https://www.w3.org/). Hier kan je alle werkgroepen en ander-soort samenkomen vinden. Lid worden van een groep is vaak ontzettend eenvoudig en als je het eenmaal bent, ben je vaak direct van harte welkom bij veel van de discussies.
 3. De Web Incubator Community Group (WICG) heb ik nog niet genoemd. Deze groep ontwikkeld voorstellen voor nieuwe _features_! Je kan veel van deze features terug vinden op [hun website](https://wicg.io/), alsmede een link naar hun Discourse.
-4. Dan hebben we de Web Hypertext Application Technology Working Group (WHATWG). Deze groep onderhoudt en ontwikkelt de HTML standaard! Hoe je daar mee aan kan doen staat uitgelegd op [hun website](https://whatwg.org/).
-5. Voor JavaScript (en gerelateerde) is er [de TC39 standaard](https://tc39.github.io/ecma262/). De website zelf geeft aan dat eigenlijk alle contributies lopen via [hun GitHub](https://github.com/tc39/ecma262), maar er staat wel wat extra informatie op de website.
 
 ## Is onderdeel worden van zo'n groep dan de enige manier?
 
