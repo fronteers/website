@@ -3,6 +3,7 @@ const lodash = require("lodash");
 const slugify = require("slugify");
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 
 /**
  * Get all unique key values from a collection
@@ -83,6 +84,16 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginAddIdToHeadings);
 
     eleventyConfig.addPlugin(pluginRss);
+
+    eleventyConfig.addPlugin(brokenLinksPlugin, {
+        redirect: "warn",
+        broken: "warn",
+        cacheDuration: "1d",
+        loggingLevel: 2,
+        excludeUrls: [],
+        excludeInputs: [],
+        callback: null,
+    });
 
     // Rebuild when any of the files are changed, but exclude css because that is
     // handled by the asset pipeline.
