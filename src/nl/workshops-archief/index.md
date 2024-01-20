@@ -1,5 +1,5 @@
 ---
-title: "Workshops"
+title: 'Workshops'
 key: workshops
 excludeFromCollection: true
 ---
