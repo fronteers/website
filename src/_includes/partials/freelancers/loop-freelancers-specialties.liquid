@@ -4,7 +4,7 @@
     <ul role="list" class="category-list">
         {%- for specialty in collections.memberSpecialties -%}
             <li>
-                <a href="/{{ translations[locale].membersURL }}/{{ translations[locale].category }}/{{ specialty.slug }}" class="tag-link tag-link--large">{%- tag specialty.title -%}
+                <a href="/{{ translations[locale].membersURL }}/{{ translations[locale].specialty }}/{{ specialty.slug }}" class="tag-link tag-link--large">{%- tag specialty.title -%}
                 </a>
             </li>
         {%- endfor -%}
