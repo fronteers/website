@@ -1,20 +1,21 @@
 ---
-title: "Bijeenkomst op 13 december, in Groningen"
+title: 'Bijeenkomst op 13 december, in Groningen'
 date: 2010-11-16
 author: Arjan Eising
-categories: 
-  - Bijeenkomsten
+categories:
+    - Bijeenkomsten
 ---
+
 Op maandag 13 december is Fronteers weer in het Noorden van het land, deze keer bij [iWink](http://iwink.nl) te Groningen. Peter Beverloo vertelt over Audio APIs en Simon Wisselink over front-end performance.
 
 Het programma is als volgt:
 
-* 19.00 inloop
-* 19.25 welkomstwoord
-* 19.30 Peter Beverloo over Audio APIs
-* 20.30 pauze
-* 20.45 Simon Wisselink over front-end performance
-* 21.45 borrelen/netwerken
+-   19.00 inloop
+-   19.25 welkomstwoord
+-   19.30 Peter Beverloo over Audio APIs
+-   20.30 pauze
+-   20.45 Simon Wisselink over front-end performance
+-   21.45 borrelen/netwerken
 
 # Audio APIs
 
@@ -26,6 +27,6 @@ Onderzoek heeft aangetoond dat snelle webpagina's beter scoren op conversie dan 
 
 # Routebeschrijving
 
-De bijeenkomst wordt gehouden in Brasserie Bites in de Mediacentrale. Bites is gevestigd aan Helperpark 276A, 9723 ZA Groningen. Er is een [routebeschrijving te vinden op de website van Bites](http://www.bites.nu/contact.html).
+De bijeenkomst wordt gehouden in Brasserie Bites in de Mediacentrale. Bites is gevestigd aan Helperpark 276A, 9723 ZA Groningen. Er is een routebeschrijving te vinden op de website van Bites.
 
 Zoals altijd is de bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. [Geef je op via het opgaveformulier](/bijeenkomsten/2010/iwink#formulier-1), zodat we weten voor hoeveel mensen we catering nodig hebben.

@@ -1,11 +1,12 @@
 ---
-title: "Bijeenkomst bij mediaCT op 11 juni 2009"
+title: 'Bijeenkomst bij mediaCT op 11 juni 2009'
 date: 2009-06-11
 eventdate: 2009-06-11
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 Na de meest zuidelijke bijeenkomst vorige maand, werd op donderdag 11 juni de meest noordelijke bijeenkomst gehouden bij [mediaCT](http://mediact.nl) in Groningen. Met ruim 30 gasten die twee presentaties bijwoonden was het een geslaagde avond.
 
 # Caspar Hardholt, over Quality Assurance voor front-end developers
@@ -22,5 +23,5 @@ Als user experience designer tijdens het hele proces betrokken bent met het prot
 
 # Overige materialen en verslagen
 
-* [Presentatie Caspar Hardholt over Quality Assurance voor front-end developers](http://www.slideshare.net/mediaCT/quality-assurance-voor-frontend-developers) (slideshare.net, SWF)
-* [Presenatie Folkert de Jong over UX in een Agile omgeving](http://designerd.posterous.com/slideshare-fronteers-ux-in-een-agile-omgeving) (designerd.posterous.com, SWF)
+-   [Presentatie Caspar Hardholt over Quality Assurance voor front-end developers](http://www.slideshare.net/mediaCT/quality-assurance-voor-frontend-developers) (slideshare.net, SWF)
+-   Presentatie Folkert de Jong over UX in een Agile omgeving (designerd.posterous.com, SWF)

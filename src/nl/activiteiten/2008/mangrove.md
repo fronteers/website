@@ -1,11 +1,12 @@
 ---
-title: "Bijeenkomst bij Mangrove op 16 oktober 2008"
+title: 'Bijeenkomst bij Mangrove op 16 oktober 2008'
 date: 2008-10-16
 eventdate: 2008-10-16
 location:
 categories:
     - meetup
 ---
+
 Op 16 oktober 2008 organiseerde [Mangrove](http://www.mangrove.nl/) voor de tweede keer een Fronteers bijeenkomst. Bijna zestig aanwezigen kwamen in Rotterdam bij elkaar voor twee presentaties en vooral veel en gezellig voor- en na-kletsen. De gelukkigen wisten tijdens de presentaties een plaatsje op de comfortabele stoelen of zitzakken te bemachtigen, de rest kon de presentaties staande aan de bar volgen.
 
 # The web's hidden agenda, door Wietse Hage
@@ -34,5 +35,5 @@ Na de presentaties lieten zowel Kilian Valkhof als Wilfred Nas weten dat ze mome
 
 # Overige verslagen
 
-* [Een avondje Front-end discussies aan de Mangrove bar](http://blog.mangrove.nl/index.php?pageID=3434&messageID=881) (blog.mangrove.nl)
-* [Video report: Fronteers meeting bij Mangrove](http://blog.mangrove.nl/index.php?pageID=3434&messageID=902) (blog.mangrove.nl)
+-   Een avondje Front-end discussies aan de Mangrove bar (blog.mangrove.nl)
+-   Video report: Fronteers meeting bij Mangrove (blog.mangrove.nl)

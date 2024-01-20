@@ -1,11 +1,12 @@
 ---
-title: "Bijeenkomst bij iWink op 13 december 2010"
+title: 'Bijeenkomst bij iWink op 13 december 2010'
 date: 2010-12-13
 eventdate: 2010-12-13
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 Op maandag 13 december is Fronteers weer in het Noorden van het land, deze keer bij [iWink](http://iwink.nl) te Groningen. Peter Beverloo vertelt over Audio APIs en Simon Wisselink over front-end performance.
 
 Het programma is als volgt:
@@ -27,51 +28,50 @@ Onderzoek heeft aangetoond dat snelle webpagina's beter scoren op conversie dan 
 
 # Routebeschrijving
 
-De bijeenkomst wordt gehouden in Brasserie Bites in de Mediacentrale. Bites is gevestigd aan Helperpark 276A, 9723 ZA Groningen. Er is een [routebeschrijving te vinden op de website van Bites](http://www.bites.nu/contact.html).
+De bijeenkomst wordt gehouden in Brasserie Bites in de Mediacentrale. Bites is gevestigd aan Helperpark 276A, 9723 ZA Groningen. Er is een routebeschrijving te vinden op de website van Bites.
 
 Zoals altijd is de bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Geef je op via onderstaand opgaveformulier, zodat we weten voor hoeveel mensen we catering nodig hebben.
 
 # Aanwezigen
 
-* André (Drachten, auto)
-* Arjen (kruipend)
-* Jeroen Banus (op de fiets)
-* Martijn van den Berg (op de fiets)
-* Peter Beverloo (Amsterdam, OV)
-* Romke Bon (kruipend)
-* Evelien Bouma (op de fiets)
-* Elmer Bulthuis (Haarlem of Den haag, OV)
-* Christian Branbergen (+1, op de fiets)
-* Robbert Breij (op de fiets)
-* Thomas ten Cate (op de fiets)
-* Arjan Eising (Beilen, OV)
-* Dirk-Jan Faber (auto)
-* Erna Fidder (op de fiets)
-* Marc van der Haar (op de fiets)
-* Caspar Hardholt (+4, op de fiets)
-* Krijn Hoetmer (Almere, OV)
-* Andre Jilderda
-* Roy Katoele
-* Sander van der Kolk (op de fiets)
-* Wout Kramer (op de fiet)
-* Richard Landsman (+1, kruipend)
-* Jelmer van der Linde (Leeuwarden, OV)
-* Emil Loer (kruipend)
-* Michele Marotto (Groningen, auto)
-* Romke van der Meulen (op de fiets)
-* Minke (kruipend)
-* Rolf Mooibroek (Groningen, auto)
-* Jan Nico van Oosten (op de fiets)
-* Timo Schinkel (op de fiets)
-* Tim Sluis (op de fiets)
-* Maarten Strik (auto)
-* Thomas Tilkema
-* Janita Top (op de fiets)
-* Alle Veenstra
-* Hidde de Vries (Utrecht, OV)
-* Martijn van der Weide (op de fiets)
-* Jurriaan Wentink (kruipend)
-* Thijs Wijnmaalen (op de fiets)
-* Simon Wisselink
-* En nog één persoon
-
+-   André (Drachten, auto)
+-   Arjen (kruipend)
+-   Jeroen Banus (op de fiets)
+-   Martijn van den Berg (op de fiets)
+-   Peter Beverloo (Amsterdam, OV)
+-   Romke Bon (kruipend)
+-   Evelien Bouma (op de fiets)
+-   Elmer Bulthuis (Haarlem of Den haag, OV)
+-   Christian Branbergen (+1, op de fiets)
+-   Robbert Breij (op de fiets)
+-   Thomas ten Cate (op de fiets)
+-   Arjan Eising (Beilen, OV)
+-   Dirk-Jan Faber (auto)
+-   Erna Fidder (op de fiets)
+-   Marc van der Haar (op de fiets)
+-   Caspar Hardholt (+4, op de fiets)
+-   Krijn Hoetmer (Almere, OV)
+-   Andre Jilderda
+-   Roy Katoele
+-   Sander van der Kolk (op de fiets)
+-   Wout Kramer (op de fiet)
+-   Richard Landsman (+1, kruipend)
+-   Jelmer van der Linde (Leeuwarden, OV)
+-   Emil Loer (kruipend)
+-   Michele Marotto (Groningen, auto)
+-   Romke van der Meulen (op de fiets)
+-   Minke (kruipend)
+-   Rolf Mooibroek (Groningen, auto)
+-   Jan Nico van Oosten (op de fiets)
+-   Timo Schinkel (op de fiets)
+-   Tim Sluis (op de fiets)
+-   Maarten Strik (auto)
+-   Thomas Tilkema
+-   Janita Top (op de fiets)
+-   Alle Veenstra
+-   Hidde de Vries (Utrecht, OV)
+-   Martijn van der Weide (op de fiets)
+-   Jurriaan Wentink (kruipend)
+-   Thijs Wijnmaalen (op de fiets)
+-   Simon Wisselink
+-   En nog één persoon

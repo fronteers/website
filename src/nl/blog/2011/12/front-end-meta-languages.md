@@ -1,10 +1,11 @@
 ---
-title: "Front-end meta languages"
+title: 'Front-end meta languages'
 date: 2011-12-08
 author: Roy Tomeij
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Front-end meta languages. Een hippe, zelfverzonnen naam voor talen die compileren naar HTML, CSS en JavaScript, maar dat zelf niet zijn. Het gebruik scheelt op z'n minst veel typewerk en zorgt voor overzichtelijkere code. Dankzij extensies als Compass is er nog meer tijdsbesparing en gemak te realiseren, bijvoorbeeld voor het beheer van je sprites.
 
 # Waar hebben we het over?
@@ -33,7 +34,7 @@ Met [Rendera](http://rendera.heroku.com/) kun je online het één en ander probe
 
 Het schrijven van HTML is zo erg niet: je editor sluit iedere tag met één toetscombinatie zelf wel af, "angle brackets" zijn helemaal niet overbodig en een sloot aan afsluitende tags onderaan hoort er nu eenmaal bij. Zo dachten de meesten erover die met Haml begonnen en—toegegeven: na enige gewenning—nooit meer iets anders willen.
 
-Haml is alweer vijf jaar oud en daarmee in de developmentwereld zeker volwassen te noemen. De code erachter draait op Ruby, maar dat wil niet zeggen dat je het alleen in op Ruby-gebaseerde projecten in kunt zetten. Als je lokaal ontwikkelt zonder dynamische data (je schrijft puur statische HTML), dan kun je met Haml prima uit de voeten. Wil je het gebruiken in bijvoorbeeld een PHP-project, kijk dan eens naar [deze port](http://code.google.com/p/phamlp/ "PHamlP") (er zijn ook ports voor .NET, Java en zelfs Perl). Gebruik je Wordpress, dan is [Wordless](https://github.com/welaika/wordless) een goede optie.
+Haml is alweer vijf jaar oud en daarmee in de developmentwereld zeker volwassen te noemen. De code erachter draait op Ruby, maar dat wil niet zeggen dat je het alleen in op Ruby-gebaseerde projecten in kunt zetten. Als je lokaal ontwikkelt zonder dynamische data (je schrijft puur statische HTML), dan kun je met Haml prima uit de voeten. Wil je het gebruiken in bijvoorbeeld een PHP-project, kijk dan eens naar [deze port](http://code.google.com/p/phamlp/ 'PHamlP') (er zijn ook ports voor .NET, Java en zelfs Perl). Gebruik je Wordpress, dan is [Wordless](https://github.com/welaika/wordless) een goede optie.
 
 Van alle in dit artikel besproken talen is Haml het eenvoudigst qua hoeveelheid opties en syntaxis. Een prima optie om mee te beginnen dus. Er zitten geen wereldschokkende features in Haml; de voornaamste voordelen zijn de overzichtelijke hiërarchie en het niet hoeven sluiten van je tags. Haml gebruikt "significant whitespace": het aantal spaties aan het begin van de regel geeft het niveau en daarmee de hiërarchie aan. Alle editors kunnen gebruik maken van "soft tabs", waarbij het gebruik van de tab-toets ervoor zorgt dat onder water twee spaties gebruikt worden.
 
@@ -299,8 +300,9 @@ Als je een zelfstandige front-ender bent die HTML of CSS oplevert, dan staat nie
 Maar het allerbelangrijkste: gebruik van front-end meta languages is leuker en maakt je leven makkelijker. Happy holidays!
 
 ### Over Roy Tomeij
+
 <img src="/_img/2011/12/roy-tomeij.jpg" alt="Foto van roy tomeij uit 2011" class="floating-portrait" /> 
-Roy Tomeij is co-founder van [80beans](http://www.80beans.com/) en [SliceCraft](http://www.slicecraft.nl/) in Amsterdam, front-end developer en spreker. Hij houdt van front-end meta languages zoals Haml, Sass en CoffeeScript. Als je meer wilt weten, neem dan contact op met [@roy](https://twitter.com/roy) via Twitter.
+Roy Tomeij is co-founder van 80beans en [SliceCraft](http://www.slicecraft.nl/) in Amsterdam, front-end developer en spreker. Hij houdt van front-end meta languages zoals Haml, Sass en CoffeeScript. Als je meer wilt weten, neem dan contact op met [@roy](https://twitter.com/roy) via Twitter.
 
 Donatie: Doe Een Wens Stichting Nederland
 De vergoeding voor dit artikel gaat naar [Doe Een Wens Stichting Nederland](http://www.doeeenwens.nl/), zodat de liefste wens van kinderen met een levensbedreigende ziekte vervult kan worden.

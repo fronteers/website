@@ -90,7 +90,7 @@ module.exports = function (eleventyConfig) {
         broken: "warn",
         cacheDuration: "1d",
         loggingLevel: 2,
-        excludeUrls: [],
+        excludeUrls: ['https://www.openstreetmap.org*', 'https://www.youtube.com*', 'http://www.example.com*', 'https://codepen.io*', 'https://twitter.com*', 'http://api.dojotoolkit.org*', 'http://www.webdesignermagazine.nl/*', 'http://80beans.com*'],
         excludeInputs: [],
         callback: null,
     });

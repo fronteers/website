@@ -1,12 +1,11 @@
 ---
-title: "Bijeenkomst bij E-sites op 19 mei 2010"
+title: 'Bijeenkomst bij E-sites op 19 mei 2010'
 date: 2010-05-19
 eventdate: 2010-05-19
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
-
 
 Woensdag 19 mei was Fronteers te gast bij [e-sites](http://esites.nl) in Breda. Anne van Kesteren vertelde over CSS3, en Nikolai Onken ging in op HTML5 Apps.
 
@@ -34,7 +33,7 @@ Anne doet als laatste nog een Steve Jobs actie, met een 'one more thing'. Google
 
 Het vervelende aan alle mobiele telefoons is dat je apart code moet ontwikkelen, wil je de features van de mobiele telefoon gebruiken in je applicatie. Ook hebben veel apparaten, operators en dergelijk een eigen appstore. Voor een overzicht kun je kijken op [distimo.com/appstores](http://www.distimo.com/appstores/).
 
-HTML5 Apps maken het mogelijk om de goede dingen van mobieltjes, zoals de GPS ontvanger, te gebruiken in HTML. Een startup genaamd [Your Appshop](http://yourappshop.com) lanceerde in december 2009, welke HTML5 apps aanbied voor een klein bedrag. Ze hadden 12 miljoen downloads in vier maanden.
+HTML5 Apps maken het mogelijk om de goede dingen van mobieltjes, zoals de GPS ontvanger, te gebruiken in HTML. Een startup genaamd Your Appshop lanceerde in december 2009, welke HTML5 apps aanbied voor een klein bedrag. Ze hadden 12 miljoen downloads in vier maanden.
 
 De basis voor een HTML5 App zijn HTML, CSS en JavaScript bestanden, ondersteund met een config.xml bestand (waar de naam etc in staan) en een icoon. Deze bestanden plaats je in een .zip bestand, en die hernoem je naar een .wgt. Dan ben je klaar. Dit werkt op de meeste moderne browsers, behalve de iPhone.
 
@@ -42,44 +41,41 @@ Dit probleem wordt opgelost door projecten zoals [PhoneGap](http://www.phonegap.
 
 # Aanwezigen
 
-* Boye Oomens
-* Matijs Brinkhuis
-* Krijn Hoetmer
-* Tim Cure
-* Tijmen Smit
-* John van Hulsen
-* Vasilis van Gemert
-* Peter Kruithof
-* Sebastian Hagens
-* Wybe Weysters
-* Arjan Eising
-* Yvonne Pouw
-* Paul Martens
-* Anja Hage,
-* Rene Kreijveld
-* Jerome Bohg +3
-* Martijn La Feber
-* Luuk Wilms
-* Sander Aarts
-* Niels Keurentjes
-* Wim van Iersel
-* Glenn Glerum
-* Peter Beverloo
-* Ronald Lokers
-* Edwin Martin
-* Johan Sterenberg
-* Niels Kreijveld
-* Martin Savelkoul
-* Edo Nijmeijer
-* Victor Bastiaansen
-* Sam Granger
-* Edwin Derks
-* Peter van der Zee
-* Hidde de Vries
-* Peter Slagter
-* Mallory van Achterberg
-* Martijn Croonen
-* en nog 8 personen
-
-
-
+-   Boye Oomens
+-   Matijs Brinkhuis
+-   Krijn Hoetmer
+-   Tim Cure
+-   Tijmen Smit
+-   John van Hulsen
+-   Vasilis van Gemert
+-   Peter Kruithof
+-   Sebastian Hagens
+-   Wybe Weysters
+-   Arjan Eising
+-   Yvonne Pouw
+-   Paul Martens
+-   Anja Hage,
+-   Rene Kreijveld
+-   Jerome Bohg +3
+-   Martijn La Feber
+-   Luuk Wilms
+-   Sander Aarts
+-   Niels Keurentjes
+-   Wim van Iersel
+-   Glenn Glerum
+-   Peter Beverloo
+-   Ronald Lokers
+-   Edwin Martin
+-   Johan Sterenberg
+-   Niels Kreijveld
+-   Martin Savelkoul
+-   Edo Nijmeijer
+-   Victor Bastiaansen
+-   Sam Granger
+-   Edwin Derks
+-   Peter van der Zee
+-   Hidde de Vries
+-   Peter Slagter
+-   Mallory van Achterberg
+-   Martijn Croonen
+-   en nog 8 personen
