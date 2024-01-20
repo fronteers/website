@@ -1,3 +1,4 @@
+const { exec } = require("child_process");
 const glob = require("fast-glob");
 const lodash = require("lodash");
 const slugify = require("slugify");
@@ -432,6 +433,25 @@ module.exports = function (eleventyConfig) {
     dynamicPartials: false,
     strictFilters: false,
   });
+
+  // This bundles all the css after the build
+  eleventyConfig.on(
+    "eleventy.after",
+    async ({ dir, results, runMode, outputMode }) =>
+      new Promise((resolve, reject) => {
+        exec(
+          "npx lightningcss --minify --bundle --targets '>= 0.25%' dist/assets/css/style.css -o dist/assets/css/style.css",
+          (err) => {
+            if (err) {
+              console.error(err);
+              reject(err);
+            }
+            console.log("Successfully bundled the CSS");
+            resolve();
+          }
+        );
+      })
+  );
 
   /* All templates in the content directory are parsed and copied to the dist directory */
   return {

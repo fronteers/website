@@ -188,8 +188,8 @@
     .hero-graphic {
         padding-block-start: 0;
         padding-block-end: var(--spacing);
-        padding-inline-end: var(--spacing));
-        padding-inline-start: var(--spacing));
+        padding-inline-end: var(--spacing);
+        padding-inline-start: var(--spacing);
         -webkit-clip-path: url(#curly-brace-down-large);
         clip-path: url(#curly-brace-down-large);
         inline-size: 100%;
@@ -202,8 +202,8 @@
         /* content: none; */
         padding-block-start: 0;
         padding-block-end: var(--spacing);
-        padding-inline-end: var(--spacing));
-        padding-inline-start: var(--spacing));
+        padding-inline-end: var(--spacing);
+        padding-inline-start: var(--spacing);
         -webkit-clip-path: url(#curly-brace-down-large);
         clip-path: url(#curly-brace-down-large);
         inline-size: 100%;
@@ -342,10 +342,6 @@
 
     .hero-content .button {
         transition: transform .15s ease-in;
-
-        @media (prefers-reduced-motion) {
-            transition: none;
-        }
     }
 
     .hero-content .button:focus,
@@ -353,8 +349,13 @@
     .hero-content .button:active {
         transform: rotate(-2deg);
         transition: transform .15s ease-out;
+    }
 
-        @media (prefers-reduced-motion) {
+    @media (prefers-reduced-motion) {
+        .hero-content .button,
+        .hero-content .button:focus,
+        .hero-content .button:hover,
+        .hero-content .button:active {
             transition: none;
         }
     }
