@@ -1,13 +1,13 @@
 ---
 key: history-names
 title: Mogelijke namen voor de vereniging
-# if there's a subtitle, put it in heroSlogan:
-heroSlogan: ""
+heroSlogan: ''
 ---
-On this page you will find the names for the "Guild" that have been proposed by members in the run-up to its establishment, as well as board advice on this.
-All provisional members were allowed to vote, and the result was *Fronteers*.
 
-# Board advice
+On this page you will find the names for the "Guild" that have been proposed by members in the run-up to its establishment, as well as board advice on this.
+All provisional members were allowed to vote, and the result was _Fronteers_.
+
+## Board advice
 
 This board advice came about in close consultation with Edenspiekermann (then Eden Design), which (as a sponsor) had a name specialist look at our naming problem and made some proposals.
 
@@ -29,53 +29,53 @@ A good name is somewhat associative, but does not stray too far from a concrete 
 
 All these three names have an association, are easy to remember, and the domains have been reserved by Edenspiekermann for the time being. The argumentation of board favorite Fronteers can be found further on.
 
-# Voting procedure
+## Voting procedure
 
 To vote, we used the so-called [Instant Runoff Voting](http://en.wikipedia.org/wiki/Instant-runoff_voting) method, where each voter could submit a list of their preferences.
 
-# Suggested names
+## Suggested names
 
 The following names have been suggested (in alphabetical order):
 
-- Argo
-- Avantgarde
-- &lt;body&gt;
-- Beroepsorganisatie voor Frontend-Ontwikkelaars
-- Beroepsorganisatie Nederlandse Front-end Webdevelopers
-- Beroepsvereniging voor Frontend-Ontwikkelaars
-- BNFED - Beroepsorganisatie Nederlandse Front-end Developers
-- De Bron - organisatie voor front-enders
-- De Voorkant
-- FEDEV - Organisatie van front-end webdevelopers
-- FEND - Voor betrokken front-enders
-- FEND - Dé vakvereniging van Front-end Developers
-- FEND - Vakvereniging van Front-end Developers
-- FEND - Beroepsorganisatie van Front-end Developers
-- FEND - Beroepsvereniging van Front-end Developers
-- Frontact
-- Frontalent
-- Fronteers
-- Front-end Developers Nederland
-- FrontEnd Developers United
-- Front-end Webdevelopers Nederland
-- FrontEnd Webdevelopers United
-- FWD
-- Gilde van Front-End Developers
-- Gilde van Front-End Ontwikkelaars
-- Het Gilde - Een vakvereniging van frontend web-ontwikkelaars
-- Het Gilde - Dé vakvereniging van Front-end Developers
-- Het Gilde - Vakvereniging van Front-end Developers
-- Het Gilde - Beroepsorganisatie van Front-end Developers
-- Het Gilde - Beroepsvereniging van Front-end Developers
-- Vakvereniging voor Frontend-Ontwikkelaars
-- Vakvereniging voor Front-end Developers
-- Vereniging voor Frontend-Ontwikkelaars
-- Vereniging van Nederlandse Frontend Developers
-- Vereniging van Nederlandse Front-End Ontwikkelaars
-- Vereniging van Nederlandse Frontend Webdevelopers
-- Voorzijde - Beroepsvereniging van Front-End Developers
+-   Argo
+-   Avantgarde
+-   &lt;body&gt;
+-   Beroepsorganisatie voor Frontend-Ontwikkelaars
+-   Beroepsorganisatie Nederlandse Front-end Webdevelopers
+-   Beroepsvereniging voor Frontend-Ontwikkelaars
+-   BNFED - Beroepsorganisatie Nederlandse Front-end Developers
+-   De Bron - organisatie voor front-enders
+-   De Voorkant
+-   FEDEV - Organisatie van front-end webdevelopers
+-   FEND - Voor betrokken front-enders
+-   FEND - Dé vakvereniging van Front-end Developers
+-   FEND - Vakvereniging van Front-end Developers
+-   FEND - Beroepsorganisatie van Front-end Developers
+-   FEND - Beroepsvereniging van Front-end Developers
+-   Frontact
+-   Frontalent
+-   Fronteers
+-   Front-end Developers Nederland
+-   FrontEnd Developers United
+-   Front-end Webdevelopers Nederland
+-   FrontEnd Webdevelopers United
+-   FWD
+-   Gilde van Front-End Developers
+-   Gilde van Front-End Ontwikkelaars
+-   Het Gilde - Een vakvereniging van frontend web-ontwikkelaars
+-   Het Gilde - Dé vakvereniging van Front-end Developers
+-   Het Gilde - Vakvereniging van Front-end Developers
+-   Het Gilde - Beroepsorganisatie van Front-end Developers
+-   Het Gilde - Beroepsvereniging van Front-end Developers
+-   Vakvereniging voor Frontend-Ontwikkelaars
+-   Vakvereniging voor Front-end Developers
+-   Vereniging voor Frontend-Ontwikkelaars
+-   Vereniging van Nederlandse Frontend Developers
+-   Vereniging van Nederlandse Front-End Ontwikkelaars
+-   Vereniging van Nederlandse Frontend Webdevelopers
+-   Voorzijde - Beroepsvereniging van Front-End Developers
 
-# Arguments
+## Arguments
 
 The following arguments have been submitted:
 

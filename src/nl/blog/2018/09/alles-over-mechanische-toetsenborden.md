@@ -1,13 +1,14 @@
 ---
-title: "Alles over mechanische toetsenborden"
+title: 'Alles over mechanische toetsenborden'
 date: 2018-09-11
 author: Josee Wouters
-categories: 
-  - Ledenkorting
+categories:
+    - Ledenkorting
 ---
+
 Je zult er vast wel eens van gehoord hebben of misschien heeft een van je collega’s er wel één. Een leek noemt het ‘ouderwets’, de kenner zweert erbij. Ik heb het natuurlijk over mechanische toetsenborden! Wie ben ik? Ik ben Josee en ik heb zelf een Ducky. Sinds ik dit toetsenbord heb, ben ik helemaal om. Ik zou niet meer zonder willen.
 
-*Maar hoe kies je nu een mechanisch toetsenbord? Over het algemeen is zo'n toetsenbord niet de goedkoopste en je wilt een miskoop vermijden. Maar zodra je even googlet, vliegen de switches je om de oren. Hopelijk zie je met deze guide straks door de toetsen het toetsenbord weer.*
+_Maar hoe kies je nu een mechanisch toetsenbord? Over het algemeen is zo'n toetsenbord niet de goedkoopste en je wilt een miskoop vermijden. Maar zodra je even googlet, vliegen de switches je om de oren. Hopelijk zie je met deze guide straks door de toetsen het toetsenbord weer._
 
 ![Ducky Shine 3 is herkenbaar door de voor Ducky typerende spatiebalk](/_img/blog/ducky-shine.jpg)
 
@@ -15,11 +16,11 @@ Je zult er vast wel eens van gehoord hebben of misschien heeft een van je colleg
 Ducky Shine 3 is herkenbaar door de voor Ducky typerende spatiebalk
 </p>
 
-# Wat is een mechanisch toetsenbord eigenlijk?
+## Wat is een mechanisch toetsenbord eigenlijk?
 
 Als er wordt gesproken over een mechanisch toetsenbord - of op z'n Engels: een mechanical keyboard - dan wordt er een toetsenbord bedoeld dat een switch van bewegende delen onder de toets heeft zitten. Een gewoon toetsenbord daarentegen bestaat doorgaans uit een rubberen switch. Dit is veel goedkoper om te produceren. Naast zo'n rubber dome switch en mechanische switches, zijn er ook andere soorten switches, zo gebruikt Apple de eigen 'butterfly' switches voor zijn toetsenborden. Daar ga ik nu niet verder op in.
 
-# Waarom is een mechanisch toetsenbord beter?
+## Waarom is een mechanisch toetsenbord beter?
 
 Allereerst, een goedkoop toetsenbord is meestal niet slecht. Het zal zeker de klus geklaard krijgen. De superioriteit van een mechanisch toetsenbord zit 'm voornamelijk in de beleving. Bij een gemiddeld toetsenbord met rubber dome switches moet je meer kracht zetten, krijg je weinig feedback en kan het toetsenbord door het gebruik van rubber 'mushy' aanvoelen. Ook is de levensduur van zo'n toetsenbord een stuk korter.
 
@@ -31,9 +32,9 @@ Bij een mechanisch toetsenbord heb je deze nadelen niet. Afhankelijk van de swit
 Deze Magic Force is een budgetkeuze met een opvallend uiterlijk
 </p>
 
-# Welke switches zijn er?
+## Welke switches zijn er?
 
-Er zijn verschillende soorten switches. [Cherry MX](https://www.cherrymx.de/en), de meest bekende fabrikant van switches, heeft tien verschillende soorten om uit te kiezen. Deze switches kenmerken zich door een kleur, red, blue of brown bijvoorbeeld. De meeste fabrikanten houden deze kleurcodes aan voor dezelfde soort switches. Andere merken die deze kleuren aanhouden zijn bijvoorbeeld [Gateron](https://deskthority.net/wiki/Gateron_KS-3_series), [Kailh](http://www.kailh.com/en/Products/Ks/KTS/), en [Greetech]( http://www.greetech.com/en/products.asp?enBigClassName=Mechanical%20Keyboard%20Switch).
+Er zijn verschillende soorten switches. [Cherry MX](https://www.cherrymx.de/en), de meest bekende fabrikant van switches, heeft tien verschillende soorten om uit te kiezen. Deze switches kenmerken zich door een kleur, red, blue of brown bijvoorbeeld. De meeste fabrikanten houden deze kleurcodes aan voor dezelfde soort switches. Andere merken die deze kleuren aanhouden zijn bijvoorbeeld [Gateron](https://deskthority.net/wiki/Gateron_KS-3_series), [Kailh](http://www.kailh.com/en/Products/Ks/KTS/), en [Greetech](http://www.greetech.com/en/products.asp?enBigClassName=Mechanical%20Keyboard%20Switch).
 
 [Razer](https://www.razer.com/eu-en/gaming-keyboards), vooral bekend van gaming accessoires, maakt onder andere gebruik van eigen hybride switches; een kruising tussen mechanisch en dome. [Logitech](https://www.logitechg.com/nl-nl/articles/romer-g) gebruikt zijn eigen Romer-G switches en andere bekende merken zijn [Topre](http://www.topre.co.jp/en/products/elec/keyboards/) en [Matias](https://matias.ca/). Deze laatste twee zijn vooral bekend bij liefhebbers.
 
@@ -43,15 +44,15 @@ Er zijn verschillende soorten switches. [Cherry MX](https://www.cherrymx.de/en),
 Bij deze Magic Force zie je dat er is gekozen voor brown switches
 </p>
 
-Om het iets makkelijker te maken: er wordt een onderscheid gemaakt tussen tactile switches en linear switches. Een lineaire switch moet je tot de bodem indrukken voor deze een aanslag registreert. Een tactile switch heeft halverwege een voelbare bump, op dit punt wordt de aanslag geregistreerd en kun je verder typen. Je hoeft de toets dus niet verder in te drukken: het kan wel. 
+Om het iets makkelijker te maken: er wordt een onderscheid gemaakt tussen tactile switches en linear switches. Een lineaire switch moet je tot de bodem indrukken voor deze een aanslag registreert. Een tactile switch heeft halverwege een voelbare bump, op dit punt wordt de aanslag geregistreerd en kun je verder typen. Je hoeft de toets dus niet verder in te drukken: het kan wel.
 Een derde type, die je minder tegenkomt, is de clicky switch. Deze heeft naast een voelbare bump van een tactile switch, ook een hoorbare klik. Deze switches zouden nog wel eens tot geïrriteerde collega's kunnen leiden.
 
-Verder onderscheid in switches wordt gemaakt door de hoeveelheid kracht die je moet gebruiken om een toets in te te drukken. Dit wordt actuation force genoemd. De actuation force wordt gemeten in centiNewtons (cN) maar 1 cN is gelijk aan 1 gram, deze maten worden door elkaar gebruikt. Een gemiddeld rubber dome keyboard heeft een actuation forse van tussen 55g en 60g. Bij mechanische switches heb je doorgaans keus van 45g tot en met 80g. 
+Verder onderscheid in switches wordt gemaakt door de hoeveelheid kracht die je moet gebruiken om een toets in te te drukken. Dit wordt actuation force genoemd. De actuation force wordt gemeten in centiNewtons (cN) maar 1 cN is gelijk aan 1 gram, deze maten worden door elkaar gebruikt. Een gemiddeld rubber dome keyboard heeft een actuation forse van tussen 55g en 60g. Bij mechanische switches heb je doorgaans keus van 45g tot en met 80g.
 Een derde punt van onderscheid is het actuation point. Dit is het punt vanaf waar de switch de aanslag registreert. Gemiddeld ligt dit bij 2mm, bij een totale afstand tot bottom out van 4mm. Hoe lager het actuation point, hoe sneller de toets de aanslag registreert en jij naar de volgende toets kunt.
 
 Met deze drie kenmerken, kun je besluiten welke switch voor jou de juiste is.
 
-# Welke switch moet ik kiezen?
+## Welke switch moet ik kiezen?
 
 Mijn daily driver is een Ducky Miya Pro Sakura met Cherry MX Brown switches. De Cherry MX Brown is een populaire tactile switch. De actuation force is met 45g licht en de actuation point gemiddeld, met 2mm. Ik viel voor dit toetsenbord voornamelijk dankzij het geweldige uiterlijk: de kleurtjes en de Japanse kersenbloesem op de spatiebalk en escape-toets. De Cherry MX Brown switches kende ik al en vond ik fijn typen. De keus was snel gemaakt.
 

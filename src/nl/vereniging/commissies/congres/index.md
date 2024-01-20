@@ -2,12 +2,11 @@
 key: committees
 title: Commissie Congres
 ---
+
 Doel: Het organiseren van [Fronteers Conference](/nl/congres) in 2019.
 
-# Leden
+## Leden
 
-* Niels Leenheer (voorzitter)
-* Tamara Forza
-* Christian Schaeffer
-
-
+-   Niels Leenheer (voorzitter)
+-   Tamara Forza
+-   Christian Schaeffer

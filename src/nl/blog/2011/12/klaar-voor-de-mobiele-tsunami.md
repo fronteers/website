@@ -1,21 +1,22 @@
 ---
-title: "Klaar voor de mobiele tsunami"
+title: 'Klaar voor de mobiele tsunami'
 date: 2011-12-17
 author: Peter-Paul Koch
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Als ze het niet nu al doen, wordt 2012 het jaar waarin je klanten je gaan vragen om een mobiele website. Hier zijn wat snelle wenken voor diegenen onder ons die mobiel nog niet echt goed bestudeerd hebben.
 
-# Eerste testen
+## Eerste testen
 
 Je hebt waarschijnlijk al een smartphone voor prive-gebruik. Kijk er eens op naar je recente projecten. Waarschijnlijk zie je al direct enige zaken die voor verbetering vatbaar zijn. Maak een lijstje, en spreek met jezelf af dat je hier in je volgende project iets aan gaat doen.
 
-Let op: ik zeg hier *smartphone*, en niet tablet! Voor je eerste tests is een tablet minder geschikt, omdat het scherm niet voldoende afwijkt van dat van desktopcomputers. Een extreem verschil in schermgrootte zet je sneller op het goede spoor dan schermen die slechts iets kleiner dan het gemiddelde desktopscherm zijn.
+Let op: ik zeg hier _smartphone_, en niet tablet! Voor je eerste tests is een tablet minder geschikt, omdat het scherm niet voldoende afwijkt van dat van desktopcomputers. Een extreem verschil in schermgrootte zet je sneller op het goede spoor dan schermen die slechts iets kleiner dan het gemiddelde desktopscherm zijn.
 
 Maak je nog niet teveel zorgen over representativiteit van je smartphone: zelfs als je uitsluitend een iPhone of Android bezit, kan een snelle test je toch al iets nuttigs vertellen over mobiele websites. De belangrijkste wijziging ten opzichte van een ouderwetse desktop-site is het kleine scherm. Bedenk wat je er qua design en interactie aan wilt doen; later in dit artikel vind je de technische tip die je hiervoor nodig hebt.
 
-# Eén site of meerdere sites?
+## Eén site of meerdere sites?
 
 Idealiter vraagt je klant je om een geheel nieuwe website die zowel op desktop als op tablet en mobiel werkt. Op deze manier kan je direct aan de slag met nieuwe methodes en technieken—en wordt 't nog betaald ook.
 
@@ -23,15 +24,15 @@ Helaas zullen sommige klanten, vooral de kleinere, je vragen om hun site snel ge
 
 Er zijn twee basiskeuzes: of met behulp van media queries (die we zodadelijk zullen bespreken) enkele extra CSS-regels voor kleine schermen toevoegen, of een geheel aparte mobiele website opzetten, en mobiele browsers middels een server-side browser detect daar naartoe doorsturen.
 
-# Geen van beide oplossingen is ideaal:
+## Geen van beide oplossingen is ideaal:
 
-* Als je met media queries wat extra CSS invoegt, zorgt dat er wel voor dat de site er acceptabel uitziet, maar kan de site te zwaar blijven voor mobiele connecties. Immers, je kunt een groot plaatje of een video die niet geschikt is voor mobiel wel een snelle `display: none;` meegeven, maar daarmee voorkom je niet dat de browser het bestand downloadt.
-* Als je een aparte mobiele website maakt, zondig je tegen het One Web-principe. Het is zelden echt nodig om een aparte site voor mobiel te maken, en het bijhouden van twee sites in plaats van een zorgt ook voor de nodige administratieve traagheid. Een goed CMS kan hier uitkomst bieden, maar ... naja, we weten allemaal hoe het met CMS'en gesteld is.
-* Bovendien is er voor deze oplossing ook nog een goede browser detect nodig. En die zijn dun gezaaid.
+-   Als je met media queries wat extra CSS invoegt, zorgt dat er wel voor dat de site er acceptabel uitziet, maar kan de site te zwaar blijven voor mobiele connecties. Immers, je kunt een groot plaatje of een video die niet geschikt is voor mobiel wel een snelle `display: none;` meegeven, maar daarmee voorkom je niet dat de browser het bestand downloadt.
+-   Als je een aparte mobiele website maakt, zondig je tegen het One Web-principe. Het is zelden echt nodig om een aparte site voor mobiel te maken, en het bijhouden van twee sites in plaats van een zorgt ook voor de nodige administratieve traagheid. Een goed CMS kan hier uitkomst bieden, maar ... naja, we weten allemaal hoe het met CMS'en gesteld is.
+-   Bovendien is er voor deze oplossing ook nog een goede browser detect nodig. En die zijn dun gezaaid.
 
 Niettemin zullen deze twee tussenoplossingen waarschijnlijk je enige alternatieven zijn tijdens je eerste mobiele opdrachten. Klanten hebben nou eenmaal niet altijd het budget dat eigenlijk nodig is.
 
-# De grote truc
+## De grote truc
 
 Het maken van een mobiele site kent vele technische trucs en eigenaardigheden, maar één daarvan steekt met kop en schouders boven de rest uit: de combinatie van 'meta viewport' en `width` media queries.
 
@@ -83,7 +84,7 @@ Het is het beste om deze grenzen proefondervindelijk vast te stellen: maak een (
 
 Als je de meta viewport combineert met de `width` media query, heb je de voornaamste CSS-stap op weg naar een universele site gezet.
 
-# Browsers
+## Browsers
 
 Zodra je mobile webontwikkelen serieus gaat aanpakken, kom je op de vraag in welke browsers je moet testen. De leidraad is uiteraard de browserverdeling die het statistiekenpakket van je klant laat zien, maar als dat pakket niet zo goed is, geen aparte mobiele statistieken bijhoudt, of helemaal afwezig is, moet je een gok nemen.
 
@@ -105,11 +106,11 @@ BlackBerry heeft vanaf OS6 een nieuwe, uitstekende browser die op WebKit gebasee
 
 De Nokia-browser, tenslotte, is ook op WebKit gebaseerd, en is redelijk, maar niet overweldigend goed. Als deze browser voor je van belang is, zorg er dan voor dat je zowel oude als nieuwe Nokia-toestellen tot je beschikking hebt.
 
-# Toestellen kopen
+## Toestellen kopen
 
 Dat brengt ons op het laatste onderwerp: welke toestellen moet je hebben?
 
-Je moet daadwerkelijke mobiele telefoons hebben. Hoewel emulators je kunnen helpen, zijn ze *niet goed genoeg* voor serieuze mobiele webontwikkelaars. Je moet een telefoon in je handen hebben en er mee werken zoals een gebruiker dat doet, anders kan je je site niet afdoende testen.
+Je moet daadwerkelijke mobiele telefoons hebben. Hoewel emulators je kunnen helpen, zijn ze _niet goed genoeg_ voor serieuze mobiele webontwikkelaars. Je moet een telefoon in je handen hebben en er mee werken zoals een gebruiker dat doet, anders kan je je site niet afdoende testen.
 
 Je dient dus budget in te plannen voor de aanschaf van mobiele telefoons. Dit is gewoon een zakelijke uitgave die je uiteindelijk weer aan je mobiele klanten terugverdient.
 
@@ -129,7 +130,7 @@ Ook een tablet zou geen gekke investering zijn. Uiteraard ligt een iPad het mees
 
 Probeer er voor te zorgen dat je tenminste elk half jaar of zo een nieuw apparaat kunt kopen. Niet alleen breid je zo gestaag je collectie uit, maar je kunt ook inspelen op veranderingen in de mobiele markt. Wat als webOS ineens door een grote partij wordt gelanceerd? Of als het mysterieuze Tizen-project toch iets blijkt voor te stellen? In dat geval moet je je kunnen veroorloven een nieuw testapparaat te kopen.
 
-# Tot slot
+## Tot slot
 
 Ik hoop dat deze collectie tips je helpt je eerste schreden naar webontwikkeling voor alle apparaten te zetten.
 

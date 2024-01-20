@@ -3,10 +3,10 @@ title: Herfstblaadjes zien
 date: 2022-12-24
 author: Job van Achterberg
 graphic:
-  src: blog/autumn-leaves.jpeg
-  alt: "Afbeelding van herfstblaadjes"
+    src: blog/autumn-leaves.jpeg
+    alt: 'Afbeelding van herfstblaadjes'
 categories:
-  - Adventskalender
+    - Adventskalender
 ---
 
 {% quote "Maurice Merleau-Ponty, Het Zichtbare en het Onzichtbare (1968)" %}
@@ -17,7 +17,7 @@ Afgelopen herfstvakantie was ons gezin op vakantie in de Duitse Eifel. Ons zoont
 
 {% figure "/_img/adventskalender/afbeelding-job-1.jpeg" "Een foto genomen op een asfalt bospad, dat zich uitstrekkend in de verte met een flauwe bocht naar rechts beweegt. Aan de linkerkant een heuvelrand, begroeid met bomen en struiken. Rechts een vangrail waarachter meer bomen te zien zijn. Het pad is bezaaid met herstbladeren. Een drietal personen, 2 volwassenen (man, vrouw) en een klein kind wandelen over het pad, met hun rug naar de camera. De man houdt het linkerhandje van het kind vast, in de rechterhand houdt het kind een herfstblaadje. De vrouw draagt een rode messenger-bag, donkere hoodie en spijkerbroek. De man draagt een platte pet, bruine jas en spijkerbroek. Het kind kijkt naar achter richting de camera, de volwassenen hebben hun blik op het kind gericht." "Aan de wandel op blote voeten. Foto: auteur." %}
 
-# Blaadjes zien
+## Blaadjes zien
 
 Tijdens deze wandelingen is elk gevallen herfstblaadje interessant. Voortdurend wordt het huidige opgeraapte blaadje verwisseld voor een ander blaadje dat de aandacht trekt. Sommige worden in stukjes gescheurd, andere blaadjes worden vluchtig bekeken en weer weggegooid.
 
@@ -27,11 +27,11 @@ Wandelingen verlopen langzaam op deze manier, maar om hem zo op zijn gemak bezig
 … any number of impressions, from any number of sensory sources, falling simultaneously on a mind which has not yet experienced them separately, will fuse into a single undivided object for that mind. The law is that all things fuse that can fuse, and nothing separates except what must. … The baby, assailed by eyes, ears, nose, skin, and entrails at once, feels it all as one great blooming, buzzing confusion; and to the very end of life, our location of all things in one space is due to the fact that the original extents or bignesses of all the sensations which came to our notice at once, coalesced together into one and the same space. There is no other reason than this why 'the hand I touch and see coincides spatially with the hand I immediately feel.'
 {% endquote %}
 
-# Ontwerpen keuren
+## Ontwerpen keuren
 
 Vanuit mijn werk in digitale toegankelijkheid word ik soms gevraagd om een ontwerp te keuren. Vaak zijn dit ontwerpen van websites, af en toe een app. Meestal binnen omgevingen zoals _Figma_, _Invision_ of _Adobe XD,_ maar ook in vroegere stadia zoals _creative exploration_ of abstracte wireframes. De manier waarop ik naar ontwerpen probeer te kijken doet me denken aan hoe Sam misschien wel naar de wereld kijkt.
 
-# Zien
+## Zien
 
 In zijn onvoltooide werk “Gedachten” — Pensées — schrijft de wiskundige, natuurkundige en filosoof Blaise Pascal over twee manieren van het benaderen van de werkelijkheid: het meetkundige denken, “l’espirit de géométrie”, en het fijne inzicht, “l’espirit de finesse”.
 
@@ -57,7 +57,7 @@ Dit verschil tussen meetkundig en verfijnd denken wordt prachtig uitgedrukt in d
 
 In beide gedichten staat het zien van — de ervaring van, de ontmoeting met — een bloem centraal. Maar de manier waarop de schrijvers een bloem ervaren verschilt sterk. Er is verwondering te lezen in beide gedichten, maar waar Bashō aanschouwt en uitnodigt, begint Tennyson met geometrie: het pakken van de bloem en daaruit te willen analyseren om uiteindelijk te willen begrijpen.
 
-# Niet zien
+## Niet zien
 
 Beide gedichten over de bloem veronderstellen de aanwezigheid van de bloem. Dat deze is waargenomen. En hoewel ik bij het keuren van een ontwerp me probeer te realiseren wat ik zie, is het weten wat ik _niet_ zie — en waarom — evenmin zo belangrijk. Denk bijvoorbeeld aan fenomenen zoals [Banner Blindness](https://en.wikipedia.org/wiki/Banner_blindness).
 
@@ -107,7 +107,7 @@ Everyone continued to look toward the beach. I heard Kristene, my six-year-old d
 
 "I don't know. I can't see anything."
 
-# Te veel zien
+## Te veel zien
 
 De ervaring van Everett bij de Pirahā is vergelijkbaar met het probleem binnen AI en computerzicht: AI beeldherkenning is notoir slecht in het herkennen van zaken die voor de AI niet of onduidelijk bestaan. Net zoals Everett Xigagaí gewoonweg niet _kan_ zien (en de Pirahã vergelijkbaar verkeerssignalen en markeringen niet _zagen_ toen enkelen van hen met Everett naar een nabijgelegen stad reisden) is een AI engine niet in staat om dingen te zien die het model niet begrijpt of kent.
 
@@ -120,7 +120,7 @@ What is needed is a system that genuinely ignores most of what it knows, and ope
 
 En hoewel wij mensen er in vergelijking met AI vreselijk goed in zijn om de complexe werkelijkheid tot de voor ons relevante patronen terug te brengen — iets dat we ons zelden beseffen — probeer ik me er bij het keuren van een ontwerp van bewust te zijn dat ik in patronen en heuristiek naar een ontwerp kijk, en dat dit voor anderen kan verschillen. Ik probeer te schakelen in de manier waarop ik naar het ontwerp kijk, en me voor te stellen hoe dit voor anderen en hun context en doelen zou kunnen zijn. Ik probeer te schakelen tussen manieren van waarnemen, _á la_ Pascal.
 
-# Anders zien
+## Anders zien
 
 Als ik naar de Grand Canyon kijk, kan ik dit op meerdere manieren zien. Als enorm ravijn, als scheur in een landschap, en als doorsnede van een vreselijk oude planeet.
 
@@ -170,7 +170,7 @@ _Van links naar rechts: Meisje met de Parel, Johannes Vermeer; Girl with a Mando
 
 Dit raakt aan zowel [ontologie](<https://nl.wikipedia.org/wiki/Ontologie_(filosofie)>) — de categorieën van het Zijn — als aan [fenomenologie](https://nl.wikipedia.org/wiki/Fenomenologie): wat is het om te ervaren? Welke categorieën en beelden komen in ons op wanneer we kijken, wanneer we lezen?
 
-# Merels zien
+## Merels zien
 
 Wallace Stevens, Thirteen Ways of Looking at a Blackbird [stanzas I, II, VII] (1954)
 
@@ -210,7 +210,7 @@ Ludwig Wittgenstein, Filosofische Onderzoekingen (1953) (geparafraseerd)
 
 De aspecten van de dingen die voor ons het meest belangrijk zijn blijven ons door hun eenvoud en alledaagsheid verborgen. (Je merkt het niet op — omdat je het altijd voor ogen hebt.) De echte grondbeginselen van ons onderzoek vallen ons niet op.
 
-# Symbolen zien
+## Symbolen zien
 
 Tijdens het kijken naar een ontwerp komen er veelvuldig symbolen en iconen voorbij. Ik probeer me hierbij bewust te zijn van de [cultuursemiotiek](https://en.wikipedia.org/wiki/Semiotics_of_culture) — _waarom_ ik bepaalde symbolen kan interpreteren — en tot in hoeverre de symbolen kunnen bijdragen aan de begrijpbaarheid van het ontwerp. En hoewel het ▶️ ”play” symbool binnen de context van een video bijna universeel begrepen wordt, geef ik er nog steeds de voorkeur aan om er tekst bij te plaatsen. Andersom kunnen symbolen de begrijpbaarheid van tekst vergroten:
 
@@ -222,7 +222,7 @@ Masoud Yazdani, Iconic Communication [chapter 6: Communication Through Icons, by
 
 The argument that we should consider the combination of text and icon as a solution to our communicative objective may be a positive step forward. Is it not true that we see in our everyday life people combining spoken language with gestures, hand and eye movements, intonational variations?
 
-# Kom en zie
+## Kom en zie
 
 Uiteindelijk beschouw ik het keuren van een ontwerp als een existentiële handeling. Het vertelt me iets over een ander, of anderen: zij die het ontwerp tot stand brachten. Het zegt iets over hun kijk op de wereld, en hoe een spectrum van mogelijke doelen door hen naar een ontwerp wordt vertaald.
 

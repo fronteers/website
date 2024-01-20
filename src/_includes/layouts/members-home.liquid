@@ -8,36 +8,39 @@ layout: base
 
         <table>
             <thead>
-                <th scope="col">Naam</th>
-                <th scope="col">Werkgever</th>
+                <th scope='col'>Naam</th>
+                <th scope='col'>Werkgever</th>
             </thead>
             <tbody>
                 {%- for lid in members-list %}
                     {% unless lid.naam == 'EOF' %}
                         <tr>
                             <td>
+                                <span class='blog-author'>{{ lid.naam }}</span>
+                                <!--
                                 {%- for member in members -%}
                                     {%- if member.data.title == lid.naam -%}
                                         {%- assign memberHasAProfilePage = true -%}
                                         {%- assign memberUrl = member.url -%}
                                     {%- else -%}
                                         {%- assign memberHasAProfilePage = false -%}
+                                        <span class='blog-author'>{{ lid.naam }}</span>
                                     {%- endif -%}
 
                                     {%- if memberHasAProfilePage -%}
-                                        <a href='{{ memberUrl }}'>
-                                            {{ lid.naam }}</a>
+                                        <a href='{{ memberUrl }}'> {{ lid.naam }}</a>
                                         {% break %}
                                     {%- else -%}
-                                        <span class='blog-author'>{{ lid.naam }}</span>
+                                        
                                     {%- endif -%}
                                     {% break %}
                                 {%- endfor -%}
+                                -->
                             </td>
                             <td>
                                 {% if lid.werkgever == '-' %}
-                                    {% else %}
-                                        {{ lid.werkgever }}
+                                {% else %}
+                                    {{ lid.werkgever }}
                                 {% endif %}
                             </td>
                         </tr>

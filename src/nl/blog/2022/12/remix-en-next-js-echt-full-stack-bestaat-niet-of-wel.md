@@ -3,14 +3,15 @@ title: 'Remix en Next.js: "echt" full-stack bestaat niet, of wel?'
 date: 2022-12-07
 author: Lody Borgers
 summary: 'Een goede blog begint altijd met een controversiële titel, zeggen ze toch? Maar er zit wel een gedachte achter.'
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Een goede blog begint altijd met een controversiële titel, zeggen ze toch? Maar er zit wel een gedachte achter.
 
 Een "echte" full-stacker, die zijn ontzettend zeldzaam. In mijn jarenlange carrière heb ik er 1, misschien 2 ontmoet. Let wel, met "echte" full-stacker bedoel ik de term die HR en management helaas vaak gebruiken: iemand die 50% op front-end en 50% op back-end ingezet kan worden.
 
-Dit is lastig, want front-end en back-end (in ieder geval de wat klassiekere variant) zijn twee complete disciplines. Ieder met hun eigen *languages* en *tools*, met hun eigen *best practices*, met hun eigen *thought leaders*, en ga zo maar door.
+Dit is lastig, want front-end en back-end (in ieder geval de wat klassiekere variant) zijn twee complete disciplines. Ieder met hun eigen _languages_ en _tools_, met hun eigen _best practices_, met hun eigen _thought leaders_, en ga zo maar door.
 
 Op de werkvloer komt het geregeld voor dat IT-afdelingen zoeken naar (enkel) full-stack ontwikkelaars omdat die flexibel en -vooral- goedkoop zijn. Je krijgt 2 ontwikkelaars voor de prijs van één toch? In de praktijk krijg je meestal iemand die een expert is één discipline, en "goed genoeg" in de andere.
 
@@ -20,15 +21,15 @@ Het is daarom geinig dat er de laatste jaren front-end meta-frameworks op zijn g
 
 Trouwens, "schuldig" moet je met een korrel zout nemen. Het is namelijk, als je het mij vraagt, een goede ontwikkeling.
 
-# Wat zijn meta-frameworks?
+## Wat zijn meta-frameworks?
 
 Remix en Next.js worden tegenwoordig vaak "meta-frameworks" genoemd, omdat ze meer doen dan alleen zorgen dat je met React een user interface kan bouwen. Meta-frameworks hebben ook controle over de server waar je applicatie op draait.
 
-Dit is een hele grote reden waarom Remix (en Next.js) het zo makkelijk maken om full-stack te werken. Ze weten beide *welk* deel van je code server-side en welk deel client-side is. En daardoor kunnen ze een aantal aannames maken:
+Dit is een hele grote reden waarom Remix (en Next.js) het zo makkelijk maken om full-stack te werken. Ze weten beide _welk_ deel van je code server-side en welk deel client-side is. En daardoor kunnen ze een aantal aannames maken:
 
-* Het is makkelijk om de code te splitten: de browser downloadt alleen de client-side code en niks van de server-side code waar het niks mee kan.
-* Routing kan worden ingebouwd en is niet meer enkel client-side: we gaan als het ware weg van de single-page applications en weer richting de multi-page applications.
-* De weg tussen client-side en server-side is makkelijker omdat die wordt gecontroleerd door het meta-framework. Dit zie je in zowel Remix als Next.js, waar de server-side code al geprocessed is (Next.js geeft je in zijn `NextAPIRequest` object een `[body` die al geparsed is door de `content-type` header](https://nextjs.org/docs/api-routes/request-helpers) (dit kan je uitzetten trouwens), Remix revalideert telkens de data nadat een `<form/>` is verstuurd).
+-   Het is makkelijk om de code te splitten: de browser downloadt alleen de client-side code en niks van de server-side code waar het niks mee kan.
+-   Routing kan worden ingebouwd en is niet meer enkel client-side: we gaan als het ware weg van de single-page applications en weer richting de multi-page applications.
+-   De weg tussen client-side en server-side is makkelijker omdat die wordt gecontroleerd door het meta-framework. Dit zie je in zowel Remix als Next.js, waar de server-side code al geprocessed is (Next.js geeft je in zijn `NextAPIRequest` object een `[body` die al geparsed is door de `content-type` header](https://nextjs.org/docs/api-routes/request-helpers) (dit kan je uitzetten trouwens), Remix revalideert telkens de data nadat een `<form/>` is verstuurd).
 
 ## Van de server naar de client naar de server
 
@@ -87,19 +88,19 @@ Meta-frameworks bieden ook al oplossingen voor het routen van je applicatie of w
 
 Met de RFC over [React Server Components](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md#basic-example) zien we dat React ook deze kant op aan het bewegen is. Je zien dat deze manier van denken steeds meer voeten aan de grond begint te krijgen in de wereld van front-end.
 
-# Wat is Remix?
+## Wat is Remix?
 
 Maar waar valt Remix in dit verhaal?
 
-De meeste van ons kennen of werken met Next.js, dat pas geleden alweer versie 13 presenteerde met ontzettend veel nieuwe updates. Next.js presenteert zichzelf als hét React framework. Oftewel: de beste manier om een React applicatie te bouwen is met Next.js. Het React-team doet hieraan mee door Next.js aan te raden in [hun (nieuwe) documentatie](https://beta.reactjs.org/learn/start-a-new-react-project#building-with-a-full-featured-framework) (wel met een *special mention* voor Remix!). Het is ook interessant dat een van de grootste nieuwe features in React, namelijk React Server Components, eerst gedebuteerd werd in een RFC voor Next.js 13 dan op de website van React zelf. Next.js heeft lang het React-landschap gedomineerd als framework. Tot nu toe, want ineens was daar Remix.
+De meeste van ons kennen of werken met Next.js, dat pas geleden alweer versie 13 presenteerde met ontzettend veel nieuwe updates. Next.js presenteert zichzelf als hét React framework. Oftewel: de beste manier om een React applicatie te bouwen is met Next.js. Het React-team doet hieraan mee door Next.js aan te raden in [hun (nieuwe) documentatie](https://beta.reactjs.org/learn/start-a-new-react-project#building-with-a-full-featured-framework) (wel met een _special mention_ voor Remix!). Het is ook interessant dat een van de grootste nieuwe features in React, namelijk React Server Components, eerst gedebuteerd werd in een RFC voor Next.js 13 dan op de website van React zelf. Next.js heeft lang het React-landschap gedomineerd als framework. Tot nu toe, want ineens was daar Remix.
 
 Remix is gemaakt door [Ryan Florence](https://twitter.com/ryanflorence) en [Michael Jackson](https://twitter.com/mjackson) (nee niet díe), de bedenkers van React Router. Zij wilden een framework maken dat focused op [web standaarden en moderne UX](https://remix.run/blog/seed-funding-for-remix#web-standards-modern-ux) (dit zijn hun woorden). Remix richt zich op "use the platform" en maakt daar zoveel mogelijk gebruik van hoe een browser werkt of wat de HTTP standaard vertelt. Component-scoped CSS? Hier heb je geen CSS-In-JS of CSS Modules voor nodig, in Remix exporteer je een `links()` export voor je component of route en [Remix voegt een `` tag toe op de noodzakelijke routes](https://remix.run/docs/en/v1/guides/styling).
 
-Progressive enhancement is ook een belangrijk onderdeel van de principes van Remix. Het is bijvoorbeeld niet alleen *makkelijk* om een werkende applicatie te bouwen in Remix dat client side **geen JavaScript** gebruikt, Remix duwt je zelfs die kant een beetje in. Een groot deel van applicatie functionaliteiten waar we tegenwoordig JavaScript voor inzetten, zoals het ophalen en versturen van form data, werkt in Remix simpelweg met een `<form method="post">`, een `loader` functie die aangeroepen wordt op GET requests (dus ook page loads, als je route een `loader` functie export) en een `action` functie die op POST (en PUT) requests draait. Is JavaScript niet beschikbaar op een browser? Dan wordt het formulier verstuurd via een redirect naar de server en terug naar de client (zoals we vroeger deden met PHP). Is JavaScript er wel? Dan wordt de request op de pagina zelf gedaan zonder redirect en krijgt de gebruiker automatisch de nieuwe data te zien.
+Progressive enhancement is ook een belangrijk onderdeel van de principes van Remix. Het is bijvoorbeeld niet alleen _makkelijk_ om een werkende applicatie te bouwen in Remix dat client side **geen JavaScript** gebruikt, Remix duwt je zelfs die kant een beetje in. Een groot deel van applicatie functionaliteiten waar we tegenwoordig JavaScript voor inzetten, zoals het ophalen en versturen van form data, werkt in Remix simpelweg met een `<form method="post">`, een `loader` functie die aangeroepen wordt op GET requests (dus ook page loads, als je route een `loader` functie export) en een `action` functie die op POST (en PUT) requests draait. Is JavaScript niet beschikbaar op een browser? Dan wordt het formulier verstuurd via een redirect naar de server en terug naar de client (zoals we vroeger deden met PHP). Is JavaScript er wel? Dan wordt de request op de pagina zelf gedaan zonder redirect en krijgt de gebruiker automatisch de nieuwe data te zien.
 
-Tot nu toe hebben we het op een redelijk luchtig niveau gehad over full-stack en meta-frameworks, maar je zou je kunnen afvragen *hoe* een meta-framework ons precies de full-stack kant induwt?
+Tot nu toe hebben we het op een redelijk luchtig niveau gehad over full-stack en meta-frameworks, maar je zou je kunnen afvragen _hoe_ een meta-framework ons precies de full-stack kant induwt?
 
-# Op weg naar full-stack
+## Op weg naar full-stack
 
 We duiken die vraag in met hulp van een aantal voorbeelden. We zien ook hoe bepaalde dingen die we eerst aan de back-end zouden toeschrijven naar de front-end worden gehaald.
 
@@ -119,13 +120,13 @@ Remix geeft een [simpel voorbeeld hiervan](https://remix.run/docs/en/v1/guides/d
 
 Inhakend op het database-verhaal: wat als je een front-end project wil omzetten naar een meta-framework maar de back-end met alle database operaties staan al vast?
 
-Nou, als eerste wil ik je zeggen: je hoeft niet alles om te bouwen naar iets nieuws *omdat* het iets nieuws is. Als de infrastructuur rondom de back-end en database al staat, gebruik je lekker dat. Het scheelt een boel tijd en moeite voor iets dat al werkt.
+Nou, als eerste wil ik je zeggen: je hoeft niet alles om te bouwen naar iets nieuws _omdat_ het iets nieuws is. Als de infrastructuur rondom de back-end en database al staat, gebruik je lekker dat. Het scheelt een boel tijd en moeite voor iets dat al werkt.
 
-Wat je *wel* kan doen, is de server van je meta-framework gebruiken als proxy. Dit biedt weer een boel nieuwe opties en mogelijkheden:
+Wat je _wel_ kan doen, is de server van je meta-framework gebruiken als proxy. Dit biedt weer een boel nieuwe opties en mogelijkheden:
 
-* Je kan requests load-balancen en responses cachen.
-* Je kan environment variables gebruiken voor bepaalde secret tokens.
-* Je kan de response van requests naar je database of een externe back-end muteren voor je het terugstuurt (hier kom ik straks nog op terug).
+-   Je kan requests load-balancen en responses cachen.
+-   Je kan environment variables gebruiken voor bepaalde secret tokens.
+-   Je kan de response van requests naar je database of een externe back-end muteren voor je het terugstuurt (hier kom ik straks nog op terug).
 
 In je meta-framework kan je je server inzetten om requests naar een (externe) back-end te sturen, eventueel voorzien van een authenticatie token.
 
@@ -189,8 +190,8 @@ Even een side note: Remix heeft helper functions zoals [`json()`](https://remix.
 
 Het komt soms voor dat we een dure operatie moeten uitvoeren. Met "duur" bedoel ik dan een operatie die:
 
-* Veel processorkracht kost;
-* Veel data heen of terugstuurt;
+-   Veel processorkracht kost;
+-   Veel data heen of terugstuurt;
 
 Denk hierbij vooral aan het on-the-fly genereren van responsive afbeeldingen, het omgaan met grote payloads in requests of responses (scheelt weer een GraphQL server), het sanitizen van input data van de gebruiker, of het parsen van markdown uit de database naar HTML voor de client (zoals bij een blog).
 
@@ -303,7 +304,7 @@ Wanneer op de knop geklikt wordt, zal Remix een POST request uitvoeren. Onder wa
 
 In de `action`, halen we uit de `request` het kenteken dat de gebruiker heeft ingevoerd. De query vraagt naast een kenteken ook om een voertuigtype, maar dat hoeft de gebruiker niet in te vullen. Wij zetten het naar `car`, en vullen de query aan met het kenteken en hoppa!
 
-Dit is natuurlijk een erg simpel voorbeeld, maar als je wilt interacteren met een API dat veel data vraagt in zijn request én jij weet dat veel properties naar een standaard waarde worden ingesteld, *hoef je die niet te vragen in de request van jouw client naar de server*. Je stuurt enkel de data die daadwerkelijk ingevuld wordt door de gebruiker, vult het aan met alle standaard data (of aangevulde business logica, zoals misschien een `userID` dat je uit je sessie data haalt) en stuurt dit naar de client. In ons voorbeeld bevat `VehicleQuery`  maar 2 properties, maar wat als je een API hebt dat 20-30 properties heeft waarvan 80% een standaard waarde heeft?
+Dit is natuurlijk een erg simpel voorbeeld, maar als je wilt interacteren met een API dat veel data vraagt in zijn request én jij weet dat veel properties naar een standaard waarde worden ingesteld, _hoef je die niet te vragen in de request van jouw client naar de server_. Je stuurt enkel de data die daadwerkelijk ingevuld wordt door de gebruiker, vult het aan met alle standaard data (of aangevulde business logica, zoals misschien een `userID` dat je uit je sessie data haalt) en stuurt dit naar de client. In ons voorbeeld bevat `VehicleQuery` maar 2 properties, maar wat als je een API hebt dat 20-30 properties heeft waarvan 80% een standaard waarde heeft?
 
 Dan het vervolg: de query is gelukt en we hebben informatie gekregen van de API. Er is meer data teruggekomen dan we daadwerkelijk nodig hebben, dus we pakken de velden die we wél willen (`make` en `model`), en sturen dit terug naar de client.
 
@@ -321,7 +322,7 @@ Zo kan je een validatie function schrijven voor een e-mailadres. Die functie kan
 
 Maar, in het kader van progressive enhancement, willen we ook het e-mailadres valideren als de gebruiker het e-mail veld heeft ingevuld en vervolgens naar een ander veld gaat.
 
-In dit geval kunnen we dezelfde validatie functie gebruiken, en deze *op de client* draaien. We hergebruiken de validatie tussen de client en de server zonder problemen.
+In dit geval kunnen we dezelfde validatie functie gebruiken, en deze _op de client_ draaien. We hergebruiken de validatie tussen de client en de server zonder problemen.
 
 ```
 // ./app/validations/email.ts
@@ -362,7 +363,7 @@ export const action = async ({ request }: ActionArgs) => {
       status: 'error',
       message: 'E-mail is niet correct',
     };
-	
+
 		return json(response, { status: 500 });
   }
 
@@ -407,22 +408,22 @@ Zoals je ziet in het voorbeeld kunnen we hetzelfde principe toepassen voor TypeS
 
 {% note" Als je Remix al kent, zie je dat ik `useActionData<typeof action>()` gebruik. In feite geeft dit al het correcte type mee voor `data` in mijn code editor en hoef ik die niet expliciet te typen voor TypeScript. Je kan het altijd nog expliciet meegeven aan `data` wanneer je het declareert." %}
 
-# State management
+## State management
 
 De diepe samenwerking tussen client en server in meta-frameworks komt ook van pas als het gaat om state management.
 
 Over de jaren heen zijn er vele mogelijkheden gekomen om state management te doen in React. Dit komt met name omdat applicaties complexer worden én omdat data een steeds grotere rol aan het spelen is in die applicaties. Het komt er grofweg op neer dat een applicatie (dit geldt soms ook voor websites trouwens) rekening moet houden met 2 zaken:
 
-* De application state, oftewel de *global state* van een applicatie;
-* Data mutaties, oftewel het aannemen, verwerken en weergeven van gebruikersdata;
+-   De application state, oftewel de _global state_ van een applicatie;
+-   Data mutaties, oftewel het aannemen, verwerken en weergeven van gebruikersdata;
 
 Meestal wordt er een state management library gekozen om dit allemaal in bij te houden. Daar komt ook bij dat in Create React App deze state management voornamelijk (of zelfs helemaal) op de client wordt gedaan. Maar het leuke van meta-frameworks is dat ze de mogelijkheid bieden hier slimmer mee om te gaan.
 
-# Application state
+## Application state
 
 Eerst kijken we naar application state, wat wordt daar nou mee bedoeld?
 
-In de meeste applicaties of websites wil je bepaalde states bijhouden zodat de gebruiker bijvoorbeeld functionaliteiten kan doen of instellingen wil bijhouden. Ik pak het voorbeeld van een *dark mode* toggle. Op de meeste applicaties of websites zit er in het menubalkje een knop waarmee je kan aangeven of je de lichte of donkere versie van de website wil zien.
+In de meeste applicaties of websites wil je bepaalde states bijhouden zodat de gebruiker bijvoorbeeld functionaliteiten kan doen of instellingen wil bijhouden. Ik pak het voorbeeld van een _dark mode_ toggle. Op de meeste applicaties of websites zit er in het menubalkje een knop waarmee je kan aangeven of je de lichte of donkere versie van de website wil zien.
 
 Op mijn website zie je zo'n toggle button zitten, ik heb hem gefocused met mijn keyboard want waarom niet? ;)
 
@@ -432,7 +433,7 @@ Als je er op klikt verandert het kleurenschema in een donkere variant.
 
 ![mijn website in dark mode, waarbij je een donkere achtergrond en lichte tekst ziet](https://fronteers.nl/_img/adventskalender/advents-lody-2.png)
 
-De standaardmode van de website is *light mode*, dus als je de website bezoekt en je hebt nog geen voorkeur aangegeven door te klikken op de knop (of je hebt geen `prefers-color-scheme` instelling) is de achtergrond wit en de tekst donkerblauw.
+De standaardmode van de website is _light mode_, dus als je de website bezoekt en je hebt nog geen voorkeur aangegeven door te klikken op de knop (of je hebt geen `prefers-color-scheme` instelling) is de achtergrond wit en de tekst donkerblauw.
 
 Nu is het de bedoeling dat de mode die je kiest wordt onthouden op iedere pagina die je bezoekt. Klik je op de homepage op het zonnetje, wordt de achtergrond donkerblauw en de tekst wit. Dit krijg je dan ook te zien op ieder volgende pagina.
 
@@ -446,7 +447,7 @@ Mijn website is gebouwd in Remix (surprise, surprise), en de manier hoe ik het o
 2. We bouwen een `<DarkModeToggle/>` knop die via een prop weet of die aan of uit staat (en zijn icoontje aanpast) en een POST doet naar een endpoint op de server als je er op klikt.
 3. We bouwen de endpoint op de server om de cookie aan te passen met de nieuwe dark mode state.
 
-# Stap 1: We maken een cookie die door de browsers wordt meegestuurd met iedere request.
+## Stap 1: We maken een cookie die door de browsers wordt meegestuurd met iedere request.
 
 In simpele vorm ziet dit er zo uit, waarbij we beginnen met het maken van een cookie. Dit wordt dan door de browser meegestuurd met iedere request.
 
@@ -506,7 +507,7 @@ export default function App() {
 }
 ```
 
-# Stap 2: We bouwen een `<DarkModeToggle/>` knop die via een prop weet of die aan of uit staat (en zijn icoontje aanpast) en een POST doet naar een endpoint op de server als je er op klikt.
+## Stap 2: We bouwen een `<DarkModeToggle/>` knop die via een prop weet of die aan of uit staat (en zijn icoontje aanpast) en een POST doet naar een endpoint op de server als je er op klikt.
 
 We bouwen een knop dat op basis van een prop (`enabled`) weet of dark mode aan staat of niet. In het geval dat het aan staat, laten we een ander icoontje zien en zetten we een andere waarde voor de POST request dan wanneer het uit staat.
 
@@ -545,9 +546,9 @@ const DarkModeToggle = ({ enabled }: Props) => {
 export default DarkModeToggle;
 ```
 
-# Stap 3: We bouwen de endpoint op de server om de cookie aan te passen met de nieuwe dark mode state.
+## Stap 3: We bouwen de endpoint op de server om de cookie aan te passen met de nieuwe dark mode state.
 
-Op de server maken we een API route aan. In Next.js kan dit door een bestand genaamd `cookies.ts` aan te maken in de `./pages/api` map. Remix geeft je de mogelijkheid om zogenoemde *resource routes* aan te maken: routes zonder een React component export. Zelf vind ik het altijd fijner om deze resource routes te bundelen in een `/api/` folder zodat het duidelijk te zien is dat dit een andere soort route is.
+Op de server maken we een API route aan. In Next.js kan dit door een bestand genaamd `cookies.ts` aan te maken in de `./pages/api` map. Remix geeft je de mogelijkheid om zogenoemde _resource routes_ aan te maken: routes zonder een React component export. Zelf vind ik het altijd fijner om deze resource routes te bundelen in een `/api/` folder zodat het duidelijk te zien is dat dit een andere soort route is.
 
 We pakken de form data uit de request, kijken of dark mode aan-, of juist uitgezet is, en passen het cookie aan.
 
@@ -591,8 +592,8 @@ Et voilà. We hebben nu management van de state van de dark mode op onze website
 
 Een andere vorm van state management kan worden gedaan op data mutaties. Hierbij wordt data uitgelezen, bewerkt en wederom opgeslagen. Het heeft veel weg van application state, met een paar belangrijke verschillen:
 
-- De *waarde* van de state is opgeslagen op de server in een data store (zoals een database, in tegenstelling tot een cookie).
-- De *houdbaarheidsdatum* van de state is langer dan een gebruikerssessie. Neem als voorbeeld een blog: de content (zoals de posts) "leven door" als ik klaar ben met het schrijven van een post en het tabblad weer sluit. Of ik op dat moment dark mode aan of uit heb staan (application state) is minder relevant en die state mag zelfs weer vergeten worden.
+-   De _waarde_ van de state is opgeslagen op de server in een data store (zoals een database, in tegenstelling tot een cookie).
+-   De _houdbaarheidsdatum_ van de state is langer dan een gebruikerssessie. Neem als voorbeeld een blog: de content (zoals de posts) "leven door" als ik klaar ben met het schrijven van een post en het tabblad weer sluit. Of ik op dat moment dark mode aan of uit heb staan (application state) is minder relevant en die state mag zelfs weer vergeten worden.
 
 De mensen van Remix hebben hier nog een uitgebreide post op geschreven die zeker het moeite waard is om te lezen: https://remix.run/blog/remix-data-flow. Ik jat een van de afbeeldingen die zij in hun post hebben geschreven, omdat dit het beste illustreert hoe Remix het state management overneemt als het gaat over data mutaties.
 
@@ -606,22 +607,22 @@ Wat we zien in Remix, is dat tijdens het laden van de pagina de product data uit
 
 ![een codevoorbeeld van een product component dat een form bevat, en de loader functie voor de GET requests en action functie voor de POST request](https://fronteers.nl/_img/adventskalender/advents-lody-3.png)
 
-In feite zien we hier de state machine: we "updaten" de state van een product door één van de velden te bewerken en vervolgens op te slaan. Remix voert de `action` functie uit, stuurt de gebruiker terug naar `/products/[product ID]/edit`, waar tijdens de page load data wordt uitgelezen uit de database met behulp van de `load` functie. Remix *rendert* het `Route` component dat de data van de server "verwerkt" in de HTML. De data stroomt via één route, de client blijft in sync met de server en je hoeft niet te letten op race conditions.
+In feite zien we hier de state machine: we "updaten" de state van een product door één van de velden te bewerken en vervolgens op te slaan. Remix voert de `action` functie uit, stuurt de gebruiker terug naar `/products/[product ID]/edit`, waar tijdens de page load data wordt uitgelezen uit de database met behulp van de `load` functie. Remix _rendert_ het `Route` component dat de data van de server "verwerkt" in de HTML. De data stroomt via één route, de client blijft in sync met de server en je hoeft niet te letten op race conditions.
 
-Ik wil je er ook even op wijzen dat er client-side geen JavaScript draait, en dat de inhoud van het formulier op de server gerenderd wordt. Dat betekent dat het ophalen van de nieuwe data en het zetten van de `defaultValue` van de twee inputs, *gebeurt op de server en niet de client*! Het scheelt dus ook dat we geen state management library hoeven te draaien op de client om dit werkend te krijgen.
+Ik wil je er ook even op wijzen dat er client-side geen JavaScript draait, en dat de inhoud van het formulier op de server gerenderd wordt. Dat betekent dat het ophalen van de nieuwe data en het zetten van de `defaultValue` van de twee inputs, _gebeurt op de server en niet de client_! Het scheelt dus ook dat we geen state management library hoeven te draaien op de client om dit werkend te krijgen.
 
 Next.js biedt hier ook mogelijkheden voor, zowel out-of-the-box als met packages als `next-runtime` waar ik later op terugkom.
 
-# Een diepere blik op Remix
+## Een diepere blik op Remix
 
 Goed, we hebben nu een aantal voorbeelden gezien waarin full-stack development een steeds grotere rol speelt in ons werk als front-end developer. We hebben ook gezien hoe meta-frameworks zoals Remix ons tonen hoe we bepaalde functionaliteiten of zelfs strategieën kunnen implementeren nu we zelf ook controle hebben over de server.
 
 Ik wil dus even dieper ingaan op Remix zelf. Voor mij heeft Remix een aantal voordelen ten opzichte van Next.js als het gaat om het bouwen van een React project. Veel van de voorbeelden die ik zojuist liet zien maakten gebruik van Remix (ook al zijn ze allemaal ook in Next.js uit te voeren). Er zijn wel wat zaken die ik verder wil uitlichten:
 
-* Routes, nested routes en resource routes.
-* Wat doen die `action`'s en `loader` functions nou precies?
-* Foutafhandeling in Remix: ErrorBoundaries en CatchBoundaries.
-* Forms
+-   Routes, nested routes en resource routes.
+-   Wat doen die `action`'s en `loader` functions nou precies?
+-   Foutafhandeling in Remix: ErrorBoundaries en CatchBoundaries.
+-   Forms
 
 ## Routes, nested routes en resource routes
 
@@ -820,12 +821,12 @@ export const action = async ({ request }) => {
 };
 ```
 
-Het leuke hiervan is dat dit werkt *zonder JavaScript*. Ik zei al eerder dat Remix je wel eens lichtjes in de richting van progressive enhancement duwt, dit is zo'n voorbeeld. Remix voert de volgende stappen uit wanneer iemand op "Inloggen" klikt:
+Het leuke hiervan is dat dit werkt _zonder JavaScript_. Ik zei al eerder dat Remix je wel eens lichtjes in de richting van progressive enhancement duwt, dit is zo'n voorbeeld. Remix voert de volgende stappen uit wanneer iemand op "Inloggen" klikt:
 
-* De browser serialiseert de data van het formulier in de body van een POST request;
-* De browser navigeert de gebruiker naar de endpoint van de form (in dit geval is het dezelfde URL, maar met `<form action="/insert-endpoint-here"` kan je dit veranderen);
-* De server verwerkt de request en stuurt een redirect naar de browser (in dit geval wederom naar dezelfde URL, maar dit kan je veranderen);
-* De browser herlaadt de pagina;
+-   De browser serialiseert de data van het formulier in de body van een POST request;
+-   De browser navigeert de gebruiker naar de endpoint van de form (in dit geval is het dezelfde URL, maar met `<form action="/insert-endpoint-here"` kan je dit veranderen);
+-   De server verwerkt de request en stuurt een redirect naar de browser (in dit geval wederom naar dezelfde URL, maar dit kan je veranderen);
+-   De browser herlaadt de pagina;
 
 Het is ook mogelijk om via `onsubmit` een `fetch` handler in te zetten zodat je het formulier kan verzenden en de nieuwe data in kan laden zónder page reload, zodra JavaScript is ingeladen. Maar Remix vangt dit al voor je af met hun `<Form/>` component.
 
@@ -847,7 +848,7 @@ export default function Form() {
 }
 ```
 
-Maar wat nou als we willen dat de verzend knop niet klikbaar is *terwijl* de gebruiker wil inloggen (en we dus maar één request naar de server per keer sturen)?
+Maar wat nou als we willen dat de verzend knop niet klikbaar is _terwijl_ de gebruiker wil inloggen (en we dus maar één request naar de server per keer sturen)?
 
 Gebruik `useTransition`:
 
@@ -900,7 +901,7 @@ In het kort: we gaan ervan uit dat de opsla- of bewerkingsactie lukt en laten al
 
 De [documentatie van Remix](https://remix.run/docs/en/v1/guides/optimistic-ui) legt dit concept haarfijn uit, beter dan ik het zou kunnen.
 
-# Maar, hoe zit het dan met Next.js 13?
+## Maar, hoe zit het dan met Next.js 13?
 
 Een paar weken geleden kwam de Layouts RFC uit van Next.js, waarin ze een plan presenteerden om naast de `pages/` folder nu ook een `app/` folder te ondersteunen. Binnen deze folder kon je dan nested routes, shared layouts en React server components gebruiken. Veel ideeën voelde bekend aan als je Remix had gebruikt, en ik heb het idee dat Vercel, het bedrijf achter Next.js, ook zeker goed had gekeken naar de manier waarom Remix werkte.
 
@@ -912,7 +913,7 @@ Persoonlijk is voelt mij Remix nog steeds het fijnste als framework. Remix geeft
 
 Dit is voor mij nog steeds een van de hoofdpunten: met Remix werk je makkelijker met progressive enhancement. De discussie over "JavaScript enabled or disabled" is nog steeds gaande, en het is ook niet iets waar ik nu een standpunt voor inneem. Wat ik wél merk, is dat het niet zo'n raar idee is dat je JavaScript niet wordt geladen of juist zo ontzettend traag dat je niet aan de slag kan. Enkele voorbeelden van scenario's die ik mee heb gemaakt waarin een gemiddelde JavaScript bundel niet of nauwelijks werd geladen waren tijdens een weekje op Center Parcs (zeker als meerdere mensen een laptop mee hebben), of als je in Eindhoven op het terras zit tijdens een thuiswedstrijd van PSV of een concert van Guus Meeuwis.
 
-# In dat geval is het "succes ermee!"
+## In dat geval is het "succes ermee!"
 
 Het is niet zo dat ik met Remix nu ineens geen JavaScript verscheep naar de client, zeker wel. Maar ik merk dat ik, door het off-loaden van logica naar de server of de manier hoe data mutaties worden gedaan door forms, ik minder vaak JavaScript "nodig" heb in de client. De grootste boosdoener is voor mij, hilarisch genoeg, de `[classnames](<https://www.npmjs.com/package/classnames>)` package van npm.
 
@@ -926,7 +927,7 @@ Next.js ondersteund al sinds jaar en dag server-side rendering (SSR) en static s
 
 ## Server-side rendering (SSR)
 
-Bij SSR wordt de pagina op de server gerenderd en wordt de HTML naar de browser gestuurd. De browser download ondertussen ook de JavaScript bundel en voert die vervolgens uit. Als dat gebeurd, worden de dynamische elementen op de pagina geladen en kan de gebruiker interacteren met wat er op het scherm staat. Dat laatste heet *hydration*.
+Bij SSR wordt de pagina op de server gerenderd en wordt de HTML naar de browser gestuurd. De browser download ondertussen ook de JavaScript bundel en voert die vervolgens uit. Als dat gebeurd, worden de dynamische elementen op de pagina geladen en kan de gebruiker interacteren met wat er op het scherm staat. Dat laatste heet _hydration_.
 
 ## Static site generation
 
@@ -934,17 +935,17 @@ Bij SSG worden de HTML pagina's tijdens het bouwen van de site opgebouwd. Als je
 
 ## Incremental static regeneration
 
-Om dat laatste op te lossen heeft Next.js ISR ingebouwd, waarbij een (gedeeltelijke) rebuild van de site wordt gedaan als de data gerevalideerd wordt. Dit kan op basis van tijd, zoals "iedere 60 seconden", of *on-demand*. In Next.js kan je een API route maken die Next.js verteld alles te *revalidaten* als je die endpoint raakt, bijvoorbeeld met een webhook.
+Om dat laatste op te lossen heeft Next.js ISR ingebouwd, waarbij een (gedeeltelijke) rebuild van de site wordt gedaan als de data gerevalideerd wordt. Dit kan op basis van tijd, zoals "iedere 60 seconden", of _on-demand_. In Next.js kan je een API route maken die Next.js verteld alles te _revalidaten_ als je die endpoint raakt, bijvoorbeeld met een webhook.
 
 Remix ondersteunt alleen SSR.
 
-Static site generation (daar groepeer ik vanaf nu ook ISR onder), kwam vooral op in de tijd dat servers minder krachtig waren én ook niet al te goedkoop zijn. Voor websites met een zeg maar semi-dynamische content, zoals een blog, scheelde het geld als je die kon hosten op een CDN. Netlify heeft bijvoorbeeld een [gulle *free tier*](https://www.netlify.com/pricing/), dus je kan makkelijk een blog draaien zonder al te veel extra kosten.
+Static site generation (daar groepeer ik vanaf nu ook ISR onder), kwam vooral op in de tijd dat servers minder krachtig waren én ook niet al te goedkoop zijn. Voor websites met een zeg maar semi-dynamische content, zoals een blog, scheelde het geld als je die kon hosten op een CDN. Netlify heeft bijvoorbeeld een [gulle _free tier_](https://www.netlify.com/pricing/), dus je kan makkelijk een blog draaien zonder al te veel extra kosten.
 
 Tegenwoordig zijn servers niet alleen krachtiger en goedkoper geworden, de infrastructuur is ook een stuk beter. Het is tegenwoordig niet zo lastig meer om een netwerk van servers in te zetten als CDN. Hosting providers als DigitalOcean maken het makkelijk om meerdere servers ("droplets") in meerdere regionen in te zetten, en [Fly.io](http://fly.io/) heeft zelfs documentatie geschreven over [het scalen in meerdere regio's](https://fly.io/docs/reference/scaling/). [Fly.io](http://fly.io/) wordt trouwens meestal aangeraden door het team van Remix zelf, omdat vinden dat een Remix site met correcte caching headers en gehost in meerdere regionen op [Fly.io](http://fly.io/), [dezelfde performance geeft als een site gemaakt met SSG](https://twitter.com/remix_run/status/1483514038323539972).
 
 Of dat zo is, laat ik als een oefening voor de lezer.
 
-Persoonlijk vind ik het juist fijn dat Remix alleen SSR ondersteund. Ik kan de *flow* makkelijk in mijn hoofd kwijt: eerst server rendering, dan client hydration. In feite zorg ik ervoor dat mijn routes en components werken op de server en makkelijk gehydrateerd kunnen worden. Browser API's doe ik in `useEffect`, maar dit komt niet eens zo vaak voor.
+Persoonlijk vind ik het juist fijn dat Remix alleen SSR ondersteund. Ik kan de _flow_ makkelijk in mijn hoofd kwijt: eerst server rendering, dan client hydration. In feite zorg ik ervoor dat mijn routes en components werken op de server en makkelijk gehydrateerd kunnen worden. Browser API's doe ik in `useEffect`, maar dit komt niet eens zo vaak voor.
 
 Bij Next.js projecten moet ik wel eens nadenken of ik kies voor één van de drie strategieën, en SSG/ISR brengen stiekem best wat complexiteit met zich mee. Je moet toch (op zijn een minst simpele vorm van) een build straat aanleggen dat verbonden is met je productie database en het maken van een endpoint om een incremental static regeneration af te vuren is altijd wat werk. Next.js maakt het trouwens in versie 13 wat makkelijk door [een nieuwe API](https://beta.nextjs.org/docs/upgrade-guide#step-6-migrating-data-fetching-methods). Deze werkt trouwens alleen in de `app/` folder.
 
@@ -958,13 +959,13 @@ In Next.js is dit stuk wel veel verbeterd. Er is een hoofdstuk over data mutatie
 
 In de `pages/` folder is dit allemaal niet ondersteunt helaas. Om er op een (voor mij) logische manier mee te werken heb ik `[next-runtime](<https://www.npmjs.com/package/next-runtime>)` gebruikt in mijn Next.js projecten, waarbij ik POST requests binnen Next.js' `getServerSideProps` kan verwerken.
 
-# Hoe zit het aan het einde van de dag?
+## Hoe zit het aan het einde van de dag?
 
 Nou, aan het einde van de dag ben ik ontzettend onder de indruk van Next.js 13. Ik ga er zeker induiken en ik ben ontzettend benieuwd naar de updates die er nog gaan komen.
 
 Maar voor mij blijft Remix op nummer één staan. Voor mij "klopt het" gewoon, en kan ik ontzettend snel iets neerzetten. De [starters kits](https://remix.run/docs/en/v1/pages/stacks) zijn belachelijk uitgebreid en production-ready, en de [Jokes App tutorial](https://remix.run/docs/en/v1/tutorials/jokes) is één van de beste tutorials die ik heb gevolgd. Alles klikte toen ik die deed, en ik kan het je zeker aanraden.
 
-Maar wat het belangrijkste is, van zowel Next.js als Remix: ze geven ons front-enders méér tools om ons werk te kunnen doen. Ze bieden meer ruimte en flexibiliteit in ons werk door de *server* mee te nemen als onderdeel van onze, tjsah, laat ik "runtime environment" zeggen. We opereren niet meer op de zwarte doos dat "de browser van je gebruiker" heet, maar geeft je een extra, betrouwbaar platform dat onderdeel is van je applicatie.
+Maar wat het belangrijkste is, van zowel Next.js als Remix: ze geven ons front-enders méér tools om ons werk te kunnen doen. Ze bieden meer ruimte en flexibiliteit in ons werk door de _server_ mee te nemen als onderdeel van onze, tjsah, laat ik "runtime environment" zeggen. We opereren niet meer op de zwarte doos dat "de browser van je gebruiker" heet, maar geeft je een extra, betrouwbaar platform dat onderdeel is van je applicatie.
 
 Het maakt ook bepaalde zaken zoveel makkelijker. We hoeven niet meer te wachten op een back-end developer die voor ons een proxy server moet bouwen zodat we een authenticatie token kunnen verbergen én CORS-fouten kunnen vermelden. We bouwen de proxy nu gewoon zelf.
 

@@ -1,17 +1,18 @@
 ---
-title: "Bewustwording, de noodzaak van echte verhalen over ontoegankelijkheid"
+title: 'Bewustwording, de noodzaak van echte verhalen over ontoegankelijkheid'
 date: 2020-12-28
 author: Darice de Cuba
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 In mijn vele gesprekken met mensen over toegankelijkheid komt vaak het woord "bewustwording" voorbij. De reden dat websites of diensten ontoegankelijk zijn is vaak geen onwil, maar eerder het feit dat men er gewoonweg niet bij stilstaat dat het voor een grote groep mensen ontoegankelijk is.
 
 Ik merk zelf ook dat ik beter snap hoe ontoegankelijk een website kan zijn voor bijvoorbeeld iemand die blind is als ik het van hun zelf verneem. Zoals een keer bij een workshop, dat ik iemand die blind was door bol.com zag navigeren met een screenreader. Het was voor het eerst dat ik een real world case zag, met uitleg van de persoon zelf over hoe lastig het is om een bepaald produkt te vinden op de site. En hoe ze dan uiteindelijk via Google op een specifieke term zoeken, om op bol.com alsnog die ene product pagina te bereiken.
 
 Dat was zo'n openbaring dat ik nu, jaren later, er nog over praat.
 
-# Twee soorten toegankelijkheid talks
+## Twee soorten toegankelijkheid talks
 
 Er zijn twee soorten talks over toegankelijkheid. Eén vertelt over hoe je een website toegankelijk kan maken. En de andere over hoe ontoegankelijk websites zijn voor mensen met een bepaalde beperking.
 

@@ -1,15 +1,16 @@
 ---
-title: "Een eigen kalendercomponent bouwen"
+title: 'Een eigen kalendercomponent bouwen'
 date: 2019-12-02
 author: Joep van der Heijden
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Het is natuurlijk belangrijk componenten in je applicatie niet allemaal zelf te maken, maar gebruik te maken van het enorme assortiment aan componenten die al geschreven zijn door anderen. Het kost immers tijd om dingen zelf te maken en dus ook geld. Maar soms is het ook goed om eens kritisch te kijken naar welke functionaliteiten je daadwerkelijk benut van het component dat je gebruikt en is het ook gewoon leuk en leerzaam om zelf iets te bouwen.
 
 Zo deden wij dat bij Withlocals voor onze datepicker- kalender- en agenda-componenten. Er zijn bij ons ongeveer 2000 gebruikers die iedere dag hun beschikbaarheid bijwerken, dus de agenda is een cruciaal onderdeel van ons platform. Veel kant-en-klare kalendercomponenten op het web zijn echter te uitgebreid voor ons, omdat ze moeten werken voor iedere mogelijke use-case.
 
-# Stap 1: datastructuur
+## Stap 1: datastructuur
 
 Als je per maand het aantal dagen weet en hoe je dit kunt vertalen naar een visuele weergave van een kalender wordt alles een stuk eenvoudiger. Naast het aantal dagen in de maand willen we ook tonen op welke dag de maand begint.
 
@@ -55,7 +56,7 @@ function generateMonth(year, month) {
         .fill()
         .map((_, week) => {
             return Array(7).fill().map((_, day) => {
-                const dayOfTheMonth = 
+                const dayOfTheMonth =
                     (week * 7) -
                     (startOfMonth - 1) +
                     day;
@@ -85,26 +86,24 @@ const january = generateMonth(2020, 0);
 
 In de output van `generateMonth()` is er al bijna een kalender te zien. Op mijn [CodePen met bovenstaande functies](https://codepen.io/klaasvaak/pen/pooYEGe?editors=0011) kun je de output voor het gehele jaar 2020 zien.
 
-# Stap 2: de view
+## Stap 2: de view
 
 Nu de kalender al bijna te zien is in de data kan dit relatief ‘eenvoudig’ vertaald worden naar HTML en CSS. In het volgende voorbeeld is dit gedaan met behulp van React.
 
 De volgende componenten zien hiervoor gemaakt:
 
-* `Day` (rendert een enkele dag)
-* `Week` (rendert meerdere `Day` componenten)
-* `Month` (rendert meerdere `Week` componenten en de labels voor de dagen van de week)
-* `Calendar` (rendert de huidige `Month` componenten)
+-   `Day` (rendert een enkele dag)
+-   `Week` (rendert meerdere `Day` componenten)
+-   `Month` (rendert meerdere `Week` componenten en de labels voor de dagen van de week)
+-   `Calendar` (rendert de huidige `Month` componenten)
 
 Op CodeSandbox is het [het volledige voorbeeld van een simpele kalenderweergave](https://codesandbox.io/s/heuristic-mestorf-oxmtu) te zien.
 
 ![Voorbeeld van versimpelde kalenderweergave](/_img/adventskalender/02-12-2019-1.png)
 
-
-
 Voor een meer uitgebreide versie kan je naast extra styling ook denken aan event handlers voor datumselectie en het formatteren van de datums met bijvoorbeeld [moment.js](https://momentjs.com/) of [date-fns](https://date-fns.org/).
 
-# Stap 3: internationalisatie
+## Stap 3: internationalisatie
 
 In bovenstaande voorbeelden werd zondag steeds gebruikt als begin van de week, maar als dit een andere dag moet zijn kunnen we de dataset daarvoor aanpassen.
 
@@ -150,9 +149,7 @@ const amountOfWeeks = Math.ceil((realOffset + daysInMonth) / 7);
 
 ![Een voorbeeld van een kalendercomponent waarbij de begindag van de week kan worden ingesteld](/_img/adventskalender/02-12-2019-2.png)
 
-
-
-# De mogelijkheden
+## De mogelijkheden
 
 Nu het duidelijk is hoe een kalender te genereren kun je de logica op verschillende manieren gebruiken. Zoals bijvoorbeeld in een datepicker of een daterange-picker:
 
@@ -164,11 +161,10 @@ Ook kun je dezelfde logica in een agenda gebruiken:
 
 ![Toepassing van het component in een kalender-app](/_img/adventskalender/02-12-2019-4.gif)
 
-
-
 Wie weet volgt er binnenkort nog een vervolgpost voor de toegankelijkheid van deze componenten.
 
-### Over Joep van der Heijden
+## Over Joep van der Heijden
+
 <img src="/_img/adventskalender/joep.jpeg" alt="Foto van joep" class="floating-portrait" /> 
 Sinds een kleine 3 jaar is Joep lead front-end developer bij de startup Withlocals in Eindhoven waar hij een team van 5 front-enders leidt. Naast het werk houdt hij zich bezig met het organiseren van de Eindhoven Developers Meetup, waar je elke meetup een kijkje neemt bij een anderbedrijf in de regio Eindhoven.
 Joeps donatie gaat naar Bits of Freedom.

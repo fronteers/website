@@ -1,47 +1,44 @@
 ---
-title: "Bijeenkomst bij eVision op 24 maart 2016"
+title: 'Bijeenkomst bij eVision op 24 maart 2016'
 date: 2016-03-24
 eventdate: 2016-03-24
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 Op 24 maart 2016 is Fronteers te gast bij eVision Industry Software in Den Haag. Er staan twee sprekers op het programma.
 
 Het thema van deze bijeenkomst is de JavaScript library React.
 
-# Kamil Afşar - "Wat is REACT en waarom is het zo cool"
+## Kamil Afşar - "Wat is REACT en waarom is het zo cool"
 
 [Kamil Afşar](https://twitter.com/kamilafsar) is een Q'er die veel ervaring heeft met React en komt kennis delen met Fronteers. Weet je nog weinig van React, dan wordt je meteen op de hoogte gebracht met de uitgebreide introductie. Daarna de diepte in kan ook, tijdens een bijeenkomst van Fronteers is altijd (veel) ruimte voor vragen en discussie.
 
-# Maurice de Beijer - React applicaties en Event Sourcing
+## Maurice de Beijer - React applicaties en Event Sourcing
 
-[Maurice de Beijer](https://twitter.com/mauricedb): Veel React applicaties werken met data die op een standaard manier in een database opgeslagen worden. Applicaties gebruiken een relationele of een NoSQL database. De databasestructuur bepaalt in min of meerdere mate de structuur van de data die de React front end te verwerken krijgt. In eenvoudige applicaties is dat prima, in complexe applicaties is het vaak verstandig om data door middel van Event-Sourcing op te slaan. 
+[Maurice de Beijer](https://twitter.com/mauricedb): Veel React applicaties werken met data die op een standaard manier in een database opgeslagen worden. Applicaties gebruiken een relationele of een NoSQL database. De databasestructuur bepaalt in min of meerdere mate de structuur van de data die de React front end te verwerken krijgt. In eenvoudige applicaties is dat prima, in complexe applicaties is het vaak verstandig om data door middel van Event-Sourcing op te slaan.
 
-Waarom zou je je daar als front end ontwikkelaar eigenlijk druk over maken? 
+Waarom zou je je daar als front end ontwikkelaar eigenlijk druk over maken?
 
 De populairste implementatie van React Flux op dit moment is Redux. Als je naar Redux kijkt blijkt dat deze architectuur sterke overeenkomst heeft met Event Sourcing. In deze sessie laat Maurice zien hoe en waarom Event-Sourcing ingezet kan worden en hoe functionele principes binnen Redux gebruikt kunnen worden.
 
-# Het programma
+## Het programma
 
-* 18:00 - inloop met pizza
-* 19:00 - Kamil Afşar - "Wat is REACT en waarom is het zo cool"
-* 19:45 - korte pauze
-* 20:00 - Maurice de Beijer - React applicaties en Event Sourcing
-* We sluiten af met een borrel.
+-   18:00 - inloop met pizza
+-   19:00 - Kamil Afşar - "Wat is REACT en waarom is het zo cool"
+-   19:45 - korte pauze
+-   20:00 - Maurice de Beijer - React applicaties en Event Sourcing
+-   We sluiten af met een borrel.
 
-# Waar?
+## Waar?
 
 [eVision Industry Software](https://www.evision-software.com/)
 Lange Vijverberg 3, 2513 AC, Den Haag
 
 We raden aan met openbaar vervoer naar het centrum van Den Haag te komen. Er zijn veel parkeermogelijkheden in de buurt, houd er wel rekening mee dat het betaald parkeren is.
 
-
-
-
-
-# Aanmeldingen
+## Aanmeldingen
 
 <table>
 <tr>
@@ -205,7 +202,3 @@ We raden aan met openbaar vervoer naar het centrum van Den Haag te komen. Er zij
 <td></td>
 </tr>
 </table>
-
-
-
-

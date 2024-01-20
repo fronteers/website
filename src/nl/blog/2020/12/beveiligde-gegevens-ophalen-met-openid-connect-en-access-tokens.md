@@ -1,15 +1,16 @@
 ---
-title: "Beveiligde gegevens ophalen met OpenID Connect en access tokens"
+title: 'Beveiligde gegevens ophalen met OpenID Connect en access tokens'
 date: 2020-12-31
 author: Jasha Joachimsthal
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Wat hebben de website van je bank, een webshop en Twitter gemeen? Ze hebben een publiek gedeelte en tonen daarnaast content op basis van je account. Nadat je bent ingelogd, kun je bij je bank je saldo bekijken, geld overmaken of een nieuwe pas aanvragen. Op de webshop kun je eerdere bestellingen raadplegen of je verlanglijstje bijwerken. Bij Twitter kun je tweets plaatsen, notificaties ontvangen of je profiel aanpassen.
 
 Het is wel de bedoeling dat de frontend de gegevens van de juiste gebruiker toont. In deze blogpost lees je hoe dat kan met het gebruik van OpenID Connect en access tokens.
 
-# Sessies
+## Sessies
 
 Als alle pagina's volledig op de server worden gerenderd, hoef je als front-ender je alleen bezig te houden met de opmaak van de inlogpagina. Bij het opvragen van een beveiligde pagina stuurt de server je door naar de inlogpagina. De gebruiker vult een gebruikersnaam en wachtwoord in. Als deze juist zijn, maakt de server een sessie aan en zet de identifier van deze sessie in een cookie. Bij elke (beveiligde) pagina stuurt de browser het sessiecookie mee en de server geeft de persoonlijke content terug zolang de sessie geldig is.
 
@@ -19,7 +20,7 @@ De backendontwikkelaar of de beheerder moeten hier wel extra moeite voor doen. S
 
 Grotere websites kunnen uit verschillende backend applicaties bestaan die onderling geen sessies uit kunnen wisselen maar wel willen weten wie er ingelogd is. Elke backend applicatie zou dan zowel verantwoordelijk zijn voor het inloggen als het teruggeven van de juiste gegevens.
 
-# JSON Web Tokens
+## JSON Web Tokens
 
 Een alternatief voor sessiecookies is het gebruik van tokens die je per request meestuurt. Deze tokens kunnen willekeurige, niet te voorspellen strings zijn, maar ook [JSON Web Tokens](https://en.wikipedia.org/wiki/JSON_Web_Token). Een JSON Web Token (JWT, uit te spreken als "dzjôht") bestaat uit drie delen: een header, de payload en een signature (handtekening).
 
@@ -45,15 +46,15 @@ Om de handtekening te valideren moet de ontvanger de publieke sleutel en het alg
 
 De payload van een JWT kan (optionele) claims bevatten met betrekking tot de geldigheid:
 
-* `iss` (issuer): een unieke identifier voor de uitgever. Is deze anders dan je verwacht, dan kun je de JWT niet vertrouwen.
-* `aud` (audience): een lijst van identifiers voor de ontvangers. Alleen als de identifier van jouw applicatie er tussen staat, hoor je de JWT te vertrouwen. Waarom is dit een lijst? Een JWT mag je namelijk doorgeven aan bijvoorbeeld je backend. Ook de backend applicaties kunnen in de `aud` claim voorkomen en die kunnen zelf dan weer de JWT valideren en gebruiken voor het teruggeven van data.
-* `sub` (subject): unieke identifier van de gebruiker.
-* `exp` (expiration time): timestamp tot wanneer deze JWT geldig is. Is deze tijd verstreken, dan dien je de JWT niet meer te accepteren.
-* `nbf` (not before): timestamp vanaf wanneer deze JWT geldig is. Is deze tijd nog niet bereikt, dan mag je deze JWT nog niet accepteren.
+-   `iss` (issuer): een unieke identifier voor de uitgever. Is deze anders dan je verwacht, dan kun je de JWT niet vertrouwen.
+-   `aud` (audience): een lijst van identifiers voor de ontvangers. Alleen als de identifier van jouw applicatie er tussen staat, hoor je de JWT te vertrouwen. Waarom is dit een lijst? Een JWT mag je namelijk doorgeven aan bijvoorbeeld je backend. Ook de backend applicaties kunnen in de `aud` claim voorkomen en die kunnen zelf dan weer de JWT valideren en gebruiken voor het teruggeven van data.
+-   `sub` (subject): unieke identifier van de gebruiker.
+-   `exp` (expiration time): timestamp tot wanneer deze JWT geldig is. Is deze tijd verstreken, dan dien je de JWT niet meer te accepteren.
+-   `nbf` (not before): timestamp vanaf wanneer deze JWT geldig is. Is deze tijd nog niet bereikt, dan mag je deze JWT nog niet accepteren.
 
 Door de combinatie van de handtekening en deze claims kunnen de frontend en diverse backend services onafhankelijk van elkaar beslissen tot welke (beveiligde) gegevens de gebruiker op dat moment toegang heeft. Hierdoor is het niet meer nodig sessies te synchroniseren.
 
-# OpenID Connect
+## OpenID Connect
 
 Hoe kom je aan een JWT? Hiervoor zijn standaarden ontwikkeld. Een daarvan is [OpenID Connect](https://openid.net/) (OIDC). OpenID Connect is een laag bovenop [OAuth 2.0](https://oauth.net/). Waar OAuth alleen de authorisatie regelt (wat mag je), regelt OIDC ook de authenticatie (wie ben je). In het vervolg behandel ik ze als één standaard waarbij ik de termen van OpenID Connect gebruik.
 
@@ -77,7 +78,7 @@ Access tokens zijn beperkt geldig, variërend van enkele minuten tot een dag of 
 
 Bij Relying Parties die via de backend access tokens aanvragen, is de geldigheid van refresh tokens vaak onbeperkt of voor een langere periode. Voor client side applicaties, zoals bijvoorbeeld een React app, is het advies om een refresh token beperkt geldig te laten zijn tot maximaal een aantal uren gerekend vanaf de uitgifte van het eerste access token na inloggen. Gedurende die geldigheid kan de RP nieuwe access tokens aanvragen. Is ook de geldigheid van de refresh tokens verlopen, dan moet de gebruiker opnieuw inloggen.
 
-# Verschuiving van verantwoordelijkheden
+## Verschuiving van verantwoordelijkheden
 
 Wordt het voor jou als frontender nou echt makkelijker om OpenID Connect en access tokens te gebruiken ipv klassieke sessies met een simpel inlogformulier? Waarschijnlijk niet, want nu is de frontend verantwoordelijk voor het zo veilig mogelijk opslaan van tokens en nieuwe tokens aan te vragen als de oude (bijna) verlopen zijn.
 

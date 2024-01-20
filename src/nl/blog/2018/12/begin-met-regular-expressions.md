@@ -1,15 +1,16 @@
 ---
-title: "Begin met regular expressions"
+title: 'Begin met regular expressions'
 date: 2018-12-06
 author: Melle Wynia
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Misschien dat je het wel kent: als je in je team begint over regular expressions trekken er vaak direct een aantal lijkbleek weg en beginnen er meteen een aantal anderen te kwispelen van enthousiasme. Allebei hebben ze gelijk, het is een soort superwapen. Een superwapen waarmee je soms met een regel code honderden regels code kunt besparen. In goede handen los je bondig problemen op. In de verkeerde handen leidt het tot code die niemand meer wil aanraken. Dit artikel is bedoeld als een inleiding voor die mensen die lijkbleek wegtrokken, maar nu toch wel nieuwsgierig geworden zijn.
 
-# Wat zijn regular expressions eigenlijk?
+## Wat zijn regular expressions eigenlijk?
 
-Regular expressions zijn als het ware een eigen programmeertaal met een eigen syntax. Het is een feature waarmee je eenvoudig een reeks tekens of groepen van tekens kunt herkennen. Bijvoorbeeld alle woorden in een tekst die op een ‘s’ eindigen. In haast elke programmeertaal is de   basis hetzelfde. Zelfs JavaScript ondersteunt het al sinds EcmaScript 3 (1999).
+Regular expressions zijn als het ware een eigen programmeertaal met een eigen syntax. Het is een feature waarmee je eenvoudig een reeks tekens of groepen van tekens kunt herkennen. Bijvoorbeeld alle woorden in een tekst die op een ‘s’ eindigen. In haast elke programmeertaal is de basis hetzelfde. Zelfs JavaScript ondersteunt het al sinds EcmaScript 3 (1999).
 
 Een scenario waarin een regular expression van pas komt, is als je dynamische input van een formulier alvast in de front-end wilt valideren. Bijvoorbeeld een postcode. Het officiële format van een postcode is vier cijfers, een spatie en twee hoofdletters. Met regular expressions kun je eenvoudig controleren of een ingevulde postcode correct is en de gebruikers zelfs een handje helpen met het automagisch aanvullen of correct formatteren van de postcode.
 
@@ -38,7 +39,7 @@ In veel (string) methods kun je een regular expression ook als argument gebruike
 // ["Koe", "schaap", "kip"]
 ```
 
-# Leer basis concept(en)
+## Leer basis concept(en)
 
 Laten we kijken of er een `a` character in de onderstaande string staat. Met de `test` method op een regular expression kun je eenvoudig zien of een character voorkomt in een string.
 
@@ -108,7 +109,7 @@ txt2.replace(/(of|the|in)/gi, '❤️')
 // "❤️ referrer ❤️ ❤️ document ❤️ which ❤️ violation occurred."
 ```
 
-# Use case: valideer en autocorrect postcode
+## Use case: valideer en autocorrect postcode
 
 Nu je de basis van regular expressions in JavaScript onder de knie hebt, kunnen we ook eens opnieuw naar het eerder beschreven postcodeprobleem kijken.
 
@@ -134,13 +135,13 @@ gebruikersInput2.replace(/^(\d\d\d\d) ?([a-z][a-z])$/i, '$1 $2').toUpperCase();
 
 Dit voorbeeld zou je ook op andere, meer efficiënte manieren kunnen oplossen, maar om het eenvoudig te houden heb ik hiervoor gekozen.
 
-# Conclusie
+## Conclusie
 
 Met dit artikel heb je de basis van regular expressions: je kunt ze herkennen, lezen en in de basis toepassen. Eenvoudige regular expressions kunnen vele regels code schelen, maar soms kan het een onnodig ingewikkelde oplossing voor een probleem zijn of nieuwe bugs introduceren.
 
 Daarom geldt voor regular expressions hetzelfde als voor elk ander superwapen: use it wisely. Want je kunt het jezelf - en je collega's - heel snel heel moeilijk maken.
 
-# Meer weten?
+## Meer weten?
 
 Regular expressions zijn een uitgebreid onderwerp. Het kan even duren voordat je je de basisconcepten helemaal eigen hebt gemaakt, daarom zou ik aanraden om eerst een aantal introducties te lezen. Die van MDN en Eloquent JavaScript zijn een uitstekend startpunt.
 
@@ -148,7 +149,8 @@ Regular expressions zijn een uitgebreid onderwerp. Het kan even duren voordat je
 
 [MDN web docs over regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
-### Over Melle Wynia
+## Over Melle Wynia
+
 <img src="/_img/adventskalender/melle.jpg" alt="Foto van Melle Wynia" class="floating-portrait" /> 
 Melle Wynia werkt als freelance front-end developer/consultant. Voor zijn klanten sluit hij aan bij hun teams om kennis over te dragen, de kwaliteit te waarborgen, beveiliging op peil te brengen en nieuwe features te realiseren. Tot zijn tools behoren onder andere Node, Angular en Vue.js.
 

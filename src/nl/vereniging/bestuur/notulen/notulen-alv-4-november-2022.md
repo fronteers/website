@@ -1,34 +1,35 @@
 ---
 title: Notulen ALV 4 november 2022
 ---
+
 ### Aanwezig
 
-* Sander (penningmeester)
-* Edwin (secretaris)
-* Wim
-* Jules
-* Jewwy
-* Marcel
-* Andre
+-   Sander (penningmeester)
+-   Edwin (secretaris)
+-   Wim
+-   Jules
+-   Jewwy
+-   Marcel
+-   Andre
 
-### Online aanwezig
+## Online aanwezig
 
-* Nina
-* Michael
-* Koen
+-   Nina
+-   Michael
+-   Koen
 
-### De vergadering
+## De vergadering
 
 Sander vraagt of er extra punten voor de agenda zijn. Die zijn er niet. Neemt de agenda door. Presenteert de jaarrekening van 2021.
 
-### Kascommissie
+## Kascommissie
 
 Bevindingen kascommissie. Wim namens de kascommissie adviseert de ALV om het bestuur décharge te verlenen.
 
 Benoeming nieuwe kascommissie.
 Nina en Jules bieden zich aan.
 
-### (Voorlopige) financiën 2022
+## (Voorlopige) financiën 2022
 
 Eerste congres met een speakerfee. Ongeveer break-even. Omzet vacaturebank gedaald. Inkomsten uit lidmaatschappen gelijk gebleven. Bedrijfsresultaat is positief.
 
@@ -38,7 +39,7 @@ Nieuwe leden aantrekken door het organiseren van workshops.
 
 Jewwy vraagt hoeveel mensen hun lidmaatschap jaarlijks opzeggen. Sander: Tijdens de twee coronajaren ca. 80 per jaar door uitblijven congres en workshops, maar in een 'normaal' jaar ongeveer 30 en aanwas van nieuwe leden zit daar niet bij.
 
-### Commissies
+## Commissies
 
 België
 Sander: Eén bijeenkomst gehad met succes, geen kosten gemaakt
@@ -67,6 +68,6 @@ Er wordt gestemd. 8 stemmen unaniem voor Wim als nieuw bestuurslid.
 
 Jewwy denkt er ook nog over na. Wil niet dat de vereniging stopt omdat er geen bestuursleden zijn.
 
-### Rondvraag.
+## Rondvraag.
 
 Andre: hoe zit het met de website: Edwin: daar werken we nog aan, we hebben plannen om de ontwikkeling te versnellen.

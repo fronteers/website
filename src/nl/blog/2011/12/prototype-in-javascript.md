@@ -1,10 +1,11 @@
 ---
-title: "Prototype in JavaScript"
+title: 'Prototype in JavaScript'
 date: 2011-12-21
 author: Peter van der Zee
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Op zich is het heel makkelijk om met JavaScript te beginnen. Maar als je dan wat verder gaat kijken wordt het al snel moeilijk. De meeste mensen lijken te struikelen over closures, context en prototype. Ik wil in deze post graag prototype behandelen en eens zien of ik het een beetje kan verhelderen. Ik zal daarbij de termen lekker in het Engels houden, want met vertalen introduceer je alleen maar (nog meer) verwarring.
 
 Class inheritance in JavaScript, waarbij een object de eigenschappen erft van een ouder, wordt geregeld via de "prototypal chain". Dat betekent dat er een keten van geheime links is van het kind naar de ouder(s). Maar die link gaat niet direct naar de ouder, maar eigenlijk naar de "prototype property" van de ouder, ook wel "het prototype object" genoemd. Aan de bovenkant van (bijna) iedere keten staat de globale variabele met de naam "`Object`". Dat is soms een beetje verwarrend, omdat je ook praat over objecten.
@@ -216,7 +217,8 @@ Ik heb geen idee hoe moeilijk of makkelijk dit is, maar ik hoop dat de voorbeeld
 
 Oh, en prettige feestdagen! ;)
 
-### Over Peter van der Zee
+## Over Peter van der Zee
+
 <img src="/_img/2011/12/peter-van-der-zee.jpg" alt="Foto van Peter">
 [Peter](http://qfox.nl/) is gespecialiseerd in in JavaScript/ECMAScript en werkt voor [Uxebu](http://uxebu.com/), voornamelijk aan JavaScript gerelateerde projecten.
 

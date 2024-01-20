@@ -1,32 +1,31 @@
 ---
-title: "Nieuwjaarsborrel 2016"
+title: 'Nieuwjaarsborrel 2016'
 date: 2015-12-30
 eventdate: 2015-12-30
 location:
 categories:
     - meetup
 ---
+
 # Een nieuw jaar, tijd voor de Fronteers nieuwjaarsborrel, speciaal voor leden!
 
 Op vrijdag 15 januari 2016 organiseert Fronteers een Nieuwjaarsborrel voor leden. Deze zal plaatsvinden in de Nieuwe Dikke Dries, in Utrecht. Rond 18:00 uur zullen de eerste leden aanwezig zijn.
 
-# Kosten
+## Kosten
 
 Fronteers geeft een drankje weg.. en misschien nóg wel een... Het aantal drankjes is afhankelijk van het aantal deelnemers. Er wordt voor een hapje bij de borrel gezorgd, het is ook mogelijk -op eigen kosten- wat te eten te bestellen, dat kan voorafgaand aan of tijdens de borrel.
 
-# Locatie
+## Locatie
 
 Café Nieuwe Dikke Dries is gevestigd aan de Oudkerkhof 36, 3512 GL Utrecht. Meer info is te vinden op [dikkedries.nl](http://www.dikkedries.nl/).
 
 {%- googlemaps "Cafe de Nieuwe Dikke Dries" -%}
 
-# Vragen?
+## Vragen?
 
 [Neem contact op met de Activiteitencommissie.](/vereniging/commissies/activiteiten)
 
-
-
-# Aanmeldingen
+## Aanmeldingen
 
 <table>
 <tr>

@@ -4,8 +4,9 @@ date: 2022-12-03
 author: Petra Knip
 summary: 'Stond er wekenlang als werktitel in de planning. Klinkt niet echt veelbelovend. Ronduit saai eigenlijk.'
 categories:
-- Adventskalender
+    - Adventskalender
 ---
+
 Stond er wekenlang als werktitel in de planning. Klinkt niet echt veelbelovend. Ronduit saai eigenlijk.
 
 Een div is vaag, en vooral nikszeggend.
@@ -21,9 +22,9 @@ Daar kun je natuurlijk niet echt veel mee. En ook eigenlijk alles. Je kunt er va
 Een div kun je overal voor gebruiken, het werkt altijd en doet wat je ervan verwacht. Oppervlakkig gezien. Want de div is ook onzichtbaar en betekenisloos.
 
 ```
-<div 
-    type="hidden" 
-    id="whatever" 
+<div
+    type="hidden"
+    id="whatever"
     style="background-color:grey; background-position: inherit;">
 </div>
 ```
@@ -41,8 +42,8 @@ Dat is de weg van de minste weerstand, maar ook risicoloos. Voor je het weet hoo
 Het heeft met mijn persoonlijkheid te maken, en ook met een generatiekloofje. Als ouwe lul ben ik niet opgegroeid met computers, ook nog niet tijdens mijn opleiding tot grafisch vormgever. Op de kunstacademie werd eind jaren 80 ineens een zolderruimte ingericht met een aantal Apple computertjes en Aldus Freehand 2.0, en daar mochten we een uurtje per week mee klooien.
 Pas rond mijn vijfigste ben ik web development in gerold, nu 6 jaar geleden. Dankzij een erfenis kon ik mezelf om laten scholen, en ik vond het allemaal geweldig.
 
-Maar om als vrouw en 50 plusser nu het vak in te rollen, ervaar ik als een kleine cultuurshock. Een onzekere 
-persoonlijkheid maakt niet alleen dat je jezelf op de achtergrond houdt, maar ook dat als je vindt dat je een punt 
+Maar om als vrouw en 50 plusser nu het vak in te rollen, ervaar ik als een kleine cultuurshock. Een onzekere
+persoonlijkheid maakt niet alleen dat je jezelf op de achtergrond houdt, maar ook dat als je vindt dat je een punt
 hebt of ergens meer van weet dan je collega's, dat je toch gaat twijfelen aan je ideeën, want waarom zou ik in m'n eentje iets vinden waar al mijn jonge hoog opgeleide collega's anders over denken? Kom dan maar eens overtuigend uit de hoek. Een div die z'n mond open doet is op z'n zachtst gezegd even wennen.
 
 Er werd ook een beetje lacherig op gereageerd. 'We hebben het al veel te druk, en het werkt toch? Het feit dat we iets opleveren is veel belangrijker. Dit heeft geen prioriteit.' Geef ze maar eens ongelijk. Dit is hun wereld, dus willen ze graag de div houden. In de code en in het team.
@@ -65,31 +66,31 @@ Advent is, net als welke periode dan ook, een perfect moment om na te denken ove
 </main>
 ```
 
-### En om de vooruitzichten nog iets mooier te maken:
+## En om de vooruitzichten nog iets mooier te maken:
 
 ```
 body {
-    margin: 0; 
-    height: 100vh; 
+    margin: 0;
+    height: 100vh;
     color: gold;
 }
-    
+
 main {
     display: block;
-    margin: 0 auto; 
-    padding: 3.125rem 1.875rem 0; 
+    margin: 0 auto;
+    padding: 3.125rem 1.875rem 0;
 }
-      
+
 main article {
-    position: relative; 
-    margin: 10% auto; 
+    position: relative;
+    margin: 10% auto;
     width: 12.5rem;
-		height: 12.5rem; 
-    border-radius: 100%; 
+		height: 12.5rem;
+    border-radius: 100%;
     background-color: rgba(255,255,255,.75);
-    box-shadow: inset -2.5rem -3.75rem 2.5rem -1.875rem rgba(0,0,0,.4), 
-		inset -3.125rem -2.5rem 15px 80px currentColor; 
-    transition: 1s box-shadow; 
+    box-shadow: inset -2.5rem -3.75rem 2.5rem -1.875rem rgba(0,0,0,.4),
+		inset -3.125rem -2.5rem 15px 80px currentColor;
+    transition: 1s box-shadow;
 }
 
 h1 {
@@ -100,7 +101,7 @@ h1 {
     font-family: sans-serif;
     color: darkgrey;
 }
-      
+
 main article::before {
     content: "";
     position: absolute;
@@ -111,19 +112,19 @@ main article::before {
     border: solid 5px lightgrey;
     border-radius: 100%;
 }
-      
+
 main article::after {
-    content: ""; 
-    position: absolute; 
+    content: "";
+    position: absolute;
     left: 4.625rem;
     top: -1.375rem;
-    width: 2.5rem; 
-    height: 1.25rem; 
+    width: 2.5rem;
+    height: 1.25rem;
     background: linear-gradient(80deg,#F7F7F7,silver) content-box;
-    border-style: solid; 
-    border-width: 0 5px 7px; 
-    border-color: lightgrey  transparent; 
-    border-radius: 100% / 25%; 
+    border-style: solid;
+    border-width: 0 5px 7px;
+    border-color: lightgrey  transparent;
+    border-radius: 100% / 25%;
 }
 ```
 

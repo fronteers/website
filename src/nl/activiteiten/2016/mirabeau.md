@@ -1,26 +1,27 @@
 ---
-title: "Bijeenkomst bij Mirabeau op 18 augustus 2016"
+title: 'Bijeenkomst bij Mirabeau op 18 augustus 2016'
 date: 2016-07-18
 eventdate: 2016-07-18
 location:
 categories:
     - meetup
 ---
+
 _Please note: this meetup will be held in English. / Let op: de voertaal van deze bijeenkomst zal Engels zijn._
 
-*Op 18 augustus is Fronteers te gast bij Mirabeau in Rotterdam. De bijeenkomst staat in het thema van Progressive Web Apps, en je kunt luisteren naar talks van Dan Appelquist (Samsung/W3C) en Niels Leenheer (HTML5test.com).*
+_Op 18 augustus is Fronteers te gast bij Mirabeau in Rotterdam. De bijeenkomst staat in het thema van Progressive Web Apps, en je kunt luisteren naar talks van Dan Appelquist (Samsung/W3C) en Niels Leenheer (HTML5test.com)._
 
 Progressive Web Apps is een verzameling standaarden en best practices om te zorgen dat web apps minstens zo goed worden als native apps. Als web apps offline werken, push notifications kunnen sturen en op je homescreen kunnen staan, zijn ze steeds meer een serieus alternatief voor apps uit de app store. Dat is in elk geval het idee. Dan en Niels vertellen er op de 18e meer over!
 
-# Video - The progression of Web Apps | Niels Leenheer
+## Video - The progression of Web Apps | Niels Leenheer
 
 {%- vimeo "182681749" -%}
 
-# Video - Progressive Web Apps (and where to find them) | Dan Applequist
+## Video - Progressive Web Apps (and where to find them) | Dan Applequist
 
 {%- vimeo "182717078" -%}
 
-# Programma
+## Programma
 
 18:00 | Ontvangst met drankjes en pizza (!)
 18:30 | Niels Leenheer: The progression of Web Apps
@@ -28,27 +29,23 @@ Progressive Web Apps is een verzameling standaarden en best practices om te zorg
 19:30 | Daniel Appelquist
 20:15 | borrel (202))
 
-# Waar?
+## Waar?
 
 Deze bijeenkomst zal plaatsvinden bij Mirabeau in Rotterdam. Zij zijn gevestigd in het Groothandelsgebouw, pal naast het Centraal Station in Rotterdam. Ga naar hoofdingang (A), met de lift naar 7e etage. Volg je linkerhand, ga door de klapdeuren. De tweede trappengang aan je rechterhand (gebouwdeel D) ga je in en zo loop je naar de 8e etage waar Mirabeau zit.
-
-
 
 Het adres is: Conradstraat 38, kamer: D8.131, Rotterdam.
 
 {%- googlemaps "Conradstraat 38, Rotterdam" -%}
 
-# Voor wie?
+## Voor wie?
 
 Er is ruimte voor 60 mensen, en zowel leden als niet-leden zijn van harte welkom!
 
-# Aanmelden
-
-
+## Aanmelden
 
 Deze bijeenkomst zit nu vol, maar we hebben een wachtlijst! Stuur een mailtje naar hidde@fronteers.nl als je daar op wilt.
 
-# Wie komen er nog meer? (60/60)
+## Wie komen er nog meer? (60/60)
 
 <table>
 <tr>

@@ -1,33 +1,34 @@
 ---
-title: "Fuck the system, be nice"
+title: 'Fuck the system, be nice'
 date: 2018-12-23
 author: Paul van Buuren
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Het is de tijd voor de goede voornemens. Laat me je helpen een fijnere collega te worden met 5 Ware Waarheden om een leukere collega en een betere front-ender te zijn.
 
-# TL;DR:
+## TL;DR:
 
-* wees bescheiden
-* omring je niet met klonen van jezelf
-* deel je kennis
-* laat je inspireren door kunst
-* zeur niet
+-   wees bescheiden
+-   omring je niet met klonen van jezelf
+-   deel je kennis
+-   laat je inspireren door kunst
+-   zeur niet
 
-# 1: Jij bent niet je gebruiker
+## 1: Jij bent niet je gebruiker
 
 ![Tegeltje met de tekst: "Assumption is the mother of all fuck ups"](/_img/adventskalender/assumption-is-the-mother-of-all-fuck-ups-576x576.png)
 
-Eigenlijk zijn toegankelijkheidsrichtlijnen een grote les in nederigheid. Elk succescriterium is een herinnering: niet iedereen is zoals jij. Er zijn mensen die het web anders gebruiken dan jij. Ja echt, sorry.  Je kunt nooit alle mogelijke scenario’s testen en ondervangen. Maar je kunt er wel rekening mee houden dat je site-bezoeker niet exact denkt of doet als jij verwacht.
+Eigenlijk zijn toegankelijkheidsrichtlijnen een grote les in nederigheid. Elk succescriterium is een herinnering: niet iedereen is zoals jij. Er zijn mensen die het web anders gebruiken dan jij. Ja echt, sorry. Je kunt nooit alle mogelijke scenario’s testen en ondervangen. Maar je kunt er wel rekening mee houden dat je site-bezoeker niet exact denkt of doet als jij verwacht.
 
 Er zijn bijvoorbeeld mensen die amper een muis gebruiken en alles met een toetsenbord doen. Dus daarom test je of je site het doet met alleen toetsenbordbediening. Er zijn mensen die zo kippig zijn dat ze hun computer in hoog-contrastmodus gebruiken met een heel grote letter. Daarom gebruik je bijvoorbeeld schaalbare lettergroottes in plaats van pixels, want je wil dat de tekst fatsoenlijk meegroeit als de gebruiker inzoomt, om maar eens succescriterium 1.4.4 als voorbeeld te nemen. En je test of je site nog steeds begrijpelijk is als geen scripts of stylesheets geladen zijn. Er zijn volslagen idiote types – zoals ik – die beleefd alle cookies weigeren omdat ze zo min mogelijk gevolgd willen worden op het web (en ook om het web stuk te maken, ook dat). Ik accepteer alleen cookies als ik moet inloggen of als ik een webshopwinkelwagentje vul. Als je cookies nodig hebt, is het dus handig dat je eerst checkt of er überhaupt cookies geplaatst mogen worden.
 
-* Hoe houd je een website begrijpelijk als je weet dat ‘ie gebruikt kan worden via een desktop, een screenreader, iemands commandline, een
-* ereader, een smartwatch? Hou je er rekening mee dat niet iedereen zo
-* goed kan lezen als jij? Ingewikkeld? Ingewikkelde dingen simpel maken is het mooiste in dit vak.
+-   Hoe houd je een website begrijpelijk als je weet dat ‘ie gebruikt kan worden via een desktop, een screenreader, iemands commandline, een
+-   ereader, een smartwatch? Hou je er rekening mee dat niet iedereen zo
+-   goed kan lezen als jij? Ingewikkeld? Ingewikkelde dingen simpel maken is het mooiste in dit vak.
 
-# 2: Liever één goed elftal dan elf goede ééntallen
+## 2: Liever één goed elftal dan elf goede ééntallen
 
 ![Tuterdetuut: alle soldaten in het gelid. 12 Zoeaven (Franse militairen) met een geweer en een pofbroek.](/_img/adventskalender/zoeaven.jpg)
 
@@ -38,7 +39,7 @@ woorden. Als je een webshop hebt voor de Nederlandse en Belgische markt, tutoyee
 
 Een diverser team voorkomt dat je verder kijkt dan een doelgroep van “latte drinkende, blanke, hoger opgeleide, brildragende, rechtshandige Randstedelingen met een licht bierbuikje”. Bekijk de [presentatie van Jenny Shen op CSS Day 2018](https://vimeo.com/277243126) nog eens.
 
-# 3: Door kennis te delen, vermeerder je kennis
+## 3: Door kennis te delen, vermeerder je kennis
 
 Als je bang bent voor kritiek is het doodeng om je werk te laten zien aan je collega’s. Door dat niet te doen bespaar je jezelf weliswaar de kans op kritiek, maar je ontneemt je jezelf ook de kans om iets te leren. Je collega’s weten niet wat je kunt en hebben geen idee waar ze je bij zouden kunnen helpen. En ze leren niks van je. Door alles stilletjes voor jezelf te houden, ontloop je ook alle complimenten. Dat moeten we niet willen met z’n allen.
 
@@ -48,7 +49,7 @@ Het web is bedoeld om open te zijn. In 20 jaar tijd is een totaal nieuwe infrast
 
 ![Foto van Mahatma Ghandi met de tekst: "Be the pull request you want to see in this world - het handige neefje van Mahatma Ghandi"](/_img/adventskalender/be-the-pull-request.png)
 
-# 4: Ars longa, vita brevis (het leven is kort, de kunst is lang)
+## 4: Ars longa, vita brevis (het leven is kort, de kunst is lang)
 
 ![Schilderij van Piet Mondriaan met vlakken in diverse kleuren waaronder rood, blauw, geel, wit, zwart en grijs](/_img/adventskalender/piet-mondriaan-1921---composition-en-rouge-jaune-bleu-et-noir-768x766.jpg)
 
@@ -60,7 +61,7 @@ Dus daarom: dompel jezelf onder in design, kunst, boeken. Wat je daar leert komt
 
 Voorbeelden? Zie Jen Simmons lekker klooien met Mondriaan en CSS Grid: [responsive Mondrian (YouTube)](https://www.youtube.com/watch?v=qNtJ5p3h2A4) / [responsive Mondrian (codepen)](https://codepen.io/jensimmons/pen/mrNvPZ/). En dit [is zeker geen responsive Magritte-pijp](http://www.la-trahison-des-images.be/).
 
-# 5: Fuck the system, be nice
+## 5: Fuck the system, be nice
 
 ![Screenshot van een kritisch linkedin-commentaar van een front-ender. Tekst: "Echt serieus? Wat een slechte websites hebben overheidsinstanties. Waar gaat al dat geld naar toe? Gemeente Rotterdam, Gemeente Delft. Ik als webdeveloper kom er zelfs niet uit. Ik krijg programmeererrors te zien. WTF?!? Hebben jullie dan niet gehoort van gebruiksvriendelijkheid, UX? Ik wil best een presentatie komen geven, want het is duidelijk nog niet bekend bij jullie.. #shittysites #vanonzecenten I can’t believe it"](/_img/adventskalender/wim-heitinga-spreekt.png)
 
@@ -77,7 +78,8 @@ En als je ideeën, systemen wilt afkraken: gebruik humor en argumenten.
 
 Fuck the system, be nice.
 
-### Over Paul van Buuren
+## Over Paul van Buuren
+
 <img src="/_img/adventskalender/paul.jpg" alt="Foto van Paul van Buuren" class="floating-portrait" /> 
 Paul van Buuren maakt websites sinds 1998. Zijn vooropleiding heeft niks met webdesign te maken, want dat bestond domweg nog niet. Onder de noemer WBVB Rotterdam werkt hij als zelfstandige voor diverse opdrachtgevers. Z'n specialiteit is het maken van toegankelijke WordPress-sites. Hij praat opvallend vaak in algemeenheden en tegeltjeswijsheden.
 Donatie:

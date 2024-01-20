@@ -3,9 +3,10 @@ title: Hoe de pandemie mijn werk en woning veranderde
 date: 2022-12-17
 author: Darice de Cuba
 summary: 'Maart 2020 was de maand dat de wereld (weer) voorgoed veranderde. Dit is de tweede keer voor mij en velen van ons dat het wereld voorgoed veranderde. Eerst op 11 september 2001 en nu in maart 2020. Hoewel er gesproken wordt over weer naar “normaal” gaan, is het “normaal” van voor maart 2020 is voorgoed weg. Onze manier van werken is voor velen veranderd: de pandemie liet zien dat voor vele vakgebieden thuiswerken mogelijk is, en dat mensen die thuis willen werken dat moeten kunnen, terwijl degenen die liever op kantoor werken dat ook kunnen blijven doen.'
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Maart 2020 was de maand dat de wereld (weer) voorgoed veranderde. Dit is de tweede keer voor mij en velen van ons dat het wereld voorgoed veranderde. Eerst op 11 september 2001 en nu in maart 2020. Hoewel er gesproken wordt over weer naar “normaal” gaan, is het “normaal” van voor maart 2020 is voorgoed weg. Onze manier van werken is voor velen veranderd: de pandemie liet zien dat voor vele vakgebieden thuiswerken mogelijk is, en dat mensen die thuis willen werken dat moeten kunnen, terwijl degenen die liever op kantoor werken dat ook kunnen blijven doen.
 
 Als iemand die immuungecompromitteerd is betekende de eerste twee maanden van de pandemie in compleet isolatie zitten. Ik ging alleen in de nachturen als de kans om iemand tegen te komen klein is, naar buiten om lucht te scheppen. Vrienden en familie brachten boodschappen voor me aan deur. Tot vandaag betekend het dat ik bij hoge infectiecijfers zo min mogelijk op kantoor wil zijn.
@@ -22,13 +23,13 @@ De eerste weken en maanden waren er veel haperingen en frustratie. Zelfs de best
 
 Niet alleen dat, ook het constant binnen zitten met lockdown deed me goed kijken naar wat ik miste in mijn huisinrichting. En zo begon de aanschaf van het ene na het andere essentiële item.
 
-# Mijn werkplek verbeteren
+## Mijn werkplek verbeteren
 
 Toen de eerste lockdown startte had ik mijn MacBook Pro 13’ van 2019, een 23’ budget Asus monitor, een plat APple toetsenbord en een Apple trackpad. Tevens had ik een eerste generatie iPad Mini. Ik verving de Apple trackpad met een [Logitech MX Master 3](https://support.logi.com/hc/en-us/articles/360035271133-Getting-Started-MX-Master-3) en het Apple toetsenbord werd vervangen door een [Keychron K6](https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard) met aluminium case, RGB lichten, en blauwe Gateron switches. Ik wilde altijd een mechanisch toetsenbord hebben en er was geen beter moment dan een lockdown. De Logitech en Keychron waren de juiste keuze, ik heb sindsdien geen last meer van RSI gehad.
 
 De iPad bleek zo oud dat het zelf met nieuwe updates het internet verbinding veel bufferde waardoor de tolk tekst die ik streamde vastliep. Ik heb toen een [iPad (8gen) me 128 GB](https://support.apple.com/kb/SP822?locale=en_US) met een Apple Pencil aangeschaft. De oude iPad mini was nog goed voor een tegoedbon van 20 euro. Het verschil was en dag en nacht tussen zo’n oude iPad mini en de nieuwste iPad van dat moment.
 
-# Ook andere aspecten maken thuiswerken fijner
+## Ook andere aspecten maken thuiswerken fijner
 
 Ik ben geen koffieleut en dronk het alleen als ik bij de koffiebar was. Ik had dus geen koffieapparaat thuis, maar omdat ik nu altijd thuis was besloot ik een eenvoudig apparaat te kopen voor als ik zin had in een kleine kopje maar geen tijd voor een koffiewandeling. Ik wilde geen van de capsule apparaten en koos voor de eenvoudige [Melitta Aromaboy](https://www.melitta.co.uk/products/coffee-machines/filter-coffee-machines/aromaboy-filter-coffee-machine-retro/) filterapparaat. Het is geen dure espressomachine, maar goed genoeg voor een kopje. Die staat nu mooi naast mijn [broodrooster](https://www.krups.nl/p/excellence-toaster-kh682d-broodrooster/7211003732). Om de een of ander reden had ik ook nooit een broodrooster en besloot er eentje te kopen.
 
@@ -42,7 +43,7 @@ Nadat alles gedaan was besloot mijn koelkast ook dat het genoeg was na 17 jaar t
 
 Het totaalresultaat is een appartement met een praktische Manhattan-achtige keuken waar alles zijn plek heeft zonder vol en rommelig te zijn. Een werkplek met een voor mij ergonomische muis en toetsenbord, ondertussen ook met een [Philips 34’ curved scherm](https://www.philips.co.uk/c-p/346E2CUAE_00/ultrawide-lcd-monitor). Geen last meer van tocht dankzij de nieuwe ramen en deuren. Een iPad die meerdere keren een superhandige oplossing is geweest. En dan heb ik het nog niet over de Lego pronkstukken op mijn boekenkast, want de eerste lockdown weken deed ik niks anders dan puzzels maken en Lego bouwen. En tenslotte, een van de beste dingen die uit de pandemie kwam is mijn vernieuwde liefde voor fotografie.
 
-# Vanuit lockdown ook goede dingen ontstaan
+## Vanuit lockdown ook goede dingen ontstaan
 
 Tijdens de grote opruiming besloot ik al mijn oude camera spullen in te ruilen voor 1 goede kwaliteit compact camera. Een [Lumix LX100 II](https://shop.panasonic.com/cameras-and-camcorders/cameras/point-and-shoot-cameras/dc-lx100m2). Sindsdien ben ik meer serieus bezig met mijn fotografie en had ik ook een actievere uitlaatklep en afleiding tijdens de lockdowns.
 
@@ -52,6 +53,6 @@ Ik heb geen enkele behoefte om weer voltijd op een kantoor te gaan werken. Mijn 
 
 Mijn werkgever zelf stimuleert hybride werken. Alle desktops zijn weg. Alle werknemers hebben nu een laptop. Als je wilt thuiswerken mag dat, als je op kantoor wilt werken kan dat ook. Hybride werken is nu de kern. Microsoft Teams is integrale software geworden waar tot vandaag nog steeds wekelijks afdelingsbrede meetings zijn, updates en dergelijke.
 
-# De toekomst
+## De toekomst
 
 Het was een zware periode, vooral door persoonlijk omstandigheden. Maar in het eerste 1,5 jaar van de pandemie maakte technologie het mogelijk dat de wereld online samenkwam. Dankzij Teams en Zoom was ik altijd verbonden met anderen, van videochatten met vrienden en familie, online meetups tot online congressen. Chefs die vanuit hun eigen keuken mensen nieuwe gerechten leerden koken. We deelden allemaal samen de onwerkelijkheid dat de wereld stil stond. De pandemie toonde de kracht van goede technologie die mensen echt helpt. Ik hoop dat men deze lessen in de toekomst zal meenemen.

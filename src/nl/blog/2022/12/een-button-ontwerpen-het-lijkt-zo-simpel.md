@@ -3,40 +3,41 @@ title: Een button ontwerpen, het lijkt zo simpel
 date: 2022-12-09
 author: Jasha Joachimsthal
 summary: 'Een van de eerste zaken die ik in Adobe XD heb ontworpen, waren buttons voor het nieuwe design system van mijn werkgever. Onze producten bevatten vooral pagina’s met formulieren en daar horen buttons bij. In prototypes probeer ik die buttons zoveel mogelijk het gedrag mee te geven voor de uiteindelijke implementatie. In deze blogpost beschrijf ik mijn ervaringen met het maken van een button in Adobe XD, het gebruik ervan in prototypes en hoe bruikbaar de CSS is voor de ontwikkelaars.'
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Een van de eerste zaken die ik in Adobe XD heb ontworpen, waren buttons voor het nieuwe design system van mijn werkgever. Onze producten bevatten vooral pagina’s met formulieren en daar horen buttons bij. In prototypes probeer ik die buttons zoveel mogelijk het gedrag mee te geven voor de uiteindelijke implementatie. In deze blogpost beschrijf ik mijn ervaringen met het maken van een button in Adobe XD, het gebruik ervan in prototypes en hoe bruikbaar de CSS is voor de ontwikkelaars.
 
-# Een button ontwerpen
+## Een button ontwerpen
 
 Het ontwerp van een button begint met een rechthoek, een tekst en een icoontje op een artboard (een soort pagina). De rechthoek geef ik een witte achtergrond, een blauwe rand van 2 pixels en een schaduw. De hoeken van de rechthoek heb ik rond gemaakt met een border radius. Mijn button ziet er nu zo uit:
 
 ![Ontwerp van een button. Een ovale witte knop met een blauwe rand. In de button een plus-icoon en de tekst Voeg toe](https://fronteers.nl/_img/blog-jasha-1.png)
 
-# Ontwerp van een button
+## Ontwerp van een button
 
 De rechthoek en tekst heb ik gegroepeerd en vervolgens een padding meegegeven. Voor tekstvlakken kun je de hoogte of breedte in Adobe XD flexibel maken zodat die automatisch schaalt als er meer of minder tekst in staat. Ik heb de breedte van het label flexibel gemaakt. In combinatie met de padding zorgt dat ervoor dat de button automatisch schaalt als ik het label aanpas.
 
 Een button in HTML heeft verschillende states die de gebruiker van elkaar moet kunnen onderscheiden:
 
-* standaard (default)
-* hover
-* focus
-* active
-* disabled
+-   standaard (default)
+-   hover
+-   focus
+-   active
+-   disabled
 
 Ook in Adobe XD kun je meerdere states aanmaken binnen een component. In dit geval heb ik voor de button een component aangemaakt met de bovenstaande vijf states. Elke state heeft een variant op de styling van de button, maar in de basis blijft het een vlak met een stuk tekst en dit vlak schaalt mee met de tekst.
 
-# Interacties toevoegen
+## Interacties toevoegen
 
-Met Adobe XD kun je meer dan alleen statische pagina’s ontwerpen. Het ondersteunt ook interacties die je aan elke laag binnen je artboard kunt koppelen. Ik heb  een interactie toegevoegd die  vanaf de default naar de hover state van de button gaat als er met een muis overheen gaat. Dit komt overeen met het gedrag van een echte button in HTML. Ik heb nog twee interacties toegevoegd: de overgang naar de active state bij een “tap” (muisklik) en de overgang naar de focus state als de gebruiker op de tab toets drukt. Dit levert het volgende prototype op:
+Met Adobe XD kun je meer dan alleen statische pagina’s ontwerpen. Het ondersteunt ook interacties die je aan elke laag binnen je artboard kunt koppelen. Ik heb een interactie toegevoegd die vanaf de default naar de hover state van de button gaat als er met een muis overheen gaat. Dit komt overeen met het gedrag van een echte button in HTML. Ik heb nog twee interacties toegevoegd: de overgang naar de active state bij een “tap” (muisklik) en de overgang naar de focus state als de gebruiker op de tab toets drukt. Dit levert het volgende prototype op:
 
 {% vimeo "" %}
 
 De overgang tussen de standaard en de disabled state definieer ik niet als interactie binnen het component in Adobe XD. De disabled state heeft in het ontwerp wel een eigen uiterlijk: geen schaduw, grijze tekst en achtergrond.
 
-# Verschillen met een echte button
+## Verschillen met een echte button
 
 Het ontwerp van de button begint al redelijk te lijken op een echte button, maar er zijn wel wat verschillen. Deze verschillen zitten met name in de interacties die je in het prototype kunt maken voor de button, maar ook in de rendering.
 
@@ -46,7 +47,7 @@ Ik wilde de button een focusring meegeven. Deze focusring was in het ontwerp een
 
 Nog een verschil is het gedrag tijdens de klik op een button. Als je op een echte button klikt, zie je even de active state en vervolgens wordt de eigenlijke actie uitgevoerd. Dit is in Adobe XD niet mogelijk omdat je maar één overgang per interactie kunt instellen. De ontwerper moet een keuze maken tussen het laten zien van de active state of laten zien waar de button voor bedoeld is, bijvoorbeeld het versturen van een formulier. In het design system zie je de overgang naar de active state, terwijl in de prototypes de bedoelde actie te zien is.
 
-# Hand-off naar de ontwikkelaar
+## Hand-off naar de ontwikkelaar
 
 Het gaat natuurlijk niet alleen om het laten zien van een interactie van de button. Uiteindelijk zal een front-end developer een echte button maken in HTML en CSS en daar eventueel met JavaScript interactie aan toevoegen.
 
@@ -112,7 +113,7 @@ Afstanden binnen de button volgens Adobe XD.
 
 Een mogelijkheid om documentatie of een commentaar toe te voegen tijdens het ontwerpen ontbreekt. Opmerkingen kun je alleen in de gepubliceerde online versie toevoegen. In ons design system heb ik van een aantal componenten de gewenste marges erbij gezet.
 
-# Was het echt zo simpel?
+## Was het echt zo simpel?
 
 Het lijkt zo simpel: een button ontwerpen in Adobe XD en toepassen in een prototype. Toch is de werkelijkheid wat minder eenvoudig. De CSS geeft net een ander resultaat dan bedoeld in het ontwerp. De ontwikkelaar moet daardoor alsnog extra werk doen om de implementatie overeen te laten komen met het ontwerp.
 

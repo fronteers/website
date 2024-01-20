@@ -1,10 +1,11 @@
 ---
-title: "CSS en JavaScripters"
+title: 'CSS en JavaScripters'
 date: 2018-12-21
 author: Peter-Paul Koch
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Een probleem dat ik de laatste twee of drie jaar steeds vaker zie opduiken, is dat het lijkt alsof een boel JavaScripters, vooral diegenen die in grote toolchains hebben geïnvesteerd, niet meer zo goed weten hoe CSS werkt.
 
 Om daar wat aan te doen heb ik het plan opgevat hier een boek aan te wijden. Dit artikel is een soort voorschot daarop. Bovendien is het leuke van de Fronteers-crew dat de meeste mensen vloeiend zijn in zowel CSS als JavaScript en dat ik hier dus wellicht wat nuttige feedback kan krijgen.
@@ -13,7 +14,7 @@ Het boek gaat niet noodzakelijkerwijs door CSS heen om aan JavaScripters duideli
 
 Dit artikel beschrijft twee van die basisconcepten, is geschreven als vingeroefening, en in de hoop wat goede argumenten en suggesties los te maken.
 
-# CSS als JSON
+## CSS als JSON
 
 Eén idee dat ik had, is om CSS uit te leggen als een soort JSON-bestand. Mijn analogie gaat op dit moment als volgt:
 
@@ -29,7 +30,7 @@ Sommige CSS-declaraties veroorzaken een klein effect: het gebruiken van een bepa
 
 Slaat deze vergelijking ergens op? Zou dit helpen om CSS-basisconcepten aan JavaScripters uit te leggen? Zijn er wijzigingen nodig? Ik hoor je commentaar graag.
 
-# Global scope
+## Global scope
 
 Het belangrijkste punt is echter de cascade. De cascade lijkt een van de grootste struikelblokken voor JavaScripters te zijn - niet omdat ze hem niet zouden begrijpen, maar omdat ze hem liever niet gebruiken.
 
@@ -39,7 +40,7 @@ Ze hebben hier een punt, soort van. Je `div + p` selector kan fantastisch werken
 
 Voor dit probleem zijn twee oplossingen. De eerste is class names voor alles gebruiken; en dit is het kernconcept van populaire CSS-methodologieën zoals met name BEM. In ons voorbeeld wordt het dus iets als `section.hoofdkolom div + p`, en de stijlen werken niet meer door op andere pagina-elementen.
 
-# CSS-in-JS
+## CSS-in-JS
 
 JavaScripters gebruiken echter geen BEM, want echte JavaScripters gebruiken geen CSS-methodologieën. In plaats daarvan wordt het gebruik van CSS-in-JS steeds populairder. Het is belangrijk te beseffen dat CSS-in-JS een afgeleide is van de class name-strategie.
 
@@ -51,7 +52,7 @@ Niettemin zal ik CSS-in-JS serieus moeten bestuderen en de mogelijkheid moeten o
 
 Bovendien: zelfs als CSS-in-JS de juiste oplossing is, is de global scope van CSS wel een probleem? Of lijkt het alleen maar een probleem als je teveel JavaScript hebt geschreven en nooit geleerd hebt op een CSS-manier te denken? (Vooropgesteld dat er een CSS-manier van denken bestaat.) Ook hier zijn argumenten en suggesties welkom.
 
-# Web Components
+## Web Components
 
 Er is maar één oplossing voor het probleem van de global scope die echt anders is dan class names en dat is Web Components, uitgevonden en uitgedragen door Google. (Ligt het aan mij, of lukt het nou echt niet om Web Components serieus van de grond te krijgen in front-end development?)
 
@@ -59,7 +60,7 @@ Bij Web Components gebruik je de [Shadow DOM](https://developer.mozilla.org/en-U
 
 Zijn Web Components beter dan CSS-in-JS? Slechter? Of zijn ze bedoeld voor anderssoortige situaties? Ook hier zijn argumenten en suggesties welkom.
 
-# Conclusie
+## Conclusie
 
 Om CSS aan JavaScripters te leren, is het noodzakelijk te denken zoals JavaScripters denken. Ik heb geen idee of dat in het bovenstaande gelukt is, maar dat is een van de redenen dat ik dit publiceer. Laat maar weten wat je vindt - vooral als je kracht eerder in JavaScript dan in CSS ligt.
 

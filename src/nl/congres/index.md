@@ -1,19 +1,19 @@
 ---
 key: conference
 title: Congres
-# if there's a subtitle, put it in heroSlogan:
-heroSlogan: ""
+heroSlogan: ''
 ---
-# Fronteers Congres
+
+## Fronteers Congres
 
 Fronteers hosts a world-class front-end web development conference each year: **Fronteers Conference**. We've made it our mission to create safe, accessible and stimulating conferences for the front-end community.</p>
 
 Stay in touch by [following @FronteersConf on Twitter](https://twitter.com/FronteersConf).</p>
-     
+
 ## Onze congressen
 
 | Conference         | Date            | Venue                         | Visitors |
-|--------------------|-----------------|-------------------------------|----------|
+| ------------------ | --------------- | ----------------------------- | -------- |
 | FronteersConf 2022 | September 9     | Pathé Leidsche Rijn, Utrecht  |
 | FronteersConf 2019 | October 3-4     | Pathé Tuschinski, Amsterdam   |
 | FronteersConf 2018 | October 4–5     | DeLaMar Theater, Amsterdam    |

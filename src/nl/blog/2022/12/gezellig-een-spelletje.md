@@ -3,9 +3,10 @@ title: Gezellig, een spelletje
 date: 2022-12-05
 author: Peter Doolaard
 summary: 'Je zit met de hele familie onder de kerstboom en de veilige gespreksonderwerpen raken uitgeput. Om het gezellig te houden stel je voor om een spelletje te doen. De meesten hebben wel zin in Scrabble, maar je kan die doos nergens vinden! Geen paniek, je bouwt gewoon je eigen spel. Met HTML en CSS timmer je dat bord zo in elkaar.'
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Je zit met de hele familie onder de kerstboom en de veilige gespreksonderwerpen raken uitgeput. Om het gezellig te houden stel je voor om een spelletje te doen. De meesten hebben wel zin in Scrabble, maar je kan die doos nergens vinden! Geen paniek, je bouwt gewoon je eigen spel. Met HTML en CSS timmer je dat bord zo in elkaar.
 
 Bekijk het bord [in real life action](https://peterdoolaard.nl/blog/gezellig-een-spelletje-scrabble/).
@@ -18,7 +19,7 @@ Bij een CSS-grid heb je altijd een parentrelement en childelementen nodig. De pa
 
 ![Een scrabblebord met daarop de woorden Fijne feestdagen, gelukkig nieuwjaar gespeld](https://fronteers.nl/_img/adventskalender/advents-peter-scrabble.png)
 
-# Een grid voor het spelbord
+## Een grid voor het spelbord
 
 Het ontwerp van een spelbord is een grid en bij Scrabble zie je dat heel duidelijk. Het bord bevat 225 vakjes verdeeld over 15 rijen en 15 kolommen. Je hebt dus 15 x 15 = 225 items nodig om het bord een gezicht te geven. Dat zijn 225 `span`-elementen waarvan de meeste een grijze achtergrond hebben. Een deel heeft een data-attribuut dat de bonus aangeeft, bijvoorbeeld ``data-bonus="3 x woord waarde"`.
 
@@ -34,7 +35,7 @@ Zo ziet de gridefinitie eruit:
 
 Het aantal `span`-elementen is gelijk aan het aantal rasterplaatsen (cellen). Daardoor is het niet nodig om elk item expliciet op zijn plek te zetten. De items lopen in volgorde van de HTML vanzelf het raster in vanaf rij 1, kolom 1 naar rij 15, kolom 15. Je moet wel zelf uittellen welke items een data-attribuut moeten hebben.
 
-# Een oplossing voor de letters
+## Een oplossing voor de letters
 
 Ook de letters zijn griditems en moeten dus net als de bordvakjes in een gridcontainer staan. Het verschil is dat de letters een specifieke positie in het raster hebben. Ze kunnen dus sowieso niet automatisch het raster inlopen.
 
@@ -42,8 +43,8 @@ Je kúnt de letters onder het laatste `span`-element van het spelbord zetten. Da
 
 Je hebt de keus uit twee oplossingen:
 
-1. - Geef alle 225 bordvakjes een positie in het grid met `grid-area: 1 / 1;` `grid-area: 1 / 2`; tot en met `grid-area: 15 / 15`.
-2. - Maak een tweede gridcontainer voor de letters, met precies dezelfde eigenschappen als het speelbord. Dit grid leg je boven op het speelbordraster. Nu hoef je alleen de letteritems op hun plek te zetten.
+1.  - Geef alle 225 bordvakjes een positie in het grid met `grid-area: 1 / 1;` `grid-area: 1 / 2`; tot en met `grid-area: 15 / 15`.
+2.  - Maak een tweede gridcontainer voor de letters, met precies dezelfde eigenschappen als het speelbord. Dit grid leg je boven op het speelbordraster. Nu hoef je alleen de letteritems op hun plek te zetten.
 
 De eerste oplossing is een krankzinnig monnikenwerk en alleen aan te raden als je de feestdagen eigenlijk liever alleen doorbrengt.
 
@@ -83,7 +84,7 @@ De eigenschap `grid-area` is een korte notatie voor `grid-row-start`, `grid-colu
 
 Voor de stapelvolgorde van het bord en de letters geldt de normale volgorderegel: later in de HTML ligt hoger op de stapel. Als het nodig is kun je de volgorde met `z-index` eenvoudig aanpassen. In de grid-context verander je met [z-index de stapelvolgorde zonder dat je position](https://w3c.github.io/csswg-drafts/css-grid/#z-order) op iets anders dan `static` hoeft in te stellen.
 
-# De speciale bordvakjes
+## De speciale bordvakjes
 
 Met een algemene childselector op het spelbord krijgen alle speelvakjes dezelfde basisopmaak. Die vakjes zijn 4rem groot, terwijl de rastercellen 4.25rem zijn. Door de vakjes te centreren in de cel blijft er zo rondom wat witruimte tussen de vakjes.
 
@@ -115,7 +116,7 @@ Voor de speciale vakjes hangt de opmaak af van het data-attribuut `data-bonus`. 
 }
 ```
 
-# Opmaak van de lettervakjes
+## Opmaak van de lettervakjes
 
 De CSS voor de lettervakjes is wat uitgebreider, maar bijzonderheden zijn er niet. De letter komt uit een data-attribuut, net als de puntwaarde van de letter. Het vakje is een flexcontainer voor de uitlijning van de letter. De letterwaarde is absoluut gepositioneerd. Je zou dat allemaal kunnen vervangen door een grid, maar daar wordt de code niet beter of duidelijker van.
 
