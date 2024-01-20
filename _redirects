@@ -4,4 +4,22 @@
 # We want to redirect non-translated content (so without /locale/) to the
 # localized page.
 
-/* /nl/:splat 302
+/blog /nl/blog:splat 302
+/bijeenkomsten/* /nl/activiteiten:splat 302
+/congres/* /nl/congres
+/vacaturebank/* /nl/werk-en-freelance:splat
+/vereniging/lidmaatschap /nl/word-lid/lidmaatschap/
+/vereniging/doel /nl/vereniging/:splat 302
+/vereniging/vrijwilligers/* /nl/vereniging/vrijwilliger-worden/:splat 302
+/vereniging/commissies/activiteiten /nl/vereniging 302
+/vereniging/commissies/onderwijs/* /nl/vereniging 302
+/vereniging/ledenkorting /nl/word-lid/lidmaatschap/#waarom-lid-worden
+/vereniging/* /nl/vereniging:splat 302
+/inschrijven /nl/word-lid/
+/sign-up /en/join-us/
+/nieuwsbrief /nl/footer/nieuwsbrief/ 302
+/community /nl/word-lid/community/ 302
+/contact /nl/vereniging/contact/ 302
+/workshops /nl/workshops-archief
+
+/about /en/organisation/ 302
