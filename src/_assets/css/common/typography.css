@@ -17,8 +17,7 @@
   --line-spacing-36: 2.25;
 }
 
-h1,
-.page-content h3 {
+h1 {
   font-size: 2.5rem;
   line-height: 1.275;
   font-family: var(--font-family-decoration), sans-serif;
@@ -26,8 +25,7 @@ h1,
   margin-block-end: 0.67em;
 }
 
-h2,
-.page-content h4 {
+h2 {
   font-size: 1.5rem;
   line-height: 1.25;
   text-transform: uppercase;
@@ -36,15 +34,13 @@ h2,
   margin-block-end: 0.83em;
 }
 
-h3,
-.page-content h5 {
+h3 {
   font-size: 1.5rem;
   line-height: 1.25;
   font-family: var(--font-family-decoration), sans-serif;
 }
 
-h4,
-.page-content h6 {
+h4 {
   font-size: 1.125rem;
   line-height: 1.5;
   font-family: var(--font-family-content), sans-serif;

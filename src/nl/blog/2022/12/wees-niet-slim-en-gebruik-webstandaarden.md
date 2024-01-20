@@ -30,7 +30,7 @@ HTTP staat voor Hypertext Transfer Protocol.
 
 Een protocol is doorgaans een set van regels om een doel te bereiken. In dit geval gaat het om een communicatie en overdrachts protocol en beschrijft de syntax, semantiek, foutdetectie en -correctie, synchronisatie om het volgende te bewerkstelligen:
 
-> [_Wikipedia_](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+> "...where hypertext documents include hyperlinks to other resources that the user can easily access." [_Wikipedia_](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 
 Ofwel: _hypertext_ documenten die _hyperlinks_ bevatten naar andere _resources_ die een _gebruiker_ eenvoudig kan raadplegen. Wat deze begrippen inhouden volgt.
 
@@ -153,11 +153,13 @@ Maar ook randzaken die ontzettend belangrijk zijn als we het hebben over standaa
 
 Degene die het meest voor komt is [RFC 2119: Key words for use in RFCs to Indicate Requirement Levels](https://www.rfc-editor.org/rfc/rfc2119):
 
->
+> The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119.
 
 Er zijn nauwe definities voor de sleutelwoorden hier genoemd, en weten wat die definitie is helpt bij zowel het opstellen van als het lezen van een RFC en subsequent ook een Internet Standaard.
 
 ## Maar wat heb ik hieraan?
+
+Laten we beginnen met de vraag: _Voor wie is HTTP bedoeld?_. Je hebt het woord _gebruiker_ een aantal maal gelezen, zonder dat ik heb gedefinieerd wie of _wat_ een gebruiker is. Wat is dat, een gebruiker?
 
 Het antwoord hierop kunnen we terug vinden in [RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1](https://www.rfc-editor.org/rfc/rfc2616):
 
@@ -286,13 +288,13 @@ Cache-Control: public, max-age=31536000, immutable
 # belangrijker is om wat oudere informatie te laten zien
 # dan dat je niets laat zien.
 #
-# Dit is vaak waar, voor heel veel informatie op het
-# internet!
+## Dit is vaak waar, voor heel veel informatie op het
+## internet!
 #
-# Gebruik het muffe opgeslagen antwoord nog maximaal 60
-# seconden terwijl je op de achtergrond een vers antwoord
-# ophaald. Gebruik het muffe opgeslagen antwoord nog een
-# uur, als er een foutmelding is gegeneerd bij het ophalen.
+## Gebruik het muffe opgeslagen antwoord nog maximaal 60
+## seconden terwijl je op de achtergrond een vers antwoord
+## ophaald. Gebruik het muffe opgeslagen antwoord nog een
+## uur, als er een foutmelding is gegeneerd bij het ophalen.
 
 Cache-Control: private, max-age=300, stale-while-revalidate=60, stale-if-error=3600
 ```
@@ -477,6 +479,8 @@ Interesseert dit alles je en heb je ideeën over het web door-ontwikkelen? Ben j
 1. Veel van de organisaties die standaarden ontwikkelen en onderhouden kan je terug vinden op sites als GitHub.com. Voorbeelden hiervan zijn het [WC3](https://github.com/w3c), [WICG](https://github.com/WICG), [WhatWG](https://github.com/whatwg) en [TC39](https://github.com/tc39). Ze hebben allemaal andere regels en richtlijnen, veelal beschreven in hun README en/of Code of Conduct. Dit is een van de eenvoudigste manieren om te zien welke discussies op dit moment leven.
 2. Het WC3 heeft [een eigen website](https://www.w3.org/). Hier kan je alle werkgroepen en ander-soort samenkomen vinden. Lid worden van een groep is vaak ontzettend eenvoudig en als je het eenmaal bent, ben je vaak direct van harte welkom bij veel van de discussies.
 3. De Web Incubator Community Group (WICG) heb ik nog niet genoemd. Deze groep ontwikkeld voorstellen voor nieuwe _features_! Je kan veel van deze features terug vinden op [hun website](https://wicg.io/), alsmede een link naar hun Discourse.
+4. Dan hebben we de Web Hypertext Application Technology Working Group (WHATWG). Deze groep onderhoudt en ontwikkelt de HTML standaard! Hoe je daar mee aan kan doen staat uitgelegd op [hun website](https://whatwg.org/).
+5. Voor JavaScript (en gerelateerde) is er [de TC39 standaard](https://tc39.github.io/ecma262/). De website zelf geeft aan dat eigenlijk alle contributies lopen via [hun GitHub](https://github.com/tc39/ecma262), maar er staat wel wat extra informatie op de website.
 
 ## Is onderdeel worden van zo'n groep dan de enige manier?
 

@@ -35,7 +35,9 @@ Als gebruiker heb je bepaalde behoeftes en doelen. Stel dat je een webshop bezoe
 
 Het is heel goed om wireframes, designs en/of front-end al zo vroeg mogelijk te testen zodat je in een vroeg stadium nog wijzigingen kan doen alvorens je iets gerealiseerd hebt. Tenslotte kan je met een werkend front-end al een hoop gebruiksgemak en ervaring testen.
 
-{%- vimeo "151990308" -%}
+<div>
+    {%- vimeo "151990308" -%}
+</div>
 
 ## A test-imonial ([slides](http://www.slideshare.net/ErwinHeitzman/introductie-at-framework))
 
@@ -44,7 +46,9 @@ _Erwin Heitzman - Test Engineer bij iTesso, an amadeus company_
 Een introductie over het opzetten van een test architectuur. Met daarbij de noodzaak en de voordelen van het testen zelf en de problemen om een dergelijke architectuur te onderhouden.
 Het is geen vraag of er getest moet worden, maar wat en hoe.
 
-{%- vimeo "151554671" -%}
+<div>
+    {%- vimeo "151554671" -%}
+</div>
 
 ## Modern testing ([slides](http://www.slideshare.net/MaartenGroeneweg/fronteers-modern-testing))
 
@@ -56,7 +60,9 @@ Mooie principes maar ze maken het werk van de traditionele tester onmogelijk. Di
 
 Jazeker! De traditionele tester moet namelijk afgeschaft worden zodat we écht agile kunnen gaan werken. Hij wordt vervangen door een test engineer die ervoor zorgt dat je als team toch kwaliteit kan blijven garanderen.
 
-{%- vimeo "151616180" -%}
+<div>
+    {%- vimeo "151616180" -%}
+</div>
 
 ## Waar?
 

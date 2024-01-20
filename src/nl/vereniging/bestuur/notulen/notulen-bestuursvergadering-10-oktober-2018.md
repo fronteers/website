@@ -2,8 +2,6 @@
 title: Notulen bestuursvergadering 10 oktober 2018
 ---
 
-# Notulen bestuursvergadering 10 oktober 2018
-
 ## Aanwezig via Slack videochat
 
 -   Anneke Sinnema (voorzitter)

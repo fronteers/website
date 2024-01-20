@@ -39,8 +39,8 @@ Hoe meer tijd je in de terminal doorbrengt, hoe vaker je bepaalde commando's zal
 Ikzelf vind het wel gemakkelijk als de pijltjes omhoog en omlaag zich wat intelligenter gedragen. Als je onderstaande code toevoegt aan je `inputrc`, houdt Readline rekening met wat je al getypt hebt:
 
 ```
-# Use more intelligent Up/Down behaviour: use the text that has already been
-# typed as the prefix for searching through commands, like in Vim.
+## Use more intelligent Up/Down behaviour: use the text that has already been
+## typed as the prefix for searching through commands, like in Vim.
 "\e[B": history-search-forward
 "\e[A": history-search-backward)
 ```
@@ -50,13 +50,13 @@ Concreet: als je nu `git com` typt, en dan pijltje omhoog, heb je meteen je vori
 Ook in `.bashrc` voor geschiedenis zijn er enkele handige instellingen. Ik hou wel van deze:
 
 ```
-# Als je twee keer `foo` typt, hoeft dat niet twee keer in de geschiedenis.
-# Zo vervuil je minder en kan je sneller door de geschiedenis navigeren.
+## Als je twee keer `foo` typt, hoeft dat niet twee keer in de geschiedenis.
+## Zo vervuil je minder en kan je sneller door de geschiedenis navigeren.
 export HISTCONTROL=ignoredups;
 
 ## Als je ooit een uitroepteken gebruikt en een onbegrijpelijke foutmelding
-# terugkrijgt, is dit commando een redder. Hiermee verschijnt je "foute"
-# opdracht netjes opnieuw, zodat je hem gemakkelijk kan bewerken.
+## terugkrijgt, is dit commando een redder. Hiermee verschijnt je "foute"
+## opdracht netjes opnieuw, zodat je hem gemakkelijk kan bewerken.
 shopt -s histreedit;
 
 ## Standaard houdt Bash de laatste 500 opdrachten bij. Dat mag meer zijn.

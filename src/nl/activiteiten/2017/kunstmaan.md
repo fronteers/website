@@ -40,7 +40,9 @@ Ilias Van Peer ([@zwilias](https://github.com/zwilias)) is Front-End Developer b
 
 ```
 
-{%- vimeo "232216879" -%}
+<div>
+    {%- vimeo "232216879" -%}
+</div>
 
 ## Talk 2: I didn't know the browser could do that!
 
@@ -50,7 +52,9 @@ The times when a browser simply had to parse and show some markup are long gone.
 
 Sam Bellen ([@sambego](https://github.com/sambego)) is Front-End Developer bij madewithlove.
 
-{%- vimeo "232176042" -%}
+<div>
+    {%- vimeo "232176042" -%}
+</div>
 
 ![Kunstmaan](/_img/bijeenkomsten/km.jpg)
 

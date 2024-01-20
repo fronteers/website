@@ -22,17 +22,23 @@ Op donderdag 8 mei 2014 is Fronteers te gast bij [Competa ](http://www.competa.c
 
 IndexedDB en WebSQL zijn twee soorten databases die je in een browser kan gebruiken. Mede dankzij deze techniek kan een website volledig offline gebruikt worden. Elmer vertelt over een aantal problemen en bijbehorende oplossingen die hij zelf is tegengekomen bij het gebruik van IndexedDB en WebSQL.
 
-{%- vimeo "100079630" -%}
+<div>
+    {%- vimeo "100079630" -%}
+</div>
 
 ## Jasper Moelker - Frontendarchitectuur en Angular voor je projectteam
 
 De presentatie van Jasper is te vinden [op slideshare.net/jbmoelker](http://www.slideshare.net/jbmoelker/voorhoede-frontend-architecture).
 
-{%- vimeo "100181696" -%}
+<div>
+    {%- vimeo "100181696" -%}
+</div>
 
 ## Jules Ernst - Demo toegankelijke staafdiagrammen en grafieken
 
-{%- vimeo "100243987" -%}
+<div>
+    {%- vimeo "100243987" -%}
+</div>
 
 ## Bereikbaarheid
 

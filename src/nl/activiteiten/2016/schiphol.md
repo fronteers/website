@@ -7,13 +7,13 @@ categories:
     - meetup
 ---
 
-# _Thema: de uitdagingen van front-end in high demand_
+_Thema: de uitdagingen van front-end in high demand_
 
 In het hoofdgebouw van Schiphol Group wordt donderdag 29 september een bijeenkomst gehouden voor front-end developers en andere geïnteresseerden. Tijdens deze dag worden vanuit verschillende hoeken de uitdagingen van front-end in high demand omgevingen belicht. En uiteraard stilgestaan bij de vraag hoe je deze het hoofd kunt bieden. Dit gebeurt aan de hand van drie presentaties.
 
 Tijdens de avond wordt de allerlaatste [Fronteers Conference 2016](/congres/2016) ticket verloot!
 
-## Het programma
+## Het programma:
 
 -   18:00 inloop met dinerbuffet en een drankje
 -   19:00 introductie door Arjen Geerse
@@ -26,25 +26,33 @@ Tijdens de avond wordt de allerlaatste [Fronteers Conference 2016](/congres/2016
 
 ## introductie door Arjen Geerse
 
-{%- vimeo "189349761" -%}
+<div>
+    {%- vimeo "189349761" -%}
+</div>
 
 ## Tamara Forza: Component Driven JavaScript
 
 _Deze presentatie is in het Engels._ In de beta-website van Schiphol wordt gebruik gemaakt van een set eigen componenten, die samenwerken met een pub/sub-systeem. Tamara vertelt over de ontwikkeling en het gebruik van deze componenten.
 
-{%- vimeo "189041280" -%}
+<div>
+    {%- vimeo "189041280" -%}
+</div>
 
 ## Ischa Gast: \*\*\*Flawless CSS
 
 De weg naar vlekkeloze CSS met een team van 8 front-enders op dezelfde codebase.
 
-{%- vimeo "189361331" -%}
+<div>
+    {%- vimeo "189361331" -%}
+</div>
 
 ## Joost Lubach: Pinch
 
 Pinch geeft een vernieuwende draai aan datamodellering door middel van interactief visueel programmeren. Dit vereist een zeer krachtige maar ook veelzijdige UI. Joost vertelt over hoe hij Web Workers inzet in een React / Flux-omgeving om de UI van Pinch zo snel mogelijk te maken, en gebruikers toch alle kracht van een spreadsheetprogramma te bieden.
 
-{%- vimeo "189450610" -%}
+<div>
+    {%- vimeo "189450610" -%}
+</div>
 
 ## Eten en drinken
 

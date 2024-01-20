@@ -4,7 +4,7 @@ key: community
 heroSlogan: ''
 ---
 
-# Slack
+## Slack
 
 Fronteers heeft een eigen Slack kanaal waar we front-enders samen willen brengen om te praten over interessante technieken en elkaar te helpen. Fronteers heeft een non-profit account waarbij de chat geschiedenis kostenloos wordt bewaard. De commissie Marketing zorgt voor moderatie.
 

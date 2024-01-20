@@ -1,7 +1,30 @@
 # All files that exist don't need to be excluded, as they will have preference
+
 # over anything listed here and in the netlify config TOML.
 
 # We want to redirect non-translated content (so without /locale/) to the
+
 # localized page.
 
-/* /nl/:splat 302
+/blog /nl/blog:splat 302
+/bijeenkomsten/_ /nl/activiteiten:splat 302
+/congres/_ /nl/congres 302
+/vacaturebank/_ /nl/werk-en-freelance:splat
+/vereniging/lidmaatschap /nl/word-lid/lidmaatschap/ 302
+/vereniging/doel /nl/vereniging/:splat 302
+/vereniging/vrijwilligers/_ /nl/vereniging/vrijwilliger-worden/:splat 302
+/vereniging/commissies/activiteiten /nl/vereniging 302
+/vereniging/commissies/onderwijs/\_ /nl/vereniging 302
+/vereniging/ledenkorting /nl/word-lid/lidmaatschap/#waarom-lid-worden 302
+/vereniging/wallpapers / 302
+/vereniging/badges /nl/vereniging/badges 302
+/vereniging/\* /nl/vereniging:splat 302
+/inschrijven /nl/word-lid/ 302
+/sign-up /en/join-us/ 302
+/nieuwsbrief /nl/footer/nieuwsbrief/ 302
+/community /nl/word-lid/community/ 302
+/contact /nl/vereniging/contact/ 302
+/workshops /nl/workshops-archief 302
+/videos /nl/activiteiten/videos 302
+
+/about /en/organisation/ 302

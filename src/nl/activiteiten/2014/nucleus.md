@@ -22,11 +22,15 @@ Dit evenement vond plaats bij [Nucleus](https://www.nucleus.be/) te Antwerpen.
 
 ## Performance
 
-{%- vimeo "98466383" -%}
+<div>
+    {%- vimeo "98466383" -%}
+</div>
 
 ## Adding SVG to your tool belt
 
-{%- vimeo "98509890" -%}
+<div>
+    {%- vimeo "98509890" -%}
+</div>
 
 ## Aanmeldingen
 

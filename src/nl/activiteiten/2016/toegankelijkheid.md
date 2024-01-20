@@ -26,7 +26,9 @@ Op 8 november host Fronteers een bijeenkomst over toegankelijkheid, met als eers
 
 Toegankelijkheid en het gebruik van JavaScript hoeven elkaar helemaal niet in de weg te zitten. Sterker nog: het wordt steeds beter mogelijk om JavaScript in te zetten om je toegankelijkheid te verbeteren! Karl's talk zal hier dieper op ingaan. Met behulp van praktische codevoorbeelden zal hij laten zien hoe we onze websites een stuk toegankelijker kunnen maken.
 
-{%- vimeo "202607215" -%}
+<div>
+    {%- vimeo "202607215" -%}
+</div>
 
 ## Job van Achterberg - Automatica11y: trends, patterns, predictions in audit tooling and data
 
@@ -34,7 +36,9 @@ Toegankelijkheid en het gebruik van JavaScript hoeven elkaar helemaal niet in de
 
 Het is tegenwoordig steeds beter mogelijk een deel van je toegankelijkheid automatisch te testen. Job zal in zijn talk een vergelijking maken tussen verschillende audit-tools voor toegankelijkheid, en ingaan op hun voor- en nadelen. Daarnaast zal ingaan op wat dit soort tools bieden en hoe ze gebruikt worden. Tot slot werpt hij een blik op de toekomst van het automatisch testen van toegankelijkheid.
 
-{%- vimeo "202660755" -%}
+<div>
+    {%- vimeo "202660755" -%}
+</div>
 
 ![Studio met opgestelde camera's](/_img/blog/2016/smet.jpg)
 

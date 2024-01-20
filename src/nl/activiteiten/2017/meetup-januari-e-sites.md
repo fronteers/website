@@ -28,7 +28,9 @@ In deze talk toont hij een aantal CSS-methodieken die jou en je team kunnen help
 
 Iain van der Wiel ([@iain_vdw](https://twitter.com/iain_vdw)) is Senior Front-End Developer bij E-sites. Hij is gefascineerd door het web en de invloed die het web heeft op ons leven. Iain maakt met HTML5, CSS3 en JavaScript gebruiksvriendelijke en toegankelijke websites en webapplicaties.
 
-{%- vimeo "232172746" -%}
+<div>
+    {%- vimeo "232172746" -%}
+</div>
 
 ## Talk 2: Atomic design met Pattern Lab | Bram Smulders ([slides](https://bramsmulders.github.io/slides/atomic-design-met-pattern-lab.html))
 

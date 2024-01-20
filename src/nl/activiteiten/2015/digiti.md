@@ -20,13 +20,17 @@ Op donderdag 12 maart 2015 is Fronteers te gast bij [Digiti](http://digiti.be/) 
 
 De symbiose tussen de front-end en de content, de raakvlakken en tegenstellingen, de kansen en de valkuilen. En vooral: hoe kunnen we elkaar helpen onze projecten naar een hoger niveau te tillen?
 
-{%- vimeo "144844462" -%}
+<div>
+    {%- vimeo "144844462" -%}
+</div>
 
 ## Bert Timmermans - Your own Minecraft, thanks to three.js! ([slides](https://speakerdeck.com/berttimmermans/your-own-minecraft-thanks-to-three-dot-js))
 
 It took Bert from Digiti a while, but he succeeded in building his own 3D-world with the help of JavaScript and Three.js. It was a great challenge, but he wants to share it with you! During Bert’s presentation, you’ll notice how easy it is to build your own 3D-world, and discover the challenges he has dealt with while building his.
 
-{%- vimeo "145030756" -%}
+<div>
+    {%- vimeo "145030756" -%}
+</div>
 
 Long story short: Everything is possible thanks to JavaScript. The only limit is your imagination!
 

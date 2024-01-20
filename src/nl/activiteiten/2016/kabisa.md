@@ -23,7 +23,9 @@ Geen tijd om na je werk nog ergens een hapje te gaan eten? Geen nood: er staat v
 
 Zoals velen van ons kwam Matthijs in aanraking met programmeren door het spelen van games. Maar net zoals velen van ons kwam hij nooit echt toe aan het _maken_ van een game. Want waar vind je de tijd? Nou, tijdens dat half uurtje lunch! Matthijs laat zien hoe je in kleine sprongen een complete _side scrolling shooter_ kan bouwen - in de browser.
 
-{%- vimeo "166241198" -%}
+<div>
+    {%- vimeo "166241198" -%}
+</div>
 
 ## [Roy Tomeij](https://twitter.com/roy) - "De toekomst van preprocessors"
 

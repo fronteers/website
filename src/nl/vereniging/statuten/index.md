@@ -1,6 +1,7 @@
 ---
 key: statutes
 title: Statuten oprichting vereniging
+
 heroSlogan: ''
 ---
 

@@ -19,15 +19,21 @@ Op donderdag 27 november 2014 is Fronteers te gast bij De Persgroep Publishing i
 
 ## Harald Bertels, _Design collaboration_
 
-{%- vimeo "131763124" -%}
+<div>
+    {%- vimeo "131763124" -%}
+</div>
 
 ## Pieter Mergan, _Schema.org microdata_
 
-{%- vimeo "131802282" -%}
+<div>
+    {%- vimeo "131802282" -%}
+</div>
 
 ## Jochen Vandendriessche, _Large Scale JavaScript Design Patterns (and how we use them at De Persgroep)_
 
-{%- vimeo "131802423" -%}
+<div>
+    {%- vimeo "131802423" -%}
+</div>
 
 ## Waar?
 

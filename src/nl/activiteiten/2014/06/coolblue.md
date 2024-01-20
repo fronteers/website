@@ -23,13 +23,17 @@ Op dinsdag 24 juni 2014 was Fronteers te gast bij [Coolblue](http://www.coolblue
 
 Marijn en Frank vertellen over hoe Coolblue software ontwikkelt en ze die meerdere malen per dag releasen. Kleine stapjes, elke dag een beetje beter, elke sprint een beetje beter. Zo ontwikkelen ze de grootste PHP E-commerce site van Europa.
 
-{%- vimeo "109780388" -%} <!-- 166 -->
+<div>
+    {%- vimeo "109780388" -%}
+</div> <!-- 166 -->
 
 ## Reinier Ladan - Research, development en professioneel aanklooien [(slides)](https://speakerdeck.com/reinier/research-development-en-professioneel-aanklooien)
 
 Reinier deelt zijn persoonlijke zoektocht naar een leven lang leren als front-end developer en designer. Wat kan aanklooien voor je persoonlijke ontwikkeling betekenen en hoe kun je research en development integreren in je huidige werkzaamheden.
 
-{%- vimeo "109780389" -%} <!-- 166 -->
+<div>
+    {%- vimeo "109780389" -%}
+</div> <!-- 166 -->
 
 ## Bereikbaarheid
 

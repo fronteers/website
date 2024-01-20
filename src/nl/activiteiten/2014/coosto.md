@@ -13,19 +13,25 @@ Woensdag 19 februari was Fronteers te gast bij [Coosto](http://www.coosto.com) i
 
 Een introductie tot het werken met fonts op het web. Om je teksten er mooier uit te laten zien, om strakke schaalbare retina-proof icoontjes te maken, of om rare dingen mee te doen: custom webfonts zijn leuk speelgoed voor de webdeveloper. Webfonts worden goed genoeg ondersteund om écht te kunnen gebruiken, en er zijn genoeg valkuilen en gotchas om écht even op te letten waar en wanneer je ze gebruikt. Roel Nieskens deelt zijn bevindingen, tips en openstaande vragen zodat je hierna zelf aan de slag kunt.
 
-{%- vimeo "89341449" -%}
+<div>
+    {%- vimeo "89341449" -%}
+</div>
 
 ## Koen Kivits - Groeistuipen: het schalen van je web app
 
 Je eerste web app is up and runnning en is een succes. Het aantal gebruikers neemt toe, je team breidt uit en je codebase groeit. Hoe ga je hiermee om? Koen Kivits vertelt in vogelvlucht over het schalen van een grote applicatie, teamuitbreidingen en zijn haat-liefde-verhouding met cross-browser development.
 
-{%- vimeo "89342115" -%}
+<div>
+    {%- vimeo "89342115" -%}
+</div>
 
 ## Wilfred Nas - What has Responsive Web Design done for us, so far
 
 Wilfred neemt ons mee in de wereld van responsive webdesign, wat heeft het ons gebracht? Welke oplossingen werken het best en hoe kun je testen.
 
-{%- vimeo "89377216" -%}
+<div>
+    {%- vimeo "89377216" -%}
+</div>
 
 ## Het programma
 

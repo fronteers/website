@@ -19,11 +19,15 @@ Op donderdag 24 maart is Fronteers te gast bij [iDA Mediafoundry](http://www.ida
 
 ## Mario Van den Eynde | From null to full in under 30 minutes, building a React app
 
-{%- vimeo "168345012" -%}
+<div>
+    {%- vimeo "168345012" -%}
+</div>
 
 ## Johan Ronsse | Welcome to Bedrock
 
-{%- vimeo "168385979" -%}
+<div>
+    {%- vimeo "168385979" -%}
+</div>
 
 ## Waar?
 

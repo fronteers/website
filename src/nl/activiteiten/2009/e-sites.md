@@ -21,6 +21,8 @@ Na de vraag hoeveel tijd er nog over was (10 minuten) bleek dat we ondertussen o
 
 [Zoals](/bijeenkomsten/2008/info-nl) [altijd](/congres/2008/sessions#video-in-html5) had Anne weer een interessant verhaal over Webstandaarden en enkele recente ontwikkelingen op dit gebied. Zijn [presentatie](http://annevankesteren.nl/2009/over-webstandaarden-enzo) (HTML) staat online, voor iedereen die het nog eens door wil nemen. Hier kun je weer het best Opera in fullscreen voor gebruiken.
 
-{%- vimeo "3270831" -%}
+<div>
+    {%- vimeo "3270831" -%}
+</div>
 
 Vragen over deze bijeenkomst? Stel ze gerust op [het blog](/blog/2009/01/bijeenkomst-januari#reageer).

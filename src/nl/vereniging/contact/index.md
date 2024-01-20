@@ -1,6 +1,7 @@
 ---
 key: contact-fronteers
 title: Contact us
+
 heroSlogan: ''
 ---
 

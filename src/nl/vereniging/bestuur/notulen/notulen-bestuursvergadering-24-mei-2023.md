@@ -2,8 +2,6 @@
 title: Notulen bestuursvergadering 24 mei 2023
 ---
 
-24 mei 2023
-
 ## Aanwezig
 
 -   Anneke Sinnema

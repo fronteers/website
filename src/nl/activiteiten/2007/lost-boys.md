@@ -7,6 +7,6 @@ categories:
     - meetup
 ---
 
-# Presentatie plannen door Peter-Paul Koch
+## Presentatie plannen door Peter-Paul Koch
 
 ## Presentatie front-end proces bij Lost Boys door Arjen Geerse

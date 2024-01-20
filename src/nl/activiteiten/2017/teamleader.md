@@ -61,11 +61,11 @@ Dok Noord 3A/101
 
 Het Teamleader kantoor kan je vinden aan de R40, aan de eerste ingang van Dok-Noord als je uit de richting van de Dampoort komt. Het bevindt zich op de eerste verdieping van het gebouw.
 
-## _Kom je te voet?_
+### _Kom je te voet?_
 
 Zoek op de R40 aan het water de ingang naar Dok-Noord waar het bord “OWS” hangt en ga daar de eerste zijdeur binnen. Ga vervolgens één verdieping omhoog en ga rechts ons kantoor binnen.
 
-## _Kom je met de auto?_
+### _Kom je met de auto?_
 
 Dan kan je via de Sassevaartstraat de ondergrondse parking van Dok-Noord bereiken. Parkeer en verlaat de deur achteraan links in de parking en ga 2 verdiepingen omhoog. Ons kantoor bevindt zich dan aan je rechterkant.
 
