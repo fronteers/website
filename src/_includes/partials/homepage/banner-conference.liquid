@@ -15,7 +15,7 @@
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle link: "{{link}}" -%}
     <a
         class="banner-conference {% if className %}{{ className }}{% endif %}"
-        style="{%- if image != '' -%}background-image: url({{image}}){%- endif -%}"
+        style="{%- if image != '' -%}background-image: url({{image}}); content-visibility: auto;{%- endif -%}"
         href="{{link}}">
         <span class="visually-hidden">{{ translations[locale].goToVimeo }}</span>
         {%- include svg/button_play.svg -%}

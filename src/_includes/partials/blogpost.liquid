@@ -12,11 +12,13 @@
             <img
                 src="/assets/images/{{ post.data.graphic.src }}"
                 alt="{{ post.data.graphic.alt }}"
+                loading="lazy"
                 class="blog-graphic" />
         {%- else -%}
             <img
-                src="/assets/images/default_blog_image.png"
+                src="/assets/images/default_blog_image.jpg"
                 alt="{{ post.data.graphic.alt }}"
+                loading="lazy"
                 class="blog-graphic" />
         {%- endif -%}
     </div>

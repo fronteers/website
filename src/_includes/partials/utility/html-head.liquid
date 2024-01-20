@@ -19,42 +19,83 @@
                 {%- endif -%}
             {%- endfor -%}
 
-            <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}" />
+            <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
         {% endif %}
     {%- endfor -%}
 
-    <link rel="manifest" href="/assets/favicon/site.webmanifest" crossorigin="anonymous">
-    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="48x48">
-    <link rel="icon" href="/assets/favicon/icon.svg" sizes="any" type="image/svg+xml">
+    <style>
+        @font-face {
+            font-family: "Fabrik";
+            src: url("/assets/fonts/Fabrik-Regular.woff2") format("woff2");
+            font-weight: normal;
+            font-display: swap;
+        }
 
+        @font-face {
+            font-family: "Fabrik";
+            src: url("/assets/fonts/Fabrik-Bold.woff2") format("woff2");
+            font-weight: bold;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Roboto";
+            src: url("/assets/fonts/Roboto-Regular.woff2") format("woff2");
+            font-weight: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Roboto";
+            src: url("/assets/fonts/Roboto-Bold.woff2") format("woff2");
+            font-weight: bold;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Roboto";
+            src: url("/assets/fonts/Roboto-Italic.woff2") format("woff2");
+            font-weight: normal;
+            font-style: italic;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Roboto";
+            src: url("/assets/fonts/Roboto-BoldItalic.woff2") format("woff2");
+            font-weight: bold;
+            font-style: italic;
+            font-display: swap;
+        }
+    </style>
     <link rel="stylesheet" href="/assets/css/style.css">
 
     <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/assets/fonts/Fabrik-Regular.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/assets/fonts/Roboto-Bold.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/assets/fonts/Roboto-BoldItalic.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="/assets/fonts/Roboto-Italic.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">
 
     {% if locale == 'nl' %}
-    <link rel="alternate" type="application/atom+xml" title="Fronteers blog" href="https://fronteers.nl/feeds/blog.xml" />
-    <link rel="alternate" type="application/atom+xml" title="Fronteers activiteiten" href="https://fronteers.nl/feeds/activiteiten.xml" />
-    <link rel="alternate" type="application/atom+xml" title="Fronteers vacatures" href="https://fronteers.nl/feeds/vacatures.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Fronteers blog" href="https://fronteers.nl/feeds/blog.xml">
+    <link rel="alternate" type="application/atom+xml" title="Fronteers activiteiten" href="https://fronteers.nl/feeds/activiteiten.xml">
+    <link rel="alternate" type="application/atom+xml" title="Fronteers vacatures" href="https://fronteers.nl/feeds/vacatures.xml">
     {% else %}
-    <link rel="alternate" type="application/atom+xml" title="Fronteers blog" href="https://fronteers.nl/feeds/blog-en.xml" />
-    <link rel="alternate" type="application/atom+xml" title="Fronteers activities" href="https://fronteers.nl/feeds/activities.xml" />
-    <link rel="alternate" type="application/atom+xml" title="Fronteers jobs" href="https://fronteers.nl/feeds/jobs.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Fronteers blog" href="https://fronteers.nl/feeds/blog-en.xml">
+    <link rel="alternate" type="application/atom+xml" title="Fronteers activities" href="https://fronteers.nl/feeds/activities.xml">
+    <link rel="alternate" type="application/atom+xml" title="Fronteers jobs" href="https://fronteers.nl/feeds/jobs.xml">
     {% endif %}
+
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="48x48">  
+    <link rel="icon" href="/assets/favicon/icon.svg" sizes="any" type="image/svg+xml">
 
     <meta name="description" content="{{ translations[locale].metaDescription }}">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffce2e">
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="website">
     <meta property="og:title" content="{{ title }}">
     <meta property="og:site_name" content="{{ translations[locale].siteName }}">
     <meta property="og:image" content="https://fronteers-beta.netlify.app/assets/images/social-share/og-image-{{ locale }}.jpeg">
-    <meta property="og:image:alt" content="Image of Fronteers website" />
+    <meta property="og:image:alt" content="Image of Fronteers website">
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="556">
 
