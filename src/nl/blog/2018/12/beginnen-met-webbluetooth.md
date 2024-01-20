@@ -1,13 +1,14 @@
 ---
-title: "Beginnen met WebBluetooth"
+title: 'Beginnen met WebBluetooth'
 date: 2018-12-15
 author: Niels Leenheer
 categories:
-  - Adventskalender
+    - Adventskalender
 ---
+
 Het web is traditioneel altijd goed geweest in het praten met servers. De hele infrastructuur van het web is erop gebaseerd. Maar nu het web dankzij Progressive Web Apps naar native applicaties toe beweegt, hebben we ook de mogelijkheden van native apps nodig. Het ophalen en tonen van tekst, afbeeldingen en formulieren is niet meer genoeg.
 
-Het web is traditioneel altijd goed geweest in het praten met servers. De hele infrastructuur van het web is erop gebaseerd. Maar nu het web dankzij Progressive Web Apps naar native applicaties toe beweegt, hebben we ook de  mogelijkheden van native apps nodig. Het ophalen en tonen van tekst, afbeeldingen en formulieren is niet meer genoeg.
+Het web is traditioneel altijd goed geweest in het praten met servers. De hele infrastructuur van het web is erop gebaseerd. Maar nu het web dankzij Progressive Web Apps naar native applicaties toe beweegt, hebben we ook de mogelijkheden van native apps nodig. Het ophalen en tonen van tekst, afbeeldingen en formulieren is niet meer genoeg.
 
 Het aantal nieuwe specificaties dat de afgelopen paar jaar is geïmplementeerd is enorm. We hebben specificaties voor 3D, zoals WebGL en binnenkort WebGPU. We kunnen audio streamen, video kijken en de webcam als input device gebruiken. Code schrijven die bijna net zo snel is als native code, met behulp van WebAssembly. En ondanks dat het web oorspronkelijk altijd een netwerkverbinding nodig had, kunnen we nu offline websites en apps maken dankzij Service Workers. Dat is geweldig, maar op één gebied liepen we nog achter op native apps: het praten met andere apparaten.
 
@@ -15,7 +16,7 @@ WebBluetooth is een nieuwe specificatie die beschikbaar is in Chrome en Samsung 
 
 Elke dag worden er meer dan 10 miljoen apparaten met Bluetooth-ondersteuning gemaakt. Dat is inclusief computers en mobieltjes, maar ook apparaten zoals hartslagmeters en glucosemeters, IoT-apparaten zoals lampen, en speelgoed zoals op afstand bestuurbare auto's en drones.
 
-# Het saaie theoretische gedeelte
+## Het saaie theoretische gedeelte
 
 Omdat Bluetooth geen webtechnologie is, komen de woorden die gebruikt worden ons minder bekend voor. Daarom leg ik kort de terminologie uit en hoe Bluetooth werkt.
 
@@ -41,7 +42,7 @@ Maar anders dan properties van objecten, worden de services en characteristics n
 
 En tot slot, elke value bestaat uit één of meerdere bytes. Geen strings, of objects, maar enkel een aantal bytes, elk met een waarde van 0 tot 255.
 
-# Hoe ziet een Bluetooth-lamp er uit
+## Hoe ziet een Bluetooth-lamp er uit
 
 Laten we naar een echt Bluetooth-apparaat kijken: een Mipow Playbulb Sphere. Je kunt een app gebruiken, zoals BLE Scanner of nRF Connect om connectie te maken met het apparaat, en dan alle services en characteristics bekijken. In dit geval gebruik ik de BLE Scanner-app voor iOS.
 
@@ -53,11 +54,11 @@ De eerste characteristic met de UUID `0xfffc` is interessant. Het heeft een valu
 
 De lamp bevat 4 LED's en door deze vier bytes te veranderen kunnen we de intensiteit van elk van deze LED's veranderen. En door de intensiteit van de individuele LED's te veranderen kunnen we elke kleur maken die we willen.
 
-# De WebBluetooth API
+## De WebBluetooth API
 
 Het is mooi dat we een native app kunnen gebruiken om de kleur van een lamp te veranderen, maar hoe doen we dat met de browser? Met de kennis van Bluetooth en GATT die we net hebben opgedaan is dit relatief simpel. Dankzij de WebBluetooth API hebben we maar een paar regels JavaScript nodig om de kleur van de lamp te veranderen.
 
-# Connectie maken met het apparaat
+## Connectie maken met het apparaat
 
 Het eerste dat we moeten doen is het opbouwen van de connectie van de browser naar het apparaat. We roepen de function `navigator.bluetooth.requestDevice()` aan met een configuratie-object als parameter. Dat object bepaalt welk apparaat we willen gebruiken en welke services beschikbaar moeten zijn via de API. In het voorbeeld hieronder filteren we de lijst met apparaten op basis van de naam van het apparaat. We willen alleen apparaten zien waarvan de naam begint met 'PLAYBULB'. We specificeren ook dat we de service `0xff0f` willen gebruiken.
 
@@ -96,7 +97,7 @@ let characteristic = await service.getCharacteristic(0xfffc);
 
 We hebben nu de characteristic die we nodig hebben om te lezen en schrijven.
 
-# Schrijven van de value
+## Schrijven van de value
 
 Om value te kunnen veranderen moeten we de functie writeValue van de characteristic aanroepen met de value die we willen veranderen als parameter.
 
@@ -110,7 +111,7 @@ characteristic.writeValue(
 
 We weten al hoe deze specifieke lamp werkt. We hebben vier bytes nodig, één voor elke LED. Elke byte heeft een waarde van 0 tot 255 en in dit geval willen we alleen rood, groen en blauw gebruiken. We laten de LED voor wit uit, door de waarde 0 te gebruiken.
 
-# Lezen van de value
+## Lezen van de value
 
 Als we de huidige kleur van de lamp willen weten, dan kunnen we de readValue() function aanroepen en await gebruiken om het resultaat af te wachten.
 
@@ -124,7 +125,7 @@ let b = value.getUint8(3);
 
 De value die we terugkrijgen is altijd een DataView van een ArrayBuffer en biedt een aantal functions om data uit de arraybuffer te halen. In ons geval zijn we weer geïntereseerd in de individuele bytes. We gebruiken de getUint8() function met de index van de byte in de array die we willen ophalen als parameter.
 
-# Notificaties wanneer de value verandert
+## Notificaties wanneer de value verandert
 
 Als de value van de characteristic op het apparaat verandert, dan is het makkelijk dat de app hiervan op de hoogte wordt gehouden. Niet echt nuttig voor een lamp, maar voor een hartslagmonitor is het onmisbaar. We willen niet elke seconde opnieuw handmatig de huidige waarde ophalen.
 
@@ -152,12 +153,13 @@ En dit is ongeveer 90% van de WebBluetooth API en alles wat je moet weten om te 
 
 ## Meer informatie:
 
-* [De WebBluetooth specification](https://webbluetoothcg.github.io/web-bluetooth/)
-* [WebBluetooth demos op Bluetooth.rocks](https://bluetooth.rocks/)
-* [Source code van de demos](https://github.com/BluetoothRocks)
-* [GATT registry met documentatie voor een aantal apparaten](https://github.com/opengatt/registry)
+-   [De WebBluetooth specification](https://webbluetoothcg.github.io/web-bluetooth/)
+-   [WebBluetooth demos op Bluetooth.rocks](https://bluetooth.rocks/)
+-   [Source code van de demos](https://github.com/BluetoothRocks)
+-   [GATT registry met documentatie voor een aantal apparaten](https://github.com/opengatt/registry)
 
-### Over Niels Leenheer
+## Over Niels Leenheer
+
 <img src="/_img/adventskalender/niels.jpg" alt="Foto van Niels Leenheer" class="floating-portrait" /> 
 Niels is een browser-geek. Vanaf het moment dat iemand hem de allereerste Nexus browser op een NeXT Cube liet zien is hij bezig met browsers. Niels is de maker van HTML5test.com, de CSS selector test, spreekt op conferenties en zit sinds 2018 in de congrescommissie van Fronteers.
 

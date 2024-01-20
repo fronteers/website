@@ -1,16 +1,17 @@
 ---
-title: "Nieuwjaarsborrel 2018"
+title: 'Nieuwjaarsborrel 2018'
 date: 2017-12-22
 eventdate: 2017-12-22
 location:
 categories:
     - meetup
 ---
+
 Op vrijdag 12 januari 2018 houdt Fronteers in Utrecht de jaarlijkse nieuwjaarsborrel! Leden en niet-leden zijn van harte welkom om met ons het glas te komen heffen op het nieuwe jaar. Fronteers trakteert volgens traditie op het eerste drankje! 🥂
 
 Ben je er bij? [Meld je aan via het formulier onderaan deze pagina](#formulier-1)!
 
-# Tijd en locatie
+## Tijd en locatie
 
 Vanaf 18:00 zijn de eerste leden aanwezig in de Brouwerij van Stadskasteel Oudaen:
 
@@ -18,11 +19,9 @@ Stadskasteel Oudaen
 Oudegracht 99
 3511 AE Utrecht
 
-
 {%- comment -%}
 {%- form -%}
 {%- endcomment -%}
-
 
 <table>
 <tr>
@@ -86,5 +85,3 @@ Oudegracht 99
 <td><a href="https://twitter.com/Wnas" rel="nofollow">@Wnas</a></td>
 </tr>
 </table>
-
- 

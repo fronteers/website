@@ -3,9 +3,10 @@ title: Meld je aan voor de ALV 2022!
 date: 2022-09-29
 author: Anneke Sinnema
 summary: 'Op vrijdagavond 4 november vanaf 19:30 houden we onze jaarlijkse algemene ledenvergadering (ALV)! Alle leden zijn hiervoor van harte uitgenodigd, en we hopen nieuwe bestuursleden te verwelkomen!'
-categories: 
-  - Vereniging
+categories:
+    - Vereniging
 ---
+
 Op vrijdagavond 4 november vanaf 19:30 houden we onze jaarlijkse algemene ledenvergadering (ALV)! Alle leden zijn hiervoor van harte uitgenodigd, en we hopen nieuwe bestuursleden te verwelkomen!
 
 [English version](#english-version) below.
@@ -17,24 +18,24 @@ Notulen van de avond worden altijd zo snel mogelijk na de vergadering online ged
 
 We zijn bovendien op zoek naar nieuwe bestuursleden om vanaf de komende ALV het stokje over te nemen van Sander Vink (penningmeester) en Anneke Sinnema (voorzitster). Leden kunnen zich kandidaat stellen tijdens de ALV waarna er een stemming volgt. Als bestuurslid help je mee de vereniging op de kaart te zetten en te houden. Je zorgt er voor dat commissies een zetje krijgen en dat vrijwilligers het zelfvertrouwen hebben om activiteiten te ontplooien voor de vereniging. We hebben de ambitie om weer vaker meetups en activiteiten te organiseren, zetten graag het Fronteerscongres voort, en bouwen door aan onze nieuwe website. Anneke, Sander en Edwin staan je graag te woord via Slack of bestuur@fronteers.nl als je ons hierin wilt helpen!
 
-# Voorlopige agenda
+## Voorlopige agenda
 
-* Opening
-* Jaarrekening 2021
-* Bevindingen kascommissie
-* Benoeming nieuwe kascommissie
-* Financiën 2022
-* Begroting 2023
-* Benoeming nieuwe bestuursleden
-* Toelichting commissies
-* Rondvraag
-* Sluiting
+-   Opening
+-   Jaarrekening 2021
+-   Bevindingen kascommissie
+-   Benoeming nieuwe kascommissie
+-   Financiën 2022
+-   Begroting 2023
+-   Benoeming nieuwe bestuursleden
+-   Toelichting commissies
+-   Rondvraag
+-   Sluiting
 
-# Aanmelden
+## Aanmelden
 
 Ben je van plan te komen, dan vragen we je vriendelijk je hiervoor in te schrijven, zodat we voorzieningen kunnen treffen voor de avond zelf.
 
-# English version
+## English version
 
 **Wednesday evening, the 4th of November starting at 19:30 we will have our annual membership meeting (ALV)! All members of Fronteers are welcome to sign up to join us.**
 
@@ -44,19 +45,19 @@ We are also looking for new board members to take over from Sander Vink (treasur
 
 Below, you'll find the provisional program of the evening. The financial documents of 2021, 2022 and plans for 2023 will be discussed and sent in advance to everyone that signed up for the ALV. If you can't attend but (as a member) want to get a copy of the documents, please [send an e-mail to our treasurer](mailto:penningmeester@fronteers.nl).
 
-# (Provisional) Agenda
+## (Provisional) Agenda
 
-* Opening
-* Financial Statements 2021
-* Findings of the treasury committee
-* Naming of the new treasury committee
-* Finances of 2022
-* Budget for 2023
-* Appointment of new board members
-* Report of committees
-* Round of questions
-* Close
+-   Opening
+-   Financial Statements 2021
+-   Findings of the treasury committee
+-   Naming of the new treasury committee
+-   Finances of 2022
+-   Budget for 2023
+-   Appointment of new board members
+-   Report of committees
+-   Round of questions
+-   Close
 
-# Sign up
+## Sign up
 
 If you plan to attend, please sign up, so we know how many members we can expect to join us and if we need to make provisions for a meeting in real life!

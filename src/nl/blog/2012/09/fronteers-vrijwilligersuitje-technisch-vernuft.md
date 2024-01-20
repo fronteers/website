@@ -1,10 +1,11 @@
 ---
-title: "Fronteers vrijwilligersuitje: technisch vernuft"
+title: 'Fronteers vrijwilligersuitje: technisch vernuft'
 date: 2012-09-10
 author: Isaac Andela
-categories: 
-  - Vereniging
+categories:
+    - Vereniging
 ---
+
 Met de zeilen gestreken glijdt de De Hoge Wier door het water. De draaibrug wijkt. Fietsers en voetgangers staan stil en aanschouwen onze éémastklipper terwijl ze de Groote Zeesluis binnenloopt.
 
 ![Klippers op het IJselmeer.](/_img/blog/img-3526.jpg)
@@ -19,7 +20,7 @@ Voortgedreven door niets dan wind zijn werelden ontdekt. Daarbij vergeleken vall
 
 ![Fronteers op het dek van De Hoge Wier.](/_img/blog/7916225236-af246f3c61-o.jpg)
 
-# Foto’s van het zeilen
+## Foto’s van het zeilen
 
-* [Fotoalbum Edwin Martin](https://plus.google.com/photos/102586242192310743325/albums/5783509127393716561)
-* [Fotoalbum Arjan Eising](http://www.flickr.com/photos/arjaneising/sets/72157631373234466/)
+-   [Fotoalbum Edwin Martin](https://plus.google.com/photos/102586242192310743325/albums/5783509127393716561)
+-   [Fotoalbum Arjan Eising](http://www.flickr.com/photos/arjaneising/sets/72157631373234466/)

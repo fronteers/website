@@ -1,22 +1,23 @@
 ---
-title: "Bijeenkomst bij CLEVER°FRANKE"
+title: 'Bijeenkomst bij CLEVER°FRANKE'
 date: 2016-05-05
 eventdate: 2016-05-05
 location:
 categories:
     - meetup
 ---
+
 _Please note: this meetup will be held in English. / Let op: de voertaal van deze bijeenkomst zal Engels zijn._
 
-*Op donderdag 2 juni is Fronteers te gast  bij ‘data-driven design agency’ CLEVER°FRANKE  voor een avond over het oplossen van complexe problemen met front-end development en datavisualisatie. Zij zorgen voor bier, eten en snacks, en hebben ruimte voor zo'n 40 geïnteresseerden.*
+_Op donderdag 2 juni is Fronteers te gast bij ‘data-driven design agency’ CLEVER°FRANKE voor een avond over het oplossen van complexe problemen met front-end development en datavisualisatie. Zij zorgen voor bier, eten en snacks, en hebben ruimte voor zo'n 40 geïnteresseerden._
 
-# Programma
+## Programma
 
-* 18:00 Ontvangst met drankjes en hapjes
-* 18:30 Gert Franke - Lessons learned in building a datavisualization agency
-* 19:15 Pauze
-* 19:30 Jan Hoogeveen: Overcoming complexity and what that means for development
-* 20:15 borrel
+-   18:00 Ontvangst met drankjes en hapjes
+-   18:30 Gert Franke - Lessons learned in building a datavisualization agency
+-   19:15 Pauze
+-   19:30 Jan Hoogeveen: Overcoming complexity and what that means for development
+-   20:15 borrel
 
 ## Gert Franke - Lessons learned in building a datavisualization agency
 
@@ -30,26 +31,24 @@ Above video is a part of the presentation. It was not recorded in total.
 
 The web changes fast. New frameworks are out every few months and keeping up with the latest innovations is a job in itself. At C°F we believe true innovation comes from pushing boundaries and such is our daily reality. But how do you overcome complexity? How do solve the though puzzles and explore new avenues whilst dealing with time-, organisational and design constraints in this multi-screen world? Jan Hoogeveen, lead front-end developer at CLEVER°FRANKE, will share his thoughts on these kinds of questions by sharing practical real-world examples of the challenges in some of our most complex projects (i.e. D3 visualisation pitfalls).
 
-# Bereikbaarheid
+## Bereikbaarheid
 
 CLEVER°FRANKE is gevestigd in het centrum van Utrecht. Je kunt de bus nemen van Utrecht Centraal. Lopend is het zo'n 12-15 minuten. Als je met de auto wilt komen: er is voldoende parkeerplek in de buurt (betaald).
 
 {%- googlemaps "Boothstraat 2, 3512BW, Utrecht" -%}
 
-Het adres:  Boothstraat 2, 3512BW, Utrecht
-
+Het adres: Boothstraat 2, 3512BW, Utrecht
 
 {%- comment -%}
 {%- form -%}
 {%- endcomment -%}
 
-
-# Vragen?
+## Vragen?
 
 Deze bijeenkomst is volgeboekt. Wil je op de wachtlijst? [Neem contact op met de Activiteitencommissie.](/vereniging/commissies/activiteiten)
-Sta je op  de deelnemerslijst, maar kun je toch niet komen? Afmelden kan door een mail te sturen aan de activiteitencommissie.
+Sta je op de deelnemerslijst, maar kun je toch niet komen? Afmelden kan door een mail te sturen aan de activiteitencommissie.
 
-# Wie komen er nog meer? ({aanmeldingen}/{max})
+## Wie komen er nog meer? ({aanmeldingen}/{max})
 
 <table>
 <tr>

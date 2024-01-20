@@ -1,15 +1,16 @@
 ---
-title: "Labels zijn niet altijd wat ze lijken: hoe wordt de Accessible Name berekend?"
+title: 'Labels zijn niet altijd wat ze lijken: hoe wordt de Accessible Name berekend?'
 date: 2021-01-01
 author: Sophie Ragas
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Sinds november ben ik aan de slag als Web Accessibility Consultant bij [Eleven Ways](https://www.elevenways.be). Het toegankelijk maken van websites (zodat iedereen ze kan gebruiken) is altijd al een onderwerp geweest waar ik me graag voor wilde inzetten.
 
 Al tijdens mijn eerste werkweek leerde ik iets wat me verraste. Ik herinner me dat ik luidop “Woah!” zei tegen mijn computerscherm. Dat “iets” is de zogeheten _Accessible Name_. Omdat er niet veel Nederlandstalige artikelen over te vinden zijn, wijd ik er graag een stukje aan.
 
-# Wat is de Accessible Name?
+## Wat is de Accessible Name?
 
 Er zijn een aantal HTML-elementen die interactief zijn. Het gaat dan om elementen als links, knoppen, invoervelden, selectievakjes en keuzelijsten.
 
@@ -25,7 +26,7 @@ Anders gezegd: een _label_ wordt _visueel_ weergegeven, maar een naam wordt enke
 
 (Noot: dit succescriterium hangt nauwe samen met [Succescriterium 4.1.2](https://www.w3.org/Translations/WCAG21-nl/#naam-rol-waarde) dat voorschrift dat elementen een correcte naam (_name_), rol (_role_) en waarde (_value_) moeten hebben.)
 
-# Hoe wordt de Accessible Name bepaald?
+## Hoe wordt de Accessible Name bepaald?
 
 De Accessible Name wordt volgens onderstaande rangorde bepaald (van belangrijkst naar minst belangrijkst):
 
@@ -41,14 +42,14 @@ Er wordt dus in eerste instantie gekeken of een `aria`-attribuut aanwezig is.
 
 En nu komen we bij de crux van het hele verhaal.
 
-* Als een element *nog geen naam* had dat uit de punten 3 t/m 7 gehaald kan worden, wordt die *toegevoegd* door de waarde van het `aria-labelledby` of het `aria-label` attribuut
-* Als een element *al een naam* had dat uit de punten 3 t/m 7 gehaald kan worden, wordt die *vervangen* door de waarde van het `aria-labelledby` of het `aria-label` attribuut
+-   Als een element _nog geen naam_ had dat uit de punten 3 t/m 7 gehaald kan worden, wordt die _toegevoegd_ door de waarde van het `aria-labelledby` of het `aria-label` attribuut
+-   Als een element _al een naam_ had dat uit de punten 3 t/m 7 gehaald kan worden, wordt die _vervangen_ door de waarde van het `aria-labelledby` of het `aria-label` attribuut
 
-Een `aria-label` of `aria-labelledby` krijgt dus *altijd* voorrang.
+Een `aria-label` of `aria-labelledby` krijgt dus _altijd_ voorrang.
 
 (Merk op dat deze berekening gebeurt op basis van de [Accessible Name and Description Computation 1.1](https://www.w3.org/TR/accname-1.1/)-specificatie van het W3C. De meeste Accessibility API’s in browsers en besturingssystemen houden zich hier netjes aan.)
 
-# Voorbeelden
+## Voorbeelden
 
 Laten we even naar een eenvoudig voorbeeld kijken:
 
@@ -69,7 +70,7 @@ Voorbeeld twee:
 </a>
 ```
 
-Deze link zal door hulpsoftware worden opgelezen als: _Lego Modular Assembly Square 150 euro_. De alt-tekst *en* de tekst worden hier bij elkaar opgeteld.
+Deze link zal door hulpsoftware worden opgelezen als: _Lego Modular Assembly Square 150 euro_. De alt-tekst _en_ de tekst worden hier bij elkaar opgeteld.
 
 Dit is bijvoorbeeld ook de reden waarom een populair UI-patroon als _cards_ vaak toegankelijkheidsproblemen vertonen. Lees de uitstekende [blog van Adrian Roselli](https://adrianroselli.com/2020/02/block-links-cards-clickable-regions-etc.html) of de [blog van Nomensa](https://www.nomensa.com/blog/2020/how-build-accessible-cards–block-links) daar maar eens over.
 
@@ -84,13 +85,13 @@ Een laatste voorbeeld:
 
 Vind je het addertje onder het gras? Dit is wat er gebeurt:
 
-* Het `title` attribuut wordt genegeerd, omdat er tekst staat tussen de begin- en eindtag.
-* De tekst ‘150 euro’ en de alt-tekst van het plaatje worden bij elkaar opgeteld omdat deze tussen de begin- en de eindtag staan.
-* Maar — en dit is belangrijk — beide waarden worden vervolgens _overschreven_ door het `aria-label` attribuut dat op het `<a>` element is geplaatst.
+-   Het `title` attribuut wordt genegeerd, omdat er tekst staat tussen de begin- en eindtag.
+-   De tekst ‘150 euro’ en de alt-tekst van het plaatje worden bij elkaar opgeteld omdat deze tussen de begin- en de eindtag staan.
+-   Maar — en dit is belangrijk — beide waarden worden vervolgens _overschreven_ door het `aria-label` attribuut dat op het `<a>` element is geplaatst.
 
-De link zal uiteindelijk klinken als _Mijn hele dure Legowinkel_. De naam en de prijs van het product worden dus *niet* langer opgepikt, en dat is natuurlijk niet de bedoeling. Wees dus extra voorzichtig met het gebruik van ARIA-labels.
+De link zal uiteindelijk klinken als _Mijn hele dure Legowinkel_. De naam en de prijs van het product worden dus _niet_ langer opgepikt, en dat is natuurlijk niet de bedoeling. Wees dus extra voorzichtig met het gebruik van ARIA-labels.
 
-# Hoe kun je de Accessible Name controleren?
+## Hoe kun je de Accessible Name controleren?
 
 In de Developer Tools van Chrome kun je de Accessibility Tree inspecteren. Zo krijg je een idee van hoe de naam van een specifiek element berekend wordt.
 
@@ -100,7 +101,7 @@ In de Developer Tools van Chrome kun je de Accessibility Tree inspecteren. Zo kr
 
 Natuurlijk kan je ook zelf de proef op de som nemen en je pagina testen met een echte screenreader als Jaws, NVDA of VoiceOver. Zo kan je zelf horen hoe je knoppen, links en andere interactieve elementen worden opgelezen.
 
-# Oefening:
+## Oefening:
 
 Wat wordt de Accessible Name van deze button? (dank aan Erik Kroes voor deze leuke instinker!) Laat een reactie achter met je antwoord!
 
@@ -110,10 +111,10 @@ Wat wordt de Accessible Name van deze button? (dank aan Erik Kroes voor deze leu
 </button>
 ```
 
-# Bronnen en verder lezen
+## Bronnen en verder lezen
 
-* [W3C - Accessible Name and Description Computation 1.1](https://www.w3.org/TR/accname-1.1/)
-* [WeAIM - Decoding Label and Name for Accessibility](https://webaim.org/articles/label-name/)
-* [The Paciello Group - What is an accessible name?](https://developer.paciellogroup.com/blog/2017/04/what-is-an-accessible-name/)
-* [Simply Acessible - Demystifying the accessible name?](https://simplyaccessible.com/article/accessible-name/)
-* [Hidde de Vries - Naming things to improve accessibility](https://hiddedevries.nl/en/blog/2019-04-18-naming-things-to-improve-accessibility)
+-   [W3C - Accessible Name and Description Computation 1.1](https://www.w3.org/TR/accname-1.1/)
+-   [WeAIM - Decoding Label and Name for Accessibility](https://webaim.org/articles/label-name/)
+-   [The Paciello Group - What is an accessible name?](https://developer.paciellogroup.com/blog/2017/04/what-is-an-accessible-name/)
+-   [Simply Acessible - Demystifying the accessible name?](https://simplyaccessible.com/article/accessible-name/)
+-   [Hidde de Vries - Naming things to improve accessibility](https://hiddedevries.nl/en/blog/2019-04-18-naming-things-to-improve-accessibility)

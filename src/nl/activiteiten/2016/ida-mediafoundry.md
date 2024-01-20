@@ -1,48 +1,47 @@
 ---
-title: "Bijeenkomst bij iDA Mediafoundry op 24 maart 2016"
+title: 'Bijeenkomst bij iDA Mediafoundry op 24 maart 2016'
 date: 2016-03-24
 eventdate: 2016-03-24
 location:
 categories:
     - meetup
 ---
+
 Op donderdag 24 maart is Fronteers te gast bij [iDA Mediafoundry](http://www.ida-mediafoundry.be/) in Mechelen. Er worden twee presentaties voorzien.
 
-# Het programma is als volgt:
+## Het programma is als volgt:
 
-* 18:00 Ontvangst met een hapje en een drankje
-* 19:00 Mario Van den Eynde ([@mariovde](https://twitter.com/mariovde)) - "From null to full in under 30 minutes", building a React app.
-* 19:45 Korte pauze
-* 20:00 Johan Ronsse ([@wolfr](https://github.com/wolfr)) - "Welcome to [Bedrock](http://bedrock.mono.company/)"
-* 20:45 Naborrelen
+-   18:00 Ontvangst met een hapje en een drankje
+-   19:00 Mario Van den Eynde ([@mariovde](https://twitter.com/mariovde)) - "From null to full in under 30 minutes", building a React app.
+-   19:45 Korte pauze
+-   20:00 Johan Ronsse ([@wolfr](https://github.com/wolfr)) - "Welcome to [Bedrock](http://bedrock.mono.company/)"
+-   20:45 Naborrelen
 
-# Mario Van den Eynde | From null to full in under 30 minutes, building a React app
+## Mario Van den Eynde | From null to full in under 30 minutes, building a React app
 
 {%- vimeo "168345012" -%}
 
-# Johan Ronsse | Welcome to Bedrock
+## Johan Ronsse | Welcome to Bedrock
 
 {%- vimeo "168385979" -%}
 
-# Waar?
+## Waar?
 
 Dit evenement vindt plaats in Moonbeat, Mechelen. Moonbeat is gelegen op wandelafstand van het Mechelse Centraal station.
 
 {%- googlemaps "Moonbeat, Oude Brusselsestraat 10, 2800 Mechelen" -%}
 
-# Wie?
+## Wie?
 
 Iedereen is welkom. Er is echter beperkt plaats, voor circa 80 vrouwen en mannen. Geef je daarom op via onderstaand aanmeldformulier. Vol is vol!
 
 Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23fronteersbe).
 
-
 {%- comment -%}
 {%- form -%}
 {%- endcomment -%}
 
-
-# Aanmeldingen ({aanmeldingen} van de {max})
+## Aanmeldingen ({aanmeldingen} van de {max})
 
 <table>
 <tr>

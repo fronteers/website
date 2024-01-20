@@ -2,20 +2,20 @@
 title: Membership
 key: membership
 ---
+
 Membership of Fronteers is _personal_, and is therefore independent of any employer.
 
-### Contribution
-
+## Contribution
 
 For students, these amounts are halved, to {{ general-info.students_contribution }} and {{ general-info.students_discounted }}.
 
 The contribution is {{ general-info.contribution }} (including 21% VAT). Members who sign up after June 30 will pay {{ general-info.contribution_discounted }}. You are only a member of the association after payment of the invoice. Volunteers receive a 50% discount.
 
-### Student membership
+## Student membership
 
 The contribution for students at a higher educational institution is {{ general-info.students_contribution }} (including VAT). Students who register after June 30 pay {{ general-info.students_discounted }}. To make use of student membership, you must indicate that you are a student when registering and send proof of registration from the educational institution to the board (every year). (It is not possible to register as a student after invoicing to claim a student discount, although this will of course be taken into account for the next calendar year.)
 
-### Why join?
+## Why join?
 
 First of all, by becoming a member you naturally support front-end web development itself as a discipline. The main goal of Fronteers is the professionalization of our profession. By becoming a member and making your voice heard, you put the front-end on the map. In particular [our vacancy database](/nl/werk-en-freelance/) shows that this works.
 
@@ -33,10 +33,10 @@ Fronteer members receive substantial discounts from various international publis
 
 You can register as a member via the [registration form](/nl/become-lid/).
 
-### Cancel membership
+## Cancel membership
 
 Membership is tacitly renewed. If a member wants to cancel his or her membership, this must be communicated to the member administration one month before the start of the new year.
 
-### Contact with the member administration
+## Contact with the member administration
 
 Do you have any questions or comments? In the [contact form](/nl/footer/contact/) choose subject for Membership administration.

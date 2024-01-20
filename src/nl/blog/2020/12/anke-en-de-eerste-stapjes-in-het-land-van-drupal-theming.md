@@ -1,17 +1,18 @@
 ---
-title: "Anke en de eerste stapjes in het land van Drupal Theming"
+title: 'Anke en de eerste stapjes in het land van Drupal Theming'
 date: 2020-12-26
 author: Anke Willems
 categories:
-  - Adventskalender
+    - Adventskalender
 ---
+
 Halverwege 2020 switchte ik van baan, en begon ik als front-ender bij een webbureau dat voornamelijk met het CMS Drupal werkt. Ik heb nooit veel met Drupal gewerkt, maar front-end is front-end, toch?
 
 Wrong!
 
 [Deze cartoon](https://benchmarks.it.unt.edu/sites/default/files/drupal-humor1_0.gif) over de Drupal learning curve had me al genoeg moeten waarschuwen. :) Drupal is groot, massief, en kan ontzettend veel. Maar alles zit er dus ook in, op een grote en massieve manier. Niks lean en snel. Maar als je het Drupal-beest eenmaal een beetje doorhebt, valt het best te temmen. In dit artikel deel ik een aantal dingen die ik de afgelopen maanden heb geleerd.
 
-# Drupal dicteert je templates.
+## Drupal dicteert je templates.
 
 _Om te beginnen een disclaimer: Dit gaat over Drupal 8. Eerdere versies van Drupal werkten wat anders met de templates._
 
@@ -19,12 +20,12 @@ De basis van Drupal is als elk ander CMS: de redactie managed de content in het 
 
 Bij ons op het werk bestaat een team uit een ontwerper, een front-ender en een back-ender. De back-ender bouwt de functionaliteit, en ik zet daar de voorkant tegenaan. Deze functionaliteit kan bijvoorbeeld één, of een combinatie van de volgende dingen zijn:
 
-* Node (Een 'entity')
-* User (Ook een 'entity')
-* Taxonomy (Een hierarchische onderverdeling van elementen)
-* Block (Losse elementen. Dit kan ook een onderdeel van bovenstaande elementen zijn)
-* View (Een bepaalde weergave van één van bovenstaande elementen)
-* Paragraph (De redactie kan content stapelen in verschillende paragraphs. Dit komt uit de paragraph module, maar wordt heel veel gebruikt.)
+-   Node (Een 'entity')
+-   User (Ook een 'entity')
+-   Taxonomy (Een hierarchische onderverdeling van elementen)
+-   Block (Losse elementen. Dit kan ook een onderdeel van bovenstaande elementen zijn)
+-   View (Een bepaalde weergave van één van bovenstaande elementen)
+-   Paragraph (De redactie kan content stapelen in verschillende paragraphs. Dit komt uit de paragraph module, maar wordt heel veel gebruikt.)
 
 Deze lijst is niet compleet, maar geeft wel een goed beeld van de mogelijkheden. Als je bijvoorbeeld gebruik maakt van custom modules, horen daar weer eigen elementen bij.
 
@@ -38,7 +39,7 @@ Je start met uitzoeken welke van de templates op de pagina je moet hebben. Hoe j
 
 ![Een screenshot van de Drupal template suggesties. Een lijstje templates in de inspector, waarvan eentje als actief is aangeduid met een kruisje.](/_img/adventskalender/2020/twig-debug.png)
 
-*De Drupal template suggesties in je inspector. De onderste is het minst specifiek, de bovenste het meest. Het kruisje geeft de gebruikte template aan.*
+_De Drupal template suggesties in je inspector. De onderste is het minst specifiek, de bovenste het meest. Het kruisje geeft de gebruikte template aan._
 
 De [Twig debugging](https://www.drupal.org/docs/theming-drupal/twig-in-drupal/debugging-twig-templates) optie binnen Drupal geeft voor elke template een aantal templatenamen, van breed `( node.html.twig)` naar heel specifiek `(node--agenda-detail--full.html.twig)`. Maak de template aan die je nodig hebt, kopieer de twig uit de standaard gebruikte core-template, en ga hierin aan de slag met je eigen HTML!
 
@@ -109,7 +110,7 @@ Logica aanpassen doe je binnen het CMS, of liever nog: binnen een custom module.
 
 Het klinkt ontzettend rigide, en dat is het ook. Maar het heeft ook een groot voordeel: Het is namelijk superconsequent.
 
-# Superconsequent en modulair
+## Superconsequent en modulair
 
 Omdat het zo consequent is in de templates, zijn herhalende onderdelen ook heel snel op andere plekken in te zetten. Alles wat je al eens gebouwd hebt, kan overal gebruikt worden. En ziet er ook hetzelfde uit. _Als_ je tenminste je CSS ook goed modulair gehouden hebt.
 
@@ -133,21 +134,21 @@ Drupal splitst alles graag op in aparte stylesheets en scripts. Als je in je ont
 
 De kans dat je minutenlang aan het refreshen bent en er dan achter komt dat je naar een gecachte pagina zit te kijken is bij Drupal groot. Drupal cached alles heel hard. Standaard wordt ook voor niet ingelogde bezoekers alles gecached. De JS, de CSS en ook je templates.
 
-Let dus goed op dat je wel ingelogd bent bij het developen. Daarnaast zijn er soms verschillende views voor niet-ingelogde en wel-ingelogde bezoekers, zoals bijvoorbeeld het inlogscherm voor een 'mijn' omgeving. Dan is het dus weer handig om tussendoor in- en uit te loggen of in ieder geval een _incognitoscherm_ ernaast te houden. Het clearen van de cache doe je in dat geval tussendoor via Drupal in je andere tab, of je gebruikt daarvoor *Drush* op de commandline.
+Let dus goed op dat je wel ingelogd bent bij het developen. Daarnaast zijn er soms verschillende views voor niet-ingelogde en wel-ingelogde bezoekers, zoals bijvoorbeeld het inlogscherm voor een 'mijn' omgeving. Dan is het dus weer handig om tussendoor in- en uit te loggen of in ieder geval een _incognitoscherm_ ernaast te houden. Het clearen van de cache doe je in dat geval tussendoor via Drupal in je andere tab, of je gebruikt daarvoor _Drush_ op de commandline.
 
-# Werken met git? Drush is je vriend!
+## Werken met git? Drush is je vriend!
 
 Zoals met bijna alles dat je tegenwoordig ontwikkelt, kan je bij Drupal ook goed werken met versiebeheer, zoals bijvoorbeeld git.
 
-[*Drush*](https://www.drush.org/) is de commandline shell voor Drupal, en is onontbeerlijk als je met collega's aan hetzelfde project werkt. Zo wil je om de cache te clearen regelmatig even een `drush cr` (cache:rebuild) uitvoeren om zeker te zijn dat alles goed staat na een pull.
+[_Drush_](https://www.drush.org/) is de commandline shell voor Drupal, en is onontbeerlijk als je met collega's aan hetzelfde project werkt. Zo wil je om de cache te clearen regelmatig even een `drush cr` (cache:rebuild) uitvoeren om zeker te zijn dat alles goed staat na een pull.
 
 Een ander voorbeeld: Drupal slaat configuratie op in de database. Dat komt dus niet in git. Als je een lokale database hebt draaien, maar je collega heeft nieuwe functionaliteit toegevoegd, kan je dat met drush in jouw database importeren. Je collega exporteert de configs met `drush cex` (config:export), deze maakt nette .yml files die je in git kan zetten. Jij importeert met `drush cim` (config:import) deze configs uit deze .yml files in jouw database en je kan aan het werk.
 
 Een paar andere handige drush commands:
 
-* `drush status` ( geeft de status van de site, welke db gebruikt wordt en meer)
-* `drush updatedb` (update je database na een drupal update)
-* `drush locale:check` / `locale:update` (check voor nieuwe vertalingen / importeer deze vertalingen)
+-   `drush status` ( geeft de status van de site, welke db gebruikt wordt en meer)
+-   `drush updatedb` (update je database na een drupal update)
+-   `drush locale:check` / `locale:update` (check voor nieuwe vertalingen / importeer deze vertalingen)
 
 ## Twig als templatetaal
 
@@ -161,7 +162,7 @@ Hoe leesbaar wil je het hebben? Twig zorgt voor prettige overzichtelijke templat
 
 Als je meer wil lezen: Twig heeft [superfijne documentatie](https://twig.symfony.com/doc/2.x/) én een leuk plantje als mascotte. Just saying.
 
-# Het CMS en de leercurve
+## Het CMS en de leercurve
 
 Bovenstaande lijst is bij lange na niet volledig, en is slechts een snelle conclusie na een paar maanden werken met Drupal. Ik hoop dat het wel een goed beeld geeft van hoe anders het werken is met Drupal dan met andere CMS'en.
 

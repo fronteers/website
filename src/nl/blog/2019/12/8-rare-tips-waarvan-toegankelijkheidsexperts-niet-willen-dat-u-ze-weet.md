@@ -1,15 +1,16 @@
 ---
-title: "8 Rare Tips Waarvan Toegankelijkheidsexperts Niet Willen Dat U Ze Weet!"
+title: '8 Rare Tips Waarvan Toegankelijkheidsexperts Niet Willen Dat U Ze Weet!'
 date: 2019-12-04
 author: Erik Kroes
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
-*Nummer 4 Zal Je Een Epileptische Aanval Geven!*
+
+_Nummer 4 Zal Je Een Epileptische Aanval Geven!_
 
 Deze titel is geschreven als een zogenaamde [clickbait-titel](https://nl.wikipedia.org/wiki/Clickbait) en ironisch bedoeld. Clickbait-titels presenteren vaak misleidende tips als een vorm van krachtige geheime kennis. In dit geval willen toegankelijkheidsexperts niet dat je deze tips kent omdat ze een slecht advies zijn. Dit zijn tips die je niet moet volgen.
 
-# 1. Het gebruik van afkortingen verbetert je leesbaarheidsscore
+## 1. Het gebruik van afkortingen verbetert je leesbaarheidsscore
 
 > _"Een goede FK-score is belangrijk voor A11Y vanwege de U in WCAG's POUR."_
 
@@ -21,9 +22,7 @@ Een Flesch-Kincaid-score is een geweldige maatstaf om je te concentreren op lees
 
 ![Een heel smal bord met de tekst "geen alcohol voorbij dit punt". Er zijn gemiddeld 2 letters op elke regel. De tekst is vrijwel onleesbaar en ziet eruit als een lijst met afkortingen.](/_img/adventskalender/04-12-2019-1.png)
 
-
-
-# 2. Pagina's die WAI-ARIA gebruiken zijn minder toegankelijk
+## 2. Pagina's die WAI-ARIA gebruiken zijn minder toegankelijk
 
 In februari 2019 deed WebAIM een geautomatiseerde toegankelijkheidstest op 1.000.000 webpagina's. Zo'n enorme dataset geeft veel inzicht in de huidige status van het web. Er zijn veel [interessante conclusies](https://webaim.org/projects/million/) te trekken uit de resultaten. Eén daarvan was: "Startpagina's met ARIA hadden gemiddeld 26.7 meer detecteerbare fouten dan pagina's zonder ARIA". Dat is een behoorlijk demotiverende statistiek.
 
@@ -35,9 +34,7 @@ De echte tip is niet om ARIA op zichzelf te vermijden, maar om het gebruik van A
 
 ![Een kleine papieren paraplu bedekt nauwelijks een open kroonsteen met electriciteitsdraden. Het vormt een hopeloos schild tegen regen.](/_img/adventskalender/04-12-2019-2.png)
 
-
-
-# 3. Geautomatiseerde tests dekken slechts 20% van WCAG
+## 3. Geautomatiseerde tests dekken slechts 20% van WCAG
 
 Veel cijfers worden rondgeslingerd in gesprekken en presentaties over geautomatiseerde toegankelijkheid. En of je nou denkt dat tests 10% tot 30% van de mogelijke problemen dekken, of 20% van de WCAG-criteria, het maakt niet echt uit.
 
@@ -56,15 +53,13 @@ Gefeliciteerd, je kan nu moeiteloos veel problemen vinden!
 
 ![Een betegelde muur heeft een uitsparing in de vorm van een wastafel en zijn silhouette. De wasbak was er duidelijk eerder dan de muur.](/_img/adventskalender/04-12-2019-3.png)
 
-
-
-# 4. Je kan een toegankelijk alternatief aanbieden
+## 4. Je kan een toegankelijk alternatief aanbieden
 
 WCAG heeft een soort ontsnappingsmechanisme voor mensen die van uitvluchten houden. Wanneer je een pagina hebt die niet conformeert aan WCAG, kun je een [‘conforme alternatieve versie'](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conforming-alt-versions-head) aanbieden. Het moet dezelfde informatie en functionaliteit bieden. Het moet bereikbaar zijn op een manier die geen barrières kent. Een [constant knipperende](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html) pagina met een link naar een overeenkomstige alternatieve versie is geen oplossing. Knipperende pagina's kunnen epileptische aanvallen veroorzaken. Een bezoeker die aanvallen van lichtflitsen ervaart zal daar waarschijnlijk last van hebben voordat die de alternatieve versie bereikt.
 
 Als je een conforme pagina kunt bouwen, waarom zou je dan toch proberen om een ​​alternatieve versie te maken? Het is gemakkelijk twee keer het werk, wat niemand leuk vindt. Maar het is ook zonde voor je gebruikers. Het verbergt alle toegankelijkheidsverbeteringen voor mensen die zich mogelijk niet identificeren als gehandicapt. Ze kunnen echter wel profiteren van deze verbeteringen. Een opgelost toegankelijkheidsprobleem betekent vaak een verbeterde gebruikerservaring voor iedereen. Door iedereen dezelfde inclusief ontworpen ervaring te geven, geef je mensen met een handicap de bevestiging dat ze erbij horen. Ze zijn niet een alternatieve versie die verborgen zit achter een link.
 
-# 5. Schrijf uitgebreide aria-labels voor blinden
+## 5. Schrijf uitgebreide aria-labels voor blinden
 
 Helaas ben ik wel eens labels tegengekomen die specifiek geschreven waren voor mensen met een visuele beperking. Een voorbeeld was iets wat eenvoudige navigatie op een website had moeten zijn. Visueel had het duidelijke labels en het was eenvoudig te gebruiken. Het bevatte links met beknopte namen die overeenkwamen met hun bestemming, zoals 'home' en 'instellingen'. Het gebruik van een screen reader was echter een heel andere ervaring. Het menu had een label dat klonk als: "Dit hoofdmenu is waar u de website kunt navigeren". De link naar instellingen was gelabeld met: "Met de instellingenpagina kunt u dingen wijzigen zoals uw accountnaam of contactgegevens".
 
@@ -72,7 +67,7 @@ Hoewel goed bedoeld, helpt het niemand. Blind zijn betekent niet dat je niet wee
 
 Bij het schrijven van zogenaamde ‘accessible names’ schrijf je [korte functionele aria-labels](https://www.w3.org/TR/wai-aria-practices-1.1/#naming_effectively) die mensen snel kunnen onderscheiden. [Gebruiksinstructies zijn ook niet nodig](https://adrianroselli.com/2019/10/stop-giving-control-hints-to-screen-readers.html) .
 
-# 6. Slechts een klein aantal van onze klanten heeft een handicap
+## 6. Slechts een klein aantal van onze klanten heeft een handicap
 
 Dit is een misvatting die me altijd blijft verbazen. Meer dan 15% van de wereldbevolking heeft een handicap. Wanneer meer dan 1 miljard mensen problemen hebben met toegang tot digitale informatie en diensten, noemen we dat niet een klein aantal.
 
@@ -82,9 +77,7 @@ De discussie mag echter nooit over het aantal mensen gaan. Praten over cijfers w
 
 ![Een parkeerplek die is gemarkeerd als toegankelijk is omgeven door een aaneengesloten stoeprand](/_img/adventskalender/04-12-2019-4.png)
 
-
-
-# 7. De standaard focusindicator is veilig
+## 7. De standaard focusindicator is veilig
 
 Veilig is hier een gevaarlijk woord, maar technisch gezien is een standaard focusindicator [toegestaan](https://www.w3.org/WAI/WCAG21/Techniques/general/G165) door WCAG. Als je puur en alleen WCAG op de letter wil volgen, ben je hier klaar (hoewel sommige mensen dit succescriterium van WCAG zo interpreteren dat het wijzigen van de achtergrondkleur de standaardfocusindicator ongeldig kan maken).
 
@@ -94,9 +87,7 @@ Het is wel goed om te weten dat [standaard focusindicatoren steeds beter worden]
 
 ![Een stopcontact waar water uit giet](/_img/adventskalender/04-12-2019-5.png)
 
-
-
-# 8. Onderscheid elementen op je pagina met een mooi fontje
+## 8. Onderscheid elementen op je pagina met een mooi fontje
 
 In WCAG Succescriterium 1.4.1 staat dat we niet puur en alleen kleur kunnen gebruiken om iets te communiceren. Een voorbeeld van hoe het niet moet kan zijn dat je je fouten in een formulier met rood markeert. Of als binnen een navigatie de kleur van de huidige pagina verschilt van de andere links. Een ander bekend voorbeeld is het hebben van blauwe links op je pagina, maar zonder de kenmerkende underline. Door alleen op kleur te vertrouwen, sluit je mensen uit die beperkt (kleuren) zien.
 
@@ -110,7 +101,8 @@ Creatieve oplossingen zijn vaak minder effectief dan conventies. Het wijzigen va
 
 Als je een toegankelijkheidstip ziet, bedenk dan of deze daadwerkelijk iets toevoegt voor je eindgebruiker . Als het niets verbetert aan hun ervaring, wees dan kritisch. De toegankelijkheidsgemeenschap is open en gastvrij. Voel je altijd vrij om de mening van anderen te vragen.
 
-### Over Erik Kroes
+## Over Erik Kroes
+
 <img src="/_img/adventskalender/erik-kroes.png" alt="Foto van Erik" class="floating-portrait">
 Erik werkt bij ING aan de toegankelijkheid van het design system en is een toegankelijkheidsadviseur voor [Eleven Ways](https://twitter.com/elevenways_be). Hij is mede-organizator van [Idea11y](https://twitter.com/idea11y), de Inclusive Design & Accessibility meetup. Je kunt hem vinden op [Twitter,](https://twitter.com/erikkroes) waar hij ook af en toe serieus is.
 Eriks donatie gaat naar de Hersenstichting.

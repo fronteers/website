@@ -1,6 +1,7 @@
 ---
 title: W3C Advisory Board meetup
 ---
+
 On the 18th of June the W3C Advisory Board is in Amsterdam for a meeting. They would like to take the opportunity to meet with the local community of front-end enthusiasts!
 
 The W3C Advisory Board is a group of elected professionals (elected by the W3C Advisory Committee), responsible for discussing strategy, finances, governance and various other important matters. The W3C Advisory Board provides advice on all these topics.
@@ -9,7 +10,7 @@ Join us on the 18th of June for a meetup organised by the W3C Advisory Board and
 
 This meetup is open to everyone interested in Front-End development, member or non-member of Fronteers.
 
-# Meetup details
+## Meetup details
 
 The meetup will be held at [Werkspot](https://www.werkspot.nl/). The doors will be open from 18:30h, so you can join us for a bite to eat and a drink, before we are going to start the meetup at approximately 19:30h!
 

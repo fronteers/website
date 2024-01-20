@@ -1,10 +1,11 @@
 ---
-title: "Met Fronteers het nieuwe jaar in"
+title: 'Met Fronteers het nieuwe jaar in'
 date: 2018-12-24
 author: Anneke Sinnema
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Het afgelopen jaar, mijn eerste jaar als voorzitter van Fronteers, was een veelbewogen jaar! Als doorsnee lid had ik geen idee van het werk dat er in zit om de vereniging draaiend te houden. Laat staan hoeveel energie er in gaat steken nieuwe initiatieven te ontplooien! Ik ben tevreden dat er zoveel gelukt is:
 
 We waren in 2018 voor het eerst in een aantal jaar weer aanwezig op de [ISOC nieuwjaarsborrel](https://newyear.isoc.nl/), hielden een eigen nieuwjaars- en zomerborrel, een flink aantal succesvolle workshops, voor het eerst het [Fronteers congres](https://fronteers.nl/congres/2018) in het DeLaMar theater, en we stemden tijdens de ALV vóór het voorstel om als Fronteers lid te worden van het W3C.
@@ -28,8 +29,10 @@ Moeten we aan bedrijven met kleine front-end teams meer consultancy taken aan ga
 Je merkt het: genoeg energie en ideëen om een positieve invulling te geven aan het verenigingswerk.
 Mocht je hierover eens met me willen babbelen, kun je me vinden op [Slack](/blog/2016/02/fronteers-op-slack) en op [Twitter](https://twitter.com/asinnema)!
 
-### Over Anneke Sinnema
+## Over Anneke Sinnema
+
 <img src="/_img/adventskalender/anneke.png" alt="Foto van anneke" class="floating-portrait">
-Anneke Sinnema is een freelance front-end developer uit Enschede. Met haar voorzitterschap van Fronteers probeert Anneke een positieve bijdrage te leveren aan het dagelijks werk van collega developers. <3
+Anneke Sinnema is een freelance front-end developer uit Enschede. Met haar voorzitterschap van Fronteers probeert Anneke een positieve bijdrage te leveren aan het dagelijks werk van collega developers.
+
 Donatie
 Mijn donatie gaat naar [Unicef](https://www.unicef.nl/wat-is-unicef-basics), als bijdrage voor hun actie om kinderen in het Syrisch oorlogsgebied te voorzien van kleding, dekens en en schoon water.
