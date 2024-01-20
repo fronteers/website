@@ -80,7 +80,7 @@ Denk eens na: je bent hier bij Fronteers om jezelf onder te dompelen in front-en
 
 Ik weet ook wel dat wat ik hier zeg niet nieuw is. Maar ik denk wel dat het vaker gezegd moet worden! Wij ontwerpers hebben jullie echt nodig, zelfs als we het onszelf niet altijd realiseren ;-)
 
-### Over Maaike de Laat
+## Over Maaike de Laat
 
 <img src="/_img/blog/2014/maaikedelaat.png" alt="Foto van Maaike uit 2014" class="floating-portrait" />
 

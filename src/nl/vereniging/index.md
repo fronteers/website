@@ -1,7 +1,7 @@
 ---
 key: about
 title: Over Fronteers
-## if there's a subtitle, put it in heroSlogan:
+
 heroSlogan: ''
 ---
 

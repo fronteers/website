@@ -3,7 +3,7 @@ title: Post a job opening
 excludeFromCollection: true
 ---
 
-Acceptance criteria
+## Acceptance criteria
 
 -   The vacancy to be posted concerns (front-end) web development.
 -   We accept vacancies for both permanent employment and freelance assignments.

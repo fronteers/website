@@ -68,7 +68,7 @@ Meta alert: Natuurlijk heb ik deze blogpost ook uitgetekend, hieronder de sketch
 
 ![De sketchnote van de sketchnotes](/_img/adventskalender/blogpost-sketchnotes-anke-small.jpeg)
 
-### Over Anke Willems
+## Over Anke Willems
 
 <img src="/_img/adventskalender/anke.jpeg" alt="Foto van anke" class="floating-portrait">
 Anke is webdesigner en frontend developer bij Two Kings in Den Haag. Ze houdt zich bezig met alles vanaf het eerste gesprek met de klant, via het inventariseren van alle wensen en daarvoor de UX uitwerken tot het bouwen van de templates. In een eerder leven was ze grafisch ontwerper (met drukwerk en papier en zo), maar digitaal vind ze toch echt leuker. Heeft een grote liefde voor het maken van kleine gebruiksaanwijzingen die op een post-it moeten passen. Motorrijder, breimuts en poezenvrouwtje.

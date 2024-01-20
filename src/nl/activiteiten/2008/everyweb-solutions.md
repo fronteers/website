@@ -7,7 +7,7 @@ categories:
     - meetup
 ---
 
-Op 14 mei 2008 werd door [EveryWeb Solutions](http://everywebsolutions.nl/) een Fronteers bijeenkomst georganiseerd in [Hotel Arena](http://www.hotelarena.nl/) te Amsterdam. Het had niet veel gescheeld, of diverse front-end developers waren afgehaakt en hadden bij de buren een [evenement van de FHM](http://www.fhm100sexiest.nl/) bezocht. Gelukkig werden ze weerhouden door twee presentaties, de een over toegankelijkheid en de andere over SVG.
+Op 14 mei 2008 werd door [EveryWeb Solutions](http://everywebsolutions.nl/) een Fronteers bijeenkomst georganiseerd in [Hotel Arena](http://www.hotelarena.nl/) te Amsterdam. Het had niet veel gescheeld, of diverse front-end developers waren afgehaakt en hadden bij de buren een evenement van de FHM bezocht. Gelukkig werden ze weerhouden door twee presentaties, de een over toegankelijkheid en de andere over SVG.
 
 Nadat rond 18:30 de Kloosterzaal was volgestroomd met mensen, heette Peter-Paul Koch iedereen welkom, waarna hij het woord gaf aan Linda Nieuwenhuijzen en Kamiel Wanrooij die de eerste presentatie startten.
 
@@ -29,5 +29,5 @@ Tot slot kondigde Peter-Paul Koch het [Fronteers Congres](/bijeenkomsten) aan, d
 
 ## Overige verslagen
 
--   [Hotspot](http://blog.mangrove.nl/index.php?pageID=3434&messageID=308) (blog.mangrove.nl)
--   [Fronteers en toegankelijkheid](http://www.i76.nl/weblog/fronteers-en-toegankelijkheid) (i76.nl/weblog)
+-   Hotspot (blog.mangrove.nl)
+-   Fronteers en toegankelijkheid (i76.nl/weblog)

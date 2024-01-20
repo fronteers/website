@@ -13,21 +13,21 @@ Het mini-congres duurde van 12:00 - 17:30 uur; de oprichtende ALV van 19:00 - 20
 
 ## Programma
 
-## Stephen Hay: De Webrichtlijnen in de praktijk
+### Stephen Hay: De Webrichtlijnen in de praktijk
 
 -   12:00 - 13:00 uur
 -   Grote zaal
 
 Bespreekt de Webrichtlijnen, problemen bij de praktische implementatie daarvan, en een plan van enkele simpele stappen waarmee je aan 80% van de 125 Webrichtlijnen kunt voldoen.
 
-## Arjen Geerse, Lost Boys: Code review
+### Arjen Geerse, Lost Boys: Code review
 
 -   13:00 - 13:30 uur
 -   Meetingroom
 
 Deze sessie gaat in op de nieuwe Nuon.nl site, die net is opgeleverd, en op de problemen die het ontwikkelteam tegenkwam en de oplossingen die daarvoor gevonden zijn.
 
-## Managerspanel
+### Managerspanel
 
 -   13:30 - 14:30 uur
 -   Grote zaal
@@ -46,14 +46,14 @@ Deelnemers:
 -   Rik Koster, Eden Design
 -   Robert Leefmans, Mangrove
 
-## Johan Huijkman, Eden Design: Code review
+### Johan Huijkman, Eden Design: Code review
 
 -   14:30 - 15:00 uur
 -   Meetingroom
 
 Creatieve oplossingen voor de confrontatie tussen vormgeving en webstandaarden. Ik wil een paar eenvoudige maar interessante voorbeelden tonen van het bouwen volgens webstandaarden bij een designbureau.
 
-## Klantenpanel
+### Klantenpanel
 
 -   15:00 - 16:00 uur
 -   Grote zaal
@@ -70,14 +70,14 @@ Deelnemers:
 -   Gerrit Berkouwer, ministerie van VWS
 -   Jan Willem Mathijssen, Bruna
 
-## Tom Greuter, info.nl: Code review
+### Tom Greuter, info.nl: Code review
 
 -   16:00 - 16:30 uur
 -   Meetingroom
 
 Het doen van code reviews is een essentieel onderdeel bij de realisatie van software. Grote projecten met omvangrijke client-side code vereisen een eigen aanpak. Enkele bijzonderheden hiervan wil ik de revue laten passeren.
 
-## Bobby van der Sluis: Flash binnen het Gilde van Front-Enders
+### Bobby van der Sluis: Flash binnen het Gilde van Front-Enders
 
 -   16:30 - 17:30 uur
 -   Grote zaal

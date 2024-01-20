@@ -54,7 +54,7 @@ Buiten deze functies zijn er zoveel dingen die voor developers belangrijk zijn w
 
 Na het gedaan te hebben kan ik zeggen: ja, wel een beetje. Maar ik heb iets gemaakt waar ik heel trots op ben en waar veel mensen dagelijks profijt van hebben. Het front-end werkveld is in de afgelopen jaren veel complexer geworden en lijkt soms wel dagelijks of zelfs per uur te veranderen. Daardoor is het gemakkelijk om je _overwhelmed_ te voelen of je vooral bezig te houden met alles wat nieuw is en je minder bezig te houden met hoe effectief je nou zelf werkt. Het verbeteren van je proces — bijvoorbeeld door het gebruiken van een browser die je in je werkzaamheden ondersteunt — kan je uren per week tijdswinst opleveren. Zo gek is dat nog niet.
 
-### Over Kilian
+## Over Kilian
 
 <img src="/_img/adventskalender/eigen-browser/kilian.png" alt="Foto van Kilian" class="floating-portrait">
 Kilian Valkhof is ruim 15 jaar front-end ontwikkelaar en ontwikkelt de browser [Polypane](https://polypane.app/). Fronteersleden kunnen Polypane [met korting gebruiken](https://fronteers.nl/blog/2019/05/25-procent-fronteers-korting-op-nieuwe-browser-polypane).

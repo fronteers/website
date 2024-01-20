@@ -39,6 +39,7 @@
         "autoprefixer": "^10.4.14",
         "cross-env": "^7.0.3",
         "cssnano": "^6.0.1",
+        "eleventy-plugin-broken-links": "^2.0.3",
         "fast-glob": "^3.3.1",
         "husky": "8.0.3",
         "jsdom": "^22.1.0",

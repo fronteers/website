@@ -2,36 +2,34 @@
 title: Community
 key: community
 ---
-### Slack
+
+## Slack
 
 Fronteers has its own Slack channel where we want to bring front-enders together to talk about interesting techniques and help each other. Fronteers has a non-profit account where the chat history is stored for free. There's a small group of volunteers that provides moderation.
 
 Members and non-members can read more and register at: https://fronteers.nl/blog/2016/02/fronteers-op-slack.
 
-
-### Mastodon
+## Mastodon
 
 Interesting front-end related messages are shared on Mastodon, as well as Fronteers news such as meetings, vacancies, and interesting blog posts. You can follow Fronteers on Mastodon here: https://front-end.social/@fronteers or for news about Fronteers Conference at https://front-end.social/@Fronteersconference .
- 
 
-### Twitter
+## Twitter
 
 Fronteers news such as meetings, vacancies, interesting blog posts and code experiments of members and non-members is posted on Twitter. You can follow Fronteers on Twitter here: https://twitter.com/fronteers or https://twitter.com/fronteersconf for news of our conference.
 
-
-### LinkedIn
+## LinkedIn
 
 You can follow our [LinkedIn page](https://www.linkedin.com/company/2835613/) for news from the association, or link from your profile to indicate that you do (or have done) volunteer work for Fronteers .
 
-### Videos
+## Videos
 
 In addition to managing the above channels, the Marketing committee is responsible for editing and posting the videos of the meetings. All videos can be found on the [Fronteers vimeo site](https://vimeo.com/fronteers) or on [Youtube](https://www.youtube.com/channel/UCMqv5w33mm-CgjDV6VTBCTw).
 
-### Website
+## Website
 
 The website is maintained by a large number of active members. It is managed by the Marketing Committee.
 
-### Newsletter
+## Newsletter
 
 Don't you want to miss anything at all? We send a newsletter five times a year in which the most important news is shared. You can register using the form below:
 

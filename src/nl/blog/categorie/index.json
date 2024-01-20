@@ -3,7 +3,7 @@
   "permalink": "/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{%- if category.slug -%}{{ category.slug }}/{%- endif -%}index.html",
   "tags": "pages",
   "pagination": {
-    "data": "collections.blogCategories",
+    "data": "collections.blogCategories_nl",
     "size": 1,
     "alias": "category"
   },

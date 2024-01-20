@@ -29,7 +29,7 @@ Bojhan Somers en Roy Scholten, maintainers van de Drupal 7 User Experience hebbe
 
 ## Discussie over webdevelopers
 
-Gespreksleider Michiel zal aan het einde van de bijeenkomst de mening peilen over een aantal stellingen. Appoint is vooral geïnteresseerd in de dagelijkse problemen bij de  inzet van Web Developers. Tevens wil Appoint graag de mening peilen van de deelnemers over de succesfactoren en valkuilen bij complexe projecten.
+Gespreksleider Michiel zal aan het einde van de bijeenkomst de mening peilen over een aantal stellingen. Appoint is vooral geïnteresseerd in de dagelijkse problemen bij de inzet van Web Developers. Tevens wil Appoint graag de mening peilen van de deelnemers over de succesfactoren en valkuilen bij complexe projecten.
 
 ## Locatie
 

@@ -43,7 +43,6 @@
   padding: 0;
   font: inherit;
   cursor: pointer;
-  outline: inherit;
   width: 26px;
   position: absolute;
   top: var(--spacing-half);
@@ -51,16 +50,16 @@
   z-index: 10;
 }
 
-/* Make mobile navigation scrollable */
-
-#navigation-close,
-.navigation-opened #navigation-open {
+#navigation-toggle .navigation-close-icon,
+.navigation-opened #navigation-toggle .navigation-open-icon {
   display: none;
 }
 
-.navigation-opened #navigation-close {
+.navigation-opened #navigation-toggle .navigation-close-icon {
   display: block;
 }
+
+/* Make mobile navigation scrollable */
 .navigation-opened {
   overflow: hidden;
   height: 100vh;

@@ -12,7 +12,7 @@ Over twee weken vindt de [jaarlijkse ALV](/blog/2012/10/kom-naar-de-algemene-led
 
 Beste Fronteers-leden, voordat jullie in groten getale gaan stemmen tijdens de ALV op 22 november stel ik me graag aan jullie voor. Het is immers wel zo handig om te weten op wie je nou eigenlijk kunt stemmen.
 
-Alleerst wat steekwoorden: 1980, echtgenoot, [80beans](http://80beans.com), cola, pragmatisch, [twitteraar](https://twitter.com/roy), front-ender, [Sass-groupie](http://thesassway.com/roy-tomeij), azijnpisser, [blogger](http://roytomeij.com/), [auteur](http://modular-frontend.com/), [trainer](/workshops/screw-css-roy-tomeij), chocoladepepernoten, [spreker](http://lanyrd.com/profile/roy/), [organisator](http://amsrb.org/). Details op verzoek.
+Alleerst wat steekwoorden: 1980, echtgenoot, 80beans, cola, pragmatisch, [twitteraar](https://twitter.com/roy), front-ender, [Sass-groupie](http://thesassway.com/roy-tomeij), azijnpisser, [blogger](http://roytomeij.com/), [auteur](http://modular-frontend.com/), [trainer](/workshops/screw-css-roy-tomeij), chocoladepepernoten, [spreker](http://lanyrd.com/profile/roy/), [organisator](http://amsrb.org/). Details op verzoek.
 
 Op 2 juli 2007 werd ik lid van de Yahoo! Group "Gilde voor Front-enders", waarna ik sinds begin 2008 meermaals actief ben geweest voor de vereniging en onregelmatig aan het bestuur kritiek heb geuit. Na bijna vijf jaar als beste schipper aan wal te hebben gestaan is de tijd gekomen om zelf een actieve sturende rol op me te nemen.
 

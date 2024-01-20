@@ -2,11 +2,7 @@
 title: Notulen bestuursvergadering 24 mei 2023
 ---
 
-Bestuursvergadering
-
-24 mei 2023
-
-### Aanwezig
+## Aanwezig
 
 -   Anneke Sinnema
 -   Edwin Martin (notuleert)

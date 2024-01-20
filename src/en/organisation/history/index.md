@@ -30,9 +30,12 @@ The following members have served on the board during the existence of Fronteers
 | Michael Hastrich     | 2016      | General board member                                                |
 | Roy Tomey            | 2016-2017 | General board member                                                |
 | Sander Vink          | 2016-2022 | Treasurer                                                           |
-| Anneke Sinnema       | 2017-     | President                                                           |
-| Edwin Martin         | 2017-     | Secretary                                                           |
+| Anneke Sinnema       | 2017-2023 | Chairwoman                                                          |
+| Edwin Martin         | 2017-2023 | Secretary                                                           |
 | Wim van Iersel       | 2022-     | Treasurer                                                           |
+| Claudia Reynders     | 2023-     | Chairwoman                                                          |
+| Jewwy Qadri          | 2023-     | Co-secretary                                                        |
+| Christian Schaefer   | 2023-     | Co-secretary                                                        |
 
 ## Honorary Members
 

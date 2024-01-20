@@ -265,7 +265,7 @@ Dit soort specs zijn geweldig om mee te experimenteren. En ondersteuning komt sn
 
 Veel plezier ermee (en fijne feestdagen) :)
 
-### Over Stephen Hay
+## Over Stephen Hay
 
 <img src="/_img/2011/12/stephen-hay.jpg" alt="Foto van stephen hay uit 2011" class="floating-portrait" /> 
 [Stephen](https://twitter.com/stephenhay) is een designer/developer met een sterke interesse in CSS en multi-platform design. Hij spreekt en schrijft ook graag over deze onderwerpen.

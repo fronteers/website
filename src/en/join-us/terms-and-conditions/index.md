@@ -1,7 +1,7 @@
 ---
 title: Terms and conditions
 key: terms-and-conditions
-## if there's a subtitle, put it in heroSlogan:
+
 heroSlogan: "By becoming a member you support Fronteers's activities financially."
 ---
 

@@ -39,14 +39,14 @@ Sander loopt de jaarrekening van 2020 door. De omzet is sterk afgenomen vanwege 
 
 Darice vraagt of we door gaan met het W3C lidmaatschap. Sander antwoordt dat we hier tijdens de ALV van vorig jaar uitgebreid bij stilgestaan hebben, en dat het lidmaatschap is beeindigd.
 
-### Kascommissie
+## Kascommissie
 
 Sander neemt de bevindingen van de kascommissie door. De kascommissie verleent décharge.
 
 Benoeming vrijwilligers voor de nieuwe kascommissie.
 Nina biedt zich aan. Wim biedt zich ook weer aan.
 
-### Financiën
+## Financiën
 
 Voorlopige financiën 2021. Er zijn dit jaar geen workshops en geen congres.
 Wel meer vacatures dan 2020, maar weer minder inkomsten uit lidmaatschappen.
@@ -62,7 +62,7 @@ Het streven is om de reserves bij te vullen.
 Nina vraagt of de prijs van het kaartje kan worden verhoogd gezien andere partijen die hogere prijzen vragen.
 Antwoord: Fronteers doet het congres tegen kostprijs. De andere partijen maken winst. Iedere editie wordt de prijs opnieuw bekeken.
 
-### Comissies
+## Comissies
 
 België: heeft geen bijeenkomsten gehad
 
@@ -77,7 +77,7 @@ Marketing/onlinecommissie: statistieken van Slack worden getoond.
 
 Vacatures: het aantal plaatsingen is flink toegenomen tov 2020.
 
-### Workshops
+## Workshops
 
 Er zijn geen workshops gehouden, we hebben liever fysieke bijeenkomsten in plaats van online. Tom is gestopt, dus we
 moeten ook een nieuw commissielid zoeken.
@@ -88,7 +88,7 @@ kan ook een workshop-lidmaatschapscombinatiekaartje kopen.
 Darice: ik zou niet ergens naartoe gaan als er niet op QR wordt gecontroleerd.
 Sander: Workshops zijn op locaties waar sowieso een QR code wordt gevraagd vanwege de huidige maatregelen.
 
-### Nieuwe website
+## Nieuwe website
 
 Edwin vertelt over de voortgang van de nieuwe website en dat het niet erg opschiet.
 
@@ -96,7 +96,7 @@ Tim vraagt wat voor werkzaamheden nodig zijn. Edwin: navigatie, opmaak, componen
 
 Darice: Denk je dat het online kan komen voordat de volgende ronde lidmaatschapsbetalingen begint? Edwin: waarschijnlijk niet.
 
-### Rondvraag
+## Rondvraag
 
 PPK: Christiaan Scheafer wil het congres vlak na CSS day, is dat nog actueel?
 Sander: ja, die vraag is nog steeds actueel.
@@ -159,4 +159,6 @@ Nina: Hebben we een plek in Slack waar we dit soort ideeën kunnen bespreken?
 
 Tim: Dat kan in het #fronteers kanaal op Slack.
 
-### Afsluiting
+## Afsluiting
+
+Geen verdere opmerkingen meer.

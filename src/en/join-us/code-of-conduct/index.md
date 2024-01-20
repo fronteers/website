@@ -23,7 +23,7 @@ If you mention @mods in any of the channels, they’ll get a message.
 
 If you’d prefer to contact somebody more privately, send a direct message to a moderator of your choice: @anneke, @iejun, @josee or @charis.
 
-## Process
+## Moderation
 
 _Three strikes and you’re out:_ if you have received three warnings your account will be deactivated for 30 days.
 

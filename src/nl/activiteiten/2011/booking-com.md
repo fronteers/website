@@ -9,7 +9,7 @@ categories:
 
 Arjan introduceert Fronteers en Alejandro vertelt kort iets over [Booking.com](http://booking.com), die vanavond voor de ruimte, het bier en het eten heeft gezorgd.
 
-[Roy Tomeij](http://roytomeij.com/) van [80beans](http://80beans.com) presenteert vanavond over versiebeheer, met name over Git. Bij versiebeheer heb je een backup en geschiedenis van alle bestanden, zodat je altijd terug kunt gaan naar een oude versie.
+[Roy Tomeij](http://roytomeij.com/) van 80beans presenteert vanavond over versiebeheer, met name over Git. Bij versiebeheer heb je een backup en geschiedenis van alle bestanden, zodat je altijd terug kunt gaan naar een oude versie.
 
 Git heeft gedecentraliseerde code, dus je hebt het project op je eigen computer en op de server. Deze kun je na verloop van tijd synchroniseren. Ook is Git anders in de zin dat het snapshots in plaats van veranderingen gebruikt. Zo kun je eventueel een commit er tussenuit halen zonder dat er iets breekt, handig als je per ongeluk een wachtwoord van de database naar de server pusht.
 

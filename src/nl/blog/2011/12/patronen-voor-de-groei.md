@@ -118,7 +118,7 @@ Dit is uiteraard maar een begin en patronen zijn een goed begin voor ieder proje
 
 Dus, waar wacht je nog op!? Start je volgende project met een van de bovenstaande patronen of bouw ze zelf!
 
-### Over Egor Kloos
+## Over Egor Kloos
 
 <img src="/_img/2011/12/egor-kloos.jpg" alt="Foto van egor kloos uit 2011" class="floating-portrait" /> 
 Geboren in Dublin en woont al decennia in Rotterdam. [Dutchcelt](http://dutchcelt.nl/ "Weblog van Egor Kloos") creëert sinds 1997 met bloed zweet en tranen moderne websites. Vanaf het begin is 'Web Standards' een passie geweest. De kracht van CSS werd hem heel snel duidelijk en resulteerde in zijn 2003 [CSS Zen Garden inzending](http://www.csszengarden.com/062 "Egor's dubbelzinnige 'gemination'"). Twee site designs (eentje voor IE6) via en enkele CSS en javascript.

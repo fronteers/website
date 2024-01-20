@@ -1,7 +1,7 @@
 ---
 key: conference
 title: Conference
-## if there's a subtitle, put it in heroSlogan:
+
 heroSlogan: ''
 ---
 

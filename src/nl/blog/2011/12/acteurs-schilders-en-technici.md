@@ -48,7 +48,7 @@ Nog even en ik kan zeggen dat ik een acteur-schilder-technicus ben. En dat ieman
 Overigens ben ik van mening dat er meer vrouwen aan de front-end moeten komen! En dat InDesign alleen gebruikt mag worden voor het layouten van foldertjes.
 </p>
 
-### Over Paul van Buuren
+## Over Paul van Buuren
 
 <img src="/_img/2011/12/paul-van-buuren.jpg" alt="Foto van paul van buuren">
 Houdt van mooie dingen maken. Werkt bij [Matchminds](http://www.matchminds.nl/).  Verzamelt [rare woorden](http://www.paulvanbuuren.nl/content/category/bon-mot-du-jour/). En mag sinds de geboorte van z'n kinderen weer met Lego spelen.

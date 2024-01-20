@@ -1,7 +1,7 @@
 ---
 title: About Fronteers
 key: about
-## if there's a subtitle, put it in heroSlogan:
+
 heroSlogan: ''
 ---
 

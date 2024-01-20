@@ -3,10 +3,10 @@ title: Herfstblaadjes zien
 date: 2022-12-24
 author: Job van Achterberg
 graphic:
-  src: blog/autumn-leaves.jpeg
-  alt: "Afbeelding van herfstblaadjes"
+    src: blog/autumn-leaves.jpeg
+    alt: 'Afbeelding van herfstblaadjes'
 categories:
-  - Adventskalender
+    - Adventskalender
 ---
 
 {% quote "Maurice Merleau-Ponty, Het Zichtbare en het Onzichtbare (1968)" %}

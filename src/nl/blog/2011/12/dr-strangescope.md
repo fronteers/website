@@ -118,7 +118,7 @@ Overigens kunnen alle vier de functies bij het argument van de ouderfunctie: `el
 
 _Fijne feestdagen!_
 
-### Over Arjan Eising
+## Over Arjan Eising
 
 /2011/12/arjan-eising.jpg
 Front-end developer bij [Springest](http://www.springest.nl). Bestuurslid en bijeenkomstenorganisator bij Fronteers. Kijkt te veel films.

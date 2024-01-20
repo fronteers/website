@@ -27,6 +27,6 @@ Onderzoek heeft aangetoond dat snelle webpagina's beter scoren op conversie dan 
 
 ## Routebeschrijving
 
-De bijeenkomst wordt gehouden in Brasserie Bites in de Mediacentrale. Bites is gevestigd aan Helperpark 276A, 9723 ZA Groningen. Er is een [routebeschrijving te vinden op de website van Bites](http://www.bites.nu/contact.html).
+De bijeenkomst wordt gehouden in Brasserie Bites in de Mediacentrale. Bites is gevestigd aan Helperpark 276A, 9723 ZA Groningen. Er is een routebeschrijving te vinden op de website van Bites.
 
 Zoals altijd is de bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. [Geef je op via het opgaveformulier](/bijeenkomsten/2010/iwink#formulier-1), zodat we weten voor hoeveel mensen we catering nodig hebben.

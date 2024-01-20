@@ -86,9 +86,9 @@ Fronteers bestaat door haar leden. Soms vragen leden zich af wat Fronteers _is_,
 
 Ik ben benieuwd wat Fronteers haar leden in 2019 zal schenken, en aan welke dingen ik zelf zal bijdragen.
 
-## Fijne feestdagen!
+Fijne feestdagen!
 
-### Over Job van Achterberg
+## Over Job van Achterberg
 
 <img src="/_img/adventskalender/job.jpg" alt="Foto van Job van Achterberg" class="floating-portrait" /> 
 Job werkt als toegankelijkheidsspecialist (mooi Scrabblewoord) en ontwikkelaar bij Tenon (https://www.tenon.io). Hij gooit met slangen en water bij de vrijwillige brandweer.

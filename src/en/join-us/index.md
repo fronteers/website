@@ -1,7 +1,7 @@
 ---
 title: Become a member
 key: join-us
-## if there's a subtitle, put it in heroSlogan:
+
 heroSlogan: ''
 ---
 

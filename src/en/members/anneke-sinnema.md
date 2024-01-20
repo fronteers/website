@@ -5,8 +5,6 @@ date: 2020-11-10
 graphic:
     src: /assets/images/banner-conference.jpg
     alt:
-
-## Fields available: freelancer, specialties
 freelancer: Beschikbaar vanaf april
 specialties:
     - html

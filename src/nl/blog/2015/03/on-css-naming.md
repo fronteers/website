@@ -130,7 +130,7 @@ It looks nice, doing stuff with that kind of selector, it will make you look rea
 
 This is the most important advice I can give you on CSS naming conventions. There is no ultimate solution for your problem, you have to decide on that with your whole team. If you talk about your naming convention and get everybody on board, it is more probable that everyone will adhere to these conventions.
 
-### Over Wilfred Nas
+## Over Wilfred Nas
 
 <img src="/_img/blog/2015/wilfrednas.jpeg" alt="Foto van Wilfred">
 Freelance front end developer, loves to travel by rocket, father of two sons and founding member of the gang of 5. Nuts about html5 forms and semantics.

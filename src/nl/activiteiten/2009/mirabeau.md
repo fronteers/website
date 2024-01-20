@@ -15,7 +15,7 @@ Kilians missie voor de avond was ons al zeeziek wordend bekend te maken met clie
 
 De meesten hadden wel eens gehoord van [Blueprint](http://www.blueprintcss.org/), [960 Grid System](http://960.gs/) en het door Kilian zelf gemaakte CSS framework [SenCSs](http://sencss.kilianvalkhof.com/ 'SenCSs - the sensible standards CSS framework'). Toch gebruikt de meerderheid geen framework, waarschijnlijk voornamelijk omdat het je semantische HTML niet ten goede komt. Iets wat natuurlijk een hoop discussie op gang bracht. Niet-semantische HTML schrijven is een hoofdzonde, niet?
 
-Interessanter was het deel over server-side CSS frameworks. Mogelijkheden waar front-enders op dit moment alleen maar over dromen, zoals variabelen/constanten en het rekenen met waardes (en hexadecimale kleurcodes!), maar ook principes als Don't Repeat Yourself, zijn in de meeste server-side frameworks vaste kost. Kilian gaf enkele voorbeelden van frameworks die een compleet nieuwe syntax bedacht hebben, zoals [Sass](http://haml.hamptoncatlin.com/docs/rdoc/classes/Sass.html) en [CleverCSS](http://sandbox.pocoo.org/clevercss/), en die enkele toevoegingen mogelijk maakten, zoals [CSScaffold](https://github.com/anthonyshort/csscaffold/tree/master) en [Moonfall](http://moonfall.org/). Of de voordelen van deze frameworks (extra awesomeness), opwegen tegen de nadelen (extra gedoe), zal iedere ontwikkelaar voor zichzelf moeten bepalen.
+Interessanter was het deel over server-side CSS frameworks. Mogelijkheden waar front-enders op dit moment alleen maar over dromen, zoals variabelen/constanten en het rekenen met waardes (en hexadecimale kleurcodes!), maar ook principes als Don't Repeat Yourself, zijn in de meeste server-side frameworks vaste kost. Kilian gaf enkele voorbeelden van frameworks die een compleet nieuwe syntax bedacht hebben, zoals Sass en CleverCSS, en die enkele toevoegingen mogelijk maakten, zoals CSScaffold en Moonfall. Of de voordelen van deze frameworks (extra awesomeness), opwegen tegen de nadelen (extra gedoe), zal iedere ontwikkelaar voor zichzelf moeten bepalen.
 
 Kilian sloot af met het noemen van [eCSStender](http://ecsstender.org/), een framework van Aaron Gustafson dat we in de gaten moeten gaan houden!
 
@@ -31,7 +31,7 @@ Ondanks dat hij wat zenuwachtig was en JAWS niet helemaal werkte, heeft Arjan on
 
 ## Overige materialen en verslagen
 
--   [Presentatie Kilian Valkhof over CSS frameworks](http://prezi.com/52514/view) (prezi.com, SWF)
--   [Presentatie Arjan Eising over WAI-ARIA](http://codex.arjaneising.nl/presentations/WAI-ARIA/index.html) (arjaneising.nl, HTML)
+-   Presentatie Kilian Valkhof over CSS frameworks
+-   Presentatie Arjan Eising over WAI-ARIA (arjaneising.nl, HTML)
 
 Vragen over deze bijeenkomst? Stel ze gerust op [het blog](/blog/2009/04/bijeenkomst-mei#reageer).

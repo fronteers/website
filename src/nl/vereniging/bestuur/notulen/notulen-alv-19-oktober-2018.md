@@ -2,9 +2,8 @@
 title: Notulen ALV 19 oktober 2018
 ---
 
-Notulen Fronteers ALV 19 oktober 2018
+## Aanwezig:
 
--   Aanwezig:
 -   Anneke Sinnema
 -   Arjan Eising
 -   Edwin Martin (notuleert)
@@ -36,7 +35,7 @@ Er wordt decharge gegeven voor 2017.
 
 ## W3C-lidmaatschap
 
-## Rachel Andrews
+### Rachel Andrews
 
 Rachel neemt het woord. Ze is al twintig jaar webontwikkeaar en standaardenadvocaat. Ze is door W3C uitgenodigd in verband met haar kennis van css-grid.
 
@@ -44,7 +43,7 @@ Ze pushte de grid spec. Ze gaf feedback als ontwikkelaar en vroeg waarom er geen
 
 Ze is ook co-editor van twee css-specs. Van een oude spec multicol is ze door de mailinglist gegaan om alle ideeën toe te passen en de spec goed te maken. En css-regions waarvan ze denkt dat developers er echt op zitten te wachten. Uitgenodigde expert zijn is eigenlijk een heel dure hobby. Veel experts komen uiteindelijk in dienst bij een browsermaker, maar dan ben je geen ontwikkelaar meer. Dit werk doen vanuit Fronteers geeft haar meer tijd om het werk te doen. Ze wil ook uitleggen hoe de W3C-processen werken. En ze wil een workshop spec-reading doen. En helpen tests te schrijven. Helpen met het schrijven van issues op specs. Use cases zijn erg belangrijk bij het schrijven van spec. Daarom zijn ontwikkelaars belangrijk. Samen met een groep (Fronteers) samen werken maakt haar werk nog beter.
 
-## Peter-Paul Koch
+### Peter-Paul Koch
 
 PPK neemt het woord. Als non-profit betaalt Fronteers minder dan gewoon lid. Rachel wordt onze vertegenwoordiger. Kosten zijn 30.000 per jaar. Michael: samenwerking met welke organisaties? PPK: die zijn er nog niet, er zijn wel gesprekken in Duitsland.
 

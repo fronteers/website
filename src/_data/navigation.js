@@ -241,7 +241,7 @@ module.exports = {
                     },
                     {
                         title: "Freelancers",
-                        url: "/en/jobs/freelancers",
+                        url: "/en/freelancers",
                     },
                 ],
             },

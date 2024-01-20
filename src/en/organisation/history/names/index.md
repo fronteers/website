@@ -1,7 +1,6 @@
 ---
 key: history-names
 title: Mogelijke namen voor de vereniging
-## if there's a subtitle, put it in heroSlogan:
 heroSlogan: ''
 ---
 

@@ -33,7 +33,7 @@ Anne doet als laatste nog een Steve Jobs actie, met een 'one more thing'. Google
 
 Het vervelende aan alle mobiele telefoons is dat je apart code moet ontwikkelen, wil je de features van de mobiele telefoon gebruiken in je applicatie. Ook hebben veel apparaten, operators en dergelijk een eigen appstore. Voor een overzicht kun je kijken op [distimo.com/appstores](http://www.distimo.com/appstores/).
 
-HTML5 Apps maken het mogelijk om de goede dingen van mobieltjes, zoals de GPS ontvanger, te gebruiken in HTML. Een startup genaamd [Your Appshop](http://yourappshop.com) lanceerde in december 2009, welke HTML5 apps aanbied voor een klein bedrag. Ze hadden 12 miljoen downloads in vier maanden.
+HTML5 Apps maken het mogelijk om de goede dingen van mobieltjes, zoals de GPS ontvanger, te gebruiken in HTML. Een startup genaamd Your Appshop lanceerde in december 2009, welke HTML5 apps aanbied voor een klein bedrag. Ze hadden 12 miljoen downloads in vier maanden.
 
 De basis voor een HTML5 App zijn HTML, CSS en JavaScript bestanden, ondersteund met een config.xml bestand (waar de naam etc in staan) en een icoon. Deze bestanden plaats je in een .zip bestand, en die hernoem je naar een .wgt. Dan ben je klaar. Dit werkt op de meeste moderne browsers, behalve de iPhone.
 

@@ -92,7 +92,7 @@ Misschien is een deel van je doelgroep kleurenblind of slechtziend? Bij het kiez
 
 [Axe](https://www.deque.com/axe/) – kleurcontrast checker voor je browser developer toolbar.
 
-### Over Monique Dubbelman
+## Over Monique Dubbelman
 
 <img src="/_img/adventskalender/monique-dubbelman.jpg" alt="Foto van Monique" class="floating-portrait">
 Monique Dubbelman is in de vorige eeuw opgeleid als grafica. Omdat dat inmiddels een fossiel beroep is, bouwt en ontwerpt ze sinds de jaren negentig websites, tegenwoordig vooral met WordPress. Eerst als hobby, vanaf 2011 als professional onder de naam BOE!media. In 2016 behaalde ze haar bachelor in Media, Informatie en Communicatie aan de Hogeschool van Amsterdam. Monique maakt zich druk over de inhoud, structuur en gebruiksvriendelijkheid van websites en vindt bovendien dat er een heldere strategie achter mag zitten. Naast UX designer noemt ze zich daarom ook digitaal of contentstrateeg. Op het internet is ze ook nog terug te vinden als wormenfluisteraar.

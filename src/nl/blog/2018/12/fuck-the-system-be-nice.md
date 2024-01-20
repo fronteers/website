@@ -78,7 +78,7 @@ En als je ideeën, systemen wilt afkraken: gebruik humor en argumenten.
 
 Fuck the system, be nice.
 
-### Over Paul van Buuren
+## Over Paul van Buuren
 
 <img src="/_img/adventskalender/paul.jpg" alt="Foto van Paul van Buuren" class="floating-portrait" /> 
 Paul van Buuren maakt websites sinds 1998. Zijn vooropleiding heeft niks met webdesign te maken, want dat bestond domweg nog niet. Onder de noemer WBVB Rotterdam werkt hij als zelfstandige voor diverse opdrachtgevers. Z'n specialiteit is het maken van toegankelijke WordPress-sites. Hij praat opvallend vaak in algemeenheden en tegeltjeswijsheden.

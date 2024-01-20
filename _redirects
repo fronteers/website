@@ -14,11 +14,11 @@
 /vereniging/doel /nl/vereniging/:splat 302
 /vereniging/vrijwilligers/_ /nl/vereniging/vrijwilliger-worden/:splat 302
 /vereniging/commissies/activiteiten /nl/vereniging 302
-/vereniging/commissies/onderwijs/_ /nl/vereniging 302
+/vereniging/commissies/onderwijs/\_ /nl/vereniging 302
 /vereniging/ledenkorting /nl/word-lid/lidmaatschap/#waarom-lid-worden 302
 /vereniging/wallpapers / 302
 /vereniging/badges /nl/vereniging/badges 302
-/vereniging/* /nl/vereniging:splat 302
+/vereniging/\* /nl/vereniging:splat 302
 /inschrijven /nl/word-lid/ 302
 /sign-up /en/join-us/ 302
 /nieuwsbrief /nl/footer/nieuwsbrief/ 302

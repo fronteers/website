@@ -1,7 +1,7 @@
 ---
 key: committees
 title: Committees
-## if there's a subtitle, put it in heroSlogan:
+
 heroSlogan: ''
 ---
 

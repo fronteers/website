@@ -1,7 +1,7 @@
 ---
 key: committees
 title: Commissies binnen de vereniging
-## if there's a subtitle, put it in heroSlogan:
+
 heroSlogan: ''
 ---
 

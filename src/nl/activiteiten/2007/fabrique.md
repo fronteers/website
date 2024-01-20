@@ -7,6 +7,6 @@ categories:
     - meetup
 ---
 
-Presentatie front-end bij Fabrique door Mark Dibbets
+## Presentatie front-end bij Fabrique door Mark Dibbets
 
 ## Presentatie plannen door Peter-Paul Koch

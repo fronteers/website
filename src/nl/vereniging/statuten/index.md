@@ -1,7 +1,7 @@
 ---
 key: statutes
 title: Statuten oprichting vereniging
-## if there's a subtitle, put it in heroSlogan:
+
 heroSlogan: ''
 ---
 
@@ -15,19 +15,19 @@ De comparant verklaarden bij deze akte een vereniging op te richten en daarvoor 
 
 ## Naam
 
-## Artikel 1
+### Artikel 1
 
 De vereniging draagt de naam: Fronteers.
 
 ## Zetel
 
-## Artikel 2
+### Artikel 2
 
 Zij heeft haar zetel te Amsterdam.
 
 ## Doel
 
-## Artikel 3
+### Artikel 3
 
 De vereniging heeft ten doel:
 
@@ -36,21 +36,21 @@ De vereniging heeft ten doel:
 
 ## Leden
 
-## Artikel 4
+### Artikel 4
 
 1. Leden van de vereniging kunnen zijn meerderjarige natuurlijke personen en rechtspersonen.
 2. Het bestuur houdt een register waarin de namen en adressen van alle leden zijn opgenomen.
 
 ## Toelating
 
-## Artikel 5
+### Artikel 5
 
 1. Het bestuur beslist omtrent de toelating van leden.
 2. Bij niet-toelating tot lid kan de algemene vergadering alsnog tot toelating besluiten.
 
 ## Einde van het lidmaatschap
 
-## Artikel 6
+### Artikel 6
 
 1. Het lidmaatschap eindigt:
     1. door de dood van het lid;
@@ -69,20 +69,20 @@ De vereniging heeft ten doel:
 
 ## Jaarlijkse bijdragen
 
-## Artikel 7
+### Artikel 7
 
 1. De leden zijn gehouden tot het betalen van een jaarlijkse bijdrage, die door de algemene vergadering zal worden vastgesteld. Zij kunnen daartoe in categorieën worden ingedeeld die een verschillende bijdrage betalen.
 2. Het bestuur is bevoegd in bijzondere gevallen gehele of gedeeltelijke ontheffing van de verplichting tot het betalen van een bijdrage te verlenen.
 
 ## Bestuur
 
-## Artikel 8
+### Artikel 8
 
 Het bestuur bestaat uit minimaal drie personen, die door de algemene vergadering worden benoemd. De benoeming geschiedt uit de leden.
 
 ## Einde bestuurslidmaatschap / Periodiek lidmaatschap / Schorsing
 
-## Artikel 9
+### Artikel 9
 
 1. Elk bestuurslid, ook wanneer hij voor een bepaalde tijd is benoemd, kan te allen tijde door de algemene vergadering worden ontslagen of geschorst. Een schorsing die niet binnen drie maanden gevolgd wordt door een besluit tot ontslag, eindigt door het verloop van die termijn.
 2. Elk bestuurslid treedt uiterlijk drie jaar na zijn benoeming af, volgens een door het bestuur op te maken rooster van aftreding. De aftredende is herkiesbaar; wie in een tussentijdse vacature wordt benoemd, neemt op het rooster de plaats van zijn voorganger in.
@@ -92,14 +92,14 @@ Het bestuur bestaat uit minimaal drie personen, die door de algemene vergadering
 
 ## Bestuursfuncties / Besluitvorming van het bestuur
 
-## Artikel 10
+### Artikel 10
 
 1. Het bestuur wijst uit zijn midden een voorzitter, een secretaris en een penningmeester aan. Het kan voor elk hunner uit zijn midden een vervanger aanwijzen. Een bestuurslid kan meer dan één functie bekleden.
 2. Van het verhandelde in elke vergadering worden door de secretaris notulen opgemaakt, die door de voorzitter en de secretaris worden vastgesteld en ondertekend. In afwijking van hetgeen de wet dienaangaande bepaalt, is het oordeel van de voorzitter omtrent de totstandkoming en de inhoud van een besluit niet beslissend.
 
 ## Bestuurstaak / Vertegenwoordiging
 
-## Artikel 11
+### Artikel 11
 
 1. Behoudens de beperkingen volgens de statuten is het bestuur belast met het besturen van de vereniging.
 2. Indien het aantal bestuursleden beneden drie is gedaald, blijft het bestuur bevoegd. Het is echter verplicht zo spoedig mogelijk een algemene vergadering te beleggen waarin de voorziening in de open plaats of de open plaatsen aan de orde komt.
@@ -109,7 +109,7 @@ Het bestuur bestaat uit minimaal drie personen, die door de algemene vergadering
 
 ## Jaarverslag / Rekening en verantwoording
 
-## Artikel 12
+### Artikel 12
 
 1. Het verenigingsjaar loopt van een januari tot en met eenendertig december.
 2. Het bestuur is verplicht van de vermogenstoestand van de vereniging zodanige aantekeningen te houden dat daaruit te allen tijde haar rechten en verplichtingen kunnen worden gekend.
@@ -121,7 +121,7 @@ Het bestuur bestaat uit minimaal drie personen, die door de algemene vergadering
 
 ## Algemene vergadering
 
-## Artikel 13
+### Artikel 13
 
 1. Aan de algemene vergadering komen in de vereniging alle bevoegdheden toe, die niet door de wet of de statuten aan het bestuur zijn opgedragen.
 2. Jaarlijks, uiterlijk zes maanden na afloop van het verenigingsjaar, wordt een algemene vergadering - de jaarvergadering - gehouden. In de jaarvergadering komen onder meer aan de orde:
@@ -134,7 +134,7 @@ Het bestuur bestaat uit minimaal drie personen, die door de algemene vergadering
 
 ## Toegang en stemrecht
 
-## Artikel 14
+### Artikel 14
 
 1. Toegang tot de algemene vergadering hebben alle leden van de vereniging. Geen toegang hebben geschorste leden en geschorste bestuursleden met dien verstande dat een geschorst lid toegang heeft tot de vergadering waarin het besluit tot schorsing wordt behandeld. Hij heeft tevens het recht in die vergadering het woord te voeren.
 2. Over toelating van andere dan de in lid 1 bedoelde personen beslist het bestuur.
@@ -143,14 +143,14 @@ Het bestuur bestaat uit minimaal drie personen, die door de algemene vergadering
 
 ## Voorzitterschap / Notulen
 
-## Artikel 15
+### Artikel 15
 
 1. De algemene vergaderingen worden, tenzij de situatie zich voordoet als omschreven in artikel 13 lid 4, laatste zin, geleid door de voorzitter van de vereniging of zijn plaatsvervanger. Ontbreken de voorzitter en zijn plaatsvervanger, dan treedt één der andere bestuursleden door het bestuur aan te wijzen als voorzitter op. Wordt ook op deze wijze niet in het voorzitterschap voorzien, dan voorziet de vergadering daarin zelve.
 2. Van het verhandelde in elke vergadering worden door de secretaris of een ander door de voorzitter daartoe aangewezen persoon notulen gemaakt, die door de voorzitter en de notulist worden vastgesteld en ondertekend. Zij die de vergadering bijeenroepen kunnen een notarieel proces-verbaal van het verhandelde doen opmaken. De inhoud van de notulen of van het proces-verbaal wordt ter kennis van de leden gebracht.
 
 ## Besluitvorming van de Algemene Vergadering
 
-## Artikel 16
+### Artikel 16
 
 1. Het ter algemene vergadering uitgesproken oordeel van de voorzitter omtrent de uitslag van een stemming is beslissend. Hetzelfde geldt voor de inhoud van een genomen besluit voorzover gestemd werd over een niet schriftelijk vastgelegd voorstel.
 2. Wordt echter onmiddellijk na het uitspreken van het in het eerste lid bedoeld oordeel de juistheid daarvan betwist, dan vindt een nieuwe stemming plaats, wanneer de meerderheid der vergadering of, indien de oorspronkelijke stemming niet hoofdelijk of schriftelijk geschiedde, een stemgerechtigde aanwezige dit verlangt. Door deze nieuwe stemming vervallen de rechtsgevolgen van de oorspronkelijke stemming.
@@ -164,14 +164,14 @@ Het bestuur bestaat uit minimaal drie personen, die door de algemene vergadering
 
 ## Bijeenroeping Algemene Vergadering
 
-## Artikel 17
+### Artikel 17
 
 1. De algemene vergaderingen worden bijeengeroepen door het bestuur. De oproeping geschiedt schriftelijk aan de adressen van de leden volgens het ledenregister bedoeld in artikel 4. De termijn voor de oproeping bedraagt tenminste zeven dagen.
 2. Bij de oproeping worden de te behandelen onderwerpen vermeld, onverminderd het bepaalde in artikel 18.
 
 ## Statutenwijziging
 
-## Artikel 18
+### Artikel 18
 
 1. In de statuten van de vereniging kan geen verandering worden gebracht dan door een besluit van een algemene vergadering, waartoe is opgeroepen met de mededeling dat aldaar wijziging van de statuten zal worden voorgesteld.
 2. Zij die de oproeping tot de algemene vergadering ter behandeling van een voorstel tot statutenwijziging hebben gedaan, moeten tenminste vijf dagen vóór de vergadering een afschrift van dat voorstel, waarin de voorgedragen wijziging woordelijk is opgenomen, op een daartoe geschikte plaats voor de leden ter inzage leggen tot na afloop van de dag waarop de vergadering wordt gehouden. Bovendien wordt een afschrift als hiervoor bedoeld, aan alle leden toegezonden.
@@ -180,7 +180,7 @@ Het bestuur bestaat uit minimaal drie personen, die door de algemene vergadering
 
 ## Ontbinding
 
-## Artikel 19
+### Artikel 19
 
 1. De vereniging kan worden ontbonden door een besluit van de algemene vergadering. Het bepaalde in de leden 1, 2 en 3 van het voorgaande artikel is van overeenkomstige toepassing.
 2. Tenzij de algemene vergadering anders besluit, geschiedt de vereffening door het bestuur.
@@ -189,7 +189,7 @@ Het bestuur bestaat uit minimaal drie personen, die door de algemene vergadering
 
 ## Huishoudelijk reglement
 
-## Artikel 20
+### Artikel 20
 
 1. De algemene vergadering kan een huishoudelijk reglement vaststellen.
 2. Het huishoudelijk reglement mag niet in strijd zijn met de wet, ook waar die geen dwingend recht bevat, noch met de statuten.

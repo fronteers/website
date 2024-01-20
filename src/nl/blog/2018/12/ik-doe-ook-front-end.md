@@ -40,7 +40,7 @@ Aan het eind van de dag zal het project worden opgeleverd. Ik ben er van overtui
 
 Wat voor skills en persoonlijke vaardigheden dient een front-end developer eigenlijk nog meer te hebben volgens jou?
 
-### Over Sander Langendoen
+## Over Sander Langendoen
 
 <img src="/_img/adventskalender/sanderlangendoen.jpg" alt="Foto van Sander Langendoen" class="floating-portrait" /> 
 Ik ben Sander Langendoen. Freelance Front-end Developer. Front-end development blijft voor mij een nog niet uitgespeelde game. Ik ben blij dat ik iedere dag betaald mijn hobby mag uitoefenen.

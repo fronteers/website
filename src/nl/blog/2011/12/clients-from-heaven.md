@@ -78,7 +78,7 @@ De meeste problemen ontstaan doordat je de klant niet hebt weten te overtuigen. 
 
 En als je het écht goed doet, snappen ze zelfs die wondere wereld van unicorns, double rainbows en lolcatz.
 
-### Over Ruben Bos
+## Over Ruben Bos
 
 2011/12/ruben-bos.png
 Overdag Creative Director bij [Mangrove](http://mangrove.nl/). 's Avonds de wijsneus met zijn alter ego [Bossing Around](http://bossingaround.com/). Half-Iers. Verslaafd aan roze koeken. Schreef ooit een [boek over webdesign](http://webdesignrules.nl/) voor opdrachtgevers van websitebouwers. Volg op Twitter: [@rubenbos](https://twitter.com/rubenbos)

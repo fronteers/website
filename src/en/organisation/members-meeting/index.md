@@ -1,7 +1,7 @@
 ---
 key: alv
 title: Membership meeting (ALV)
-## if there's a subtitle, put it in heroSlogan:
+
 heroSlogan: ''
 ---
 

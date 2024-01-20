@@ -7,9 +7,9 @@ categories:
     - meetup
 ---
 
-Arjan heet iedereen welkom bij [Lessius](http://mechelen.lessius.eu/) en vertelt kort iets over Fronteers.
+Arjan heet iedereen welkom bij Lessius en vertelt kort iets over Fronteers.
 
-[Thomas Byttebier](http://www.thehotseat.be/) presenteert vanavond over responsive web design. Hij steekt van wal met een korte geschiedenisles. De auto zorgde in de twintigste eeuw voor een revolutie die alles beïnvloedde in ons leven. Aan het einde van de twintigste eeuw zorgde de personal computer voor eenzelfde soort wijziging, en nu rukt de smartphone op: een handzame personal computer die ervoor zorgt dat we altijd met het internet verbonden zijn.
+Thomas Byttebier presenteert vanavond over responsive web design. Hij steekt van wal met een korte geschiedenisles. De auto zorgde in de twintigste eeuw voor een revolutie die alles beïnvloedde in ons leven. Aan het einde van de twintigste eeuw zorgde de personal computer voor eenzelfde soort wijziging, en nu rukt de smartphone op: een handzame personal computer die ervoor zorgt dat we altijd met het internet verbonden zijn.
 
 Het gros van de grote bedrijven denkt nu, door die snelle opkomst: we moeten iets voor mobile doen. Dus komt er vaak een iPhone app. Maar dan moet er ook een Android app komen. En een Windows app. En zo kunnen we nog wel even doorgaan.
 

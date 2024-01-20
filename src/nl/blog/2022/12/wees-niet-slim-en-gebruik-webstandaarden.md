@@ -2,7 +2,6 @@
 title: Wees (niet) slim en gebruik webstandaarden
 date: 2022-12-14
 author: Derk-Jan Karrenbeld
-summary: 'Aangezien dit een lang artikel is, eerst even in het kort:  - Gebruik van webstandaarden kunnen je helpen keuzes te maken; - Slimmere mensen dan ik hebben allerlei manieren bedacht om het wereldwijde web te gebruiken, inclusief allerlei randvoorwaarden en afwegingen; - Er bestaat een voorstel voor alles wat je maar kan bedenken; - Het web is niet gemaakt voor de browser; - Jij gebruikt webstandaarden.  Ben je een front-end developer die meer wil weten over het internet of het wereldwijde web? Ben je een full-stack developer (in wat voor hoedanigheid dan ook) en wil je meer weten over webstandaarden? Wil je helpen met keuzes maken bij architectuur of design van een (web-)API (application programming interface)?  Als je op een van de bovenstaande vragen ja heb geantwoord, of je het een interessant onderwerp lijkt, dan is dit artikel voor jou!'
 categories:
     - Adventskalender
 ---
@@ -31,7 +30,7 @@ HTTP staat voor Hypertext Transfer Protocol.
 
 Een protocol is doorgaans een set van regels om een doel te bereiken. In dit geval gaat het om een communicatie en overdrachts protocol en beschrijft de syntax, semantiek, foutdetectie en -correctie, synchronisatie om het volgende te bewerkstelligen:
 
-> [_Wikipedia_](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+> "...where hypertext documents include hyperlinks to other resources that the user can easily access." [_Wikipedia_](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 
 Ofwel: _hypertext_ documenten die _hyperlinks_ bevatten naar andere _resources_ die een _gebruiker_ eenvoudig kan raadplegen. Wat deze begrippen inhouden volgt.
 
@@ -124,10 +123,6 @@ Met alles bedoel ik overigens wel écht _alles_. Hoe we platte text beschrijven 
 -   [RFC 9113: HTTP/2](https://datatracker.ietf.org/doc/html/rfc9113)
 -   [RFC 9114: HTTP/3](https://datatracker.ietf.org/doc/html/rfc9114)
 
-(Hidden)
-
-## RFC voor _van alles_
-
 Dat er voor allerlei technische aspecten RFCs bestaan (die dus veelal worden aangenomen als Internet Standaard) is voor mij niet raar. Maar toen ik zei dat er een RFC bestaat voor alles bedoelde ik (nóg) meer. Dus om nog heel even door te ratelen heb ik nog drie voorbeelden.
 
 ### RFC 1121
@@ -158,11 +153,9 @@ Maar ook randzaken die ontzettend belangrijk zijn als we het hebben over standaa
 
 Degene die het meest voor komt is [RFC 2119: Key words for use in RFCs to Indicate Requirement Levels](https://www.rfc-editor.org/rfc/rfc2119):
 
->
+> The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119.
 
 Er zijn nauwe definities voor de sleutelwoorden hier genoemd, en weten wat die definitie is helpt bij zowel het opstellen van als het lezen van een RFC en subsequent ook een Internet Standaard.
-
-(Hidden)
 
 ## Maar wat heb ik hieraan?
 
@@ -184,13 +177,9 @@ These are often browsers, editors, spiders (web-traversing robots), or other end
 
 Hieruit volgt dat de HTTP standaard niet _alleen_ bedoeld is voor mensen, en ook niet alleen voor browsers.
 
-(Hidden)
-
 ## HTTP: waar is het voor?
 
 Als het protocol niet alleen voor browsers of eind-gebruikers is, dan is er meer aan de hand. Deze standaard wil ons helpen meer te bereiken dan alleen hypertext en andere hypermedia over de netwerkkabel versturen naar onze computerschermen.
-
-We hoeven niet lang te zoeken om erachter te komen welke problemen HTTP probeert te verhelpen of hoe het probeert te faciliteren. Dit artikel is niet de plek om in elke een diepe duik te nemen, maar weet dat er meer is dan de lijst die nu volgt. Slimme mensen hebben bekeken wat de moeilijkheden zijn bij communicatie over het internet, en welke uitdagingen er liggen op om te lossen. HTTP is het resultaat.
 
 ## ⚡ HTTP is de oplossing voor zogenoemde _hard problems_
 
@@ -269,35 +258,35 @@ Onze applicatie had meer gebruikers die pagina's wilden lezen dan bewerken. In H
 Alle CDNs hebben een variant van _caching_: het tijdelijk opslaan van informatie zodat je deze informatie niet opnieuw hoeft te berekenen of op te halen bij een opvolgend verzoek. Hoewel ze allemaal hun eigen implementatie hebben, ze ondersteunen (bijna) allemaal een gestandaardiseerde vorm: [_HTTP Caching_](https://datatracker.ietf.org/doc/html/rfc9111). (Dit heet vaak _Origin Cache Control_ mocht je het zoeken in jouw CDN). [Het MDN artikel hierover](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) beschrijf veel van de opties, maar hier zijn er een aantal die wij gebruikten om de CDNs onze inhoud te laten cachen:
 
 ```
-## Je mag de pagina echt niet cachen. Ook niet in de browser. Elk
-## verzoek moet een nieuw antwoord genereren en tonen.
+# Je mag de pagina echt niet cachen. Ook niet in de browser. Elk
+# verzoek moet een nieuw antwoord genereren en tonen.
 
 Cache-Control: no-store
 ```
 
 ```
-## Bewaar dit voor 1 jaar in de cache.  Dit wordt gebruikt voor
-## bestanden met een hash / versie "identifier" die veranderd
-## als het bestand wordt bijgewerkt, waardoor er een nieuwe
-## url is.
-##
-## immutable zorgt ervoor dat browsers niet meer proberen
-## conditionele verzoeken te doen om te kijken of de URL toch
-## is bijgewerkt.
-##
-## public zorgt ervoor dat een verzoek's antwoord kan worden
-## gedeeld. Oftewel: als iemand anders dit verzoek al heeft
-## gedaan, dat kan dat gecachede antwoord worden gebruikt.
+# Bewaar dit voor 1 jaar in de cache.  Dit wordt gebruikt voor
+# bestanden met een hash / versie "identifier" die veranderd
+# als het bestand wordt bijgewerkt, waardoor er een nieuwe
+# url is.
+#
+# immutable zorgt ervoor dat browsers niet meer proberen
+# conditionele verzoeken te doen om te kijken of de URL toch
+# is bijgewerkt.
+#
+# public zorgt ervoor dat een verzoek's antwoord kan worden
+# gedeeld. Oftewel: als iemand anders dit verzoek al heeft
+# gedaan, dat kan dat gecachede antwoord worden gebruikt.
 
 Cache-Control: public, max-age=31536000, immutable
 ```
 
 ```
-## Bewaar dit voor 5 minuten, en markeer het daarna als muf.
-## Dit wordt gebruikt voor paginas die niet elke seconde
-## nieuwe informatie moeten laten zien, en waarbij het
-## belangrijker is om wat oudere informatie te laten zien
-## dan dat je niets laat zien.
+# Bewaar dit voor 5 minuten, en markeer het daarna als muf.
+# Dit wordt gebruikt voor paginas die niet elke seconde
+# nieuwe informatie moeten laten zien, en waarbij het
+# belangrijker is om wat oudere informatie te laten zien
+# dan dat je niets laat zien.
 #
 ## Dit is vaak waar, voor heel veel informatie op het
 ## internet!
@@ -448,15 +437,11 @@ Helaas is er niet veel meer ondersteuning dan `text/plain` en `text/html`, maar 
 
 Enfin, de makkelijke oplossing hier was uiteindelijk niet de juiste. Hierbij was het dus zo dat de standaard veel meer gebruikscasussen had dan mijn simpele implementatie.
 
-(Hidden)
-
 ## Webstandaarden voor Fronteers
 
 Pakweg 2300 woorden verder en ik vertel je nu dat je al gebruik maakt van webstandaarden. En dan heb ik het niet eens over HTTP, of tools die gebruik maken van standaarden zoals formatters en linters.
 
 ## Produceer je HTML?
-
-Dan heb je te maken de [HTML specificatie](https://html.spec.whatwg.org/)
 
 ## Schrijf je CSS?
 
@@ -486,8 +471,6 @@ De standaard die je gebruikt is waarschijnlijk beschreven en onderhouden door de
 Je volgt hoogstwaarschijnlijk de _Web Content Accessibility Guidelines_, zoals beschreven in [de specificatie](https://www.w3.org/TR/WCAG21/) van het W3C (World Wide Web Consortium).
 
 Bovenstaande is maar een klein onderdeel van de vele vele standaarden waar je al met regelmaat gebruik van maakt, waar je op bouwt, waar je van profiteert. Hoe URLs werken, en wat de regels zijn voor een e-mail adres.
-
-(Hidden)
 
 ## Meedoen met het ontwikkelen van ons WWW
 

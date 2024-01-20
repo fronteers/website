@@ -1,11 +1,10 @@
 ---
 key: conference
 title: Congres
-## if there's a subtitle, put it in heroSlogan:
 heroSlogan: ''
 ---
 
-Fronteers Congres
+## Fronteers Congres
 
 Fronteers hosts a world-class front-end web development conference each year: **Fronteers Conference**. We've made it our mission to create safe, accessible and stimulating conferences for the front-end community.</p>
 
