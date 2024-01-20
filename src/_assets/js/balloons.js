@@ -44,3 +44,7 @@ window.addEventListener("load", () => {
 window.addEventListener("click", () => {
   removeBalloons();
 });
+
+setTimeout(() => {
+  removeBalloons();
+}, 5000);
