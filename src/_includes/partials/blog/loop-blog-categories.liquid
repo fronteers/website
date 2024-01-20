@@ -2,7 +2,8 @@
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: translations[locale].categories -%}
 
     <ul role="list" class="category-list">
-        {%- for category in collections.blogCategories -%}
+        {% assign collectionKey = "blogCategories_" | append: locale %}
+        {%- for category in collections[collectionKey] -%}
             <li>
                 <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ category.slug }}" class="tag-link tag-link--large">{%- tag category.title -%}
                 </a>
