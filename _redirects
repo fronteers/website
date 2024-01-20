@@ -4,5 +4,4 @@
 # We want to redirect non-translated content (so without /locale/) to the
 # localized page.
 
-/blog/* /nl/blog/:splat 302
-/workshops/* /nl/workshops/:splat 302
+/* /nl/*:splat 302
