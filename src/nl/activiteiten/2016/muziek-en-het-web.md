@@ -28,14 +28,18 @@ _Sam Bellen_ ([@sambego](https://twitter.com/sambego)) is gitarist en gebruikte 
 
 Adrian Holovaty was gek genoeg om een dynamische bladmuziek _rendering engine_ te bouwen in JavaScript en HTML5. Het heet [Soundslice](https://www.soundslice.com), en in deze talk zal hij je overweldigen met een hoop praktische tips, die hij ‘the hard way’ leerde tijdens het bouwen ervan. Je krijgt een kijkje achter de schermen bij `<canvas>` hacks, benaderingen van JavaScript, Service Worker workarounds, ideeën over UI en meer.
 
-{%- vimeo "223509380" -%}
+<div>
+    {%- vimeo "223509380" -%}
+</div>
 
 ## Sam Bellen - Changing live audio with the Web Audio API
 
 Als gitaarspeler gebruikt Sam meestal enkele effect-pedalen om het geluid van zijn gitaar aan te passen. Hij vroeg zich af of het mogelijk was om deze effecten na te maken met de web-audio-api. Het blijkt zeker mogelijk te zijn.
 Deze talk geeft je een korte introductie in het gebruiken van de web-audio-api, en de bijhorende audio-nodes, om zo een enkele basis-effecten te maken.
 
-{%- vimeo "223733926" -%}
+<div>
+    {%- vimeo "223733926" -%}
+</div>
 
 ![Studio met opgestelde camera's](/_img/blog/2016/smet-binnen.jpg)
 

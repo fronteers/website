@@ -43,7 +43,7 @@ Fronteers bedankt [Nomadz](http://nomadz.nl/) voor de ruimte, en [Frontlab](http
 -   Thijs Reijgersberg
 -   Charis Rooda
 -   Vivienne van Velzen
--   Paul Verbeek
+-   Jayne Verbeek
 -   Mike Vierwind
 -   Hetty de Vries
 

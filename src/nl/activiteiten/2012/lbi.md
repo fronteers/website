@@ -179,7 +179,7 @@ Wanneer je toch niet kunt komen, verzoeken wij je af te melden via [e-mail](mail
 -   Kris van der Ven (Utrecht)
 -   Martijn de Valk (openbaar vervoer)
 -   Maarten Verbaarschot
--   Paul Verbeek (Breda, openbaar vervoer)
+-   Jayne Verbeek (Breda, openbaar vervoer)
 -   Hugo Verlaat (auto)
 -   Stefan Vermaas (Leeuwarden, openbaar vervoer)
 -   Mike Vierwind

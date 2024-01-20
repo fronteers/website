@@ -30,7 +30,7 @@ Op donderdag 25 augustus was Fronteers welkom bij [Travelgroep](http://travelgro
 -   Kristiaan Thivessen
 -   George van Veen
 -   Raymond Vellener
--   Paul Verbeek
+-   Jayne Verbeek
 -   Ronald Wesselink
 -   Bas Ben Zineb
 -   Thomas van Zuijlen

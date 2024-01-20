@@ -5,10 +5,6 @@ module.exports = {
                 title: "Over Fronteers",
                 url: "/nl/vereniging",
                 subnav: [
-                    // {
-                    //     title: "Organisatie",
-                    //     url: "/nl/vereniging/organisatie",
-                    // },
                     {
                         title: "Bestuur",
                         url: "/nl/vereniging/bestuur",
@@ -20,7 +16,7 @@ module.exports = {
                     {
                         title: "Leden",
                         url: "/nl/leden/"
-                    },                    
+                    },
                     {
                         title: "Vrijwilliger worden",
                         url: "/nl/vereniging/vrijwilliger-worden",
@@ -41,10 +37,14 @@ module.exports = {
                         title: "Contact",
                         url: "/nl/vereniging/contact",
                     },
-                    // {
-                    //     title: "Support",
-                    //     url: "/nl/vereniging/support",
-                    // },
+                    {
+                        title: "Community ondersteuning",
+                        url: "/nl/vereniging/communityondersteuning",
+                    },
+                    {
+                        title: "Laat zien dat je lid bent",
+                        url: "/nl/vereniging/badges",
+                    },
                 ],
             },
             {
@@ -72,16 +72,20 @@ module.exports = {
             {
                 url: "/nl/activiteiten/",
                 title: "Activiteiten",
-                // subnav: [
-                //     {
-                //         url: "/nl/activiteiten/events/",
-                //         title: "Meetups",
-                //     },
-                //     {
-                //         url: "/nl/activiteiten/workshops/",
-                //         title: "Workshops",
-                //     },
-                // ],
+                subnav: [
+                    // {
+                    //     url: "/nl/activiteiten/events/",
+                    //     title: "Meetups",
+                    // },
+                    {
+                        url: "/nl/activiteiten/workshops/",
+                        title: "Workshop archief",
+                    },
+                    {
+                        url: "/nl/activiteiten/videos/",
+                        title: "Video archief",
+                    },
+                ],
             },
             {
                 title: "Blog",
@@ -145,10 +149,6 @@ module.exports = {
                 title: "About Fronteers",
                 url: "/en/organisation",
                 subnav: [
-                    // {
-                    //     title: "Organisation",
-                    //     url: "/en/organisation/organisation",
-                    // },
                     {
                         title: "Board",
                         url: "/en/organisation/board",
@@ -160,11 +160,11 @@ module.exports = {
                     {
                         title: "Members",
                         url: "/en/members/"
-                    },     
+                    },
                     {
                         title: "Membership meeting",
                         url: "/en/organisation/members-meeting",
-                    },            
+                    },
                     {
                         title: "History",
                         url: "/en/organisation/history",
@@ -177,10 +177,14 @@ module.exports = {
                         title: "Contact us",
                         url: "/en/organisation/contact",
                     },
-                    // {
-                    //     title: "Support",
-                    //     url: "/en/organisation/support",
-                    // },
+                    {
+                        title: "Community Support",
+                        url: "/en/organisation/communitysupport",
+                    },
+                    {
+                        title: "Badges",
+                        url: "/en/organisation/badges",
+                    },
                 ],
             },
             {
@@ -208,16 +212,20 @@ module.exports = {
             {
                 url: "/en/activities/",
                 title: "Activities",
-                // subnav: [
-                //     {
-                //         url: "/en/activities/events/",
-                //         title: "Meetups",
-                //     },
-                //     {
-                //         url: "/en/activities/workshops/",
-                //         title: "Workshops",
-                //     },
-                // ],
+                subnav: [
+                    //     {
+                    //         url: "/en/activities/events/",
+                    //         title: "Meetups",
+                    //     },
+                    {
+                        url: "/en/activities/workshops/",
+                        title: "Workshop archive",
+                    },
+                    {
+                        url: "/en/activities/videos/",
+                        title: "Video archive",
+                    },
+                ],
             },
             {
                 title: "Blog",

@@ -27,7 +27,9 @@ De bijeenkomst is gratis voor leden en niet-leden, en Fronteers zorgt voor iets 
 
 So you inherited a legacy code base, how bad can it be? After actually taking a look at the code you realise that it is actually kinda bad, very bad. Well no turning back now, let's make the best of this. You have a battle plan sorted out, but how will you actually keep going? This and more general tips will be answered. Cause you might not be working on a legacy project at the moment, but maybe tomorrow you will!
 
-{%- vimeo "268143337" -%}
+<div>
+    {%- vimeo "268143337" -%}
+</div>
 
 ## Talk 2: Deep Dive - Puppeteer a Headless Chrome Node API
 
@@ -44,11 +46,15 @@ In this talk I'll:
 -   mix it with docker & serverless for mass parallel testing
 -   use the automation for datamining and bypass some browser detections systems
 
-{%- vimeo "268150918" -%}
+<div>
+    {%- vimeo "268150918" -%}
+</div>
 
 ## Extra talk: Image Recognition with Deep Learning: From prototype to production
 
-{%- vimeo "268149187" -%}
+<div>
+    {%- vimeo "268149187" -%}
+</div>
 
 ## Locatie
 

@@ -19,11 +19,15 @@ Op dinsdag 15 december 2015 is Fronteers te gast bij [Digiti](http://digiti.be/)
 
 ## Je eigen dashboard met HTML, CSS en JavaScript! - Bert Timmermans ([slides](http://200ok.nl/presie/fronteers-digiti.php#/))
 
-{%- vimeo "167120947" -%}
+<div>
+    {%- vimeo "167120947" -%}
+</div>
 
 ## Maak a11y makkelijk - Jules Ernst
 
-{%- vimeo "167173385" -%}
+<div>
+    {%- vimeo "167173385" -%}
+</div>
 
 ## Waar?
 

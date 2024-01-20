@@ -4,7 +4,7 @@ excludeFromCollection: true
 heroSlogan: ''
 ---
 
-# Acceptatiecriteria
+## Acceptatiecriteria
 
 -   De te plaatsen vacature betreft (front-end) web development.
 -   We accepteren vacatures voor zowel vaste dienstverbanden als freelance opdrachten.

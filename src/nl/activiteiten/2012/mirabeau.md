@@ -82,7 +82,7 @@ Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als 
 -   Joris van Summeren (+3, Breda, auto)
 -   Leendert Ullersma (Amsterdam, openbaar vervoer)
 -   Kris van der Ven (Utrecht, openbaar vervoer)
--   Paul Verbeek (Breda, openbaar vervoer)
+-   Jayne Verbeek (Breda, openbaar vervoer)
 -   Mike Vierwind (Gelderland, openbaar vervoer)
 -   Sybren Wartna (fiets)
 -   Guido Wesdorp (kruipend)

@@ -1,6 +1,7 @@
 ---
 key: board
 title: Bestuur van de vereniging
+
 heroSlogan: ''
 ---
 

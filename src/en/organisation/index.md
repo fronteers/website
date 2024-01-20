@@ -1,6 +1,7 @@
 ---
 title: About Fronteers
 key: about
+
 heroSlogan: ''
 ---
 

@@ -56,7 +56,7 @@ Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als ni
 -   Peter Peerdeman (Nieuwegein, auto)
 -   Martin Savelkoul (kruipend)
 -   Sebastiaan Smid (openbaar vervoer)
--   Paul Verbeek (kruipend)
+-   Jayne Verbeek (kruipend)
 -   Sybren Wartna (Rotterdam, openbaar vervoer)
 -   Florian van der Wielen (Eindhoven, openbaar vervoer)
 -   Peter van der Zee (auto)

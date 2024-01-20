@@ -21,13 +21,17 @@ Op woensdag 29 oktober 2014 is Fronteers te gast bij [internetbureau WHITE](http
 
 Hoe start je snel met Angular? Wat zijn de dingen waar je als eerste tegenaan loopt? Wat zijn de voor- en nadelen ten opzichte van andere frameworks?
 
-{%- vimeo "118277515" -%}
+<div>
+    {%- vimeo "118277515" -%}
+</div>
 
 ## Bob Donderwinkel - "De voordelen van BEM (Block, Element, Modifier) CSS" ([slides](http://www.slideshare.net/BobDonderwinkel/bem-presentation-40907446))
 
 Introductie, voorbeelden en overige praktische (on)zin.
 
-{%- vimeo "118326813" -%}
+<div>
+    {%- vimeo "118326813" -%}
+</div>
 
 ## Bereikbaarheid
 

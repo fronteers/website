@@ -86,7 +86,7 @@ Fronteers bestaat door haar leden. Soms vragen leden zich af wat Fronteers _is_,
 
 Ik ben benieuwd wat Fronteers haar leden in 2019 zal schenken, en aan welke dingen ik zelf zal bijdragen.
 
-## Fijne feestdagen!
+Fijne feestdagen!
 
 ## Over Job van Achterberg
 

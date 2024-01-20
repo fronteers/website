@@ -1,7 +1,7 @@
 ---
 title: 'Bijeenkomst op 1 november bij Netvlies'
 date: 2012-09-06
-author: Paul Verbeek
+author: Jayne Verbeek
 categories:
     - Bijeenkomsten
 ---

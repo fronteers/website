@@ -2,8 +2,6 @@
 title: Notulen bestuursvergadering 2 juli 2018
 ---
 
-# Bestuursvergadering 2 juli 2018
-
 Aanwezig: Anneke, Edwin, Sander & lid van de vereniging (gedurende het eerste uur)
 Lokatie: Utrecht, Cafe/restaurant Ruig
 

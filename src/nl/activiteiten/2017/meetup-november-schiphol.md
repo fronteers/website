@@ -34,7 +34,9 @@ Op woensdag 29 november 2017 is Fronteers weer te gast bij [Royal Schiphol Group
 
 Kleine websites, grote websites het maakt allemaal niet uit, bijna op iedere website is wel een toegankelijk ding te vinden wat beter kan. Ik ga laten zien wat er vaak fout gaat, hoe ik probeer het zo goed mogelijk te doen en welke tools ik gebruik voor het testen van toegankelijkheid. Daarnaast komt er een speciale Gast van [accessibility.nl](https://www.accessibility.nl) om jullie hopelijk iets te laten ervaren wat ik tot op de dag van vandaag nog steeds supervet vind.
 
-{%- vimeo "251623341" -%}
+<div>
+    {%- vimeo "251623341" -%}
+</div>
 
 ```
 
@@ -42,11 +44,15 @@ Kleine websites, grote websites het maakt allemaal niet uit, bijna op iedere web
 
 ## Lightning Talk: Automated Accessibility testing met aXe, _Wesley van de Korput_
 
-{%- vimeo "252072176" -%}
+<div>
+    {%- vimeo "252072176" -%}
+</div>
 
 ## Talk: Rad van Toegankelijkheid met speciale Gast 👤 van [Accessibility.nl](https://www.accessibility.nl)
 
-{%- vimeo "251556515" -%}
+<div>
+    {%- vimeo "251556515" -%}
+</div>
 
 ![Foto Tamara Forza](/_img/bijeenkomsten/schiphol/tamara.jpg)
 
@@ -54,7 +60,9 @@ Kleine websites, grote websites het maakt allemaal niet uit, bijna op iedere web
 
 It doesn't happen often that a big airport like Amsterdam Schiphol Airport launches a completely redesigned new website. Last year in December we did just that and we learnt a lot from it. In this talk I'll tell you how the launch went, how our users reacted and how our development flow changed afterwards.
 
-{%- vimeo "251547138" -%}
+<div>
+    {%- vimeo "251547138" -%}
+</div>
 
 ```
 
@@ -68,11 +76,15 @@ At Schiphol we develop and maintain a Component Library, which is reused across 
 DRYing UI’s comes with some challenges, we try to solve them; by keeping in mind all the aspects that goes from developing to optimised releases.
 In the talk we’ll show you what we built till now and what are our future plans; by mind mapping our areas of concerns.
 
-{%- vimeo "252522070" -%}
+<div>
+    {%- vimeo "252522070" -%}
+</div>
 
 ## Lightning Talk: _Arjen Geerse_
 
-{%- vimeo "250678938" -%}
+<div>
+    {%- vimeo "250678938" -%}
+</div>
 
 ```
 

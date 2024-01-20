@@ -52,7 +52,7 @@ Iedereen is welkom. Er is echter beperkt plaats, voor circa 75 mannen en vrouwen
 -   Maarten Van Hoof (Turnhout, auto)
 -   Wim Boucquaert (Antwerpen of Gent, auto)
 -   Glenn Billiau (Genk, auto)
--   Paul Verbeek (Breda, auto)
+-   Jayne Verbeek (Breda, auto)
 -   Frank Baele (Gent, auto)
 -   Tom Schuller (Breda, auto)
 -   Jelle Versele (Antwerpen, auto)

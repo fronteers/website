@@ -15,11 +15,15 @@ Progressive Web Apps is een verzameling standaarden en best practices om te zorg
 
 ## Video - The progression of Web Apps | Niels Leenheer
 
-{%- vimeo "182681749" -%}
+<div>
+    {%- vimeo "182681749" -%}
+</div>
 
 ## Video - Progressive Web Apps (and where to find them) | Dan Applequist
 
-{%- vimeo "182717078" -%}
+<div>
+    {%- vimeo "182717078" -%}
+</div>
 
 ## Programma
 
@@ -249,7 +253,7 @@ Deze bijeenkomst zit nu vol, maar we hebben een wachtlijst! Stuur een mailtje na
 <td><a href="https://twitter.com/paulvdam" rel="nofollow">@paulvdam</a></td>
 </tr>
 <tr>
-<td>Paul Verbeek</td>
+<td>Jayne Verbeek</td>
 <td>Amsterdam, openbaar vervoer</td>
 <td><a href="https://twitter.com/_paulverbeek" rel="nofollow">@_paulverbeek</a></td>
 </tr>

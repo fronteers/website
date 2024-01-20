@@ -1,6 +1,7 @@
 ---
 key: statutes
 title: Association founding statutes
+
 heroSlogan: ''
 ---
 

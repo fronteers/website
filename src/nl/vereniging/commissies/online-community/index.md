@@ -3,7 +3,7 @@ key: committees
 title: Commissie Online Community
 ---
 
-# Doel
+## Doel
 
 Het doel van de online commissie is het informeren en enthousiasmeren van leden en niet-leden over front-end development, activiteiten en Fronteers.
 

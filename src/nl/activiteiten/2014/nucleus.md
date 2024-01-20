@@ -22,11 +22,15 @@ Dit evenement vond plaats bij [Nucleus](https://www.nucleus.be/) te Antwerpen.
 
 ## Performance
 
-{%- vimeo "98466383" -%}
+<div>
+    {%- vimeo "98466383" -%}
+</div>
 
 ## Adding SVG to your tool belt
 
-{%- vimeo "98509890" -%}
+<div>
+    {%- vimeo "98509890" -%}
+</div>
 
 ## Aanmeldingen
 
@@ -67,7 +71,7 @@ Dit evenement vond plaats bij [Nucleus](https://www.nucleus.be/) te Antwerpen.
 -   Tom Van Iersel (Antwerpen, auto)
 -   Dieter Peirs (Gent, auto)
 -   Sophie de Brabander (Gent, auto)
--   Paul Verbeek (Breda, auto)
+-   Jayne Verbeek (Breda, auto)
 -   Dennis Jaamann (Antwerpen, auto)
 -   David Candreva (Opglabbeek, auto)
 -   Jannick Vandaele (Gent, auto)

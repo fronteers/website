@@ -21,13 +21,17 @@ Op dinsdag 25 november 2014 is Fronteers te gast bij [Blendle](http://www.blendl
 
 Waar is het team van Blendle tegen aan gelopen en wat hebben ze gedaan om het op te lossen? Onder andere memory issues, separation of concerns, deployment en testing komen aan bod.
 
-{%- vimeo "126039080" -%}
+<div>
+    {%- vimeo "126039080" -%}
+</div>
 
 ## Paul van Buuren - "Edge Case Design" ([slides](http://wbvb.nl/edge-case-design/))
 
 Voorkom grote verrassingen. Hou vanaf het begin van elk webproject rekening met extremiteiten. Hoe je creativiteit en flexibiliteit bevordert door over grenzen heen te denken.
 
-{%- vimeo "126039206" -%}
+<div>
+    {%- vimeo "126039206" -%}
+</div>
 
 ## Foto's ([PeterPeerdeman.nl](http://peterpeerdeman.nl/))
 
@@ -578,7 +582,7 @@ Blendle is gevestigd in Media Plaza, Croeselaan 6, 3521 CA, Utrecht. Media Plaza
 <td><a href="https://twitter.com/wongsiefu" rel="nofollow">@wongsiefu</a></td>
 </tr>
 <tr>
-<td>Paul Verbeek</td>
+<td>Jayne Verbeek</td>
 <td>Amstelveen, auto (meerijders welkom)</td>
 <td><a href="https://twitter.com/_paulverbeek" rel="nofollow">@_paulverbeek</a></td>
 </tr>

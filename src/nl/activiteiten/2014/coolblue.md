@@ -23,13 +23,17 @@ Op dinsdag 24 juni 2014 was Fronteers te gast bij [Coolblue](http://www.coolblue
 
 Marijn en Frank vertellen over hoe Coolblue software ontwikkelt en ze die meerdere malen per dag releasen. Kleine stapjes, elke dag een beetje beter, elke sprint een beetje beter. Zo ontwikkelen ze de grootste PHP E-commerce site van Europa.
 
-{%- vimeo "109780388" -%}
+<div>
+    {%- vimeo "109780388" -%}
+</div>
 
 ## Reinier Ladan - Research, development en professioneel aanklooien [(slides)](https://speakerdeck.com/reinier/research-development-en-professioneel-aanklooien)
 
 Reinier deelt zijn persoonlijke zoektocht naar een leven lang leren als front-end developer en designer. Wat kan aanklooien voor je persoonlijke ontwikkeling betekenen en hoe kun je research en development integreren in je huidige werkzaamheden.
 
-{%- vimeo "109780389" -%}
+<div>
+    {%- vimeo "109780389" -%}
+</div>
 
 ## Bereikbaarheid
 
@@ -323,7 +327,7 @@ Met de auto komen kan ook, er kan dan geparkeerd worden in de parkeergarage Ween
 <td><a href="https://twitter.com/paulvandrunen" rel="nofollow">@paulvandrunen</a></td>
 </tr>
 <tr>
-<td>Paul Verbeek</td>
+<td>Jayne Verbeek</td>
 <td>Amsterdam, openbaar vervoer</td>
 <td><a href="https://twitter.com/hierow" rel="nofollow">@hierow</a></td>
 </tr>

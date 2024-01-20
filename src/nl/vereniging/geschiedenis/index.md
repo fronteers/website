@@ -35,6 +35,7 @@ De volgende leden hebben gedurende het bestaan van Fronteers zitting gehad in he
 | Anneke Sinnema       | 2017-     | Voorzitter                                                                |
 | Edwin Martin         | 2017-     | Secretaris                                                                |
 | Wim van Iersel       | 2022-     | Penningmeester                                                            |
+| Claudia Reynders     | 2023-     | Penningmeester                                                            |
 | Jewwy Qadri          | 2023-     | Co-secretaris                                                             |
 | Christian Schaefer   | 2023-     | Co-secretaris                                                             |
 

@@ -15,13 +15,17 @@ Op woensdag 24 februari 2016 is Fronteers te gast bij TamTam in Amsterdam. Er st
 
 [Simon](https://twitter.com/simon_fyi) vertelt over de mogelijkheden van Modular Design voor developers binnen zowel kleine als grote projecten. Het is een manier van denken en samenwerken tussen meerdere disciplines, inclusief het goed betrekken van de klant. Maar waarom werkt deze aanpak zo goed? En hoe zorg je dat het de basis wordt van nieuwe projecten? Leer in deze presentatie alle tips & tricks voor het succesvol toepassen van Modular Design.
 
-{%- vimeo "158324032" -%}
+<div>
+    {%- vimeo "158324032" -%}
+</div>
 
 ## [Nick Groenewegen](https://www.tamtam.nl/mensen/nick-groenewegen/), Competence Lead Front-end, TamTam - Optimizing your Application Workflow using Backendless Development
 
 Nick deelt in zijn presentatie alles over het integreren van backend-less development in de workflow van webapplicaties. Hoe kun je een webapp ontwikkelen zonder bestaande backend, om deze in een later stadium gemakkelijk toe te kunnen voegen?
 
-{%- vimeo "158333176" -%}
+<div>
+    {%- vimeo "158333176" -%}
+</div>
 
 ## Het programma
 
@@ -353,7 +357,7 @@ Zie ook [https://www.tamtam.nl/contact/](https://www.tamtam.nl/contact/)
 <td><a href="https://twitter.com/PascalStrijbos" rel="nofollow">@PascalStrijbos</a></td>
 </tr>
 <tr>
-<td>Paul Verbeek</td>
+<td>Jayne Verbeek</td>
 <td>Amsterdam, openbaar vervoer</td>
 <td><a href="https://twitter.com/_paulverbeek" rel="nofollow">@_paulverbeek</a></td>
 </tr>

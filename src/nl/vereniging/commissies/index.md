@@ -1,6 +1,7 @@
 ---
 key: committees
 title: Commissies binnen de vereniging
+
 heroSlogan: ''
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Terms and conditions
 key: terms-and-conditions
+
 heroSlogan: "By becoming a member you support Fronteers's activities financially."
 ---
 

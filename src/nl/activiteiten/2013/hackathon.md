@@ -23,7 +23,9 @@ GruntJS en Jasmine zijn twee van de nieuwere tools voor front-end programmeurs o
 
 ## GruntJS, door Tom Greuter
 
-{%- vimeo "79915877" -%}
+<div>
+    {%- vimeo "79915877" -%}
+</div>
 
 De hackathon is gratis voor leden en niet-leden en er is plek voor 30 hackers. Locatie is [Nomadz](http://nomadz.nl) op de 3de verdieping van Bink36 aan de Binckhorstlaan 36 in Den Haag. Aanmelden kan via het formulier hieronder.
 

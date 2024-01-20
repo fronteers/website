@@ -23,7 +23,9 @@ _Op donderdag 2 juni is Fronteers te gast bij ‘data-driven design agency’ CL
 
 Imagine you’ve build a design agency for data visualization, what are the most important lessons you’ve learned? And how do you ensure the projects become truly successful? Gert Franke, Co-founder of design agency CLEVER°FRANKE, will share his experiences and challenges he faced in making the agency successful. From an interactive installation on your body cells to the development of a complex interactive website of the city of Chicago, from 2 to 20 employees and everything in between. Gert Franke will share the ins and outs of growth and the challenges it brings.
 
-{%- vimeo "179510752" -%}
+<div>
+    {%- vimeo "179510752" -%}
+</div>
 
 Above video is a part of the presentation. It was not recorded in total.
 

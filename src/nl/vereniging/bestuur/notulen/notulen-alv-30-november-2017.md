@@ -2,9 +2,9 @@
 title: Notulen ALV 30 november 2017
 ---
 
-# Aanwezigen
+## Aanwezigen
 
--   Paul Verbeek
+-   Jayne Verbeek
 -   Wim van Iersel
 -   Peter-Paul Koch
 -   Tom Greuter

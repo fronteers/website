@@ -18,7 +18,9 @@ Het wordt een interactieve presentatie, met veel codevoorbeelden en demo's over:
 -   tooling / E-sites devtools: JS errorlogger, cronitor (cronjob logger), deployment , front-end developer tool setup
 -   standaardisatie: github projecten, code reviews (hoe & wat), E-sites distillery (verzameling van front-end componenten)
 
-{%- vimeo "94483899" -%}
+<div>
+    {%- vimeo "94483899" -%}
+</div>
 
 Je kunt veel tips en links naar tools vinden in [de slides](http://frontend.e-sites.nl/fronteers/).
 
@@ -27,7 +29,9 @@ Je kunt veel tips en links naar tools vinden in [de slides](http://frontend.e-si
 Peter van der Zee is JavaScript expert en gaat meer vertellen over Surfly, een online tool om samen over het web te surfen. Peter laat zien hoe de tool gemaakt is en hij vertelt (vast weer vol passie) over JavaScript, JS tools en parsers.
 Surfly laat je web sharen door middel van open web technologieën. In dit praatje laat Peter zien waarom dit moeilijk is maar niet onmogelijk. We gaan de diepte in en kijken in naar de pijnpunten bij het "sandboxen" van een browser, sans plugins.
 
-{%- vimeo "96353457" -%}
+<div>
+    {%- vimeo "96353457" -%}
+</div>
 
 ## Programma
 
@@ -59,7 +63,7 @@ Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als ni
 -   Meta Kruijs
 -   Krijn Hoetmer
 -   Ronald Lokers
--   Paul Verbeek
+-   Jayne Verbeek
 -   Jordy Houtman
 -   Hugo Stijns
 -   Sven Hanssen

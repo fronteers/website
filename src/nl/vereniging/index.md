@@ -1,6 +1,7 @@
 ---
 key: about
 title: Over Fronteers
+
 heroSlogan: ''
 ---
 

@@ -7,7 +7,7 @@ categories:
     - meetup
 ---
 
-# Een nieuw jaar, tijd voor de Fronteers nieuwjaarsborrel, speciaal voor leden!
+Een nieuw jaar, tijd voor de Fronteers nieuwjaarsborrel, speciaal voor leden!
 
 Op vrijdag 15 januari 2016 organiseert Fronteers een Nieuwjaarsborrel voor leden. Deze zal plaatsvinden in de Nieuwe Dikke Dries, in Utrecht. Rond 18:00 uur zullen de eerste leden aanwezig zijn.
 

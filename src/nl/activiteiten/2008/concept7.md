@@ -23,5 +23,3 @@ Aangezien Nikolai op dreef was, vervolgde hij zijn (Engelse) verhaal met een pre
 -   [Gestalt Psychologie en Webdesign (met rebus ;)](http://www.slideshare.net/henkc7/gestalt-psychologie-presentation/) (SlideShare)
 -   [Presentatie en voorbeeld van Arjan Westerdiep](/_downloads/2008/arjan-westerdiep-flash.zip) (zip met swf, 240KB)
 -   Fronteers bijeenkomst (royklopper.nl) & [Fronteers Bijeenkomst @ Concept7](http://www.mediact.nl/nl/weblog/a/99) (mediact.nl)
-
-Vragen over deze bijeenkomst? Stel ze gerust op [het blog](/blog/2008/11/bijeenkomst-december-2008#reageer).
