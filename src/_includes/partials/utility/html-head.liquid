@@ -7,7 +7,7 @@
         {% if title == "Homepage" %}
             {{ translations[locale].headTitle }}
         {% else %}
-            {{ title  }} - {{ translations[locale].siteName }}
+            {{ title }} - {{ translations[locale].siteName }}
         {% endif %}
     </title>
 
@@ -24,8 +24,8 @@
     {%- endfor -%}
 
     <link rel="manifest" href="/assets/favicon/site.webmanifest" crossorigin="anonymous">
-    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="any">
-    <link rel="icon" href="/assets/favicon/icon.svg" type="image/svg+xml">
+    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="48x48">
+    <link rel="icon" href="/assets/favicon/icon.svg" sizes="any" type="image/svg+xml">
 
     <link rel="stylesheet" href="/assets/css/style.css">
 
@@ -36,11 +36,23 @@
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Italic.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">
 
+    {% if locale == 'nl' %}
+    <link rel="alternate" type="application/atom+xml" title="Fronteers blog" href="https://fronteers.nl/feeds/blog.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Fronteers activiteiten" href="https://fronteers.nl/feeds/activiteiten.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Fronteers vacatures" href="https://fronteers.nl/feeds/vacatures.xml" />
+    {% else %}
+    <link rel="alternate" type="application/atom+xml" title="Fronteers blog" href="https://fronteers.nl/feeds/blog-en.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Fronteers activities" href="https://fronteers.nl/feeds/activities.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Fronteers jobs" href="https://fronteers.nl/feeds/jobs.xml" />
+    {% endif %}
+
     <meta name="description" content="{{ translations[locale].metaDescription }}">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffce2e">
 
     <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:site_name" content="{{ translations[locale].siteName }}">
     <meta property="og:image" content="https://fronteers-beta.netlify.app/assets/images/social-share/og-image-{{ locale }}.jpeg">
     <meta property="og:image:alt" content="Image of Fronteers website" />
     <meta property="og:image:width" content="1280">
