@@ -16,8 +16,8 @@
 <p>Leden van Fronteers betalen 100 euro. Niet-leden betalen 200 euro. Beide bedragen zijn exclusief btw.</p>
 <p>De workshop duurt de hele dag en is inclusief lunch bij Seats2Meet in Utrecht. Een <a href="http://www.mindz.com/plazas/Seats2meet_com_Utrecht/pages/Routebeschrijving_en_contact">routebeschrijving</a> is te vinden op de site van Mindz.com</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/counter-space-jeroen-visser/16-januari-2014">16 januari 2014</a>, bij Seats2Meet, Utrecht</li>
 <li><a href="/nl/workshops-archief/counter-space-jeroen-visser/30-augustus-2011">30 augustus 2011</a>, bij Seats2Meet, Utrecht</li>

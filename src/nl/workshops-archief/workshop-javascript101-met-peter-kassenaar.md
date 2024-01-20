@@ -48,8 +48,8 @@
 <h4>Over Peter</h4>
 <p>Peter Kassenaar is auteur van vele boeken over algemeen pc-gebruik, programmeertalen en internettechnieken. Hij is gespecialiseerd in front-endtools, -frameworks en webapplicaties. Via zijn eigen bedrijf verzorgt hij trainingen op deze gebieden voor bedrijven en organisaties. De persoonlijke website van Peter is te vinden <a href="https://www.kassenaar.com">www.kassenaar.com</a>. Je kunt hem volgen op twitter via <a href="https://twitter.com/peterkassenaar">@PeterKassenaar</a>. Kijk voor meer informatie ook op <a href="https://www.angulartraining.nl/home">www.angulartraining.nl</a>.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/workshop-javascript101-met-peter-kassenaar/workshop-javascript101-19-oktober-2018">Workshop JavaScript101, 19 oktober 2018</a>, bij Utrecht (exacte locatie volgt)</li>
 <li><a href="/nl/workshops-archief/workshop-javascript101-met-peter-kassenaar/workshop-javascript101-19-april-2019">Workshop JavaScript101, 19 april 2019</a>, bij Laarstraat 47, 7201 CB Zutphen</li>

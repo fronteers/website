@@ -6,8 +6,8 @@
      <p>Leden van Fronteers betalen voor deze eerste workshop in België slechts <strong>50 euro</strong>. Niet-leden betalen <strong>100 euro</strong>. Beide bedragen zijn exclusief 19 procent btw. Fronteers voorziet ’s middags een broodjeslunch, en die is uiteraard in de prijs begrepen.</p>
      <p>Alle deelnemers brengen hun een eigen computer mee. Toegang tot een Unix-shell (dit is standaard het geval op Mac OS X of Linux) is uiteraard een must.</p>
      <h3>Opgave</h3>
-     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-     <h3>Archief</h3>
+     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+     <h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
      <ul>
       <li><a href="/nl/workshops-archief/terminally-chill-jan-moesen/19-augustus-2011">19 augustus 2011</a>, bij Hogeschool Gent, Gent, België</li>
      </ul>

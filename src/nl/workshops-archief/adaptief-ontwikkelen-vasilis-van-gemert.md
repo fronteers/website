@@ -22,8 +22,8 @@
 <p>Leden van Fronteers betalen 100 euro. Niet-leden betalen 200 euro. Beide bedragen zijn exclusief btw.</p>
 <p>De workshop duurt de hele dag en is inclusief lunch bij Seats2Meet. Een <a href="https://www.seats2meet.com/locations/85/Seats2meet_com_Utrecht_CS">routebeschrijving</a> is te vinden op de site van Seats2Meet.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/adaptief-ontwikkelen-vasilis-van-gemert/20-maart-2014">20 maart 2014</a>, bij Seats2Meet Utrecht CS</li>
 <li><a href="/nl/workshops-archief/adaptief-ontwikkelen-vasilis-van-gemert/28-februari-2014">28 februari 2014</a>, bij Seats2Meet Utrecht CS</li>

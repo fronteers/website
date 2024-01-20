@@ -15,8 +15,8 @@
 <h4>About Umar</h4>
 <p>Umar is a front-end web developer based in London, with a focus on writing tips, tutorials and documentation for the web platform. One of the projects he plans to explore and share with the community, is using tooling such as the DevTools for an improved development workflow, but also for debugging performance issues.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/devtools-with-umar-hansa/workshop-devtools-23-november-2018">Workshop: DevTools, 23 november 2018</a>, bij Seats2Meet, Utrecht</li>
 </ul>

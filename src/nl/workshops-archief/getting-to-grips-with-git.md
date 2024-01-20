@@ -23,8 +23,8 @@
 <h4>About Pauline</h4>
 <p>Pauline is a software engineer and speaker currently employed by Werkspot in Amsterdam. She likes good, clean software design and being as efficient (lazy) as possible. Also cocktails, video games and animal memes. She lives in Amsterdam with her cat, Phife Cat, and about three plants.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/getting-to-grips-with-git/workshop-getting-to-grips-with-git-31-may-2019">Workshop Getting to grips with Git, 31 May 2019</a>, bij TBA, Utrecht</li>
 </ul>

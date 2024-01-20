@@ -23,8 +23,8 @@
 </ul>
 <p>Maar als je zelf tools hebt waar je graag meer zou willen weten of waar je wat hulp bij kunt gebruiken, laat het dan weten dan kijken we samen met Joël of we dat in de workshop kunnen meenemen.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/workshop-tooling-door-joel-kuijten/front-end-tooling">Front-end tooling, 21 september 2018</a>, bij Utrecht</li>
 <li><a href="/nl/workshops-archief/workshop-tooling-door-joel-kuijten/front-end-tooling-28-juni-2019">Front-end tooling, 28 juni 2019</a>, bij Utrecht</li>

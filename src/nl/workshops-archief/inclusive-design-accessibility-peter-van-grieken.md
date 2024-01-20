@@ -19,8 +19,8 @@
 <p>De workshop wordt gegeven in <a href="https://degrotewerf.nl/">De Grote Werf</a> in Utrecht. HIj duurt van 09.00 uur tot 17.00 uur en is inclusief lunch.</p>
 <p>De Grote Werf<br>Oudegracht 201<br>3511 NG Utrecht<br>t: 030 – 7271093</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/inclusive-design-accessibility-peter-van-grieken/30-juni-2017">30 juni 2017</a>, bij Utrecht</li>
 </ul>

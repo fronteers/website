@@ -27,8 +27,8 @@
 <h4>Over Peter Kassenaar</h4>
 <p>Peter Kassenaar is auteur van vele boeken over algemeen pc-gebruik, programmeertalen en internettechnieken. Hij is gespecialiseerd in front-endtools, -frameworks en webapplicaties. Via zijn eigen bedrijf verzorgt hij  trainingen op deze gebieden voor bedrijven en organisaties. De persoonlijke website van Peter is te vinden <a href="https://www.kassenaar.com/">www.kassenaar.com</a>. Je kunt hem volgen op twitter via <a href="https://twitter.com/@PeterKassenaar">@PeterKassenaar</a>.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/workshop-vue-js/vue-js-5-september-2019">Vue.js, 22 november 2019</a>, bij Utrecht</li>
 </ul>

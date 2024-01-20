@@ -40,8 +40,8 @@
 <p>Phil is Head of Developer Relations at Netlify and speaks at events around the work on subjects related to the JAMstack and modern web architectures and workflows.</p>
 <p>In his former role as Technology Director at a large global agency he championed the use of Static Site Generators and simplified web architectures on projects for his clients such as Google, Nike, Beats By Dre and Unilever.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/workshop-netlify-static-site-generators/workshop-netlify-static-site-generators-25-januari-2019">Workshop Netlify & Static Site Generators, 25 januari 2019</a>, bij Seats2Meet, Utrecht</li>
 </ul>

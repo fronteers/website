@@ -13,8 +13,8 @@
      <h3>Praktische info</h3>
      <p>Tijdens de workshop zullen voorbeelden en oefeningen gebruik maken van ES6, dus basis kennis van JavaScript en ES6 is wel vereist. Kennis van React is verder niet nodig, we beginnen vanaf het begin af aan. Vergeet je laptop niet mee te nemen!</p>
      <h3>Opgave</h3>
-     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-     <h3>Archief</h3>
+     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+     <h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
      <ul>
       <li><a href="/nl/workshops-archief/react-basics-chiel-kunkels/27-oktober-2017">27 oktober 2017</a>, bij Utrecht</li>
      </ul>

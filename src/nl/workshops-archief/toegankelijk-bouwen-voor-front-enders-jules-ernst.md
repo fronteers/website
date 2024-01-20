@@ -23,8 +23,8 @@
      <p>De workshop Webrichtlijnen zal worden gegeven door Jules Ernst. De workshop duurt de hele dag en is inclusief lunch.</p>
      <p>Leden van Fronteers betalen 150 euro. Niet-leden betalen 250 euro. Beide bedragen zijn exclusief btw.</p>
      <h3>Opgave</h3>
-     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-     <h3>Archief</h3>
+     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+     <h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
      <ul>
       <li><a href="/nl/workshops-archief/toegankelijk-bouwen-voor-front-enders-jules-ernst/21-februari-2014">21 februari 2014</a>, bij Seats2Meet Utrecht CS</li>
       <li><a href="/nl/workshops-archief/toegankelijk-bouwen-voor-front-enders-jules-ernst/9-december-2016">Workshop: Toegankelijk bouwen voor webontwikkelaars, 9 december 2016</a>, bij Utrecht</li>

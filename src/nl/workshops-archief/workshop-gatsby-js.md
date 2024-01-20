@@ -23,4 +23,4 @@
 <h4>Over Ward Peeters</h4>
 <p>Ward Peeters is een Frontend architect die het web wil verbeteren en inclusief maken voor alle doelgroepen. Hij werkt momenteel fulltime bij Gatsby INC als Frontend freelancer en maakt deel uit van het Gatsby Core team. Naast zijn fulltime job maakt hij ook deel uit van het Lighthouse core team en het preact core team. Voorheen was hij Frontend architect bij Mediahuis. Je kunt hem volgen op twitter via <a href="https://twitter.com/wardpeet">@wardpeet</a>.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>

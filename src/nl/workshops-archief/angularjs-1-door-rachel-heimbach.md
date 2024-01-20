@@ -23,8 +23,8 @@
 <h3>Over Rachèl</h3>
 <p>Rachèl bouwt al een paar jaar met veel plezier Angular applicaties en kent dit framework behoorlijk goed. Recentelijk is hij afgestudeerd op het onderwerp ‘migratie van Angular 1.x naar Angular 2.x’. Hij geeft regelmatig workshops over AngularJS en heeft veel zin om deze ook aan te bieden bij de achterban van Fronteers.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/angularjs-1-door-rachel-heimbach/17-juni-2016">Workshop: AngularJS 1, 17 juni 2016</a>, bij Seats 2 meet, Utrecht</li>
 </ul>

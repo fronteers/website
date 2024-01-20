@@ -22,8 +22,8 @@
 <p>Luc Princen heeft al jaren ervaring met WordPress ontwikkeling én front-end development. Hij is vroeg begonnen met ontwikkelen in Gutenberg (zeg maar gerust té vroeg) en heeft inmiddels al genoeg ervaring opgedaan met Gutenberg in live-situaties. In November heeft hij samen met Peter van Grieken van Frozen Rockets de website voor het Koninklijk instituut voor de Tropen (KIT.nl) opgeleverd en daarmee de Automattic Design Award voor &quot;Best Site&quot; in de wacht gesleept vanwege het, volledig met Gutenberg gerealiseerde, inclusive design.</p>
 <p>Luc is zelfstandig developer en designer. Je vind hem op Twitter onder de naam <a href="https://twitter.com/LucP">@LucP</a></p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/wordpress-gutenberg/wordpress-gutenberg-12-april-2019">WordPress Gutenberg 18 april 2019</a>, bij Bar Beton, Utrecht</li>
 </ul>

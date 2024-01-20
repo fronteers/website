@@ -20,8 +20,8 @@
 <h4>Over de trainer</h4>
 <p>Peter Kassenaar is auteur van vele boeken over algemeen pc-gebruik, programmeertalen en internettechnieken. Hij is gespecialiseerd in front-endtools, -frameworks en webapplicaties. Via zijn eigen bedrijf verzorgt hij  trainingen op deze gebieden voor bedrijven en organisaties. De persoonlijke website van Peter is te vinden <a href="https://www.kassenaar.com">www.kassenaar.com</a>. Je kunt hem volgen op twitter via <a href="https://www.twitter.com/PeterKassenaar">@PeterKassenaar</a>. Kijk voor meer informatie ook op <a href="https://www.angulartraining.nl">www.angulartraining.nl</a>.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-<h3>Archief</h3>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
 <ul>
 <li><a href="/nl/workshops-archief/es6/es6-29-maart-2019">ES6, 29 maart 2019</a>, bij Social Impact Factory, Utrecht</li>
 </ul>

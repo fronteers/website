@@ -26,4 +26,4 @@
 <h3>Over de docent</h3>
 <p><a href="mailto: redactie@peterdoolaard.nl">Peter Doolaard</a> is auteur van onder meer het Handboek HTML 5 en CSS 3 (vijfde editie 2019, handboek-html-css.nl) en eerder de Basiscursus CSS (2004). Zijn belangstelling voor webdevelopment begon bij HTML 3.2. Als (freelance) redacteur bij toonaangevende ICT-uitgeverijen redigeerde hij talloze boeken over webdevelopment. Daarvan werd hij alleen maar enthousiaster over alles wat je kunt maken met HTML, CSS en JavaScript.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>

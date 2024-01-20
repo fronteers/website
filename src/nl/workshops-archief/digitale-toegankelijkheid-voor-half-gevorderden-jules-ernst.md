@@ -17,8 +17,8 @@
       <li>Beetje JavaScript of jQuery (maar je kunt natuurlijk altijd spieken bij degene die naast je zit)</li>
      </ul>
      <h3>Opgave</h3>
-     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-     <h3>Archief</h3>
+     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+     <h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
      <ul>
       <li><a href="/nl/workshops-archief/digitale-toegankelijkheid-voor-half-gevorderden-jules-ernst/26-januari-2018">26 januari 2018</a>, bij Utrecht</li>
      </ul>

@@ -39,8 +39,8 @@
      <p>He's on a mission to inspire developers around the world by coaching at Le Wagon coding bootcamp and regularly speaking at international conferences.</p>
      <p>Lately, Jad's focus lies on spreading knowledge about Progressive Web Apps and mentoring developers through online courses, blog articles and workshops for startups &amp; enterprises.</p>
      <h3>Opgave</h3>
-     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-     <h3>Archief</h3>
+     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+     <h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
      <ul>
       <li><a href="/nl/workshops-archief/progressive-web-apps/workshop-progressive-web-apps-22-february-2019">Workshop Progressive Web Apps, 22 February 2019</a>, bij Seats2Meet, Utrecht</li>
       <li><a href="/nl/workshops-archief/progressive-web-apps/progressive-web-apps-17-januari-2020">Progressive Web Apps 17 januari 2020</a>, bij Utrecht, tba</li>

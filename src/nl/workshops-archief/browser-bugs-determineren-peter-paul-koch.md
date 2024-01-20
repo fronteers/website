@@ -6,4 +6,4 @@
 <p>Leden van Fronteers betalen 150 euro. Niet-leden betalen 250 euro. Beide bedragen zijn exclusief btw.</p>
 <p>De workshop vindt plaats in Utrecht, duurt de hele dag en is inclusief lunch.</p>
 <h3>Opgave</h3>
-<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+<p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>

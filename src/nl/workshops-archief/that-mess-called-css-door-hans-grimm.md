@@ -7,8 +7,8 @@
      <p>Leden van Fronteers betalen 150 euro. Niet-leden betalen 250 euro. Beide bedragen zijn exclusief btw.</p>
      <p>De workshop duurt de hele dag en is inclusief lunch.</p>
      <h3>Opgave</h3>
-     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-     <h3>Archief</h3>
+     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+     <h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
      <ul>
       <li><a href="/nl/workshops-archief/that-mess-called-css-door-hans-grimm/24-februari-2017">Workshop: That mess called CSS, 24 februari 2017</a>, bij U-trechters, Utrecht</li>
      </ul>

@@ -18,4 +18,4 @@
      <h4>About the teacher</h4>
      <p>Roy Derks is an entrepreneur, developer, author and conference speaker from the Netherlands. Over the last few years, he has given workshops and has spoken at over 25 conferences worldwide. Next to teaching and speaking, he also works on open-source projects for the City of Amsterdam. Mostly he uses React, TypeScript, and GraphQL when coding.</p>
      <h3>Opgave</h3>
-     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>

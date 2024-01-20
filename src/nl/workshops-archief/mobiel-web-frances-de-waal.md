@@ -20,8 +20,8 @@
      <p>Deze workshop zet de belangrijkste dingen waarmee je rekening dient te houden op een rij. Na iedere korte presentatie is er ruimte voor vragen en discussie. Aan het einde van deze dag weet je wat van belang is voor een site die op zowel desktop als mobiel gebruikt wordt en hoe je dat kunt aanpakken. Ieder onderdeel wordt voorzien van relevante en bruikbare voorbeelden.</p>
      <p>De workshop wordt gegeven door <a href="http://www.waalweb.nl">Frances de Waal</a>, onder meer docent van de cursus Mobiel Web van het W3C. Deze workshop is vooral bedoeld voor frontenders die al sites maken in HTML en CSS en die zich verder willen ontwikkelen. Kennis van JavaScript of PHP is niet nodig. Vergeet niet om je laptop mee te nemen!</p>
      <h3>Opgave</h3>
-     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
-     <h3>Archief</h3>
+     <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
+     <h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>
      <ul>
       <li><a href="/nl/workshops-archief/mobiel-web-frances-de-waal/17-april-2013">17 april 2013</a>, bij Meeting Plaza,The World of Society 3.0</li>
       <li><a href="/nl/workshops-archief/mobiel-web-frances-de-waal/7-juni-2012">7 juni 2012</a>, bij Seats2Meet, Utrecht</li>
