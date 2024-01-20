@@ -1,21 +1,22 @@
 ---
-title: "Meetup bij E-sites over CSS op dinsdag 24 januari 2017"
+title: 'Meetup bij E-sites over CSS op dinsdag 24 januari 2017'
 date: 2016-12-15
 eventdate: 2016-12-15
 location:
 categories:
     - meetup
 ---
-Op dinsdag 24 januari 2017 is Fronteers weer te gast bij [E-sites](https://www.e-sites.nl/) in Breda, voor een meetup met CSS als thema. We hebben twee Nederlandstalige talks, van *Iain van der Wiel* en *Bram Smulders*. De bijeenkomst is gratis voor leden en niet-leden, en we zorgen voor iets lekkers te eten!
 
-# Programma
+Op dinsdag 24 januari 2017 is Fronteers weer te gast bij [E-sites](https://www.e-sites.nl/) in Breda, voor een meetup met CSS als thema. We hebben twee Nederlandstalige talks, van _Iain van der Wiel_ en _Bram Smulders_. De bijeenkomst is gratis voor leden en niet-leden, en we zorgen voor iets lekkers te eten!
 
-* 18:00 · Inloop met eten
-* 18:50 · Introductie en welkomstwoord
-* 19:00 · Talk 1: *Iain van der Wiel* - Voorkomen van complexiteit in je CSS
-* 19:45 · Pauze
-* 20:00 · Talk 2: *Bram Smulders* - Atomic design met Pattern Lab
-* 20:45 · Borrel
+## Programma
+
+-   18:00 · Inloop met eten
+-   18:50 · Introductie en welkomstwoord
+-   19:00 · Talk 1: _Iain van der Wiel_ - Voorkomen van complexiteit in je CSS
+-   19:45 · Pauze
+-   20:00 · Talk 2: _Bram Smulders_ - Atomic design met Pattern Lab
+-   20:45 · Borrel
 
 ## Talk 1: Voorkomen van complexiteit in je CSS | Iain van der Wiel ([slides](https://iainvdw.github.io/preso-css-complexiteit/))
 
@@ -41,9 +42,9 @@ Bram Smulders ([@bramsmulders](https://twitter.com/bramsmulders)) is Lead Front-
 
 ![Het E-café bij E-sites in](/_img/bijeenkomsten/venue-e-sites.jpeg)
 
-# Locatie
+## Locatie
 
-*E-sites*
+_E-sites_
 Reduitlaan 29
 4814DC Breda
 
@@ -51,11 +52,9 @@ Reduitlaan 29
 
 [Route plannen met Google Maps](https://www.google.nl/maps/place/E-sites/@51.5904382,4.7595443,17z/data=!3m1!4b1!4m5!3m4!1s0x47c69f8ba0e605e7:0x1cd03fa12ed1995f!8m2!3d51.5904382!4d4.761733)
 
-
 {%- comment -%}
 {%- form -%}
 {%- endcomment -%}
-
 
 <table>
 <tr>

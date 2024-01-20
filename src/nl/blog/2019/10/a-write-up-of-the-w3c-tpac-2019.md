@@ -1,10 +1,11 @@
 ---
-title: "A write up of the W3C TPAC 2019"
+title: 'A write up of the W3C TPAC 2019'
 date: 2019-10-28
 author: Rachel Andrew
-categories: 
-  - W3C
+categories:
+    - W3C
 ---
+
 This year the W3C Technical Plenary and Advisory Committee Meeting (TPAC) was held in Fukuoka, Japan. As part of my work representing Fronteers in the W3C I attended the two Advisory Committee (AC) meetings held at TPAC, along with the CSS Working Group meeting days. In this post I will highlight some of the things that might be of interest to Fronteers members. I hope this gives a good overview of the breadth of things discussed.
 
 This year TPAC was held in Fukuoka, Japan. As part of my work representing Fronteers in the W3C I attended the two Advisory Committee (AC) meetings held at TPAC, along with the CSS Working Group meeting days. In this post I will highlight some of the things that might be of interest to Fronteers members. I hope this goves a good overview of the breadth of things discussed.
@@ -19,13 +20,13 @@ We then moved onto discussion of the W3C becoming a legal entity, and the variou
 
 The second half of the meeting moved into shorter updates about various areas of the W3C and lightning talks.
 
-# Update on Web of Things
+## Update on Web of Things
 
 There are two groups dealing with WoT in the W3C, an [Interest Group](https://www.w3.org/WoT/IG/) which is open to anyone, and a [Working Group](https://www.w3.org/WoT/WG/) open only to W3C Members and Invited Experts, in common with all Working Groups.
 
 In June this year a WoT workshop was held in Munich, and the [Architecture](https://www.w3.org/TR/2019/CR-wot-architecture-20190516/) and [Thing Description](https://www.w3.org/TR/2019/CR-wot-thing-description-20190516/) were published as Candidate Recommendations on 16 May 2019.
 
-# Globalization and Inclusion
+## Globalization and Inclusion
 
 In this session we heard about the work to make the W3C more inclusive and global. This work falls into categories of Diversity and Inclusion, Facilitation and Culture, and Tools. There are efforts in place across these areas which are owned by members of the Advisory Board (AB).
 
@@ -35,7 +36,7 @@ As a CSS Working Group member I experience one change made in the area of Facili
 
 In the area of Tools, one area under development is the facilitation of translation for meetings to enable people to participate in their own language, rather than needing to be an English speaker. Other subjects in this area are the use of online tools such as Google Docs which are not accessible in all areas of the world, this is a good reminder to those of us in countries where we can easily access these things that not everyone can.
 
-# Code of Ethics and Professional Conduct
+## Code of Ethics and Professional Conduct
 
 As a follow-on from the discussion on globalization and inclusion was a session on the Code of Ethics and Professional Conduct (CEPC) being discussed by the Positive Work Environment Community Group.
 
@@ -45,7 +46,7 @@ The group are working to update the CEPC following feedback and referencing othe
 The group are keen to receive feedback on the draft, which you can find [here](https://w3c.github.io/PWETF/).
 </p>
 
-# Incubation
+## Incubation
 
 Fronteers members might be familiar with the Web Incubation Community Group (WICG), which is a place where new web platform ideas can be proposed and discussed outside of a Working Group. In general new platform features should start life here, so this is likely to be the initial place to post if you have an idea which isn't an edit to an existing spec for example.
 
@@ -63,32 +64,32 @@ Chris Wilson gave a presentation about the [WICG](https://github.com/wicg/) and 
 As anyone who has seen one of my talks knows, I am very keen to encourage web designers and developers to get involved with web platform features. So do take a look at [the threads in the WICG discussions](https://discourse.wicg.io/), and see if there are features you have use cases for.
 </p>
 
-# Lightning talks
+## Lightning talks
 
 The session finished with the following lightning talks, designed to highlight different areas of work across the W3C:
 
-* SVG - Amelia Bellamy-Rhoyds, Invited Expert
-* VR and AR on the Web - Ada Rose Cannon, Samsung
-* Web beyond the browser - Hyojin Song, LG
-* Second Screen on the Web - Mark Foltz, Google
+-   SVG - Amelia Bellamy-Rhoyds, Invited Expert
+-   VR and AR on the Web - Ada Rose Cannon, Samsung
+-   Web beyond the browser - Hyojin Song, LG
+-   Second Screen on the Web - Mark Foltz, Google
 
-# Continuous Standards Development
+## Continuous Standards Development
 
 THe first session of the Thursday meeting was on proposed updates to the process by which specifications on the Recommendation track are worked on, in particular what happens when specifcations in Candidate Recommendation (CR) status need an edit. The current workflow is cumbersome and often means that the spec in CR is quite outdated when compared to the latest Editor's Draft.
 
 There are a range of proposals to help improve this process, which should ultimately help in making the published documents more useful to refer to.
 
-# Mini App standardization and next steps
+## Mini App standardization and next steps
 
 While we in the West tend to hear a lot about PWAs, in China hybrid web and mobile apps are popular, these use web technologies within a native wrapper. The [Chinese Web Interest Group](https://www.w3.org/2018/chinese-web-ig/) are working to standarize this technology. This is a fairly new group, and this session was an update on their activities.
 
-# PWAs and Project Fugu
+## PWAs and Project Fugu
 
 The aim of Project Fugu is:
 
 > "Enable web apps to do anything native apps can, by exposing the capabilities of native platforms to the web platform, while maintaining user security, privacy, trust, and other core tenets of the web."
 
-There are various APIs being developed to meet this aim, their progress can be tracked on the [Capabilities Landing Page](https://developers.google.com/web/updates/capabilities) or the [Fugu API Tracker](bit.ly/fugu-api-tracker ).
+There are various APIs being developed to meet this aim, their progress can be tracked on the [Capabilities Landing Page](https://developers.google.com/web/updates/capabilities) or the [Fugu API Tracker](bit.ly/fugu-api-tracker).
 
 How the world pays online - an update on the Web Payments Community Group
 
@@ -96,7 +97,7 @@ The [Web Payments Community Group](https://www.w3.org/community/webpayments/) wo
 
 The Group are working on moving Payment Request to Proposed Recommendation, and trying to encourage wider use of these specifications.
 
-# CSS Working Group Meetings
+## CSS Working Group Meetings
 
 We also had two days of CSS Working Group meetings at TPAC, although I had to miss some of the Tuesday afternoon to attend the AC meeting.
 

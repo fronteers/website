@@ -1,49 +1,48 @@
 ---
-title: "Bijeenkomst bij Kunstmaan op 19 november 2015"
+title: 'Bijeenkomst bij Kunstmaan op 19 november 2015'
 date: 2015-11-19
 eventdate: 2015-11-19
 location:
 categories:
     - meetup
 ---
+
 Op donderdag 19 november 2015 is Fronteers te gast bij [Kunstmaan](http://kunstmaan.be/) in Leuven. Er worden drie presentaties voorzien.
 
-# Het programma is als volgt:
+## Het programma is als volgt:
 
-* 18:00 ontvangst met een hapje en een drankje
-* 19:00 [@sambego](https://twitter.com/sambego) - "Web-audio-api en de web-midi-api"
-* 19:30 [@diskwriter](https://twitter.com/diskwriter) - "Starten met es6"
-* 20:00 korte pauze
-* 20:15 [@bramus](https://twitter.com/bramus) - "Hybrid Apps met Ionic Framework"
-* 20:45 naborrelen
+-   18:00 ontvangst met een hapje en een drankje
+-   19:00 [@sambego](https://twitter.com/sambego) - "Web-audio-api en de web-midi-api"
+-   19:30 [@diskwriter](https://twitter.com/diskwriter) - "Starten met es6"
+-   20:00 korte pauze
+-   20:15 [@bramus](https://twitter.com/bramus) - "Hybrid Apps met Ionic Framework"
+-   20:45 naborrelen
 
-# Web-audio-api en de web-midi-api - Sam Bellen ([slides](https://sambego.github.io/pedalboard-presentation/))
+## Web-audio-api en de web-midi-api - Sam Bellen ([slides](https://sambego.github.io/pedalboard-presentation/))
 
 {%- vimeo "149896521" -%}
 
-# Starten met es6 -  Jens Gyselinck ([slides](https://speakerdeck.com/diskwriter/getting-started-in-es6))
+## Starten met es6 - Jens Gyselinck ([slides](https://speakerdeck.com/diskwriter/getting-started-in-es6))
 
 {%- vimeo "150007551" -%}
 
-# Hybrid Apps met Ionic Framework - Bram(us) van Damme ([slides](http://www.slideshare.net/bramus/hybrid-apps-with-ionic-framework))
+## Hybrid Apps met Ionic Framework - Bram(us) van Damme ([slides](http://www.slideshare.net/bramus/hybrid-apps-with-ionic-framework))
 
 {%- vimeo "152013818" -%}
 
-# Waar?
+## Waar?
 
 Dit evenement vindt plaats bij Kunstmaan te Leuven.
 
 {%- googlemaps "Kunstmaan, Philipssite 5, 3000 Leuven" -%}
 
-# Wie?
+## Wie?
 
 Iedereen is welkom. Er is echter beperkt plaats, voor circa 175 mannen en vrouwen. Geef je daarom op via onderstaand aanmeldformulier. Vol is vol!
 
 Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23fronteersbe).
 
-
-
-# Aanmeldingen
+## Aanmeldingen
 
 <table>
 <tr>
@@ -468,5 +467,4 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 </tr>
 </table>
 
-
-Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2015/fronteersbe/). *Inschrijven via het onderstaande formulier is echter verplicht!*
+Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2015/fronteersbe/). _Inschrijven via het onderstaande formulier is echter verplicht!_

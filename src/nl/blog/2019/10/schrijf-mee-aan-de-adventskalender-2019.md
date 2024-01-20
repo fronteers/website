@@ -1,13 +1,14 @@
 ---
-title: "Schrijf mee aan de Adventskalender 2019!"
+title: 'Schrijf mee aan de Adventskalender 2019!'
 date: 2019-10-18
 author: Josee Wouters
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 De Fronteers Adventskalender is terug! 24 blogs van 24 schrijvers over uiteenlopende front-end onderwerpen. Wil jij graag een blog schrijven voor Fronteers, meld je nu dan aan. Tot 31 oktober kan iedereen een voorstel indienen voor een blog. Schrijvers mogen een donatie van 75 euro uit de verenigingskas doen aan een goed doel.
 
-- English below -
+-   English below -
 
 Je mag schrijven over elk onderwerp dat front-end gerelateerd is. Denk bijvoorbeeld aan blogs over accessibility, tools, UX/UI, frameworks. Wil je schrijven over iets dat je geleerd hebt dit jaar, of wil je juist dit moment aangrijpen om zelf iets nieuws te leren en daarover te schrijven? Het kan allemaal. Blogs mogen in het Nederlands of Engels geschreven worden, met een voorkeur voor Nederlands.
 
@@ -15,7 +16,7 @@ Aanmelden om mee te schrijven kan tot en met 31 oktober via marketing@fronteers.
 
 Namens de auteurs zal Fronteers een donatie van 75 euro per schrijver aan een goed doel doen. De schrijvers mogen zelf kiezen uit een van deze goede doelen: Hersenstichting, KWF, KiKa, Bits of Freedom of Stem op een Vrouw. Er is dit keer een keuze gemaakt uit een aantal goede doelen om onze penningmeester wat werk uit handen te nemen.
 
-# English
+## English
 
 The Fronteers Advent Calendar is back! 24 writers and 24 blog posts about various front-end topics. If you want to write one of these blog posts, you can sign up now. Everybody can send in a proposal, until October 31st. All writers can donate 75 euros from the association to a charity.
 

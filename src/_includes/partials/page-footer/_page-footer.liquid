@@ -1,59 +1,64 @@
-<div data-partial="page-footer" class="page-footer-wrapper">
-    <footer class="page-footer">
-        <h2 class="visually-hidden">Social media</h2>
-        <ul class="desktop-columns">
+<div data-partial='page-footer' class='page-footer-wrapper'>
+    <footer class='page-footer'>
+        <h2 class='visually-hidden'>Social media</h2>
+        <ul class='desktop-columns'>
             <li>
-                <div class="social-media-header">
+                <div class='social-media-header'>
                     <img
-                        src="/assets/images/icon_slack.svg"
-                        class="social-media-logo social-media-logo-slack"
-                        alt="" />
-                    <span class="social-media-title">{{ translations[locale].socialMedia.slackTitle }}</span>
+                        src='/assets/images/icon_slack.svg'
+                        class='social-media-logo social-media-logo-slack'
+                        alt=''
+                    >
+                    <h3 class='social-media-title'>{{ translations[locale].socialMedia.slackTitle }}</h3>
                 </div>
                 <p>
                     {{ translations[locale].socialMedia.slackText }}
                 </p>
             </li>
             <li>
-                <div class="social-media-header">
+                <div class='social-media-header'>
                     <img
-                        src="/assets/images/icon_linkedin.svg"
-                        class="social-media-logo social-media-logo-linkedin"
-                        alt="" />
-                    <span class="social-media-title">{{ translations[locale].socialMedia.linkedinTitle }}</span>
+                        src='/assets/images/icon_linkedin.svg'
+                        class='social-media-logo social-media-logo-linkedin'
+                        alt=''
+                    >
+                    <h3 class='social-media-title'>{{ translations[locale].socialMedia.linkedinTitle }}</h3>
                 </div>
                 <p>
                     {{ translations[locale].socialMedia.linkedinText }}
                 </p>
             </li>
             <li>
-                <div class="social-media-header">
+                <div class='social-media-header'>
                     <img
-                        src="/assets/images/icon_socials.svg"
-                        class="social-media-logo social-media-logo-elsewhere"
-                        alt="" />
-                    <span class="social-media-title">{{ translations[locale].socialMedia.elsewhereTitle }}</span>
+                        src='/assets/images/icon_socials.svg'
+                        class='social-media-logo social-media-logo-elsewhere'
+                        alt=''
+                    >
+                    <h3 class='social-media-title'>{{ translations[locale].socialMedia.elsewhereTitle }}</h3>
                 </div>
                 <p>
                     {{ translations[locale].socialMedia.elsewhereText }}
                 </p>
             </li>
             <li>
-                <p class="footer-join-us">
+                <p class='footer-join-us'>
                     {{ translations[locale].joinUsSlogan }}
                 </p>
-                <p class="footer-join-us-link">
-                    <a href="{{ translations[locale].blockTitles.joinUsPath }}" class="button button-parentheses">{{ translations[locale].blockTitles.joinUs }}</a>
+                <p class='footer-join-us-link'>
+                    <a href='{{ translations[locale].blockTitles.joinUsPath }}' class='button button-parentheses'>
+                        {{- translations[locale].blockTitles.joinUs -}}
+                    </a>
                 </p>
             </li>
         </ul>
 
-        {%- if locale == "nl" -%}
+        {%- if locale == 'nl' -%}
             {%- include partials/navigation nav_location: "footer" nav_description: "Footer navigation" nav_selection: navigation.footer.nl -%}
-        {%- elsif locale == "en" -%}
+        {%- elsif locale == 'en' -%}
             {%- include partials/navigation nav_location: "footer" nav_description: "Footer navigation" nav_selection: navigation.footer.en -%}
         {%- endif -%}
 
-        <script src="/assets/js/page-navigation.js"></script>
+        <script src='/assets/js/page-navigation.js'></script>
     </footer>
 </div>

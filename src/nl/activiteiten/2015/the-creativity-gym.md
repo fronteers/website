@@ -1,37 +1,38 @@
 ---
-title: "Bijeenkomst bij The Creativity Gym op 12 november 2015"
+title: 'Bijeenkomst bij The Creativity Gym op 12 november 2015'
 date: 2015-11-12
 eventdate: 2015-11-12
 location:
 categories:
     - meetup
 ---
+
 Op donderdag 12 november 2015 is Fronteers te gast bij [The Creativity Gym](http://www.thecreativitygym.be/) in Mechelen. Er wordt één presentatie voorzien.
 
-# Het programma is als volgt:
+## Het programma is als volgt:
 
-* 18:00 ontvangst met een drankje
-* 19:00 [Jeff Burtoft](https://twitter.com/boyofgreen) - Microsoft Edge is not just another new browser
-* 20:00 naborrelen
+-   18:00 ontvangst met een drankje
+-   19:00 [Jeff Burtoft](https://twitter.com/boyofgreen) - Microsoft Edge is not just another new browser
+-   20:00 naborrelen
 
-# Microsoft Edge is not just another new browser
+## Microsoft Edge is not just another new browser
 
 Jeff Burtoft (HTML5 Evangelist at Microsoft) will explain the anatomy of Microsoft Edge and the impact it will have on the web. This next-generation browser is built into Windows 10 and respects all the things we appreciate and love as front end developers.
 But there is more. A number of converging standards and tools are making webapps portable. Our web platform allows you to leverage your HTML skills from cross-browser to cross-device. Come and hear what you can do more with the knowledge you already have.
 
-# Waar?
+## Waar?
 
 Dit evenement vindt plaats bij The Creativity Gym, Thomas More Mechelen Campus Kruidtuin, Lange Ridderstraat 44, 2800 Mechelen.
 
 {%- googlemaps "The Creativity Gym, Thomas More Mechelen Campus Kruidtuin, Lange Ridderstraat 44, 2800 Mechelen" -%}
 
-# Wie?
+## Wie?
 
 Iedereen is welkom. Er is echter beperkt plaats, voor circa 100 mannen en vrouwen. Geef je daarom op via onderstaand aanmeldformulier. Vol is vol!
 
 Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23fronteersbe).
 
-# Aanmeldingen
+## Aanmeldingen
 
 <table>
 <tr>
@@ -341,8 +342,7 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 </tr>
 </table>
 
-
-Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2015/fronteersbe/). *Inschrijven via het onderstaande formulier is echter verplicht!*
+Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2015/fronteersbe/). _Inschrijven via het onderstaande formulier is echter verplicht!_
 
 {%- comment -%}
 {%- form -%}

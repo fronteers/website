@@ -1,13 +1,14 @@
 ---
-title: "Hallo frontenders, hier spreekt een ontwerper"
+title: 'Hallo frontenders, hier spreekt een ontwerper'
 date: 2014-12-22
 author: Maaike de Laat
-categories: 
-  - De Artikelen
+categories:
+    - De Artikelen
 ---
+
 Maaike de Laat deed tijdens de Jam Sessions van het Fronteers-congres namens ontwerpers een oproep aan front-enders. Deze presentatie heeft ze met Marrije Schaake uitgeschreven tot dit artikel. Haar talk, 'A Call To Arms', in het Engels, [is terug te kijken bij de Jam Session video's](\congres/2014/jam-session/call-to-arms).
 
-# Hallo Frontenders
+## Hallo Frontenders
 
 Ik heb een verzoek aan jullie, namens de grafisch ontwerpers. Nou ja, ik heb het ze niet allemaal gevraagd, maar ik denk dat veel ontwerpers het wel met me eens zullen zijn.
 
@@ -19,7 +20,7 @@ Dit is de Benz Motorwagen. Hij werd ontworpen door Karl en Bertha Benz in 1886, 
 
 Deze auto was de eerste die echt ontworpen is om gebruikt te worden met een motor. Maar toch lijkt hij nog erg veel op een koets! Koetsen waren wat de mensen kenden. Het duurde een tijdje voordat de auto-ontwerpers bedachten welk soort ontwerp het beste werkt voor een automobiel. En voordat handelaars nieuwe toepassingen bedachten voor de auto.
 
-# Horseless Carriage Syndrome
+## Horseless Carriage Syndrome
 
 In de jaren zestig van de twintigste eeuw noemde Marshall McLuhan dit het ‘_Horseless Carriage Syndrome_’ (het ‘paardloze koets-syndroom’): nieuwe technologieën beginnen altijd met het imiteren van wat er eerder was. Dat hoeft niet per se een probleem te zijn: mensen vinden het makkelijker om iets te begrijpen als het lijkt op iets dat ze kennen. Maar na verloop van tijd wordt het een beperking.
 
@@ -37,7 +38,7 @@ En het is niet zo gek dat we dit deden, want in die tijd hadden veel webontwerpe
 
 Zoals je vast wel weet, heet deze gewoonte om een website of een interface te laten lijken op een fysiek object ‘skeuomorfisme’. En waarschijnlijk hadden we dit allemaal een beetje nodig, terwijl we langzaam gewend raakten aan digitaal ontwerp. De afgelopen jaren is er natuurlijk veel gedebatteerd over skeuomorfisme, en het lijkt nu wel aan zijn einde te komen. En dan is de vraag: wat komt er nu?
 
-# Ken je materialen
+## Ken je materialen
 
 Ik denk dat goed ontwerp voortkomt uit een gedegen kennis van de materialen waar je mee werkt.  Lang is het zo geweest dat dit voor ontwerpers min of meer met de paplepel ingegoten werd. Voor de twintigste eeuw bestond ‘grafisch ontwerper’ niet eens als een apart beroep. De persoon die het werk maakte was tegelijkertijd de ontwerper.
 
@@ -57,17 +58,17 @@ Ontwerpers zullen namelijk altijd ontwerpen. En als ze tegemoet zijn gekomen aan
 
 En natuurlijk kun je daar over mopperen, maar tegen die tijd is de ontwerper waarschijnlijk al verliefd geworden op zijn of haar eigen ontwerp. En als je echt pech hebt, is de klant dat ook.
 
-# Past het bij het medium?
+## Past het bij het medium?
 
 Het probleem met deze ontwerpsites is dat ze nooit uitleggen hoe iets gebouwd is, en of een ontwerp technisch wel goed in elkaar zit. Als je zelf geen frontender bent, kan het heel moeilijk zijn om te beoordelen of een bepaald effect of een ontwerpoplossing moeilijk te bouwen of te onderhouden is, of dat het bijvoorbeeld slecht voor de performance is. Met andere woorden: of het een elegante oplossing is die goed bij het medium past. Of, met nog andere woorden: of je hier te maken hebt met een _horseless carriage_.
 
-# En jij dan?
+## En jij dan?
 
 Maar laten we het eens over jou hebben. Jij bezoekt waarschijnlijk heel andere websites. Sites als [A List Apart](http://alistapart.com/) en [Smashing Magazine](http://www.smashingmagazine.com/), waar je leest over CSS3-dingen die je eindelijk kunt gebruiken, of misschien een nieuwe lichtgewicht JavaScript library waarmee je allerlei coole dingen kunt doen.
 
-Interessant, toch? Zowel jij als de ontwerper willen graag experimenteren. Jullie zijn beiden op zoek naar nieuwe ideeën. Zou het niet veel beter zijn als jullie allebei experimenteren met dezelfde dingen? 
+Interessant, toch? Zowel jij als de ontwerper willen graag experimenteren. Jullie zijn beiden op zoek naar nieuwe ideeën. Zou het niet veel beter zijn als jullie allebei experimenteren met dezelfde dingen?
 
-# Houd contact met je ontwerpers
+## Houd contact met je ontwerpers
 
 Er zijn een aantal dingen die je zou kunnen proberen. Allereerst: zorg er voor dat je contact houdt met je collega's die ontwerp doen, vooral tussen projecten in, als er geen (tijds)druk is. En steeds als je een interessant nieuw iets leert, zou je ze er over kunnen vertellen. “Hee kijk, ik heb ontdekt hoe ik deze mooie animaties kan maken!” Of “Hee, wist je dat ik nu verloopjes kan maken met CSS, zodat ik er nu niet meer zo ongelukkig van word als je ze gebruikt in je ontwerpen?”
 
@@ -79,7 +80,8 @@ Denk eens na: je bent hier bij Fronteers om jezelf onder te dompelen in front-en
 
 Ik weet ook wel dat wat ik hier zeg niet nieuw is. Maar ik denk wel dat het vaker gezegd moet worden! Wij ontwerpers hebben jullie echt nodig, zelfs als we het onszelf niet altijd realiseren ;-)
 
-### Over Maaike de Laat
-<img src="/_img/blog/2014/maaikedelaat.png" alt="Foto van Maaike uit 2014" class="floating-portrait" /> 
+## Over Maaike de Laat
 
-Maaike is ontwerper bij [eend](http://eend.nl/).  [Volg haar op twitter](https://twitter.com/maaike).
+<img src="/_img/blog/2014/maaikedelaat.png" alt="Foto van Maaike uit 2014" class="floating-portrait" />
+
+Maaike is ontwerper bij [eend](http://eend.nl/). [Volg haar op twitter](https://twitter.com/maaike).

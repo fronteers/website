@@ -1,13 +1,14 @@
 ---
-title: "Kandidaat bestuur Fronteers: Matijs Brinkhuis"
+title: 'Kandidaat bestuur Fronteers: Matijs Brinkhuis'
 date: 2012-11-20
 author: Matijs Brinkhuis
-categories: 
-  - Vereniging
+categories:
+    - Vereniging
 ---
+
 Aanstaande donderdag vindt de [jaarlijkse ALV](/blog/2012/10/kom-naar-de-algemene-ledenvergadering-2012) van Fronteers plaats (je kunt je nog [aanmelden](/vereniging/bestuur#formulier-1)). Een van de onderdelen tijdens de ALV is de bestuursverkiezing. Dit jaar zijn er vier kandidaten voor het nieuwe bestuur, twee zittende bestuursleden en twee nieuwe leden. Na [Roy Tomeij](/blog/2012/11/kandidaat-bestuur-roy-tomeij), [Vasilis van Gemert](/blog/2012/11/kandidaat-bestuur-fronteers-vasilis-van-gemert) en [Arjan Eising](/blog/2012/11/kandidaat-bestuur-fronteers-arjan-eising) is het vandaag de beurt aan:
 
-# Matijs Brinkhuis
+## Matijs Brinkhuis
 
 Hallo, ik ben Matijs, freelance front-end developer, 38 Lentes **kuch** jong en sinds begin augustus van dit jaar woonachtig in het bruisende en altijd zonnige Brighton in Engeland. Na drie jaar actief te zijn geweest als algemeen bestuurslid vind ik het tijd voor een wat actievere rol, maar hiervoor moet ik wel eerst herkozen worden. Vandaar deze (hopelijk korte) introductiepost voor de mensen die me nog niet kennen.
 

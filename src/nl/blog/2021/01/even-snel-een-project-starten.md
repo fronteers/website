@@ -1,10 +1,11 @@
 ---
-title: "&quot;Even snel&quot; een project starten"
+title: '&quot;Even snel&quot; een project starten'
 date: 2021-01-03
 author: Renee de Kruijf
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Je kent het wel, je wil even snel iets bouwen of wat code uitproberen. Je maakt een map aan, gooit daarin een index.html, een CSS bestand en een JavaScript bestandje, om vervolgens met wat code te rommelen. In dit voorbeeld heb je gewoon statische bestanden die je in een browser (naar keuze) kunt laden om te checken of het klopt wat je aan het maken bent.
 
 Je kent het wel, je wil even snel iets bouwen of wat code uitproberen. Je maakt een map aan, gooit daarin een index.html, een CSS bestand en een JavaScript bestandje, om vervolgens met wat code te rommelen. In dit voorbeeld heb je gewoon statische bestanden die je in een browser (naar keuze) kunt laden om te checken of het klopt wat je aan het maken bent.
@@ -43,7 +44,7 @@ Als ik nu iets wil uitproberen, type ik in de terminal: `basicsetup "testproject
 
 Deze functie `basicsetup` roep je aan door de naam in je CLI te typen, de functie wordt dan uitgevoerd. Ik heb op een paar plekken `$1` gebruikt. Dit is een variabele die je een willekeurige waarde mee kunt geven. Dit doe je door achter de functienaam de naam van je project in te voeren tussen aanhalingstekens. In dit geval wordt `$1` dus _testproject_. Die kun je vervolgens in de functie zo vaak als je wil terug laten komen.
 
-# Wat doet deze code?
+## Wat doet deze code?
 
 Op de eerste regel maken we de folder aan door het commando `mkdir` te gebruiken, dit staat voor _make directory_.
 

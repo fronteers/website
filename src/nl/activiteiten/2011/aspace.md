@@ -1,11 +1,12 @@
 ---
-title: "Bijeenkomst bij ASPACE op 23 juni 2011"
+title: 'Bijeenkomst bij ASPACE op 23 juni 2011'
 date: 2011-06-23
 eventdate: 2011-06-23
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 [Mathias Bynens](https://mathiasbynens.be/) opent de avond en bedankt [ASPACE](http://aspace.be) en [iLibris](http://ilibris.be) voor het hosten van de avond.
 
 Mathias is ook de eerste die gaat spreken, vandaag over JavaScript performance. Hij steekt van wal met het feit dat JavaScript de rendering van de pagina blokkeert. Daarom dien je de scripts pas in de HTML te voegen aan het einde zo dichtbij de `</body>` mogelijk.
@@ -40,63 +41,42 @@ Met ARIA roles en states kun je extra informatie doorgeven aan screenreaders. In
 
 Enkele don't: `accesskey`s, die gaan voor native keys in verschillende browsers. Jumpenu's met een onchange op een selectmenu en autotab scripts zijn ook niet handig, ze voeren onverwachts code uit die niet handig is voor toetsrnbordgebruikers.
 
-# Overige materialen en verslagen
+## Overige materialen en verslagen
 
-* [Slides van de presentatie van Roel](http://www.slideshare.net/roelvangils/keyboard-accessibility-youve-been-doing-it-wrong-8410245)
+-   [Slides van de presentatie van Roel](http://www.slideshare.net/roelvangils/keyboard-accessibility-youve-been-doing-it-wrong-8410245)
 
+## Aanwezigen
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Aanwezigen
-
-* Ad Eggermont
-* Steve Franciscus Julia De Jonghe
-* Arjan Eising
-* Nick Looijmans
-* Steven Benisek
-* Thomas Byttebier
-* Gregory Van Looy
-* Lennart Schoors
-* Klaas Cuvelier
-* Jelle Versele
-* Jan Moesen
-* Shahways Romani
-* Anthony Ringoet
-* Senne Van Den Bogaert
-* Filip Breckx
-* Rik Rijnders
-* Filip Vanderstappen
-* Danny Calders
-* Gunter Van Steen
-* Wesley Verbruggen
-* Sebastien Toussaint
-* Kristof Houben
-* Toon Struyf
-* Yoni De Beule
-* Keegan Street
-* Thomas Deceuninck
-* Johan Ronsse
-* Sander Aarts
-* Paul Olyslager
-* Tim Schillemans
-* Mark Tempelaere
-* Mathias Baert
-* Joris Hens
-
+-   Ad Eggermont
+-   Steve Franciscus Julia De Jonghe
+-   Arjan Eising
+-   Nick Looijmans
+-   Steven Benisek
+-   Thomas Byttebier
+-   Gregory Van Looy
+-   Lennart Schoors
+-   Klaas Cuvelier
+-   Jelle Versele
+-   Jan Moesen
+-   Shahways Romani
+-   Anthony Ringoet
+-   Senne Van Den Bogaert
+-   Filip Breckx
+-   Rik Rijnders
+-   Filip Vanderstappen
+-   Danny Calders
+-   Gunter Van Steen
+-   Wesley Verbruggen
+-   Sebastien Toussaint
+-   Kristof Houben
+-   Toon Struyf
+-   Yoni De Beule
+-   Keegan Street
+-   Thomas Deceuninck
+-   Johan Ronsse
+-   Sander Aarts
+-   Paul Olyslager
+-   Tim Schillemans
+-   Mark Tempelaere
+-   Mathias Baert
+-   Joris Hens

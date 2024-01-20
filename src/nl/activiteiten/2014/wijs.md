@@ -1,33 +1,34 @@
 ---
-title: "Bijeenkomst bij Wijs op 23 oktober 2014"
+title: 'Bijeenkomst bij Wijs op 23 oktober 2014'
 date: 2014-09-18
 eventdate: 2014-09-18
 location:
 categories:
     - meetup
 ---
+
 Op donderdag 23 oktober 2014 is Fronteers te gast bij Wijs in Gent. Er worden drie presentaties voorzien.
 
-# Het programma is als volgt:
+## Het programma is als volgt:
 
-* 18:00 ontvangst met een drankje
-* 19:00 Simon Coudeville over _design in de browser_ ([slides](http://simoncoudeville.github.io/webdesign-in-the-browser/#/))
-* 19:45 Gwen Vanhee over _creatieve code-experimenten_ ([slides](/_downloads/bijeenkomsten/gwenvanhee-init-canvas.pdf))
-* 21:00 naborrelen
+-   18:00 ontvangst met een drankje
+-   19:00 Simon Coudeville over _design in de browser_ ([slides](http://simoncoudeville.github.io/webdesign-in-the-browser/#/))
+-   19:45 Gwen Vanhee over _creatieve code-experimenten_ ([slides](/_downloads/bijeenkomsten/gwenvanhee-init-canvas.pdf))
+-   21:00 naborrelen
 
-# Waar?
+## Waar?
 
 Dit evenement vindt plaats bij Wijs te Gent.
 
 {%- googlemaps "Voorhavenlaan 31, 9000 Gent" -%}
 
-# Wie?
+## Wie?
 
 Iedereen is welkom. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. Geef je daarom op via onderstaand aanmeldformulier. Vol is vol!
 
 Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23fronteersbe).
 
-# Aanmeldingen
+## Aanmeldingen
 
 <table>
 <tr>
@@ -287,8 +288,7 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 </tr>
 </table>
 
-
-Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2014/fronteersbe-wijs/). *Inschrijven via het onderstaande formulier is echter verplicht!*
+Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2014/fronteersbe-wijs/). _Inschrijven via het onderstaande formulier is echter verplicht!_
 
 {%- comment -%}
 {%- form -%}

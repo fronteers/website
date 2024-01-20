@@ -1,19 +1,20 @@
 ---
-title: "Dr. Strangescope or: How I Learned to Stop Worrying and Love the Closure"
+title: 'Dr. Strangescope or: How I Learned to Stop Worrying and Love the Closure'
 date: 2011-12-24
 author: Arjan Eising
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Scopes en closures in JavaScript zijn altijd een soort van taboe geweest: het is er altijd, maar je hebt het er liever niet over. In dit artikel probeer ik, voor de beginnende JavaScripter, een introductie in scopes en closures te geven. En aangezien ik een enorme filmfreak ben, heb ik er enkele referenties naar de film ['Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb'](http://www.imdb.com/title/tt0057012/) in gestopt.
 
-# Scope
+## Scope
 
 Scopes in JavaScript (en alle andere programeertalen) zijn een soort ballenbak. Alle variabelen (en stiekem ook functies) zijn de ballen. Je kunt gewoon een bal pakken en de waarde van de variabele opvragen, of je kunt de waarde veranderen.
 
 In JavaScript zijn er twee soorten scopes: _globale scope_ en _functie scope_. In de globale scope zitten alle variabelen die niet in een functie staan, en in de functie scope zitten variabelen die in een specifieke functie aangemaakt zijn.
 
-De functiescope moet je zien als een soort doos in de ballenbak. Het is mogelijk een variabele in de globale scope aan te passen, maar vanuit de globale scope kun je *niet* bij variabelen in de functie scope.
+De functiescope moet je zien als een soort doos in de ballenbak. Het is mogelijk een variabele in de globale scope aan te passen, maar vanuit de globale scope kun je _niet_ bij variabelen in de functie scope.
 
 Tijd voor een voorbeeld:
 
@@ -47,7 +48,7 @@ Het weten dat een variabele ergens later in de code gezet gaat worden, lijkt vee
 
 > "Sir, you can't let him in here. He'll see everything. He'll see the big board!"
 
-# Closures
+## Closures
 
 Closures maken gebruik van het feit dat er een functie scope bestaat. Wat ze doen is een of meerdere functies retourneren bij een bepaalde functieaanroep. Deze buitenste functie houdt dan alle variabelen geheim voor de globale scope.
 
@@ -115,9 +116,10 @@ Overigens kunnen alle vier de functies bij het argument van de ouderfunctie: `el
 
 > "Gentlemen, you can't fight in here! This is the War Room."
 
-*Fijne feestdagen!*
+_Fijne feestdagen!_
 
-### Over Arjan Eising
+## Over Arjan Eising
+
 /2011/12/arjan-eising.jpg
 Front-end developer bij [Springest](http://www.springest.nl). Bestuurslid en bijeenkomstenorganisator bij Fronteers. Kijkt te veel films.
 

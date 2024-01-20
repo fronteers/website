@@ -1,16 +1,17 @@
 ---
-title: "Bijeenkomst bij EveryWeb Solutions op 13 mei 2008"
+title: 'Bijeenkomst bij EveryWeb Solutions op 13 mei 2008'
 date: 2008-05-13
 eventdate: 2008-05-13
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
-Op 14 mei 2008 werd door [EveryWeb Solutions](http://everywebsolutions.nl/) een Fronteers bijeenkomst georganiseerd in [Hotel Arena](http://www.hotelarena.nl/) te Amsterdam. Het had niet veel gescheeld, of diverse front-end developers waren afgehaakt en hadden bij de buren een [evenement van de FHM](http://www.fhm100sexiest.nl/) bezocht. Gelukkig werden ze weerhouden door twee presentaties, de een over toegankelijkheid en de andere over SVG.
+
+Op 14 mei 2008 werd door [EveryWeb Solutions](http://everywebsolutions.nl/) een Fronteers bijeenkomst georganiseerd in [Hotel Arena](http://www.hotelarena.nl/) te Amsterdam. Het had niet veel gescheeld, of diverse front-end developers waren afgehaakt en hadden bij de buren een evenement van de FHM bezocht. Gelukkig werden ze weerhouden door twee presentaties, de een over toegankelijkheid en de andere over SVG.
 
 Nadat rond 18:30 de Kloosterzaal was volgestroomd met mensen, heette Peter-Paul Koch iedereen welkom, waarna hij het woord gaf aan Linda Nieuwenhuijzen en Kamiel Wanrooij die de eerste presentatie startten.
 
-# Presentatie toegankelijkheid door Linda Nieuwenhuijzen en Kamiel Wanrooij
+## Presentatie toegankelijkheid door Linda Nieuwenhuijzen en Kamiel Wanrooij
 
 Linda Nieuwenhijzen en Kamiel Wanrooij van Everyweb Solutions startten met een presentatie over toegankelijkheid voor blinden en slechtzienden. Na een korte introductie waarin ze in het kort vertelden wie ze waren en wat ze doen, lieten ze door middel van enkele voorbeelden zien wat een gebruiker met een visueel handicap ervaart als hij of zij het internet gebruikt.
 
@@ -18,7 +19,7 @@ Vervolgens werden de websites van onder andere Heineken, Vrije Universiteit Amst
 
 Helaas vloog de tijd voorbij en voordat we er erg in hadden was de presentatie voorbij. Na een korte pauze was het tijd voor de tweede presentatie.
 
-# Presentatie SVG door Ruud Steltenpool
+## Presentatie SVG door Ruud Steltenpool
 
 [Ruud Steltenpool](http://steltenpower.com/) gaf gepassioneerd de tweede presentatie over [SVG](http://www.w3.org/Graphics/SVG/), een XML bestandsformaat om vectorafbeeldingen te maken. Helaas ging een deel van de presentatie de mist in door het niet voorhanden zijn van een draadloze internetverbinding. Hierop ontstond gelukkig een levendige discussie waarin onder andere SVG vergeleken werd met andere technieken en er nagedacht werd over nuttige toepassingen.
 
@@ -26,7 +27,7 @@ Ruud heeft [een linkpagina](http://steltenpower.com/FronteersMeetSVG.html) gemaa
 
 Tot slot kondigde Peter-Paul Koch het [Fronteers Congres](/bijeenkomsten) aan, dat op donderdag 11 en vrijdag 12 september in [Pakhuis de Zwijger](http://www.dezwijger.nl/) wordt gehouden. Daarna was het tijd voor een borrel en netwerken.
 
-# Overige verslagen
+## Overige verslagen
 
-* [Hotspot](http://blog.mangrove.nl/index.php?pageID=3434&messageID=308) (blog.mangrove.nl)
-* [Fronteers en toegankelijkheid](http://www.i76.nl/weblog/fronteers-en-toegankelijkheid) (i76.nl/weblog)
+-   Hotspot (blog.mangrove.nl)
+-   Fronteers en toegankelijkheid (i76.nl/weblog)

@@ -1,14 +1,15 @@
 ---
-title: "Bijeenkomst bij VI Company op 3 juni 2015"
+title: 'Bijeenkomst bij VI Company op 3 juni 2015'
 date: 2015-06-03
 eventdate: 2015-06-03
 location:
 categories:
     - meetup
 ---
+
 Op woensdag 3 juni 2015 is Fronteers te gast bij VI Company in Rotterdam. Er worden twee presentaties en een demo voorzien rondom het thema Frontend & Mobile.
 
-# Programma
+## Programma
 
 [Jan Jongboom](http://janjongboom.com/) werkt als een software developer én is evangelist van Firefox OS, met de focus op low-cost devices.
 VI Company host een [Open Device Lab](http://odl.vicompany.nl/) en heeft als eerste ODL in Nederland een Alcatel OneTouch Fire E in huis, met Firefox OS 1.3.
@@ -18,25 +19,25 @@ Dat móet wel een topbijeenkomst worden waar het enthousiasme over Mobile Device
 
 ## Het programma is als volgt:
 
-* 18:00 Inloop met een pizzapunt
-* 18:40 intro Fronteers en VI Company
-* 18:45 Fun met JavaScript en sensoren - Jan Jongboom
-* 19:30 demo [ODL](http://odl.vicompany.nl/) door VI Company
-* 19:45 pauze
-* 20:15 Vreemde browsers - Niels Leenheer
-* 21:00 borrel
+-   18:00 Inloop met een pizzapunt
+-   18:40 intro Fronteers en VI Company
+-   18:45 Fun met JavaScript en sensoren - Jan Jongboom
+-   19:30 demo [ODL](http://odl.vicompany.nl/) door VI Company
+-   19:45 pauze
+-   20:15 Vreemde browsers - Niels Leenheer
+-   21:00 borrel
 
-# Fun met JavaScript en sensoren - Jan Jongboom ([slides](http://www.slideshare.net/janjongboom/dahoam-2015-abusing-phones-to-make-the-internet-of-things))
+## Fun met JavaScript en sensoren - Jan Jongboom ([slides](http://www.slideshare.net/janjongboom/dahoam-2015-abusing-phones-to-make-the-internet-of-things))
 
 ![](/_img/bijeenkomsten/vicompany/fronteers-janjongboom-03062015.jpg)
 
-Als webdevelopers beschouwen we mobiele telefoons nog vaak als kleine PCs. We werken met responsive design en zijn vooral bezig om de knopjes er iets mooier uit te laten zien. Maar waarom?! We kunnen zoveel meer doen! Dat kleine apparaatje in je zak heeft een groot aantal sensoren in zich, en kan reageren op dingen die in real-life gebeuren. Het is tijd om *dat* te gaan gebruiken!
+Als webdevelopers beschouwen we mobiele telefoons nog vaak als kleine PCs. We werken met responsive design en zijn vooral bezig om de knopjes er iets mooier uit te laten zien. Maar waarom?! We kunnen zoveel meer doen! Dat kleine apparaatje in je zak heeft een groot aantal sensoren in zich, en kan reageren op dingen die in real-life gebeuren. Het is tijd om _dat_ te gaan gebruiken!
 
 In een met demo's gevulde talk gooit Jan Jongboom telefoons in de lucht, maakt hij een theremin, mishandelt wat telefoons met een schroevendraaier, speelt met de gyroscoop, tagt dingen met bluetooth beacons, en demonstreert hij zijn jongleer-skills. En dat allemaal... met JavaScript.
 
 {%- vimeo "149281705" -%}
 
-# Vreemde browsers - Niels Leenheer ([slides](https://speakerdeck.com/nielsleenheer/vreemde-browsers))
+## Vreemde browsers - Niels Leenheer ([slides](https://speakerdeck.com/nielsleenheer/vreemde-browsers))
 
 ![](/_img/bijeenkomsten/vicompany/fronteers-nielsleenheer-03062015.jpg)
 
@@ -44,21 +45,17 @@ Niet iedereen gebruikt een iPhone of Samsung Galaxy en er zijn meer browsers dan
 
 {%- vimeo "149170885" -%}
 
-# Waar?
+## Waar?
 
 Dit evenement vindt plaats bij VI Company, Stationsplein 45 (unit A4.194), 3013 AK Rotterdam.
 Ga naar de hoofdingang (ingang A) van het Groot Handelsgebouw. Daar kun je de lift naar de vierde verdieping nemen, VI Company zit links aan het eind van de gang.
 Er wordt gezorgd voor pizzapunten, grote eters doen er goed aan zelf nog een hapje te eten.
 
-
-
-# Vragen?
+## Vragen?
 
 [Neem contact op met de Activiteitencommissie.](/vereniging/commissies/activiteiten)
 
-
-
-# Aanmeldingen
+## Aanmeldingen
 
 <table>
 <tr>

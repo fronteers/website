@@ -1,25 +1,26 @@
 ---
-title: "Hoe test ik de toegankelijkheid van mijn website?"
+title: 'Hoe test ik de toegankelijkheid van mijn website?'
 date: 2018-12-10
 author: Erik Kroes
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Top! Je wil testen of je website toegankelijk is voor iedereen. Daarmee help je niet alleen de mensen met een beperking, waarvan er steeds meer zijn in onze vergrijzende maatschappij. Een toegankelijke website is voor iedereen fijner in gebruik, en er zijn nog veel meer [goede redenen](https://www.w3.org/WAI/bcase/Overview) om met toegankelijkheid aan de slag te gaan.
 
 ![Twee drempels met opgangen voor rolstoelen, maar in het midden een bord “”Keep clear for wheelchair users” dat de toegang verspert](/_img/adventskalender/toegankelijkheid-testen/keep-clear-accessibility-fail.jpg)
 
-# Geef mij maar een uitdaging!
+## Geef mij maar een uitdaging!
 
 Je zou de [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG/) (WCAG) door kunnen nemen. Deze richtlijn van het W3C is verankerd in [regelgeving](https://www.w3.org/WAI/policies/) en is internationaal de standaard voor toegankelijkheid. Als je dit document tot je wil nemen ben je wel even bezig. WCAG bestaat uit 4 principles met 13 guidelines die onderverdeeld zijn in 78 success criteria. En die gaan dan weer gepaard met een paar honderd "techniques and failures". Je voelt hem misschien al aankomen: de meest gebruikte richtlijn is niet het meest toegankelijke startpunt.
 
 ![Driehoekig waarschuwingsbord met rolstoel die van helling af glijdt](/_img/adventskalender/toegankelijkheid-testen/wheelchair-sign.jpg)
 
-# Vijf simpele tests om de toegankelijkheid van mijn website testen
+## Vijf simpele tests om de toegankelijkheid van mijn website testen
 
 Er zijn vijf relatief simpele checks die veel op kunnen leveren. Deze testjes zorgen ervoor dat je met weinig moeite heel wat problemen kunt onderscheppen. Gebruik hierbij de termen "quick wins" en "laaghangend fruit" en iedereen zal je begripvol aankijken.
 
-# Simpele test 1: Kleur en contrast
+## Simpele test 1: Kleur en contrast
 
 De tekst op je pagina moet leesbaar zijn voor iedereen. Een goed contrast helpt niet alleen mensen die slechtziend of kleurenblind zijn, maar bijvoorbeeld ook bezoekers die met hun mobieltje in de zon staan of hun scherm gedimd hebben. Het testen van kleur en contrast is dan ook een waardevolle stap naar toegankelijkheid.
 
@@ -31,11 +32,11 @@ Als je eenmaal een tool gekozen hebt kun je alle teksten op je website nagaan.
 
 ![Rolstoelopgang die begint met 1 traptrede](/_img/adventskalender/toegankelijkheid-testen/ally.jpg)
 
-# Simpele test 2: Zoom in en uit
+## Simpele test 2: Zoom in en uit
 
 Heel veel mensen zijn erbij gebaat als er fatsoenlijk in te zoomen is op je website. De site mag dan best overspringen naar een tablet of mobiele versie als die er is. De basis van toegankelijkheid is dat iedereen dezelfde inhoud en functionaliteit kan gebruiken, dus let wel op dat je responsive website een volwaardig alternatief is! Dit kun je gemakkelijk testen met de zoomopties in je browser.
 
-# Simpele test 3: Gebruik je toetsenbord
+## Simpele test 3: Gebruik je toetsenbord
 
 Een deel van je bezoekers zal gebruiken maken van zogenaamde assistive technology (AT), ondersteunende technologie. Veel van die technologie communiceert met de browser via de toetsenbord API. Kort gezegd: als je website met een toetsenbord te bedienen is maak je veel mensen blij. Daarbij horen ook bezoekers met een kapotte muis, een gebroken arm en power users.
 
@@ -43,7 +44,7 @@ Test dus even met je toetsenbord of alles werkt. Ga met TAB door je pagina, en w
 
 ![Trap met latten die eroverheen liggen](/_img/adventskalender/toegankelijkheid-testen/lb-prague-kunta-hora-14.jpg)
 
-# Simpele test 4: Doe een automatische test
+## Simpele test 4: Doe een automatische test
 
 Misschien vraag je je af, waarom testen we niet alles automatisch? Een beetje gezonde luiheid kan geen kwaad. Helaas is alles automatisch testen bij toegankelijkheid geen optie. Een test kan bijvoorbeeld wel zien of een afbeelding een tekstalternatief heeft, maar niet of de tekst ook daadwerkelijk de lading dekt.
 
@@ -55,7 +56,7 @@ De laatste optie is misschien wel de makkelijkste om mee te beginnen. De aXe ext
 
 ![Bord weelchair ramp available pleas ask at counter](/_img/adventskalender/toegankelijkheid-testen/1514154-408320525965919-1541568371-n-grande.jpg)
 
-# Simpele test 5: Screen reader
+## Simpele test 5: Screen reader
 
 Bij assistive technology denken men al snel aan screen readers. Een screen reader is software die kan voorlezen wat er op een scherm te zien is, en hier doorheen kan navigeren. Deze software wordt onder andere door blinden en slechtzienden gebruikt. Zo'n screen reader is een flink andere gebruikerservaring dan de meeste mensen hebben. Zeker als je de eerste keer een screen reader start en je computer begint een heel verhaal, dan kan dat even wennen zijn.
 
@@ -69,13 +70,13 @@ Op Windows heb je onder andere [NVDA](https://www.nvaccess.org/) dat het beste w
 
 ![zeer steile trap met daarnaast even steile helling met daarop bord voor rolstoepgebruikers](/_img/adventskalender/toegankelijkheid-testen/m3ed6g0adn001.jpg)
 
-# Ok, dan ben ik klaar!
+## Ok, dan ben ik klaar!
 
 Nee helaas, zo simpel is het niet. Maar je hebt nu wel een stevige basis. Zorg dat je semantische HTML gebruikt, volg standaarden en denk bij alles wat je maakt na of het mogelijk mensen met een beperking beïnvloedt.
 
 En om af te sluiten nog een aantal praktische bronnen voor als je nog meer wil weten toegankelijkheid.
 
-# Bronnen
+## Bronnen
 
 [W3C - WAI - Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
 
@@ -93,7 +94,8 @@ En om af te sluiten nog een aantal praktische bronnen voor als je nog meer wil w
 
 ![](/_img/adventskalender/toegankelijkheid-testen/title-describes-topic-or-purpose.jpeg)
 
-### Over Erik Kroes
+## Over Erik Kroes
+
 <img src="/_img/adventskalender/erik.jpg" alt="Foto van Erik Kroes" class="floating-portrait" /> 
 Erik is onderdeel van het accessibility team van ING. Elke dag probeert hij weer zijn steentje bij te dragen aan de digitale toegankelijkheid van de apps en websites. Daarnaast is hij creatief actief en maakt hij onder andere illustraties voor de Volkskrant.
 

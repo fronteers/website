@@ -1,16 +1,17 @@
 ---
-title: "Bijeenkomst bij Lunatech Research op 15 september 2011"
+title: 'Bijeenkomst bij Lunatech Research op 15 september 2011'
 date: 2011-09-15
 eventdate: 2011-09-15
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 Op donderdag 15 september was Fronteers te gast bij [Lunatech Research](http://www.lunatech-research.com/) in Rotterdam.
 
 Arjan opent de bijeenkomst en licht kort toe wat Fronteers is. Daarna vertelt Pieter kort iets over Lunatech, en hoe ze de switch van Java enterprise applicaties naar het web hebben gemaakt.
 
-[Egor Kloos](http://dutchcelt.nl/) vertelt over enterprise front-end code. Hij heeft in zijn loopbaan voor diverse grote  websites gewerkt waar ze langzaamaan doorhadden wat het internet nou eigenlijk waard is, en hoe ze hun website konden vermarkten.
+[Egor Kloos](http://dutchcelt.nl/) vertelt over enterprise front-end code. Hij heeft in zijn loopbaan voor diverse grote websites gewerkt waar ze langzaamaan doorhadden wat het internet nou eigenlijk waard is, en hoe ze hun website konden vermarkten.
 
 Van wie is de interface eigenlijk? Is het van de industrie, de software of het web? De Java backend was eerst veel te statisch. Je riep een paar widgets aan en maakte er een webpagina van. Je kon de HTML, CSS en JavaScript niet aanpassen. Via diverse ontwikkelingen tussendoor, heeft Lunatech gekozen voor Play. Ook kunnen ze nu gebruikmaken van CSS precompilers zoals LESS en Sass.
 
@@ -24,54 +25,35 @@ Jeroen legt uit hoe je video in je site kunt plaatsen met de HTML5 video tag, en
 
 Todo in HTML5: fullscreen support in Firefox. Captions (tekstuele representatie van het geluid), descriptions (tekstuele representatie van het beeld) en subtitles komen er ook aan. Ook belangrijk is het goed streamen van de video's. Je wilt eigenlijk adaptive streamen. Zodra er bandbreedte over is, wordt er een hogere kwaliteit gedownload. En andersom.
 
+## Overige materialen en verslagen
 
+-   [Slides van de presentatie van Egor](/_downloads/2011/enterprise-web.pdf)
+-   [Slides van de presentatie van Jeroen](/_downloads/2011/html5-video.pdf)
 
-# Overige materialen en verslagen
+## Aanwezigen
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* [Slides van de presentatie van Egor](/_downloads/2011/enterprise-web.pdf)
-* [Slides van de presentatie van Jeroen](/_downloads/2011/html5-video.pdf)
-
-# Aanwezigen
-
-* Boy Baukema
-* Huub Bonarius
-* Ewout Brons
-* Wiebe Cnossen
-* Arjan Eising
-* Jules Ernst
-* Vasilis van Gemert
-* Franns-Anton van Gils
-* Dennis van Homoet
-* Jasha Joachimsthal
-* Ron Kersic
-* Egor Kloos
-* Patrick Kraaij
-* Darius Kruythoff
-* Sander van Lambalgen
-* Mallory
-* Edwin Martin
-* Jaime Martinez
-* Bran van der Meer
-* Alex de Rijk
-* Raph de Rooij
-* Martin Savelkoul
-* Vincent Smedinga
-* Jeroen Wijering
-* En nog 3 personen
-
-
-
+-   Boy Baukema
+-   Huub Bonarius
+-   Ewout Brons
+-   Wiebe Cnossen
+-   Arjan Eising
+-   Jules Ernst
+-   Vasilis van Gemert
+-   Franns-Anton van Gils
+-   Dennis van Homoet
+-   Jasha Joachimsthal
+-   Ron Kersic
+-   Egor Kloos
+-   Patrick Kraaij
+-   Darius Kruythoff
+-   Sander van Lambalgen
+-   Mallory
+-   Edwin Martin
+-   Jaime Martinez
+-   Bran van der Meer
+-   Alex de Rijk
+-   Raph de Rooij
+-   Martin Savelkoul
+-   Vincent Smedinga
+-   Jeroen Wijering
+-   En nog 3 personen
