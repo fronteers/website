@@ -7,7 +7,7 @@
         {% if title == "Homepage" %}
             {{ translations[locale].headTitle }}
         {% else %}
-            {{ title  }} - {{ translations[locale].siteName }}
+            {{ title }} - {{ translations[locale].siteName }}
         {% endif %}
     </title>
 
@@ -41,6 +41,8 @@
     <meta name="theme-color" content="#ffce2e">
 
     <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:site_name" content="{{ translations[locale].siteName }}">
     <meta property="og:image" content="https://fronteers-beta.netlify.app/assets/images/social-share/og-image-{{ locale }}.jpeg">
     <meta property="og:image:alt" content="Image of Fronteers website" />
     <meta property="og:image:width" content="1280">
