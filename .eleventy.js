@@ -399,20 +399,23 @@ module.exports = function (eleventyConfig) {
     );
   });
 
-  eleventyConfig.addCollection("jobCategories", function (collection) {
-    let allCategories = getAllKeyValues(
-      collection.getFilteredByTag("jobs"),
-      "categories"
-    );
-
-    let jobCategories = allCategories.map((category) => ({
-      title: category,
-      slug: strToSlug(category),
-    }));
-
-    return jobCategories;
+  ["nl", "en"].forEach((locale) => {
+    eleventyConfig.addCollection(`jobCategories_${locale}`, function (collection) {
+      let allCategories = getAllKeyValues(
+        collection.getFilteredByTag("jobs")
+                  .filter((post) => Boolean(post.data.locale === locale)),
+        "categories"
+      );
+  
+      let jobCategories = allCategories.map((category) => ({
+        title: category,
+        slug: strToSlug(category),
+      }));
+  
+      return jobCategories;
+    });
   });
-
+  
   eleventyConfig.addFilter("getLocale", function (collection, locale) {
     return collection.filter((post) => Boolean(post.data.locale == locale));
   });
