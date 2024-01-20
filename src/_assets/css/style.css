@@ -4,6 +4,7 @@
 @import "./common/typography.css";
 @import "./common/shapes.css";
 @import "./common/layout.css";
+@import "./common/balloons.css";
 
 @import "./elements/button.css";
 @import "./elements/page-navigation.css";
