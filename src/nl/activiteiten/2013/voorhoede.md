@@ -26,39 +26,57 @@ Door de korte tijd van 6 minuut 40 is het ook voor mensen die geen uur willen of
 
 ## Arjan Eising, Jasmine Tests 101 in 6 minuut 40
 
-{%- vimeo "91783821" -%}
+<div>
+    {%- vimeo "91783821" -%}
+</div>
 
 ## Wilfred Nas, Figuring out the details in HTML5
 
-{%- vimeo "91790735" -%}
+<div>
+    {%- vimeo "91790735" -%}
+</div>
 
 ## Ruud Ravenhorst, Gemeentes en websites
 
-{%- vimeo "91801026" -%}
+<div>
+    {%- vimeo "91801026" -%}
+</div>
 
 ## Mariepauline Hollman, Webrichtlijnen - de contentkant
 
-{%- vimeo "91801096" -%}
+<div>
+    {%- vimeo "91801096" -%}
+</div>
 
 ## Jasha Joachimsthal, Samenwerken in Thymeleaf templates?
 
-{%- vimeo "91931632" -%}
+<div>
+    {%- vimeo "91931632" -%}
+</div>
 
 ## Hylke van Maaren, Understanding the designer
 
-{%- vimeo "91920394" -%}
+<div>
+    {%- vimeo "91920394" -%}
+</div>
 
 ## Jasper Moelker, Metadata: Coding for Computers
 
-{%- vimeo "92022876" -%}
+<div>
+    {%- vimeo "92022876" -%}
+</div>
 
 ## Marco Kuiper, Strike with Knockout
 
-{%- vimeo "92028119" -%}
+<div>
+    {%- vimeo "92028119" -%}
+</div>
 
 ## Sanne Veroude, The real world on the web
 
-{%- vimeo "92064454" -%}
+<div>
+    {%- vimeo "92064454" -%}
+</div>
 
 ## Aanwezigen
 

@@ -29,7 +29,9 @@ Er gingen twee iPad's de zaal door, zodat iedereen even kon kijken en voelen hoe
 
 ## Jurriaan Mous over het bouwen van een zorgdossier in HTML5/CSS3/GWT
 
-{%- vimeo "19870301" -%}
+<div>
+    {%- vimeo "19870301" -%}
+</div>
 
 -   [Video van de presentatie van Juriaan Mous](http://vimeo.com/19870301) met dank aan Frank Zijlstra
 

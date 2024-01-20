@@ -19,11 +19,15 @@ Donderdag 13 februari was Fronteers te gast bij [Trifork](http://trifork.nl) in 
 
 ## Event driven modular Backbone, door Justin Halsall
 
-{%- vimeo "87412001" -%}
+<div>
+    {%- vimeo "87412001" -%}
+</div>
 
 ## Sass: Off the beaten path, door Roy Tomeij
 
-{%- vimeo "87443366" -%}
+<div>
+    {%- vimeo "87443366" -%}
+</div>
 
 ## Aanwezigen
 

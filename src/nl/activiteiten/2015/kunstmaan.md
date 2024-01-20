@@ -20,15 +20,21 @@ Op donderdag 19 november 2015 is Fronteers te gast bij [Kunstmaan](http://kunstm
 
 ## Web-audio-api en de web-midi-api - Sam Bellen ([slides](https://sambego.github.io/pedalboard-presentation/))
 
-{%- vimeo "149896521" -%}
+<div>
+    {%- vimeo "149896521" -%}
+</div>
 
 ## Starten met es6 - Jens Gyselinck ([slides](https://speakerdeck.com/diskwriter/getting-started-in-es6))
 
-{%- vimeo "150007551" -%}
+<div>
+    {%- vimeo "150007551" -%}
+</div>
 
 ## Hybrid Apps met Ionic Framework - Bram(us) van Damme ([slides](http://www.slideshare.net/bramus/hybrid-apps-with-ionic-framework))
 
-{%- vimeo "152013818" -%}
+<div>
+    {%- vimeo "152013818" -%}
+</div>
 
 ## Waar?
 

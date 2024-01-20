@@ -19,15 +19,21 @@ Op donderdag 22 mei 2014 is Fronteers te gast bij Ordina in Mechelen. Er worden 
 
 ## Frank Baele | Frontend workflow with Grunt
 
-{%- vimeo "101963188" -%}
+<div>
+    {%- vimeo "101963188" -%}
+</div>
 
 ## Pieter Beulque | Gulp.js — The streaming build system
 
-{%- vimeo "104863080" -%}
+<div>
+    {%- vimeo "104863080" -%}
+</div>
 
 ## Gregory Van Looy | Modular design with CSS
 
-{%- vimeo "104863217" -%}
+<div>
+    {%- vimeo "104863217" -%}
+</div>
 
 ## Waar?
 

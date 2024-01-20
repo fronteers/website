@@ -22,7 +22,9 @@ De frontend krijgt steeds een belangrijker rol. Een website is nu een webapp met
 
 Slides: [Fronteers 20131205 the realtime web](http://www.slideshare.net/bertwijnants/fronteers-20131205-the-realtime-web) (SlideShare)
 
-{%- vimeo "84561335" -%}
+<div>
+    {%- vimeo "84561335" -%}
+</div>
 
 ## Building better client-side JavaScript applications with Domain Driven Design door Toon Ketels
 
@@ -32,7 +34,9 @@ Domain Driven Design is an approach to develop complex software by putting the f
 
 Slides: [Building better client-side JavaScript applications - Tools & Domain Driven Design](https://speakerdeck.com/toonketels/building-better-client-side-javascript-applications-tools-and-domain-driven-design) (Speaker Deck)
 
-{%- vimeo "85507375" -%}
+<div>
+    {%- vimeo "85507375" -%}
+</div>
 
 Let op: deze video is niet volledig opgenomen, de laatste 10 minuten ontbreken helaas!
 

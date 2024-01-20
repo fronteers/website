@@ -25,7 +25,9 @@ Scalable Vector Graphics (SVG) zijn een eersterangs burger geworden in HTML5. Ee
 
 Bekijk [de video op Vimeo](https://vimeo.com/80191459) (_De geluidskwaliteit kan wat te wensen overlaten. Tip: gebruik oortjes of een hoofdtelefoon._) en [de slides op Speaker Deck](https://speakerdeck.com/jvhellemond/svg-for-the-responsive-web).
 
-{%- vimeo "80191459" -%}
+<div>
+    {%- vimeo "80191459" -%}
+</div>
 
 ## [lang="en"] Real time client-server architecture using Server-Sent Events
 

@@ -18,11 +18,15 @@ Op donderdag 19 juni 2014 is Fronteers te gast bij Cronos in Kontich. Er worden 
 
 ## JavaScript at your enterprise, Dimitri Mestdagh
 
-{%- vimeo "107045511" -%}
+<div>
+    {%- vimeo "107045511" -%}
+</div>
 
 ## Terugkeren naar de roots van JavaScript, Bram(us) Van Damme
 
-{%- vimeo "107234684" -%}
+<div>
+    {%- vimeo "107234684" -%}
+</div>
 
 ## Waar?
 

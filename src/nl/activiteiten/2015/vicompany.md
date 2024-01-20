@@ -35,7 +35,9 @@ Als webdevelopers beschouwen we mobiele telefoons nog vaak als kleine PCs. We we
 
 In een met demo's gevulde talk gooit Jan Jongboom telefoons in de lucht, maakt hij een theremin, mishandelt wat telefoons met een schroevendraaier, speelt met de gyroscoop, tagt dingen met bluetooth beacons, en demonstreert hij zijn jongleer-skills. En dat allemaal... met JavaScript.
 
-{%- vimeo "149281705" -%}
+<div>
+    {%- vimeo "149281705" -%}
+</div>
 
 ## Vreemde browsers - Niels Leenheer ([slides](https://speakerdeck.com/nielsleenheer/vreemde-browsers))
 
@@ -43,7 +45,9 @@ In een met demo's gevulde talk gooit Jan Jongboom telefoons in de lucht, maakt h
 
 Niet iedereen gebruikt een iPhone of Samsung Galaxy en er zijn meer browsers dan Internet Explorer, Chrome, Firefox en Safari en de Android browser. Een overzicht van vreemde browsers en rare devices en veronderstellingen waar front-end ontwikkelaars van uit gaan die misschien wel niet kloppen.
 
-{%- vimeo "149170885" -%}
+<div>
+    {%- vimeo "149170885" -%}
+</div>
 
 ## Waar?
 

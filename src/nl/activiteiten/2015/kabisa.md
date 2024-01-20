@@ -23,13 +23,17 @@ Geen tijd om na je werk nog ergens een hapje te gaan eten? Geen nood: er staat v
 
 Rik zal spreken over Conditioner.js, een door hem ontwikkelde javascript library die je kunt gebruiken voor het ontkoppelen en context-based laden van JavaScript functionaliteit op het multi device web.
 
-{%- vimeo "144794951" -%}
+<div>
+    {%- vimeo "144794951" -%}
+</div>
 
 ## Koen Kivits - Bowser in de browser ([slides](http://koenkivits.github.io/slides/20150408-kabisafronteers/))
 
 Wat gebeurt er als je 30 jaar oude techniek naar de browsers van nu brengt? Koen vertelt over het experimenteren met nieuwe browser API's om de NES console nieuw leven in te blazen.
 
-{%- vimeo "145654653" -%}
+<div>
+    {%- vimeo "145654653" -%}
+</div>
 
 ## Bereikbaarheid
 
