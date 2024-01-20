@@ -1,6 +1,8 @@
 {
     "name": "Fronteers",
     "short_name": "Fronteers",
+    "description": "Fronteers is the non-profit professional association of Dutch-speaking front-end developers.",
+    "start_url": "https://fronteers.nl/",
     "icons": [
         {
             "src": "/assets/favicon/android-chrome-192x192.png",
@@ -15,5 +17,6 @@
     ],
     "theme_color": "#ffce2e",
     "background_color": "#ffce2e",
-    "display": "standalone"
+    "display": "standalone",
+    "categories": ["frontend", "webdevelopment", "web development", "professional association"]
 }
