@@ -22,15 +22,20 @@
     </noscript>
 
     <div id="load-on-javascript" hidden>
-        <button id="navigation-open" class="navigation-open mobile-only">
-            {%- include svg/icon_menu.svg -%}
+        <button id="navigation-toggle" aria-expanded="false" class="navigation-open mobile-only">
+            <i class="navigation-open-icon">
+                {%- include svg/icon_menu.svg -%}
+            </i>
+            <i class="navigation-close-icon">
+                {%- include svg/icon_close_menu.svg -%}
+            </i>
             <span class="visually-hidden">Navigation</span>
         </button>
 
-        <button id="navigation-close" class="navigation-close mobile-only">
+        {% comment %} <button id="navigation-close" class="navigation-close mobile-only">
             {%- include svg/icon_close_menu.svg -%}
             <span class="visually-hidden">Navigation</span>
-        </button>
+        </button> {% endcomment %}
     </div>
 
 </div>
