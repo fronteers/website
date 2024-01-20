@@ -63,11 +63,14 @@
 }
 
 .blog-summary {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+
   font-size: var(--font-size-18);
   line-height: 1.5;
-  overflow: hidden;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
 }
 
 .blog-meta {

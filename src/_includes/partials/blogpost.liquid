@@ -26,9 +26,9 @@
             {%- include partials/utility/dynamic-headerlevel level: headerlvl title: post.data.title link: post.url -%}
 
             {%- if post.data.summary -%}
-                <p class="blog-summary">{{ post.data.summary | strip_html | truncatewords: 60 | truncate: 160 }}</p>
+                <p class="blog-summary">{{ post.data.summary | strip_html | truncate: 500 }}</p>
             {%- else -%}
-                <p class="blog-summary">{{ post.templateContent | strip_html | truncatewords: 60 | truncate: 160 }}</p>
+                <p class="blog-summary">{{ post.templateContent | strip_html | truncate: 500 }}</p>
             {%- endif -%}
         </div>
 
