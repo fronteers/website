@@ -6,7 +6,7 @@ categories:
     - Bijeenkomsten
 ---
 
-Op donderdag 3 maart is Fronteers te gast bij [80beans](http://www.80beans.com/) in Amsterdam. Roy Tomeij zal spreken over front-end meta languages. Vasilis van Gemert gaat dieper in op adaptive development.
+Op donderdag 3 maart is Fronteers te gast bij 80beans in Amsterdam. Roy Tomeij zal spreken over front-end meta languages. Vasilis van Gemert gaat dieper in op adaptive development.
 
 ## Het programma is als volgt:
 
@@ -24,4 +24,4 @@ Er zijn verschillende meta-languages die het schrijven van front-end code pretti
 
 In deze presentatie behandelt [Vasilis van Gemert](http://vasilis.nl) van [Mirabeau](http://mirabeau.nl) aan de hand van praktijkvoorbeelden verschillende technieken die in te zetten zijn bij het bouwen van adaptive layouts. Denk hierbij aan termen als em-based layouts, media-queries, re-alignment best practices en client-side adaptive image-replacement. Met andere woorden: echt flexibele websites die zich aanpassen aan het apparaat waarmee gekeken wordt.
 
-80beans is gevestigd aan de Vijzelstraat 72, ruimte 3.56, 1017 HL , Amsterdam. Zoals gebruikelijk is de bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is het gewenst dat je [jezelf opgeeft via het formulier](/bijeenkomsten/2011/80beans#formulier-1). Er zal gezorgd worden voor webstandaardenbier.
+80beans is gevestigd aan de Vijzelstraat 72, ruimte 3.56, 1017 HL , Amsterdam. Zoals gebruikelijk is de bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is het gewenst dat je jezelf opgeeft. Er zal gezorgd worden voor webstandaardenbier.

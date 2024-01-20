@@ -35,5 +35,5 @@ Na de presentaties lieten zowel Kilian Valkhof als Wilfred Nas weten dat ze mome
 
 ## Overige verslagen
 
--   [Een avondje Front-end discussies aan de Mangrove bar](http://blog.mangrove.nl/index.php?pageID=3434&messageID=881) (blog.mangrove.nl)
--   [Video report: Fronteers meeting bij Mangrove](http://blog.mangrove.nl/index.php?pageID=3434&messageID=902) (blog.mangrove.nl)
+-   Een avondje Front-end discussies aan de Mangrove bar (blog.mangrove.nl)
+-   Video report: Fronteers meeting bij Mangrove (blog.mangrove.nl)

@@ -13,4 +13,4 @@ categories:
 
 ## Overige verslagen
 
--   [Gilde van Front-Enders op bezoek bij Info.nl](http://open.info.nl/archief/2007/07/05/gilde-van-front-enders-op-bezoek-bij-infonl/) (open.info.nl)
+-   Gilde van Front-Enders op bezoek bij Info.nl (open.info.nl)

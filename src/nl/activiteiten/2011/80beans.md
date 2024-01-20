@@ -7,7 +7,7 @@ categories:
     - meetup
 ---
 
-3 maart was Fronteers te gast bij [80beans](http://80beans.com) in Amsterdam. Vasilis van Gemert en Roy Tomeij gaven een presentatie.
+3 maart was Fronteers te gast bij 80beans in Amsterdam. Vasilis van Gemert en Roy Tomeij gaven een presentatie.
 
 Arjan Eising heet iedereen welkom en vertelt kort over Fronteers.
 
@@ -33,7 +33,6 @@ Vasilis heeft in een weekeind de Flickr.com site aangepast voor mobiele devices.
 
 ## Overige materialen en verslagen
 
-[Slides van de presentatie van Roy](http://www.80beans.com/nl/blog/2011/03/03/slides-for-my-presentation-at-fronteers)
 [Slides van de presentatie van Vasilis](http://vasilis.nl/presentaties/adaptive-layout/) (links op laatste slide)
 
 ## Aanwezigen

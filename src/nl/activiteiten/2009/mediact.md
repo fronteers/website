@@ -24,4 +24,4 @@ Als user experience designer tijdens het hele proces betrokken bent met het prot
 ## Overige materialen en verslagen
 
 -   [Presentatie Caspar Hardholt over Quality Assurance voor front-end developers](http://www.slideshare.net/mediaCT/quality-assurance-voor-frontend-developers) (slideshare.net, SWF)
--   [Presenatie Folkert de Jong over UX in een Agile omgeving](http://designerd.posterous.com/slideshare-fronteers-ux-in-een-agile-omgeving) (designerd.posterous.com, SWF)
+-   Presentatie Folkert de Jong over UX in een Agile omgeving (designerd.posterous.com, SWF)

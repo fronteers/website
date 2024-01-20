@@ -23,7 +23,7 @@ Er zijn diverse manieren om meer semantiek (betekenis) aan je HTML toe te voegen
 
 Met de querytaal [Sparql](http://en.wikipedia.org/wiki/SPARQL) kun je snel en eenvoudig data uit het web van RDF documenten halen. Je kunt definiëren waar je informatie aan moet voldoen, en een programma zoekt daarna naar alle informatie die binnen je beperkingen valt.
 
-Iemand uit het publiek merkt op dat er een interessant [TED.com presentatie is van Sir Tim Berners-Lee: over het volgende web](http://live5.ted.com/talks/tim_berners_lee_on_the_next_web.html).
+Iemand uit het publiek merkt op dat er een interessante TED.com presentatie is van Sir Tim Berners-Lee: over het volgende web.
 
 ## Data portability door Andreas Creten van My Name is E en madewithlove
 

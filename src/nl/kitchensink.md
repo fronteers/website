@@ -70,9 +70,9 @@ Links can be created and formatted as follows:
 
 <!-- {% endraw %} -->
 
-{% link "http://example.com/123" "Klik mij" %}
-{% link "http://example.com/123" "Klik mij" "curly-braces" %}
-{% link "http://example.com/123" "Klik mij" "greater-than" %}
+{% link "http://example.com/" "Klik mij" %}
+{% link "http://example.com/" "Klik mij" "curly-braces" %}
+{% link "http://example.com/" "Klik mij" "greater-than" %}
 
 ## Buttons
 

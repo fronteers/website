@@ -24,6 +24,6 @@ De laatste jaren wordt er een hype gebouwd om HTML5 en dan met name om de 'sexy'
 
 ## Routebeschrijving
 
-IPROFS is gevestigd aan de Claus Sluterweg 125, 2012 WS Haarlem. Er is een [routebeschrijving beschikbaar op de site van IPROFS](http://www.iprofs.nl/routebeschrijving.html).
+IPROFS is gevestigd aan de Claus Sluterweg 125, 2012 WS Haarlem. Er is een routebeschrijving beschikbaar op de site van IPROFS.
 
 Zoals altijd is deze bijeenkosmt gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 45 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2010/iprofs#formulier-1) Vol is vol!
