@@ -36,6 +36,16 @@
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Italic.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">
 
+    {% if locale == 'nl' %}
+    <link rel="alternate" type="application/atom+xml" title="Fronteers blog" href="https://fronteers.nl/feeds/blog.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Fronteers activiteiten" href="https://fronteers.nl/feeds/activiteiten.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Fronteers vacatures" href="https://fronteers.nl/feeds/vacatures.xml" />
+    {% else %}
+    <link rel="alternate" type="application/atom+xml" title="Fronteers blog" href="https://fronteers.nl/feeds/blog-en.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Fronteers activities" href="https://fronteers.nl/feeds/activities.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Fronteers jobs" href="https://fronteers.nl/feeds/jobs.xml" />
+    {% endif %}
+
     <meta name="description" content="{{ translations[locale].metaDescription }}">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffce2e">
