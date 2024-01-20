@@ -1,10 +1,11 @@
 ---
-title: "Introductie Web Components"
+title: 'Introductie Web Components'
 date: 2020-12-29
 author: Edwin Martin
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Web components is een W3C webstandaard waarmee je, eenvoudig gezegd, je eigen HTML-tags kunt maken.
 
 Het toevoegen van een plattegrond op je webpagina kan dan zo eenvoudig zijn als het toevoegen van deze tag:
@@ -25,10 +26,10 @@ Het is het enige bekende framework met web components als basis.
 
 Sinds 2018 zijn van dit project nog twee delen over die ook nu handig zijn als je met web components aan de slag gaat:
 
-* [LitElement](https://lit-element.polymer-project.org/): een basisclass voor Web Components.
-* [lit-html](https://lit-html.polymer-project.org/): een templating library gebaseerd op JavaScript template literals (dus gebruik makend van ``${var}…``).
+-   [LitElement](https://lit-element.polymer-project.org/): een basisclass voor Web Components.
+-   [lit-html](https://lit-html.polymer-project.org/): een templating library gebaseerd op JavaScript template literals (dus gebruik makend van `${var}…`).
 
-# Technologieën
+## Technologieën
 
 Web Components is een verzamelnaam van drie webtechnologieën: Shadow DOM, Custom Elements en HTML Templates.
 
@@ -49,7 +50,7 @@ Een Custom Element is een JavaScript class waarmee je het gedrag van het element
 Alle HTML die tussen `<template>` en `</template>` staat wordt door de browser niet geparsed, dus CSS, JavaScript en bijvoorbeeld afbeeldingen worden niet uitgevoerd en gedownload. Dit template kan je met JavaScript kopiëren en in je Custom Element gebruiken, waarna het wel wordt geparset. Meer over het template element vind je op
 [<template>: The Content Template element op MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template).
 
-# Code voorbeeld
+## Code voorbeeld
 
 Hieronder staat de de code van een waarschuwings-component dat verder nog niet veel kan.
 
@@ -102,13 +103,13 @@ In het JavaScript zien we dat de Shadow DOM wordt gevuld met CSS en HTML-code. `
 
 Door het gebruik van de Shadow DOM is de toegepaste CSS alleen geldig binnen deze Shadow DOM en nooit op de rest van de pagina.
 
-* Dit custom element kan worden uitgebreid met verschillende "levenscyclus functies", die worden aangeroepen als het bijvoorbeeld aan de pagina wordt toegevoegd wordt of juist wordt verwijderd. 
-* Je kan de attributen uitlezen, reageren als de waarde van een attribuut verandert en je kan net als gewone HTML-elementen events afvuren.
-* Op [Web Fundamentals](https://developers.google.com/web/fundamentals/web-components/customelements) wordt uitgebreid beschreven hoe je een custom element maakt.
+-   Dit custom element kan worden uitgebreid met verschillende "levenscyclus functies", die worden aangeroepen als het bijvoorbeeld aan de pagina wordt toegevoegd wordt of juist wordt verwijderd.
+-   Je kan de attributen uitlezen, reageren als de waarde van een attribuut verandert en je kan net als gewone HTML-elementen events afvuren.
+-   Op [Web Fundamentals](https://developers.google.com/web/fundamentals/web-components/customelements) wordt uitgebreid beschreven hoe je een custom element maakt.
 
 Miniplugje: een paar onderdelen van een Web Component zijn wat omslachtig en niet zo declaratief. Om dit te verbeteren heb ik de lichtgewicht [web-component-decorator](https://github.com/edwinm/web-component-decorator) geschreven. Je hebt hiervoor wel TypeScript nodig.
 
-# Customized built-in elements
+## Customized built-in elements
 
 Met customized built-in elements kan je deze notatie gebruiken:
 
@@ -120,7 +121,7 @@ Dit is een bestaand HTML-element die met het is-attribuut wordt uitgebreid naar 
 
 Als je op de [caniuse pagina](https://caniuse.com/custom-elementsv1) kijkt, dan zal je zien dat Safari deze customized built-in elements niet ondersteunt. De toepassing hiervan wordt daardoor erg beperkt en dat is erg jammer.
 
-# Bibliotheken
+## Bibliotheken
 
 ## Webcomponents.org
 
@@ -146,6 +147,6 @@ In React moet je extra toeren uithalen om web components te kunnen gebruiken. He
 
 Binnen React kan je ook een component omzetten naar een web component, maar daar heb je wel externe wrappers voor nodig. Hopelijk gaat React snel beter om met web components.
 
-# Conclusie
+## Conclusie
 
 Web components zijn heel krachtig en te gebruiken op zowel moderne als oudere browsers. Als je al een framework gebruikt, dan is het misschien niet zo nuttig. Maar wil je framework-onafhankelijk zijn of juist een lichtgewicht (JAMStack) website met snelle laadtijden bouwen, dan zijn web components een voor de hand liggende keus.

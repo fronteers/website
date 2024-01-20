@@ -6,22 +6,23 @@ location:
 categories:
     - meetup
 ---
+
 We did it! Op 22 juni 2017 zal het 555 dagen geleden zijn sinds de laatste Fronteers meetup in België. Hiermee verbreken we het record van 541 dagen zonder Belgische regering na de verkiezingen van 13 juni 2010.
 
 Sinds 2010 waren er maar liefsts 30 meetups bij 23 verschillende bedrijven in België. Met dit record is het opnieuw de hoogste tijd om de front-end developers van achter hun scherm weg te halen.
 
-Op donderdag 22 juni 2017 vliegt Fronteers België er terug in met een eerste meetup bij [Kunstmaan](https://kunstmaan.be/) in Leuven. We hebben twee Engelstalige talks door *Ilias Van Peer* en *Sam Bellen*. De bijeenkomst is gratis voor leden en niet-leden, en we zorgen voor iets lekkers te eten!
+Op donderdag 22 juni 2017 vliegt Fronteers België er terug in met een eerste meetup bij [Kunstmaan](https://kunstmaan.be/) in Leuven. We hebben twee Engelstalige talks door _Ilias Van Peer_ en _Sam Bellen_. De bijeenkomst is gratis voor leden en niet-leden, en we zorgen voor iets lekkers te eten!
 
 ![](/_img/bijeenkomsten/km-top.jpg)
 
-# Programma
+## Programma
 
-* 18:00 · Inloop met eten
-* 18:50 · Introductie en welkomstwoord
-* 19:00 · Talk 1: *Ilias Van Peer* - Elm, a delightful language.
-* 19:45 · Pauze
-* 20:00 · Talk 2: *Sam Bellen* - I didn't know the browser could do that!
-* 20:45 · Borrel
+-   18:00 · Inloop met eten
+-   18:50 · Introductie en welkomstwoord
+-   19:00 · Talk 1: _Ilias Van Peer_ - Elm, a delightful language.
+-   19:45 · Pauze
+-   20:00 · Talk 2: _Sam Bellen_ - I didn't know the browser could do that!
+-   20:45 · Borrel
 
 ```
 
@@ -47,13 +48,13 @@ Ilias Van Peer ([@zwilias](https://github.com/zwilias)) is Front-End Developer b
 
 The times when a browser simply had to parse and show some markup are long gone. These days they are full of interesting api’s exposing various information and behaviour to web developers. This talk will walk you through a few of these api’s, some of which you might know, some maybe not. I will show a quick example of what some of these api’s can do, and how to use them.
 
-Sam Bellen  ([@sambego](https://github.com/sambego)) is Front-End Developer bij madewithlove.
+Sam Bellen ([@sambego](https://github.com/sambego)) is Front-End Developer bij madewithlove.
 
 {%- vimeo "232176042" -%}
 
 ![Kunstmaan](/_img/bijeenkomsten/km.jpg)
 
-# Locatie
+## Locatie
 
 _Kunstmaan_
 Philipssite 5 - bus 10
@@ -62,10 +63,6 @@ Philipssite 5 - bus 10
 [https://kunstmaan.be](https://kunstmaan.be)
 
 [Route plannen met Google Maps](https://www.google.be/maps/place/Kunstmaan/@50.867195,4.7107903,17z/data=!3m1!4b1!4m5!3m4!1s0x47c160e1fd1d81db:0x792791c9a757a87a!8m2!3d50.867195!4d4.712895?hl=en)
-
-
-
-
 
 <table>
 <tr>

@@ -1,11 +1,12 @@
 ---
-title: "Bijeenkomst bij SWIS op 13 november 2008"
+title: 'Bijeenkomst bij SWIS op 13 november 2008'
 date: 2008-11-13
 eventdate: 2008-11-13
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 Op 13 november 2008 organiseerde [SWIS](http://www.swis.nl/) een Fronteers bijeenkomst. Ruim dertig aanwezigen kwamen in Leiden bij elkaar voor een tweetal presentaties over respectievelijk accessibility en usability (welke erg goed op elkaar aansloten), en natuurlijk de gebruikelijke gezellige tijd voor- en na-kletsen.
 
 Kamiel Wanrooij van [Everyweb Solutions](http://everywebsolutions.nl/) startte de bijeenkomst met een presentatie over accessibility. Na een korte opfrisser over accessibility (Kamiel had samen met een collega al eens [eerder een presentatie over accessibility](/bijeenkomsten/2008/everyweb-solutions) gegeven aan Fronteers) liep hij ons door een aantal voorkomende (visuele) beperkingen. Aan de hand van afbeeldingen liet hij zien hoe die mensen websites zagen. Vervolgens liet Kamiel ons aan de hand van praktijkvoorbeelden zien hoe accessibility wel en niet moest. Hij introduceerde een gratis screenreader genaamd [Thunder](http://www.screenreader.net/), iets wat voor veel front-end developers erg handig is.
@@ -16,9 +17,9 @@ Na een korte pauze was het de beurt aan Lenny de Rooy van [Tribal Internet Marke
 
 Zowel Kamiel als Lenny waren erg vaardig in hun kennisgebied en wisten de vele vragen uitstekend te beantwoorden en zorgde voor veel nieuw inzicht op het gebied van accessibility en usability. Wat ons betreft een zeer geslaagde avond!
 
-# Overige materialen
+## Overige materialen
 
-* [Presentatie Kamiel Wanrooij over accessibility](/_downloads/2008/toegankelijkheid-13-november.pdf) (PDF, 1,67MB)
-* [Presentatie Lenny de Rooij over usability](http://www.slideshare.net/secret/msyGDDNICF9YZ6) (Slideshare)
+-   [Presentatie Kamiel Wanrooij over accessibility](/_downloads/2008/toegankelijkheid-13-november.pdf) (PDF, 1,67MB)
+-   [Presentatie Lenny de Rooij over usability](http://www.slideshare.net/secret/msyGDDNICF9YZ6) (Slideshare)
 
 Vragen over deze bijeenkomst? Stel ze gerust op [het blog](/blog/2008/11/bijeenkomst-november#reageer).

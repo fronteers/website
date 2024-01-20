@@ -24,6 +24,6 @@ Door Arjan Eising bij 'Meeting Plaza: The World of Society 3.0' in Utrecht.
 -   Bas van 't Hoff
 -   en nog twee anderen
 
-# Opgave
+## Opgave
 
 Deze workshop zit vol. Mocht je geïnteresseerd zijn in de workshop, hou dan het [overzicht](/workshops) in de gaten of blijf op de hoogte via [RSS](http://feeds.feedburner.com/FronteersCursussen), [Twitter](https://twitter.com/fronteers) en [e-mail](/workshops#per-mail).

@@ -10,7 +10,7 @@ teacher: Jan Moesen
 
 Door Jan Moesen bij Hogeschool van Gent, in Gent
 
-# Locatie
+## Locatie
 
 De workshop vindt plaats in vergaderlokaal D1.02 van de Campus Schoonmeersen bij de Hogeschool Gent.
 

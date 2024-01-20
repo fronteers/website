@@ -1,10 +1,11 @@
 ---
-title: "CSS Custom Properties, Cascading Variables en het Einde van de Stijl"
+title: 'CSS Custom Properties, Cascading Variables en het Einde van de Stijl'
 date: 2019-12-05
 author: Edwin Martin
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Het is al heel lang mogelijk om de CSS-stijl vanuit HTML te bepalen met het `style` attribuut:
 
 ```
@@ -40,7 +41,7 @@ element.classList.add("warning");
 
 Nu zou ik dit artikel kunnen eindigen met het advies om nooit meer het HTML-attribuut `style` en de JavaScript-property `style` te gebruiken, maar je had vast al gezien dat dit artikel nog wat langer is. Er zijn namelijk situaties waarin je in JavaScript een waarde berekent die je in een stijl wil gebruiken. Je berekent bijvoorbeeld een kleur of je gebruikt een complexe berekening om een x-positie uit te rekenen. Je kan dan weer de style-property erbij pakken en de `color` of de `left` properties veranderen. Maar dan heb je weer dezelfde problemen als hierboven beschreven. Wat als je later een ander element ook deze kleur wil geven? En niet `left`, maar `transform` wil gebruiken? Dan heb je toch weer een probleem.
 
-# CSS variabelen
+## CSS variabelen
 
 Gelukkig is daar een oplossing voor, die inmiddels door [alle moderne browsers](https://caniuse.com/#feat=css-variables) wordt ondersteund: [CSS Custom Properties for Cascading Variables](https://www.w3.org/TR/css-variables/), kortweg CSS variabelen. Hoe werken CSS variabelen? Laten we beginnen met een voorbeeld in CSS:
 
@@ -57,11 +58,11 @@ Gelukkig is daar een oplossing voor, die inmiddels door [alle moderne browsers](
 
 Binnen CSS kan je dus een custom property zetten en die op verschillende plekken weer gebruiken. Het aanpassen van de waarde is hierdoor veel eenvoudiger geworden. Een CSS custom property zet je op dezelfde manier als een CSS property, maar ze beginnen altijd met '--'. Het uitlezen doe je met `var(--varname)`. De optionele tweede parameter van `var()`, in het voorbeeld hierboven `red`, is de default waarde voor het geval de variabele `--warning-color` (nog) niet is gezet. Het is belangrijk om te weten dat deze variabelen dezelfde regels voor cascading volgen als alle andere CSS properties, vandaar ook de naam Cascading Variables.
 
-# Custom Properties of Variables?
+## Custom Properties of Variables?
 
 De termen custom properties en variables lijken in teksten over dit onderwerp door elkaar te worden gebruikt, maar wat is nou wat? In CSS heb je een declaratie zoals `color: white`. Links van de dubbele punt staat de property en rechts daarvan de waarde. Als de property met '--' begint, is het altijd een custom property. Als je deze aan de rechterkant van de dubbele punt gebruikt in een `var()`-functie, dan is het een variabele.
 
-# JavaScript
+## JavaScript
 
 In JavaScript is het mogelijk om een waarde te geven aan een CSS custom property waarna je in CSS precies kan bepalen wat je ermee doet. Het veranderen van de property `--warning-color` doe je in JavaScript als volgt:
 
@@ -77,7 +78,7 @@ document.documentElement.style.setProperty("--warning-color", "maroon");
 
 Was de strekking van dit artikel niet om nooit meer `style` te gebruiken? Nu doen we het toch. Oké, we laten dan één uitzondering toe, namelijk om `setProperty()` te kunnen gebruiken.
 
-# Rekenen
+## Rekenen
 
 Met CSS variabelen kan je ook rekenen. Stel, je hebt een box waarvan in JavaScript is bepaald dat je die 80 pixels van de linkerkant wil weergeven:
 
@@ -100,7 +101,7 @@ Maar in je CSS weet je dat je daar ook de linkermarge bij moet optellen, die je 
 
 De `left`-property van de box wordt nu `90px`.
 
-# Geen eenheid
+## Geen eenheid
 
 Nog beter is om in de `setProperty`-functie geen eenheid zoals `px` te gebruiken. Die kan je het best bepalen waar dat hoort: in de CSS. Neem bijvoorbeeld een voortgangsindicator die van 0 naar 100 loopt.
 
@@ -120,7 +121,7 @@ Je CSS kan er dan zo uitzien:
 
 Als de voortgang 40% is, dan zal de breedte gelijk zijn aan 40 × 0,6rem = 24rem.
 
-# Media queries
+## Media queries
 
 CSS variabelen zijn heel goed te gebruiken in media queries. Bijvoorbeeld om op hele kleine schermen alle marges klein te maken om alles nog goed te laten passen:
 
@@ -140,7 +141,7 @@ CSS variabelen zijn heel goed te gebruiken in media queries. Bijvoorbeeld om op 
 }
 ```
 
-# Theming
+## Theming
 
 Je kan een theme natuurlijk heel eenvoudig houden met een voor- en achtergrondkleur en een paar classes. Maar als je sommige teksten, randen of iconen bepaalde accentkleuren wil geven, dan wordt het met op de oude manier snel erg omslachtig. CSS variabelen zijn hier juist heel geschikt voor. Ook bijvoorbeeld voor _dark mode_, waarbij de dark/lightmodus van de pagina meeverandert met die van het besturingssysteem:
 
@@ -171,7 +172,7 @@ html {
 
 Je kan op deze manier met verschillende kleurenpaletten werken en deze in de CSS toekennen aan verschillende properties, in dit geval de `border`.
 
-# Variëren met kleuren
+## Variëren met kleuren
 
 Met een beetje creativiteit kan je ook kleuren variëren. Dat werkt het beste als je `hsl()` of `hsla()`-notatie gebruikt. Je kan bijvoorbeeld de tint (hue) vastleggen in een variabele en in de CSS allerlei variaties definiëren:
 
@@ -189,7 +190,7 @@ Met een beetje creativiteit kan je ook kleuren variëren. Dat werkt het beste al
 
 Door nu enkel `--theme-hue` te veranderen van bijvoorbeeld 120 (groen) in 0 (rood), verandert ook de stijl van `.themed-box`, inclusief alle variaties op die kleur. Natuurlijk kan je op deze manier ook de verzadiging (saturation) wijzigen om een pagina/element feller of ingetogener te maken. Of de helderheid (lightness) wijzigen om een pagina lichter of donkerder te maken. Combineer deze techniek met calc, media queries, theming en dark mode en er gaat een nieuwe wereld open. Je zal buiten vast een regenboog zien. En misschien wel een eenhoorn!
 
-# Browser variabelen
+## Browser variabelen
 
 Naast `var()` voor het uitlezen van CSS-variabelen, bestaat er ook `env()` voor het uitlezen van browser-omgevingsvariabelen. Op dit moment (2019) zijn er vier van deze omgevingsvariabelen
 gedefinieerd: `safe-area-inset-top`, `safe-area-inset-right`, `safe-area-inset-bottom` en `safe-area-inset-left`. Deze vier variabelen geven de afstand van de rand aan waarbinnen de inhoud geheel te bekijken is. Denk bijvoorbeeld aan een rond horloge met daarop een rechthoek met tekst. De variabelen geven de afstanden aan van de rechthoek tot de randen van het scherm. Een voorbeeld in CSS:
@@ -206,11 +207,11 @@ gedefinieerd: `safe-area-inset-top`, `safe-area-inset-right`, `safe-area-inset-b
 
 Bij `env()` is, net als bij `var()`, de tweede parameter de default parameter als de variabele niet is gezet.
 
-# Preprocessors
+## Preprocessors
 
 Ik heb meerdere projecten gezien waarbij Sass of Less alleen werd gebruikt om een rij waarden aan variabelen toe te kennen om die vervolgens in de rest van de style sheets te gebruiken. Is het dan niet handiger om de preprocessor weg te laten en CSS variabelen te gebruiken? Ik denk van wel. In het buildproces sla je een stap over en bijvoorbeeld het debuggen wordt een stuk makkelijker.
 
-# Internet Explorer 11
+## Internet Explorer 11
 
 En Internet Explorer 11 dan? Nee, die ondersteunt helaas geen CSS variabelen. In oktober 2019 had IE11 wereldwijd een [marktaandeel van 1,8%](https://gs.statcounter.com/browser-version-market-share#monthly-201811-201910). Wil je deze browser (en andere oude browsers) toch ondersteunen, dan kan je _graceful degradation_ toepassen, wat eigenlijk altijd wel een goed idee is:
 
@@ -225,11 +226,11 @@ En Internet Explorer 11 dan? Nee, die ondersteunt helaas geen CSS variabelen. In
 
 In dit geval wordt de waarschuwing in oude browsers altijd rood weergegeven. Het is misschien niet precies de kleur die de ontwerper had bedacht, maar een gebruiker van zo'n oude browser is al blij als een website bruikbaar is.
 
-# Toekomst
+## Toekomst
 
-Lea Verou wilde ook diagrammen in CSS kunnen tekenen, inclusief schuine verbindingslijnen. Dat gaat nog niet goed met alleen `calc()`, want daar heb je ook trigonometrische functies voor nodig. Op het moment van schrijven, in 2019, wordt er [gewerkt](https://github.com/w3c/csswg-drafts/issues/2331) om de functies `sin()`,  `cos()`,  `tan()`,  `acos()`, `asin()`, `atan()`, `atan2()`, `hypot()`, `sqrt()` en `pow()` aan CSS toe te voegen.
+Lea Verou wilde ook diagrammen in CSS kunnen tekenen, inclusief schuine verbindingslijnen. Dat gaat nog niet goed met alleen `calc()`, want daar heb je ook trigonometrische functies voor nodig. Op het moment van schrijven, in 2019, wordt er [gewerkt](https://github.com/w3c/csswg-drafts/issues/2331) om de functies `sin()`, `cos()`, `tan()`, `acos()`, `asin()`, `atan()`, `atan2()`, `hypot()`, `sqrt()` en `pow()` aan CSS toe te voegen.
 
-# Breinbreker
+## Breinbreker
 
 Tot slot een leuk stukje code uit een [tweet van Micah Godbolt](https://twitter.com/micahgodbolt/status/1131626097349496833?s=20) om even over na te denken. Welke kleur is "Hello World"?
 
@@ -251,6 +252,7 @@ Tot slot een leuk stukje code uit een [tweet van Micah Godbolt](https://twitter.
 Bedenk eerst zelf wat je antwoord zal zijn en kijk daarna pas naar het [antwoord](https://codepen.io/edwinm/pen/bGGOdpa). Aan de stembalkjes in de [tweet](https://twitter.com/micahgodbolt/status/1131626097349496833?s=20) te zien, zitten er nogal wat mensen naast. Bedenk ook waarom het juiste antwoord het juiste antwoord is.
 
 ### Over Edwin Martin
+
 <img src="/_img/adventskalender/edwin.jpg" alt="Foto van Edwin Martin" class="floating-portrait" /> 
 Edwin is freelance frontend webontwikkelaar en woont in Hilversum. Hij [blogt](https://bitstorm.org/), twittert in het Engels over frontendzaken op [@edwinmdev](https://mobile.twitter.com/edwinmdev/) en schrijft af en toe [stukjes code](https://github.com/edwinm).
 Edwins donatie gaat naar Bits of Freedom.

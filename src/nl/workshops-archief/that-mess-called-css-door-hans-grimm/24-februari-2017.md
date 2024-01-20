@@ -12,7 +12,7 @@ Geef je via het [onderstaande formulier](#formulier-1) op voor de workshop [That
 
 Lees voordat je je inschrijft ook even [onze voorwaarden](/workshops/voor-deelnemers).
 
-# Locatie
+## Locatie
 
 De workshop vindt plaats in de U-trechters, vlakbij het Centraal Station. Er zijn 4 trechters met 2 opgangen, bij binnenkomst zal die van Fronteers staan aangegeven.
 

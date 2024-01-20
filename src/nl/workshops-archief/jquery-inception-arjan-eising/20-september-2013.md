@@ -25,7 +25,7 @@ Door Arjan Eising bij 'Seats2Meet' Utrecht.
 -   Mallory …
 -   Maarten Baakman
 
-# Opgave
+## Opgave
 
 Opgave kan door onderstaand formulier _zo volledig mogelijk_ in te vullen (let hierbij vooral op het factuuradres en het e-mailadres waar we de factuur naartoe kunnen sturen). Om de workshop persoonlijk te kunnen houden is er een maximum aantal van 12 deelnemers. Je krijgt een bevestiging als de workshop definitief doorgaat. Voor opgave geldt: 'wie het eerst komt, wie het eerst maalt'.
 

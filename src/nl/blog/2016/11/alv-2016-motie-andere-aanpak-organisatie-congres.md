@@ -1,14 +1,15 @@
 ---
-title: "ALV 2016: Motie: Andere aanpak organisatie congres"
+title: 'ALV 2016: Motie: Andere aanpak organisatie congres'
 date: 2016-11-20
 author: Thomas van Zuijlen
-categories: 
-  - Congres
-  - Vereniging
+categories:
+    - Congres
+    - Vereniging
 ---
+
 Het Fronteerscongres is in negen jaar uitgegroeid tot Fronteers Conference. De organisatie daarvan is inmiddels geen avondwerk meer, maar een dagtaak. De congrescommissie gaat niet verder in zijn huidige vorm: een goed moment om het anders aan te pakken. Aangeboden ter overweging aan de algemene ledenvergadering van Fronteers: Ik stel voor om de commissie op inhoud te laten sturen en om de praktische organisatie uit te besteden.
 
-# Achtergrond
+## Achtergrond
 
 Het Fronteerscongres bestaat bijna 10 jaar. In dit decennium is het congres uitgegroeid van een mooie bijeenkomst tot een congres van wereldformaat met een begroting in tonnen. De organisatie moet momenteel rekening houden met, en zorgen voor, steeds meer verschillende facetten van het congreswezen. Een zaal en een groep sprekers is niet meer voldoende, het huidige congres is een onderneming met een voorbereiding van een jaar, een groep side events en een logistieke piek van twee weken. Dat brengt allerlei reis-, branding-, contact-, plan-, en ander organisatiewerk met zich mee.
 
@@ -16,7 +17,7 @@ De inspanning die daarvoor nodig is, past niet meer in de avonden en weekenden v
 
 Jan van Hellemond en ik zijn al jaren bij het congres betrokken; eerst als vrijwilliger en sponsor, en sinds 2014 en 2013 als lid van de congrescommissie. We hebben met onze collega-vrijwilligers veel (mee)gemaakt van deze groei. Wij vinden het inmiddels juist uitermate leuk om allerlei logistieke werkzaamheden uit te voeren - dit jaar hebben we naast ons front-end-bedrijf samen ook een bedrijf opgericht voor de organisatie van bijeenkomsten en evenementen voor developers.
 
-# Voorstel
+## Voorstel
 
 Kortweg stel ik daarom het volgende voor: Een nieuwe congrescommissie legt zich toe op de inhoudelijke invulling van het congres, en Fronteers schakelt onze 'tweemanszaak' Eventstack in voor de praktische organisatie van Fronteers Conference.
 
@@ -24,7 +25,7 @@ Kortweg stel ik daarom het volgende voor: Een nieuwe congrescommissie legt zich 
 
 > Voorstel: Het management van de praktische organisatie van Fronteers Conference uitbesteden aan leverancier Eventstack. De congrescommissie hoeft geen logistieke werkzaamheden meer uit te voeren en blijft inhoudelijk verantwoordelijk voor het congres. Fronteers richt zich op inhoud, terwijl de organisatie van het congres verder professionaliseert.
 
-# Vragen
+## Vragen
 
 ### Waarom leg je dit voor aan de leden - we worden toch ook niet over de cateraar van het congres geconsulteerd?
 

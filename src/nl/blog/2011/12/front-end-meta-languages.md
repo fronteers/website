@@ -1,23 +1,24 @@
 ---
-title: "Front-end meta languages"
+title: 'Front-end meta languages'
 date: 2011-12-08
 author: Roy Tomeij
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Front-end meta languages. Een hippe, zelfverzonnen naam voor talen die compileren naar HTML, CSS en JavaScript, maar dat zelf niet zijn. Het gebruik scheelt op z'n minst veel typewerk en zorgt voor overzichtelijkere code. Dankzij extensies als Compass is er nog meer tijdsbesparing en gemak te realiseren, bijvoorbeeld voor het beheer van je sprites.
 
-# Waar hebben we het over?
+## Waar hebben we het over?
 
 Voor HTML en JavaScript zijn er een paar bekende spelers, zoals [Haml](http://haml-lang.com/) en [CoffeeScript](http://jashkenas.github.com/coffee-script/). Voor CSS hebben we talen als [Sass](http://sass-lang.com/) en [Less](http://lesscss.org/). Haml, Sass en Less zullen de revue passeren, met een uitstapje naar [Compass](http://compass-style.org/). In dit artikel komen syntaxis en voorbeelden aan bod, zodat je meteen aan de slag kunt met experimenteren. CoffeeScript blijft buiten beschouwing, omdat de leercurve daarvan hoger is en het gebruik ervan voor de meeste front-enders niet direct winst op zal leveren.
 
 NB: Als je [Node.js](http://nodejs.org/) gebruikt, zou je eens kunnen kijken naar [Jade](http://jade-lang.com/) en [Stylus](http://learnboost.github.com/stylus/). In dit artikel komen ze verder niet terug.
 
-# Compilers schrijven geen slechte code
+## Compilers schrijven geen slechte code
 
 Om dit fabeltje maar meteen de wereld uit te helpen: compilers schrijven geen slechte code. Uiteindelijk is wat er uit Haml, Sass, Less en CoffeeScript komt afhankelijk van de kwaliteit van de ontwikkelaar die deze tools gebruikt. Kenmerkend voor al deze talen is dat ze weinig dicteren: als je je CSS 20 niveaus diep wilt nesten of tabellen voor lay-out wilt gebruiken, dan houden ze je niet tegen. Zoals je text editor dat ook niet doet. Wél vangen ze syntactische fouten af; een compiler gooit een error als je een dubbele punt vergeet. Speel een tijdje met je code, zie wat uit de compiler komt en je leert snel hoe je code er uit zal zien na compilatie.
 
-# Compileren: van meta language naar HTML, CSS en JavaScript
+## Compileren: van meta language naar HTML, CSS en JavaScript
 
 Dit artikel is gebaseerd op het lokaal compileren ("vertalen naar de uiteindelijke taal") van alle code. Zodra je deze talen in een dynamisch project wilt gebruiken zijn er allerlei setups mogelijk. Voor nu doen we alles zonder enige dynamiek en richten we ons puur op de compilatie. Dat kan voor een deel van deze talen client side met JavaScript (Less heeft hier een officiële oplossing voor, terwijl Sass enkele officieuze implementaties kent). Omdat ik meen dat er geen enkele reden is om dit te willen, compileren we alles voordat we het naar de browser sturen.
 
@@ -29,11 +30,11 @@ Als Linux-goeroe ben je vast handig genoeg om de stack zelf te installeren, maar
 
 Met [Rendera](http://rendera.heroku.com/) kun je online het één en ander proberen in Haml, Sass en CoffeeScript. Handig als je alleen een beetje met de syntaxis wilt stoeien.
 
-# HTML: [Haml](http://haml-lang.com/)
+## HTML: [Haml](http://haml-lang.com/)
 
 Het schrijven van HTML is zo erg niet: je editor sluit iedere tag met één toetscombinatie zelf wel af, "angle brackets" zijn helemaal niet overbodig en een sloot aan afsluitende tags onderaan hoort er nu eenmaal bij. Zo dachten de meesten erover die met Haml begonnen en—toegegeven: na enige gewenning—nooit meer iets anders willen.
 
-Haml is alweer vijf jaar oud en daarmee in de developmentwereld zeker volwassen te noemen. De code erachter draait op Ruby, maar dat wil niet zeggen dat je het alleen in op Ruby-gebaseerde projecten in kunt zetten. Als je lokaal ontwikkelt zonder dynamische data (je schrijft puur statische HTML), dan kun je met Haml prima uit de voeten. Wil je het gebruiken in bijvoorbeeld een PHP-project, kijk dan eens naar [deze port](http://code.google.com/p/phamlp/ "PHamlP") (er zijn ook ports voor .NET, Java en zelfs Perl). Gebruik je Wordpress, dan is [Wordless](https://github.com/welaika/wordless) een goede optie.
+Haml is alweer vijf jaar oud en daarmee in de developmentwereld zeker volwassen te noemen. De code erachter draait op Ruby, maar dat wil niet zeggen dat je het alleen in op Ruby-gebaseerde projecten in kunt zetten. Als je lokaal ontwikkelt zonder dynamische data (je schrijft puur statische HTML), dan kun je met Haml prima uit de voeten. Wil je het gebruiken in bijvoorbeeld een PHP-project, kijk dan eens naar [deze port](http://code.google.com/p/phamlp/ 'PHamlP') (er zijn ook ports voor .NET, Java en zelfs Perl). Gebruik je Wordpress, dan is [Wordless](https://github.com/welaika/wordless) een goede optie.
 
 Van alle in dit artikel besproken talen is Haml het eenvoudigst qua hoeveelheid opties en syntaxis. Een prima optie om mee te beginnen dus. Er zitten geen wereldschokkende features in Haml; de voornaamste voordelen zijn de overzichtelijke hiërarchie en het niet hoeven sluiten van je tags. Haml gebruikt "significant whitespace": het aantal spaties aan het begin van de regel geeft het niveau en daarmee de hiërarchie aan. Alle editors kunnen gebruik maken van "soft tabs", waarbij het gebruik van de tab-toets ervoor zorgt dat onder water twee spaties gebruikt worden.
 
@@ -93,7 +94,7 @@ Door een `#`-teken te gebruiken geef je aan dat dit een ID is, terwijl een punt 
 
 De voordelen van Haml op een rijtje: inzichtelijke hiërarchie tussen HTML-elementen onderling, duidelijke relatie tussen markup en CSS selectors, geen onnodige haakjes en geen onoverzichtelijke sloot aan afsluitende tags onderaan je pagina. Als bonus kun je aangeven of je enkele of dubbele quotes wilt gebruiken en hoe je je markup wilt compileren (ingesprongen, niet ingesprongen of alles op één regel).
 
-# CSS: [Sass](http://sass-lang.com/) & [Less](http://lesscss.org/)
+## CSS: [Sass](http://sass-lang.com/) & [Less](http://lesscss.org/)
 
 Of je Sass of Less wilt gebruiken hangt sterk af van je voorkeur en ontwikkelomgeving. In Ruby on Rails wordt Sass veel vaker gebruikt dan Less, terwijl ik zelfstandige front-enders juist vaker over Less hoor. Belangrijkste is dat je een tool gebruikt waarvan de syntax bij je past en die eenvoudig in te zetten is in de projecten waar je aan werkt. Voor dit artikel maakt het weinig uit: met de hierboven beschreven software kun je ze allebei lokaal compileren. De functionaliteit is vrijwel hetzelfde, met als uitzondering dat Compass (zie verderop in dit artikel) of een vergelijkbare extensie niet beschikbaar is voor Less.
 
@@ -222,7 +223,7 @@ Daarnaast heeft Sass onderstaande manier om stijlen in een media query overzicht
 }
 ```
 
-# [Compass](http://compass-style.org/)
+## [Compass](http://compass-style.org/)
 
 Compass is een extensie voor Sass waarmee je nóg meer snelheidswinst kunt boeken. Het maakt het onder andere makkelijk om afbeeldingen en fonts in je CSS te embedden (door middel van Data URI's), afmetingen van een afbeelding te achterhalen en te gebruiken in je CSS, met één regel een CSS reset toe te voegen of een collectie helpers aan te roepen om eenvoudiger gebruik te maken van diverse grid systems. De [documentatie van Compass](http://compass-style.org/help/) is uitstekend, dus ik verwijs je graag daar naartoe voor alle informatie hierover. Maar eerst overtuig ik je met twee voorbeelden die de winst die uit Compass te halen is meteen duidelijk maken.
 
@@ -290,7 +291,7 @@ Hierna komt de functie `flags-sprite()` beschikbaar, waarbij de naam een afgelei
 
 Sass kan gebruik maken van each-loops, waarmee je door alle landen heen kunt lopen. Dat scheelt nog meer typewerk. Compass heeft zelf ook methoden om op basis van de bestandsnamen van de afbeeldingen een lijst met classnames op te bouwen. Meer hierover in de zeer complete [Compass spriting tutorial](http://compass-style.org/help/tutorials/spriting/), net als informatie over de verschillende opties (verticale of horizontale sprites, tussenruimte, enzovoort).
 
-# Waar wacht je op?
+## Waar wacht je op?
 
 Front-end meta languages zijn niet altijd eenvoudig om in bestaande processen te implementeren. Je moet iedereen mee krijgen, omdat jij niet steeds andermans CSS kunt overschrijven met code die wordt gecompileerd op basis van jouw Sass of Less. Als je echter iedereen zo ver kunt krijgen, dan zorgt het gebruik van deze talen voor een grote tijdswinst en betere onderhoudbaarheid van je front-end code.
 
@@ -299,6 +300,7 @@ Als je een zelfstandige front-ender bent die HTML of CSS oplevert, dan staat nie
 Maar het allerbelangrijkste: gebruik van front-end meta languages is leuker en maakt je leven makkelijker. Happy holidays!
 
 ### Over Roy Tomeij
+
 <img src="/_img/2011/12/roy-tomeij.jpg" alt="Foto van roy tomeij uit 2011" class="floating-portrait" /> 
 Roy Tomeij is co-founder van [80beans](http://www.80beans.com/) en [SliceCraft](http://www.slicecraft.nl/) in Amsterdam, front-end developer en spreker. Hij houdt van front-end meta languages zoals Haml, Sass en CoffeeScript. Als je meer wilt weten, neem dan contact op met [@roy](https://twitter.com/roy) via Twitter.
 

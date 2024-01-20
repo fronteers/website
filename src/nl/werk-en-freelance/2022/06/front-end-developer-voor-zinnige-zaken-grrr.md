@@ -13,7 +13,7 @@ Kunnen programmeren is een groot goed in 2022. Maar hoe wil je deze skills inzet
 
 Op dit moment zijn we op zoek naar een creatieve front-end developer. Iemand die zich als creative coder inzet voor de eindgebruiker, voor performance en UX. Iemand die echt creatief werk maakt in nauwe samenspraak met ontwerpers. En die er energie van krijgt om samen met de klant op zoek te gaan naar het beste eindresultaat.
 
-# Developen bij GRRR
+## Developen bij GRRR
 
 Al sinds het begin in 2003 brengen wij sterk ontwerp en solide techniek samen. Dat zie je terug in digitale producten die niet alleen goed werken, maar er ook goed uitzien.
 
@@ -27,30 +27,30 @@ Onze cultuur is creatief en open. Geleerde lessen uit projecten delen we met and
 
 Code onderwerpen wij aan een code review door een andere developer. Dit verbetert de kwaliteit, en draagt bij aan je ontwikkeling.
 
-# Een bureau voor Zinnige Zaken
+## Een bureau voor Zinnige Zaken
 
 Volgens ons kan de wereld schoner, eerlijker en inclusiever. Daarom combineren we de kracht van strategie, design en tech met zinnige zaken, en [werken we alleen met klanten](https://grrr.nl/projecten/) die graag een positieve impact willen maken op de samenleving. En ja, dat zijn populaire uitspraken tegenwoordig. Daarom zijn wij een [gecertificeerde B Corp](https://grrr.nl/b-corp/) geworden en laten wij onze zinnige ambities onafhankelijk controleren.
 
 Ons kantoor is gevestigd in het [centrum van Amsterdam](https://goo.gl/maps/aGgBV8ujrEUfVPfm6), maar onze collega’s komen vanuit alle hoeken. Soms werken zij thuis, en soms op kantoor. We willen het werken voor iedereen zo prettig mogelijk maken. En zorgen dat het onze collega’s lukt om hun hobby’s en gezin de tijd te geven die zij verdienen. Betekent dit er helemaal tussenuit? Dan bieden wij ook ruimte voor sabbaticals.
 
-# Solliciteer als...
+## Solliciteer als...
 
-- Je met jouw tech talent een positieve impact wilt maken, in plaats van Venture Capital rijk maken.
-- Je HTML, CSS en JavaScript op hoog niveau schrijft. Je maakt code graag maintainable, performant en leesbaar.
-- Je graag het proces en eindresultaat aanstuurt en daarbij graag nauw samenwerkt met de klant.
-- Je creatief en leergierig bent. Je bent geïnteresseerd in ons vak en je blijft op de hoogte van trends en nieuwe ontwikkelingen.
-- Je goed in het Engels communiceert.
-- Je over minstens 3 jaar werkervaring beschikt.
-- Je bent in het bezit van een werkvergunning van de Europese Unie
+-   Je met jouw tech talent een positieve impact wilt maken, in plaats van Venture Capital rijk maken.
+-   Je HTML, CSS en JavaScript op hoog niveau schrijft. Je maakt code graag maintainable, performant en leesbaar.
+-   Je graag het proces en eindresultaat aanstuurt en daarbij graag nauw samenwerkt met de klant.
+-   Je creatief en leergierig bent. Je bent geïnteresseerd in ons vak en je blijft op de hoogte van trends en nieuwe ontwikkelingen.
+-   Je goed in het Engels communiceert.
+-   Je over minstens 3 jaar werkervaring beschikt.
+-   Je bent in het bezit van een werkvergunning van de Europese Unie
 
-# Pre’s
+## Pre’s
 
-- Je hebt affiniteit met digitale toegankelijkheid.
-- Je hebt kennis van TypeScript.
-- Je kunt je redden met kleine PHP klusjes.
-- Je hebt een Github-profiel met open source projecten.
+-   Je hebt affiniteit met digitale toegankelijkheid.
+-   Je hebt kennis van TypeScript.
+-   Je kunt je redden met kleine PHP klusjes.
+-   Je hebt een Github-profiel met open source projecten.
 
-# De procedure
+## De procedure
 
 Geef een idee van wie je bent via de vragen in het onderstaande sollicitatieformulier. Je kan reageren tot 31 mei. We gaan wel direct mensen interviewen, snoozing = losing.
 

@@ -1,19 +1,20 @@
 ---
-title: "Clients from heaven"
+title: 'Clients from heaven'
 date: 2011-12-14
 author: Ruben Bos
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Deze adventskalender is eigenlijk één grote aanloop naar goede voornemens voor het nieuwe jaar. Want naast meer sporten en minder drinken beloven we onszelf ook dat we eindelijk eens een [goede responsive site](/blog/2011/12/een-tik-op-de-neus) gaan bouwen, [Javascript pro](/blog/2011/12/javascript-pret-met-alle-karakters-in-een-string) gaan worden en alleen nog maar [HTML5 video players](/blog/2011/12/html5-video-een-overzicht) zullen inbouwen.
 
 Voor veel Fronteers is er echter één persoon die ons die kans geeft. En die komt toch wat minder in de lijst met goede voornemens voor. Nee, niet de Kerstman … de klant.
 
-En terecht. Want die klant is te dom voor woorden. Begrijpt niets van ons ontwerp. [Stelt onredelijke eisen](http://clientsfromhell.net/ "Clients from hell"). Levert maar geen content aan. Is nooit blij met het eindresultaat. En blijft je achtervolgen.
+En terecht. Want die klant is te dom voor woorden. Begrijpt niets van ons ontwerp. [Stelt onredelijke eisen](http://clientsfromhell.net/ 'Clients from hell'). Levert maar geen content aan. Is nooit blij met het eindresultaat. En blijft je achtervolgen.
 
 Tenminste, als je de berichtgeving uit onze industrie soms mag geloven. Klantwerk lijkt te worden ervaren als een vervelend bijverschijnsel om websites en apps te mogen bouwen.
 
-# Zonde!
+## Zonde!
 
 Het werken met klanten ervaar ik juist als één van de leukste onderdelen van mijn werk. Eigenlijk heeft die klant, als je eenmaal luistert, af en toe best wel goede ideeën ... Beter gezegd, die invloeden van 'buitenaf' zorgen juist voor veel inspiratie en nieuwe inzichten. Maar voordat je daar wat mee kan, zal je het eerst goed moeten inrichten. De afgelopen jaren zijn we daar op mijn werkplek uitgebreid mee bezig geweest. Er is genoeg ruimte voor verbetering, maar ik geloof wel dat we de goede, klantvriendelijke weg zijn ingeslagen.
 
@@ -21,7 +22,7 @@ Het werken met klanten ervaar ik juist als één van de leukste onderdelen van m
 Note: ik spreek uit het perspectief van werken bij een bureau. Voor freelancers/zzp'ers of bureaus met weinig personeel in dienst zal niet alles even toepasbaar zijn.
 </p>
 
-# Geen fffffuuuuuuuuuunctioneel ontwerp
+## Geen fffffuuuuuuuuuunctioneel ontwerp
 
 Net als veel andere bureaus zijn we in de afgelopen jaren overgestapt naar een 'agile' manier van werken, met SCRUM als bekendste vorm. Op de verschillende agiletechnieken wil ik in dit artikel niet ingaan, alhoewel het [agile manifesto](http://agilemanifesto.org/) zeker een A4-printje + punaise waard is.
 
@@ -35,7 +36,7 @@ Door deze opzet blijft het mogelijk om de invulling aan te passen aan nieuwe inz
 Post-its maken niet alleen voor het team, maar ook de klant, duidelijk wat er nog moet gebeuren.
 </p>
 
-# Voortraject
+## Voortraject
 
 Maar voordat er überhaupt iets in een team belandt, dient de klant overtuigd te worden van bovenstaande werkwijze.
 
@@ -45,9 +46,9 @@ Dit lijkt lastig te verkopen, maar het gros van de klanten wordt hier enthousias
 
 Het voortraject is dan ook cruciaal voor een succesvol vervolg. Als hier valse beloftes worden gedaan, die haaks staan op de werkwijze, zal dat het project blijven achtervolgen.
 
-# Ontwikkeling
+## Ontwikkeling
 
-De periode waarin 'gebouwd wordt', was traditioneel het lastigste deel voor de opdrachtgever. Het designgedeelte vond de klant nog wel leuk, maar daarna verdween het project voor lange duur in een grote black box. Een duistere wereld vol onbekende talen en codeschrijvende bebaarde mannen die een voorliefde hebben voor unicorns, double rainbows en [rage faces](http://www.nl.reddit.com/r/fffffffuuuuuuuuuuuu/ "fffffffuuuuuuuuuuuu").
+De periode waarin 'gebouwd wordt', was traditioneel het lastigste deel voor de opdrachtgever. Het designgedeelte vond de klant nog wel leuk, maar daarna verdween het project voor lange duur in een grote black box. Een duistere wereld vol onbekende talen en codeschrijvende bebaarde mannen die een voorliefde hebben voor unicorns, double rainbows en [rage faces](http://www.nl.reddit.com/r/fffffffuuuuuuuuuuuu/ 'fffffffuuuuuuuuuuuu').
 
 Het klantcontact bestond vooral uit af en toe even meegluren en het alvast in ontvangst nemen van excelsheets met puntenlijstjes …
 
@@ -69,7 +70,7 @@ Hoe beter de klant het team kan ondersteunen en input kan geven, hoe beter het e
 
 Bij oplevering is dát het grote verschil. Het project komt niet out-of-the-blue op de klant zijn bordje liggen, met voor hem onverklaarbare keuzes en oplossingen.
 
-# Overtuig de klant
+## Overtuig de klant
 
 Het zal niet altijd goed gaan. Sommige mensen komen afspraken niet goed na, zitten vast in een organisatie of passen als klant echt niet bij je. Maar vaak ligt de oorzaak bij onszelf. We zijn er dan te veel van uit gegaan dat de klant precies wist wat van hem verwacht werd. Zorg dat je je eigen proces in orde hebt en je verwachtingen aan de klant kan overbrengen. Vervolgens is het belangrijkste om flink de tijd te nemen om klanten te overtuigen van je keuzes als hij ergens niet achter staat of een andere oplossing 'eist'.
 
@@ -78,8 +79,9 @@ De meeste problemen ontstaan doordat je de klant niet hebt weten te overtuigen. 
 En als je het écht goed doet, snappen ze zelfs die wondere wereld van unicorns, double rainbows en lolcatz.
 
 ### Over Ruben Bos
+
 2011/12/ruben-bos.png
 Overdag Creative Director bij [Mangrove](http://mangrove.nl/). 's Avonds de wijsneus met zijn alter ego [Bossing Around](http://bossingaround.com/). Half-Iers. Verslaafd aan roze koeken. Schreef ooit een [boek over webdesign](http://webdesignrules.nl/) voor opdrachtgevers van websitebouwers. Volg op Twitter: [@rubenbos](https://twitter.com/rubenbos)
 
-Donatie: Oxfam Novib 
+Donatie: Oxfam Novib
 Mijn donatie gaat naar de [aankoop van 150 mangrovebomen](http://www.oxfamnovibpaktuit.nl/pages/detail/s1/21030000000027-2-21010000000083.aspx). Want mangroves zijn niet alleen vis- en dierrijke ecosystemen, maar bieden ook levensreddende bescherming tegen erosie en overstromingen.

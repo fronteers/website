@@ -3,16 +3,17 @@ title: Wordt eens volwassen; Het Accessibility Maturity Model
 date: 2022-12-22
 author: Ronny Hendriks
 summary: 'In een wereldbeeld waarin diversiteit en inclusie gelukkig steeds meer op de agenda staan, is digitale toegankelijkheid voor veel organisaties nog onbekend terrein. De meeste organisaties komen er mee in aanraking door wettelijke eisen, omdat ze bijvoorbeeld producten leveren aan een overheidsorganisatie. Daar wordt gevraagd of ze aan de gestelde eisen rond digitale toegankelijkheid voldoen.'
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 In een wereldbeeld waarin diversiteit en inclusie gelukkig steeds meer op de agenda staan, is digitale toegankelijkheid voor veel organisaties nog onbekend terrein. De meeste organisaties komen er mee in aanraking door wettelijke eisen, omdat ze bijvoorbeeld producten leveren aan een overheidsorganisatie. Daar wordt gevraagd of ze aan de gestelde eisen rond digitale toegankelijkheid voldoen.
 
 Ook zijn er organisaties die hun eerste stappen al hebben gezet. Ze hebben bijvoorbeeld een onderzoek laten uitvoeren door een expert, hebben een training gevolgd en zijn met alle bevindingen aan de slag gegaan.
 
 Hoe maak je dan als organisatie de volgende stap? Wat doe je om digitale toegankelijkheid te verankeren in je processen? Hoe ga je ervoor zorgen dat wat je zojuist bent begonnen niet een eenmalige actie blijft? Je wilt natuurlijk niet dat de resultaten volgende jaar alweer teniet gedaan zijn. Je wilt toewerken naar een situatie waarin je als organisatie volwassen wordt in digitale toegankelijkheid.
 
-# Wat is digitale toegankelijkheid?
+## Wat is digitale toegankelijkheid?
 
 Voordat we verder gaan, misschien hoor je als lezer wel tot die groep die eigenlijk weinig tot niets weet van digitale toegankelijkheid? Even terugspoelen dan voor een korte introductie!
 
@@ -24,7 +25,7 @@ Om dat te verbeteren is in 1999 de eerste versie van de Web Content Accessibilit
 
 De WCAG zijn echter maar een meetinstrument en pas het begin van jullie reis in de wereld van digitale toegankelijkheid.
 
-# Het Accessibility Maturity Model
+## Het Accessibility Maturity Model
 
 Wat is dat dan eigenlijk, een Maturity Model?
 
@@ -36,7 +37,7 @@ Met het AMM gaat digitale toegankelijkheid verder dan alleen de WCAG of andere t
 
 Aan de slag gaan met het AMM is dan ook iets heel anders dan het uitvoeren van een toegankelijkheidsonderzoek. Dat laatste geeft je alleen maar een kijkje in de toegankelijkheid van een bepaald product. Toegankelijkheidsonderzoeken zijn dus maar een van de puzzelstukjes binnen het AMM. Het zegt verder weinig over hoe je als team omgaat met digitale toegankelijkheid, welke middelen jullie tot je beschikking hebben en waar ruimte voor groei zit.
 
-# De structuur van het Accessibility Maturity Model
+## De structuur van het Accessibility Maturity Model
 
 Het AMM van het W3C bestaat momenteel uit 7 dimensies waarin toegankelijkheid kan bijdragen. Binnen die dimensies zijn er steeds ijkpunten, normen die je rechtstreeks kunt beoordelen, waarbij voortgang gemeten kan worden en een Maturity schaal waarin per ijkpunt, over verschillende gradaties, eisen zijn vastgesteld.
 
@@ -44,13 +45,13 @@ Het AMM van het W3C bestaat momenteel uit 7 dimensies waarin toegankelijkheid ka
 
 binnen de huidige opzet van het AMM zijn 7 dimensies opgesteld, elk met een korte definitie in begrijpelijke taal:
 
-1. *Communicatie* - Alles over toegankelijkheid voor interne en externe communicatie van de organisatie. Alles van interne mails tot documenten en berichten op social media.
-2. *Kennis en vaardigheden* - Hoe zorgt je als organisatie voor het opbouwen en onderhouden van kennis rond toegankelijkheid. Welke intern en externe bronnen worden betrokken? Hoe zorg je dat mensen de informatie weten te vinden en gebruiken.
-3. *Ondersteuning* - Alles rond toegankelijkheid in de ondersteuning van werknemers en klanten. Welke behoeften hebben mensen om hun werk te kunnen uitvoeren en waar lopen onze klanten tegenaan in het gebruik van onze producten?
-4. *ICT development Life Cycle* - De dimensie waaraan de meeste mensen het eerste denken bij digitale toegankelijkheid. Hierin valt alles van idee tot ontwerp en realisatie van een product of website.
-5. *Personeel* - Hoe wordt er rekening gehouden met toegankelijkheid in HR zaken als werving, onboarding etc en hoe kunnen mensen met een functiebeperking binnen de organisatie hun ervaringen inzetten voor verbeteringen.
-6. *Inkoop* - Welke rol speelt toegankelijkheid in het inkoopproces? Hoe worden hier al producten beoordeeld en problemen voorkomen?
-7. *Cultuur* - Diversiteit en Inclusie. Welke waarden en normen zijn er verwerkt in beleid om toegankelijkheid tot kernwaarde van de organisatie te maken.
+1. _Communicatie_ - Alles over toegankelijkheid voor interne en externe communicatie van de organisatie. Alles van interne mails tot documenten en berichten op social media.
+2. _Kennis en vaardigheden_ - Hoe zorgt je als organisatie voor het opbouwen en onderhouden van kennis rond toegankelijkheid. Welke intern en externe bronnen worden betrokken? Hoe zorg je dat mensen de informatie weten te vinden en gebruiken.
+3. _Ondersteuning_ - Alles rond toegankelijkheid in de ondersteuning van werknemers en klanten. Welke behoeften hebben mensen om hun werk te kunnen uitvoeren en waar lopen onze klanten tegenaan in het gebruik van onze producten?
+4. _ICT development Life Cycle_ - De dimensie waaraan de meeste mensen het eerste denken bij digitale toegankelijkheid. Hierin valt alles van idee tot ontwerp en realisatie van een product of website.
+5. _Personeel_ - Hoe wordt er rekening gehouden met toegankelijkheid in HR zaken als werving, onboarding etc en hoe kunnen mensen met een functiebeperking binnen de organisatie hun ervaringen inzetten voor verbeteringen.
+6. _Inkoop_ - Welke rol speelt toegankelijkheid in het inkoopproces? Hoe worden hier al producten beoordeeld en problemen voorkomen?
+7. _Cultuur_ - Diversiteit en Inclusie. Welke waarden en normen zijn er verwerkt in beleid om toegankelijkheid tot kernwaarde van de organisatie te maken.
 
 ## IJkpunten en voortgang
 
@@ -58,18 +59,18 @@ Binnen de eerder genoemde dimensies kun je ijkpunten vaststellen. Houdt deze ijk
 
 Enkele voorbeelden van ijkpunten zijn:
 
-* Styleguides hebben toegankelijkheids-aantekeningen (ICT development life cycle).
-* Er is trainingsmateriaal beschikbaar voor nieuwe collega’s (Kennis en vaardigheden).
-* Er is een toegankelijke feedback mogelijkheid voor mensen die problemen ervaren met ons product. (Ondersteuning)
+-   Styleguides hebben toegankelijkheids-aantekeningen (ICT development life cycle).
+-   Er is trainingsmateriaal beschikbaar voor nieuwe collega’s (Kennis en vaardigheden).
+-   Er is een toegankelijke feedback mogelijkheid voor mensen die problemen ervaren met ons product. (Ondersteuning)
 
 Je voortgang binnen het AMM houdt je bij over verschillende gradaties. Het W3C model kent er binnen de MAturity schaal standaard 4, namelijk:
 
-* *Inactief* - Er is nog geen bewustwording of erkenning van een behoefte op dit vlak.
-* *Begonnen* - Er is een bewustzijn voor toegankelijkheid met eerste stappen, maar nog niets structureel.
-* *Integratie* - Er ligt een duidelijk plan met uitvoerbare en meetbare stappen.
-* *Optimalisatie* - De basis is gelegd en mensen werken actief aan constante verbetering.
+-   _Inactief_ - Er is nog geen bewustwording of erkenning van een behoefte op dit vlak.
+-   _Begonnen_ - Er is een bewustzijn voor toegankelijkheid met eerste stappen, maar nog niets structureel.
+-   _Integratie_ - Er ligt een duidelijk plan met uitvoerbare en meetbare stappen.
+-   _Optimalisatie_ - De basis is gelegd en mensen werken actief aan constante verbetering.
 
-# Hoe ga je hier mee aan de slag?
+## Hoe ga je hier mee aan de slag?
 
 Het AMM geeft je dus een manier om meetbaar te maken hoe je organisatie presteert op gebied van toegankelijkheid. Hoewel het model nog in de ontwikkeling is, kan het zeker al toegepast worden. Je kunt er goed inzicht mee krijgen. Om het in te zetten kun je het als compleet model gebruiken of je eigen scope bepalen en de aandacht richten op een of enkele van de dimensies.
 

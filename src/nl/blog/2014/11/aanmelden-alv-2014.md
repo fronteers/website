@@ -1,11 +1,12 @@
 ---
-title: "Meld je nu aan voor de ALV 2014"
+title: 'Meld je nu aan voor de ALV 2014'
 date: 2014-11-19
 author: Bestuur
-categories: 
-  - Leden
-  - Vereniging
+categories:
+    - Leden
+    - Vereniging
 ---
+
 Op dinsdagavond 2 december houden we onze jaarlijkse algemene ledenvergadering (ALV). Alle leden zijn hiervoor van harte uitgenodigd. De locatie van de ALV is Zalencentrum Se7en, in zaal 2 (toegang via [Restaurant Se7en](http://www.sevenutrecht.nl/)), ongeveer vijf minuten lopen vanaf Utrecht CS (Mariaplaats 7). Dit is, los van een naamswijziging, dezelfde locatie als vorig jaar.
 
 We beginnen om 19:00 uur en hopen deze keer toch _écht_ niet langer dan drie uur nodig te hebben. Voor de mensen die van ver komen regelen we een broodmaaltijd, welke vanaf 18:30 beschikbaar zal zijn. Geef bij je aanmelding even aan dat je hier gebruik van wilt maken.
@@ -33,26 +34,24 @@ Dit jaar treden Vasilis van Gemert en Krijn Hoetmer af. Twee nieuwe leden hebben
 
 Ben je van plan te komen, dan vragen we je vriendelijk je hieronder hiervoor in te schrijven, zodat we een idee hebben van de te verwachten opkomst.
 
+## Aanwezigen
 
-
-# Aanwezigen
-
-* Sander van Lambalgen
-* Matijs Brinkhuis
-* Krijn Hoetmer
-* Arjan Eising
-* Roy Tomeij
-* Vasilis van Gemert
-* Wesley Lancel
-* Jaco Koster
-* Peter-Paul Koch
-* Tom Greuter
-* Meta Kruijs
-* Thomas van Zuijlen
-* Sander Aarts
-* Joël Kuijten
-* Wim van Iersel
-* Jarno de Wit
-* Jules Ernst
-* Edwin Martin
-* Tom Hartwig
+-   Sander van Lambalgen
+-   Matijs Brinkhuis
+-   Krijn Hoetmer
+-   Arjan Eising
+-   Roy Tomeij
+-   Vasilis van Gemert
+-   Wesley Lancel
+-   Jaco Koster
+-   Peter-Paul Koch
+-   Tom Greuter
+-   Meta Kruijs
+-   Thomas van Zuijlen
+-   Sander Aarts
+-   Joël Kuijten
+-   Wim van Iersel
+-   Jarno de Wit
+-   Jules Ernst
+-   Edwin Martin
+-   Tom Hartwig

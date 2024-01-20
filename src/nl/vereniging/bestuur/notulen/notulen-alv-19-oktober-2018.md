@@ -1,23 +1,24 @@
 ---
 title: Notulen ALV 19 oktober 2018
 ---
-# Notulen Fronteers ALV 19 oktober 2018
 
-* Aanwezig:
-* Anneke Sinnema
-* Arjan Eising
-* Edwin Martin (notuleert)
-* Jules Ernst
-* Koen Kivits
-* Koen Willems
-* Marc Smits
-* Michael Hastrich
-* Niels Leenheer
-* Peter-Paul Koch
-* Rachel Andrew
-* Sander Vink
-* Thijs Reijgersberg
-* Willem Buising
+Notulen Fronteers ALV 19 oktober 2018
+
+-   Aanwezig:
+-   Anneke Sinnema
+-   Arjan Eising
+-   Edwin Martin (notuleert)
+-   Jules Ernst
+-   Koen Kivits
+-   Koen Willems
+-   Marc Smits
+-   Michael Hastrich
+-   Niels Leenheer
+-   Peter-Paul Koch
+-   Rachel Andrew
+-   Sander Vink
+-   Thijs Reijgersberg
+-   Willem Buising
 
 Lokatie: La Vie Meeting Center in Utrecht
 
@@ -29,11 +30,11 @@ Het resultaat voor 2018 is op het moment van de ALV rond de 60.000 euro positief
 
 Voor 2019 is het doel om verlies te draaien om de reserves terug te brengen. Michael vraagt waarom de inkomsten van de vacaturebank terugloopt. Een goede reden is niet te geven, het teruglopende ledenaantal kan een reden zijn. Sander geeft toelichting op de begroting van 2019 en legt uit waarom de diverse potjes hoger of lager uitvallen. De Spring conference heeft impact op de conferentiepot. Sander is aan het uitzoeken of we als vereniging iets kunnen met de BTW-afdracht, met het congres is dat een groot bedrag.
 
-# Advies kascommissie
+## Advies kascommissie
 
 Er wordt decharge gegeven voor 2017.
 
-# W3C-lidmaatschap
+## W3C-lidmaatschap
 
 ## Rachel Andrews
 
@@ -67,22 +68,22 @@ Sander zegt dat we het met de huidige reserves vijf jaar kunnen volhouden. Jules
 
 Koen: er moet een goede interne organisatie komen. Thijs biedt zich aan om te helpen. Marc: de interne organisatie is het werk niet. PPK: wie wil er van de aanwezigen naar een spec-workshop komen? Zes mensen steken hun hand op.
 
-# Stemming
+## Stemming
 
 Er wordt gestemd. Uitslag: 1 ongeldig, 6 tegen en 19 voor lidmaatschap. Het voorstel is aangenomen.
 
-# Michael vertelt over de workshopcie
+## Michael vertelt over de workshopcie
 
 Er zijn 8 workshops georganiseerd met totaal 86 deelnemers. TimS vertrekt en Michael is daarvoor in de plaats gekomen. Er worden nog nieuwe leden gezocht. Workshops afzeggen is nu te vrijblijvend. Vooraf betalen moet worden ingevoerd, dit moet nog uitgewerkt worden. Michael vertelt over de plannen voor volgend jaar.
 
-# KoenK vertelt over de marketingcommissie
+## KoenK vertelt over de marketingcommissie
 
 Vertelt over het onderhouden van social media als Facebook en de website. De Adventskalender is van stal gehaald. Slack. Laat top-vijf actieve gebruikers zien. Twitter: 3500 volgers, 250 tweets. Nieuwsbrief: 467 abonnees, 6 verstuurd. LinkedIn niet heel actief. Irc is zo goed als dood. Video’s blijven geplaatst worden, voornamelijk vanuit België. Sponsoring van andere evenementen. Koen: waarom geen stand op ons eigen congres? KoenK: dat willen we volgend jaar wel gaan doen. PPK: een stand heeft pas zin als je het blijft herhalen. Identiteitssessie gepland met Ready for Takeoff om te bepalen wie we zijn en hoe we ons kunnen marketen.
 
-# Niels vertelt over het congres
+## Niels vertelt over het congres
 
-We hebben een enquête verstuurd. Bezoekers waren globaal tevreden over locatie en catering. Sprekers over algemeen goed tot briljant. Eerste dag Espen Brunborg en Heydon Pickering, tweede dag Chris Lilley, Nickolas Means. Bij de opmerkingen stond vaak dat het technischer mag. Twee leden vertrekken, twee nieuwe zijn al gevonden. Spring conf in Tuschinsky zal meer talks hebben die direct toepasbaar zijn. Tevreden met Split, maar hij hoeft niet de tijd op te vullen met praten. Thijs en Koen hebben wat klachten over People’s Place. Samenwerking met Eventstack ging prettig. Koen: samen met Charis verbaasd dat medewerkers worden betaald. Niels: dat moet het bestuur met Eventstack bespreken. De commissie houdt zich bezig met de programmering. Michael: heeft de commissie overwogen om het zelf te doen: Thijs: dat zou ik niet doen. Niels: dan zou ik terugtreden. Thijs: ze hadden het betalen van voorheen vrijwilligers moeten overleggen. Koen: eigenlijk moet het bestuur het inhuren van mensen regelen. Sander: Eventstack is degene die de logistiek regelt. Michael: de verantwoordelijkheid is zo groot dat het betaald dient te worden, beter aan leden duidelijk maken. Kunnen we dit niet doen met tijdelijke en betaalde krachten? Sander: arbeidsjuridisch is dat erg omslachtig. Koen: het bestuur kan medewerkers aanstellen. Sander: hoe is dat anders dan nu? Krijg je niet nog schevere gezichten? Arjan: kunnen  we hier niet een aparte ALV voor houden? Sander: we hebben het hier regelmatig over. Eventstack organiseert Spring conf. Niels: we vinden dat sprekers betaald moeten worden, tenminste een symbolisch bedrag. Thijs: iedereen wordt betaald, behalve sprekers. Sander: wij zijn opdrachtgever en doen het wel vrijwillig. We moeten een manier vinden hoe we dat gaan doen.  PPK: ter referentie: wij geven sprekers duizend euro. Sander: het idee was om in La Mar meer tickets te verkopen en de winst met de sprekers te delen, maar dat is niet gelukt. Koen: en de side events worden nog wel onbetaald? PPK: moet Eventstack dat organiseren? Michael: alleen voor leden? Sander, nee voor iedereen.
+We hebben een enquête verstuurd. Bezoekers waren globaal tevreden over locatie en catering. Sprekers over algemeen goed tot briljant. Eerste dag Espen Brunborg en Heydon Pickering, tweede dag Chris Lilley, Nickolas Means. Bij de opmerkingen stond vaak dat het technischer mag. Twee leden vertrekken, twee nieuwe zijn al gevonden. Spring conf in Tuschinsky zal meer talks hebben die direct toepasbaar zijn. Tevreden met Split, maar hij hoeft niet de tijd op te vullen met praten. Thijs en Koen hebben wat klachten over People’s Place. Samenwerking met Eventstack ging prettig. Koen: samen met Charis verbaasd dat medewerkers worden betaald. Niels: dat moet het bestuur met Eventstack bespreken. De commissie houdt zich bezig met de programmering. Michael: heeft de commissie overwogen om het zelf te doen: Thijs: dat zou ik niet doen. Niels: dan zou ik terugtreden. Thijs: ze hadden het betalen van voorheen vrijwilligers moeten overleggen. Koen: eigenlijk moet het bestuur het inhuren van mensen regelen. Sander: Eventstack is degene die de logistiek regelt. Michael: de verantwoordelijkheid is zo groot dat het betaald dient te worden, beter aan leden duidelijk maken. Kunnen we dit niet doen met tijdelijke en betaalde krachten? Sander: arbeidsjuridisch is dat erg omslachtig. Koen: het bestuur kan medewerkers aanstellen. Sander: hoe is dat anders dan nu? Krijg je niet nog schevere gezichten? Arjan: kunnen we hier niet een aparte ALV voor houden? Sander: we hebben het hier regelmatig over. Eventstack organiseert Spring conf. Niels: we vinden dat sprekers betaald moeten worden, tenminste een symbolisch bedrag. Thijs: iedereen wordt betaald, behalve sprekers. Sander: wij zijn opdrachtgever en doen het wel vrijwillig. We moeten een manier vinden hoe we dat gaan doen. PPK: ter referentie: wij geven sprekers duizend euro. Sander: het idee was om in La Mar meer tickets te verkopen en de winst met de sprekers te delen, maar dat is niet gelukt. Koen: en de side events worden nog wel onbetaald? PPK: moet Eventstack dat organiseren? Michael: alleen voor leden? Sander, nee voor iedereen.
 
-# Rondvraag
+## Rondvraag
 
 Arjan: wil PPK interim bestuurslid zijn? PPK: nee.

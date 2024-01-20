@@ -1,15 +1,16 @@
 ---
-title: "Bijeenkomst bij Info.nl op 28 juni 2007"
+title: 'Bijeenkomst bij Info.nl op 28 juni 2007'
 date: 2007-06-28
 eventdate: 2007-06-28
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
-# Presentatie front-end bij Info.nl door Tom Greuter
 
-# Presentatie plannen Commissie Onderwijs door Robert Jan Verkade
+Presentatie front-end bij Info.nl door Tom Greuter
 
-# Overige verslagen
+## Presentatie plannen Commissie Onderwijs door Robert Jan Verkade
 
-* [Gilde van Front-Enders op bezoek bij Info.nl](http://open.info.nl/archief/2007/07/05/gilde-van-front-enders-op-bezoek-bij-infonl/) (open.info.nl)
+## Overige verslagen
+
+-   [Gilde van Front-Enders op bezoek bij Info.nl](http://open.info.nl/archief/2007/07/05/gilde-van-front-enders-op-bezoek-bij-infonl/) (open.info.nl)

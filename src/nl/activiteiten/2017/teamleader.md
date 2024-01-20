@@ -1,23 +1,24 @@
 ---
-title: "Meetup bij Teamleader op woensdag 27 september 2017"
+title: 'Meetup bij Teamleader op woensdag 27 september 2017'
 date: 2017-09-27
 eventdate: 2017-09-27
 location:
 categories:
     - meetup
 ---
-Op *woensdag 27 september 2017* vliegt Fronteers België er terug in met onze tweede meetup. Ditmaal zijn we te gast bij [Teamleader](https://public.teamleader.be/nl-be/) in *Gent*. De talks worden voorzien door *Roel Van Gils* en *Thomas Coopman*. De bijeenkomst is gratis voor leden en niet-leden, en Teamleader zorgt voor iets lekkers te eten!
+
+Op _woensdag 27 september 2017_ vliegt Fronteers België er terug in met onze tweede meetup. Ditmaal zijn we te gast bij [Teamleader](https://public.teamleader.be/nl-be/) in _Gent_. De talks worden voorzien door _Roel Van Gils_ en _Thomas Coopman_. De bijeenkomst is gratis voor leden en niet-leden, en Teamleader zorgt voor iets lekkers te eten!
 
 ![](/_img/bijeenkomsten/teamleader-top.jpg)
 
-# Programma
+## Programma
 
-* 18:00 · Inloop met eten
-* 18:50 · Introductie en welkomstwoord
-* 19:00 · Talk 1: *Roel Van Gils* - WAI-ARIA: De Renaissance
-* 19:45 · Pauze
-* 20:00 · Talk 2: *Thomas Coopman* - Front-end microservices
-* 20:45 · Borrel
+-   18:00 · Inloop met eten
+-   18:50 · Introductie en welkomstwoord
+-   19:00 · Talk 1: _Roel Van Gils_ - WAI-ARIA: De Renaissance
+-   19:45 · Pauze
+-   20:00 · Talk 2: _Thomas Coopman_ - Front-end microservices
+-   20:45 · Borrel
 
 ```
 
@@ -48,13 +49,11 @@ Op de backend is de monolith al een hele tijd "not done". Er bestaan een heleboe
 Maar wat met de frontend? Gaan we onze single page applications ook als monolith bouwen?
 In deze talk bekijken we enkele mogelijkheden om de frontend monolith te vermijden. Welke problemen duiken hierbij op en hoe kunnen we deze problemen oplossen?
 
-
-
 Thomas Coopman ([@tcoopman](https://github.com/tcoopman)) is een Front-end consultant actief binnen Teamleader.
 
 ![](/_img/bijeenkomsten/teamleader.jpg)
 
-# Locatie
+## Locatie
 
 _Teamleader_
 Dok Noord 3A/101
@@ -62,23 +61,21 @@ Dok Noord 3A/101
 
 Het Teamleader kantoor kan je vinden aan de R40, aan de eerste ingang van Dok-Noord als je uit de richting van de Dampoort komt. Het bevindt zich op de eerste verdieping van het gebouw.
 
-### *Kom je te voet?*
+### _Kom je te voet?_
 
 Zoek op de R40 aan het water de ingang naar Dok-Noord waar het bord “OWS” hangt en ga daar de eerste zijdeur binnen. Ga vervolgens één verdieping omhoog en ga rechts ons kantoor binnen.
 
-### *Kom je met de auto?*
+### _Kom je met de auto?_
 
 Dan kan je via de Sassevaartstraat de ondergrondse parking van Dok-Noord bereiken. Parkeer en verlaat de deur achteraan links in de parking en ga 2 verdiepingen omhoog. Ons kantoor bevindt zich dan aan je rechterkant.
 
 [https://public.teamleader.be](https://public.teamleader.be) — [Route plannen met Google Maps](https://www.google.be/maps/place/Team+Leader+Belgium/@51.065842,3.730843,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3714c8b7ba26b:0xea7545cb4d31b6f3!8m2!3d51.065842!4d3.733037)
 
-
 {%- comment -%}
 {%- form -%}
 {%- endcomment -%}
 
-
-# Aanmeldingen ({aanmeldingen} van de {max})
+## Aanmeldingen ({aanmeldingen} van de {max})
 
 <table>
 <tr>

@@ -1,11 +1,12 @@
 ---
-title: "Bijeenkomst bij Mediacollege Amsterdam op 10 maart 2009"
+title: 'Bijeenkomst bij Mediacollege Amsterdam op 10 maart 2009'
 date: 2009-03-10
 eventdate: 2009-03-10
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 Op dinsdag 10 maart waren we te gast bij [Mediacollege Amsterdam](http://www.ma-web.nl/), kortweg Ma (voorheen Grafisch Lyceum Amsterdam). We werden door Will Fris (Fronteerslid en Ma-docent) en kornuiten met koffie, thee, soep en koekjes ontvangen. Ondanks de lichte [organisatiestress](/bijeenkomsten/organiseren) vooraf hebben Will, Hugo, Ruben en Jelle een perfecte Fronteersbijeenkomst opgezet, op een zeer goede locatie. Bedankt! Hopelijk mogen we hier in de toekomst nog eens terugkomen.
 
 Hugo Verlaat trapte af met een presentatie over Ma. Het Ma ziet enkele kansen in samenwerking met Fronteers, bijvoorbeeld voor een betere aansluiting op de markt en de best practices die zich daarin afspelen. Vanuit het Ma is er veel aandacht voor concept, ontwerp en realisatie. De twee richtingen die goed aansluiten bij front-end web development zijn [Mediatechnologie](http://portal.ma-web.nl/MaOpleidingen/Mediatechnologie/Pages/mediatechnologie.aspx) (22 studenten per jaar) en [Interactief vormgeven](http://portal.ma-web.nl/MaOpleidingen/Mediacreatie/pages/interactiefvormgeven.aspx) (160 studenten per jaar). Een uitdaging voor het Ma is het verschil tussen theorie en praktijk weg te halen. Mede daarom zijn zij (als een van de weinige opleidingen in Nederland) _zelf_ naar Fronteers gekomen. Ondertussen lopen de contacten tussen de [Commissie Onderwijs](/vereniging/commissies/onderwijs) en het Ma, dus we hopen dat we wat voor elkaar kunnen betekenen.
@@ -20,10 +21,10 @@ Verder vonden de [beloofde stickers](/blog/2009/02/stickers) gretig aftrek onder
 
 De meeste aanwezigen vonden het een zeer interessante bijeenkomst met veel stof tot nadenken. Op naar de volgende! Hopelijk kunnen we de datum en locatie daarvan binnenkort bekendmaken.
 
-# Overige materialen en verslagen
+## Overige materialen en verslagen
 
-* [Presentatie Hugo Verlaat over Ma](/_downloads/2009/fronteers-ma.pdf) (PDF, 40KB)
-* [Presentatie Edwin Martin over jQuery](http://www.bitstorm.org/edwin/jquery-presentatie/) (bitstorm.org)
-* [Fronteers: Meeting march 10th](http://www.tibobeijen.nl/blog/2009/03/15/fronteers-meeting-march-10th/) (tibobeijen.nl, Engels)
+-   [Presentatie Hugo Verlaat over Ma](/_downloads/2009/fronteers-ma.pdf) (PDF, 40KB)
+-   [Presentatie Edwin Martin over jQuery](http://www.bitstorm.org/edwin/jquery-presentatie/) (bitstorm.org)
+-   [Fronteers: Meeting march 10th](http://www.tibobeijen.nl/blog/2009/03/15/fronteers-meeting-march-10th/) (tibobeijen.nl, Engels)
 
 Vragen over deze bijeenkomst? Stel ze gerust op [het blog](/blog/2009/02/bijeenkomst-maart#reageer).

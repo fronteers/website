@@ -1,10 +1,11 @@
 ---
-title: "3D-graphics"
+title: '3D-graphics'
 date: 2011-12-06
 author: Arjan Westerdiep
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 De volgende theorie heeft betrekking op de wijze waarop 3D-graphics berekend worden. Welke processen spelen zich buiten het zicht van de gebruiker af in de computer?
 
 Voor het genereren van computer graphics zijn veel en vaak complexe berekeningen nodig. Een gemiddeld boek over computer graphics staat stijf van de moeilijke formules, die voor de gemiddelde mens niet of nauwelijks te lezen zijn en niet echt uitnodigen om er mee aan de slag te gaan. In deze beknopte handleiding wordt de basis uitgelegd; hoe weet je computer welke kleur een bepaalde pixel heeft, welke delen van een voorwerp zichtbaar zijn, welke niet, et cetera. Met een minimum aan wiskunde.
@@ -13,11 +14,11 @@ Houd er rekening mee dat alle complexe theorieën en berekeningen niet voor niet
 
 De besproken theorie is een zeer beperkte keuze uit het brede aanbod aan mogelijkheden en geeft een inzicht in hoe je zelf 3D-graphics kunt berekenen of hoe ze berekend worden door je 3D-programma.
 
-# Basis
+## Basis
 
 Om een 3D-graphic te genereren heb je twee zaken nodig: één of meer virtuele voorwerpen, en een zogenaamd belichtingsmodel. Virtuele voorwerpen bestaan in het algemeen uit polygonen, of vlakken. Het belichtingsmodel beschrijft de manier waarop de virtuele voorwerpen reageren op virtueel licht. Wanneer het eindresultaat fotorealistisch moet zijn, wordt een belichtingsmodel gebruikt dat de fysieke wereld om ons heen zo dicht mogelijk benadert.
 
-# Polygonen
+## Polygonen
 
 Virtuele voorwerpen worden in veel gevallen beschreven met behulp van polygonen. Eén enkele polygoon is op zich niet zo interessant. Meerdere polygonen kunnen een virtueel voorwerp representeren, bijvoorbeeld het logo van Fronteers.
 
@@ -35,7 +36,7 @@ Er zijn twee typen afbeeldingen: raster graphics en vector graphics. Vector grap
 
 Een bitmap afbeelding heeft een bepaald formaat in pixels, bijvoorbeeld 300 pixels horizontaal en 200 pixels verticaal; de afbeelding bestaat uit 60.000 pixels.
 
-# Hoe vertaal je een polygoon naar een afbeelding?
+## Hoe vertaal je een polygoon naar een afbeelding?
 
 De posities van de hoekpunten van de polygoon zijn bekend, waardoor de minimum y-positie en maximale y-positie berekend kunnen worden. Eén van de hoekpunten van de polygoon is de minimum y-positie, een andere hoekpunt is de maximum y-positie van de polygoon. Het hoekpunt dat niet het verticale maximum of minimum is, bevindt zich tussen de minimum- en maximum y-positie.
 
@@ -69,7 +70,7 @@ Je kunt de z-buffer als afbeelding wegschrijven; dit levert een zogenaamde depth
 
 Polygonen die zich achter de camera bevinden, hebben een negatieve waarde en worden niet gebruikt, omdat je geen beeld kan zien dat zich achter de camera bevindt.
 
-# Belichtingsmodel
+## Belichtingsmodel
 
 Om een voorwerp te kunnen zien is het noodzakelijk dat er een vorm van licht is. Licht wordt gereflecteerd door een voorwerp en de weerkaatsing van het licht valt op je netvlies waardoor je het voorwerp ziet.
 
@@ -99,7 +100,7 @@ Phong shading is complexer en rekenintensiever dan de voorgangers. Per positie w
 
 De berekende intensiteit wordt gecombineerd met de kleur-waarde van een polygoon en resulteert in de kleur van een pixel.
 
-# Kwaliteit
+## Kwaliteit
 
 Nu bekend is hoe je een virtueel voorwerp zichtbaar kunt maken in de vorm van een afbeelding is de kwaliteit een aandachtspunt. Afhankelijk van de kwaliteit van de gebruikte virtuele voorwerpen kunnen lelijke trapjes, die ook wel jagged edges genoemd worden, ontstaan.
 
@@ -115,18 +116,18 @@ De techniek om jagged edges te vermijden wordt anti-aliasing genoemd.
 
 ![](/_img/2011/12/anti-aliasing.png)
 
-# Conclusie
+## Conclusie
 
 3D-graphics zijn overal aanwezig: in films, in spelletjes, in reclame, enz. De basale kennis die je zojuist hebt opgedaan, geeft je een beter inzicht in de manier waarop de beelden tot stand komen. Het zelf maken van 3D-graphics is minder ingewikkeld dan je in eerste instantie misschien zou verwachten. Naarmate kwaliteit, realisme en snelheid belangrijker worden, neemt de complexiteit snel toe.
 
 Zelfs als websitebouwer kun je wat aan 3D-graphicskennis hebben. Probeer je website na te bouwen in een 3D-programma. Als blijkt dat je website niet reproduceerbaar is—je kunt de schaduwen bijvoorbeeld niet namaken—dan is er iets mis met je ontwerp.
 
-# Links
+## Links
 
-* [Paul Debevec](http://ict.debevec.org/~debevec/)
-* [Paul Bourke](http://paulbourke.net/)
+-   [Paul Debevec](http://ict.debevec.org/~debevec/)
+-   [Paul Bourke](http://paulbourke.net/)
 
-# Boeken
+## Boeken
 
 Advanced Animation and Rendering Techniques
 Alan Watt, M. Watt, ADDISON-WESLEY, ISBN 0-201-54412-1
@@ -138,6 +139,7 @@ Fundamentals of three-dimensional computer graphics
 Alan Watt, ADDISON-WESLEY, ISBN 0-201-15442-0
 
 ### Over Arjan Westerdiep
+
 <img src="/_img/2011/12/arjan-westerdiep.jpg" alt="Foto van arjan westerdiep uit 2011" class="floating-portrait" /> 
 Arjan Westerdiep is gediplomeerd kunstenaar, woordblind en probeert met wisselend succes zowel zijn linker als rechter hersenhelft te gebruiken en te combineren, was weer welkom op de lagere school zodra hij het telefoonnummer van zijn ouderlijk huis wist te onthouden, vindt iets mooi of lelijk en is de maker van [drububu.com](http://www.drububu.com).
 

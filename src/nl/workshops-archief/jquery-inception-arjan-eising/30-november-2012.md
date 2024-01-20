@@ -24,6 +24,6 @@ Door Arjan Eising bij Seats2Meet in Utrecht.
 -   Peter Welp
 -   en nog iemand
 
-# Opgave
+## Opgave
 
 Deze workshop is geweest. Mocht je geïnteresseerd zijn in de workshop, hou dan het [overzicht](/workshops) in de gaten of blijf op de hoogte via [RSS](http://feeds.feedburner.com/FronteersCursussen), [Twitter](https://twitter.com/fronteers) en [e-mail](/workshops#per-mail).

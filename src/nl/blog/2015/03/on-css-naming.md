@@ -1,37 +1,38 @@
 ---
-title: "Ceci n’est pas une pipe | or on CSS naming"
+title: 'Ceci n’est pas une pipe | or on CSS naming'
 date: 2015-03-16
 author: Wilfred Nas
-categories: 
-  - De Artikelen
+categories:
+    - De Artikelen
 ---
+
 Wilfred Nas hield tijdens de jam session van het Fronteerscongres een praatje over naamgeving van classes. Dit praatje heeft hij omgezet in een artikel voor onze website.
 
-# Ceci n’est pas une pipe | or: on CSS naming
+## Ceci n’est pas une pipe | or: on CSS naming
 
-Most of us write CSS daily, it is something we do and not the most difficult thing that we do. Or so we tell ourselves, as most of us would rather concentrate on the more difficult stuff, such as writing JavaScript or semantically correct HTML. Most of the time we don't really think about what it is we write, but I think that CSS is a poorly understood part of our work. 
-And I think we tend to forget the most important part of it: 
+Most of us write CSS daily, it is something we do and not the most difficult thing that we do. Or so we tell ourselves, as most of us would rather concentrate on the more difficult stuff, such as writing JavaScript or semantically correct HTML. Most of the time we don't really think about what it is we write, but I think that CSS is a poorly understood part of our work.
+And I think we tend to forget the most important part of it:
 naming things.
 
-# In the beginning
+## In the beginning
 
 There used to be a time when life was simple. You built a website or an app, all by yourself. In those days stuff was simple and you didn't need to really think about the name of that `.button` or was it `.btn` or even `.defaultButton`. You just had a couple of hundred lines of CSS and you could oversee it all easily. That is, when you were working on it. If the client came back in three months there sometimes was that moment that you honestly had no clue what you had done in the past, but most of the times you managed.
 
-# Enter the modern times
+## Enter the modern times
 
 Nowadays there is almost no project I tackle all by myself, most of the time there are two or more people working on the same code that I work on. And I have to communicate with those people, to avoid mistakes or unnecessary rework. So to avoid these things, we start to think about naming conventions. There are some tools and methodologies around to help you, [SMACSS](http://smacss.com), [BEM](http://bem.info) and [OOCSS](http://oocss.org) to name but a few and I advise you to look at those. But I think that rather than blindly following one of those methods you should settle on your own and build these things with your team. As the most important thing about this is communication and that happens best when you do it together…
 
-# So a proposal
+## So a proposal
 
 Something that I like to do is to work really simply, so the first thing I like to do is set up boundaries. So the first part of each class will be the name of the project or the sub-project you are working on.
 
 `.*g*-form-checkbox`: Where G is the Generic part of the project you are working on.
 This is a real life example from a project I worked on, this one involved around 30 people working in 7 different teams. So you see, we had quite some coordinating to do. Each team has its own prefix thus preventing them to overwrite other peoples code by accident.
 
-.g-*form*-checkbox: The second part is what we are working on, the form bit of the application. 
+.g-_form_-checkbox: The second part is what we are working on, the form bit of the application.
 Each project has its own sections in the code base, most of the time in its own .less file.
 
-.g-form-*checkbox*: The third part is for... you can figure that one out.
+.g-form-_checkbox_: The third part is for... you can figure that one out.
 
 Ok you say, this all sounds reasonable, but why should we bother? Well maybe to really start thinking about the names you give to stuff, as to avoid stuff like this:
 
@@ -58,11 +59,11 @@ We have always tried to make use of smart people and starting from some of the t
 
 Atom are the smallest part of a page or application, for instance, the input box on a page.
 
-So how do we name those atoms? 
+So how do we name those atoms?
 For an `<input />` we set a class of `.g-form-input`. If we wanted to be more specific for a `<input type="search" />` we could do `.g-form-input-search` or we could go `.g-form-input[type=“search”]`, whatever strikes your fancy.
 In the same jest, we could approach states like focus, by either providing an extra class `.g-form-input-focus` or using attribute selectors `.g-form-input:focus`.
 
-You could even do without the classes all together and go `input[type=search]`, that only is a different kind of naming, CSS naming is not about classes, it is  about how we address things. So if you want to go another way, please do so consistently.
+You could even do without the classes all together and go `input[type=search]`, that only is a different kind of naming, CSS naming is not about classes, it is about how we address things. So if you want to go another way, please do so consistently.
 
 ## Molecules
 
@@ -83,8 +84,8 @@ Where in the CSS, the `*.g-m-search-input*` will only contain the declarations t
 Next up in the chain are organisms, things made up of the molecules. Let's say that we have a header organism `.g-o-header` that contains a search box. If the search box needs any styles different applied to it, we supply it with some extra css, like this:
 
 ```
-.g-o-header .m-search-input .g-form-input-search { 
-   foo:bar; 
+.g-o-header .m-search-input .g-form-input-search {
+   foo:bar;
 }
 ```
 
@@ -99,13 +100,13 @@ Next up in our hierarchy are the templates, here is where we put even more stuff
 Finally we have the actual pages, where our templates are used to create actual web pages. Please note that the bulk of the css you will write will be for the Atoms and will diminish as we get down to the molecules and on to the pages. If you have a lot of code for each page, you need to look closely at your atoms and see what you can change there.
 Pages come like this `*.g-p-awesomeblogpost*` and contain only the stuff needed there, like on the page `*.g-p-saintpatricksday*` you will set the borders of the `*.g-form-input-search*` to green, as we all know.
 
-# Wrap up and pointers
+## Wrap up and pointers
 
 So in a nut shell, here is what I do in big projects:
 
-* I prefix each name with the name of the project or an abbreviation of that name.
-* 
-* Molecules have a -m after that, organisms an -o, templates a -t and pages a -p. By doing this you should make your names easily understandable to all of your team members and you will get new members up to speed in no time.
+-   I prefix each name with the name of the project or an abbreviation of that name.
+-
+-   Molecules have a -m after that, organisms an -o, templates a -t and pages a -p. By doing this you should make your names easily understandable to all of your team members and you will get new members up to speed in no time.
 
 So now you know what a naming convention could look like, I will give you some random pointers that I have found useful.
 

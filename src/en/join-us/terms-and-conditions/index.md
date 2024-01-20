@@ -1,9 +1,10 @@
 ---
 title: Terms and conditions
 key: terms-and-conditions
-# if there's a subtitle, put it in heroSlogan:
+## if there's a subtitle, put it in heroSlogan:
 heroSlogan: "By becoming a member you support Fronteers's activities financially."
 ---
+
 Fronteers is a non-profit organisation under Dutch law. Anyone can become a member by filling out the form below. The contribution is {{ general-info.contribution }} per year, which includes 21% Dutch VAT. Those who become member after 30th of June pay {{ general-info.contribution_discounted }}, again including 21% Dutch VAT. Students pay half price. Our invoices are denominated in euros.
 
 By becoming a member you support Fronteers's activities financially.

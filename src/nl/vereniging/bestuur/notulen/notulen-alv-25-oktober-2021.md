@@ -1,36 +1,37 @@
 ---
 title: Notulen ALV 25 oktober 2021
 ---
+
 ## Aanwezig:
 
-* Sander Vink (penningmeester),
-* Edwin Martin (secretaris, notulen),
-* Syb Wartna,
-* Mathijs de Groot,
-* Darice de Cuba (met een schrijftolk),
-* Tim Severien,
-* Jules Ernst,
-* Peter-Paul Koch,
-* Joël Kuijten,
-* Wim van Iersel,
-* Daniëlle Cuppen,
-* Bernard Nijenhuis,
-* Nina Westenbrink,
+-   Sander Vink (penningmeester),
+-   Edwin Martin (secretaris, notulen),
+-   Syb Wartna,
+-   Mathijs de Groot,
+-   Darice de Cuba (met een schrijftolk),
+-   Tim Severien,
+-   Jules Ernst,
+-   Peter-Paul Koch,
+-   Joël Kuijten,
+-   Wim van Iersel,
+-   Daniëlle Cuppen,
+-   Bernard Nijenhuis,
+-   Nina Westenbrink,
 
-# Agenda
+## Agenda
 
-* Opening
-* Jaarrekening 2020
-* Bevindingen kascommissie
-* Benoeming nieuwe kascommissie
-* Financiën 2021
-* Begroting 2022
-* Toelichting commissies
-* Stand van zaken nieuwe website
-* Rondvraag
-* Sluiting
+-   Opening
+-   Jaarrekening 2020
+-   Bevindingen kascommissie
+-   Benoeming nieuwe kascommissie
+-   Financiën 2021
+-   Begroting 2022
+-   Toelichting commissies
+-   Stand van zaken nieuwe website
+-   Rondvraag
+-   Sluiting
 
-# De vergadering
+## De vergadering
 
 Sander opent de vergadering. Anneke is er niet bij vanwege gezondheidsproblemen in de familie.
 
@@ -81,7 +82,7 @@ Vacatures: het aantal plaatsingen is flink toegenomen tov 2020.
 Er zijn geen workshops gehouden, we hebben liever fysieke bijeenkomsten in plaats van online. Tom is gestopt, dus we
 moeten ook een nieuw commissielid zoeken.
 
-PPK vraagt of je alleen korting op een workshop krijgt als je al lid was bij aankondiging. Sander: nee, je 
+PPK vraagt of je alleen korting op een workshop krijgt als je al lid was bij aankondiging. Sander: nee, je
 kan ook een workshop-lidmaatschapscombinatiekaartje kopen.
 
 Darice: ik zou niet ergens naartoe gaan als er niet op QR wordt gecontroleerd.

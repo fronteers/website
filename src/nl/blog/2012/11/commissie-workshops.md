@@ -24,7 +24,7 @@ work·shop [wu:rksjop] de;
 
 …daarentegen, dekt de lading een stuk beter. Vandaar dus deze naamswijziging en de nodige url-wijzigingen op de site. Niet in de laatste plaats te danken aan een puik stukje internationaal scrummen.
 
-# Planning
+## Planning
 
 Voor eind november staat jQuery Inception, een workshop voor beginnende jQuery coders, op het programma. Omdat deze workshop in een mum van tijd vol zat en we van een aantal mensen de vraag hebben gehad of ze niet alsnog mee konden doen, hebben we geprobeerd de <strike>cursus</strike> **workshop** snel nog een keer in te plannen. Dat is gelukt en je kunt je nu [inschrijven](/workshops/jquery-inception-arjan-eising/7-december-2012) voor [jQuery Inception](/workshops/jquery-inception-arjan-eising) op 7 december.
 

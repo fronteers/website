@@ -1,42 +1,46 @@
 ---
-title: "Meetup bij Netvlies over performance, teams en data-analyse"
+title: 'Meetup bij Netvlies over performance, teams en data-analyse'
 date: 2017-03-17
 eventdate: 2017-03-17
 location:
 categories:
     - meetup
 ---
-Op woensdag 12 april 2017 is Fronteers weer te gast bij [Netvlies](https://www.netvlies.nl/) in Breda, voor een meetup met als thema's performance, zelfsturing en de uitdagingen bij het verzamelen van customer journey data. We hebben drie Nederlandstalige talks, van *Jelmer de Maat*, *Jeroen Ooms* en *Erik Driessen*. De bijeenkomst is gratis voor leden en niet-leden, en Netvlies zorgt voor broodjes en soep!
 
-# Programma
+Op woensdag 12 april 2017 is Fronteers weer te gast bij [Netvlies](https://www.netvlies.nl/) in Breda, voor een meetup met als thema's performance, zelfsturing en de uitdagingen bij het verzamelen van customer journey data. We hebben drie Nederlandstalige talks, van _Jelmer de Maat_, _Jeroen Ooms_ en _Erik Driessen_. De bijeenkomst is gratis voor leden en niet-leden, en Netvlies zorgt voor broodjes en soep!
 
-* 17:45 · Inloop met eten
-* 18:45 · Introductie en welkomstwoord
-* 19:00 · Talk 1: *Jelmer de Maat* - The importance of performance
-* 19:45 · Pauze
-* 20:00 · Talk 2: *Jeroen Ooms* - Front-enders en zelfsturing
-* 20:45 · Pauze
-* 21:00 · Talk 3: *Erik Driessen* - Uitdagingen bij het verzamelen van customer journey data
-* 21:45 · Borrel
+## Programma
+
+-   17:45 · Inloop met eten
+-   18:45 · Introductie en welkomstwoord
+-   19:00 · Talk 1: _Jelmer de Maat_ - The importance of performance
+-   19:45 · Pauze
+-   20:00 · Talk 2: _Jeroen Ooms_ - Front-enders en zelfsturing
+-   20:45 · Pauze
+-   21:00 · Talk 3: _Erik Driessen_ - Uitdagingen bij het verzamelen van customer journey data
+-   21:45 · Borrel
 
 ## Talk 1: The importance of performance
+
 Jelmer de Maat
 
 Performance is hip, maar hoe belangrijk is performance nu echt voor de verschillende oplossingen die je ontwikkelt? Onderzoek toont aan dat meer dan de helft van bezoekers een mobiele website verlaat als pagina’s langer dan 3 seconden moeten laden. Hoe is dit eigenlijk goed te meten en wat kun je daarna met de resultaten doen? Performance valt onder verschillende disciplines, dus wat kan jij als front-ender hier specifiek aan bijdragen om snel resultaat te boeken?
 
 ## Talk 2: Front-enders en zelfsturing
+
 Jeroen Ooms
 
 Incentro in Rotterdam is vorig jaar gestart met zelfsturing op team niveau. Jeroen Ooms vertelt over de ervaring die het inmiddels 12-koppige team dat voornamelijk uit front-enders bestaat heeft opgedaan, wat ze nu doen en wat ze hebben geleerd.
 
 ## Talk 3: Uitdagingen bij het verzamelen van customer journey data
+
 Erik Driessen
 
 5 jaar geleden begon ik als developer bij een online marketing bureau. Kort daarna switchte ik naar web analytics. Mijn mind-set veranderde van "waarom komt er zo laat nog een Google Analytics briefing op m'n bord" naar "hoe heb ik ooit iets kunnen maken zonder het te willen meten?". Hoe richt je data in om je website te kunnen verbeteren? En is het in de steeds complexere multi-screen wereld tijd voor een ‘data-first approach to UX’?
 
-# Locatie
+## Locatie
 
-*Netvlies*
+_Netvlies_
 Prinsenkade 8
 4811VB Breda
 
@@ -44,11 +48,9 @@ Prinsenkade 8
 
 [Route plannen met Google Maps](https://www.google.nl/maps/place/Netvlies+Internetdiensten/@51.5893757,4.7696247,17z/data=!3m1!4b1!4m5!3m4!1s0x47c69f8880b3b979:0x5b7e016b6d08e358!8m2!3d51.5893757!4d4.7718134)
 
-
 {%- comment -%}
 {%- form -%}
 {%- endcomment -%}
-
 
 <table>
 <tr>

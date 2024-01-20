@@ -12,7 +12,7 @@ Geef je via het [onderstaande formulier](#formulier-1) op voor de workshop [Serv
 
 Lees voordat je je inschrijft ook even [onze voorwaarden](/workshops/voor-deelnemers).
 
-# Locatie
+## Locatie
 
 De workshop vindt plaats in Utrecht. Het adres volgt nog.
 

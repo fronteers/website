@@ -1,9 +1,10 @@
 ---
 title: Become a member
 key: join-us
-# if there's a subtitle, put it in heroSlogan:
-heroSlogan: ""
+## if there's a subtitle, put it in heroSlogan:
+heroSlogan: ''
 ---
+
 First of all, by becoming a member you naturally support front-end web development itself as a discipline. The main goal of Fronteers is the professionalization of our profession. By becoming a member and making your voice heard, you put the front-end on the map. Our vacancy database in particular shows that this works.
 
 Fronteers organizes monthly meetings, always in collaboration with a company or educational institution. These meetings take place all over the country. In the evening, two or three speakers will talk about subjects with which the speaker has a great deal of knowledge or experience. Not only very educational, but also a great opportunity to get in touch with fellow Fronteers. Being part of the network of professional front-enders is an important aspect of the association. This is also reflected in the presence on Slack.

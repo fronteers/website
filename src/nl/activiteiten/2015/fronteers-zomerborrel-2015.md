@@ -1,34 +1,29 @@
 ---
-title: "Fronteers zomerborrel 2015"
+title: 'Fronteers zomerborrel 2015'
 date: 2015-08-09
 eventdate: 2015-08-09
 location:
 categories:
     - meetup
 ---
+
 Het is zomer en Fronteers heeft alweer zijn 500e lid verwelkomd. Om dit te vieren, organiseert Fronteers op dinsdag 25 augustus vanaf 18:00 uur een zomerborrel in de Nieuwe Dikke Dries in Utrecht - en als je betalend lid bent van Fronteers ben je uitgenodigd. Kom gezellig bijkletsen met mede front-end ontwikkelaars!
 
-# Kosten
+## Kosten
 
 Fronteers geeft een drankje weg.. en misschien nóg wel een... Het aantal drankjes is afhankelijk van het aantal deelnemers. Er wordt voor een hapje bij de borrel gezorgd, het is ook mogelijk -op eigen kosten- wat te eten te bestellen, dat kan voorafgaand aan of tijdens de borrel.
 
-# Bereikbaarheid
+## Bereikbaarheid
 
 Café Nieuwe Dikke Dries is gevestigd aan de Oudkerkhof 36, 3512 GL Utrecht. Meer info is te vinden op [http://www.dikkedries.nl/](http://www.dikkedries.nl/).
 
 {%- googlemaps "Cafe de Nieuwe Dikke Dries, Oudkerkhof, Utrecht, Nederland" -%}
 
-# Vragen?
+## Vragen?
 
 [Neem contact op met de Activiteitencommissie.](/vereniging/commissies/activiteiten)
 
-
-
-
-
-
-
-# Aanmeldingen
+## Aanmeldingen
 
 <table>
 <tr>

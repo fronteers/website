@@ -1,32 +1,11 @@
 ---
-title: "Bijeenkomst bij Lable op 10 februari 2011"
+title: 'Bijeenkomst bij Lable op 10 februari 2011'
 date: 2011-02-10
 eventdate: 2011-02-10
 location:
 categories:
     - meetup
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Op donderdag 10 februari was Fronteers te gast bij [Lable](http://lable.org) in Leeuwarden. Hidde de Vries heet iedereen welkom.
 
@@ -48,56 +27,55 @@ Belangrijke keuze in het ontwerpproces was: "kun je het aanraken, wil je het zie
 
 Er gingen twee iPad's de zaal door, zodat iedereen even kon kijken en voelen hoe de applicatie werkt. De applicatie gaat twaalf euro per maand kosten.
 
-# Jurriaan Mous over het bouwen van een zorgdossier in HTML5/CSS3/GWT
+## Jurriaan Mous over het bouwen van een zorgdossier in HTML5/CSS3/GWT
 
 {%- vimeo "19870301" -%}
 
-* [Video van de presentatie van Juriaan Mous](http://vimeo.com/19870301) met dank aan Frank Zijlstra
+-   [Video van de presentatie van Juriaan Mous](http://vimeo.com/19870301) met dank aan Frank Zijlstra
 
-# Aanwezigen
+## Aanwezigen
 
-* Jelmer van der Linde
-* Michiel Jelijs
-* Arjan Eising
-* Stephen Hay
-* Teade Steenstra
-* Peter Wouda
-* Eelco Wiersma
-* Sint Smeding
-* Marco van der Kuur
-* Gerard Salomons
-* Kris de Jong
-* Remco van der Steen
-* Sander Wapstra
-* Yassine Bentaieb
-* Mark de Jong
-* Sander Kolthof
-* Eko Kooistra
-* Janita Top
-* Stefan Oost
-* Marc van den Dobbelsteen
-* Paul Nijssen
-* Maarten Kolthof
-* Frans de Boer
-* Peter Wassenaar
-* Frank Zijlstra
-* Koen Willems
-* Dirk Sierd de Vries
-* Romke Bon
-* Ghio Coste
-* Jacob Steringa
-* Maarten Kloppenburg
-* Rinse van Dijk
-* Glenn Glerum
-* Bram Hilgersom
-* Michiel Wijgmans
-* Lennart Alserda
-* Martin Kuipers
-* Remco Rispens
-* Erik Veld
-* Diederik Dijkstra
-* Arjan Westerdiep
-* Sander Hueting
-* Matthijs Hoekstra
-* en nog 9 anderen
-
+-   Jelmer van der Linde
+-   Michiel Jelijs
+-   Arjan Eising
+-   Stephen Hay
+-   Teade Steenstra
+-   Peter Wouda
+-   Eelco Wiersma
+-   Sint Smeding
+-   Marco van der Kuur
+-   Gerard Salomons
+-   Kris de Jong
+-   Remco van der Steen
+-   Sander Wapstra
+-   Yassine Bentaieb
+-   Mark de Jong
+-   Sander Kolthof
+-   Eko Kooistra
+-   Janita Top
+-   Stefan Oost
+-   Marc van den Dobbelsteen
+-   Paul Nijssen
+-   Maarten Kolthof
+-   Frans de Boer
+-   Peter Wassenaar
+-   Frank Zijlstra
+-   Koen Willems
+-   Dirk Sierd de Vries
+-   Romke Bon
+-   Ghio Coste
+-   Jacob Steringa
+-   Maarten Kloppenburg
+-   Rinse van Dijk
+-   Glenn Glerum
+-   Bram Hilgersom
+-   Michiel Wijgmans
+-   Lennart Alserda
+-   Martin Kuipers
+-   Remco Rispens
+-   Erik Veld
+-   Diederik Dijkstra
+-   Arjan Westerdiep
+-   Sander Hueting
+-   Matthijs Hoekstra
+-   en nog 9 anderen

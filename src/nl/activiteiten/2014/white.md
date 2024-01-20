@@ -1,46 +1,45 @@
 ---
-title: "Bijeenkomst bij internetbureau WHITE op 29 oktober 2014"
+title: 'Bijeenkomst bij internetbureau WHITE op 29 oktober 2014'
 date: 2014-10-29
 eventdate: 2014-10-29
 location:
 categories:
     - meetup
 ---
+
 Op woensdag 29 oktober 2014 is Fronteers te gast bij [internetbureau WHITE](http://www.white.nl) in Valkenswaard. Er worden twee presentaties gehouden.
 
-# Het programma is als volgt:
+## Het programma is als volgt:
 
-* 18:00 uur Ontvangst met hapje & drankje
-* 19:00 uur Simon de Turck - "An introduction to AngularJS"
-* 19:45 uur Korte pauze
-* 20:00 uur Bob Donderwinkel - "De voordelen van BEM (Block, Element, Modifier) CSS"
-* 20:45 uur Borrel
+-   18:00 uur Ontvangst met hapje & drankje
+-   19:00 uur Simon de Turck - "An introduction to AngularJS"
+-   19:45 uur Korte pauze
+-   20:00 uur Bob Donderwinkel - "De voordelen van BEM (Block, Element, Modifier) CSS"
+-   20:45 uur Borrel
 
-# Simon de Turck - "An introduction to AngularJS" ([slides](http://slides.com/zimmen/uc-2/))
+## Simon de Turck - "An introduction to AngularJS" ([slides](http://slides.com/zimmen/uc-2/))
 
 Hoe start je snel met Angular? Wat zijn de dingen waar je als eerste tegenaan loopt? Wat zijn de voor- en nadelen ten opzichte van andere frameworks?
 
 {%- vimeo "118277515" -%}
 
-# Bob Donderwinkel - "De voordelen van BEM (Block, Element, Modifier) CSS" ([slides](http://www.slideshare.net/BobDonderwinkel/bem-presentation-40907446))
+## Bob Donderwinkel - "De voordelen van BEM (Block, Element, Modifier) CSS" ([slides](http://www.slideshare.net/BobDonderwinkel/bem-presentation-40907446))
 
 Introductie, voorbeelden en overige praktische (on)zin.
 
 {%- vimeo "118326813" -%}
 
-# Bereikbaarheid
+## Bereikbaarheid
 
 WHITE is gevestigd aan de Parallelweg Oost 23, 5555XA, Valkenswaard. Parkeren kan op de parkeerplaats achter het pand of elders in de straat. Met het openbaar vervoer reis je naar Eindhoven Centraal waarna je bus 171 of 172 naar de Markt in Valkenswaard neemt. Vanaf daar is het zo'n 10 minuten lopen.
 
 {%- googlemaps "Parallelweg Oost 23, 5555XA, Valkenswaard" -%}
 
-
 {%- comment -%}
 {%- form -%}
 {%- endcomment -%}
 
-
-# Aanmeldingen ({aanmeldingen} van de {max})
+## Aanmeldingen ({aanmeldingen} van de {max})
 
 <table>
 <tr>

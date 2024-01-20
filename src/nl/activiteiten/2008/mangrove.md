@@ -1,14 +1,15 @@
 ---
-title: "Bijeenkomst bij Mangrove op 16 oktober 2008"
+title: 'Bijeenkomst bij Mangrove op 16 oktober 2008'
 date: 2008-10-16
 eventdate: 2008-10-16
 location:
 categories:
     - meetup
 ---
+
 Op 16 oktober 2008 organiseerde [Mangrove](http://www.mangrove.nl/) voor de tweede keer een Fronteers bijeenkomst. Bijna zestig aanwezigen kwamen in Rotterdam bij elkaar voor twee presentaties en vooral veel en gezellig voor- en na-kletsen. De gelukkigen wisten tijdens de presentaties een plaatsje op de comfortabele stoelen of zitzakken te bemachtigen, de rest kon de presentaties staande aan de bar volgen.
 
-# The web's hidden agenda, door Wietse Hage
+## The web's hidden agenda, door Wietse Hage
 
 {%- vimeo "2016178" -%}
 
@@ -18,7 +19,7 @@ Met dat als achtergrond liet Wietse een groot aantal recente ontwikkelingen door
 
 De presentatie kwam uiteindelijk weer "full circle", met het recente nieuws dat Microsoft de IE6 engine voor Windows Mobile zal gebruiken. Vervolgens was er ruimte voor vragen en discussie, waarbij de problematiek van de disproportionele hoeveelheid ontwikkeltijd die IE6 vraagt uitvoerig aan bod kwam. Wij als ontwikkelaars zijn eigenlijk de voornaamste reden dat IE6 nog steeds zo'n grote marketshare kan behouden, maar we hebben allemaal het probleem dat we niet zelf kunnen stoppen met het ondersteunen van deze browser. Eén van de best ontvangen suggesties uit het publiek was het idee om expliciet de kosten van IE6 ontwikkeltijd op offertes (en eventueel facturen) te vermelden, en aldus klanten een beter idee van deze problematiek te geven.
 
-# Frameworks killed the front-end star, door Joris Verbogt en Ruben Bos
+## Frameworks killed the front-end star, door Joris Verbogt en Ruben Bos
 
 {%- vimeo "2025795" -%}
 
@@ -28,11 +29,11 @@ Gezien deze ontwikkelingen stelden Ruben en Joris zich een toekomst voor waarin 
 
 De discussie die volgde besloeg veel terrein, en zal vermoedelijk nog voor veel mensen lange tijd in hun hoofd doorspelen. Er wordt verschillend gedacht over de waarde van puur HTML, CSS en JavaScript tegenover een taal hier bovenop zoals het door Cappuccinno gebruikte Objective-J, of nog verder van front-end technieken verwijderde omgevingen die ook front-end code genereren, zoals .NET omgevingen of [GWT](http://code.google.com/webtoolkit/). Sommige mensen zien het front-end vakgebied ontwikkelen naar een situatie waar wij de "widgets" creëren die door de verschillende frameworks gebruikt worden, terwijl anderen de situatie niet wezenlijk zien veranderen. Kortom, genoeg discussie.
 
-# Afsluiting
+## Afsluiting
 
 Na de presentaties lieten zowel Kilian Valkhof als Wilfred Nas weten dat ze momenteel op zoek zijn naar extra leden voor respectievelijk de [Commissie Marketing](/vereniging/commissies/marketing) en de [Commissie Diplomering](/vereniging/commissies/diplomering). Vervolgens is er door iedereen nog tot laat op de avond doorgeborreld en -gepraat. Al met al zeker een geslaagde bijeenkomst.
 
-# Overige verslagen
+## Overige verslagen
 
-* [Een avondje Front-end discussies aan de Mangrove bar](http://blog.mangrove.nl/index.php?pageID=3434&messageID=881) (blog.mangrove.nl)
-* [Video report: Fronteers meeting bij Mangrove](http://blog.mangrove.nl/index.php?pageID=3434&messageID=902) (blog.mangrove.nl)
+-   [Een avondje Front-end discussies aan de Mangrove bar](http://blog.mangrove.nl/index.php?pageID=3434&messageID=881) (blog.mangrove.nl)
+-   [Video report: Fronteers meeting bij Mangrove](http://blog.mangrove.nl/index.php?pageID=3434&messageID=902) (blog.mangrove.nl)

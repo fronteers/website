@@ -1,10 +1,11 @@
 ---
-title: "Toegankelijkheid begint bij het eerste design"
+title: 'Toegankelijkheid begint bij het eerste design'
 date: 2019-12-12
 author: Marjon Bakker
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
+
 Al bij het ontwerpen van een nieuwe site is het belangrijk om rekening te houden met toegankelijkheid. Als toegankelijkheidsonderzoeker kom ik bij het testen van websites vaak problemen tegen die al in de designfase zijn veroorzaakt.
 Wanneer je als front-ender weet waar je op kunt letten, dan kun je al heel vroeg in het bouwproces de juiste vragen stellen aan designers. Zo kunnen veel problemen al voor de livegang opgelost worden. En is er veel minder reparatie achteraf nodig.
 
@@ -14,7 +15,7 @@ In dit artikel wil ik graag ingaan op een aantal punten die van belang zijn als 
 [De zichtbare user experience](#de-zichtbare-user-experience)
 [Afsluitend](#afsluitend)
 
-# De onzichtbare user experience
+## De onzichtbare user experience
 
 Een design is heel visueel. Er zijn mooie schetsen gemaakt die tonen hoe de nieuwe site eruit moet gaan zien. Medewerkers van een designbureau zijn er vaak niet op getraind om rekening te houden met de user experience van mensen die slecht of niet kunnen zien.
 
@@ -108,7 +109,7 @@ Omzeilende links zijn niet alleen handig voor de hoofdinhoud van een pagina, maa
 
 Een skiplink wordt door een designer vaak niet ontworpen. Vraag aan de designer dus hoe de skiplink eruit moet zien.
 
-# De zichtbare user experience
+## De zichtbare user experience
 
 Een groot deel van de toegankelijkheidsproblemen bevindt zich in het zichtbare deel van de website, met name voor slechtzienden of kleurenblinden. Ook moet bij het bouwen van een site rekening worden gehouden met ziende toetsenbordgebruikers.
 
@@ -124,9 +125,9 @@ Meet in het design de kleuren van de teksten en hun achtergrond na met een kleur
 
 Houd hierbij rekening met de [juiste contrastratio's volgens WCAG](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html):
 
-* Minimaal 4,5:1 bij gewone tekst
-* Minimaal 3:1 bij grote tekst (18pt of 14pt vet)
-* Denk eraan: De lettergroottes in WCAG zijn in punten. 14pt en 18pt zijn equivalent aan ongeveer 18.5px en 24px
+-   Minimaal 4,5:1 bij gewone tekst
+-   Minimaal 3:1 bij grote tekst (18pt of 14pt vet)
+-   Denk eraan: De lettergroottes in WCAG zijn in punten. 14pt en 18pt zijn equivalent aan ongeveer 18.5px en 24px
 
 Je kunt bij de designer ook een lijst met gebruikte kleuren opvragen en deze in een [kleurenmatrix](http://contrast-grid.eightshapes.com/) zetten. Hier zie je van verschillende kleurencombinaties of ze voldoen aan de vereiste contrastratio.
 
@@ -166,7 +167,7 @@ Vaak wordt door designers niet gedacht aan het ontwerpen van een formulierstijl,
 
 Denk ook na over wat de ervaring wordt voor blinde gebruikers: Hoe gaan zij weten dat er iets niet klopt? Karl Groves legt op zijn blog uitgebreid uit hoe je `aria-describedby` kunt gebruiken voor [toegankelijke foutmeldingen](https://karlgroves.com/2011/10/10/accessible-form-labeling-instructions).
 
-# Afsluitend
+## Afsluitend
 
 Natuurlijk is er nog veel meer te vertellen over design en toegankelijkheid. Zeker de wat complexere gevallen verdienen veel meer aandacht dan in dit artikel past.
 
@@ -177,11 +178,13 @@ Voor een [zeer uitgebreid artikel over contrast](http://iacobien.nl/artikelen/co
 Vragen kun je altijd stellen in het accessibility-kanaal van de [Slack van Fronteers](https://fronteers-slack.herokuapp.com/).
 
 ### Over Marjon
+
 <img src="/_img/adventskalender/toegankelijkheid-eerste-design/marjon-bakker.jpg" alt="Foto van Marjon" class="floating-portrait" /> 
 Marjon Bakker is sinds 2017 adviseur digitale toegankelijkheid bij [Firm Ground](https://www.firmground.nl). Zij werkt het liefst op het snijvlak tussen communicatie en frontend development, met oog voor bruikbaarheid van websites voor alle bezoekers. Ze heeft zich gespecialiseerd in technisch onderzoek en het uitwerken van praktische oplossingen voor developers en opdrachtgevers. Haar toegankelijkheidswerkzaamheden sluiten goed aan en bouwen voort op haar eerdere werkervaring als webredacteur en communitymanager.
 Marjons donatie gaat naar Bits of Freedom.)
 
 #### Contact
-* [marjon@firmground.nl](mailto:marjon@firmground.nl)
-* [LinkedIn](https://www.linkedin.com/in/marjonbakker/)
-* [Twitter](https://twitter.com/MarjonBakker)
+
+-   [marjon@firmground.nl](mailto:marjon@firmground.nl)
+-   [LinkedIn](https://www.linkedin.com/in/marjonbakker/)
+-   [Twitter](https://twitter.com/MarjonBakker)

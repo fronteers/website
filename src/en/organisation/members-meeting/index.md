@@ -1,9 +1,10 @@
 ---
 key: alv
 title: Membership meeting (ALV)
-# if there's a subtitle, put it in heroSlogan:
-heroSlogan: ""
+## if there's a subtitle, put it in heroSlogan:
+heroSlogan: ''
 ---
+
 The board organizes a general meeting of members at least once per calendar year. This traditionally takes place at the end of the year, so that the past congress and the budget for the coming year can be discussed. If necessary, the board can organize several members' meetings per year, and the members can also organize one by means of a conference call. a call by at least 10% of the members. Announcement of the GMM always takes place in writing to all members, no later than 1 week prior to the date of the GMM.
 
 The GMM is effectively the highest body within the association, where assignments can be given to the board and plans of the board can be adjusted. In practice, this will mainly manifest itself in the approval or rejection of specific points in the budget, and in the approval or rejection of submitted policy proposals.

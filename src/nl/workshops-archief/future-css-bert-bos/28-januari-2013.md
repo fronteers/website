@@ -16,7 +16,7 @@ Leden van Fronteers betalen 100 euro. Niet-leden betalen 200 euro. Beide bedrage
 
 ## Deelnemers
 
-# Opgave
+## Opgave
 
 -   Isaac Andela
 -   Paul van Buuren

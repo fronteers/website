@@ -25,6 +25,6 @@ Door Roy Tomeij bij Seats2Meet in Utrecht.
 -   Dirk-Jan de Groot
 -   Niels Bronsvoort
 
-# Opgave
+## Opgave
 
 Deze workshop zit vol. Mocht je geïnteresseerd zijn in de workshop, hou dan het [overzicht](/workshops) in de gaten of blijf op de hoogte via [RSS](http://feeds.feedburner.com/FronteersWorkshops), [Twitter](https://twitter.com/fronteers) en [e-mail](/workshops#per-mail).

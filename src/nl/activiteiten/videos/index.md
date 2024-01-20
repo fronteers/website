@@ -1,7 +1,10 @@
 ---
 title: 'Videos'
+key: 'videos'
 excludeFromCollection: true
 ---
+
+Als je op zoek bent naar video's die tijdens onze conferenties zijn opgenomen, bekijk dan onze [Vimeo-pagina](https://vimeo.com/fronteers).
 
 <table>
       <tbody><tr>

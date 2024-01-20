@@ -4,15 +4,16 @@ date: 2022-12-02
 author: Erik Kroes
 summary: 'Al zijn je bouwblokken (componenten) nog zo mooi, je kan er nog steeds verkeerd mee bouwen!'
 categories:
-- Adventskalender
+    - Adventskalender
 ---
+
 Al zijn je bouwblokken (componenten) nog zo mooi, je kan er nog steeds verkeerd mee bouwen!
 
 Steeds vaker zie je dat componenten claimen toegankelijk te zijn. Dat klinkt goed: componenten die voor iedereen te gebruiken zijn, ook voor mensen met beperkingen! Wat zo’n claim precies inhoudt is niet altijd duidelijk. Daarnaast geeft het je als bouwer ook geen garanties. Je kan er nog steeds een zooitje van maken!
 
 Wat kan er zoal misgaan? We bekijken een aantal veel voorkomende valkuilen.
 
-# Waar zijn componenten goed voor?
+## Waar zijn componenten goed voor?
 
 Componenten zijn geweldig voor alles wat je meer dan één keer moet doen. Je wil niet telkens je button of link opnieuw ontwerpen en bouwen. Dat is zonde van je tijd. Liever bouw je één versie die heel goed is, en dan kun je die hergebruiken. Waarom vaak iets half bouwen, als je ook al die tijd in één hele goede versie kan steken? Die ene versie kun je dan testen met verschillende browsers, mobiel, met screen readers en hopelijk zelfs met echte gebruikers!
 
@@ -20,7 +21,7 @@ Wat je dan ook meteen krijgt is consistentie. Daar maak je iedereen blij mee! De
 
 ![Een plastic speelset geplaatst op de dakrand van een flat.](/_img/adventskalender/toepassing-blog-erik-full.png)
 
-*Het zit hem helemaal in de toepassing.*
+_Het zit hem helemaal in de toepassing._
 
 ### Pagina-specifiek: content
 
@@ -46,10 +47,10 @@ Misschien heb je hier deels wel iets herbruikbaars voor, zoals templates. Dat is
 
 Voor elke pagina wil je je landmarks op orde hebben:
 
-* Plaats je navigatie in een `<nav>`
-* Plaats de belangrijkste content in een `<main>`
-* Gebruik aan het begin van je pagina een `<header>` en aan het eind een `<footer>`
-* Heb je informatie die terzijde is? Gebruik dan een `<aside>`
+-   Plaats je navigatie in een `<nav>`
+-   Plaats de belangrijkste content in een `<main>`
+-   Gebruik aan het begin van je pagina een `<header>` en aan het eind een `<footer>`
+-   Heb je informatie die terzijde is? Gebruik dan een `<aside>`
 
 ## Heading structuur
 
@@ -63,7 +64,7 @@ Zorg ervoor dat elke pagina waar je met je tab-toets doorheen gaat logisch navig
 
 Wil je het je bezoeker helemaal makkelijk maken? Voeg een skip link toe. Dat is een (vaak verborgen) link aan het begin van de pagina waarmee je naar de content kan “springen”.
 
-# Lastig te testen
+## Lastig te testen
 
 ## Variaties van componenten
 
@@ -77,9 +78,9 @@ Hieraan gerelateerd is ook het onderwerp van relaties. Alles wat je zelf aan elk
 
 ![Een projector hangt aan een muur. Een scherm hangt er opgerold boven. Het scherm kan zo niet uitgerold worden, en de projector kan er niet op projecteren.](/_img/adventskalender/advents-erik-2.jpeg)
 
-*De juiste onderdelen in de verkeerde volgorde.*
+_De juiste onderdelen in de verkeerde volgorde._
 
-# Website-breed
+## Website-breed
 
 Zoals eerder benoemd zijn componenten goed voor consistentie. Is je set componenten nog niet heel volwassen of volledig, dan kan dit nog een punt van verbetering zijn.
 

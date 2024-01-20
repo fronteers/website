@@ -3,16 +3,17 @@ title: Nullish Coalescing en Optional Chaining
 date: 2022-12-10
 author: Tim Severien
 summary: 'Sinds ECMAScript 2020 zijn twee veelgevraagde features onderdeel geworden van de geliefde (en gehate) taal, JavaScript: de Nullish Coalescing operator en Optional Chaining. Beide zijn vooral *syntactical sugar*; een syntactische toevoeging voor iets wat we al konden schrijven, maar wel toevoegingen die welkom zijn, omdat ze code leesbaarder houden.'
-categories: 
-  - Adventskalender
+categories:
+    - Adventskalender
 ---
-Sinds ECMAScript 2020 zijn twee veelgevraagde features onderdeel geworden van de geliefde (en gehate) taal, JavaScript: de Nullish Coalescing operator en Optional Chaining. Beide zijn vooral *syntactical sugar*; een syntactische toevoeging voor iets wat we al konden schrijven, maar wel toevoegingen die welkom zijn, omdat ze code leesbaarder houden.
+
+Sinds ECMAScript 2020 zijn twee veelgevraagde features onderdeel geworden van de geliefde (en gehate) taal, JavaScript: de Nullish Coalescing operator en Optional Chaining. Beide zijn vooral _syntactical sugar_; een syntactische toevoeging voor iets wat we al konden schrijven, maar wel toevoegingen die welkom zijn, omdat ze code leesbaarder houden.
 
 Beide features worden ondersteund door alle moderne browsers. Als je oude browsers moet ondersteunen, kan je ze nog steeds gebruiken door de code omzetten naar beter ondersteunde code middels compilers zoals TypeScript en Babel.
 
 Voordat we deze nieuwigheidjes gaan verkennen, laten we eerst naar pre-ES2020 kijken zodat we begrijpen wat ze toevoegen.
 
-# De Logical OR (`||`) operator
+## De Logical OR (`||`) operator
 
 De kans is groot dat je de Logical OR operator gebruikt hebt. Deze komt veel voor bij het omschrijven van (meerdere) condities in bijvoorbeeld `if` statements:
 
@@ -23,9 +24,9 @@ if (isInStock || isPreorderable) {
 }
 ```
 
-Als je de naam van de operator en het voorbeeld ziet, wekt dit de indruk dat dit een operator voor twee booleans is. Als geen van de twee booleans `true` is, geeft de operator `false` terug. Als één of beide booleans `true` is, geeft het `true` terug. Deze beweringen kloppen, maar op een minder intuïtieve manier: het geeft de eerste waarde terug dat *truthy* is, en anders de laatste waarde. De operator werkt voor booleans, maar ook andere data types!
+Als je de naam van de operator en het voorbeeld ziet, wekt dit de indruk dat dit een operator voor twee booleans is. Als geen van de twee booleans `true` is, geeft de operator `false` terug. Als één of beide booleans `true` is, geeft het `true` terug. Deze beweringen kloppen, maar op een minder intuïtieve manier: het geeft de eerste waarde terug dat _truthy_ is, en anders de laatste waarde. De operator werkt voor booleans, maar ook andere data types!
 
-Omdat de logical OR operator één van de twee waardes terug geeft, ontstaat er een interessante eigenschap. Wanneer de waarde aan de linker kant *falsy* is (zoals een lege string), geeft de operator de rechter waarde terug. Dat kan erg handig zijn met fallback waardes:
+Omdat de logical OR operator één van de twee waardes terug geeft, ontstaat er een interessante eigenschap. Wanneer de waarde aan de linker kant _falsy_ is (zoals een lege string), geeft de operator de rechter waarde terug. Dat kan erg handig zijn met fallback waardes:
 
 ```
 // Vul de variabel met de input waarde
@@ -33,7 +34,7 @@ Omdat de logical OR operator één van de twee waardes terug geeft, ontstaat er 
 const name = input.value || 'No name';
 ```
 
-De flexibiliteit van deze operator is tevens het probleem. *Truthy* en *falsy* waardes zijn min of meer arbitrair en JavaScript doet aannames over specifieke waardes. Wellicht begrijp je dat `null` en `undefined` falsy waarden zijn. Een lege string (`""`) en de cijfer nul (`0`) worden ook gezien als falsy waarden, ondanks dat die in sommige situaties gewenst zijn.
+De flexibiliteit van deze operator is tevens het probleem. _Truthy_ en _falsy_ waardes zijn min of meer arbitrair en JavaScript doet aannames over specifieke waardes. Wellicht begrijp je dat `null` en `undefined` falsy waarden zijn. Een lege string (`""`) en de cijfer nul (`0`) worden ook gezien als falsy waarden, ondanks dat die in sommige situaties gewenst zijn.
 
 Stel, we maken het systeem om kaartjes te bestellen voor het Fronteers congres. Nadat iemand z’n bestelling heeft geplaatst, willen we het resterende aantal tickets bijwerken:
 
@@ -49,11 +50,11 @@ Om dat geval af te vangen, moeten we specifieker zijn wanneer we de waarde als l
 ticketCount -= orderCount !== null ? orderCount : 1;
 ```
 
-# De Nullish Coalescing (`??`) Operator
+## De Nullish Coalescing (`??`) Operator
 
 Zoals we net zagen, zijn er gevallen waar we niet alle falsy waarden over één willen kam scheren, en bijvoorbeeld lege strings (`""`) en het cijfer nul (`0`) behouden. Met de Nullish Coalescing operator, kan dat!
 
-In principe werkt het nagenoeg hetzelfde als de Logical OR (`||`) operator, alleen geeft deze operator de linker waarde terug wanneer die niet *nullish* (`null` of `undefined`) is, en anders waarde rechts van de operator. Laten we het voorbeeld van ons bestelsysteem herzien met deze operator:
+In principe werkt het nagenoeg hetzelfde als de Logical OR (`||`) operator, alleen geeft deze operator de linker waarde terug wanneer die niet _nullish_ (`null` of `undefined`) is, en anders waarde rechts van de operator. Laten we het voorbeeld van ons bestelsysteem herzien met deze operator:
 
 ```
 ticketCount -= orderCount ?? 1;
@@ -101,7 +102,7 @@ Omdat deze situatie en daardoor dit soort controles vaak voorkomt, zijn er zelfs
 
 Voor een dynamische taal zoals JavaScript is het vreemd dat er geen ingebouwde manier is om veilig een object uit te lezen. Dat is verleden tijd dankzij de Optional Chaining operator!
 
-# Optional Chaining ( `?.` )
+## Optional Chaining ( `?.` )
 
 Optional Chaining maakt het uitlezen van object veel veiliger. We kunnen de Chaining operator (`.`) vervangen met deze nieuwe operator wanneer er onzekerheid is over het uit te lezen object. In andere programmeertalen is er een vergelijkbare operator die bekend staat als de Elvis operator (omdat die syntax, `?:` op twee ogen en een kuif lijkt).
 
@@ -158,7 +159,7 @@ const customerOrderCount = (
 	: 'N/A';
 ```
 
-# Conclusie
+## Conclusie
 
 Het komt vaak voor dat nieuwe ECMAScript features geen verandering betekenen voor de code die we dagelijks schrijven. Nullish Coalescing en Optional Chaining, daarentegen, wel.
 

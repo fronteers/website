@@ -1,16 +1,17 @@
 ---
-title: "Bijeenkomst bij Mangrove op 7 juli 2010"
+title: 'Bijeenkomst bij Mangrove op 7 juli 2010'
 date: 2010-07-07
 eventdate: 2010-07-07
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
+
 Op woensdag 7 juli was Fronteers te gast bij [Mangrove](http://mangrove.nl) in Rotterdam. Thema van de avond was design. Bram van Rijen a.k.a. Nozzman sprak over inspiratie, en Hans Kemp ging dieper in op het onderwerp user interaction design.
 
 Ruben Bos vertelt kort iets over Mangrove, en stelt Bram van Rijen en Hans Kemp voor.
 
-# Bram van Rijen over Inspiratie
+## Bram van Rijen over Inspiratie
 
 Bram van Rijen, beter bekend als illustrator en cartoonist Nozzman, stelt zichzelf even kort voor. Wij zijn allemaal Homo faber: de scheppende mens. Er is een ding waar wij als scheppende mensen bang voor zijn: een blanco canvas. Bram geeft een aantal tips om dit blanco canvas te bedwingen.
 
@@ -28,7 +29,7 @@ De zesde tip is: just do it. Je moet niet te lang bezig zijn met nadenken over j
 
 Zijn laatste tip is: lekker bieren en slap ouwehoeren. En hiermee sluit hij de presentatie af.
 
-# Hans Kemp die User Experience Design uitlicht
+## Hans Kemp die User Experience Design uitlicht
 
 Hans Kemp neemt na een korte pauze het woord over. Hij is docent interaction design aan de Hogeschool Rotterdam. Eerder heeft hij bij Philips Research gewerkt.
 
@@ -44,82 +45,61 @@ Implementatie model vs het mentaal model: hoe het werkt vs hoe je er iets mee ku
 
 Daarna stipt hij het puntje aan om te kijken naar interfaces die zich al hebben bewezen, zogenoemde design patterns. Je kunt eenvoudig een interface element overnemen van een al bestaande applicatie, als die al goed werkt voor gebruikers.
 
+## Overige materialen en verslagen
 
+-   [Slides van de presentatie van Hans](http://www.slideshare.net/hanskemp/user-experiencedesignfronteers)
+-   [Verslag van Sander de Gans](http://sanderdegans.blogspot.com/2010/07/een-letterlijk-kijkje-in-de-keuken-van.html)
 
+## Aanwezigen
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Overige materialen en verslagen
-
-* [Slides van de presentatie van Hans](http://www.slideshare.net/hanskemp/user-experiencedesignfronteers)
-* [Verslag van Sander de Gans](http://sanderdegans.blogspot.com/2010/07/een-letterlijk-kijkje-in-de-keuken-van.html)
-
-# Aanwezigen
-
-* Sander Aarts
-* Pieter Beekman
-* Jeroen van den Berg
-* Peter Beverloo
-* Ruben Bos
-* Luc De Brouwer
-* Marc Bruisten
-* Daniël van de Burgt
-* Niels Claessens
-* Tim Cure
-* Paul van Dam
-* Sven Dinslage
-* Arjan Eising
-* Robert van der Elst
-* Christine Fürst
-* Sander de Gans
-* Laurens Geleedst
-* Mieke Grooten
-* Marco Hamersma
-* Jan Hoogeveen
-* E. van Houdt
-* Jeroen Hulscher
-* David Hund
-* Hans Kemp
-* Anne van Kesteren
-* Thamar Kiemel
-* Jan Paul Koudstaal
-* Harrie Kuipers
-* Sander van Lambalgen
-* Joan Lindhout
-* Mallory
-* Monique Martens
-* Paul Martens
-* Bran van der Meer
-* Florian Mientjes
-* Niels Mulder 
-* Bart Nederveen
-* Nicola Peltenburg
-* Rimmert
-* Bram van Rijen
-* Shyama Sewpersad
-* Koen Smeets
-* Joris van Summeren
-* Marika Taborsky
-* Ruurd van Veelen
-* Elles van der Veen
-* Christian Vermeulen
-* Govert Verschuur
-* Richard de Vos
-* Pascal Vree
-* Nog 4 personen
-
-
-
+-   Sander Aarts
+-   Pieter Beekman
+-   Jeroen van den Berg
+-   Peter Beverloo
+-   Ruben Bos
+-   Luc De Brouwer
+-   Marc Bruisten
+-   Daniël van de Burgt
+-   Niels Claessens
+-   Tim Cure
+-   Paul van Dam
+-   Sven Dinslage
+-   Arjan Eising
+-   Robert van der Elst
+-   Christine Fürst
+-   Sander de Gans
+-   Laurens Geleedst
+-   Mieke Grooten
+-   Marco Hamersma
+-   Jan Hoogeveen
+-   E. van Houdt
+-   Jeroen Hulscher
+-   David Hund
+-   Hans Kemp
+-   Anne van Kesteren
+-   Thamar Kiemel
+-   Jan Paul Koudstaal
+-   Harrie Kuipers
+-   Sander van Lambalgen
+-   Joan Lindhout
+-   Mallory
+-   Monique Martens
+-   Paul Martens
+-   Bran van der Meer
+-   Florian Mientjes
+-   Niels Mulder
+-   Bart Nederveen
+-   Nicola Peltenburg
+-   Rimmert
+-   Bram van Rijen
+-   Shyama Sewpersad
+-   Koen Smeets
+-   Joris van Summeren
+-   Marika Taborsky
+-   Ruurd van Veelen
+-   Elles van der Veen
+-   Christian Vermeulen
+-   Govert Verschuur
+-   Richard de Vos
+-   Pascal Vree
+-   Nog 4 personen
