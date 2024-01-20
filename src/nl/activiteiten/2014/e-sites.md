@@ -63,7 +63,7 @@ Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als ni
 -   Meta Kruijs
 -   Krijn Hoetmer
 -   Ronald Lokers
--   Paul Verbeek
+-   Jayne Verbeek
 -   Jordy Houtman
 -   Hugo Stijns
 -   Sven Hanssen

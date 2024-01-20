@@ -395,7 +395,7 @@ If you're looking for video's taken at our conferences, check our [Vimeo page](h
        <th><a href="/congres/2015/jam-session">A song about front-end</a></th>
       </tr>
       <tr class="odd">
-       <td>Paul Verbeek, EN, Fronteers 2015 Jam Session, 07-10-2015</td>
+       <td>Jayne Verbeek, EN, Fronteers 2015 Jam Session, 07-10-2015</td>
       </tr>
       <tr>
        <th><a href="/nl/activiteiten/2015/vicompany">Vreemde browsers</a></th>
@@ -995,7 +995,7 @@ If you're looking for video's taken at our conferences, check our [Vimeo page](h
        <th><a href="/congres/2013/jam-session/developing-developers">Developing developers</a></th>
       </tr>
       <tr class="odd">
-       <td>Paul Verbeek, EN, Fronteers 2013 Jam Session, 09-10-2013</td>
+       <td>Jayne Verbeek, EN, Fronteers 2013 Jam Session, 09-10-2013</td>
       </tr>
       <tr>
        <th><a href="/congres/2013/jam-session/the-perception-of-speed">The Perception of Speed</a></th>
@@ -1151,7 +1151,7 @@ If you're looking for video's taken at our conferences, check our [Vimeo page](h
        <th><a href="/nl/activiteiten/2012/netvlies/all-your-phones-are-belong-to-us">All your phones are belong to us</a></th>
       </tr>
       <tr class="odd">
-       <td>Paul Verbeek, NL, Pecha Kucha bij Netvlies, 01-11-2012</td>
+       <td>Jayne Verbeek, NL, Pecha Kucha bij Netvlies, 01-11-2012</td>
       </tr>
       <tr>
        <th><a href="/congres/2012/sessions/the-web-platform-and-the-process-of-progress-alex-russell">The Web Platform and The Process of Progress</a></th>

@@ -1,20 +1,19 @@
 ---
-title: "Zomerborrel 2018"
+title: 'Zomerborrel 2018'
 date: 2018-08-24
 eventdate: 2018-08-24
-location: 
-categories: 
+location:
+categories:
     - meetup
 ---
-Op vrijdag 24 augustus houdt Fronteers voor leden en niet-leden een zomerborrel in Utrecht! 
+
+Op vrijdag 24 augustus houdt Fronteers voor leden en niet-leden een zomerborrel in Utrecht!
 
 Vanaf 18 uur ben je welkom in de Tapaskelder van de [Winkel van Sinkel](http://winkelvansinkel.nl/). [Bekijk de lokatie op de kaart](https://www.google.nl/maps/place/Tapas+Kelder/@52.091853,5.11884,15z/data=!4m2!3m1!1s0x0:0x7418445e00cd1e66?sa=X&ved=2ahUKEwiKp6CHpoPdAhXQbVAKHUXpAxwQ_BIwDnoECAoQCw). We gaan met een aardig gezelschap (zie onder) genieten van verschillende mezzeschalen (vis/vlees/vegetarisch). Het eten (15 euro p.p) en en drinken is op eigen rekening.
 
 We hebben helaas geen bowlingbaan weten te verzekeren maar er wandelt een klein gezelschap rond negen uur naar de arcadehal aan de Mariaplaats. We zien je daar!
 
 Aanmelden is helaas niet meer mogelijk, maar als je even een berichtje naar ons stuurt via [twitter](https://twitter.com/fronteers) kunnen we nog rekening houden met je komst.
-
-
 
 <table>
 <tr>
@@ -118,7 +117,7 @@ Aanmelden is helaas niet meer mogelijk, maar als je even een berichtje naar ons 
 <td></td>
 </tr>
 <tr>
-<td>Paul Verbeek-Mast</td>
+<td>Jayne Verbeek-Mast</td>
 <td></td>
 <td></td>
 </tr>

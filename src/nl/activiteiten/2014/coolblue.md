@@ -327,7 +327,7 @@ Met de auto komen kan ook, er kan dan geparkeerd worden in de parkeergarage Ween
 <td><a href="https://twitter.com/paulvandrunen" rel="nofollow">@paulvandrunen</a></td>
 </tr>
 <tr>
-<td>Paul Verbeek</td>
+<td>Jayne Verbeek</td>
 <td>Amsterdam, openbaar vervoer</td>
 <td><a href="https://twitter.com/hierow" rel="nofollow">@hierow</a></td>
 </tr>

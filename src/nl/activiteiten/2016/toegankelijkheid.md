@@ -362,7 +362,7 @@ Kom je met de auto? Parkeren in de buurt kan het makkelijkst bij Artis. Desmet h
 <td><a href="https://twitter.com/paulvanbuuren" rel="nofollow">@paulvanbuuren</a></td>
 </tr>
 <tr>
-<td>Paul Verbeek</td>
+<td>Jayne Verbeek</td>
 <td>Ja, anders</td>
 <td><a href="https://twitter.com/_paulverbeek" rel="nofollow">@_paulverbeek</a></td>
 </tr>

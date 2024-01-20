@@ -39,7 +39,7 @@ On October 8th, the Web Plaftorm Docs will be one year old, so join us in Amster
 
 ## Questions?
 
-If you have any additional questions you can contact Paul Verbeek at paul@webinthehat.com.
+If you have any additional questions you can contact Jayne Verbeek at paul@webinthehat.com.
 
 ## Registration
 

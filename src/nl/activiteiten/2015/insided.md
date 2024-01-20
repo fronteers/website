@@ -188,7 +188,7 @@ inSided is gevestigd aan de Singel 118A, 1015 AE Amsterdam, op ongeveer 5 minute
 <td><a href="https://twitter.com/PascalStrijbos" rel="nofollow">@PascalStrijbos</a></td>
 </tr>
 <tr>
-<td>Paul Verbeek</td>
+<td>Jayne Verbeek</td>
 <td>Amsterdam, auto</td>
 <td><a href="https://twitter.com/_paulverbeek" rel="nofollow">@_paulverbeek</a></td>
 </tr>

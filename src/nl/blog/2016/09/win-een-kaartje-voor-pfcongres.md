@@ -13,7 +13,7 @@ categories:
 
 PFCongres is een congres over web development in brede zin: zowel front-end als back-end gerelateerde onderwerpen komen aan bod. Een greep uit de talks van dit jaar:
 
--   Fronteers-lid _Paul Verbeek_ zal het hebben over ECMAScript 6. Alle moderne browsers ondersteunen het, maar wat is er nieuw aan? En hoe verschilt het eigenlijk van JavaScript?
+-   Fronteers-lid _Jayne Verbeek_ zal het hebben over ECMAScript 6. Alle moderne browsers ondersteunen het, maar wat is er nieuw aan? En hoe verschilt het eigenlijk van JavaScript?
 -   _Dimitri van Hees_ gaat vertellen over de ambitieuze plannen van het Kadaster om het geo data platform van de toekomst te bouwen en zal ingaan op de API die hierbij hoort
 -   _Stefan Koopmanschap_ zal spreken over het ontwikkelen van jezelf. Hoe kun je bijblijven in een wereld die snel verandert?
 -   ICT-journalist _Brenno de Winter_ sluit de dag af. Hij zal spreken over security

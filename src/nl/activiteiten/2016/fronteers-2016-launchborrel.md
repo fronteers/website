@@ -62,7 +62,7 @@ De kaartverkoop voor Fronteers Conference 2016 start vrijdag 27 mei om 20:00 uur
 <td></td>
 </tr>
 <tr>
-<td>Paul Verbeek</td>
+<td>Jayne Verbeek</td>
 <td>Amsterdam, anders</td>
 <td><a href="https://twitter.com/_paulverbeek" rel="nofollow">@_paulverbeek</a></td>
 </tr>

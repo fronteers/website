@@ -85,7 +85,7 @@ Tracking is de standaardbreedte tussen twee letters, en kerning lijkt daar veel 
 -   Roy Tomeij
 -   Tobias Urff
 -   Fabio Venni
--   Paul Verbeek
+-   Jayne Verbeek
 -   Thijs van der Velden
 -   Corné Verbruggen
 -   Pascal Vree

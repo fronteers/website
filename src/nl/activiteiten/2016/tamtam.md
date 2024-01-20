@@ -357,7 +357,7 @@ Zie ook [https://www.tamtam.nl/contact/](https://www.tamtam.nl/contact/)
 <td><a href="https://twitter.com/PascalStrijbos" rel="nofollow">@PascalStrijbos</a></td>
 </tr>
 <tr>
-<td>Paul Verbeek</td>
+<td>Jayne Verbeek</td>
 <td>Amsterdam, openbaar vervoer</td>
 <td><a href="https://twitter.com/_paulverbeek" rel="nofollow">@_paulverbeek</a></td>
 </tr>

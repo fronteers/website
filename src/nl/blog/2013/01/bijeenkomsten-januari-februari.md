@@ -1,7 +1,7 @@
 ---
 title: 'Bijeenkomsten op 22 januari en 7 februari'
 date: 2013-01-09
-author: Paul Verbeek
+author: Jayne Verbeek
 categories:
     - Bijeenkomsten
 ---

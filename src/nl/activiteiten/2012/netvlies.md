@@ -12,7 +12,7 @@ Op donderdag 1 november is Fronteers te gast bij Netvlies Internetdiensten in Br
 ## Het programma is als volgt:
 
 -   18.30 Inloop
--   19.30 [Paul Verbeek - Intro + All your phones are belong to us](/bijeenkomsten/2012/netvlies/all-your-phones-are-belong-to-us)
+-   19.30 [Jayne Verbeek - Intro + All your phones are belong to us](/bijeenkomsten/2012/netvlies/all-your-phones-are-belong-to-us)
 -   19.40 [Krijn Hoetmer - Pedantic Indenting](/bijeenkomsten/2012/netvlies/pedantic-indenting)
 -   19.50 [Jules Ernst - Webrichtlijnen en het toepassen van afkortingen](/bijeenkomsten/2012/netvlies/webrichtlijnen-afk)
 -   20.00 [Peter van der Zee - Rewriting JS for Fun and Profit](/bijeenkomsten/2012/netvlies/rewriting-js)
@@ -74,7 +74,7 @@ Dit evenement vindt plaats bij Netvlies in Breda. Het adres is <strike>Prinsenka
 -   Peter Slagter
 -   Johan Sterenberg
 -   Tom
--   Paul Verbeek
+-   Jayne Verbeek
 -   Thijs Vogel
 -   Pascal Vree
 -   Peter van der Zee

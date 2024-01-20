@@ -1,7 +1,7 @@
 ---
 title: 'Inschrijven voor bijeenkomst op 1 november bij Netvlies'
 date: 2012-10-09
-author: Paul Verbeek
+author: Jayne Verbeek
 categories:
     - Bijeenkomsten
 ---
@@ -13,7 +13,7 @@ Op donderdag 1 november is Fronteers te gast bij Netvlies Internetdiensten in Br
 ## Het programma is als volgt:
 
 -   18.30 Inloop
--   19.30 Paul Verbeek - Intro + All your phones are belong to me
+-   19.30 Jayne Verbeek - Intro + All your phones are belong to me
 -   19.40 Krijn Hoetmer - Pedantic Indenting
 -   19.50 Jules Ernst - Webrichtlijnen en het toepassen van afkortingen
 -   20.00 Peter van der Zee - When Worlds Collide

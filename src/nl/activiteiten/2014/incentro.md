@@ -212,7 +212,7 @@ De locatie is voor sommige (verouderde) navigaties wat lastig te vinden, de Arch
 <td><a href="https://twitter.com/paulvanbeers" rel="nofollow">@paulvanbeers</a></td>
 </tr>
 <tr>
-<td>Paul Verbeek</td>
+<td>Jayne Verbeek</td>
 <td>Amsterdam, auto</td>
 <td><a href="https://twitter.com/Hierow" rel="nofollow">@Hierow</a></td>
 </tr>

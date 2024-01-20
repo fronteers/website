@@ -56,7 +56,7 @@ Future in IT heeft een zaal gehuurd bij [Rokin View](http://www.rokinview.nl/): 
 -   Alex Taghavi
 -   George van Veen
 -   Vivienne van Velzen
--   Paul Verbeek
+-   Jayne Verbeek
 -   Johan Verheijen
 -   Sanne Veroude
 -   Pascal Vree
