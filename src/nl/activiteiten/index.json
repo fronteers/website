@@ -5,7 +5,7 @@
   "key": "activities",
   "pagination": {
     "data": "collections.published_activities_nl",
-    "size": "6",
+    "size": "9",
     "alias": "paginated_activities"
   }
 }
