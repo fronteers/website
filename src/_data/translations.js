@@ -15,6 +15,7 @@ module.exports = {
         about: "about",
         goToVimeo: "Go to our Vimeo",
         signUp: "Sign up",
+        signUpClosed: "Sign up Closed",
         blockTitles: {
             homeHero: "We unite front-end developers",
             upcomingActivities: "Upcoming activities",
@@ -65,6 +66,9 @@ module.exports = {
         latestBlog: "Latest blog ",
         page: "Page",
         pagination: "Pagination",
+        emptyStateActivities: "We currently have no upcoming events, check back soon for more updates.",
+        upcomingActivitiesTitle: "Upcoming activities",
+        pastActivitiesTitle: "Past activities",
     },
     nl: {
         baseUrl: "https://www.fronteers.nl/nl",
@@ -82,6 +86,7 @@ module.exports = {
         location: "Locatie",
         locationUnknown: "nog te bepalen",
         signUp: "Meld je aan",
+        signUpClosed: "Bekijk details",
         blockTitles: {
             homeHero: "We unite front-end developers",
             upcomingActivities: "Activiteiten",
@@ -132,5 +137,8 @@ module.exports = {
         latestBlog: "Laatste blog ",
         page: "Pagina",
         pagination: "Paginering",
+        emptyStateActivities: "Momenteel zijn er geen nieuwe activiteiten gepland, neem binnenkort gerust terug een kijkje.",
+        upcomingActivitiesTitle: "Geplande activiteiten",
+        pastActivitiesTitle: "Voorbije activiteiten",
     },
 };
