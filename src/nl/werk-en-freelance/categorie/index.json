@@ -3,7 +3,7 @@
   "permalink": "/{{ translations[locale].jobsURL }}/{{ translations[locale].category }}/{%- if category.slug -%}{{ category.slug }}/{%- endif -%}index.html",
   "tags": "pages",
   "pagination": {
-    "data": "collections.jobCategories_nl",
+    "data": "collections.job_categories_nl",
     "size": 1,
     "alias": "category"
   },
