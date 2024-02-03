@@ -1,53 +1,10 @@
 const { exec } = require("child_process");
 const glob = require("fast-glob");
-const lodash = require("lodash");
-const slugify = require("slugify");
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const brokenLinksPlugin = require("eleventy-plugin-broken-links");
+const { strToSlug, getAllKeyValues } = require('./utils/helpers');
 
-/**
- * Get all unique key values from a collection
- *
- * @param {Array} collectionArray - collection to loop through
- * @param {String} key - key to get values from
- */
-function getAllKeyValues(collectionArray, key) {
-  // get all values from collection
-  let allValues = collectionArray.map((post) => {
-    let values = post.data[key] ? post.data[key] : [];
-    return values;
-  });
-
-  // flatten values array
-  allValues = lodash.flattenDeep(allValues);
-  // to lowercase
-  allValues = allValues.map((post) => post.toLowerCase());
-  // remove duplicates
-  allValues = [...new Set(allValues)];
-  // order alphabetically
-  allValues = allValues.sort(function (a, b) {
-    return a.localeCompare(b, "en", { sensitivity: "base" });
-  });
-  // return
-  return allValues;
-}
-
-/**
- * Transform a string into a slug
- * Uses slugify package
- *
- * @param {String} str - string to slugify
- */
-function strToSlug(str) {
-  const options = {
-    replacement: "-",
-    remove: /[&,+()$~%.'":*?<>{}]/g,
-    lower: true,
-  };
-
-  return slugify(str, options);
-}
 
 module.exports = function (eleventyConfig) {
   const quick = Boolean(process.env.BUILD_QUICK);
