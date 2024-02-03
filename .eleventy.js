@@ -81,10 +81,19 @@ module.exports = function (eleventyConfig) {
    * import paths are traversable in your IDE.
    */
 
+  /* Copy static assets to the dist directory */
   eleventyConfig.addPassthroughCopy({
     "src/_assets/css/common": "assets/css/common",
     "src/_assets/css/elements": "assets/css/elements",
     "src/_assets/css/style.css": "assets/css/style.css",
+    "src/_assets/favicon": "assets/favicon",
+    "src/_assets/company-logos": "assets/company-logos/",
+    "src/_assets/member-avatars": "assets/member-avatars/",
+    "src/_assets/fonts": "assets/fonts",
+    "src/_assets/images": "assets/images",
+    "src/_assets/js": "assets/js",
+    "_img/": "_img",
+    "_redirects" : "_redirects"
   });
 
   glob.sync("src/{_components,_includes}/**/*.css").forEach((file) => {
@@ -95,30 +104,6 @@ module.exports = function (eleventyConfig) {
     mapping[`${input}/*.css`] = output;
     eleventyConfig.addPassthroughCopy(mapping);
   });
-
-  /* Copy static assets to the dist directory */
-  eleventyConfig.addPassthroughCopy("_redirects");
-  eleventyConfig.addPassthroughCopy({
-    "src/_assets/fonts": "assets/fonts",
-  });
-  eleventyConfig.addPassthroughCopy({
-    "src/_assets/images": "assets/images",
-  });
-  eleventyConfig.addPassthroughCopy({
-    "_img/": "_img",
-  });
-  eleventyConfig.addPassthroughCopy({
-    "src/_assets/favicon": "assets/favicon",
-  });
-  eleventyConfig.addPassthroughCopy({
-    "src/_assets/company-logos": "assets/company-logos/",
-  });
-  eleventyConfig.addPassthroughCopy({
-    "src/_assets/member-avatars": "assets/member-avatars/",
-  });
-
-  /* Copy js to the dist directory */
-  eleventyConfig.addPassthroughCopy({ "src/_assets/js": "assets/js" });
 
   /* Load all paired shortcodes */
   glob.sync("src/_components/paired/**/*.js").forEach((file) => {
