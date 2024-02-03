@@ -128,28 +128,20 @@ module.exports = function (eleventyConfig) {
         eleventyConfig.addCollection(collectionName, collection);
     }
   );
+  
+  /* Load all filters */
+  Object.entries(require('./utils/filters.js')).forEach(
+    ([filterName, filter]) => {
+        // console.debug(`[filter] ${filterName}`);
+        eleventyConfig.addFilter(filterName, filter);
     }
   );
-
-  
-  eleventyConfig.addFilter("getLocale", function (collection, locale) {
-    return collection.filter((post) => Boolean(post.data.locale == locale));
-  });
-
-  eleventyConfig.addFilter("slugify", function (string) {
-    return strToSlug(string);
-  });
-
-  eleventyConfig.addFilter("displayDate", function (date, locale) {
-    return new Intl.DateTimeFormat(locale, { dateStyle: "long" }).format(date);
-  });
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
     strictFilters: false,
   });
 
-  // This bundles all the css after the build
   /* This bundles all the css after the build */
   eleventyConfig.on(
     "eleventy.after",
