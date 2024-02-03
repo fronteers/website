@@ -10,10 +10,12 @@ module.exports = function (eleventyConfig) {
   const quick = Boolean(process.env.BUILD_QUICK);
   const now = new Date();
 
-  // There is a quick build function (npm run start:quick) that only loads the
-  // recent content (YTD and previous year), by excluding all year folders from
-  // older content. We process this first so that any plugin doesn't even see
-  // these files.
+  /**
+   * There is a quick build function (npm run start:quick) that only loads the
+   * recent content (YTD and previous year), by excluding all year folders from
+   * older content. We process this first so that any plugin doesn't even see
+   * these files.
+   */
   if (quick) {
     glob
       .sync(
@@ -66,18 +68,19 @@ module.exports = function (eleventyConfig) {
     callback: null,
   });
 
-  // Rebuild when any of the files are changed, but exclude css because that is
-  // handled by the asset pipeline.
-  // This seemed to cause a bug on refreshing liquid files?
-  // eleventyConfig.addWatchTarget("./src/");
+  /**
+   * Rebuild when any of the files are changed, but exclude css because that is
+   * handled by the asset pipeline.
+   * This seemed to cause a bug on refreshing liquid files?
+   * eleventyConfig.addWatchTarget("./src/");
+   * 
+   * Setup the pass through rules for CSS files. This way we can use regular
+   * CSS imports without any magic, and later use a minification and/or purge
+   * step on the result.
+   * Why do it this way? We want to preserve the directory structure so that the
+   * import paths are traversable in your IDE.
+   */
 
-  // Setup the pass through rules for CSS files. This way we can use regular
-  // CSS imports without any magic, and later use a minification and/or purge
-  // step on the result.
-  //
-  // Why do it this way? We want to preserve the directory structure so that the
-  // import paths are traversable in your IDE.
-  //
   eleventyConfig.addPassthroughCopy({
     "src/_assets/css/common": "assets/css/common",
     "src/_assets/css/elements": "assets/css/elements",
@@ -392,6 +395,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // This bundles all the css after the build
+  /* This bundles all the css after the build */
   eleventyConfig.on(
     "eleventy.after",
     async ({ dir, results, runMode, outputMode }) =>
