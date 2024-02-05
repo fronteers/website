@@ -31,7 +31,7 @@ TransIP is gevestigd aan de Schipholweg 11e, 2316 XB te Leiden. Dit is circa vij
 
 {%- googlemaps "Schipholweg 11e, 2316 XB, Leiden" -%}
 
-Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via onderstaand contactformulier. Je kunt de bijeenkomst ook [attenden of tracken op Lanyrd](http://lanyrd.com/2012/fronteers-transip/).
+Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via onderstaand contactformulier. Je kunt de bijeenkomst ook [attenden of tracken op Lanyrd](https://web.archive.org/web/20171002053735/http://lanyrd.com/2012/fronteers-transip/).
 
 ## Aanwezigen
 

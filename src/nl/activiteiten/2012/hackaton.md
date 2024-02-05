@@ -21,7 +21,7 @@ En als laatste twee heren die er niet in waren geslaagd om een cachable video ap
 
 Ook de jury had niet stilgezeten en had touch events en een chatfunctie toegevoegd aan hun monsterwebsite. Als afsluiting was er de borrel.
 
-Fronteers bedankt [Nomadz](http://nomadz.nl/) voor de ruimte, en [Frontlab](http://frontlab.nl/) voor de borrel.
+Fronteers bedankt [Nomadz](http://nomadz.nl/) voor de ruimte, en [Frontlab](https://web.archive.org/web/20231130204455/http://frontlab.nl/) voor de borrel.
 
 ## Aanwezigen
 
@@ -49,4 +49,4 @@ Fronteers bedankt [Nomadz](http://nomadz.nl/) voor de ruimte, en [Frontlab](http
 
 ## Borrel gesponsord door:
 
-![[Frontlab](http://frontlab.nl/)](/_img/sponsoren/frontlab-hackaton-logo.png)
+![[Frontlab](https://web.archive.org/web/20231130204455/http://frontlab.nl/)](/_img/sponsoren/frontlab-hackaton-logo.png)

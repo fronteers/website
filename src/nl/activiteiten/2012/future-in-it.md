@@ -7,7 +7,7 @@ categories:
     - meetup
 ---
 
-Op donderdag 20 september is Fronteers te gast bij [Future in IT](http://futureinit.nl/) in Amsterdam. Arjan Eising geeft een presentatie over CoffeeScript, en Bran van der Meer gaat grids in design nader bekijken.
+Op donderdag 20 september is Fronteers te gast bij [Future in IT](https://web.archive.org/web/20170518015223/http://futureinit.nl/) in Amsterdam. Arjan Eising geeft een presentatie over CoffeeScript, en Bran van der Meer gaat grids in design nader bekijken.
 
 ## Het programma is als volgt:
 

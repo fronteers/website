@@ -7,7 +7,7 @@ categories:
     - meetup
 ---
 
-Op donderdag 4 februari waren we te gast bij Stichting ICTU in Den Haag, waar ze (onder andere) werken aan de volgende versie van de [Webrichtlijnen](http://webrichtlijnen.nl/).
+Op donderdag 4 februari waren we te gast bij Stichting ICTU in Den Haag, waar ze (onder andere) werken aan de volgende versie van de [Webrichtlijnen](http://www.digitoegankelijk.nl/).
 
 ## Raph de Rooij met een sneak preview van Webrichtlijnen, versie 2
 

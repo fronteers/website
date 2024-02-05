@@ -89,6 +89,6 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 -   Martijn Croonen (Limburg, auto)
 -   Michiel De Smedt (auto)
 
-Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2012/fronteersbe-wijs/). _Inschrijven via het onderstaande formulier is echter verplicht!_
+Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](https://web.archive.org/web/20171002053735/http://lanyrd.com/2012/fronteersbe-wijs/). _Inschrijven via het onderstaande formulier is echter verplicht!_
 
 _Deze bijeenkomst is volzet!_ Als je op de wachtlijst staat, contacteren we je zodra er een plaatsje vrijkomt.

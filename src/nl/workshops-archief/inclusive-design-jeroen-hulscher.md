@@ -22,7 +22,7 @@
       <li>16:30: Presentatie van 1 of 2 deelnemers</li>
       <li>16:40: Wrap-up + rondvraag</li>
      </ul>
-     <p>De workshop Inclusive Design zal gegeven worden door <a href="http://www.jeroenhulscher.nl/">Jeroen Hulscher</a>.</p>
+     <p>De workshop Inclusive Design zal gegeven worden door <a href="https://web.archive.org/web/20230325054250/http://www.jeroenhulscher.nl/">Jeroen Hulscher</a>.</p>
      <p>Leden van Fronteers betalen 100 euro. Niet-leden betalen 200 euro. Beide bedragen zijn exclusief btw.</p>
      <p>De workshop duurt de hele dag en is inclusief lunch.</p>
      <h3>Opgave</h3>

@@ -7,7 +7,7 @@ categories:
     - meetup
 ---
 
-[Mathias Bynens](https://mathiasbynens.be/) opent de avond en bedankt [ASPACE](http://aspace.be) en [iLibris](http://ilibris.be) voor het hosten van de avond.
+[Mathias Bynens](https://mathiasbynens.be/) opent de avond en bedankt [ASPACE](http://aspace.be) en [iLibris](https://web.archive.org/web/20130603035755/http://ilibris.be/) voor het hosten van de avond.
 
 Mathias is ook de eerste die gaat spreken, vandaag over JavaScript performance. Hij steekt van wal met het feit dat JavaScript de rendering van de pagina blokkeert. Daarom dien je de scripts pas in de HTML te voegen aan het einde zo dichtbij de `</body>` mogelijk.
 
