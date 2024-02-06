@@ -6,7 +6,7 @@ categories:
     - Bijeenkomsten
 ---
 
-Op maandag 21 mei 2012 is Fronteers te gast bij de opleiding [Professionele Bachelor ICT](http://www.ikdoeict.be/nl/) (KaHo St-Lieven) te Gent. Er worden twee presentaties voorzien. Bram(us) Van Damme zal het hebben over RESTful APIs (met zijdelings Ajax, jQuery, JSON/JSONP, CORS en URL design). De heren van Pixel Lab, die samen met Zeptolab [de HTML5-versie van Cut The Rope](http://www.cuttherope.ie/dev/) hebben gebouwd, hebben ook vast iets interessants te vertellen — in het Engels, weliswaar.
+Op maandag 21 mei 2012 is Fronteers te gast bij de opleiding [Professionele Bachelor ICT](http://www.ikdoeict.be/nl/) (KaHo St-Lieven) te Gent. Er worden twee presentaties voorzien. Bram(us) Van Damme zal het hebben over RESTful APIs (met zijdelings Ajax, jQuery, JSON/JSONP, CORS en URL design). De heren van Pixel Lab, die samen met Zeptolab [de HTML5-versie van Cut The Rope](https://web.archive.org/web/20131127223442/http://www.cuttherope.ie/dev/) hebben gebouwd, hebben ook vast iets interessants te vertellen — in het Engels, weliswaar.
 
 ## Het programma is als volgt:
 

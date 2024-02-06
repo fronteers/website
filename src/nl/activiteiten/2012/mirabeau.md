@@ -35,7 +35,7 @@ Mirabeau Rotterdam is gevestigd in het Groothandelsgebouw direct naast station R
 
 {%- googlemaps "Conradstraat 38, 3013 AP Rotterdam" -%}
 
-Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via onderstaand contactformulier. Je kunt de bijeenkomst ook [attenden of tracken op Lanyrd](http://lanyrd.com/2012/fronteers-mirabeau-rotterdam/).
+Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via onderstaand contactformulier. Je kunt de bijeenkomst ook [attenden of tracken op Lanyrd](https://web.archive.org/web/20171002053735/http://lanyrd.com/2012/fronteers-mirabeau-rotterdam/).
 
 ## Aanwezigen
 

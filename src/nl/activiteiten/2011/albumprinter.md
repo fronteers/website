@@ -29,7 +29,7 @@ Nu de uitfasering van IE6 bijna een feit is, zou je bijna vergeten dat IE7 een b
 -   `[attr$="bar"]` indien de attribuut attr eindigt met 'bar'.
 -   `[attr*="foobar"]` indien de attribuut attr 'foobar' bevat.
 
-De volledige presentatie van Arjan is terug te vinden op <http://codex.arjaneising.nl/presentations/CSS_Selectors/>.
+De volledige presentatie van Arjan is was terug te vinden op [http://codex.arjaneising.nl/presentations/CSS_Selectors/](https://web.archive.org/web/20120206214547/http://codex.arjaneising.nl:80/)
 
 ## Aanwezigen
 

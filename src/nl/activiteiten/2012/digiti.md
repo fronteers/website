@@ -73,4 +73,4 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 -   Steve De Jonghe (Gent, openbaar vervoer, reist terug naar Schoten via Antwerpen, lift welkom!)
 -   Jan Fabry (Hasselt, auto)
 
-Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2012/fronteersbe-digiti/). _Inschrijven via het onderstaande formulier is echter verplicht!_
+Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](https://web.archive.org/web/20171002053735/http://lanyrd.com/2012/fronteersbe-digiti/). _Inschrijven via het onderstaande formulier is echter verplicht!_

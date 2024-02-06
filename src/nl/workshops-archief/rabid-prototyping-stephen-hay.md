@@ -7,7 +7,7 @@
      <p>Wij verwachten dat de deelnemers van deze workshop gewapend worden met ideeën en technieken om dit vaak frustrerende deel van het ontwikkelproces aangenaam (en zelfs leuk) te maken.</p>
      <p>De cursus Rabid Prototyping zal worden gegeven door <a href="http://www.the-haystack.com/">Stephen Hay</a></p>
      <p>Leden van Fronteers betalen 100 euro. Niet-leden betalen 200 euro. Beide bedragen zijn exclusief btw.</p>
-     <p>De cursus duurt de hele dag en is inclusief lunch bij Seats2Meet in Utrecht. Een <a href="http://www.mindz.com/plazas/Seats2meet_com_Utrecht/pages/Routebeschrijving_en_contact">routebeschrijving</a> is te vinden op de site van Mindz.com. Van deelnemers wordt verwacht dat ze zelf een laptop meenemen.</p>
+     <p>De cursus duurt de hele dag en is inclusief lunch bij Seats2Meet in Utrecht. Een <a href="https://web.archive.org/web/20130908092811/http://www.mindz.com/plazas/Seats2meet_com_Utrecht/pages/Routebeschrijving_en_contact">routebeschrijving</a> is te vinden op de site van Mindz.com. Van deelnemers wordt verwacht dat ze zelf een laptop meenemen.</p>
      <h3>Opgave</h3>
      <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
      <h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>

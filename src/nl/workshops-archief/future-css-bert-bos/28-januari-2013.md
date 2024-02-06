@@ -10,7 +10,7 @@ teacher: Bert Bos
 
 Door Bert Bos bij Seats2Meet in Utrecht.
 
-De workshop duurt de hele dag en is inclusief lunch bij Seats2Meet. Een [routebeschrijving](http://www.mindz.com/plazas/Seats2meet_com_Utrecht/pages/Routebeschrijving_en_contact) is te vinden op de site van Mindz.com.
+De workshop duurt de hele dag en is inclusief lunch bij Seats2Meet. Een [routebeschrijving](https://web.archive.org/web/20130908092811/http://www.mindz.com/plazas/Seats2meet_com_Utrecht/pages/Routebeschrijving_en_contact) is te vinden op de site van Mindz.com.
 
 Leden van Fronteers betalen 100 euro. Niet-leden betalen 200 euro. Beide bedragen zijn exclusief btw.
 

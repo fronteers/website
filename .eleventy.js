@@ -1,10 +1,9 @@
 const { exec } = require("child_process");
 const glob = require("fast-glob");
+
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const brokenLinksPlugin = require("eleventy-plugin-broken-links");
-const { strToSlug, getAllKeyValues } = require('./utils/helpers');
-
 
 module.exports = function (eleventyConfig) {
   const quick = Boolean(process.env.BUILD_QUICK);
@@ -47,8 +46,6 @@ module.exports = function (eleventyConfig) {
   /* Add id to heading elements */
   eleventyConfig.addPlugin(pluginAddIdToHeadings);
 
-  eleventyConfig.addPlugin(pluginRss);
-
   eleventyConfig.addPlugin(brokenLinksPlugin, {
     redirect: "warn",
     broken: "warn",
@@ -68,12 +65,14 @@ module.exports = function (eleventyConfig) {
     callback: null,
   });
 
+  eleventyConfig.addPlugin(pluginRss);
+
   /**
    * Rebuild when any of the files are changed, but exclude css because that is
    * handled by the asset pipeline.
    * This seemed to cause a bug on refreshing liquid files?
    * eleventyConfig.addWatchTarget("./src/");
-   * 
+   *
    * Setup the pass through rules for CSS files. This way we can use regular
    * CSS imports without any magic, and later use a minification and/or purge
    * step on the result.
@@ -128,7 +127,7 @@ module.exports = function (eleventyConfig) {
         eleventyConfig.addCollection(collectionName, collection);
     }
   );
-  
+
   /* Load all filters */
   Object.entries(require('./utils/filters.js')).forEach(
     ([filterName, filter]) => {
@@ -148,18 +147,24 @@ module.exports = function (eleventyConfig) {
     async ({ dir, results, runMode, outputMode }) =>
       new Promise((resolve, reject) => {
         exec(
-          "npx lightningcss --minify --bundle --targets '>= 0.25%' dist/assets/css/style.css -o dist/assets/css/style.css",
+          "npx lightningcss --minify --bundle --targets \">= 0.25%\" dist/assets/css/style.css -o dist/assets/css/style.css",
           (err) => {
             if (err) {
+              console.error("[lightningcss] Failed to bundle the CSS");
               console.error(err);
               reject(err);
+              return
             }
-            console.log("Successfully bundled the CSS");
+
+            console.debug("[lightningcss] Successfully bundled the CSS");
             resolve();
           }
         );
       })
   );
+
+  /* This log will appear before the first build. It is tied to the plugin that checks broken links. */
+  console.debug("Eleventy will now generate RSS feeds and then look for broken links. This may take a while. When its done, you should see logs appear.")
 
   /* All templates in the content directory are parsed and copied to the dist directory */
   return {

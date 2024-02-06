@@ -62,4 +62,4 @@ Parallelweg Oost 23
 -   Tom Schuermans (Overpelt/Hamont
 -   Jeroen Smits
 
-Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2012/fronteers-white/). _Inschrijven via het onderstaande formulier is echter verplicht!_
+Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](https://web.archive.org/web/20171002053735/http://lanyrd.com/2012/fronteers-white/). _Inschrijven via het onderstaande formulier is echter verplicht!_

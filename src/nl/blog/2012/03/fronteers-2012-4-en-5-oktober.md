@@ -2,10 +2,10 @@
 title: "Fronteers 2012: 4 en 5 oktober"
 date: 2012-03-05
 author: Edwin Martin
-categories: 
+categories:
   - Congres
 ---
-Het zal geen verrassing meer zijn dat we ook dit jaar weer een [Fronteers conferentie](/congres/2012) organiseren. De vijfde alweer. We zijn al flink bezig met plannen maken en potentiële sprekers uitzoeken. De datum is al geprikt: donderdag 4 en vrijdag 5 oktober. Met Lanyrd kan je deze [datum gemakkelijk in je agenda zetten](http://lanyrd.com/2012/fronteers/). Net als de voorgaande twee jaren zullen we weer het prachtige [Art Deco Pathé Tuschinski Theater](https://nl.wikipedia.org/wiki/Tuschinski_Theater) in het centrum van Amsterdam gebruiken.
+Het zal geen verrassing meer zijn dat we ook dit jaar weer een [Fronteers conferentie](/congres/2012) organiseren. De vijfde alweer. We zijn al flink bezig met plannen maken en potentiële sprekers uitzoeken. De datum is al geprikt: donderdag 4 en vrijdag 5 oktober. Met Lanyrd kan je deze [datum gemakkelijk in je agenda zetten](https://web.archive.org/web/20171002053735/http://lanyrd.com/2012/fronteers/). Net als de voorgaande twee jaren zullen we weer het prachtige [Art Deco Pathé Tuschinski Theater](https://nl.wikipedia.org/wiki/Tuschinski_Theater) in het centrum van Amsterdam gebruiken.
 
 Op de afgelopen conferentie hebben we veel lof ontvangen, waar we natuurlijk heel blij mee zijn. We zullen er alles aan doen om komend jaar nog indrukwekkender te maken. Het niveau van de sprekers, de inhoud en de goede sfeer hopen we zo te houden. Of zelfs dat nog te verbeteren. Het zal in ieder geval weer een inspirerende, gevarieerde en technisch hoogstaande conferentie worden.
 

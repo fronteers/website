@@ -8,7 +8,7 @@
      <p><em>Let op dat deze workshop je niet leert hoe je met jQuery moet omgaan en ook niet hoe je moet werken zonder jQuery. De workshop focust zich op JavaScript zelf.</em></p>
      <p>De workshop JavaScript Achtbaan zal gegeven worden door <a href="http://qfox.nl">Peter van der Zee</a>.</p>
      <p>Leden van Fronteers betalen 100 euro. Niet-leden betalen 200 euro. Beide bedragen zijn exclusief  btw.</p>
-     <p>De workshop duurt de hele dag en is inclusief lunch bij Seats2Meet. Een <a href="http://www.mindz.com/plazas/Seats2meet_com_Utrecht/pages/Routebeschrijving_en_contact">routebeschrijving</a> is te vinden op de site van Mindz.com</p>
+     <p>De workshop duurt de hele dag en is inclusief lunch bij Seats2Meet. Een <a href="https://web.archive.org/web/20130908092811/http://www.mindz.com/plazas/Seats2meet_com_Utrecht/pages/Routebeschrijving_en_contact">routebeschrijving</a> is te vinden op de site van Mindz.com</p>
      <h3>Opgave</h3>
      <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
      <h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>

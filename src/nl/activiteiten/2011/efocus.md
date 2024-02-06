@@ -37,8 +37,8 @@ Voor een actie maak je een manifest file aan met het type en de URL. Met slechts
 
 ## Overige materialen en verslagen
 
-[Slides van de Chrome OS presentatie](https://fronteers-cws.appspot.com/WebStore/index.html)
-[Slides van de Web Intents presentatie](https://fronteers-cws.appspot.com/WebIntents/index.html)
+[Slides van de Chrome OS presentatie](https://web.archive.org/web/20121107153021/https://fronteers-cws.appspot.com/WebStore/index.html)
+[Slides van de Web Intents presentatie](https://web.archive.org/web/20121107153021/https://fronteers-cws.appspot.com/WebIntents/index.html)
 
 ## Aanwezigen
 

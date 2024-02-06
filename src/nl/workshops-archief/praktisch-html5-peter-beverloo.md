@@ -5,7 +5,7 @@
 <p>De cursus Praktisch HTML5 zal gegeven worden door <a href="http://peter.sh">Peter Beverloo</a></p>
 <p>Leden van Fronteers betalen 100 euro. Niet-leden betalen 200 euro. Beide bedragen zijn exclusief btw.</p>
 <p>Zoals <a href="/blog/2011/04/cursussen-update-april">eerder gemeld</a> hebben we om uit de kosten te komen de prijzen verhoogd. Mede dankzij alle positieve reacties en het feit dat men in evaluaties vaker wel dan niet aangaf dat cursussen te goedkoop waren, denken wij dat deze nieuwe prijzen nog steeds interessant genoeg zijn.</p>
-<p>De cursus duurt de hele dag en is inclusief lunch bij Seats2Meet. Een <a href="http://www.mindz.com/plazas/Seats2meet_com_Utrecht/pages/Routebeschrijving_en_contact">routebeschrijving</a> is te vinden op de site van Mindz.com</p>
+<p>De cursus duurt de hele dag en is inclusief lunch bij Seats2Meet. Een <a href="https://web.archive.org/web/20130908092811/http://www.mindz.com/plazas/Seats2meet_com_Utrecht/pages/Routebeschrijving_en_contact">routebeschrijving</a> is te vinden op de site van Mindz.com</p>
 <h3>Opgave</h3>
 <p>Voor deze workshop is nog geen (nieuwe) datum gepland. Mocht je geïnteresseerd zijn in de workshop, hou dan het <a href="/nl/activiteiten/">activiteiten overzicht</a> in de gaten of blijf op de hoogte via onze social media.</p>
 <h3>Deze workshop is in het verleden gegeven op de volgende data: </h3>

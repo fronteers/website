@@ -103,6 +103,6 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 -   Guus De Graeve (Gent, auto)
 -   Pieter Hens (Gent, auto)
 
-Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/2012/fronteersbe-combell/). _Inschrijven via het onderstaande formulier is echter verplicht!_
+Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](https://web.archive.org/web/20171002053735/http://lanyrd.com/2012/fronteersbe-combell/). _Inschrijven via het onderstaande formulier is echter verplicht!_
 
 Deze bijeenkomst is volzet.

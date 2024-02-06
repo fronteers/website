@@ -5,7 +5,7 @@
 <p>We zullen het doel van CSS behandelen en wanneer je iets aangeeft in CSS en vooral niet in HTML. En over de schrijfwijze van CSS, over de stylesheet en over de koppeling tussen de HTML pagina en de stylesheet. Verder komen de belangrijkste CSS eigenschappen aan bod, samen met hun waardes en hun toepassingen.</p>
 <p>Deze workshop is bedoeld voor mensen die al werken met HTML en CSS en de basiskennis missen én voor degenen die er nog weinig vanaf weten, maar wel goed willen beginnen. Doel van de workshop is dat je in een texteditor eenvoudige webpaginas kunt maken en vormgeven. Vergeet niet om je laptop mee te nemen!</p>
 <h4>Over de trainer</h4>
-<p>De beginnersworkshop HTML/CSS zal gegeven worden door <a href="http://www.waalweb.nl/">Frances de Waal</a>. Zij heeft ruim 14 jaar ervaring als frontender en docent, ondermeer voor <a href="http://www.w3devcampus.com/">W3C</a> en zij houdt zich dagelijks intensief bezig met toegankelijkheid, gebruiksvriendelijkheid en schone code.</p>
+<p>De beginnersworkshop HTML/CSS zal gegeven worden door <a href="https://web.archive.org/web/20230927071752/https://waalweb.nl/">Frances de Waal</a>. Zij heeft ruim 14 jaar ervaring als frontender en docent, ondermeer voor <a href="http://www.w3devcampus.com/">W3C</a> en zij houdt zich dagelijks intensief bezig met toegankelijkheid, gebruiksvriendelijkheid en schone code.</p>
 <h4>Meer info</h4>
 <p>Leden van Fronteers betalen 150 euro. Niet-leden betalen 250 euro. Beide bedragen zijn exclusief btw.</p>
 <p>De workshop duurt de hele dag en is inclusief lunch.</p>

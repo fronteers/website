@@ -32,7 +32,7 @@ Door de korte tijd van 6 minuut 40 is het ook voor mensen die geen uur willen of
 
 {%- googlemaps "Netvlies Internetdiensten, Haven 14, 4811 WL Breda." -%}
 
-Dit evenement vindt plaats bij Netvlies in Breda. Het adres is <strike>Prinsenkade 7, 4811 VB, Breda</strike> de bijeenkomst is verplaatst naar een grotere ruimte, gevestigd aan Haven 14, 4811 WL Breda. Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Geef wel even aan dat je komt door middel van onderstaand formulier, er is ook [een Lanyrd pagina](http://lanyrd.com/2012/fronteers-netvlies/). _Er is slechts ruimte voor 45 personen, inclusief sprekers._
+Dit evenement vindt plaats bij Netvlies in Breda. Het adres is <strike>Prinsenkade 7, 4811 VB, Breda</strike> de bijeenkomst is verplaatst naar een grotere ruimte, gevestigd aan Haven 14, 4811 WL Breda. Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Geef wel even aan dat je komt door middel van onderstaand formulier, er is ook [een Lanyrd pagina](https://web.archive.org/web/20171002053735/http://lanyrd.com/2012/fronteers-netvlies/). _Er is slechts ruimte voor 45 personen, inclusief sprekers._
 
 ## Aanwezigen
 
