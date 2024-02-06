@@ -3,8 +3,9 @@
   "permalink": "/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{%- if category.slug -%}{{ category.slug }}/{%- endif -%}index.html",
   "tags": "pages",
   "pagination": {
-    "data": "collections.activityCategories",
-    "size": 6,
+    "data": "collections.activity_categories_en",
+    "size": 1,
     "alias": "category"
-  }
+  },
+  "key": "activities-{{ category.slug }}"
 }
