@@ -1,4 +1,4 @@
 ---
-title: Activities
+title: "Activities per category"
 excludeFromCollection: true
 ---
