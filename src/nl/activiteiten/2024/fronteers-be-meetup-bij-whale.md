@@ -1,11 +1,12 @@
 ---
-title: Fronteers BE bijeenkomst bij Whale in Gent
+title: Fronteers BE meetup bij Whale in Gent
 date: 2024-01-25
 eventdate: 2024-03-07
 author: Claudia Reynders
 summary: "Op donderdag 7 maart 2024 zijn we te gast bij Whale te Gent voor de eerste bijeenkomst van het jaar. Wat je mag verwachten: een avond met 2 gast sprekers en de kans om mede fronteers te ontmoeten." 
 categories: 
   - meetup
+location: Gent
 ---
 
 

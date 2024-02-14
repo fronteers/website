@@ -6,6 +6,7 @@ author: Claudia Reynders
 summary: "On Thursday 7 March 2024, we are gathering again in Ghent, this time at the offices of a start-up called Whale. Join a number of fellow fronteers for an inspirational evening." 
 categories: 
   - meetup
+location: Ghent
 ---
 
 
