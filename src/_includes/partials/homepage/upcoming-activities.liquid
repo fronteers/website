@@ -2,8 +2,9 @@
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
     <ol class="desktop-columns mobile-slider">
         {%- for activity in activities limit: 3 -%}
+            {%- assign index = forloop.index | modulo: 3 -%}
             <li class="list-item mobile-slider-item">
-                {%- include partials/activity headerlvl: "h3" index: forloop.index -%}
+                {%- include partials/activity headerlvl: "h3" index: index -%}
             </li>
         {%- endfor -%}
     </ol>
