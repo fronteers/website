@@ -1,4 +1,4 @@
-{%- assign collectionKey = "published_activities_" | append: locale -%}
+{%- assign pageCollectionKey = "published_activities_" | append: locale -%}
 
 {% comment %} Get the title and the information from the most recent activity {% endcomment %}
 {%- for activity in paginated_activities limit:1 -%}
@@ -57,9 +57,10 @@
         {%- endif -%}
 
         {%- assign upcomingActivities = paginated_activities | upcomingEvents -%}
-        {%- assign totalUpcoming = collections[collectionKey] | upcomingEvents | count -%}
+        {%- assign totalUpcoming = collections[pageCollectionKey] | upcomingEvents | count -%}
         {%- assign viewCondition =  totalUpcoming |  divided_by: 9 | ceil -%}
-        
+
+        {%- include partials/activities/loop-activity-categories headerlvl:"h2" -%}
         {%- if pagination.pageNumber < viewCondition or viewCondition == 0 -%}
             <section class="inner-wrapper upcoming-activities">
                 <h2>{{ translations[locale].upcomingActivitiesTitle }} <span>({{ totalUpcoming }})</span></h2>
@@ -67,11 +68,11 @@
                 {%- if totalUpcoming == 0 -%}
                     <p>{{ translations[locale].emptyStateActivities }}</p>
                 {%- else -%}
-                    {%- include partials/activities/loop-activity-categories headerlvl:"h3" -%}
                     <ol class="desktop-columns">
                         {%- for activity in upcomingActivities limit:pagination.size -%}
+                            {%- assign index = forloop.index | modulo: 3 -%}
                             <li class="list-item">
-                                {%- include partials/activity headerlvl:"h3" index:forloop.index -%}
+                                {%- include partials/activity headerlvl:"h3" index:index -%}
                             </li>
                         {%- endfor -%}
                     </ol>
@@ -85,15 +86,15 @@
         {%- if shownUpcomingActivities < 9 -%}
             <section class="inner-wrapper past-activities">
                 {%- assign pastActivities = paginated_activities | pastEvents -%}
-                {%- assign totalPastActivities = collections[collectionKey] | pastEvents | count -%}
+                {%- assign totalPastActivities = collections[pageCollectionKey] | pastEvents | count -%}
                 
                 <h2>{{ translations[locale].pastActivitiesTitle }} <span>({{ totalPastActivities }})</span></h2>
                 
-                {%- include partials/activities/loop-activity-categories headerlvl:"h3" -%}
                 <ol class="desktop-columns">
                     {%- for activity in pastActivities limit:pagination.size -%}
+                        {%- assign index = forloop.index | modulo: 3 -%}
                         <li class="list-item">
-                            {%- include partials/activity headerlvl:"h3" index:forloop.index pastActivity: true -%}
+                            {%- include partials/activity headerlvl:"h3" index:index pastActivity: true -%}
                         </li>
                     {%- endfor -%}
                 </ol>
