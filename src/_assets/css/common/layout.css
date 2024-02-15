@@ -38,6 +38,10 @@
     padding: var(--spacing);
 }
 
+.centered-section {
+  text-align: center;
+}
+
 @media all and (min-width: 46.875em) {
     .content-wrapper {
         padding-block-end: calc(4 * var(--spacing));

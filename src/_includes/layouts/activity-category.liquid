@@ -1,31 +1,34 @@
+{%- assign pageCollectionKey = "categorised_activities_" | append: locale -%}
 {%- include partials/utility/html-head -%}
 <body data-layout="activity-category">
     {%- include partials/page-header/_page-header -%}
 
-    <main class="inner-wrapper">
-        <div class="page-content">
-            {% unless useHero %}
-            <h2>{{ title }}</h2>
+    <main>
+        <section class="inner-wrapper centered-section">
+        {% unless useHero %}
+            <h2>{{ title }}: {{ category.title }}</h2>
         {% endunless %}
-            {{ content }}
-        </div>
+        
+        {{ content }}
+       
 
         {%- include partials/activities/loop-activity-categories -%}
-
-        <h2><span>{{ translations[locale].category }}</span>: {{ category.title }}</h2>
-
-        {%- assign posts = collections.published_activities | getLocale: locale -%}
+        </section>
+        <section class="inner-wrapper">
+        {%- assign posts = collections[pageCollectionKey][category.slug] -%}
         <ul class="desktop-columns">
             {%- for post in posts -%}
-                {%- assign post_categories = post.data.categories -%}
-                {%- for post_category in post_categories -%}
-                    {%- assign current_category = post_category | downcase -%}
-                    {%- if category.title == current_category -%}
-                        <li class="list-item">
-                            {%- include partials/activity headerlvl:"h3" index:forloop.index activity:post -%}
-                        </li>
-                    {%- endif -%}
-                {%- endfor -%}
+                {%- assign today = "now" | date: "%Y%m%d" | plus: 0 -%}
+                {%- assign latestEventDate = post.data.eventdate | date: "%Y%m%d" | plus: 0 -%}
+                {% if today <= latestEventDate %}
+                    {%- assign eventHasHappened = false -%}
+                {% else %}
+                    {%- assign eventHasHappened = true -%}
+                {% endif %}
+                {%- assign index = forloop.index | modulo: 3 -%}
+                <li class="list-item">
+                    {%- include partials/activity headerlvl:"h3" index:index activity:post pastActivity: eventHasHappened -%}
+                </li>
             {%- endfor -%}
         </ul>
 
@@ -47,6 +50,7 @@
                 {%- endif -%}
             </ul>
         {%- endif -%}
+        </section>
     </main>
 
     {%- include partials/page-footer/_page-footer -%}

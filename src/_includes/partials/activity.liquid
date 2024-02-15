@@ -31,10 +31,17 @@
             <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
         {%- endfor -%}  -->
     </div>
+
+    {%- if pastActivity -%}
+        {%- assign anchorlbl = translations[locale].signUpClosed -%}
+    {%- else -%}
+        {%- assign anchorlbl = translations[locale].signUp -%}
+    {%- endif -%}
+
     <div class="activity-footer">
         <a
             href="{{ activity.url }}"
             class="button"
-            aria-hidden="true">{{ translations[locale].signUp }}</a>
+            aria-hidden="true">{{ anchorlbl }}</a>
     </div>
 </div>

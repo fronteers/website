@@ -106,6 +106,50 @@ function job_categories(locale) {
   }
 };
 
+function categorised_activities(locale) {
+  const categorisedActivities = {}
+
+  return (collection) => {
+    //get published activities
+    const allActivities = collection
+      .getFilteredByTag("activities")
+      .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.parent))
+      .filter((post) => Boolean(post.data.locale == locale))
+      .sort((a, b) => b.data.eventdate - a.data.eventdate);
+
+    //loop through published activities and create collections per category
+    allActivities.forEach(item => {
+      let categorySet = item.data.categories;
+
+      if(categorySet) {
+        
+        for (const category of categorySet) {
+          // Ignore the ones without a category
+          if (typeof category !== "string")
+          return
+  
+          const slug = strToSlug(category)
+  
+          if (Array.isArray(categorisedActivities[slug])) {   
+            //  category array exists? Just push
+            categorisedActivities[slug].push(item)
+          } else {
+            //  Otherwise create it and make the `item` the first item.
+            categorisedActivities[slug] = [item]
+          }
+          
+        }
+      }
+      
+    })
+
+    return categorisedActivities;
+  } 
+}
+
 module.exports = {
   published_posts_en: published_posts("en"),
   published_posts_nl: published_posts("nl"),
@@ -123,6 +167,8 @@ module.exports = {
   blog_categories_nl: blog_categories("nl"),
   jobcategories_en: job_categories("en"),
   job_categories_nl: job_categories("nl"),
+  categorised_activities_en: categorised_activities("en"),
+  categorised_activities_nl: categorised_activities("nl"),
 
   canonical(collection) {
     return collection

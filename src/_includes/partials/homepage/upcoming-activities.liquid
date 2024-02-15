@@ -2,8 +2,16 @@
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
     <ol class="desktop-columns mobile-slider">
         {%- for activity in activities limit: 3 -%}
+            {%- assign today = "now" | date: "%Y%m%d" | plus: 0 -%}
+            {%- assign latestEventDate = activity.data.eventdate | date: "%Y%m%d" | plus: 0 -%}
+            {% if today <= latestEventDate %}
+                {%- assign eventHasHappened = false -%}
+            {% else %}
+                {%- assign eventHasHappened = true -%}
+            {% endif %}
+            {%- assign index = forloop.index | modulo: 3 -%}
             <li class="list-item mobile-slider-item">
-                {%- include partials/activity headerlvl: "h3" index: forloop.index -%}
+                {%- include partials/activity headerlvl: "h3" index: index pastActivity: eventHasHappened -%}
             </li>
         {%- endfor -%}
     </ol>
