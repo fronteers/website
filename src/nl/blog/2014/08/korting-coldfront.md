@@ -11,4 +11,4 @@ De line-up bestaat uit Kasper Lund, Erik Bryn, Bruce Lawson, Phil Hawksworth, Na
 
 Een kaartje kost normaal 1.875 Deense Kronen (ongeveer €250), maar met 30% korting wordt dit 1.312,50 Kronen (zo'n €175).
 
-Mocht je hiervan gebruik willen maken, neem dan even [contact op met de ledenadministratie](/contact). Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.
+Mocht je hiervan gebruik willen maken, neem dan even [contact op met de ledenadministratie](/nl/vereniging/contact/). Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.

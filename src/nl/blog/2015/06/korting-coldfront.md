@@ -14,6 +14,6 @@ Het enige wat je hoeft te doen om te winnen, is reageren op deze blogpost. We zu
 
 ## Niet gewonnen? Profiteer van korting.
 
-Naast de twee gratis kaartjes hebben we ook korting bedongen: Fronteers-leden krijgen 30% korting op de toegangsprijs van dit congres. Om van je korting gebruik te maken, neem je contact op met de [ledenadministratie](/contact).
+Naast de twee gratis kaartjes hebben we ook korting bedongen: Fronteers-leden krijgen 30% korting op de toegangsprijs van dit congres. Om van je korting gebruik te maken, neem je contact op met de [ledenadministratie](/nl/vereniging/contact/).
 
 Zoals altijd geldt deze actie voor wie voor vandaag lid was van Fronteers.

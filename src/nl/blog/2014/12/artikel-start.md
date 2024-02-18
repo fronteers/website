@@ -17,4 +17,4 @@ Fronteersleden hebben heel veel kennis over heel veel verschillende onderwerpen.
 * tips, trucs en _best practices_
 * het uitlokken van discussie
 
-Lijkt het je leuk om ook een artikel te schrijven laat het ons weten: [neem contact op](/contact) met Kaj Rietberg of Paul van Buuren en vertel ons waarover jij wilt schrijven. Wij helpen je met schrijven. Help andere Fronteerleden met jouw kennis; je weet meer dan je denkt!
+Lijkt het je leuk om ook een artikel te schrijven laat het ons weten: [neem contact op](/nl/vereniging/contact/) met Kaj Rietberg of Paul van Buuren en vertel ons waarover jij wilt schrijven. Wij helpen je met schrijven. Help andere Fronteerleden met jouw kennis; je weet meer dan je denkt!

@@ -33,7 +33,7 @@ Notulen van de avond worden altijd zo snel mogelijk na de vergadering online ged
 
 ## Aanmelden
 
-Ben je van plan te komen, dan vragen we je vriendelijk je hieronder hiervoor [in te schrijven](#formulier-1), zodat we enigszins een idee hebben van de verwachte opkomst.
+
 
 ## English version
 
@@ -60,4 +60,4 @@ Below, you'll find the provisional program of the evening. The financial documen
 
 Van deze ALV zijn de notulen beschikbaar:
 
-[Notulen ALV 14 oktober 2020](/nl/vereniging/bestuur/notulen/notulen-alv-14-oktober-2020)
+[Notulen ALV 14 oktober 2020](https://fronteers.nl/vereniging/bestuur/notulen/notulen-alv-14-oktober-2020)

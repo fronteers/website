@@ -28,4 +28,4 @@ Dit evenement vindt plaats bij [Thomas More Mechelen](http://www.lessius.eu/cont
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa <strike>80</strike> **100** mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2013/thomas-more#formulier-1) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa <strike>80</strike> **100** mannen en vrouwen.

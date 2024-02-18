@@ -13,6 +13,6 @@ Vitaly Friedman - bekend van [Smashing Magazine](https://www.smashingmagazine.co
 
 Sara Soueidan - bij ons natuurlijk bekend als spreekster en host van het Fronteers congres - is al jaren een gerenommeerd expert op het gebied van CSS en SVG. Zij geeft dan ook de _CSS & SVG Power Combo_. Vind de details op [de workshoppagina van CSS Day](https://cssday.nl/2018/workshops).
 
-Als je als Fronteerslid gebruik wilt maken van deze 20%-korting stuur dan even [een berichtje naar het bestuur](/contact). Je ontvangt dan een speciale link waarmee je je workshopticket met korting kunt bestellen.
+Als je als Fronteerslid gebruik wilt maken van deze 20%-korting stuur dan even [een berichtje naar het bestuur](/nl/vereniging/contact/). Je ontvangt dan een speciale link waarmee je je workshopticket met korting kunt bestellen.
 
-Overigens kun je als Fronteerslid ook korting krijgen voor CSS Day zelf. Fronteersleden krijgen via een speciale link €25 of €50 korting op de reguliere toegangsprijs (Je betaalt dus maar €275 voor 1 dag, of €500 euro voor 2 dagen!). Bij interesse mag je [contact opnemen met het bestuur](/contact).
+Overigens kun je als Fronteerslid ook korting krijgen voor CSS Day zelf. Fronteersleden krijgen via een speciale link €25 of €50 korting op de reguliere toegangsprijs (Je betaalt dus maar €275 voor 1 dag, of €500 euro voor 2 dagen!). Bij interesse mag je [contact opnemen met het bestuur](/nl/vereniging/contact/).

@@ -22,4 +22,4 @@ Dit evenement vindt plaats bij Tam Tam, Helicopterstraat 25, Amsterdam. [Aanmeld
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 75 mannen en vrouwen. [Meld je daarom aan via het formulier.](/bijeenkomsten/2016/tamtam#formulier-1) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 75 mannen en vrouwen.  Vol is vol!

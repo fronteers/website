@@ -13,4 +13,4 @@ Verover de front-end wereld met jouw mening over een front-end techniek, deze av
 
 Onder het genot van een hapje en drankje zal de avond gevuld worden met veel discussie, leermomenten en het ontmoeten van nieuwe mensen. Aan het einde van de avond krijg je een leuke presentje mee.
 
-Zoals gebruikelijk zijn zowel leden als niet-leden welkom en is de toegang gratis. Wel is het prettig als je doorgeeft dat je komt via [het formulier op de bijeenkomstpagina](/bijeenkomsten/2013/trimm#formulier-1).
+Zoals gebruikelijk zijn zowel leden als niet-leden welkom en is de toegang gratis. Wel is het prettig als je doorgeeft dat je komt via [het formulier op de bijeenkomstpagina](/bijeenkomsten/2013/trimm).

@@ -11,4 +11,4 @@ Dit is nu eens geen pure front-end, maar een algemeen softwarecongres waarop, ge
 
 Voor de verandering is dit congres vrij dicht bij huis. Ook is het wat duurder dan de eerder aangekondigde: GOTO gebruikt een progressieve prijsstijging van €3 tot €6 per dag, wat betekent dat hoe eerder je je kaartje koopt, hoe goedkoper je uit bent. En, zoals gezegd, je Fronteers-code haalt nog eens €50 van de prijs af.
 
-Wil je hiervan gebruik maken, neem dan even [contact op](/contact) met de ledenadministratie. Zoals altijd geldt deze korting alleen voor mensen die op dit moment lid van Fronteers zijn.
+Wil je hiervan gebruik maken, neem dan even [contact op](/nl/vereniging/contact/) met de ledenadministratie. Zoals altijd geldt deze korting alleen voor mensen die op dit moment lid van Fronteers zijn.

@@ -63,7 +63,3 @@ Peter-Paul Koch, Arjan Eising en Matijs Brinkhuis treden af. Arjan en Matijs zij
 ## 11. Afsluiting
 
 _De ALV vindt op donderdag 22 november om 19.00 uur plaats in [vergadercentrum Hoog Brabant](http://www.hoogbrabant.nl/Routebeschrijving/) bij Utrecht CS._
-
-## Aanmelden
-
-Meld je aan voor de ALV via het [aanmeldformulier](/vereniging/bestuur#formulier-1).

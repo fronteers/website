@@ -15,4 +15,4 @@ Na een kort voorstelrondje ga je aan de slag en voor je het weet is het al tijd 
 
 ## Wie?
 
-Ieder Fronteerslid, beginner of gevorderd is welkom. Er is echter beperkt plaats, voor circa 15 mannen en vrouwen. [Meld je daarom aan via het formulier.](/bijeenkomsten/2015/flexwerken-maart) Vol is vol!
+Ieder Fronteerslid, beginner of gevorderd is welkom. Er is echter beperkt plaats, voor circa 15 mannen en vrouwen.  Vol is vol!

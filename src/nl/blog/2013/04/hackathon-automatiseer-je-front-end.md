@@ -20,4 +20,4 @@ Op zaterdag 11 mei zal er een hackathon worden georganiseerd voor leden en niet-
 
 GruntJS en Jasmine zijn twee van de nieuwere tools voor front-end programmeurs om applicaties te builden en testen. Het doel van de dag is er eens iets mee te doen op een leuke, informatieve manier. Na de lunch zullen de twee presentatoren beschikbaar zijn voor uitleg als je ergens tegenaan loopt.
 
-De hackathon is gratis voor leden en niet-leden en er is plek voor 30 hackers. Locatie is Nomadz op de 3de verdieping van Bink36 aan de Binckhorstlaan 36 in Den Haag. Aanmelden kan via het [formulier op de hackathon-pagina](/bijeenkomsten/2013/hackathon#formulier-1).
+De hackathon is gratis voor leden en niet-leden en er is plek voor 30 hackers. Locatie is Nomadz op de 3de verdieping van Bink36 aan de Binckhorstlaan 36 in Den Haag. Aanmelden kan via het [formulier op de hackathon-pagina](/bijeenkomsten/2013/hackathon).

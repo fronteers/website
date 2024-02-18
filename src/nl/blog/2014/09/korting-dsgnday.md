@@ -11,4 +11,4 @@ Mark Boulton, Leisa Reichelt, Mike Rohde, Val Head, Stephen Hay, Bonny Colville-
 
 Geïnteresseerd? Fronteers-leden krijgen €25 korting op de reguliere toegangsprijs van €275. Bij je kaartje zijn koffie, lunch, en een drankje na afloop inbegrepen.
 
-Mocht je hiervan gebruik willen maken, neem dan even [contact op](/contact) met de ledenadministratie. Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.
+Mocht je hiervan gebruik willen maken, neem dan even [contact op](/nl/vereniging/contact/) met de ledenadministratie. Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.

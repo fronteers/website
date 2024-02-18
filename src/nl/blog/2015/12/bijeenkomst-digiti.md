@@ -20,4 +20,4 @@ Dit evenement vindt plaats bij Digiti te Herentals. [Er is een plannetje beschik
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 175 mannen en vrouwen. [Meld je daarom aan via het formulier.](/bijeenkomsten/2015/digiti-2#formulier-1) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 175 mannen en vrouwen.  Vol is vol!

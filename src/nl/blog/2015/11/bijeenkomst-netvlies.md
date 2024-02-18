@@ -22,4 +22,4 @@ Dit evenement vindt plaats bij Netvlies, Prinsenkade 8, 4811 VB Breda. [Aanmelde
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 60 mannen en vrouwen. [Meld je daarom aan via het formulier.](/bijeenkomsten/2015/netvlies#formulier-1) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 60 mannen en vrouwen.  Vol is vol!

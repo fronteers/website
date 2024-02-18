@@ -21,4 +21,4 @@ Dit evenement vindt plaats bij [Digiti](http://digiti.be/) te Zoersel. Er is een
 
 ## Kom jij ook?
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2012/digiti#formulier-1) Vol is vol!
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. 

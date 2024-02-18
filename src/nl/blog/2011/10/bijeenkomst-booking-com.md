@@ -27,4 +27,4 @@ A crash course on typography: the history, the theory, some techniques. A quick 
 
 ## Bereikbaarheid en opgave
 
-Booking.com is gevestigd aan Nieuwe Weteringstraat 36-38, 1017 SG te Amsterdam. De bijeenkomst is gratis bij te wonen voor zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via het [formulier op de bijeenkomstpagina](/bijeenkomsten/2011/booking-com#formulier-1).
+Booking.com is gevestigd aan Nieuwe Weteringstraat 36-38, 1017 SG te Amsterdam. De bijeenkomst is gratis bij te wonen voor zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via het [formulier op de bijeenkomstpagina](/bijeenkomsten/2011/booking-com).

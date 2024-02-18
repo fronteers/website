@@ -22,4 +22,4 @@ Dit evenement vindt plaats bij TriFork te Amsterdam. [Er is een plannetje beschi
 
 ## Wie?
 
-Iedereen is welkom. Voorafgaand aan de bijeenkomst zal er pizza zijn, je hoeft dus van tevoren niet te eten. We willen graag weten hoeveel pizza's we moeten bestellen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2014/trifork#formulier-1) Vol is vol!
+Iedereen is welkom. Voorafgaand aan de bijeenkomst zal er pizza zijn, je hoeft dus van tevoren niet te eten. We willen graag weten hoeveel pizza's we moeten bestellen. 

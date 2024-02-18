@@ -19,4 +19,4 @@ Dit evenement vindt plaats bij Cronos te Kontich. [Er is een plannetje beschikba
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 40 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2014/cronos#formulier-1) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 40 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2014/cronos). Vol is vol!

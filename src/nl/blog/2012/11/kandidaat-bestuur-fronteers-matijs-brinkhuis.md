@@ -6,7 +6,7 @@ categories:
     - Organisation
 ---
 
-Aanstaande donderdag vindt de [jaarlijkse ALV](/blog/2012/10/kom-naar-de-algemene-ledenvergadering-2012) van Fronteers plaats (je kunt je nog [aanmelden](/vereniging/bestuur#formulier-1)). Een van de onderdelen tijdens de ALV is de bestuursverkiezing. Dit jaar zijn er vier kandidaten voor het nieuwe bestuur, twee zittende bestuursleden en twee nieuwe leden. Na [Roy Tomeij](/blog/2012/11/kandidaat-bestuur-roy-tomeij), [Vasilis van Gemert](/blog/2012/11/kandidaat-bestuur-fronteers-vasilis-van-gemert) en [Arjan Eising](/blog/2012/11/kandidaat-bestuur-fronteers-arjan-eising) is het vandaag de beurt aan:
+Aanstaande donderdag vindt de [jaarlijkse ALV](/blog/2012/10/kom-naar-de-algemene-ledenvergadering-2012) van Fronteers plaats. Een van de onderdelen tijdens de ALV is de bestuursverkiezing. Dit jaar zijn er vier kandidaten voor het nieuwe bestuur, twee zittende bestuursleden en twee nieuwe leden. Na [Roy Tomeij](/blog/2012/11/kandidaat-bestuur-roy-tomeij), [Vasilis van Gemert](/blog/2012/11/kandidaat-bestuur-fronteers-vasilis-van-gemert) en [Arjan Eising](/blog/2012/11/kandidaat-bestuur-fronteers-arjan-eising) is het vandaag de beurt aan:
 
 ## Matijs Brinkhuis
 

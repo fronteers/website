@@ -9,4 +9,4 @@ Op vrijdag 14 september vindt [PhoneGap Day EU](http://pgday.phonegap.com/eu2012
 
 Er is nog niet veel bekend over het programma, maar het wordt vergelijkbaar met de [US variant](http://pgday.phonegap.com/us2012/). Op donderdag 13 september zullen ook workshops plaatsvinden, voor beginners en ervaren gebruikers.
 
-Wil je gebruik maken van deze korting, neem dan even [contact](/contact) op met de ledenadministratie. Zoals gebruikelijk geldt de korting uitsluitend voor diegenen die op dit moment lid zijn.
+Wil je gebruik maken van deze korting, neem dan even [contact](/nl/vereniging/contact/) op met de ledenadministratie. Zoals gebruikelijk geldt de korting uitsluitend voor diegenen die op dit moment lid zijn.

@@ -73,10 +73,10 @@ module.exports = {
                 url: "/nl/activiteiten/",
                 title: "Activiteiten",
                 subnav: [
-                    // {
-                    //     url: "/nl/activiteiten/events/",
-                    //     title: "Meetups",
-                    // },
+                    {
+                        url: "/nl/activiteiten/events/",
+                        title: "Meetups",
+                    },
                     {
                         url: "/nl/activiteiten/workshops/",
                         title: "Workshop archief",

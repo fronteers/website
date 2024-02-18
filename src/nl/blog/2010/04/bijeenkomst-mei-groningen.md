@@ -34,4 +34,4 @@ theFacor.e is gevestigd aan de Friesestraatweg 215a, 9743 AD te Groningen.
 5. Rechtdoor tot je bij de ommelanden uitkomt (oude melk fabriek);
 6. Eerste verdieping van het middelste gebouw. (Het is vanaf de bushalte +/- 5minuten lopen.)
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden, maar is het wenselijk dat je je even opgeeft, zodat de organisatie weet hoeveel personen er komen. Opgave kan door het [aanmeldformulier](/bijeenkomsten/2010/tfe#formulier-1) in te vullen.
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden, maar is het wenselijk dat je je even opgeeft, zodat de organisatie weet hoeveel personen er komen. 

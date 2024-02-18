@@ -21,4 +21,4 @@ De Provinciale Hogeschool Limburg is gevestigd aan de Elfde Liniestraat 23a, 350
 
 ## Kom jij ook?
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 55 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2011/phl#formulier-1) Vol is vol!
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 55 mannen en vrouwen. 

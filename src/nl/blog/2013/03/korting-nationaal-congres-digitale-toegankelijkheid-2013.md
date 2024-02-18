@@ -9,4 +9,4 @@ Op 20 juni 2013 vindt het [Nationaal Congres Digitale Toegankelijkheid](http://w
 
 Er wordt onder andere aandacht besteed aan hoe responsive design en toegankelijkheid samengaan, het aanbieden van toegankelijke video en het schrijven van begrijpelijke teksten op het web. Dagvoorzitter is Francisco van Jole, en [sprekers](http://www.ncdt.nl/sprekers/) zijn onder anderen Eric Velleman, Iacobien Riezebosch, Simon Besters, Ger Dreijer, Raph de Rooij en Wiep Hamstra.
 
-Er zijn tien kortingscodes beschikbaar. Wie het eerst komt, het eerst maalt. [Neem contact op](/contact), en we sturen de code zo spoedig mogelijk naar je op.
+Er zijn tien kortingscodes beschikbaar. Wie het eerst komt, het eerst maalt. [Neem contact op](/nl/vereniging/contact/), en we sturen de code zo spoedig mogelijk naar je op.

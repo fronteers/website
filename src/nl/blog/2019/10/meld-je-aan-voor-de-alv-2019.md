@@ -40,7 +40,7 @@ Notulen van de avond worden altijd zo snel mogelijk na de vergadering online ged
 
 ## Aanmelden
 
-Ben je van plan te komen, dan vragen we je vriendelijk je hieronder hiervoor [in te schrijven](#formulier-1), zodat we enigszins een idee hebben van de verwachte opkomst.
+Ben je van plan te komen, dan vragen we je vriendelijk je hieronder hiervoor in te schrijven, zodat we enigszins een idee hebben van de verwachte opkomst.
 
 ## English version
 

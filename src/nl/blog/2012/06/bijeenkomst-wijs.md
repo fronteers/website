@@ -21,4 +21,4 @@ Dit evenement vindt plaats bij [Wijs](http://wijs.be/) te Gent. [Er is een plann
 
 ## Kom jij ook?
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 40 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2012/wijs#formulier-1) Vol is vol!
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 40 mannen en vrouwen. 

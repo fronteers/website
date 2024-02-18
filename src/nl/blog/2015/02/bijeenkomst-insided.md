@@ -24,4 +24,4 @@ Dit evenement vindt plaats bij inSided in Amsterdam. [Er is een kaart beschikbaa
 
 ## Voor wie?
 
-Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 60 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2015/insided#formulier-1) Vol is vol!
+Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 60 mannen en vrouwen.  Vol is vol!

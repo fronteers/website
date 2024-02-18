@@ -28,4 +28,4 @@ Google is een machtige speler op het internet. Met diverse technieken probeert h
 
 --Het is nog enigszins onduidelijk waar de bijeenkomst plaats gaat vinden, omdat Travelgroep gaat verhuizen. Momenteel is het gevestigd aan de Keizersgracht 630, 1017 ER Amsterdam. Mocht de lokatie gewijzigd zijn, dan zal dat op deze pagina aangekondigd worden.-- Update: de bijeenkomst vindt plaats bij Springest, gevestigd aan Rokin 75, 1012 KL Amsterdam op de zesde verdieping.
 
-Zoals gebruikelijk is de bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Wel is het gewenst dat je jezelf opgeeft via het [formulier op de aanmeldpagina](/bijeenkomsten/2011/travelgroep#formulier-1).
+Zoals gebruikelijk is de bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. 

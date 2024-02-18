@@ -24,4 +24,4 @@ Dit evenement vindt plaats bij Kabisa in Weert. [Er is een kaart beschikbaar op 
 
 ## Voor wie?
 
-Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2015/kabisa#formulier-1) Vol is vol!
+Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2015/kabisa). Vol is vol!

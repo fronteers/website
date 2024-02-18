@@ -21,4 +21,4 @@ Microsoft is gevestigd aan de Leonardo Da Vincilaan 3 te 1935 Zaventem. Er is ee
 
 ## Kom jij ook?
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2012/microsoft#formulier-1) Vol is vol!
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. 

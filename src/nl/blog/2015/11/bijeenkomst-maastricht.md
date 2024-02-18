@@ -21,4 +21,4 @@ Dit evenement vindt plaats in Stadscafé Lure in Maastricht. [Aanmelden kan via 
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 30 mannen en vrouwen. [Meld je daarom aan via het formulier.](/bijeenkomsten/2015/maastricht#formulier-1) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 30 mannen en vrouwen.  Vol is vol!

@@ -22,4 +22,4 @@ HTML Special en CSS Day vinden plaats op respectievelijk 16 en 17 juni 2016, in 
 
 Fronteers-leden krijgen €25 (1 dag) of €50 (2 dagen) korting op de reguliere toegangsprijs. Bij de toegang zijn koffie, lunch, en een drankje na afloop inbegrepen.
 
-Mocht je gebruik willen maken van deze korting, neem dan even contact op met de [ledenadministratie](/contact?Ledenadministratie#formulier-1). Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.
+Mocht je gebruik willen maken van deze korting, neem dan even contact op met de [ledenadministratie](/nl/vereniging/contact).. Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.

@@ -26,4 +26,4 @@ Coca Cola heeft 44 miljoen fans op Facebook versus 270 duizend bezoekers per maa
 
 ## Waar?
 
-Deze bijeenkomst vindt plaats bij WHITE in Valkenswaard. Parallelweg Oost 23. 5555 XA Valkenswaard. Zoals gebruikelijk is de bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je doorgeeft dat je komt via [het formulier op de bijeenkomstpagina](/bijeenkomsten/2012/white#formulier-1).
+Deze bijeenkomst vindt plaats bij WHITE in Valkenswaard. Parallelweg Oost 23. 5555 XA Valkenswaard. Zoals gebruikelijk is de bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je doorgeeft dat je komt via [het formulier op de bijeenkomstpagina](/bijeenkomsten/2012/white).

@@ -12,4 +12,4 @@ De dag start met een duopresentatie gegeven door Vasilis van Gemert en Peter Ned
 
 In de middag wordt in groepen gewerkt aan toffe projecten, die bijvoorbeeld alleen werken in alpha- of betaversies van browsers zoals Firefox en Chrome. Deze projecten worden aan het einde van de dag gepresenteerd aan mede-Fronteersleden. Als afsluiter is er een borrel.
 
-De dag is alleen toegankelijk voor leden van Fronteers. [Opgave is mogelijk tot 10 mei via het formulier op de Hackaton-pagina.](/bijeenkomsten/2012/hackaton#formulier-1)
+De dag is alleen toegankelijk voor leden van Fronteers. [Opgave is mogelijk tot 10 mei via het formulier op de Hackaton-pagina.](/bijeenkomsten/2012/hackaton)

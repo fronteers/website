@@ -9,4 +9,4 @@ Op 12 oktober 2012 vindt in Tuschinski [BubbleConf 2012](http://www.bubbleconf.c
 
 Sprekers en bezoekers uit de wereld van tech, design, UX en business komen bij elkaar voor een dag vol mogelijkheden om je te laten verrassen, nieuwe mensen te ontmoeten, zinvolle zaken te leren die je helpen succesvol te zijn met je start-up of onderneming en ongewone verhalen te horen van topspelers uit jouw veld.
 
-Om gebruik te maken van de korting, kun je contact opnemen met de [ledenadministratie](/contact). De korting geldt, zoals gebruikelijk, alleen voor leden die bij aankondiging van deze actie al lid waren.
+Om gebruik te maken van de korting, kun je contact opnemen met de [ledenadministratie](/nl/vereniging/contact/). De korting geldt, zoals gebruikelijk, alleen voor leden die bij aankondiging van deze actie al lid waren.

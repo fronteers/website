@@ -22,4 +22,4 @@ From the Front is een tweedaags congres en zal plaatsvinden op 15 en 16 septembe
 
 Fronteers-leden krijgen een korting van 20% (early bird) of 25% (reguliere prijs).
 
-Mocht je gebruik willen maken van deze korting, neem dan even contact op met de [ledenadministratie](/contact?Ledadministratie#formulier-1). Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.
+Mocht je gebruik willen maken van deze korting, neem dan even contact op met de [ledenadministratie](/nl/vereniging/contact). Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.

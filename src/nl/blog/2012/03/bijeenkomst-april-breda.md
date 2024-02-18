@@ -24,4 +24,4 @@ From bytes to code points, same-origin to cross-origin, and mutation events to o
 
 E-sites is gevestigd aan Reduitlaan 33, UNIT 2.09, 4814 DC in Breda. Kom je met de trein, dan is het een klein kwartiertje lopen vanaf station Breda.
 
-Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via [het formulier op de detailpagina van de bijeenkomst](/bijeenkomsten/2012/e-sites#formulier-1).
+Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via [het formulier op de detailpagina van de bijeenkomst](/bijeenkomsten/2012/e-sites).

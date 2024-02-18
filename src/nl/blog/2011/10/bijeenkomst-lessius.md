@@ -21,4 +21,4 @@ Lessius Mechelen is gevestigd aan Zandpoortvest 60, 2800 Mechelen. Er is een pla
 
 ## Kom jij ook?
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2011/lessius#formulier-1) Vol is vol!
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. 

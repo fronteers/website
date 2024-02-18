@@ -22,4 +22,4 @@ Dit evenement vindt plaats bij Q42 in Amsterdam. [Er is een kaart beschikbaar op
 
 ## Voor wie?
 
-Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2014/q42#formulier-1) Vol is vol!
+Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2014/q42). Vol is vol!

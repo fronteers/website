@@ -11,4 +11,4 @@ Dan Mall, Ida Aalen, Susan Robertson, Trine Falbe, Stephen Hay, Simon Collison, 
 
 Fronteers-leden krijgen net als vorig jaar €25 korting op de reguliere toegangsprijs van €275. Bij je kaartje zijn koffie, lunch, en een drankje na afloop inbegrepen.
 
-Mocht je gebruik willen maken van deze korting, neem dan even contact op met de [ledenadministratie](/contact?Ledenadministratie#formulier-1). Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.
+Mocht je gebruik willen maken van deze korting, neem dan even contact op met de [ledenadministratie](/nl/vereniging/contact).. Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.
