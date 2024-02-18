@@ -12,4 +12,4 @@ Er is ook een nieuwe workshopcommissie opgestaan, met daarin voorlopig Sharon Ma
 
 ## Suggesties welkom
 
-Wil je meer leren over tooling, preprocessors, Angular, toegankelijkheid, webtypografie of ES6? We hebben een voorlopige lijst met onderwerpen in gedachten, maar horen graag over welk onderwerp jullie een workshop willen volgen. Laat dit dus vooral horen door hieronder een reactie achter te laten, een tweet te sturen naar [@fronteers](https://twitter.com/fronteers) of benader ons [op Slack](https://fronteers.nl/blog/2016/02/fronteers-op-slack) of [email](mailto:workshops@fronteers.nl).
+Wil je meer leren over tooling, preprocessors, Angular, toegankelijkheid, webtypografie of ES6? We hebben een voorlopige lijst met onderwerpen in gedachten, maar horen graag over welk onderwerp jullie een workshop willen volgen. Laat dit dus vooral horen door hieronder een reactie achter te laten, een tweet te sturen naar [@fronteers](https://twitter.com/fronteers) of benader ons [op Slack](/nl/blog/2016/02/fronteers-op-slack) of [email](mailto:workshops@fronteers.nl).

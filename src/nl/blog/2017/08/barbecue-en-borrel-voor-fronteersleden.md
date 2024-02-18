@@ -10,4 +10,4 @@ Op *vrijdag 25 augustus* houdt Fronteers voor leden en niet-leden een gezellig d
 
 Voor deze zomerse tegenhanger van de nieuwjaarsborrel neemt Fronteers de drankjes voor haar rekening. Het eten is voor eigen rekening en komt uit op 25,50 euro per persoon, en ook voor mensen die liever vegetarisch eten zal er keuze genoeg zijn.
 
-Laat je weten of je komt? [Vul het aanmeldingsformulier in voor 18 augustus](https://fronteers.nl/bijeenkomsten/2017/zomerborrel-2017). Let op: er is beperkt plaats, dus wacht er niet te lang mee! :)
+Laat je weten of je komt? [Vul het aanmeldingsformulier in voor 18 augustus](/nl/activiteiten/2017/zomerborrel-2017). Let op: er is beperkt plaats, dus wacht er niet te lang mee! :)

@@ -10,7 +10,7 @@ graphic:
     alt: ''
 ---
 
-![[NAK](https://www.nak.nl/)](https://fronteers.nl/_img/werkgevers/nak.png)
+![[NAK](https://www.nak.nl/)](/_img/werkgevers/nak.png)
 
 NAK Emmeloord is op zoek naar een _Front-end Developer_
 

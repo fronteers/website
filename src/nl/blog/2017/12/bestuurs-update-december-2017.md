@@ -15,7 +15,7 @@ Het nadeel zoals afgelopen jaar geleerd heeft is dat dit het lastiger maakt om d
 
 In November zijn alle vrijwilligers benaderd voor een bedankje vanuit de vereniging. We hebben dit in gang gezet maar het is een flinke logistieke operatie gebleken. Nog even geduld lieve mensen!
 
-Op 13 december hebben Edwin, Anneke en Sander bij elkaar gezeten in Utrecht voor een team-kick-off. We hebben het gehad over [het doel](https://fronteers.nl/vereniging/doel) van Fronteers, hoe Sander de financiële en leden-administratie doet, en een stukje rolverdeling. We hebben ook besproken hoe we Fronteers beter op de kaart kunnen zetten.
+Op 13 december hebben Edwin, Anneke en Sander bij elkaar gezeten in Utrecht voor een team-kick-off. We hebben het gehad over [het doel](/nl/vereniging/doel) van Fronteers, hoe Sander de financiële en leden-administratie doet, en een stukje rolverdeling. We hebben ook besproken hoe we Fronteers beter op de kaart kunnen zetten.
 
 Op 20 december hebben we met een etentje de congrescommissie van 2017 bedankt voor hun inzet het afgelopen jaar. Thijs Reijgersberg gaat door, en Jaco Koster is ondertussen toegetreden tot de commissie. Jaco zal in 2018 de commissie voorzitten. Het tweetal vormt in de loop van januari een nieuwe commissie!
 
@@ -27,7 +27,7 @@ We hebben met elkaar in overleg bevestigd dat we als bestuur van vrijwilligers v
 
 ## Nieuwjaarsborrel
 
-De nieuwjaarsborrel houden we op 12 januari bij stadskasteel Oudaen in Utrecht vanaf 18:00! Zien we je daar? [Meld je aan via de Fronteers website.](https://fronteers.nl/bijeenkomsten/2018/nieuwjaarsborrel)
+De nieuwjaarsborrel houden we op 12 januari bij stadskasteel Oudaen in Utrecht vanaf 18:00! Zien we je daar? [Meld je aan via de Fronteers website.](/nl/activiteiten/2018/nieuwjaarsborrel)
 
 ## Opgezegd
 

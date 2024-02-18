@@ -7,7 +7,7 @@ backgroundcolor: skyblue
 summary: Kickstart your career and unlock your full potential as Frontend Developer
 ---
 
-![[VI Company](https://www.vicompany.nl/)](https://fronteers.nl/_img/werkgevers/vi-company-3.png)
+![[VI Company](https://www.vicompany.nl/)](/_img/werkgevers/vi-company-3.png)
 
 Kickstart your career and unlock your full potential as Frontend Developer
 

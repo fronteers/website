@@ -2,7 +2,8 @@
 key: committees
 title: Commissie Online Community
 ---
-
+ 
+## Doel  
 Het doel van de online commissie is het informeren en enthousiasmeren van leden en niet-leden over front-end development, activiteiten en Fronteers.
 
 We communiceren via de volgende kanalen:
@@ -10,8 +11,6 @@ We communiceren via de volgende kanalen:
 ## Slack
 
 Fronteers heeft een eigen Slack kanaal waar we front-enders samen willen brengen om te praten over interessante technieken en elkaar te helpen. Fronteers heeft een non-profit account waarbij de chat geschiedenis kostenloos wordt bewaard. De commissie Online Community zorgt voor moderatie.
-
-Leden en niet-leden kunnen meer lezen en zich aanmelden op: [/nl/blog/2016/02/fronteers-op-slack](/nl/blog/2016/02/fronteers-op-slack).
 
 ## Mastodon
 

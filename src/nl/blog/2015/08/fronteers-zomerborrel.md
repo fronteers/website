@@ -8,4 +8,4 @@ categories:
 ---
 Tijd voor de Fronteers zomerborrel, kom bijkletsen met mede front-end ontwikkelaars! In Utrecht, op dinsdag 25 augustus. Meld je snel aan, vol=vol!
 
-Meer info is te vinden op [de pagina van deze bijeenkomst](https://fronteers.nl/bijeenkomsten/2015/fronteers-zomerborrel-2015).
+Meer info is te vinden op [de pagina van deze bijeenkomst](/nl/activiteiten/2015/fronteers-zomerborrel-2015).

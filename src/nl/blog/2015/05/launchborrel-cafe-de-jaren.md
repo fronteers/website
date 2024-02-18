@@ -22,7 +22,7 @@ Het wordt een gezellige avond met ontspannen sfeer (behalve voor de congresorgan
 
 ## Livegang
 
-De congrescommissie vertelt over de plannen voor dit jaar en is aanwezig om jullie vragen te beantwoorden. Hoofdevenement is natuurlijk de [livegang van de kaartverkoop om 20:00 uur](https://fronteers.nl/blog/2015/05/kaartverkoop-fronteers15-begint-op-vrijdag-29-mei), waarna je zelf ook ter plekke je tickets kunt kopen - met Fronteerskorting, natuurlijk.
+De congrescommissie vertelt over de plannen voor dit jaar en is aanwezig om jullie vragen te beantwoorden. Hoofdevenement is natuurlijk de [livegang van de kaartverkoop om 20:00 uur](/nl/blog/2015/05/kaartverkoop-fronteers15-begint-op-vrijdag-29-mei), waarna je zelf ook ter plekke je tickets kunt kopen - met Fronteerskorting, natuurlijk.
 
 ## Locatie
 
@@ -34,4 +34,4 @@ Nieuwe Doelenstraat 20-22
 
 ## RSVP
 
-[Meld je aan via het formulier](https://fronteers.nl/bijeenkomsten/2015/fronteers-2015-launchborrel) (let op: plaatsen zijn beperkt!) en kom met ons het glas heffen op #fronteers15!
+[Meld je aan via het formulier](/nl/activiteiten/2015/fronteers-2015-launchborrel) (let op: plaatsen zijn beperkt!) en kom met ons het glas heffen op #fronteers15!

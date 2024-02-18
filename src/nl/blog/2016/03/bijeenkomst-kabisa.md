@@ -20,4 +20,4 @@ Dit evenement vindt plaats bij Kabisa, Marconilaan 8, 6003 DD Weert. [Aanmelden 
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 40 mannen en vrouwen. Meld je daarom aan via het [formulier](https://fronteers.nl/bijeenkomsten/2016/kabisa). Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 40 mannen en vrouwen. Meld je daarom aan via het [formulier](/nl/activiteiten/2016/kabisa). Vol is vol!

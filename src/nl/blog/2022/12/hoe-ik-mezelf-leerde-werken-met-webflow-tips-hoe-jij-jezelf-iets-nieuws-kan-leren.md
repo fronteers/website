@@ -17,7 +17,7 @@ Ik leer niet alleen in mijn vrije tijd, maar ook tijdens mijn werk besteed ik ti
 
 Webflow is een platform, waarmee je websites kan maken. Daarbij gebruik je geen code maar werk je met een visueel canvas, waarin je als developer zelf een website op maat maakt door te slepen, klikken en typen. Je hebt dezelfde vrijheid wanneer je het zelf zou programmeren.
 
-![De editor in Webflow met links de instellingen van de website en het overzicht van alle gebruikte elementen op de huidige pagina, in het midden hetgeen dat je aan het maken bent en rechts het menu met instellingen van het geselecteerde element.](https://fronteers.nl/_img/blog-rosita.jpg)
+![De editor in Webflow met links de instellingen van de website en het overzicht van alle gebruikte elementen op de huidige pagina, in het midden hetgeen dat je aan het maken bent en rechts het menu met instellingen van het geselecteerde element.](/_img/blog-rosita.jpg)
 
 De editor in Webflow, hier met een cloneable template gemaakt door Finsweet.
 

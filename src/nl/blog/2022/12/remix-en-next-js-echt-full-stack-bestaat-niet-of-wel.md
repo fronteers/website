@@ -427,11 +427,11 @@ In de meeste applicaties of websites wil je bepaalde states bijhouden zodat de g
 
 Op mijn website zie je zo'n toggle button zitten, ik heb hem gefocused met mijn keyboard want waarom niet? ;)
 
-![Mijn website in light mode, waarbij je een lichte achtergrond en donkere tekst ziet](https://fronteers.nl/_img/adventskalender/advents-lody-1.png)
+![Mijn website in light mode, waarbij je een lichte achtergrond en donkere tekst ziet](/_img/adventskalender/advents-lody-1.png)
 
 Als je er op klikt verandert het kleurenschema in een donkere variant.
 
-![mijn website in dark mode, waarbij je een donkere achtergrond en lichte tekst ziet](https://fronteers.nl/_img/adventskalender/advents-lody-2.png)
+![mijn website in dark mode, waarbij je een donkere achtergrond en lichte tekst ziet](/_img/adventskalender/advents-lody-2.png)
 
 De standaardmode van de website is _light mode_, dus als je de website bezoekt en je hebt nog geen voorkeur aangegeven door te klikken op de knop (of je hebt geen `prefers-color-scheme` instelling) is de achtergrond wit en de tekst donkerblauw.
 
@@ -605,7 +605,7 @@ In een traditionele React app zou een state management library ingezet kunnen wo
 
 Wat we zien in Remix, is dat tijdens het laden van de pagina de product data uit de database wordt gehaald. Vervolgens hebben we een React component dat de data uitleest van de server. Wanneer het formulier wordt verstuurd, wordt de data verwerkt en opgeslagen in de database, en vervolgens wordt de gebruiker weer doorgestuurd naar de bewerkingspagina, dat weer de (geüpdatete) data uit de database leest:
 
-![een codevoorbeeld van een product component dat een form bevat, en de loader functie voor de GET requests en action functie voor de POST request](https://fronteers.nl/_img/adventskalender/advents-lody-3.png)
+![een codevoorbeeld van een product component dat een form bevat, en de loader functie voor de GET requests en action functie voor de POST request](/_img/adventskalender/advents-lody-3.png)
 
 In feite zien we hier de state machine: we "updaten" de state van een product door één van de velden te bewerken en vervolgens op te slaan. Remix voert de `action` functie uit, stuurt de gebruiker terug naar `/products/[product ID]/edit`, waar tijdens de page load data wordt uitgelezen uit de database met behulp van de `load` functie. Remix _rendert_ het `Route` component dat de data van de server "verwerkt" in de HTML. De data stroomt via één route, de client blijft in sync met de server en je hoeft niet te letten op race conditions.
 
@@ -632,7 +632,7 @@ Voor Remix, de `routes` map is de belangrijkste map die je zult hebben. Alle `.j
 
 Het mooie hier is dat Remix nested routes ondersteunt! Bij een [nested route](https://remix.run/docs/en/v1/guides/routing#what-is-nested-routing) wordt de UI van een applicatie onderverdeeld in URL segments.
 
-![Alt: een afbeelding van een factuurdashboard met daarboven een menu dat aangeeft welke delen van een URL worden weergegeven in een interface zoals dit dashboard](https://fronteers.nl/_img/adventskalender/advents-lody-4.png)
+![Alt: een afbeelding van een factuurdashboard met daarboven een menu dat aangeeft welke delen van een URL worden weergegeven in een interface zoals dit dashboard](/_img/adventskalender/advents-lody-4.png)
 
 In de afbeelding hierboven (gepakt van de website van Remix), zien we dat de route van het `<Invoice/>` component wordt gerepresenteerd in de URL door het factuurnummer (in dit geval `102000`).
 

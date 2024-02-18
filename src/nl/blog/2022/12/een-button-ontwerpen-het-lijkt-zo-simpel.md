@@ -13,7 +13,7 @@ Een van de eerste zaken die ik in Adobe XD heb ontworpen, waren buttons voor het
 
 Het ontwerp van een button begint met een rechthoek, een tekst en een icoontje op een artboard (een soort pagina). De rechthoek geef ik een witte achtergrond, een blauwe rand van 2 pixels en een schaduw. De hoeken van de rechthoek heb ik rond gemaakt met een border radius. Mijn button ziet er nu zo uit:
 
-![Ontwerp van een button. Een ovale witte knop met een blauwe rand. In de button een plus-icoon en de tekst Voeg toe](https://fronteers.nl/_img/blog-jasha-1.png)
+![Ontwerp van een button. Een ovale witte knop met een blauwe rand. In de button een plus-icoon en de tekst Voeg toe](/_img/blog-jasha-1.png)
 
 ## Ontwerp van een button
 
@@ -107,7 +107,7 @@ opacity: 1;
 
 De ontwerper kan een fontgrootte en line-height definiëren, de hoogte van de box van de button en zelfs de padding binnen die box. Verwacht echter geen margins of paddings in de CSS. Daardoor kan er een verschil ontstaan tussen het bedoelde ontwerp en de implementatie. Adobe XD berekent aan de hand van het lettertype de verwachte hoogte van de tekst, die niet per se overeenkomt met de hoogte in de browser. De ontwikkelaar kan wel de afmetingen van de box en de afstanden tussen elementen opvragen om te controleren of die overeenkomen met de implementatie.
 
-![Afstanden binnen de button volgens Adobe XD. Met stippellijntjes en ballonnetjes met cijfers laat Adobe XD zien hoe de uitlijning van de tekst is binnen de button](https://fronteers.nl/_img/blog-jasha-3.png)
+![Afstanden binnen de button volgens Adobe XD. Met stippellijntjes en ballonnetjes met cijfers laat Adobe XD zien hoe de uitlijning van de tekst is binnen de button](/_img/blog-jasha-3.png)
 
 Afstanden binnen de button volgens Adobe XD.
 

@@ -9,7 +9,7 @@ categories:
 
 Op vrijdagavond 19 oktober houden we onze jaarlijkse algemene ledenvergadering (ALV). Alle leden zijn hiervoor van harte uitgenodigd. De vergadering vindt plaats in het La Vie Meeting Center in Utrecht, dezelfde locatie als in 2017.
 
-Voor de mensen die van ver komen (of gewoon geen zin hebben om te koken) zullen er vanaf 18:30 broodjes klaar staan. De vergadering zelf zal stipt om 19:00 uur beginnen. We verwachten dat de totale vergadering twee uur zal duren, maar de ervaring leert dat het nog weleens wil uitlopen. De voorzitster doet haar best dat zoveel mogelijk te beperken. Als dit je eerste keer is, [vertellen we je graag meer over de ALV](https://fronteers.nl/vereniging/alv).
+Voor de mensen die van ver komen (of gewoon geen zin hebben om te koken) zullen er vanaf 18:30 broodjes klaar staan. De vergadering zelf zal stipt om 19:00 uur beginnen. We verwachten dat de totale vergadering twee uur zal duren, maar de ervaring leert dat het nog weleens wil uitlopen. De voorzitster doet haar best dat zoveel mogelijk te beperken. Als dit je eerste keer is, [vertellen we je graag meer over de ALV](/nl/vereniging/alv).
 
 _De lokatie is inmiddels bekend: Net als vorig jaar zijn we te gast bij het La Vie Meeting Center, St Jacobsstraat 61, 3511 BP Utrecht. Dit is ongeveer vijf tot tien minuten lopen vanaf Utrecht Centraal Station._
 
@@ -23,7 +23,7 @@ Het staat leden tot het begin van de ALV vrij voorstellen voor de agenda in te d
 -   Benoeming nieuwe kascommissie
 -   Financiën 2018
 -   Begroting 2019
--   Stemming over het mogelijk [W3C-lidmaatschap](https://fronteers.nl/blog/2018/09/fronteers-als-w3c-lid)
+-   Stemming over het mogelijk [W3C-lidmaatschap](/nl/blog/2018/09/fronteers-als-w3c-lid)
 -   Toelichting commissies
 -   Evaluatie congres
 -   Rondvraag

@@ -57,5 +57,5 @@ Na het gedaan te hebben kan ik zeggen: ja, wel een beetje. Maar ik heb iets gema
 ## Over Kilian
 
 <img src="/_img/adventskalender/eigen-browser/kilian.png" alt="Foto van Kilian" class="floating-portrait">
-Kilian Valkhof is ruim 15 jaar front-end ontwikkelaar en ontwikkelt de browser [Polypane](https://polypane.app/). Fronteersleden kunnen Polypane [met korting gebruiken](https://fronteers.nl/blog/2019/05/25-procent-fronteers-korting-op-nieuwe-browser-polypane).
+Kilian Valkhof is ruim 15 jaar front-end ontwikkelaar en ontwikkelt de browser [Polypane](https://polypane.app/). Fronteersleden kunnen Polypane [met korting gebruiken](/nl/blog/2019/05/25-procent-fronteers-korting-op-nieuwe-browser-polypane).
 Kilians donatie gaat naar Stem op een vrouw.

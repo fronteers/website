@@ -60,4 +60,4 @@ Below, you'll find the provisional program of the evening. The financial documen
 
 Van deze ALV zijn de notulen beschikbaar:
 
-[Notulen ALV 14 oktober 2020](https://fronteers.nl/vereniging/bestuur/notulen/notulen-alv-14-oktober-2020)
+[Notulen ALV 14 oktober 2020](/nl/vereniging/bestuur/notulen/notulen-alv-14-oktober-2020)

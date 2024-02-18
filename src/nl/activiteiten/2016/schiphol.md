@@ -20,7 +20,7 @@ Tijdens de avond wordt de allerlaatste [Fronteers Conference 2016](/congres/2016
 -   19:10 Tamara Forza: Component Driven JavaScript
 -   19:30 Ischa Gast: \*\*\*Flawless CSS
 -   19:50 korte pauze
--   20:10 🎁 [verloting allerlaatste ticket](https://fronteers.nl/blog/2016/09/win-de-laatste-ticket-voor-fronteers-conference-2016) Fronteers Conference 2016! 🎫
+-   20:10 🎁 [verloting allerlaatste ticket](/nl/blog/2016/09/win-de-laatste-ticket-voor-fronteers-conference-2016) Fronteers Conference 2016! 🎫
 -   20:20 Joost Lubach: Pinch
 -   21:00 borrel
 

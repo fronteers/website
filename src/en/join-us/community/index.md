@@ -7,7 +7,7 @@ key: community
 
 Fronteers has its own Slack channel where we want to bring front-enders together to talk about interesting techniques and help each other. Fronteers has a non-profit account where the chat history is stored for free. There's a small group of volunteers that provides moderation.
 
-Members and non-members can read more and register at: https://fronteers.nl/blog/2016/02/fronteers-op-slack.
+Members and non-members can read more and register at: /nl/blog/2016/02/fronteers-op-slack.
 
 ## Mastodon
 

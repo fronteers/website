@@ -10,6 +10,6 @@ Alle reguliere toegangskaarten voor het Fronteerscongres zijn uitverkocht. Maar 
 
 Op donderdag 29 september organiseert Fronteers een meetup bij Schiphol Group - en verloten we de (enorme) Final Ticket to Fronteers Conference. Die ticket biedt je toegang tot beide dagen van het congres, op donderdag 6 en vrijdag 7 oktober. Buitenkansje!
 
-Winnen? [Meld je dan nu aan voor de Fronteers-meetup op Schiphol](https://fronteers.nl/bijeenkomsten/2016/schiphol)!
+Winnen? [Meld je dan nu aan voor de Fronteers-meetup op Schiphol](/nl/activiteiten/2016/schiphol)!
 
 ![Promotie-illustratie voor Schiphol-meetup van Fronteers](/_img/congres/2016/schiphol-meetup-final-ticket-promo.jpg)

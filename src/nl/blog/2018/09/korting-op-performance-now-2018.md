@@ -13,4 +13,4 @@ Alle informatie is te vinden op de website van [performance.now()](https://perfn
 
 In plaats van 550 euro, betalen Fronteersleden 450 euro (ex. BTW), een mooie korting dus.
 
-Als je als Fronteerslid gebruik wilt maken van deze korting, stuur dan even [een berichtje naar het bestuur](https://fronteers.nl/contact). Je ontvangt dan alle informatie om een kaartje met korting te kopen.
+Als je als Fronteerslid gebruik wilt maken van deze korting, stuur dan even [een berichtje naar het bestuur](/nl/vereniging/contact/). Je ontvangt dan alle informatie om een kaartje met korting te kopen.

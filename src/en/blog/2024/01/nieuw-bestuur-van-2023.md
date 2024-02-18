@@ -15,7 +15,7 @@ As is tradition new candidates came forward and members had the opportunity to c
 In the weeks following the ALV, the old and new board convened and new roles were assigned as follows:
 
 _Wim van Iersel_ (banaan666) continues his role as treasurer after taking over from Sander Vink last year.
-During the week you can find Wim working as webmaster / front-end developer for Tillburg. You can also [read Wim’s official introduction on the Fronteers blog](https://fronteers.nl/blog/2022/11/nieuw-bestuurslid-wim-van-iersel).
+During the week you can find Wim working as webmaster / front-end developer for Tillburg. You can also [read Wim’s official introduction on the Fronteers blog](/nl/blog/2022/11/nieuw-bestuurslid-wim-van-iersel).
 
 _Christian Schaefer_ (schepp), call name “Schepp”, assists our secretary with documentation and communication. Schepp has a rather long history as a Fronteers member and is one of the very few German ones. After volunteering for a few years for the conference he finally became part of the conference committee in 2019. He co-hosts a weekly German podcast on frontend development since 2010, now approaching 600 episodes. Schepp is also co-organizer of two meetups: the local Düsseldorf meetup Webworker NRW (2014 - paused since 2020) and the online-only CSS Café (since 2020).
 
