@@ -57,7 +57,7 @@
                 {{ content }}
             </div>
 
-            {%- include partials/blog/loop-blog-categories headerlvl:"h3" -%}
+            {%- include partials/utility/dynamic-category-loop level: "h3" type: "blog" typeURL: translations[locale].blogsURL -%}
 
             <ul class="desktop-rows mobile-slider">
                 {%- for post in paginated_posts limit:pagination.size | reverse -%}
