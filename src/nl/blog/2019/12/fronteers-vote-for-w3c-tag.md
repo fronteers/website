@@ -3,7 +3,7 @@ title: 'Fronteers vote for the W3C Technical Architecture Group'
 date: 2019-12-13
 author: Anneke Sinnema
 categories:
-    - Vereniging
+    - Organisation
     - W3C
 ---
 

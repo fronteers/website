@@ -2,12 +2,10 @@
 title: New board of 2023
 date: 2024-01-03
 author: Anneke Sinnema
-summary: Op vrijdag 10 november vond de jaarlijkse ALV (algemene leden vergadering) online plaats. Zoals velen ondertussen waarschijnlijk al wisten, hebben Anneke Sinnema en Edwin Martin besloten om hun rollen in het bestuur niet te verlengen. Zowel Anneke als Edwin hebben een cruciale rol gespeeld voor Fronteers de afgelopen 6 jaar, Anneke als voorzitster en Edwin als secretaris.
+summary: The annual AGM (general members meeting) took place online on Friday, November 10. As many probably already knew, Anneke Sinnema and Edwin Martin have decided not to renew their roles on the board. Both Anneke and Edwin have played a crucial role for Fronteers over the past 6 years, Anneke as chairwoman and Edwin as secretary.
 categories:
     - Vereniging
 ---
-
-## New board of 2023
 
 On Friday the 10th of November we gathered online for our annual ALV (general meeting of community members). As some of you might already be aware, both Anneke Sinnema and Edwin Martin decided to not continue another 3-year run on the board. Both Anneke and Edwin have played a crucial role for Fronteers over the past 6 years, Anneke as chair and Edwin as secretary.
 With the pandemic this surely hasn't been the easiest of tasks so we now see them off on a well deserved break. Both will still play a part in Fronteers in the future, just in a different role.

@@ -7,6 +7,5 @@ categories:
     - meetup
 ---
 
-## Presentatie front-end bij Mangrove door Ruben Bos
-
-## Presentatie plannen door Peter-Paul Koch
+- Presentatie front-end bij Mangrove door Ruben Bos
+- Presentatie plannen door Peter-Paul Koch

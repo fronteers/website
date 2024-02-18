@@ -3,7 +3,7 @@ title: 'Techionista zoekt workshopbegeleiders voor Coding Class for Women'
 date: 2015-11-09
 author: Hidde de Vries
 categories:
-    - Vereniging
+    - Organisation
 ---
 
 Techionista en T-Mobile hebben Fronteers benaderd, omdat ze op zoek zijn naar begeleiders bij de serie front-end workshops die ze organiseren onder de naam Coding Class for Women. Iets voor jou?

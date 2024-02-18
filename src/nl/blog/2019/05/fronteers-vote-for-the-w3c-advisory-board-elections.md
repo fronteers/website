@@ -3,7 +3,7 @@ title: 'Fronteers vote for the W3C Advisory Board elections'
 date: 2019-05-17
 author: Peter-Paul Koch
 categories:
-    - Vereniging
+    - Organisation
     - W3C
 ---
 

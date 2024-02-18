@@ -3,7 +3,7 @@ title: 'Begroting 2017: een nieuwe website?'
 date: 2016-11-19
 author: Hidde de Vries (penningmeester)
 categories:
-    - Vereniging
+    - Organisation
 ---
 
 Wie de Fronteers-begroting voor 2017 bestudeert, zal het vast opvallen: er is een stelpost geïntroduceerd genaamd ‘Eenmalige kosten nieuwe website’. Graag licht het bestuur toe waar deze reservering voor is bedoeld.
