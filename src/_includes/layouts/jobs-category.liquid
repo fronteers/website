@@ -11,7 +11,7 @@
                 {{ content }}
             </div>
 
-            {%- include partials/jobs/loop-job-categories headerlvl:"h3" -%}
+            {%- include partials/utility/dynamic-category-loop level: "h3" type: "job" typeURL: translations[locale].jobsURL -%}
 
             <h2>{{ translations[locale].job_category }}: {{ category.title }}</h2>
             <ul class="desktop-rows mobile-slider">

@@ -60,7 +60,8 @@
         {%- assign totalUpcoming = collections[pageCollectionKey] | upcomingEvents | count -%}
         {%- assign viewCondition =  totalUpcoming |  divided_by: 9 | ceil -%}
 
-        {%- include partials/activities/loop-activity-categories headerlvl:"h2" -%}
+        {%- include partials/utility/dynamic-category-loop level: "h2" type: "activity" typeURL: translations[locale].activitiesURL -%}
+
         {%- if pagination.pageNumber < viewCondition or viewCondition == 0 -%}
             <section class="inner-wrapper upcoming-activities">
                 <h2>{{ translations[locale].upcomingActivitiesTitle }} <span>({{ totalUpcoming }})</span></h2>
