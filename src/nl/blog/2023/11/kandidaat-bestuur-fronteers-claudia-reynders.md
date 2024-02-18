@@ -4,7 +4,7 @@ date: 2023-11-08
 author: Claudia Reynders
 summary: Aanstaande vrijdag vindt de jaarlijkse algemene ledenvergadering (ALV) van Fronteers plaats. Een van de onderdelen tijdens de ALV is de bestuursverkiezing. Kandidaat bestuurslid Claudia Reynders stelt zich voor!
 categories:
-    - Vereniging
+    - Organisation
 ---
 
 Aanstaande vrijdag vindt de jaarlijkse algemene ledenvergadering (ALV) van Fronteers plaats. Een van de onderdelen tijdens de ALV is de bestuursverkiezing. Kandidaat bestuurslid Claudia Reynders stelt zich voor!

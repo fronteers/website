@@ -3,17 +3,23 @@
     {%- include partials/page-header/_page-header -%}
 
     <main class="{% if useHero %}styledheader{% endif %}">
-        <div class="page-content">
+        <section class="inner-wrapper centered-section">
             {% unless useHero %}
-            <h2>{{ title }}</h2>
+                <h2>{{ title }}: {{ category.title }}</h2>
+            {% endunless %}
+            
+            {{ content }}
+           
+            {%- include partials/utility/dynamic-category-loop level: "h3" type: "blog" typeURL: translations[locale].blogsURL -%}
+            </section>
+        {% comment %} <div class="page-content">
+            {% unless useHero %}
+            <h2>{{ title }}: {{ category.title }}</h2>
         {% endunless %}
             {{ content }}
-        </div>
+        </div> {% endcomment %}
 
         <div class="inner-wrapper">
-            {%- include partials/blog/loop-blog-categories headerlvl:"h3" -%}
-
-            <h2>Blog category: {{ category.title }}</h2>
             {%- assign posts = collections.published_posts | getLocale: locale -%}
             <ul class="desktop-rows mobile-slider">
             {%- for post in posts -%}

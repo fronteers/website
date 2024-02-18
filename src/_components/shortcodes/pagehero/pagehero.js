@@ -5,7 +5,7 @@ const { shield } = require("../shield/shield");
 const heroShield = shield("triangular", "thunder", "lilac", "purple");
 
 exports.pagehero = (heroStyle, herotitle, herotext, heroImage) => `
-<section class="outer-wrapper outer-wrapper--${heroStyle}">
+<section class="hero-wrapper outer-wrapper outer-wrapper--${heroStyle}">
   <div class="hero hero--${heroStyle}">
     ${heroStyle == 'aboutus' ? heroShield : ''}
     ${heroStyle == 'activities' ? heroImage : ''}
@@ -19,5 +19,4 @@ exports.pagehero = (heroStyle, herotitle, herotext, heroImage) => `
     </div>
   </div>
 </section>
-<br />
 `;

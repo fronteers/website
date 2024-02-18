@@ -6,11 +6,6 @@ location:
 categories:
     - meetup
 ---
-
-## Presentatie front-end bij Info.nl door Tom Greuter
-
-## Presentatie plannen Commissie Onderwijs door Robert Jan Verkade
-
-## Overige verslagen
-
--   Gilde van Front-Enders op bezoek bij Info.nl (open.info.nl)
+- Presentatie front-end bij Info.nl door Tom Greuter
+- Presentatie plannen Commissie Onderwijs door Robert Jan Verkade
+- Verslag: Gilde van Front-Enders op bezoek bij Info.nl (open.info.nl)

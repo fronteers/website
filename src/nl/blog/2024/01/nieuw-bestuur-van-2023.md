@@ -4,7 +4,7 @@ date: 2024-01-03
 author: Anneke Sinnema
 summary: Op vrijdag 10 november vond de jaarlijkse ALV (algemene leden vergadering) online plaats. Zoals velen ondertussen waarschijnlijk al wisten, hebben Anneke Sinnema en Edwin Martin besloten om hun rollen in het bestuur niet te verlengen. Zowel Anneke als Edwin hebben een cruciale rol gespeeld voor Fronteers de afgelopen 6 jaar, Anneke als voorzitster en Edwin als secretaris.
 categories:
-    - Vereniging
+    - Organisation
 ---
 
 Op vrijdag 10 november vond de jaarlijkse ALV (algemene leden vergadering) online plaats. Zoals velen ondertussen waarschijnlijk al wisten, hebben Anneke Sinnema en Edwin Martin besloten om hun rollen in het bestuur niet te verlengen.

@@ -3,7 +3,7 @@ title: 'Kandidaat bestuur Fronteers: Arjan Eising'
 date: 2012-11-14
 author: Arjan Eising
 categories:
-    - Vereniging
+    - Organisation
 ---
 
 Volgende week donderdag vindt de [jaarlijkse ALV](/blog/2012/10/kom-naar-de-algemene-ledenvergadering-2012) van Fronteers plaats (je kunt je nog [aanmelden](/vereniging/bestuur#formulier-1)). Een van de onderdelen tijdens de ALV is de bestuursverkiezing. Dit jaar zijn er vier kandidaten voor het nieuwe bestuur, twee zittende bestuursleden en twee nieuwe leden. In de komende dagen stellen zij zich alle vier aan je voor. Vandaag:

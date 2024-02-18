@@ -4,7 +4,7 @@ date: 2022-09-29
 author: Anneke Sinnema
 summary: 'Op vrijdagavond 4 november vanaf 19:30 houden we onze jaarlijkse algemene ledenvergadering (ALV)! Alle leden zijn hiervoor van harte uitgenodigd, en we hopen nieuwe bestuursleden te verwelkomen!'
 categories:
-    - Vereniging
+    - Organisation
 ---
 
 Op vrijdagavond 4 november vanaf 19:30 houden we onze jaarlijkse algemene ledenvergadering (ALV)! Alle leden zijn hiervoor van harte uitgenodigd, en we hopen nieuwe bestuursleden te verwelkomen!

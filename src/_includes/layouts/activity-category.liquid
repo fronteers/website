@@ -11,8 +11,7 @@
         
         {{ content }}
        
-
-        {%- include partials/activities/loop-activity-categories -%}
+        {%- include partials/utility/dynamic-category-loop level: "h2" type: "activity" typeURL: translations[locale].activitiesURL -%}
         </section>
         <section class="inner-wrapper">
         {%- assign posts = collections[pageCollectionKey][category.slug] -%}
