@@ -15,8 +15,7 @@
 
             {% if pagination.pageLinks.length <= 5 %}
 
-                {%- for page in pagination -%}
-
+                {%- for page in pagination limit:pagination.pageLinks.length -%}
                     <li class="pagination__page-list-items">
                         {%- if pagination.pageNumber == forloop.index0 -%}
                             <span class="pagination__page-number--active"> {{ forloop.index0 | plus: 1 }} </span>
@@ -40,9 +39,9 @@
                     </a>
                 </li>
                 <li class="pagination__page-list-items">
-                <span class="pagination__page-number--active">
-                {{ pagination.pageNumber | plus: 1 }}
-                </span>
+                    <span class="pagination__page-number--active">
+                    {{ pagination.pageNumber | plus: 1 }}
+                    </span>
                 </li>
                 <li class="pagination__page-list-items">
                     <a class="pagination__page-number" href="{{ pagination.href.next }}"><span
@@ -50,9 +49,9 @@
                     </a>
                 </li>
                 <li class="pagination__page-list-items">
-                <span class="pagination__page-number">
-                ...
-                </span>
+                    <span class="pagination__page-number">
+                    ...
+                    </span>
                 </li>
                 <li class="pagination__page-list-items">
                     <a class="pagination__page-number" href="{{ pagination.href.last }}"><span
