@@ -36,5 +36,5 @@
 .join-us-link a:focus + div {
   background-color: var(--purple-wcag-darker);
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }

@@ -7,7 +7,7 @@ exports.aboutushero = (text, title, shieldOptions = []) => {
   );
   const heroShield = shield(style, shape, primary, secondary);
 
-  return `<section class="outer-wrapper">
+    return `<section class="hero-wrapper outer-wrapper">
 <div class="about-us-hero">
 ${heroShield}
 <div class="about-us-hero-graphic">
