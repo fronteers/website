@@ -19,7 +19,7 @@ De intentie is om dit elke 4 weken (incidenteel met kortere tussenpozen) te orga
 * [7 oktober](https://www.meetup.com/Fronteers-NL/events/273569269/)
 * [4 november](https://www.meetup.com/Fronteers-NL/events/bfhkzrybcpbgb/)
 * [2 december](https://www.meetup.com/Fronteers-NL/events/bfhkzrybcqbdb/)
-* [6 januari](https://www.meetup.com/Fronteers-NL/events/bfhkzrycccbjb/)
+* [6 januari](https://www.meetup.com/Fronteers-NL/)
 
 Als je je aanmeldt via onze meetup pagina (en je dus een meetup.com account hebt) krijg je een aanmeldlink te zien. Deze link zetten we niet openbaar op internet, omdat we dan het risico lopen op "zoom bombing". Heb je geen meetup account en wil je deze ook niet aanmaken, stuur dan een [e-mail naar Anneke](mailto:anneke@fronteers.nl) en we geven je de link die we van plan zijn te gebruiken :-)
 
