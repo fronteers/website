@@ -17,7 +17,7 @@ Een van de grote voordelen is dat je dingen zo lekker makkelijk kunt stapelen. N
 
 Bij een CSS-grid heb je altijd een parentrelement en childelementen nodig. De parent is de container die de definitie van het grid bevat en de children zijn de items die in het grid komen te staan. Zonder children heb je dus geen zichtbare content in het grid.
 
-![Een scrabblebord met daarop de woorden Fijne feestdagen, gelukkig nieuwjaar gespeld](https://fronteers.nl/_img/adventskalender/advents-peter-scrabble.png)
+![Een scrabblebord met daarop de woorden Fijne feestdagen, gelukkig nieuwjaar gespeld](/_img/adventskalender/advents-peter-scrabble.png)
 
 ## Een grid voor het spelbord
 

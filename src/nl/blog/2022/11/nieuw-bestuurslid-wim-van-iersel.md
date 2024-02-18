@@ -10,7 +10,7 @@ Op de afgelopen ALV is Wim van Iersel toegetreden tot het bestuur. Hij stelt zic
 
 Hoi allemaal,
 
-Een kleine verrassing op de woensdagavond voor degene die de notulen van de [Algemene Ledenvergadering](https://fronteers.nl/vereniging/bestuur/notulen/notulen-alv-4-november-2022) nog niet gelezen hebben! Afgelopen vrijdag was de ALV van Fronteers in Utrecht. Daar was ik bij aanwezig als een van de leden van de kascommissie dit jaar en liep ik enigszins verrast naar buiten als het nieuwe bestuurslid van Fronteers.
+Een kleine verrassing op de woensdagavond voor degene die de notulen van de [Algemene Ledenvergadering](/nl/vereniging/bestuur/notulen/notulen-alv-4-november-2022) nog niet gelezen hebben! Afgelopen vrijdag was de ALV van Fronteers in Utrecht. Daar was ik bij aanwezig als een van de leden van de kascommissie dit jaar en liep ik enigszins verrast naar buiten als het nieuwe bestuurslid van Fronteers.
 
 Nu hoor ik jullie denken: hoe kan dat nu weer, er waren toch geen kandidaten aangekondigd op de website/in de e-mail? Dat klopt, maar toen duidelijk werd tijdens de ALV dat het bestuur zeker niet de minimale vereiste bezetting van drie (volgens statuten) zou halen door een gebrek aan nieuwe kandidaten, heb ik kenbaar gemaakt graag de rol van Penningmeester op me te willen nemen. Daarmee is één van de twee vrijgekomen posities in het bestuur voor de komende 3 jaar opgevuld. De vertrekkende bestuursleden zijn trouwens niet van plan de continuïteit van het bestuur in gevaar te brengen. We hebben wel een proeftijd afgesproken van drie maanden om even helemaal open kaart te spelen.
 

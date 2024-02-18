@@ -9,7 +9,7 @@ categories:
 
 Intl is de standaard ECMAScript internationalisering API en wordt al sinds 2016 door alle browsers ondersteund, maar ontwikkelaars vallen toch vaak terug op onnodige (en verouderde) JavaScript bibliotheken.
 
-![Een vrouw die Intl vertegenwoordigt, kijkt verontwaardigd naar haar vriend die een vrouw die Moment Luxon vertegenwoordigt nafluit](https://fronteers.nl/_img/adventskalender/blog-edwin.jpg)
+![Een vrouw die Intl vertegenwoordigt, kijkt verontwaardigd naar haar vriend die een vrouw die Moment Luxon vertegenwoordigt nafluit](/_img/adventskalender/blog-edwin.jpg)
 
 ## Aargh, tijdzones en zomertijd
 

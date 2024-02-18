@@ -6,7 +6,7 @@ categories:
     - Adventskalender
 ---
 
-These last days of the year are a time to look back at what you did the past year and to look forward to what's to come. At Fronteers we can look back at a great year. We became a member of the [W3C](https://fronteers.nl/blog/2019/01/fronteers-is-w3c-lid), [Fronteers Conference](https://vimeo.com/channels/fronteersconf19) was amazing as always and we hosted a couple of awesome [workshops](https://fronteers.nl/workshops).
+These last days of the year are a time to look back at what you did the past year and to look forward to what's to come. At Fronteers we can look back at a great year. We became a member of the [W3C](/nl/blog/2019/01/fronteers-is-w3c-lid), [Fronteers Conference](https://vimeo.com/channels/fronteersconf19) was amazing as always and we hosted a couple of awesome [workshops](https://fronteers.nl/workshops).
 
 And we also have a lot to look forward to. We're gonna present a new design for our identity, we're starting work at our new website and of course there will be more workshops and in the autumn another edition of Fronteers Conference.
 

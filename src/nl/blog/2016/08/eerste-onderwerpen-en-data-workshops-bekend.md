@@ -25,6 +25,6 @@ Je kunt je vanaf nu aanmelden voor alle workshops. De precieze locatie maken we 
 
 ## Nieuwe onderwerpen en leden comissie
 
-Om dit tempo vast te houden willen we in het najaar de workshops voor 2017 communiceren via de website en social media. Heb jij nog suggesties voor een onderwerp, laat het ons vooral horen door hieronder een reactie achter te laten, een tweet te sturen naar [@fronteers](https://twitter.com/fronteers) of benader ons op [Slack](https://fronteers.nl/blog/2016/02/fronteers-op-slack) of [email](workshops@fronteers.nl).
+Om dit tempo vast te houden willen we in het najaar de workshops voor 2017 communiceren via de website en social media. Heb jij nog suggesties voor een onderwerp, laat het ons vooral horen door hieronder een reactie achter te laten, een tweet te sturen naar [@fronteers](https://twitter.com/fronteers) of benader ons op [Slack](/nl/blog/2016/02/fronteers-op-slack) of [email](workshops@fronteers.nl).
 
 Daarnaast zijn we nog op zoek naar enthousiaste leden die ons workshop-team willen versterken. We zijn op zoek naar front-enders die graag meedenken over de onderwerpen en ons willen ondersteunen met het organiseren van de workshops.

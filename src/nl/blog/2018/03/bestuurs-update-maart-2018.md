@@ -20,11 +20,11 @@ In januari stelden we ons als bestuur als doel om de vrijwilligerslijsten op de 
 
 ## Nieuwe commissies & nieuwe vrijwilligers
 
-Inmiddels hebben we contact gehad met alle vrijwilligers en zijn de [commissiepagina's op de website](https://fronteers.nl/vereniging/commissies) bijgewerkt. De commissie Online Community is samengevoegd met de commissie Marketing en de commissies Onderwijs en Webtoegankelijkheid zijn (tijdelijk) opgeheven.
+Inmiddels hebben we contact gehad met alle vrijwilligers en zijn de [commissiepagina's op de website](/nl/vereniging/commissies) bijgewerkt. De commissie Online Community is samengevoegd met de commissie Marketing en de commissies Onderwijs en Webtoegankelijkheid zijn (tijdelijk) opgeheven.
 Er zijn twee commissies bij gekomen: Toegankelijkheid (met Jules Ernst) en Vacatures (met Bernard Nijenhuis). Bernard viert dit jaar maar liefst zijn vijfjarig jubileum als de vrijwilliger die de vacaturebank voor ons onderhoudt! Bernards' inzet was tot nu toe vrij onzichtbaar, maar heeft nu een net plekje op de site. Heel erg bedankt Bernard.
 Daarnaast zijn we heel blij dat er drie nieuwe vrijwilligers bij gekomen als leden van de Congrescommissie: Niels Leenheer, Nienke Dekker en Tamara Forza!
 Dan nog een speciale shout-out naar de commissie België: uitgegroeid tot een bruisende commissie die met regelmaat meetups organiseert. Hier worden ook video-opnames van gemaakt; hou onze socials in de gaten, er zullen binnenkort filmpjes worden gelinkt.
-[Voor de commissies Activiteiten en Workshops zoeken we nieuwe vrijwilligers](https://fronteers.nl/vereniging/vrijwilligers).
+[Voor de commissies Activiteiten en Workshops zoeken we nieuwe vrijwilligers](/nl/vereniging/vrijwilligers).
 
 ## Kortingscodes
 

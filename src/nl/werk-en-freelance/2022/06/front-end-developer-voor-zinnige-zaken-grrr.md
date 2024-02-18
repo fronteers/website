@@ -7,7 +7,7 @@ backgroundcolor: skyblue
 summary: Kunnen programmeren is een groot goed in 2022. Maar hoe wil je deze skills inzetten? Wij gebruiken ze graag om de wereld schoner, eerlijker en inclusiever te maken. Als bureau met sterke idealen werken we soms aan kleine projecten met een korte looptijd, zoals Melkweg en Picl. Maar ook aan grote platforms als The Ocean Cleanup en Stedelijk Museum Amsterdam. Past dit ook bij jou? Dan hebben we een interessante baan voor je.
 ---
 
-![](https://fronteers.nl/_img/werkgevers/grrr-2.png)
+![](/_img/werkgevers/grrr-2.png)
 
 Kunnen programmeren is een groot goed in 2022. Maar hoe wil je deze skills inzetten? Wij gebruiken ze graag om de wereld schoner, eerlijker en inclusiever te maken. Als bureau met sterke idealen werken we soms aan kleine projecten met een korte looptijd, zoals Melkweg en Picl. Maar ook aan grote platforms als [The Ocean Cleanup](https://grrr.nl/projecten/the-ocean-cleanup-boyan-slat/) en [Stedelijk Museum Amsterdam](https://grrr.nl/projecten/stedelijk-museum/). Past dit ook bij jou? Dan hebben we een interessante baan voor je.
 

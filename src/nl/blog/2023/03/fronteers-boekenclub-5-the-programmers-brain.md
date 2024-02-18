@@ -8,7 +8,7 @@ categories:
 ---
 Bij de vijfde editie van de Fronteers Boekenclub lazen we [“The Programmer’s Brain” van Felienne Hermans](https://www.manning.com/books/the-programmers-brain).
 
-![Omslag The Programmer's Brain: What every programmer needs to know about cognition](https://fronteers.nl/_img/fbc5-the-programmers-brain-felienne-hermans-200w.png)
+![Omslag The Programmer's Brain: What every programmer needs to know about cognition](/_img/fbc5-the-programmers-brain-felienne-hermans-200w.png)
 
 “What every programmer needs to know about cognition”, zegt de ondertitel. Het is een beperkende titel, want het is een ontzettend interessant boek dat door heel veel meer mensen dan alleen programmeurs gelezen zou moeten worden.
 
@@ -78,7 +78,7 @@ Ik vrees dat ik al heel lang een programmeur ben, al ontken ik dat graag. Ik ben
 
 ## FBC6: dinsdag 11 april
 
-![Omslag van 'Weapons of Math Destruction' door Cathy O'Neill. Het ontwerp suggereert een explosie en je ziet een doodshoofd gevormd door nodes.](https://fronteers.nl/_img/fbc6-cathy-oneill-weapons-of-math-descruction-200w.png)
+![Omslag van 'Weapons of Math Destruction' door Cathy O'Neill. Het ontwerp suggereert een explosie en je ziet een doodshoofd gevormd door nodes.](/_img/fbc6-cathy-oneill-weapons-of-math-descruction-200w.png)
 
 Bij de zesde editie bespreken we '[Weapons Of Math Destruction](https://en.wikipedia.org/wiki/Weapons_of_Math_Destruction)' door Cathy O'Neill, een boek uit 2016. De omineuze ondertitel luidt: "How Big Data Increases Inequality and Threatens Democracy".
 

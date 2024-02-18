@@ -8,7 +8,8 @@ categories:
   - Ledenkorting
   - Vereniging
 ---
-Heb je nog geen kaartje voor [Fronteers Conference](/congres/2018)? En je bent ook nog geen lid van [Fronteers](https://fronteers.nl/vereniging)? Heb jij even geluk! Want als je nu lid wordt van Fronteers, krijg je niet alleen korting voor Fronteers Conference 2018, maar ook voor 2019!
+
+Heb je nog geen kaartje voor [Fronteers Conference](https://www.fronteers.nl/congres/2018)? En je bent ook nog geen lid van [Fronteers](/nl/vereniging)? Heb jij even geluk! Want als je nu lid wordt van Fronteers, krijg je niet alleen korting voor Fronteers Conference 2018, maar ook voor 2019!
 
 Wat moet je daarvoor doen? [Meld je aan als lid van Fronteers](/inschrijven) voor 2018 en 2019, dat is alles. Je betaalt € 108,90 en krijgt dan niet alleen korting voor Fronteers Conference, maar ook voor [workshops, vakgerelateerde boeken en online cursussen](/vereniging/ledenkorting).
 

@@ -36,7 +36,7 @@ In het meest ideale geval verlopen de stappen als volgt:
 
 Naast het bovenstaande heb ik als GUI Docker Desktop draaien, waar ik een visueel overzicht heb welke containers draaien. Daar kan ik eventueel ook een enkele container snel weggooien en herstarten indien nodig.
 
-![Het Docker Desktop overzichtsvenster. In het groen zijn de draaiende containers weergegeven met relevante info over versies en poorten erachter. In het grijs de containers die ook aanwezig zijn maar nu niet draaien. Het oranje label geeft overigens aan dat er één container is die nog niet op een versie draait die compatible is met de M1 MacBook.](https://fronteers.nl/_img/blog-anke-1.png)
+![Het Docker Desktop overzichtsvenster. In het groen zijn de draaiende containers weergegeven met relevante info over versies en poorten erachter. In het grijs de containers die ook aanwezig zijn maar nu niet draaien. Het oranje label geeft overigens aan dat er één container is die nog niet op een versie draait die compatible is met de M1 MacBook.](/_img/blog-anke-1.png)
 
 Het Docker Desktop overzichtsvenster. In het groen zijn de draaiende containers weergegeven met relevante info over versies en poorten erachter. In het grijs de containers die ook aanwezig zijn maar nu niet draaien. Het oranje label geeft overigens aan dat er één container is die nog niet op een versie draait die compatible is met de M1 MacBook.
 

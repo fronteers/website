@@ -98,7 +98,7 @@ Voor media types buiten de `vnd.` (vendor) en `prs.` (personal) boom — media t
 
 Dat laatste document voor het registreren van een media type is een RFC: een _request for comments_. Het is een publicatie van een technisch document dat als doel heeft een _nieuwe standaard_ te beschrijven of een _bestaande standaard_ aan te passen (waardoor er een nieuwe standaard ontstaat).
 
-![XKCD 927: Standards. Strip met drie panelen. Koptekst boven de panelen: "How standards proliferate (see: A/C chargers, character encodings, instant messaging, etc.)". Eerste paneel: "Situation: there are 14 competing standards". Tweede paneel: Er wordt gesproken: "14?! Ridiculous! We need to develop one universal standard that covers everyone's use cases.". De reactie hierop is: "Yeah!". Derde paneel: "Soon: Situation. There are 15 competing standards."](https://fronteers.nl/_img/adventskalender/image.png)
+![XKCD 927: Standards. Strip met drie panelen. Koptekst boven de panelen: "How standards proliferate (see: A/C chargers, character encodings, instant messaging, etc.)". Eerste paneel: "Situation: there are 14 competing standards". Tweede paneel: Er wordt gesproken: "14?! Ridiculous! We need to develop one universal standard that covers everyone's use cases.". De reactie hierop is: "Yeah!". Derde paneel: "Soon: Situation. There are 15 competing standards."](/_img/adventskalender/image.png)
 
 Het is veelal de Internet Engineering Task Force (IETF) die zich hiermee bezig houdt. Deze _task force_ die zal na dat een publicatie is beoordeeld door meerdere mensen, en commentaar is geleverd, er voor kunnen kiezen om een voorstel te publiceren als _internet standaard_.
 

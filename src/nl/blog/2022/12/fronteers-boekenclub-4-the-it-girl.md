@@ -9,7 +9,7 @@ categories:
 
 Op dinsdag 13 december bespraken we bij de vierde Fronteers Boekenclub het boek "[The IT Girl](https://chantalschinkels.nl/de-it-girl/)" van Chantal Schinkels.
 
-![](https://fronteers.nl/_img/fbc4-de-it-girl-chantal-schinkels-200w.png)
+![](/_img/fbc4-de-it-girl-chantal-schinkels-200w.png)
 
 De ondertitel van dit boek is ‘Hoe overleef je een door mannen gedomineerde werkvloer?’ Deze editie werd in ieder geval niet gedomineerd door mannen. We bespraken het boek met 7 vrouwen en 1 man (\*). Na het eerste uur schoof Chantal zelf ook nog aan, voor vragen.
 
@@ -72,7 +72,7 @@ _Paul: 3,5 sterren_. Qua onderwerp is dit een nuttig boek, omdat het een implici
 
 ## FBC5: dinsdag 28 februari
 
-![](https://fronteers.nl/_img/fbc5-the-programmers-brain-felienne-hermans-200w.png)
+![](/_img/fbc5-the-programmers-brain-felienne-hermans-200w.png)
 
 Voor de volgende keer nodigen we iedereen uit. Ook mannen, en zelfs vrouwen.
 [Meld je aan via meetup.com](https://www.meetup.com/fronteers-nl/events/290317895/).

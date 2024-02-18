@@ -16,4 +16,4 @@ De tofste manier om te groeien naar dit niveau is door het te leren van vakidiot
 
 ## Korting
 
-Fronteers-leden krijgen een korting van 10%. Wil je gebruik maken van deze korting, [neem dan even contact op](https://fronteers.nl/contact) met de ledenadministratie. Je kan je [inschrijven voor de masterclasses](http://www.lsgcareercenter.nl/trainingen/masterclass-frontend-development) op de site van LSG Career Center.
+Fronteers-leden krijgen een korting van 10%. Wil je gebruik maken van deze korting, [neem dan even contact op](/nl/vereniging/contact/) met de ledenadministratie. Je kan je [inschrijven voor de masterclasses](http://www.lsgcareercenter.nl/trainingen/masterclass-frontend-development) op de site van LSG Career Center.

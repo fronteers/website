@@ -16,7 +16,7 @@ De traditie met nieuwe mensen die zich kandidaat stelden werd inmiddels voortgez
 
 In de weken opvolgend aan de ALV is het oude en het nieuwe bestuur samengekomen om de nieuwe rollen te verdelen en de uitkomst is als volgt:
 
-_Wim van Iersel_ (banaan666) zet zijn rol als penningmeester voort nadat hij vorig jaar het stokje overnam van Sander Vink.Doordeweeks kun je Wim aan het werk vinden als webmaster/front-end developer voor Tilburg. Je kunt [Wim’s officiële introductie ook lezen op de Fronteers blog](https://fronteers.nl/blog/2022/11/nieuw-bestuurslid-wim-van-iersel).
+_Wim van Iersel_ (banaan666) zet zijn rol als penningmeester voort nadat hij vorig jaar het stokje overnam van Sander Vink.Doordeweeks kun je Wim aan het werk vinden als webmaster/front-end developer voor Tilburg. Je kunt [Wim’s officiële introductie ook lezen op de Fronteers blog](/nl/blog/2022/11/nieuw-bestuurslid-wim-van-iersel).
 
 _Christian Schaefer_ (schepp), roepnaam “Schepp”, assisteert onze secretaris met documentatie en communicatie. Schepp heeft een vrij lange geschiedenis als Fronteers-lid en is een van de weinige Duitse leden. Na een paar jaar vrijwilligerswerk te hebben gedaan voor de conferentie, werd hij in 2019 eindelijk lid van de conferentiecommissie. Sinds 2010 is hij mede-presentator van een wekelijkse Duitse podcast over frontend-ontwikkeling, die nu de 600 afleveringen nadert. Schepp is ook mede-organisator van twee meetups: de lokale Düsseldorfse meetup Webworker NRW (2014 - gepauzeerd sinds 2020) en het online-only CSS Café (sinds 2020).
 

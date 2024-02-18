@@ -16,7 +16,7 @@ Kom langs als je meer wilt weten over datavisualisatie en hoe je dit als front-e
 -   19:30 Jan Hoogeveen - Overcoming complexity and what that means for development
 -   20:15 borrel
 
-([Meer over de talks](https://fronteers.nl/bijeenkomsten/2016/clever-franke))
+([Meer over de talks](/nl/activiteiten/2016/clever-franke))
 
 ## Voor wie?
 

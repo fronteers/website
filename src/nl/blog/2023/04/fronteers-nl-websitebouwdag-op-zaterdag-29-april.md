@@ -8,7 +8,7 @@ categories:
 ---
 Op zaterdag 29 april gaan we weer in Utrecht verder samenwerken aan de nieuwe website van Fronteers. Iedereen die zin heeft om aan te haken is welkom. Ervaring met het werken aan de website is niet nodig, er lopen meerdere leden rond die je alles kunnen uitleggen.
 
-![](https://fronteers.nl/_img/bijeenkomsten/2023/seven-zaal.webp)
+![](/_img/bijeenkomsten/2023/seven-zaal.webp)
 
 Op zaterdag 25 maart gaan we in Utrecht verder samenwerken aan de nieuwe website van Fronteers. Iedereen die zin heeft om aan te haken is welkom. Ervaring met het werken aan de website is niet nodig, er lopen meerdere leden rond die je alles kunnen uitleggen.
 

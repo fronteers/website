@@ -17,7 +17,7 @@ Het programma is als volgt:
 -   20:00 Mobile Viewports - Peter-Paul Koch
 -   21:00 Borrel
 
-Dit evenement vindt plaats bij Incentro in Amsterdam. Lees meer op de [pagina van deze bijeenkomst](https://fronteers.nl/bijeenkomsten/2014/incentro).
+Dit evenement vindt plaats bij Incentro in Amsterdam. Lees meer op de [pagina van deze bijeenkomst](/nl/activiteiten/2014/incentro).
 
 ## Wie?
 

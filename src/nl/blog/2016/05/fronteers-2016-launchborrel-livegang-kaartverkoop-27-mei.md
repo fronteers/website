@@ -14,7 +14,7 @@ De kaartverkoop voor het Fronteerscongres 2016 start vrijdag 27 mei om 20:00 uur
 * Fronteers Conference 2016 Launchborrel
 * Vrijdag 27 mei, Café De Jaren, Amsterdam
 * Borrel 19:00u, livegang ticket sales 20:00u
-* RSVP via [het formulier](https://fronteers.nl/bijeenkomsten/2016/fronteers-2016-launchborrel)
+* RSVP via [het formulier](/nl/activiteiten/2016/fronteers-2016-launchborrel)
 
 ## Livegang
 
@@ -30,4 +30,4 @@ Nieuwe Doelenstraat 20-22
 
 ## RSVP
 
-[Meld je aan via het formulier](https://fronteers.nl/bijeenkomsten/2016/fronteers-2016-launchborrel) (let op: plaatsen zijn beperkt!) en kom met ons het glas heffen op Fronteers Conference 2016!
+[Meld je aan via het formulier](/nl/activiteiten/2016/fronteers-2016-launchborrel) (let op: plaatsen zijn beperkt!) en kom met ons het glas heffen op Fronteers Conference 2016!
