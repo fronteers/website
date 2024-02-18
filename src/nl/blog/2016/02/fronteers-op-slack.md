@@ -3,7 +3,7 @@ title: 'Fronteers op Slack'
 date: 2016-02-29
 author: Charis Rooda
 categories:
-    - Vereniging
+    - Organisation
 ---
 
 In 2008 is Fronteers begonnen met [een chatkanaal op IRC](/nl/blog/2008/03/fronteers-op-irc) waar nog steeds dagelijks actief over front-end development gediscussieerd wordt. De laatste twee jaar heeft [Slack](https://slack.com/is) als chatkanaal ook de nodige populariteit gewonnen. Niet zo vreemd, want het is erg gebruiksvriendelijk en makkelijk uit te breiden met andere webdiensten — misschien wel het belangrijkste is de animated GIF-integratie met Giphy.

@@ -3,7 +3,7 @@ title: 'Een bijzonder jaar'
 date: 2017-01-12
 author: Jaco Koster
 categories:
-    - Vereniging
+    - Organisation
 ---
 
 In oktober 2007 werd Fronteers opgericht na het oprichtingscongres, en het bestuur is trots op wat er allemaal tot nu toe gerealiseerd is. Sinds de laatste ALV heeft de vereniging niet stil gezeten. Er zijn een aantal mooie activiteiten die plaatsvinden in de komende maand. Het bestuur geeft hieronder enkele updates.

@@ -6,10 +6,10 @@ summary: We have brought life back to the organization!
 categories: 
   - Vereniging
 ---
-Donderdag 27 juli hebben we bij LE:EN in Utrecht met bestaande en nieuwe vrijwilligers gedineerd, en Fronteers besproken. Zoals in een eerder bericht besproken [zoeken we vrijwilligers](https://fronteers.nl/blog/2023/07/vrijwilligers-gezocht) om ons te helpen de vereniging nieuw leven in te blazen.
+On Thursday, July 27, we had dinner with existing and new volunteers at LE:EN in Utrecht and discussed Fronteers. As discussed in an earlier post, [we are looking for volunteers](https://fronteers.nl/blog/2023/07/volunteers-gezocht) to help us revive the association.
 
-Nou, dat is gelukt! Tussen de "Sprinkhaan Green Goddess"-zonder-Sprinkhaan en de Choco Pie gingen we de aanwezigen langs. We hebben nu weer (het begin van) een workshopcommissie, een voltallige onderwijscommissie en een voltallige marketing- en communicatiecommissie. Ook zijn er drie mogelijke gegadigden voor het bestuur die we de komende tijd kennis willen laten maken met die rol voor de ALV.
+Well, we did it! Between the "Grasshopper Green Goddess"-without-Grasshopper and the Choco Pie, we visited the attendees. We now have (the beginning of) a workshop committee, a full education committee and a full marketing and communications committee. There are also three possible candidates for the board who we would like to introduce to that role for the AGM in the near future.
 
-Verder telt Fronteers nog een actieve commissie in België en de congrescommissie (die zich momenteel beraadt op de toekomst van het Fronteerscongres), en incidentele vrijwilligers die hun expertise lenen bijvoorbeeld op het gebied van toegankelijkheid of helpen met de website. 
+Fronteers also has an active committee in Belgium and the conference committee (which is currently considering the future of the Fronteers Congress), and occasional volunteers who lend their expertise, for example in the field of accessibility or help with the website.
 
-Het zou het mooiste zijn om nog een drietal namen toe te voegen aan de [workshopcommissie](https://fronteers.nl/blog/2023/07/vrijwilligers-gezocht#:~:text=3%20mensen%20voor%20de%20workshopcommissie) en deze dan te combineren met de activiteitencommissie, zodat we weer een aantal leuke en leerzame workshops en bijeenkomsten kunnen organiseren! 
+It would be best to add three more names to the workshop committee and then combine this with the activities committee, so that we can again organize a number of fun and educational workshops and meetings!

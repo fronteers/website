@@ -3,7 +3,7 @@ title: 'Fronteers vrijwilligersuitje: technisch vernuft'
 date: 2012-09-10
 author: Isaac Andela
 categories:
-    - Vereniging
+    - Organisation
 ---
 
 Met de zeilen gestreken glijdt de De Hoge Wier door het water. De draaibrug wijkt. Fietsers en voetgangers staan stil en aanschouwen onze éémastklipper terwijl ze de Groote Zeesluis binnenloopt.
