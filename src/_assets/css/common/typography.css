@@ -76,6 +76,11 @@ a:focus {
   font-size: var(--font-size-14);
 }
 
+.tag-link--active .tag {
+  background-color: black;
+  color: white;
+}
+
 .tag-link:first-of-type .tag {
   margin-inline-start: 0;
 }
