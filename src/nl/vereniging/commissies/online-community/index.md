@@ -4,7 +4,6 @@ title: Commissie Online Community
 ---
 
 ## Doel
-
 Het doel van de online commissie is het informeren en enthousiasmeren van leden en niet-leden over front-end development, activiteiten en Fronteers.
 
 We communiceren via de volgende kanalen:
@@ -21,7 +20,7 @@ Op Twitter wordt Fronteers nieuws zoals bijeenkomsten, vacatures, interessante b
 
 Op [https://twitter.com/fronteersconf](https://twitter.com/fronteersconf) staat het nieuws over het Fronteers congres, dit account wordt beheerd door de congres commissie.
 
-Vacature plaatsen? Contact de Fronteers vacaturebank: [https://fronteers.nl/vacaturebank](https://fronteers.nl/vacaturebank)
+Vacature plaatsen? Contact [de Fronteers vacaturebank](/nl/werk-en-freelance/vacature-plaatsen/).
 
 ## Facebook
 
