@@ -32,4 +32,4 @@ Ten slotte vragen we dat alle deelnemers een eigen computer meebrengen. Toegang 
 
 ## Interesse?
 
-Laat deze kans niet liggen en [schrijf je snel in voor deze workshop](/workshops/terminally-chill-jan-moesen#formulier-1).
+Laat deze kans niet liggen en [schrijf je snel in voor deze workshop](/workshops/terminally-chill-jan-moesen).

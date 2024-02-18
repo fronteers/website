@@ -11,4 +11,4 @@ Exacte gegevens volgen binnenkort, maar de datum staat vast, dus die kan vast in
 
 Op de inhoud komen we nog terug, maar de hoofdmoot van de avond wordt gevormd door een terugkoppeling van de commissies die binnen Fronteers opereren, de bestuursverkiezing, en het bespreken van de begroting en nieuwe beleidsvoorstellen.
 
-Heb je nu al vragen of voorstellen, reageer dan via het blog of [neem contact op met bestuur](/contact#formulier-1).
+Heb je nu al vragen of voorstellen, reageer dan via het blog of [neem contact op met bestuur](/nl/vereniging/contact/).

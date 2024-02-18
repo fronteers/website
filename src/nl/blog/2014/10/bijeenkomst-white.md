@@ -22,4 +22,4 @@ Dit evenement vindt plaats bij internetbureau WHITE in Valkenswaard. [Er is een 
 
 ## Voor wie?
 
-Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2014/white#formulier-1) Vol is vol!
+Zoals gebruikelijk is de bijeenkomst gratis bij te wonen voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2014/white). Vol is vol!

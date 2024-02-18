@@ -30,4 +30,4 @@ Voor eind november staat jQuery Inception, een workshop voor beginnende jQuery c
 
 Roy Tomeij trapt het nieuwe jaar af op 18 januari met de workshop [Screw CSS!](/workshops/screw-css-roy-tomeij) Ook deze workshop zat snel vol maar we hebben Roy gevraagd of hij tijd heeft hem later in het jaar nog een keer te geven. Dat wil hij, maar er is nog geen nieuwe datum geprikt.
 
-Tot slot hebben we voor eind januari een internationale trainer bereid gevonden een workshop te verzorgen. Zodra de planning hiervan definitief is, wordt deze workshop aangekondigd. Houdt daarom en voor alle andere workshop aankondigingen [@fronteers](https://twitter.com/fronteers) en Hou [het overzicht van actuele activiteiten](/nl/activiteiten) in de gaten is in de gaten of schrijf je [onderaan](/workshops#per-mail) die pagina in om updates via e-mail te ontvangen.
+Tot slot hebben we voor eind januari een internationale trainer bereid gevonden een workshop te verzorgen. Zodra de planning hiervan definitief is, wordt deze workshop aangekondigd. 

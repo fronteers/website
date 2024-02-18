@@ -26,4 +26,4 @@ Namahn is gevestigd aan de Grensstraat 21 te 1210 Brussel. Er is een plannetje b
 
 ## Kom jij ook?
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 45 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2011/namahn#formulier-1) Vol is vol!
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 45 mannen en vrouwen. 

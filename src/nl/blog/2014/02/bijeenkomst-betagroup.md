@@ -17,4 +17,4 @@ Het programma is als volgt:
 
 ## Waar?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 80 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier](/bijeenkomsten/2014/betagroup#formulier-1). Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 80 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier](/bijeenkomsten/2014/betagroup). Vol is vol!

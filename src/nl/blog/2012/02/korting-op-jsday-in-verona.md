@@ -9,4 +9,4 @@ En weer een leuk voordeeltje voor Fronteers-leden die JavaScript een mooie taal 
 
 Dit tweedaags congres, 16 en 17 mei aanstaande, richt zich exclusief op JavaScript. Het programma voor dit jaar is nog niet bekend, maar [dat van vorig jaar](http://www.jsday.it/2011/schedule) ziet er goed uit. En voor de prijs hoef je het niet te laten: €175, en dat is nog exclusief de Fronteers-korting.
 
-Wil je gebruik maken van deze korting, neem dan even [contact](/contact) op met de ledenadministratie. Zoals gebruikelijk geldt de korting uitsluitend voor diegenen die op dit moment lid zijn.
+Wil je gebruik maken van deze korting, neem dan even [contact](/nl/vereniging/contact/) op met de ledenadministratie. Zoals gebruikelijk geldt de korting uitsluitend voor diegenen die op dit moment lid zijn.

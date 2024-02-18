@@ -26,5 +26,5 @@ Naast de presentaties is er dit jaar een ook een aantal technische sessies:
 
 Meer informatie: [www.ncdt.nl](http://www.ncdt.nl)
 
-Er zijn tien kortingscodes beschikbaar. Wie het eerst komt, het eerst maalt. Neem [contact](/contact) op, en we sturen de code zo spoedig mogelijk naar je op. Zoals gebruikelijk, geldt deze korting alleen voor leden dit op dit moment al lid zijn.
+Er zijn tien kortingscodes beschikbaar. Wie het eerst komt, het eerst maalt. Neem [contact](/nl/vereniging/contact/) op, en we sturen de code zo spoedig mogelijk naar je op. Zoals gebruikelijk, geldt deze korting alleen voor leden dit op dit moment al lid zijn.
 Voor early birds (1e 50 inschrijvers) geldt dubbele korting: dan kun je deelnemen voor € 174,30.

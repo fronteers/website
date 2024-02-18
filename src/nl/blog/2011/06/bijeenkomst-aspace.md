@@ -21,4 +21,4 @@ ASPACE is gevestigd aan de Helmstraat 139 te 2140 Antwerpen. Er is een plannetje
 
 ## Kom jij ook?
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa <strike>25</strike> **35** mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2011/aspace#formulier-1) Vol is vol!
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa <strike>25</strike> **35** mannen en vrouwen. 

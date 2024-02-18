@@ -21,4 +21,4 @@ Netlog NV is gevestigd aan het Emile Braunplein 18, 9000 Gent. Er is een plannet
 
 ## Kom jij ook?
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2010/netlog#formulier-1) Vol is vol!
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. 

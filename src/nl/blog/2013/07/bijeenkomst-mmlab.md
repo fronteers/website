@@ -21,4 +21,4 @@ Dit evenement vindt plaats bij MMLab te Gent. [Er is een plannetje beschikbaar o
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 60 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2013/mmlab#formulier-1) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 60 mannen en vrouwen. 

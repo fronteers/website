@@ -24,4 +24,4 @@ Tijdens deze sessie kijken we onder de motorkap van het internet en zoomen we in
 
 eFocus is gevestigd aan de Cruquiusweg 109e, 1019 AG Amsterdam. [Plan hier je route](http://www.efocus.nl/contact/route/amsterdam.aspx). Kom bij voorkeur met openbaar vervoer want het aantal parkeerplaatsen is beperkt. Kijk op [9292.nl](http://9292.nl/), pak de fiets of ga eventueel carpoolen.
 
-Zoals gebruikelijk is iedereen welkom, zowel leden, als niet-leden. Er is ruimte voor 50 deelnemers. Wel is gewenst dat je doorgeeft dat je komt, via het [formulier op de bijeenkomstpagina](/bijeenkomsten/2013/efocus#formulier-1).
+Zoals gebruikelijk is iedereen welkom, zowel leden, als niet-leden. Er is ruimte voor 50 deelnemers. Wel is gewenst dat je doorgeeft dat je komt, via het [formulier op de bijeenkomstpagina](/bijeenkomsten/2013/efocus).

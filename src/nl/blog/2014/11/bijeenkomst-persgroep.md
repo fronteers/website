@@ -20,4 +20,4 @@ Dit evenement vindt plaats bij De Persgroep Publishing te Asse (Kobbegem). [Er i
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 60 mannen en vrouwen. [Meld je daarom aan via het formulier.](/bijeenkomsten/2014/persgroep) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 60 mannen en vrouwen.  Vol is vol!

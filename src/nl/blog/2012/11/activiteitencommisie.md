@@ -18,4 +18,4 @@ Voornaamste taken die maandelijks, of zelfs vaker, gedaan moeten worden, zijn:
 * Het kopen van flesjes wijn voor de sprekers en het gastbedrijf;
 * Op de bijeenkomsten optreden als host.
 
-Daarnaast is er genoeg ruimte om op de mailinglijst ideeën voor sprekers, typen bijeenkomsten en activiteiten en andere toffe dingen te bediscussiëren. Dus heb je zin om een van de bovenstaande taken op te pakken, schroom dan niet een (korte) introductie en motivatie te sturen via [het contactformulier](/contact).
+Daarnaast is er genoeg ruimte om op de mailinglijst ideeën voor sprekers, typen bijeenkomsten en activiteiten en andere toffe dingen te bediscussiëren. Dus heb je zin om een van de bovenstaande taken op te pakken, schroom dan niet een (korte) introductie en motivatie te sturen via [het contactformulier](/nl/vereniging/contact/).

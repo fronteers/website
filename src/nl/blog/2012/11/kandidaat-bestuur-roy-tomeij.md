@@ -6,7 +6,7 @@ categories:
     - Vereniging
 ---
 
-Over twee weken vindt de [jaarlijkse ALV](/blog/2012/10/kom-naar-de-algemene-ledenvergadering-2012) van Fronteers plaats (je kunt je nog [aanmelden](/vereniging/bestuur#formulier-1)). Een van de onderdelen tijdens de ALV is de bestuursverkiezing. Dit jaar zijn er vier kandidaten voor het nieuwe bestuur, twee zittende bestuursleden en twee nieuwe leden. In de komende dagen stellen zij zich alle vier aan je voor. Vandaag:
+Over twee weken vindt de [jaarlijkse ALV](/blog/2012/10/kom-naar-de-algemene-ledenvergadering-2012) van Fronteers plaats. Een van de onderdelen tijdens de ALV is de bestuursverkiezing. Dit jaar zijn er vier kandidaten voor het nieuwe bestuur, twee zittende bestuursleden en twee nieuwe leden. In de komende dagen stellen zij zich alle vier aan je voor. Vandaag:
 
 ## Roy Tomeij
 

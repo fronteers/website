@@ -13,4 +13,4 @@ Screw CSS leert je alles over het installeren en gebruiken van een CSS preproces
 
 Beide cursussen worden gegeven bij Seats2meet, en kosten 200 euro per cursus voor niet-leden. De prijs voor leden is de helft: 100 euro. Beide bedragen zijn exclusief 21% btw. Een cursus duurt de hele dag, en koffie, thee en lunch zijn inbegrepen.
 
-Er zijn momenteel voorbereidingen voor enkele van de andere cursussen. Heb je interesse in een cursus die een vorige keer vol zat, of heb je ideeën voor een nieuwe cursus, laat dan een reactie achter hieronder of via [het formulier](/contact).
+Er zijn momenteel voorbereidingen voor enkele van de andere cursussen. Heb je interesse in een cursus die een vorige keer vol zat, of heb je ideeën voor een nieuwe cursus, laat dan een reactie achter hieronder of via [het formulier](/nl/vereniging/contact/).

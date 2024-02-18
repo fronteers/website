@@ -20,4 +20,4 @@ Dit evenement vindt plaats bij Wijs te Gent. [Er is een plannetje beschikbaar op
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Meld je daarom aan via het formulier.](/bijeenkomsten/2014/wijs) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen.  Vol is vol!

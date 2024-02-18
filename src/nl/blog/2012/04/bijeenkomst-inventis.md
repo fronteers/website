@@ -21,4 +21,4 @@ Inventis is gevestigd aan de Weg naar Zwartberg 85 te 3530 Houthalen-Helchteren 
 
 ## Kom jij ook?
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 40 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2012/inventis#formulier-1) Vol is vol!
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 40 mannen en vrouwen. 

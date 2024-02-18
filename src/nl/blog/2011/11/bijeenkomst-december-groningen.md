@@ -26,4 +26,4 @@ Versiebeheer, bah. Iedereen moet er wat mee, en niemand heeft er zin in. Toch mo
 
 ## Bereikbaarheid en opgave
 
-MediaCT is gevestigd aan Zuiderpark 22, 9724 AH Groningen, circa vijf minuten lopen vanaf station Groningen. Er is ruimte om te parkeren in de buurt. Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden van Fronteers. Wel is gewenst dat je jezelf opgeeft via het [formulier op de bijeenkomstpagina](/bijeenkomsten/2011/mediact#formulier-1).
+MediaCT is gevestigd aan Zuiderpark 22, 9724 AH Groningen, circa vijf minuten lopen vanaf station Groningen. Er is ruimte om te parkeren in de buurt. Zoals gebruikelijk is deze bijeenkomst gratis bij te wonen door zowel leden als niet-leden van Fronteers.

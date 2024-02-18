@@ -29,4 +29,4 @@ De rol van de user experience designer is niet altijd even duidelijk. Bij 'desig
 
 Mangrove ligt op een steenworp afstand van station Rotterdam Centraal, aan de Delftsestraat 33. Er staat een [korte routebeschrijving](http://www.mangrove.nl/index.php?pageID=6) op de website van Mangrove.
 
-De bijeenkomst is gratis toegankelijk voor zowel leden als niet-leden. Het is wenselijk dat je je even opgeeft, dan weet de organisatie hoeveel personen er komen. Opgave kan door het [aanmeldformulier](/bijeenkomsten/2010/mangrove#formulier-1) in te vullen.
+De bijeenkomst is gratis toegankelijk voor zowel leden als niet-leden. Het is wenselijk dat je je even opgeeft, dan weet de organisatie hoeveel personen er komen. 

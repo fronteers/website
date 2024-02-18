@@ -11,4 +11,4 @@ Sprekers zijn dit jaar Seb Lee-Delisle, Aaron Gustafson, Nishant Kothary, Marta 
 
 Een kaartje kost normaal € 99,- (als je een EU btw-nummer hebt); na de 30% korting slechts € 69,30. De korting geldt niet voor de workshops op 19 september.
 
-Wil je gebruik maken van deze korting, [neem dan even contact op](/contact) met de ledenadministratie. Zoals gebruikelijk geldt de korting uitsluitend voor diegenen die op dit moment lid zijn.
+Wil je gebruik maken van deze korting, [neem dan even contact op](/nl/vereniging/contact/) met de ledenadministratie. Zoals gebruikelijk geldt de korting uitsluitend voor diegenen die op dit moment lid zijn.

@@ -33,13 +33,13 @@ For Fronteers workshops, the following applies:
 
 ## More information for trainers
 
-Fronteers does not have trainers on its payroll. As an association, we are entirely dependent on those available within our own ranks. If you are interested in giving a training, you can let us know by filling out the [form below](#form-1). We would like to know how much experience you have in giving training, which training you would like to give, and at what level you could provide the training.
+Fronteers does not have trainers on its payroll. As an association, we are entirely dependent on those available within our own ranks. If you are interested in giving a training, you can let us know by [contacting the board](mailto:bestuur@fronteers.nl). We would like to know how much experience you have in giving training, which training you would like to give, and at what level you could provide the training.
 
 ### Fine print
 
 For giving a course under the Fronteers banner, the following applies:
 
--   Fronteers announces the workshop in advance on fronteers.nl in the overview of [current workshops](/workshops).
+-   Fronteers announces the workshop in advance on fronteers.nl.
 -   Fronteers provides workshop space (usually) in Utrecht, with lunch included.
 -   Workshops are conducted under the Fronteers banner, but trainers may promote their own business to a limited extent. However, a workshop under the Fronteers banner is not a day of advertising.
 -   If a trainer requires software, the trainer must distribute or make the software available themselves.

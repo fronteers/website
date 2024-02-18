@@ -21,4 +21,4 @@ Dit evenement vindt plaats in het J-blok van de Technologiecampus van KaHo St-Li
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 70 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2013/kahosl) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 70 mannen en vrouwen. 

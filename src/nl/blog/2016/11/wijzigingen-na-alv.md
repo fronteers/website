@@ -55,4 +55,4 @@ Bij de eerstvolgende bestuursvergadering zal de rolverdeling voor 2017 worden va
 
 [De ALV](/vereniging/alv) is het hoogste orgaan binnen de vereniging, waar opdrachten aan het bestuur kunnen worden gegeven, en plannen van het bestuur kunnen worden aangepast. Een voorstel wordt zoals [beschreven in de statuten](/vereniging/geschiedenis/statuten) aangenomen wanneer een meerderheid (50% + 1 stem) voor het voorstel is. Het bestuur hoopt dat alle leden, ook die tegen hebben gestemd, zich neer leggen bij de democratisch genomen beslissing van de ALV, of op een constructieve wijze binnen de kaders van de statuten, actie ondernemen.
 
-Het bestuur roept een ieder op alle zorgen, opmerkingen of vragen naar aanleiding van het bovenstaande te [delen met het bestuur](/contact), zodat deze meegenomen kunnen worden in de verdere besluitvorming.
+Het bestuur roept een ieder op alle zorgen, opmerkingen of vragen naar aanleiding van het bovenstaande te [delen met het bestuur](/nl/vereniging/contact/), zodat deze meegenomen kunnen worden in de verdere besluitvorming.

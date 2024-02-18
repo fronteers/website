@@ -12,4 +12,4 @@ Startup Weekend Utrecht vindt plaats in de Hogeschool van Utrecht. Voor eten, dr
 Heb je een tof idee, wil je mee helpen ontwikkelen of ontwerpen? Samen vorm je een team en ontwikkel je in 54 uur je eigen startup.
 
 Als Fronteerslid krijg je 25 euro korting op de ticketprijs van 75 euro. 
-Om gebruik te maken van de korting, kun je [contact opnemen met de ledenadministratie](/contact). De korting geldt, zoals gebruikelijk, alleen voor leden die bij aankondiging van deze actie al lid waren.
+Om gebruik te maken van de korting, kun je [contact opnemen met de ledenadministratie](/nl/vereniging/contact/). De korting geldt, zoals gebruikelijk, alleen voor leden die bij aankondiging van deze actie al lid waren.

@@ -9,4 +9,4 @@ Donderdag 11 oktober organiseert Stichting Accessibility een korte training ['Ap
 
 Julian Harty (UK) is een expert op het gebied van testen en verbeteren van mobiele apps en webapplicaties. Hij spreekt over de hele wereld over het verbeteren van mobiele applicaties en internettoepassingen door slimme inzet van tools. In de lezing 'Apps & Accessibility', zal hij onder meer ingaan op het testen van de toegankelijkheid van mobiele applicaties. Let op: deze lezing is in het Engels.
 
-Om gebruik te maken van de korting, kun je [contact opnemen met de ledenadministratie](/contact). De korting geldt, zoals gebruikelijk, alleen voor leden die bij aankondiging van deze actie al lid waren.
+Om gebruik te maken van de korting, kun je [contact opnemen met de ledenadministratie](/nl/vereniging/contact/). De korting geldt, zoals gebruikelijk, alleen voor leden die bij aankondiging van deze actie al lid waren.

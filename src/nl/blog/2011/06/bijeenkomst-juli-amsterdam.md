@@ -18,4 +18,3 @@ Op dinsdagavond 5 juli is Fronteers te gast bij [eFocus](http://efocus.nl) te Am
 
 eFocus is gevestigd aan Cruquiusweg 109e, 1019 AG Amsterdam.
 
-Aanmelden kan via het [formulier op deze pagina](/bijeenkomsten/2011/efocus#formulier-1). Zoals gezegd is er plek voor slechts 40 personen. Vol is vol, en wie het eerst komt die het eerst maalt.

@@ -20,4 +20,4 @@ Dit evenement vindt plaats bij Ordina te Mechelen. [Er is een plannetje beschikb
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 60 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2014/ordina#formulier-1) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 60 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2014/ordina). Vol is vol!

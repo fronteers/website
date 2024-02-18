@@ -15,4 +15,4 @@ De congreslocatie is Antropia, Driebergen.
 
 Meer informatie: [www.ncdt.nl](http://www.ncdt.nl)
 
-Mocht je gebruik willen maken van deze korting, neem dan even contact op met de [ledenadministratie](/nl/vereniging/contact/?Ledadministratie#formulier-1). Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.
+Mocht je gebruik willen maken van deze korting, neem dan even contact op met het [bestuur](/nl/vereniging/contact/). Zoals gebruikelijk geldt deze actie alleen voor leden die op dit moment al lid zijn.

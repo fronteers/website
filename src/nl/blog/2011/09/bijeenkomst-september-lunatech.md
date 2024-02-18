@@ -24,4 +24,4 @@ Jeroen Wijering is de ontwikkelaar achter de succesvolle JW Player, die wordt ge
 
 Lunatech Research is gevestigd aan Heemraadssingel 70, 3021 DD Rotterdam. Er is een [plattegrond beschikbaar op hun website](http://www.lunatech-research.nl/contact).
 
-Zoals gebruikelijk is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden van Fronteers. Wel is het gewenst dat je jezelf opgeeft via het [formulier op de bijeenkomstpagina](/bijeenkomsten/2011/lunatech-research#formulier-1).
+Zoals gebruikelijk is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden van Fronteers. Wel is het gewenst dat je jezelf opgeeft via het [formulier op de bijeenkomstpagina](/bijeenkomsten/2011/lunatech-research).

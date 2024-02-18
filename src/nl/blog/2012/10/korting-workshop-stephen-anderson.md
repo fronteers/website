@@ -13,4 +13,4 @@ Stephen Anderson is een bekende spreker in de design wereld. Hij was twee jaar g
 
 Nu is hij terug met een nieuwe focus, “[The Quest for Emotional Engagement](http://qfee.nl/)”, waarin hij zoekt naar andere manieren om als UI designer mensen voorbij standaardpatronen als lijsten, grids en tables te laten denken.
 
-Q42 en Fabrique sponsoren de workshop, die plaatsvindt in de Westerliefde op het Westergasterrein in Amsterdam. Kom je ook? Leden van Fronteers krijgen 25% korting! Neem even [contact op met de ledenadministratie](/contact) om je kortingscode te ontvangen.
+Q42 en Fabrique sponsoren de workshop, die plaatsvindt in de Westerliefde op het Westergasterrein in Amsterdam. Kom je ook? Leden van Fronteers krijgen 25% korting! Neem even [contact op met de ledenadministratie](/nl/vereniging/contact/) om je kortingscode te ontvangen.

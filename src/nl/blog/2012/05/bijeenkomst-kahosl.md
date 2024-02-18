@@ -21,4 +21,4 @@ Dit evenement vindt plaats in het J-blok van de Technologiecampus van KaHo St-Li
 
 ## Kom jij ook?
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 70 mannen en vrouwen. [Geef je daarom op via het aanmeldformulier.](/bijeenkomsten/2012/kahosl#formulier-1) Vol is vol!
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden. Er is echter beperkt plaats, voor circa 70 mannen en vrouwen. 

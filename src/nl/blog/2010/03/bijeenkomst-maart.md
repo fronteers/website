@@ -35,4 +35,4 @@ Gespreksleider Michiel zal aan het einde van de bijeenkomst de mening peilen ove
 
 Appoint is gevestigd aan de Silodam 402, 1013 AW, Amsterdam.
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden, maar is het wenselijk dat je je even opgeeft, zodat de organisatie weet hoeveel personen er komen. Opgave kan door [het formulier](/bijeenkomsten/planning/#formulier-1) in te vullen.
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden, maar is het wenselijk dat je je even opgeeft, zodat de organisatie weet hoeveel personen er komen. 

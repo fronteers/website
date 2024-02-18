@@ -31,6 +31,6 @@ SETUP is hét centrum voor technologie en nieuwe media in Utrecht. Bij SETUP wor
 
 SETUP is gevestigd op de Neude in Utrecht, boven het gebouw van ABN-AMRO (dat op dit moment wordt verbouwd).
 
-De bijeenkomst is gratis toegankelijk voor zowel leden als niet-leden. Het is wenselijk dat je je even opgeeft, dan weet de organisatie hoeveel personen er komen. Opgave kan door [het aanmeldformulier](/bijeenkomsten/2010/setup#formulier-1) in te vullen.
+De bijeenkomst is gratis toegankelijk voor zowel leden als niet-leden. Het is wenselijk dat je je even opgeeft, dan weet de organisatie hoeveel personen er komen. 
 
 Tot op 14 juni!

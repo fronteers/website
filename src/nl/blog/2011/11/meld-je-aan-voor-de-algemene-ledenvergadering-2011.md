@@ -23,9 +23,9 @@ De agenda is als volgt:
 
 De commissievoorzitters (of hun vervangers) geven een korte toelichting op het gedane werk in het afgelopen jaar en ontvouwen hun toekomstplannen voor 2012. Natuurlijk staan zij ook open voor vragen. Verder treden (in lijn met de statuten) drie bestuursleden af: Peter-Paul Koch, Krijn Hoetmer en Sander van Lambalgen. Zij zijn allen herkiesbaar.
 
-Het bestuur nodigt alle leden nadrukkelijk uit om vragen, ideeën of voorstellen in te dienen. De vereniging is van iedereen, en de koers bepalen we met zijn allen. Alles wat je kwijt wilt kun je melden via het [contactformulier](/contact). Duik eens in de [notulen](/vereniging/bestuur/notulen) voor inspiratie.
+Het bestuur nodigt alle leden nadrukkelijk uit om vragen, ideeën of voorstellen in te dienen. De vereniging is van iedereen, en de koers bepalen we met zijn allen. Alles wat je kwijt wilt kun je melden via het [contactformulier](/nl/vereniging/contact/). Duik eens in de [notulen](/vereniging/bestuur/notulen) voor inspiratie.
 
-[Meld je zo gauw mogelijk aan voor de ALV](/vereniging/bestuur#formulier-1), zodat wij ons enigzins een beeld kunnen vormen van de verwachte toeloop. Je komst is niet voor niks. Ten eerste bepaal je mede de koers van Fronteers in 2012, ten tweede scoor je die exclusieve Fronteersgadget die niemand anders heeft (onder voorbehoud). Samen reizen met iemand? Neem even contact op met de ledenadministratie en we koppelen jullie aan elkaar.
+[Meld je zo gauw mogelijk aan voor de ALV](/vereniging/bestuur), zodat wij ons enigzins een beeld kunnen vormen van de verwachte toeloop. Je komst is niet voor niks. Ten eerste bepaal je mede de koers van Fronteers in 2012, ten tweede scoor je die exclusieve Fronteersgadget die niemand anders heeft (onder voorbehoud). Samen reizen met iemand? Neem even contact op met de ledenadministratie en we koppelen jullie aan elkaar.
 
 Na afloop van de vergadering kunnen we op de 11e verdieping (met een indrukwekkend uitzicht over Amsterdam) tot 22.30 uur een biertje (en meer!) drinken.
 

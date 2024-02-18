@@ -19,6 +19,6 @@ Fronteers 2012 normale prijzen (exclusief 19% BTW)
 Fronteersleden: €275
 Niet-leden: €350
 
-Fronteersleden krijgen in de komende dagen een mailtje met daarin hun kortingscode. Korting voor leden geldt alleen voor mensen die voor of op 5 april 2012 lid zijn geworden. Studenten kunnen gebruik maken van de studentenkorting door [contact](/contact) met ons op te nemen. Kaarten zijn te bestellen via [Paydro](https://fronteers.paydro.net/).
+Fronteersleden krijgen in de komende dagen een mailtje met daarin hun kortingscode. Korting voor leden geldt alleen voor mensen die voor of op 5 april 2012 lid zijn geworden. Studenten kunnen gebruik maken van de studentenkorting door [contact](/nl/vereniging/contact/) met ons op te nemen. Kaarten zijn te bestellen via [Paydro](https://fronteers.paydro.net/).
 
 ![[Bestel nu je kaartje voor Fronteers 2012](http://fronteers.paydro.net/)](/_img/congres/2012/graphics/buttons/buy.png)

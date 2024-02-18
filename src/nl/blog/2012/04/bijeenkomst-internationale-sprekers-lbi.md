@@ -41,6 +41,6 @@ LBi Netherlands is goed bereikbaar met de auto en het openbaar vervoer. We raden
 
 ## Aanmelden
 
-Zoals gebruikelijk is de bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via [het formulier op de bijeenkomstpagina](/bijeenkomsten/2012/lbi#formulier-1). Er is plek voor maximaal 150 deelnemers; dus: die het eerst komt, het eerst maalt. De bijeenkomst is gratis en is voor iedereen, dus ook niet leden.
+Zoals gebruikelijk is de bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je jezelf opgeeft via [het formulier op de bijeenkomstpagina](/bijeenkomsten/2012/lbi). Er is plek voor maximaal 150 deelnemers; dus: die het eerst komt, het eerst maalt. De bijeenkomst is gratis en is voor iedereen, dus ook niet leden.
 
 Wanneer je toch niet kunt komen, verzoeken wij je af te melden via e-mail, zodat er weer plek is voor iemand anders.

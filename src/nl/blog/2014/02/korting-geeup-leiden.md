@@ -11,4 +11,4 @@ ExpressionEngine is een content management systeem dat onze kostbare HTML helema
 
 Een kaartje kost normaal gesproken € 125,- ex. btw, maar met de Fronteers-korting kun je er al heen voor € 85,50. De korting geldt niet voor de workshops op 19 juni.
 
-Wil je gebruik maken van deze korting, [neem dan contact op](/contact) met de ledenadministratie. Zoals gebruikelijk geldt de korting uitsluitend voor diegenen die op dit moment lid zijn.
+Wil je gebruik maken van deze korting, [neem dan contact op](/nl/vereniging/contact/) met de ledenadministratie. Zoals gebruikelijk geldt de korting uitsluitend voor diegenen die op dit moment lid zijn.

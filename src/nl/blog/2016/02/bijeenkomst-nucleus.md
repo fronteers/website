@@ -20,4 +20,4 @@ Dit evenement vindt plaats bij Nucleus te Antwerpen. [Er is een plannetje beschi
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen. [Meld je daarom aan via het formulier.](/bijeenkomsten/2016/nucleus#formulier-1) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 50 mannen en vrouwen.  Vol is vol!

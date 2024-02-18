@@ -29,4 +29,4 @@ Op 19 mei zal Fronteers te gast zijn bij [E-sites](http://www.e-sites.nl) in Bre
 
 E-sites is gevestigd aan de Reduitlaan 33, 4814 DC te Breda. Een [routebeschrijving](http://www.e-sites.nl/over/1595-routebeschrijving.html) is te vinden op de website van E-sites.
 
-Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden, maar is het wenselijk dat je je even opgeeft, zodat de organisatie weet hoeveel personen er komen. Opgave kan door [het aanmeldformulier](/bijeenkomsten/2010/e-sites#formulier-1) in te vullen.
+Zoals altijd is deze bijeenkomst gratis toegankelijk voor zowel leden als niet-leden, maar is het wenselijk dat je je even opgeeft, zodat de organisatie weet hoeveel personen er komen. 

@@ -21,4 +21,4 @@ Dit evenement vindt plaats bij Incentro in Amsterdam. Lees meer op de [pagina va
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 30 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2014/incentro#formulier-1). Vol is vol, er wordt wel een oplossing gezocht als er veel aanmeldingen zijn.
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 30 mannen en vrouwen. [Meld je daarom aan via het aanmeldformulier.](/bijeenkomsten/2014/incentro). Vol is vol, er wordt wel een oplossing gezocht als er veel aanmeldingen zijn.

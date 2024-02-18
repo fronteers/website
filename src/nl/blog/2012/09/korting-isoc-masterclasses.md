@@ -11,4 +11,4 @@ Op 13 September spreekt Bert Bos over CSS3, een dag later op 14 september gevolg
 
 Fronteers leden krijgen een korting van 20% op de toch al lage toegangsprijs van de masterclasses. Deze varieert van €100 tot €150. Toegangskaarten koop je net als voor het Fronteers congres bij [Paydro](https://masterclasses_2012.paydro.net/).
 
-Wil je gebruik maken van de ledenkorting? Neem [contact op met de ledenadministratie](/contact#formulier-1).
+Wil je gebruik maken van de ledenkorting? Neem [contact op met de ledenadministratie](/nl/vereniging/contact/).

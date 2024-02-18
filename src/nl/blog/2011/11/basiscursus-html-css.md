@@ -11,6 +11,6 @@ Deze workshop is bedoeld voor mensen die al werken met HTML en CSS en basiskenni
 
 Ben jij een ervaren front-end developer, maar ken jij mensen in je omgeving voor wie deze basiscursus raadzaam zou zijn? Schroom niet hem of haar op deze nieuwe Fronteerscursus te attenderen.
 
-Voor de fans van statistieken: dit jaar hebben we in totaal [11 workshops](/workshops) verzorgd, met 10 verschillende docenten. Hopelijk gaan we een paar van deze weer terug laten komen, maar als commissie zijn wel al ruim tevreden met het resultaat van dit jaar; we hadden zelf het idee om 4 tot 6 workshops te verzorgen.
+Voor de fans van statistieken: dit jaar hebben we in totaal [11 workshops](/nl/activiteiten) verzorgd, met 10 verschillende docenten. Hopelijk gaan we een paar van deze weer terug laten komen, maar als commissie zijn wel al ruim tevreden met het resultaat van dit jaar; we hadden zelf het idee om 4 tot 6 workshops te verzorgen.
 
-In december zullen we even geen workshops aanbieden, maar vanaf januari gaan we weer aan de bak. Wil je automatisch van de workshops op de hoogte gehouden worden? Meld je dan aan voor [updates via RSS](http://feeds.feedburner.com/FronteersWorkshops) of [in je mailbox](/workshops#per-mail).
+In december zullen we even geen workshops aanbieden, maar vanaf januari gaan we weer aan de bak. 

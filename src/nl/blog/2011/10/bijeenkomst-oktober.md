@@ -25,4 +25,4 @@ CSS Selectors, de stille kracht achter elke stylesheet. Met de komst van CSS Sel
 
 Albumprinter is gevestigd aan Stationsplein 53 - 57, 1012 AB Amsterdam.
 
-Zoals gebruikelijk is deze bijeenkomst gratis toegankelijk voor zowel ledfen als niet-leden van Fronteers. Wel is gewenst dat je jezelf opgeeft via het [formulier op de bijeenkomstpagina](/bijeenkomsten/2011/albumprinter#formulier-1).
+Zoals gebruikelijk is deze bijeenkomst gratis toegankelijk voor zowel ledfen als niet-leden van Fronteers. Wel is gewenst dat je jezelf opgeeft via het [formulier op de bijeenkomstpagina](/bijeenkomsten/2011/albumprinter).

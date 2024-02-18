@@ -20,4 +20,4 @@ Dit evenement vindt plaats bij iDA Mediafoundry te Mechelen. [Er is een plannetj
 
 ## Wie?
 
-Iedereen is welkom. Er is echter beperkt plaats, voor circa 80 vrouwen en mannen. [Meld je daarom aan via het formulier.](/bijeenkomsten/2016/ida-mediafoundry#formulier-1) Vol is vol!
+Iedereen is welkom. Er is echter beperkt plaats, voor circa 80 vrouwen en mannen.  Vol is vol!

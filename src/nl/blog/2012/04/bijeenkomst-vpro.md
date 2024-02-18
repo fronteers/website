@@ -22,4 +22,4 @@ De VPRO is gevestigd op het Mediapark in Hilversum, naast treinstation Hilversum
 
 ## Aanmelden
 
-Zoals gebruikelijk is de bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je je aanmeldt via [het formulier op de bijeenkomstpagina](/bijeenkomsten/2012/vpro#formulier-1).
+Zoals gebruikelijk is de bijeenkomst gratis bij te wonen door zowel leden als niet-leden. Wel is gewenst dat je je aanmeldt via [het formulier op de bijeenkomstpagina](/bijeenkomsten/2012/vpro).
