@@ -1,31 +1,35 @@
-<nav data-partial="activities/loop-{{ type }}-categories" class="categories category-filters" aria-label="category filters">
-    {%- include partials/utility/dynamic-headerlevel level: "h3" title: translations[locale].categories -%}
-    
-    {% assign collectionKey = "_categories_" | prepend: type | append: locale %}
-    {% assign tagClasses = "tag-link tag-link--large " %}
-    {% assign activeClass = "tag-link--active" %}
-    {% assign mainPath = typeURL | prepend: "/" | append: "/" %}
+{% assign collectionKey = "_categories_" | prepend: type | append: locale %}
+{% assign tagClasses = "tag-link tag-link--large " %}
+{% assign activeClass = "tag-link--active" %}
+{% assign mainPath = typeURL | prepend: "/" | append: "/" %}
 
-    <ul role="list" class="category-list">
-        {% comment %} Add tag that shows all categories {% endcomment %}
-        <li>
-            <a href="{{ mainPath }}" 
-                class="{{ tagClasses }} {%- if page.url == mainPath -%}{{ activeClass }} {%- endif -%}"
-                {%- if page.url == mainPath -%} aria-current="true" {%- endif -%}>
-            {% assign label = translations[locale].allCategories %}
-            {%- tag label -%}
-            </a>
-        </li>
-        {% comment %} Loop through each category in the collection {% endcomment %}
-        {%- for category in collections[collectionKey] -%}
-            {% assign subPath = mainPath | append: translations[locale].category | append: "/" | append: category.slug | append: "/" %}
+{%- assign numberOfCategoryTags = collections[collectionKey] | map: 'category' | count -%}
+
+{%- if numberOfCategoryTags >= 1 -%}
+    <nav data-partial="activities/loop-{{ type }}-categories" class="categories category-filters" aria-label="category filters">
+        {%- include partials/utility/dynamic-headerlevel level: "h3" title: translations[locale].categories -%}
+        
+        <ul role="list" class="category-list">
+            {% comment %} Add tag that shows all categories {% endcomment %}
             <li>
-                <a href="{{ subPath}}" 
-                    class="{{ tagClasses }} {%- if page.url == subPath -%}{{ activeClass }} {%- endif -%}"
-                    {%- if page.url == subPath -%} aria-current="true" {%- endif -%}>
-                    {%- tag category.title -%}
+                <a href="{{ mainPath }}" 
+                    class="{{ tagClasses }} {%- if page.url == mainPath -%}{{ activeClass }} {%- endif -%}"
+                    {%- if page.url == mainPath -%} aria-current="true" {%- endif -%}>
+                    {% assign label = translations[locale].allCategories %}
+                {%- tag label -%}
                 </a>
             </li>
-        {%- endfor -%}
-    </ul>
-</nav>
+            {% comment %} Loop through each category in the collection {% endcomment %}
+            {%- for category in collections[collectionKey] -%}
+                {% assign subPath = mainPath | append: translations[locale].category | append: "/" | append: category.slug | append: "/" %}
+                <li>
+                    <a href="{{ subPath}}" 
+                        class="{{ tagClasses }} {%- if page.url == subPath -%}{{ activeClass }} {%- endif -%}"
+                        {%- if page.url == subPath -%} aria-current="true" {%- endif -%}>
+                        {%- tag category.title -%}
+                    </a>
+                </li>
+            {%- endfor -%}
+        </ul>
+    </nav>
+{%- endif -%}
