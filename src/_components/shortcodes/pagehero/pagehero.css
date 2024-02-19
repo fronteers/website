@@ -75,8 +75,8 @@
 .hero-content {
   background-color: var(--red);
   margin-block-start: 0;
-  padding: var(--spacing);
-  padding-block-end: 0;
+  padding-block-start: var(--spacing);
+  padding-inline: var(--spacing);
   hyphens: none;
 }
 
@@ -101,6 +101,7 @@
 .hero--activities .hero-graphic::after,
 .hero--activities .hero-content {
   background-color: var(--lilac);
+  padding-block-start: calc(2 * var(--spacing));
 }
 
 .hero--blog .hero-graphic::after,
@@ -131,16 +132,19 @@
     outline: 0;
 }
 
+.hero--activities .hero-content h2 a:hover,
+.hero--blog .hero-content h2 a:focus,
 .hero--activities .hero-content h2 a:hover .nextup-title,
-.hero--activities .hero-content > a:hover,
 .hero--activities .hero-content h2 a:focus .nextup-title,
-.hero--activities .hero-content > a:focus,
 .hero--blog .hero-content h2 a:hover .blog-title,
-.hero--blog .hero-content > a:hover,
 .hero--blog .hero-content h2 a:focus .blog-title,
+.hero--activities .hero-content > a:hover,
+.hero--activities .hero-content > a:focus,
+.hero--blog .hero-content > a:hover,
 .hero--blog .hero-content > a:focus {
-    color: white;
-    padding-inline: 0.7rem;
+    padding-inline: 0;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .hero--activities .hero-content .nextup-title,
@@ -281,7 +285,7 @@
 
     .hero--activities .hero-content,
     .hero--blog .hero-content {
-        padding: 0;
+        padding-inline: 0;
     }
 
     .hero--activities .hero-graphic,

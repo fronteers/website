@@ -13,12 +13,11 @@
 
     {% comment %} Save html in variable nextUpTitle to use on line 38 {% endcomment %}
     {% capture nextUpTitle %}
-        <h2>
-            <a href="{{ activity.url }}">
-                <span class="sup-title">{% if eventHasHappened %}{{ translations[locale].lastEvent }}{% else %}{{ translations[locale].nextEvent }}{% endif %}
-                </span><span class="nextup-title">{{ activity.data.title }}</span>
-            </a>
-        </h2>
+        <a href="{{ activity.url }}">
+            <span class="sup-title">{% if eventHasHappened %}{{ translations[locale].lastEvent }}{% else %}{{ translations[locale].nextEvent }}{% endif %}
+            </span>
+            <span class="nextup-title">{{ activity.data.title }}</span>
+        </a>
     {% endcapture %}
 
     {% capture nextUp %}<div class="nextup-time-and-location-wrapper">
