@@ -7,8 +7,7 @@ backgroundcolor: skyblue
 summary: 'Ben jij een gemotiveerde, creatieve WordPress developer die niets liever wil dan de allerbeste, snelste, mooiste maatwerk WordPress websites bouwen? Dan komen we graag met je in contact.'
 graphic:
     src: company-logos/stuurlui.png
-    alt: 'Del'
-draft: true
+    alt: 'Stuurlui'
 ---
 
 ![[Stuurlui](https://stuurlui.nl/)](/assets/company-logos/stuurlui.png)
