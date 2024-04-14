@@ -5,6 +5,10 @@ layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Are you passionate about crafting creative and user-friendly solutions for clients' challenges? Do you want to combine your creative design talent and technical skills in one job? Easy LMS is looking for a front-end developer with design skills to make a user-friendly interface for our learning management system that is used by more than 2,000 clients worldwide. Join us on our mission to bring effective and accessible e-learning to employees around the world ?!
+graphic:
+    src: company-logos/easy-lms.png
+    alt: 'Easy LMS'
+    class:    
 draft: true
 ---
 
