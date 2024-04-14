@@ -5,6 +5,7 @@ layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Kunnen programmeren is een groot goed in 2022. Maar hoe wil je deze skills inzetten? Wij gebruiken ze graag om de wereld schoner, eerlijker en inclusiever te maken. Als bureau met sterke idealen werken we soms aan kleine projecten met een korte looptijd, zoals Melkweg en Picl. Maar ook aan grote platforms als The Ocean Cleanup en Stedelijk Museum Amsterdam. Past dit ook bij jou? Dan hebben we een interessante baan voor je.
+draft: true
 ---
 
 ![](/_img/werkgevers/grrr-2.png)
