@@ -9,8 +9,8 @@ categories:
     - Javascript
     - Front-end engineer
 graphic:
-    src: /assets/company-logos/deli-home.svg
-    alt: ''
+    src: company-logos/deli-home.svg
+    alt: 'Del'
     class:
 key: job-deli-home-eibergen
 draft: true
