@@ -5,6 +5,9 @@ layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary:
+graphic:
+    src: company-logos/reversed-digital.png
+    alt: 'Reversed Digital'
 ---
 
 ![[Reversed Digital](https://reverseddigital.com/)](/_img/werkgevers/reversed-digital.png)

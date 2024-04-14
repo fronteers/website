@@ -6,11 +6,12 @@ author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Als Front-end Developer bij de Nederlandse Algemene Keuringsdienst (NAK) ben je verantwoordelijk voor het bouwen aan de webapplicaties en mobiele apps van de NAK.
 graphic:
-    src: jobs/nak.png
-    alt: ''
+    src: company-logos/nak.png
+    alt: 'NAK'
+draft: true    
 ---
 
-![[NAK](https://www.nak.nl/)](/_img/werkgevers/nak.png)
+![[NAK](https://www.nak.nl/)](/assets/company-logos/nak.png)
 
 NAK Emmeloord is op zoek naar een _Front-end Developer_
 

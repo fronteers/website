@@ -5,6 +5,7 @@ layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Kickstart your career and unlock your full potential as Frontend Developer
+draft: true
 ---
 
 ![[VI Company](https://www.vicompany.nl/)](/_img/werkgevers/vi-company-3.png)
