@@ -17,6 +17,8 @@ key: job-template
 draft: true
 ---
 
+![[Company Name](https://companywebsite.tld/)](/_img/werkgevers/company-logo.png)
+
 Template for job offers 
 
 ## Headings
