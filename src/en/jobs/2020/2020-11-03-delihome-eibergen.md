@@ -12,7 +12,7 @@ graphic:
     src: /assets/company-logos/deli-home.svg
     alt: ''
     class:
-
+draft: true
 key: job-deli-home-eibergen
 ---
 
