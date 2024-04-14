@@ -10,8 +10,8 @@ categories:
     - Javascript
     - Front-end engineer
 graphic:
-    src: /assets/company-logos/deli-home.svg
-    alt: ''
+    src: company-logos/deli-home.svg
+    alt: 'Deli Home'
     class:    
 key: job-template
 draft: true
