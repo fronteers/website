@@ -1,6 +1,7 @@
 ---
 layout: jobs-single.liquid
-title: Offline job listing
+title: Joblisting Template
+summary: 'Fronteers is searching for you!'
 date: 2024-04-14
 backgroundcolor: var(--lilac)
 categories:
