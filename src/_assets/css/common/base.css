@@ -58,3 +58,11 @@ img, picture {
   display: block;
   max-width: 100%;
 }
+
+.pre-formatted {
+  white-space: preserve
+}
+
+.pre-formatted p {
+  margin: 0;
+}

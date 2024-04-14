@@ -3,7 +3,8 @@ key: contact
 title: Contact
 ---
 
-<section style="white-space: preserve">
+<section class="pre-formatted">
+
 Fronteers
 's-Gravesandelaan 20
 1222 SZ Hilversum
