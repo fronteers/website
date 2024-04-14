@@ -11,7 +11,7 @@ graphic:
 draft: true    
 ---
 
-![[NAK](https://www.nak.nl/)](/_img/werkgevers/nak.png)
+![[NAK](https://www.nak.nl/)](/assets/company-logos/nak.png)
 
 NAK Emmeloord is op zoek naar een _Front-end Developer_
 
