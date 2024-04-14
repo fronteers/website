@@ -7,5 +7,7 @@
     "size": 1,
     "alias": "category"
   },
-  "key": "activities-{{ category.slug }}"
+  "eleventyComputed": {
+    "key": "activities-{{ category.slug }}"
+  }
 }

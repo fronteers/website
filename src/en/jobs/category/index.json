@@ -7,5 +7,7 @@
     "size": 1,
     "alias": "category"
   },
-  "key": "jobs-{{ category.slug }}"
+  "eleventyComputed": {
+    "key": "jobs-{{ category.slug }}"
+  }
 }
