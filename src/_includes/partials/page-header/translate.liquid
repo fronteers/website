@@ -21,6 +21,7 @@
                     <a
                         class='c-lggnav__link navigation-link'
                         aria-current='page'
+                        hreflang="{{ lgg.code }}"
                         href='{%- if translatedUrl -%}{{ translatedUrl }}{%- else -%}/{{ lgg.code }}/{%- endif -%}'
                     >
                         <span class='visually-hidden'>{{ lgg.currentLabel }} </span>
