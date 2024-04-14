@@ -10,7 +10,7 @@ categories:
     - UX Developer
 graphic:
     src: company-logos/eagerly-internet-logo.png
-    alt: ''
+    alt: 'Eagerly'
     class:
 ---
 
