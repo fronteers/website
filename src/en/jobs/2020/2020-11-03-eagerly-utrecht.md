@@ -9,11 +9,12 @@ categories:
     - Medior
     - UX Developer
 graphic:
-    src: /assets/company-logos/eagerly-internet-logo.png
+    src: company-logos/eagerly-internet-logo.png
     alt: ''
     class:
-draft: true
 ---
+
+![[Eagerly](https://eagerly.nl/)](/assets/company-logos/eagerly-internet-logo.png)
 
 Ter versterking van ons team van 15 specialisten zoeken we een ambitieuze medior frontend developer, die met ons mooie en innovatieve websites wil ontwikkelen voor onze opdrachtgevers (zoals TivoliVredenburg, Nederlands Film Festival, Staatsbosbeheer, KNVB, MBO Utrecht en Anne Frank Stichting). Als frontend developer werk je direct samen met onze UI/UX designer(s) en andere developers om snelle en in het oog springende websites te realiseren.
 
