@@ -288,41 +288,41 @@ module.exports = {
   footer: {
     nl: [
       {
-        url: "/nl/footer/contact/",
+        url: "/nl/informatie/contact/",
         title: "Contact",
       },
       {
-        url: "/nl/footer/nieuwsbrief/",
+        url: "/nl/informatie/nieuwsbrief/",
         title: "Nieuwsbrief",
       },
       {
-        url: "/nl/footer/privacy-en-cookies/",
+        url: "/nl/informatie/privacy-en-cookies/",
         title: "Privacy &amp; cookie statement",
       },
       {
-        url: "/nl/footer/colofon/",
+        url: "/nl/informatie/colofon/",
         title: "Colofon",
       },
       // {
-      //     url: "/nl/footer/adverteren/",
+      //     url: "/nl/informatie/adverteren/",
       //     title: "Adverteren",
       // },
     ],
     en: [
       {
-        url: "/en/footer/contact/",
+        url: "/en/information/contact/",
         title: "Contact",
       },
       {
-        url: "/en/footer/newsletter/",
+        url: "/en/information/newsletter/",
         title: "Newsletter",
       },
       {
-        url: "/en/footer/privacy-and-cookies/",
+        url: "/en/information/privacy-and-cookies/",
         title: "Privacy &amp; cookie statement",
       },
       {
-        url: "/en/footer/colophon/",
+        url: "/en/information/colophon/",
         title: "Colophon",
       },
       // {
