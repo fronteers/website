@@ -11,13 +11,13 @@ categories:
     - Front-end engineer
 graphic:
     src: company-logos/deli-home.svg
-    alt: 'Deli Home'
+    alt: 'Company name'
     class:    
 key: job-template
 draft: true
 ---
 
-![[Company Name](https://companywebsite.tld/)](/_img/werkgevers/company-logo.png)
+![[Company Name](https://companywebsite.tld/)](/assets/company-logo/company-logo.png)
 
 Template for job offers 
 
