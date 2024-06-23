@@ -1,0 +1,36 @@
+name: Format members-list.json
+on: pull_request
+jobs:
+  format:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 20
+
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.ref }}
+    
+    - name: 'Format members-list.json'
+      run: npx prettier@latest -w src/_data/members-list.json
+      
+    - name: 'Commit formatted code'
+      run: |
+        # Check if there is nothing to commit (i.e. no formatting changes made)
+        if [ -z "$(git status --porcelain)" ]; then
+          echo "Code is already formatted correctly"
+          exit 0
+        fi
+
+        # Setup the git user (required to commit anything)
+        git config --global user.email "1964376+SleeplessByte@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+
+        # Commit the changes made by prettier
+        git add .
+        git commit -m "[CI] Format members-list.json"
+        git push
