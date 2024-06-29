@@ -4,6 +4,10 @@
     font-weight: bold;
 }
 
+.page-navigation h2 {
+    text-transform: none;
+}
+
 .page-navigation .navigation-list {
     list-style-type: none;
     margin: 0;
