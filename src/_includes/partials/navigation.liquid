@@ -33,7 +33,7 @@
                     <li class='navigation-list navigation-list-item--sublevel'>
                         <a
                             href='{{ subitem.url }}'
-                            {%- if subitemUrl == page.url -%}
+                            {%- if subitem.url == page.url -%}
                                 aria-current='page'
                             {%- endif -%}
                         >

@@ -70,6 +70,10 @@ a[aria-current='page'] {
     background-size: 50% auto;
 }
 
+.navigation-list--sublevel a[aria-current='page'] {
+    text-decoration: underline;
+}
+
 .navigation-list--sublevel :is(a:hover, a:active, a:focus):before {
     background-image: url(/assets/images/chevron-right-yellow.svg);
 }
