@@ -50,6 +50,13 @@
   z-index: 10;
 }
 
+#load-on-javascript button:hover,
+#load-on-javascript button:focus {
+    outline: 1px solid white;
+    outline-offset: 5px;
+    line-height: 1;
+}
+
 #navigation-toggle .navigation-close-icon,
 .navigation-opened #navigation-toggle .navigation-open-icon {
   display: none;
