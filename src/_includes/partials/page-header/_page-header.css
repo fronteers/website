@@ -8,6 +8,13 @@
   max-width: var(--outer-width);
   position: relative;
   margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 40px;
+  grid-template-rows: max-content;
+  grid-template-areas:
+    "logo        navigation"
+    "join-us search-and-translate";
 }
 
 @media all and (min-width: 46.875em) {
@@ -23,6 +30,14 @@
 
 .page-header-join-us {
   grid-area: join-us;
+  align-items: center;
+  display: flex;
+}
+
+@media all and (min-width: 46.875em) {
+  .page-header-join-us {
+      display: block;
+  }
 }
 
 .page-header-logo {
