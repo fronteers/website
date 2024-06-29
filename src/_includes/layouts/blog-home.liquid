@@ -61,7 +61,7 @@
 
             <ul class="desktop-rows mobile-slider">
                 {%- for post in paginated_posts limit:pagination.size | reverse -%}
-                    <li class="list-item mobile-slider-item">
+                    <li class="list-item ">
                         {%- include partials/blogpost headerlvl:"h3" index:forloop.index  -%}
                     </li>
                 {%- endfor -%}

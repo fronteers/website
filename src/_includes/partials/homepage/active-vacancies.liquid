@@ -2,7 +2,7 @@
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
     <ul class="desktop-rows mobile-slider">
         {%- for job in jobs limit: 2 -%}
-            <li class="list-item mobile-slider-item">
+            <li class="list-item ">
                 {%- include partials/job headerlvl: "h3" index: forloop.index -%}
             </li>
         {%- endfor -%}
