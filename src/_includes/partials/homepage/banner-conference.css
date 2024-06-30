@@ -1,11 +1,14 @@
 .no-padding {
-  padding: 0;
+  padding-inline: 0;
 }
 
 .banner-conference {
   display: flex;
   place-content: center;
   flex-wrap: wrap;
+  aspect-ratio: 5 / 2;
+  margin-inline: var(--spacing);
+  width: auto;
 }
 
 .banner-conference::after {
@@ -30,13 +33,4 @@
 .banner-conference:hover svg path,
 .banner-conference:focus svg path {
   fill: white;
-}
-
-@media all and (max-width: 46.874em) {
-  .banner-conference {
-    -webkit-clip-path: none;
-    clip-path: none;
-    padding: var(--spacing) 6%;
-    min-height: 30vh;
-  }
 }

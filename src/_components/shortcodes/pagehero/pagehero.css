@@ -7,10 +7,6 @@
   max-width: 100%;
 }
 
-.hero-wrapper {
-    margin-block-end: calc(var(--spacing) * 4);
-}
-
 .hero {
   position: relative;
   inline-size: 100%;
