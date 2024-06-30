@@ -3,6 +3,7 @@
   margin-inline-start: auto;
   padding-block-start: var(--spacing-half);
   padding-block-end: var(--spacing-half);
+  padding-inline-end: var(--spacing);
   text-align: right;
   z-index: 20;
 }
@@ -11,9 +12,9 @@
   text-transform: uppercase;
 }
 
-.navigation-opened .page-header-translate {
+/* .navigation-opened .page-header-translate {
   top: -44px;
-}
+} */
 
 .page-header-translate ul {
   list-style-type: none;
@@ -28,6 +29,10 @@
 
 .page-header-translate li:first-child::after {
   content: "|";
+}
+
+.page-header-translate li:last-child a {
+    padding-inline-end: 0;
 }
 
 .page-header-translate .navigation-link:not([aria-current]) {

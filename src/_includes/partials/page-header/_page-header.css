@@ -50,7 +50,7 @@
 }
 
 .page-header-translate {
-  grid-area: translate;
+  grid-area: search-and-translate;
 }
 
 .page-navigation--header {
