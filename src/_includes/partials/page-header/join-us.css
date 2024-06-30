@@ -16,25 +16,30 @@
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  padding: var(--spacing) 0 0 0;
 }
 
-.join-us-link div {
-  inline-size: 100%;
-  block-size: 0;
-  padding-block-end: 16.8%;
-  display: block;
-  background-color: var(--red);
-  background-size: cover;
-  -webkit-clip-path: url(#parenthesis-down-tiny);
-  clip-path: url(#parenthesis-down-tiny);
-}
+@media all and (min-width: 46.875em) {
+  .join-us-link a {
+    padding: var(--spacing) 0 0 0;
+  }
 
-.join-us-link a:hover,
-.join-us-link a:focus,
-.join-us-link a:hover + div,
-.join-us-link a:focus + div {
-  background-color: var(--purple-wcag-darker);
-  color: white;
-  text-decoration: none;
+  .join-us-link div {
+    inline-size: 100%;
+    block-size: 0;
+    padding-block-end: 16.8%;
+    display: block;
+    background-color: var(--red);
+    background-size: cover;
+    -webkit-clip-path: url(#parenthesis-down-tiny);
+    clip-path: url(#parenthesis-down-tiny);
+  }
+
+  .join-us-link a:hover,
+  .join-us-link a:focus,
+  .join-us-link a:hover + div,
+  .join-us-link a:focus + div {
+    background-color: var(--purple-wcag-darker);
+    color: white;
+    text-decoration: none;
+  }
 }

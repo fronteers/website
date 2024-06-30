@@ -4,6 +4,10 @@
     font-weight: bold;
 }
 
+.page-navigation h2 {
+    text-transform: none;
+}
+
 .page-navigation .navigation-list {
     list-style-type: none;
     margin: 0;
@@ -64,6 +68,10 @@ a[aria-current='page'] {
     background: url(/assets/images/chevron-right-lilac.svg) no-repeat center
         center;
     background-size: 50% auto;
+}
+
+.navigation-list--sublevel a[aria-current='page'] {
+    text-decoration: underline;
 }
 
 .navigation-list--sublevel :is(a:hover, a:active, a:focus):before {

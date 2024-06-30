@@ -41,7 +41,7 @@
     <div class="activity-footer">
         <a
             href="{{ activity.url }}"
-            class="button"
-            aria-hidden="true">{{ anchorlbl }}</a>
+            class="button">{{ anchorlbl }}<span class="visibility-hidden"> {{ translations[locale].for }} {{ activity.data.title }}</span>
+        </a>
     </div>
 </div>

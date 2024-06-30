@@ -9,9 +9,9 @@
 
             {%- include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" -%}
 
-            <ul class="desktop-columns mobile-slider">
+            <ul class="desktop-columns">
                 {%- for member in pagination.items limit:pagination.size -%}
-                    <li class="list-item mobile-slider-item">
+                    <li class="list-item">
                         {%- include partials/member index:forloop.index -%}
                     </li>
                 {%- endfor -%}
