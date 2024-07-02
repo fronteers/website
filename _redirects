@@ -6,6 +6,7 @@
 
 # localized page.
 
+/nl/ / 301
 /blog /nl/blog:splat 302
 /bijeenkomsten/_ /nl/activiteiten:splat 302
 /congres/_ /nl/congres 302
