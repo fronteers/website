@@ -68,13 +68,13 @@ main section > .h {
 
 .page-content {
     padding: var(--spacing);
-    margin-block: var(--spacing);
+    margin-inline: auto;
+    margin-block-start: calc(var(--spacing) * 2);
+    margin-block-end: calc(var(--spacing) * 4);
     font-size: 1.125rem;
     line-height: 1.5;
     max-width: 72ch;
-    margin: 0 auto;
     background-color: white;
-    margin-block-end: calc(var(--spacing) * 4);
 }
 
 .page-content:has(.visually-hidden:only-child) {
