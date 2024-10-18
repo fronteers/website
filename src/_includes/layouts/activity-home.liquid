@@ -25,14 +25,22 @@
                 {{ activity.data.eventdate | displayDate: locale }}
             </time> -
 
-            {%- if activity.data.location -%}
-                <span class="nextup-location">
-                    {{ activity.data.location }}
-                </span>
+            {% if eventHasHappened %}
+                {%- if activity.data.location -%}
+                    <span class="nextup-location">
+                        {{ activity.data.location }}
+                    </span>
+                {%- endif -%}
             {%- else -%}
-                <span class="nextup-location">
-                    {{ translations[locale].locationUnknown }}
-                </span>
+                {%- if activity.data.location -%}
+                    <span class="nextup-location">
+                        {{ activity.data.location }}
+                    </span>
+                {%- else -%}
+                    <span class="nextup-location">
+                        {{ translations[locale].locationUnknown }}
+                    </span>
+                {%- endif -%}
             {%- endif -%}
         </div>
 
