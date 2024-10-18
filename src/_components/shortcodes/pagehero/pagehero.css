@@ -110,6 +110,7 @@
 .hero-content a:focus {
     background-color: transparent;
     text-decoration: underline;
+    color: currentColor;
 }
 
 .hero--single-blog .hero-graphic::after,
