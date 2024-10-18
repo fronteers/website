@@ -36,7 +36,7 @@
 }
 
 .page-header-translate .navigation-link:not([aria-current]) {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--yellow);
   font-size: var(--font-size-20);
   font-weight: bold;
