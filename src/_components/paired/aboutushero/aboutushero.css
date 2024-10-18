@@ -9,11 +9,18 @@
 }
 
 .about-us-hero svg {
-  width: 100%;
-  left: 0;
-  top: -20rem;
-  z-index: 1;
-  position: absolute;
+  display: none;
+}
+
+@media all and (min-width: 46.875em) {
+  .about-us-hero svg {
+    display: block;
+    width: 100%;
+    left: 0;
+    top: -20rem;
+    z-index: 1;
+    position: absolute;
+  }
 }
 
 .about-us-hero-graphic::after {
@@ -31,7 +38,13 @@
 .about-us-hero-content {
   background-color: var(--red);
   margin-block-start: 0;
-  padding: 16rem var(--spacing) var(--spacing);
+  padding: var(--spacing);
+}
+
+@media all and (min-width: 46.875em) {
+  .about-us-hero-content {
+    padding: 16rem var(--spacing) var(--spacing);
+  }
 }
 
 .about-us-hero-content h2 {

@@ -37,7 +37,7 @@ HTML5 Apps maken het mogelijk om de goede dingen van mobieltjes, zoals de GPS on
 
 De basis voor een HTML5 App zijn HTML, CSS en JavaScript bestanden, ondersteund met een config.xml bestand (waar de naam etc in staan) en een icoon. Deze bestanden plaats je in een .zip bestand, en die hernoem je naar een .wgt. Dan ben je klaar. Dit werkt op de meeste moderne browsers, behalve de iPhone.
 
-Dit probleem wordt opgelost door projecten zoals [PhoneGap](http://www.phonegap.com/), die de krachten van de diverse mobiele telefoons bundelen.
+Dit probleem wordt opgelost door projecten zoals PhoneGap, die de krachten van de diverse mobiele telefoons bundelen.
 
 ## Aanwezigen
 

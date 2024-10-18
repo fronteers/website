@@ -1,6 +1,6 @@
 <div data-partial='page-footer' class='page-footer-wrapper'>
     <footer class='page-footer'>
-        <h2 class='visually-hidden'>Social media</h2>
+        <h2 class='visually-hidden'>{{ translations[locale].socialMedia.title }}</h2>
         <ul class='desktop-columns'>
             <li>
                 <div class='social-media-header'>
@@ -54,7 +54,7 @@
         </ul>
 
         {%- if locale == 'nl' -%}
-            {%- include partials/navigation nav_location: "footer" nav_description: "Footer navigation" nav_selection: navigation.footer.nl -%}
+            {%- include partials/navigation nav_location: "footer" nav_description: "Footer links" nav_selection: navigation.footer.nl -%}
         {%- elsif locale == 'en' -%}
             {%- include partials/navigation nav_location: "footer" nav_description: "Footer navigation" nav_selection: navigation.footer.en -%}
         {%- endif -%}

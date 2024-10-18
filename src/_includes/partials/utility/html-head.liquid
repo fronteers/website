@@ -68,7 +68,8 @@
             font-display: swap;
         }
     </style>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    {% capture random %}{{ "now" | date: "%Y%m%d%H%M%S" }}{% endcapture %}
+    <link rel="stylesheet" href="/assets/css/style.css?v={{ random }}">
 
     <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">

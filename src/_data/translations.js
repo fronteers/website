@@ -37,6 +37,7 @@ module.exports = {
           jobsPath: '/en/jobs/',
         },
         socialMedia: {
+            title: "Social media",
             slackTitle: "Slack",
             slackText: `The Fronteers community is highly active on Slack. <a href="https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog">Sign up to the Fronteers Slack</a> and join the conversation about everything related to front-end development.`,
             linkedinTitle: "LinkedIn",
@@ -110,6 +111,7 @@ module.exports = {
           jobsPath: '/nl/werk-en-freelance/',
         },
         socialMedia: {
+            title: "Sociale media",
             slackTitle: "Slack",
             slackText: `Fronteers heeft een actieve community op Slack. <a href="https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog">Meld je aan voor onze Slack</a> en praat mee over allerlei zaken rond frontend development.`,
             linkedinTitle: "LinkedIn",

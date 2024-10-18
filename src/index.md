@@ -3,9 +3,8 @@ layout: home.liquid
 locale: nl
 key: home
 permalink: "/"
-title: Welcome to Fronteers!
+title: Welkom bij Fronteers!
 ---
+Wij verenigen front-end developers sinds 2007! 
 
-We unite front-end developers - And we do it with pride.
-
-<a href="/en/join-us/" class="button button-parentheses">Learn more <span class="visually-hidden">about Fronteers</span></a>
+<a href="/nl/word-lid/" class="button button-parentheses">Word lid <span class="visually-hidden">van Fronteers</span></a>

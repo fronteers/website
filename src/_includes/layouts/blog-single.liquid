@@ -7,9 +7,15 @@
 {%- endfor -%}
 
 {% capture blogMeta %}
-    <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
-        {{ date | displayDate: locale  | date: "%d.%m.%y" }}
-    </time>
+    {%- if locale == "nl" -%}
+        <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
+            {{ date | localizedDate: 'nl' }}
+        </time>
+    {%- elsif locale == "en" -%}
+        <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
+            {{ date | displayDate: locale | date: "%B %e %Y" }}
+        </time>
+    {%- endif -%}
 
     {%- if authorHasAProfilePage -%}
         <a href="{{ member.url }}" class="blog-author">{{ author }}</a>

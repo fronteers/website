@@ -2,9 +2,15 @@
     <div class="activity-header">
         <div class="activity-header-content">
             {%- include partials/utility/dynamic-headerlevel level: headerlvl title: activity.data.title link: activity.url -%}
-            <time class="activity-time" datetime="{{ activity.date | date: "%Y-%m-%d" }}">
-                {{ activity.data.eventdate | displayDate: locale }}
-            </time>
+            {%- if locale == "nl" -%}
+                <time class="activity-time" datetime="{{ activity.date.eventdate | date: "%Y-%m-%d" }}">
+                    {{ activity.data.eventdate  | localizedDate: 'nl' }}
+                </time>
+            {%- elsif locale == "en" -%}
+                <time class="activity-time" datetime="{{ activity.date.eventdate | date: "%Y-%m-%d" }}">
+                    {{ activity.data.eventdate  | displayDate: locale | date: "%B %e %Y" }}
+                </time>
+            {%- endif -%}
         </div>
     </div>
     <div class="activity-content">
@@ -20,16 +26,17 @@
                 {{ activity.data.location }}
             </p>
         {%- else -%}
+            {%- if not pastActivity -%}
             <p class="activity-location">{%- include svg/icon_location.svg -%}
                 <span class="visually-hidden">{{ translations[locale].location }}</span>
                 {{ translations[locale].locationUnknown }}
             </p>
+            {%- endif -%}
         {%- endif -%}
 
-        <!--
-            {%- for tag in activity.data.categories -%}
+        {%- for tag in activity.data.categories -%}
             <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}-{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
-        {%- endfor -%}  -->
+        {%- endfor -%}
     </div>
 
     {%- if pastActivity -%}

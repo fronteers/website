@@ -103,6 +103,14 @@
 .hero--blog .hero-graphic::after,
 .hero--blog .hero-content {
   background-color: var(--lilac);
+  padding-block-end: 0;
+}
+
+.hero-content a:hover,
+.hero-content a:focus {
+    background-color: transparent;
+    text-decoration: underline;
+    color: currentColor;
 }
 
 .hero--single-blog .hero-graphic::after,
@@ -286,7 +294,6 @@
 
     .hero--activities .hero-graphic,
     .hero--blog .hero-graphic {
-        padding-block-end: 5rem;
         padding-block-start: 0;
         padding-inline-end: calc(3 * var(--spacing));
         padding-inline-start: calc(3 * var(--spacing));
@@ -296,11 +303,6 @@
         background-color: var(--lilac); 
         -webkit-clip-path: url(#greater-than-down-large);
         clip-path: url(#greater-than-down-large);
-    }
-
-    .hero--blog .hero-graphic {
-        -webkit-clip-path: url(#parenthesis-down-small);
-        clip-path: url(#parenthesis-down-small);
     }
 
     .hero--blog .hero-image-wrapper {

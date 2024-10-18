@@ -2,7 +2,7 @@
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
     <ul class="desktop-rows mobile-slider">
         {%- for post in blogposts limit: 3 -%}
-            <li class="list-item ">
+            <li class="list-item list-item--blog">
                 {%- include partials/blogpost headerlvl: "h3" index: forloop.index -%}
             </li>
         {%- endfor -%}

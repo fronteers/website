@@ -16,9 +16,15 @@
     {% endcapture %}
 
     {% capture latestBlog %}<div class="blog-time-wrapper">
-            <time class="blog-date" datetime="{{ blog.date | date: "%Y-%m-%d" }}">
-                {{ blog.date | displayDate: locale }}
-            </time>
+            {%- if locale == "nl" -%}
+                <time class="blog-date" datetime="{{ blog.date | date: "%Y-%m-%d" }}">
+                    {{ blog.date | localizedDate: 'nl' }}
+                </time>
+            {%- elsif locale == "en" -%}
+                <time class="blog-date" datetime="{{ blog.date | date: "%Y-%m-%d" }}">
+                    {{ blog.date | displayDate: locale | date: "%B %e %Y" }}
+                </time>
+            {%- endif -%}
         </div>
 
         {%- if authorHasAProfilePage -%}
@@ -52,16 +58,14 @@
 
     <main class="{% if useHero %}styledheader{% endif %}">
         <div class="inner-wrapper">
-            <div class="page-content">
-                <h2 class="visually-hidden">{{ title }}</h2>
+            <h2 class="visually-hidden">{{ title }}</h2>
                 {{ content }}
-            </div>
 
             {%- include partials/utility/dynamic-category-loop level: "h3" type: "blog" typeURL: translations[locale].blogsURL -%}
 
             <ul class="desktop-rows mobile-slider">
                 {%- for post in paginated_posts limit:pagination.size | reverse -%}
-                    <li class="list-item ">
+                    <li class="list-item list-item--blog">
                         {%- include partials/blogpost headerlvl:"h3" index:forloop.index  -%}
                     </li>
                 {%- endfor -%}
