@@ -103,6 +103,7 @@
 .hero--blog .hero-graphic::after,
 .hero--blog .hero-content {
   background-color: var(--lilac);
+  padding-block-end: 0;
 }
 
 .hero--single-blog .hero-graphic::after,
