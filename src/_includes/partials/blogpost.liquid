@@ -6,24 +6,19 @@
     {%- endif -%}
 {%- endfor -%}
 
+{% comment %} uncommented to relieve the pressure of having to add images to every post {% endcomment %}
 <div data-partial="blogpost" class="blog blog-{{ index }}">
-    <div class="blog-graphic-wrapper">
+    {%- if post.data.graphic.src -%}
+        <div class="blog-graphic-wrapper" 
         {%- if post.data.graphic.src -%}
-            <img
-                src="/assets/images/{{ post.data.graphic.src }}"
-                alt="{{ post.data.graphic.alt }}"
-                loading="lazy"
-                class="blog-graphic" />
+            style="background-image: url('/assets/images/{{ post.data.graphic.src }}')"
         {%- else -%}
-            <img
-                src="/assets/images/default_blog_image.jpg"
-                alt="{{ post.data.graphic.alt }}"
-                loading="lazy"
-                class="blog-graphic" />
-        {%- endif -%}
+            style="background-image: url('/assets/images/default_blog_image.jpg')"
+        {% endif %}>
     </div>
+    {%- endif -%}
 
-    <div class="blog-content-wrapper">
+    {% comment %} <div class="blog-content-wrapper"> {% endcomment %}
         <div class="blog-content">
             {%- include partials/utility/dynamic-headerlevel level: headerlvl title: post.data.title link: post.url -%}
 
@@ -57,11 +52,13 @@
             </ul>
         </div>
 
-        <a
-            href="{{ post.url }}"
-            class="button button-readmore">
-            {{ translations[locale].blogreadmore }}
-            <span class="visually-hidden">{{ translations[locale].about }} {{ post.data.title }}</span>
-        </a>
-    </div>
+        <div class="blog-readmore">
+            <a
+                href="{{ post.url }}"
+                class="button button-readmore">
+                {{ translations[locale].blogreadmore }}
+                <span class="visually-hidden">{{ translations[locale].about }} {{ post.data.title }}</span>
+            </a>
+        </div>
+    {% comment %} </div> {% endcomment %}
 </div>

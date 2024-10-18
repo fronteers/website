@@ -1,33 +1,34 @@
 .blog {
   background: white;
-  display: flex;
   block-size: 100%;
-  flex-direction: column;
-  margin-block-end: var(--spacing-double);
+  margin-block-end: var(--spacing-double); 
 }
 
 @media (min-width: 54.875em) {
+  .blog:has(> .blog-graphic-wrapper) {
+  margin-block-end: 0;
+
+  display: grid;
+  grid-template-columns: 300px 1fr max-content;
+  grid-template-areas: 
+      'image content content'
+      'image byline byline'
+      'image . readmore';
+  }
+
   .blog {
-    max-height: 360px;
-    margin-block-end: 0;
+  max-height: 360px;
+  margin-block-end: 0;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-template-areas: 
+      'content content'
+      'byline byline'
+      '. readmore';
   }
 }
 
-@media (min-width: 54.875em) {
-  .blog-graphic-wrapper {
-    block-size: 200px;
-  }
-}
-
-.blog-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  position: relative;
-  font-size: var(--font-size-18);
-}
-
-.blog-content-wrapper .h {
+.blog .h {
   margin: 0;
 }
 
@@ -37,6 +38,13 @@
   object-fit: cover;
   object-position: center;
   aspect-ratio: 4 / 2;
+}
+
+@media (min-width: 54.875em) {
+  .blog-graphic-wrapper {
+    grid-area: image;
+    block-size: 200px;
+  }
 }
 
 .blog-1 .blog-graphic {
@@ -63,6 +71,12 @@
   flex-direction: column;
 }
 
+@media (min-width: 54.875em) {
+  .blog-content {
+    grid-area: content;
+  }
+}
+
 .blog-content p {
   margin-block-end: 0;
 }
@@ -79,10 +93,14 @@
 }
 
 .blog-meta {
-  padding: var(--spacing);
-  padding-block-start: 0;
-  margin-top: var(--spacing);
+padding-inline: var(--spacing);
+padding-block-start: 0;
+margin-top: var(--spacing);
 }
+/* 
+@media (min-width: 54.875em) {
+
+} */
 
 .blog-author {
   padding-inline-end: var(--spacing);
@@ -92,8 +110,8 @@
   padding-inline-end: var(--spacing);
 }
 
-.blog .button-readmore {
-  margin-inline-start: auto;
+.blog-readmore {
+  text-align: right;
 }
 
 .blog-tags {
@@ -105,58 +123,62 @@
 }
 
 .blog-tags li {
-  display: inline-block;
+display: inline-block;
 }
 
 @media all and (min-width: 46.875rem) {
   .blog {
-    flex-direction: row;
+  flex-direction: row;
   }
 
   .blog-graphic-wrapper {
-    block-size: 100%;
-    inline-size: 100%;
-    flex: 0 0 300px;
-    text-align: center;
-    background-size: cover;
-    max-width: 300px;
+  block-size: 100%;
+  inline-size: 100%;
+  flex: 0 0 300px;
+  text-align: center;
+  background-size: cover;
+  max-width: 300px;
   }
 
   .blog-summary {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-    line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   }
 
   .blog-meta {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    padding-block-end: 0;
-    margin-block-start: var(--spacing);
-    margin-block-end: var(--spacing);
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding-block-end: 0;
+  margin-block-start: var(--spacing);
+  margin-block-end: var(--spacing);
+  }
+
+  .blog-readmore {
+    grid-area: readmore;
   }
 
   .blog-tags {
-    margin: 0;
+  margin: 0;
   }
 
   .blog-1 .blog-graphic {
-    -webkit-clip-path: url(#greater-than-right-small);
-    clip-path: url(#greater-than-right-small);
+  -webkit-clip-path: url(#greater-than-right-small);
+  clip-path: url(#greater-than-right-small);
   }
 
   .blog-2 .blog-graphic {
-    -webkit-clip-path: url(#curly-brace-right-small);
-    clip-path: url(#curly-brace-right-small);
+  -webkit-clip-path: url(#curly-brace-right-small);
+  clip-path: url(#curly-brace-right-small);
   }
 
   .blog-3 .blog-graphic {
-    -webkit-clip-path: url(#parenthesis-right-small);
-    clip-path: url(#parenthesis-right-small);
+  -webkit-clip-path: url(#parenthesis-right-small);
+  clip-path: url(#parenthesis-right-small);
   }
 }
 
@@ -172,15 +194,11 @@
     -webkit-line-clamp: 5;
     line-clamp: 5;
   }
-
-  .blog-meta {
-    margin-block-start: 0;
-  }
 }
 
 @media all and (min-width: 60.875rem) {
   .blog-summary {
-    -webkit-line-clamp: 5;
+   -webkit-line-clamp: 5;
     line-clamp: 5;
   }
 }

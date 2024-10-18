@@ -155,6 +155,10 @@ main section > .h {
   padding: 0;
 }
 
+.list-item--blog {
+    margin-block: 2rem;
+}
+
 @media all and (min-width: 46.875em) {
   .desktop-columns {
     display: grid;
