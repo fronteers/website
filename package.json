@@ -59,5 +59,8 @@
     },
     "browserslist": [
         "defaults"
-    ]
+    ],
+    "dependencies": {
+        "luxon": "^3.5.0"
+    }
 }

@@ -16,9 +16,15 @@
     {% endcapture %}
 
     {% capture latestBlog %}<div class="blog-time-wrapper">
-            <time class="blog-date" datetime="{{ blog.date | date: "%Y-%m-%d" }}">
-                {{ blog.date | displayDate: locale }}
-            </time>
+            {%- if locale == "nl" -%}
+                <time class="blog-date" datetime="{{ blog.date | date: "%Y-%m-%d" }}">
+                    {{ blog.date | localizedDate: 'nl' }}
+                </time>
+            {%- elsif locale == "en" -%}
+                <time class="blog-date" datetime="{{ blog.date | date: "%Y-%m-%d" }}">
+                    {{ blog.date | displayDate: locale | date: "%B %e %Y" }}
+                </time>
+            {%- endif -%}
         </div>
 
         {%- if authorHasAProfilePage -%}

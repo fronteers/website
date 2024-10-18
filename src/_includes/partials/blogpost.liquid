@@ -29,9 +29,15 @@
     </div>
 
     <div class="blog-meta">
-        <time class="blog-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
-            {{ post.date | displayDate: locale | date: "%e %B %Y" }}
-        </time>
+        {%- if locale == "nl" -%}
+            <time class="blog-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
+                {{ post.date | localizedDate: 'nl' }}
+            </time>
+        {%- elsif locale == "en" -%}
+            <time class="blog-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
+                {{ post.date | displayDate: locale | date: "%B %e %Y" }}
+            </time>
+        {%- endif -%}
 
         {%- if authorHasAProfilePage -%}
             <a href="{{ member.url }}" class="blog-author">{{ post.data.author }}</a>

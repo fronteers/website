@@ -21,10 +21,16 @@
     {% endcapture %}
 
     {% capture nextUp %}<div class="nextup-time-and-location-wrapper">
-            <time class="nextup-time" datetime="{{ activity.eventdate | date: "%Y-%m-%d" }}">
-                {{ activity.data.eventdate | displayDate: locale }}
-            </time> -
-
+            {%- if locale == "nl" -%}
+                <time class="nextup-time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                    {{ activity.data.eventdate | localizedDate: 'nl' }}
+                </time>
+            {%- elsif locale == "en" -%}
+                <time class="nextup-time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                    {{ activity.data.eventdate | displayDate: locale | date: "%B %e %Y" }}
+                </time>
+            {%- endif -%}
+                
             {% if eventHasHappened %}
                 {%- if activity.data.location -%}
                     <span class="nextup-location">

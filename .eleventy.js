@@ -1,5 +1,6 @@
 const { exec } = require("child_process");
 const glob = require("fast-glob");
+const { DateTime } = require("luxon");
 
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -42,6 +43,11 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.ignores.add("src/nl/vereniging/bestuur/notulen");
   }
+
+    // Custom date filter
+    eleventyConfig.addFilter("localizedDate", function (dateObj, locale = "en") {
+        return DateTime.fromJSDate(dateObj).setLocale(locale).toFormat("d LLLL yyyy");
+    });
 
   /* Add id to heading elements */
   eleventyConfig.addPlugin(pluginAddIdToHeadings);
