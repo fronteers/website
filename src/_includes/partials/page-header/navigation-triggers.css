@@ -13,7 +13,7 @@
   position: absolute;
   z-index: 20;
   width: 100%;
-  grid-column: span 2;
+  /* grid-column: span 2; */
 }
 
 #navigation:target,
