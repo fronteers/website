@@ -156,14 +156,14 @@ main section > .h {
 }
 
 .list-item--blog {
-    margin-block: 2rem;
+    margin-block: var(--spacing-double);
 }
 
 @media all and (min-width: 46.875em) {
   .desktop-columns {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: var(--spacing);
+    grid-gap: var(--spacing-double);
     margin-block-end: var(--spacing);
   }
 }

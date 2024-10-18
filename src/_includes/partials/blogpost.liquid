@@ -18,47 +18,45 @@
     </div>
     {%- endif -%}
 
-    {% comment %} <div class="blog-content-wrapper"> {% endcomment %}
-        <div class="blog-content">
-            {%- include partials/utility/dynamic-headerlevel level: headerlvl title: post.data.title link: post.url -%}
+    <div class="blog-content">
+        {%- include partials/utility/dynamic-headerlevel level: headerlvl title: post.data.title link: post.url -%}
 
-            {%- if post.data.summary -%}
-                <p class="blog-summary">{{ post.data.summary | strip_html | truncate: 500 }}</p>
-            {%- else -%}
-                <p class="blog-summary">{{ post.templateContent | strip_html | truncate: 500 }}</p>
-            {%- endif -%}
-        </div>
+        {%- if post.data.summary -%}
+            <p class="blog-summary">{{ post.data.summary | strip_html | truncate: 500 }}</p>
+        {%- else -%}
+            <p class="blog-summary">{{ post.templateContent | strip_html | truncate: 500 }}</p>
+        {%- endif -%}
+    </div>
 
-        <div class="blog-meta">
-            <time class="blog-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
-                {{ post.date | displayDate: locale | date: "%d.%m.%y" }}
-            </time>
+    <div class="blog-meta">
+        <time class="blog-time" datetime="{{ post.date | date: "%Y-%m-%d" }}">
+            {{ post.date | displayDate: locale | date: "%e %B %Y" }}
+        </time>
 
-            {%- if authorHasAProfilePage -%}
-                <a href="{{ member.url }}" class="blog-author">{{ post.data.author }}</a>
-            {%- else -%}
-                <span class="blog-author">{{ post.data.author }}</span>
-            {%- endif -%}
+        {%- if authorHasAProfilePage -%}
+            <a href="{{ member.url }}" class="blog-author">{{ post.data.author }}</a>
+        {%- else -%}
+            <span class="blog-author">{{ post.data.author }}</span>
+        {%- endif -%}
 
-            <ul
-                class="blog-tags"
-                role="list"
-                aria-label="Tagged">
-                {%- for tag in post.data.categories limit: 2 -%}
-                    <li>
-                        <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{%- tag tag -%}</a>
-                    </li>
-                {%- endfor -%}
-            </ul>
-        </div>
+        <ul
+            class="blog-tags"
+            role="list"
+            aria-label="Tagged">
+            {%- for tag in post.data.categories limit: 2 -%}
+                <li>
+                    <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{%- tag tag -%}</a>
+                </li>
+            {%- endfor -%}
+        </ul>
+    </div>
 
-        <div class="blog-readmore">
-            <a
-                href="{{ post.url }}"
-                class="button button-readmore">
-                {{ translations[locale].blogreadmore }}
-                <span class="visually-hidden">{{ translations[locale].about }} {{ post.data.title }}</span>
-            </a>
-        </div>
-    {% comment %} </div> {% endcomment %}
+    <div class="blog-readmore">
+        <a
+            href="{{ post.url }}"
+            class="button button-readmore">
+            {{ translations[locale].blogreadmore }}
+            <span class="visually-hidden">{{ translations[locale].about }} {{ post.data.title }}</span>
+        </a>
+    </div>
 </div>
