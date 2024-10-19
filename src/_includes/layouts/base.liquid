@@ -1,14 +1,5 @@
 {%- include partials/utility/html-head -%}
     <body data-layout='base'>
-        {%- include svg/shapes.svg -%}
-        {%- assign blogposts = collections.published_posts | getLocale: locale -%}
-        {%- assign activities = collections.published_activities | getLocale: locale -%}
-        {%- assign jobs = collections.published_jobs | getLocale: locale -%}
-        {%- assign members = collections.published_members | getLocale: locale -%}
-        {%- assign freelancers = collections.freelancers | getLocale: locale -%}
-
-        <a href='#main' class='skiplink'>Skip to main content</a>
-
         <div class='layout' role='document'>
             {% include partials/page-header/_page-header %}
             
