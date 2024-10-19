@@ -59,7 +59,7 @@
 <body data-layout="activity-home">
     {%- include partials/page-header/_page-header -%}
 
-    <main class="{% if useHero %}styledheader{% endif %}">
+    <main id="main" class="{% if useHero %}styledheader{% endif %}">
         {%- if pagination.pageLinks.length > 1 -%}
             {%- if pagination.previousPageLink -%}
             {%- else -%}
