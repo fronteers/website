@@ -16,8 +16,9 @@ module.exports = {
         for: "for",
         goToVimeo: "Go to our Vimeo",
         signUp: "Sign up",
-        signUpClosed: "Sign up Closed",
+        signUpClosed: "Show details",
         opensubmenu: "Open submenu",
+        closesubmenu: "Close submenu",
         blockTitles: {
             homeHero: "We unite front-end developers",
             upcomingActivities: "Upcoming activities",
@@ -93,6 +94,7 @@ module.exports = {
         signUp: "Meld je aan",
         signUpClosed: "Bekijk details",
         opensubmenu: "Open submenu",
+        closesubmenu: "Sluit submenu",
         blockTitles: {
             homeHero: "We unite front-end developers",
             upcomingActivities: "Activiteiten",

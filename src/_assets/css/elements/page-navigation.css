@@ -15,11 +15,14 @@
 }
 
 .page-navigation > .navigation-list {
-    width: 100%; /* maybe only on mobile */
+    width: 100%; 
+    padding-block: var(--spacing);
 }
 
-.page-navigation > .navigation-list {
-    padding-block: var(--spacing);
+@media all and (max-width: 46.874em) {
+    .page-navigation > .navigation-list {
+        padding-block: 0;
+    }
 }
 
 .navigation-list-item--toplevel {
@@ -39,10 +42,14 @@
 }
 
 .page-navigation a:hover,
-.page-navigation a:focus {
+.page-navigation a:focus-visible {
     background-color: unset;
     color: var(--yellow);
     text-decoration: underline;
+}
+
+.page-navigation a:focus {
+    outline-offset: -6px;
 }
 
 a:has(+ .navigation-list a[aria-current]),
@@ -96,24 +103,26 @@ a[aria-current='page'] {
     background-image: url(/assets/images/chevron-right-yellow.svg);
 }
 
-@media all and (max-width: 46.874em) {
-   .navigation-list--sublevel {
-        padding-inline-start: var(--spacing);
-        list-style-type: none;
-   }
-
-    .navigation-submenu-toggle {
-        background: transparent;
-        border: none;
-        padding: var(--spacing-half);
-        transition: transform 0.3s;
-    }
-
-    .navigation-list-item--toplevel.open .navigation-submenu-toggle {
-        transform: rotate(180deg);
-    }
+.navigation-list--sublevel {
+    padding-inline-start: var(--spacing);
+    list-style-type: none;
 }
 
+@media all and (min-width: 46.874em) {
+  .navigation-list--sublevel {
+    padding-inline-start: 0;
+  }
+}
+
+.navigation-submenu-toggle {
+    background: transparent;
+    border: none;
+    padding: var(--spacing-half);
+}
+
+.navigation-list-item--toplevel.open .navigation-submenu-toggle {
+    transform: scaleY(-1);
+}
 
 @media all and (min-width: 46.875em) {
     .page-navigation {
@@ -124,6 +133,7 @@ a[aria-current='page'] {
         display: flex;
         align-content: center;
         position: relative;
+        padding-block: 0;
     }
 
     .page-navigation--header .navigation-list--toplevel {
@@ -150,11 +160,11 @@ a[aria-current='page'] {
         bottom: 100%;
     }
 
-    li:hover > .navigation-list--sublevel:not(:empty),
+    /* li:hover > .navigation-list--sublevel:not(:empty),
     a:hover + .navigation-list--sublevel:not(:empty),
     a:focus + .navigation-list--sublevel:not(:empty),
     .navigation-list-item--toplevel:focus-within
         .navigation-list--sublevel:not(:empty) {
         display: block;
-    }
+    } */
 }
