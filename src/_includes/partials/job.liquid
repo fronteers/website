@@ -30,12 +30,6 @@
             </time>
         {%- endif -%}
 
-        {%- if authorHasAProfilePage -%}
-            <a href="{{ member.url }}" class="job-author">{{ job.data.author }}</a>
-        {%- else -%}
-            <span class="job-author">{{ job.data.author }}</span>
-        {%- endif -%}
-
         <ul
             class="job-tags"
             role="list"
