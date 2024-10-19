@@ -97,10 +97,6 @@ padding-inline: var(--spacing);
 padding-block-start: 0;
 margin-top: var(--spacing);
 }
-/* 
-@media (min-width: 54.875em) {
-
-} */
 
 .blog-author {
   padding-inline-end: var(--spacing);

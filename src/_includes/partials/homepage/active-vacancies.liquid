@@ -1,10 +1,17 @@
 <section data-partial="homepage/active-vacancies" class="inner-wrapper">
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
     <ul class="desktop-rows mobile-slider">
-        {%- for job in jobs limit: 2 -%}
-            <li class="list-item ">
-                {%- include partials/job headerlvl: "h3" index: forloop.index -%}
-            </li>
+        {%- assign today = "now" | date: "%Y%m%d" -%}
+        {%- assign twoMonthsAgo = "now" | date: "%Y%m%d" | minus: 200 -%} 
+        
+        {%- for job in jobs limit: 10 -%}
+            {%- assign jobDate = job.data.date | date: "%Y%m%d" | plus: 0 -%}
+            {%- if jobDate >= twoMonthsAgo -%}
+            
+                <li class="list-item list-item--job">
+                    {%- include partials/job headerlvl: "h3" index: forloop.index -%}
+                </li>
+            {%- endif -%}
         {%- endfor -%}
     </ul>
 
