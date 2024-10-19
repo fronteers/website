@@ -9,20 +9,18 @@
   max-width: var(--outer-width);
   position: relative;
   margin: 0 auto;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: max-content;
   grid-template-areas:
-    "logo        navigation"
-    "join-us search-and-translate";
+    "logo      navigation-triggers "
+    "navigation   navigation "
+    "join-us   search-and-translate";
 }
 
 @media all and (min-width: 46.875em) {
   .page-header {
-    display: grid;
     grid-template-columns: 1fr 3fr 1fr 40px;
-    grid-template-rows: max-content;
     grid-template-areas:
       "join-us     logo        search-and-translate search-and-translate"
       "navigation  navigation  navigation navigation";
@@ -49,12 +47,8 @@
   grid-area: search-and-translate;
 }
 
-.page-header-translate {
-  grid-area: search-and-translate;
-}
-
-.page-navigation--header {
-  grid-area: navigation;
+.navigation-triggers {
+    grid-area: navigation-triggers;
 }
 
 .navigation-toggle {

@@ -1,20 +1,23 @@
 .page-header-translate {
   position: relative;
   margin-inline-start: auto;
-  padding-block-start: var(--spacing-half);
-  padding-block-end: var(--spacing-half);
+  padding-block-start: var(--spacing);
+  padding-block-end: var(--spacing);
   padding-inline-end: var(--spacing);
   text-align: right;
   z-index: 20;
 }
 
+@media all and (min-width: 46.875em) {
+  .page-header-translate {
+    position: relative;
+    padding-inline-end: 0;
+  }
+}
+
 .languageLabel {
   text-transform: uppercase;
 }
-
-/* .navigation-opened .page-header-translate {
-  top: -44px;
-} */
 
 .page-header-translate ul {
   list-style-type: none;
