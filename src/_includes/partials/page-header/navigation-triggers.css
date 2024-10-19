@@ -87,14 +87,18 @@
   top: 44px;
 }
 
+.navigation-opened .page-header-join-us,
+.navigation-opened .page-header-search-and-translate {
+    display: none;
+}
+
 .navigation-opened main {
   position: relative;
-  /* top: 78px; */
 }
 
 .navigation-opened .page-header-logo {
   background-color: black;
-  /* height: 78px; */
+  height: 3rem;
 }
 
 .navigation-opened .navigation-list-item--toplevel > a {
@@ -102,4 +106,14 @@
   top: 0;
   background-color: black;
   z-index: 10;
+  outline-offset: -2px;
+}
+
+.navigation-submenu-toggle[aria-expanded="true"] + .navigation-list--sublevel {
+    display: block;
+    width: 100%;
+}
+
+.navigation-submenu-toggle[aria-expanded="false"] + .navigation-list--sublevel {
+    display: none;
 }

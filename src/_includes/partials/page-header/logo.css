@@ -10,6 +10,9 @@
 
 .page-header-logo a {
   display: block;
+  width: auto;
+  height: 35px;
+  aspect-ratio: 810 / 138;
 }
 
 .page-header-logo svg {
