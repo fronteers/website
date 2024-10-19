@@ -1,5 +1,5 @@
 [
-  { "naam": "Tom Greuter", "werkgever": "Grimm.nl" },
+  { "naam": "Tom Greuter", "werkgever": "" },
   { "naam": "Peter-Paul Koch", "werkgever": "-" },
   { "naam": "Arjan Eising", "werkgever": "-" },
   { "naam": "Kilian Valkhof", "werkgever": "-" },
@@ -17,8 +17,8 @@
   { "naam": "Armen Mnatsian", "werkgever": "Openwebdesign - DigitaalEHBO" },
   { "naam": "Wes Oudshoorn", "werkgever": "AppSignal" },
   { "naam": "Thijs Reijgersberg", "werkgever": "Werkspot" },
-  { "naam": "Hans Grimm", "werkgever": "-" },
-  { "naam": "Jules Ernst", "werkgever": "Deque Systems" },
+  { "naam": "Hans Grimm", "werkgever": "Grimm.nl" },
+  { "naam": "Jules Ernst", "werkgever": "200 OK" },
   { "naam": "Raph de Rooij", "werkgever": "Logius" },
   { "naam": "Christiaan Stegeman", "werkgever": "-" },
   { "naam": "Johan Sterenberg", "werkgever": "Binary Horizons" },
