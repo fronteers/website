@@ -5,11 +5,9 @@ eventdate: 2024-03-07
 author: Claudia Reynders
 summary: "Op donderdag 7 maart 2024 zijn we te gast bij Whale te Gent voor de eerste bijeenkomst van het jaar. Wat je mag verwachten: een avond met 2 gast sprekers en de kans om mede fronteers te ontmoeten." 
 categories: 
-  - meetup
+  - Bijeenkomsten
 location: Gent
 ---
-
-
 
 Op *donderdag 7 maart* 2024 zijn we te gast bij [Whale](https://usewhale.io) te *Gent*.
 Voor deze meetup zijn we momenteel vollop aan het zoeken naar sprekers, heb je interesse om op dit evenement te spreken, stuur dan een mailtje naar <a href="mailto:belgie@fronteers.nl">belgie@fronteers.nl</a>. Wil je eerder op een ander evenement spreken, dan kan je best je gegevens toevoegen [via dit formulier](https://tally.so/forms/waXWX3).
