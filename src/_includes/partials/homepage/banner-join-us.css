@@ -56,7 +56,7 @@
     text-wrap: balance;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
     .banner-join-us__description {
         align-self: center;
         width: 80%;

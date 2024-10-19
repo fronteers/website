@@ -172,7 +172,7 @@ main section > .h {
   display: none;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .mobile-only {
     display: none;
   }

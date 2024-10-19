@@ -8,7 +8,7 @@
   z-index: 20;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .page-header-translate {
     position: relative;
   }
@@ -64,7 +64,7 @@
   text-decoration: underline;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .page-header-translate {
     padding-block-start: var(--spacing);
     padding-block-end: 0;

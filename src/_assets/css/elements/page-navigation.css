@@ -19,7 +19,7 @@
     padding-block: var(--spacing);
 }
 
-@media all and (max-width: 46.874em) {
+@media all and (max-width: 60.124em) {
     .page-navigation > .navigation-list {
         padding-block: 0;
     }
@@ -108,7 +108,7 @@ a[aria-current='page'] {
     list-style-type: none;
 }
 
-@media all and (min-width: 46.874em) {
+@media all and (min-width: 60.124em) {
   .navigation-list--sublevel {
     padding-inline-start: 0;
   }
@@ -124,7 +124,7 @@ a[aria-current='page'] {
     transform: scaleY(-1);
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
     .page-navigation {
         font-size: var(--font-size-20);
     }

@@ -14,7 +14,7 @@
 }
 
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
     #navigation,
     .navigation-closed #navigation {
         display: flex;
@@ -36,7 +36,7 @@
   height: 26px;
   position: absolute;
   top: var(--spacing-half);
-  right: calc(var(--spacing) - 5px);
+  right: var(--spacing);
   z-index: 10;
 }
 
@@ -81,7 +81,7 @@
 }
 
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
     .navigation-submenu-toggle[aria-expanded="true"] + .navigation-list--sublevel {
         width: auto;
     }
@@ -91,7 +91,7 @@
     display: none;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
     .navigation-submenu-toggle {
         padding: 0;
     }

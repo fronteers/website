@@ -3,7 +3,7 @@
   align-self: center;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .page-header-join-us {
     padding-inline-start: 0;
     text-align: center;
@@ -28,7 +28,7 @@
   padding: calc(var(--spacing-half) / 2);
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .join-us-link a {
     padding: var(--spacing) 0 0 0;
     display: block;
@@ -39,7 +39,7 @@
     display: none;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .join-us-link div {
     inline-size: 100%;
     block-size: 0;

@@ -18,9 +18,9 @@
     "join-us   search-and-translate";
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .page-header {
-    grid-template-columns: 1fr 3fr 1fr 40px;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-areas:
       "join-us     logo        search-and-translate search-and-translate"
       "navigation  navigation  navigation navigation";
@@ -33,7 +33,7 @@
   display: flex;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .page-header-join-us {
       display: block;
   }

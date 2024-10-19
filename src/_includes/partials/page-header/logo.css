@@ -22,7 +22,7 @@
   display: block;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .page-header-logo {
     text-align: center;
     padding-inline-start: unset;
