@@ -149,4 +149,7 @@
 {%- assign members = collections.published_members  | getLocale: locale  -%}
 {%- assign freelancers = collections.freelancers  | getLocale: locale  -%}
 
+<span id="openSubmenuLabel" hidden>{{ translations[locale].opensubmenu }}</span>
+<span id="closeSubmenuLabel" hidden>{{ translations[locale].closesubmenu }}</span>
+
 <a href='#main' class='skiplink'>{{ translations[locale].skiplink }}</a>
