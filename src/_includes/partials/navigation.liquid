@@ -12,12 +12,12 @@
     <h2 class='visually-hidden'>{{ nav_description }}</h2>
     <ul class='navigation-list navigation-list--toplevel'>
         {%- for item in nav_selection -%}
-            {% assign itemUrl = item.url | append: '/' %}
+            {% assign itemUrlWithSlash = item.url | append: '/' %}
 
             <li class='navigation-list-item navigation-list-item--toplevel'>
                 <a
                     href='{{ item.url }}'
-                    {%- if item.url == page.url -%}
+                    {%- if item.url == page.url or itemUrlWithSlash == page.url -%}
                         aria-current='page'
                     {%- endif -%}
                 >
