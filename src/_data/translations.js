@@ -19,6 +19,7 @@ module.exports = {
         signUpClosed: "Show details",
         opensubmenu: "Open submenu",
         closesubmenu: "Close submenu",
+        skiplink: "Skip to main content",
         blockTitles: {
             homeHero: "We unite front-end developers",
             upcomingActivities: "Upcoming activities",
@@ -95,6 +96,7 @@ module.exports = {
         signUpClosed: "Bekijk details",
         opensubmenu: "Open submenu",
         closesubmenu: "Sluit submenu",
+        skiplink: "Sla het menu over",
         blockTitles: {
             homeHero: "We unite front-end developers",
             upcomingActivities: "Activiteiten",
