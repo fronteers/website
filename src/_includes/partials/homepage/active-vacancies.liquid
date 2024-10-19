@@ -1,13 +1,22 @@
+{%- for job in jobs limit: 5 -%}
+    {%- assign jobDate = job.data.date | date: "%Y%m%d" | plus: 0 -%}
+    {%- if jobDate >= twoMonthsAgo -%}
+        {%- assign vacancyCount = vacancyCount | plus: 1 -%}
+    {%- endif -%}
+{%- endfor -%}
+
 <section data-partial="homepage/active-vacancies" class="inner-wrapper">
-    {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
+    {%- if vacancyCount > 0 -%}
+        {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
+    {%- endif -%}
+
     <ul class="desktop-rows mobile-slider">
         {%- assign today = "now" | date: "%Y%m%d" -%}
         {%- assign twoMonthsAgo = "now" | date: "%Y%m%d" | minus: 200 -%} 
         
-        {%- for job in jobs limit: 10 -%}
+        {%- for job in jobs limit: 5 -%}
             {%- assign jobDate = job.data.date | date: "%Y%m%d" | plus: 0 -%}
             {%- if jobDate >= twoMonthsAgo -%}
-            
                 <li class="list-item list-item--job">
                     {%- include partials/job headerlvl: "h3" index: forloop.index -%}
                 </li>
@@ -15,9 +24,11 @@
         {%- endfor -%}
     </ul>
 
+    {%- if vacancyCount > 5 -%}
     <div class="button-wrapper">
         <a href="{{ translations[locale].blockTitles.jobsPath }}" class="button button-parentheses">
             {{ translations[locale].blockTitles.viewOurJobs }}
         </a>
     </div>
+    {%- endif -%}
 </section>
