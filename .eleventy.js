@@ -98,7 +98,7 @@ module.exports = function (eleventyConfig) {
     "src/_assets/images": "assets/images",
     "src/_assets/js": "assets/js",
     "_img/": "_img",
-    "_redirects" : "_redirects"
+    "_redirects.conf": "_redirects",
   });
 
   glob.sync("src/{_components,_includes}/**/*.css").forEach((file) => {
@@ -127,18 +127,18 @@ module.exports = function (eleventyConfig) {
   });
 
   /* Load all Collections */
-  Object.entries(require('./utils/collections.js')).forEach(
+  Object.entries(require("./utils/collections.js")).forEach(
     ([collectionName, collection]) => {
-        // console.debug(`[collection] ${collectionName}`);
-        eleventyConfig.addCollection(collectionName, collection);
+      // console.debug(`[collection] ${collectionName}`);
+      eleventyConfig.addCollection(collectionName, collection);
     }
   );
 
   /* Load all filters */
-  Object.entries(require('./utils/filters.js')).forEach(
+  Object.entries(require("./utils/filters.js")).forEach(
     ([filterName, filter]) => {
-        // console.debug(`[filter] ${filterName}`);
-        eleventyConfig.addFilter(filterName, filter);
+      // console.debug(`[filter] ${filterName}`);
+      eleventyConfig.addFilter(filterName, filter);
     }
   );
 
@@ -153,13 +153,13 @@ module.exports = function (eleventyConfig) {
     async ({ dir, results, runMode, outputMode }) =>
       new Promise((resolve, reject) => {
         exec(
-          "npx lightningcss --minify --bundle --targets \">= 0.25%\" dist/assets/css/style.css -o dist/assets/css/style.css",
+          'npx lightningcss --minify --bundle --targets ">= 0.25%" dist/assets/css/style.css -o dist/assets/css/style.css',
           (err) => {
             if (err) {
               console.error("[lightningcss] Failed to bundle the CSS");
               console.error(err);
               reject(err);
-              return
+              return;
             }
 
             console.debug("[lightningcss] Successfully bundled the CSS");
@@ -170,7 +170,9 @@ module.exports = function (eleventyConfig) {
   );
 
   /* This log will appear before the first build. It is tied to the plugin that checks broken links. */
-  console.debug("Eleventy will now generate RSS feeds and then look for broken links. This may take a while. When its done, you should see logs appear.")
+  console.debug(
+    "Eleventy will now generate RSS feeds and then look for broken links. This may take a while. When its done, you should see logs appear."
+  );
 
   /* All templates in the content directory are parsed and copied to the dist directory */
   return {
