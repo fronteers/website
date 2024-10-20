@@ -2,7 +2,7 @@
 <body data-layout="page">
     {%- include partials/page-header/_page-header -%}
 
-    <main class="{% if useHero %}styledheader{% endif %}">
+    <main id="main" class="{% if useHero %}styledheader{% endif %}">
         {% if useHero == 'aboutushero' %}
             {%- aboutushero title -%}
                 {{ heroSlogan }}

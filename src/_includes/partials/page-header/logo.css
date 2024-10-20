@@ -10,6 +10,9 @@
 
 .page-header-logo a {
   display: block;
+  width: auto;
+  height: 35px;
+  aspect-ratio: 810 / 138;
 }
 
 .page-header-logo svg {
@@ -19,7 +22,7 @@
   display: block;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .page-header-logo {
     text-align: center;
     padding-inline-start: unset;

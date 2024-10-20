@@ -1,20 +1,22 @@
 .page-header-translate {
   position: relative;
   margin-inline-start: auto;
-  padding-block-start: var(--spacing-half);
-  padding-block-end: var(--spacing-half);
+  padding-block-start: var(--spacing);
+  padding-block-end: var(--spacing);
   padding-inline-end: var(--spacing);
   text-align: right;
   z-index: 20;
 }
 
+@media all and (min-width: 60.125em) {
+  .page-header-translate {
+    position: relative;
+  }
+}
+
 .languageLabel {
   text-transform: uppercase;
 }
-
-/* .navigation-opened .page-header-translate {
-  top: -44px;
-} */
 
 .page-header-translate ul {
   list-style-type: none;
@@ -62,7 +64,7 @@
   text-decoration: underline;
 }
 
-@media all and (min-width: 46.875em) {
+@media all and (min-width: 60.125em) {
   .page-header-translate {
     padding-block-start: var(--spacing);
     padding-block-end: 0;

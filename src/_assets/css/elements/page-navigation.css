@@ -3,7 +3,7 @@
     font-size: var(--font-size-18);
     font-weight: bold;
 }
-
+ 
 .page-navigation h2 {
     text-transform: none;
 }
@@ -11,11 +11,27 @@
 .page-navigation .navigation-list {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-inline: 0;
+}
+
+.page-navigation > .navigation-list {
+    width: 100%; 
+    padding-block: var(--spacing);
+}
+
+@media all and (max-width: 60.124em) {
+    .page-navigation > .navigation-list {
+        padding-block: 0;
+    }
 }
 
 .navigation-list-item--toplevel {
     white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: var(--spacing-half);
+    flex-wrap: wrap;
 }
 
 .page-navigation a {
@@ -26,10 +42,14 @@
 }
 
 .page-navigation a:hover,
-.page-navigation a:focus {
+.page-navigation a:focus-visible {
     background-color: unset;
     color: var(--yellow);
     text-decoration: underline;
+}
+
+.page-navigation a:focus {
+    outline-offset: -6px;
 }
 
 a:has(+ .navigation-list a[aria-current]),
@@ -44,9 +64,14 @@ a[aria-current='page'] {
     font-weight: normal;
 }
 
-.navigation-list--sublevel :is(a:hover, a:active, a:focus) {
+.navigation-list--sublevel :is(a:hover, a:active, a:focus, button:hover, button:active, button:focus) {
     background-color: unset;
     color: var(--yellow);
+    outline-offset: -2px;
+}
+
+.navigation-list--sublevel :is(a:focus, button:focus) {
+    outline: 2px solid currentColor;
 }
 
 .navigation-list--sublevel a:before {
@@ -78,7 +103,28 @@ a[aria-current='page'] {
     background-image: url(/assets/images/chevron-right-yellow.svg);
 }
 
-@media all and (min-width: 46.875em) {
+.navigation-list--sublevel {
+    padding-inline-start: var(--spacing);
+    list-style-type: none;
+}
+
+@media all and (min-width: 60.124em) {
+  .navigation-list--sublevel {
+    padding-inline-start: 0;
+  }
+}
+
+.navigation-submenu-toggle {
+    background: transparent;
+    border: none;
+    padding: var(--spacing-half);
+}
+
+.navigation-list-item--toplevel.open .navigation-submenu-toggle {
+    transform: scaleY(-1);
+}
+
+@media all and (min-width: 60.125em) {
     .page-navigation {
         font-size: var(--font-size-20);
     }
@@ -87,6 +133,7 @@ a[aria-current='page'] {
         display: flex;
         align-content: center;
         position: relative;
+        padding-block: 0;
     }
 
     .page-navigation--header .navigation-list--toplevel {
@@ -113,11 +160,11 @@ a[aria-current='page'] {
         bottom: 100%;
     }
 
-    li:hover > .navigation-list--sublevel:not(:empty),
+    /* li:hover > .navigation-list--sublevel:not(:empty),
     a:hover + .navigation-list--sublevel:not(:empty),
     a:focus + .navigation-list--sublevel:not(:empty),
     .navigation-list-item--toplevel:focus-within
         .navigation-list--sublevel:not(:empty) {
         display: block;
-    }
+    } */
 }

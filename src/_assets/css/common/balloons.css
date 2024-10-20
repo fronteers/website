@@ -56,3 +56,9 @@ body {
   to {transform: translateY(-300vh);
     opacity: 0;}
 }
+
+@media (prefers-reduced-motion) {
+    #balloon-container {
+        display: none;
+    }
+}

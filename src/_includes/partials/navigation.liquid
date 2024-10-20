@@ -12,12 +12,12 @@
     <h2 class='visually-hidden'>{{ nav_description }}</h2>
     <ul class='navigation-list navigation-list--toplevel'>
         {%- for item in nav_selection -%}
-            {% assign itemUrl = item.url | append: '/' %}
+            {% assign itemUrlWithSlash = item.url | append: '/' %}
 
             <li class='navigation-list-item navigation-list-item--toplevel'>
                 <a
                     href='{{ item.url }}'
-                    {%- if item.url == page.url -%}
+                    {%- if item.url == page.url or itemUrlWithSlash == page.url -%}
                         aria-current='page'
                     {%- endif -%}
                 >
@@ -25,7 +25,13 @@
                 </a>
 
                 {%- if item.subnav -%}
-                    <ul class='navigation-list navigation-list--sublevel'>
+                    <button type="button" class="navigation-submenu-toggle" aria-labelledby="openSubmenuLabel" aria-expanded="false" aria-controls="sub-{{ item.title | slug }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="483.8 247 10.6 6" width="24px" height="14px">
+                            <path fill="#fff" d="m490.7 250-4.6-4.6.7-.7 5.3 5.3-5.3 5.3-.7-.7 4.6-4.6Z" transform="rotate(90 0 0)" transform-origin="489.077px 250px"/>
+                        </svg>
+                    </button>
+                    
+                    <ul class='navigation-list navigation-list--sublevel'  id="sub-{{ item.title | slug }}">
                 {%- endif -%}
 
                 {%- for subitem in item.subnav -%}
@@ -49,3 +55,19 @@
         {%- endfor -%}
     </ul>
 </nav>
+
+<noscript>
+    <style>
+
+        @media all and (min-width: 60.125em) {
+            li:hover > .navigation-list--sublevel:not(:empty),
+            a:hover + .navigation-list--sublevel:not(:empty),
+            a:focus + .navigation-list--sublevel:not(:empty),
+            .navigation-list-item--toplevel:focus-within
+                .navigation-list--sublevel:not(:empty) {
+                display: block;
+            }
+        }
+
+    </style>
+</noscript>
