@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 2: Gelaagd bouwen (R-pd.1.2)
+title: 'Webrichtlijn 2: Gelaagd bouwen (R-pd.1.2)'
 date: 2008-01-08
 author: Krijn Hoetmer
 categories: 

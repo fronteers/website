@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 3: Niet rekenen op optionele technologie (R-pd.1.3)
+title: 'Webrichtlijn 3: Niet rekenen op optionele technologie (R-pd.1.3)'
 date: 2008-01-15
 author: Krijn Hoetmer
 categories: 

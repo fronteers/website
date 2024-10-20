@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 1: Scheiding tussen structuur en vormgeving (R-pd.1.1)
+title: 'Webrichtlijn 1: Scheiding tussen structuur en vormgeving (R-pd.1.1)'
 date: 2008-01-01
 author: Tom Greuter
 categories: 

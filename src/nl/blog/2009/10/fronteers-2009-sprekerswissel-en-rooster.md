@@ -1,5 +1,5 @@
 ---
-title: Fronteers 2009: sprekerswissel en rooster
+title: 'Fronteers 2009: sprekerswissel en rooster'
 date: 2009-10-14
 author: Peter-Paul Koch
 categories: 

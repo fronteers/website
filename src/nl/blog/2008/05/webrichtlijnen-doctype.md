@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 35: De DocType Declaratie
+title: 'Webrichtlijn 35: De DocType Declaratie'
 date: 2008-05-20
 author: Krijn Hoetmer
 categories: 

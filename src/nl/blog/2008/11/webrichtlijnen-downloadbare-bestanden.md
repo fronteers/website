@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 63 t/m 66: Links naar downloadbare bestanden
+title: 'Webrichtlijn 63 t/m 66: Links naar downloadbare bestanden'
 date: 2008-11-18
 author: Krijn Hoetmer
 categories: 

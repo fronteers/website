@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 13, 14 &amp; 15: Beschrijvende markup, kopregels
+title: 'Webrichtlijn 13, 14 &amp; 15: Beschrijvende markup, kopregels'
 date: 2008-03-11
 author: Krijn Hoetmer
 categories: 

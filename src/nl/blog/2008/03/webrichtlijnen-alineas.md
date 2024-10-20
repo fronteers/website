@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 16: Paragrafen, nieuwe regels en alinea’s
+title: "Webrichtlijn 16: Paragrafen, nieuwe regels en alinea’s"
 date: 2008-03-18
 author: Krijn Hoetmer
 categories: 

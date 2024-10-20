@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 4: Gebruik HTML 4.01 of XHTML 1.0 (R-pd.2.1)
+title: 'Webrichtlijn 4: Gebruik HTML 4.01 of XHTML 1.0 (R-pd.2.1)'
 date: 2008-01-22
 author: Krijn Hoetmer
 categories: 

@@ -1,5 +1,5 @@
 ---
-title: Bijeenkomst op 3 november, in Amsterdam: Sex, food, and JavaScript
+title: 'Bijeenkomst op 3 november, in Amsterdam: Sex, food, and JavaScript'
 date: 2009-10-17
 author: Peter-Paul Koch
 categories: 

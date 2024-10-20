@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 84 en 85: Volgorde en groeperen van invoervelden
+title: 'Webrichtlijn 84 en 85: Volgorde en groeperen van invoervelden'
 date: 2009-05-12
 author: Krijn Hoetmer
 categories: 

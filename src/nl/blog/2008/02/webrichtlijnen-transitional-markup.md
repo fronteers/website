@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 6: Gebruik bij voorkeur alleen de Strict variant (R-pd.2.3)
+title: 'Webrichtlijn 6: Gebruik bij voorkeur alleen de Strict variant (R-pd.2.3)'
 date: 2008-02-05
 author: Tom Greuter
 categories: 

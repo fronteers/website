@@ -1,5 +1,5 @@
 ---
-title: Herinnering: bijeenkomst op 16 oktober
+title: 'Herinnering: bijeenkomst op 16 oktober'
 date: 2008-10-13
 author: Krijn Hoetmer
 categories: 

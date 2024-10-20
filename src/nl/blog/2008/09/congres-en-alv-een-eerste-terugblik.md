@@ -1,5 +1,5 @@
 ---
-title: Congres en ALV: een eerste terugblik
+title: 'Congres en ALV: een eerste terugblik'
 date: 2008-09-13
 author: Tom Greuter
 categories: 

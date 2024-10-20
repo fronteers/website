@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 12: Web Content Accessibility Guidelines (WCAG) 1.0
+title: 'Webrichtlijn 12: Web Content Accessibility Guidelines (WCAG) 1.0'
 date: 2008-03-04
 author: Krijn Hoetmer
 categories: 

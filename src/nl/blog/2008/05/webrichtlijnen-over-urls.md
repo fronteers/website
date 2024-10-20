@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 27 t/m 33: URL's
+title: "Webrichtlijn 27 t/m 33: URL's"
 date: 2008-05-06
 author: Krijn Hoetmer
 categories: 

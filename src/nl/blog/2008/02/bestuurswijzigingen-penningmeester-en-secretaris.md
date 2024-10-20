@@ -1,5 +1,5 @@
 ---
-title: Bestuurswijzigingen: penningmeester en secretaris
+title: 'Bestuurswijzigingen: penningmeester en secretaris'
 date: 2008-02-13
 author: Peter-Paul Koch
 categories: 

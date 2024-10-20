@@ -1,5 +1,5 @@
 ---
-title: Fronteers 2008: Anne van Kesteren
+title: 'Fronteers 2008: Anne van Kesteren'
 date: 2008-08-25
 author: PPK, Mike & Krijn
 categories: 

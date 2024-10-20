@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 55 &amp; 56: Links voor seriële navigatie
+title: 'Webrichtlijn 55 &amp; 56: Links voor seriële navigatie'
 date: 2008-10-07
 author: Krijn Hoetmer
 categories: 

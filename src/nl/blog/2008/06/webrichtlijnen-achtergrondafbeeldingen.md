@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 42 &amp; 43: Achtergrondafbeeldingen
+title: 'Webrichtlijn 42 &amp; 43: Achtergrondafbeeldingen'
 date: 2008-06-17
 author: Krijn Hoetmer
 categories: 

@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 7 &amp; 8: Gebruik de Strict variant voor nieuwe websites, en ontwijk de Frameset variant
+title: 'Webrichtlijn 7 &amp; 8: Gebruik de Strict variant voor nieuwe websites, en ontwijk de Frameset variant'
 date: 2008-02-12
 author: Krijn Hoetmer
 categories: 

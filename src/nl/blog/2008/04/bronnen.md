@@ -1,5 +1,5 @@
 ---
-title: Handig: veel nuttige links voor front-end ontwikkelaars
+title: 'Handig: veel nuttige links voor front-end ontwikkelaars'
 date: 2008-04-04
 author: Maaike de Laat
 categories: 

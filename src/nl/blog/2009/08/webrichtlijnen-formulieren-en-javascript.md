@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 86 en 87: Formulieren en JavaScript
+title: 'Webrichtlijn 86 en 87: Formulieren en JavaScript'
 date: 2009-08-11
 author: Edwin Martin
 categories: 

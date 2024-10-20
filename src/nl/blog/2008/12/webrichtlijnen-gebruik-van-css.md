@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 67 &amp; 68: Richtlijnen voor het gebruik van CSS
+title: 'Webrichtlijn 67 &amp; 68: Richtlijnen voor het gebruik van CSS'
 date: 2008-12-09
 author: Krijn Hoetmer
 categories: 

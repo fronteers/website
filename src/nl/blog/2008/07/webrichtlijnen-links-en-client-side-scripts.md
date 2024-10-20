@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 48, 49 &amp; 50: Links en client-side scripts
+title: 'Webrichtlijn 48, 49 &amp; 50: Links en client-side scripts'
 date: 2008-07-01
 author: Krijn Hoetmer
 categories: 

@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 25 &amp; 26: Lijsten
+title: 'Webrichtlijn 25 &amp; 26: Lijsten'
 date: 2008-04-22
 author: Krijn Hoetmer
 categories: 

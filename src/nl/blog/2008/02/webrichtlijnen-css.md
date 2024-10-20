@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 9: Cascading Style Sheets (CSS) Level 2.1
+title: 'Webrichtlijn 9: Cascading Style Sheets (CSS) Level 2.1'
 date: 2008-02-19
 author: Krijn Hoetmer
 categories: 

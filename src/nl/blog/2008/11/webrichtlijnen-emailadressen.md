@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 59 t/m 62: Links naar e-mailadressen
+title: 'Webrichtlijn 59 t/m 62: Links naar e-mailadressen'
 date: 2008-11-04
 author: Krijn Hoetmer
 categories: 

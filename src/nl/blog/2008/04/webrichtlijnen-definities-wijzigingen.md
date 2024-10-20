@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 19, 20 &amp; 21: Tekstopmaak, definities, wijzigingen, superscript en subscript
+title: 'Webrichtlijn 19, 20 &amp; 21: Tekstopmaak, definities, wijzigingen, superscript en subscript'
 date: 2008-04-08
 author: Krijn Hoetmer
 categories: 

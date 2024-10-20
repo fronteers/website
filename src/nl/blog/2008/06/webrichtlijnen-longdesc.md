@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 39: Het longdesc attribuut en d-links
+title: 'Webrichtlijn 39: Het longdesc attribuut en d-links'
 date: 2008-06-10
 author: Krijn Hoetmer
 categories: 

@@ -1,5 +1,5 @@
 ---
-title: Fronteersbijeenkomst 8 februari: 2e spreker bekend
+title: 'Fronteersbijeenkomst 8 februari: 2e spreker bekend'
 date: 2008-01-24
 author: Tom Greuter
 categories: 

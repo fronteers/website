@@ -1,5 +1,5 @@
 ---
-title: Fronteers-bijeenkomst: 8 februari Amsterdam
+title: 'Fronteers-bijeenkomst: 8 februari Amsterdam'
 date: 2008-01-11
 author: Peter-Paul Koch
 categories: 

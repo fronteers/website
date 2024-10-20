@@ -1,5 +1,5 @@
 ---
-title: Herinnering: bijeenkomst 13 mei
+title: 'Herinnering: bijeenkomst 13 mei'
 date: 2008-05-09
 author: Peter-Paul Koch
 categories: 

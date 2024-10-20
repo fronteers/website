@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 52 &amp; 53: Tabben tussen links
+title: 'Webrichtlijn 52 &amp; 53: Tabben tussen links'
 date: 2008-09-23
 author: Krijn Hoetmer
 categories: 

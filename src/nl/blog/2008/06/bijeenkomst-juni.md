@@ -1,5 +1,5 @@
 ---
-title: Fronteers-bijeenkomst: 27 juni Arnhem
+title: 'Fronteers-bijeenkomst: 27 juni Arnhem'
 date: 2008-06-13
 author: Arjan Eising
 categories: 

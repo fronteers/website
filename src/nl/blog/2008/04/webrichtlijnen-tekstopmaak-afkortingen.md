@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 18: Tekstopmaak, afkortingen
+title: 'Webrichtlijn 18: Tekstopmaak, afkortingen'
 date: 2008-04-01
 author: Sander van Lambalgen
 categories: 

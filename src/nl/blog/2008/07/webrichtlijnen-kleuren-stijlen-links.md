@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 51: Kleuren en stijlen van links
+title: 'Webrichtlijn 51: Kleuren en stijlen van links'
 date: 2008-07-08
 author: Krijn Hoetmer
 categories: 

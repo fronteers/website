@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 44, 45, 46 &amp; 47: Linktekst
+title: 'Webrichtlijn 44, 45, 46 &amp; 47: Linktekst'
 date: 2008-06-24
 author: Krijn Hoetmer
 categories: 

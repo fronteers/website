@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 37, 38, 40 &amp; 41: Het alt attribuut
+title: 'Webrichtlijn 37, 38, 40 &amp; 41: Het alt attribuut'
 date: 2008-06-03
 author: Krijn Hoetmer
 categories: 

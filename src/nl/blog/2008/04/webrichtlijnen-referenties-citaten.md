@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 22, 23 &amp; 24: Referenties en citaten
+title: 'Webrichtlijn 22, 23 &amp; 24: Referenties en citaten'
 date: 2008-04-15
 author: Krijn Hoetmer
 categories: 

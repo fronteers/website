@@ -1,5 +1,5 @@
 ---
-title: Webrichtlijn 34: Open standaarden
+title: 'Webrichtlijn 34: Open standaarden'
 date: 2008-05-13
 author: Tom-Eric, Krijn & Kilian
 categories: 

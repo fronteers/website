@@ -1,5 +1,5 @@
 ---
-title: Herinnering: bijeenkomst op 13 november
+title: 'Herinnering: bijeenkomst op 13 november'
 date: 2008-11-10
 author: Sander van Lambalgen
 categories: 

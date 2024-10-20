@@ -1,5 +1,5 @@
 ---
-title: Fronteers 2008: kaartverkoop van start; sprekerswijziging
+title: 'Fronteers 2008: kaartverkoop van start; sprekerswijziging'
 date: 2008-08-18
 author: Peter-Paul Koch
 categories: 
