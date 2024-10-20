@@ -1,5 +1,6 @@
 {
   "layout": "members-single.liquid",
   "permalink": "/{{ page.filePathStem }}/index.html",
-  "tags": "members"
+  "tags": "members",
+  "useHero": "aboutushero"
 }
