@@ -37,16 +37,18 @@
     padding-inline-end: 0;
 }
 
+/* the other language */
 .page-header-translate .navigation-link:not([aria-current]) {
   text-decoration: underline;
-  color: var(--yellow);
-  font-size: var(--font-size-20);
-  font-weight: bold;
+  color: #fff; 
 }
 
+/* the current language */
 .page-header-translate .navigation-link[aria-current="page"] {
-  color: #fff;
+  color: var(--yellow);
+  font-weight: bold;
   text-decoration: none;
+  pointer-events: none;
 }
 
 .page-header-translate .navigation-link {

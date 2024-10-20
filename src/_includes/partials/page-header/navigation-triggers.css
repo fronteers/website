@@ -75,11 +75,16 @@
   outline-offset: -2px;
 }
 
+@media all and (max-width: 60.124em) {
+  .navigation-opened .navigation-list-item--toplevel > a {
+    flex: 1 1 auto;
+  }
+}
+
 .navigation-submenu-toggle[aria-expanded="true"] + .navigation-list--sublevel {
     display: block;
     width: 100%;
 }
-
 
 @media all and (min-width: 60.125em) {
     .navigation-submenu-toggle[aria-expanded="true"] + .navigation-list--sublevel {

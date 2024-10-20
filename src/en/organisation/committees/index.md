@@ -1,7 +1,6 @@
 ---
 key: committees
 title: Committees
-
 heroSlogan: ''
 ---
 
