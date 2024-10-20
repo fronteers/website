@@ -13,13 +13,17 @@
 
     {%- for language in site.languages -%}
         {% if language.code != locale %}
+            {%- assign translatedUrl = null -%}
+
             {%- for item in collections.all -%}
-                {%- if item.data.key == key and item.data.locale == locale -%}
+                {%- if item.data.key == key and item.data.locale == language.code -%}
                     {%- assign translatedUrl = item.url -%}
                 {%- endif -%}
             {%- endfor -%}
 
-            <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
+            {% if translatedUrl %}
+                <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
+            {% endif %}
         {% endif %}
     {%- endfor -%}
 
