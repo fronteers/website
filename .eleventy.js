@@ -66,6 +66,7 @@ module.exports = function (eleventyConfig) {
       "http://api.dojotoolkit.org*",
       "http://www.webdesignermagazine.nl/*",
       "http://meetup.com*",
+      "https://github.com/fronteers/website*",
     ],
     excludeInputs: [],
     callback: null,

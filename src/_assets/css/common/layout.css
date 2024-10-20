@@ -155,6 +155,7 @@ main section > .h {
   padding: 0;
 }
 
+.list-item--job,
 .list-item--blog {
     margin-block: var(--spacing-double);
 }

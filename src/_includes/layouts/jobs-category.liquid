@@ -20,7 +20,7 @@
                 {%- for post_category in post_categories -%}
                     {%- assign current_category = post_category | downcase -%}
                     {%- if category.title == current_category -%}
-                    <li class="list-item ">
+                    <li class="list-item list-item--job">
                         {%- include partials/job headerlvl:"h3" index:forloop.index job:post -%}
                     </li>
                     {%- endif -%}

@@ -8,10 +8,9 @@
         <div class="inner-wrapper">
             {%- include partials/utility/dynamic-category-loop level: "h3" type: "job" typeURL: translations[locale].jobsURL -%}
 
-
             <ul class="desktop-rows mobile-slider">
                 {%- for job in pagination.items limit:pagination.size -%}
-                    <li class="list-item ">
+                    <li class="list-item list-item--job">
                         {%- include partials/job headerlvl:"h3" index:forloop.index -%}
                     </li>
                 {%- endfor -%}
