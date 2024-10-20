@@ -324,8 +324,8 @@
     }
 
     .hero-content {
-        padding-inline-start: calc(11 * var(--spacing));
-        padding-inline-end: calc(11 * var(--spacing));
+        max-width: 72ch;
+        margin: 0px auto;
         padding-block-start: calc(2 * var(--spacing));
         padding-block-end: calc(4 * var(--spacing));
     }
