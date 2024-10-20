@@ -1,0 +1,20 @@
+---
+title: 'Webrichtlijn 73 t/m 78: Anatomie en toegankelijkheid van een tabel'
+date: 2009-02-10
+author: Krijn Hoetmer
+categories: 
+  - Webrichtlijnen
+---
+Gebruik het `th` (table header) element voor het beschrijven van een kolom of rij in een tabel met relationele informatie. ([R-pd.11.2](http://www.webrichtlijnen.nl/handleiding/ontwikkeling/productie/tabellen/relationele-informatie/anatomie/#r-pd-11-2)) Groepeer rijen met alleen `th` (table header) cellen met het `thead` (table head) element. Groepeer de rest van de tabel met het `tbody` (table body) element. ([R-pd.11.3](http://www.webrichtlijnen.nl/handleiding/ontwikkeling/productie/tabellen/relationele-informatie/anatomie/#r-pd-11-3)) Gebruik het `scope` attribuut voor het associëren van tabellabels (`th` cellen) met kolommen of rijen. ([R-pd.11.4](http://www.webrichtlijnen.nl/handleiding/ontwikkeling/productie/tabellen/relationele-informatie/toegankelijkheid/#r-pd-11-4)) Gebruik het `header` [sic] en `id` element [sic] voor het associëren van tabellabels (`th` cellen) met individuele cellen in complexe tabellen. ([R-pd.11.5](http://www.webrichtlijnen.nl/handleiding/ontwikkeling/productie/tabellen/relationele-informatie/toegankelijkheid/#r-pd-11-5)) Geef afkortingen voor tabellabels (`th` cellen) via het `abbr` (abbreviation) attribuut wanneer de lengte van de inhoud van het tabellabel zodanig van lengte is dat herhaling in een spraakbrowser irritatie kan wekken. ([R-pd.11.6](http://www.webrichtlijnen.nl/handleiding/ontwikkeling/productie/tabellen/relationele-informatie/toegankelijkheid/#r-pd-11-6)) Gebruik het `caption` element of heading markup voor het geven van een koptekst boven een tabel. ([R-pd.11.7](http://www.webrichtlijnen.nl/handleiding/ontwikkeling/productie/tabellen/relationele-informatie/toegankelijkheid/#r-pd-11-7))
+
+Iedereen zal de elementen `tr`, `th` en `td` wel kennen. Maar wanneer gebruik jij `thead`, `tbody` (expliciet) en `tfoot`? Het voorbeeld waarbij een `thead` bij een print (op papier dus) meerdere keren terugkomt kennen we ondertussen wel, dus die telt niet ;o)
+
+"Een rij met alleen `th` cellen" is toch iets wat een stuk software zonder problemen automatisch als `thead` kan zien? Is dit misschien de reden waarom tabellen [op zoveel verschillende manieren](http://projectcerbera.com/web/study/2007/tables/) in elkaar geklust worden? Aan de [goede tutorials](http://www.456bereastreet.com/archive/200410/bring_on_the_tables/) ligt het niet, toch?
+
+In onze oneindige zoektocht naar _toegankelijkheid_ is het simpelweg gebruiken van `th` elementen natuurlijk niet genoeg. Een tabel "toegankelijk maken" moet namelijk wel moeilijk en op zichzelf al een niet bepaald toegankelijk klusje zijn. `scope`, `headers`, `id` en `abbr` attributen (ja, de Webrichtlijnen bevatten in R-pd.11.5 2 fouten, foei!) maken tabellen niet echt leuk om te bewerken. Zeker als die 4 eigenschappen geen invloed hebben op iets wat de content manager _ziet_. Als een tabel zo complex is dat je deze _extra_ informatie mee moet geven, is het dan niet handiger (voor iedereen) om de data in de tabel anders te presenteren? En is het extra werk [echt wel nodig](http://james.html5.org/tables/table_inspector.html)?
+
+Waarom zou je `<th abbr="Werkzaamheden Randstad">Werkzaamheden in de Randstad en omstreken</th>` gebruiken, in plaats van `<th>Werkzaamheden Randstad</th>`, met eventueel `title="Werkzaamheden in de Randstad en omstreken"`? Waarom wel rekening houden met "spraakbrowsers", maar niet met smalle schermen (of designs)?
+
+Waarom is het `summary` attribuut trouwens niet in een Webrichtlijn verwerkt? Voelden ze soms al [nattigheid](http://esw.w3.org/topic/HTML/SummaryForTABLE) m.b.t. de toekomst en HTML 5? Voor iedereen die de ontwikkeling rondom HTML 5 niet volgt: `summary` en `abbr` zitten er (nog) niet in. Wat is jouw mening hierover?
+
+En voor alle slimme CMS'en die _automatisch_ `headers`, `id`, `scope` en `summary` ("tabel bevat 5 rijen en 6 kolommen") attributen toevoegen om punten op [de Webrichtlijnentoets](http://www.webrichtlijnen.nl/toetsen/) te scoren: hou daar eens mee op ;-)

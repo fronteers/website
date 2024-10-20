@@ -29,6 +29,7 @@ Herengracht 469-4
 
 {%- googlemaps "Herengracht 469-4, Amsterdam" -%}
 
+
 ## Sign up
 
 We hope to see a lot of you on February 7th! [Register now on meetup.com](https://www.meetup.com/Fronteers-NL/events/258152423/) so that we know how many snacks and drinks we have to prepare. If you're hesitant to sign up for meetup.com, feel free to use the form at the bottom of this page instead.
