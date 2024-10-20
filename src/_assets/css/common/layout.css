@@ -170,7 +170,7 @@ main section > .h {
   }
 }
 
-@media all and (min-width: 81.875em) {
+@media all and (min-width: 56.25em) {
   .desktop-columns {
     grid-template-columns: repeat(3, 1fr);
   }
