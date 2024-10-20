@@ -103,6 +103,10 @@ module.exports = {
         //     title: "Freelancers",
         //     url: "/nl/freelancers",
         //   },
+        //   {
+        //     title: "Mentors",
+        //     url: "/nl/mentors",
+        //   },
         ],
       },
       {
@@ -242,6 +246,10 @@ module.exports = {
         //   {
         //     title: "Freelancers",
         //     url: "/en/freelancers",
+        //   },,
+        //   {
+        //     title: "Mentors",
+        //     url: "/en/mentors",
         //   },
         ],
       },
