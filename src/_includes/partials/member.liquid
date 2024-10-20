@@ -1,10 +1,11 @@
 <div data-partial="member" class="member">
     <header class="member-header member-header-{{ index }}">
-        <div class="member-header-background"></div>
         {%- if member.data.graphic -%}
             <img src="{{ member.data.graphic.src }}"alt="{%- if member.data.graphic.alt -%}{{ member.data.graphic.alt }}{%- endif -%}"class="member-graphic" />
         {%- endif -%}
-        {%- include partials/utility/dynamic-headerlevel level: "h3" title: member.data.title link: member.url -%}
+        <div class="member-name">
+            {%- include partials/utility/dynamic-headerlevel level: "h3" title: member.data.title link: member.url -%}
+        </div>
     </header>
     <div class="member-content">
         {%- if member.data.summary -%}
@@ -16,14 +17,13 @@
         {%- if member.data.specialties -%}
             <p>
                 <strong>{{ translations[locale].specialties }}:</strong><br/>
-
-                {%- for specialty in member.data.specialties -%}
-                    {%- if specialty -%}
-                        {%- comment -%} <a href="/{{ translations[locale].membersURL }}/{{ translations[locale].specialty }}/{{ specialty | slugify }}/"></a> {%- endcomment -%}
-
-                        {%- tag specialty -%}
-                    {%- endif -%}
-                {%- endfor -%}
+                <div class="member-specialties">
+                    {%- for specialty in member.data.specialties -%}
+                        {%- if specialty -%}
+                            {%- tag specialty -%}
+                        {%- endif -%}
+                    {%- endfor -%}
+                </div>
             </p>
         {%- endif -%}
 

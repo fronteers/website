@@ -12,19 +12,12 @@ key: specialties-{{ specialty.slug }}
 
     <main id="main" class="{% if useHero %}styledheader{% endif %}">
         <div class="inner-wrapper">
-            <div class="page-content">
-                {% unless useHero %}
-                    <h2>{{ title }}</h2>
-                {% endunless %}
-                {{ content }}
-            </div>
-
-            {%- include partials/freelancers/loop-freelancers-specialties headerlvl:"h3" -%}
+            {%- include partials/freelancers/loop-freelancers-specialties headerlvl:"h2" -%}
 
             <h2>{{ translations[locale].member_specialty }}: {{ specialty.title }}</h2>
 
             {%- assign posts = collections.members | getLocale: locale -%}
-            <ul class="desktop-columns">
+            <ul class="desktop-columns mobile-rows">
             {%- for post in posts -%}
                 {%- assign post_specialties = post.data.specialties -%}
                 {%- for post_specialty in post_specialties -%}

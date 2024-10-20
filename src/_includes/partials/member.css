@@ -10,53 +10,45 @@
   display: block;
   margin: 0px auto;
   object-fit: cover;
+  z-index: 2;
 }
 
 .member-header {
   text-align: center;
   position: relative;
   z-index: 2;
-  display: block;
-  inline-size: 100%;
-  min-height: 250px;
-  flex: 0 0 0;
-  -webkit-clip-path: url(#curly-brace-down-small);
-  clip-path: url(#curly-brace-down-small);
+  inline-size: 100%; 
+  display: grid;
+  grid-template-rows: repeat(3, 75px);
 }
 
-.member-header-1 {
-  background: linear-gradient(
-    180deg,
-    var(--page-background) 0%,
-    var(--page-background) 30%,
-    var(--red) 30%,
-    var(--red) 100%
-  );
+.member-name {
+  grid-column: 1 / 1;
+  grid-row: 2 / 4;
+  z-index: 1;
+  background-color: var(--yellow);
+  padding-top: 75px;
 }
 
-.member-header-2 {
-  background: linear-gradient(
-    180deg,
-    var(--page-background) 0%,
-    var(--page-background) 30%,
-    var(--lilac) 30%,
-    var(--lilac) 100%
-  );
+.member-header-1 .member-header-graphic {
+  background-color: var(--red);
 }
 
-.member-header-3 {
-  background: linear-gradient(
-    180deg,
-    var(--page-background) 0%,
-    var(--page-background) 30%,
-    var(--yellow) 30%,
-    var(--yellow) 100%
-  );
+.member-header-2 .member-header-graphic {
+  background-color: var(--lilac);
+}
+
+.member-header-3 .member-header-graphic {
+  background-color: var(--yellow);
 }
 
 .member-content {
   background-color: white;
   padding: var(--spacing);
+}
+
+.member-content .tag {
+    margin-block-end: var(--spacing-half);
 }
 
 @media all and (min-width: 46.875em) {

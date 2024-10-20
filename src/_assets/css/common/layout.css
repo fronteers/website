@@ -149,7 +149,8 @@ main section > .h {
 }
 
 .desktop-columns,
-.desktop-rows {
+.desktop-rows,
+.mobile-rows {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -163,10 +164,22 @@ main section > .h {
 @media all and (min-width: 46.875em) {
   .desktop-columns {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: var(--spacing-double);
     margin-block-end: var(--spacing);
   }
+}
+
+@media all and (min-width: 81.875em) {
+  .desktop-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media all and (max-width: 46.874em) {
+    .mobile-rows {
+        display: block;
+    }
 }
 
 .desktop-only {
