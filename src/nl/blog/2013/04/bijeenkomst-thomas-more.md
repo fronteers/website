@@ -24,7 +24,7 @@ Het programma is als volgt:
 
 ## Waar?
 
-Dit evenement vindt plaats bij [Thomas More Mechelen](http://www.lessius.eu/contact/campussen/vest), meerbepaald op Campus “De Vest” in aula 2. [Er is een plannetje beschikbaar op de detailpagina van deze bijeenkomst.](/bijeenkomsten/2013/thomas-more)
+Dit evenement vindt plaats bij Thomas More Mechelen, meerbepaald op Campus “De Vest” in aula 2. [Er is een plannetje beschikbaar op de detailpagina van deze bijeenkomst.](/bijeenkomsten/2013/thomas-more)
 
 ## Wie?
 

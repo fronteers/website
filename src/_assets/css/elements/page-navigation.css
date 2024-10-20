@@ -48,7 +48,7 @@
     text-decoration: underline;
 }
 
-.page-navigation a:focus {
+.page-navigation a:focus-visible {
     outline-offset: -6px;
 }
 
@@ -118,6 +118,12 @@ a[aria-current='page'] {
     background: transparent;
     border: none;
     padding: var(--spacing-half);
+    color: white;
+}
+
+.navigation-submenu-toggle:hover,
+.navigation-submenu-toggle:focus-visible {
+    color: var(--yellow);
 }
 
 .navigation-list-item--toplevel.open .navigation-submenu-toggle {

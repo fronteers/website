@@ -13,7 +13,7 @@ Op donderdag 31 oktober 2013 is Fronteers te gast bij [Digiti](http://www.digiti
 
 -   18:00: Ontvangst met belegde broodjes en een drankje
 -   19:00: Bert Timmermans van [Digiti](http://www.digiti.be) vertelt over zijn _uit de hand gelopen Pokémon-remake-project in HTML5_
--   20:00: Kristof Houben van [Mobile Vikings](https://mobilevikings.com/) deelt graag zijn kijk op _design thinking_ met jullie
+-   20:00: Kristof Houben van Mobile Vikings deelt graag zijn kijk op _design thinking_ met jullie
 -   21:00: Naborrelen met een drankje
 
 ## Waar?
