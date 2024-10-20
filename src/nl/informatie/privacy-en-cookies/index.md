@@ -8,4 +8,4 @@ Bij Fronteers willen we de zaken eenvoudig houden en uw privacy respecteren. Daa
 Hoewel wij geen cookies gebruiken, kan het zijn dat sommige diensten van derden waar we naar linken wel cookies gebruiken.
 
 Als lid worden uw gegevens zorgvuldig bewaard en nooit aan derden gegeven of verkocht.
-Uw naam verschijnt alleen op de [ledenpagina](http://localhost:8080/nl/leden/) als u expliciet toestemming geeft.
+Uw naam verschijnt alleen op de [ledenpagina](/nl/leden/) als u expliciet toestemming geeft.
