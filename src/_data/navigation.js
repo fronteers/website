@@ -13,10 +13,10 @@ module.exports = {
             title: "Commissies",
             url: "/nl/vereniging/commissies",
           },
-        //   {
-        //     title: "Leden",
-        //     url: "/nl/leden/",
-        //   },
+          {
+            title: "Leden",
+            url: "/nl/leden/",
+          },
           {
             title: "Vrijwilliger worden",
             url: "/nl/vereniging/vrijwilliger-worden",
@@ -157,10 +157,10 @@ module.exports = {
             title: "Committees",
             url: "/en/organisation/committees",
           },
-        //   {
-        //     title: "Members",
-        //     url: "/en/members/",
-        //   },
+          {
+            title: "Members",
+            url: "/en/members/",
+          },
           {
             title: "Membership meeting",
             url: "/en/organisation/members-meeting",
