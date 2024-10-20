@@ -1,4 +1,5 @@
 ---
+draft: true
  # Jouw naam
 title: Anneke Sinnema
  # Maak van de key een unieke slug (je voor en achternaam bijvoorbeeld). Hiermee wordt de Nederlandse aan de Engelse versie van deze pagina gekoppeld.

@@ -1,4 +1,5 @@
 ---
+draft: true
  # Your name
 title: Anneke Sinnema
  # Make the key a unique slug (for example, your first and last name). This links the Dutch version to the English version of this page.
