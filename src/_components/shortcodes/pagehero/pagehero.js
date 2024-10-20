@@ -13,8 +13,9 @@ exports.pagehero = (heroStyle, herotitle, herotext, heroImage) => `
  
     <div class="hero-graphic">
       <div class="hero-content">
-        ${heroStyle != '' ? `<h2>${herotitle}</h2>` : ''}
-        ${heroStyle != '' ? `<p>${herotext}</p>` : ''}
+        ${heroStyle == 'members-single' ? `<img src="${heroImage}" class="member-graphic">` : ''}
+        ${herotitle != '' ? `<h2>${herotitle}</h2>` : ''}
+        ${herotext != '' ? `<p>${herotext}</p>` : ''}
       </div>
     </div>
   </div>

@@ -106,6 +106,15 @@
   padding-block-end: 0;
 }
 
+.hero--members .hero-graphic,
+.hero--members .hero-graphic::after,
+.hero--members .hero-content,
+.hero--members-single .hero-graphic,
+.hero--members-single .hero-graphic::after,
+.hero--members-single .hero-content {
+  background-color: var(--yellow);
+}
+
 .hero-content a:hover,
 .hero-content a:focus {
     background-color: transparent;
@@ -188,6 +197,10 @@
     margin-bottom: 1rem;
     font-weight: normal;
     font-size: 2rem;
+}
+
+.hero-graphic .member-graphic {
+    margin-block-start: var(--spacing);
 }
 
 
