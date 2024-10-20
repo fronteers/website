@@ -4,7 +4,7 @@
     <ul role="list" class="category-list">
         {% assign tagClasses = "tag-link tag-link--large " %}
         {% assign activeClass = "tag-link--active" %}
-        {% assign mainPath = translations[locale].freelancersURL | prepend: "/" | append: "/" %}
+        {% assign mainPath = translations[locale].membersURL | prepend: "/" | append: "/" %}
         <li>
             <a href="{{ mainPath }}" 
                 class="{{ tagClasses }} {%- if page.url == mainPath -%}{{ activeClass }} {%- endif -%}"
