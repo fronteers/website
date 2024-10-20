@@ -61,7 +61,7 @@ function published_members(locale) {
     .filter((post) => Boolean(post.date <= now))
     .filter((post) => Boolean(!post.data.draft))
     .filter((post) => Boolean(!post.data.excludeFromCollection))
-    .filter((post) => Boolean(post.data.locale == "en"));
+      .filter((post) => Boolean(post.data.locale == locale));
 };
 
 function activity_categories(locale) {
