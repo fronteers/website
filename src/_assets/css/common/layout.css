@@ -80,21 +80,14 @@ main section > .h {
     background-color: transparent;
 }
 
-/* .page-content > p,
-.page-content > address,
-.page-content > ul,
-.page-content > h3,
-.page-content > h4,
-.page-content > table {
-    background-color: white;
-    padding: var(--spacing) calc(var(--spacing) * 3);
-    margin: var(--spacing) auto;
-} */
-
 .page-content > p:empty {
     background-color: none;
     padding: 0;
     margin: 0;
+}
+
+.page-content > p:last-child {
+    margin-block-end: 0;
 }
 
 .page-content > h5,
