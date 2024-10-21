@@ -1,0 +1,360 @@
+{%- include partials/utility/html-head -%}
+    <body data-layout='errors'>
+        <div class='layout' role='document'>
+            
+<div data-partial="page-header" class="page-header-wrapper">
+    <header class="page-header"><div data-partial="page-header/logo" class="page-header-logo">
+    <h1 id="page-title">
+        <a href="/">
+            <span class="visually-hidden">
+                
+                    Computer zegt nee!
+                
+            </span><svg xmlns="http://www.w3.org/2000/svg" width="810" height="138" aria-hidden="true" viewBox="0 0 810 138"><g fill="none" fill-rule="evenodd"><path fill="#ffce2e" d="M450 117.3c0 7-5.4 10.5-13.4 10.5h-20.4c-3 0-8 .4-8.8 7.2h-4.8c-.8-6.8-5.8-7.2-8.7-7.2h-20.5c-8 0-13.4-3.5-13.4-10.5V133h-90v-17l-45 17-45-17c-24.703 25.212-65.297 25.212-90 0V0h540v116l-45 17-45-17s-16 18.6-44.5 19h-1c-29 0-44.5-19-44.5-19ZM90 0v117.3c0 7-5.5 10.5-13.4 10.5H56c-2.9 0-7.8.4-8.7 7.2h-4.8c-.9-6.8-5.8-7.2-8.7-7.2H13.4c-8 0-13.4-3.5-13.4-10.5V0Zm720 0v117.3c0 7-5.5 10.5-13.4 10.5H776c-2.9 0-7.8.4-8.7 7.2h-4.8c-.9-6.8-5.8-7.2-8.7-7.2h-20.5c-8 0-13.4-3.5-13.4-10.5V133h-90l.1-17V0h179.9z"></path><path fill="#000" d="M24 94.9h12.4V66.6h25.9V55.3H36.4V39.4H68V27.9H24zm118.3-34.4h-18V39.3h10.8c5.8 0 11.5 4.8 11.5 11.9 0 4.9-1.7 7.3-4.3 9.3m16.7-8.6c0-13.3-10.6-24-24-24h-23v67h12.3V72H135l11.5 23h13.4l-12.7-24.7A21.5 21.5 0 0 0 159 52m523.3 8.5h-18V39.3h10.8c5.8 0 11.5 4.8 11.5 11.9 0 4.9-1.7 7.3-4.3 9.3m16.7-8.6c0-13.3-10.6-24-24-24h-23v67h12.3V72H675l11.5 23h13.4l-12.7-24.7A21.5 21.5 0 0 0 699 52M226 84.6c-10.6 0-18-10.8-18-22.7 0-12 7.4-22.7 18-22.7s18 10.7 18 22.7c0 11.9-7.4 22.7-18 22.7m0-57.2c-17 0-30.8 15.2-30.8 34.5 0 19.2 13.8 34.5 30.8 34.5s30.8-15.3 30.8-34.5c0-19.3-13.7-34.5-30.8-34.5m155 12h18.9v55.5h12.2V39.4H431V27.9h-50zm383.6 10.5c-3.5-2-4.7-3.7-4.7-6 0-2.5 2.5-5.4 6.4-5.4 3.4 0 6.2 2.8 7.6 4l10.6-5.6s-5-9.7-17.8-9.7c-11.8 0-20.1 8.1-20.1 17.2s5.9 13 12 16.4l11.1 6.3c4.7 2.6 7.6 5.2 7.6 9 0 5.2-4.8 8.6-9.6 8.6-5.7 0-10.7-3.6-14.9-9.5l-11 5.9c2 4 9 15 24.2 15 13.3 0 24.1-9 24.1-20.1 0-9.9-5.4-15-14.3-19.9l-11.2-6.2zM329.4 72.2l-26.8-44.3H291v67h11.6V50.7l26.8 44.2H341v-67h-11.6zm157.2-5.6h25.9V55.3h-25.9V39.4h30.6V27.9h-43v67h44V83.5h-31.6zm90 0h25.9V55.3h-25.9V39.4h30.6V27.9h-43v67h44V83.5h-31.6z"></path></g></svg>
+</a>
+    </h1>
+</div>
+<div data-partial="page-header/navigation-triggers" class="navigation-triggers">
+
+    <a href="#navigation" class="no-javascript" style="display: none"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 26 26">
+  <g>
+    <g transform="translate(-317.5 -14.002)">
+      <line data-name="Line 20" x2="26" transform="translate(317.5 16.5)" fill="none" stroke="#fff" stroke-width="3"></line>
+      <line data-name="Line 21" x2="26" transform="translate(317.5 26.572)" fill="none" stroke="#fff" stroke-width="3"></line>
+      <line data-name="Line 22" x2="26" transform="translate(317.5 36.644)" fill="none" stroke="#fff" stroke-width="3"></line>
+    </g>
+  </g>
+</svg>
+<span class="visually-hidden">Navigation</span>
+    </a>
+
+    <noscript>
+        <style>
+            @media all and (max-width: 60.124em) {
+                .no-javascript[style] {
+                    display: inline-block !important;
+                }
+                .no-javascript svg line {
+                    stroke: white;
+                }
+            }
+        </style>
+    </noscript>
+
+    <div id="load-on-javascript">
+        <button id="navigation-toggle" aria-expanded="false" class="navigation-open mobile-only">
+            <i class="navigation-open-icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 26 26">
+  <g>
+    <g transform="translate(-317.5 -14.002)">
+      <line data-name="Line 20" x2="26" transform="translate(317.5 16.5)" fill="none" stroke="#fff" stroke-width="3"></line>
+      <line data-name="Line 21" x2="26" transform="translate(317.5 26.572)" fill="none" stroke="#fff" stroke-width="3"></line>
+      <line data-name="Line 22" x2="26" transform="translate(317.5 36.644)" fill="none" stroke="#fff" stroke-width="3"></line>
+    </g>
+  </g>
+</svg>
+</i>
+            <i class="navigation-close-icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-Icon_close_menu">
+      <rect width="26" height="26"></rect>
+    </clipPath>
+  </defs>
+  <g id="Icon_close_menu" clip-path="url(#clip-Icon_close_menu)">
+    <g transform="translate(-318.5 -13)">
+      <line id="Line_20" data-name="Line 20" x2="22.89" y2="22.889" transform="translate(320.5 14.5)" fill="none" stroke="#fff" stroke-width="3"></line>
+      <line id="Line_22" data-name="Line 22" y1="22.906" x2="22.89" transform="translate(320.5 14.5)" fill="none" stroke="#fff" stroke-width="3"></line>
+    </g>
+  </g>
+</svg>
+</i>
+            <span class="visually-hidden">Navigation</span>
+        </button>
+    </div>
+
+</div>
+<nav data-partial="navigation" class="page-navigation page-navigation--header" role="navigation" id="navigation" aria-labelledby="main-navigation">
+    <h2 class="visually-hidden" id="hoofdnavigatie">Hoofdnavigatie</h2>
+    <ul class="navigation-list navigation-list--toplevel">
+
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="/nl/vereniging">
+                    Over Fronteers
+                </a><button type="button" class="navigation-submenu-toggle" aria-labelledby="openSubmenuLabel" aria-expanded="false" aria-controls="sub-over-fronteers">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="483.8 247 10.6 6" width="24px" height="14px">
+                            <path fill="currentColor" d="m490.7 250-4.6-4.6.7-.7 5.3 5.3-5.3 5.3-.7-.7 4.6-4.6Z" transform="rotate(90 0 0)" transform-origin="489.077px 250px"></path>
+                        </svg>
+                    </button>
+                    
+                    <ul class="navigation-list navigation-list--sublevel" id="sub-over-fronteers">
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/vereniging/bestuur">
+                            Bestuur
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/vereniging/commissies">
+                            Commissies
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/leden/">
+                            Leden
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/vereniging/vrijwilliger-worden">
+                            Vrijwilliger worden
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/vereniging/alv">
+                            Algemene Ledenvergadering
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/vereniging/geschiedenis">
+                            Geschiedenis
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/vereniging/statuten">
+                            Statuten
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/vereniging/contact">
+                            Contact
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/vereniging/communityondersteuning">
+                            Community ondersteuning
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/vereniging/badges">
+                            Laat zien dat je lid bent
+                        </a>
+                    </li></ul></li>
+
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="/nl/word-lid/">
+                    Word lid
+                </a><button type="button" class="navigation-submenu-toggle" aria-labelledby="openSubmenuLabel" aria-expanded="false" aria-controls="sub-word-lid">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="483.8 247 10.6 6" width="24px" height="14px">
+                            <path fill="currentColor" d="m490.7 250-4.6-4.6.7-.7 5.3 5.3-5.3 5.3-.7-.7 4.6-4.6Z" transform="rotate(90 0 0)" transform-origin="489.077px 250px"></path>
+                        </svg>
+                    </button>
+                    
+                    <ul class="navigation-list navigation-list--sublevel" id="sub-word-lid">
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/word-lid/lidmaatschap/">
+                            Lidmaatschap
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/word-lid/voorwaarden/">
+                            Voorwaarden
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/word-lid/code-of-conduct/">
+                            Code of conduct
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/word-lid/community">
+                            Community
+                        </a>
+                    </li></ul></li>
+
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="/nl/activiteiten/">
+                    Activiteiten
+                </a><button type="button" class="navigation-submenu-toggle" aria-labelledby="openSubmenuLabel" aria-expanded="false" aria-controls="sub-activiteiten">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="483.8 247 10.6 6" width="24px" height="14px">
+                            <path fill="currentColor" d="m490.7 250-4.6-4.6.7-.7 5.3 5.3-5.3 5.3-.7-.7 4.6-4.6Z" transform="rotate(90 0 0)" transform-origin="489.077px 250px"></path>
+                        </svg>
+                    </button>
+                    
+                    <ul class="navigation-list navigation-list--sublevel" id="sub-activiteiten">
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/activiteiten/events/">
+                            Meetups
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/activiteiten/workshops/">
+                            Workshop archief
+                        </a>
+                    </li>
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/activiteiten/videos/">
+                            Video archief
+                        </a>
+                    </li></ul></li>
+
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="/nl/blog/">
+                    Blog
+                </a></li>
+
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="/nl/werk-en-freelance/">
+                    Werk en freelance
+                </a><button type="button" class="navigation-submenu-toggle" aria-labelledby="openSubmenuLabel" aria-expanded="false" aria-controls="sub-werk-en-freelance">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="483.8 247 10.6 6" width="24px" height="14px">
+                            <path fill="currentColor" d="m490.7 250-4.6-4.6.7-.7 5.3 5.3-5.3 5.3-.7-.7 4.6-4.6Z" transform="rotate(90 0 0)" transform-origin="489.077px 250px"></path>
+                        </svg>
+                    </button>
+                    
+                    <ul class="navigation-list navigation-list--sublevel" id="sub-werk-en-freelance">
+                    <li class="navigation-list navigation-list-item--sublevel">
+                        <a href="/nl/werk-en-freelance/vacature-plaatsen/">
+                            Vacature plaatsen
+                        </a>
+                    </li></ul></li>
+
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="/nl/congres/">
+                    Congres
+                </a></li></ul>
+</nav>
+
+<noscript>
+    <style>
+
+        @media all and (min-width: 60.125em) {
+            li:hover > .navigation-list--sublevel:not(:empty),
+            a:hover + .navigation-list--sublevel:not(:empty),
+            a:focus + .navigation-list--sublevel:not(:empty),
+            .navigation-list-item--toplevel:focus-within
+                .navigation-list--sublevel:not(:empty) {
+                display: block;
+            }
+        }
+
+    </style>
+</noscript>
+<div data-partial="page-header/join-us" class="page-header-join-us">
+    <div class="join-us-link"><a href="/nl/word-lid/">
+                Word lid!
+            </a><div></div>
+    </div>
+</div>
+<div data-partial="page-header/search-and-translate" class="page-header-search-and-translate">
+    <!--<div data-partial="page-header/search" class="page-header-search">
+    <a href="#">Search</a>
+</div>
+--><nav data-partial="page-header/translate" class="page-header-translate" aria-label="Taal">
+    <ul role="list"><li><a class="c-lggnav__link navigation-link" aria-current="page" href="/404.html" lang="nl">
+                        <span class="visually-hidden">Huidige taal: </span>
+                        <span class="languageLabel" aria-label="Nederlands">NL</span></a></li><li>
+                        <a class="c-lggnav__link navigation-link a" hreflang="en" href="/en/" lang="en">
+                            <span class="visually-hidden">Switch to </span>
+                            <span class="languageLabel" aria-label="English">EN</span></a></li></ul>
+</nav>
+</div>
+</header>
+</div>
+
+            <main id='main' class='main'>
+                {%- pagehero 'homepage' title summary -%}
+
+                <nav class="backlinks">
+                    <a href="#nederlands" lang="nl">Nederlands</a> | 
+                    <a href="#english" lang="en">English</a>
+                </nav>
+
+                {{ content }}
+            </main>
+
+            
+<div data-partial="page-footer" class="page-footer-wrapper">
+    <footer class="page-footer">
+        <h2 class="visually-hidden" id="sociale-media">Sociale media</h2>
+        <ul class="desktop-columns">
+            <li>
+                <div class="social-media-header">
+                    <img src="/assets/images/icon_slack.svg" class="social-media-logo social-media-logo-slack" alt="">
+                    <h3 class="social-media-title" id="slack">Slack</h3>
+                </div>
+                <p>
+                    Fronteers heeft een actieve community op Slack. <a href="https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog">Meld je aan voor onze Slack</a> en praat mee over allerlei zaken rond frontend development.
+                </p>
+            </li>
+            <li>
+                <div class="social-media-header">
+                    <img src="/assets/images/icon_linkedin.svg" class="social-media-logo social-media-logo-linkedin" alt="">
+                    <h3 class="social-media-title" id="linkedin">LinkedIn</h3>
+                </div>
+                <p>
+                    Sluit je aan bij ons netwerk op <a href="https://www.linkedin.com/company/fronteers">Linkedin</a> en volg waar we ons mee bezig houden.
+                </p>
+            </li>
+            <li>
+                <div class="social-media-header">
+                    <img src="/assets/images/icon_socials.svg" class="social-media-logo social-media-logo-elsewhere" alt="">
+                    <h3 class="social-media-title" id="elders">Elders</h3>
+                </div>
+                <p>
+                    Je kunt Fronteers volgen via <a href="https://front-end.social/@fronteers">Mastodon</a> of <a href="https://bsky.app/profile/fronteers.bsky.social">BlueSky</a>. Vragen en opmerkingen over wat we doen kun je daar kwijt. Of bekijk ons profiel op <a href="https://www.meetup.com/fronteers-nl/">Meetup</a>.
+                </p>
+            </li>
+            <li>
+                <p class="footer-join-us">
+                    Hey front-ender!<br> Vergroot je netwerk en kom erbij!
+                </p>
+                <p class="footer-join-us-link">
+                    <a href="/nl/word-lid/" class="button button-parentheses">Word lid</a>
+                </p>
+            </li>
+        </ul><nav data-partial="navigation" class="page-navigation page-navigation--footer" role="navigation" aria-labelledby="footer-navigation">
+    <h2 class="visually-hidden" id="footer-links">Footer links</h2>
+    <ul class="navigation-list navigation-list--toplevel">
+
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="/nl/informatie/contact/">
+                    Contact
+                </a></li>
+
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="/nl/informatie/nieuwsbrief/">
+                    Nieuwsbrief
+                </a></li>
+
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="/nl/informatie/privacy-en-cookies/">
+                    Privacy &amp; cookie statement
+                </a></li>
+
+            <li class="navigation-list-item navigation-list-item--toplevel">
+                <a href="/nl/informatie/colofon/">
+                    Colofon
+                </a></li></ul>
+            </nav>
+
+            <noscript>
+                <style>
+
+                    @media all and (min-width: 60.125em) {
+                        li:hover > .navigation-list--sublevel:not(:empty),
+                        a:hover + .navigation-list--sublevel:not(:empty),
+                        a:focus + .navigation-list--sublevel:not(:empty),
+                        .navigation-list-item--toplevel:focus-within
+                            .navigation-list--sublevel:not(:empty) {
+                            display: block;
+                        }
+                    }
+
+                </style>
+            </noscript>
+            <script src="/assets/js/page-navigation.js"></script>
+                </footer>
+            </div>
+
+        </div>
+
+        <script type='module' src='{{ '/assets/js/main.js' | url }}'></script>
+    </body>
+</html>

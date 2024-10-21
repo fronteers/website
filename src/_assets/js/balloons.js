@@ -43,7 +43,10 @@
   }
 
   window.addEventListener("load", () => {
-    createBalloons(30);
+    if (!localStorage.getItem("balloonsShown")) {
+        createBalloons(30);
+        localStorage.setItem("balloonsShown", "true"); // Set the flag in localStorage
+    }
   });
 
   window.addEventListener("click", () => {

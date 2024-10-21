@@ -65,14 +65,16 @@ Want to get your hands dirty? Follow the steps below!
 
 > Don't understand one of these steps or want to have it explained differently? [Join us on Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`. We'll brainstorm with you on how best to get you up to speed!
 
-## Step 1: Clone the repository on your computer
+## Step 1: Fork the repository on GitHub  
 
-If you don't have it installed yet, [download and install Git](https://git-scm.com/downloads) for your computer.
-Git is a version management tool. While coding, you create "save points" (called commits), which makes it really useful when coding with other people. They can see what you've done and why, because you'll add a descriptive 'commit message'. And if you both edited a file, it'll help you make sure you don't overwrite the other person's code. [This article on Git by Milu Franz is a great explanation](https://dev.to/milu_franz/git-explained-the-basics-igc). [Roger Dudler's git guide](https://rogerdudler.github.io/git-guide/) lists all the useful commands.
-Git articles and video's online can be a little intimidating. It can help to install a good [Git graphical user interface](https://git-scm.com/downloads/guis).
+Before cloning the repository, you'll need to create a fork. A fork is a personal copy of the repository that you can work on freely without affecting the original project. To do this, go to the [Fronteers GitHub repository](https://github.com/fronteers/website) and click the "Fork" button in the top-right corner. This will create a copy of the repository under your own GitHub account. 
 
-Once you have Git, open a command line and go to a folder on your harddisk where you want to keep a copy of the Fronteers website code.
-**For example:** Go to a folder like `your-username/github/`, and do the following command. It will then create the Fronteers website code in `your-username/github/website` :)
+## Step 2: Clone the repository on your computer  
+
+Once you’ve forked the repository, you’re ready to clone it to your local machine. If you don’t have it installed yet, [download and install Git](https://git-scm.com/downloads) for your computer. Git is a version management tool. While coding, you create "save points" (called commits), which makes it really useful when coding with other people. They can see what you’ve done and why, because you’ll add a descriptive ‘commit message’. And if you both edited a file, it’ll help you make sure you don’t overwrite the other person’s code. This [This article on Git by Milu Franz is a great explanation](https://dev.to/milu_franz/git-explained-the-basics-igc). [Roger Dudler's git guide](https://rogerdudler.github.io/git-guide/) lists all the useful commands. Git articles and videos online can be a little intimidating. It can help to install a good [Git graphical user interface](https://git-scm.com/downloads/guis).
+
+Once you have Git, open a command line and go to a folder on your hard disk where you want to keep a copy of your forked Fronteers website code. 
+**For example:** Go to a folder like `your-username/github/`, and run the following command to clone your forked repository. It will then create the Fronteers website code in `your-username/github/website` :)
 
 ```bash
 git clone https://github.com/fronteers/website.git
@@ -80,7 +82,7 @@ git clone https://github.com/fronteers/website.git
 
 This makes a copy of all the code on your harddrive. Stay in this location on the commandline, we'll continue working here.
 
-## Step 2: Install node modules
+## Step 3: Install node modules
 
 First, make sure to install all the necessary modules with NPM:
 
@@ -91,7 +93,7 @@ npm install
 If this command seems foreign to you, check out this article: "[A beginner's guide to NPM](https://www.stackchief.com/tutorials/A%20Beginner%27s%20Guide%20to%20NPM)". In summary, it will install all the necessary modules to run Eleventy.
 If you haven't worked with it before, you will also need to [install Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-installer-to-install-nodejs-and-npm) ([If you have iOS or Windows, this link](https://nodejs.org/en/download/)).
 
-## Step 3: Create a git branch to work on
+## Step 4: Create a git branch to work on
 
 We'll make a branch, sort of a copy of the code where you save all your changes (`commits`). This helps keep all your changes in making a new component or a bugfix together. After you finish coding, you'll make a `pull-request`, which is essentially the expression we use for asking feedback of the team and permission to add your changes to the project.
 
@@ -109,7 +111,7 @@ git checkout -b bugfix/fix-typos-on-homepage
 git checkout -b content/add-my-meetup
 ```
 
-## Step 4: Run Eleventy
+## Step 5: Run Eleventy
 
 After you've installed all the necessary node modules, run
 
