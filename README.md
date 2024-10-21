@@ -46,9 +46,8 @@ This project is licensed under the terms of the [MIT license](LICENSE), with the
 
 RSS feeds will be available through:
 
-- https://fronteers-beta.netlify.app/blogs.xml
-- https://fronteers-beta.netlify.app/vacatures.xml
-- https://fronteers-beta.netlify.app/activiteiten.xml
-- https://fronteers-beta.netlify.app/blogs-en.xml
-- https://fronteers-beta.netlify.app/jobs.xml
-- https://fronteers-beta.netlify.app/activities.xml
+| Feed       | English                                   | Dutch                                       |
+| ---------- | ----------------------------------------- | ------------------------------------------- |
+| Blog       | https://fronteers.nl/feeds/blog-en.xml    | https://fronteers.nl/feeds/blog.xml         |
+| Jobs       | https://fronteers.nl/feeds/jobs.xml       | https://fronteers.nl/feeds/vacatures.xml    |
+| Activities | https://fronteers.nl/feeds/activities.xml | https://fronteers.nl/feeds/activiteiten.xml |
