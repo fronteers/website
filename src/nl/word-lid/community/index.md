@@ -16,12 +16,6 @@ Op Mastodon worden interessante front-end gerelateerde berichten gedeeld, net al
 
 Op [https://front-end.social/@Fronteersconference](https://front-end.social/@Fronteersconference) staat het nieuws over het Fronteers congres.
 
-## Twitter
-
-Op Twitter wordt Fronteers nieuws zoals bijeenkomsten, vacatures, interessante blogposts en code experimenten van leden en niet-leden geplaatst. Fronteers volgen op Twitter kan hier: https://twitter.com/fronteers.
-
-Op [https://twitter.com/fronteersconf](https://twitter.com/fronteersconf) staat het nieuws over het Fronteers congres.
-
 ## Linkedin
 
 Onze [LinkedIn pagina](https://www.linkedin.com/company/2835613/) kun je volgen voor nieuws vanuit de vereniging, of linken vanuit je profiel om aan te geven dat je voor Fronteers vrijwilligerswerk doet (of hebt gedaan).
