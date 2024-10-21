@@ -22,8 +22,6 @@ Op Twitter wordt Fronteers nieuws zoals bijeenkomsten, vacatures, interessante b
 
 Op [https://twitter.com/fronteersconf](https://twitter.com/fronteersconf) staat het nieuws over het Fronteers congres.
 
-Vacature plaatsen? Contact de Fronteers vacaturebank: [https://fronteers.nl/nl/werk-en-freelance/vacature-plaatsen/](https://fronteers.nl/nl/werk-en-freelance/vacature-plaatsen/)
-
 ## Linkedin
 
 Onze [LinkedIn pagina](https://www.linkedin.com/company/2835613/) kun je volgen voor nieuws vanuit de vereniging, of linken vanuit je profiel om aan te geven dat je voor Fronteers vrijwilligerswerk doet (of hebt gedaan).
