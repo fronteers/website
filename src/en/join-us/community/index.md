@@ -7,15 +7,15 @@ key: community
 
 Fronteers has its own Slack channel where we want to bring front-enders together to talk about interesting techniques and help each other. Fronteers has a non-profit account where the chat history is stored for free. There's a small group of volunteers that provides moderation.
 
-Members and non-members can read more and register at: /nl/blog/2016/02/fronteers-op-slack.
+Members and non-members can read more and register at: [Fronteers op Slack](/nl/blog/2016/02/fronteers-op-slack).
 
 ## Mastodon
 
-Interesting front-end related messages are shared on Mastodon, as well as Fronteers news such as meetings, vacancies, and interesting blog posts. You can follow Fronteers on Mastodon here: https://front-end.social/@fronteers or for news about Fronteers Conference at https://front-end.social/@Fronteersconference .
+Interesting front-end related messages are shared on Mastodon, as well as Fronteers news such as meetings, vacancies, and interesting blog posts. You can follow Fronteers on Mastodon here: [https://front-end.social/@fronteers](https://front-end.social/@fronteers). or for news about Fronteers Conference at [https://front-end.social/@Fronteersconference](https://front-end.social/@Fronteersconference).
 
 ## LinkedIn
 
-You can follow our [LinkedIn page](https://www.linkedin.com/company/2835613/) for news from the association, or link from your profile to indicate that you do (or have done) volunteer work for Fronteers .
+You can follow our [LinkedIn page](https://www.linkedin.com/company/2835613/) for news from the association, or link from your profile to indicate that you do (or have done) volunteer work for Fronteers.
 
 ## Videos
 
