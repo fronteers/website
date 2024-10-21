@@ -11,19 +11,32 @@
         {% endif %}
     </title>
 
-    {%- for language in site.languages -%}
-        {%- assign translatedUrl = null -%}
+    {%- if key -%}
+        {%- for language in site.languages -%}
+            {%- assign translatedUrl = null -%}
 
-        {%- for item in collections.all -%}
-            {%- if item.data.key == key and item.data.locale == language.code -%}
-                {%- assign translatedUrl = item.url -%}
-            {%- endif -%}
+            {%- for item in collections.all -%}
+                {%- if item.data.key == key and item.data.locale == language.code -%}
+                    {%- assign translatedUrl = item.url -%}
+                {%- endif -%}
+            {%- endfor -%}
+
+            {%- if translatedUrl -%}
+                {% if language.code == 'nl' %}
+                    {%- if canonical -%}
+                        <link rel="canonical" href="{{ translatedUrl }}">
+                    {%- else -%}
+                        <link rel="canonical" href="{{ translatedUrl }}">
+                    {%- endif -%}
+                {%- endif -%}
+                <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
+            {% endif %}
         {%- endfor -%}
-
-        {% if translatedUrl %}
-            <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
-        {% endif %}
-    {%- endfor -%}
+    {%- else -%}
+        {%- if canonical -%}
+            <link rel="canonical" href="{{ translatedUrl }}">
+        {%- endif -%}
+    {%- endif -%}
 
     <link rel="stylesheet" href="/assets/css/style.css?v=">
 

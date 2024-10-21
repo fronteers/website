@@ -3,16 +3,17 @@ title: Wees (niet) slim en gebruik webstandaarden
 date: 2022-12-14
 author: Derk-Jan Karrenbeld
 categories:
-    - Adventskalender
+  - Adventskalender
+canonical: https://derk-jan.com/articles/2022/12/16/dont-be-smart-and-use-web-standards
 ---
 
 Aangezien dit een lang artikel is, eerst even in het kort:
 
--   Gebruik van webstandaarden kunnen je helpen keuzes te maken;
--   Slimmere mensen dan ik hebben allerlei manieren bedacht om het wereldwijde web te gebruiken, inclusief allerlei randvoorwaarden en afwegingen;
--   Er bestaat een voorstel voor alles wat je maar kan bedenken;
--   Het web is niet gemaakt voor de browser;
--   Jij gebruikt webstandaarden.
+- Gebruik van webstandaarden kunnen je helpen keuzes te maken;
+- Slimmere mensen dan ik hebben allerlei manieren bedacht om het wereldwijde web te gebruiken, inclusief allerlei randvoorwaarden en afwegingen;
+- Er bestaat een voorstel voor alles wat je maar kan bedenken;
+- Het web is niet gemaakt voor de browser;
+- Jij gebruikt webstandaarden.
 
 Ben je een front-end developer die meer wil weten over het internet of het wereldwijde web? Ben je een full-stack developer (in wat voor hoedanigheid dan ook) en wil je meer weten over webstandaarden? Wil je helpen met keuzes maken bij architectuur of design van een (web-)API (application programming interface)?
 
@@ -38,9 +39,9 @@ Ofwel: _hypertext_ documenten die _hyperlinks_ bevatten naar andere _resources_ 
 
 "Hyper-" van de Griekse prefix "ὑπερ-", hetgeen _over_ of _super_, ofwel _meer dan_ betekent.
 
--   _Hypertext_ is tekst die digitaal wordt weergegeven, met referenties (jawel, de hyperlink) naar andere (hyper)tekst waar een gebruiker direct bij kan.
--   _Hyperlink_ is een link (een referentie) die een gebruiker toegang geeft tot de data achter die link.
--   _Hypermedia_ is een extensie van de term hypertext en beschrijft de non-lineaire (digitale) media dat platte tekst, hyperlinks, maar ook plaatjes, audio, en video bevat.
+- _Hypertext_ is tekst die digitaal wordt weergegeven, met referenties (jawel, de hyperlink) naar andere (hyper)tekst waar een gebruiker direct bij kan.
+- _Hyperlink_ is een link (een referentie) die een gebruiker toegang geeft tot de data achter die link.
+- _Hypermedia_ is een extensie van de term hypertext en beschrijft de non-lineaire (digitale) media dat platte tekst, hyperlinks, maar ook plaatjes, audio, en video bevat.
 
 Een voorbeeld van een _hypermedium_ is het WereldWijde Web!
 
@@ -70,9 +71,9 @@ Op het web spreken we technisch van _representaties_ van een _resource_. Het for
 
 Een aantal voorbeelden van media types zijn:
 
--   `text/html`
--   `image/png`
--   `application/json`
+- `text/html`
+- `image/png`
+- `application/json`
 
 Er zijn regels over de syntax en het gebruik van deze media types. We hebben met elkaar afgesproken hoe bepaalde binaire data kan worden geïnterpreteerd (gelezen) of worden gearrangeerd (geschreven). Een PNG plaatje is een PNG plaatje als we de binaire data _interpreteren_ als PNG. Hoe dat voor PNG moet is opgeschreven en aangenomen als standaard alvorens het (publiek) te registreren.
 
@@ -80,9 +81,9 @@ Er zijn regels over de syntax en het gebruik van deze media types. We hebben met
 
 Juist. Hier zijn nog drie voorbeelden van media types:
 
--   `application/vnd.ms-powerpoint`
--   `application/graphql`
--   `application/vnd.xpbytes.errors.v1+json`
+- `application/vnd.ms-powerpoint`
+- `application/graphql`
+- `application/vnd.xpbytes.errors.v1+json`
 
 Het eerste beschrijft Microsoft Powerpoint bestanden, het tweede was lang de standaard-niet-standaard manier om GraphQL queries en antwoorden te beschrijven, en de laatste is één van de vele _vendor (`vnd`) specifieke_ media types die intern op werk veel wordt gebruikt om foutmeldingen te beschrijven.
 
@@ -108,20 +109,20 @@ En my oh my... er is een RFC voor écht alles.
 
 Zojuist zijn al wat media types genoemd. Deze bestaan als gepubliceerde RFCs (en daarmee zijn het dus ook internet standaarden). Voorbeelden hiervan zijn:
 
--   [_image/png_ registratie](https://www.iana.org/assignments/media-types/image/png): specificatie [RFC 2083](https://www.rfc-editor.org/rfc/rfc2083);
--   [_text/html_ registratie](https://www.iana.org/assignments/media-types/text/html): specificatie [RFC 2854](https://www.rfc-editor.org/rfc/rfc2854) (voorheen [RFC 1866](https://www.rfc-editor.org/rfc/rfc1866));
--   [_application/json_ registratie](https://www.iana.org/assignments/media-types/application/json): specificatie [RFC 8259](https://www.rfc-editor.org/rfc/rfc8259) (voorheen [RFC 4627](https://www.rfc-editor.org/rfc/rfc4627))
+- [_image/png_ registratie](https://www.iana.org/assignments/media-types/image/png): specificatie [RFC 2083](https://www.rfc-editor.org/rfc/rfc2083);
+- [_text/html_ registratie](https://www.iana.org/assignments/media-types/text/html): specificatie [RFC 2854](https://www.rfc-editor.org/rfc/rfc2854) (voorheen [RFC 1866](https://www.rfc-editor.org/rfc/rfc1866));
+- [_application/json_ registratie](https://www.iana.org/assignments/media-types/application/json): specificatie [RFC 8259](https://www.rfc-editor.org/rfc/rfc8259) (voorheen [RFC 4627](https://www.rfc-editor.org/rfc/rfc4627))
 
 Ontzettend handig, want als je wil weten of je iets wel of niet kan doen, hoe je dat dan doet, en wat de afspraken zijn, dan kan je deze documenten dus bestuderen en bijna altijd het antwoord er in terug vinden.
 
 Met alles bedoel ik overigens wel écht _alles_. Hoe we platte text beschrijven vind je terug in [RFC 822](https://www.rfc-editor.org/rfc/rfc822), en dat stamt uit de tijd dat _het internet nog niet bestond_ maar we nog spraken van [ARPANET](https://en.wikipedia.org/wiki/ARPANET). Hoe je tekst kan versturen over het internet (over HTTP) is te lezen in [RFC 1521](https://www.rfc-editor.org/rfc/rfc1521#section-7.1), maar ook HTTP zelf is beschreven in RFCs, waaronder:
 
--   [RFC 1945: Hypertext Transfer Protocol -- HTTP/1.0](https://datatracker.ietf.org/doc/html/rfc1945)
--   [RFC 9110: HTTP Semantics](https://datatracker.ietf.org/doc/html/rfc9110)
--   [RFC 9111: HTTP Caching](https://datatracker.ietf.org/doc/html/rfc9111)
--   [RFC 9112: HTTP/1.1](https://datatracker.ietf.org/doc/html/rfc9112)
--   [RFC 9113: HTTP/2](https://datatracker.ietf.org/doc/html/rfc9113)
--   [RFC 9114: HTTP/3](https://datatracker.ietf.org/doc/html/rfc9114)
+- [RFC 1945: Hypertext Transfer Protocol -- HTTP/1.0](https://datatracker.ietf.org/doc/html/rfc1945)
+- [RFC 9110: HTTP Semantics](https://datatracker.ietf.org/doc/html/rfc9110)
+- [RFC 9111: HTTP Caching](https://datatracker.ietf.org/doc/html/rfc9111)
+- [RFC 9112: HTTP/1.1](https://datatracker.ietf.org/doc/html/rfc9112)
+- [RFC 9113: HTTP/2](https://datatracker.ietf.org/doc/html/rfc9113)
+- [RFC 9114: HTTP/3](https://datatracker.ietf.org/doc/html/rfc9114)
 
 Dat er voor allerlei technische aspecten RFCs bestaan (die dus veelal worden aangenomen als Internet Standaard) is voor mij niet raar. Maar toen ik zei dat er een RFC bestaat voor alles bedoelde ik (nóg) meer. Dus om nog heel even door te ratelen heb ik nog drie voorbeelden.
 
@@ -183,10 +184,10 @@ Als het protocol niet alleen voor browsers of eind-gebruikers is, dan is er meer
 
 ## ⚡ HTTP is de oplossing voor zogenoemde _hard problems_
 
--   Caching (veel user agents, één server);
--   Consistentie (data format, fouten, en het scheiden van data en fouten);
--   Interoperabiliteit (tussen verschillende implementaties);
--   (en meer).
+- Caching (veel user agents, één server);
+- Consistentie (data format, fouten, en het scheiden van data en fouten);
+- Interoperabiliteit (tussen verschillende implementaties);
+- (en meer).
 
 ## Het wiel uitvinden
 
@@ -331,10 +332,10 @@ Het leuke voor mij is dat Roy een vervolg heeft geschreven op zijn visie van RES
 
 Ik zal niet teveel in details treden wat we hier allemaal van hebben gebruikt om ons probleem op te lossen, want dat is meerdere artikelen an sich, maar het komt samengevat neer op:
 
--   Gebruik versies in media types (dus `application/vnd.fronteers.config.v1+json`);
--   Doe aan [content-negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation): een tactiek waarbij de server kijkt naar de [Accept header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept) van het verzoek en gebaseerd daarop een antwoord geeft met desbetreffende [Content-Type header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type);
--   Valideer antwoorden van de server in de server, en geef een foutmelding als het antwoord niet overeenkomt met een contract. In andere woorden: bepaal van te voren hoe een antwoord met een bepaalde `Content-Type` er uit gaat zien en forceer dat gedrag;
--   Ondersteun zo lang mogelijk een media type. Het is bijna altijd dezelfde informatie net iets anders gerepresenteerd, dus dit is vaak goedkoop om te doen. Je hoeft namelijk de code voor de oudere versies bijna nooit aan te raken.
+- Gebruik versies in media types (dus `application/vnd.fronteers.config.v1+json`);
+- Doe aan [content-negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation): een tactiek waarbij de server kijkt naar de [Accept header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept) van het verzoek en gebaseerd daarop een antwoord geeft met desbetreffende [Content-Type header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type);
+- Valideer antwoorden van de server in de server, en geef een foutmelding als het antwoord niet overeenkomt met een contract. In andere woorden: bepaal van te voren hoe een antwoord met een bepaalde `Content-Type` er uit gaat zien en forceer dat gedrag;
+- Ondersteun zo lang mogelijk een media type. Het is bijna altijd dezelfde informatie net iets anders gerepresenteerd, dus dit is vaak goedkoop om te doen. Je hoeft namelijk de code voor de oudere versies bijna nooit aan te raken.
 
 Om deze interessante uitdaging op te lossen kon ik dus gebruik maken van het denk werk van meerdere slimmen mensen (iedereen die heeft bijgedragen aan de RFC die uiteindelijk _best practice werd_) hetgeen er ook toe heeft geleid dat ik nu, vijf jaar later, nog steeds apps kan ondersteunen die versie 1 draaien van de API. Daarnaast konden de mobiele app developers _gradueel_ upgraden: ze konden voor elk verzoek bepalen of ze het nieuwe gedrag wilden ondersteunen door met de _Accept_ en _Content-Type_ headers te spelen. Hier hebben een hele reeks web standaarden aan bijgedragen.
 
@@ -373,10 +374,10 @@ Content-Language: en
 
 In het kort:
 
--   `type` is altijd een URI die het type probleem identificeert. Het wordt sterk aangeraden om deze URI "browsebaar" te maken en dat deze wijst naar documentatie over de fout.
--   `title` is een tekstuele samenvatting voor mensen! Deze kan worden vertaald door middel van [Content-Negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation) (aangeven welke talen je zou willen via `Accept-Language`, en de server kiest dan een ander antwoord gebaseerd op je verzoek).
--   `detail`: is een tekstuele uitleg van het probleem, voor mensen! Dus geen computer bliep-die-bloep of SQL statements, of een _verbatim_ foutmelding.
--   `instance`: is een URI voor dit specifieke geval van deze fout.
+- `type` is altijd een URI die het type probleem identificeert. Het wordt sterk aangeraden om deze URI "browsebaar" te maken en dat deze wijst naar documentatie over de fout.
+- `title` is een tekstuele samenvatting voor mensen! Deze kan worden vertaald door middel van [Content-Negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation) (aangeven welke talen je zou willen via `Accept-Language`, en de server kiest dan een ander antwoord gebaseerd op je verzoek).
+- `detail`: is een tekstuele uitleg van het probleem, voor mensen! Dus geen computer bliep-die-bloep of SQL statements, of een _verbatim_ foutmelding.
+- `instance`: is een URI voor dit specifieke geval van deze fout.
 
 Doordat de `title` en `detail` velden verplicht zijn, werd de klant nu ook verplicht om de API betere foutmeldingen te laten geven (en hier heb ik ook bij geholpen).
 
