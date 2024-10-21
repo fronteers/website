@@ -4,16 +4,14 @@ title: Contact
 ---
 
 <section class="pre-formatted">
+{{ general-info.address_1 }}
+{{ general-info.address_2 }}
+{{ general-info.address_3 }}
 
-Fronteers
-'s-Gravesandelaan 20
-1222 SZ Hilversum
-
-KvK-nummer: 34285825
-Rabobank Amsterdam: NL85 RABO 0140 8612 46
-SWIFT/BIC: RABONL2U
-Btw-nummer: NL818609977B01
-
+Chamber of Commerce-number: {{ general-info.chamber_of_commerce }}
+Bank: {{ general-info.bank }}
+SWIFT / BIC: {{ general-info.swift_and_BIC }}
+Tax-number: {{ general-info.taxes }}
 </section>
 
 The Fronteers community is best found online on Slack. [Sign up right away](https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog) and join us for a chat about everything related to front-end development, or read the [blog post](/nl/blog/2016/02/fronteers-op-slack.html) for more information.
