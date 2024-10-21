@@ -20,7 +20,14 @@
             {%- endif -%}
         {%- endfor -%}
 
-        {% if translatedUrl %}
+        {%- if translatedUrl -%}
+            {% if language.code == 'nl' %}
+                {%- if canonical -%}
+                    <link rel="canonical" href="{{ canonical }}">
+                {%- else -%}
+                    <link rel="canonical" href="{{ translatedUrl }}">
+                {%- endif -%}
+            {%- endif -%}
             <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
         {% endif %}
     {%- endfor -%}
