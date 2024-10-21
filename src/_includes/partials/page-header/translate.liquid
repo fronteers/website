@@ -5,12 +5,14 @@
 >
     <ul role='list'>
         {%- for lgg in site.languages -%}
-            {%- for item in collections.all -%}
-                {%- if item.data.key == key and item.data.locale == lgg.code -%}
-                    {%- assign translatedUrl = item.url -%}
-                    {%- assign key = key %}
-                {%- endif -%}
-            {%- endfor -%}
+            {%- if key -%}
+                {%- for item in collections.all -%}
+                    {%- if item.data.key == key and item.data.locale == lgg.code -%}
+                        {%- assign translatedUrl = item.url -%}
+                        {%- assign key = key %}
+                    {%- endif -%}
+                {%- endfor -%}
+            {%- endif -%}
 
             <li>
                 {%- if locale == lgg.code -%}
