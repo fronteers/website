@@ -1,0 +1,22 @@
+{%- include partials/utility/html-head -%}
+    <body data-layout='errors'>
+        <div class='layout' role='document'>
+            {% include partials/page-header/_page-header %}
+
+            <main id='main' class='main'>
+                {%- pagehero 'homepage' title summary -%}
+
+                <nav class="backlinks">
+                    <a href="#nederlands" lang="nl">Nederlands</a> | 
+                    <a href="#english" lang="en">English</a>
+                </nav>
+
+                {{ content }}
+            </main>
+
+            {% include partials/page-footer/_page-footer %}
+        </div>
+
+        <script type='module' src='{{ '/assets/js/main.js' | url }}'></script>
+    </body>
+</html>
