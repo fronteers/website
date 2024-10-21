@@ -45,13 +45,23 @@ function freelancers(locale) {
     .filter((post) => Boolean(!post.data.draft));
 };
 
+function mentors(locale) {
+  return (collection) => collection
+    .getFilteredByTag("members")
+    .filter((post) => Boolean(post.date <= now))
+    .filter((post) => Boolean(!post.data.excludeFromCollection))
+    .filter((post) => Boolean(post.data.mentor))
+    .filter((post) => Boolean(post.data.locale == locale))
+    .filter((post) => Boolean(!post.data.draft));
+};
+
 function published_members(locale) {
   return collection => collection
     .getFilteredByTag("members")
     .filter((post) => Boolean(post.date <= now))
     .filter((post) => Boolean(!post.data.draft))
     .filter((post) => Boolean(!post.data.excludeFromCollection))
-    .filter((post) => Boolean(post.data.locale == "en"));
+      .filter((post) => Boolean(post.data.locale == locale));
 };
 
 function activity_categories(locale) {
@@ -159,6 +169,8 @@ module.exports = {
   published_jobs_nl: published_jobs("nl"),
   freelancers_en: freelancers("en"),
   freelancers_nl: freelancers("nl"),
+  mentors_en: mentors("en"),
+  mentors_nl: mentors("nl"),
   published_members_en: published_members("en"),
   published_members_nl: published_members("nl"),
   activity_categories_en: activity_categories("en"),
@@ -223,6 +235,16 @@ module.exports = {
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(post.data.freelancer))
       .filter((post) => Boolean(!post.data.draft));
+    },
+  
+
+  mentors(collection) {
+      return collection
+          .getFilteredByTag("members")
+          .filter((post) => Boolean(!post.data.excludeFromCollection))
+          .filter((post) => Boolean(post.date <= now))
+          .filter((post) => Boolean(post.data.mentor))
+          .filter((post) => Boolean(!post.data.draft));
   },
 
   drafts(collection) {

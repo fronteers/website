@@ -12,14 +12,13 @@
 .category-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-inline:  var(--spacing);
   margin-block-end: var(--spacing);
   display: flex;
   flex-wrap: wrap;
   flex: 0 1 auto;
   gap: 1em;
   justify-content: center;
-
 }
 
 .category-list li {

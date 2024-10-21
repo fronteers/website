@@ -2,11 +2,60 @@
 <body data-layout="members-single">
     {%- include partials/page-header/_page-header -%}
 
-    <main id="main" class="page-content inner-wrapper">
-        {% unless useHero %}
-            <h2>{{ title }}</h2>
-        {% endunless %}
-        {{ content }}
+    <main id="main" class="{% if useHero %}styledheader{%- endif -%}">
+        {%- pagehero 'members-single' title jobtitle graphic.src -%}
+        
+        <div class='inner-wrapper'>
+            <div class='page-content'>
+                {{ content }}
+            </div>
+
+            {%- if lookingForEmployment -%}
+                {%- if lookingForEmployment.availability -%}
+                    <div class="freelancer-info page-content">
+                        <h3>{{ translations[locale].worktitle }}</h3>
+                        <p>{{ title }} {{ translations[locale].lookingForEmployment }}.</p>
+
+                        {%- if lookingForEmployment.desc -%}
+                        <p>{{ lookingForEmployment.desc }}</p>
+                        {%- endif -%}
+                    </div>
+                {%- endif -%}
+            {%- endif -%}
+
+            {%- if freelancer -%}
+                <div class="freelancer-info page-content">
+                    <h3>Freelance</h3>
+                    <p>{{ title }} {{ translations[locale].is_a }} freelancer.</p>
+                    {%- if freelancer.desc -%}
+                        <p>{{ freelancer.desc }}</p>
+                    {%- endif -%}
+                    <hr />
+                    <p> 
+                        <a href="{{ translations[locale].freelancersURL | prepend: "/" | append: "/" }}">{{ translations[locale].allFreelancers }}</a>
+                    </p>
+                </div>
+            {%- endif -%}
+
+            {%- if mentor -%}
+                {%- if mentor.availability -%}
+                    <div class="mentor-info page-content">
+                        <h3>Mentor</h3>
+                        <p>{{ title }} {{ translations[locale].is_a }} mentor.</p>
+                        <p>{{ mentor.desc }}</p>
+
+                        <hr />
+                        <p>
+                            <a href="{{ translations[locale].mentorsURL | prepend: "/" | append: "/" }}">{{ translations[locale].allMentors }}</a>
+                        </p>
+                    </div>
+                {%- endif -%}
+            {%- endif -%}
+
+            <p class="backlinks">
+                <a href="{{ translations[locale].membersURL | prepend: "/" | append: "/" }}">{{ translations[locale].allMembers }}</a>
+            </p> 
+        </div>
     </main>
 
     {%- include partials/utility/edit-this-page -%}

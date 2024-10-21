@@ -27,59 +27,7 @@
         {% endif %}
     {%- endfor -%}
 
-    <style>
-        @font-face {
-            font-family: "Fabrik";
-            src: url("/assets/fonts/Fabrik-Regular.woff2") format("woff2");
-            font-weight: normal;
-            font-display: swap;
-        }
-
-        @font-face {
-            font-family: "Fabrik";
-            src: url("/assets/fonts/Fabrik-Bold.woff2") format("woff2");
-            font-weight: bold;
-            font-display: swap;
-        }
-
-        @font-face {
-            font-family: "Roboto";
-            src: url("/assets/fonts/Roboto-Regular.woff2") format("woff2");
-            font-weight: normal;
-            font-display: swap;
-        }
-
-        @font-face {
-            font-family: "Roboto";
-            src: url("/assets/fonts/Roboto-Bold.woff2") format("woff2");
-            font-weight: bold;
-            font-display: swap;
-        }
-
-        @font-face {
-            font-family: "Roboto";
-            src: url("/assets/fonts/Roboto-Italic.woff2") format("woff2");
-            font-weight: normal;
-            font-style: italic;
-            font-display: swap;
-        }
-
-        @font-face {
-            font-family: "Roboto";
-            src: url("/assets/fonts/Roboto-BoldItalic.woff2") format("woff2");
-            font-weight: bold;
-            font-style: italic;
-            font-display: swap;
-        }
-    </style>
-
-    <link rel="stylesheet" id="dynamic-css" href="/assets/css/style.css?v=">
-
-    <script>
-        const linkElement = document.getElementById('dynamic-css');
-        const randomString = (Math.random() + 1).toString(36).substring(7);
-        linkElement.href += randomString;
-    </script>
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
 
     <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">

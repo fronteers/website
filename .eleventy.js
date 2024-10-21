@@ -94,7 +94,7 @@ module.exports = function (eleventyConfig) {
     "src/_assets/css/style.css": "assets/css/style.css",
     "src/_assets/favicon": "assets/favicon",
     "src/_assets/company-logos": "assets/company-logos/",
-    "src/_assets/member-avatars": "assets/member-avatars/",
+    "src/_assets/member-avatars": "assets/images/member-avatars/",
     "src/_assets/fonts": "assets/fonts",
     "src/_assets/images": "assets/images",
     "src/_assets/js": "assets/js",

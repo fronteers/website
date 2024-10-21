@@ -1,16 +1,18 @@
 ---
 layout: members-single.liquid
 title: Anneke Sinnema
+key: anneke-sinnema
 date: 2020-11-10
 graphic:
-    src: /assets/images/banner-conference.jpg
+    src: /assets/images/member-avatars/anneke-sinnema.png
     alt:
-freelancer: Beschikbaar vanaf april
+freelancer: Currently not available
+mentor: https://cal.com/anneke-sinnema/fronteers-chat
 specialties:
-    - html
-    - css
     - accessibility
     - ux design
 ---
 
-Anneke vindt het kick-ass om met jullie samen aan dit project te werken. 🙌
+Anneke is a senior front-end developer based in Enschede, the Netherlands. She has worked as a freelancer for clients such as Amsterdam Airport Schiphol, Gemeente Amsterdam, Centraal Beheer, the Dutch Ministry of Health Welfare and Sports and Het Kadaster, and now works part-time for Stichting Pleio.
+
+Anneke specializes in building accessible websites according to the WCAG guidelines and finds it very important that everyone can use the internet equally.

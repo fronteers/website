@@ -16,4 +16,4 @@ Niet genoeg keuze? Ideeën voor nieuwe ontwerpen of teksten zijn altijd welkom, 
 
 Voor alle producten willen we regelmatig nieuwe ontwerpen blijven toevoegen, en daarmee zullen de oude ontwerpen weer verdwijnen. Wacht dus niet te lang en bestel snel.
 
-_Update:_ [Enkele](https://twitter.com/eising/status/105219979581997056) [leden](https://twitter.com/hedwygNL/status/104527705491513344) [hebben](https://twitter.com/rowdyrabouw/status/104212896501858304) hun shirts binnen. Als je die van jou ook al hebt ontvangen, tweet dan naar [@fronteers](https://twitter.com/fronteers) of plaats een reactie.
+_Update:_ [Enkele](https://twitter.com/eising/status/105219979581997056) [leden](https://twitter.com/hedwygNL/status/104527705491513344) [hebben](https://twitter.com/rowdyrabouw/status/104212896501858304) hun shirts binnen. 
