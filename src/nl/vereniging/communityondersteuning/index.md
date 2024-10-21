@@ -18,7 +18,7 @@ Qua kennis zou Fronteers mee kunnen helpen een spreker of presentator te vinden.
 
 Als een locatie gevonden moet worden, kunnen we helpen door een bedrijf te vinden dat als gastbedrijf kan optreden. Mochten we die samen niet kunnen vinden, dan kan ook een zaal gehuurd worden.
 
-Op onze [bijeenkomsten-pagina](/bijeenkomsten) kan een link worden geplaatst naar interessante activiteiten. Op ons Twitter-account [@fronteers](https://twitter.com/fronteers) kan ook een Tweet geplaatst worden met een link een activiteit.
+Op onze [bijeenkomsten-pagina](/bijeenkomsten) kan een link worden geplaatst naar interessante activiteiten. 
 
 Het is ook mogelijk een open voorstel in te dienen. In dat geval zou Fronteers de factuur voor een door jou opgegeven product of dienst kunnen betalen.
 

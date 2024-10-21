@@ -99,10 +99,14 @@ module.exports = {
             url: "/nl/werk-en-freelance/vacature-plaatsen/",
             title: "Vacature plaatsen",
           },
-          {
-            title: "Freelancers",
-            url: "/nl/freelancers",
-          },
+        //   {
+        //     title: "Freelancers",
+        //     url: "/nl/freelancers",
+        //   },
+        //   {
+        //     title: "Mentors",
+        //     url: "/nl/mentors",
+        //   },
         ],
       },
       {
@@ -239,10 +243,14 @@ module.exports = {
             url: "/en/jobs/post-job-opening/",
             title: "Post a job opening",
           },
-          {
-            title: "Freelancers",
-            url: "/en/freelancers",
-          },
+        //   {
+        //     title: "Freelancers",
+        //     url: "/en/freelancers",
+        //   },,
+        //   {
+        //     title: "Mentors",
+        //     url: "/en/mentors",
+        //   },
         ],
       },
       {

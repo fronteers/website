@@ -1,6 +1,5 @@
 .member {
   block-size: 100%;
-  background-color: white;
 }
 
 .member-graphic {
@@ -49,6 +48,15 @@
 
 .member-content .tag {
     margin-block-end: var(--spacing-half);
+}
+
+.backlinks {
+    margin-block-start: var(--spacing-half);
+    text-align: center;
+}
+
+.has-profile:has(a) ~ .has-no-profile {
+    display: none;
 }
 
 @media all and (min-width: 46.875em) {

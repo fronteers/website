@@ -19,8 +19,6 @@ html, body {
 }
 
 body {
-  -webkit-hyphens: auto;
-  hyphens: auto;
   margin: 0;
   padding: 0;
   background: var(--page-background);

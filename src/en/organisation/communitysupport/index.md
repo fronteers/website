@@ -18,7 +18,7 @@ In terms of knowledge, Fronteers could assist in finding a speaker or presenter.
 
 If a location needs to be found, we can help by finding a company that can act as a host. If we can't find one together, a venue can also be rented.
 
-On our [events page](/bijeenkomsten), a link to interesting activities can be posted. On our Twitter account [@fronteers](https://twitter.com/fronteers), a tweet with a link to an activity can also be posted.
+On our [events page](/bijeenkomsten), a link to interesting activities can be posted.
 
 It is also possible to submit an open proposal. In that case, Fronteers could pay the invoice for a product or service you specify.
 

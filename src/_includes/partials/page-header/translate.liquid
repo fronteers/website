@@ -11,30 +11,36 @@
                 {%- endif -%}
             {%- endfor -%}
 
-            <li
-                lang='{{ lgg.code }}'
-                {%- if locale == lgg.code -%}
-                    aria-current='true'
-                {%- endif -%}
-            >
+            <li>
                 {%- if locale == lgg.code -%}
                     <a
                         class='c-lggnav__link navigation-link'
                         aria-current='page'
                         href='{{ page.url }}'
+                        lang='{{ lgg.code }}'
                     >
                         <span class='visually-hidden'>{{ lgg.currentLabel }} </span>
-                        <span class='languageLabel' aria-label='{{ lgg.ariaLabel }}'>{{ lgg.label }}</span>
-                    </a>
+                        <span class='languageLabel' aria-label='{{ lgg.ariaLabel }}'>{{ lgg.label }}</span></a>
                 {%- else -%}
-                    <a
-                        class='c-lggnav__link navigation-link'
-                        hreflang="{{ lgg.code }}"
-                        href='/{{ lgg.code }}/'
-                    >
-                        <span class='visually-hidden'>{{ lgg.switchLabel }} </span>
-                        <span class='languageLabel' aria-label='{{ lgg.ariaLabel }}'>{{ lgg.label }}</span>
-                    </a>
+                    {% if translatedUrl %}
+                        <a
+                            class='c-lggnav__link navigation-link a'
+                            hreflang="{{ lgg.code }}"
+                            href='{{ translatedUrl }}'
+                            lang='{{ lgg.code }}'
+                        >
+                            <span class='visually-hidden'>{{ lgg.switchLabel }} </span>
+                            <span class='languageLabel' aria-label='{{ lgg.ariaLabel }}'>{{ lgg.label }}</span></a>
+                    {%- else -%}
+                        <a
+                            class='c-lggnav__link navigation-link'
+                            hreflang="{{ lgg.code }}"
+                            href='/{{ lgg.code }}/'
+                            lang='{{ lgg.code }}'
+                        >
+                            <span class='visually-hidden'>{{ lgg.switchLabel }} </span>
+                            <span class='languageLabel' aria-label='{{ lgg.ariaLabel }}'>{{ lgg.label }}</span></a>
+                   {%- endif -%}
                 {%- endif -%}
             </li>
         {%- endfor -%}

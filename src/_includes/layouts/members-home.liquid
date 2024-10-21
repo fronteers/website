@@ -1,41 +1,42 @@
----
-layout: base
----
-<div data-layout='members-home' class='inner-wrapper'>
-    <div class='page-content'>
-        <h2 class='visually-hidden'>{{ title }}</h2>
-        {{ content }}
+{%- include partials/utility/html-head -%}
 
-        <table>
-            <thead>
-                <th scope='col'>Naam</th>
-                <th scope='col'>Werkgever</th>
-            </thead>
-            <tbody>
-                {%- for lid in members-list %}
+<body data-layout="members-home">
+    {%- include partials/page-header/_page-header -%}
+
+    <main id="main" class="{% if useHero %}styledheader{% endif %}">
+        {%- pagehero 'members' title content -%}
+        
+        {%- assign sorted_members_list = members-list | sort: 'naam' -%}
+
+        <div data-layout='members-home' class='inner-wrapper'>
+            <div class='page-content'>
+                <table>
+                    <thead>
+                        <th scope='col'>Naam</th>
+                        <th scope='col'>Werkgever</th>
+                    </thead>
+                    <tbody>
+
+                {%- for lid in sorted_members_list %}
                     {% unless lid.naam == 'EOF' %}
                         <tr>
                             <td>
-                                <span class='blog-author'>{{ lid.naam }}</span>
-                                <!--
-                                {%- for member in members -%}
-                                    {%- if member.data.title == lid.naam -%}
-                                        {%- assign memberHasAProfilePage = true -%}
+                                <div class="has-profile">{%- for member in collections.published_members | getLocale: locale -%}
+                                    {%- if member.data.title == lid.naam  -%}
                                         {%- assign memberUrl = member.url -%}
-                                    {%- else -%}
-                                        {%- assign memberHasAProfilePage = false -%}
-                                        <span class='blog-author'>{{ lid.naam }}</span>
-                                    {%- endif -%}
-
-                                    {%- if memberHasAProfilePage -%}
-                                        <a href='{{ memberUrl }}'> {{ lid.naam }}</a>
+                                            <a href='{{ memberUrl }}'> {{ lid.naam }}</a>
                                         {% break %}
-                                    {%- else -%}
-                                        
                                     {%- endif -%}
-                                    {% break %}
-                                {%- endfor -%}
-                                -->
+                                    {%- endfor -%}
+                                </div>
+                                <div class="has-no-profile">
+                                    {%- for member in collections.published_members | getLocale: locale -%}
+                                    {%- if member.data.title != lid.naam  -%}
+                                            {{ lid.naam }}
+                                        {% break %}
+                                    {%- endif -%}
+                                    {%- endfor -%}
+                                </div>
                             </td>
                             <td>
                                 {% if lid.werkgever == '-' %}
@@ -50,5 +51,9 @@ layout: base
         </table>
 
         {%- include partials/pagination -%}
-    </div>
-</div>
+        </div>
+    </main>
+
+    {%- include partials/page-footer/_page-footer -%}
+</body>
+</html>

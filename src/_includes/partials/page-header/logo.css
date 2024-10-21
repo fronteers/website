@@ -15,6 +15,12 @@
   aspect-ratio: 810 / 138;
 }
 
+@media all and (min-width: 60.125em) {
+    .page-header-logo a {
+        height: auto;
+    }
+}
+
 .page-header-logo svg {
   max-width: 200px;
   inline-size: 100%;

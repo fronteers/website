@@ -22,6 +22,7 @@ If you'd like to contribute, we'd love to have you on board. You can check our [
 
 - [Code of Conduct](docs/code-of-conduct.md)
 - [How to contribute](docs/contribute.md)
+- [Add a profile page for yourself to the site!](docs/represent.md)
 - [Eleventy](https://www.11ty.dev/docs/)
 - [Markdown (CommonMark spec)](https://spec.commonmark.org/0.29/)
 - [Liquid](https://shopify.github.io/liquid/) (the version Eleventy uses, is a little older, and does not include the `| where` filter. We have built our own)

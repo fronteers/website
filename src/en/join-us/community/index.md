@@ -13,10 +13,6 @@ Members and non-members can read more and register at: /nl/blog/2016/02/fronteer
 
 Interesting front-end related messages are shared on Mastodon, as well as Fronteers news such as meetings, vacancies, and interesting blog posts. You can follow Fronteers on Mastodon here: https://front-end.social/@fronteers or for news about Fronteers Conference at https://front-end.social/@Fronteersconference .
 
-## Twitter
-
-Fronteers news such as meetings, vacancies, interesting blog posts and code experiments of members and non-members is posted on Twitter. You can follow Fronteers on Twitter here: https://twitter.com/fronteers or https://twitter.com/fronteersconf for news of our conference.
-
 ## LinkedIn
 
 You can follow our [LinkedIn page](https://www.linkedin.com/company/2835613/) for news from the association, or link from your profile to indicate that you do (or have done) volunteer work for Fronteers .

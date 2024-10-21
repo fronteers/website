@@ -1,0 +1,12 @@
+{
+  "layout": "mentors-home.liquid",
+  "permalink": "/{{ locale }}/{{ page.fileSlug }}/{%- if pagination.pageNumber > 0 -%}{{ pagination.pageNumber }}/{%- endif -%}index.html",
+  "tags": "pages",
+  "key": "mentors",
+  "pagination": {
+    "data": "collections.mentors_nl",
+    "size": "9",
+    "reverse": true,
+    "alias": "paginated_mentors"
+  }
+}

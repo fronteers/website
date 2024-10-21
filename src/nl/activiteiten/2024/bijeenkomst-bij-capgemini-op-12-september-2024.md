@@ -1,5 +1,5 @@
 ---
-title: Bijeenkomst bij Capgemini op 12 september 2024
+title: Bijeenkomst bij Capgemini
 date: 2024-07-26
 eventdate: 2024-09-12
 author: Josee Wouters

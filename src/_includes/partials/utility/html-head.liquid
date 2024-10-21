@@ -13,17 +13,24 @@
 
     {%- for language in site.languages -%}
         {% if language.code != locale %}
+            {%- assign translatedUrl = null -%}
+
             {%- for item in collections.all -%}
-                {%- if item.data.key == key and item.data.locale == locale -%}
+                {%- if item.data.key == key and item.data.locale == language.code -%}
                     {%- assign translatedUrl = item.url -%}
                 {%- endif -%}
             {%- endfor -%}
 
-            <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
+            {% if translatedUrl %}
+                <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
+            {% endif %}
         {% endif %}
     {%- endfor -%}
 
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | url | bust }}">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">
 
     {% if locale == 'nl' %}
     <link rel="alternate" type="application/atom+xml" title="Fronteers blog" href="https://fronteers.nl/feeds/blog.xml">
