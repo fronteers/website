@@ -89,6 +89,7 @@ module.exports = function (eleventyConfig) {
 
   /* Copy static assets to the dist directory */
   eleventyConfig.addPassthroughCopy({
+    "src/_downloads": "downloads",
     "src/_assets/css/common": "assets/css/common",
     "src/_assets/css/elements": "assets/css/elements",
     "src/_assets/css/style.css": "assets/css/style.css",
