@@ -8,6 +8,7 @@
             {%- for item in collections.all -%}
                 {%- if item.data.key == key and item.data.locale == lgg.code -%}
                     {%- assign translatedUrl = item.url -%}
+                    {%- assign key = key %}
                 {%- endif -%}
             {%- endfor -%}
 
@@ -28,6 +29,7 @@
                             hreflang="{{ lgg.code }}"
                             href='{{ translatedUrl }}'
                             lang='{{ lgg.code }}'
+                            data-content-key='{{ key }}'
                         >
                             <span class='visually-hidden'>{{ lgg.switchLabel }} </span>
                             <span class='languageLabel' aria-label='{{ lgg.ariaLabel }}'>{{ lgg.label }}</span></a>

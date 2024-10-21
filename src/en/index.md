@@ -1,5 +1,7 @@
 ---
 layout: home.liquid
+locale: en
+key: home
 title: Welcome to Fronteers
 ---
 
