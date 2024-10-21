@@ -12,18 +12,16 @@
     </title>
 
     {%- for language in site.languages -%}
-        {% if language.code != locale %}
-            {%- assign translatedUrl = null -%}
+        {%- assign translatedUrl = null -%}
 
-            {%- for item in collections.all -%}
-                {%- if item.data.key == key and item.data.locale == language.code -%}
-                    {%- assign translatedUrl = item.url -%}
-                {%- endif -%}
-            {%- endfor -%}
+        {%- for item in collections.all -%}
+            {%- if item.data.key == key and item.data.locale == language.code -%}
+                {%- assign translatedUrl = item.url -%}
+            {%- endif -%}
+        {%- endfor -%}
 
-            {% if translatedUrl %}
-                <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
-            {% endif %}
+        {% if translatedUrl %}
+            <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
         {% endif %}
     {%- endfor -%}
 
@@ -43,7 +41,7 @@
     {% endif %}
 
     <link rel="manifest" href="/assets/favicon/site.webmanifest">
-    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="48x48">  
+    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="48x48">
     <link rel="icon" href="/assets/favicon/icon.svg" sizes="any" type="image/svg+xml">
 
     <meta name="description" content="{{ translations[locale].metaDescription }}">
