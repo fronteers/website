@@ -74,10 +74,6 @@ module.exports = {
         title: "Activiteiten",
         subnav: [
           {
-            url: "/nl/activiteiten/events/",
-            title: "Meetups",
-          },
-          {
             url: "/nl/activiteiten/workshops/",
             title: "Workshop archief",
           },
@@ -217,10 +213,6 @@ module.exports = {
         url: "/en/activities/",
         title: "Activities",
         subnav: [
-          //     {
-          //         url: "/en/activities/events/",
-          //         title: "Meetups",
-          //     },
           {
             url: "/en/activities/workshops/",
             title: "Workshop archive",
