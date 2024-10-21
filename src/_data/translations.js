@@ -20,6 +20,7 @@ module.exports = {
         opensubmenu: "Open submenu",
         closesubmenu: "Close submenu",
         skiplink: "Skip to main content",
+        editThisPage: "Edit this page on GitHub",
         blockTitles: {
             homeHero: "We unite front-end developers",
             upcomingActivities: "Upcoming activities",
@@ -106,6 +107,7 @@ module.exports = {
         opensubmenu: "Open submenu",
         closesubmenu: "Sluit submenu",
         skiplink: "Sla het menu over",
+        editThisPage: "Pas deze pagina aan via GitHub",
         blockTitles: {
             homeHero: "We unite front-end developers",
             upcomingActivities: "Activiteiten",
