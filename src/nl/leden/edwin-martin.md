@@ -8,4 +8,4 @@ graphic:
 key: edwin-martin
 ---
 
-Edwin zit in het bestuur sinds 2017 en vervult de rol van secretaris. Hij woont in een gezellig vol huis in Hilversum.
+Edwin zat in het bestuur tussen 2017 en 2023 en vervulde de rol van secretaris. Hij woont in een gezellig vol huis in Hilversum.
