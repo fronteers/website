@@ -1,55 +1,109 @@
 ---
 key: badges
-title: Badges
-heroSlogan: ''
+title: Member badges
+heroSlogan: 'Show off your membership!'
 ---
 
-Below are some Fronteers badges/logos that you can use on your own site. You can also download the logo [as an Illustrator file](/_downloads/fronteers-logo.ai) (`.ai`, 1.2 MB) or [as an SVG file](/_downloads/fronteers-logo.svg) (`.svg`, 69 KB).
+Below you can find some Fronteers badges/logos that you can use on your own site to show you're a member. You can choose from 2 text variants (*"Proud member of"* or *"Member of"*) and also 4 colour variations of each.
 
-## 80×15px
+Alternatively, you can also opt to download the logo [as an SVG file](/downloads/fronteers-logo.svg) (`.svg`, 4 KB).
 
-![-](/_img/badges/fronteers-80x15.png)
+## Proud member Fronteers - 500x500px
 
-```
-<p><a href="http://fronteers.nl/" title="Fronteers — vakvereniging voor front-end developers"><img src="http://fronteers.nl/_img/badges/fronteers-80x15.png" alt="Fronteers"></a></p>
-```
-
-## 120×240px
-
-![-](/_img/badges/fronteers-120x240.png)
+<img src="/downloads/en-badges/proud-member-yellow-500x500.png" alt="Square badge, yellow Fronteers logo and text 'Proud member of Fronteers — professional community for front-end developers'" height="150">
 
 ```
-<p><a href="http://fronteers.nl/" title="Fronteers — vakvereniging voor front-end developers"><img src="http://fronteers.nl/_img/badges/fronteers-120x240.png" alt="Fronteers — vakvereniging voor front-end developers"></a></p>
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/proud-member-yellow-500x500.png" alt="Fronteers"></a></p>
 ```
 
-## 125×125px
-
-![-](/_img/badges/fronteers-125x125.png)
+<img src="/downloads/en-badges/proud-member-black-500x500.png" alt="Square badge, black Fronteers logo and text 'Proud member of Fronteers — professional community for front-end developers'" height="150">
 
 ```
-<p><a href="http://fronteers.nl/" title="Fronteers — vakvereniging voor front-end developers"><img src="http://fronteers.nl/_img/badges/fronteers-125x125.png" alt="Fronteers — vakvereniging voor front-end developers"></a></p>
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/proud-member-yellow-500x500.png" alt="Fronteers"></a></p>
 ```
 
-## 180×60px
-
-![-](/_img/badges/fronteers-180x60.png)
+<img src="/downloads/en-badges/proud-member-alt1-500x500.png" alt="Square badge, alternating Fronteers logo V1 and text 'Proud member of Fronteers — professional community for front-end developers'" height="150">
 
 ```
-<p><a href="http://fronteers.nl/" title="Fronteers — vakvereniging voor front-end developers"><img src="http://fronteers.nl/_img/badges/fronteers-180x60.png" alt="Fronteers — vakvereniging voor front-end developers"></a></p>
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/proud-member-yellow-500x500.png" alt="Fronteers"></a></p>
 ```
-
-## 200×32px
-
-![-](/_img/badges/fronteers-200x32.png)
+<img src="/downloads/en-badges/proud-member-alt2-500x500.png" alt="Square badge, alternating Fronteers logo V2 and text 'Proud member of Fronteers — professional community for front-end developers'" height="150">
 
 ```
-<p><a href="http://fronteers.nl/" title="Fronteers — vakvereniging voor front-end developers"><img src="http://fronteers.nl/_img/badges/fronteers-200x32.png" alt="Fronteers"></a></p>
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/proud-member-yellow-500x500.png" alt="Fronteers"></a></p>
 ```
 
-## 468×60px
+## Proud member of Fronteers - 500x247px
 
-![-](/_img/badges/fronteers-468x60.png)
+<img src="/downloads/en-badges/proud-member-yellow-500x247.png" alt="Rectangular badge with text 'Proud member of Fronteers — professional community for front-end developers'" height="150">
 
 ```
-<p><a href="http://fronteers.nl/" title="Fronteers — vakvereniging voor front-end developers"><img src="http://fronteers.nl/_img/badges/fronteers-468x60.png" alt="Fronteers — vakvereniging voor front-end developers"></a></p>
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/proud-member-yellow-500x247.png" alt="Fronteers"></a></p>
+```
+
+<img src="/downloads/en-badges/proud-member-black-500x247.png" alt="Rectangular badge with text 'Proud member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/proud-member-yellow-500x247.png" alt="Fronteers"></a></p>
+```
+
+<img src="/downloads/en-badges/proud-member-alt1-500x247.png" alt="Rectangular badge with text 'Proud member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/proud-member-yellow-500x247.png" alt="Fronteers"></a></p>
+```
+<img src="/downloads/en-badges/proud-member-alt2-500x247.png" alt="Square badge with text 'Proud member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/proud-member-yellow-500x247.png" alt="Fronteers"></a></p>
+```
+
+## Member of Fronteers - 500x500px
+
+<img src="/downloads/en-badges/fronteers-member-yellow-500x500.png" alt="Square badge with text 'Member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/fronteers-member-yellow-500x500.png" alt="Fronteers"></a></p>
+```
+
+<img src="/downloads/en-badges/fronteers-member-black-500x500.png" alt="Square badge with text 'Member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/fronteers-member-yellow-500x500.png" alt="Fronteers"></a></p>
+```
+
+<img src="/downloads/en-badges/fronteers-member-alt1-500x500.png" alt="Square badge with text 'Member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/fronteers-member-yellow-500x500.png" alt="Fronteers"></a></p>
+```
+<img src="/downloads/en-badges/fronteers-member-alt2-500x500.png" alt="Square badge with text 'Member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/fronteers-member-yellow-500x500.png" alt="Fronteers"></a></p>
+```
+
+## Member of Fronteers - 500x247px
+
+<img src="/downloads/en-badges/fronteers-member-yellow-500x247.png" alt="Rectangular badge with text 'Member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/fronteers-member-yellow-500x247.png" alt="Fronteers"></a></p>
+```
+
+<img src="/downloads/en-badges/fronteers-member-black-500x247.png" alt="Rectangular badge with text 'Member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/fronteers-member-yellow-500x247.png" alt="Fronteers"></a></p>
+```
+
+<img src="/downloads/en-badges/fronteers-member-alt1-500x247.png" alt="Rectangular badge with text 'Member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/fronteers-member-yellow-500x247.png" alt="Fronteers"></a></p>
+```
+<img src="/downloads/en-badges/fronteers-member-alt2-500x247.png" alt="Rectangular badge with text 'Member of Fronteers — professional community for front-end developers'" height="150">
+
+```
+<p><a href="https://fronteers.nl/" title="Fronteers — professional community for front-end developers"><img src="https://fronteers.nl/downloads/en-badges/fronteers-member-yellow-500x247.png" alt="Fronteers"></a></p>
 ```
