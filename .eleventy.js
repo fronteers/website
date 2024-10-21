@@ -1,6 +1,7 @@
 const { exec } = require("child_process");
 const glob = require("fast-glob");
-const { DateTime } = require("luxon");
+const { DateTime } = require("luxon"); 
+const fs = require("fs");
 
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -48,7 +49,20 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("localizedDate", function (dateObj, locale = "en") {
         return DateTime.fromJSDate(dateObj).setLocale(locale).toFormat("d LLLL yyyy");
     });
+  eleventyConfig.addFilter("bust", (url) => {
+    const [urlPart, paramPart] = url.split("?");
+    const params = new URLSearchParams(paramPart || "");
+    const relativeUrl = (urlPart.charAt(0) == "/") ? urlPart.substring(1) : urlPart;
 
+    try {
+      const fileStats = fs.statSync(relativeUrl);
+      const dateTimeModified = new DateTime(fileStats.mtime).toFormat("X");
+      params.set("v", dateTimeModified);
+    } catch (error) { }
+
+    return `${urlPart}?${params}`;
+  });
+  
   /* Add id to heading elements */
   eleventyConfig.addPlugin(pluginAddIdToHeadings);
 
