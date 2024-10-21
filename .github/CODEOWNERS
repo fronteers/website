@@ -1,0 +1,20 @@
+# This is a sample CODEOWNERS file for an Eleventy (11ty) website
+
+# The format is: 
+# <path> <user/team>
+
+# Assigning ownership of the whole repository
+* @fronteers/website-moderators
+
+# Assigning ownership of specific file types
+*.md @fronteers/content-moderators
+*.html @fronteers/frontend-moderators
+*.css @fronteers/frontend-moderators
+*.js @fronteers/frontend-moderators
+
+# Assigning ownership of configuration files
+.eleventy.js @fronteers/website-moderators
+package.json @fronteers/website-moderators
+.gitignore @fronteers/website-moderators
+docs/ @fronteers/website-moderators
+README.md @fronteers/website-moderators
