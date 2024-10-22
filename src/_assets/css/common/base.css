@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: var(--font-family-decoration), sans-serif;
+  background-color: black;
 }
 
 p {
