@@ -75,32 +75,22 @@ a[aria-current='page'] {
 }
 
 .navigation-list--sublevel a:before {
-    content: ' ';
+    content: '';
     position: absolute;
-    block-size: 1rem;
-    inline-size: 2rem;
-    background: url(/assets/images/chevron-right-white.svg) no-repeat center
-        center;
-    transition: var(--transition-out);
     display: inline-block;
+    block-size: 1.3rem;
+    inline-size: 1.3rem;
+    top: 0.7rem;
+    left: 0.5rem;
+    background: currentColor;
+    mask-image: url(/assets/images/chevron-right.svg);
+    mask-size: 1.3rem 1.3rem;
+    transition: var(--transition-out);
     margin-inline-end: 5px;
-    top: 0.85rem;
-    left: 0;
-    background-size: 50% auto;
-}
-
-.navigation-list--sublevel a[aria-current='page']:before {
-    background: url(/assets/images/chevron-right-lilac.svg) no-repeat center
-        center;
-    background-size: 50% auto;
 }
 
 .navigation-list--sublevel a[aria-current='page'] {
     text-decoration: underline;
-}
-
-.navigation-list--sublevel :is(a:hover, a:active, a:focus):before {
-    background-image: url(/assets/images/chevron-right-yellow.svg);
 }
 
 .navigation-list--sublevel {
