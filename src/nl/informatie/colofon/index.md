@@ -5,28 +5,36 @@ title: Colofon
 
 Deze website is gemaakt door vrijwilligers van Fronteers.
 
-- [anneke](https://github.com/anneke)
-- [banaan666](https://github.com/banaan666)
-- [edwinm](https://github.com/edwinm)
-- [Mangamaui](https://github.com/Mangamaui)
-- [SleeplessByte](https://github.com/SleeplessByte)
-- [michaelhastrich](https://github.com/michaelhastrich)
-- [iainvdw](https://github.com/iainvdw)
-- [bramsmulders](https://github.com/bramsmulders)
-- [JoseeWouters](https://github.com/JoseeWouters)
-- [AnnemiekNieboer](https://github.com/AnnemiekNieboer)
-- [Schepp](https://github.com/Schepp)
-- [thisislawatts](https://github.com/thisislawatts)
-- [maniflames](https://github.com/maniflames)
-- [hans2103](https://github.com/hans2103)
-- [timseverien](https://github.com/timseverien)
-- [iflashlord](https://github.com/iflashlord)
-- [peterdoolaard](https://github.com/peterdoolaard)
-- [Rosita311](https://github.com/Rosita311)
+- [Anneke Sinnema](https://github.com/anneke)
+- [Annemiek Nieboer](https://github.com/AnnemiekNieboer)
+- [Bram Smulders](https://github.com/bramsmulders)
+- [Christian Schaeffer](https://github.com/Schepp)
+- [Claudia R](https://github.com/Mangamaui)
+- [Derk-Jan Karrenbeld](https://github.com/SleeplessByte)
+- [Edwin Martin](https://github.com/edwinm)
+- [Hans Kuijpers](https://github.com/hans2103)
+- [Iain van der Wiel](https://github.com/iainvdw)
+- [Imani Dap](https://github.com/maniflames)
+- [Josee Wouters](https://github.com/JoseeWouters)
+- [Luke Watts](https://github.com/thisislawatts)
+- [Michael Hastrich](https://github.com/michaelhastrich)
+- [Peter Doolaard](https://github.com/peterdoolaard)
+- [Rosita Rampertaap](https://github.com/Rosita311)
+- [Tim Severien](https://github.com/timseverien)
+- [Wim van Iersel](https://github.com/banaan666)
+
+- [aademirci](https://github.com/aademirci)
 - [l3xander](https://github.com/l3xander)
 - [Ninajoy](https://github.com/Ninajoy)
-- [aademirci](https://github.com/aademirci)
 
-Zie [GitHub contributors](https://github.com/fronteers/website/graphs/contributors) voor de hele lijst.
+Zie [de contributors pagina op Github](https://github.com/fronteers/website/graphs/contributors) voor de hele lijst.
 
-Het ontwerp is van [RFT-O](https://rfto.nl/).
+Het ontwerp is gemaakt door [Ready For Take-Off](https://rfto.nl/). Zij hebben ons van 2015 tot 2018 voorzien van een huisstijl voor ons congres. In 2018 hebben ze ons geholpen met het ontwikkelen van een nieuwe huisstijl voor de vereniging.
+
+## Statistieken
+
+We willen serieus zijn over de privacy van onze bezoekers. Daarom is de enige manier waarop we de bezoekersaantallen analyseren de GDPR-vriendelijke service van [Plausible.io](https://plausible.io/). Onze [bezoekersstatistieken](https://plausible.io/fronteers.nl) zijn voor iedereen in te zien.
+
+## Lettertypes
+
+We maken op deze website gebruik van Roboto en Fabrik. Fabrik is een font van [TIGHTYPE™](https://tightype.com/). Fabrik staat niet meer op hun website maar werd ons op aanvraag verkocht via de mail.
