@@ -3,30 +3,39 @@ key: colophon
 title: Colophon
 ---
 
-This website was created by Fronteers volunteers.
+This website is created by volunteers from Fronteers.
 
-- [anneke](https://github.com/anneke)
-- [banaan666](https://github.com/banaan666)
-- [edwinm](https://github.com/edwinm)
-- [Mangamaui](https://github.com/Mangamaui)
-- [SleeplessByte](https://github.com/SleeplessByte)
-- [michaelhastrich](https://github.com/michaelhastrich)
-- [iainvdw](https://github.com/iainvdw)
-- [bramsmulders](https://github.com/bramsmulders)
-- [JoseeWouters](https://github.com/JoseeWouters)
-- [AnnemiekNieboer](https://github.com/AnnemiekNieboer)
-- [Schepp](https://github.com/Schepp)
-- [thisislawatts](https://github.com/thisislawatts)
-- [maniflames](https://github.com/maniflames)
-- [hans2103](https://github.com/hans2103)
-- [timseverien](https://github.com/timseverien)
-- [iflashlord](https://github.com/iflashlord)
-- [peterdoolaard](https://github.com/peterdoolaard)
-- [Rosita311](https://github.com/Rosita311)
+- [Anneke Sinnema](https://github.com/anneke)
+- [Annemiek Nieboer](https://github.com/AnnemiekNieboer)
+- [Bram Smulders](https://github.com/bramsmulders)
+- [Christian Schaeffer](https://github.com/Schepp)
+- [Claudia R](https://github.com/Mangamaui)
+- [Derk-Jan Karrenbeld](https://github.com/SleeplessByte)
+- [Edwin Martin](https://github.com/edwinm)
+- [Hans Kuijpers](https://github.com/hans2103)
+- [Iain van der Wiel](https://github.com/iainvdw)
+- [Imani Dap](https://github.com/maniflames)
+- [Josee Wouters](https://github.com/JoseeWouters)
+- [Luke Watts](https://github.com/thisislawatts)
+- [Michael Hastrich](https://github.com/michaelhastrich)
+- [Peter Doolaard](https://github.com/peterdoolaard)
+- [Rosita Rampertaap](https://github.com/Rosita311)
+- [Tim Severien](https://github.com/timseverien)
+- [Wim van Iersel](https://github.com/banaan666)
+
+- [aademirci](https://github.com/aademirci)
 - [l3xander](https://github.com/l3xander)
 - [Ninajoy](https://github.com/Ninajoy)
-- [aademirci](https://github.com/aademirci)
 
-See [GitHub contributors](https://github.com/fronteers/website/graphs/contributors) for the whole list.
 
-The design is by [RFT-O](https://rfto.nl/).
+See [GitHub contributors](https://github.com/fronteers/website/graphs/contributors) for the full list.
+
+The design was made by [Ready For Take-Off](https://rfto.nl/). They provided us with a visual identity for our conference from 2015 to 2018, and in 2018, they helped us develop a new identity for the organisation.
+
+## Statistics:
+
+We are serious about the privacy of our visitors. Therefore, the only way we analyze visitor numbers is through the GDPR-friendly service of [Plausible.io](https://plausible.io/). Our [visitor statistics](https://plausible.io/fronteers.nl) can be viewed by everyone.
+
+## Fonts:
+
+We use Roboto and Fabrik on this website. Fabrik is a font by [TIGHTYPE™](https://tightype.com/). Fabrik is no longer available on their website, but we purchased it via email upon request.
