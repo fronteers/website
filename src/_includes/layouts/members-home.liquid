@@ -21,20 +21,20 @@
                     {% unless lid.naam == 'EOF' %}
                         <tr>
                             <td>
-                                <div class="has-profile">{%- for member in collections.published_members | getLocale: locale -%}
+                                <div class="has-profile">{%- for member in members -%}
                                     {%- if member.data.title == lid.naam  -%}
                                         {%- assign memberUrl = member.url -%}
                                             <a href='{{ memberUrl }}'> {{ lid.naam }}</a>
-                                        {% break %}
+                                        
                                     {%- endif -%}
                                     {%- endfor -%}
                                 </div>
                                 <div class="has-no-profile">
-                                    {%- for member in collections.published_members | getLocale: locale -%}
-                                    {%- if member.data.title != lid.naam  -%}
-                                            {{ lid.naam }}
-                                        {% break %}
-                                    {%- endif -%}
+                                    {%- for member in members -%}
+                                        {%- if member.data.title != lid.naam  -%}
+                                                {{ lid.naam }}
+                                            {% break %}
+                                        {%- endif -%}
                                     {%- endfor -%}
                                 </div>
                             </td>

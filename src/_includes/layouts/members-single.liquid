@@ -9,7 +9,6 @@
             <div class='page-content'>
                 {{ content }}
 
-
                 {% if specialties %}
                     <div class="member-specialisms">
                         {{ title | split: ' ' | first }} {{ translations[locale].hasSpecialisms }} {% for specialty in specialties %} {{ specialty }}{% unless forloop.last %},{% else %}.{% endunless %}{% endfor %}
@@ -21,10 +20,11 @@
                 {%- if lookingForEmployment.availability -%}
                     <div class="freelancer-info page-content">
                         <h3>{{ translations[locale].worktitle }}</h3>
-                        <p>{{ title }} {{ translations[locale].lookingForEmployment }}.</p>
 
                         {%- if lookingForEmployment.desc -%}
-                        <p>{{ lookingForEmployment.desc }}</p>
+                            <p>{{ lookingForEmployment.desc }}</p>
+                        {%- else -%}
+                            <p>{{ title }} {{ translations[locale].lookingForEmployment }}.</p>
                         {%- endif -%}
                     </div>
                 {%- endif -%}
@@ -33,10 +33,12 @@
             {%- if freelancer -%}
                 <div class="freelancer-info page-content">
                     <h3>Freelance</h3>
-                    <p>{{ title }} {{ translations[locale].is_a }} freelancer.</p>
                     {%- if freelancer.desc -%}
                         <p>{{ freelancer.desc }}</p>
+                    {%- else -%}
+                        <p>{{ title }} {{ translations[locale].is_a }} freelancer.</p>
                     {%- endif -%}
+                    
                     <hr />
                     <p> 
                         <a href="{{ translations[locale].freelancersURL | prepend: "/" | append: "/" }}">{{ translations[locale].allFreelancers }}</a>
@@ -48,9 +50,13 @@
                 {%- if mentor.availability -%}
                     <div class="mentor-info page-content">
                         <h3>Mentor</h3>
-                        <p>{{ title }} {{ translations[locale].is_a }} mentor.</p>
-                        <p>{{ mentor.desc }}</p>
 
+                        {%- if mentor.desc -%}
+                            <p>{{ mentor.desc }}</p>
+                        {%- else -%}
+                            <p>{{ title }} {{ translations[locale].is_a }} mentor.</p>
+                        {%- endif -%}
+                        
                         <hr />
                         <p>
                             <a href="{{ translations[locale].mentorsURL | prepend: "/" | append: "/" }}">{{ translations[locale].allMentors }}</a>
