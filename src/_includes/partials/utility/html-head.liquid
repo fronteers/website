@@ -22,7 +22,7 @@
             {%- endfor -%}
 
             {%- if translatedUrl -%}
-                {% if language.code == 'nl' %}
+                {% if locale == 'nl' %}
                     {%- if canonical -%}
                         <link rel="canonical" href="{{ canonical }}">
                     {%- else -%}
