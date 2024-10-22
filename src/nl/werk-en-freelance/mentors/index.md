@@ -1,3 +1,5 @@
 ---
 title: Mentors
+excludeFromCollection: true
 ---
+

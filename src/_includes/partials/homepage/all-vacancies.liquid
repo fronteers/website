@@ -1,4 +1,4 @@
-{%- for job in jobs limit: 5 -%}
+{%- for job in jobs -%}
     {%- assign jobDate = job.data.date | date: "%Y%m%d" | plus: 0 -%}
     {%- if jobDate >= twoMonthsAgo -%}
         {%- assign vacancyCount = vacancyCount | plus: 1 -%}
@@ -14,15 +14,14 @@
         {%- assign today = "now" | date: "%Y%m%d" -%}
         {%- assign twoMonthsAgo = "now" | date: "%Y%m%d" | minus: 200 -%} 
 
-        {%- for job in jobs limit: 5 -%}
+        {%- for job in jobs -%}
             {%- assign jobDate = job.data.date | date: "%Y%m%d" | plus: 0 -%}
             {%- if jobDate >= twoMonthsAgo -%}
 
-                {%- if job.data.title != "No jobs to show" and job.data.title != "Geen vacatures" -%}
-                    <li class="list-item list-item--job">
-                        {%- include partials/job headerlvl: "h3" index: forloop.index -%}
-                    </li>
-                {%- endif -%}
+                <li class="list-item list-item--job">
+                    {%- include partials/job headerlvl: "h3" index: forloop.index -%}
+                </li>
+
             {%- endif -%}
         {%- endfor -%}
     </ul>

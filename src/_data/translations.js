@@ -21,6 +21,7 @@ module.exports = {
         closesubmenu: "Close submenu",
         skiplink: "Skip to main content",
         editThisPage: "Edit this page on GitHub",
+        noOpenVacancies: "<h2>There are no open job offers right now.</h2> Does your company have a position open? <a href='/en/jobs/post-job-opening/'>Post a job opening</a>!",
         blockTitles: {
             homeHero: "We unite front-end developers",
             upcomingActivities: "Upcoming activities",
@@ -33,7 +34,7 @@ module.exports = {
             joinUsPath: "/en/join-us/",
             joinUsDescription:
                 "Become a member of the Fronteers community and contribute to the professionalization of the front-end profession.",
-            activeVacancies: "Job openings",
+            activeVacancies: "Our job board",
             viewAllEvents: "View all events",
             viewOurBlogs: "View all our blogposts",
             viewOurMembers: "View all our members",
@@ -108,6 +109,7 @@ module.exports = {
         closesubmenu: "Sluit submenu",
         skiplink: "Sla het menu over",
         editThisPage: "Pas deze pagina aan via GitHub",
+        noOpenVacancies: "<h2>Momenteel zijn er geen openstaande vacatures.</h2> Heeft jouw bedrijf een leuke positie open staan? <a href='/nl/werk-en-freelance/vacature-plaatsen/'>Plaats een vacature</a>!",
         blockTitles: {
             homeHero: "We unite front-end developers",
             upcomingActivities: "Activiteiten",
