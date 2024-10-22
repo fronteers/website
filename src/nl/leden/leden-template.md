@@ -1,18 +1,19 @@
 ---
+published: false
 draft: true
  # Jouw naam
-title: Anneke Sinnema
+title: Jouw naam
  # Maak van de key een unieke slug (je voor en achternaam bijvoorbeeld). Hiermee wordt de Nederlandse aan de Engelse versie van deze pagina gekoppeld.
-key: anneke-sinnema
+key: jouw-naam
 date: 2020-11-10
  # Als je een afbeelding toevoegt, link dan hier naar de juiste plek:
 graphic:
-    src: /assets/images/member-avatars/anneke-sinnema.png
+    src: /assets/images/member-avatars/jouw-afbeelding.png
     alt:
 # Jouw functietitel
 jobtitle: front-end developer
 # Eventueel: jouw huidige werk- of opdrachtgever
-employer: front-end developer
+employer: ''
 # Ben je freelancer? Vul dan dit in. Of verwijder het
 freelancer: 
     desc: 'Mijn toelichting'
