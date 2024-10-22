@@ -11,6 +11,8 @@ graphic:
     alt:
 # Jouw functietitel
 jobtitle: front-end developer
+# Eventueel: jouw huidige werk- of opdrachtgever
+employer: front-end developer
 # Ben je freelancer? Vul dan dit in. Of verwijder het
 freelancer: 
     desc: 'Mijn toelichting'
@@ -28,3 +30,7 @@ specialties:
     - accessibility
     - ux design
 ---
+
+{% if employer %}
+{{ title }} is een {% if freelancer %}freelance{% endif %} {{ jobtitle }}{% if employer %}, momenteel mooie dingen aan het maken voor {{ employer }}{% endif %}.
+{% endif %}

@@ -29,4 +29,6 @@ specialties:
     - ux design
 ---
 
-Something about you!
+{% if employer %}
+{{ title }} is a {% if freelancer %}freelance{% endif %} {{ jobtitle }}{% if employer %}, at this moment making beautiful things for {{ employer }}{% endif %}.
+{% endif %}
