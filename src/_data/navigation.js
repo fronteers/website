@@ -3,15 +3,15 @@ module.exports = {
     nl: [
       {
         title: "Over Fronteers",
-        url: "/nl/vereniging",
+        url: "/nl/vereniging/",
         subnav: [
           {
             title: "Bestuur",
-            url: "/nl/vereniging/bestuur",
+            url: "/nl/vereniging/bestuur/",
           },
           {
             title: "Commissies",
-            url: "/nl/vereniging/commissies",
+            url: "/nl/vereniging/commissies/",
           },
           {
             title: "Leden",
@@ -19,31 +19,31 @@ module.exports = {
           },
           {
             title: "Vrijwilliger worden",
-            url: "/nl/vereniging/vrijwilliger-worden",
+            url: "/nl/vereniging/vrijwilliger-worden/",
           },
           {
             title: "Algemene Ledenvergadering",
-            url: "/nl/vereniging/alv",
+            url: "/nl/vereniging/alv/",
           },
           {
             title: "Geschiedenis",
-            url: "/nl/vereniging/geschiedenis",
+            url: "/nl/vereniging/geschiedenis/",
           },
           {
             title: "Statuten",
-            url: "/nl/vereniging/statuten",
+            url: "/nl/vereniging/statuten/",
           },
           {
             title: "Contact",
-            url: "/nl/vereniging/contact",
+            url: "/nl/vereniging/contact/",
           },
           {
             title: "Community ondersteuning",
-            url: "/nl/vereniging/communityondersteuning",
+            url: "/nl/vereniging/communityondersteuning/",
           },
           {
             title: "Laat zien dat je lid bent",
-            url: "/nl/vereniging/badges",
+            url: "/nl/vereniging/badges/",
           },
         ],
       },
@@ -95,14 +95,14 @@ module.exports = {
             url: "/nl/werk-en-freelance/vacature-plaatsen/",
             title: "Vacature plaatsen",
           },
-        //   {
-        //     title: "Freelancers",
-        //     url: "/nl/freelancers",
-        //   },
-        //   {
-        //     title: "Mentors",
-        //     url: "/nl/mentors",
-        //   },
+          //   {
+          //     title: "Freelancers",
+          //     url: "/nl/freelancers",
+          //   },
+          //   {
+          //     title: "Mentors",
+          //     url: "/nl/mentors",
+          //   },
         ],
       },
       {
@@ -235,14 +235,14 @@ module.exports = {
             url: "/en/jobs/post-job-opening/",
             title: "Post a job opening",
           },
-        //   {
-        //     title: "Freelancers",
-        //     url: "/en/freelancers",
-        //   },,
-        //   {
-        //     title: "Mentors",
-        //     url: "/en/mentors",
-        //   },
+          //   {
+          //     title: "Freelancers",
+          //     url: "/en/freelancers",
+          //   },,
+          //   {
+          //     title: "Mentors",
+          //     url: "/en/mentors",
+          //   },
         ],
       },
       {
