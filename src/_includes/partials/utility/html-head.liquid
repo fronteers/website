@@ -24,17 +24,17 @@
             {%- if translatedUrl -%}
                 {% if language.code == 'nl' %}
                     {%- if canonical -%}
-                        <link rel="canonical" href="{{ translatedUrl }}">
+                        <link rel="canonical" href="{{ canonical }}">
                     {%- else -%}
-                        <link rel="canonical" href="{{ translatedUrl }}">
+                        <link rel="canonical" href="{{ site.baseUrl }}{{ translatedUrl }}">
                     {%- endif -%}
                 {%- endif -%}
-                <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
+                <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ site.baseUrl }}{{ translatedUrl }}">
             {% endif %}
         {%- endfor -%}
     {%- else -%}
         {%- if canonical -%}
-            <link rel="canonical" href="{{ translatedUrl }}">
+            <link rel="canonical" href="{{ canonical }}">
         {%- endif -%}
     {%- endif -%}
 
