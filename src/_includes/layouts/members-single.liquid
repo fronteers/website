@@ -8,6 +8,13 @@
         <div class='inner-wrapper'>
             <div class='page-content'>
                 {{ content }}
+
+
+                {% if specialties %}
+                    <div class="member-specialisms">
+                        {{ title | split: ' ' | first }} {{ translations[locale].hasSpecialisms }} {% for specialty in specialties %} {{ specialty }}{% unless forloop.last %},{% else %}.{% endunless %}{% endfor %}
+                    </div>
+                {% endif %}
             </div>
 
             {%- if lookingForEmployment -%}

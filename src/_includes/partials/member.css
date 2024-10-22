@@ -59,6 +59,12 @@
     display: none;
 }
 
+.member-specialisms {
+    border-top: 1px solid var(--lilac);
+    padding-top: var(--spacing);
+    font-style: italic;
+}
+
 @media all and (min-width: 46.875em) {
   .member {
     background: transparent;
