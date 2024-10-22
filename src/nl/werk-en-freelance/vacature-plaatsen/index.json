@@ -2,6 +2,5 @@
   "layout": "page.liquid",
   "tags": "pages",
   "key": "post-job",
-
   "parent": "job-home"
 }

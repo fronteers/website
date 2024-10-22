@@ -1,6 +1,5 @@
 ---
-title: Jobs
-key: workandfreelance 
+title: Job board
 ---
 Front-end web developer and looking for a (new) job? On this page you will regularly find new vacancies in our field.
 

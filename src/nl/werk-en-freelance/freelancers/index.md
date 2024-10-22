@@ -1,5 +1,6 @@
 ---
 title: Freelancers
+excludeFromCollection: true
 
 graphic:
   src: freelancer/freelancer.jpeg
