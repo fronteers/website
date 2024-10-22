@@ -23,6 +23,10 @@ module.exports = function (eleventyConfig) {
         "src/{nl,en}/{activiteiten,activities,blog,congres,conference,werk-en-freelance}/**/*.md"
       )
       .forEach((file) => {
+        if (file.includes("wees-niet-slim")) {
+          return;
+        }
+
         const parts = file.split("/");
 
         let year = Number(parts[parts.length - 3]);
@@ -63,6 +67,13 @@ module.exports = function (eleventyConfig) {
     return `${urlPart}?${params}`;
   });
   
+  // Custom date filter
+  eleventyConfig.addFilter("localizedDate", function (dateObj, locale = "en") {
+    return DateTime.fromJSDate(dateObj)
+      .setLocale(locale)
+      .toFormat("d LLLL yyyy");
+  });
+
   /* Add id to heading elements */
   eleventyConfig.addPlugin(pluginAddIdToHeadings);
 
@@ -103,6 +114,7 @@ module.exports = function (eleventyConfig) {
 
   /* Copy static assets to the dist directory */
   eleventyConfig.addPassthroughCopy({
+    "src/_downloads": "downloads",
     "src/_assets/css/common": "assets/css/common",
     "src/_assets/css/elements": "assets/css/elements",
     "src/_assets/css/style.css": "assets/css/style.css",
@@ -183,6 +195,19 @@ module.exports = function (eleventyConfig) {
         );
       })
   );
+
+  // Allows you to debug a json object in eleventy templates data | stringify
+  eleventyConfig.addFilter("stringify", (data) => {
+    return JSON.stringify(data, null, "\t");
+  });
+
+  // https://www.11ty.dev/docs/permalinks/#remove-trailing-slashes
+  // Dropping these normalizes the URls between sitemap.xml and canonical, which is important for indexing.
+  eleventyConfig.addUrlTransform((page) => {
+    if (page.url.endsWith(".html")) {
+      return page.url.slice(0, -1 * ".html".length);
+    }
+  });
 
   /* This log will appear before the first build. It is tied to the plugin that checks broken links. */
   console.debug(

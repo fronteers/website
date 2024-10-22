@@ -11,8 +11,8 @@
         {% endif %}
     </title>
 
-    {%- for language in site.languages -%}
-        {% if language.code != locale %}
+    {%- if key -%}
+        {%- for language in site.languages -%}
             {%- assign translatedUrl = null -%}
 
             {%- for item in collections.all -%}
@@ -21,11 +21,22 @@
                 {%- endif -%}
             {%- endfor -%}
 
-            {% if translatedUrl %}
+            {%- if translatedUrl -%}
+                {% if language.code == 'nl' %}
+                    {%- if canonical -%}
+                        <link rel="canonical" href="{{ translatedUrl }}">
+                    {%- else -%}
+                        <link rel="canonical" href="{{ translatedUrl }}">
+                    {%- endif -%}
+                {%- endif -%}
                 <link rel="alternate" hreflang="{{ language.hreflang }}" href="{{ translatedUrl }}">
             {% endif %}
-        {% endif %}
-    {%- endfor -%}
+        {%- endfor -%}
+    {%- else -%}
+        {%- if canonical -%}
+            <link rel="canonical" href="{{ translatedUrl }}">
+        {%- endif -%}
+    {%- endif -%}
 
     <link rel="stylesheet" href="/assets/css/style.css">
 
@@ -43,7 +54,7 @@
     {% endif %}
 
     <link rel="manifest" href="/assets/favicon/site.webmanifest">
-    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="48x48">  
+    <link rel="icon" href="/assets/favicon/favicon.ico" sizes="48x48">
     <link rel="icon" href="/assets/favicon/icon.svg" sizes="any" type="image/svg+xml">
 
     <meta name="description" content="{{ translations[locale].metaDescription }}">
