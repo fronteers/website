@@ -16,7 +16,7 @@
   text-align: center;
   position: relative;
   z-index: 2;
-  inline-size: 100%; 
+  inline-size: 100%;
   display: grid;
   grid-template-rows: repeat(3, 75px);
 }
@@ -47,22 +47,22 @@
 }
 
 .member-content .tag {
-    margin-block-end: var(--spacing-half);
+  margin-block-end: var(--spacing-half);
 }
 
 .backlinks {
-    margin-block-start: var(--spacing-half);
-    text-align: center;
+  margin-block-start: var(--spacing-half);
+  text-align: center;
 }
 
 .has-profile:has(a) ~ .has-no-profile {
-    display: none;
+  display: none;
 }
 
-.member-specialisms {
-    border-top: 1px solid var(--lilac);
-    padding-top: var(--spacing);
-    font-style: italic;
+.member-specialisms:not(only-child) {
+  border-top: 1px solid var(--lilac);
+  padding-top: var(--spacing);
+  font-style: italic;
 }
 
 @media all and (min-width: 46.875em) {
