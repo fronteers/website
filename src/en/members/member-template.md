@@ -1,13 +1,13 @@
 ---
 draft: true
  # Your name
-title: Anneke Sinnema
+title: Your name
  # Make the key a unique slug (for example, your first and last name). This links the Dutch version to the English version of this page.
-key: anneke-sinnema
+key: your-name
 date: 2020-11-10
  # If you add an image, link it to the correct location here:
 graphic:
-    src: /assets/images/member-avatars/anneke-sinnema.png
+    src: /assets/images/member-avatars/your-image.png
     alt:
 # Your job title
 jobtitle: front-end developer
@@ -29,4 +29,6 @@ specialties:
     - ux design
 ---
 
-Something about you!
+{% if employer %}
+{{ title }} is a {% if freelancer %}freelance{% endif %} {{ jobtitle }}{% if employer %}, at this moment making beautiful things for {{ employer }}{% endif %}.
+{% endif %}

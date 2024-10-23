@@ -5,15 +5,12 @@ date: 2020-11-10
 graphic:
     src: /assets/images/member-avatars/anneke-sinnema.png
     alt:
-jobtitle: front-end developer
+jobtitle: 'senior front-end developer'
 freelancer: 
-    desc: 'Mijn toelichting'
+    desc: 'Ik ben sinds 2014 freelancer. Ik neem binnen elk team waar ik in terecht kom mijn verantwoordelijkheid om het project tot een goed einde te brengen. Ik pak op wat gedaan moet worden en zie het als bonus als ik daarmee mijn directe collega kan ontlasten. Ik werk het liefst remote.'
     availability: true
-lookingForEmployment: 
-    desc: 'Mijn toelichting'
-    availability: false
 mentor: 
-    desc: '<a href="https://cal.com/anneke-sinnema/fronteers-chat">Plan zelf een gesprek met mij in</a>'
+    desc: 'Ben je junior developer in Nederland of België en wil je eens sparren over ons werk, of heb je een specifieke vraag? <a href="https://cal.com/anneke-sinnema/fronteers-chat">Plan zelf een afspraak met mij in</a> of <a href="mailto:mail@annekesinnema.nl">stuur me een mailtje</a>!'
     availability: true
 specialties:
     - accessibility

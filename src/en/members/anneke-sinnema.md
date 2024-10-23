@@ -3,11 +3,16 @@ layout: members-single.liquid
 title: Anneke Sinnema
 key: anneke-sinnema
 date: 2020-11-10
+jobtitle: 'senior front-end developer'
 graphic:
     src: /assets/images/member-avatars/anneke-sinnema.png
     alt:
-freelancer: Currently not available
-mentor: https://cal.com/anneke-sinnema/fronteers-chat
+freelancer: 
+    desc: 'I have been a freelancer since 2014. In every team I join, I take responsibility to bring the project to a successful conclusion. I handle what needs to be done and consider it a bonus if I can ease the workload of my colleagues in the process. I prefer to work remotely.'
+    availability: true
+mentor: 
+    desc: 'Are you a junior developer in the Netherlands or Belgium and would like to discuss our work or have a specific question? <a href="https://cal.com/anneke-sinnema/fronteers-chat">Schedule an appointment with me</a> or <a href="mailto:mail@annekesinnema.nl">send me an email</a>!'
+    availability: true
 specialties:
     - accessibility
     - ux design

@@ -6,11 +6,11 @@ How can you do this?
 
 1) Go to [the right folder](https://github.com/fronteers/website/blob/main/src/nl/leden/) either on Github or in your fork
 
-2) Add a new markdown file and copy the contents of the [member-template.md](https://github.com/fronteers/website/blob/main/src/nl/leden/member-template.md) in there. On Github: 
+2) Add a new markdown file and copy the contents of the [member-template.md](https://github.com/fronteers/website/blob/main/src/nl/leden/leden-template.md) in there. On Github: 
     1. Click 'Add new file' button
     2. Choose 'Create new file'
     3. Name the new file '<your first name>-<your last name>'
-    4. Paste the contents of [member-template.md (raw)](https://raw.githubusercontent.com/fronteers/website/refs/heads/main/src/nl/leden/member-template.md)
+    4. Paste the contents of [member-template.md (raw)](https://raw.githubusercontent.com/fronteers/website/refs/heads/main/src/nl/leden/leden-template.md)
     5. Edit it
     6. Save it and create a pull request
 
