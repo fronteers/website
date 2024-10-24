@@ -1,7 +1,7 @@
 ---
 title: submit vacancy
 ---
-<form action="/vacaturebank/vacature-toevoegen#formulier-1" method="post" id="formulier-vacatures" netlify>
+<form action="/en/jobs/post-job-opening/success" method="post" id="formulier-vacatures" netlify>
 <fieldset>
 <legend>I want to post a vacancy</legend>
 <p class="form-element">

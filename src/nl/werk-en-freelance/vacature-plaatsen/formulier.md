@@ -1,7 +1,7 @@
 ---
 title: vacature insturen
 ---
-<form action="/vacaturebank/vacature-toevoegen#formulier-1" method="post" id="formulier-vacatures" netlify>
+<form action="/nl/werk-en-freelance/vacature-plaatsen/succes" method="post" id="formulier-vacatures" netlify>
       <fieldset>
        <legend>Ik wil een vacature plaatsen</legend>
        <p class="form-element">
