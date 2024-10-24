@@ -27,11 +27,9 @@ Just like any other association, Fronteers is not only for members, but also by 
 
 Each member is subscribed to the Fronteers mailing list for members. This list is used by the board to send an update to all members a few times a year, with the latest state of affairs and links to the latest Fronteers blog posts. Invitations for General Member Meetings, for example, are also sent to this list. A member cannot unsubscribe from this list.
 
-In addition, Fronteers organizes [workshops](/nl/activities/workshops/), which can be visited by members at a discount.
+In addition, Fronteers organizes [workshops](/en/activities/workshops/), which can be visited by members at a discount.
 
-Fronteer members receive substantial discounts from various international publishers of [books relevant to front-enders](/nl/word-lid/ledenkorting).
-
-You can register as a member via the [registration form](/nl/become-lid/).
+You can register as a member via the [registration form](/en/join-us/sign-up/).
 
 ## Cancel membership
 
@@ -39,4 +37,4 @@ Membership is tacitly renewed. If a member wants to cancel his or her membership
 
 ## Contact with the member administration
 
-Do you have any questions or comments? In the [contact form](/nl/footer/contact/) choose subject for Membership administration.
+Do you have any questions or comments? In the [contact form](/en/information/contact/) choose subject for Membership administration.
