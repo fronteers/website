@@ -79,6 +79,11 @@
     bottom: 0;
 }
 
+.page-lead {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 .single-blog-hero .h {
     text-transform: none;
 }

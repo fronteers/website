@@ -1,28 +1,28 @@
+{%- assign authorHasAProfilePage = false -%}
 {%- for member in members -%}
     {%- if member.data.title == heroPost.data.author -%}
         {%- assign authorHasAProfilePage = true -%}
-    {%- else -%}
-        {%- assign authorHasAProfilePage = false -%}
+        {%- assign memberUrl = member.url -%}
+        {%- break -%}
     {%- endif -%}
 {%- endfor -%}
 
 {% capture blogMeta %}
-    {%- if locale == "nl" -%}
-        <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
+    <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
+        {%- if locale == "nl" -%}
             {{ date | localizedDate: 'nl' }}
-        </time>
-    {%- elsif locale == "en" -%}
-        <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
-            {{ date | displayDate: locale | date: "%B %e %Y" }}
-        </time>
-    {%- endif -%}
+        {%- else -%}
+            {{ date | date: "%B %e %Y" }}
+        {%- endif -%}
+    </time>
 
     {%- if authorHasAProfilePage -%}
-        <a href="{{ member.url }}" class="blog-author">{{ author }}</a>
+        <a href="{{ memberUrl }}" class="blog-author">{{ author }}</a>
     {%- else -%}
         <span class="blog-author">{{ author }}</span>
     {%- endif -%}
 
+    {%- if categories.size > 0 -%}
     <ul class="blog-tags" role="list" aria-label="Tagged">
         {%- for tag in categories limit:2 -%}
             <li>
@@ -30,23 +30,28 @@
             </li>
         {%- endfor -%}
     </ul>
+    {%- endif -%}
 {% endcapture %}
-
 
 {%- include partials/utility/html-head  -%}
 <body data-layout="blog-single">
     {%- include partials/page-header/_page-header  -%}
 
     <main id="main" class="single-blog">
-        {%- pagehero 'single-blog' title blogMeta -%}
+        {%- pagehero 'blog-single' title blogMeta -%}
 
         <div class="inner-wrapper">
             <div class="page-content">
-                <div class="blog-graphic-wrapper">
-                    {%- if graphic.src -%}
-                        <img src="/assets/images/{{ graphic.src }}" alt="{{ graphic.alt }}" class="blog-graphic" />
-                    {%- endif -%}
-                </div>
+                <p class="page-lead">{{ summary }}</p>
+            
+                {%- if graphic.src -%}
+                    <figure>
+                        <img src="{{ graphic.src }}" alt="{{ graphic.alt | default: 'Image description not available' }}" />
+                        {% if graphic.figcaption or graphic.alt %}
+                            <figcaption>{{ graphic.figcaption | default: graphic.alt }}</figcaption>
+                        {% endif %}
+                    </figure>
+                {%- endif -%}
 
                 {{ content }}
             </div>

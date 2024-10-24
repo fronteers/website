@@ -65,3 +65,8 @@ img, picture {
 .pre-formatted p {
   margin: 0;
 }
+
+code {
+    font-size: 1rem;
+    background-color: #efefef;
+}

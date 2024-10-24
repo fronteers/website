@@ -3,6 +3,7 @@
     {%- for member in members -%}
     {%- if member.data.title == heroPost.data.author -%}
         {%- assign authorHasAProfilePage = true -%}
+        {%- assign memberUrl = member.url -%}
     {%- else -%}
         {%- assign authorHasAProfilePage = false -%}
     {%- endif -%}
@@ -28,7 +29,7 @@
         </div>
 
         {%- if authorHasAProfilePage -%}
-            <a href="{{ member.url }}" class="blog-author">{{ heroPost.data.author }}</a>
+            <a href="{{ memberUrl }}" class="blog-author">{{ heroPost.data.author }}</a>
         {%- else -%}
             <span class="blog-author">{{ heroPost.data.author }}</span>
         {%- endif -%}
