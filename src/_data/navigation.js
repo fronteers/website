@@ -288,7 +288,7 @@ module.exports = {
   footer: {
     nl: [
       {
-        url: "/nl/informatie/contact/",
+        url: "/nl/vereniging/contact/",
         title: "Contact",
       },
       {
@@ -302,15 +302,11 @@ module.exports = {
       {
         url: "/nl/informatie/colofon/",
         title: "Colofon",
-      },
-      // {
-      //     url: "/nl/informatie/adverteren/",
-      //     title: "Adverteren",
-      // },
+      }, 
     ],
     en: [
       {
-        url: "/en/information/contact/",
+        url: "/en/organisation/contact/",
         title: "Contact",
       },
       {
@@ -325,10 +321,6 @@ module.exports = {
         url: "/en/information/colophon/",
         title: "Colophon",
       },
-      // {
-      //     url: "/en/footer/advertise/",
-      //     title: "Advertise",
-      // },
     ],
   },
 };
