@@ -4,6 +4,12 @@ excludeFromCollection: true
 heroSlogan: ''
 ---
 
+<div style="border: 2px solid var(--lilac); padding-inline: var(--spacing)">
+
+Actie: Om te vieren dat onze nieuwe website is gelanceerd, is tot het einde van 2024 het plaatsen van een vacature **gratis**! Lees hieronder hoe je een vacature plaatst.
+
+</div>
+
 ## Acceptatiecriteria
 
 -   De te plaatsen vacature betreft (front-end) web development.
@@ -15,6 +21,7 @@ heroSlogan: ''
 ## Kosten
 
 -   Het plaatsen van een vacature kost € 150,-. De kosten van een freelance opdracht zijn € 75,-. Beide bedragen zijn exclusief btw.
+-   Het plaatsen van een stageopdracht is gratis.
 -   Bij plaatsing van meer dan 5 vacatures per kalenderjaar krijgen de zesde en latere vacatures 50% korting.
 -   De factuur voor de vacatureplaatsing wordt na publicatie per e-mail naar de contactpersoon verstuurd.
 -   Fronteers hanteert een betaaltermijn van 30 dagen.
