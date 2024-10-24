@@ -64,23 +64,38 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Allow users to open submenu items
-  const submenuToggle = document.querySelectorAll('.navigation-submenu-toggle');
+    // Allow users to open submenu items
+    const submenuToggle = document.querySelectorAll('.navigation-submenu-toggle');
 
-  submenuToggle.forEach(function (toggle) {
-    toggle.addEventListener('click', function (event) {
-        const parentLi = toggle.parentElement;
-        const submenuIsExpanded = toggle.getAttribute('aria-expanded') === 'true';
+    submenuToggle.forEach(function (toggle) {
+        toggle.addEventListener('click', function (event) {
+            const parentLi = toggle.parentElement;
+            const submenuIsExpanded = toggle.getAttribute('aria-expanded') === 'true';
 
-        if (submenuIsExpanded) {
-          toggle.setAttribute('aria-expanded', 'false');
-          toggle.setAttribute('aria-labelledby', 'openSubmenuLabel');
-          parentLi.classList.remove('open'); 
-        } else {
-          toggle.setAttribute('aria-expanded', 'true');
-          parentLi.classList.add('open');
-          toggle.setAttribute('aria-labelledby', 'closeSubmenuLabel');
-          trapFocus(parentLi, toggle);
-        }
+            // Close all other open submenus before opening a new one
+            submenuToggle.forEach(function (otherToggle) {
+                const otherParentLi = otherToggle.parentElement;
+
+                // If it's not the clicked submenu, close it
+                if (otherToggle !== toggle) {
+                    otherToggle.setAttribute('aria-expanded', 'false');
+                    otherToggle.setAttribute('aria-labelledby', 'openSubmenuLabel');
+                    otherParentLi.classList.remove('open');
+                }
+            });
+
+            // Toggle the clicked submenu
+            if (submenuIsExpanded) {
+                toggle.setAttribute('aria-expanded', 'false');
+                toggle.setAttribute('aria-labelledby', 'openSubmenuLabel');
+                parentLi.classList.remove('open');
+            } else {
+                toggle.setAttribute('aria-expanded', 'true');
+                parentLi.classList.add('open');
+                toggle.setAttribute('aria-labelledby', 'closeSubmenuLabel');
+                trapFocus(parentLi, toggle);
+            }
+        });
     });
-  });
+
 });
