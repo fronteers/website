@@ -1,4 +1,4 @@
-.button {
+.button, button {
   padding: var(--spacing-half) var(--spacing);
   background-color: var(--lilac);
   color: black;
@@ -12,14 +12,14 @@
 }
 
 @media (min-width: 20em) {
-  .button {
+  .button, button {
     font-size: var(--font-size-16);
     max-height: calc(var(--font-size-16) * 1.2 + var(--spacing));
   }
 }
 
 @media all and (min-width: 46.875em) {
-  .button {
+  .button, button {
     font-size: var(--font-size-20);
     max-height: calc((var(--font-size-20) * 1.2) + var(--spacing));
   }

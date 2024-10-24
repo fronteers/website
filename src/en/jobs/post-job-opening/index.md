@@ -3,6 +3,12 @@ title: Post a job opening
 excludeFromCollection: true
 ---
 
+<div style="border: 2px solid var(--lilac); padding-inline: var(--spacing)">
+    
+Special deal: To celebrate our new website is finally live, up until the end of 2024 posting your job opening is **free**! Read about how to send in your job opening below.
+
+</div>
+
 ## Acceptance criteria
 
 -   The vacancy to be posted concerns (front-end) web development.
@@ -14,6 +20,7 @@ excludeFromCollection: true
 ## Cost
 
 -   Posting a vacancy costs €150. The costs of a freelance assignment are € 75. Both amounts are exclusive of VAT.
+-   Posting a vacancy for an internship is free. 
 -   When placing more than 5 vacancies per calendar year, the sixth and later vacancies receive a 50% discount.
 -   The invoice for the job posting will be sent to the contact person by e-mail after publication.
 -   Fronteers uses a payment term of 30 days.

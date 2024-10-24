@@ -1,0 +1,78 @@
+/* General Form Styling */
+form {
+}
+
+/* Fieldset Styling */
+form fieldset {
+  border: 0;
+}
+
+/* Legend Styling */
+form legend {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Form Element Spacing */
+form .form-element {
+  margin-bottom: var(--spacing);
+}
+
+/* Label Styling */
+form label.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: var(--spacing-half);
+}
+
+/* Input and Textarea Styling */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: var(--spacing-half);
+  font-size: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* Textarea Specific Styling */
+form textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+/* Radio Button Group Styling */
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form ul li {
+  margin-bottom: var(--spacing-half);
+}
+
+/* Radio Input Styling */
+form input[type="radio"] {
+  margin-right: var(--spacing-half);
+}
+
+/* Optional and Instructional Text Styling */
+form em {
+  font-style: italic;
+  color: #666;
+}
+
+/* Spam Check Field (Hidden) */
+form .spam-check {
+  display: none;
+}
+
+/* Adjustments for spacing and alignment */
+form p.submit {
+  text-align: center;
+  margin-top: var(--spacing-double);
+}
