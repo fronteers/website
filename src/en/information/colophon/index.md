@@ -39,7 +39,7 @@ We use Roboto and Fabrik on this website. Fabrik is a font by [TIGHTYPE™](http
 
 ## Hosting
 
-The website is hosted by [Netlify](https://www.netlify.com), who sponsor us with an [Open Source Unlimited package](https://www.netlify.com/legal/open-source-policy/).
+The website is hosted by [Netlify](https://www.netlify.com), who sponsor us with an [Open Source Unlimited](https://www.netlify.com/legal/open-source-policy/) package.
 
 ## Statistics
 
