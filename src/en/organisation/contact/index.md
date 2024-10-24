@@ -11,7 +11,7 @@ title: Contact us
 | **Swift and BIC**                 | {{ general-info.swift_and_BIC }}  |
 | **Tax Identification Number**     | {{ general-info.taxes }}          |
 
-The Fronteers community is best found online on Slack. Sign up right away and come and join the conversation about everything that has to do with front-end development.
+The Fronteers community is best found online on Slack. [Sign up right away](https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog) and come and join the conversation about everything that has to do with front-end development! Most of our channels are Dutch, but you are definately welcome to join us there.
 
 We zijn ook te vinden op [Mastodon](https://front-end.social/@fronteers), [BlueSky](https://bsky.app/profile/fronteers.bsky.social) en [LinkedIn](https://www.linkedin.com/company/fronteers).
 

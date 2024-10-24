@@ -8,8 +8,6 @@ Een lidmaatschap van Fronteers is _persoonlijk_, en staat dus los van een eventu
 
 ## Contributie
 
-Voor studenten worden deze bedragen gehalveerd, tot {{ general-info.students_contribution }} en {{ general-info.students_discounted }}.
-
 De contributie bedraagt {{ general-info.contribution }} (inclusief 21% btw). Leden die zich na 30 juni opgeven, betalen {{ general-info.contribution_discounted }}. Pas na betaling van de factuur is men lid van de vereniging. Vrijwilligers krijgen 50% korting.
 
 ## Studentenlidmaatschap
@@ -28,7 +26,7 @@ Elk lid wordt ingeschreven op de Fronteers mailinglijst voor leden. Deze lijst w
 
 Daarnaast organiseert Fronteers [workshops](/nl/activiteiten/workshops/), welke door leden met korting kunnen worden bezocht.
 
-Je kunt je aanmelden als lid via het [inschrijfformulier](/nl/word-lid/inschrijven/).
+Je kunt je aanmelden als lid via het [inschrijfformulier](/nl/word-lid/).
 
 ## Lidmaatschap opzeggen
 
