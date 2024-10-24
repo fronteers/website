@@ -63,9 +63,9 @@ document.addEventListener('DOMContentLoaded', function() {
     navToggle.addEventListener('click', handleInteraction);
   }
 
-  // Allow users to open submenu items
     // Allow users to open submenu items
     const submenuToggle = document.querySelectorAll('.navigation-submenu-toggle');
+    const navigation = document.querySelector('.page-navigation'); 
 
     submenuToggle.forEach(function (toggle) {
         toggle.addEventListener('click', function (event) {
@@ -96,6 +96,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 trapFocus(parentLi, toggle);
             }
         });
+    });
+
+    // Function to close all submenus
+    function closeAllSubmenus() {
+        submenuToggle.forEach(function (toggle) {
+            const parentLi = toggle.parentElement;
+            toggle.setAttribute('aria-expanded', 'false');
+            toggle.setAttribute('aria-labelledby', 'openSubmenuLabel');
+            parentLi.classList.remove('open');
+        });
+    }
+
+    // Close submenus when clicking outside the navigation
+    document.addEventListener('click', function (event) {
+        if (!navigation.contains(event.target)) {
+            closeAllSubmenus();
+        }
+    });
+
+    // Close submenus when pressing the Escape key
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            closeAllSubmenus();
+        }
     });
 
 });
