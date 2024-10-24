@@ -1,5 +1,5 @@
 ---
-title: Nieuwe website!
+title: We hebben een nieuwe website!
 date: 2024-10-23
 author: Anneke Sinnema
 summary: 'Fronteers heeft een nieuwe website. Vijf jaar hebben we aan deze site gewerkt, maar eindelijk kunnen we het eindresultaat aan jullie laten zien!'

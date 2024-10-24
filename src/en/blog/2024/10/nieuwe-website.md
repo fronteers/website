@@ -1,5 +1,5 @@
 ---
-title: New website!
+title: We have a new website!
 date: 2024-10-23
 author: Anneke Sinnema
 summary: 'Fronteers has a new website. We have worked on this for five years, but we can finally show you the final result!'
