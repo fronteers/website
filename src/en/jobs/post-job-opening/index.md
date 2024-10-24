@@ -1,43 +1,105 @@
 ---
-title: Post a job opening
-excludeFromCollection: true
+title: Submit vacancy
+heroSlogan: 'Please make sure to read the <a href="/en/jobs/post-job-opening/">terms and conditions</a> first!'
 ---
-
-<div style="border: 2px solid var(--lilac); padding-inline: var(--spacing)">
+<div style="border: 2px solid var(--lilac); padding-inline: var(--spacing); margin-block-end: var(--spacing-double)">
     
 Special deal: To celebrate our new website is finally live, up until the end of 2024 posting your job opening is **free**! Read about how to send in your job opening below.
 
 </div>
 
-## Acceptance criteria
-
--   The vacancy to be posted concerns (front-end) web development.
--   We accept vacancies for both permanent employment and freelance assignments.
--   The vacancy must always contain the name of the ultimate company where the job seeker will end up.
--   We reserve the right to refuse vacancies without giving reasons.
--   We do not keep statistics of the vacancies regarding the number of views.
-
-## Cost
-
--   Posting a vacancy costs €150. The costs of a freelance assignment are € 75. Both amounts are exclusive of VAT.
--   Posting a vacancy for an internship is free. 
--   When placing more than 5 vacancies per calendar year, the sixth and later vacancies receive a 50% discount.
--   The invoice for the job posting will be sent to the contact person by e-mail after publication.
--   Fronteers uses a payment term of 30 days.
-
-## Method & placement
-
--   You can add a vacancy using the form below. To add a vacancy we need some information, such as company name, billing address, contact person and an email address.
--   After approval by e-mail, you can e-mail the vacancy text and any images.
--   The text can contain headings, paragraphs, lists, tables, links and (contact) forms; these are presented in the Fronteers house style.
--   After approval of the text, the vacancy will be prominently placed on the website for 30 days.
-    -   All available vacancies are shown on the Vacaturebank homepage in the order they were added.
-    -   All available vacancies are shown in the right menu under all vacancies in the order they were added.
-    -   All available vacancies are shown on the Fronteers homepage in the order they were added.
-    -   All vacancies are tweeted via our Twitter account, with a link back to the site.
--   After 30 days, the vacancy remains online in our archive, if desired with a message that this concerns an old or already filled vacancy.
-
-## Lead time
-
--   The placement of the vacancy takes place by volunteers. You explicitly agree that placement may take several days as a result.
--   Certainly in busy periods (eg around the conference) pressure to speed up this process is not appreciated.
+<form action="/en/jobs/post-job-opening/success" method="post" id="formulier-vacatures" netlify-honeypot="bot-field" netlify>
+  <fieldset>
+    <legend>I want to post a vacancy</legend>
+    <p class="form-element">
+      <label for="form-1-input-0" class="form-label">Contact person</label>
+      <input type="text" name="Contact person" id="form-1-input-0" class="text">
+    </p>
+    <p class="form-element">
+      <label for="form-1-input-1" class="form-label">Contact person's email address</label>
+      <input type="email" name="Contact person's email address" id="form-1-input-1" class="text">
+    </p>
+    <p class="form-element">
+      <label for="form-1-input-2" class="form-label">Phone number</label>
+      <input type="text" name="Phone number" id="form-1-input-2" class="text">
+    </p>
+    <p class="form-element">
+      <label for="form-1-input-3" class="form-label">Company name</label>
+      <input type="text" name="Company name" id="form-1-input-3" class="text">
+    </p>
+    <p class="form-element">
+      <label for="form-1-input-4" class="form-label">Company LinkedIn account <em>optional</em></label>
+      <input type="text" name="Company LinkedIn account" id="form-1-input-4" class="text">
+    </p>
+    <p class="form-element">
+      <label for="form-1-input-4" class="form-label">Company Mastodon account <em>optional</em></label>
+      <input type="text" name="Company Mastodon account" id="form-1-input-4" class="text">
+    </p>
+    <p class="form-element">
+      <label for="form-1-input-4" class="form-label">Company BlueSky account <em>optional</em></label>
+      <input type="text" name="Company BlueSky account" id="form-1-input-4" class="text">
+    </p>
+    <p class="form-element">
+      <label for="form-1-input-4" class="form-label">Company Instagram account <em>optional</em></label>
+      <input type="text" name="Company Instagram account" id="form-1-input-4" class="text">
+    </p>
+    <p class="form-element">
+      <label for="form-1-input-5" class="form-label">Billing address</label>
+      <textarea name="Billing address" id="form-1-input-5" cols="50" rows="5" class="small"></textarea>
+    </p>
+    <p class="form-element">
+      <label for="form-1-input-6" class="form-label">Email address for the invoice</label>
+      <input type="text" name="Email address for the invoice" id="form-1-input-6" class="text">
+    </p>
+    <p class="form-element">
+      <label for="form-1-input-7" class="form-label">Your reference <em>optional, for example, a purchase number</em></label>
+      <input type="text" name="Your reference" id="form-1-input-7" class="text">
+    </p>
+    <fieldset>
+      <legend><span>Employment or freelance?</span></legend>
+      <ul>
+        <li>
+          <label for="form-1-input-8">
+          <input type="radio" name="Employment_or_freelance" value="Employment" class="radio" id="form-1-input-8">
+          Employment
+          </label>
+        </li>
+        <li>
+          <label for="form-1-input-9">
+          <input type="radio" name="Employment_or_freelance" value="Freelance" class="radio" id="form-1-input-9">
+          Freelance
+          </label>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend><span>Agree with the <a href="/en/jobs/post-job-opening/">terms and conditions</a>?</span></legend>
+      <ul>
+        <li>
+          <label for="form-1-input-10">
+          <input type="radio" name="Agree_with_above_terms" value="Yes" class="radio" id="form-1-input-10">
+          Yes
+          </label>
+        </li>
+        <li>
+          <label for="form-1-input-11">
+          <input type="radio" name="Agree_with_above_terms" value="No" class="radio" id="form-1-input-11">
+          No
+          </label>
+        </li>
+      </ul>
+    </fieldset>
+    <p class="form-element">
+      <label for="form-1-input-12" class="form-label">Any comments or questions</label>
+      <textarea name="Any comments or questions" id="form-1-input-12" cols="50" rows="5" class="small"></textarea>
+    </p>
+    <p style="display: none;">
+        <label>
+        Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+    </p>
+    <p class="submit">
+      <button class="button-curly-braces">Send</button>
+    </p>
+  </fieldset>
+</form>

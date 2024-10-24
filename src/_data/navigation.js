@@ -95,14 +95,18 @@ module.exports = {
             url: "/nl/werk-en-freelance/vacature-plaatsen/",
             title: "Vacature plaatsen",
           },
+          {
+            url: "/nl/werk-en-freelance/voorwaarden/",
+            title: "Vacaturebank voorwaarden",
+          },
           //   {
           //     title: "Freelancers",
           //     url: "/nl/freelancers",
           //   },
-          //   {
-          //     title: "Mentors",
-          //     url: "/nl/mentors",
-          //   },
+            {
+              title: "Mentors",
+              url: "/nl/mentors",
+            },
         ],
       },
       {
@@ -235,14 +239,19 @@ module.exports = {
             url: "/en/jobs/post-job-opening/",
             title: "Post a job opening",
           },
+          ,
+          {
+            url: "/en/jobs/post-job-opening/toc",
+            title: "Job bank terms",
+          },
           //   {
           //     title: "Freelancers",
           //     url: "/en/freelancers",
-          //   },,
-          //   {
-          //     title: "Mentors",
-          //     url: "/en/mentors",
           //   },
+          {
+            title: "Mentors",
+            url: "/en/mentors",
+          },
         ],
       },
       {
