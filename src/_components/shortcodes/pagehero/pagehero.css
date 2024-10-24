@@ -50,29 +50,40 @@
   padding-block-end: 22.8%;
   content: " ";
   display: block;
-  background-color: var(--red);
+  background-color: var(--hero-background);
   background-size: cover;
   -webkit-clip-path: url(#curly-brace-down-tiny);
   clip-path: url(#curly-brace-down-tiny);
 }
 
+/* @media all and (min-width: 46.875em) {
+    .hero-graphic::after {
+    inline-size: 100%;
+    block-size: 0;
+    padding-block-end: 22.8%;
+    content: " ";
+    display: block;
+    background-color: var(--red);
+    background-size: cover;
+    -webkit-clip-path: url(#curly-brace-down-tiny);
+    clip-path: url(#curly-brace-down-tiny);
+    }
+} */
+
 .hero--activities .hero-graphic::after {
-  background-color: var(--lilac);
   -webkit-clip-path: url(#greater-than-down-tiny);
   clip-path: url(#greater-than-down-tiny);
 }
-
+ 
 .hero--blog .hero-graphic::after {
-    background-color: var(--lilac); 
     -webkit-clip-path: url(#parenthesis-down-tiny);
     clip-path: url(#parenthesis-down-tiny);
 }
 
 .hero-content {
-  background-color: var(--red);
-  margin-block-start: 0;
-  padding-block-start: var(--spacing);
-  padding-inline: var(--spacing);
+  background-color: var(--hero-background);
+  margin-block: 0;
+  padding: var(--spacing);
   hyphens: none;
 }
 
@@ -82,37 +93,30 @@
 
 .hero-content p:empty {
     display: none;
-}
-
-.hero--homepage .hero-graphic::after,
-.hero--homepage .hero-content {
-  background-color: var(--yellow);
-}
-
-.hero--freelancers .hero-graphic::after,
-.hero--freelancers .hero-content {
-  background-color: var(--yellow);
-}
+} 
 
 .hero--activities .hero-graphic::after,
 .hero--activities .hero-content {
-  background-color: var(--lilac);
   padding-block-start: calc(2 * var(--spacing));
 }
 
-.hero--blog .hero-graphic::after,
-.hero--blog .hero-content {
-  background-color: var(--lilac);
-  padding-block-end: 0;
+.hero--activities,
+.hero--blog,
+.hero--blog-single {
+  --hero-background: var(--lilac);
 }
 
-.hero--members .hero-graphic,
-.hero--members .hero-graphic::after,
-.hero--members .hero-content,
-.hero--members-single .hero-graphic,
-.hero--members-single .hero-graphic::after,
-.hero--members-single .hero-content {
-  background-color: var(--yellow);
+.hero--homepage,
+.hero--freelancers,
+.hero--members,
+.hero--members-single,
+.hero--jobs {
+  --hero-background: var(--yellow);
+}
+
+.hero-graphic::after,
+.hero-content {
+  background-color: var(--hero-background);
 }
 
 .hero-content a:hover,
@@ -121,18 +125,6 @@
     text-decoration: underline;
     color: currentColor;
 }
-
-.hero--single-blog .hero-graphic::after,
-.hero--single-blog .hero-graphic,
-.hero--single-blog .hero-content {
-  background-color: var(--lilac);
-}
-
-.hero--jobs .hero-graphic::after,
-.hero--jobs .hero-content {
-  background-color: var(--yellow);
-}
-
 
 .hero--activities .hero-content h2 a,
 .hero--blog .hero-content h2 a {
@@ -219,7 +211,7 @@
         clip-path: url(#curly-brace-down-large);
         inline-size: 100%;
         block-size: auto;
-        background-color: var(--yellow);
+        background-color: var(--hero-background);
         margin-block-start: -2px;
     }
 
@@ -233,9 +225,8 @@
         clip-path: url(#curly-brace-down-large);
         inline-size: 100%;
         block-size: 2rem;
-        background-color: var(--yellow);
+        background-color: var(--hero-background);
     }
-
 
     .hero svg {
         height: 92%;
