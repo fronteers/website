@@ -27,15 +27,21 @@ This website is created by volunteers from Fronteers.
 - [l3xander](https://github.com/l3xander)
 - [Ninajoy](https://github.com/Ninajoy)
 
-
 See [GitHub contributors](https://github.com/fronteers/website/graphs/contributors) for the full list.
+
+## Design
 
 The design was made by [Ready For Take-Off](https://rfto.nl/). They provided us with a visual identity for our conference from 2015 to 2018, and in 2018, they helped us develop a new identity for the organisation.
 
-## Statistics:
+## Fonts
+
+We use Roboto and Fabrik on this website. Fabrik is a font by [TIGHTYPE™](https://tightype.com/). Fabrik is no longer available on their website, but we purchased it via email upon request.
+
+## Hosting
+
+The website is hosted by [Netlify](https://www.netlify.com), who sponsor us with an [Open Source Unlimited package](https://www.netlify.com/legal/open-source-policy/).
+
+## Statistics
 
 We are serious about the privacy of our visitors. Therefore, the only way we analyze visitor numbers is through the GDPR-friendly service of [Plausible.io](https://plausible.io/). Our [visitor statistics](https://plausible.io/fronteers.nl) can be viewed by everyone.
 
-## Fonts:
-
-We use Roboto and Fabrik on this website. Fabrik is a font by [TIGHTYPE™](https://tightype.com/). Fabrik is no longer available on their website, but we purchased it via email upon request.
