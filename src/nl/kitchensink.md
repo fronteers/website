@@ -231,6 +231,22 @@ tempor incididunt ut labore et dolore magna aliqua.
 Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {% endaboutushero %}
 
+You can change the shield by providing another argument:
+
+<!-- {% raw %} -->
+
+```liquid
+{% aboutushero "We are a proud union", "Dave" %}
+Test Lorem ipsum dolor sit amet, [...]
+{% endaboutushero %}
+```
+
+<!-- {% endraw %} -->
+
+{% aboutushero "We are a proud union", "Dave" %}
+Test Lorem ipsum dolor sit amet, [...]
+{% endaboutushero %}
+
 ## Quote
 
 <!-- {% raw %} -->
@@ -280,7 +296,7 @@ planet.
 
 <!-- {% endraw %} -->
 
-{% memberquote "Anneke Sinnema" "Frontender" "/assets/member-avatars/anneke-sinnema.png" "annekesinnema" %}
+{% memberquote "Anneke Sinnema" "Frontender" "/assets/images/member-avatars/anneke-sinnema.png" "annekesinnema" %}
 To all users of technology who are willing to take a chance, make a choice, and try a new way of doing things so that we can nurture and enjoy a happy, healthy planet.
 {% endmemberquote %}
 
@@ -381,6 +397,10 @@ basis of having an identicon for our members.
 <!-- {% raw %} -->
 
 ```liquid
+{% generateShield "" %}
+```
+
+```liquid
 {% generateShield "An arbitrary string" %}
 ```
 
@@ -390,6 +410,7 @@ basis of having an identicon for our members.
 <table>
   <thead>
   <tr>
+    <th scope="col" width="100">(empty)</th>
     <th scope="col" width="100">Alice</th>
     <th scope="col" width="100">Bob</th>
     <th scope="col" width="100">Charlie</th>
@@ -403,6 +424,7 @@ basis of having an identicon for our members.
   </thead>
   <tbody>
     <tr>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "" %}</div></td>
       <td><div style="max-width: 48px; width: 48px">{% generateShield "Alice" %}</div></td>
       <td><div style="max-width: 48px; width: 48px">{% generateShield "Bob" %}</div></td>
       <td><div style="max-width: 48px; width: 48px">{% generateShield "Charlie" %}</div></td>

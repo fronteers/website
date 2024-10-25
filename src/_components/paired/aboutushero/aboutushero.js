@@ -1,13 +1,19 @@
-const { shield } = require("../../shortcodes/shield/shield");
+const { shield, generateShield } = require("../../shortcodes/shield/shield");
 
 const DEFAULTS_FOR_SHIELD = ["triangular", "thunder", "lilac", "purple"];
-exports.aboutushero = (text, title, shieldOptions = []) => {
-  const [style, shape, primary, secondary] = shieldOptions.concat(
-    DEFAULTS_FOR_SHIELD.slice(shieldOptions.length, DEFAULTS_FOR_SHIELD.length)
-  );
-  const heroShield = shield(style, shape, primary, secondary);
+exports.aboutushero = (text, title, shieldText = null) => {
+  const heroShield =
+    shieldText == null
+      ? shield(...DEFAULTS_FOR_SHIELD)
+      : generateShield(
+          shieldText,
+          {},
+          {
+            color: ["red"],
+          }
+        );
 
-    return `<section class="hero-wrapper outer-wrapper">
+  return `<section class="hero-wrapper outer-wrapper" data-shield="${shieldText}">
 <div class="about-us-hero">
 ${heroShield}
 <div class="about-us-hero-graphic">
