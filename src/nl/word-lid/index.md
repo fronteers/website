@@ -7,8 +7,11 @@ Iedereen mag lid worden van Fronteers. De contributie bedraagt {{ general-info.c
 
 Voor studenten worden deze bedragen gehalveerd, tot {{ general-info.students_contribution }} en {{ general-info.students_discounted }}.
 
-Vanzelfsprekend gaan we vertrouwelijk met je gegevens om. Alleen het bestuur en de ledenadministratie (aangewezen door het bestuur) krijgt deze gegevens te zien. Je naam en eventuele werkgever worden, indien gewenst, gepubliceerd op de openbare ledenlijst.
+<div style="padding: var(--spacing-half) var(--spacing); background: #efefef;">
 
+**Let op:** Vanzelfsprekend gaan we vertrouwelijk met je gegevens om. Alleen het bestuur krijgt de ingevulde gegevens te zien. Je naam en eventuele werkgever worden, indien gewenst, gepubliceerd op de openbare ledenlijst. De data wordt wel tijdelijk opgeslagen via Netlify. Als je daar bezwaar tegen hebt, kun je ook lid worden door het [sturen van een e-mail](mailto:penningmeester@fronteers.nl?subject=Lidmaatschap%20Aanvraag&body=Naam:%20%0A[VOOR-EN%20ACHTERNAAM]%0A%0AAdres:%20%0A[ADRES]%0A%0AE-mailadres:%20%0A[EMAILADRES]%0A%0ATelefoonnummer:%20%0A[TELEFOONNUMMER]%0A%0AWerkgever:%20%0A[WERKGEVER]%0A%0AStudent:%20%0A[JA/NEE]%0A%0AVrijwilligerswerk:%20%0A[INTERESSE%20IN%20VRIJWILLIGERSWERK]%0A%0AHoe%20ken%20je%20Fronteers:%20%0A[KENNISMAKING]%0A%0AWelke%20verwachtingen%20heb%20je%20van%20de%20vereniging:%20%0A[VERWACHTINGEN]%0A%0AOverige%20opmerkingen%20of%20vragen:%20%0A[OPMERKINGEN]%0A%0AAkkoord%20met%20ledenlijst:%20%0A[JA/NEE]%0A%0A). Als deze e-maillink niet werkt, is hier een [e-mail sjabloon](https://github.com/fronteers/website/blob/main/templates/lidmaatschap.txt) dat je kunt kopieren in een e-mail.
+ 
+</div><br />
 
 <form action="/nl/word-lid/gelukt" method="post" id="formulier-lidmaatschap" netlify-honeypot="bot-field"  netlify>
   <fieldset>
@@ -62,7 +65,7 @@ Vanzelfsprekend gaan we vertrouwelijk met je gegevens om. Alleen het bestuur en 
   <fieldset>
     <legend>Afronden</legend>
     <ul>
-      <li><label><input type="checkbox" name="ledenlijst" id="ledenlijst"> Ik ga er mee akkoord dat mijn naam gepubliceerd wordt in de <a href="/leden">ledenlijst</a></label></li>
+      <li><label><input type="checkbox" name="ledenlijst" id="ledenlijst"> Ik ga er mee akkoord dat mijn naam gepubliceerd wordt in de <a href="/nl/leden">ledenlijst</a></label></li>
     </ul>
     <p id="let-op"><em>Let op: je ontvangt binnen een paar dagen tot een week een handmatige welkomstmail, waar je nog op dient te reageren voordat je echt lid bent. Voeg @fronteers.nl dus straks even toe aan je white-list.</em></p>
     <p style="display: none;">

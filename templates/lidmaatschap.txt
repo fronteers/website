@@ -1,0 +1,34 @@
+# E-mail dit volledig ingevuld naar: penningmeester@fronteers.nl 
+
+Naam:
+[VOOR-EN ACHTERNAAM]
+
+Adres: dient je persoonlijke adres te zijn
+[ADRES]
+
+E-mailadres:
+[EMAILADRES]
+
+Telefoonnummer:
+[TELEFOONNUMMER]
+
+Werkgever: we sturen de factuur niet naar je werkgever; je bent persoonlijk lid
+[WERKGEVER]
+
+Ja, ik ben student aan een hogere onderwijsinstelling: [JA/NEE]
+Om studentenkorting te ontvangen, dien je een bewijs van inschrijving van de hogere onderwijsinstelling waar je studeert aan het bestuur beschikbaar te maken. Stuur een scan mee!
+
+Zou jij je willen inzetten als vrijwilliger? Zo ja, op welk gebied?:
+[INTERESSE IN VRIJWILLIGERSWERK]
+
+Hoe ken je Fronteers:
+[KENNISMAKING]
+
+Welke verwachtingen heb je van de vereniging:
+[VERWACHTINGEN]
+
+Overige opmerkingen of vragen:
+[OPMERKINGEN]
+
+Ik ga er mee akkoord dat mijn naam gepubliceerd wordt in de ledenlijst:
+[JA/NEE]

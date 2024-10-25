@@ -7,7 +7,12 @@ The contribution is {{ general-info.contribution }} (including 21% VAT). Members
 
 The contribution for students at a higher educational institution is {{ general-info.students_contribution }} (including VAT). Students who register after June 30 pay {{ general-info.students_discounted }}. 
 
-Naturally, we will treat your data confidentially. Only the board and the membership administration (appointed by the board) will see this data. Your name and possible employer will be published on the public membership list, if desired.
+<div style="padding: var(--spacing-half) var(--spacing); background: #efefef;">
+
+**Please note:** Naturally, we will treat your data confidentially. Only the board will see this data. Your name and possible employer will be published on the public membership list, if desired. We do temporarily store form submissions with Netlify. If this is something you object to, you can also <a href="mailto:?subject=Membership%20Application&body=Name:%20%0A[FULL%20NAME]%0A%0AAddress:%20%0A[PERSONAL%20ADDRESS]%0A%0AEmail%20Address:%20%0A[EMAIL]%0A%0APhone%20Number:%20%0A[PHONE%20NUMBER]%0A%0AEmployer:%20%0A[EMPLOYER]%0A%0AStudent:%20%0A[YES/NO]%0A%0AVolunteer%20Interest:%20%0A[INTEREST%20IN%20VOLUNTEERING]%0A%0AHow%20Did%20You%20Learn%20About%20Fronteers:%20%0A[INTRODUCTION]%0A%0AExpectations%20of%20the%20Organization:%20%0A[EXPECTATIONS]%0A%0AAdditional%20Comments%20or%20Questions:%20%0A[COMMENTS]%0A%0AConsent%20for%20Member%20List%20Publication:%20%0A[YES/NO]%0A%0A">
+send us an e-mail</a>. If this e-maillink does not work you can also copy this [e-mail template](https://github.com/fronteers/website/blob/main/templates/lidmaatschap.txt) in an e-mail.
+
+</div><br />
 
 <form action="/en/join-us/success" method="post" id="formulier-lidmaatschap" netlify-honeypot="bot-field" netlify>
   <fieldset>
