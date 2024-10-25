@@ -1,6 +1,6 @@
-const fs = require("fs");
-const path = require("path");
-const { createHash } = require("crypto");
+const fs = require("node:fs");
+const path = require("node:path");
+const { createHash } = require("node:crypto");
 
 const DIR_PATTERNS = path.resolve(__dirname, "patterns");
 const DIR_SHAPES = path.resolve(__dirname, "shapes");
@@ -75,12 +75,15 @@ function getShield(shape, pattern, colorPrimary, colorSecondary) {
   const shapePath = path.resolve(DIR_SHAPES, `${shape}.svg`);
   const shapeSvg = fs.readFileSync(shapePath).toString();
 
+  colorPrimary = interpretColor(colorPrimary);
+  colorSecondary = interpretColor(colorSecondary);
+
   const patternPath = path.resolve(DIR_PATTERNS, `${pattern}.svg`);
   const patternShape = fs
     .readFileSync(patternPath)
     .toString()
-    .replace(/{{\s*primary\s*}}/gi, `var(--${colorPrimary})`)
-    .replace(/{{\s*secondary\s*}}/gi, `var(--${colorSecondary})`);
+    .replace(/{{\s*primary\s*}}/gi, colorPrimary)
+    .replace(/{{\s*secondary\s*}}/gi, colorSecondary);
 
   maskId++;
 
@@ -94,6 +97,14 @@ ${shapeSvg}
 </svg>`;
 }
 
+function interpretColor(color) {
+  if (color[0] == "#") {
+    return color;
+  }
+
+  return `var(--${color}, '#0000007F)`;
+}
+
 /*
  * This shortcode generates a shield based on arbitrary strings.
  *
@@ -101,6 +112,10 @@ ${shapeSvg}
  * string and uses that to determine the shield properties.
  */
 function generateShield(term, overrides = {}) {
+  if (term == "") {
+    return getShield(SHAPES[0], PATTERNS[2], "#0000007F", "#FFFFFF7F");
+  }
+
   const [pattern, shape, [colorPrimary, colorSecondary]] = pickPropsByString(
     createHash("md5")
       .update(String(overrides.term || term))

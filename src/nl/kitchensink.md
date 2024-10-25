@@ -381,6 +381,10 @@ basis of having an identicon for our members.
 <!-- {% raw %} -->
 
 ```liquid
+{% generateShield "" %}
+```
+
+```liquid
 {% generateShield "An arbitrary string" %}
 ```
 
@@ -390,6 +394,7 @@ basis of having an identicon for our members.
 <table>
   <thead>
   <tr>
+    <th scope="col" width="100">(empty)</th>
     <th scope="col" width="100">Alice</th>
     <th scope="col" width="100">Bob</th>
     <th scope="col" width="100">Charlie</th>
@@ -403,6 +408,7 @@ basis of having an identicon for our members.
   </thead>
   <tbody>
     <tr>
+      <td><div style="max-width: 48px; width: 48px">{% generateShield "" %}</div></td>
       <td><div style="max-width: 48px; width: 48px">{% generateShield "Alice" %}</div></td>
       <td><div style="max-width: 48px; width: 48px">{% generateShield "Bob" %}</div></td>
       <td><div style="max-width: 48px; width: 48px">{% generateShield "Charlie" %}</div></td>

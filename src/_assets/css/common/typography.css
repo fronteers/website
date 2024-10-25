@@ -90,9 +90,9 @@ a:focus {
 
 .tag-link:hover,
 .tag-link:focus {
-    background-color: transparent;
-    color: white;
-    outline: 0;
+  background-color: transparent;
+  color: white;
+  outline: 0;
 }
 
 .tag-link:hover .tag,
@@ -101,17 +101,17 @@ a:focus {
 .tag-link:focus .tag::before,
 .tag-link:hover .tag::after,
 .tag-link:focus .tag::after {
-    background: var(--purple-wcag-darker);
-    color: white;
+  background: var(--purple-wcag-darker);
+  color: white;
 }
 
 .tag-link:focus-within .tag,
 .tag-link:focus-within .tag::after,
 .tag-link:focus-within .tag::before {
-    background: var(--purple-wcag-darker);
-    color: white;
+  background: var(--purple-wcag-darker);
+  color: white;
 }
-    
+
 .h {
   font-family: var(--font-family-decoration);
 }
@@ -128,5 +128,5 @@ a:focus {
 }
 
 pre {
-  overflow-x: scroll;
+  overflow-x: auto;
 }
