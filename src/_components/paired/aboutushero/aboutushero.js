@@ -13,7 +13,7 @@ exports.aboutushero = (text, title, shieldText = null) => {
           }
         );
 
-  return `<section class="hero-wrapper outer-wrapper">
+  return `<section class="hero-wrapper outer-wrapper" data-shield="${shieldText}">
 <div class="about-us-hero">
 ${heroShield}
 <div class="about-us-hero-graphic">
