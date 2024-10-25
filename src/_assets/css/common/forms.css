@@ -1,31 +1,34 @@
-/* General Form Styling */
-form {
-}
-
-/* Fieldset Styling */
-form fieldset {
+fieldset {
   border: 0;
+  padding: 0;
+  border-top: 2px solid var(--lilac);
 }
 
-/* Legend Styling */
-form legend {
+fieldset:not(:first-child) {
+  margin-block-start: var(--spacing-double);
+}
+
+fieldset > :not(legend) {
+  padding-inline-start: var(--spacing);
+}
+
+legend {
   font-size: 1.2em;
   font-weight: bold;
+  padding-inline: var(--spacing-half);    
+  margin-block-end: var(--spacing);
 }
 
-/* Form Element Spacing */
-form .form-element {
-  margin-bottom: var(--spacing);
+.form-element {
+  margin-block-end: var(--spacing);
 }
 
-/* Label Styling */
-form label.form-label {
+label {
   display: block;
   font-weight: bold;
-  margin-bottom: var(--spacing-half);
+  margin-block-end: var(--spacing-half);
 }
 
-/* Input and Textarea Styling */
 form input[type="text"],
 form input[type="email"],
 form textarea {
@@ -38,13 +41,11 @@ form textarea {
   box-sizing: border-box;
 }
 
-/* Textarea Specific Styling */
 form textarea {
   resize: vertical;
   height: 120px;
 }
 
-/* Radio Button Group Styling */
 form ul {
   list-style: none;
   padding: 0;
@@ -52,23 +53,18 @@ form ul {
 }
 
 form ul li {
-  margin-bottom: var(--spacing-half);
+  margin-block-end: var(--spacing-half);
 }
 
-/* Radio Input Styling */
 form input[type="radio"] {
   margin-right: var(--spacing-half);
 }
 
-/* Optional and Instructional Text Styling */
 form em {
+  margin-block-start: var(--spacing-half);
   font-style: italic;
-  color: #666;
-}
-
-/* Spam Check Field (Hidden) */
-form .spam-check {
-  display: none;
+  font-weight: normal;
+  display: block;
 }
 
 /* Adjustments for spacing and alignment */

@@ -95,14 +95,18 @@ module.exports = {
             url: "/nl/werk-en-freelance/vacature-plaatsen/",
             title: "Vacature plaatsen",
           },
+          {
+            url: "/nl/werk-en-freelance/voorwaarden/",
+            title: "Vacaturebank voorwaarden",
+          },
           //   {
           //     title: "Freelancers",
           //     url: "/nl/freelancers",
           //   },
-          //   {
-          //     title: "Mentors",
-          //     url: "/nl/mentors",
-          //   },
+            {
+              title: "Mentors",
+              url: "/nl/mentors",
+            },
         ],
       },
       {
@@ -235,14 +239,19 @@ module.exports = {
             url: "/en/jobs/post-job-opening/",
             title: "Post a job opening",
           },
+          ,
+          {
+            url: "/en/jobs/post-job-opening/toc",
+            title: "Job bank terms",
+          },
           //   {
           //     title: "Freelancers",
           //     url: "/en/freelancers",
-          //   },,
-          //   {
-          //     title: "Mentors",
-          //     url: "/en/mentors",
           //   },
+          {
+            title: "Mentors",
+            url: "/en/mentors",
+          },
         ],
       },
       {
@@ -288,7 +297,7 @@ module.exports = {
   footer: {
     nl: [
       {
-        url: "/nl/informatie/contact/",
+        url: "/nl/vereniging/contact/",
         title: "Contact",
       },
       {
@@ -302,15 +311,11 @@ module.exports = {
       {
         url: "/nl/informatie/colofon/",
         title: "Colofon",
-      },
-      // {
-      //     url: "/nl/informatie/adverteren/",
-      //     title: "Adverteren",
-      // },
+      }, 
     ],
     en: [
       {
-        url: "/en/information/contact/",
+        url: "/en/organisation/contact/",
         title: "Contact",
       },
       {
@@ -325,10 +330,6 @@ module.exports = {
         url: "/en/information/colophon/",
         title: "Colophon",
       },
-      // {
-      //     url: "/en/footer/advertise/",
-      //     title: "Advertise",
-      // },
     ],
   },
 };
