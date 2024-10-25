@@ -111,7 +111,7 @@ function interpretColor(color) {
  * To avoid similarity of similar names (e.g. Erin and Erik), this function computes a hash of the
  * string and uses that to determine the shield properties.
  */
-function generateShield(term, overrides = {}) {
+function generateShield(term, overrides = {}, excludes = {}) {
   if (term == "") {
     return getShield(SHAPES[0], PATTERNS[2], "#0000007F", "#FFFFFF7F");
   }
@@ -120,7 +120,11 @@ function generateShield(term, overrides = {}) {
     createHash("md5")
       .update(String(overrides.term || term))
       .digest("hex"),
-    [PATTERNS, SHAPES, COLOR_SETS]
+    [
+      reject(PATTERNS, excludes.pattern),
+      reject(SHAPES, excludes.shapes),
+      reject(COLOR_SETS, excludes.color),
+    ]
   );
 
   return getShield(
@@ -128,6 +132,18 @@ function generateShield(term, overrides = {}) {
     overrides.pattern || pattern,
     overrides.colorPrimary || colorPrimary,
     overrides.colorSecondary || colorSecondary
+  );
+}
+
+function reject(values, excludes) {
+  if (!excludes) {
+    return values;
+  }
+
+  return values.filter((value) =>
+    Array.isArray(value)
+      ? value.every((inner) => !excludes.includes(inner))
+      : !excludes.includes(value)
   );
 }
 

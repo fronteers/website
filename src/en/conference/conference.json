@@ -1,4 +1,5 @@
 {
   "layout": "page.liquid",
-  "useHero": "aboutushero"
+  "useHero": "aboutushero",
+  "shield": "conference"
 }
