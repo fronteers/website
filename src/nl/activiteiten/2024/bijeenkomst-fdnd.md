@@ -1,5 +1,5 @@
 ---
-title: Bijeenkomst bij FDND, op 16 mei 2024
+title: Bijeenkomst bij FDND
 date: 2024-04-16
 eventdate: 2024-05-16
 author: Krijn Hoetmer

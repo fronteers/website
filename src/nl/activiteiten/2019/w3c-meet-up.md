@@ -32,31 +32,5 @@ Herengracht 469-4
 
 ## Sign up
 
-We hope to see a lot of you on February 7th! [Register now on meetup.com](https://www.meetup.com/Fronteers-NL/events/258152423/) so that we know how many snacks and drinks we have to prepare. If you're hesitant to sign up for meetup.com, feel free to use the form at the bottom of this page instead.
-
-{%- comment -%}
-{%- form -%}
-{%- endcomment -%}
-
-<table>
-<tr>
-<th scope="col">Name</th>
-<th scope="col">Twitter</th>
-</tr>
-<tr>
-<td>Anneke Sinnema</td>
-<td></td>
-</tr>
-<tr>
-<td>Edwin Martin</td>
-<td></td>
-</tr>
-<tr>
-<td>Kamil Smolenski</td>
-<td></td>
-</tr>
-<tr>
-<td>Wim van Iersel</td>
-<td></td>
-</tr>
-</table>
+We hope to see a lot of you on February 7th! [Register now on meetup.com](https://www.meetup.com/Fronteers-NL/events/258152423/) so that we know how many snacks and drinks we have to prepare. 
+ 
