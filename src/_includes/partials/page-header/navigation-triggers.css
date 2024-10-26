@@ -96,6 +96,10 @@
     display: none;
 }
 
+.navigation-list-item--toplevel.open svg {
+    transform: translateY(0px);
+}
+
 @media all and (min-width: 60.125em) {
     .navigation-submenu-toggle {
         padding: 0;
@@ -107,6 +111,6 @@
     }
 
     .navigation-list-item--toplevel.open svg {
-        transform: translateY(0);
+        transform: translateY(-3px);
     }
 }
