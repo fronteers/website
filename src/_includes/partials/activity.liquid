@@ -3,13 +3,17 @@
         <div class="activity-header-content">
             {%- include partials/utility/dynamic-headerlevel level: headerlvl title: activity.data.title link: activity.url -%}
             {%- if locale == "nl" -%}
-                <time class="activity-time" datetime="{{ activity.date.eventdate | date: "%Y-%m-%d" }}">
-                    {{ activity.data.eventdate  | localizedDate: 'nl' }}
-                </time>
+                {% if activity.data.eventdate %}
+                    <time class="activity-time" datetime="{{ activity.date.eventdate | date: "%Y-%m-%d" }}">
+                        {{ activity.data.eventdate  | localizedDate: 'nl' }}
+                    </time>
+                {% endif %}
             {%- elsif locale == "en" -%}
-                <time class="activity-time" datetime="{{ activity.date.eventdate | date: "%Y-%m-%d" }}">
-                    {{ activity.data.eventdate  | displayDate: locale | date: "%B %e %Y" }}
-                </time>
+                {% if activity.data.eventdate %}
+                    <time class="activity-time" datetime="{{ activity.date.eventdate | date: "%Y-%m-%d" }}">
+                        {{ activity.data.eventdate  | displayDate: locale | date: "%B %e %Y" }}
+                    </time>
+                {% endif %}
             {%- endif -%}
         </div>
     </div>
@@ -20,7 +24,7 @@
             <p class="activity-summary">{{ activity.templateContent | strip_html | truncatewords: 60 | truncate: 320 }}</p>
         {%- endif -%}
 
-        {%- if activity.data.location -%}
+        {%- if activity.data.location and activity.data.location != "" -%}
             <p class="activity-location">{%- include svg/icon_location.svg -%}
                 <span class="visually-hidden">{{ translations[locale].location }}</span>
                 {{ activity.data.location }}
@@ -34,9 +38,11 @@
             {%- endif -%}
         {%- endif -%}
 
-        {%- for tag in activity.data.categories -%}
-            <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
-        {%- endfor -%}
+        <div class="activity-tags">
+            {%- for tag in activity.data.categories -%}
+                <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
+            {%- endfor -%}
+        </div>
     </div>
 
     {%- if pastActivity -%}

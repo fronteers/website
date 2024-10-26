@@ -64,6 +64,11 @@ a:focus {
 .tag-link {
   display: inline-block;
   text-decoration: none;
+  margin: 0 0 10px 0;
+}
+
+.tag-link .tag {
+  margin: 0;
 }
 
 .tag-link .tag,

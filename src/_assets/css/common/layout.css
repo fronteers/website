@@ -77,7 +77,7 @@ main section > .h {
     background-color: white;
 }
 
-.page-content:has(.visually-hidden:only-child) {
+.page-content:has(> .visually-hidden:only-child) {
     background-color: transparent;
 }
 
