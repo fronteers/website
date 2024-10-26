@@ -20,7 +20,7 @@ De nieuwe website is gebouwd met [Eleventy](https://www.11ty.dev/), een static s
 ## Maar wat kun je allemaal op deze nieuwe site?
 
 - Je mag - mits je lid bent van de vereniging - zelf [een profiel aanmaken](https://github.com/fronteers/website/blob/main/docs/represent.md) waarop je jezelf laat zien. Er wordt dan naar gelinkt vanuit ons ledenoverzicht. Als we een aantal profielen hebben, kunnen we ook pagina's live zetten waarop je gevonden kan worden als werkzoekende, freelancer of als iemand die wel eens junioren wil mentoren. 
-- Je kunt ook een blog schrijven en insturen. Schrijf je blog in Markdown (je kunt hiervoor [een sjabloon](https://github.com/fronteers/website/blob/main/templates/blog.md) vinden op Github) en plaats het in de juiste map. Maak een pull-request en iemand van onze marketingcommissie kijkt je inzending na. Wordt je PR gemerged, dan sta je op de site! 👏
+- Je kunt ook een blog schrijven en insturen. Schrijf je blog in Markdown (je kunt hiervoor [een sjabloon](https://github.com/fronteers/website/blob/main/templates/blog-nl.md) vinden op Github) en plaats het in de juiste map. Maak een pull-request en iemand van onze marketingcommissie kijkt je inzending na. Wordt je PR gemerged, dan sta je op de site! 👏
 - Heeft je bedrijf een vacature, dan kunnen je ontwikkelaars tot de vacature verloopt nog correcties doen in een proces dat minder afhankelijk is van 1 vrijwilliger. Shout out naar Bernard die _jarenlang_ voor ons de vacaturebank heeft gedaan! 🙏
 - De site is nu ook tweetalig. Waarmee we hopen ook Engelstalige expats te kunnen betrekken bij de vereniging.
 - Tot slot zijn onze [website bezoekersstatistieken](https://plausible.io/fronteers.nl) voor iedereen openbaar in te zien.
