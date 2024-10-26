@@ -1,0 +1,23 @@
+<section data-partial="homepage/upcoming-activities" class="inner-wrapper upcoming-activities">
+    {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
+    <ol class="desktop-columns">
+        {%- for activity in activities_belgium limit: 3 -%}
+            {%- assign today = "now" | date: "%Y%m%d" | plus: 0 -%}
+            {%- assign latestEventDate = activity.data.eventdate | date: "%Y%m%d" | plus: 0 -%}
+            {% if today <= latestEventDate %}
+                {%- assign eventHasHappened = false -%}
+            {% else %}
+                {%- assign eventHasHappened = true -%}
+            {% endif %}
+            {%- assign index = forloop.index | modulo: 3 -%}
+            <li class="list-item ">
+                {%- include partials/activity headerlvl: "h3" index: index pastActivity: eventHasHappened -%}
+            </li>
+        {%- endfor -%}
+    </ol>
+
+    <div class="button-wrapper">
+        <a href="/{{ translations[locale].activitiesURL }}" class="button button-parentheses">
+            {{ translations[locale].blockTitles.viewAllEvents }}</a>
+    </div>
+</section>

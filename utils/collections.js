@@ -13,6 +13,18 @@ function published_posts(locale) {
     .reverse();
 };
 
+function published_posts_belgium(locale) {
+    return (collection) => collection
+        .getFilteredByTag("posts")
+        .filter((post) => Boolean(!post.data.draft))
+        .filter((post) => Boolean(!post.data.excludeFromCollection))
+        .filter((post) => Boolean(post.date <= now))
+        .filter((post) => Boolean(!post.data.parent))
+        .filter((post) => Boolean(post.data.locale == locale))
+        .filter((post) => post.data.categories && post.data.categories.includes("België"))
+        .reverse();
+};
+
 function published_activities(locale) {
   return (collection) => collection
     .getFilteredByTag("activities")
@@ -22,6 +34,18 @@ function published_activities(locale) {
     .filter((post) => Boolean(!post.data.parent))
     .filter((post) => Boolean(post.data.locale == locale))
     .sort((a, b) => b.data.eventdate - a.data.eventdate);
+};
+
+function published_activities_belgium(locale) {
+    return (collection) => collection
+        .getFilteredByTag("activities")
+        .filter((post) => Boolean(!post.data.draft))
+        .filter((post) => Boolean(!post.data.excludeFromCollection))
+        .filter((post) => Boolean(post.date <= now))
+        .filter((post) => Boolean(!post.data.parent))
+        .filter((post) => Boolean(post.data.locale == locale))
+        .filter((post) => post.data.categories && post.data.categories.includes("België"))
+        .sort((a, b) => b.data.eventdate - a.data.eventdate);
 };
 
 function published_jobs(locale) {
@@ -166,8 +190,12 @@ function categorised_activities(locale) {
 module.exports = {
   published_posts_en: published_posts("en"),
   published_posts_nl: published_posts("nl"),
+  published_posts_belgium_en: published_posts_belgium("en"),
+  published_posts_belgium_nl: published_posts_belgium("nl"),
   published_activities_en: published_activities("en"),
   published_activities_nl: published_activities("nl"),
+  published_activities_belgium_en: published_activities_belgium("en"),
+  published_activities_belgium_nl: published_activities_belgium("nl"),
   published_jobs_en: published_jobs("en"),
   published_jobs_nl: published_jobs("nl"),
   freelancers_en: freelancers("en"),
@@ -203,6 +231,17 @@ module.exports = {
       .reverse();
   },
 
+	published_posts_belgium(collection) {
+			return collection
+					.getFilteredByTag("posts")
+					.filter((post) => Boolean(!post.data.draft))
+					.filter((post) => Boolean(!post.data.excludeFromCollection))
+					.filter((post) => Boolean(post.date <= now))
+					.filter((post) => Boolean(!post.data.parent))
+					.filter((post) => post.data.categories && post.data.categories.includes("België"))
+					.reverse();
+	},
+
   published_activities(collection) {
     return collection
       .getFilteredByTag("activities")
@@ -211,7 +250,18 @@ module.exports = {
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
       .sort((a, b) => b.data.eventdate - a.data.eventdate);
-  },
+	},
+
+  published_activities_belgium(collection) {
+	return collection
+		.getFilteredByTag("activities")
+		.filter((post) => Boolean(!post.data.draft))
+		.filter((post) => Boolean(!post.data.excludeFromCollection))
+		.filter((post) => Boolean(post.date <= now))
+		.filter((post) => Boolean(!post.data.parent))
+		.filter((post) => post.data.categories && post.data.categories.includes("België"))
+		.sort((a, b) => b.data.eventdate - a.data.eventdate);
+	},
 
   published_jobs(collection) {
     return collection
