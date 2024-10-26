@@ -16,26 +16,26 @@ The following members have served on the board during the existence of Fronteers
 
 | Name                 | Period    | Positions                                                           |
 | -------------------- | --------- | ------------------------------------------------------------------- |
-| Peter Paul Koch      | 2007-2012 | President                                                           |
-| Tom Greuter          | 2007-2013 | Secretary (2007-2012) & Chairman (2012-2013)                        |
-| Arjan Eising         | 2007-2016 | General Board Member & Secretary (2012-2013)                        |
-| Krijn Hoetmer        | 2008-2014 | Treasurer (2008-2012), General Board Member & Secretary (2013-2014) |
-| Sander van Lambalgen | 2008-2016 | General Board Member & Chairman (2013-2016)                         |
-| Matijs Brinkhuis     | 2009-2015 | General Board Member & Treasurer (2012-2014)                        |
-| Vasilis van Gemert   | 2012-2014 | General board member                                                |
-| Roy Tomeij           | 2012-2015 | General Board Member & Treasurer (2014-2015)                        |
-| Hidde de Vries       | 2014-2016 | General Board Member & Treasurer (2015-2016)                        |
-| Jaco Koster          | 2014-2017 | Secretary (2014-2016) & Chairman (2016-2017)                        |
-| Thomas van Zuijlen   | 2015-2016 | General board member                                                |
+| Peter Paul Koch      | 2007 - 2012 | President                                                           |
+| Tom Greuter          | 2007 - 2013 | Secretary (2007 - 2012) & Chairman (2012 - 2013)                        |
+| Arjan Eising         | 2007 - 2016 | General Board Member & Secretary (2012 - 2013)                        |
+| Krijn Hoetmer        | 2008 - 2014 | Treasurer (2008 - 2012), General Board Member & Secretary (2013 - 2014) |
+| Sander van Lambalgen | 2008 - 2016 | General Board Member & Chairman (2013 - 2016)                         |
+| Matijs Brinkhuis     | 2009 - 2015 | General Board Member & Treasurer (2012 - 2014)                        |
+| Vasilis van Gemert   | 2012 - 2014 | General board member                                                |
+| Roy Tomeij           | 2012 - 2015 | General Board Member & Treasurer (2014 - 2015)                        |
+| Hidde de Vries       | 2014 - 2016 | General Board Member & Treasurer (2015 - 2016)                        |
+| Jaco Koster          | 2014 - 2017 | Secretary (2014 - 2016) & Chairman (2016 - 2017)                        |
+| Thomas van Zuijlen   | 2015 - 2016 | General board member                                                |
 | Michael Hastrich     | 2016      | General board member                                                |
-| Roy Tomey            | 2016-2017 | General board member                                                |
-| Sander Vink          | 2016-2022 | Treasurer                                                           |
-| Anneke Sinnema       | 2017-2023 | Chairwoman                                                          |
-| Edwin Martin         | 2017-2023 | Secretary                                                           |
-| Wim van Iersel       | 2022-     | Treasurer                                                           |
-| Claudia Reynders     | 2023-     | Chairwoman                                                          |
-| Jewwy Qadri          | 2023-     | Co-secretary                                                        |
-| Christian Schaefer   | 2023-     | Co-secretary                                                        |
+| Roy Tomey            | 2016 - 2017 | General board member                                                |
+| Sander Vink          | 2016 - 2022 | Treasurer                                                           |
+| Anneke Sinnema       | 2017 - 2023 | Chairwoman                                                          |
+| Edwin Martin         | 2017 - 2023 | Secretary                                                           |
+| Wim van Iersel       | 2022 - today     | Treasurer                                                           |
+| Claudia Reynders     | 2023 - today     | Chairwoman                                                          |
+| Jewwy Qadri          | 2023 - today     | Co-secretary                                                        |
+| Christian Schaefer   | 2023 - today     | Co-secretary                                                        |
 
 ## Honorary Members
 

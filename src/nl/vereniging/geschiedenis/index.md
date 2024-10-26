@@ -18,26 +18,26 @@ De volgende leden hebben gedurende het bestaan van Fronteers zitting gehad in he
 
 | Naam                 | Periode   | Posities                                                                  |
 | -------------------- | --------- | ------------------------------------------------------------------------- |
-| Peter-Paul Koch      | 2007-2012 | Voorzitter                                                                |
-| Tom Greuter          | 2007-2013 | Secretaris (2007-2012) & Voorzitter (2012-2013)                           |
-| Arjan Eising         | 2007-2016 | Algemeen bestuurslid & Secretaris (2012-2013)                             |
-| Krijn Hoetmer        | 2008-2014 | Penningmeester (2008-2012), Algemeen bestuurslid & Secretaris (2013-2014) |
-| Sander van Lambalgen | 2008-2016 | Algemeen bestuurslid & Voorzitter (2013-2016)                             |
-| Matijs Brinkhuis     | 2009-2015 | Algemeen bestuurslid & Penningmeester (2012-2014)                         |
-| Vasilis van Gemert   | 2012-2014 | Algemeen bestuurslid                                                      |
-| Roy Tomeij           | 2012-2015 | Algemeen bestuurslid & Penningmeester (2014-2015)                         |
-| Hidde de Vries       | 2014-2016 | Algemeen bestuurslid & Penningmeester (2015-2016)                         |
-| Jaco Koster          | 2014-2017 | Secretaris (2014-2016) & Voorzitter (2016-2017)                           |
-| Thomas van Zuijlen   | 2015-2016 | Algemeen bestuurslid                                                      |
+| Peter-Paul Koch      | 2007 - 2012 | Voorzitter                                                                |
+| Tom Greuter          | 2007 - 2013 | Secretaris (2007 - 2012) & Voorzitter (2012 - 2013)                           |
+| Arjan Eising         | 2007 - 2016 | Algemeen bestuurslid & Secretaris (2012 - 2013)                             |
+| Krijn Hoetmer        | 2008 - 2014 | Penningmeester (2008 - 2012), Algemeen bestuurslid & Secretaris (2013 - 2014) |
+| Sander van Lambalgen | 2008 - 2016 | Algemeen bestuurslid & Voorzitter (2013 - 2016)                             |
+| Matijs Brinkhuis     | 2009 - 2015 | Algemeen bestuurslid & Penningmeester (2012 - 2014)                         |
+| Vasilis van Gemert   | 2012 - 2014 | Algemeen bestuurslid                                                      |
+| Roy Tomeij           | 2012 - 2015 | Algemeen bestuurslid & Penningmeester (2014 - 2015)                         |
+| Hidde de Vries       | 2014 - 2016 | Algemeen bestuurslid & Penningmeester (2015 - 2016)                         |
+| Jaco Koster          | 2014 - 2017 | Secretaris (2014 - 2016) & Voorzitter (2016 - 2017)                           |
+| Thomas van Zuijlen   | 2015 - 2016 | Algemeen bestuurslid                                                      |
 | Michael Hastrich     | 2016      | Algemeen bestuurslid                                                      |
-| Roy Tomeij           | 2016-2017 | Algemeen bestuurslid                                                      |
-| Sander Vink          | 2016-2022 | Penningmeester                                                            |
-| Anneke Sinnema       | 2017-     | Voorzitter                                                                |
-| Edwin Martin         | 2017-     | Secretaris                                                                |
-| Wim van Iersel       | 2022-     | Penningmeester                                                            |
-| Claudia Reynders     | 2023-     | Penningmeester                                                            |
-| Jewwy Qadri          | 2023-     | Co-secretaris                                                             |
-| Christian Schaefer   | 2023-     | Co-secretaris                                                             |
+| Roy Tomeij           | 2016 - 2017 | Algemeen bestuurslid                                                      |
+| Sander Vink          | 2016 - 2022 | Penningmeester                                                            |
+| Anneke Sinnema       | 2017 - 2023 | Voorzitter                                                                |
+| Edwin Martin         | 2017 - 2023 | Secretaris                                                                |
+| Wim van Iersel       | 2022- heden | Penningmeester                                                            |
+| Claudia Reynders     | 2023- heden     | Penningmeester                                                            |
+| Jewwy Qadri          | 2023- heden     | Co-secretaris                                                             |
+| Christian Schaefer   | 2023- heden     | Co-secretaris                                                             |
 
 ## Ereleden
 
