@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
     navToggle.addEventListener('click', handleInteraction);
   }
-
+    
     const submenuToggle = document.querySelectorAll('.navigation-submenu-toggle');
     const headerLinks = document.querySelectorAll('.page-navigation--header .navigation-list-item--toplevel > a');
     const footerLinks = document.querySelectorAll('.page-navigation--footer .navigation-list-item--toplevel > a');
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to handle wide screen behavior
     function handleWideScreens() {
         if (window.innerWidth > 900) {
-            // Set tabindex to -1 for all submenu toggles
+            // Set tabindex to -1 for all submenu toggles to remove them from keyboard navigation
             submenuToggle.forEach(function (toggle) {
                 toggle.setAttribute('tabindex', '-1');
             });
@@ -81,11 +81,41 @@ document.addEventListener('DOMContentLoaded', function() {
             addArrowKeyNavigation(footerLinks);
 
         } else {
-            // Make sure submenu toggles are tabbable again for mobile
+            // Make sure submenu toggles are tabbable again for mobile and clickable
             submenuToggle.forEach(function (toggle) {
                 toggle.removeAttribute('tabindex');
             });
         }
+
+        // Add click event listeners for submenu toggles to ensure they work properly
+        submenuToggle.forEach(function (toggle) {
+            toggle.addEventListener('click', function () {
+                const parentLi = toggle.parentElement;
+                const submenuIsExpanded = toggle.getAttribute('aria-expanded') === 'true';
+
+                // Close all other open submenus before opening a new one
+                submenuToggle.forEach(function (otherToggle) {
+                    const otherParentLi = otherToggle.parentElement;
+                    if (otherToggle !== toggle) {
+                        otherToggle.setAttribute('aria-expanded', 'false');
+                        otherParentLi.classList.remove('open');
+                    }
+                });
+
+                // Toggle the clicked submenu
+                if (submenuIsExpanded) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                    parentLi.classList.remove('open');
+                } else {
+                    toggle.setAttribute('aria-expanded', 'true');
+                    parentLi.classList.add('open');
+                    const firstSubmenuItem = parentLi.querySelector('.navigation-list-item--sublevel a');
+                    if (firstSubmenuItem) {
+                        firstSubmenuItem.focus();
+                    }
+                }
+            });
+        });
     }
 
     // Add navigation with arrow keys inside a specific set of links (header or footer)
@@ -213,4 +243,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // Re-run when window is resized
     window.addEventListener('resize', handleWideScreens);
 });
-
