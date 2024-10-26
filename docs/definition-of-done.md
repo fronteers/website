@@ -8,4 +8,4 @@ Before committing to the repo, make sure you've checked the following:
 
 - Progressive enhancement: all main content should be accessible with JavaScript turned off.
 
-- Document the things you do: Everything should be well documented and easy to get into for other people. Add components to the [Kitchensink](https://fronteers-beta.netlify.app/nl/kitchensink/) with various states, so editors know how to use them.
+- Document the things you do: Everything should be well documented and easy to get into for other people. Add components to the [Kitchensink](https://fronteers.netlify.app/nl/kitchensink/) with various states, so editors know how to use them.

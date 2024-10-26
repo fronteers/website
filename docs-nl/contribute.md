@@ -8,8 +8,6 @@ Wil je ons helpen? Geweldig! Lees eerst dit document door om een ​​idee te k
 - door functionaliteit voor de website te bouwen (er is veel gedaan, maar er kan misschien nog wat aan worden gesleuteld)
 - door [geavanceerde functionaliteit](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge) te bouwen
 
-Benieuwd hoe de site er nu uitziet? Bekijk [de Fronteers website beta op Netlify](https://fronteers.netlify.app/)! :)
-
 ## 👯 Ontwikkelingsprincipes
 
 Voordat je begint met bijdragen, moet je de volgende principes overwegen:
@@ -56,7 +54,7 @@ of als je denkt dat meer discussie nuttig zou zijn [doe mee op Slack](https://fr
 
 De website is gebouwd met [Eleventy](https://www.11ty.dev/) (Statische sitegenerator) en gehost op [Netlify](https://www.netlify.com/).
 
-Elke keer dat er een nieuwe pull-request wordt gemaakt, zie je onderaan de pull-request detailpagina een link van Netlify waar reviewers kunnen zien hoe alles eruitziet als de wijzigingen zouden worden samengevoegd. De `main`-branch heeft ook een [preview-link](https://fronteers.netlify.app/) als je wilt zien wat er tot nu toe is gebouwd!
+Elke keer dat er een nieuwe pull-request wordt gemaakt, zie je onderaan de pull-request detailpagina een link van Netlify waar reviewers kunnen zien hoe alles eruitziet als de wijzigingen zouden worden samengevoegd. 
 
 In de meeste problemen vermelden we een link naar het ontwerpbestand. Onze ontwerpers delen [het ontwerp](https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/grid) rechtstreeks met ons via het AdobeXD-platform.
 De meeste problemen hebben ook een checklist, zodat je vakjes kunt afvinken als je werk hebt gedaan dat is samengevoegd, of als je ziet dat het is gedaan. Zo kan de volgende persoon zien wat er nog moet gebeuren.
@@ -133,7 +131,7 @@ Als je werkt met bestanden die een volledige herbouw activeren, zoals `.liquid`-
 ### Alleen de site genereren
 
 Als je niet aan het ontwikkelen bent, maar alleen wilt dat Eleventy een kopie van de website genereert, kunt je de volgende opdracht gebruiken.
-U hoeft dit niet echt te doen, omdat we de site hosten op Netlify, en het doet dit voor ons door de GitHub-hoofdbranch te downloaden en vervolgens dit uit te voeren. (Je kunt het zien op [onze Netlify bètaversie](https://fronteers.netlify.app/))
+U hoeft dit niet echt te doen, omdat we de site hosten op Netlify, en het doet dit voor ons door de GitHub-hoofdbranch te downloaden en vervolgens dit uit te voeren. 
 
 ```bash
 npm run build
