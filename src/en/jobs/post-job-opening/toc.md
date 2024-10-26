@@ -3,12 +3,8 @@ title: Job board terms and conditions
 key: terms-and-conditions
 excludeFromCollection: true
 ---
-
-<div style="border: 2px solid var(--lilac); padding-inline: var(--spacing)">
-    
-Special deal: To celebrate our new website is finally live, up until the end of 2024 posting your job opening is **free**! Read about how to send in your job opening below.
-
-</div>
+{%- note 'Special deal: To celebrate our new website is finally live, up until the end of 2024 posting your job opening is <strong>free</strong>! Read about how to send in your job opening below.' -%}
+ 
 
 ## Acceptance criteria
 
