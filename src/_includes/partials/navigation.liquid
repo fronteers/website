@@ -4,9 +4,6 @@
     role='navigation'
     {%- if nav_location == 'header' -%}
         id='navigation'
-        aria-labelledby="main-navigation"
-    {%- elsif nav_location == 'footer' -%}
-        aria-labelledby="footer-navigation"
     {%- endif -%}
 >
     <h2 class='visually-hidden'>{{ nav_description }}</h2>
