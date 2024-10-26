@@ -1,3 +1,5 @@
+<a href="https://github.com/fronteers/website/blob/main/README-nl.md#fronteers-website" hreflang="nl" lang="nl">Lees de Nederlandse versie</a>
+
 # Fronteers website
 
 This is the Fronteers website repository. Here, together we build the new [Fronteers.nl](https://fronteers.nl). You're welcome to join us! This is a great opportunity to learn from other developers that you would normally never work with.

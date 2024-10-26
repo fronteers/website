@@ -20,7 +20,7 @@ The new website was built with [Eleventy](https://www.11ty.dev/), a static site 
 ## But what can you do on this new site?
 
 - If you’re a member of the association, you can [create a profile](https://github.com/fronteers/website/blob/main/docs/represent.md) to showcase yourself. This profile will be linked from our member directory. Once we have enough profiles, we can launch pages where you can be found as a job seeker, freelancer, or as someone willing to mentor juniors.
-- You can also write and submit a blog. Write your blog in Markdown (you can find [a template](https://github.com/fronteers/website/blob/main/templates/blog.md) on GitHub) and place it in the correct folder. Submit a pull request, and someone from our marketing committee will review your submission. If your PR is merged, your blog will appear on the site! 👏
+- You can also write and submit a blog. Write your blog in Markdown (you can find [a template](https://github.com/fronteers/website/blob/main/templates/blog-en.md) on GitHub) and place it in the correct folder. Submit a pull request, and someone from our marketing committee will review your submission. If your PR is merged, your blog will appear on the site! 👏
 - If your company has a job vacancy, your developers can make corrections to it until the vacancy expires, in a process that’s less dependent on a single volunteer. Shout-out to Bernard Nijenhuis, who handled our job board for _years_! 🙏
 - The site is now bilingual, with the hope of involving English-speaking expats in the association.
 - Finally, our [website visitor statistics](https://plausible.io/fronteers.nl) are now publicly available for everyone to view.
