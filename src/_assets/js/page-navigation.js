@@ -63,63 +63,173 @@ document.addEventListener('DOMContentLoaded', function() {
     navToggle.addEventListener('click', handleInteraction);
   }
 
-    // Allow users to open submenu items
-    const submenuToggle = document.querySelectorAll('.navigation-submenu-toggle');
-    const navigation = document.querySelector('.page-navigation'); 
+  const submenuToggle = document.querySelectorAll('.navigation-submenu-toggle');
+  const toplevelLinks = document.querySelectorAll('.navigation-list-item--toplevel > a');
+  const navigation = document.querySelector('.page-navigation');
 
-    submenuToggle.forEach(function (toggle) {
-        toggle.addEventListener('click', function (event) {
-            const parentLi = toggle.parentElement;
-            const submenuIsExpanded = toggle.getAttribute('aria-expanded') === 'true';
+  // Function to handle wide screen behavior
+  function handleWideScreens() {
+    if (window.innerWidth > 961) {
+      // Set tabindex to -1 for all submenu toggles
+      submenuToggle.forEach(function (toggle) {
+        toggle.setAttribute('tabindex', '-1');
+      });
 
-            // Close all other open submenus before opening a new one
-            submenuToggle.forEach(function (otherToggle) {
-                const otherParentLi = otherToggle.parentElement;
+      // Add keyboard navigation with arrow keys on top-level links
+      toplevelLinks.forEach(function (link, index) {
+        link.addEventListener('keydown', function (event) {
+          const parentLi = link.parentElement;
+          const toggleButton = parentLi.querySelector('.navigation-submenu-toggle');
 
-                // If it's not the clicked submenu, close it
-                if (otherToggle !== toggle) {
-                    otherToggle.setAttribute('aria-expanded', 'false');
-                    otherToggle.setAttribute('aria-labelledby', 'openSubmenuLabel');
-                    otherParentLi.classList.remove('open');
-                }
-            });
+          if (event.key === 'ArrowDown') {
+            event.preventDefault();
+            closeAllSubmenus();
 
-            // Toggle the clicked submenu
-            if (submenuIsExpanded) {
-                toggle.setAttribute('aria-expanded', 'false');
-                toggle.setAttribute('aria-labelledby', 'openSubmenuLabel');
-                parentLi.classList.remove('open');
-            } else {
-                toggle.setAttribute('aria-expanded', 'true');
-                parentLi.classList.add('open');
-                toggle.setAttribute('aria-labelledby', 'closeSubmenuLabel');
-                trapFocus(parentLi, toggle);
+            // Open submenu if it has one
+            if (toggleButton && !parentLi.classList.contains('open')) {
+              toggleButton.setAttribute('aria-expanded', 'true');
+              parentLi.classList.add('open');
+              const firstSubmenuItem = parentLi.querySelector('.navigation-list-item--sublevel a');
+              if (firstSubmenuItem) {
+                firstSubmenuItem.focus();
+              }
             }
+          } else if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            if (index > 0) {
+              // Move focus to the previous top-level link and open its submenu
+              toplevelLinks[index - 1].focus();
+              openSubmenu(toplevelLinks[index - 1]);
+            }
+          } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            if (index < toplevelLinks.length - 1) {
+              // Move focus to the next top-level link and open its submenu
+              toplevelLinks[index + 1].focus();
+              openSubmenu(toplevelLinks[index + 1]);
+            }
+          }
         });
-    });
+      });
 
-    // Function to close all submenus
-    function closeAllSubmenus() {
-        submenuToggle.forEach(function (toggle) {
-            const parentLi = toggle.parentElement;
-            toggle.setAttribute('aria-expanded', 'false');
-            toggle.setAttribute('aria-labelledby', 'openSubmenuLabel');
-            parentLi.classList.remove('open');
+      // Add navigation with up and down arrow keys inside submenu
+      const sublevelLinks = document.querySelectorAll('.navigation-list-item--sublevel > a');
+      sublevelLinks.forEach(function (subLink) {
+        subLink.addEventListener('keydown', function (event) {
+          const subMenuItems = Array.from(subLink.closest('ul').querySelectorAll('a'));
+          const currentIndex = subMenuItems.indexOf(subLink);
+
+          if (event.key === 'ArrowDown') {
+            event.preventDefault();
+            const nextIndex = (currentIndex + 1) % subMenuItems.length;
+            subMenuItems[nextIndex].focus();
+          } else if (event.key === 'ArrowUp') {
+            event.preventDefault();
+            const prevIndex = (currentIndex - 1 + subMenuItems.length) % subMenuItems.length;
+            subMenuItems[prevIndex].focus();
+          } else if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            const parentLi = subLink.closest('.navigation-list-item--toplevel');
+            const currentTopLevelIndex = Array.from(toplevelLinks).indexOf(parentLi.querySelector('a'));
+            if (currentTopLevelIndex > 0) {
+              toplevelLinks[currentTopLevelIndex - 1].focus();
+              openSubmenu(toplevelLinks[currentTopLevelIndex - 1]);
+            }
+          } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            const parentLi = subLink.closest('.navigation-list-item--toplevel');
+            const currentTopLevelIndex = Array.from(toplevelLinks).indexOf(parentLi.querySelector('a'));
+            if (currentTopLevelIndex < toplevelLinks.length - 1) {
+              toplevelLinks[currentTopLevelIndex + 1].focus();
+              openSubmenu(toplevelLinks[currentTopLevelIndex + 1]);
+            }
+          }
         });
+      });
+
+    } else {
+      // Make sure submenu toggles are tabbable again for mobile
+      submenuToggle.forEach(function (toggle) {
+        toggle.removeAttribute('tabindex');
+      });
     }
+  }
 
-    // Close submenus when clicking outside the navigation
-    document.addEventListener('click', function (event) {
-        if (!navigation.contains(event.target)) {
-            closeAllSubmenus();
+  // Helper function to open submenu for a given top-level link
+  function openSubmenu(toplevelLink) {
+    const parentLi = toplevelLink.parentElement;
+    const toggleButton = parentLi.querySelector('.navigation-submenu-toggle');
+
+    if (toggleButton && !parentLi.classList.contains('open')) {
+      closeAllSubmenus(); // Close any other open submenus
+      toggleButton.setAttribute('aria-expanded', 'true');
+      parentLi.classList.add('open');
+      const firstSubmenuItem = parentLi.querySelector('.navigation-list-item--sublevel a');
+      if (firstSubmenuItem) {
+        firstSubmenuItem.focus();
+      }
+    }
+  }
+
+  // Call the function on page load
+  handleWideScreens();
+
+  // Re-run when window is resized
+  window.addEventListener('resize', handleWideScreens);
+
+  // Existing click toggle logic (no changes needed here)
+  submenuToggle.forEach(function (toggle) {
+    toggle.addEventListener('click', function (event) {
+      const parentLi = toggle.parentElement;
+      const submenuIsExpanded = toggle.getAttribute('aria-expanded') === 'true';
+
+      // Close all other open submenus before opening a new one
+      submenuToggle.forEach(function (otherToggle) {
+        const otherParentLi = otherToggle.parentElement;
+
+        // If it's not the clicked submenu, close it
+        if (otherToggle !== toggle) {
+          otherToggle.setAttribute('aria-expanded', 'false');
+          otherParentLi.classList.remove('open');
         }
-    });
+      });
 
-    // Close submenus when pressing the Escape key
-    document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape') {
-            closeAllSubmenus();
+      // Toggle the clicked submenu
+      if (submenuIsExpanded) {
+        toggle.setAttribute('aria-expanded', 'false');
+        parentLi.classList.remove('open');
+      } else {
+        toggle.setAttribute('aria-expanded', 'true');
+        parentLi.classList.add('open');
+        const firstSubmenuItem = parentLi.querySelector('.navigation-list-item--sublevel a');
+        if (firstSubmenuItem) {
+          firstSubmenuItem.focus();
         }
+      }
     });
+  });
 
+  // Function to close all submenus
+  function closeAllSubmenus() {
+    submenuToggle.forEach(function (toggle) {
+      const parentLi = toggle.parentElement;
+      toggle.setAttribute('aria-expanded', 'false');
+      parentLi.classList.remove('open');
+    });
+  }
+
+  // Close submenus when clicking outside the navigation
+  document.addEventListener('click', function (event) {
+    if (!navigation.contains(event.target)) {
+      closeAllSubmenus();
+    }
+  });
+
+  // Close submenus when pressing the Escape key
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+      closeAllSubmenus();
+    }
+  });
 });
+

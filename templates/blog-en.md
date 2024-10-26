@@ -9,7 +9,7 @@ author: Your name
 summary: A short introduction to your blog, which will be shown on the website and at the top of the article.
 graphic:
     src: /_img/new-website.jpg
-    alt: 'A description of what is visible in your picture'
+    alt: A description of what is visible in your picture
     figcaption: Appears below the image on the blog detail page
 categories:
     - Vereniging

@@ -8,8 +8,6 @@ You want to help us? Great! Please read through this document first to get an id
 - by building functionality for the website (a lot has been done, but could maybe do with finetuning)
 - by building [advanced functionality](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3Achallenge)
 
-Curious as to how the site looks right now? Check out [the Fronteers website beta on Netlify](https://fronteers-beta.netlify.app/)! :)
-
 ## 👯 Development principles
 
 Before you start contributing consider the following principles:
@@ -56,7 +54,7 @@ or if you think more discussion would be helpful [join us on Slack](https://fron
 
 The website is built using [Eleventy](https://www.11ty.dev/) (Static site generator) and hosted on [Netlify](https://www.netlify.com/).
 
-Every time a new pull-request is made, at the bottom of the pull-request detail page you'll see a link from Netlify where reviewers can see what everything looks like if the changes would be merged. The `main` branch also has a [preview link](https://fronteers-beta.netlify.app/) if you want to look at what has been built so far!
+Every time a new pull-request is made, at the bottom of the pull-request detail page you'll see a link from Netlify where reviewers can see what everything looks like if the changes would be merged. 
 
 In most issues, we mention a link to the design file. Our designers directly share [the design](https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/grid) with us through the AdobeXD platform.
 Most issues also have a checklist, so you can tick off any boxes when you've done some work that has been merged, or notice that it has been done. So the next person can see what is still left to do.
@@ -133,7 +131,7 @@ If you are working with files that trigger a full re-build, such as `.liquid` fi
 ### Just generating the site
 
 If you're not developing, but just want to have Eleventy generate a copy of the website, you can use the following command.
-You don't really need to do this, because we host the site on Netlify, and it does this for us by downloading the main GitHub branch and then running this. (You can see it on [our Netlify beta version](https://fronteers-beta.netlify.app/))
+You don't really need to do this, because we host the site on Netlify, and it does this for us by downloading the main GitHub branch and then running this. 
 
 ```bash
 npm run build
@@ -146,7 +144,7 @@ Every issue that is open on the [issues page](https://github.com/fronteers/websi
 - Responsive: we make sure pages and components work on all device formats.
 - Accessible: we want to be WCAG 2.1 AAA compliant. Don't forget: do images have an alt-attribute? Is everything accessible using only a keyboard? Is the contrast high enough?
 - Progressive enhancement: all main content should be accessible with JavaScript turned off.
-- Document the things you do: Add components to the [Kitchensink](https://fronteers-beta.netlify.app/nl/kitchensink/) with various states, so editors know how to use them.
+- Document the things you do: Add components to the [Kitchensink](https://fronteers.netlify.app/nl/kitchensink/) with various states, so editors know how to use them.
 
 ## Creating components
 
