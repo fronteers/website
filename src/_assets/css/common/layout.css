@@ -54,6 +54,7 @@
 
 main {
     padding-block-end: var(--spacing-double);
+    flex-grow: 1;
 }
 
 main section > .h {
