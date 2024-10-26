@@ -63,173 +63,154 @@ document.addEventListener('DOMContentLoaded', function() {
     navToggle.addEventListener('click', handleInteraction);
   }
 
-  const submenuToggle = document.querySelectorAll('.navigation-submenu-toggle');
-  const toplevelLinks = document.querySelectorAll('.navigation-list-item--toplevel > a');
-  const navigation = document.querySelector('.page-navigation');
+    const submenuToggle = document.querySelectorAll('.navigation-submenu-toggle');
+    const headerLinks = document.querySelectorAll('.page-navigation--header .navigation-list-item--toplevel > a');
+    const footerLinks = document.querySelectorAll('.page-navigation--footer .navigation-list-item--toplevel > a');
+    const navigation = document.querySelector('.page-navigation');
 
-  // Function to handle wide screen behavior
-  function handleWideScreens() {
-    if (window.innerWidth > 961) {
-      // Set tabindex to -1 for all submenu toggles
-      submenuToggle.forEach(function (toggle) {
-        toggle.setAttribute('tabindex', '-1');
-      });
+    // Function to handle wide screen behavior
+    function handleWideScreens() {
+        if (window.innerWidth > 900) {
+            // Set tabindex to -1 for all submenu toggles
+            submenuToggle.forEach(function (toggle) {
+                toggle.setAttribute('tabindex', '-1');
+            });
 
-      // Add keyboard navigation with arrow keys on top-level links
-      toplevelLinks.forEach(function (link, index) {
-        link.addEventListener('keydown', function (event) {
-          const parentLi = link.parentElement;
-          const toggleButton = parentLi.querySelector('.navigation-submenu-toggle');
+            // Add keyboard navigation for header and footer sections separately
+            addArrowKeyNavigation(headerLinks);
+            addArrowKeyNavigation(footerLinks);
 
-          if (event.key === 'ArrowDown') {
-            event.preventDefault();
+        } else {
+            // Make sure submenu toggles are tabbable again for mobile
+            submenuToggle.forEach(function (toggle) {
+                toggle.removeAttribute('tabindex');
+            });
+        }
+    }
+
+    // Add navigation with arrow keys inside a specific set of links (header or footer)
+    function addArrowKeyNavigation(links) {
+        links.forEach(function (link, index) {
+            link.addEventListener('keydown', function (event) {
+                const parentLi = link.parentElement;
+                const toggleButton = parentLi.querySelector('.navigation-submenu-toggle');
+                const submenuItems = parentLi.querySelectorAll('.navigation-list-item--sublevel a');
+
+                if (event.key === 'ArrowDown') {
+                    event.preventDefault();
+                    closeAllSubmenus();
+
+                    // Open submenu and focus on first item
+                    if (toggleButton && !parentLi.classList.contains('open')) {
+                        toggleButton.setAttribute('aria-expanded', 'true');
+                        parentLi.classList.add('open');
+                        submenuItems[0]?.focus(); // Focus on the first submenu item
+                    }
+                } else if (event.key === 'ArrowUp') {
+                    event.preventDefault();
+                    closeAllSubmenus();
+
+                    // Open submenu and focus on last item
+                    if (toggleButton && !parentLi.classList.contains('open')) {
+                        toggleButton.setAttribute('aria-expanded', 'true');
+                        parentLi.classList.add('open');
+                        submenuItems[submenuItems.length - 1]?.focus(); // Focus on the last submenu item
+                    }
+                } else if (event.key === 'ArrowLeft') {
+                    event.preventDefault();
+                    if (index > 0) {
+                        // Move focus to the previous link within the same section
+                        links[index - 1].focus();
+                        closeAllSubmenus(); // Do not wrap to the other section (e.g., footer)
+                    }
+                } else if (event.key === 'ArrowRight') {
+                    event.preventDefault();
+                    if (index < links.length - 1) {
+                        // Move focus to the next link within the same section
+                        links[index + 1].focus();
+                        closeAllSubmenus(); // Do not wrap to the other section (e.g., footer)
+                    }
+                } else if (event.key === 'Escape') {
+                    closeAllSubmenus();
+                    link.focus(); // Refocus on the top-level link after closing submenu
+                }
+            });
+        });
+    }
+
+    // Add navigation with up and down arrow keys inside submenu
+    function addSubmenuNavigation() {
+        const sublevelLinks = document.querySelectorAll('.navigation-list-item--sublevel > a');
+        sublevelLinks.forEach(function (subLink) {
+            subLink.addEventListener('keydown', function (event) {
+                const subMenuItems = Array.from(subLink.closest('ul').querySelectorAll('a'));
+                const currentIndex = subMenuItems.indexOf(subLink);
+
+                if (event.key === 'ArrowDown') {
+                    event.preventDefault();
+                    const nextIndex = (currentIndex + 1) % subMenuItems.length;
+                    subMenuItems[nextIndex].focus();
+                } else if (event.key === 'ArrowUp') {
+                    event.preventDefault();
+                    const prevIndex = (currentIndex - 1 + subMenuItems.length) % subMenuItems.length;
+                    subMenuItems[prevIndex].focus();
+                } else if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+                    event.preventDefault();
+                    const parentLi = subLink.closest('.navigation-list-item--toplevel');
+                    const topLevelLink = parentLi.querySelector('a');
+                    topLevelLink.focus(); // Focus back to the main top-level link
+                } else if (event.key === 'Escape') {
+                    closeAllSubmenus();
+                    subLink.closest('.navigation-list-item--toplevel').querySelector('a').focus(); // Refocus on top-level link
+                }
+            });
+        });
+    }
+
+    // Helper function to open submenu for a given top-level link
+    function openSubmenu(toplevelLink, focusLast = false) {
+        const parentLi = toplevelLink.parentElement;
+        const toggleButton = parentLi.querySelector('.navigation-submenu-toggle');
+        const submenuItems = parentLi.querySelectorAll('.navigation-list-item--sublevel a');
+
+        if (toggleButton && !parentLi.classList.contains('open')) {
+            closeAllSubmenus(); // Close any other open submenus
+            toggleButton.setAttribute('aria-expanded', 'true');
+            parentLi.classList.add('open');
+            if (submenuItems.length > 0) {
+                submenuItems[focusLast ? submenuItems.length - 1 : 0].focus(); // Focus on the first or last submenu item
+            }
+        }
+    }
+
+    // Function to close all submenus
+    function closeAllSubmenus() {
+        submenuToggle.forEach(function (toggle) {
+            const parentLi = toggle.parentElement;
+            toggle.setAttribute('aria-expanded', 'false');
+            parentLi.classList.remove('open');
+        });
+    }
+
+    // Close submenus when clicking outside the navigation
+    document.addEventListener('click', function (event) {
+        if (!navigation.contains(event.target)) {
             closeAllSubmenus();
-
-            // Open submenu if it has one
-            if (toggleButton && !parentLi.classList.contains('open')) {
-              toggleButton.setAttribute('aria-expanded', 'true');
-              parentLi.classList.add('open');
-              const firstSubmenuItem = parentLi.querySelector('.navigation-list-item--sublevel a');
-              if (firstSubmenuItem) {
-                firstSubmenuItem.focus();
-              }
-            }
-          } else if (event.key === 'ArrowLeft') {
-            event.preventDefault();
-            if (index > 0) {
-              // Move focus to the previous top-level link and open its submenu
-              toplevelLinks[index - 1].focus();
-              openSubmenu(toplevelLinks[index - 1]);
-            }
-          } else if (event.key === 'ArrowRight') {
-            event.preventDefault();
-            if (index < toplevelLinks.length - 1) {
-              // Move focus to the next top-level link and open its submenu
-              toplevelLinks[index + 1].focus();
-              openSubmenu(toplevelLinks[index + 1]);
-            }
-          }
-        });
-      });
-
-      // Add navigation with up and down arrow keys inside submenu
-      const sublevelLinks = document.querySelectorAll('.navigation-list-item--sublevel > a');
-      sublevelLinks.forEach(function (subLink) {
-        subLink.addEventListener('keydown', function (event) {
-          const subMenuItems = Array.from(subLink.closest('ul').querySelectorAll('a'));
-          const currentIndex = subMenuItems.indexOf(subLink);
-
-          if (event.key === 'ArrowDown') {
-            event.preventDefault();
-            const nextIndex = (currentIndex + 1) % subMenuItems.length;
-            subMenuItems[nextIndex].focus();
-          } else if (event.key === 'ArrowUp') {
-            event.preventDefault();
-            const prevIndex = (currentIndex - 1 + subMenuItems.length) % subMenuItems.length;
-            subMenuItems[prevIndex].focus();
-          } else if (event.key === 'ArrowLeft') {
-            event.preventDefault();
-            const parentLi = subLink.closest('.navigation-list-item--toplevel');
-            const currentTopLevelIndex = Array.from(toplevelLinks).indexOf(parentLi.querySelector('a'));
-            if (currentTopLevelIndex > 0) {
-              toplevelLinks[currentTopLevelIndex - 1].focus();
-              openSubmenu(toplevelLinks[currentTopLevelIndex - 1]);
-            }
-          } else if (event.key === 'ArrowRight') {
-            event.preventDefault();
-            const parentLi = subLink.closest('.navigation-list-item--toplevel');
-            const currentTopLevelIndex = Array.from(toplevelLinks).indexOf(parentLi.querySelector('a'));
-            if (currentTopLevelIndex < toplevelLinks.length - 1) {
-              toplevelLinks[currentTopLevelIndex + 1].focus();
-              openSubmenu(toplevelLinks[currentTopLevelIndex + 1]);
-            }
-          }
-        });
-      });
-
-    } else {
-      // Make sure submenu toggles are tabbable again for mobile
-      submenuToggle.forEach(function (toggle) {
-        toggle.removeAttribute('tabindex');
-      });
-    }
-  }
-
-  // Helper function to open submenu for a given top-level link
-  function openSubmenu(toplevelLink) {
-    const parentLi = toplevelLink.parentElement;
-    const toggleButton = parentLi.querySelector('.navigation-submenu-toggle');
-
-    if (toggleButton && !parentLi.classList.contains('open')) {
-      closeAllSubmenus(); // Close any other open submenus
-      toggleButton.setAttribute('aria-expanded', 'true');
-      parentLi.classList.add('open');
-      const firstSubmenuItem = parentLi.querySelector('.navigation-list-item--sublevel a');
-      if (firstSubmenuItem) {
-        firstSubmenuItem.focus();
-      }
-    }
-  }
-
-  // Call the function on page load
-  handleWideScreens();
-
-  // Re-run when window is resized
-  window.addEventListener('resize', handleWideScreens);
-
-  // Existing click toggle logic (no changes needed here)
-  submenuToggle.forEach(function (toggle) {
-    toggle.addEventListener('click', function (event) {
-      const parentLi = toggle.parentElement;
-      const submenuIsExpanded = toggle.getAttribute('aria-expanded') === 'true';
-
-      // Close all other open submenus before opening a new one
-      submenuToggle.forEach(function (otherToggle) {
-        const otherParentLi = otherToggle.parentElement;
-
-        // If it's not the clicked submenu, close it
-        if (otherToggle !== toggle) {
-          otherToggle.setAttribute('aria-expanded', 'false');
-          otherParentLi.classList.remove('open');
         }
-      });
+    });
 
-      // Toggle the clicked submenu
-      if (submenuIsExpanded) {
-        toggle.setAttribute('aria-expanded', 'false');
-        parentLi.classList.remove('open');
-      } else {
-        toggle.setAttribute('aria-expanded', 'true');
-        parentLi.classList.add('open');
-        const firstSubmenuItem = parentLi.querySelector('.navigation-list-item--sublevel a');
-        if (firstSubmenuItem) {
-          firstSubmenuItem.focus();
+    // Close submenus when pressing the Escape key
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+            closeAllSubmenus();
         }
-      }
     });
-  });
 
-  // Function to close all submenus
-  function closeAllSubmenus() {
-    submenuToggle.forEach(function (toggle) {
-      const parentLi = toggle.parentElement;
-      toggle.setAttribute('aria-expanded', 'false');
-      parentLi.classList.remove('open');
-    });
-  }
+    // Call the function on page load
+    handleWideScreens();
+    addSubmenuNavigation();
 
-  // Close submenus when clicking outside the navigation
-  document.addEventListener('click', function (event) {
-    if (!navigation.contains(event.target)) {
-      closeAllSubmenus();
-    }
-  });
-
-  // Close submenus when pressing the Escape key
-  document.addEventListener('keydown', function (event) {
-    if (event.key === 'Escape') {
-      closeAllSubmenus();
-    }
-  });
+    // Re-run when window is resized
+    window.addEventListener('resize', handleWideScreens);
 });
 
