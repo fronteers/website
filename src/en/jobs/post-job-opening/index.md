@@ -13,77 +13,77 @@ Special deal: To celebrate our new website is finally live, up until the end of 
     <legend>I want to post a vacancy</legend>
     <p class="form-element">
       <label for="form-1-input-0" class="form-label">Contact person</label>
-      <input type="text" name="Contact person" id="form-1-input-0" class="text">
+      <input type="text" name="Contact person" id="form-1-input-0" class="text" required>
     </p>
     <p class="form-element">
       <label for="form-1-input-1" class="form-label">Contact person's email address</label>
-      <input type="email" name="Contact person's email address" id="form-1-input-1" class="text">
+      <input type="email" name="Contact person's email address" id="form-1-input-1" class="text" required>
     </p>
     <p class="form-element">
       <label for="form-1-input-2" class="form-label">Phone number</label>
-      <input type="text" name="Phone number" id="form-1-input-2" class="text">
+      <input type="text" name="Phone number" id="form-1-input-2" class="text" required>
     </p>
     <p class="form-element">
       <label for="form-1-input-3" class="form-label">Company name</label>
-      <input type="text" name="Company name" id="form-1-input-3" class="text">
+      <input type="text" name="Company name" id="form-1-input-3" class="text" required>
     </p>
     <p class="form-element">
       <label for="form-1-input-4" class="form-label">Company LinkedIn account <em>optional</em></label>
-      <input type="text" name="Company LinkedIn account" id="form-1-input-4" class="text">
+      <input type="text" name="Company LinkedIn account" id="form-1-input-4" class="text" required>
     </p>
     <p class="form-element">
       <label for="form-1-input-4" class="form-label">Company Mastodon account <em>optional</em></label>
-      <input type="text" name="Company Mastodon account" id="form-1-input-4" class="text">
+      <input type="text" name="mastodon-account_bedrijf" id="form-1-input-4" class="text" required>
     </p>
     <p class="form-element">
       <label for="form-1-input-4" class="form-label">Company BlueSky account <em>optional</em></label>
-      <input type="text" name="Company BlueSky account" id="form-1-input-4" class="text">
+      <input type="text" name="bluesky-account_bedrijf" id="form-1-input-4" class="text" required>
     </p>
     <p class="form-element">
       <label for="form-1-input-4" class="form-label">Company Instagram account <em>optional</em></label>
-      <input type="text" name="Company Instagram account" id="form-1-input-4" class="text">
+      <input type="text" name="instagram-account_bedrijf" id="form-1-input-4" class="text" required>
     </p>
     <p class="form-element">
       <label for="form-1-input-5" class="form-label">Billing address</label>
-      <textarea name="Billing address" id="form-1-input-5" cols="50" rows="5" class="small"></textarea>
+      <textarea name="Billing address" id="form-1-input-5" cols="50" rows="5" class="small" required></textarea>
     </p>
     <p class="form-element">
       <label for="form-1-input-6" class="form-label">Email address for the invoice</label>
-      <input type="text" name="Email address for the invoice" id="form-1-input-6" class="text">
+      <input type="text" name="E-mailadres_voor_de_factuur" id="form-1-input-6" class="text" required>
     </p>
     <p class="form-element">
       <label for="form-1-input-7" class="form-label">Your reference <em>optional, for example, a purchase number</em></label>
-      <input type="text" name="Your reference" id="form-1-input-7" class="text">
+      <input type="text" name="Uw_kenmerk" id="form-1-input-7" class="text" required>
     </p>
     <fieldset>
       <legend><span>Employment or freelance?</span></legend>
       <ul>
         <li>
           <label for="form-1-input-8">
-          <input type="radio" name="Employment_or_freelance" value="Employment" class="radio" id="form-1-input-8">
+          <input type="radio" name="Employment_or_freelance" value="Employment" class="radio" id="form-1-input-8" required>
           Employment
           </label>
         </li>
         <li>
           <label for="form-1-input-9">
-          <input type="radio" name="Employment_or_freelance" value="Freelance" class="radio" id="form-1-input-9">
+          <input type="radio" name="Employment_or_freelance" value="Freelance" class="radio" id="form-1-input-9" required>
           Freelance
           </label>
         </li>
       </ul>
     </fieldset>
     <fieldset>
-      <legend><span>Agree with the <a href="/en/jobs/post-job-opening/">terms and conditions</a>?</span></legend>
+      <legend><span>Agree with the <a href="/en/jobs/post-job-opening/toc">terms and conditions</a>?</span></legend>
       <ul>
         <li>
           <label for="form-1-input-10">
-          <input type="radio" name="Agree_with_above_terms" value="Yes" class="radio" id="form-1-input-10">
+          <input type="radio" name="Agree_with_above_terms" value="Yes" class="radio" id="form-1-input-10" required>
           Yes
           </label>
         </li>
         <li>
           <label for="form-1-input-11">
-          <input type="radio" name="Agree_with_above_terms" value="No" class="radio" id="form-1-input-11">
+          <input type="radio" name="Agree_with_above_terms" value="No" class="radio" id="form-1-input-11" required>
           No
           </label>
         </li>
