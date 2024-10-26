@@ -73,7 +73,7 @@ Special deal: To celebrate our new website is finally live, up until the end of 
       </ul>
     </fieldset>
     <fieldset>
-      <legend><span>Agree with the <a href="/en/jobs/post-job-opening/">terms and conditions</a>?</span></legend>
+      <legend><span>Agree with the <a href="/en/jobs/post-job-opening/toc">terms and conditions</a>?</span></legend>
       <ul>
         <li>
           <label for="form-1-input-10">

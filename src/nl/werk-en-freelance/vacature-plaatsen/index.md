@@ -70,7 +70,7 @@ Aanbieding: Om te vieren dat onze nieuwe website is gelanceerd, is tot het einde
     </ul>
     </fieldset>
     <fieldset>
-    <legend><span>Akkoord met bovenstaande voorwaarden?</span></legend>
+    <legend><span>Akkoord met <a href="/nl/werk-en-freelance/vacature-plaatsen/voorwaarden">de voorwaarden</a>?</span></legend>
     <ul>
       <li>
       <label for="form-1-input-10">
