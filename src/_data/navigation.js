@@ -239,7 +239,6 @@ module.exports = {
             url: "/en/jobs/post-job-opening/",
             title: "Post a job opening",
           },
-          ,
           {
             url: "/en/jobs/post-job-opening/toc",
             title: "Job bank terms",
