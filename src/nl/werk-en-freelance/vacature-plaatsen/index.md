@@ -14,48 +14,56 @@ Aanbieding: Om te vieren dat onze nieuwe website is gelanceerd, is tot het einde
     <legend>Ik wil een vacature plaatsen</legend>
     <p class="form-element">
     <label for="form-1-input-0" class="form-label">Contactpersoon</label>
-    <input type="text" name="Contactpersoon" id="form-1-input-0" class="text">
+    <input type="text" name="Contactpersoon" id="form-1-input-0" class="text" required>
     </p>
     <p class="form-element">
     <label for="form-1-input-1" class="form-label">E-mailadres contactpersoon</label>
-    <input type="email" name="E-mailadres_contactpersoon" id="form-1-input-1" class="text">
+    <input type="email" name="E-mailadres_contactpersoon" id="form-1-input-1" class="text" required>
     </p>
     <p class="form-element">
     <label for="form-1-input-2" class="form-label">Telefoonnummer</label>
-    <input type="text" name="Telefoonnummer" id="form-1-input-2" class="text">
+    <input type="text" name="Telefoonnummer" id="form-1-input-2" class="text" required>
     </p>
     <p class="form-element">
     <label for="form-1-input-3" class="form-label">Bedrijfsnaam</label>
-    <input type="text" name="Bedrijfsnaam" id="form-1-input-3" class="text">
+    <input type="text" name="Bedrijfsnaam" id="form-1-input-3" class="text" required>
     </p>
     <p class="form-element">
-    <label for="form-1-input-4" class="form-label">Twitter-account bedrijf <em>optioneel</em></label>
-    <input type="text" name="Twitter-account_bedrijf" id="form-1-input-4" class="text">
+    <label for="form-1-input-4" class="form-label">Mastodon-account bedrijf <em>optioneel</em></label>
+    <input type="text" name="mastodon-account_bedrijf" id="form-1-input-4" class="text" required>
+    </p>
+    <p class="form-element">
+    <label for="form-1-input-4" class="form-label">BlueSky-account bedrijf <em>optioneel</em></label>
+    <input type="text" name="bluesky-account_bedrijf" id="form-1-input-4" class="text" required>
+    </p>
+    <p class="form-element">
+    <label for="form-1-input-4" class="form-label">Instagram-account bedrijf <em>optioneel</em></label>
+    <input type="text" name="instagram-account_bedrijf" id="form-1-input-4" class="text" required>
     </p>
     <p class="form-element">
     <label for="form-1-input-5" class="form-label">Factuuradres</label>
-    <textarea name="Factuuradres" id="form-1-input-5" cols="50" rows="5" class="small"></textarea>
+    <textarea name="Factuuradres" id="form-1-input-5" cols="50" rows="5" class="small" required></textarea>
     </p>
     <p class="form-element">
     <label for="form-1-input-6" class="form-label">E-mailadres voor de factuur</label>
-    <input type="text" name="E-mailadres_voor_de_factuur" id="form-1-input-6" class="text">
+    <input type="text" name="E-mailadres_voor_de_factuur" id="form-1-input-6" class="text" required>
     </p>
     <p class="form-element">
     <label for="form-1-input-7" class="form-label">Uw kenmerk <em>optioneel, bijvoorbeeld een inkoopnummer</em></label>
-    <input type="text" name="Uw_kenmerk" id="form-1-input-7" class="text">
+    <input type="text" name="Uw_kenmerk" id="form-1-input-7" class="text" required>
     </p>
     <fieldset>
     <legend><span>Dienstverband of freelance?</span></legend>
     <ul>
       <li>
       <label for="form-1-input-8">
-        <input type="radio" name="Dienstverband_of_freelance" value="Dienstverband" class="radio" id="form-1-input-8">
+        <input type="radio" name="Dienstverband_of_freelance" value="Dienstverband" class="radio" id="form-1-input-8" required>
         Dienstverband
       </label>
       </li>
       <li>
       <label for="form-1-input-9">
-        <input type="radio" name="Dienstverband_of_freelance" value="Freelance" class="radio" id="form-1-input-9">
+        <input type="radio" name="Dienstverband_of_freelance" value="Freelance" class="radio" id="form-1-input-9" required>
         Freelance
       </label>
       </li>
@@ -66,13 +74,13 @@ Aanbieding: Om te vieren dat onze nieuwe website is gelanceerd, is tot het einde
     <ul>
       <li>
       <label for="form-1-input-10">
-        <input type="radio" name="Akkoord_met_bovenstaande_voorwaarden" value="Ja" class="radio" id="form-1-input-10">
+        <input type="radio" name="Akkoord_met_bovenstaande_voorwaarden" value="Ja" class="radio" id="form-1-input-10" required>
         Ja
       </label>
       </li>
       <li>
       <label for="form-1-input-11">
-        <input type="radio" name="Akkoord_met_bovenstaande_voorwaarden" value="Nee" class="radio" id="form-1-input-11">
+        <input type="radio" name="Akkoord_met_bovenstaande_voorwaarden" value="Nee" class="radio" id="form-1-input-11" required>
         Nee
       </label>
       </li>
