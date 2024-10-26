@@ -4,7 +4,8 @@ date: 2014-05-08
 eventdate: 2014-05-08
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 8 mei 2014 is Fronteers te gast bij [Competa ](http://www.competa.com/) in Rijswijk. Er worden drie presentaties gehouden.

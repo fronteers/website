@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij De Voorhoede op 18 april 2013'
 date: 2013-03-25
 author: Charis Rooda
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 18 april is Fronteers te gast bij De Voorhoede in Amsterdam. De vorige Pecha Kucha was een groot succes en dat willen we dit jaar bij De Voorhoede herhalen.

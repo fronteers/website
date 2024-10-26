@@ -4,7 +4,8 @@ date: 2014-11-10
 eventdate: 2014-11-10
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 27 november 2014 is Fronteers te gast bij De Persgroep Publishing in Asse (Kobbegem). Er worden drie presentaties voorzien.

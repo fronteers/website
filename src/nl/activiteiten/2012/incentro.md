@@ -4,7 +4,8 @@ date: 2012-11-27
 eventdate: 2012-11-27
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 27 november is Fronteers te gast bij [Incentro](http://www.incentro.com) in Amsterdam. Rob van der Burgt vertelt hoe je hardware zoals een microfoon en webcam kunt gebruiken in een webapplicatie, en Nikolai Onken licht de graphics library BonsaiJS toe.

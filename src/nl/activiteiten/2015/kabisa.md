@@ -4,7 +4,8 @@ date: 2015-04-08
 eventdate: 2015-04-08
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 8 april 2015 is Fronteers te gast bij [Kabisa](http://www.kabisa.nl) in Weert. Er worden twee presentaties gehouden.

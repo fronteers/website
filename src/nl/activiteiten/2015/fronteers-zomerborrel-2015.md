@@ -4,7 +4,8 @@ date: 2015-08-09
 eventdate: 2015-08-09
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Het is zomer en Fronteers heeft alweer zijn 500e lid verwelkomd. Om dit te vieren, organiseert Fronteers op dinsdag 25 augustus vanaf 18:00 uur een zomerborrel in de Nieuwe Dikke Dries in Utrecht - en als je betalend lid bent van Fronteers ben je uitgenodigd. Kom gezellig bijkletsen met mede front-end ontwikkelaars!

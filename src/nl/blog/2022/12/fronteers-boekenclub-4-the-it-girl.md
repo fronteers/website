@@ -4,7 +4,8 @@ date: 2022-12-20
 author: Paul van Buuren
 summary: 'Op dinsdag 13 december bespraken we bij de vierde Fronteers Boekenclub het boek The IT Girl van Chantal Schinkels.'
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 13 december bespraken we bij de vierde Fronteers Boekenclub het boek "[The IT Girl](https://chantalschinkels.nl/de-it-girl/)" van Chantal Schinkels.

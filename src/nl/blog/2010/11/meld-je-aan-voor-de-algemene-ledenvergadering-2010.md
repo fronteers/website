@@ -3,7 +3,8 @@ title: 'Meld je aan voor de Algemene Ledenvergadering 2010'
 date: 2010-11-06
 author: Tom Greuter
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
     - Leden
     - Vereniging
 ---

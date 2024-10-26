@@ -4,7 +4,8 @@ date: 2015-04-28
 eventdate: 2015-04-28
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op dinsdag 28 april 2015 is Fronteers te gast bij 3SIGN in Eeklo. Er worden twee presentaties voorzien.

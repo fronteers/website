@@ -3,7 +3,8 @@ title: 'Bijeenkomst in Maastricht op 27 november 2015 (vervallen)'
 date: 2015-11-11
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op vrijdag 27 november 2015 organiseert Fronteers een bijeenkomst en borrel in Maastricht. Er worden twee presentaties voorzien.

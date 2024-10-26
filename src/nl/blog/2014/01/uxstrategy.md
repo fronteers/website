@@ -3,7 +3,8 @@ title: 'Bijeenkomst met Jared Spool over UX Strategy'
 date: 2014-01-30
 author: Anton Kouliavtsev en Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Kom ook naar de last-minute-special 'UX Strategy Means Business', vrijdag 7 februari spreekt Jared Spool in Amsterdam. Schrijf meteen in!

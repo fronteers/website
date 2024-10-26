@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 4 november in Gent (België)'
 date: 2010-09-28
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 4 november is Fronteers te gast bij Netlog in Gent (jawel, in België!). Er worden twee presentaties voorzien. Eerst komt [Peter-Paul Koch](http://www.quirksmode.org/about/) (PPK) praten over _mobile web development_; vervolgens vertelt [Lennart Schoors](http://lensco.be/) wat over _web design for right-to-left languages_.

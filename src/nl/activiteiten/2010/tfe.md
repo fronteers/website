@@ -4,7 +4,8 @@ date: 2010-05-06
 eventdate: 2010-05-06
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Donderdag 6 mei was Fronteers te gast bij [theFactor.e](http://www.tfe.nl). Er werden twee presentaties gehouden over de webrichtlijnen.

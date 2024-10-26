@@ -3,7 +3,8 @@ title: 'Hackathon &quot;Automatiseer je front-end&quot;'
 date: 2013-04-08
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op zaterdag 11 mei zal er een hackathon worden georganiseerd voor leden en niet-leden van Fronteers. De dag begint rond half 11 met twee korte presentaties onder het genot van een kopje koffie of thee. Na een verzorgde lunch kan gehackt worden aan een project wat ter plekke gepitcht kan worden. Aan het einde van de dag sluiten we af met een borrel zodat we kunnen zien wat iedereen gemaakt heeft.

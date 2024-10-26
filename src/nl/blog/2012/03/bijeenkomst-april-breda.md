@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 19 april in Breda'
 date: 2012-03-20
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 19 april is Fronteers wederom te gast bij [e-sites](http://e-sites.nl) in Breda. De presentaties zijn gerelateerd aan JavaScript, en gaan redelijk diep in op de materie. Nikolai Onken en Anne van Kesteren zullen spreken.

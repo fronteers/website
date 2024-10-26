@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 24 maart bij eVision'
 date: 2016-02-19
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 24 maart 2016 is Fronteers te gast bij eVision in Den Haag. Er staan twee sprekers op het programma en het thema is React.

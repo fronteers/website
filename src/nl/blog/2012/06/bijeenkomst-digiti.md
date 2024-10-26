@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 21 juni bij Digiti'
 date: 2012-06-03
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 21 juni 2012 is Fronteers te gast bij [Digiti](http://digiti.be/) in Zoersel. Er worden twee presentaties voorzien.

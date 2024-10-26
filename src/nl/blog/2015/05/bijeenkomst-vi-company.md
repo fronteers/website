@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij VI Company op 3 juni 2015'
 date: 2015-05-09
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 3 juni 2015 is Fronteers te gast bij VI Company in Rotterdam. Er worden twee presentaties en een demo voorzien rondom het thema Frontend & Mobile.

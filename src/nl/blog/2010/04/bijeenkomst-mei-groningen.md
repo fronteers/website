@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 6 mei, in Groningen'
 date: 2010-04-23
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 6 mei zal Fronteers te gast zijn bij [theFactor.e](http://tfe.nl/) in Groningen. Twee bijeenkomsten in mei dus. De avond zal in het teken staan van het oplossen van de problemen die je tegenkomt als je met een CMS aan de webrichtlijnen wilt voldoen.

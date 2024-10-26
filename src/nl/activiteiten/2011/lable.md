@@ -4,7 +4,8 @@ date: 2011-02-10
 eventdate: 2011-02-10
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 10 februari was Fronteers te gast bij [Lable](http://lable.org) in Leeuwarden. Hidde de Vries heet iedereen welkom.

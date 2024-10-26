@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 6 maart in Zaventem'
 date: 2012-02-22
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 6 maart is Fronteers te gast bij Microsoft in Zaventem. Er worden twee presentaties voorzien. Eerst komt Stijn Janssen praten over front-end style guides; vervolgens zal Joris Hens wat vertellen over de lessen die hij leerde uit het runnen van SolidShops.com, een applicatie voor webdesigners die webwinkels bouwen voor hun klanten.

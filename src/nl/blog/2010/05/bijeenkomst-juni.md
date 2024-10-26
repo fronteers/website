@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 14 juni, in Utrecht'
 date: 2010-05-20
 author: Hidde de Vries
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op 14 juni is Fronteers te gast bij [SETUP](http://www.setuputrecht.nl/) in Utrecht. Het thema van deze bijeenkomst is 'het semantische web' en we hebben een spreker uit de praktijk en een onderzoeker bereid gevonden ons hier meer over te komen vertellen.

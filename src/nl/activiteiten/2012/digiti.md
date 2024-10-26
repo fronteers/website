@@ -4,7 +4,8 @@ date: 2012-06-21
 eventdate: 2012-06-21
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 21 juni 2012 is Fronteers te gast bij [Digiti](http://digiti.be/) in Zoersel. Er worden twee presentaties voorzien.

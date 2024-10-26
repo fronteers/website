@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij E-sites op 26 maart 2014'
 date: 2014-02-26
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 26 maart 2014 is Fronteers te gast bij E-sites in Breda. Meld je nu aan voor deze bijeenkomst over tooling, code afspraken, JS errorlogger, cronitor (cronjob logger), deployment, standaardisatie, github én over Surfly, een online tool die je web laat sharen door middel van open web technologieën.

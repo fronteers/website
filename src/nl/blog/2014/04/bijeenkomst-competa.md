@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 8 mei bij Competa'
 date: 2014-04-18
 author: Roos Flooren
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 8 mei 2014 is Fronteers te gast bij [Competa](http://www.competa.com/) in Rijswijk. Er worden twee of drie presentaties voorzien.

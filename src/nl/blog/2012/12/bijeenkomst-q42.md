@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij Q42 op 8 januari 2013'
 date: 2012-12-10
 author: Mike Vierwind
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 8 januari 2013 is Fronteers te gast bij Q42 in Den Haag. Er worden drie presentaties gegeven. Johan Huijkman geeft de presentatie “UX Candy”, Remco Veldkamp bespreekt de uitdagingen die Q42 tegenkwam bij de ontwikkeling van de nieuwe website voor het Amsterdams Rijksmuseum en Elaine Oliver deelt tips en ervaringen over het opzetten van de OOCSS architectuur.

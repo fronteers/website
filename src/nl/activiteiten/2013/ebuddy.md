@@ -4,7 +4,8 @@ date: 2013-05-30
 eventdate: 2013-05-30
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Donderdag 30 mei is Fronteers te gast bij [eBuddy](http://ebuddy.com) in Amsterdam. Twee presentaties staan op het programma. Jan van Hellemond vertelt over SVG voor het responsive web, en Andrei Rusu spreekt over client-side architectuur van server sent events.

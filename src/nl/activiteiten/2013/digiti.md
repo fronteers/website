@@ -4,7 +4,8 @@ date: 2013-10-31
 eventdate: 2013-10-31
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 31 oktober 2013 is Fronteers te gast bij [Digiti](http://www.digiti.be) in Zoersel (bij Antwerpen). We hebben twee sprekers uitgenodigd.

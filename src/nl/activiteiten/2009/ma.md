@@ -4,7 +4,8 @@ date: 2009-03-10
 eventdate: 2009-03-10
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 10 maart waren we te gast bij [Mediacollege Amsterdam](http://www.ma-web.nl/), kortweg Ma (voorheen Grafisch Lyceum Amsterdam). We werden door Will Fris (Fronteerslid en Ma-docent) en kornuiten met koffie, thee, soep en koekjes ontvangen. Ondanks de lichte [organisatiestress](/bijeenkomsten/organiseren) vooraf hebben Will, Hugo, Ruben en Jelle een perfecte Fronteersbijeenkomst opgezet, op een zeer goede locatie. Bedankt! Hopelijk mogen we hier in de toekomst nog eens terugkomen.

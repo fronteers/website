@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 22 mei bij Ordina'
 date: 2014-05-08
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 22 mei 2014 is Fronteers te gast bij Ordina in Mechelen. Er worden drie presentaties voorzien.

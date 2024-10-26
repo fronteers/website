@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 22 september in Brussel'
 date: 2011-08-31
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op 22 september organiseren we voor de vijfde keer een Fronteers-bijeenkomst in België. Na een [succesvolle editie in Antwerpen](/bijeenkomsten/2011/aspace), is ons oog nu gevallen op de prachtige ‘Open Space’ van Namahn in Brussel. Hier kunnen we maar liefst 45 deelnemers verwelkomen.

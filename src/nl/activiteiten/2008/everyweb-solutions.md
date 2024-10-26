@@ -4,7 +4,8 @@ date: 2008-05-13
 eventdate: 2008-05-13
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op 14 mei 2008 werd door [EveryWeb Solutions](http://everywebsolutions.nl/) een Fronteers bijeenkomst georganiseerd in [Hotel Arena](http://www.hotelarena.nl/) te Amsterdam. Het had niet veel gescheeld, of diverse front-end developers waren afgehaakt en hadden bij de buren een evenement van de FHM bezocht. Gelukkig werden ze weerhouden door twee presentaties, de een over toegankelijkheid en de andere over SVG.

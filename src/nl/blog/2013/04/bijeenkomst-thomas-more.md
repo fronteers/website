@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 23 mei bij Thomas More'
 date: 2013-04-29
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 23 mei 2013 is Fronteers te gast bij de opleiding Interactive Multimedia Design aan [de Thomas More-hogeschool](http://www.thomasmore.be/) te Mechelen met als centrale thema _data-visualisatie_.

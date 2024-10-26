@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 5 juli, in Amsterdam, met gratis barbecue'
 date: 2011-06-07
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdagavond 5 juli is Fronteers te gast bij [eFocus](http://efocus.nl) te Amsterdam. Voorafgaand is er een gratis barbecue. Aanmelden is wel noodzakelijk, aangezien de ruimte voor slechts 40 personen geschikt is. Er geldt: vol is vol, en wie het eerst komt, die het eerst maalt.

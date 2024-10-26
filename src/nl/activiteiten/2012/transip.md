@@ -4,7 +4,8 @@ date: 2012-02-08
 eventdate: 2012-02-08
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 8 februari zijn we te gast bij [TransIP](http://www.transip.nl) in Leiden. Johan Schuyt geeft een presentatie over de Google Closure Compiler, en Peter Nederlof duikt de diepte in over CSS Transities en Transformaties in combinatie met JavaScript.

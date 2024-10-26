@@ -4,7 +4,8 @@ date: 2011-09-15
 eventdate: 2011-09-15
 location:
 categories:
-  - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 15 september was Fronteers te gast bij [Lunatech Research](http://www.lunatech-research.com/) in Rotterdam.

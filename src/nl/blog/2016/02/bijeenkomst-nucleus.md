@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 25 februari bij Nucleus'
 date: 2016-02-08
 author: Wesley Lancel
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 25 februari 2016 is Fronteers te gast bij Nucleus in Antwerpen. Er worden twee presentaties voorzien.

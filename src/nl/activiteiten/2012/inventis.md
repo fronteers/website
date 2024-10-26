@@ -4,7 +4,8 @@ date: 2012-04-10
 eventdate: 2012-04-10
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Na een [succesvolle avond bij Microsoft](/bijeenkomsten/2012/microsoft) is het tijd voor een nieuwe Belgische Fronteers-bijeenkomst.

@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 7 september, in Haarlem'
 date: 2010-08-20
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 7 september is Fronteers te gast bij [IPROFS](http://iprofs.nl) in Haarlem. Er zullen twee presentaties gegeven worden: Wilfred Nas gaat een praatje houden over HTML5 best practices, en Raph de Rooij update ons over de laatste ontwikkelingen rond Webrichtlijnen versie 2.

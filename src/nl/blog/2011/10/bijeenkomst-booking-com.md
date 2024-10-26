@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 15 november, in Amsterdam'
 date: 2011-10-27
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 15 november is Fronteers te gast bij [Booking.com](http://booking.com) in Amsterdam. Roy Tomeij zal spreken over Git voor front-enders, en Fabio Venni over webtypografie. Beide presentaties zullen in het Engels worden gegeven.

@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 24 maart 2016 bij iDA Mediafoundry'
 date: 2016-03-11
 author: Ibe Vanmeenen
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 24 maart is Fronteers te gast bij [iDA Mediafoundry](http://www.ida-mediafoundry.be/) in Mechelen. Er worden twee presentaties voorzien.

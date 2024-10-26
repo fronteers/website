@@ -4,7 +4,8 @@ date: 2007-11-29
 eventdate: 2007-11-29
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op 29 november 2007 was Fronteers te gast bij Wisdom/Ordina in Groningen. Vanwege een andere bijeenkomst in het pand van Wisdom/Ordina werd de bijeenkomst in de nabijgelegen Euroborg gehouden. Bart Wortel heette ons welkom waarna de eerste presentatie startte.

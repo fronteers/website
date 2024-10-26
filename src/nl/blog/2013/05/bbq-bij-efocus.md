@@ -3,7 +3,8 @@ title: 'BBQ bij eFocus in Amsterdam op 20 juni'
 date: 2013-05-24
 author: Anton Kouliavtsev
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Donderdag 20 juni is Fronteers te gast bij [eFocus](http://www.efocus.nl/) in Amsterdam. Naast een

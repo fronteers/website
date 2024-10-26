@@ -4,7 +4,8 @@ date: 2007-09-18
 eventdate: 2007-09-18
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Het oprichtingscongres was een combinatie van een mini-congres en de oprichtende Algemene Ledenvergadering. Het mini-congres was toegankelijk voor iedereen, de ALV uitsluitend voor leden. De [notulen van de oprichtende ALV](/vereniging/bestuur/notulen/18-09-2007) staan op de site.

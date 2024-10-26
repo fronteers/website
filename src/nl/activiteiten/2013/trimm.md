@@ -4,7 +4,8 @@ date: 2013-02-21
 eventdate: 2013-02-21
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 [TriMM](http://trimm.nl) host op 21 februari een nieuw soort Fronteersbijeenkomst, een "bijeenstorm". Doel is om zowel kennis te delen die je zelf hebt over front-end, maar ook iets te leren van andere knappe koppen. Daarnaast leer je die avond op een andere wijze je collega's front-enders kennen.

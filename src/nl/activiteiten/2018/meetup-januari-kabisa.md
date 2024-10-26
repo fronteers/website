@@ -4,7 +4,8 @@ date: 2017-12-04
 eventdate: 2017-12-04
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Voor de derde keer organiseren Kabisa en Fronteers, vakvereniging voor front-end ontwikkelaars, een bijeenkomst in Weert. Hier wordt een front-end, React / Redux presentatie gegeven. De bijeenkomst is gratis en voor iedereen toegankelijk, je hoeft je alleen [even in te schrijven](https://www.meetup.com/Weert-Software-Development-Meetup/events/245561062/).

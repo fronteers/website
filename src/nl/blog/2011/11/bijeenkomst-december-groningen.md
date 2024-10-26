@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 8 december, in Groningen'
 date: 2011-11-14
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 8 december is Fronteers te gast bij [mediaCT](http://mediact.nl) te Groningen. Vasilis van Gemert geeft een presentatie over Adaptive development, en Bas Rozema over Git.

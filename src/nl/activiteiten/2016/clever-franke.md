@@ -4,7 +4,8 @@ date: 2016-05-05
 eventdate: 2016-05-05
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 _Please note: this meetup will be held in English. / Let op: de voertaal van deze bijeenkomst zal Engels zijn._

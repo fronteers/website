@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 23 oktober bij Wijs'
 date: 2014-09-18
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - België
 ---
 
 Op donderdag 23 oktober 2014 is Fronteers te gast bij Wijs in Gent. Er worden drie presentaties voorzien.

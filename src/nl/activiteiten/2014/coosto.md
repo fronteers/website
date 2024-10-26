@@ -4,7 +4,8 @@ date: 2014-02-19
 eventdate: 2014-02-19
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Woensdag 19 februari was Fronteers te gast bij [Coosto](http://www.coosto.com) in Eindhoven. Roel en Koen van Coosto deelden hun kennis in een soort van pecha kucha stijl. Daarna presenteerde Wilfred Nas over responsive webdesign. Er werd voor een lekkere avondmaaltijd gezorgd (ook vegetarisch), dus je hoefde niet eerst langs de Burger King.

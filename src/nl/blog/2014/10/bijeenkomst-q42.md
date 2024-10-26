@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij Q42 op 5 november'
 date: 2014-10-15
 author: Wesley Lancel
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 5 november 2014 is Fronteers te gast bij [Q42](http://www.q42.nl) in Amsterdam. Er worden twee presentaties gehouden.

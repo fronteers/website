@@ -4,7 +4,8 @@ date: 2012-08-30
 eventdate: 2012-08-30
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 30 augustus 2012 is Fronteers te gast bij [WHITE](http://www.white.nl/) in Valkenswaard. Er zijn twee presentaties voorzien.

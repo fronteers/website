@@ -3,7 +3,8 @@ title: 'Workshop Terminally Chill op 19 augustus'
 date: 2011-07-25
 author: Roel Van Gils en Mathias Bynens
 categories:
-    - Workshops
+    - Workshops 
+    - België
 ---
 
 Twee jaar geleden organiseerde Fronteers voor het eerst een cursus voor front-end developers in Nederland. De workshops duren meestal een hele dag en zijn van een hoog niveau. Nu Fronteers — mede dankzij de gesmaakte [bijeenkomsten](http://fronteers.nl/bijeenkomsten) van de voorbije maanden — ook in Vlaanderen voet aan de grond krijgt, vonden we het tijd voor een eerste cursus op Vlaams grondgebied.

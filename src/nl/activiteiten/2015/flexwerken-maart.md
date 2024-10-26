@@ -4,7 +4,8 @@ date: 2015-03-25
 eventdate: 2015-03-25
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Een nieuw soort bijeenkomst, speciaal voor onze leden: samen flexwerken én kennis delen. Ga een dagdeel bij elkaar zitten, maak én deel kennis! Vakvereniging Fronteers wil leden de mogelijkheid bieden samen te werken en kennisdeling te stimuleren en wil zo tegemoet komen aan de vraag van freelancers en ZZP'ers. De activiteitencommissie huurt de zaal in Utrecht en biedt een luxe lunchbuffet aan. Je neemt zelf je laptop en kabels mee (ook voor de beamer), presenteert waar je mee bezig bent of waar je mee worstelt of wat je wil bijdragen aan de vereniging en je zult zien dat een dagdeel samenwerken te kort is. Wie doet mee?

@@ -3,7 +3,8 @@ title: 'Fronteers nieuwjaarsborrel'
 date: 2013-12-22
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Een nieuw jaar, een nieuwe locatie voor de Fronteers nieuwjaarsborrel, speciaal voor leden!

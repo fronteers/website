@@ -4,7 +4,8 @@ date: 2008-10-16
 eventdate: 2008-10-16
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op 16 oktober 2008 organiseerde [Mangrove](http://www.mangrove.nl/) voor de tweede keer een Fronteers bijeenkomst. Bijna zestig aanwezigen kwamen in Rotterdam bij elkaar voor twee presentaties en vooral veel en gezellig voor- en na-kletsen. De gelukkigen wisten tijdens de presentaties een plaatsje op de comfortabele stoelen of zitzakken te bemachtigen, de rest kon de presentaties staande aan de bar volgen.

@@ -4,7 +4,8 @@ date: 2013-03-24
 eventdate: 2013-03-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 18 april is Fronteers te gast bij De Voorhoede in Amsterdam. Dit keer is het geen bijeenkomst met presentaties, maar een Pecha Kucha met 10 presentaties van 6 minuut 40.

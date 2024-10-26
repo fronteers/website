@@ -3,7 +3,8 @@ title: "Nieuwjaarsbijeenkomst Internet Society"
 date: 2010-01-06
 author: Krijn Hoetmer
 categories: 
-  - Bijeenkomsten
+    - Bijeenkomsten 
+    - België
 ---
 Alle Fronteers leden zijn van harte uitgenodigd voor een bijzondere Nieuwjaarsbijeenkomst, die zal worden gehouden op donderdag 14 januari in NEMO in Amsterdam (het grote groene gebouw vlakbij Centraal Station), vanaf 19:00 uur. Hieronder de uitnodiging die wij ontvangen hebben.
 

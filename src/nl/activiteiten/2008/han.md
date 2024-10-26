@@ -4,6 +4,7 @@ date: 2008-06-27
 eventdate: 2008-06-27
 location: 
 categories: 
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 [Voor deze bijeenkomst is nog geen verslag geschreven. Vrijwilligers welkom!]

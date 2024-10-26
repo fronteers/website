@@ -4,7 +4,8 @@ date: 2009-10-15
 eventdate: 2009-10-15
 location: 
 categories: 
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 [Voor deze bijeenkomst is nog geen verslag geschreven. Vrijwilligers welkom!]
 

@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij TamTam op 24 februari 2016'
 date: 2016-01-27
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 24 februari 2016 is Fronteers te gast bij TamTam in Amsterdam. Er staan twee sprekers op het programma.

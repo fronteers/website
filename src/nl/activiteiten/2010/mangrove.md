@@ -4,7 +4,8 @@ date: 2010-07-07
 eventdate: 2010-07-07
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 7 juli was Fronteers te gast bij [Mangrove](http://mangrove.nl) in Rotterdam. Thema van de avond was design. Bram van Rijen a.k.a. Nozzman sprak over inspiratie, en Hans Kemp ging dieper in op het onderwerp user interaction design.

@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 19 juni bij Cronos'
 date: 2014-06-06
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 19 juni 2014 is Fronteers te gast bij Cronos in Kontich. Er worden twee presentaties voorzien.

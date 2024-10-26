@@ -3,7 +3,8 @@ title: 'Bijeenkomst over datavisualisatie bij CLEVER°FRANKE in Utrecht'
 date: 2016-05-06
 author: Hidde de Vries
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 2 juni is Fronteers te gast bij ‘data-driven design agency’ CLEVER°FRANKE voor een avond over het oplossen van complexe problemen met front-end development en datavisualisatie. Zij zorgen voor bier, eten en snacks, en hebben ruimte voor zo'n 40 geïnteresseerden.

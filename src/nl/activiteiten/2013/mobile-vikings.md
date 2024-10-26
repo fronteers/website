@@ -4,7 +4,8 @@ date: 2013-12-05
 eventdate: 2013-12-05
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 5 december 2013 is Fronteers te gast bij [Mobile Vikings](http://www.mobilevikings.be) in Hasselt. We hebben twee sprekers uitgenodigd.

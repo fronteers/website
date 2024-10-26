@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 27 november bij De Persgroep'
 date: 2014-11-10
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 27 november 2014 is Fronteers te gast bij De Persgroep Publishing in Asse (Kobbegem). Er worden drie presentaties voorzien.

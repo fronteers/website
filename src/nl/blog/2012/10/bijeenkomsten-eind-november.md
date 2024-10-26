@@ -3,7 +3,8 @@ title: 'Bijeenkomsten op 27 en 29 november'
 date: 2012-10-24
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Eind november hebben we twee bijeenkomsten ingepland. Te weten bij [Incentro](http://incentro.com) te Amsterdam op dinsdag de 27ste, en twee dagen later, op de 29ste, bij [Info Support](http://www.infosupport.com) in Veenendaal.

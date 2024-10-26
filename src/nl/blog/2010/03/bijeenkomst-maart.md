@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 25 maart, in Amsterdam'
 date: 2010-03-10
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 25 maart zal Fronteers te gast zijn bij [Appoint](http://appoint.nl) te Amsterdam. Er zal een presenatie gegeven worden over de UX en templating van Drupal 7, en een discussie over webdevelopers.

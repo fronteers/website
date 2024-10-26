@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 19 mei, in Breda'
 date: 2010-04-23
 author: Matijs Brinkhuis
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op 19 mei zal Fronteers te gast zijn bij [E-sites](http://www.e-sites.nl) in Breda. Er zal een praatje gehouden worden over de huidige ontwikkelingen op het gebied van CSS en er gaat wat verteld worden over HTML5 Apps.

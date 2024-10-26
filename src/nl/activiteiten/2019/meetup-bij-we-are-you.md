@@ -4,7 +4,8 @@ date: 2019-05-16
 eventdate: 2019-05-16
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 ## Testen van processen in applicaties en websites is tijdrovend werk

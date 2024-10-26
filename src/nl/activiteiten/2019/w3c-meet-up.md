@@ -4,7 +4,8 @@ date: 2019-02-07
 eventdate: 2019-02-07
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Mark your calendars! The very first W3C Fronteers meet-up with Rachel Andrew will be held on February 7th, 2019 at the offices of [Werkspot](https://www.werkspot.nl/over-ons) in Amsterdam.

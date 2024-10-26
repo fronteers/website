@@ -4,7 +4,8 @@ date: 2013-10-12
 eventdate: 2013-10-12
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 ![](/_img/logo-with-text.png)

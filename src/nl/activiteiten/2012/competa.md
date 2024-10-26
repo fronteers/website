@@ -4,7 +4,8 @@ date: 2012-10-17
 eventdate: 2012-10-17
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 17 oktober is Fronteers te gast bij [Competa](http://competa.com) in Rijswijk. Dan Entous laat een showcase zien van responsive design. Er zullen ook twee responsive web design demo's worden gegeven.

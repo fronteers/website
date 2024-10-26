@@ -4,7 +4,8 @@ date: 2017-07-20
 eventdate: 2017-07-20
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 14 september 2017 is Fronteers te gast bij [ezCompany](https://www.ezcompany.nl) in Tilburg. We hebben die avond twee interessante talks, verzorgd door twee _"dino’s van het internet"_, _Wilfred Nas_ en _Frank Schaap_. De bijeenkomst is gratis voor leden en niet-leden, en ezCompany zorgt voor pizza en drankjes!

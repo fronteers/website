@@ -4,7 +4,8 @@ date: 2011-09-22
 eventdate: 2011-09-22
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Mathias heet iedereen welkom bij alweer de vijfde Fronteersbijeenkomst in Vlaanderen. Deze bijeenkomst werd gehouden bij [Namahn](http://www.namahn.com/) in Brussel.

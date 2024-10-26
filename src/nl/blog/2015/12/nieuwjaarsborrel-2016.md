@@ -3,7 +3,8 @@ title: 'Fronteers Nieuwjaarsborrel 2016'
 date: 2015-12-30
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
     - Leden
 ---
 

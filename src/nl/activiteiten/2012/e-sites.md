@@ -4,7 +4,8 @@ date: 2012-04-19
 eventdate: 2012-04-19
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 19 april is Fronteers wederom te gast bij [e-sites](http://e-sites.nl) in Breda. De presentaties zijn gerelateerd aan JavaScript, en gaan redelijk diep in op de materie. Nikolai Onken en Anne van Kesteren zullen spreken.

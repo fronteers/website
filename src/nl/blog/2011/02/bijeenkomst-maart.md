@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 3 maart, in Amsterdam'
 date: 2011-02-09
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 3 maart is Fronteers te gast bij 80beans in Amsterdam. Roy Tomeij zal spreken over front-end meta languages. Vasilis van Gemert gaat dieper in op adaptive development.

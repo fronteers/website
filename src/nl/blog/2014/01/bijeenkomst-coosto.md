@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 19 februari bij Coosto'
 date: 2014-01-12
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 19 februari 2014 is Fronteers te gast bij [Coosto](http://www.coosto.coml/nl/) in Eindhoven. Onderwerpen zijn webfonts, schalen van je webapp en responsive webdesign.

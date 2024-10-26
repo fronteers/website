@@ -3,7 +3,8 @@ title: 'Hackathon op 15 februari 2014'
 date: 2014-01-20
 author: Anton Kouliavtsev
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 De vrijwilligers van de activiteitencommissie en congrescommissie organiseren een hackathon, voor en door leden van Fronteers.

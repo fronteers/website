@@ -3,7 +3,8 @@ title: 'Kom flexwerken met Fronteersleden!'
 date: 2015-02-26
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
     - Leden
 ---
 

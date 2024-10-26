@@ -4,7 +4,8 @@ date: 2016-01-14
 eventdate: 2016-01-14
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 24 februari 2016 is Fronteers te gast bij TamTam in Amsterdam. Er staan twee sprekers op het programma.
