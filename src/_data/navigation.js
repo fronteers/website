@@ -81,6 +81,14 @@ module.exports = {
             url: "/nl/activiteiten/videos/",
             title: "Video archief",
           },
+          {
+            title: "Alles in Nederland",
+              url: "/nl/activiteiten/categorie/nederland/",
+          },
+          {
+            title: "Alles in België",
+              url: "/nl/activiteiten/categorie/belgie/",
+          },
         ],
       },
       {
