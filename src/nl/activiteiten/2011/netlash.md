@@ -4,7 +4,8 @@ date: 2011-05-05
 eventdate: 2011-05-05
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - België
 ---
 
 Na een [succesvolle avond bij de Provinciale Hogeschool Limburg](/bijeenkomsten/2011/phl) is het tijd voor een nieuwe Belgische Fronteers-bijeenkomst.

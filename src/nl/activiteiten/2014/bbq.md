@@ -4,7 +4,8 @@ date: 2014-08-08
 eventdate: 2014-08-08
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op 8 augustus organiseert de activiteitencommissie een BBQ bij Restaurant Griftpark 1 in Utrecht, vanaf 17:30 uur inloop en borrel. Het buffet is besteld om 19:00 uur. Borrelen met leden van Fronteers is altijd tof! Doe je weer mee?

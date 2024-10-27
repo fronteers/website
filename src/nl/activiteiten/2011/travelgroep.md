@@ -4,7 +4,8 @@ date: 2011-08-25
 eventdate: 2011-08-25
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 25 augustus was Fronteers welkom bij [Travelgroep](http://travelgroep.nl) in Amsterdam. Reinier Linthorst Homan vertelde over zoekmachineoptimalisatie, en <strike>Ruslan Matveev zal een Engelstalig praatje houden over het door hem gebouwde jPath</strike> Arjan Eising herhaalde zijn presentatie over WAI-ARIA.

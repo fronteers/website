@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij Coolblue op 24 juni'
 date: 2014-05-28
 author: Wesley Lancel
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 24 juni 2014 is Fronteers te gast bij [Coolblue](http://www.coolblue.nl) in Rotterdam. Er worden twee presentaties gehouden.

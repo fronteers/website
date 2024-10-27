@@ -4,7 +4,8 @@ date: 2010-11-04
 eventdate: 2010-11-04
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - België
 ---
 
 Fronteers, de vakvereniging voor front-end developers, werd in 2007 opgericht in Nederland, maar is nu klaar om ook in België voet aan de grond te krijgen. Bij wijze van kennismaking organiseren we een eerste, informele bijeenkomst.

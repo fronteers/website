@@ -4,7 +4,8 @@ date: 2023-10-19
 author: Edwin Martin
 summary: Op vrijdagavond 10 november houden we weer onze jaarlijkse algemene ledenvergadering! Het vindt online plaats. Alle leden zijn hiervoor van harte uitgenodigd, en we hopen nieuwe bestuursleden te verwelkomen!
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
     - Leden
     - Vereniging
 ---

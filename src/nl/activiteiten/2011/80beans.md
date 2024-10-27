@@ -4,7 +4,8 @@ date: 2011-03-03
 eventdate: 2011-03-03
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 3 maart was Fronteers te gast bij 80beans in Amsterdam. Vasilis van Gemert en Roy Tomeij gaven een presentatie.

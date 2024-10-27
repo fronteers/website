@@ -3,7 +3,8 @@ title: 'Bijeenkomsten op 22 januari en 7 februari'
 date: 2013-01-09
 author: Jayne Verbeek
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Er zijn weer twee bijeenkomsten ingepland. Te weten bij [StudyTube](http://www.studytube.nl/) te Amsterdam op dinsdag 22 januari, en op 7 februari, ook in Amsterdam, bij [Trifork](http://www.trifork.nl).

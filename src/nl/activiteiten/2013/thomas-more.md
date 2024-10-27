@@ -4,7 +4,8 @@ date: 2013-05-23
 eventdate: 2013-05-23
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 23 mei 2013 is Fronteers te gast bij de opleiding Interactive Multimedia Design aan de Thomas More-hogeschool te Mechelen met als centrale thema _data-visualisatie_.

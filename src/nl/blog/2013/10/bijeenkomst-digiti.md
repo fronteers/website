@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij Digiti in Zoersel (Antwerpen)'
 date: 2013-10-16
 author: Roel Van Gils
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op 31 oktober e.k. is Fronteers voor de tweede keer te gast bij [Digiti Interactive Media](http://www.digiti.be/) in Zoersel bij Antwerpen. Zoals steeds, hebben we twee uitstekende sprekers kunnen strikken.

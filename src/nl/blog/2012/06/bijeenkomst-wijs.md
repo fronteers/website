@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 19 juli bij Wijs'
 date: 2012-06-25
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - België
 ---
 
 Op donderdag 19 juli 2012 is Fronteers te gast bij [Wijs](http://wijs.be/) in Gent. Er worden twee presentaties voorzien. Eerst komt [Xavier Bertels](http://twitter.com/xavez) praten over ritme en ratio’s in layout en typografie voor het web; vervolgens zal [Denis Defreyne](http://twitter.com/ddfreyne) wat vertellen over static site generators zoals [nanoc](http://nanoc.stoneship.org/).

@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 14 april bij Kabisa'
 date: 2016-03-30
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 14 april 2016 is Fronteers te gast bij Kabisa in Weert. Er staan twee sprekers op het programma.

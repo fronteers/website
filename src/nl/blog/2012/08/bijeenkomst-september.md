@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 20 september bij Future in IT'
 date: 2012-08-21
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 20 september is Fronteers te gast bij [Future in IT](https://web.archive.org/web/20170518015223/http://futureinit.nl/) in Amsterdam. Arjan Eising geeft een presentatie over CoffeeScript, en Bran van der Meer gaat grids in design nader bekijken.

@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 12 maart bij Digiti'
 date: 2015-02-13
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 12 maart 2015 is Fronteers te gast bij Digiti in Zoersel. Er worden twee presentaties voorzien.

@@ -4,7 +4,8 @@ date: 2014-02-13
 eventdate: 2014-02-13
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Donderdag 13 februari was Fronteers te gast bij [Trifork](http://trifork.nl) in Amsterdam. Justin Halsall hield een presentatie over Backbone. Roy Tomeij vertelde daarna over Sass (voor gemiddelden) en de nieuwe Sass 3.3 features. We startten de avond met een heerlijke pizza.

@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 28 april bij 3SIGN'
 date: 2015-03-26
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 28 april 2015 is Fronteers te gast bij 3SIGN in Eeklo. Er worden twee presentaties voorzien.

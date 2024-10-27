@@ -3,7 +3,8 @@ title: 'Een lunchcollege bij W.I.S.V. Christiaan Huygens'
 date: 2013-11-12
 author: Vasilis van Gemert
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
     - Leden
     - Onderwijs
     - Vereniging

@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 24 september bij Incentro'
 date: 2014-08-29
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 24 september is Fronteers te gast bij Incentro in Amsterdam. Er worden drie presentaties voorzien.

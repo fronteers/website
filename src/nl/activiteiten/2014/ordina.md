@@ -4,7 +4,8 @@ date: 2014-05-22
 eventdate: 2014-05-22
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 22 mei 2014 is Fronteers te gast bij Ordina in Mechelen. Er worden drie presentaties voorzien.

@@ -3,7 +3,8 @@ title: 'Nieuwjaarsborrel'
 date: 2012-01-02
 author: Peter-Paul Koch
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Namens het bestuur hierbij een gelukkig Nieuwjaar aan alle Fronteers-leden en overige bezoekers van de site.

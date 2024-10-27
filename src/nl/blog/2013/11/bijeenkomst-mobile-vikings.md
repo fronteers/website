@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 5 december bij Mobile Vikings'
 date: 2013-11-13
 author: Stijn Janssen
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 5 december 2013 is Fronteers te gast bij Mobile Vikings te Hasselt. Er worden twee presentaties voorzien.

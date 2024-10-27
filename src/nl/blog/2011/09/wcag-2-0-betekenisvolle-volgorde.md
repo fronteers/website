@@ -3,8 +3,8 @@ title: "WCAG 2.0 : Betekenisvolle volgorde"
 date: 2011-09-16
 author: Janita Top
 categories: 
-  - Toegankelijkheid
-  - Webrichtlijnen
+    - Toegankelijkheid
+    - Webrichtlijnen 
 ---
 Van volgorde van belangrijkheid naar betekenisvolle volgorde.
 

@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij Kabisa op 8 april 2015'
 date: 2015-03-04
 author: Wesley Lancel
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 8 april 2015 is Fronteers te gast bij [Kabisa](http://www.kabisa.nl) in Weert. Er worden twee presentaties gehouden.

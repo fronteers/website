@@ -3,7 +3,8 @@ title: 'Bijeenkomst van ISOC en W3C op 2 april in Amsterdam'
 date: 2015-03-29
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Komende donderdag, 2 april, organiseren ISOC.nl en W3C Benelux i.s.m. het CWI en Waag Society twee evenementen, het middagprogramma gaat over WebRTC (Web Real-Time Communications) en het avondprogramma over HTML5/Webapps. De toegang bedraagt 30 euro.

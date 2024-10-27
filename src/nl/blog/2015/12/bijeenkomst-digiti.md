@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 15 december bij Digiti'
 date: 2015-12-01
 author: Wesley Lancel
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 15 december 2015 is Fronteers te gast bij Digiti in Herentals. Er worden twee presentaties voorzien.

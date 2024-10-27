@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 1 november bij Netvlies'
 date: 2012-09-06
 author: Jayne Verbeek
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 1 november is Fronteers te gast bij Netvlies Internetdiensten in Breda. Dit keer is het geen bijeenkomst met 2 presentaties, maar een Pecha Kucha met 10 presentaties door je mede-developers of jezelf.

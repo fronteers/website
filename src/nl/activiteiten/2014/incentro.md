@@ -4,7 +4,8 @@ date: 2014-09-24
 eventdate: 2014-09-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 24 september 2014 is Fronteers te gast bij [Incentro](http://www.incentro.com/) in Amsterdam. Er worden drie presentaties gegeven.

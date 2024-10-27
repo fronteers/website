@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 13 december, in Groningen'
 date: 2010-11-16
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op maandag 13 december is Fronteers weer in het Noorden van het land, deze keer bij [iWink](http://iwink.nl) te Groningen. Peter Beverloo vertelt over Audio APIs en Simon Wisselink over front-end performance.

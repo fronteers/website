@@ -3,7 +3,8 @@ title: 'Nieuwjaarsreceptie ISOC'
 date: 2014-11-05
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 De datum voor nieuwjaarsborrel, georganiseerd door de overkoepelende organisatie voor internetinstanties, Internet Society Nederland, is bekend: donderdag 8 januari 2015 in de Tolhuistuin in Amsterdam. Je kunt je nu aanmelden. You’re Invited to the 2015 Internet New Year's Event In Amsterdam!

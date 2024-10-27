@@ -4,7 +4,8 @@ date: 2016-12-15
 eventdate: 2016-12-15
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 24 januari 2017 is Fronteers weer te gast bij [E-sites](https://www.e-sites.nl/) in Breda, voor een meetup met CSS als thema. We hebben twee Nederlandstalige talks, van _Iain van der Wiel_ en _Bram Smulders_. De bijeenkomst is gratis voor leden en niet-leden, en we zorgen voor iets lekkers te eten!

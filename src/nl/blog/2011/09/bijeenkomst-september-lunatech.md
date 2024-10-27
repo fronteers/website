@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 15 september, in Rotterdam'
 date: 2011-09-05
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 15 september is Fronteers te gast bij [Lunatech Research](http://www.lunatech-research.com/) in Rotterdam. Egor Kloos vertelt over enterprise front-end code, en Jeroen Wijering gaat ons een update geven van de huidige stand van zaken op het gebied van web video.

@@ -4,7 +4,8 @@ date: 2008-02-08
 eventdate: 2008-02-08
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op 8 februari 2008 was Fronteers [voor de tweede maal](/bijeenkomsten/2007/info-nl) te gast bij Info.nl, in Amsterdam. In totaal hadden 60 mensen zich aangemeld voor deze bijeenkomst. Door de beschikbare ruimte in de kantine van Info.nl, werd er na ongeveer 50 aanmeldingen een stop ingelast.

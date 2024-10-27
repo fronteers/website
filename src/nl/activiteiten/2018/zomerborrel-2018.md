@@ -4,7 +4,8 @@ date: 2018-08-24
 eventdate: 2018-08-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op vrijdag 24 augustus houdt Fronteers voor leden en niet-leden een zomerborrel in Utrecht!

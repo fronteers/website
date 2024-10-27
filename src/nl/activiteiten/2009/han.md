@@ -4,7 +4,8 @@ date: 2009-07-07
 eventdate: 2009-07-07
 location: 
 categories: 
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 Voor de tweede keer waren we te gast bij de Hogeschool van Arnhem en Nijmegen. Deze keer stond de bijeenkomst in het teken van toegankelijkheid.
 

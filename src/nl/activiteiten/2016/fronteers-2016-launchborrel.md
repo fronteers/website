@@ -4,7 +4,8 @@ date: 2016-05-27
 eventdate: 2016-05-27
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 De kaartverkoop voor Fronteers Conference 2016 start vrijdag 27 mei om 20:00 uur. Om dit te vieren, organiseert Fronteers die avond vanaf 19:00 uur een speciale launchborrel bij Café De Jaren in Amsterdam - en jij bent uitgenodigd. [Meer informatie over deze bijeenkomst](https://fronteers.nl/congres/2016/news/fronteers16-is-coming)

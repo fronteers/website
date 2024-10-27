@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 10 april bij Inventis'
 date: 2012-04-02
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 10 april 2012 is Fronteers te gast bij Inventis in Houthalen (Limburg). Er worden twee presentaties voorzien. Eerst komt Danny Calders praten over typografie en responsive web design; vervolgens zal Jurgen Dedeckere wat vertellen over hoe opleidingen in staat moeten zijn om de fronteers van de toekomst te creëren.

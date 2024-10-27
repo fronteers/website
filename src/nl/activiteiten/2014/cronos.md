@@ -4,7 +4,8 @@ date: 2014-06-19
 eventdate: 2014-06-19
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 19 juni 2014 is Fronteers te gast bij Cronos in Kontich. Er worden twee presentaties voorzien.

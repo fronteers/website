@@ -4,7 +4,8 @@ date: 2011-03-31
 eventdate: 2011-03-31
 location:
 categories:
-  - meetup
+    - bijeenkomsten
+    - België
 ---
 
 Na een [succesvolle avond bij Netlog](/bijeenkomsten/2010/netlog) is het tijd voor een nieuwe Belgische Fronteers-bijeenkomst.

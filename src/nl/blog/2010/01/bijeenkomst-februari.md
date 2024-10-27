@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 4 februari, in Den Haag'
 date: 2010-01-22
 author: Jules Ernst
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 4 februari 2010 zal de Fronteers bijeenkomst plaatsvinden bij [Stichting ICTU](http://www.ictu.nl/) te Den Haag. Deze bijeenkomst zal iets vroeger starten dan normaal in verband met de tijdige sluiting van het gebouw. We starten dan ook met een buffet zodat je niet met een lege maag de presentaties hoeft bij te wonen.**Update: [verslag en video's van deze avond](/bijeenkomsten/2010/stichting-ictu) staan online.**

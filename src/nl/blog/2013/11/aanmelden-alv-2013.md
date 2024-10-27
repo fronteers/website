@@ -3,7 +3,8 @@ title: 'Meld je nu aan voor de Algemene Ledenvergadering 2013'
 date: 2013-11-07
 author: Sander van Lambalgen
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
     - Leden
     - Vereniging
 ---

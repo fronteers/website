@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 5 mei in Gent'
 date: 2011-04-22
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 5 mei 2011 is Fronteers te gast bij Netlash in Gent. Er worden twee presentaties voorzien. Eerst komt [Yoni De Beule](http://www.yonidebeule.be/) praten over OOCSS; vervolgens zal [Vasilis van Gemert](http://vasilis.nl/) wat vertellen over adaptieve layouts.

@@ -4,7 +4,8 @@ date: 2017-06-01
 eventdate: 2017-06-01
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 We did it! Op 22 juni 2017 zal het 555 dagen geleden zijn sinds de laatste Fronteers meetup in België. Hiermee verbreken we het record van 541 dagen zonder Belgische regering na de verkiezingen van 13 juni 2010.

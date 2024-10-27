@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij Blendle op 25 november 2014'
 date: 2014-10-30
 author: Wesley Lancel
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op dinsdag 25 november 2014 is Fronteers te gast bij [Blendle](http://www.blendle.nl) in Utrecht. Er worden twee presentaties gehouden.

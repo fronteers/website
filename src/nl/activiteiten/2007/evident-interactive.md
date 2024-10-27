@@ -4,7 +4,8 @@ date: 2007-10-25
 eventdate: 2007-10-25
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 [Voor deze bijeenkomst is nog geen verslag geschreven. Vrijwilligers welkom!]

@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij WHITE op 30 augustus 2012'
 date: 2012-07-30
 author: Arjan Eising & Edwin Martin
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 30 augustus 2012 is Fronteers te gast bij WHITE in Valkenswaard. Er zijn twee presentaties voorzien.

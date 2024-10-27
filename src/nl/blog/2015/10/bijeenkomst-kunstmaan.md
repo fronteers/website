@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 19 november bij Kunstmaan'
 date: 2015-10-28
 author: Wesley Lancel
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 19 november 2015 is Fronteers te gast bij Kunstmaan in Leuven. Er worden drie presentaties voorzien.

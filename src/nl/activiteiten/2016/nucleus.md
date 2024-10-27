@@ -4,7 +4,8 @@ date: 2016-02-25
 eventdate: 2016-02-25
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 25 februari is Fronteers te gast bij [Nucleus](http://nucleus.be/) in Antwerpen. Er worden twee presentaties voorzien.

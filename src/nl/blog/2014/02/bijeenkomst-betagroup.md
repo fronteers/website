@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 13 maart bij BetaGroup Kortrijk'
 date: 2014-02-27
 author: Stijn Janssen
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 13 maart 2014 is Fronteers te gast bij BetaGroup/Parkoffice te Kortrijk. Er worden twee presentaties voorzien.

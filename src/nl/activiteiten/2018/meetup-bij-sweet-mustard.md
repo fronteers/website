@@ -4,7 +4,8 @@ date: 2018-05-17
 eventdate: 2018-05-17
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op _donderdag 17 mei 2018 _ zijn we er terug met een nieuwe meetup. We zullen te gast zijn bij de sympathieke mensen van _Sweet Mustard_ in _Kortrijk_. De bijeenkomst is gratis voor leden en niet-leden, en Sweet Mustard zorgt voor iets lekkers te eten en te drinken! _The talks will be given in English_.

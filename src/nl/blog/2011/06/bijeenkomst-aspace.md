@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 23 juni in Antwerpen'
 date: 2011-06-07
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 23 juni 2011 is Fronteers te gast bij ASPACE in Antwerpen. We voorzien twee presentaties. Eerst doet [Roel Van Gils](http://catchup.be/) een boekje open over keyboard accessibility. Vervolgens zal [Mathias Bynens](http://mathiasbynens.be/) je een stuk wijzer maken over JavaScript performance.

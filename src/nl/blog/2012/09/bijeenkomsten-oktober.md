@@ -3,7 +3,8 @@ title: 'Bijeenkomsten op 17 en 24 oktober'
 date: 2012-09-28
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Naast het congres staan er in oktober ook twee bijeenkomsten ingepland. De eerste is op woensdag 17 oktober bij [Competa](http://competa.com) in Rijswijk. Een week later, op woensdag 24 oktober, doen we Hilversum aan bij [Lajos](http://lajos.nl).

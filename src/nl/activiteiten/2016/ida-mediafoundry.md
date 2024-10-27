@@ -4,7 +4,8 @@ date: 2016-03-24
 eventdate: 2016-03-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 24 maart is Fronteers te gast bij [iDA Mediafoundry](http://www.ida-mediafoundry.be/) in Mechelen. Er worden twee presentaties voorzien.

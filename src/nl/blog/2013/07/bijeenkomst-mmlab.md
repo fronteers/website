@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 11 juli bij MMLab'
 date: 2013-07-01
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - België
 ---
 
 Op donderdag 11 juli 2013 is Fronteers te gast bij [Multimedia Lab (iMinds / Universiteit Gent)](http://multimedialab.elis.ugent.be/about) in Gent. Er worden twee presentaties voorzien.

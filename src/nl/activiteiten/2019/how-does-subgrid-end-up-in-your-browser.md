@@ -4,7 +4,8 @@ date: 2019-06-14
 eventdate: 2019-06-14
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 W3C Meetup at Compagnietheater

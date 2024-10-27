@@ -4,7 +4,8 @@ date: 2015-03-12
 eventdate: 2015-03-12
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 12 maart 2015 is Fronteers te gast bij [Digiti](http://digiti.be/) in Zoersel. Er worden twee presentaties voorzien.

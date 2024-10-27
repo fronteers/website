@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 24 april bij Nucleus'
 date: 2014-04-04
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 24 april 2014 is Fronteers te gast bij Nucleus in Antwerpen. Er worden twee presentaties voorzien.

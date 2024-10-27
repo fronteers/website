@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 10 februari, in Leeuwarden'
 date: 2011-01-10
 author: Hidde de Vries
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op 10 februari organiseert Fronteers in samenwerking met Lable een bijeenkomst over mobiele toepassingen van het web, met Jurriaan Mous over de webapplicatie voor de zorg die Lable met behulp van Google Web Toolkit ontwikkelt en Jacco de Boer, over ontwerpuitdagingen bij een mobiele nieuwsapplicatie.

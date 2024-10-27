@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 13 februari bij TriFork'
 date: 2014-01-04
 author: Mike Vierwind
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 13 februari 2014 is Fronteers te gast bij [TriFork](http://www.trifork.nl/) in Amsterdam. Er worden twee presentaties gegeven.

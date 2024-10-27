@@ -4,7 +4,8 @@ date: 2012-03-06
 eventdate: 2012-03-06
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Na een [succesvolle avond bij Pure Sign](/bijeenkomsten/2012/pure-sign) is het tijd voor een nieuwe Belgische Fronteers-bijeenkomst.

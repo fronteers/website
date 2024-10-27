@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij Netvlies op 10 december 2015'
 date: 2015-11-11
 author: Meta Kruijs
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 10 december 2015 is Fronteers te gast bij Netvlies in Breda. Er staan drie sprekers op het programma.

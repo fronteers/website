@@ -4,7 +4,8 @@ date: 2015-11-12
 eventdate: 2015-11-12
 location:
 categories:
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op donderdag 12 november 2015 is Fronteers te gast bij [The Creativity Gym](http://www.thecreativitygym.be/) in Mechelen. Er wordt één presentatie voorzien.

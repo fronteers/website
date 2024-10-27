@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 6 mei, in Amsterdam'
 date: 2011-04-19
 author: Arjan Eising
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op vrijdag 6 mei is Fronteers te gast bij [Eduhub](http://eduhub.nl) te Amsterdam. Er zullen vier mensen een praatje houden van 15 minuten waarna er 15 minuten gediscussieerd kan worden.

@@ -3,7 +3,8 @@ title: 'Kom naar de Algemene Ledenvergadering'
 date: 2012-10-30
 author: Tom Greuter
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
     - Vereniging
 ---
 

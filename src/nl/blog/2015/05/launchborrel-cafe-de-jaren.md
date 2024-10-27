@@ -3,7 +3,8 @@ title: 'Fronteers 2015 launchborrel + livegang kaartverkoop op 29 mei'
 date: 2015-05-18
 author: Anneke Sinnema
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
     - Congres
 ---
 

@@ -4,7 +4,8 @@ date: 2013-04-25
 eventdate: 2013-04-25
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 25 april 2013 is Fronteers te gast bij de opleiding [Professionele Bachelor ICT](http://www.ikdoeict.be/) (KaHo St-Lieven) te Gent. Er worden twee presentaties voorzien. Bram(us) Van Damme zal het hebben over hoe kaartprojecties, coördinatensystemen, en geografische data binnen een front-end geïmplementeerd kunnen worden; Bart De Clercq van AnySurfer geeft een presentatie over _accessibility_ voor front-end-ontwikkelaars.

@@ -3,7 +3,8 @@ title: "Fronteers in Desmet Studio's #a11y"
 date: 2016-11-11
 author: Hidde de Vries
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Afgelopen dinsdag organiseerde Fronteers voor het eerst een bijeenkomst die niet bij een bedrijf, maar op een ‘eigen’ locatie plaatsvond. Het was gezellig druk in Desmet Studio's in Amsterdam, met zo'n 60 enthousiaste front-end ontwikkelaars.

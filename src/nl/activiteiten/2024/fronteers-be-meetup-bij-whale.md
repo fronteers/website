@@ -5,7 +5,8 @@ eventdate: 2024-03-07
 author: Claudia Reynders
 summary: "Op donderdag 7 maart 2024 zijn we te gast bij Whale te Gent voor de eerste bijeenkomst van het jaar. Wat je mag verwachten: een avond met 2 gast sprekers en de kans om mede fronteers te ontmoeten." 
 categories: 
-  - Bijeenkomsten
+    - Bijeenkomsten 
+    - België
 location: Gent
 ---
 

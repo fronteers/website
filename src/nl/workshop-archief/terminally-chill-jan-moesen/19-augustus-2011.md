@@ -5,6 +5,7 @@ eventdate: 2011-09-19
 location: Hogeschool Gent, Gent, België
 categories:
     - Workshop
+    - België
 teacher: Jan Moesen
 ---
 

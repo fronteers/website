@@ -1,0 +1,6 @@
+{
+  "layout": "home-belgie.liquid",
+  "permalink": "/{{ locale }}/{{ page.fileSlug }}/",
+  "tags": "pages",
+  "key": "belgie"
+}

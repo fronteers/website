@@ -3,7 +3,8 @@ title: 'Bijeenkomst bij internetbureau WHITE op 29 oktober'
 date: 2014-10-01
 author: Wesley Lancel
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - Nederland
 ---
 
 Op woensdag 29 oktober 2014 is Fronteers te gast bij [internetbureau WHITE](http://www.white.nl) in Valkenswaard. Er worden twee presentaties gehouden.

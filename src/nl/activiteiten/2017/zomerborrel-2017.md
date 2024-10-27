@@ -4,7 +4,8 @@ date: 2017-08-01
 eventdate: 2017-08-01
 location: 
 categories: 
-    - meetup
+    - bijeenkomsten
+    - Nederland
 ---
 Op *vrijdag 25 augustus* houdt Fronteers voor leden en niet-leden een gezellig diner bij [Bucks BBQ](http://bucksbbqhouse.nl/) in Utrecht! De perfecte gelegenheid om bij te praten en vakantieverhalen te delen met mede-frontend ontwikkelaars, onder het genot van lekker eten en drinken.
 

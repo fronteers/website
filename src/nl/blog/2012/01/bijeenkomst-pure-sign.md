@@ -3,7 +3,8 @@ title: 'Bijeenkomst op 19 januari in Gent'
 date: 2012-01-05
 author: Mathias Bynens
 categories:
-    - Bijeenkomsten
+    - bijeenkomsten
+    - België
 ---
 
 Op donderdag 19 januari 2012 is Fronteers te gast bij Pure Sign in Gent. Er worden twee presentaties voorzien. Eerst komt Arjan Eising praten over CSS Selectors Level 4; vervolgens zullen Jelle Desramaults en Jochen Vandendriessche wat vertellen over de design & front-end-workflow die ze hanteren, en hoe ze daarbij Serve, Haml, en Sass/Compass gebruiken.

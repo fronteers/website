@@ -4,7 +4,8 @@ date: 2015-11-19
 eventdate: 2015-11-19
 location:
 categories:
-    - meetup
+    - bijeenkomsten 
+    - België
 ---
 
 Op donderdag 19 november 2015 is Fronteers te gast bij [Kunstmaan](http://kunstmaan.be/) in Leuven. Er worden drie presentaties voorzien.
