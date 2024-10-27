@@ -120,6 +120,16 @@ a[aria-current='page'] {
     transform: scaleY(-1);
 }
 
+@media all and (max-width: 60.124em) {
+    .page-navigation--footer a {
+        padding: var(--spacing);
+    }
+
+    .page-navigation--footer {
+        padding-bottom: calc(2 * var(--spacing-double));
+    }
+}
+
 @media all and (min-width: 60.125em) {
     .page-navigation {
         font-size: var(--font-size-20);
