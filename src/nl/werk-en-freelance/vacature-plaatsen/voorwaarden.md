@@ -1,6 +1,7 @@
 ---
 title: Vacature plaatsen
 excludeFromCollection: true
+key: terms-and-conditions-jobs
 heroSlogan: ""
 ---
 
