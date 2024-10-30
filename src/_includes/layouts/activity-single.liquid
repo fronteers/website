@@ -1,13 +1,79 @@
-{%- include partials/utility/html-head -%}
+{%- assign today = "now" | date: "%Y%m%d" | plus: 0 -%}
+{%- assign eventDate = eventdate | date: "%Y%m%d" | plus: 0 -%}
+{% if today <= eventDate %}
+    {%- assign eventHasHappened = false -%}
+{% else %}
+    {%- assign eventHasHappened = true -%}
+{% endif %}
+    
+    {%- include partials/utility/html-head -%}
 <body data-layout="activity-single">
     {%- include partials/page-header/_page-header -%}
 
     <main id="main" class="inner-wrapper {% if useHero %}styledheader{% endif %}">
         <div class="page-content">
             {% unless useHero %}
-            <h2>{{ title }}</h2>
-        {% endunless %}
+                <h2>{{ translations[locale].activitySingular }}: {{ title }}</h2>
+            
+                {% if eventdate %}
+                <p class="activity-date">
+                    {%- if locale == "nl" -%}
+                        {%- include svg/icon_calendar.svg -%} <span class="visually-hidden">{{ translations[locale].location }}</span> <time class="activity-time" datetime="{{ eventdate | date: "%Y-%m-%d" }}">
+                            {{ eventdate  | localizedDate: 'nl' }}
+                        </time>
+                    {%- elsif locale == "en" -%}
+                        {%- include svg/icon_calendar.svg -%} <span class="visually-hidden">{{ translations[locale].location }}</span> <time class="activity-time" datetime="{{ eventdate | date: "%Y-%m-%d" }}">
+                            {{ eventdate  | displayDate: locale | date: "%B %e %Y" }}
+                        </time>
+                    {%- endif -%}
+                </p>
+                {% endif %}
+            {% endunless %}
+
+            {%- if location and location != "" -%}
+                <p class="activity-location">{%- include svg/icon_location.svg -%}
+                    <span class="visually-hidden">{{ translations[locale].location }}</span>
+                    {{ location }}
+                </p>
+            {%- else -%}
+                {%- if not eventHasHappened -%}
+                    <p class="activity-location">{%- include svg/icon_location.svg -%}
+                        <span class="visually-hidden">{{ translations[locale].location }}</span>
+                        {{ translations[locale].locationUnknown }}
+                    </p>
+                {%- endif -%}
+            {%- endif -%}
+
+            <hr />
+
             {{ content }}
+                
+            <div class="activity-footer">
+                {%- for tag in categories -%}
+                    <a href="{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
+                {%- endfor -%}
+
+                {%- if eventHasHappened -%}
+                    {%- assign anchorlbl = translations[locale].signUpClosed -%}
+                {%- else -%}
+                    {%- assign anchorlbl = translations[locale].signUp -%}
+                {%- endif -%}
+                
+                {%- if not eventHasHappened -%}
+                    {%- if signUpLink.url and signUpLink.url != "" -%}
+                        <a
+                            href="{{ signUpLink.url }}"
+                            class="button">{{ anchorlbl }}<span class="visually-hidden"> {{ translations[locale].for }} {{ title }}</span>
+                        </a>
+                    {%- elsif signUpLink.mail and signUpLink.mail != "" -%}
+                        <a
+                            href="mailto:{{ signUpLink.mail }}"
+                            class="button">{{ anchorlbl }}<span class="visually-hidden"> {{ translations[locale].for }} {{ title }}</span>
+                        </a>
+                    {%- endif -%}
+                {%- endif -%}
+
+            </div>
         </div>
     </main>
 

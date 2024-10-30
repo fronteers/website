@@ -2,7 +2,6 @@
 title: "Fronteers zomerborrel 2017"
 date: 2017-08-01
 eventdate: 2017-08-01
-location: 
 categories: 
     - meetup
 ---

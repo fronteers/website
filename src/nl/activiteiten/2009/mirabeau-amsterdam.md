@@ -2,7 +2,6 @@
 title: "Bijeenkomst bij Mirabeau op 3 november 2009"
 date: 2009-11-03
 eventdate: 2009-11-03
-location: 
 categories: 
     - meetup
 ---
