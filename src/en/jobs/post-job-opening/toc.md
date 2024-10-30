@@ -1,6 +1,6 @@
 ---
 title: Job board terms and conditions
-key: terms-and-conditions
+key: terms-and-conditions-jobs
 excludeFromCollection: true
 ---
 
