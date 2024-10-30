@@ -1,5 +1,10 @@
 ---
-title: W3C Advisory Board meetup
+title: W3C Advisory Board meetup 
+date: 2019-05-01
+eventdate: 2019-06-18
+location: Amsterdam
+categories: 
+  - bijeenkomsten 
 ---
 
 On the 18th of June the W3C Advisory Board is in Amsterdam for a meeting. They would like to take the opportunity to meet with the local community of front-end enthusiasts!
