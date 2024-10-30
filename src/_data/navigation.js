@@ -96,17 +96,17 @@ module.exports = {
             title: "Vacature plaatsen",
           },
           {
-            url: "/nl/werk-en-freelance/voorwaarden/",
+            url: "/nl/werk-en-freelance/vacature-plaatsen/voorwaarden",
             title: "Vacaturebank voorwaarden",
           },
           //   {
           //     title: "Freelancers",
           //     url: "/nl/freelancers",
           //   },
-            {
-              title: "Mentors",
-              url: "/nl/mentors",
-            },
+          {
+            title: "Mentors",
+            url: "/nl/mentors",
+          },
         ],
       },
       {
@@ -310,7 +310,7 @@ module.exports = {
       {
         url: "/nl/informatie/colofon/",
         title: "Colofon",
-      }, 
+      },
     ],
     en: [
       {
