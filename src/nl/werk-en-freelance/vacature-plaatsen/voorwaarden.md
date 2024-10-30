@@ -1,5 +1,5 @@
 ---
-title: Vacature plaatsen
+title: Vacaturebank voorwaarden
 excludeFromCollection: true
 key: terms-and-conditions-jobs
 heroSlogan: ""
