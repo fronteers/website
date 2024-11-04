@@ -39,6 +39,6 @@ Whale is the fastest way to get your team aligned. Document and centralize your 
 Foresteelaan 1
 9000 Ghent
 
-## Inschrijven
+## RSVP
 
 [Join our meetup](https://www.meetup.com/fronteers-be/events/298503043/) at Whale on Thursday 7 March 2024.
