@@ -9,7 +9,7 @@ This website is created by volunteers from Fronteers.
 - [Annemiek Nieboer](https://github.com/AnnemiekNieboer)
 - [Bram Smulders](https://github.com/bramsmulders)
 - [Christian Schaeffer](https://github.com/Schepp)
-- [Claudia R](https://github.com/Mangamaui)
+- [Claudia R](https://github.com/claudia-rndrs)
 - [Derk-Jan Karrenbeld](https://github.com/SleeplessByte)
 - [Edwin Martin](https://github.com/edwinm)
 - [Hans Kuijpers](https://github.com/hans2103)
