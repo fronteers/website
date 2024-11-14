@@ -1,7 +1,7 @@
 ---
 title: 'How does Subgrid end up in your browser'
 date: 2019-06-14
-eventdate: 2025-06-14
+eventdate: 2019-06-14
 location:
 categories:
     - bijeenkomsten
