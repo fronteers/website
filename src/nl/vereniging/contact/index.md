@@ -13,6 +13,6 @@ title: Contact
 
 De Fronteers-community is online het beste te vinden op Slack. [Meld je meteen aan](https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog) en kom gezellig meepraten over alles wat met front-end development te maken heeft, of lees de [blogpost](/nl/blog/2016/02/fronteers-op-slack.html) met wat meer informatie.
 
-We zijn ook te vinden op [Mastodon](https://front-end.social/@fronteers), [BlueSky](https://bsky.app/profile/fronteers.bsky.social) en [LinkedIn](https://www.linkedin.com/company/fronteers).
+We zijn ook te vinden op [Mastodon](https://front-end.social/@fronteers), [Bluesky](https://bsky.app/profile/fronteers.bsky.social) en [LinkedIn](https://www.linkedin.com/company/fronteers).
 
 Je kunt natuurlijk ook via [e-mail](mailto:bestuur@fronteers.nl) contact met het bestuur opnemen.
