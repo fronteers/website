@@ -1,5 +1,6 @@
 ---
 title: 'Workshop: TypeScript voor Beginners'
+image: /_img/workshops/workshop-typescript-voor-beginners-maarten-hus.png
 date: 2024-10-30
 eventdate: 2024-12-13
 author: Christian Schaefer
