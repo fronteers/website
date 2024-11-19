@@ -1,5 +1,6 @@
 ---
 title: 'Workshop on June Friday 21st in Utrecht: Custom Form Controls with Web Components by Peter Kröner'
+image: https://fronteers.nl/_img/workshops/workshop-custom-form-controls-with-web-components-peter-kroener.png
 date: 2024-06-21
 eventdate: 2024-06-21
 location: Online

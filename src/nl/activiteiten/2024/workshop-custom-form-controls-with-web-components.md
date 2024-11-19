@@ -1,5 +1,6 @@
 ---
 title: 'Workshop: Custom Form Controls with Web Components'
+image: https://fronteers.nl/_img/workshops/workshop-custom-form-controls-with-web-components-peter-kroener.png
 date: 2024-06-03
 eventdate: 2024-06-21
 author: Christian Schaefer
