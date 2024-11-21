@@ -1,5 +1,6 @@
 ---
 title: Fronteers BE meetup bij In The Pocket in Gent
+image: /_img/bijeenkomsten/2024/fronteers-ghent-10122024.png
 date: 2024-11-04
 eventdate: 2024-12-10
 author: Claudia Reynders
@@ -7,6 +8,7 @@ summary: "Op donderdag 10 maart 2024 zijn we te gast bij ITP te Gent voor onze l
 categories: 
   - Bijeenkomsten
 location: Gent
+key: fronteers-itp-ghent-2024
 ---
 
 Voor de laatste meetup van 2024 verzamelen we in het Gentse kantoor van In The Pocket, waar drankjes en pizza op je wachten, evenals een avond programma waarbij 2 interessante onderwerpen aan bod zullen komen.

@@ -1,5 +1,6 @@
 ---
 title: Fronteers BE meetup at In The Pocket Ghent
+image: /_img/bijeenkomsten/2024/fronteers-ghent-10122024.png
 date: 2024-11-04
 eventdate: 2024-12-10
 author: Claudia Reynders
@@ -7,6 +8,7 @@ summary: "On Tuesday 10 December 2024 we're gathering at ITP in Ghent for our la
 categories: 
   - meetup
 location: Ghent
+key: fronteers-itp-ghent-2024
 ---
 
 For the last meetup of 2024 we're gathering at the Ghent office of In The Pocket where drinks and pizza will be waiting for you as well as a an evening program with 2 interesting topics lined up for you.
