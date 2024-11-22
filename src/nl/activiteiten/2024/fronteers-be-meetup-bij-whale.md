@@ -17,20 +17,29 @@ Deze bijeenkomst is gratis voor leden en niet-leden, en onze host Whale voorziet
 ## Programma
 
 - ​18h00  Deuren openen, start vh vrij netwerken en pizza!
-- 19h00  Introduction by Fronteers BE
-- 19h20  Talk #1: TBA
+- 19h00  Introductie van Fronteers & Whale
+- 19h20  Talk #1: Optimizing the itsme® icon setup: using SVGO and SVG sprites - Milan Bauwens
 - 20h00  ----- Pauze -----
-- 20h20  Talk #2: TBA
+- 20h20  Talk #2: A Safari Through Code: Exploring Panda CSS - Sybren Willemot
 - 21h00  Drankjes en vrij netwerken tot het einde van de avond
 
 ## Wie is Whale?
 
 Whale is een SaaS start-up die bedrijven helpt al hun processen, procedures en kennis op één plek te centraliseren, zodat ze medewerkers sneller kunnen onboarden en opleiden.
 
-## Talk 1: TBA
+## Talk 1: Optimizing the itsme® icon setup: using SVGO and SVG sprites
+Together with Fronteers host, Thomas Verleye, we optimized the itsme® icon setup. In order to enhance performance, we decided to replace SVGR with more performant technologies such as SVGO and SVG sprites. In this presentation, we’ll discuss the positive impacts and side effects of this migration.
 
+### Over Milan
+Milan Bauwens is een Junior Frontend developer bij Craftzing. Hij beschrijft zichzelf als een nieuwkomer in de Frontend-wereld, maar onderschat zijn enthousiasme niet voor het digitale. Hij houdt ervan om te experimenteren met nieuwe tools en technologieën waar hij op kantoor over hoort.
 
-## Talk 2: TBA
+## Talk 2: A Safari Through Code: Exploring Panda CSS by Sybren Willemot
+Join us for a safari where we delve into Panda CSS, a library from the Chakra UI-verse. This interactive session features a special co-host experimenting with Panda's tools to craft an engaging UI, with the audience's participation in choosing the project. We'll explore basic to advanced aspects of Panda CSS for efficient UI construction.
+
+Our goal is to make this a fun, informative experience, encouraging attendees to experiment with these Panda CSS in various frameworks, including Astro, Vue, React, or Solid.
+
+### Over Sybren
+Sybren is al een paar jaar front-end developer en werkt bij Euricom in België. Hij maakt deel uit van het geweldige Chakra-verse core team, dat zich richt op de Vue-kant in bijvoorbeeld Ark UI en Chakra UI Vue. Daarnaast vind je Sybren ook terug bij het team achter de BEL Vue meetups en zo is hij ook vaak gastspreker. In zijn vrije tijd reist hij graag met zijn gezin, bezoekt hij mooie plaatsen en ontmoet hij geweldige mensen.
 
 
 ## Locatie

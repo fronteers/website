@@ -14,7 +14,7 @@ We hope you are all wellrested and ready for a new Fronteers BE meetup! On Thurs
 ## Evening Program
 
 - 18h00  Doors open, networking and pizza!
-- 19h00  Introduction by Fronteers BE
+- 19h00  Introduction by Fronteers & iO
 - 19h20  Talk: Going Full-stack with Astro by Elian Van Cutsem
 - 20h00  ----- Break -----
 - 20h20  Discussion: Ethical Responsibility as a Software Developer, facilitated by Emma Dendooven

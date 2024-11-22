@@ -6,7 +6,7 @@ eventdate: 2024-12-13
 location: Online
 categories:
     - Workshop
-teacher:
+teacher: Maarten Hus
 ---
 
 ![Workshop TypeScript voor Beginners, 13 december 2024 by Maarten Hus](/_img/workshops/workshop-typescript-voor-beginners-maarten-hus.png)
