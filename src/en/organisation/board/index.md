@@ -10,6 +10,7 @@ heroSlogan: ''
 | Co-Secretary | Christian Schaefer |
 | Co-Secretary | Jewwy Qadri        |
 | Treasurer    | Wim van Iersel     |
+| General      | Anneke Sinnema     |
 
 The [minutes of the board meetings (in Dutch)](/en/association/board/minutes) are accessible to everyone.
 
