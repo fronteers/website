@@ -10,11 +10,11 @@ Fronteers heeft een eigen Slack kanaal waar we front-enders samen willen brengen
 
 Leden en niet-leden kunnen meer lezen en zich aanmelden op: [Fronteers op Slack](/nl/blog/2016/02/fronteers-op-slack).
 
-## Mastodon
+## Mastodon & Bluesky
 
-Op Mastodon worden interessante front-end gerelateerde berichten gedeeld, net als Fronteers nieuws zoals bijeenkomsten, vacatures, en interessante blogposts. Fronteers volgen op Mastodon kan hier: [https://front-end.social/@fronteers](https://front-end.social/@fronteers).
+Op Mastodon en Bluesky worden interessante front-end gerelateerde berichten gedeeld, net als Fronteers nieuws zoals bijeenkomsten, vacatures, en interessante blogposts. Fronteers volgen op Mastodon kan hier: [https://front-end.social/@fronteers](https://front-end.social/@fronteers). En op Bluesky kan je ons hier volgen: [fronteers.bsky.social](https://bsky.app/profile/fronteers.bsky.social)
 
-Op [https://front-end.social/@Fronteersconference](https://front-end.social/@Fronteersconference) staat het nieuws over het Fronteers congres.
+Ben je op zoek naar nieuws over het Fronteers Congres? Dat kan je hier terugvinden: [https://front-end.social/@Fronteersconference](https://front-end.social/@Fronteersconference).
 
 ## Linkedin
 
