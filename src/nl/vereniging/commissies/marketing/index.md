@@ -9,11 +9,8 @@ Deze commissie is sinds begin 2018 gefuseerd met de [commissie Online Community]
 
 ## Leden
 
--   Charis Rooda
--   Koen Kivits
--   Michael Hastrich
 -   Josee Wouters
--   Tom Hartwig
--   Derk Braakman
-
-FORM
+-   Michael Hastrich
+-   Rosita Rampertaap
+-   Tineke Timmerman
+-   Anneke Sinnema
