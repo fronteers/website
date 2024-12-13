@@ -108,6 +108,7 @@ module.exports = function (eleventyConfig) {
     "_img/": "_img",
     "_redirects.conf": "_redirects",
   });
+  eleventyConfig.addPassthroughCopy("src/{nl,en}/**/*.{pdf,zip}");
 
   glob.sync("src/{_components,_includes}/**/*.css").forEach((file) => {
     const input = String(file).split("/").slice(0, -1).join("/");
