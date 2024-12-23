@@ -5,7 +5,7 @@ author: Kilian Valkhof
 summary: "The accessible name of an element is how the browser passes an element to assistive technologies like screen readers or braille displays, and forms the way someone who cannot (fully) see a site consumes the content."
 categories:
     - Advent Calendar
-key: advent-2024-kilian-en
+key: advent-2024-kilian
 ---
 
 ## The role of elements
