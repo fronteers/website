@@ -6,6 +6,7 @@
 @import "./common/layout.css";
 @import "./common/skiplink.css";
 @import "./common/forms.css";
+@import "./common/code.css";
 
 @import "./elements/button.css";
 @import "./elements/page-navigation.css";
