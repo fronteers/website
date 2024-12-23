@@ -20,11 +20,11 @@ Niet alles wat je op een site wilt bouwen kan je echter bouwen met HTML, soms mo
 
 Denk vooral niet dat aan het einde van dit artikel je de taak staat te wachten om al je elementen van een expliciete toegankelijke rol en naam te voorzien: schrijf goede HTML en je komt al een heel eind. 
 
-# toegankelijke namen
+# Toegankelijke namen
 
 In de meest simpele vorm is dat de tekst in een element. Neem bijvoorbeeld deze button:
 
-```
+```html
 <button>
   Toevoegen
 </button>
@@ -32,7 +32,7 @@ In de meest simpele vorm is dat de tekst in een element. Neem bijvoorbeeld deze 
 
 De toegankelijke naam van deze button is "Toevoegen". So far so good. Maar misschien wil ik er wel een icoontje aan toevoegen:
 
-```
+```html
 <button>
   Toevoegen <img src="hippe-winkelwagen.gif" alt="icoontje van een winkelwagen" />
 </button>
@@ -40,7 +40,7 @@ De toegankelijke naam van deze button is "Toevoegen". So far so good. Maar missc
 
 Een oplettende lezer ziet dat deze afbeelding netjes een alt attribuut heeft dat de afbeelding beschrijft. De inhoud van dat alt attribuut telt echter ook mee voor de toegankelijke naam van de button. De toegankelijke naam van deze button is dus "Toevoegen icoontje van een winkelwagen". En dat is niet zo handig. Omdat we in de button al de tekst "Toevoegen" hebben, is het icoontje  alleen ter decoratie. Een betere oplossing is dus een leeg alt attribuut:
 
-```
+```html
 <button>
   Toevoegen <img src="hippe-winkelwagen.gif" alt="" />
 </button>
@@ -49,7 +49,7 @@ De toegankelijke naam is nu weer "Toevoegen", joepie!
 
 Tijd voor een stapje verder: De button heeft nu geen zichtbare tekst meer, maar enkel het icoontje. De toegankelijke naam is nu een lege string, en dat is niet handig. We kunnen de inhoud van het element dus niet meer gebruiken voor de toegankelijke naam. We kunnen dit nu op een aantal manieren oplossen. We beginnen met een aria attribuut wat hier speciaal voor bedoeld is: `aria-label`. 
 
-```
+```html
 <button aria-label="Toevoegen">
   <img src="hippe-winkelwagen.gif" alt="" />
 </button>
@@ -59,7 +59,7 @@ Wanneer een element een `aria-label` attribuut heeft wordt de inhoud van het ele
 
 Stel dat we een spoedticket binnen krijgen om naast de Toevoegen knop ook een "Verwijder" knop te maken. We kopiëren snel de code van de Toevoegen knop, hangen er een andere event handler aan en passen het icoontje aan naar een prullenbak. 
 
-```
+```html
 <button aria-label="Toevoegen">
   <img src="prullenbak.gif" alt="" />
 </button>
@@ -71,7 +71,7 @@ We verversen de browser en het icoontje ziet er top uit en werkt ook als je er o
 
 Daarom proberen we een andere oplossing, screenreader-only tekst:
 
-```
+```html
 <button>
   <span class="sr-only">Toevoegen</span>
   <img src="hippe-winkelwagen.gif" alt="" />
@@ -105,7 +105,7 @@ De toegankelijke naam van bovenstaande buttons wordt dus bepaald in deze volgord
 
 Dit is echter een extreem versimpelde volgorde. Om ook de rest van het 'toegankelijke naam'-algoritme te begrijpen gaan we ons voorbeeld wat complexer maken. We hebben nu twee knoppen, die ieder iets anders toevoegen:
 
-```
+```html
 <h3>Fronteers hoodie</h3>
 <p>Lekker warm</p>
 <button>
@@ -121,7 +121,7 @@ Dit is echter een extreem versimpelde volgorde. Om ook de rest van het 'toeganke
 
 De toegankelijke naam van deze buttons is nu "Toevoegen". Maar dat is niet handig, want de ene button voegt een hoodie toe en de andere een pet. Als je kunt zien waar de buttons staat is dat duidelijk, maar anders heb je een probleem. Wat we hier willen is dat we de knop expliciet aan het bijbehorende product kunnen linken. Dat kan met een `aria-labelledby` attribuut:
 
-``` 
+``` html
 <h3 id="hoodie">Fronteers hoodie</h3>
 <p>Lekker warm</p>
 <button aria-labelledby="hoodie">
@@ -138,7 +138,7 @@ Met `aria-labelledby` kunnen we een ID opgeven van een ander element, en de toeg
 
 `aria-labelledby` lost dit op doordat je er niet slechts één ID aan kan geven, maar een lijstje. De toegankelijke naam van de button wordt dan de tekst van alle elementen die je opgeeft, gescheiden door een spatie. Als we onze buttons zelf ook een ID geven, kunnen we de tekst van de button zelf ook toevoegen:
 
-```
+```html
 <h3 id="hoodie">Fronteers hoodie</h3>
 <p>Lekker warm</p>
 <button id="hoodie-voegtoe" aria-labelledby="hoodie hoodie-voegtoe">
