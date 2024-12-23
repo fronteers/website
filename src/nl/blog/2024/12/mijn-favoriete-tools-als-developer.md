@@ -1,12 +1,10 @@
 ---
-
 title: Mijn favoriete tools als front-enddeveloper, Een compleet overzicht
 date: 2024-10-27 # jjjj - mm - dd
 author: Rosita
 summary: In deze blog deel ik mijn favoriete tools als front-enddeveloper, waaronder browsers, projectmanagement- en ontwikkelsoftware. Dit zijn de tools die mijn workflow ondersteunen en die ik dagelijks gebruik.
 categories:
-    - Adventskalender
-
+  - Adventskalender
 ---
 
 ## Mijn favoriete tools als front-enddeveloper: Een compleet overzicht
@@ -15,7 +13,7 @@ Als front-enddeveloper met een paar jaar ervaring, vind ik het altijd interessan
 
 ### Hoe ik mijn computer gebruik
 
-Ik doe eigenlijk alles op mijn eigen laptop die op Windows 11 draait, mijn werk dus ook. Dat laatste klinkt misschien wat apart, maar eigenlijk vind ik het wel fijn op dit moment op gewoon op mijn eigen laptop te werken. Ik kan alles makkelijk terugvinden en kan gewoon overal bij. 
+Ik doe eigenlijk alles op mijn eigen laptop die op Windows 11 draait, mijn werk dus ook. Dat laatste klinkt misschien wat apart, maar eigenlijk vind ik het wel fijn op dit moment op gewoon op mijn eigen laptop te werken. Ik kan alles makkelijk terugvinden en kan gewoon overal bij.
 
 Windows 11 is prettig voor mij onderandere vanwege de toegankelijkheidsinstellingen, zoals Plaktoetsen, die ik gebruik omdat ik blind typ met één hand. Hierdoor hoef ik toetsen niet tegelijk in te drukken. Ik pas ook regelmatig de toetsenbordinstellingen aan met MyAsus of Logi Options+ om functietoetsen snel te wisselen. Jammer genoeg werkt de Fn-toets niet samen met Plaktoetsen.
 
@@ -35,43 +33,42 @@ Als tool voor projectmanagement gebruiken we ClickUp. Ik vond het in het begin b
 
 ### 3. Figma
 
-De designs voor de websites worden door onze designer gemaakt in Figma. Vervolgens kijk ik in Figma hoe de website eruit moet komen te zien. 
+De designs voor de websites worden door onze designer gemaakt in Figma. Vervolgens kijk ik in Figma hoe de website eruit moet komen te zien.
 
 ### 4. Slack
 
-Ik werk zelf voornamelijk vanuit huis en om om te communiceren met collega’s gebruiken we voornamelijk Slack. Niet alleen voor werk gebruik ik Slack, maar ook de ben ik regelmatig te vinden in de [Fronteers Slack](https://fronteersnl.slack.com/) en in de Slack workspace van WordPress Nederland. 
+Ik werk zelf voornamelijk vanuit huis en om om te communiceren met collega’s gebruiken we voornamelijk Slack. Niet alleen voor werk gebruik ik Slack, maar ook de ben ik regelmatig te vinden in de [Fronteers Slack](https://fronteersnl.slack.com/) en in de Slack workspace van WordPress Nederland.
 
 ![Screenshot van Visual Studio Code waarin het bestand functions.php is geopend.](/_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-vs-code.jpg)
 
 ### 5. Visual Studio Code
 
-De tekst editor die ik gebruik is Visual Studio Code(VSCode). Omdat ik hoofdzakelijk werk met WordPress, is VSCode niet mijn meest gebruikte tool, helaas. Want het is wel het fijnste om te gebruiken, wanneer ik code moet schrijven. De code staat heel overzichtelijk. Veel prettiger dan bijvoorbeeld code schrijven in een klein invoerveldje in WordPress. 
+De tekst editor die ik gebruik is Visual Studio Code(VSCode). Omdat ik hoofdzakelijk werk met WordPress, is VSCode niet mijn meest gebruikte tool, helaas. Want het is wel het fijnste om te gebruiken, wanneer ik code moet schrijven. De code staat heel overzichtelijk. Veel prettiger dan bijvoorbeeld code schrijven in een klein invoerveldje in WordPress.
 
-Ook gebruik ik VSCode om childthemes te maken of om code te schrijven die ik later bijvoorbeeld invoeg in de functions.php. 
+Ook gebruik ik VSCode om childthemes te maken of om code te schrijven die ik later bijvoorbeeld invoeg in de functions.php.
 Het thema dat ik gebruik heet Pink Cat Boo, die ik op een paar punten heb aangepast in settings.json.
 Het mooie van VSCode is dat je het kunt aanpassen naar wens door extensies. Dit zijn een aantal die ik gebruik:
-Auto close tag, Auto rename tag, Code runner (hiervoor heb je NodeJS nodig), ESLint, HTML CSS support, Live Preview, PHP Intelephense en Pretty Formatter.
+Auto close tag, Auto rename tag, Code runner (hiervoor heb je NodeJS nodig), ESLint, HTML CSS support, Live Preview, PHP Intelephense en Prettier.
 
-[Afbeelding.] 
+[Afbeelding.]
 ![Screenshot van Local, waarin een WordPress website wordt gedraaid.](/_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-local.jpg)
 
 ### 6. Local
 
-Met Local kun je WordPress lokaal op je computer draaien om bijvoorbeeld een WordPress website te bouwen of te testen, zonder dat je een hosting of een domeinnaam nodig hebt. 
+Met Local kun je WordPress lokaal op je computer draaien om bijvoorbeeld een WordPress website te bouwen of te testen, zonder dat je een hosting of een domeinnaam nodig hebt.
 Momenteel gebruik ik Local om te leren hoe je een WordPress thema bouwt en ook heb ik het gebruikt om te leren hoe je een custom block kunt bouwen met React en hoe dit in WordPress werkt.
 
 ### 7. Node.js
 
-Node.js is een JavaScript Runtime omgeving waarbij je JavaScript kunt laten uitvoeren buiten de browser om. Dit is nodig wanneer ik JavaScript wil uitvoeren met CodeRunner in VSCode, Javascript wil toepassen in lokaal gehoste WordPress website of een een React applicatie bouw, hiervoor gebruik ik Node Package Manager(NPM). 
+Node.js is een JavaScript Runtime omgeving waarbij je JavaScript kunt laten uitvoeren buiten de browser om. Dit is nodig wanneer ik JavaScript wil uitvoeren met CodeRunner in VSCode, Javascript wil toepassen in lokaal gehoste WordPress website of een een React applicatie bouw, hiervoor gebruik ik Node Package Manager(NPM).
 
 ![Screenshot van VS Code waarin het Javascript bestand search.js open staat eronder is Powershell in de terminal geopend die npm heeft gestart. ](/_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-npm-js.jpg)
 
 ### 8. Git for Windows
 
-Git is een handig versiebeheersysteem. Je kunt je code er in beheren en teruggaan naar vorige versies van de code, ook maakt het makkelijk om samen te werken met andere developers. Ik gebruik Git voornamelijk om mijn code te beheren op GitHub en ik gebruik daarvoor GitHub Desktop. 
+Git is een handig versiebeheersysteem. Je kunt je code er in beheren en teruggaan naar vorige versies van de code, ook maakt het makkelijk om samen te werken met andere developers. Ik gebruik Git voornamelijk om mijn code te beheren op GitHub en ik gebruik daarvoor GitHub Desktop.
 
-Regelmatig gebruik ik ook Git Bash om Git te gebruiken in de command line(CLI). Eerder gebruikte ik het losse programma, dat met Git for Windows wordt geinstalleerd, maar de laatste tijd gebruik ik Bash in de terminal in Visual Studio Code. 
-
+Regelmatig gebruik ik ook Git Bash om Git te gebruiken in de command line(CLI). Eerder gebruikte ik het losse programma, dat met Git for Windows wordt geinstalleerd, maar de laatste tijd gebruik ik Bash in de terminal in Visual Studio Code.
 
 ![Screenshot waarin in GitHub Desktop een afbeelding voor deze blog is te zien](/_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-github-desktop.jpg)
 
@@ -81,13 +78,13 @@ Standaard opent VSCode PowerShell als je een nieuwe terminal opent. Dit gebruik 
 
 ### 10. FileZilla
 
-FileZilla gebruik ik om bestanden van websites te uploaden of te downloaden via FTP. Op deze manier heb ik verschillende websites verhuisd, wanneer ik geen migratieplugin gebruikte. 
+FileZilla gebruik ik om bestanden van websites te uploaden of te downloaden via FTP. Op deze manier heb ik verschillende websites verhuisd, wanneer ik geen migratieplugin gebruikte.
 
-### 11.	Bitwarden/ LastPass
+### 11. Bitwarden/ LastPass
 
-Natuurlijk mag een passwordmanager niet ontbreken in dit lijstje. Ik gebruik Bitwarden op mijn laptop en telefoon voor mijn persoonlijke login gegevens. Op mijn werk gebruiken we LastPass. 
+Natuurlijk mag een passwordmanager niet ontbreken in dit lijstje. Ik gebruik Bitwarden op mijn laptop en telefoon voor mijn persoonlijke login gegevens. Op mijn werk gebruiken we LastPass.
 
-Naast deze tools gebruik ik overigens nog Windows Verteller en NVDA om websites te testen met een schermlezer. 
+Naast deze tools gebruik ik overigens nog Windows Verteller en NVDA om websites te testen met een schermlezer.
 
 ### Tot slot
 
