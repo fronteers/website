@@ -41,7 +41,7 @@ De designs voor de websites worden door onze designer gemaakt in Figma. Vervolge
 
 Ik werk zelf voornamelijk vanuit huis en om om te communiceren met collega’s gebruiken we voornamelijk Slack. Niet alleen voor werk gebruik ik Slack, maar ook de ben ik regelmatig te vinden in de [Fronteers Slack](https://fronteersnl.slack.com/) en in de Slack workspace van WordPress Nederland. 
 
-![Screenshot van Visual Studio Code waarin het bestand functions.php is geopend.](_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-vs-code.jpg)
+![Screenshot van Visual Studio Code waarin het bestand functions.php is geopend.](/_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-vs-code.jpg)
 
 ### 5. Visual Studio Code
 
@@ -53,7 +53,7 @@ Het mooie van VSCode is dat je het kunt aanpassen naar wens door extensies. Dit 
 Auto close tag, Auto rename tag, Code runner (hiervoor heb je NodeJS nodig), ESLint, HTML CSS support, Live Preview, PHP Intelephense en Pretty Formatter.
 
 [Afbeelding.] 
-![Screenshot van Local, waarin een WordPress website wordt gedraaid.](_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-local.jpg)
+![Screenshot van Local, waarin een WordPress website wordt gedraaid.](/_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-local.jpg)
 
 ### 6. Local
 
@@ -64,7 +64,7 @@ Momenteel gebruik ik Local om te leren hoe je een WordPress thema bouwt en ook h
 
 Node.js is een JavaScript Runtime omgeving waarbij je JavaScript kunt laten uitvoeren buiten de browser om. Dit is nodig wanneer ik JavaScript wil uitvoeren met CodeRunner in VSCode, Javascript wil toepassen in lokaal gehoste WordPress website of een een React applicatie bouw, hiervoor gebruik ik Node Package Manager(NPM). 
 
-![Screenshot van VS Code waarin het Javascript bestand search.js open staat eronder is Powershell in de terminal geopend die npm heeft gestart. ](_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-npm-js.jpg)
+![Screenshot van VS Code waarin het Javascript bestand search.js open staat eronder is Powershell in de terminal geopend die npm heeft gestart. ](/_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-npm-js.jpg)
 
 ### 8. Git for Windows
 
@@ -73,7 +73,7 @@ Git is een handig versiebeheersysteem. Je kunt je code er in beheren en teruggaa
 Regelmatig gebruik ik ook Git Bash om Git te gebruiken in de command line(CLI). Eerder gebruikte ik het losse programma, dat met Git for Windows wordt geinstalleerd, maar de laatste tijd gebruik ik Bash in de terminal in Visual Studio Code. 
 
 
-![Screenshot waarin in GitHub Desktop een afbeelding voor deze blog is te zien](_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-github-desktop.jpg)
+![Screenshot waarin in GitHub Desktop een afbeelding voor deze blog is te zien](/_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-github-desktop.jpg)
 
 ### 9. PowerShell
 
