@@ -55,7 +55,7 @@ Tijd voor een stapje verder: De button heeft nu geen zichtbare tekst meer, maar 
 </button>
 ```
 
-Wanneer een element een `aria-label` attribuut heeft wordt de inhoud van het element **volledig genegeerd**. De toegankelijke naam van deze button is nu "Toevoegen", ongeacht wat er in het element staat. Dit kan snel voor problemen zorgen. 
+Wanneer een element (met een rol die toegankelijke namen ondersteunt) een `aria-label` attribuut heeft wordt de inhoud van het element **volledig genegeerd**. De toegankelijke naam van deze button is nu "Toevoegen", ongeacht wat er in het element staat. Dit kan snel voor problemen zorgen. 
 
 Stel dat we een spoedticket binnen krijgen om naast de Toevoegen knop ook een "Verwijder" knop te maken. We kopiëren snel de code van de Toevoegen knop, hangen er een andere event handler aan en passen het icoontje aan naar een prullenbak. 
 
