@@ -8,7 +8,7 @@ categories:
 key: advent-2024-kilian-en
 ---
 
-# The role of elements
+## The role of elements
 
 Whether an element has an accessible name depends on the _role_ that element has on the page. Some elements automatically get an accessible name, such as a button, a link, or a heading. A div has no accessible name because a div has no role. Even if you give a div an explicit accessible name (more on that later in the article), the browser will ignore this until a relevant role is also assigned to the div.
 
@@ -20,7 +20,7 @@ However, not everything you want to build on a site can be built with HTML; some
 
 Don't think that at the end of this article you'll be tasked with providing all your elements with an explicit accessible role and name: write good HTML and you'll already get quite far.
 
-# Accessible names
+## Accessible names
 
 In its simplest form, it's the text within an element. Take this button for example:
 
@@ -170,7 +170,7 @@ With `aria-labelledby` added, this is the order in which the accessible name is 
 2. Is there an aria-label attribute? Use that.
 3. If not, use the content of the element.
 
-# Conclusion
+## Conclusion
 
 Hopefully you now have a better idea of where the accessible name of elements comes from, why you sometimes want to change it, and how to do that properly.
 

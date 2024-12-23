@@ -8,7 +8,7 @@ categories:
 key: advent-2024-kilian
 ---
 
-# De rol van elementen
+## De rol van elementen
 
 Of een element een toegankelijk naam heeft of niet ligt aan de _rol_ die een element heeft op de pagina. Sommige elementen krijgen automatisch een toegankelijke naam, zoals een button, een link of een koptekst. Een div heeft geen toegankelijke naam, want een div heeft geen rol. Ook al geef je een div een expliciete toegankelijke naam (meer daarover later in het artikel), dan zal de browser dit negeren totdat er ook een relevante rol aan de div wordt toegekend.
 
@@ -20,7 +20,7 @@ Niet alles wat je op een site wilt bouwen kan je echter bouwen met HTML, soms mo
 
 Denk vooral niet dat aan het einde van dit artikel je de taak staat te wachten om al je elementen van een expliciete toegankelijke rol en naam te voorzien: schrijf goede HTML en je komt al een heel eind. 
 
-# Toegankelijke namen
+## Toegankelijke namen
 
 In de meest simpele vorm is dat de tekst in een element. Neem bijvoorbeeld deze button:
 
@@ -166,7 +166,7 @@ Met `aria-labelledby` erbij is dit de volgorde waarop de toegankelijke naam bepa
 1. Is er een aria-label attribuut? Gebruik die.
 2. Zoniet, gebruikt dan de inhoud van het element.
 
-# Conclusie
+## Conclusie
 
 Hopelijk heb je nu een beter idee waar de toegankelijke naam van elementen vandaan komt, waarom je die soms wilt veranderen en hoe je dat op een goede manier doet. 
 
