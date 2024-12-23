@@ -50,7 +50,6 @@ Het thema dat ik gebruik heet Pink Cat Boo, die ik op een paar punten heb aangep
 Het mooie van VSCode is dat je het kunt aanpassen naar wens door extensies. Dit zijn een aantal die ik gebruik:
 Auto close tag, Auto rename tag, Code runner (hiervoor heb je NodeJS nodig), ESLint, HTML CSS support, Live Preview, PHP Intelephense en Prettier.
 
-[Afbeelding.]
 ![Screenshot van Local, waarin een WordPress website wordt gedraaid.](/_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-local.jpg)
 
 ### 6. Local
