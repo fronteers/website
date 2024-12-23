@@ -37,7 +37,7 @@ De designs voor de websites worden door onze designer gemaakt in Figma. Vervolge
 
 ### 4. Slack
 
-Ik werk zelf voornamelijk vanuit huis en om om te communiceren met collega’s gebruiken we voornamelijk Slack. Niet alleen voor werk gebruik ik Slack, maar ook de ben ik regelmatig te vinden in de [Fronteers Slack](https://fronteersnl.slack.com/) en in de Slack workspace van WordPress Nederland.
+Ik werk zelf voornamelijk vanuit huis en om om te communiceren met collega’s gebruiken we voornamelijk Slack. Niet alleen voor werk gebruik ik Slack, maar ook ben ik regelmatig te vinden in de [Fronteers Slack](https://fronteersnl.slack.com/) en in de Slack workspace van WordPress Nederland.
 
 ![Screenshot van Visual Studio Code waarin het bestand functions.php is geopend.](/_img/blog/2024/12/mijn-favoriete-tools-als-front-end-developer/screenshot-vs-code.jpg)
 
