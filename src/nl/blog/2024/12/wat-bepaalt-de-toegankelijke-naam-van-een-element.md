@@ -8,8 +8,6 @@ categories:
 key: advent-2024-kilian
 ---
 
-De toegankelijke naam van een element is hoe de browser een element doorgeeft aan hulptechnologieën zoals een screenreader of braille bord, en vormt de manier waarop iemand die een site niet (goed) kan zien de inhoud tot zich neemt. 
-
 # De rol van elementen
 
 Of een element een toegankelijk naam heeft of niet ligt aan de _rol_ die een element heeft op de pagina. Sommige elementen krijgen automatisch een toegankelijke naam, zoals een button, een link of een koptekst. Een div heeft geen toegankelijke naam, want een div heeft geen rol. Ook al geef je een div een expliciete toegankelijke naam (meer daarover later in het artikel), dan zal de browser dit negeren totdat er ook een relevante rol aan de div wordt toegekend.
