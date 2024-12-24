@@ -7,7 +7,7 @@ categories:
     - Adventskalender
 key: advent-2024-maniflames
 ---
-Afgelopen maand heb ik mogen werken aan website met een minimalistisch maar experimenteel ontwerp. De grafisch ontwerpers, die meer gefocust waren op print dan op digitaal kwamen met idee voor een card met een kleine edge case die ik zelf nog niet eerder was tegen gekomen. De kaart ziet er ongeveer zo uit:
+Afgelopen maand heb ik mogen werken aan een website met een minimalistisch maar experimenteel ontwerp. De grafisch ontwerpers, die meer gefocust waren op print dan op digitaal kwamen met idee voor een card met een kleine edge case die ik zelf nog niet eerder was tegen gekomen. De kaart ziet er ongeveer zo uit:
 
 ![Een website card bestaande uit een groot rechthoekig vlak met ronde hoeken en een overlapende titel verspreid over drie regels. Elke regel van de titel lijkt uit de kaart gesneden met 'bolle' en 'holle' ronde hoeken.](/_img/blog/2024/12/inverted-border-radius/card-final.png)
 
@@ -15,7 +15,7 @@ Het is een klein detail maar er zijn een aantal randen die niet zomaar gestyled 
 
 ![Een website card bestaande uit een groot rechthoekig vlak met ronde hoeken en een overlapende titel verspreid over drie regels. Elke regel van de titel lijkt uit de kaart gesneden met 'bolle' en 'holle' ronde hoeken. Alle holle hoeken zijn omcirkeld.](/_img/blog/2024/12/inverted-border-radius/card-highlighted-inverted-borders.jpg)
 
-Juist omdat de rest van de website zo minimaal was in het design heb ik ervoor gekozen om op zijn minst te proberen dit visuele probleem op te lossen.
+Juist omdat de rest van de website zo minimaal was in het design, heb ik ervoor gekozen om op zijn minst te proberen dit visuele probleem op te lossen.
 
 ## De ‘inverted border radius’
 Het viel me al snel op dat ik eigenlijk het omgekeerde van de css-property `border-radius` wou hebben en na wat googlen werd het duidelijk dat de meesten deze vorm een ‘inverted border radius’ noemen. 
