@@ -22,7 +22,7 @@ In de beginjaren van webontwikkeling hadden we de zogenaamde monolithische archi
 
 Toen was daar de microservices-architectuur, een revolutie in de webontwikkelingswereld. Deze aanpak splitst monolithische applicaties op in kleinere, onafhankelijke eenheden. Elke microservice voert een specifieke functie uit en werkt onafhankelijk, waarbij ze communiceren via API's. Deze modulariteit maakt onafhankelijke aanpassingen, schaling en implementatie mogelijk, net als de werkplaats van de Kerstman waar elke elf een gespecialiseerde, geïsoleerde taak heeft.
 
-# Servers vs. CDN's
+## Servers vs. CDN's
 
 De werkplaats van de Kerstman bevindt zich op de Noordpool, waar de elfen onvermoeibaar werken om aan alle verzoeken te voldoen. Als elke elf elk verzoek voor hetzelfde speelgoed zou moeten afhandelen en het meteen door de Kerstman zou moeten laten bezorgen als het klaar is, zou dat behoorlijk inefficiënt zijn. Hier komt Jamstack om de hoek kijken en transformeert het proces in een klap door de magie van ✨ pre-rendering ✨.
 
