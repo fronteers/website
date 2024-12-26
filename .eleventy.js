@@ -5,6 +5,7 @@ const { DateTime } = require("luxon");
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const brokenLinksPlugin = require("eleventy-plugin-broken-links");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
   const quick = Boolean(process.env.BUILD_QUICK);
@@ -79,6 +80,8 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(pluginRss);
+
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   /**
    * Rebuild when any of the files are changed, but exclude css because that is
