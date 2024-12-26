@@ -1,6 +1,6 @@
 ---
 title: Aan het roer als front-end lead developer
-date: 2024-12-19
+date: 2024-12-29
 author: Arjan Eising
 summary: Wat komt er bij kijken een front-end lead developer te zijn? Een overzicht, persoonlijke ervaringen, tips & tricks.
 categories:

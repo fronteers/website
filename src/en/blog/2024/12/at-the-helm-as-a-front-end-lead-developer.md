@@ -1,6 +1,6 @@
 ---
 title: At the helm as a front-end lead developer
-date: 2024-12-19
+date: 2024-12-29
 author: Arjan Eising
 summary: What does it take to be a front-end lead developer? An overview, personal experiences, tips, and tricks.
 categories:
