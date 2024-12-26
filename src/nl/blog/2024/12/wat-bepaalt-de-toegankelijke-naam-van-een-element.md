@@ -1,6 +1,6 @@
 ---
 title: Wat bepaalt de toegankelijke naam van een element?
-date: 2024-12-25
+date: 2024-12-26
 author: Kilian Valkhof
 summary: "De toegankelijke naam van een element is hoe de browser een element doorgeeft aan hulptechnologieën zoals een screenreader of braille bord, en vormt de manier waarop iemand die een site niet (goed) kan zien de inhoud tot zich neemt."
 categories:
