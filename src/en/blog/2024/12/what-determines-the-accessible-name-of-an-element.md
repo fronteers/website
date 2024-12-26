@@ -1,6 +1,6 @@
 ---
 title: What determines the accessible name of an element?
-date: 2024-12-25
+date: 2024-12-26
 author: Kilian Valkhof
 summary: "The accessible name of an element is how the browser passes an element to assistive technologies like screen readers or braille displays, and forms the way someone who cannot (fully) see a site consumes the content."
 categories:
