@@ -1,6 +1,8 @@
 const { exec } = require("child_process");
 const glob = require("fast-glob");
 const { DateTime } = require("luxon");
+const fs = require("fs");
+const Image = require("@11ty/eleventy-img");
 
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -180,6 +182,67 @@ module.exports = function (eleventyConfig) {
         );
       })
   );
+
+
+  eleventyConfig.addFilter("readablePostDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: "Europe/Amsterdam",
+    }).setLocale('en').toLocaleString(DateTime.DATE_FULL);
+  });
+
+  eleventyConfig.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {
+      zone: "Europe/Amsterdam",
+    }).setLocale('en').toISODate();
+  });
+  
+  eleventyConfig.addFilter('splitlines', function (input) {
+    const parts = input.split(' ');
+    const lines = parts.reduce(function (prev, current) {
+
+      if (!prev.length) {
+        return [current];
+      }
+
+      let lastOne = prev[prev.length - 1];
+
+      if (lastOne.length + current.length > 23) {
+        return [...prev, current];
+      }
+
+      prev[prev.length - 1] = lastOne + ' ' + current;
+
+      return prev;
+    }, []);
+
+    return lines;
+  });
+
+  eleventyConfig.on('afterBuild', () => {
+    const socialPreviewImagesDir = "dist/assets/images/social-preview-images/";
+      fs.readdir(socialPreviewImagesDir, function (err, files) {
+          if (files.length > 0) {
+              files.forEach(function (filename) {
+                  if (filename.endsWith(".svg")) {
+
+                      let imageUrl = socialPreviewImagesDir + filename;
+                      Image(imageUrl, {
+                          formats: ["jpeg"],
+                          outputDir: "./" + socialPreviewImagesDir,
+                          filenameFormat: function (id, src, width, format, options) {
+
+                              let outputFilename = filename.substring(0, (filename.length - 4));
+
+                              return `${outputFilename}.${format}`;
+
+                          }
+                      });
+
+                  }
+              })
+          }
+      })
+  });
 
   // Allows you to debug a json object in eleventy templates data | stringify
   eleventyConfig.addFilter("stringify", (data) => {

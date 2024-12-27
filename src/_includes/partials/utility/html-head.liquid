@@ -73,10 +73,18 @@
     {% elsif image %}
         <meta property="og:image" content="https://fronteers.nl{{ image }}">
     {% else %}
-        <meta property="og:image" content="https://www.fronteers.nl/_img/og-image.png">
-        <meta property="og:image:alt" content="Image of Fronteers website">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="675">
+        {% if tags contains 'posts' %}
+            <meta property="og:image" content="https://fronteers.nl/img/social-preview-images/{{ page.date | postDate }}-{{ title | slug }}-preview.jpeg" />
+            <meta property="og:image:secure_url" content="https://fronteers.nl/img/social-preview-images/{{ page.date | postDate }}-{{ title | slug }}-preview.jpeg" />
+            <meta property="og:image:alt" content="Lees {{ title }}">
+            <meta property="og:image:width" content="1200">
+            <meta property="og:image:height" content="675">
+        {% else %}
+            <meta property="og:image" content="https://www.fronteers.nl/_img/og-image.png">
+            <meta property="og:image:alt" content="Image of Fronteers website">
+            <meta property="og:image:width" content="1200">
+            <meta property="og:image:height" content="675">
+        {% endif %}
     {% endif %}
 
     <script defer data-domain="fronteers.nl" src="https://plausible.io/js/script.js"></script>

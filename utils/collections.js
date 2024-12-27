@@ -13,6 +13,17 @@ function published_posts(locale) {
     .reverse();
 };
 
+function published_posts_after_2024(locale) {
+    return (collection) => collection
+        .getFilteredByTag("posts")
+        .filter((post) => Boolean(!post.data.draft))
+        .filter((post) => Boolean(!post.data.excludeFromCollection))
+        .filter((post) => Boolean(post.date > new Date('2024-01-01')))
+        .filter((post) => Boolean(!post.data.parent))
+        .filter((post) => Boolean(post.data.locale == locale))
+        .reverse();
+};
+
 function published_activities(locale) {
   return (collection) => collection
     .getFilteredByTag("activities")
@@ -166,6 +177,8 @@ function categorised_activities(locale) {
 module.exports = {
   published_posts_en: published_posts("en"),
   published_posts_nl: published_posts("nl"),
+  published_posts_after_2024_en: published_posts_after_2024("en"),
+  published_posts_after_2024_nl: published_posts_after_2024("nl"),
   published_activities_en: published_activities("en"),
   published_activities_nl: published_activities("nl"),
   published_jobs_en: published_jobs("en"),
@@ -191,6 +204,17 @@ module.exports = {
       .filter((post) => Boolean(post.data.key))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(post.data.locale == "nl"));
+  },
+
+
+  published_posts_after_2024(collection) {
+    return collection
+      .getFilteredByTag("posts")
+      .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.date > new Date('2024-01-01')))
+      .filter((post) => Boolean(!post.data.parent))
+      .reverse();
   },
 
   published_posts(collection) {
