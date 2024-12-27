@@ -90,6 +90,12 @@ module.exports = {
         emptyStateActivities: "We currently have no upcoming events, check back soon for more updates.",
         upcomingActivitiesTitle: "Upcoming activities",
         pastActivitiesTitle: "Past activities",
+        scheduled_date: "Date",
+        scheduled_title: "Title",
+        scheduled_author: "Author",
+        scheduled_pagetype: "Page type",
+        scheduled_something: "Posts that are future-dated, and will be shared later:",
+        scheduled_nothing: "Nothing to show here!"
     },
     nl: {
         baseUrl: "https://www.fronteers.nl/nl",
@@ -182,5 +188,11 @@ module.exports = {
         emptyStateActivities: "Momenteel zijn er geen nieuwe activiteiten gepland, neem binnenkort gerust terug een kijkje.",
         upcomingActivitiesTitle: "Geplande activiteiten",
         pastActivitiesTitle: "Voorbije activiteiten",
+        scheduled_date: "Datum",
+        scheduled_title: "Titel",
+        scheduled_author: "Auteur",
+        scheduled_pagetype: "Paginatype",
+        scheduled_something: "Pagina's die binnenkort publiekelijk zichtbaar worden:",
+        scheduled_nothing: "Hier is niets te zien!"
     },
 };
