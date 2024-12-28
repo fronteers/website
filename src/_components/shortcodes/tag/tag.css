@@ -1,4 +1,4 @@
-.tag {
+.tag:not(.token) {
   position: relative;
   display: inline-flex;
   justify-content: space-between;
@@ -22,10 +22,10 @@
 
 /* Rounded tags, like with { and } */
 .tag-curly-braces {
-   -webkit-clip-path: url(#button-curly-braces);
+  -webkit-clip-path: url(#button-curly-braces);
   clip-path: url(#button-curly-braces);
 }
 
-.tag + .tag {
+.tag:not(.token) + .tag:not(.token) {
   margin-inline-start: 2em;
 }
