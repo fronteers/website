@@ -62,7 +62,23 @@
                             </td>
                             <td>
                                 {%- for tag in post.data.tags -%} 
-                                    {{ tag }}{% unless forloop.last %}, {% endunless %}
+                                    {% if tag == "posts" %}
+                                        {{ translations[locale].post }}
+                                        {% unless forloop.last %}, {% endunless %}
+                                    {% elsif tag == "activities" %}
+                                        {{ translations[locale].activity }}
+                                        {% unless forloop.last %}, {% endunless %}
+                                    {% elsif tag == "jobs" %}
+                                        {{ translations[locale].job }}
+                                        {% unless forloop.last %}, {% endunless %}
+                                    {% elsif tag == "members" %}
+                                        {{ translations[locale].member }}
+                                        {% unless forloop.last %}, {% endunless %}
+                                    {% elsif tag == "pages" %}
+                                    {% else %}
+                                        {{ tag }}
+                                        {% unless forloop.last %}, {% endunless %}
+                                    {% endif %}
                                 {%- endfor -%}
                             </td>
                         </tr>

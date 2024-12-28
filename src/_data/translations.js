@@ -95,7 +95,11 @@ module.exports = {
         scheduled_author: "Author",
         scheduled_pagetype: "Page type",
         scheduled_something: "Posts that are future-dated, and will be shared later:",
-        scheduled_nothing: "Nothing to show here!"
+        scheduled_nothing: "Nothing to show here!",
+        post: "Blog article",
+        member: "Members profile",
+        activity: "Event announcement",
+        job: "Job opening"
     },
     nl: {
         baseUrl: "https://www.fronteers.nl/nl",
@@ -193,6 +197,10 @@ module.exports = {
         scheduled_author: "Auteur",
         scheduled_pagetype: "Paginatype",
         scheduled_something: "Pagina's die binnenkort publiekelijk zichtbaar worden:",
-        scheduled_nothing: "Hier is niets te zien!"
+        scheduled_nothing: "Hier is niets te zien!",
+        post: "Blog artikel",
+        member: "Ledenprofiel",
+        activity: "Activiteit",
+        job: "Vacature"
     },
 };
