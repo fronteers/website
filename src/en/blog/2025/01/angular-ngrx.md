@@ -5,7 +5,7 @@ author: Sven Hoffmann
 summary: Using NgRx as a state management solution in Angular provides structure and testability through unidirectional data flow, but can also introduce extra boilerplate code and complexity for side-effects. Is it the right solution for your Angular app?
 ---
 
-# Introduction
+## Introduction
 
 Hello everyone, my name is Sven. I currently work as a software developer at MO4, where I'm involved in creating a web portal for the offshore industry.
 
@@ -18,7 +18,7 @@ One of the challenges we faced during development was that data arrived at diffe
 
 This couldn't continue, so we began our search for a _state management_ solution. After comparing various options, we ultimately chose NgRx.
 
-# Why State Management?
+## Why State Management?
 
 Let's take a step back. A state management solution can bring structure to your business logic and simplify working with data. But it can also introduce extra boilerplate code.
 
@@ -34,7 +34,7 @@ When should you choose a state management solution and when should you not?
 - For larger applications, especially when access to the same data is needed across multiple pages.
 - When the data is complex and there's a need for clear data flow in the front-end.
 
-# Angular Redux: NgRx
+## Angular Redux: NgRx
 
 NgRx is an Angular implementation of the Redux library, with some modifications to make it work better with Angular as the view layer.
 
@@ -53,7 +53,7 @@ The distinctive feature of NgRx (and similar implementations) is the unidirectio
 
 But how do you fetch data from an API or implement other side-effects if reducers must always be pure functions?
 
-# Effects
+## Effects
 
 NgRx provides _effects_ for handling side-effects.
 
@@ -65,7 +65,7 @@ For an API call, it might look like this:
 
 {% figure "/_img/blog/2025/01/angular-ngrx/ngrx-effect-sequence-en.svg" "A diagram showing the interaction between View, Effect, and Reducer components for fetching cat facts. The View sends a 'Dashboard Get Cat Fact' action to the Effect component, which can then follow two possible paths: a successful path 'Cat API Get Cat Fact Success' or a failed path 'Cat API Get Cat Fact Failure' to the Reducer. The diagram is rendered in light purple rectangles with black text and arrows." "Interaction between View, Effects, and Reducers" %}
 
-# One-way Traffic
+## One-way Traffic
 
 The data in NgRx flows in one direction, which offers major advantages but also causes some disadvantages.
 
@@ -80,7 +80,7 @@ The data in NgRx flows in one direction, which offers major advantages but also 
 - The state cannot be changed arbitrarily. The code that defines actions and reducers can feel like a lot of boilerplate to achieve something simple.
 - For side-effects, you need to write Effect streams, which can feel complex for something like a simple API call.
 
-# Conclusion
+## Conclusion
 
 The NgRx state management library has a unique architecture that forces you to think about your application's data flow. The biggest advantage is the testability and transparency it provides. The biggest disadvantage is that many files and components are needed to add state to your application.
 

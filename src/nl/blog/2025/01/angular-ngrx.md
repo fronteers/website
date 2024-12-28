@@ -5,7 +5,7 @@ author: Sven Hoffmann
 summary: Het gebruik van NgRx als state management-oplossing in Angular biedt structuur en testbaarheid door een unidirectionele datastroom, maar kan ook extra boilerplate code en complexiteit voor side-effects met zich meebrengen. Is het de juiste oplossing voor jouw Angular app?
 ---
 
-# Introductie
+## Introductie
 
 Hallo iedereen, mijn naam is Sven. Momenteel werk ik als softwareontwikkelaar bij MO4, waar ik betrokken ben bij het creëren van een webportaal voor de offshore-industrie.
 
@@ -18,7 +18,7 @@ Een van de uitdagingen waarmee we tijdens de ontwikkeling geconfronteerd werden,
 
 Het kon zo niet verdergaan, dus begonnen we onze zoektocht naar een _state management_-oplossing. Na het vergelijken van diverse opties, kozen we uiteindelijk voor NgRx.
 
-# Waarom State Management?
+## Waarom State Management?
 
 Laten we een stapje terug doen. Een state management oplossing kan structuur brengen aan je business logic en het werken met data vereenvoudigen. Maar het kan ook extra boilerplate code met zich meebrengen.
 
@@ -34,7 +34,7 @@ Wanneer kies je voor een state management-oplossing en wanneer niet?
 - Bij grotere applicaties, vooral wanneer toegang tot dezelfde data nodig is op meerdere pagina's.
 - Als de data complex is en er behoefte is aan een duidelijke dataflow in de front-end.
 
-# Angular Redux: NgRx
+## Angular Redux: NgRx
 
 NgRx is een Angular-implementatie van de Redux library, met enkele aanpassingen om het beter te laten werken met Angular als view-layer.
 
@@ -53,7 +53,7 @@ Het kenmerkende aan NgRx (en vergelijkbare implementaties), is de unidirectionel
 
 Maar hoe haal je data op van een API of implementeer je andere side-effects als reducers altijd pure functions moeten zijn?
 
-# Effects
+## Effects
 
 NgRx biedt *effects* voor het afhandelen van side-effects.
 
@@ -65,7 +65,7 @@ Voor een API-call kan het er als volgt uitzien:
 
 {% figure "/_img/blog/2025/01/angular-ngrx/ngrx-effect-sequence-nl.svg" "Een diagram dat de interactie tussen View, Effect en Reducer componenten toont voor het ophalen van kattenfeitjes. De View stuurt een ‘Dashboard Get Cat Fact’ actie naar het Effect component, dat vervolgens twee mogelijke paden kan volgen: een succesvol pad ‘Cat API Get Cat Fact Success’ of een mislukt pad ‘Cat API Get Cat Fact Failure’ naar de Reducer. Het diagram is uitgevoerd in lichtpaarse rechthoeken met zwarte tekst en pijlen." "Interactie tussen de View, Effects en Reducers" %}
 
-# Eenrichtingsverkeer
+## Eenrichtingsverkeer
 
 De data in NgRx stroomt in één richting, wat grote voordelen biedt, maar ook voor wat nadelen zorgt.
 
@@ -80,7 +80,7 @@ De data in NgRx stroomt in één richting, wat grote voordelen biedt, maar ook v
 - De state kan niet zomaar worden veranderd. De code die acties en reducers definieert, kan aanvoelen als veel boilerplate om iets eenvoudigs te bereiken.
 - Voor side-effects moet je Effect streams schrijven, wat complex kan aanvoelen voor bijvoorbeeld een eenvoudige API-call.
 
-# Conclusie
+## Conclusie
 
 De NgRx state management library heeft een unieke architectuur die je dwingt na te denken over de datastroom van je applicatie. Het grootste voordeel is de testbaarheid en transparantie die het biedt. Het grootste nadeel is dat er veel bestanden en onderdelen nodig zijn om state toe te voegen aan je applicatie.
 
