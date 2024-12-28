@@ -1,7 +1,7 @@
 ---
 title: Claudia Reynders
 key: claudia-reynders
-date: 2019-11-10
+date: 2024-11-01
 graphic:
     src: /assets/images/member-avatars/claudia-reynders.jpg
     alt: Claudia Reynders

@@ -3,14 +3,18 @@ pagination:
   data: collections.published_posts_after_2024 
   size: 1
   alias: preview
-permalink: "/assets/images/social-preview-images/{{ preview.data.date | postDate }}-{{ preview.data.title | slug }}-preview-{{ preview.data.locale }}.svg"
+permalink: "/assets/images/social-preview-images/{{ preview.data.date | default('0000-00-00') | postDate }}-{{ preview.data.title | slug }}-preview-{{ preview.data.locale }}.svg"
 eleventyExcludeFromCollections: true
+
 ---
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="1200" height="628" viewBox="0 0 1200 628" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
-    {% set titleInLines = preview.data.title | splitlines %}
-    {% set numberOfLines = titleInLines.length %}
+    {% if preview.data.title != undefined %}
+        {% set titleInLines = preview.data.title | splitlines %}
+        {% set numberOfLines = titleInLines.length %}
+    {% endif %}
+
     {% if numberOfLines == 1 %}
         {% set verticalStartingPoint = 350 %}
     {% elif numberOfLines == 2 %}
@@ -25,26 +29,109 @@ eleventyExcludeFromCollections: true
         {% set verticalStartingPoint = 250 %}
     {% endif %}
 
-    <rect width="100%" height="100%" fill="#b7b7fd" />
+    {% set tags = preview.data.tags | default([]) %}
+    {% if "posts" in tags or "activities" in tags %}
+        <rect width="100%" height="100%" fill="#b7b7fd" />
+    {% else %}
+        <rect width="100%" height="100%" fill="#fe796a" />
+    {% endif %}
 
     <text id="text" font-family="Fabrik, Roboto, sans-serif" font-size="80" font-weight="bold"> 
-        {% for line in titleInLines %}
-            <tspan x="73" y="{{verticalStartingPoint + loop.index * 80}}">{{ line }}</tspan>
-        {% endfor %}
-    </text>
-
-    <rect width="1200" height="96" fill="black" x="0" y="535" />
-
-    <text font-family="Roboto, sans-serif" font-size="30" font-weight="bold">
-        <tspan x="73" y="590" fill="white">
-            {% if preview.data.locale == "nl" %}
-                {{ preview.data.date | localizedDate('nl') | upper }}
-            {% else %}
-                {{ preview.data.date | readablePostDate | upper }}
+        {% if "members" in tags %}
+            {% for line in titleInLines %}
+                <tspan x="73" y="300">{{ line }}</tspan>
+            {% endfor %}
+            {% if preview.data.jobtitle %}
+                 <tspan x="73" y="400" font-size="60" font-weight="normal">{{ preview.data.jobtitle }}</tspan>
             {% endif %}
-
-            {% if preview.data.author %} - {{ preview.data.author | upper }}{% endif %}</tspan>
+        {% else %}
+            {% for line in titleInLines %}
+                <tspan x="73" y="{{verticalStartingPoint + loop.index * 80}}">{{ line }}</tspan>
+            {% endfor %}
+        {% endif %}
     </text>
+
+    {% if "posts" in tags %}
+        <rect width="1200" height="96" fill="black" x="0" y="535" />
+        <text font-family="Roboto, sans-serif" font-size="30" font-weight="bold">
+            <tspan x="73" y="590" fill="white">
+                {% if preview.data.date %}
+                    {% if preview.data.locale == "nl" %}
+                        {{ preview.data.date | localizedDate('nl') | upper }}
+                    {% else %}
+                        {{ preview.data.date | readablePostDate | upper }}
+                    {% endif %}
+                {% endif %}  
+
+                {% if preview.data.author %} - {{ preview.data.author | upper }}{% endif %}</tspan>
+        </text>
+    {% elif "activities" in tags %}
+        <rect width="1200" height="96" fill="black" x="0" y="535" />
+        <text font-family="Roboto, sans-serif" font-size="30" font-weight="bold">
+            <tspan x="73" y="590" fill="white">
+                {% if preview.data.location %}
+                    {{ preview.data.location | upper }}
+                {% endif %}
+
+                {% if preview.data.eventdate %}
+                    {% if preview.data.location %} - {% endif %}
+                    {% if preview.data.locale == "nl" %}
+                        {{ preview.data.eventdate | localizedDate('nl') | upper }}.
+                    {% else %}
+                        {{ preview.data.eventdate | readablePostDate | upper }}.
+                    {% endif %}
+                {% endif %} 
+
+                {% if preview.data.locale == "nl" %}
+                    CHECK ONZE WEBSITE VOOR MEER INFO!
+                {% else %}
+                    CHECK OUR WEBSITE FOR MORE INFO!
+                {% endif %}
+            </tspan>
+        </text>
+    {% elif "members" in tags %}
+        <rect width="1200" height="96" fill="black" x="0" y="535" />
+        <text font-family="Roboto, sans-serif" font-size="30" font-weight="bold">
+            <tspan x="73" y="590" fill="white">
+                {% if preview.data.freelancer %}
+                    FREELANCER
+                    {% if preview.data.freelancer.availability == true %}
+                        {% if preview.data.locale == "nl" %}
+                            (BESCHIKBAAR)
+                        {% else %}
+                            (AVAILABLE)
+                        {% endif %}
+                        
+                    {% endif %}
+                {% endif %}
+
+                {% if preview.data.lookingForEmployment and preview.data.lookingForEmployment.availability == true %}
+                    {% if preview.data.locale == "nl" %}
+                        BESCHIKBAAR VOOR WERK
+                    {% else %}
+                        AVAILABLE FOR WORK
+                    {% endif %}
+                {% endif %}
+
+                {% if preview.data.freelancer or preview.data.lookingForEmployment %}
+                    · 
+                {% endif %}
+
+                {% if preview.data.mentor %}
+                    {% if preview.data.locale == "nl" %}
+                        BESCHIKBAAR ALS MENTOR
+                    {% else %}
+                        AVAILABLE AS MENTOR
+                    {% endif %}
+                {% endif %}
+            </tspan>
+        </text>
+    {% endif %}
+
+{% if "members" in tags %}
+    {{ preview.data.graphic.src }}
+{% endif %}
+
 
     <path fill-rule="evenodd" clip-rule="evenodd" d="M83.1454 99.1146C76.9843 99.1146 72.7513 96.3706 72.7513 90.9593V0H142.526V90.9593C142.526 96.3706 138.294 99.1146 132.132 99.1146H116.917C116.845 99.1146 116.771 99.1143 116.694 99.114H116.693C114.526 99.1063 110.212 99.0909 109.493 104.673H105.784C105.066 99.0909 100.752 99.1063 98.5851 99.114H98.5832L98.4926 99.1143L98.3611 99.1146H83.1454ZM351.876 90.9844C351.889 96.3791 356.118 99.1146 362.27 99.1146H377.486L377.606 99.1144L377.71 99.114C379.876 99.1063 384.19 99.0909 384.909 104.673H388.618C389.336 99.0909 393.65 99.1063 395.817 99.114H395.819C395.896 99.1143 395.97 99.1146 396.041 99.1146H411.257C417.419 99.1146 421.651 96.3706 421.651 90.9593V89.942C421.651 89.942 433.62 104.674 456.214 104.674C478.734 104.674 491.402 89.942 491.402 89.942L491.403 89.8686L526.289 103.123L561.177 89.8684V0H491.426H491.402H421.651H351.876H282.101H212.326H142.55V87.3275V89.942C142.55 89.942 154.519 104.674 177.113 104.674C199.633 104.674 212.326 89.942 212.326 89.942L247.213 103.123L282.101 89.8684V103.123H351.876V90.9844ZM561.201 103.123H630.976V90.9949C630.995 96.3826 635.223 99.1146 641.37 99.1146H656.586C656.658 99.1146 656.732 99.1143 656.81 99.114C658.977 99.1063 663.291 99.0909 664.009 104.673H667.718C668.437 99.0909 672.751 99.1063 674.917 99.114C674.995 99.1143 675.07 99.1146 675.141 99.1146H690.357C696.519 99.1146 700.751 96.3706 700.751 90.9593V0H630.976L630.976 0.000775362H561.201V103.123Z" fill="#FFCE2E"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M90.6074 73.6062H100.241V51.6355H120.27V42.8855H100.241V30.5549H124.721V21.6569H90.6074V73.6062Z" fill="black"/>

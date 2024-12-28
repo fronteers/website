@@ -1,7 +1,7 @@
 ---
 title: Anneke Sinnema
 key: anneke-sinnema
-date: 2020-11-10
+date: 2024-12-28
 graphic:
     src: /assets/images/member-avatars/anneke-sinnema.png
     alt:

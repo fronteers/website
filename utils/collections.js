@@ -227,9 +227,9 @@ module.exports = {
       .reverse();
   },
 
-  published_posts_after_2024(collection) {
-    return collection
-      .getFilteredByTag("posts")
+  published_posts_after_2024(collection) { 
+      return collection.getAll()
+      .filter((post) => Boolean(post.data.title))
       .filter((post) => Boolean(!post.data.draft))
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date > new Date('2024-01-01')))

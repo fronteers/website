@@ -2,7 +2,7 @@
 layout: members-single.liquid
 title: Anneke Sinnema
 key: anneke-sinnema
-date: 2020-11-10
+date: 2024-12-28
 jobtitle: 'senior front-end developer'
 graphic:
     src: /assets/images/member-avatars/anneke-sinnema.png
