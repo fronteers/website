@@ -73,9 +73,10 @@
     {% elsif image %}
         <meta property="og:image" content="https://fronteers.nl{{ image }}">
     {% else %}
-        {% if tags contains 'posts' %}
+        {% assign postDate = page.date | date: "%Y-%m-%d" %}
+        {% if postDate > "2024-01-01" %}
             <meta property="og:image" content="{{ site.baseUrl }}/assets/images/social-preview-images/{{ page.date | postDate }}-{{ title | slug }}-preview-{{ locale }}.jpeg" />
-            <meta property="og:image:secure_url" content="{{ site.baseUrl }}/img/social-preview-images/{{ page.date | postDate }}-{{ title | slug }}-preview-{{ locale }}.jpeg" />
+            <meta property="og:image:secure_url" content="{{ site.baseUrl }}/assets/images/social-preview-images/{{ page.date | postDate }}-{{ title | slug }}-preview-{{ locale }}.jpeg" />
             <meta property="og:image:width" content="1200">
             <meta property="og:image:height" content="675">
         {% else %}
