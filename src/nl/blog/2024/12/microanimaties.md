@@ -1,6 +1,6 @@
 ---
 title: "It's all in the details: Microanimaties als kers op de taart"
-date: 2024-12-28
+date: 2024-12-30
 author: Anke Willems
 summary: "Voeg microanimaties toen aan je site om deze net dat beetje extra te geven."
 categories:

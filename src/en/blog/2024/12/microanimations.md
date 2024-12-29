@@ -1,6 +1,6 @@
 ---
 title: "It's all in the details: Micro animations as the icing on the cake"
-date: 2024-12-28
+date: 2024-12-30
 author: Anke Willems
 summary: "Add micro animations to your site to give it that little bit extra."
 categories:
