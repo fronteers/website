@@ -9,13 +9,13 @@ categories:
 
 Ik vond het enorm spannend om te beginnen aan mijn omscholing van marketeer naar front-end developer. Een omscholing starten is één, maar ook echt aan de slag gaan als front-end developer is toch wel even andere koek. In dit blog deel ik mijn eigen inzichten en geef ik tips over de weg naar de keuze toe voor de omscholing, de omscholing zelf en hoe je vervolgens een baan vindt.
 
-### Omscholen naar front-end development: waar begin je?
+## Omscholen naar front-end development: waar begin je?
 
 Als eerste is het belangrijk om uit te zoeken of front-end development echt goed bij je past. Mijn grootste tip: ga met front-enders praten. Je eigen beeld van het vak kan namelijk best anders zijn dan hoe het daadwerkelijk is. 
 
 Hoe kom je aan deze mensen? Word lid van de Fronteers Slack-groep en vraag daar of iemand ervaringen wil delen. LinkedIn is ook een ideale bron. Ik heb een aantal front-enders een berichtje gestuurd voor een online koffie met de vraag of ze over hun vak wilden praten. Ik kreeg geen enkele nee, en het is tegelijk ook goed voor je netwerk. Vragen zoals "Hoe ziet een werkdag eruit?", "Wat vind je tof aan je werk?", en "Wat vind je uitdagend aan je werk?" geven al een heel goed beeld van wat het vak inhoudt en of het bij jou past.
 
-### Kies een omscholingsroute die bij jou past
+## Kies een omscholingsroute die bij jou past
 
 Yes! Je bent een stap verder: je weet inmiddels dat het front-end vak een goede match is. Maar hoe nu verder? 
 
@@ -31,7 +31,7 @@ Ik ben bij Novi Hogeschool een omscholing gaan doen, ook al keek ik wel op tegen
 
 Inmiddels zijn er veel meer bedrijven die goede traineeships aanbieden. Voor mij gaf de studie me wat meer comfort om zonder bedrijfsdruk mezelf te ontwikkelen. Vraag vooral goed door bij een bedrijf: je komt er vanzelf achter of het een match is van beide kanten of dat je toch liever voor een losse studie kiest.
 
-### Hoe vind je je eerste baan als front-end developer?
+## Hoe vind je je eerste baan als front-end developer?
 Je hebt inmiddels bloed, zweet en tranen in je omscholing gestopt. Geloof me, het is echt bikkelen. Je moet het écht willen, en zelfs dan is het zwaar. Maar tegelijkertijd is het ook zo de moeite waard!
 
 Nu ben je toe aan de volgende stap: een heuse baan! Tijdens mijn studie maakte ik me daar best wel zorgen over. Ik kon me niet voorstellen dat een bedrijf iemand zou aannemen met zo weinig front-end werkervaring als ik.
@@ -45,13 +45,13 @@ Dit overweldigde me enorm, ik had dit niet verwacht. Dus hier twee tips:
 
 Ga niet, zoals ik, overal solliciteren. Dat maakt het alleen maar moeilijker om een keuze te maken. Vanuit verschillende bedrijven werd ook behoorlijk wat druk op mij gezet om snel een keuze te maken. Achteraf gezien zou ik hier meer tijd voor hebben willen nemen. Bedrijven willen je graag, dus als jij meer tijd nodig hebt, zeg dat gewoon en pak die tijd.
 
-### Conclusie: just do it
+## Conclusie: just do it
 
 Na alle tips, adviezen en ervaringen, een laatste raad: voelt het goed? Ga er gewoon voor. De IT biedt enorm veel mooie kansen. Er zijn genoeg toffe banen, veel doorgroeimogelijkheden, en je bent oprecht een waardevolle aanvulling als omscholer. Juist omdat je meer meeneemt dan iemand zonder eerdere werkervaring.
 
 Heel veel plezier en succes met je nieuwe carrière!
 
-_Handige bronnen:_
+### Handige bronnen
 - [Fronteers slack kanaal](https://www.fronteers.nl/nl/word-lid/community/), een hele toffe open community met front-enders
 - [Techgrounds](https://techgrounds.nl/), een verzameling van allerlei IT-omscholing studies bij jou in de buurt, je kan er een test vinden om te kijken of de IT bij je past en ze hebben zelfs ook een oriëntatie course waarin je kan ontdekken welk IT beroep matcht bij jou 
 - Ga eens langs op een open dag van [Novi Hogeschool](https://www.novi.nl/) of maak vrijblijvend een praatje met een studieadviseur. Afhankelijk van je situatie, kan je subsidies voor je studie krijgen en daar helpen ze je ook mee  
