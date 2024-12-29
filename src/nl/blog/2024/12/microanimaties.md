@@ -51,3 +51,9 @@ Er is nog een reden om je animaties klein te houden, hoeveel we ook houden van _
 ## Test!
 
 Maak gebruik van microanimaties om je site net dat beetje extra te geven. Wat leent zich bij jouw project voor wat extra beweging? Kijk vooral hoe andere websites het aanpakken, en wees niet bang om uit te proberen. Vraag mensen om je heen mee te kijken, want het goed timen van een animatie zodat deze natuurlijk aanvoelt kan best wat trial en error kosten. Begin klein, bouw langzaam uit naar andere elementen en bedenk dat het beter is een paar goede animaties te hebben, dan heel veel die net de plank misslaan. Enjoy!
+
+
+
+#### Een voorbeeld: De prachtige schermtransities in de NY Times Cooking app
+
+{% figure "/_img/blog/2024/12/microanimations/microanimations-nytimes.gif" "Een schermopname van de NYTimes Cooking app. De uitleg wordt geselecteerd en schuif van onderaf over de tekst heen. Als je op de tabbladen 'ingredients' en 'preparation' klikt, schuiven de bijbehorende pagina's van de zijkant naar binnen, vanaf rechts of vanaf links, afhankelijk van de tab. Bij het sluiten van de uitleg schuift deze naar beneden en bij het sluiten van het volledige recept schuift het het scherm uit om de onderliggende index te tonen" "De geanimeerde interactie op de (uitgebreide) NY Times Cooking app laat de bezoeker zien waar de verschillende onderdelen van het recept zich bevinden." %}

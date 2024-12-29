@@ -52,3 +52,10 @@ There is another reason to keep your animations small, as much as we love _scrol
 ## Test!
 
 Use micro animations to give your site that little bit extra. What lends itself to some extra movement in your project? Look at how other websites do it, and don't be afraid to try it out. Ask people around you to watch, because timing an animation well so that it feels natural can take quite a bit of trial and error. Start small, build out to other elements and remember that it is better to have a few good animations than a lot that just miss the mark. Enjoy!
+
+
+
+#### An example: The beautiful screen transitions on the NY Times Cooking app
+
+{% figure "/_img/blog/2024/12/microanimations/microanimations-nytimes.gif" "A screenrecording of the NYTimes cooking app. The recipe is selected, sliding in from below. When clicking the tabs 'ingredients' and 'preparation', the according pages slide in from the side of the tab, either right or left. On closing the recipe, the page slides down again, and closing the full recipe, it slides out of screen to reveal an index " "The animated interaction on the (rather large) NY Times cooking app makes sures the visitor knows where the various parts of the recipe live." %}
+
