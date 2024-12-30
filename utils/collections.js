@@ -211,7 +211,7 @@ module.exports = {
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date && new Date(post.date) > now))
       .filter((post) => Boolean(!post.data.parent))
-      .reverse();
+      .sort((a, b) => a.data.date - b.data.date);
   },
 
   published_posts_after_2024(collection) {

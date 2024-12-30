@@ -40,22 +40,14 @@
                             <td>
                                 <a href="{{ post.url }}">{{ post.data.title }}</a>
                             </td>
-                            <td>
+                            <td class="author">
                                 {{ post.data.author }}
                             </td>
                             <td>
                                 {%- if post.data.locale == "nl" -%}   
-                                    {%- if locale == "nl" -%} 
-                                        Nederlands
-                                    {%- else -%} 
-                                        Dutch
-                                    {%- endif -%}
+                                    NL
                                 {%- elsif post.data.locale == "en" -%} 
-                                    {%- if locale == "nl" -%} 
-                                        Engels    
-                                    {%- else -%} 
-                                        English
-                                    {%- endif -%}
+                                    EN
                                 {%- else -%}     
                                     {{ post.data.locale }}
                                 {%- endif -%}
