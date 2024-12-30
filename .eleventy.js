@@ -3,6 +3,7 @@ const glob = require("fast-glob");
 const { DateTime } = require("luxon");
 const fs = require("fs");
 const Image = require("@11ty/eleventy-img");
+const slugify = require('slugify');
 
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -249,6 +250,14 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(data, null, "\t");
   });
 
+  eleventyConfig.addFilter("customSlug", function (value) {
+    if (!value) return ""; // Handle null/undefined
+    return slugify(value, {
+      lower: true,
+      remove: /[^\w\s-]/g // Remove invalid characters
+    });
+  });
+  
   // https://www.11ty.dev/docs/permalinks/#remove-trailing-slashes
   // Dropping these normalizes the URls between sitemap.xml and canonical, which is important for indexing.
   eleventyConfig.addUrlTransform((page) => {
