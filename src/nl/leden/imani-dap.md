@@ -15,7 +15,7 @@ jobtitle: Software Developer
 employer: Bitfactory
 # Are you a freelancer? Fill this in or remove it
 freelancer: 
-    desc: Op dit moment pak ik voornamelijk klussen op voor een vaste set aan partners onder de naam 'Dreamy Elecrton'.
+    desc: Op dit moment pak ik voornamelijk klussen op voor een vaste set aan partners onder de naam 'Dreamy Electron'.
     availability: false
 # Are you open to employment? Fill this in or remove it
 # Adjust these specialties or add your own!
