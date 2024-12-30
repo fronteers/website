@@ -5,7 +5,7 @@ draft: false
 title: Kilian Valkhof
  # Maak van de key een unieke slug (je voor en achternaam bijvoorbeeld). Hiermee wordt de Nederlandse aan de Engelse versie van deze pagina gekoppeld.
 key: kilian-valkhof
-date: 2020-11-10
+date: 2024-11-10
  # Als je een afbeelding toevoegt, link dan hier naar de juiste plek:
 graphic:
     src: /assets/images/member-avatars/kilian-valkhof.jpg
