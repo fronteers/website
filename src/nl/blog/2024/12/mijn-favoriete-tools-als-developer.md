@@ -1,5 +1,5 @@
 ---
-title: Mijn favoriete tools als front-enddeveloper, Een compleet overzicht
+title: Mijn favoriete tools als front-enddeveloper, een compleet overzicht
 date: 2024-12-27 # jjjj - mm - dd
 author: Rosita
 summary: In deze blog deel ik mijn favoriete tools als front-enddeveloper, waaronder browsers, projectmanagement- en ontwikkelsoftware. Dit zijn de tools die mijn workflow ondersteunen en die ik dagelijks gebruik.

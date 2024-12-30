@@ -1,6 +1,6 @@
 ---
 title: WebXR - The React Way
-date: 2024-11-20
+date: 2024-12-25
 author: Ruben van der Leun
 summary: "Discover how to build immersive Virtual and Augmented Reality experiences using WebXR and React. It's easier than you think!"
 categories:

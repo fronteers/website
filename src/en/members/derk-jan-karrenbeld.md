@@ -1,7 +1,7 @@
 ---
 title: Derk-Jan Karrenbeld
 key: dj-karrenbeld
-date: 2020-11-10
+date: 2024-10-01
 graphic:
   src: /assets/images/member-avatars/dj-karrenbeld.jpg
   alt:
