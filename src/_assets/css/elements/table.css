@@ -74,3 +74,8 @@ tfoot th {
 table tbody tr:nth-child(2n + 1) {
   background-color: var(--lilac-light);
 }
+
+table time,
+table .author {
+  text-wrap-mode: nowrap;
+}
