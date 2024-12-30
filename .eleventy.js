@@ -250,13 +250,13 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(data, null, "\t");
   });
 
-  eleventyConfig.addFilter("customSlug", function (value) {
-    if (!value) return ""; // Handle null/undefined
-    return slugify(value, {
-      lower: true,
-      remove: /[^\w\s-]/g // Remove invalid characters
+    eleventyConfig.addFilter("customSlug", function (value) {
+        if (!value) return "fallback-title"; // Fallback for empty titles
+        return slugify(value, {
+            lower: true,                 // Convert to lowercase
+            remove: /[^\w\s-]/g          // Remove all non-word characters except spaces and dashes
+        }).replace(/\s+/g, '-');       // Replace spaces with dashes (extra safety)
     });
-  });
   
   // https://www.11ty.dev/docs/permalinks/#remove-trailing-slashes
   // Dropping these normalizes the URls between sitemap.xml and canonical, which is important for indexing.
