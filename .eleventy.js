@@ -2,8 +2,9 @@ const { exec } = require("child_process");
 const glob = require("fast-glob");
 const { DateTime } = require("luxon");
 const fs = require("fs");
-const Image = require("@11ty/eleventy-img");
+const puppeteer = require('puppeteer');
 const slugify = require('slugify');
+const path = require('path');
 
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -219,30 +220,62 @@ module.exports = function (eleventyConfig) {
     return lines;
   });
 
-  eleventyConfig.on('afterBuild', () => {
-    const socialPreviewImagesDir = "dist/assets/images/social-preview-images/";
-      fs.readdir(socialPreviewImagesDir, function (err, files) {
-          if (files.length > 0) {
-              files.forEach(function (filename) {
-                  if (filename.endsWith(".svg")) {
+  eleventyConfig.on('afterBuild', async () => {
+    async function convertSvgToJpeg(inputDir, outputDir) {
+      const browser = await puppeteer.launch();
+      const page = await browser.newPage();
 
-                      let imageUrl = socialPreviewImagesDir + filename;
-                      Image(imageUrl, {
-                          formats: ["jpeg"],
-                          outputDir: "./" + socialPreviewImagesDir,
-                          filenameFormat: function (id, src, width, format, options) {
+      // Read all files in the input directory
+      const files = fs.readdirSync(inputDir);
 
-                              let outputFilename = filename.substring(0, (filename.length - 4));
+      for (const filename of files) {
+        if (filename.endsWith(".svg")) {
+          const inputPath = path.join(inputDir, filename);
+          const outputPath = path.join(outputDir, filename.replace('.svg', '.jpg'));
 
-                              return `${outputFilename}.${format}`;
+          // Read the SVG content
+          const svgContent = fs.readFileSync(inputPath, 'utf8');
 
-                          }
-                      });
+          // Extract width and height from SVG (Optional: If SVG has explicit size)
+          const matchWidth = svgContent.match(/width="([0-9]+)"/);
+          const matchHeight = svgContent.match(/height="([0-9]+)"/);
 
-                  }
-              })
-          }
-      })
+          const width = matchWidth ? parseInt(matchWidth[1], 10) : 1200; // Default to 1200px
+          const height = matchHeight ? parseInt(matchHeight[1], 10) : 675; // Default to 630px
+
+          // Set the viewport size to match SVG size
+          await page.setViewport({ width, height });
+
+          // Set SVG content inside an HTML wrapper
+          await page.setContent(`
+                    <html>
+                        <body style="margin:0;padding:0;overflow:hidden;">
+                            <div style="width:${width}px; height:${height}px;">
+                                ${svgContent}
+                            </div>
+                        </body>
+                    </html>
+                `);
+
+          // Take a screenshot and save as JPEG
+          await page.screenshot({
+            path: outputPath,
+            type: 'jpeg',
+            quality: 100,
+            clip: { x: 0, y: 0, width, height } // Ensure clipping matches viewport
+          });
+
+          console.log(`Converted: ${filename} -> ${outputPath}`);
+        }
+      }
+
+      await browser.close();
+    }
+
+    // Execute conversion
+    const inputDir = 'dist/assets/images/social-preview-images/';
+    const outputDir = 'dist/assets/images/social-preview-images/';
+    await convertSvgToJpeg(inputDir, outputDir);
   });
 
   // Allows you to debug a json object in eleventy templates data | stringify
