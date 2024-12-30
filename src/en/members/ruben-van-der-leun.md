@@ -4,7 +4,7 @@ draft: true
 title: Ruben van der Leun
  # Make the key a unique slug (for example, your first and last name). This links the Dutch version to the English version of this page.
 key: ruben-van-der-leun
-date: 2020-12-21
+date: 2024-12-21
  # If you add an image, link it to the correct location here:
 graphic:
     src: /assets/images/member-avatars/ruben-van-der-leun.jpg
