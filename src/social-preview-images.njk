@@ -5,10 +5,31 @@ pagination:
   alias: preview
 permalink: "/assets/images/social-preview-images/{{ preview.data.date | postDate }}-{{ preview.data.title | customSlug }}-preview-{{ preview.data.locale }}.svg" 
 eleventyExcludeFromCollections: true
-
 ---
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="1200" height="628" viewBox="0 0 1200 628" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <style type="text/css">
+        @font-face {
+            font-family: 'Fabrik';
+            src: url('data:font/woff2;base64,{{ fonts.fabrik_normal }}') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Fabrik';
+            src: url('data:font/woff2;base64,{{ fonts.fabrik_bold }}') format('woff2');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        #text {
+            font-family: 'Fabrik', sans-serif;
+            font-size: 80px;
+            font-weight: bold;
+        }
+    </style>
 
     {% if preview.data.title != undefined %}
         {% set titleInLines = preview.data.title | splitlines %}
