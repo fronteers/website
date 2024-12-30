@@ -1,10 +1,11 @@
 ---
-title: Omscholen naar Front-End Developer - Tips van een ervaringsdeskundige
+title: 'Omscholen naar Front-End Developer - Tips van een ervaringsdeskundige'
 date: 2025-01-03 # jjjj - mm - dd
 author: Annemiek Nieboer
-summary: In dit blog deel ik mijn ervaringen als omscholer. Ik geef tips hoe je erachter komt of het front-end development vak wat voor voor je is, hoe je je omschoolt en hoe je aan je eerste baan als front-ender komt. 
+summary: 'In dit blog deel ik mijn ervaringen als omscholer. Ik geef tips hoe je erachter komt of het front-end development vak wat voor voor je is, hoe je je omschoolt en hoe je aan je eerste baan als front-ender komt. '
 categories:
   - Adventskalender
+key: advent-2024-annemiek
 ---
 
 Ik vond het enorm spannend om te beginnen aan mijn omscholing van marketeer naar front-end developer. Een omscholing starten is één, maar ook echt aan de slag gaan als front-end developer is toch wel even andere koek. In dit blog deel ik mijn eigen inzichten en geef ik tips over de weg naar de keuze toe voor de omscholing, de omscholing zelf en hoe je vervolgens een baan vindt.

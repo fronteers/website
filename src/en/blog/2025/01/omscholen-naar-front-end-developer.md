@@ -1,11 +1,11 @@
 ---
-title: Retraining to Front-End Developer - Tips from an experience expert
+title: 'Retraining to Front-End Developer - Tips from an experience expert'
 date: 2025-01-03 # jjjj - mm - dd
 author: Annemiek Nieboer
-summary: In this blog, I share my experiences as a career switcher. I provide tips on how to determine if front-end development is the right fit for you, how to reskill, and how to land your first job as a front-end developer.
-
+summary: 'In this blog, I share my experiences as a career switcher. I provide tips on how to determine if front-end development is the right fit for you, how to reskill, and how to land your first job as a front-end developer.'
 categories:
   - Advent calendar
+key: advent-2024-annemiek
 ---
 
 I was really nervous about starting my career switch from marketer to front-end developer. Starting a career switch is one thing, but actually working as a front-end developer is a whole different ball game. In this blog, I share my own insights and give tips on deciding to make the switch, the reskilling process itself, and how to land your first job as a front-end developer.
