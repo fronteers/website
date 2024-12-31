@@ -26,7 +26,7 @@ When you are stuck or want to get started on an issue but are not entirely sure 
 
 ## 🏗 Good first issues
 
-We have labelled issues that might be good first issues to help out with as [Good first issues](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+We have labeled issues that might be good first issues to help out with as [Good first issues](https://github.com/fronteers/website/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 These are usually issues that need help with styling.
 
 ## ✨ Challenging issues
@@ -93,7 +93,7 @@ If you haven't worked with it before, you will also need to [install Node.js and
 
 ## Step 4: Create a git branch to work on
 
-We'll make a branch, sort of a copy of the code where you save all your changes (`commits`). This helps keep all your changes in making a new component or a bugfix together. After you finish coding, you'll make a `pull-request`, which is essentially the expression we use for asking feedback of the team and permission to add your changes to the project.
+We'll make a branch, sort of a copy of the code where you save all your changes (`commits`). This helps keep all your changes in making a new component or a bugfix together. After you finish coding, you'll make a `pull-request`, which is essentially the expression we use for asking for feedback from the team and permission to add your changes to the project.
 
 ```bash
 git checkout -b [branch-name]
