@@ -1,6 +1,6 @@
 ---
 title: Voltooi jouw team
-date: 2024-12-24
+date: 2025-01-04
 author: Tim Severien
 summary: "Wanneer we naar code of naar websites kijken, kunnen we veel leren over de makers, hun prioriteiten, welke technieken er gebruikt zijn, en meer. Helaas kunnen we ook slordheden ontdekken. Daar hoef je geen ontwikkelaar voor te zijn, gezien reguliere gebruikers ook deze problemen ervaren. Test een aantal websites met Lighthouse, en we zien verschillende mankementen, vaak problemen met de laadsnelheid of toegankelijkheid. Waarom hebben zoveel websites dezelfde problemen?"
 categories:
