@@ -20,7 +20,7 @@ Met nog een vleugje CSS erbij, kun je het geheel nog mooier maken. Een skip to c
 
 Hoe ziet het er dan nu allemaal uit? Nou zo bijvoorbeeld!
 
-```
+```html
 <body>
   <a href="#main" class="skip-link">Skip to content</a>
   <header>
