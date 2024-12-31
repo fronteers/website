@@ -59,6 +59,8 @@
 
     {% if summary %}
         <meta name="description" content="{{ summary }}">
+    {% elsif content %}
+        <meta name="description" content="{{ content | strip_html | truncatewords: 60 | truncate: 150 }}">
     {% elsif translations[locale].metaDescription %}
         <meta name="description" content="{{ translations[locale].metaDescription }}">
     {% endif %}
