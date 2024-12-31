@@ -53,13 +53,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.ignores.add("src/nl/vereniging/bestuur/notulen");
   }
 
-  // Custom date filter
-  eleventyConfig.addFilter("localizedDate", function (dateObj, locale = "en") {
-    return DateTime.fromJSDate(dateObj)
-      .setLocale(locale)
-      .toFormat("d LLLL yyyy");
-  });
-
   /* Add id to heading elements */
   eleventyConfig.addPlugin(pluginAddIdToHeadings);
 
@@ -185,41 +178,6 @@ module.exports = function (eleventyConfig) {
       })
   );
 
-
-  eleventyConfig.addFilter("readablePostDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {
-      zone: "Europe/Amsterdam",
-    }).setLocale('en').toLocaleString(DateTime.DATE_FULL);
-  });
-
-  eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {
-      zone: "Europe/Amsterdam",
-    }).setLocale('en').toISODate();
-  });
-  
-  eleventyConfig.addFilter('splitlines', function (input) {
-    const parts = input.split(' ');
-    const lines = parts.reduce(function (prev, current) {
-
-      if (!prev.length) {
-        return [current];
-      }
-
-      let lastOne = prev[prev.length - 1];
-
-      if (lastOne.length + current.length > 23) {
-        return [...prev, current];
-      }
-
-      prev[prev.length - 1] = lastOne + ' ' + current;
-
-      return prev;
-    }, []);
-
-    return lines;
-  });
-
   eleventyConfig.on('afterBuild', async () => {
     async function convertSvgToJpeg(inputDir, outputDir) {
       const browser = await puppeteer.launch();
@@ -278,17 +236,6 @@ module.exports = function (eleventyConfig) {
     await convertSvgToJpeg(inputDir, outputDir);
   });
 
-  // Allows you to debug a json object in eleventy templates data | stringify
-  eleventyConfig.addFilter("stringify", (data) => {
-    return JSON.stringify(data, null, "\t");
-  });
-
-    eleventyConfig.addFilter("customSlug", function (value) {
-        if (!value) return "fallback-title"; // Fallback for empty titles
-        return slugify(value, {
-            lower: true,                 // Convert to lowercase
-            remove: /[^\w\s-]/g          // Remove all non-word characters except spaces and dashes
-        }).replace(/\s+/g, '-');       // Replace spaces with dashes (extra safety)
     });
   
   // https://www.11ty.dev/docs/permalinks/#remove-trailing-slashes
