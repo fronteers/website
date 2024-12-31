@@ -31,7 +31,7 @@ Hoe ziet het er dan nu allemaal uit? Nou zo bijvoorbeeld!
   </main>
 </body>
 ```
-```
+```css
 .skip-link {
   position: absolute;
   top: -50px;
