@@ -1,11 +1,11 @@
 ---
-Title: Next Level Development - My Journey Through Nextjs and the Discovery of V0
-Date: 2025-01-01
-Author: Rik van der Sar
-Summary: Nextjs is a full-stack solution for your web application, with server-side rendering through server components at its core. The Nextjs website offers a well-developed learning program to quickly acquire basic knowledge. From the creators of Nextjs and Vercel, there is now an AI chat interface called V0. With V0, you can create websites based on Nextjs in no time.
-Categories:
+title: 'Next Level Development - My Journey Through Nextjs and the Discovery of V0'
+date: 2025-01-01
+author: Rik van der Sar
+summary: 'Nextjs is a full-stack solution for your web application, with server-side rendering through server components at its core. The Nextjs website offers a well-developed learning program to quickly acquire basic knowledge. From the creators of Nextjs and Vercel, there is now an AI chat interface called V0. With V0, you can create websites based on Nextjs in no time.'
+categories:
   - Advent Calendar
-Key: next-level-development
+key: next-level-development
 ---
 
 Through my current project, I have become very enthusiastic about Nextjs. It is a full-stack React framework that allows you to create fast, robust websites. In this article, I briefly describe my learning path and share some fun tips to quickly get the hang of Nextjs. Additionally, I have a mega tip to create an entire website based on Nextjs in no time.
