@@ -12,8 +12,6 @@
 
             {%- if collections.unpublished_posts.size > 0 -%}
 
-                <p>{{ translations[locale].scheduled_something }}</p>
-
                 <table markdown="1">
                     <thead></thead>
                     <tbody>
@@ -76,13 +74,7 @@
                         </tr>
                         {%- endfor -%}
                     </tbody>
-                </table>
-
-            {%- else -%}
-                
-                <p>
-                    {{ translations[locale].scheduled_nothing }}
-                </p>
+                </table> 
 
             {%- endif -%}
             </div>
