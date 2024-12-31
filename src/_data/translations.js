@@ -98,7 +98,7 @@ module.exports = {
     scheduled_author: "Author",
     scheduled_pagetype: "Type",
     scheduled_something:
-      "Posts that are future-dated, and will be shared later:",
+      "Posts that are future-dated, and will be shared later.",
     scheduled_nothing: "Nothing to show here!",
     post: "Blog article",
     member: "Members profile",
@@ -204,7 +204,7 @@ module.exports = {
     scheduled_author: "Auteur",
     scheduled_pagetype: "Soort",
     scheduled_something:
-      "Pagina's die binnenkort publiekelijk zichtbaar worden:",
+      "Pagina's die binnenkort publiekelijk zichtbaar worden.",
     scheduled_nothing: "Hier is niets te zien!",
     post: "Blog",
     member: "Ledenprofiel",

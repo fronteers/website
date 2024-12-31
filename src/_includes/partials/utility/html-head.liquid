@@ -59,6 +59,8 @@
 
     {% if summary %}
         <meta name="description" content="{{ summary }}">
+    {% elsif content %}
+        <meta name="description" content="{{ content | strip_html | truncatewords: 60 | truncate: 150 }}">
     {% elsif translations[locale].metaDescription %}
         <meta name="description" content="{{ translations[locale].metaDescription }}">
     {% endif %}
@@ -73,8 +75,12 @@
     {% elsif image %}
         <meta property="og:image" content="https://fronteers.nl{{ image }}">
     {% else %}
-        {% assign postDate = page.date | date: "%Y-%m-%d" %}
-        {% if postDate > "2024-01-01" %}
+        {% assign frontmatterDate = collections.all | where: "inputPath", page.inputPath | map: "data" | map: "date" | first %}
+        {% assign hasExplicitDate = frontmatterDate != nil %}
+        {% assign comparisonDate = "2024-01-01" | date: "%s" %}
+        {% assign parsedPostDate = frontmatterDate | date: "%s" %}
+
+        {% if hasExplicitDate and parsedPostDate > comparisonDate %}
             <meta property="og:image" content="{{ site.baseUrl }}/assets/images/social-preview-images/{{ page.date | postDate }}-{{ title | customSlug }}-preview-{{ locale }}.jpg" />
             <meta property="og:image:secure_url" content="{{ site.baseUrl }}/assets/images/social-preview-images/{{ page.date | postDate }}-{{ title | customSlug }}-preview-{{ locale }}.jpg" />
             <meta property="og:image:width" content="1200">
