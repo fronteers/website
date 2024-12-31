@@ -1,6 +1,6 @@
 ---
 title: Complete your team
-date: 2024-12-24
+date: 2025-01-04
 author: Tim Severien
 summary: "When looking at codebases or web-based products, we can learn a lot about their authors, their priorities, which technologies were used, and more. Unfortunately, we can also identify skill gaps and afterthoughts. In fact, you don’t have to be a developer to spot these, as they regularly hinder regular usage. Run some websites through Lighthouse and we find a myriad of issues — often performance and accessibility-related. Why do so many websites have the same flaws?"
 categories:
@@ -10,7 +10,7 @@ key: advent-2024-tim
 
 If job openings are any indication of what an average web development team looks like, it seems the average team is skilled at JavaScript, or rather JavaScript frameworks, and a host of tools that come from the JavaScript ecosystem like React, TypeScript, Zod, GraphQL/tRPC, Prisma/Drizzle, and many more. Often, these developers are so caught up with these tools and skills, that they’re at best somewhat competent in technologies and concepts we used to consider fundamental, like HTML and CSS. These openings also rarely mention accessibility, front-end performance, search engine optimization, or basic security practices. Apparently, these are all afterthoughts.
 
-It’s clear that we, as an industry, build homogeneous — both technically and otherwise — teams with a lot of overlapping skills, leaving many essential skills to develop good software woefully absent. Consequently, many qualities are lacking in codebases whereas the JavaScript code is generally good or great. It’s sad the user won’t notice the neatness of our JavaScript, but will notice a poor [Time To Interactive](https://web.dev/articles/tti), a missing [skip link](#LINK_NAAR_JOSEE) when using a keyboard to navigate, or the announcement of dozens of ”click here“ links when requiring a screen reader.
+It’s clear that we, as an industry, build homogeneous — both technically and otherwise — teams with a lot of overlapping skills, leaving many essential skills to develop good software woefully absent. Consequently, many qualities are lacking in codebases whereas the JavaScript code is generally good or great. It’s sad the user won’t notice the neatness of our JavaScript, but will notice a poor [Time To Interactive](https://web.dev/articles/tti), a missing [skip link](https://www.fronteers.nl/nl/blog/2025/01/easy-a11y) when using a keyboard to navigate, or the announcement of dozens of ”click here“ links when requiring a screen reader.
 
 Just like a state-of-the-art high-end computer with a decade-old processor will suck ass, so will every website and web app where essentials are afterthoughts. To achieve quality, we must achieve quality across the board. We cannot do that with significant skill gaps. Teams without a good coverage of skills to meet what they’re supposed to deliver are incomplete.
 
