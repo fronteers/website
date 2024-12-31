@@ -178,65 +178,65 @@ module.exports = function (eleventyConfig) {
       })
   );
 
-  eleventyConfig.on('afterBuild', async () => {
-    async function convertSvgToJpeg(inputDir, outputDir) {
-      const browser = await puppeteer.launch();
-      const page = await browser.newPage();
+  if (!quick) {
+    eleventyConfig.on('afterBuild', async () => {
+      async function convertSvgToJpeg(inputDir, outputDir) {
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
 
-      // Read all files in the input directory
-      const files = fs.readdirSync(inputDir);
+        // Read all files in the input directory
+        const files = fs.readdirSync(inputDir);
 
-      for (const filename of files) {
-        if (filename.endsWith(".svg")) {
-          const inputPath = path.join(inputDir, filename);
-          const outputPath = path.join(outputDir, filename.replace('.svg', '.jpg'));
+        for (const filename of files) {
+          if (filename.endsWith(".svg")) {
+            const inputPath = path.join(inputDir, filename);
+            const outputPath = path.join(outputDir, filename.replace('.svg', '.jpg'));
 
-          // Read the SVG content
-          const svgContent = fs.readFileSync(inputPath, 'utf8');
+            // Read the SVG content
+            const svgContent = fs.readFileSync(inputPath, 'utf8');
 
-          // Extract width and height from SVG (Optional: If SVG has explicit size)
-          const matchWidth = svgContent.match(/width="([0-9]+)"/);
-          const matchHeight = svgContent.match(/height="([0-9]+)"/);
+            // Extract width and height from SVG (Optional: If SVG has explicit size)
+            const matchWidth = svgContent.match(/width="([0-9]+)"/);
+            const matchHeight = svgContent.match(/height="([0-9]+)"/);
 
-          const width = matchWidth ? parseInt(matchWidth[1], 10) : 1200; // Default to 1200px
-          const height = matchHeight ? parseInt(matchHeight[1], 10) : 675; // Default to 630px
+            const width = matchWidth ? parseInt(matchWidth[1], 10) : 1200; // Default to 1200px
+            const height = matchHeight ? parseInt(matchHeight[1], 10) : 675; // Default to 630px
 
-          // Set the viewport size to match SVG size
-          await page.setViewport({ width, height });
+            // Set the viewport size to match SVG size
+            await page.setViewport({ width, height });
 
-          // Set SVG content inside an HTML wrapper
-          await page.setContent(`
-                    <html>
-                        <body style="margin:0;padding:0;overflow:hidden;">
-                            <div style="width:${width}px; height:${height}px;">
-                                ${svgContent}
-                            </div>
-                        </body>
-                    </html>
-                `);
+            // Set SVG content inside an HTML wrapper
+            await page.setContent(`
+                      <html>
+                          <body style="margin:0;padding:0;overflow:hidden;">
+                              <div style="width:${width}px; height:${height}px;">
+                                  ${svgContent}
+                              </div>
+                          </body>
+                      </html>
+                  `);
 
-          // Take a screenshot and save as JPEG
-          await page.screenshot({
-            path: outputPath,
-            type: 'jpeg',
-            quality: 100,
-            clip: { x: 0, y: 0, width, height } // Ensure clipping matches viewport
-          });
+            // Take a screenshot and save as JPEG
+            await page.screenshot({
+              path: outputPath,
+              type: 'jpeg',
+              quality: 100,
+              clip: { x: 0, y: 0, width, height } // Ensure clipping matches viewport
+            });
 
-          console.log(`Converted: ${filename} -> ${outputPath}`);
+            console.log(`Converted: ${filename} -> ${outputPath}`);
+          }
         }
+
+        await browser.close();
       }
 
-      await browser.close();
-    }
-
-    // Execute conversion
-    const inputDir = 'dist/assets/images/social-preview-images/';
-    const outputDir = 'dist/assets/images/social-preview-images/';
-    await convertSvgToJpeg(inputDir, outputDir);
-  });
-
+      // Execute conversion
+      const inputDir = 'dist/assets/images/social-preview-images/';
+      const outputDir = 'dist/assets/images/social-preview-images/';
+      await convertSvgToJpeg(inputDir, outputDir);
     });
+  }
   
   // https://www.11ty.dev/docs/permalinks/#remove-trailing-slashes
   // Dropping these normalizes the URls between sitemap.xml and canonical, which is important for indexing.
