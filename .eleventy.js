@@ -1,10 +1,11 @@
 const { exec } = require("child_process");
 const glob = require("fast-glob");
 const { DateTime } = require("luxon");
+const slugify = require('slugify');
 const fs = require("fs");
 const puppeteer = require('puppeteer');
-const slugify = require('slugify');
 const path = require('path');
+require('dotenv').config(); // Load environment variables
 
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -150,6 +151,47 @@ module.exports = function (eleventyConfig) {
       eleventyConfig.addFilter(filterName, filter);
     }
   );
+
+  // Import listmonkUtilities
+  const listmonkUtils = require('./utils/listmonk.js');
+
+  eleventyConfig.on('afterBuild', async () => {
+    const postsDir = path.join(__dirname, 'src/nl/activiteiten'); // Root folder
+    const outputFile = path.join(__dirname, 'dist/latest-post.json'); // Output file
+
+    // Ensure output directory exists
+    if (!fs.existsSync(path.dirname(outputFile))) {
+      fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+    }
+
+    // Find all markdown files recursively
+    const files = await glob([`${postsDir}/**/*.md`]); // Traverse all subdirectories for .md files
+
+    // Parse files and extract front matter date
+    const filteredFiles = files
+      .filter(file => path.basename(file) !== 'index.md') // Exclude index.md
+      .map(file => {
+        const content = fs.readFileSync(file, 'utf-8'); // Read file content
+        const metadata = listmonkUtils.extractFrontMatter(content); // Extract front matter
+        const date = metadata.date ? new Date(metadata.date) : new Date(0); // Parse date or fallback
+        return { file, metadata, date }; // Store file data
+      })
+      .sort((a, b) => b.date - a.date); // Sort by date (most recent first)
+
+    if (filteredFiles.length > 0) {
+      const latestPost = filteredFiles[0]; // Get the most recent post
+      console.log('Latest Post Metadata:', latestPost.metadata); // Debugging log
+
+      // Write latest post metadata to JSON
+      fs.writeFileSync(outputFile, JSON.stringify(latestPost.metadata, null, 2));
+      console.log('Latest post JSON generated:', latestPost.metadata);
+
+      // Check and send campaign (you already have this function)
+      listmonkUtils.checkAndSendCampaign(latestPost.metadata);
+    } else {
+      console.log('No valid posts found.');
+    }
+  });
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
