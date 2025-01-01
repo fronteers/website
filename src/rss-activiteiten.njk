@@ -29,7 +29,7 @@
   {%- for post in collections.published_activities_nl %}
   {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}
   <entry>
-    <title>{{ post.data.title }}</title>
+    <title>{{ post.data.title }} - {% if post.data.location %}{{ post.data.location }}{% endif %}{% if post.data.eventdate %}{% if post.data.location %} - {% endif %}{{ post.data.eventdate | localizedDate('nl') }}{% endif %}</title>
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
