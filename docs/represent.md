@@ -1,8 +1,7 @@
 # Represent!
 
-As a member of Fronteers you have the perk available to you to make a profile for yourself on our website, showing off your availability as a freelancer, potential employee or as a mentor.
+As a member of Fronteers, you have the perk available to you to make a profile for yourself on our website, showing off your availability as a freelancer, potential employee, or mentor.
 How can you do this?
-
 
 1) Go to [the right folder](https://github.com/fronteers/website/blob/main/src/nl/leden/) either on Github or in your fork
 
