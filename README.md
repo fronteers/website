@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1fdae1b4-c878-46cf-8b3a-c417897bf9c8/deploy-status)](https://app.netlify.com/sites/fronteers/deploys)
+
 <a href="https://github.com/fronteers/website/blob/main/README-nl.md#fronteers-website" hreflang="nl" lang="nl">Lees de Nederlandse versie</a>
 
 # Fronteers website
