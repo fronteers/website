@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1fdae1b4-c878-46cf-8b3a-c417897bf9c8/deploy-status)](https://app.netlify.com/sites/fronteers/deploys)
+
 <a href="https://github.com/fronteers/website/blob/main/README.md#fronteers-website" hreflang="en" lang="en">Go to the English version</a>
 
 <div lang="nl">
@@ -50,10 +52,10 @@ Dit project is gelicentieerd onder de voorwaarden van de [MIT-licentie](LICENSE)
 
 RSS-feeds zijn beschikbaar via:
 
-| Feed       | Engels                                    | Nederlands                                  |
-| ---------- | ----------------------------------------- | ------------------------------------------- |
-| Blog       | https://fronteers.nl/feeds/blog-en.xml    | https://fronteers.nl/feeds/blog.xml         |
-| Vacatures  | https://fronteers.nl/feeds/jobs.xml       | https://fronteers.nl/feeds/vacatures.xml    |
+| Feed         | Engels                                    | Nederlands                                  |
+| ------------ | ----------------------------------------- | ------------------------------------------- |
+| Blog         | https://fronteers.nl/feeds/blog-en.xml    | https://fronteers.nl/feeds/blog.xml         |
+| Vacatures    | https://fronteers.nl/feeds/jobs.xml       | https://fronteers.nl/feeds/vacatures.xml    |
 | Activiteiten | https://fronteers.nl/feeds/activities.xml | https://fronteers.nl/feeds/activiteiten.xml |
 
 </div>
