@@ -4,7 +4,7 @@ date: 2024-12-25
 author: Ruben van der Leun
 summary: "Discover how to build immersive Virtual and Augmented Reality experiences using WebXR and React. It's easier than you think!"
 categories:
-    - Adventskalender
+    - Advent Calendar
 key: advent-2024-rvdleun
 ---
 It's December again, and so are the holidays. Personally, I’m hoping that some Virtual Reality headsets have made their way under the Christmas tree this year. As a developer, you might be thinking about creating your own immersive experiences. If you’ve searched for tutorials, you’ve probably found plenty about Unity or Unreal—tools that might feel unfamiliar if your background is in web development.

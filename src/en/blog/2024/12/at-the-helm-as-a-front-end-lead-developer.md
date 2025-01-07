@@ -4,7 +4,7 @@ date: 2024-12-29
 author: Arjan Eising
 summary: What does it take to be a front-end lead developer? An overview, personal experiences, tips, and tricks.
 categories:
-  - Advent calender
+  - Advent Calendar
 key: advent-2024-arjan
 ---
 
