@@ -15,4 +15,4 @@ We zoeken mensen die ons willen helpen een meetup te organiseren. Dat kan op ver
 
 Dit betekent dat je dus nooit in je eentje verantwoordelijk bent voor de organisatie, er zijn altijd verschillende mensen die je helpen en aan wie je vragen kunt stellen. Hierbij is veel ruimte voor eigen inbreng als je dat wil. 
 
-Spreekt een van deze rollen je aan? Geweldig! Neem dan snel contact met ons op. [E-mail de marketingcommissie](marketing@fronteers.nl) of tag ons in [Slack](https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog) met @marketing ! 
+Spreekt een van deze rollen je aan? Geweldig! Neem dan snel contact met ons op. [E-mail de marketingcommissie](mailto:marketing@fronteers.nl) of tag ons in [Slack](https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog) met @marketing ! 
