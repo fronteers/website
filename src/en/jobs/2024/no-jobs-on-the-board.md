@@ -6,6 +6,5 @@ layout: jobs-single.liquid
 author: Anneke Sinnema
 backgroundcolor: skyblue
 summary: No vacancies
-published: false
+draft: true
 ---
-

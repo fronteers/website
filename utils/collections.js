@@ -1,103 +1,110 @@
-const { strToSlug, getAllKeyValues } = require('./helpers');
+const { strToSlug, getAllKeyValues } = require("./helpers");
 
 const now = new Date();
 
 function published_posts(locale) {
-  return (collection) => collection
-    .getFilteredByTag("posts")
-    .filter((post) => Boolean(!post.data.draft))
-    .filter((post) => Boolean(!post.data.excludeFromCollection))
-    .filter((post) => Boolean(post.date <= now))
-    .filter((post) => Boolean(!post.data.parent))
-    .filter((post) => Boolean(post.data.locale == locale))
-    .reverse();
-};
+  return (collection) =>
+    collection
+      .getFilteredByTag("posts")
+      .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.parent))
+      .filter((post) => Boolean(post.data.locale == locale))
+      .reverse();
+}
 
 function unpublished_posts(locale) {
-    return (collection) => collection
-        .getFilteredByTag("posts")
-        .filter((post) => !post.data.excludeFromCollection) // Exclude marked posts
-        .filter((post) => post.date && new Date(post.date) > now) // Future-dated posts
-        .filter((post) => !post.data.parent) // Exclude parent posts
-        .filter((post) => post.data.locale === locale) // Match locale
-        .reverse(); // Reverse order
+  return (collection) =>
+    collection
+      .getFilteredByTag("posts")
+      .filter((post) => !post.data.excludeFromCollection) // Exclude marked posts
+      .filter((post) => post.date && new Date(post.date) > now) // Future-dated posts
+      .filter((post) => !post.data.parent) // Exclude parent posts
+      .filter((post) => post.data.locale === locale) // Match locale
+      .reverse(); // Reverse order
 }
 
 function published_activities(locale) {
-  return (collection) => collection
-    .getFilteredByTag("activities")
-    .filter((post) => Boolean(!post.data.draft))
-    .filter((post) => Boolean(!post.data.excludeFromCollection))
-    .filter((post) => Boolean(post.date <= now))
-    .filter((post) => Boolean(!post.data.parent))
-    .filter((post) => Boolean(post.data.locale == locale))
-    .sort((a, b) => b.data.eventdate - a.data.eventdate);
-};
+  return (collection) =>
+    collection
+      .getFilteredByTag("activities")
+      .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.parent))
+      .filter((post) => Boolean(post.data.locale == locale))
+      .sort((a, b) => b.data.eventdate - a.data.eventdate);
+}
 
 function published_jobs(locale) {
-  return (collection) => collection
-    .getFilteredByTag("jobs")
-    .filter((post) => Boolean(!post.data.draft))
-    .filter((post) => Boolean(!post.data.excludeFromCollection))
-    .filter((post) => Boolean(post.data.title != "Mentors"))
-    .filter((post) => Boolean(post.data.title != "Freelancers"))
-    .filter((post) => Boolean(!post.data.excludeFromCollection))
-    .filter((post) => Boolean(post.date <= now))
-    .filter((post) => Boolean(!post.data.parent))
-    .filter((post) => Boolean(post.data.locale == locale))
-    .reverse();
-};
+  return (collection) =>
+    collection
+      .getFilteredByTag("jobs")
+      .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.data.title != "Mentors"))
+      .filter((post) => Boolean(post.data.title != "Freelancers"))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.parent))
+      .filter((post) => Boolean(post.data.locale == locale))
+      .reverse();
+}
 
 function freelancers(locale) {
-  return (collection) => collection
-    .getFilteredByTag("members")
-    .filter((post) => Boolean(post.date <= now))
-    .filter((post) => Boolean(!post.data.excludeFromCollection))
-    .filter((post) => Boolean(post.data.freelancer))
-    .filter((post) => Boolean(post.data.locale == locale))
-    .filter((post) => Boolean(!post.data.draft));
-};
+  return (collection) =>
+    collection
+      .getFilteredByTag("members")
+      .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.data.freelancer))
+      .filter((post) => Boolean(post.data.locale == locale))
+      .filter((post) => Boolean(!post.data.draft));
+}
 
 function mentors(locale) {
-  return (collection) => collection
-    .getFilteredByTag("members")
-    .filter((post) => Boolean(post.date <= now))
-    .filter((post) => Boolean(!post.data.excludeFromCollection))
-    .filter((post) => Boolean(post.data.mentor))
-    .filter((post) => Boolean(post.data.locale == locale))
-    .filter((post) => Boolean(!post.data.draft));
-};
+  return (collection) =>
+    collection
+      .getFilteredByTag("members")
+      .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.data.mentor))
+      .filter((post) => Boolean(post.data.locale == locale))
+      .filter((post) => Boolean(!post.data.draft));
+}
 
 function published_members(locale) {
-  return collection => collection
-    .getFilteredByTag("members")
-    .filter((post) => Boolean(post.date <= now))
-    .filter((post) => Boolean(!post.data.draft))
-    .filter((post) => Boolean(!post.data.excludeFromCollection))
-    .filter((post) => Boolean(post.data.locale == locale))
-    .sort(() => Math.random() - 0.5);
-};
+  return (collection) =>
+    collection
+      .getFilteredByTag("members")
+      .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.data.locale == locale))
+      .sort(() => Math.random() - 0.5);
+}
 
 function activity_categories(locale) {
-  return collection => {
+  return (collection) => {
     const allCategories = getAllKeyValues(
-        collection
-          .getFilteredByTag("activities")
-          .filter((post) => Boolean(!post.data.excludeFromCollection))
-          .filter((post) => Boolean(post.data.locale === locale))
-          .filter((post) => Boolean(!post.data.draft)),
-        "categories"
-    )
-    
+      collection
+        .getFilteredByTag("activities")
+        .filter((post) => Boolean(!post.data.excludeFromCollection))
+        .filter((post) => Boolean(post.data.locale === locale))
+        .filter((post) => Boolean(!post.data.draft)),
+      "categories"
+    );
+
     return allCategories.map((category) => ({
       title: category,
       slug: strToSlug(category),
-    }))
-  }
-};
+    }));
+  };
+}
 
 function blog_categories(locale) {
-  return collection => {
+  return (collection) => {
     const allCategories = getAllKeyValues(
       collection
         .getFilteredByTag("posts")
@@ -106,32 +113,33 @@ function blog_categories(locale) {
         .filter((post) => Boolean(post.data.locale === locale))
         .filter((post) => Boolean(!post.data.draft)),
       "categories"
-    )
-  
+    );
+
     return allCategories.map((category) => ({
       title: category,
       slug: strToSlug(category),
-    }))
-  }
-};
+    }));
+  };
+}
 
 function job_categories(locale) {
-  return collection => {
+  return (collection) => {
     const allCategories = getAllKeyValues(
-      collection.getFilteredByTag("jobs")
+      collection
+        .getFilteredByTag("jobs")
         .filter((post) => Boolean(post.data.locale === locale)),
       "categories"
-    )
-  
+    );
+
     return allCategories.map((category) => ({
       title: category,
       slug: strToSlug(category),
-    }))
-  }
-};
+    }));
+  };
+}
 
 function categorised_activities(locale) {
-  const categorisedActivities = {}
+  const categorisedActivities = {};
 
   return (collection) => {
     //get published activities
@@ -145,33 +153,29 @@ function categorised_activities(locale) {
       .sort((a, b) => b.data.eventdate - a.data.eventdate);
 
     //loop through published activities and create collections per category
-    allActivities.forEach(item => {
+    allActivities.forEach((item) => {
       let categorySet = item.data.categories;
 
-      if(categorySet) {
-        
+      if (categorySet) {
         for (const category of categorySet) {
           // Ignore the ones without a category
-          if (typeof category !== "string")
-          return
-  
-          const slug = strToSlug(category)
-  
-          if (Array.isArray(categorisedActivities[slug])) {   
+          if (typeof category !== "string") return;
+
+          const slug = strToSlug(category);
+
+          if (Array.isArray(categorisedActivities[slug])) {
             //  category array exists? Just push
-            categorisedActivities[slug].push(item)
+            categorisedActivities[slug].push(item);
           } else {
             //  Otherwise create it and make the `item` the first item.
-            categorisedActivities[slug] = [item]
+            categorisedActivities[slug] = [item];
           }
-          
         }
       }
-      
-    })
+    });
 
     return categorisedActivities;
-  } 
+  };
 }
 
 module.exports = {
@@ -207,7 +211,8 @@ module.exports = {
   },
 
   unpublished_posts(collection) {
-      return collection.getAll()
+    return collection
+      .getAll()
       .filter((post) => Boolean(!post.data.draft))
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date && new Date(post.date) > now))
@@ -216,11 +221,15 @@ module.exports = {
   },
 
   published_posts_after_2024(collection) {
-    return collection.getAll()
-    .filter((post) => post.data.title)
-    .filter((post) => !post.data.draft) 
-    .filter((post) => !post.data.excludeFromCollection) 
-    .filter((post) => post.data.date && (new Date(post.data.date) > new Date('2024-01-01'))) 
+    return collection
+      .getAll()
+      .filter((post) => post.data.title)
+      .filter((post) => !post.data.draft)
+      .filter((post) => !post.data.excludeFromCollection)
+      .filter(
+        (post) =>
+          post.data.date && new Date(post.data.date) > new Date("2024-01-01")
+      );
   },
 
   published_posts(collection) {
@@ -268,33 +277,32 @@ module.exports = {
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(post.data.freelancer))
       .filter((post) => Boolean(!post.data.draft));
-    },
-  
+  },
 
   mentors(collection) {
-      return collection
-          .getFilteredByTag("members")
-          .filter((post) => Boolean(!post.data.excludeFromCollection))
-          .filter((post) => Boolean(post.date <= now))
-          .filter((post) => Boolean(post.data.mentor))
-          .filter((post) => Boolean(!post.data.draft));
+    return collection
+      .getFilteredByTag("members")
+      .filter((post) => Boolean(!post.data.excludeFromCollection))
+      .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(post.data.mentor))
+      .filter((post) => Boolean(!post.data.draft));
   },
 
   drafts(collection) {
     return collection.getAll().filter((post) => Boolean(post.data.draft));
-  }, 
+  },
 
   memberSpecialties(collection) {
     const allSpecialties = getAllKeyValues(
       collection
         .getFilteredByTag("members")
         .filter((post) => Boolean(post.data.freelancer)),
-        "specialties"
+      "specialties"
     );
 
     return allSpecialties.map((category) => ({
       title: category,
       slug: strToSlug(category),
     }));
-  }
-}
+  },
+};
