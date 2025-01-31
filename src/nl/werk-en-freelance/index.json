@@ -7,6 +7,7 @@
     "data": "collections.published_jobs_nl",
     "size": "5",
     "reversed": true,
-    "alias": "paginated_jobs"
+    "alias": "paginated_jobs",
+    "generatePageOnEmptyData": true
   }
 }
