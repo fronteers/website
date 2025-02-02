@@ -62,6 +62,8 @@
         "defaults"
     ],
     "dependencies": {
-        "luxon": "^3.5.0"
+        "dotenv": "^16.4.7",
+        "luxon": "^3.5.0",
+        "marked": "^15.0.4"
     }
 }
