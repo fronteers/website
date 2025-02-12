@@ -5,7 +5,7 @@
     padding: 0.5em 1em;
     margin: 0 1em;
     background: var(--lilac-light);
-    font-size: var(--font-size-12);
+    /* font-size: var(--font-size-12); */
 }
 
 /* Angled tags, like with < and > */
@@ -26,6 +26,6 @@
     clip-path: url(#button-curly-braces);
 }
 
-.tag:not(.token) + .tag:not(.token) {
+.tag:not(.token)+.tag:not(.token) {
     margin-inline-start: 2em;
 }

@@ -6,7 +6,7 @@
 @media all and (min-width: 31.25rem) {
   .proud-members .desktop-columns {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-gap: var(--spacing);
     margin-block-end: 0;
   }
