@@ -12,6 +12,7 @@ heroSlogan: ""
 - De te plaatsen vacature betreft (front-end) web development;
 - Wij accepteren vacatures voor zowel vaste dienstverbanden als freelance opdrachten;
 - De vacature moet altijd de naam bevatten van het uiteindelijke bedrijf waar de werkzoekende terecht komt;
+- Wij raden sterk aan om duidelijke salarisindicaties in de vacature op te nemen;
 - Wij behouden ons het recht voor om vacatures te weigeren zonder opgaaf van redenen;
 - Wij houden geen statistieken bij van de vacatures wat betreft het aantal views.
 
