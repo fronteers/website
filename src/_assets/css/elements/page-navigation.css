@@ -38,6 +38,7 @@
     color: white;
     text-decoration: none;
     padding: var(--spacing-half);
+    padding-right: 0;
     display: block;
 }
 
