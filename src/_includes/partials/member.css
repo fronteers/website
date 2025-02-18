@@ -47,9 +47,17 @@
 }
 
 .member-content .tag {
-    margin-block-end: var(--spacing-half);
     text-align: center;
     width: max-content;
+    margin: 0;
+}
+
+.member-content .tag:not(.token) {
+    margin: 0;
+}
+
+.member-content .tag:not(.token)+.tag:not(.token) {
+    margin-inline-start: 0;
 }
 
 .backlinks {
@@ -57,7 +65,7 @@
     text-align: center;
 }
 
-.has-profile:has(a) ~ .has-no-profile {
+.has-profile:has(a)~.has-no-profile {
     display: none;
 }
 
@@ -68,10 +76,8 @@
 }
 
 .member-specialties {
-    display: grid;
-    grid-auto-flow: dense;
-    grid-template-columns: max-content min-content;
-    place-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
