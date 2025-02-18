@@ -11,6 +11,7 @@ excludeFromCollection: true
 - The vacancy to be posted concerns (front-end) web development;
 - We accept vacancies for both permanent employment and freelance assignments;
 - The vacancy must always contain the name of the ultimate company where the job seeker will end up;
+- We strongly recommend including clear salary indications in the vacancy;
 - We reserve the right to refuse vacancies without giving reasons;
 - We do not keep statistics of the vacancies regarding the number of views.
 
