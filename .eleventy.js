@@ -1,10 +1,11 @@
 const { exec } = require("child_process");
 const glob = require("fast-glob");
 const { DateTime } = require("luxon");
+const slugify = require('slugify');
 const fs = require("fs");
 const puppeteer = require('puppeteer');
-const slugify = require('slugify');
 const path = require('path');
+require('dotenv').config(); // Load environment variables
 
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -52,13 +53,6 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.ignores.add("src/nl/vereniging/bestuur/notulen");
   }
-
-  // Custom date filter
-  eleventyConfig.addFilter("localizedDate", function (dateObj, locale = "en") {
-    return DateTime.fromJSDate(dateObj)
-      .setLocale(locale)
-      .toFormat("d LLLL yyyy");
-  });
 
   /* Add id to heading elements */
   eleventyConfig.addPlugin(pluginAddIdToHeadings);
@@ -158,6 +152,47 @@ module.exports = function (eleventyConfig) {
     }
   );
 
+  // Import listmonkUtilities
+  const listmonkUtils = require('./utils/listmonk.js');
+
+  eleventyConfig.on('afterBuild', async () => {
+    const postsDir = path.join(__dirname, 'src/nl/activiteiten'); // Root folder
+    const outputFile = path.join(__dirname, 'dist/latest-post.json'); // Output file
+
+    // Ensure output directory exists
+    if (!fs.existsSync(path.dirname(outputFile))) {
+      fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+    }
+
+    // Find all markdown files recursively
+    const files = await glob([`${postsDir}/**/*.md`]); // Traverse all subdirectories for .md files
+
+    // Parse files and extract front matter date
+    const filteredFiles = files
+      .filter(file => path.basename(file) !== 'index.md') // Exclude index.md
+      .map(file => {
+        const content = fs.readFileSync(file, 'utf-8'); // Read file content
+        const metadata = listmonkUtils.extractFrontMatter(content); // Extract front matter
+        const date = metadata.date ? new Date(metadata.date) : new Date(0); // Parse date or fallback
+        return { file, metadata, date }; // Store file data
+      })
+      .sort((a, b) => b.date - a.date); // Sort by date (most recent first)
+
+    if (filteredFiles.length > 0) {
+      const latestPost = filteredFiles[0]; // Get the most recent post
+      console.log('Latest Post Metadata:', latestPost.metadata); // Debugging log
+
+      // Write latest post metadata to JSON
+      fs.writeFileSync(outputFile, JSON.stringify(latestPost.metadata, null, 2));
+      console.log('Latest post JSON generated:', latestPost.metadata);
+
+      // Check and send campaign (you already have this function)
+      listmonkUtils.checkAndSendCampaign(latestPost.metadata);
+    } else {
+      console.log('No valid posts found.');
+    }
+  });
+
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
     strictFilters: false,
@@ -185,111 +220,65 @@ module.exports = function (eleventyConfig) {
       })
   );
 
+  if (!quick) {
+    eleventyConfig.on('afterBuild', async () => {
+      async function convertSvgToJpeg(inputDir, outputDir) {
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
 
-  eleventyConfig.addFilter("readablePostDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {
-      zone: "Europe/Amsterdam",
-    }).setLocale('en').toLocaleString(DateTime.DATE_FULL);
-  });
+        // Read all files in the input directory
+        const files = fs.readdirSync(inputDir);
 
-  eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {
-      zone: "Europe/Amsterdam",
-    }).setLocale('en').toISODate();
-  });
-  
-  eleventyConfig.addFilter('splitlines', function (input) {
-    const parts = input.split(' ');
-    const lines = parts.reduce(function (prev, current) {
+        for (const filename of files) {
+          if (filename.endsWith(".svg")) {
+            const inputPath = path.join(inputDir, filename);
+            const outputPath = path.join(outputDir, filename.replace('.svg', '.jpg'));
 
-      if (!prev.length) {
-        return [current];
-      }
+            // Read the SVG content
+            const svgContent = fs.readFileSync(inputPath, 'utf8');
 
-      let lastOne = prev[prev.length - 1];
+            // Extract width and height from SVG (Optional: If SVG has explicit size)
+            const matchWidth = svgContent.match(/width="([0-9]+)"/);
+            const matchHeight = svgContent.match(/height="([0-9]+)"/);
 
-      if (lastOne.length + current.length > 23) {
-        return [...prev, current];
-      }
+            const width = matchWidth ? parseInt(matchWidth[1], 10) : 1200; // Default to 1200px
+            const height = matchHeight ? parseInt(matchHeight[1], 10) : 675; // Default to 630px
 
-      prev[prev.length - 1] = lastOne + ' ' + current;
+            // Set the viewport size to match SVG size
+            await page.setViewport({ width, height });
 
-      return prev;
-    }, []);
+            // Set SVG content inside an HTML wrapper
+            await page.setContent(`
+                      <html>
+                          <body style="margin:0;padding:0;overflow:hidden;">
+                              <div style="width:${width}px; height:${height}px;">
+                                  ${svgContent}
+                              </div>
+                          </body>
+                      </html>
+                  `);
 
-    return lines;
-  });
+            // Take a screenshot and save as JPEG
+            await page.screenshot({
+              path: outputPath,
+              type: 'jpeg',
+              quality: 100,
+              clip: { x: 0, y: 0, width, height } // Ensure clipping matches viewport
+            });
 
-  eleventyConfig.on('afterBuild', async () => {
-    async function convertSvgToJpeg(inputDir, outputDir) {
-      const browser = await puppeteer.launch();
-      const page = await browser.newPage();
-
-      // Read all files in the input directory
-      const files = fs.readdirSync(inputDir);
-
-      for (const filename of files) {
-        if (filename.endsWith(".svg")) {
-          const inputPath = path.join(inputDir, filename);
-          const outputPath = path.join(outputDir, filename.replace('.svg', '.jpg'));
-
-          // Read the SVG content
-          const svgContent = fs.readFileSync(inputPath, 'utf8');
-
-          // Extract width and height from SVG (Optional: If SVG has explicit size)
-          const matchWidth = svgContent.match(/width="([0-9]+)"/);
-          const matchHeight = svgContent.match(/height="([0-9]+)"/);
-
-          const width = matchWidth ? parseInt(matchWidth[1], 10) : 1200; // Default to 1200px
-          const height = matchHeight ? parseInt(matchHeight[1], 10) : 675; // Default to 630px
-
-          // Set the viewport size to match SVG size
-          await page.setViewport({ width, height });
-
-          // Set SVG content inside an HTML wrapper
-          await page.setContent(`
-                    <html>
-                        <body style="margin:0;padding:0;overflow:hidden;">
-                            <div style="width:${width}px; height:${height}px;">
-                                ${svgContent}
-                            </div>
-                        </body>
-                    </html>
-                `);
-
-          // Take a screenshot and save as JPEG
-          await page.screenshot({
-            path: outputPath,
-            type: 'jpeg',
-            quality: 100,
-            clip: { x: 0, y: 0, width, height } // Ensure clipping matches viewport
-          });
-
-          console.log(`Converted: ${filename} -> ${outputPath}`);
+            console.log(`Converted: ${filename} -> ${outputPath}`);
+          }
         }
+
+        await browser.close();
       }
 
-      await browser.close();
-    }
-
-    // Execute conversion
-    const inputDir = 'dist/assets/images/social-preview-images/';
-    const outputDir = 'dist/assets/images/social-preview-images/';
-    await convertSvgToJpeg(inputDir, outputDir);
-  });
-
-  // Allows you to debug a json object in eleventy templates data | stringify
-  eleventyConfig.addFilter("stringify", (data) => {
-    return JSON.stringify(data, null, "\t");
-  });
-
-    eleventyConfig.addFilter("customSlug", function (value) {
-        if (!value) return "fallback-title"; // Fallback for empty titles
-        return slugify(value, {
-            lower: true,                 // Convert to lowercase
-            remove: /[^\w\s-]/g          // Remove all non-word characters except spaces and dashes
-        }).replace(/\s+/g, '-');       // Replace spaces with dashes (extra safety)
+      // Execute conversion
+      const inputDir = 'dist/assets/images/social-preview-images/';
+      const outputDir = 'dist/assets/images/social-preview-images/';
+      await convertSvgToJpeg(inputDir, outputDir);
     });
+  }
   
   // https://www.11ty.dev/docs/permalinks/#remove-trailing-slashes
   // Dropping these normalizes the URls between sitemap.xml and canonical, which is important for indexing.
