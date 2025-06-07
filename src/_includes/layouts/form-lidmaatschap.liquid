@@ -21,19 +21,19 @@
 					<legend>Jouw gegevens</legend>
 					<p>
 					<label for="naam">Naam <em>voor- en achternaam, vereist</em></label>
-					<input type="text" class="text" name="naam" id="naam" required>
+					<input type="text" class="text" name="naam" id="naam" autocomplete="name" required>
 					</p>
 					<p>
 					<label for="adres">Adres <em>dient je persoonlijke adres te zijn, vereist</em></label>
-					<textarea name="adres" id="adres" cols="60" rows="5" class="small" required></textarea>
+					<textarea name="adres" id="adres" cols="60" rows="5" class="small" autocomplete="street-address" required></textarea>
 					</p>
 					<p>
 					<label for="email">E-mailadres <em>vereist</em></label>
-					<input type="email" class="text email" name="email" id="email" required>
+					<input type="email" class="text email" name="email" id="email" autocomplete="email" required>
 					</p>
 					<p class="form-inline">
 					<label for="telefoon">Telefoonnummer</label>
-					<input type="text" class="text" name="telefoon" id="telefoon" inputmode="tel">
+					<input type="text" class="text" name="telefoon" id="telefoon" inputmode="tel" autocomplete="tel">
 					</p>
 					<p>
 					<label for="werkgever">Werkgever <em>we sturen de factuur niet naar je werkgever; je bent persoonlijk lid</em></label>
