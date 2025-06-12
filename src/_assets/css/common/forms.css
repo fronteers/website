@@ -72,3 +72,9 @@ form p.submit {
   text-align: center;
   margin-top: var(--spacing-double);
 }
+
+form select {
+  width: 100%;
+  padding: 10px;
+  font-size: inherit;
+}
