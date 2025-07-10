@@ -16,18 +16,25 @@
 
 			{{ content }}
 
-			<form action="/nl/word-lid/gelukt" method="post" id="formulier-lidmaatschap" netlify-honeypot="bot-field"  netlify>
+			<form action="/nl/word-lid/gelukt" method="post" id="formulier-lidmaatschap" netlify-honeypot="bot-field" netlify>
 				<fieldset>
 					<legend>Jouw gegevens</legend>
+          
 					<p>
 					<label for="naam">Naam <em>voor- en achternaam, vereist</em></label>
 					<input type="text" class="text" name="naam" id="naam" autocomplete="name" required>
+					</p>
+          
+					<p>
+					<label for="address">Adres <em>dient je persoonlijke adres te zijn, vereist</em></label>
+					<textarea name="address" id="address" cols="60" rows="5" class="small" required></textarea>
 					</p>
 
           <p class="form-element">
             <label for="form-1-input-5" class="form-label">Adres <em>dient je persoonlijke adres te zijn, vereist</em></label>
             <input type="text" id="form-1-input-5" name="address1" autocomplete="address-line1">
           </p>
+          
           <p>
             <input type="text" id="form-1-input-6" name="address2" autocomplete="address-line2">
           </p>
