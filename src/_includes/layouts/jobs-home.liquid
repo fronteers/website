@@ -1,12 +1,12 @@
 {%- include partials/utility/html-head -%}
 <body data-layout="jobs-home">
-    
+
     {%- include partials/page-header/_page-header -%}
 
     <main id="main" class="{% if useHero %}styledheader{% endif %}">
         {%- pagehero 'jobs' title content -%}
 
-        {% if pagination.items > 0 %}
+        {% if pagination.items.length > 0 %}
             <div class="inner-wrapper">
                 {%- include partials/utility/dynamic-category-loop level: "h3" type: "job" typeURL: translations[locale].jobsURL -%}
 

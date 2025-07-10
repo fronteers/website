@@ -4,7 +4,7 @@ date: 2025-01-04
 author: Tim Severien
 summary: "When looking at codebases or web-based products, we can learn a lot about their authors, their priorities, which technologies were used, and more. Unfortunately, we can also identify skill gaps and afterthoughts. In fact, you don’t have to be a developer to spot these, as they regularly hinder regular usage. Run some websites through Lighthouse and we find a myriad of issues — often performance and accessibility-related. Why do so many websites have the same flaws?"
 categories:
-  - Adventcalendar
+  - Advent Calendar
 key: advent-2024-tim
 ---
 

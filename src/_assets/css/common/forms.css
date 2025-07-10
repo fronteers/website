@@ -56,7 +56,11 @@ form ul li {
   margin-block-end: var(--spacing-half);
 }
 
-form input[type="radio"] {
+form input:is([type="checkbox"], [type="radio"]) {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 2px;
   margin-right: var(--spacing-half);
 }
 
@@ -71,4 +75,10 @@ form em {
 form p.submit {
   text-align: center;
   margin-top: var(--spacing-double);
+}
+
+form select {
+  width: 100%;
+  padding: 10px;
+  font-size: inherit;
 }

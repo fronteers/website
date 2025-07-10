@@ -2,7 +2,7 @@
 title: Autofill met het autocomplete attribuut
 date: 2025-01-06
 author: Edwin Martin
-summary: "Maak het invullen van formulieren veel gemakkelijker voor de gebruiker met autofill"
+summary: "Maak het invullen van formulieren veel gemakkelijker voor de gebruiker met autofill."
 categories:
   - Adventskalender
 key: 12days2024-autofill

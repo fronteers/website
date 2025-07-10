@@ -4,7 +4,7 @@ date: 2024-12-30
 author: Anke Willems
 summary: "Add micro animations to your site to give it that little bit extra."
 categories:
-    - Adventskalender
+    - Advent Calendar
 key: microanimations-awillems-en
 ---
 
