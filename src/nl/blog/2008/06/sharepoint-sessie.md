@@ -9,9 +9,9 @@ Op maandag 16 juni organiseert Ordina een Sharepoint sessie in Nieuwegein.
 
 Beste Fronteers,
 
-Er zijn plaatsen voor jullie gereserveerd op de tribune tijdens de [Ordina Open Innoveerjijmee](http://www.innoveerjijmee.nl/default.asp/id,342/index.html) sessie van 16 juni bij ons in Nieuwegein. Kom je ook?
+Er zijn plaatsen voor jullie gereserveerd op de tribune tijdens de Ordina Open Innoveerjijmee sessie van 16 juni bij ons in Nieuwegein. Kom je ook?
 
-De sessie is gratis toegankelijk voor iedereen. Je bent van harte welkom. We verwachten je vanaf 17:30u. Schrijf je in via [innoveerjijmee.nl](http://www.innoveerjijmee.nl/default.asp/id,307/index.html).
+De sessie is gratis toegankelijk voor iedereen. Je bent van harte welkom. We verwachten je vanaf 17:30u. Schrijf je in via innoveerjijmee.nl.
 
 ## Sharepoint sessie, door Jan Tielens van U2U op 16 juni
 
@@ -29,7 +29,7 @@ Het bouwen van Web Parts is een van de meest populaire manieren om SharePoint aa
 * 19.50u: Presentatie Jan Tielens – “SharePoint Web Part Development: Advanced Web Part Development”
 * 21.00u: Borrel
 
-Als front-end developer is dit een mooie kans om je kennis te verbreden, en te zien en horen wat de mogelijkheden zijn om van Sharepoint 2007 een rich internet application te maken. [Meld je dus nu aan op innoveerjijmee.nl](http://www.innoveerjijmee.nl/default.asp/id,307/index.html) en vermeld mijn naam bij de opmerkingen.
+Als front-end developer is dit een mooie kans om je kennis te verbreden, en te zien en horen wat de mogelijkheden zijn om van Sharepoint 2007 een rich internet application te maken. Meld je dus nu aan op innoveerjijmee.nl en vermeld mijn naam bij de opmerkingen.
 
 Met vriendelijke groet,
 

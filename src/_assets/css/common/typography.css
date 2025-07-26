@@ -82,6 +82,10 @@ a:focus {
 
 .tag-link--active .tag {
   background-color: black;
+}
+
+.tag {
+  color: var(--purple-wcag-darker);
   color: white;
 }
 
