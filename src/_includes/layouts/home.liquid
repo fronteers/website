@@ -5,21 +5,6 @@
     <main id="main">
         {%- pagehero 'homepage' title content -%}
 
-
-        <div class="page-content">
-            {%- if locale == "nl" -%}
-                <h2>Nieuwe website</h2>
-                <p>Ben je hier eerder geweest, maar is ineens alles anders? Dat kan kloppen! We hebben namelijk vanaf 21 oktober een nieuwe website. Zie je iets dat beter kan? Dan ben je welkom om een <a href="https://github.com/fronteers/website/issues/new/choose" hreflang="en">issue aan te maken</a> op <a href="https://github.com/fronteers/website/" hreflang="en">Github</a>. 
-                </p>
-                <p>Wil je extra punten scoren? Dan mag je een fork van onze repository maken en de mouwen opstropen! Op Github vind je een <a href="https://github.com/fronteers/website/blob/main/docs/contribute.md" hreflang="en">uitleg</a>.</p>
-            {%- else -%}
-                <h2>New website</h2>
-                <p>Have you been here before, but now everything looks different? That makes sense! As of October 21st, we have a new website. Do you see something that could be improved? You're welcome to <a href="https://github.com/fronteers/website/issues/new/choose" hreflang="en">create an issue</a> on <a href="https://github.com/fronteers/website/" hreflang="en">Github</a>.
-                </p>
-                <p>Want to earn extra points? You can fork our repository and roll up your sleeves! You'll find instructions on Github in this <a href="https://github.com/fronteers/website/blob/main/docs/contribute.md" hreflang="en">guide</a>.</p>
-            {%- endif -%}
-        </div>
-
         {%- if activities.length != 0 -%}
             {%- include partials/homepage/upcoming-activities headerlvl:"h2" partialTitle:translations[locale].blockTitles.upcomingActivities -%}
         {%- endif -%}

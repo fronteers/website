@@ -17,6 +17,6 @@ Naast het bijwonen van het sociale gedeelte kun je ook er voor kiezen om lightni
 
 Kom met ons het glas heffen op het nieuw jaar op 14 januari 2010 vanaf 19.00 uur (geschatte eindtijd 23.00) bij NEMO, Oosterdok 2 in Amsterdam.
 
-Meer informatie en aanmelden, graag voor 9 januari,  op <http://isoc.nl/activ/2010-nieuwjaar.htm>
+Meer informatie en aanmelden, graag voor 9 januari.
 
-P.S. Als je geïnteresseerd bent in het Nederlandse overheidsbeleid op het gebied van open standaarden en open source, ben je van harte welkom om het programma bij te wonen van Forum Standaardisatie en Nederland open in Verbinding vanaf 16.30 uur. Het programma verschijnt binnenkort op <http://noiv.nl/>
+P.S. Als je geïnteresseerd bent in het Nederlandse overheidsbeleid op het gebied van open standaarden en open source, ben je van harte welkom om het programma bij te wonen van Forum Standaardisatie en Nederland open in Verbinding vanaf 16.30 uur.

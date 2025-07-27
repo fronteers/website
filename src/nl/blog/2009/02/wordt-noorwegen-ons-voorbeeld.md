@@ -5,9 +5,9 @@ author: Krijn Hoetmer
 categories: 
   - Browsers
 ---
-Even los van het feit dat ze natuurlijk de [beste browser](http://www.opera.com/) op aarde maken, zijn een aantal Noren begonnen met [een offensief](http://www.cjohansen.no/en/browsers/norway_tells_ie6_users_to_shape_up) tegen Internet Explorer 6.
+Even los van het feit dat ze natuurlijk de [beste browser](http://www.opera.com/) op aarde maken, zijn een aantal Noren begonnen met een offensief tegen Internet Explorer 6.
 
-Ook [andere landen](http://blog.peterhaza.no/current-international-web-sites-warning-against-internet-explorer-6/) volgen het voorbeeld. Ondertussen is op het [Fronteers IRC kanaal](/blog/2008/03/fronteers-op-irc) een discussie losgebarsten over de mogelijkheden hier in ons kleine kikkerlandje. We hebben [aardig wat leden](/leden) die werken aan de grootste Nederlandse sites (hoewel, Hyves is nog niet vertegenwoordigd ;-), dus gezamenlijk moeten we toch iets kunnen betekenen. Het is nog geen [vinger](/blog/2009/02/to-hell-with-bad-browsers), maar wellicht kunnen wij helpen met iets als dit:
+Ook andere landen volgen het voorbeeld. Ondertussen is op het [Fronteers IRC kanaal](/blog/2008/03/fronteers-op-irc) een discussie losgebarsten over de mogelijkheden hier in ons kleine kikkerlandje. We hebben [aardig wat leden](/leden) die werken aan de grootste Nederlandse sites (hoewel, Hyves is nog niet vertegenwoordigd ;-), dus gezamenlijk moeten we toch iets kunnen betekenen. Het is nog geen [vinger](/blog/2009/02/to-hell-with-bad-browsers), maar wellicht kunnen wij helpen met iets als dit:
 
 ```
 <!--[if lte IE 6]>
