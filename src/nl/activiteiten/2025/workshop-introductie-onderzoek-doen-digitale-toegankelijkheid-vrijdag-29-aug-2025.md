@@ -4,7 +4,7 @@ image: https://fronteers.nl/_img/workshops/workshop-introductie-onderzoek-doen-d
 date: 2024-08-01
 eventdate: 2025-08-29
 author: Christian Schaefer
-summary: LLeer op 29 augustus 2025 in Utrecht hoe je digitale toegankelijkheid onderzoekt met WCAG, tools gebruikt en bevindingen beschrijft. Hands-on workshop met Jules Ernst.
+summary: Leer op 29 augustus 2025 in Utrecht hoe je digitale toegankelijkheid onderzoekt met WCAG, tools gebruikt en bevindingen beschrijft. Hands-on workshop met Jules Ernst.
 location: Stichting Accessibility, Utrecht
 teacher: Jules Ernst
 categories: 
