@@ -4,7 +4,7 @@ image: https://fronteers.nl/_img/workshops/workshop-javascript-tips-and-tricks-1
 date: 2024-06-24
 eventdate: 2025-09-12
 author: Christian Schaefer
-summary: Leer in een halve dag slimme JavaScript-technieken zoals destructuring, async/await, functioneel programmeren en browser-debugging. De workshop vindt online plaats van 13 tot 17 uur en is toegankelijk vanaf €69. Praktisch, direct toepasbaar en geschikt voor ervaren developers.
+summary: Leer in een halve dag slimme JavaScript-technieken zoals destructuring, async/await, functioneel programmeren en browser-debugging. 
 location: Online
 categories: 
   - Workshops

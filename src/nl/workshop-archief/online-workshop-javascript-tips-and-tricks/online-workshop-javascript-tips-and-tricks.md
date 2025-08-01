@@ -1,5 +1,5 @@
 ---
-title: 'Online halve dag Workshop: JavaScript tips & tricks, Vrijdag 12 September 2025, 13 tot 17 uur'
+title: 'Online halve dag Workshop: JavaScript tips & tricks'
 image: https://fronteers.nl/_img/workshops/workshop-javascript-tips-and-tricks-12-september-2025.jpg
 date: 2025-06-21
 eventdate: 2025-09-12
