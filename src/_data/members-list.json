@@ -57,6 +57,7 @@
   { "naam": "Mirella van Teulingen", "werkgever": "Dreamsolution" },
   { "naam": "Remco Hoff", "werkgever": "Code010" },
   { "naam": "Rian Rietveld", "werkgever": "RRWD" },
+  { "naam": "Michèle van den Aardweg", "werkgever": "Norday" },
   { "naam": "Anique de Jong", "werkgever": "Designique Webdevelopment" },
   { "naam": "Owain Kleefkens", "werkgever": "iO" },
   { "naam": "Hans Kuijpers", "werkgever": "HKweb" },
@@ -143,5 +144,10 @@
   { "naam": "Cristovao Verstraeten", "werkgever": "a pleasant view " },
   { "naam": "Leon Liefting", "werkgever": "Ahold Delhaize (freelance)" },
   { "naam": "Alain Otjens", "werkgever": "Waag Futurelab" },
+  { "naam": "Co Peters", "werkgever": "" },
+  { "naam": "Stephen Connor", "werkgever": "Bureau Toegankelijkheid" },
+  { "naam": "Allon Dery", "werkgever": "" },
+  { "naam": "Larissa Klaassen", "werkgever": "Larissa Klaassen" },
+  { "naam": "Anne-Mieke Bovelett", "werkgever": "" },
   { "naam": "EOF" }
 ]
