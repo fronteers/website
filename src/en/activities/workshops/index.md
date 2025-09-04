@@ -43,5 +43,5 @@ For giving a course under the Fronteers banner, the following applies:
 -   Fronteers provides workshop space (usually) in Utrecht, with lunch included.
 -   Workshops are conducted under the Fronteers banner, but trainers may promote their own business to a limited extent. However, a workshop under the Fronteers banner is not a day of advertising.
 -   If a trainer requires software, the trainer must distribute or make the software available themselves.
--   Trainers receive a fee of €1000 per workshop, regardless of the number of participants.
+-   Trainers receive a fee of €1250 per workshop, regardless of the number of participants.
 -   Fronteers reserves the right to reject a trainer without stating a reason or not to proceed with a workshop.
