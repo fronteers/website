@@ -42,5 +42,5 @@ Voor het geven van een cursus onder de Fronteers vlag geldt het volgende:
 -   Fronteers zorgt voor workshopruimte (meestal) in Utrecht. Hierbij is lunch inbegrepen.
 -   Workshops worden gegeven onder de Fronteers vlag maar trainers mogen beperkt hun eigen business aanprijzen. Een workshop onder de Fronteers vlag is echter geen dagje reclame maken.
 -   Als een trainer software nodig heeft, dient de trainer de software zelf uit te delen of beschikbaar te stellen.
--   Trainers krijgen per workshop, ongeacht het aantal deelnemers, een vergoeding van €1000,–.
+-   Trainers krijgen per workshop, ongeacht het aantal deelnemers, een vergoeding van €1250,–.
 -   Fronteers heeft het recht om zonder opgaaf van reden een trainer te weigeren, of een workshop niet door te laten gaan.
