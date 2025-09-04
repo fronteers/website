@@ -32,7 +32,7 @@ Voor Fronteers workshops geldt het volgende:
 
 ## Meer informatie voor trainers
 
-Fronteers heeft zelf geen trainers in dienst. Als vereniging zijn we volledig afhankelijk van wie er beschikbaar is binnen de eigen gelederen. Als je geïnteresseerd bent in het geven van een training kun je dat laten weten door [onderstaand formulier](#formulier-1) in te vullen. Wat we graag van je willen weten, is hoeveel ervaring je hebt met het geven van trainingen, welke training je graag zou willen geven en op welk niveau je de training zou kunnen geven.
+Fronteers heeft zelf geen trainers in dienst. Als vereniging zijn we volledig afhankelijk van wie er beschikbaar is binnen de eigen gelederen. Als je geïnteresseerd bent in het geven van een training kun je dat laten weten door [contact op te nemen met het bestuur](mailto:bestuur@fronteers.nl). Wat we graag van je willen weten, is hoeveel ervaring je hebt met het geven van trainingen, welke training je graag zou willen geven en op welk niveau je de training zou kunnen geven.
 
 ### De kleine lettertjes
 
