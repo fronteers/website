@@ -32,7 +32,7 @@ Voor Fronteers workshops geldt het volgende:
 
 ## Meer informatie voor trainers
 
-Fronteers heeft zelf geen trainers in dienst. Als vereniging zijn we volledig afhankelijk van wie er beschikbaar is binnen de eigen gelederen. Als je geïnteresseerd bent in het geven van een training kun je dat laten weten door [onderstaand formulier](#formulier-1) in te vullen. Wat we graag van je willen weten, is hoeveel ervaring je hebt met het geven van trainingen, welke training je graag zou willen geven en op welk niveau je de training zou kunnen geven.
+Fronteers heeft zelf geen trainers in dienst. Als vereniging zijn we volledig afhankelijk van wie er beschikbaar is binnen de eigen gelederen. Als je geïnteresseerd bent in het geven van een training kun je dat laten weten door [contact op te nemen met het bestuur](mailto:bestuur@fronteers.nl). Wat we graag van je willen weten, is hoeveel ervaring je hebt met het geven van trainingen, welke training je graag zou willen geven en op welk niveau je de training zou kunnen geven.
 
 ### De kleine lettertjes
 
@@ -42,5 +42,5 @@ Voor het geven van een cursus onder de Fronteers vlag geldt het volgende:
 -   Fronteers zorgt voor workshopruimte (meestal) in Utrecht. Hierbij is lunch inbegrepen.
 -   Workshops worden gegeven onder de Fronteers vlag maar trainers mogen beperkt hun eigen business aanprijzen. Een workshop onder de Fronteers vlag is echter geen dagje reclame maken.
 -   Als een trainer software nodig heeft, dient de trainer de software zelf uit te delen of beschikbaar te stellen.
--   Trainers krijgen per workshop, ongeacht het aantal deelnemers, een vergoeding van €1000,–.
+-   Trainers krijgen per workshop, ongeacht het aantal deelnemers, een vergoeding van €1250,–.
 -   Fronteers heeft het recht om zonder opgaaf van reden een trainer te weigeren, of een workshop niet door te laten gaan.
