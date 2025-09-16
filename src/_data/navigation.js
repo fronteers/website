@@ -110,8 +110,8 @@ module.exports = {
         ],
       },
       {
-        url: "/nl/congres/",
-        title: "Congres",
+        url: "https://www.fronteersconf.org",
+        title: "Dark Mode",
         // subnav: [
         //   {
         //     url: "/nl/congres/tickets/",
@@ -254,8 +254,8 @@ module.exports = {
         ],
       },
       {
-        url: "/en/conference/",
-        title: "Conference",
+        url: "https://www.fronteersconf.org",
+        title: "Dark Mode",
         // subnav: [
         //   {
         //     url: "/en/conference/tickets.html",
