@@ -9,7 +9,7 @@ categories:
 key: darkmode
 location: Dordrecht
 ---
-Please note: Buy your tickets on https://fronteersconf.org/ ! At 99 euro's (or 49 for our members) this is a steal :-)
+Please note: Buy your tickets on [https://fronteersconf.org/](https://fronteersconf.org/)! At 99 euro's (or 49 for our members) this is a steal :-)
 
 Fronteers Dark Mode is a cozy, single-track afterwork front-end conference by and for the community. It takes place on Friday, October 3rd, 2025 at the atmospheric Cinema De Witt in Dordrecht. From 4PM until after midnight, ~100 developers gather for inspiring talks on accessibility, sustainability, HTML, CSS – and a nerdy late-night finale!
 
@@ -23,4 +23,6 @@ Rune Devuyst - The Hidden Cost of Color: Energy-Efficient, Accessible CSS
 
 Thorsten Jonas - Building sustainable digital products
 
-Karlijn Löwik & Erwin Hofman on Web Performance (title TBA)
+Karlijn Löwik & Erwin Hofman - Web performance in 2025: putting real UX first
+
+Find all information at [https://fronteersconf.org/](https://fronteersconf.org/).
