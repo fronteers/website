@@ -48,4 +48,50 @@ module.exports = {
     });
   },
 
+  readablePostDate(dateObj) {
+      return DateTime.fromJSDate(dateObj, {
+          zone: "Europe/Amsterdam",
+      }).setLocale('en').toLocaleString(DateTime.DATE_FULL);
+  },
+
+  postDate(dateObj) {
+      return DateTime.fromJSDate(dateObj, {
+          zone: "Europe/Amsterdam",
+      }).setLocale('en').toISODate();
+  },
+
+  splitlines(input) {
+    const parts = input.split(' ');
+    const lines = parts.reduce(function (prev, current) {
+      if (!prev.length) {
+        return [current];
+      }
+
+      let lastOne = prev[prev.length - 1];
+
+      if (lastOne.length + current.length > 23) {
+        return [...prev, current];
+      }
+
+      prev[prev.length - 1] = lastOne + ' ' + current;
+      return prev;
+    }, []);
+
+    return lines;
+  },
+
+  stringify(data) {
+    return JSON.stringify(data, null, "\t");
+  },
+
+  customSlug(value) {
+    if (!value) return "fallback-title"; // Fallback for empty titles
+    return strToSlug(value).replace(/\s+/g, '-'); // Replace spaces with dashes
+  },
+
+  localizedDate(dateObj, locale = "en") {
+    return DateTime.fromJSDate(dateObj)
+      .setLocale(locale)
+      .toFormat("d LLLL yyyy");
+  }
 };
