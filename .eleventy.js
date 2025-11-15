@@ -1,10 +1,10 @@
 const { exec } = require("child_process");
 const glob = require("fast-glob");
 const { DateTime } = require("luxon");
-const fs = require("fs");
+const fs = require("node:fs");
 const puppeteer = require('puppeteer');
 const slugify = require('slugify');
-const path = require('path');
+const path = require('node:path');
 
 const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
