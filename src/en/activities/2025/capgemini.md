@@ -1,12 +1,12 @@
 ---
-title: 'Fronteers meetup'
+title: 'Fronteers meetup at Capgemini'
 key: meetup-capgemini-2025
 image: https://fronteers.nl/_img/bijeenkomsten/2025/moritz-mentges-Z40sav8IYqQ-unsplash.jpg
 date: 2025-11-15
 eventdate: 2025-11-20
 author: Anneke Sinnema
 summary: On Thursday November 20th we're welcomed by Capgemini in Utrecht for an interesting evening with talks on accessible components and a panel discussion on the future of frontend.
-location: Capgemini, Reykjavikplein 1, Utrecht
+location: Utrecht
 categories: 
   - Bijeenkomsten
 locale: en
