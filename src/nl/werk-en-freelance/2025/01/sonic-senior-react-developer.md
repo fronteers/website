@@ -5,7 +5,9 @@ layout: jobs-single.liquid
 author: Bernard Nijenhuis
 backgroundcolor: skyblue
 summary: Ben jij een Senior React Developer die onze webshop naar een volledig headless model kan transformeren? Sluit je aan bij ons team en speel een sleutelrol in de toekomst van onze digitale strategie!
-draft: false
+published: false
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 <img style="float:right;margin:0 0 var(--spacing-double) var(--spacing-double);" src="/_img/werkgevers/sonic.png" width="300" height="300" alt="Logo Sonic Equipment">

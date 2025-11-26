@@ -6,6 +6,7 @@ function published_posts(locale) {
   return (collection) =>
     collection
       .getFilteredByTag("posts")
+      .filter((post) => Boolean(post.data.published != false))
       .filter((post) => Boolean(!post.data.draft))
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
@@ -18,6 +19,7 @@ function unpublished_posts(locale) {
   return (collection) =>
     collection
       .getFilteredByTag("posts")
+      .filter((post) => Boolean(post.data.published != false))
       .filter((post) => !post.data.excludeFromCollection) // Exclude marked posts
       .filter((post) => post.date && new Date(post.date) > now) // Future-dated posts
       .filter((post) => !post.data.parent) // Exclude parent posts
@@ -30,6 +32,7 @@ function published_activities(locale) {
     collection
       .getFilteredByTag("activities")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(post.data.published != false))
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
@@ -42,6 +45,7 @@ function published_jobs(locale) {
     collection
       .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => post.data.published !== false && post.data.published !== "false")
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.data.title != "Mentors"))
       .filter((post) => Boolean(post.data.title != "Freelancers"))
@@ -57,6 +61,7 @@ function freelancers(locale) {
     collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(post.data.published != false))
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.data.freelancer))
       .filter((post) => Boolean(post.data.locale == locale))
@@ -68,6 +73,7 @@ function mentors(locale) {
     collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(post.data.published != false))
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.data.mentor))
       .filter((post) => Boolean(post.data.locale == locale))
@@ -79,6 +85,7 @@ function published_members(locale) {
     collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(post.data.published != false))
       .filter((post) => Boolean(!post.data.draft))
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.data.locale == locale))
@@ -92,7 +99,8 @@ function activity_categories(locale) {
         .getFilteredByTag("activities")
         .filter((post) => Boolean(!post.data.excludeFromCollection))
         .filter((post) => Boolean(post.data.locale === locale))
-        .filter((post) => Boolean(!post.data.draft)),
+        .filter((post) => Boolean(!post.data.draft))
+        .filter((post) => Boolean(post.data.published != false)),
       "categories"
     );
 
@@ -111,6 +119,7 @@ function blog_categories(locale) {
         .filter((post) => Boolean(post.date <= now))
         .filter((post) => Boolean(!post.data.excludeFromCollection))
         .filter((post) => Boolean(post.data.locale === locale))
+        .filter((post) => Boolean(post.data.published != false))
         .filter((post) => Boolean(!post.data.draft)),
       "categories"
     );
@@ -146,6 +155,7 @@ function categorised_activities(locale) {
     const allActivities = collection
       .getFilteredByTag("activities")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => Boolean(post.data.published != false))
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
@@ -256,6 +266,7 @@ module.exports = {
     return collection
       .getFilteredByTag("jobs")
       .filter((post) => Boolean(!post.data.draft))
+      .filter((post) => post.data.published !== false && post.data.published !== "false")
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(!post.data.parent))
@@ -266,6 +277,7 @@ module.exports = {
     return collection
       .getFilteredByTag("members")
       .filter((post) => Boolean(post.date <= now))
+      .filter((post) => Boolean(post.data.published != false))
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(!post.data.draft));
   },
@@ -276,6 +288,7 @@ module.exports = {
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(post.data.freelancer))
+      .filter((post) => Boolean(post.data.published != false))
       .filter((post) => Boolean(!post.data.draft));
   },
 
@@ -285,6 +298,7 @@ module.exports = {
       .filter((post) => Boolean(!post.data.excludeFromCollection))
       .filter((post) => Boolean(post.date <= now))
       .filter((post) => Boolean(post.data.mentor))
+      .filter((post) => Boolean(post.data.published != false))
       .filter((post) => Boolean(!post.data.draft));
   },
 

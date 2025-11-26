@@ -1,6 +1,7 @@
 {
   "layout": "jobs-single.liquid",
   "tags": "jobs",
+  "locale": "nl",
   "useHero": "aboutushero",
   "shield": "jobs"
 }
