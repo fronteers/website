@@ -5,22 +5,22 @@ key: notulen-28-november-2025
 
 ## Aanwezige leden:
 
-Claudia Reynders (co-voorzitter)
-Anneke Sinnema (co-voorzitter)
-Christian Schaefer (secretaris)
-Wim van Iersel (penningmeester)
-Jewwy Qadri (secretaris)  
-Arjan Eising  
-Thijs Reigersberg  
-Edwin Martin  
-Koen Willems
-Annemiek Nieboer
-Derk-Jan Karrenbeld
-Jad Joubran
-Michael Hastrich
-Petra Knip
-Rosita Rampertaap
-Tineke Timmerman
+- Claudia Reynders (co-voorzitter)
+- Anneke Sinnema (co-voorzitter)
+- Christian Schaefer (secretaris)
+- Wim van Iersel (penningmeester)
+- Jewwy Qadri (secretaris)  
+- Arjan Eising  
+- Thijs Reigersberg  
+- Edwin Martin  
+- Koen Willems
+- Annemiek Nieboer
+- Derk-Jan Karrenbeld
+- Jad Joubran
+- Michael Hastrich
+- Petra Knip
+- Rosita Rampertaap
+- Tineke Timmerman
 
 ## Programma & Goedkeuring van de Agenda
 

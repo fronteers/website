@@ -5,7 +5,7 @@ eventdate: 2025-10-03
 author: Anneke Sinnema
 summary: Join us for a special night in Dordrecht for a cozy, single-track afterwork front-end conference by and for the community
 categories:
-  - Bijeenkomsten
+  - meetup
 key: darkmode
 location: Dordrecht
 ---

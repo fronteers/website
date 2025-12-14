@@ -9,7 +9,7 @@ summary: Come join us on August 8th for a cozy chat over dinner, drinks and snac
 location: Het Gegeven Paard, Utrecht
 locationLink: true
 categories: 
-  - Bijeenkomsten
+  - meetup
 locale: en
 ---
 

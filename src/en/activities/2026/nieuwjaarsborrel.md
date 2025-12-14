@@ -5,7 +5,7 @@ eventdate: 2026-01-15
 author: Anneke Sinnema
 summary: Come and share a beverage during Fronteers' new year drinks!
 categories:
-  - Bijeenkomsten
+  - meetup
   - Netwerken
 key: nieuwjaarsborrel
 location: Het Gegeven Paard, Utrecht

@@ -4,7 +4,7 @@ date: 2019-06-14
 eventdate: 2019-06-14
 location:
 categories:
-    - bijeenkomsten
+    - meetup
     - Nederland
 signUpLink: 
     # url: https://www.meetup.com/Fronteers-NL/events/259696785/

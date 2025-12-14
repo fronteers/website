@@ -4,7 +4,7 @@ date: 2010-03-25
 eventdate: 2010-03-25
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Donderdag 25 maart was Fronteers te gast bij [Appoint](http://appoint.nl) in Amsterdam. Eerst gaven Bojhan Somers en Roy Scholten een presentatie over de UX en templating van Drupal 7, waarna Michiel Suijkerbuijk een discussie over front-end leidde.

@@ -6,7 +6,7 @@ eventtime: '17:00'
 author: Anneke Sinnema
 summary: Een gezellige, single-track afterwork front-end conferentie door en voor de community
 categories:
-  - Conferences
+  - congressen
 key: darkmode-2
 location: Dordrecht
 ---

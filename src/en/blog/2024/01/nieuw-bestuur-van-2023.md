@@ -4,7 +4,7 @@ date: 2024-01-03
 author: Anneke Sinnema
 summary: The annual AGM (general members meeting) took place online on Friday, November 10. As many probably already knew, Anneke Sinnema and Edwin Martin have decided not to renew their roles on the board. Both Anneke and Edwin have played a crucial role for Fronteers over the past 6 years, Anneke as chairwoman and Edwin as secretary.
 categories:
-    - Vereniging
+    - Organisation
 ---
 
 On Friday the 10th of November we gathered online for our annual ALV (general meeting of community members). As some of you might already be aware, both Anneke Sinnema and Edwin Martin decided to not continue another 3-year run on the board. Both Anneke and Edwin have played a crucial role for Fronteers over the past 6 years, Anneke as chair and Edwin as secretary.

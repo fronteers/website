@@ -4,7 +4,7 @@ date: 2014-02-15
 eventdate: 2014-02-15
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 De vrijwilligers van de activiteitencommissie en de congrescommissie organiseren een hackathon, voor en door leden van Fronteers.

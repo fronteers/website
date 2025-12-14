@@ -4,7 +4,7 @@ date: 2023-07-29
 author: Anneke Sinnema
 summary: We have brought life back to the organization!
 categories: 
-  - Vereniging
+  - Organisation
 ---
 On Thursday, July 27, we had dinner with existing and new volunteers at LE:EN in Utrecht and discussed Fronteers. As discussed in an earlier post, [we are looking for volunteers](/nl/blog/2023/07/volunteers-gezocht) to help us revive the association.
 

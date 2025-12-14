@@ -5,7 +5,7 @@ eventdate: 2026-08-13
 author: Anneke Sinnema
 summary: Come and share a beverage during Fronteers' summer drinks!
 categories:
-  - Bijeenkomsten
+  - meetup
   - Netwerken
 key: zomerborrel
 location: Het Gegeven Paard, Utrecht

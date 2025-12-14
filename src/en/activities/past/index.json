@@ -1,0 +1,11 @@
+{
+  "layout": "activity-past.liquid",
+  "permalink": "/{{ translations[locale].activitiesURL }}/{{ translations[locale].pastActivitiesURL }}/{%- if pagination.pageNumber > 0 -%}{{ pagination.pageNumber }}/{%- endif -%}index.html",
+  "tags": "pages",
+  "key": "activities-past",
+  "pagination": {
+    "data": "collections.published_activities_en",
+    "size": "12",
+    "alias": "paginated_activities"
+  }
+}

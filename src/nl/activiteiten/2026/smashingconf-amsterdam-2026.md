@@ -6,7 +6,7 @@ eventdate: 2026-04-13
 eventtime: '09:00'
 location: 'Pathé Tuschinski, Amsterdam'
 categories:
-    - Conferences
+    - congressen
 tags: activities
 locale: nl
 signupavailable: false

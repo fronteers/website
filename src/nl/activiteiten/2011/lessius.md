@@ -4,7 +4,7 @@ date: 2011-11-24
 eventdate: 2011-11-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Arjan heet iedereen welkom bij Lessius en vertelt kort iets over Fronteers.

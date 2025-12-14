@@ -4,7 +4,7 @@ date: 2017-03-17
 eventdate: 2017-03-17
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op woensdag 12 april 2017 is Fronteers weer te gast bij [Netvlies](https://www.netvlies.nl/) in Breda, voor een meetup met als thema's performance, zelfsturing en de uitdagingen bij het verzamelen van customer journey data. We hebben drie Nederlandstalige talks, van _Jelmer de Maat_, _Jeroen Ooms_ en _Erik Driessen_. De bijeenkomst is gratis voor leden en niet-leden, en Netvlies zorgt voor broodjes en soep!

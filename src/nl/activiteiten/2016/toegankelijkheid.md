@@ -4,7 +4,7 @@ date: 2016-11-08
 eventdate: 2016-11-08
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 _Please note: this meetup will be held in English, there is no entry fee (but please do sign up using the [form](#formulier-1) below). We'll have Karl Groves talk about accessibility with JavaScript and a talk of Job van Achterberg about automating accessibility testing._

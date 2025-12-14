@@ -4,7 +4,7 @@ date: 2017-09-27
 eventdate: 2017-09-27
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op _woensdag 27 september 2017_ vliegt Fronteers België er terug in met onze tweede meetup. Ditmaal zijn we te gast bij [Teamleader](https://public.teamleader.be/nl-be/) in _Gent_. De talks worden voorzien door _Roel Van Gils_ en _Thomas Coopman_. De bijeenkomst is gratis voor leden en niet-leden, en Teamleader zorgt voor iets lekkers te eten!

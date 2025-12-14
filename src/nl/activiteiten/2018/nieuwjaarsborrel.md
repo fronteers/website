@@ -4,7 +4,7 @@ date: 2017-12-22
 eventdate: 2017-12-22
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op vrijdag 12 januari 2018 houdt Fronteers in Utrecht de jaarlijkse nieuwjaarsborrel! Leden en niet-leden zijn van harte welkom om met ons het glas te komen heffen op het nieuwe jaar. Fronteers trakteert volgens traditie op het eerste drankje! 🥂

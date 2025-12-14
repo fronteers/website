@@ -4,7 +4,7 @@ date: 2016-07-18
 eventdate: 2016-07-18
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 _Please note: this meetup will be held in English. / Let op: de voertaal van deze bijeenkomst zal Engels zijn._

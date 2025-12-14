@@ -4,7 +4,7 @@ date: 2019-01-10
 eventdate: 2019-01-10
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 [English version](#english)

@@ -7,7 +7,7 @@ eventtime: '09:00'
 location: 'Everyman Cinema, Leeds, UK'
 locationLink: true
 categories:
-    - Conferences
+    - congressen
 tags: activities
 locale: nl
 signupavailable: false

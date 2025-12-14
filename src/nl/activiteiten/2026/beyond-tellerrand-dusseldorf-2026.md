@@ -6,7 +6,7 @@ eventtime: '09:00'
 location: 'Capitol Theater, Düsseldorf, Duitsland'
 locationLink: true
 categories:
-    - Conferences
+    - congressen
 tags: activities
 locale: nl
 signupavailable: false

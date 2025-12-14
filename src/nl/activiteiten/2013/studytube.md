@@ -4,7 +4,7 @@ date: 2013-01-22
 eventdate: 2013-01-22
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Dinsdag 22 januari is Fronteers te gast bij [StudyTube](http://www.studytube.nl/) in Amsterdam. De bijeenkomst haakt in op het raakvlak tussen back-end en front-end development. Matthew Eichler zal vertellen over het automatiseren van accepatatietesten. Jan van Hellemond zal daarna een presentatie geven over Amazon Web Services en hoe je als front-end developer hier gebruik van kunt maken.

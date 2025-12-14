@@ -4,7 +4,7 @@ date: 2015-10-31
 eventdate: 2015-10-31
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 **Deze bijeenkomst vervalt en de presentaties worden verplaatst!**

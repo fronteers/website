@@ -4,7 +4,7 @@ date: 2012-05-19
 eventdate: 2012-05-19
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Om een uurtje of 10 op een zonnige zaterdag ving de Fronteers Hackday aan in de Nomadz coworkingspace in Den Haag met een bescheiden gezelschap. Tien uur beginnen betekende voor de meesten flink vroeg opstaan, maar de koffie en koekjes maakten veel goed.

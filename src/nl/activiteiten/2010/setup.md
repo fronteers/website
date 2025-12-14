@@ -4,7 +4,7 @@ date: 2010-06-14
 eventdate: 2010-06-14
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op 14 juni was Fronteers te gast bij [SETUP](http://www.setuputrecht.nl/) in Utrecht. Het thema van deze bijeenkomst was 'het semantische web'.

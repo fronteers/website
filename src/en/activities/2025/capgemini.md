@@ -8,7 +8,7 @@ author: Anneke Sinnema
 summary: On Thursday November 20th we're welcomed by Capgemini in Utrecht for an interesting evening with talks on accessible components and a panel discussion on the future of frontend.
 location: Utrecht
 categories: 
-  - Bijeenkomsten
+  - meetup
 locale: en
 ---
 

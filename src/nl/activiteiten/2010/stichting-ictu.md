@@ -4,7 +4,7 @@ date: 2010-02-04
 eventdate: 2010-02-04
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op donderdag 4 februari waren we te gast bij Stichting ICTU in Den Haag, waar ze (onder andere) werken aan de volgende versie van de [Webrichtlijnen](http://www.digitoegankelijk.nl/).

@@ -5,7 +5,7 @@ eventdate: 2025-04-03
 author: Arjan Eising
 summary: Come and share a beverage during Fronteers' spring borrel. Meet local front-end developers!
 categories:
-  - Bijeenkomsten
+  - meetup
 key: voorjaarsborrel
 location: Utrecht
 ---

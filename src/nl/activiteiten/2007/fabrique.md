@@ -4,7 +4,7 @@ date: 2007-07-26
 eventdate: 2007-07-26
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 - Presentatie front-end bij Fabrique door Mark Dibbets

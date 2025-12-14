@@ -6,7 +6,7 @@ eventdate: 2026-06-11
 eventtime: '09:00'
 location: 'Amsterdam'
 categories:
-    - Conferences
+    - congressen
 tags: activities
 locale: nl
 signupavailable: false

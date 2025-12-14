@@ -4,7 +4,7 @@ date: 2008-11-13
 eventdate: 2008-11-13
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op 13 november 2008 organiseerde [SWIS](http://www.swis.nl/) een Fronteers bijeenkomst. Ruim dertig aanwezigen kwamen in Leiden bij elkaar voor een tweetal presentaties over respectievelijk accessibility en usability (welke erg goed op elkaar aansloten), en natuurlijk de gebruikelijke gezellige tijd voor- en na-kletsen.

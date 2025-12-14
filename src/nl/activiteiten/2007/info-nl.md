@@ -4,7 +4,7 @@ date: 2007-06-28
 eventdate: 2007-06-28
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 - Presentatie front-end bij Info.nl door Tom Greuter
 - Presentatie plannen Commissie Onderwijs door Robert Jan Verkade

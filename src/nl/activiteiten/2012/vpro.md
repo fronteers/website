@@ -4,7 +4,7 @@ date: 2012-05-03
 eventdate: 2012-05-03
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op 3 mei zijn we te gast bij VPRO Digitaal, de digitale afdeling van de omroep. Bekend van populaire websites als 3VOOR12 en Cinema.nl, maar ook de maker van vele websites bij eigen programma's. Hay Kranen en Frank Bosma zullen in hun talks ingaan op respectievelijk het gebruik van RequireJS en het Model View Controller design pattern.

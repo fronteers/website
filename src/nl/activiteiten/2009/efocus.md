@@ -3,7 +3,7 @@ title: "Bijeenkomst bij eFocus op 15 oktober 2009"
 date: 2009-10-15
 eventdate: 2009-10-15
 categories: 
-    - meetup
+    - bijeenkomsten
 ---
 [Voor deze bijeenkomst is nog geen verslag geschreven. Vrijwilligers welkom!]
 

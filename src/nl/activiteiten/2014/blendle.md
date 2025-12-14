@@ -4,7 +4,7 @@ date: 2014-11-25
 eventdate: 2014-11-25
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op dinsdag 25 november 2014 is Fronteers te gast bij [Blendle](http://www.blendle.nl) in Utrecht. Er worden twee presentaties gehouden.

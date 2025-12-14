@@ -4,7 +4,7 @@ date: 2009-01-19
 eventdate: 2009-01-19
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op maandag 19 januari trotseerden ongeveer 50 voornamelijk nieuwe gezichten het slechte weer om bij [e-sites](http://www.e-sites.nl/) in Breda de 1e bijeenkomst van 2009 (en de 14e in totaal) te bezoeken. Op het programma stonden twee presentaties. Na vanavond zouden we weer op de hoogte zijn van de stand van zaken in SEOland, het een en ander afweten van web analytics en overrompeld worden door de beerput die Webstandaarden heet.

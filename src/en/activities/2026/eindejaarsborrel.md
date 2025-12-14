@@ -5,7 +5,7 @@ eventdate: 2026-12-10
 author: Anneke Sinnema
 summary: Come and share a beverage during Fronteers' casual end of year drinks!
 categories:
-  - Bijeenkomsten
+  - meetup
   - Netwerken
 key: eindejaarsborrel
 location: Het Gegeven Paard, Utrecht

@@ -5,7 +5,7 @@ eventdate: 2026-03-12
 author: Anneke Sinnema
 summary: Come and share a beverage during Fronteers' drinks!
 categories:
-  - Bijeenkomsten
+  - meetup
   - Netwerken
 key: maartborrel
 location: Het Gegeven Paard, Utrecht

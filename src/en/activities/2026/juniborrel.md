@@ -5,7 +5,7 @@ eventdate: 2026-06-25
 author: Anneke Sinnema
 summary: Come and share a beverage during Fronteers' drinks!
 categories:
-  - Bijeenkomsten
+  - meetup
   - Netwerken
 key: juniborrel
 location: Het Gegeven Paard, Utrecht

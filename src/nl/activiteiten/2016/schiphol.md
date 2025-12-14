@@ -4,7 +4,7 @@ date: 2016-09-29
 eventdate: 2016-09-29
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 _Thema: de uitdagingen van front-end in high demand_

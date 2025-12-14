@@ -6,6 +6,7 @@ Hieronder vind je de notulen van de bestuursvergaderingen en van de jaarlijkse a
 
 | Datum | Titel |
 |-------|-------|
+| 28 november 2025 | [Notulen ALV 28 november 2025](notulen-alv-28-november-2025.html) |
 | 28 oktober 2025 | [Notulen bestuursvergadering 28 oktober 2025](notulen-bestuursvergadering-28-oktober-2025.html) |
 | 29 november 2024 | [Notulen ALV 29 november 2024](notulen-alv-29-november-2024.html) |
 | 10 november 2023 | [Notulen ALV 10 november 2023](10-11-2023.html) |

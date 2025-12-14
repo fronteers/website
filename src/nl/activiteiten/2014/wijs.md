@@ -4,7 +4,7 @@ date: 2014-09-18
 eventdate: 2014-09-18
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op donderdag 23 oktober 2014 is Fronteers te gast bij Wijs in Gent. Er worden drie presentaties voorzien.

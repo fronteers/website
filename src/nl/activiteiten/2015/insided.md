@@ -4,7 +4,7 @@ date: 2015-02-24
 eventdate: 2015-02-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op dinsdag 24 februari 2015 is Fronteers te gast bij [inSided](http://www.insided.com) in Amsterdam. Er worden drie presentaties gehouden.

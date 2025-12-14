@@ -4,7 +4,7 @@ date: 2018-01-31
 eventdate: 2018-01-31
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 ![Creativity-Gym](/_img/bijeenkomsten/creativity.jpg)

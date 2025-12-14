@@ -4,7 +4,7 @@ date: 2016-12-07
 eventdate: 2016-12-07
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 _Please note: this meetup will be held in English, there is no entry fee (but please do sign up using the [form](#formulier-1) below). This time, our speakers are Adrian Holovaty, who will talk about the sheet music engine he built in JavaScript, and Sam Bellen, who can use the Web Audio API to change *live* audio._

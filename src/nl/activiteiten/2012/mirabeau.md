@@ -4,7 +4,7 @@ date: 2012-02-15
 eventdate: 2012-02-15
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op woensdag 15 februari zijn we te gast bij [Mirabeau](http://mirabeau.nl) in Rotterdam. Johan Ronsse, die op zijn verjaardag speciaal voor ons uit België af komt reizen, geeft een presentatie over interface design. Paul Martens, front-end developer bij Mirabeau, vertelt over spriting en workflow.

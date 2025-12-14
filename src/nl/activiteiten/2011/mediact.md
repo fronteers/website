@@ -4,7 +4,7 @@ date: 2011-12-08
 eventdate: 2011-12-08
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op donderdag 8 december is Fronteers te gast bij [mediaCT](http://mediact.nl) te Groningen. Vasilis van Gemert geeft een presentatie over Adaptive development, en Bas Rozema over Git.

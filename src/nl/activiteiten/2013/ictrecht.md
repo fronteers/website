@@ -4,7 +4,7 @@ date: 2013-02-18
 eventdate: 2013-02-18
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Maandag 18 februari was Fronteers te gast bij [ICTRecht](https://ictrecht.nl/). ICT-juristen en front-enders konden elkaar op deze avond ontmoeten. Hieronder de presentaties, eentje over de cookiewet en een over open source software.

@@ -4,7 +4,7 @@ date: 2012-01-19
 eventdate: 2012-01-19
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Na een [succesvolle avond bij Lessius](/bijeenkomsten/2011/lessius) is het tijd voor een nieuwe Belgische Fronteers-bijeenkomst.

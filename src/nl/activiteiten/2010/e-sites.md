@@ -4,7 +4,7 @@ date: 2010-05-19
 eventdate: 2010-05-19
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Woensdag 19 mei was Fronteers te gast bij [e-sites](http://esites.nl) in Breda. Anne van Kesteren vertelde over CSS3, en Nikolai Onken ging in op HTML5 Apps.

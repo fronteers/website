@@ -4,7 +4,7 @@ date: 2009-05-08
 eventdate: 2009-05-08
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op vrijdag 8 mei was het zuidelijkste puntje ooit voor een Fronteers bijeenkomst een feit: [Mirabeau Eindhoven](http://www.mirabeau.nl/) organiseerde deze avond (en de dag ervoor de [Docentendag](/docentendag)) en Martin Savelkoul begon met een presentatie over Mirabeau, en de projecten die ze doen. Met name interessant was het stuk over hoe zij [Object Oriented CSS](http://wiki.github.com/stubbornella/oocss) gebruiken en dit een erg prettige methode vinden voor grote projecten. Wellicht dat we hierover meer gaan horen dit jaar. Is het niet van Martin zelf, dan wel van iemand anders.

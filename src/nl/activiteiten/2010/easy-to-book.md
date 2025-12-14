@@ -4,7 +4,7 @@ date: 2010-01-11
 eventdate: 2010-01-11
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 De eerste bijeenkomst van 2010 vond plaats op 11 januari bij [EasyToBook](http://easytobook.com). Daar hielden Peter Boersma en Peter Kassenaar een presenatie, beiden in het teken van gebruikersvriendelijkheid.
