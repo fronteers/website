@@ -17,6 +17,6 @@ performance.now() is a single track conference covering today's most important w
 
 **Dates:** November 19th and 20th, 2026  
 **Location:** Amsterdam  
-**Speakers:** To be announced soon
+**Speakers:** To be announced
 
 [Visit the website for more information and tickets](https://perfnow.nl/)

@@ -18,6 +18,6 @@ CSS Day is a conference where fourteen speakers talk about the state of CSS for 
 
 **Dates:** June 11th and 12th, 2026  
 **Location:** Amsterdam  
-**Speakers:** To be announced soon
+**Speakers:** To be announced
 
 [Visit the website for more information and tickets](https://cssday.nl/)

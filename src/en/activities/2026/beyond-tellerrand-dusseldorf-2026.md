@@ -18,6 +18,6 @@ beyond tellerrand celebrates 15 years in Düsseldorf. A conference about creativ
 
 **Dates:** April 27th and 28th, 2026  
 **Location:** Düsseldorf, Germany  
-**Speakers:** To be announced soon
+**Speakers:** To be announced
 
 [Visit the website for more information and tickets](https://beyondtellerrand.com/events/dusseldorf-2026)
