@@ -80,7 +80,8 @@ a:focus {
   font-size: var(--font-size-14);
 }
 
-.tag-link--active .tag {
+.tag-link--active .tag,
+.tag-link[aria-current="page"] .tag {
   background-color: black;
 }
 

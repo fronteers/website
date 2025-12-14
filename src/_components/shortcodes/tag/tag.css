@@ -30,3 +30,42 @@
 .tag:not(.token) + .tag:not(.token) {
     margin-inline-start: 2em;
 }
+
+.tag-link--bijeenkomsten {
+    .tag {
+        background-color: var(--lilac);
+        -webkit-clip-path: url(#button-curly-braces);
+        clip-path: url(#button-curly-braces);
+    }
+}
+
+.tag-link--workshops {
+
+    .tag {
+    background-color: var(--yellow);
+        -webkit-clip-path: url(#button-greater-than);
+        clip-path: url(#button-greater-than);
+    }
+}
+
+.tag-link--conferences {
+    .tag {
+        background-color: var(--red-light);
+        -webkit-clip-path: url(#button-curly-braces);
+        clip-path: url(#button-curly-braces);
+    }
+}
+
+.tag-link--lunchmeetings {
+    .tag {
+        background-color: var(--green);
+        -webkit-clip-path: url(#button-parentheses);
+        clip-path: url(#button-parentheses);
+    }
+}
+
+.tag-link--vereniging {
+    .tag {
+        background-color: var(--red-light);
+    }
+}

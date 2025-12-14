@@ -1,0 +1,123 @@
+<div data-partial="activity-calendar-item" class="activity-calendar-item activity-calendar-item--{{ index }} {% for tag in activity.data.categories %}
+activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.externalEvent %} activity-calendar-item__details--external{% endif %}">
+    <details class="activity-calendar-item__details">
+        <summary class="activity-calendar-item__summary">
+            <h3 class="activity-calendar-item__title">
+                {%- if locale == "nl" -%}
+                    {% if activity.data.eventdate %}
+                        <time class="activity-calendar-item__time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                            {{ activity.data.eventdate | eventDate: 'nl', activity.data.eventdateTentative }}
+                        </time>
+                    {% endif %}
+                {%- elsif locale == "en" -%}
+                    {% if activity.data.eventdate %}
+                        <time class="activity-calendar-item__time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                            {{ activity.data.eventdate | eventDate: 'en', activity.data.eventdateTentative }}
+                        </time>
+                    {% endif %}
+                {%- endif -%}
+
+                {% if activity.data.externalUrl and activity.data.externalUrl != "" %}
+                    <span><a href="{{ activity.data.externalUrl }}" target="_blank" rel="noopener noreferrer">{{ activity.data.title }}</a></span>
+                {% else %}
+                    <span>{{ activity.data.title }}</span>
+                {% endif %}
+            </h3>
+        </summary>
+
+        <div class="activity-calendar-item__content">  
+            {% if activity.data.externalEvent %}
+                <p class="activity-calendar-item__external-event">{{ translations[locale].externalEvent }}</p>
+            {% endif %}
+
+            {% if activity.data.externalEventDiscount %}
+                <p class="activity-calendar-item__external-event-discount">{{ translations[locale].externalEventDiscount }}</p>
+            {% endif %}
+
+            {% if activity.data.eventtime %}
+                {%- comment -%} Build datetime string combining eventdate and eventtime {%- endcomment -%}
+                {%- assign datePart = activity.data.eventdate | date: "%Y-%m-%d" -%}
+                {%- comment -%} eventtime might be a time string (HH:MM) or full datetime {%- endcomment -%}
+                {%- if activity.data.eventtime contains "T" -%}
+                    {%- comment -%} eventtime is already a full datetime {%- endcomment -%}
+                    {%- assign fullDateTime = activity.data.eventtime -%}
+                {%- else -%}
+                    {%- comment -%} eventtime is just a time, combine with date {%- endcomment -%}
+                    {%- assign timePart = activity.data.eventtime | strip -%}
+                    {%- if timePart.size == 5 -%}
+                        {%- comment -%} Time is HH:MM format, add seconds {%- endcomment -%}
+                        {%- assign timePart = timePart | append: ":00" -%}
+                    {%- endif -%}
+                    {%- assign fullDateTime = datePart | append: "T" | append: timePart -%}
+                {%- endif -%}
+                <p class="activity-date">
+                    {%- if locale == "nl" -%}
+                        {%- include svg/icon_calendar.svg -%} <span class="visually-hidden">{{ translations[locale].location }}</span> <time class="activity-time" datetime="{{ fullDateTime }}">
+                            {{ activity.data.eventtime | eventDate: 'nl', activity.data.eventdateTentative }}
+                        </time>
+                    {%- elsif locale == "en" -%}
+                        {%- include svg/icon_calendar.svg -%} <span class="visually-hidden">{{ translations[locale].location }}</span> <time class="activity-time" datetime="{{ fullDateTime }}">
+                            {{ activity.data.eventtime | eventDate: 'en', activity.data.eventdateTentative }}
+                        </time>
+                    {%- endif -%}
+                </p>
+            {% endif %}
+            
+            {%- if activity.data.location and activity.data.location != "" -%}
+                <p class="activity-calendar-item__location">{%- include svg/icon_location.svg -%}
+                    <span class="visually-hidden">{{ translations[locale].location }}</span>
+                    {{ activity.data.location }}
+                </p>
+            {%- else -%}
+                {%- if not pastActivity -%}
+                <p class="activity-calendar-item__location">{%- include svg/icon_location.svg -%}
+                    <span class="visually-hidden">{{ translations[locale].location }}</span>
+                    {{ translations[locale].locationUnknown }}
+                </p>
+                {%- endif -%}
+            {%- endif -%}
+
+            {{ activity.templateContent }}
+            
+            <div class="activity-calendar-item__tags">
+                {%- for tag in activity.data.categories -%}
+                    <a href="/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
+                {%- endfor -%}
+            </div>
+        </div>
+            
+        {% if pastActivity or activity.data.signupavailable != 'false' %}
+        <div class="activity-calendar-item__footer">
+            {%- if activity.data.meetuplink and activity.data.meetuplink != "" -%}
+                <a
+                    href="{{ activity.data.meetuplink }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button">{{ translations[locale].signUpMeetup }}<span class="visually-hidden"> {{ translations[locale].for }} {{ activity.data.title }}</span>
+                </a>
+            {%- endif -%}
+
+            {% if activity.data.signupmail and activity.data.signupmail != "" -%}
+                <a
+                    href="mailto:{{ activity.data.signupmail }}?subject=Aanmelding%20voor%20{{ activity.data.title }}"
+                    class="button">{{ translations[locale].signUpMail }}<span class="visually-hidden"> {{ translations[locale].about }} {{ activity.data.title }}</span>
+                </a>
+            {% elsif activity.data.externalUrl and activity.data.externalUrl != "" -%}
+                <a
+                    href="{{ activity.data.externalUrl }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button">{{ translations[locale].moreInformation }}<span class="visually-hidden"> {{ translations[locale].about }} {{ activity.data.title }}</span>
+                </a>
+            {% else %}
+                <a
+                    href="{{ activity.url }}"
+                    class="button">{{ translations[locale].moreInformation }}<span class="visually-hidden"> {{ translations[locale].about }} {{ activity.data.title }}</span>
+                </a>
+            {%- endif -%}
+        </div>
+        {% else %}
+            <p class="activity-calendar-item__footer">{{ translations[locale].signUpClosed }}</p>
+        {% endif %}
+    </details>
+</div>
