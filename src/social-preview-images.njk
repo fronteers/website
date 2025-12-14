@@ -3,7 +3,7 @@ pagination:
   data: collections.published_posts_after_2024 
   size: 1
   alias: preview
-permalink: "/assets/images/social-preview-images/{{ preview.data.date | postDate }}-{{ preview.data.title | customSlug }}-preview-{{ preview.data.locale }}.svg" 
+permalink: "/assets/images/social-preview-images/{{ preview.data.date | postDate }}-{% if preview.data.eventdate %}{{ preview.data.eventdate | postDate }}-{% endif %}{{ preview.data.title | customSlug }}-preview-{{ preview.data.locale }}.svg" 
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
