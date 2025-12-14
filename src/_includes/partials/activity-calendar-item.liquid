@@ -17,11 +17,7 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
                     {% endif %}
                 {%- endif -%}
 
-                {% if activity.data.externalUrl and activity.data.externalUrl != "" %}
-                    <span><a href="{{ activity.data.externalUrl }}" target="_blank" rel="noopener noreferrer">{{ activity.data.title }}</a></span>
-                {% else %}
-                    <span>{{ activity.data.title }}</span>
-                {% endif %}
+                <span>{{ activity.data.title }}</span>
             </h3>
         </summary>
 

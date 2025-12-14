@@ -1,7 +1,8 @@
 {%- assign pageCollectionKey = "published_activities_" | append: locale -%}
 
-{% comment %} Get the title and the information from the most recent activity {% endcomment %}
-{%- for activity in paginated_activities limit:1 -%}
+{% comment %} Get the title and the information from the next upcoming activity (earliest first) {% endcomment %}
+{%- assign upcomingActivitiesForNextUp = paginated_activities | upcomingEvents -%}
+{%- for activity in upcomingActivitiesForNextUp limit:1 -%}
     {% comment %} Check if event has happened, or not yet. Create a variable 'eventHasHappened' to store the result. {% endcomment %}
     {%- assign today = "now" | date: "%Y%m%d" | plus: 0 -%}
     {%- assign latestEventDate = activity.data.eventdate | date: "%Y%m%d" | plus: 0 -%}
@@ -23,11 +24,11 @@
     {% capture nextUp %}<div class="nextup-time-and-location-wrapper">
             {%- if locale == "nl" -%}
                 <time class="nextup-time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
-                    {{ activity.data.eventdate | localizedDate: 'nl' }}
+                    {{ activity.data.eventdate | eventDate: 'nl', activity.data.eventdateTentative }}
                 </time>
             {%- elsif locale == "en" -%}
                 <time class="nextup-time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
-                    {{ activity.data.eventdate | displayDate: locale | date: "%B %e %Y" }}
+                    {{ activity.data.eventdate | eventDate: 'en', activity.data.eventdateTentative }}
                 </time>
             {%- endif -%}
                 
@@ -77,16 +78,16 @@
 
         {%- if pagination.pageNumber < viewCondition or viewCondition == 0 -%}
             <section class="inner-wrapper upcoming-activities">
-                <h2>{{ translations[locale].upcomingActivitiesTitle }} <span>({{ totalUpcoming }})</span></h2>
+                <h2>{{ translations[locale].upcomingActivitiesTitle }}</h2>
 
                 {%- if totalUpcoming == 0 -%}
                     <p>{{ translations[locale].emptyStateActivities }}</p>
                 {%- else -%}
-                    <ol class="desktop-columns">
+                    <ol class="activity-calendar-items">
                         {%- for activity in upcomingActivities limit:pagination.size -%}
                             {%- assign index = forloop.index | modulo: 3 -%}
                             <li class="list-item">
-                                {%- include partials/activity headerlvl:"h3" index:index -%}
+                                {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
                             </li>
                         {%- endfor -%}
                     </ol>

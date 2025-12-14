@@ -60,6 +60,32 @@ module.exports = function (eleventyConfig) {
       .toFormat("d LLLL yyyy");
   });
 
+  // Event date filter that handles tentative dates (hides day if tentative)
+  // Usage: {{ activity.data.eventdate | eventDate: locale, activity.data.eventdateTentative }}
+  eleventyConfig.addFilter("eventDate", function (dateObj, locale = "en", isTentative = false) {
+    const dateTime = DateTime.fromJSDate(dateObj).setLocale(locale);
+    
+    if (!dateTime.isValid) {
+      return String(dateObj);
+    }
+    
+    // If tentative, show only month and year
+    if (isTentative) {
+      if (locale === "nl") {
+        return dateTime.toFormat("LLLL yyyy"); // "april 2026"
+      } else {
+        return dateTime.toFormat("LLLL yyyy"); // "April 2026"
+      }
+    }
+    
+    // Otherwise show full date
+    if (locale === "nl") {
+      return dateTime.toFormat("d LLLL yyyy"); // "1 april 2026"
+    } else {
+      return dateTime.toFormat("LLLL d, yyyy"); // "April 1, 2026"
+    }
+  });
+
   /* Add id to heading elements */
   eleventyConfig.addPlugin(pluginAddIdToHeadings);
 
