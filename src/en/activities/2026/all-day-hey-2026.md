@@ -4,6 +4,7 @@ summary: 'A curated conference for curious developers, designers, and technology
 date: 2025-12-13
 eventdate: 2026-05-07
 location: 'Everyman Cinema, Leeds, UK'
+locationLink: true
 categories:
     - Conferences
 tags: activities

@@ -15,6 +15,6 @@ Fronteers Dark Mode 2 is a cozy, single-track afterwork front-end conference by 
 
 **Date:** December 2nd, 2026  
 **Location:** To be announced  
-**Speakers:** To be announced soon
+**Speakers:** To be announced
 
 Find all information at [https://fronteersconf.org/](https://fronteersconf.org/).

@@ -5,6 +5,7 @@ date: 2025-12-13
 eventdate: 2026-05-07
 eventtime: '09:00'
 location: 'Everyman Cinema, Leeds, UK'
+locationLink: true
 categories:
     - Conferences
 tags: activities

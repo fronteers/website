@@ -1,9 +1,9 @@
 ---
 title: 'beyond tellerrand Düsseldorf 2026'
-summary: '15 years of beyond tellerrand in Düsseldorf. Join us to celebrate. Not us, but YOU. You join us each and every year since we started 2011. We want to celebrate this! And creativity. And inspiration. And humanity.'
 date: 2025-12-13
 eventdate: 2026-04-27
-location: 'Düsseldorf, Germany'
+location: 'Capitol Theater, Düsseldorf, Duitsland'
+locationLink: true
 categories:
     - Conferences
 tags: activities

@@ -4,6 +4,7 @@ summary: 'A conference for designers and UI engineers all around UX and front-en
 date: 2025-12-13
 eventdate: 2026-04-13
 location: 'Pathé Tuschinski, Amsterdam'
+locationLink: true
 categories:
     - Conferences
 tags: activities
