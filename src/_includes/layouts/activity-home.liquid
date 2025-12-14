@@ -61,14 +61,7 @@
     {%- include partials/page-header/_page-header -%}
 
     <main id="main" class="{% if useHero %}styledheader{% endif %}">
-        {%- if pagination.pageLinks.length > 1 -%}
-            {%- if pagination.previousPageLink -%}
-            {%- else -%}
-                {%- pagehero 'activities' nextUpTitle nextUp content -%}
-            {%- endif -%}
-        {%- else -%}
-            {%- pagehero 'activities' nextUpTitle nextUp content-%}
-        {%- endif -%}
+            {%- pagehero 'activities' nextUpTitle nextUp '' -%}
 
         {%- assign upcomingActivities = paginated_activities | upcomingEvents -%}
         {%- assign totalUpcoming = collections[pageCollectionKey] | upcomingEvents | count -%}

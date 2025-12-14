@@ -38,37 +38,57 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
                 {%- endfor -%}
             </div>
 
-            {% if activity.data.eventtime %}
-                {%- assign datePart = activity.data.eventdate | date: "%Y-%m-%d" -%}
-                {%- assign timePart = activity.data.eventtime | strip -%}
-                {%- if timePart.size == 5 -%}
-                    {%- assign timePart = timePart | append: ":00" -%}
+            <dl class="activity-calendar-item__meta">
+                {% if activity.data.eventtime %}
+                    {%- assign datePart = activity.data.eventdate | date: "%Y-%m-%d" -%}
+                    {%- assign timePart = activity.data.eventtime | strip -%}
+                    {%- if timePart.size == 5 -%}
+                        {%- assign timePart = timePart | append: ":00" -%}
+                    {%- endif -%}
+                    {%- assign fullDateTime = datePart | append: "T" | append: timePart -%}
+                    <div class="activity-calendar-item__meta-row">
+                        <dt class="activity-date">
+                            {%- include svg/icon_calendar.svg -%} 
+                            <span>{{ translations[locale].activityDate }}</span>
+                        </dt>
+                        <dd class="activity-time">
+                            <time datetime="{{ fullDateTime }}">
+                                {{ activity.data.eventdate | eventDate: locale }} - {{ activity.data.eventtime | strip }}
+                            </time>
+                        </dd>
+                    </div>
+                {% endif %}
+                
+                {%- if activity.data.location and activity.data.location != "" -%}
+                    <div class="activity-calendar-item__meta-row">
+                        <dt class="activity-calendar-item__location">
+                            {%- include svg/icon_location.svg -%}
+                            <span class="visually-hidden">{{ translations[locale].location }}</span>
+                            <span>{{ translations[locale].location }}</span>
+                        </dt>
+                        <dd>
+                            {% if activity.data.locationLink == true %}
+                                <a href="https://www.openstreetmap.org/search?query={{ activity.data.location | url_encode }}" target="_blank" rel="noopener noreferrer">{{ activity.data.location }}</a>
+                            {% else %}
+                                {{ activity.data.location }}
+                            {% endif %}
+                        </dd>
+                    </div>
+                {%- else -%}
+                    {%- if not pastActivity -%}
+                    <div class="activity-calendar-item__meta-row">
+                        <dt class="activity-calendar-item__location">
+                            {%- include svg/icon_location.svg -%}
+                            <span class="visually-hidden">{{ translations[locale].location }}</span>
+                            <span>{{ translations[locale].location }}</span>
+                        </dt>
+                        <dd>
+                            {{ translations[locale].locationUnknown }}
+                        </dd>
+                    </div>
+                    {%- endif -%}
                 {%- endif -%}
-                {%- assign fullDateTime = datePart | append: "T" | append: timePart -%}
-                <p class="activity-date">
-                    {%- include svg/icon_calendar.svg -%} <span class="visually-hidden">{{ translations[locale].location }}</span> <time class="activity-time" datetime="{{ fullDateTime }}">
-                        {{ activity.data.eventdate | eventDate: locale }} - {{ activity.data.eventtime | strip }}
-                    </time>
-                </p>
-            {% endif %}
-            
-            {%- if activity.data.location and activity.data.location != "" -%}
-                <p class="activity-calendar-item__location">{%- include svg/icon_location.svg -%}
-                    <span class="visually-hidden">{{ translations[locale].location }}</span>
-                    {% if activity.data.locationLink == true %}
-                        <a href="https://www.openstreetmap.org/search?query={{ activity.data.location | url_encode }}" target="_blank" rel="noopener noreferrer">{{ activity.data.location }}</a>
-                    {% else %}
-                        {{ activity.data.location }}
-                    {% endif %}
-                </p>
-            {%- else -%}
-                {%- if not pastActivity -%}
-                <p class="activity-calendar-item__location">{%- include svg/icon_location.svg -%}
-                    <span class="visually-hidden">{{ translations[locale].location }}</span>
-                    {{ translations[locale].locationUnknown }}
-                </p>
-                {%- endif -%}
-            {%- endif -%}
+            </dl>
 
             {{ activity.templateContent }}
             

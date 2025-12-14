@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+.activity-calendar-items .list-item {
+    background: white;
+  }
+
 .activity-calendar-item {
   background-color: white;
   block-size: 100%;
@@ -25,7 +29,7 @@
 .activity-calendar-item__details {
   display: flex;
   flex-direction: column;
-  border: 1px solid  #e0e0e0;
+  border: 1px solid var(--purple-wcag-darker);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -36,6 +40,7 @@
   background-color: white;
   position: relative;
   padding-inline-end: calc(var(--spacing) + 1.5em);
+  border-bottom: 1px solid var(--purple-wcag-darker);
 }
 
 .activity-calendar-item__summary::-webkit-details-marker {
@@ -111,6 +116,37 @@
   flex: 1;
 }
 
+/* Meta information (date and location) */
+.activity-calendar-item__meta {
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size-18);
+}
+
+.activity-calendar-item__meta-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing);
+  margin-block-start: var(--spacing-half);
+}
+
+.activity-calendar-item__meta-row:first-child {
+  margin-block-start: 0;
+}
+
+.activity-calendar-item__meta dt {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-half);
+  font-weight: bold;
+  margin: 0;
+}
+
+.activity-calendar-item__meta dd {
+  margin: 0;
+  margin-inline-start: 0;
+}
+
 /* Location styling */
 .activity-calendar-item__location {
   display: flex;
@@ -129,6 +165,13 @@
 .activity-calendar-item__location svg {
   margin-inline-end: var(--spacing-half);
   flex-shrink: 0;
+}
+
+/* Date styling */
+.activity-date {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-half);
 }
 
 /* Tags */
@@ -152,12 +195,10 @@
 .activity-calendar-item__external-event,
 .activity-calendar-item__external-event-discount {
     font-size: var(--font-size-20);
-    text-transform: uppercase;
-    color: var(--purple-wcag-darker);
     border-left: 2px solid #e0e0e0;
     padding-left: var(--spacing);
     font-weight: 700;
-    background-color: var(--lilac-light);
+    background-color: var(--yellow-light);
     padding-block: var(--spacing-half);
 }
 

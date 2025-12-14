@@ -22,10 +22,7 @@
 }
 
 .activity-time {
-  font-family: var(--font-family-content);
   font-weight: normal;
-  font-size: var(--font-size-18);
-  line-height: 1.33;
 }
 
 .activity-header-content {
@@ -129,19 +126,11 @@
   margin: 1rem 0;
 }
 
-
-@media all and (min-width: 46.875em) {
-  .activity-summary {
-    min-height: 12rem;
-  }
-}
-
 .activity-date,
 .activity-location {
   display: flex;
   align-items: flex-start;
   color: var(--purple-wcag-darker);
-  text-transform: capitalize;
   gap: var(--spacing-half);
 }
 
@@ -160,7 +149,7 @@
 .activity-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0px 10px;
+    gap: 0px var(--spacing-half);
 }
 
 .activity-footer {
@@ -168,10 +157,6 @@
   align-items: flex-end;
   justify-content: flex-end;
   margin-block-start: auto;
+  gap: var(--spacing-half);
 }
 
-@media all and (min-width: 46.875em) {
-    .activity-header-content { 
-        height: 9rem; 
-    }
-}

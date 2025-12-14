@@ -129,7 +129,7 @@ module.exports = {
     locationUnknown: "nog te bepalen",
     signUp: "Meld je aan",
     signUpMail: "Meld je aan via email",
-    signUpMeetup: "Meld aan op Meetup.com",
+    signUpMeetup: "Meld je aan op Meetup.com",
     signUpClosed: "Bekijk details",
     opensubmenu: "Open submenu",
     closesubmenu: "Sluit submenu",

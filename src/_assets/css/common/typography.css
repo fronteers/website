@@ -77,12 +77,13 @@ a:focus {
 }
 
 .tag-link--large .tag {
-  font-size: var(--font-size-14);
+  font-size: var(--font-size-16);
 }
 
 .tag-link--active .tag,
 .tag-link[aria-current="page"] .tag {
-  background-color: black;
+  background-color: var(--purple-wcag-darker);
+  color: white;
 }
 
 .tag {
