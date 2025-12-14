@@ -2,6 +2,11 @@
   padding-inline: 0;
 }
 
+
+.banner-conference-wrapper {
+  margin-block: var(--spacing-double);
+}
+
 .banner-conference {
   display: flex;
   place-content: center;

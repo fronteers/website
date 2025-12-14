@@ -119,8 +119,8 @@
   background-color: var(--hero-background);
 }
 
-.hero-content a:hover,
-.hero-content a:focus {
+.hero-content a:not(.button):hover,
+.hero-content a:not(.button):focus {
     background-color: transparent;
     text-decoration: underline;
     color: currentColor;
@@ -359,6 +359,7 @@
     .hero-content .button:active {
         transform: rotate(-2deg);
         transition: transform .15s ease-out;
+        text-decoration: underline;
     }
 
     @media (prefers-reduced-motion) {
