@@ -1,6 +1,7 @@
+{% assign firstItem = index == 1 | default: false %}
 <div data-partial="activity-calendar-item" class="activity-calendar-item activity-calendar-item--{{ index }} {% for tag in activity.data.categories %}
 activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.externalEvent %} activity-calendar-item__details--external{% endif %}">
-    <details class="activity-calendar-item__details">
+    <details class="activity-calendar-item__details" {% if firstItem %}open{% endif %}>
         <summary class="activity-calendar-item__summary">
             <h3 class="activity-calendar-item__title">
                 {%- if locale == "nl" -%}
