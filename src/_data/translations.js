@@ -11,11 +11,14 @@ module.exports = {
     locationUnknown: "to be determined",
     jobreadmore: "Read more",
     blogreadmore: "Read more",
+    moreInformation: "More information",
     readmore: "Read more",
     about: "about",
     for: "for",
     goToVimeo: "Go to our Vimeo",
     signUp: "Sign up",
+    signUpMail: "Sign up via email",
+    signUpMeetup: "View on Meetup.com",
     signUpClosed: "Show details",
     opensubmenu: "Open submenu",
     closesubmenu: "Close submenu",
@@ -104,6 +107,8 @@ module.exports = {
     member: "Members profile",
     activity: "Event announcement",
     job: "Job opening",
+    externalEvent: "Please note: This is an event that is not organised by Fronteers.",
+    externalEventDiscount: "A discount is available for Fronteers members. Please contact the board of Fronteers for more information through bestuur@fronteers.nl."
   },
   nl: {
     baseUrl: "https://www.fronteers.nl/nl",
@@ -115,6 +120,7 @@ module.exports = {
     ariaTitleTranslateNav: "Taal",
     jobreadmore: "Bekijk vacature",
     blogreadmore: "Lees meer",
+    moreInformation: "Meer informatie",
     readmore: "Lees meer",
     about: "over",
     for: "voor",
@@ -122,6 +128,8 @@ module.exports = {
     location: "Locatie",
     locationUnknown: "nog te bepalen",
     signUp: "Meld je aan",
+    signUpMail: "Meld je aan via email",
+    signUpMeetup: "Meld aan op Meetup.com",
     signUpClosed: "Bekijk details",
     opensubmenu: "Open submenu",
     closesubmenu: "Sluit submenu",
@@ -210,5 +218,7 @@ module.exports = {
     member: "Ledenprofiel",
     activity: "Activiteit",
     job: "Vacature",
+    externalEvent: "Let op: Dit betreft een activiteit die niet door Fronteers wordt georganiseerd.",
+    externalEventDiscount: "Er is een korting beschikbaar voor Fronteers leden. Neem contact op met het bestuur van Fronteers via bestuur@fronteers.nl."
   },
 };

@@ -1,1 +1,1 @@
-exports.tag = (tag) => `<div class="tag tag-angle"><span>${tag}</span></div>`;
+exports.tag = (tag) => `<div class="tag"><span>${tag}</span></div>`;

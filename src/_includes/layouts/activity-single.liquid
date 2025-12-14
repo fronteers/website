@@ -19,11 +19,11 @@
                 <p class="activity-date">
                     {%- if locale == "nl" -%}
                         {%- include svg/icon_calendar.svg -%} <span class="visually-hidden">{{ translations[locale].location }}</span> <time class="activity-time" datetime="{{ eventdate | date: "%Y-%m-%d" }}">
-                            {{ eventdate  | localizedDate: 'nl' }}
+                            {{ eventdate | eventDate: 'nl', eventdateTentative }}
                         </time>
                     {%- elsif locale == "en" -%}
                         {%- include svg/icon_calendar.svg -%} <span class="visually-hidden">{{ translations[locale].location }}</span> <time class="activity-time" datetime="{{ eventdate | date: "%Y-%m-%d" }}">
-                            {{ eventdate  | displayDate: locale | date: "%B %e %Y" }}
+                            {{ eventdate | eventDate: 'en', eventdateTentative }}
                         </time>
                     {%- endif -%}
                 </p>
