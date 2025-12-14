@@ -24,7 +24,7 @@
                 {% assign subPath = mainPath | append: translations[locale].category | append: "/" | append: category.slug | append: "/" %}
                 <li>
                     <a href="{{ subPath}}" 
-                        class="{{ tagClasses }} {%- if page.url == subPath -%}{{ activeClass }} {%- endif -%}"
+                        class="{{ tagClasses }} {% if category.slug %}tag-link--{{ category.slug | slugify }}{% endif %} {%- if page.url == subPath -%}{{ activeClass }} {%- endif -%}"
                         {%- if page.url == subPath -%} aria-current="true" {%- endif -%}>
                         {%- tag category.title -%}
                     </a>
