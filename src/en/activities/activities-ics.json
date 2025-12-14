@@ -1,0 +1,12 @@
+{
+  "layout": "activity-ics.liquid",
+  "tags": "activities_ics",
+  "pagination": {
+    "data": "collections.published_activities_en",
+    "size": 1,
+    "alias": "activity"
+  },
+  "eleventyComputed": {
+    "permalink": "/en/activities/{{ activity.data.key | default: activity.fileSlug }}/{{ activity.data.eventdate | date: '%Y-%m-%d' }}-{{ activity.data.key | default: activity.fileSlug }}.ics"
+  }
+}

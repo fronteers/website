@@ -278,6 +278,55 @@ module.exports = function (eleventyConfig) {
     return lines;
   });
 
+  // ICS calendar filters
+  // Format date/time for ICS (RFC 5545 format: YYYYMMDDTHHMMSS)
+  eleventyConfig.addFilter("icsDateTime", function (dateObj, timeStr = null, durationHours = 2) {
+    const dateTime = DateTime.fromJSDate(dateObj, { zone: "Europe/Amsterdam" });
+    
+    if (timeStr) {
+      // Parse time string (HH:MM or HH:MM:SS)
+      const timeParts = timeStr.split(':');
+      const hours = parseInt(timeParts[0], 10);
+      const minutes = parseInt(timeParts[1], 10);
+      const seconds = timeParts[2] ? parseInt(timeParts[2], 10) : 0;
+      
+      const dateTimeWithTime = dateTime.set({ hour: hours, minute: minutes, second: seconds });
+      return dateTimeWithTime.toUTC().toFormat("yyyyMMdd'T'HHmmss'Z'");
+    }
+    
+    // If no time, use start of day
+    return dateTime.startOf('day').toUTC().toFormat("yyyyMMdd'T'HHmmss'Z'");
+  });
+
+  // Calculate end time for ICS (add duration to start time)
+  eleventyConfig.addFilter("icsEndDateTime", function (dateObj, timeStr = null, durationHours = 2) {
+    const dateTime = DateTime.fromJSDate(dateObj, { zone: "Europe/Amsterdam" });
+    
+    if (timeStr) {
+      const timeParts = timeStr.split(':');
+      const hours = parseInt(timeParts[0], 10);
+      const minutes = parseInt(timeParts[1], 10);
+      const seconds = timeParts[2] ? parseInt(timeParts[2], 10) : 0;
+      
+      const startDateTime = dateTime.set({ hour: hours, minute: minutes, second: seconds });
+      const endDateTime = startDateTime.plus({ hours: durationHours });
+      return endDateTime.toUTC().toFormat("yyyyMMdd'T'HHmmss'Z'");
+    }
+    
+    // If no time, add duration to start of day
+    return dateTime.startOf('day').plus({ hours: durationHours }).toUTC().toFormat("yyyyMMdd'T'HHmmss'Z'");
+  });
+
+  // Escape text for ICS format (escape commas, semicolons, backslashes, newlines)
+  eleventyConfig.addFilter("icsEscape", function (text) {
+    if (!text) return '';
+    return String(text)
+      .replace(/\\/g, '\\\\')
+      .replace(/;/g, '\\;')
+      .replace(/,/g, '\\,')
+      .replace(/\n/g, '\\n');
+  });
+
   // Only run SVG to JPEG conversion in production builds (puppeteer is slow)
   if (!isDev) {
     eleventyConfig.on('afterBuild', async () => {

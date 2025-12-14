@@ -72,6 +72,20 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
 
             {{ activity.templateContent }}
             
+            {%- if activity.data.eventdate -%}
+                {%- assign icsKey = activity.data.key | default: activity.fileSlug -%}
+                {%- assign icsDate = activity.data.eventdate | date: "%Y-%m-%d" -%}
+                {%- assign icsFilename = icsDate | append: "-" | append: icsKey | append: ".ics" -%}
+                {%- if locale == "nl" -%}
+                    {%- assign icsUrl = "/nl/activiteiten/" | append: icsKey | append: "/" | append: icsFilename -%}
+                {%- else -%}
+                    {%- assign icsUrl = "/en/activities/" | append: icsKey | append: "/" | append: icsFilename -%}
+                {%- endif -%}
+                <p class="activity-calendar-item__ics">
+                    <a href="{{ icsUrl }}" download class="button button--secondary">📅 {% if locale == "nl" %}Toevoegen aan agenda{% else %}Add to calendar{% endif %}</a>
+                </p>
+            {%- endif -%}
+            
         </div>
             
         {% if pastActivity or activity.data.signupavailable != 'false' %}
