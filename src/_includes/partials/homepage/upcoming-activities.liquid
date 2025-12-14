@@ -1,8 +1,8 @@
 <section data-partial="homepage/upcoming-activities" class="inner-wrapper upcoming-activities">
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
     <ol class="activity-calendar-items">
-        {%- for activity in upcomingActivities limit: 3 -%}
-            {%- assign index = forloop.index | modulo: 3 -%}
+        {%- for activity in upcomingActivities limit: 5 -%}
+            {%- assign index = forloop.index -%}
             <li class="list-item">
                 {%- include partials/activity-calendar-item headerlvl: "h3" index: index pastActivity: false -%}
             </li>

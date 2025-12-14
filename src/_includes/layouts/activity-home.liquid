@@ -85,7 +85,7 @@
                 {%- else -%}
                     <ol class="activity-calendar-items">
                         {%- for activity in upcomingActivities limit:pagination.size -%}
-                            {%- assign index = forloop.index | modulo: 3 -%}
+                            {%- assign index = forloop.index -%}
                             <li class="list-item">
                                 {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
                             </li>
