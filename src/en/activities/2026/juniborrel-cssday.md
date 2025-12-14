@@ -9,6 +9,9 @@ categories:
 key: juniborrel
 location: Amsterdam
 locale: en
+signupmail: anneke@fronteers.nl
+meetuplink: https://www.meetup.com/fronteers-nl/events/312421148/?slug=fronteers-nl
+draft: true
 ---
 
 More information to follow!

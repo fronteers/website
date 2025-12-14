@@ -10,6 +10,8 @@ categories:
 key: maartborrel
 location: Het Gegeven Paard, Utrecht
 locale: nl
+signupmail: anneke@fronteers.nl
+meetuplink: https://www.meetup.com/fronteers-nl/events/312424786/
 ---
 
 Drink gezellig een al dan niet alcoholische versnapering tijdens de borrel van Fronteers.

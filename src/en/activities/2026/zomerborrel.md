@@ -10,6 +10,8 @@ categories:
 key: zomerborrel
 location: Het Gegeven Paard, Utrecht
 locale: en
+signupmail: anneke@fronteers.nl
+meetuplink: https://www.meetup.com/fronteers-nl/events/312424789/
 ---
 
 Come and share a beverage during Fronteers' summer drinks.

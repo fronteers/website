@@ -10,6 +10,8 @@ categories:
 key: eindejaarsborrel
 location: Het Gegeven Paard, Utrecht
 locale: en
+signupmail: anneke@fronteers.nl
+meetuplink: https://www.meetup.com/fronteers-nl/events/312424800/
 ---
 
 Come and share a beverage during Fronteers' casual end of year drinks.
