@@ -13,6 +13,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
   const quick = Boolean(process.env.BUILD_QUICK);
+  const isDev = process.env.ELEVENTY_ENV === "development" || process.argv.includes("--serve") || process.argv.includes("--watch");
   const now = new Date();
 
   /**
@@ -53,6 +54,31 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.ignores.add("src/nl/vereniging/bestuur/notulen");
   }
 
+  /**
+   * Read .eleventyignore file and apply ignores programmatically for faster builds.
+   * This is more effective than relying on Eleventy's built-in ignore file reading
+   * because it happens earlier in the process.
+   */
+  if (isDev || quick) {
+    const ignoreFile = ".eleventyignore";
+    if (fs.existsSync(ignoreFile)) {
+      const ignoreContent = fs.readFileSync(ignoreFile, "utf-8");
+      const ignorePatterns = ignoreContent
+        .split("\n")
+        .map((line) => line.trim())
+        .filter((line) => line && !line.startsWith("#"));
+
+      ignorePatterns.forEach((pattern) => {
+        // Convert glob pattern to actual file paths
+        const files = glob.sync(pattern, { cwd: process.cwd() });
+        files.forEach((file) => {
+          eleventyConfig.ignores.add(file);
+        });
+      });
+      console.debug(`[ignore] Applied ${ignorePatterns.length} ignore patterns from .eleventyignore`);
+    }
+  }
+
   // Custom date filter
   eleventyConfig.addFilter("localizedDate", function (dateObj, locale = "en") {
     return DateTime.fromJSDate(dateObj)
@@ -89,25 +115,31 @@ module.exports = function (eleventyConfig) {
   /* Add id to heading elements */
   eleventyConfig.addPlugin(pluginAddIdToHeadings);
 
-  eleventyConfig.addPlugin(brokenLinksPlugin, {
-    redirect: "warn",
-    broken: "warn",
-    cacheDuration: "1d",
-    loggingLevel: 1,
-    excludeUrls: [
-      "https://www.openstreetmap.org*",
-      "https://www.youtube.com*",
-      "http://www.example.com*",
-      "https://codepen.io*",
-      "https://twitter.com*",
-      "http://api.dojotoolkit.org*",
-      "http://www.webdesignermagazine.nl/*",
-      "http://meetup.com*",
-      "https://github.com/fronteers/website*",
-    ],
-    excludeInputs: [],
-    callback: null,
-  });
+  // Only run broken links plugin in production builds (it's very slow)
+  if (!isDev) {
+    eleventyConfig.addPlugin(brokenLinksPlugin, {
+      redirect: "warn",
+      broken: "warn",
+      cacheDuration: "1d",
+      loggingLevel: 1,
+      excludeUrls: [
+        "https://www.openstreetmap.org*",
+        "https://www.youtube.com*",
+        "http://www.example.com*",
+        "https://codepen.io*",
+        "https://twitter.com*",
+        "http://api.dojotoolkit.org*",
+        "http://www.webdesignermagazine.nl/*",
+        "http://meetup.com*",
+        "https://github.com/fronteers/website*",
+        "https://www.w3.org/*"
+      ],
+      excludeInputs: [],
+      callback: null,
+    });
+  } else {
+    console.debug("[dev] Skipping broken links plugin for faster builds");
+  }
 
   eleventyConfig.addPlugin(pluginRss);
 
@@ -246,63 +278,68 @@ module.exports = function (eleventyConfig) {
     return lines;
   });
 
-  eleventyConfig.on('afterBuild', async () => {
-    async function convertSvgToJpeg(inputDir, outputDir) {
-      const browser = await puppeteer.launch();
-      const page = await browser.newPage();
+  // Only run SVG to JPEG conversion in production builds (puppeteer is slow)
+  if (!isDev) {
+    eleventyConfig.on('afterBuild', async () => {
+      async function convertSvgToJpeg(inputDir, outputDir) {
+        const browser = await puppeteer.launch();
+        const page = await browser.newPage();
 
-      // Read all files in the input directory
-      const files = fs.readdirSync(inputDir);
+        // Read all files in the input directory
+        const files = fs.readdirSync(inputDir);
 
-      for (const filename of files) {
-        if (filename.endsWith(".svg")) {
-          const inputPath = path.join(inputDir, filename);
-          const outputPath = path.join(outputDir, filename.replace('.svg', '.jpg'));
+        for (const filename of files) {
+          if (filename.endsWith(".svg")) {
+            const inputPath = path.join(inputDir, filename);
+            const outputPath = path.join(outputDir, filename.replace('.svg', '.jpg'));
 
-          // Read the SVG content
-          const svgContent = fs.readFileSync(inputPath, 'utf8');
+            // Read the SVG content
+            const svgContent = fs.readFileSync(inputPath, 'utf8');
 
-          // Extract width and height from SVG (Optional: If SVG has explicit size)
-          const matchWidth = svgContent.match(/width="([0-9]+)"/);
-          const matchHeight = svgContent.match(/height="([0-9]+)"/);
+            // Extract width and height from SVG (Optional: If SVG has explicit size)
+            const matchWidth = svgContent.match(/width="([0-9]+)"/);
+            const matchHeight = svgContent.match(/height="([0-9]+)"/);
 
-          const width = matchWidth ? parseInt(matchWidth[1], 10) : 1200; // Default to 1200px
-          const height = matchHeight ? parseInt(matchHeight[1], 10) : 675; // Default to 630px
+            const width = matchWidth ? parseInt(matchWidth[1], 10) : 1200; // Default to 1200px
+            const height = matchHeight ? parseInt(matchHeight[1], 10) : 675; // Default to 630px
 
-          // Set the viewport size to match SVG size
-          await page.setViewport({ width, height });
+            // Set the viewport size to match SVG size
+            await page.setViewport({ width, height });
 
-          // Set SVG content inside an HTML wrapper
-          await page.setContent(`
-                    <html>
-                        <body style="margin:0;padding:0;overflow:hidden;">
-                            <div style="width:${width}px; height:${height}px;">
-                                ${svgContent}
-                            </div>
-                        </body>
-                    </html>
-                `);
+            // Set SVG content inside an HTML wrapper
+            await page.setContent(`
+                      <html>
+                          <body style="margin:0;padding:0;overflow:hidden;">
+                              <div style="width:${width}px; height:${height}px;">
+                                  ${svgContent}
+                              </div>
+                          </body>
+                      </html>
+                  `);
 
-          // Take a screenshot and save as JPEG
-          await page.screenshot({
-            path: outputPath,
-            type: 'jpeg',
-            quality: 100,
-            clip: { x: 0, y: 0, width, height } // Ensure clipping matches viewport
-          });
+            // Take a screenshot and save as JPEG
+            await page.screenshot({
+              path: outputPath,
+              type: 'jpeg',
+              quality: 100,
+              clip: { x: 0, y: 0, width, height } // Ensure clipping matches viewport
+            });
 
-          console.log(`Converted: ${filename} -> ${outputPath}`);
+            console.log(`Converted: ${filename} -> ${outputPath}`);
+          }
         }
+
+        await browser.close();
       }
 
-      await browser.close();
-    }
-
-    // Execute conversion
-    const inputDir = 'dist/assets/images/social-preview-images/';
-    const outputDir = 'dist/assets/images/social-preview-images/';
-    await convertSvgToJpeg(inputDir, outputDir);
-  });
+      // Execute conversion
+      const inputDir = 'dist/assets/images/social-preview-images/';
+      const outputDir = 'dist/assets/images/social-preview-images/';
+      await convertSvgToJpeg(inputDir, outputDir);
+    });
+  } else {
+    console.debug("[dev] Skipping SVG to JPEG conversion for faster builds");
+  }
 
   // Allows you to debug a json object in eleventy templates data | stringify
   eleventyConfig.addFilter("stringify", (data) => {
@@ -326,9 +363,15 @@ module.exports = function (eleventyConfig) {
   });
 
   /* This log will appear before the first build. It is tied to the plugin that checks broken links. */
-  console.debug(
-    "Eleventy will now generate RSS feeds and then look for broken links. This may take a while. When its done, you should see logs appear."
-  );
+  if (!isDev) {
+    console.debug(
+      "Eleventy will now generate RSS feeds and then look for broken links. This may take a while. When its done, you should see logs appear."
+    );
+  } else {
+    console.debug(
+      "[dev] Running in development mode - broken links checking and SVG conversion disabled for faster builds"
+    );
+  }
 
   /* All templates in the content directory are parsed and copied to the dist directory */
   return {
