@@ -76,9 +76,11 @@
                     {%- else -%}
                         {%- assign icsUrl = "/en/activities/" | append: icsKey | append: "/" | append: icsFilename -%}
                     {%- endif -%}
-                    <p class="activity-ics">
-                        <a href="{{ icsUrl }}" download class="button button--secondary">📅 {% if locale == "nl" %}Toevoegen aan agenda{% else %}Add to calendar{% endif %}</a>
-                    </p>
+                    {% if not eventHasHappened %}
+                        <p class="activity-ics">
+                            <a href="{{ icsUrl }}" download class="button button--secondary">📅 {% if locale == "nl" %}Toevoegen aan agenda{% else %}Add to calendar{% endif %}</a>
+                        </p>
+                    {% endif %}
                 {%- endif -%}
 
                 {% if content != "" %}
