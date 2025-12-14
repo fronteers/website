@@ -5,7 +5,8 @@
     <main id="main">
         {%- pagehero 'homepage' title content -%}
 
-        {%- if activities.length != 0 -%}
+        {%- assign upcomingActivities = activities | upcomingEvents -%}
+        {%- if upcomingActivities.length > 0 -%}
             {%- include partials/homepage/upcoming-activities headerlvl:"h2" partialTitle:translations[locale].blockTitles.upcomingActivities -%}
         {%- endif -%}
 
