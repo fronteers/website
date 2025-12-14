@@ -2,6 +2,7 @@
 title: Fronteers Dark Mode 2
 date: 2025-12-13
 eventdate: 2026-10-02
+eventtime: '17:00'
 author: Anneke Sinnema
 summary: Een gezellige, single-track afterwork front-end conferentie door en voor de community
 categories:

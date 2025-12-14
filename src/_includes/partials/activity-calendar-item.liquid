@@ -23,6 +23,7 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
         </summary>
 
         <div class="activity-calendar-item__content">  
+
             {% if activity.data.externalEvent %}
                 <p class="activity-calendar-item__external-event">{{ translations[locale].externalEvent }}</p>
             {% endif %}
@@ -31,39 +32,34 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
                 <p class="activity-calendar-item__external-event-discount">{{ translations[locale].externalEventDiscount }}</p>
             {% endif %}
 
+            <div class="activity-calendar-item__tags">
+                {%- for tag in activity.data.categories -%}
+                    <a href="/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
+                {%- endfor -%}
+            </div>
+
             {% if activity.data.eventtime %}
-                {%- comment -%} Build datetime string combining eventdate and eventtime {%- endcomment -%}
                 {%- assign datePart = activity.data.eventdate | date: "%Y-%m-%d" -%}
-                {%- comment -%} eventtime might be a time string (HH:MM) or full datetime {%- endcomment -%}
-                {%- if activity.data.eventtime contains "T" -%}
-                    {%- comment -%} eventtime is already a full datetime {%- endcomment -%}
-                    {%- assign fullDateTime = activity.data.eventtime -%}
-                {%- else -%}
-                    {%- comment -%} eventtime is just a time, combine with date {%- endcomment -%}
-                    {%- assign timePart = activity.data.eventtime | strip -%}
-                    {%- if timePart.size == 5 -%}
-                        {%- comment -%} Time is HH:MM format, add seconds {%- endcomment -%}
-                        {%- assign timePart = timePart | append: ":00" -%}
-                    {%- endif -%}
-                    {%- assign fullDateTime = datePart | append: "T" | append: timePart -%}
+                {%- assign timePart = activity.data.eventtime | strip -%}
+                {%- if timePart.size == 5 -%}
+                    {%- assign timePart = timePart | append: ":00" -%}
                 {%- endif -%}
+                {%- assign fullDateTime = datePart | append: "T" | append: timePart -%}
                 <p class="activity-date">
-                    {%- if locale == "nl" -%}
-                        {%- include svg/icon_calendar.svg -%} <span class="visually-hidden">{{ translations[locale].location }}</span> <time class="activity-time" datetime="{{ fullDateTime }}">
-                            {{ activity.data.eventtime | eventDate: 'nl', activity.data.eventdateTentative }}
-                        </time>
-                    {%- elsif locale == "en" -%}
-                        {%- include svg/icon_calendar.svg -%} <span class="visually-hidden">{{ translations[locale].location }}</span> <time class="activity-time" datetime="{{ fullDateTime }}">
-                            {{ activity.data.eventtime | eventDate: 'en', activity.data.eventdateTentative }}
-                        </time>
-                    {%- endif -%}
+                    {%- include svg/icon_calendar.svg -%} <span class="visually-hidden">{{ translations[locale].location }}</span> <time class="activity-time" datetime="{{ fullDateTime }}">
+                        {{ activity.data.eventdate | eventDate: locale }} - {{ activity.data.eventtime | strip }}
+                    </time>
                 </p>
             {% endif %}
             
             {%- if activity.data.location and activity.data.location != "" -%}
                 <p class="activity-calendar-item__location">{%- include svg/icon_location.svg -%}
                     <span class="visually-hidden">{{ translations[locale].location }}</span>
-                    {{ activity.data.location }}
+                    {% if activity.data.locationLink == true %}
+                        <a href="https://www.openstreetmap.org/search?query={{ activity.data.location | url_encode }}" target="_blank" rel="noopener noreferrer">{{ activity.data.location }}</a>
+                    {% else %}
+                        {{ activity.data.location }}
+                    {% endif %}
                 </p>
             {%- else -%}
                 {%- if not pastActivity -%}
@@ -76,11 +72,6 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
 
             {{ activity.templateContent }}
             
-            <div class="activity-calendar-item__tags">
-                {%- for tag in activity.data.categories -%}
-                    <a href="/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
-                {%- endfor -%}
-            </div>
         </div>
             
         {% if pastActivity or activity.data.signupavailable != 'false' %}

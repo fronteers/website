@@ -3,6 +3,7 @@ title: 'CSS Day 2026'
 summary: 'Een conferentie over de stand van zaken van CSS voor CSS designers, developers, spec writers en browser vendors die trots zijn op wat ze weten en doen.'
 date: 2025-12-13
 eventdate: 2026-06-11
+eventtime: '09:00'
 location: 'Amsterdam'
 categories:
     - Conferences

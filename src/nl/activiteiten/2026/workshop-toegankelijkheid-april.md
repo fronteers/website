@@ -4,6 +4,7 @@ summary: Details volgen
 date: 2025-12-13
 eventdate: 2026-04-01
 eventdateTentative: true
+eventtime: '09:00'
 location: TBD
 categories:
     - Workshops

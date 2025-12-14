@@ -2,6 +2,7 @@
 title: 'performance.now() 2026'
 date: 2025-12-13
 eventdate: 2026-11-19
+eventtime: '09:00'
 location: 'Amsterdam'
 categories:
     - Conferences

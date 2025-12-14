@@ -3,6 +3,7 @@ title: 'SmashingConf Amsterdam 2026'
 summary: 'Een conferentie voor designers en UI engineers over UX en front-end. Met UX, design systems, toegankelijkheid, CSS en design patterns.'
 date: 2025-12-13
 eventdate: 2026-04-13
+eventtime: '09:00'
 location: 'Pathé Tuschinski, Amsterdam'
 categories:
     - Conferences

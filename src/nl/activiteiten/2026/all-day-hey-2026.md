@@ -3,6 +3,7 @@ title: 'All Day Hey! 2026'
 summary: 'Een gecureerde conferentie voor nieuwsgierige developers, designers en technology leaders. Een single-track conferentie met 8 industry-focused talks in het hart van Leeds.'
 date: 2025-12-13
 eventdate: 2026-05-07
+eventtime: '09:00'
 location: 'Everyman Cinema, Leeds, UK'
 categories:
     - Conferences

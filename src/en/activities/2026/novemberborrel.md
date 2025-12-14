@@ -9,6 +9,7 @@ categories:
   - Netwerken
 key: novemberborrel
 location: Het Gegeven Paard, Utrecht
+locationLink: true
 locale: en
 signupmail: anneke@fronteers.nl
 meetuplink: https://www.meetup.com/fronteers-nl/events/312424793/
