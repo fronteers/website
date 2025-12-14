@@ -135,7 +135,8 @@
 .activity-calendar-item__tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0px 10px;
+  gap: 0px var(--spacing-half);
+  justify-content: flex-end;
 }
 
 /* Footer */
