@@ -165,6 +165,12 @@
     font-size: var(--font-size-18);
 }
 
+@media (min-width: 54.875em) {
+    .category-checkboxes {
+        column-count: 4;
+    }
+}
+
 .category-filters-details label {
     padding-block: var(--spacing-half);
     font-size: var(--font-size-18);

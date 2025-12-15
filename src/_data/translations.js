@@ -95,6 +95,7 @@ module.exports = {
     emptyStateActivities:
       "We currently have no upcoming events, check back soon for more updates.",
     upcomingActivitiesTitle: "Upcoming activities",
+    activitiesTitle: "Activities",
     pastActivitiesTitle: "Past activities",
     pastActivitiesURL: "past",
     viewPastEvents: "View past events",
@@ -209,7 +210,8 @@ module.exports = {
     pagination: "Paginering",
     emptyStateActivities:
       "Momenteel zijn er geen nieuwe activiteiten gepland, neem binnenkort gerust terug een kijkje.",
-    upcomingActivitiesTitle: "Geplande activiteiten",
+      upcomingActivitiesTitle: "Gepland",
+    activitiesTitle: "Activiteiten",
     pastActivitiesTitle: "Voorbije activiteiten",
     pastActivitiesURL: "voorbije",
     viewPastEvents: "Bekijk voorbije activiteiten",

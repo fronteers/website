@@ -16,7 +16,7 @@
   block-size: 100%;
   display: flex;
   flex-direction: column;
-  margin-block-end: var(--spacing-double);
+  /* margin-block-end: var(--spacing-double); */
 }
 
 @media (min-width: 54.875em) {
@@ -35,12 +35,18 @@
 }
 
 .activity-calendar-item__summary {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   cursor: pointer;
   background-color: white;
   position: relative;
-  padding-inline-end: calc(var(--spacing) + 1.5em);
+  padding: 0;
   border-bottom: 1px solid var(--purple-wcag-darker);
+
+  @media (min-width: 54.875em) {
+    padding-inline-end: calc(var(--spacing) + 1.5em);
+  }
 }
 
 .activity-calendar-item__summary::-webkit-details-marker {
@@ -65,43 +71,54 @@
 .activity-calendar-item__title {
   display: flex;
   align-items: baseline;
-  gap: var(--spacing);
+  flex-wrap: wrap;
   font-family: var(--font-family-decoration);
   font-size: var(--font-size-20);
   font-weight: normal;
   margin: 0;
   text-transform: none;
+  padding: var(--spacing);
+
+  @media (min-width: 54.875em) {
+    padding: 0;
+    gap: var(--spacing);
+  }
 }
 
 .activity-calendar-item__time {
   font-family: var(--font-family-content);
   font-weight: bold;
   display: block;
-  min-width: 200px;
-  padding: var(--spacing);
+  width: 100%;
+
+  @media (min-width: 54.875em) {
+    min-width: 200px;
+    width: unset;
+    padding: var(--spacing);
+  }
 }
 
+@media (min-width: 54.875em) {
+    .activity-calendar-item--bijeenkomsten .activity-calendar-item__time {
+        background-color: var(--lilac);
+    }
 
-.activity-calendar-item--bijeenkomsten .activity-calendar-item__time {
-  background-color: var(--lilac);
+    .activity-calendar-item--workshops .activity-calendar-item__time {
+        background-color: var(--yellow);
+    }
+
+    .activity-calendar-item--conferences .activity-calendar-item__time {
+        background-color: var(--red-light);
+    }
+
+    .activity-calendar-item--vereniging .activity-calendar-item__time {
+        background-color: var(--green);
+    }
+
+    .activity-calendar-item__details--external .activity-calendar-item__time {
+        background-color: white;
+    }
 }
-
-.activity-calendar-item--workshops .activity-calendar-item__time {
-  background-color: var(--yellow);
-}
-
-.activity-calendar-item--conferences .activity-calendar-item__time {
-  background-color: var(--red-light);
-}
-
-.activity-calendar-item--vereniging .activity-calendar-item__time {
-  background-color: var(--green);
-}
-
-.activity-calendar-item__details--external .activity-calendar-item__time {
-    background-color: white;
-}
-
 
 /* Content area */
 .activity-calendar-item__content {
