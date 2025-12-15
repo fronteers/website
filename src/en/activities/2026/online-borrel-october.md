@@ -5,8 +5,8 @@ eventdate: 2026-10-07
 author: Anneke Sinnema
 summary: Join us for an online check-in during Fronteers' online drinks!
 categories:
-  - Bijeenkomsten
-  - Netwerken
+  - Meetup
+  - Networking
 key: online-borrel-october
 location: online
 locale: en

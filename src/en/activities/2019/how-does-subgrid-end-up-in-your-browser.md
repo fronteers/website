@@ -5,7 +5,6 @@ eventdate: 2019-06-14
 location:
 categories:
     - meetup
-    - Nederland
 signUpLink: 
     # url: https://www.meetup.com/Fronteers-NL/events/259696785/
     # mail: e-mailadres

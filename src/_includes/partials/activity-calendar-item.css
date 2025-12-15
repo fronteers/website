@@ -99,6 +99,7 @@
 }
 
 @media (min-width: 54.875em) {
+    .activity-calendar-item--meetup .activity-calendar-item__time,
     .activity-calendar-item--bijeenkomsten .activity-calendar-item__time {
         background-color: var(--lilac);
     }
@@ -107,10 +108,12 @@
         background-color: var(--yellow);
     }
 
-    .activity-calendar-item--conferences .activity-calendar-item__time {
+    .activity-calendar-item--conferences .activity-calendar-item__time,
+    .activity-calendar-item--congressen .activity-calendar-item__time {
         background-color: var(--red-light);
     }
 
+    .activity-calendar-item--organisation .activity-calendar-item__time,
     .activity-calendar-item--vereniging .activity-calendar-item__time {
         background-color: var(--green);
     }
