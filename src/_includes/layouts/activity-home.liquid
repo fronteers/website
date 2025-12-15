@@ -75,6 +75,8 @@
         <section class="inner-wrapper upcoming-activities">
             <h2 aria-live="polite" aria-atomic="true">{{ translations[locale].upcomingActivitiesTitle }} (<span data-selection-shown>{{ totalUpcoming }}</span> {{ translations[locale].of }} <span>{{ totalUpcoming }}</span> {{ translations[locale].shown }})</h2>
 
+            <a href="https://calendar.google.com/calendar/ical/qufsujrqggo7umi1glt1k7srik%40group.calendar.google.com/public/basic.ics" class="button button-primary" data-toggle-filters>{{ translations[locale].subscribeToCalendar }}</a>
+
             {%- if categoryCount > 0 -%}
                 <div class="activity-category-filters" data-activity-filters>
                     <details class="category-filters-details">

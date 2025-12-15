@@ -26,6 +26,7 @@ module.exports = {
     editThisPage: "Edit this page on GitHub",
     activitySingular: "Activity",
     activityDate: "Event date",
+    subscribeToCalendar: "Subscribe to calendar",
     noOpenVacancies:
       "<h2>There are no open job offers right now.</h2> Does your company have a position open? <a href='/en/jobs/post-job-opening/'>Post a job opening</a>! Open internships positions is free. And because of the launch of the new website, posting a vacancy for a job or freelance assignment is free until the end of 2024!",
     footerNavigationLabel: "Footer navigation",
@@ -142,6 +143,7 @@ module.exports = {
     editThisPage: "Pas deze pagina aan via GitHub",
     activitySingular: "Activiteit",
     activityDate: "Datum activiteit",
+    subscribeToCalendar: "Abonneren op agenda",
     noOpenVacancies:
       "<h2>Momenteel zijn er geen openstaande vacatures.</h2> Heeft jouw bedrijf een leuke positie open staan? <a href='/nl/werk-en-freelance/vacature-plaatsen/'>Plaats een vacature</a>! Voor stageplekken is dit gratis. En vanwege de lancering van de nieuwe website is het plaatsen van een vacature voor een baan of freelance opdracht gratis tot het eind van 2024!",
     footerNavigationLabel: "Footer navigatie",
