@@ -73,7 +73,7 @@
         {%- assign categoryCount = categoryCollection | size -%}
 
         <section class="inner-wrapper upcoming-activities">
-            <h2 aria-live="polite" aria-atomic="true">{{ translations[locale].upcomingActivitiesTitle }} (<span data-selection-shown>{{ totalUpcoming }}</span> of <span>{{ totalUpcoming }}</span> shown)</h2>
+            <h2 aria-live="polite" aria-atomic="true">{{ translations[locale].upcomingActivitiesTitle }} (<span data-selection-shown>{{ totalUpcoming }}</span> {{ translations[locale].of }} <span>{{ totalUpcoming }}</span> {{ translations[locale].shown }})</h2>
 
             {%- if categoryCount > 0 -%}
                 <div class="activity-category-filters" data-activity-filters>
