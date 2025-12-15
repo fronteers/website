@@ -67,22 +67,6 @@
                     {%- endif -%}
                 {%- endif -%}
 
-                {%- if eventdate -%}
-                    {%- assign icsKey = key | default: fileSlug -%}
-                    {%- assign icsDate = eventdate | date: "%Y-%m-%d" -%}
-                    {%- assign icsFilename = icsDate | append: "-" | append: icsKey | append: ".ics" -%}
-                    {%- if locale == "nl" -%}
-                        {%- assign icsUrl = "/nl/activiteiten/" | append: icsKey | append: "/" | append: icsFilename -%}
-                    {%- else -%}
-                        {%- assign icsUrl = "/en/activities/" | append: icsKey | append: "/" | append: icsFilename -%}
-                    {%- endif -%}
-                    {% if not eventHasHappened %}
-                        <p class="activity-ics">
-                            <a href="{{ icsUrl }}" download class="button button--secondary">📅 {% if locale == "nl" %}Toevoegen aan agenda{% else %}Add to calendar{% endif %}</a>
-                        </p>
-                    {% endif %}
-                {%- endif -%}
-
                 {% if content != "" %}
                     <hr />
                 {% endif %}
