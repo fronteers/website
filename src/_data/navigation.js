@@ -75,7 +75,7 @@ module.exports = {
         subnav: [
           {
             url: "/nl/activiteiten/workshops/",
-            title: "Workshop archief",
+            title: "Over workshops",
           },
           {
             url: "/nl/activiteiten/videos/",

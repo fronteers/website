@@ -160,3 +160,12 @@
   gap: var(--spacing-half);
 }
 
+.category-filters-details {
+    padding: var(--spacing);
+    font-size: var(--font-size-18);
+}
+
+.category-filters-details label {
+    padding-block: var(--spacing-half);
+    font-size: var(--font-size-18);
+}

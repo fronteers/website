@@ -1,7 +1,7 @@
 {%- assign pageCollectionKey = "published_activities_" | append: locale -%}
 
 {% comment %} Get the title and the information from the next upcoming activity (earliest first) {% endcomment %}
-{%- assign upcomingActivitiesForNextUp = paginated_activities | upcomingEvents -%}
+{%- assign upcomingActivitiesForNextUp = collections[pageCollectionKey] | upcomingEvents -%}
 {%- for activity in upcomingActivitiesForNextUp limit:1 -%}
     {% comment %} Check if event has happened, or not yet. Create a variable 'eventHasHappened' to store the result. {% endcomment %}
     {%- assign today = "now" | date: "%Y%m%d" | plus: 0 -%}
@@ -61,58 +61,69 @@
     {%- include partials/page-header/_page-header -%}
 
     <main id="main" class="{% if useHero %}styledheader{% endif %}">
-            {%- pagehero 'activities' nextUpTitle nextUp '' -%}
+            {% comment %} {%- pagehero 'activities' nextUpTitle nextUp '' -%} {% endcomment %}
 
-        {%- assign upcomingActivities = paginated_activities | upcomingEvents -%}
-        {%- assign totalUpcoming = collections[pageCollectionKey] | upcomingEvents | count -%}
-        {%- assign viewCondition =  totalUpcoming |  divided_by: 9 | ceil -%}
+        {%- comment -%} Get all upcoming events from the full collection {%- endcomment -%}
+        {%- assign allUpcomingActivities = collections[pageCollectionKey] | upcomingEvents -%}
+        {%- assign totalUpcoming = allUpcomingActivities | size -%}
 
-        {%- include partials/utility/dynamic-category-loop level: "h2" type: "activity" typeURL: translations[locale].activitiesURL -%}
+        {%- comment -%} Get all categories for filtering {%- endcomment -%}
+        {%- assign collectionKey = "activity_categories_" | append: locale -%}
+        {%- assign categoryCollection = collections[collectionKey] -%}
+        {%- assign categoryCount = categoryCollection | size -%}
 
-        {%- if pagination.pageNumber < viewCondition or viewCondition == 0 -%}
-            <section class="inner-wrapper upcoming-activities">
-                <h2>{{ translations[locale].upcomingActivitiesTitle }}</h2>
+        <section class="inner-wrapper upcoming-activities">
+            <h2 aria-live="polite" aria-atomic="true">{{ translations[locale].upcomingActivitiesTitle }} (<span data-selection-shown>{{ totalUpcoming }}</span> of <span>{{ totalUpcoming }}</span> shown)</h2>
 
-                {%- if totalUpcoming == 0 -%}
-                    <p>{{ translations[locale].emptyStateActivities }}</p>
-                {%- else -%}
-                    <ol class="activity-calendar-items">
-                        {%- for activity in upcomingActivities limit:pagination.size -%}
-                            {%- assign index = forloop.index -%}
-                            <li class="list-item">
-                                {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
-                            </li>
-                        {%- endfor -%}
-                    </ol>
-                {%- endif -%}
-            
-            </section>
-        {%- endif -%}
+            {%- if categoryCount > 0 -%}
+                <div class="activity-category-filters" data-activity-filters>
+                    <details class="category-filters-details">
+                        <summary>{{ translations[locale].filter }}
+                        </summary>
+                        <div class="category-checkboxes">
+                            <label>
+                                <input type="checkbox" name="category-filter" value="all" checked data-filter-all>
+                                <span>{{ translations[locale].allCategories }}</span>
+                            </label>
+                            {%- for category in categoryCollection -%}
+                                <label>
+                                    <input type="checkbox" name="category-filter" value="{{ category.slug }}" checked data-filter-category="{{ category.slug }}">
+                                    <span>{{ category.title }}</span>
+                                </label>
+                            {%- endfor -%}
+                        </div>
+                    </details>
+                </div>
+            {%- endif -%}
 
-        {%- assign shownUpcomingActivities = paginated_activities | upcomingEvents | count -%}
-
-        {%- if shownUpcomingActivities < 9 -%}
-            <section class="inner-wrapper past-activities">
-                {%- assign pastActivities = paginated_activities | pastEvents -%}
-                {%- assign totalPastActivities = collections[pageCollectionKey] | pastEvents | count -%}
-                
-                <h2>{{ translations[locale].pastActivitiesTitle }} <span>({{ totalPastActivities }})</span></h2>
-                
-                <ol class="desktop-columns">
-                    {%- for activity in pastActivities limit:pagination.size -%}
-                        {%- assign index = forloop.index | modulo: 3 -%}
-                        <li class="list-item">
-                            {%- include partials/activity headerlvl:"h3" index:index pastActivity: true -%}
+            {%- if totalUpcoming == 0 -%}
+                <p>{{ translations[locale].emptyStateActivities }}</p>
+            {%- else -%}
+                <ol class="activity-calendar-items" data-activity-list>
+                    {%- for activity in allUpcomingActivities -%}
+                        {%- assign index = forloop.index -%}
+                        <li class="list-item" data-activity-item {% for tag in activity.data.categories %}data-category-{{ tag | slugify }}="true" {% endfor %}>
+                            {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
                         </li>
                     {%- endfor -%}
                 </ol>
-            </section>
-        {%- endif-%}
+            {%- endif -%}
 
-        {%- include partials/pagination -%}
+            {%- comment -%} Link to past events page {%- endcomment -%}
+            {%- assign allPastActivities = collections[pageCollectionKey] | pastEvents -%}
+            {%- assign totalPastActivities = allPastActivities | size -%}
+            {%- if totalPastActivities > 0 -%}
+                <p class="past-events-link">
+                    <a href="/{{ translations[locale].activitiesURL }}/{{ translations[locale].pastActivitiesURL }}/">
+                        {{ translations[locale].viewPastEvents }} <span>({{ totalPastActivities }})</span>
+                    </a>
+                </p>
+            {%- endif -%}
+        </section>
 
     </main>
 
     {%- include partials/page-footer/_page-footer -%}
+    <script src="/assets/js/activity-filters.js"></script>
 </body>
 </html>
