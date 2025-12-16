@@ -9,7 +9,6 @@
   { "naam": "Sander Aarts", "werkgever": "-" },
   { "naam": "Ilja Maas", "werkgever": "Dreamsolution" },
   { "naam": "Egor Kloos", "werkgever": "-" },
-  { "naam": "Justin Halsall", "werkgever": "Ultimaker" },
   { "naam": "Jeroen Pulles", "werkgever": "Dreamsolution" },
   { "naam": "Wim van Iersel", "werkgever": "Gemeente Tilburg" },
   { "naam": "Jarno de Wit", "werkgever": "Incentro" },
@@ -69,7 +68,6 @@
   { "naam": "Sander Bras", "werkgever": "Something Big" },
   { "naam": "Maarten Hus", "werkgever": "react-cursus.nl" },
   { "naam": "Robert Kievits", "werkgever": "FrontMen" },
-  { "naam": "Ibe Vanmeenen", "werkgever": "Kunstmaan" },
   { "naam": "Lody Borgers", "werkgever": "-" },
   { "naam": "Jacqueline Lievense", "werkgever": "Modern Media" },
   { "naam": "Jeroen Heijmans", "werkgever": "Infi" },
@@ -111,6 +109,10 @@
   { "naam": "Claudia Reynders", "werkgever": "-" },
   { "naam": "Robert-Jan Granneman", "werkgever": "WebzDev" },
   { "naam": "Rosita Rampertaap", "werkgever": "-" },
+  {
+    "naam": "Petra Schanz",
+    "werkgever": "Gelbe Seiten Marketinggesellschaft mbH"
+  },
   { "naam": "Nico Stam", "werkgever": "-" },
   { "naam": "Petra Knip", "werkgever": "Ticketworks" },
   { "naam": "Derk-Jan Karrenbeld", "werkgever": "-" },
