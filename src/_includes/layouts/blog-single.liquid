@@ -55,7 +55,7 @@
                     <ul class="blog-tags" role="list" aria-label="Tagged">
                         {%- for tag in categories limit:2 -%}
                             <li>
-                                <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{{ tag }}</a>
+                                <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag">{{ tag }}</a>
                             </li>
                         {%- endfor -%}
                     </ul>

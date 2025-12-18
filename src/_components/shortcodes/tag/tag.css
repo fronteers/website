@@ -6,6 +6,11 @@
     background: var(--lilac-light);
     color: black;
     /* font-size: var(--font-size-12); */
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 0 0 2px var(--purple-wcag-darker);
+    }
 }
 
 /* Angled tags, like with < and > */

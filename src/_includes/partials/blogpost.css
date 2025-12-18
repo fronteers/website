@@ -126,13 +126,6 @@
 .blog-tags .tag-link {
     margin-block: 0;
     transform: translateY(2px); 
-
-    /* &:hover,
-    &:focus {
-        background-color: var(--purple-wcag-darker);
-        color: white;
-        box-shadow: none;
-    } */
 }
 
 .accent-block {
