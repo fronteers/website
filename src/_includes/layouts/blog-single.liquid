@@ -8,29 +8,25 @@
 {%- endfor -%}
 
 {% capture blogMeta %}
-    <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
-        {%- if locale == "nl" -%}
-            {{ date | localizedDate: 'nl' }}
-        {%- else -%}
-            {{ date | date: "%B %e %Y" }}
-        {%- endif -%}
-    </time>
-
-    {%- if authorHasAProfilePage -%}
-        <a href="{{ memberUrl }}" class="blog-author">{{ author }}</a>
-    {%- else -%}
-        <span class="blog-author">{{ author }}</span>
-    {%- endif -%}
-
-    {%- if categories.size > 0 -%}
-    <ul class="blog-tags" role="list" aria-label="Tagged">
-        {%- for tag in categories limit:2 -%}
-            <li>
-                <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{{ tag }}</a>
-            </li>
-        {%- endfor -%}
-    </ul>
-    {%- endif -%}
+    <p>
+        {{ translations[locale].scheduled_date }}:
+        <time class="blog-time" datetime="{{ date | date: "%Y-%m-%d" }}">
+            {%- if locale == "nl" -%}
+                {{ date | localizedDate: 'nl' }}
+            {%- else -%}
+                {{ date | date: "%B %e %Y" }}
+            {%- endif -%}
+        </time>
+    </p>
+    
+    <p>
+        {{ translations[locale].scheduled_author }}:
+        {% if authorHasAProfilePage %}
+            <a href="{{ memberUrl }}" class="blog-author">{{ author }}</a>
+        {% else %}
+            <span class="blog-author">{{ author }}</span>
+        {% endif %}
+    </p>
 {% endcapture %}
 
 {%- include partials/utility/html-head  -%}
@@ -54,6 +50,16 @@
                 {%- endif -%}
 
                 {{ content }}
+
+                {%- if categories.size > 0 -%}
+                    <ul class="blog-tags" role="list" aria-label="Tagged">
+                        {%- for tag in categories limit:2 -%}
+                            <li>
+                                <a href="/{{ translations[locale].blogsURL }}/{{ translations[locale].category }}/{{ tag | slugify }}" class="tag-link">{{ tag }}</a>
+                            </li>
+                        {%- endfor -%}
+                    </ul>
+                {%- endif -%}
             </div>
         </div>
     </main>

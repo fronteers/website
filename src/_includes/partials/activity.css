@@ -175,3 +175,8 @@
     padding-block: var(--spacing-half);
     font-size: var(--font-size-18);
 }
+
+.subscribe-to-calendar {
+    margin-block-end: var(--spacing-double);
+}
+ 

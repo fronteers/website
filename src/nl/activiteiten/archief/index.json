@@ -1,0 +1,13 @@
+{
+  "layout": "activity-past.liquid",
+  "permalink": "/nl/activiteiten/voorbije/{%- if pagination.pageNumber > 0 -%}{{ pagination.pageNumber }}/{%- endif -%}index.html",
+  "tags": "pages",
+  "key": "activities-past",
+  "locale": "nl",
+  "pagination": {
+    "data": "collections.published_activities_nl",
+    "size": "12",
+    "alias": "paginated_activities",
+    "generatePageOnEmptyData": true
+  }
+}

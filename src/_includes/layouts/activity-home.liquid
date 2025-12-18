@@ -73,30 +73,41 @@
         {%- assign categoryCount = categoryCollection | size -%}
 
         <section class="inner-wrapper upcoming-activities">
-            <h2 aria-live="polite" aria-atomic="true">{{ translations[locale].upcomingActivitiesTitle }} (<span data-selection-shown>{{ totalUpcoming }}</span> {{ translations[locale].of }} <span>{{ totalUpcoming }}</span> {{ translations[locale].shown }})</h2>
+            {% comment %}
+                // if we decide to use the filters, we need to communicate filtering effects to people with assistive technologies:
+                
+                <h2 aria-live="polite" aria-atomic="true">{{ translations[locale].upcomingActivitiesTitle }} (<span data-selection-shown>{{ totalUpcoming }}</span> {{ translations[locale].of }} <span>{{ totalUpcoming }}</span> {{ translations[locale].shown }})</h2>
+            {% endcomment %}
 
-            <a href="https://calendar.google.com/calendar/ical/qufsujrqggo7umi1glt1k7srik%40group.calendar.google.com/public/basic.ics" class="button button-primary" data-toggle-filters>{{ translations[locale].subscribeToCalendar }}</a>
+            <h2>{{ translations[locale].upcomingActivitiesTitle }}</h2>
 
-            {%- if categoryCount > 0 -%}
-                <div class="activity-category-filters" data-activity-filters>
-                    <details class="category-filters-details">
-                        <summary>{{ translations[locale].filter }}
-                        </summary>
-                        <div class="category-checkboxes">
-                            <label>
-                                <input type="checkbox" name="category-filter" value="all" checked data-filter-all>
-                                <span>{{ translations[locale].allCategories }}</span>
-                            </label>
-                            {%- for category in categoryCollection -%}
+            <p>
+                {{ translations[locale].subscribeToCalendarDescription }}
+                <a href="https://calendar.google.com/calendar/ical/qufsujrqggo7umi1glt1k7srik%40group.calendar.google.com/public/basic.ics">{{ translations[locale].subscribeToCalendar }}</a>
+            </p>
+
+            {% comment %}
+                {%- if categoryCount > 0 -%}
+                    <div class="activity-category-filters" data-activity-filters>
+                        <details class="category-filters-details">
+                            <summary>{{ translations[locale].filter }}
+                            </summary>
+                            <div class="category-checkboxes">
                                 <label>
-                                    <input type="checkbox" name="category-filter" value="{{ category.slug }}" checked data-filter-category="{{ category.slug }}">
-                                    <span>{{ category.title }}</span>
+                                    <input type="checkbox" name="category-filter" value="all" checked data-filter-all>
+                                    <span>{{ translations[locale].allCategories }}</span>
                                 </label>
-                            {%- endfor -%}
-                        </div>
-                    </details>
-                </div>
-            {%- endif -%}
+                                {%- for category in categoryCollection -%}
+                                    <label>
+                                        <input type="checkbox" name="category-filter" value="{{ category.slug }}" checked data-filter-category="{{ category.slug }}">
+                                        <span>{{ category.title }}</span>
+                                    </label>
+                                {%- endfor -%}
+                            </div>
+                        </details>
+                    </div>
+                {%- endif -%}
+            {% endcomment %}
 
             {%- if totalUpcoming == 0 -%}
                 <p>{{ translations[locale].emptyStateActivities }}</p>

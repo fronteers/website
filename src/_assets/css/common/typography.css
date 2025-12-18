@@ -59,6 +59,8 @@ a:focus {
   color: white;
   background-color: var(--purple-wcag-darker);
   text-decoration: none;
+
+  box-shadow: 0 0 0 7px var(--purple-wcag-darker);
 }
 
 .tag-link {

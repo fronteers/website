@@ -1,0 +1,42 @@
+{%- assign pageCollectionKey = "published_activities_" | append: locale -%}
+{%- include partials/utility/html-head -%}
+<body data-layout="activity-past">
+    {%- include partials/page-header/_page-header -%}
+
+    <main id="main" class="{% if useHero %}styledheader{% endif %}">
+        {%- comment -%} Get all past events {%- endcomment -%}
+        {%- assign allPastActivities = collections[pageCollectionKey] | pastEvents -%}
+        {%- assign totalPastActivities = allPastActivities | size -%}
+        {%- assign pastEventsPerPage = 12 -%}
+        {%- assign totalPastPages = totalPastActivities | divided_by: pastEventsPerPage | ceil -%}
+        {%- assign pastEventsOffset = pagination.pageNumber | times: pastEventsPerPage -%}
+
+        {%- include partials/utility/dynamic-category-loop level: "h2" type: "activity" typeURL: translations[locale].activitiesURL -%}
+
+        <section class="inner-wrapper past-activities">
+            <h2>{{ translations[locale].pastActivitiesTitle }} <span>({{ totalPastActivities }})</span></h2>
+            
+            <ol class="desktop-columns">
+                {%- assign itemsShown = 0 -%}
+                {%- for activity in allPastActivities -%}
+                    {%- if forloop.index0 >= pastEventsOffset and itemsShown < pastEventsPerPage -%}
+                        {%- assign index = itemsShown | modulo: 3 -%}
+                        <li class="list-item">
+                            {%- include partials/activity headerlvl:"h3" index:index activity:activity pastActivity: true -%}
+                        </li>
+                        {%- assign itemsShown = itemsShown | plus: 1 -%}
+                    {%- endif -%}
+                {%- endfor -%}
+            </ol>
+        </section>
+        
+        {%- comment -%} Only show pagination if there are more than 12 past events {%- endcomment -%}
+        {%- if totalPastActivities > pastEventsPerPage -%}
+            {%- include partials/pagination -%}
+        {%- endif -%}
+
+    </main>
+
+    {%- include partials/page-footer/_page-footer -%}
+</body>
+</html>

@@ -74,12 +74,11 @@
                 {{ content }}
             </div> 
             <div class="activity-footer">
-                
-
                 {% if eventHasHappened or signupavailable != 'false' %}
-                    {%- if meetuplink and meetuplink != "" -%}
+                    {%- assign meetupLinkValue = meetuplink | default: meetupLink -%}
+                    {%- if meetupLinkValue and meetupLinkValue != "" -%}
                         <a
-                            href="{{ meetuplink }}"
+                            href="{{ meetupLinkValue }}"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="button">{{ translations[locale].signUpMeetup }}<span class="visually-hidden"> {{ translations[locale].for }} {{ title }}</span>

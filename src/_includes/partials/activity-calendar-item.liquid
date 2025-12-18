@@ -39,7 +39,7 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
             </div>
 
             <dl class="activity-calendar-item__meta">
-                {% if activity.data.eventtime %}
+                {% if activity.data.eventtime and not activity.data.eventdateTentative %}
                     {%- assign datePart = activity.data.eventdate | date: "%Y-%m-%d" -%}
                     {%- assign timePart = activity.data.eventtime | strip -%}
                     {%- if timePart.size == 5 -%}
@@ -53,7 +53,20 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
                         </dt>
                         <dd class="activity-time">
                             <time datetime="{{ fullDateTime }}">
-                                {{ activity.data.eventdate | eventDate: locale }} - {{ activity.data.eventtime | strip }}
+                                {{ activity.data.eventdate | eventDate: locale, activity.data.eventdateTentative }} 
+                                {% if not activity.data.eventdateTentative %} - {{ activity.data.eventtime | strip }}{% endif %}    
+                            </time>
+                        </dd>
+                    </div>
+                {% elsif activity.data.eventdate %}
+                    <div class="activity-calendar-item__meta-row">
+                        <dt class="activity-date">
+                            {%- include svg/icon_calendar.svg -%} 
+                            <span>{{ translations[locale].activityDate }}</span>
+                        </dt>
+                        <dd class="activity-time">
+                            <time datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                                {{ activity.data.eventdate | eventDate: locale, activity.data.eventdateTentative }}
                             </time>
                         </dd>
                     </div>
@@ -63,7 +76,7 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
                     <div class="activity-calendar-item__meta-row">
                         <dt class="activity-calendar-item__location">
                             {%- include svg/icon_location.svg -%}
-                            <span class="visually-hidden">{{ translations[locale].location }}</span>
+                            
                             <span>{{ translations[locale].location }}</span>
                         </dt>
                         <dd>
@@ -96,19 +109,18 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
             
         {% if pastActivity or activity.data.signupavailable != 'false' %}
         <div class="activity-calendar-item__footer">
-            {%- if activity.data.meetuplink and activity.data.meetuplink != "" -%}
+            {%- assign meetupLinkValue = activity.data.meetuplink | default: activity.data.meetupLink -%}
+            {%- if meetupLinkValue and meetupLinkValue != "" -%}
                 <a
-                    href="{{ activity.data.meetuplink }}"
+                    href="{{ meetupLinkValue }}"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="button">{{ translations[locale].signUpMeetup }}<span class="visually-hidden"> {{ translations[locale].for }} {{ activity.data.title }}</span>
                 </a>
-            {%- endif -%}
-
-            {% if activity.data.signupmail and activity.data.signupmail != "" -%}
+            {% elsif activity.data.signupmail and activity.data.signupmail != "" -%}
                 <a
                     href="mailto:{{ activity.data.signupmail }}?subject=Aanmelding%20voor%20{{ activity.data.title }}"
-                    class="button">{{ translations[locale].signUpMail }}<span class="visually-hidden"> {{ translations[locale].about }} {{ activity.data.title }}</span>
+                    class="button" target="_blank" rel="noopener noreferrer">{{ translations[locale].signUpMail }}<span class="visually-hidden"> {{ translations[locale].about }} {{ activity.data.title }}</span>
                 </a>
             {% elsif activity.data.externalUrl and activity.data.externalUrl != "" -%}
                 <a
@@ -117,7 +129,7 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
                     rel="noopener noreferrer"
                     class="button">{{ translations[locale].moreInformation }}<span class="visually-hidden"> {{ translations[locale].about }} {{ activity.data.title }}</span>
                 </a>
-            {% else %}
+            {% elsif not activity.data.eventdateTentative %}
                 <a
                     href="{{ activity.url }}"
                     class="button">{{ translations[locale].moreInformation }}<span class="visually-hidden"> {{ translations[locale].about }} {{ activity.data.title }}</span>

@@ -25,7 +25,6 @@
   }
 }
 
-/* Details/Summary styling */
 .activity-calendar-item__details {
   display: flex;
   flex-direction: column;
@@ -43,10 +42,26 @@
   position: relative;
   padding: 0;
   border-bottom: 1px solid var(--purple-wcag-darker);
+  box-shadow: 0 0 0 1px transparent;
 
   @media (min-width: 54.875em) {
     padding-inline-end: calc(var(--spacing) + 1.5em);
   }
+
+  &:hover,
+  &:focus-visible {
+    background-color: var(--lilac-light);
+    box-shadow: 0 0 0 1px black;
+  }
+}
+
+.activity-calendar-item__details--external .activity-calendar-item__summary {
+    &:hover,
+    &:focus-visible {
+        .activity-calendar-item__time {
+            background-color: var(--lilac-light);
+        }
+    }
 }
 
 .activity-calendar-item__summary::-webkit-details-marker {
@@ -99,36 +114,77 @@
 }
 
 @media (min-width: 54.875em) {
-    .activity-calendar-item--meetup .activity-calendar-item__time,
-    .activity-calendar-item--bijeenkomsten .activity-calendar-item__time {
-        background-color: var(--lilac);
+    .activity-calendar-item--meetup,
+    .activity-calendar-item--bijeenkomsten {
+         .activity-calendar-item__summary:hover,
+         .activity-calendar-item__summary:focus-visible {
+            background-color: var(--lilac-light);
+        }
+
+        .activity-calendar-item__time,
+        .activity-calendar-item__time {
+            background-color: var(--lilac);
+        }
     }
 
-    .activity-calendar-item--workshops .activity-calendar-item__time {
-        background-color: var(--yellow);
+    .activity-calendar-item--workshops {
+         .activity-calendar-item__summary:hover,
+         .activity-calendar-item__summary:focus-visible {
+            background-color: var(--yellow-light);
+        }
+
+        .activity-calendar-item__time {
+            background-color: var(--yellow);
+        }
     }
 
-    .activity-calendar-item--conferences .activity-calendar-item__time,
-    .activity-calendar-item--congressen .activity-calendar-item__time {
-        background-color: var(--red-light);
+    .activity-calendar-item--conferences,
+    .activity-calendar-item--congressen {
+         .activity-calendar-item__summary:hover,
+         .activity-calendar-item__summary:focus-visible {
+            background-color: var(--red-light);
+        }
+
+        .activity-calendar-item__time {
+            background-color: var(--red);
+        }
     }
 
-    .activity-calendar-item--organisation .activity-calendar-item__time,
-    .activity-calendar-item--vereniging .activity-calendar-item__time {
-        background-color: var(--green);
+    .activity-calendar-item--organisation,
+    .activity-calendar-item--vereniging {
+         .activity-calendar-item__summary:hover,
+         .activity-calendar-item__summary:focus-visible {
+            background-color: var(--green-light);
+        }
+
+        .activity-calendar-item__time {
+            background-color: var(--green);
+        }
     }
 
-    .activity-calendar-item__details--external .activity-calendar-item__time {
+    .activity-calendar-item__details--external {
         background-color: white;
+
+        .activity-calendar-item__time {
+            background-color: white;
+        }
+        
+        .activity-calendar-item__summary:hover,
+        .activity-calendar-item__summary:focus-visible {
+            background-color: var(--lilac-light);  
+        }
     }
 }
 
-/* Content area */
 .activity-calendar-item__content {
   padding: var(--spacing);
+
+  li {
+    font-size: var(--font-size-18);
+    line-height: 1.5;
+  }
 }
 
-/* Description paragraph (formerly called summary) */
 .activity-calendar-item__description {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -136,7 +192,6 @@
   flex: 1;
 }
 
-/* Meta information (date and location) */
 .activity-calendar-item__meta {
   margin: 0;
   padding: 0;
@@ -225,3 +280,7 @@
 .activity-calendar-item__external-event {
     margin-block-start: 0;
 }
+/* 
+.subscribe-to-calendar {
+    margin-block-end: var(--spacing-double);
+} */
