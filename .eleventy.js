@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
   const quick = Boolean(process.env.BUILD_QUICK);
   const isDev = process.env.ELEVENTY_ENV === "development" || process.argv.includes("--serve") || process.argv.includes("--watch");
   const now = new Date();
-
+ // 
   /**
    * There is a quick build function (npm run start:quick) that only loads the
    * recent content (YTD and previous year), by excluding all year folders from
