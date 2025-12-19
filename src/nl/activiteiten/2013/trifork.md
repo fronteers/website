@@ -4,7 +4,7 @@ date: 2013-02-07
 eventdate: 2013-02-07
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Donderdag 7 februari is Fronteers te gast bij [Trifork](http://trifork.nl) in Amsterdam. Ross Tuck zal een presentatie houden over hoe je het meeste kan halen uit HTTP. Daarna zal Breandán Knowlton vertellen over project management van een groot project. We starten de avond onder het genot van pizza, je hoeft dus onderweg niet snel een hapje te eten. Beide presentaties zullen worden gegeven in het Engels.

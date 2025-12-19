@@ -4,7 +4,7 @@ date: 2020-10-07
 eventdate: 2020-10-07
 location: Online
 categories: 
-    - meetup
+    - bijeenkomsten
 graphic: 
   src: banner-conference.jpg
   width: 100

@@ -4,7 +4,7 @@ date: 2015-12-10
 eventdate: 2015-12-10
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op donderdag 10 december 2015 is Fronteers te gast bij [Netvlies](http://www.netvlies.nl/) in Breda. Er staan drie sprekers op het programma.

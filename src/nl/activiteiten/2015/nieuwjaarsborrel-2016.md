@@ -4,7 +4,7 @@ date: 2015-12-30
 eventdate: 2015-12-30
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Een nieuw jaar, tijd voor de Fronteers nieuwjaarsborrel, speciaal voor leden!

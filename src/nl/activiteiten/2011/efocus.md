@@ -4,7 +4,7 @@ date: 2011-07-05
 eventdate: 2011-07-05
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Lee Boonstra en Arjan Eising heten het toegestroomde Fronteers publiek welkom na een heerlijke barbecue.

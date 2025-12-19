@@ -1,0 +1,143 @@
+{% assign firstItem = index == 1 | default: false %}
+<div data-partial="activity-calendar-item" class="activity-calendar-item activity-calendar-item--{{ index }} {% for tag in activity.data.categories %}
+activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.externalEvent %} activity-calendar-item__details--external{% endif %}">
+    <details class="activity-calendar-item__details" {% if firstItem %}open{% endif %}>
+        <summary class="activity-calendar-item__summary">
+            <h3 class="activity-calendar-item__title">
+                {%- if locale == "nl" -%}
+                    {% if activity.data.eventdate %}
+                        <time class="activity-calendar-item__time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                            {{ activity.data.eventdate | eventDate: 'nl', activity.data.eventdateTentative }}
+                        </time>
+                    {% endif %}
+                {%- elsif locale == "en" -%}
+                    {% if activity.data.eventdate %}
+                        <time class="activity-calendar-item__time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                            {{ activity.data.eventdate | eventDate: 'en', activity.data.eventdateTentative }}
+                        </time>
+                    {% endif %}
+                {%- endif -%}
+
+                <span>{{ activity.data.title }}</span>
+            </h3>
+        </summary>
+
+        <div class="activity-calendar-item__content">  
+
+            {% if activity.data.externalEvent %}
+                <p class="activity-calendar-item__external-event">{{ translations[locale].externalEvent }}</p>
+            {% endif %}
+
+            {% if activity.data.externalEventDiscount %}
+                <p class="activity-calendar-item__external-event-discount">{{ translations[locale].externalEventDiscount }}</p>
+            {% endif %}
+
+            <div class="activity-calendar-item__tags">
+                {%- for tag in activity.data.categories -%}
+                    <a href="/{{ translations[locale].activitiesURL }}/{{ translations[locale].category }}/{{ tag | slugify }}/" class="tag-link">{%- tag tag -%}</a>
+                {%- endfor -%}
+            </div>
+
+            <dl class="activity-calendar-item__meta">
+                {% if activity.data.eventtime and not activity.data.eventdateTentative %}
+                    {%- assign datePart = activity.data.eventdate | date: "%Y-%m-%d" -%}
+                    {%- assign timePart = activity.data.eventtime | strip -%}
+                    {%- if timePart.size == 5 -%}
+                        {%- assign timePart = timePart | append: ":00" -%}
+                    {%- endif -%}
+                    {%- assign fullDateTime = datePart | append: "T" | append: timePart -%}
+                    <div class="activity-calendar-item__meta-row">
+                        <dt class="activity-date">
+                            {%- include svg/icon_calendar.svg -%} 
+                            <span>{{ translations[locale].activityDate }}</span>
+                        </dt>
+                        <dd class="activity-time">
+                            <time datetime="{{ fullDateTime }}">
+                                {{ activity.data.eventdate | eventDate: locale, activity.data.eventdateTentative }} 
+                                {% if not activity.data.eventdateTentative %} - {{ activity.data.eventtime | strip }}{% endif %}    
+                            </time>
+                        </dd>
+                    </div>
+                {% elsif activity.data.eventdate %}
+                    <div class="activity-calendar-item__meta-row">
+                        <dt class="activity-date">
+                            {%- include svg/icon_calendar.svg -%} 
+                            <span>{{ translations[locale].activityDate }}</span>
+                        </dt>
+                        <dd class="activity-time">
+                            <time datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                                {{ activity.data.eventdate | eventDate: locale, activity.data.eventdateTentative }}
+                            </time>
+                        </dd>
+                    </div>
+                {% endif %}
+                
+                {%- if activity.data.location and activity.data.location != "" -%}
+                    <div class="activity-calendar-item__meta-row">
+                        <dt class="activity-calendar-item__location">
+                            {%- include svg/icon_location.svg -%}
+                            
+                            <span>{{ translations[locale].location }}</span>
+                        </dt>
+                        <dd>
+                            {% if activity.data.locationLink == true %}
+                                <a href="https://www.openstreetmap.org/search?query={{ activity.data.location | url_encode }}" target="_blank" rel="noopener noreferrer">{{ activity.data.location }}</a>
+                            {% else %}
+                                {{ activity.data.location }}
+                            {% endif %}
+                        </dd>
+                    </div>
+                {%- else -%}
+                    {%- if not pastActivity -%}
+                    <div class="activity-calendar-item__meta-row">
+                        <dt class="activity-calendar-item__location">
+                            {%- include svg/icon_location.svg -%}
+                            <span class="visually-hidden">{{ translations[locale].location }}</span>
+                            <span>{{ translations[locale].location }}</span>
+                        </dt>
+                        <dd>
+                            {{ translations[locale].locationUnknown }}
+                        </dd>
+                    </div>
+                    {%- endif -%}
+                {%- endif -%}
+            </dl>
+
+            {{ activity.templateContent }}
+            
+        </div>
+            
+        {% if pastActivity or activity.data.signupavailable != 'false' %}
+        <div class="activity-calendar-item__footer">
+            {%- assign meetupLinkValue = activity.data.meetuplink | default: activity.data.meetupLink -%}
+            {%- if meetupLinkValue and meetupLinkValue != "" -%}
+                <a
+                    href="{{ meetupLinkValue }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button">{{ translations[locale].signUpMeetup }}<span class="visually-hidden"> {{ translations[locale].for }} {{ activity.data.title }}</span>
+                </a>
+            {% elsif activity.data.signupmail and activity.data.signupmail != "" -%}
+                <a
+                    href="mailto:{{ activity.data.signupmail }}?subject=Aanmelding%20voor%20{{ activity.data.title }}"
+                    class="button" target="_blank" rel="noopener noreferrer">{{ translations[locale].signUpMail }}<span class="visually-hidden"> {{ translations[locale].about }} {{ activity.data.title }}</span>
+                </a>
+            {% elsif activity.data.externalUrl and activity.data.externalUrl != "" -%}
+                <a
+                    href="{{ activity.data.externalUrl }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button">{{ translations[locale].moreInformation }}<span class="visually-hidden"> {{ translations[locale].about }} {{ activity.data.title }}</span>
+                </a>
+            {% elsif not activity.data.eventdateTentative %}
+                <a
+                    href="{{ activity.url }}"
+                    class="button">{{ translations[locale].moreInformation }}<span class="visually-hidden"> {{ translations[locale].about }} {{ activity.data.title }}</span>
+                </a>
+            {%- endif -%}
+        </div>
+        {% else %}
+            <p class="activity-calendar-item__footer">{{ translations[locale].signUpClosed }}</p>
+        {% endif %}
+    </details>
+</div>

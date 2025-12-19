@@ -4,7 +4,7 @@ date: 2014-03-26
 eventdate: 2014-03-26
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op woensdag 26 maart is Fronteers te gast bij [E-sites](http://e-sites.nl) in Breda. Als host geeft E-sites alle aanwezigen graag een kijkje in hun nieuwe pand én de bijbehorende front-end keuken. Er is een bar met tap, frisdrank, diverse snacks en borrelhapjes.

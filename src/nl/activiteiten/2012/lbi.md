@@ -4,7 +4,7 @@ date: 2012-06-14
 eventdate: 2012-06-14
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Fronteers bestaat 5 jaar. Ter ere van dit eerste lustrumjaar, organiseren we een grote bijeenkomst met twee internationale sprekers. Deze bijeenkomst wordt gehouden op 14 juni 2012 vanaf 15:00 uur bij [LBi Netherlands](http://www.lbi.nl/) in Amsterdam. De bijeenkomst is voor iedereen, dus ook niet leden, en is gratis!

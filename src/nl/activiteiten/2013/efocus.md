@@ -4,7 +4,7 @@ date: 2013-06-20
 eventdate: 2013-06-20
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Donderdag 20 juni is Fronteers te gast bij [eFocus](http://www.efocus.nl/) in Amsterdam. Naast een

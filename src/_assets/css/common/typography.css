@@ -59,6 +59,8 @@ a:focus {
   color: white;
   background-color: var(--purple-wcag-darker);
   text-decoration: none;
+
+  box-shadow: 0 0 0 7px var(--purple-wcag-darker);
 }
 
 .tag-link {
@@ -77,11 +79,13 @@ a:focus {
 }
 
 .tag-link--large .tag {
-  font-size: var(--font-size-14);
+  font-size: var(--font-size-16);
 }
 
-.tag-link--active .tag {
-  background-color: black;
+.tag-link--active .tag,
+.tag-link[aria-current="page"] .tag {
+  background-color: var(--purple-wcag-darker);
+  color: white;
 }
 
 .tag {

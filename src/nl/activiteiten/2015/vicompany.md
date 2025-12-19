@@ -4,7 +4,7 @@ date: 2015-06-03
 eventdate: 2015-06-03
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op woensdag 3 juni 2015 is Fronteers te gast bij VI Company in Rotterdam. Er worden twee presentaties en een demo voorzien rondom het thema Frontend & Mobile.

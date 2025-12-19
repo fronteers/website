@@ -75,7 +75,7 @@ module.exports = {
         subnav: [
           {
             url: "/nl/activiteiten/workshops/",
-            title: "Workshop archief",
+            title: "Over workshops",
           },
           {
             url: "/nl/activiteiten/videos/",
@@ -87,28 +87,28 @@ module.exports = {
         title: "Blog",
         url: "/nl/blog/",
       },
-      {
-        url: "/nl/werk-en-freelance/",
-        title: "Werk en freelance",
-        subnav: [
-          {
-            url: "/nl/werk-en-freelance/vacature-plaatsen/",
-            title: "Vacature plaatsen",
-          },
-          {
-            url: "/nl/werk-en-freelance/vacature-plaatsen/voorwaarden",
-            title: "Vacaturebank voorwaarden",
-          },
-          //   {
-          //     title: "Freelancers",
-          //     url: "/nl/freelancers",
-          //   },
-          {
-            title: "Mentors",
-            url: "/nl/mentors",
-          },
-        ],
-      },
+    //   {
+    //     url: "/nl/werk-en-freelance/",
+    //     title: "Werk en freelance",
+    //     subnav: [
+    //       {
+    //         url: "/nl/werk-en-freelance/vacature-plaatsen/",
+    //         title: "Vacature plaatsen",
+    //       },
+    //       {
+    //         url: "/nl/werk-en-freelance/vacature-plaatsen/voorwaarden",
+    //         title: "Vacaturebank voorwaarden",
+    //       },
+    //         {
+    //           title: "Freelancers",
+    //           url: "/nl/freelancers",
+    //         },
+    //       {
+    //         title: "Mentors",
+    //         url: "/nl/mentors",
+    //       },
+    //     ],
+    //   },
       {
         url: "https://www.fronteersconf.org",
         title: "Dark Mode",
@@ -231,28 +231,28 @@ module.exports = {
         title: "Blog",
         url: "/en/blog/",
       },
-      {
-        url: "/en/jobs/",
-        title: "Jobs",
-        subnav: [
-          {
-            url: "/en/jobs/post-job-opening/",
-            title: "Post a job opening",
-          },
-          {
-            url: "/en/jobs/post-job-opening/toc",
-            title: "Job bank terms",
-          },
-          //   {
-          //     title: "Freelancers",
-          //     url: "/en/freelancers",
-          //   },
-          {
-            title: "Mentors",
-            url: "/en/mentors",
-          },
-        ],
-      },
+    //   {
+    //     url: "/en/jobs/",
+    //     title: "Jobs",
+    //     subnav: [
+    //       {
+    //         url: "/en/jobs/post-job-opening/",
+    //         title: "Post a job opening",
+    //       },
+    //       {
+    //         url: "/en/jobs/post-job-opening/toc",
+    //         title: "Job bank terms",
+    //       },
+    //         {
+    //           title: "Freelancers",
+    //           url: "/en/freelancers",
+    //         },
+    //       {
+    //         title: "Mentors",
+    //         url: "/en/mentors",
+    //       },
+    //     ],
+    //   },
       {
         url: "https://www.fronteersconf.org",
         title: "Dark Mode",

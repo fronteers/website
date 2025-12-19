@@ -7,8 +7,8 @@
         {% assign mainPath = translations[locale].membersURL | prepend: "/" | append: "/" %}
         <li>
             <a href="{{ mainPath }}" 
-                class="{{ tagClasses }} {%- if page.url == mainPath -%}{{ activeClass }} {%- endif -%}"
-                {%- if page.url == mainPath -%} aria-current="true" {%- endif -%}>
+                class="{{ tagClasses }} {% if page.url == mainPath %} {{ activeClass }} {% endif %}"
+                {% if page.url == mainPath %} aria-current="page" {%- endif -%}>
             {% assign label = translations[locale].allCategories %}
             {%- tag label -%}
             </a>
@@ -18,7 +18,7 @@
             <li>
                 <a href="{{ subPath}}" 
                     class="{{ tagClasses }} {%- if page.url == subPath -%}{{ activeClass }} {%- endif -%}"
-                    {%- if page.url == subPath -%} aria-current="true" {%- endif -%}>
+                    {%- if page.url == subPath -%} aria-current="page" {%- endif -%}>
                     {%- tag specialty.title -%}
                 </a>
             </li>

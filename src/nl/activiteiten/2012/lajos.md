@@ -4,7 +4,7 @@ date: 2012-10-24
 eventdate: 2012-10-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op woensdag 24 oktober is Fronteers te gast bij [Lajos](http://lajos.nl) in Hilversum. Edwin Martin spreekt over de jQuery's deferred en promises techniek, en Daniël Vermeer duikt in op wat belangrijk is voor de beveiliging van de back-end voor front-end ontwikkelaars.

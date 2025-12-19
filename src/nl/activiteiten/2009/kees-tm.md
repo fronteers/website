@@ -4,7 +4,7 @@ date: 2009-09-02
 eventdate: 2009-09-02
 location:
 categories:
-  - meetup
+  - bijeenkomsten
 ---
 
 Op woensdag 2 september komen de Fronteers en verschillende mensen van de overheid en ICTU bijeen om te discussieren over [de Webrichtlijnen](https://www.200ok.nl/versie2.webrichtlijnen.nl/). Hoewel één avond eigenlijk te kort is om dit onderwerp goed uit te diepen, doen we in ieder geval een poging om een discussie op gang te krijgen.

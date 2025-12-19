@@ -4,7 +4,7 @@ date: 2017-10-10
 eventdate: 2017-10-10
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op _donderdag 30 november 2017_ vliegt Fronteers België er terug in met onze derde en laatste meetup voor 2017. Ditmaal zijn we te gast bij [De Persgroep](http://www.persgroep.be/) te _Asse_. De talks worden voorzien door _Jochen Vandendriessche_ ([@joggink](https://github.com/joggink)) en _Bram Van Damme_ ([@bramus](https://github.com/bramus)). De bijeenkomst is gratis voor leden en niet-leden, en De Persgroep zorgt voor iets lekkers te eten!

@@ -2,8 +2,14 @@
   --purple: #646ee0;
   --purple-wcag-darker: #192280;
   --yellow: #ffce2e;
+  --yellow-light: #fae190;
   --lilac: #b7b7fd;
   --lilac-light: #e5e5ff;
   --red: #fe796a;
+  --red-light: #ffaba1;
+  --green: #5dd9c1;
+  --green-light: #b3f1e5;
+  --blue: #75bbfd;
+  --blue-light: #c2e1ff;
   --page-background: #f2f2f2;
 }

@@ -4,7 +4,7 @@ date: 2014-03-13
 eventdate: 2014-03-13
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op donderdag 13 maart 2014 is Fronteers te gast bij [BetaGroup/Parkoffice Kortrijk](http://kortrijk.betagroup.be/) in Kortrijk. We hebben twee sprekers uitgenodigd.

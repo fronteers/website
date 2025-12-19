@@ -4,7 +4,7 @@ date: 2007-08-23
 eventdate: 2007-08-23
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 - Presentatie front-end bij Mangrove door Ruben Bos

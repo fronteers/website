@@ -5,7 +5,7 @@ eventdate: 2025-09-25
 author: Arjan Eising
 summary: "On Thursday September 25th we're welcomed by CLEVERºFRANKE in Utrecht. We'll dive into the state of the web platform first, followed by a case study of a personalized data visualization. Plenty of food for thought to discuss during concluding borrel!"
 categories:
-  - Bijeenkomsten
+  - meetup
 location: Utrecht
 key: meetup-cf-2025
 locale: en

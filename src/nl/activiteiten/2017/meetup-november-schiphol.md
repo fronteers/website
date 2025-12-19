@@ -4,7 +4,7 @@ date: 2017-10-11
 eventdate: 2017-10-11
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op woensdag 29 november 2017 is Fronteers weer te gast bij [Royal Schiphol Group](https://www.schiphol.nl). We hebben die avond twee interessante talks, verzorgd door _Ischa Gast_ en _Tamara Forza_. De bijeenkomst is gratis voor leden en niet-leden, en Royal Schiphol Group zorgt voor iets te eten en drankjes!

@@ -4,7 +4,7 @@ date: 2011-11-15
 eventdate: 2011-11-15
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Arjan introduceert Fronteers en Alejandro vertelt kort iets over [Booking.com](http://booking.com), die vanavond voor de ruimte, het bier en het eten heeft gezorgd.

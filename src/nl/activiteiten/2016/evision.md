@@ -4,7 +4,7 @@ date: 2016-03-24
 eventdate: 2016-03-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op 24 maart 2016 is Fronteers te gast bij eVision Industry Software in Den Haag. Er staan twee sprekers op het programma.

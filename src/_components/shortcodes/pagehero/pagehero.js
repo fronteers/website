@@ -23,7 +23,7 @@ exports.pagehero = (
             : ""
         }
         ${herotitle != "" ? `<h2>${herotitle}</h2>` : ""}
-        ${herotext != "" ? `<p>${herotext}</p>` : ""}
+        ${herotext != "" || herotext != " " ? `<p>${herotext}</p>` : ""}
       </div>
     </div>
   </div>

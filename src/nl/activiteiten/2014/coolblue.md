@@ -4,7 +4,7 @@ date: 2014-06-24
 eventdate: 2014-06-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op dinsdag 24 juni 2014 was Fronteers te gast bij [Coolblue](http://www.coolblue.nl) in Rotterdam. Er werden twee presentaties gehouden.

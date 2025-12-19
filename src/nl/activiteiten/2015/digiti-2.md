@@ -4,7 +4,7 @@ date: 2015-12-15
 eventdate: 2015-12-15
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op dinsdag 15 december 2015 is Fronteers te gast bij [Digiti](http://digiti.be/) in Herentals. Er worden twee presentaties voorzien.

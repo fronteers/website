@@ -4,7 +4,7 @@ date: 2012-10-25
 eventdate: 2012-10-25
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op donderdag 25 oktober 2012 is Fronteers te gast bij [Combell](http://www.combell.com/nl) in Gent. Er worden twee presentaties voorzien. Eerst komt [Bart Derudder](https://twitter.com/qwaxys) wat vertellen over (het gebrek aan) security op het web; vervolgens zal [Thijs Feryn](https://twitter.com/ThijsFeryn) wat vertellen over HTTP.

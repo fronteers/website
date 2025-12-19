@@ -4,7 +4,7 @@ date: 2008-12-08
 eventdate: 2008-12-08
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op 8 december 2008 kwamen zo'n 40 geïnteresseerde front-end developers en designers uit het hoge noorden bij elkaar in Paterswolde, een gehucht op de grens van Drenthe en Groningen. Hoewel het aanmeldingsformulier slechts een week had opengestaan, zat de meetingroom van [Concept7](http://www.concept7.nl/) bomvol. Blijkbaar werpt wat rondbellen naar bedrijven in de omgeving z'n vruchten af; iets wat we dus vaker moeten doen.

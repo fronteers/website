@@ -4,7 +4,7 @@ date: 2011-06-23
 eventdate: 2011-06-23
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 [Mathias Bynens](https://mathiasbynens.be/) opent de avond en bedankt [ASPACE](http://aspace.be) en [iLibris](https://web.archive.org/web/20130603035755/http://ilibris.be/) voor het hosten van de avond.

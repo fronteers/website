@@ -3,7 +3,7 @@ title: Slides Algemene Ledenvergadering 2025
 date: 2025-11-29
 author: Anneke Sinnema
 categories:
-  - Vereniging
+  - Organisation
 key: slides-alv-2025
 ---
 

@@ -4,7 +4,7 @@ date: 2017-12-07
 eventdate: 2017-12-07
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 ![](/_img/bijeenkomsten/logo.jpeg)

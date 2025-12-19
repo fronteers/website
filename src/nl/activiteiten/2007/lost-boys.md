@@ -4,7 +4,7 @@ date: 2007-05-24
 eventdate: 2007-05-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 - Presentatie plannen door Peter-Paul Koch

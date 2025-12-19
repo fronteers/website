@@ -1,5 +1,6 @@
 ---
 title: Job board
+published: false
 ---
 Front-end web developer and looking for a (new) job? On this page you will regularly find new vacancies in our field.
 

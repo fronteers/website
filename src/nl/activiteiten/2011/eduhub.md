@@ -4,7 +4,7 @@ date: 2011-05-06
 eventdate: 2011-05-06
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op vrijdag 6 mei is Fronteers te gast bij [Eduhub](http://eduhub.nl) te Amsterdam. Er zullen vier mensen een praatje houden van 15 minuten waarna er 15 minuten gediscussieerd kan worden.

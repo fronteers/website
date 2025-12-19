@@ -4,14 +4,14 @@
             {%- include partials/utility/dynamic-headerlevel level: headerlvl title: activity.data.title link: activity.url -%}
             {%- if locale == "nl" -%}
                 {% if activity.data.eventdate %}
-                    <time class="activity-time" datetime="{{ activity.date.eventdate | date: "%Y-%m-%d" }}">
-                        {{ activity.data.eventdate  | localizedDate: 'nl' }}
+                    <time class="activity-time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                        {{ activity.data.eventdate | eventDate: 'nl', activity.data.eventdateTentative }}
                     </time>
                 {% endif %}
             {%- elsif locale == "en" -%}
                 {% if activity.data.eventdate %}
-                    <time class="activity-time" datetime="{{ activity.date.eventdate | date: "%Y-%m-%d" }}">
-                        {{ activity.data.eventdate  | displayDate: locale | date: "%B %e %Y" }}
+                    <time class="activity-time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                        {{ activity.data.eventdate | eventDate: 'en', activity.data.eventdateTentative }}
                     </time>
                 {% endif %}
             {%- endif -%}
@@ -51,10 +51,12 @@
         {%- assign anchorlbl = translations[locale].signUp -%}
     {%- endif -%}
 
+    {% if activity.data.signupavailable != 'false' %}
     <div class="activity-footer">
         <a
             href="{{ activity.url }}"
             class="button">{{ anchorlbl }}<span class="visually-hidden"> {{ translations[locale].for }} {{ activity.data.title }}</span>
         </a>
     </div>
+    {% endif %}
 </div>

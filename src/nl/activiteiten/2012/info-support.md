@@ -4,7 +4,7 @@ date: 2012-11-29
 eventdate: 2012-11-29
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Donderdag 29 november is Fronteers te gast bij [Info Support](http://www.infosupport.com/) in Veenendaal. Thamar Kiemel geeft de presentatie "Front-end. Content.", en Isaac Andela duikt de diepte in met SASS.

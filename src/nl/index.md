@@ -3,6 +3,6 @@ layout: home.liquid
 title: Welkom bij Fronteers
 ---
 
-We unite front-end developers - And we do it with pride.
+Sinds 2007 verenigen wij front-end developers, online professionals en digitale creatievelingen met als doel kennisdeling, verbeteren van de kwaliteit van wat er in Nederland gebouwd wordt, en het versterken van gemeenschapszin.
 
-<a href="/nl/word-lid/" class="button button-parentheses">Learn more <span class="visually-hidden">about Fronteers</span></a>
+<a href="/nl/word-lid/" class="button button-parentheses">Lees meer over ons</a>

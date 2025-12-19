@@ -4,7 +4,7 @@ date: 2016-04-14
 eventdate: 2016-04-14
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op donderdag 14 april zijn front-enders en andere ambachtslieden van het wereldwijde web welkom bij Kabisa in Weert. Onder het genot van een hapje en drankje worden twee presentaties gegeven. Kabisa's Matthijs Groen vertelt over het ontwikkelen van zijn in-browser game en Roy Tomeij spreekt over de rol van preprocessors in moderne CSS.

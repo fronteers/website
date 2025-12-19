@@ -7,8 +7,9 @@ eventdate: 2025-08-08
 author: Anneke Sinnema
 summary: Come join us on August 8th for a cozy chat over dinner, drinks and snacks!
 location: Het Gegeven Paard, Utrecht
+locationLink: true
 categories: 
-  - Bijeenkomsten
+  - meetup
 locale: en
 ---
 

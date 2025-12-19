@@ -5,8 +5,10 @@
 **/
 
 .categories {
-  margin-block-end: 3em;
   text-align: center;
+  max-width: var(--inner-width);
+  padding: var(--spacing);
+  margin-inline: auto;
 }
 
 .category-list {

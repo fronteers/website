@@ -1,5 +1,6 @@
 ---
 title: Onze vacaturebank
+published: false
 ---
 Front-end web developer en op zoek naar een (nieuwe) baan? Op deze pagina vind je regelmatig nieuwe vacatures in ons vakgebied.
 

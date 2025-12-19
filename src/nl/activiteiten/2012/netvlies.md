@@ -4,7 +4,7 @@ date: 2012-11-01
 eventdate: 2012-11-01
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op donderdag 1 november is Fronteers te gast bij Netvlies Internetdiensten in Breda. Dit keer is het geen bijeenkomst met 2 presentaties, maar een Pecha Kucha met 10 presentaties van 6 minuut 40.

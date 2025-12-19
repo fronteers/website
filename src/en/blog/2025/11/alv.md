@@ -3,7 +3,7 @@ title: Algemene Ledenvergadering 2025
 date: 2025-11-13
 author: Anneke Sinnema
 categories: 
-  - Vereniging
+  - Organisation
 key: announcement-alv-2025
 ---
 On November 28, 2025 from 20:00 - 22:00, the 2025 ALV (Annual General Meeting) will take place. During this meeting, we will look back on the past year. We will also decide what will happen with Fronteers in the coming board year. We therefore call on you to make your voice heard now!

@@ -3,10 +3,14 @@
     /* display: inline-flex; */
     /* justify-content: space-between; */
     padding: 0.5em 1em;
-    margin: 0 1em;
     background: var(--lilac-light);
     color: black;
     /* font-size: var(--font-size-12); */
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 0 0 2px var(--purple-wcag-darker);
+    }
 }
 
 /* Angled tags, like with < and > */
@@ -29,4 +33,42 @@
 
 .tag:not(.token) + .tag:not(.token) {
     margin-inline-start: 2em;
+}
+
+.tag-link--bijeenkomsten {
+    .tag {
+        background-color: var(--lilac);
+        -webkit-clip-path: url(#button-curly-braces);
+        clip-path: url(#button-curly-braces);
+    }
+}
+
+.tag-link--workshops {
+    .tag {
+        background-color: var(--yellow);
+        -webkit-clip-path: url(#button-greater-than);
+        clip-path: url(#button-greater-than);
+    }
+}
+
+.tag-link--conferences {
+    .tag {
+        background-color: var(--red-light);
+        -webkit-clip-path: url(#button-curly-braces);
+        clip-path: url(#button-curly-braces);
+    }
+}
+
+.tag-link--lunchmeetings {
+    .tag {
+        background-color: var(--green);
+        -webkit-clip-path: url(#button-parentheses);
+        clip-path: url(#button-parentheses);
+    }
+}
+
+.tag-link--vereniging {
+    .tag {
+        background-color: var(--red-light);
+    }
 }

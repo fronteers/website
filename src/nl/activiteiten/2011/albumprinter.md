@@ -4,7 +4,7 @@ date: 2011-10-26
 eventdate: 2011-10-26
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op woensdag 26 oktober was Fronteers te gast bij [Albumprinter](http://albumprinter.org/) te Amsterdam. Er waren twee sprekers: Bram Duvigneau over webtoegankelijkheid, en Arjan Eising over de huidige en toekomstige staat van CSS Selectors.

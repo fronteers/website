@@ -13,8 +13,8 @@
             {% comment %} Add tag that shows all categories {% endcomment %}
             <li>
                 <a href="{{ mainPath }}" 
-                    class="{{ tagClasses }} {%- if page.url == mainPath -%}{{ activeClass }} {%- endif -%}"
-                    {%- if page.url == mainPath -%} aria-current="true" {%- endif -%}>
+                    class="{{ tagClasses }} {% if page.url == mainPath %} {{ activeClass }} {% endif %}"
+                    {%- if page.url == mainPath -%} aria-current="page" {%- endif -%}>
                     {% assign label = translations[locale].allCategories %}
                 {%- tag label -%}
                 </a>
@@ -24,8 +24,8 @@
                 {% assign subPath = mainPath | append: translations[locale].category | append: "/" | append: category.slug | append: "/" %}
                 <li>
                     <a href="{{ subPath}}" 
-                        class="{{ tagClasses }} {%- if page.url == subPath -%}{{ activeClass }} {%- endif -%}"
-                        {%- if page.url == subPath -%} aria-current="true" {%- endif -%}>
+                        class="{{ tagClasses }} {% if category.slug %}tag-link--{{ category.slug | slugify }}{% endif %} {% if page.url == subPath %} {{ activeClass }} {% endif %}"
+                        {%- if page.url == subPath -%} aria-current="page" {%- endif -%}>
                         {%- tag category.title -%}
                     </a>
                 </li>

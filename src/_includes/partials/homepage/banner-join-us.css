@@ -1,5 +1,6 @@
 .banner-join-us { 
     text-align: center;
+    margin-block: var(--spacing-double);
 }
 
 .banner-join-us__content {

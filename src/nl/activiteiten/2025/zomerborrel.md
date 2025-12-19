@@ -7,6 +7,7 @@ eventdate: 2025-08-08
 author: Anneke Sinnema
 summary: Kom op 8 augustus gezellig bijpraten onder het genot van een hapje en drankje. Wees welkom!
 location: Het Gegeven Paard, Utrecht
+locationLink: true
 categories: 
   - Bijeenkomsten
 published: true

@@ -4,7 +4,7 @@ date: 2014-04-24
 eventdate: 2014-04-24
 location:
 categories:
-    - meetup
+    - bijeenkomsten
 ---
 
 Op donderdag 24 april 2014 was Fronteers te gast bij Nucleus in Antwerpen. Er werden twee presentaties voorzien.

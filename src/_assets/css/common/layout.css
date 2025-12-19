@@ -77,6 +77,10 @@ main section > .h {
     background-color: white;
 }
 
+.page-content--activity {
+    padding: 0;
+}
+
 .page-content:has(> .visually-hidden:only-child) {
     background-color: transparent;
 }
@@ -151,7 +155,7 @@ main section > .h {
 
 .list-item--job,
 .list-item--blog {
-    margin-block: var(--spacing-double);
+    margin-block: var(--spacing-half);
 }
 
 @media all and (min-width: 46.875em) {
