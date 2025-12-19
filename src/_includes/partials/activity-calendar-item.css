@@ -162,6 +162,19 @@
         }
     }
 
+
+    .activity-calendar-item--lunchmeetings {
+         .activity-calendar-item__summary:hover,
+         .activity-calendar-item__summary:focus-visible {
+            background-color: var(--blue-light);
+        }
+
+        .activity-calendar-item__time {
+            background-color: var(--blue);
+        }
+    }
+
+
     .activity-calendar-item__details--external {
         background-color: white;
 
