@@ -1,26 +1,32 @@
 ---
-key: conference
+layout: DarkMode2026home.liquid
+key: darkmode2026
 title: Fronteers Conference
 heroSlogan: ""
+
+# Announcer section
+announcerHeadline: "Friday night. Frontend. Fronteers Dark Mode!"
+announcerText: "Join us on Friday, October 2nd, 2025, at Cinema De Witt in Dordrecht for an intimate evening of frontend talks and community vibes – from 4PM to after midnight."
+
+# CTA section
+ctaHeadline: "Tickets available for just"
+ctaPrice: "€ 99"
+ctaDiscountText: "Fronteers members get a"
+ctaDiscountAmount: "€ 50"
+ctaDiscountSuffix: "discount!"
+ctaButtonText: "Get your tickets now!"
+ctaButtonUrl: "/tickets/"
+ctaSmallPrint: "Ticket prices are including VAT."
+
+# About section
+aboutHeadline: "About Fronteers Dark Mode"
+aboutText: "Fronteers Dark Mode is a cozy, single-track afterwork front-end conference by and for the community. Taking place on Friday, October 3rd, 2025 at the atmospheric Cinema De Witt in Dordrecht, it offers an evening of inspiring talks on accessibility, sustainability, HTML, CSS – and a nerdy late-night finale."
+
+# Hero image
+heroImageAvif: "/img/QruFK9wS1y-100.avif 100w, /img/QruFK9wS1y-200.avif 200w, /img/QruFK9wS1y-300.avif 300w, /img/QruFK9wS1y-400.avif 400w, /img/QruFK9wS1y-500.avif 500w, /img/QruFK9wS1y-600.avif 600w, /img/QruFK9wS1y-800.avif 800w, /img/QruFK9wS1y-1000.avif 1000w, /img/QruFK9wS1y-1200.avif 1200w, /img/QruFK9wS1y-1600.avif 1600w, /img/QruFK9wS1y-2000.avif 2000w"
+heroImageJpeg: "/img/QruFK9wS1y-100.jpeg 100w, /img/QruFK9wS1y-200.jpeg 200w, /img/QruFK9wS1y-300.jpeg 300w, /img/QruFK9wS1y-400.jpeg 400w, /img/QruFK9wS1y-500.jpeg 500w, /img/QruFK9wS1y-600.jpeg 600w, /img/QruFK9wS1y-800.jpeg 800w, /img/QruFK9wS1y-1000.jpeg 1000w, /img/QruFK9wS1y-1200.jpeg 1200w, /img/QruFK9wS1y-1600.jpeg 1600w, /img/QruFK9wS1y-2000.jpeg 2000w"
+heroImageSrc: "/img/QruFK9wS1y-100.jpeg"
+heroImageAlt: ""
+heroImageWidth: "2000"
+heroImageHeight: "1125"
 ---
-
-Fronteers hosts a world-class front-end web development conference each year: **Fronteers Conference**. We've made it our mission to create safe, accessible and stimulating conferences for the front-end community.
-
-## Onze congressen
-
-| Conference         | Date            | Venue                         | Visitors |
-| ------------------ | --------------- | ----------------------------- | -------- |
-| FronteersConf 2022 | September 9     | Pathé Leidsche Rijn, Utrecht  |
-| FronteersConf 2019 | October 3-4     | Pathé Tuschinski, Amsterdam   |
-| FronteersConf 2018 | October 4–5     | DeLaMar Theater, Amsterdam    |
-| FronteersConf 2017 | October 5–6     | Pathé Tuschinski, Amsterdam   | 566      |
-| FronteersConf 2016 | October 6–7     | Pathé Tuschinski, Amsterdam   | 549      |
-| Spring Conf 2016   | April 1         | EYE, Amsterdam                | 300      |
-| FronteersConf 2015 | October 8–9     | Pathé Tuschinski, Amsterdam   | 500      |
-| Fronteers 2014     | October 9–10    | Pathé Tuschinski, Amsterdam   | 513      |
-| Fronteers 2013     | October 10–11   | Pathé Tuschinski, Amsterdam   | 568      |
-| Fronteers 2012     | October 4–5     | Pathé Tuschinski, Amsterdam   | 560      |
-| Fronteers 2011     | October 4–7     | Pathé Tuschinski, Amsterdam   | 500      |
-| Fronteers 2010     | October 5–8     | Pathé Tuschinski, Amsterdam   | 454      |
-| Fronteers 2009     | November 5–6    | Felix Meritis, Amsterdam      | 306      |
-| Fronteers 2008     | September 11–12 | Pakhuis de Zwijger, Amsterdam | 215      |
