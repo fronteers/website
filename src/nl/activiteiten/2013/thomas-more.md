@@ -88,7 +88,6 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 -   Jeroen Van den Bossche (Gent, auto)
 -   Dennis Kestelle (Mechelen, te voet)
 -   Ken Depelchin (Gent)
--   Jimi Verhaegen (Heist-Op-Den-Berg, openbaar vervoer)
 -   Robbert Segers (Duffel, openbaar vervoer)
 -   Glenn Billiau (Antwerpen, auto)
 -   Ruben Vermeersch (Leuven, openbaar vervoer)
@@ -188,3 +187,4 @@ Volg de discussie via Twitter op [#fronteersbe](https://twitter.com/search?q=%23
 -   Sang Lostrie (Edegem, auto)
 
 Naast bovenstaande officiële lijst kunnen aangemelde deelnemers ook [via Lanyrd aangeven dat ze aanwezig zullen zijn](http://lanyrd.com/cpgyy). _Inschrijven via het onderstaande formulier is echter verplicht!_
+
