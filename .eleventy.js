@@ -164,6 +164,8 @@ module.exports = function (eleventyConfig) {
     "src/_assets/css/common": "assets/css/common",
     "src/_assets/css/elements": "assets/css/elements",
     "src/_assets/css/style.css": "assets/css/style.css",
+    "src/_assets/css/darkmode-2025.css": "assets/css/darkmode-2025.css",
+    "src/_assets/css/darkmode-2026.css": "assets/css/darkmode-2026.css",
     "src/_assets/favicon": "assets/favicon",
     "src/_assets/company-logos": "assets/company-logos/",
     "src/_assets/member-avatars": "assets/images/member-avatars/",
