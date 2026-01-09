@@ -3,7 +3,7 @@ layout: conference.liquid
 key: darkmode2026
 title: Fronteers Conference
 heroSlogan: "Friday. Frontend. Fronteers Dark Mode! Sluit je aan op vrijdag 2 oktober 2026 in Cinema De Witt in Dordrecht voor een intieme avond vol frontend talks en community vibes – van 16:00 tot na middernacht."
-image: /_img/congres/2026/dark-mode-og-image.jpg
+image: /_img/congres/2026/dark-mode-og-image.png
 ---
 
 ## Over Fronteers Dark Mode

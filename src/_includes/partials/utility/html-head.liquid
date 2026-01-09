@@ -79,7 +79,7 @@
     {% if image and image contains 'http' %}
         <meta property="og:image" content="{{ image }}">
     {% elsif image %}
-        <meta property="og:image" content="https://fronteers.nl{{ image }}">
+        <meta property="og:image" content="{{ site.baseUrl }}{{ image }}">
     {% else %}
         {% assign frontmatterDate = collections.all | where: "inputPath", page.inputPath | map: "data" | map: "date" | first %}
         {% assign hasExplicitDate = frontmatterDate != nil %}
