@@ -1,40 +1,40 @@
 .outer-wrapper--homepage {
-  background: url(/assets/images/home-header-background.svg);
-  background-repeat: repeat-x;
-  background-position: center top;
-  background-size: contain;
-  margin-block-end: var(--spacing-double);
-  max-width: 100%;
+    background: url(/assets/images/home-header-background.svg);
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: contain;
+    margin-block-end: var(--spacing-double);
+    max-width: 100%;
 }
 
 .hero {
-  position: relative;
-  inline-size: 100%;
-  max-width: 100%;
-  max-height: 100%;
-  text-align: center;
-  margin: 0;
+    position: relative;
+    inline-size: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin: 0;
 }
 
 /* if there is a shield */
 .hero svg:first-child {
-  width: 100%;
-  left: 0;
-  top: -20rem;
-  z-index: 1;
-  position: absolute;
+    width: 100%;
+    left: 0;
+    top: -20rem;
+    z-index: 1;
+    position: absolute;
 }
 
 .hero--blog .hero-image,
 .hero--activities .activities-hero-graphic-wrapper {
-  display: none;
+    display: none;
 }
 
 .hero .img-background--bottom {
     inline-size: 100%;
     block-size: 0;
     padding-block-end: 30%;
-    content: " ";
+    content: ' ';
     display: block;
     background-color: white;
     background-size: cover;
@@ -45,15 +45,15 @@
 }
 
 .hero-graphic::after {
-  inline-size: 100%;
-  block-size: 0;
-  padding-block-end: 22.8%;
-  content: " ";
-  display: block;
-  background-color: var(--hero-background);
-  background-size: cover;
-  -webkit-clip-path: url(#curly-brace-down-tiny);
-  clip-path: url(#curly-brace-down-tiny);
+    inline-size: 100%;
+    block-size: 0;
+    padding-block-end: 22.8%;
+    content: ' ';
+    display: block;
+    background-color: var(--hero-background);
+    background-size: cover;
+    -webkit-clip-path: url(#curly-brace-down-tiny);
+    clip-path: url(#curly-brace-down-tiny);
 }
 
 /* @media all and (min-width: 46.875em) {
@@ -71,20 +71,20 @@
 } */
 
 .hero--activities .hero-graphic::after {
-  -webkit-clip-path: url(#greater-than-down-tiny);
-  clip-path: url(#greater-than-down-tiny);
+    -webkit-clip-path: url(#greater-than-down-tiny);
+    clip-path: url(#greater-than-down-tiny);
 }
- 
+
 .hero--blog .hero-graphic::after {
     -webkit-clip-path: url(#parenthesis-down-tiny);
     clip-path: url(#parenthesis-down-tiny);
 }
 
 .hero-content {
-  background-color: var(--hero-background);
-  margin-block: 0;
-  padding: var(--spacing);
-  hyphens: none;
+    background-color: var(--hero-background);
+    margin-block: 0;
+    padding: var(--spacing);
+    hyphens: none;
 }
 
 .hero-content p:has(.button) {
@@ -93,17 +93,27 @@
 
 .hero-content p:empty {
     display: none;
-} 
+}
 
 .hero--activities .hero-graphic::after,
 .hero--activities .hero-content {
-  padding-block-start: calc(2 * var(--spacing));
+    padding-block-start: calc(2 * var(--spacing));
+}
+
+.hero--conference .hero-graphic::after,
+.hero--conference .hero-content {
+    padding-block-start: calc(2 * var(--spacing));
 }
 
 .hero--activities,
 .hero--blog,
 .hero--blog-single {
-  --hero-background: var(--lilac);
+    --hero-background: var(--lilac);
+}
+
+.hero--conference,
+.hero--conference .hero-content {
+    --hero-background: var(--yellow);
 }
 
 .hero--homepage,
@@ -111,12 +121,12 @@
 .hero--members,
 .hero--members-single,
 .hero--jobs {
-  --hero-background: var(--yellow);
+    --hero-background: var(--yellow);
 }
 
 .hero-graphic::after,
 .hero-content {
-  background-color: var(--hero-background);
+    background-color: var(--hero-background);
 }
 
 .hero-content a:not(.button):hover,
@@ -156,8 +166,8 @@
 .hero--activities .nextup-time-and-location-wrapper,
 .hero--blog .hero-content .blog-title,
 .hero--blog .blog-time-wrapper {
-  text-transform: none;
-  font-size: 2rem;
+    text-transform: none;
+    font-size: 2rem;
 }
 
 .hero--activities .nextup-time-and-location-wrapper,
@@ -166,18 +176,18 @@
 }
 
 .hero--activities .nextup-link,
-.hero--blog .blog-link  {
-  font-size: 1.5rem;
-  color: black;
+.hero--blog .blog-link {
+    font-size: 1.5rem;
+    color: black;
 }
 
 .hero--activities .nextup-title,
 .hero--blog .blog-title {
-  font-weight: bold;
-  text-transform: none;
-  font-size: 2rem;
-  text-decoration: underline;
-  text-wrap: balance;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-wrap: balance;
 }
 
 .hero--activities .sup-title,
@@ -194,7 +204,6 @@
 .hero-graphic .member-graphic {
     margin-block-start: var(--spacing);
 }
-
 
 @media all and (min-width: 46.875em) {
     .hero {
@@ -262,7 +271,7 @@
         inline-size: 100%;
         block-size: 0;
         padding-block-end: 30%;
-        content: " ";
+        content: ' ';
         display: block;
         background-color: white;
         background-size: cover;
@@ -285,7 +294,7 @@
     }
 
     .hero--activities .activities-hero-graphic-wrapper + .hero-graphic,
-    .hero--blog .hero-image-wrapper + .hero-graphic { 
+    .hero--blog .hero-image-wrapper + .hero-graphic {
         padding-inline: 22rem;
         padding-block-start: calc(2 * var(--spacing));
         padding-block-end: calc(4 * var(--spacing));
@@ -304,7 +313,7 @@
         background-size: cover;
         inline-size: 100%;
         max-width: 100%;
-        background-color: var(--lilac); 
+        background-color: var(--lilac);
         -webkit-clip-path: url(#greater-than-down-large);
         clip-path: url(#greater-than-down-large);
     }
@@ -351,14 +360,14 @@
     }
 
     .hero-content .button {
-        transition: transform .15s ease-in;
+        transition: transform 0.15s ease-in;
     }
 
     .hero-content .button:focus,
     .hero-content .button:hover,
     .hero-content .button:active {
         transform: rotate(-2deg);
-        transition: transform .15s ease-out;
+        transition: transform 0.15s ease-out;
         text-decoration: underline;
     }
 

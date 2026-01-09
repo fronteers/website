@@ -34,10 +34,12 @@ De volgende leden hebben gedurende het bestaan van Fronteers zitting gehad in he
 | Sander Vink          | 2016 - 2022 | Penningmeester                                                            |
 | Anneke Sinnema       | 2017 - 2023 | Voorzitter                                                                |
 | Edwin Martin         | 2017 - 2023 | Secretaris                                                                |
-| Wim van Iersel       | 2022- heden | Penningmeester                                                            |
-| Claudia Reynders     | 2023- heden     | Penningmeester                                                            |
-| Jewwy Qadri          | 2023- heden     | Co-secretaris                                                             |
-| Christian Schaefer   | 2023- heden     | Co-secretaris                                                             |
+| Wim van Iersel       | 2022 - heden | Penningmeester                                                            |
+| Claudia Reynders     | 2023 - 2025     | Voorzitter                                                            |
+| Jewwy Qadri          | 2023 - heden     | Co-secretaris                                                             |
+| Christian Schaefer   | 2023 - heden     | Co-secretaris                                                             |
+| Anneke Sinnema       | 2025 - heden | Voorzitter                                                                |
+| Claudia Reynders     | 2025 - heden     | Algemeen bestuurslid                                                            |
 
 ## Ereleden
 
@@ -47,3 +49,7 @@ Wegens bijzondere verdiensten voor de vereniging, heeft het bestuur de volgende 
 | --------------- | --------------------------------------------- |
 | Peter-Paul Koch | Sinds 2012, bij aftreden als voorzitter       |
 | Krijn Hoetmer   | Sinds 2015, bij overdracht ledenadministratie |
+
+## Congres geschiedenis
+
+Sinds 2007 hebben we verschillende conferenties georganiseerd om ons enthousiasme voor front-end development te delen. [Lees meer over hun geschiedenis](/nl/vereniging/geschiedenis/congres/)

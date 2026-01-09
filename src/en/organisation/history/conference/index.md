@@ -1,17 +1,16 @@
 ---
 key: conference-history
-title: Fronteers Conference
-heroSlogan: ""
+title: Conference
+heroSlogan: ''
 ---
-## Onze congressen
+
+## Our conferences
 
 | Conference         | Date            | Venue                         | Visitors |
 | ------------------ | --------------- | ----------------------------- | -------- |
-| FronteersConf 2026 | October 2       | De Witt, Dordrecht            | ?        |
-| FronteersConf 2025 | October 3       | De Witt, Dordrecht            | 48       |
-| FronteersConf 2022 | September 9     | Pathé Leidsche Rijn, Utrecht  | -        |
-| FronteersConf 2019 | October 3-4     | Pathé Tuschinski, Amsterdam   | -        |
-| FronteersConf 2018 | October 4–5     | DeLaMar Theater, Amsterdam    | -        |
+| FronteersConf 2022 | September 9     | Pathé Leidsche Rijn, Utrecht  |
+| FronteersConf 2019 | October 3-4     | Pathé Tuschinski, Amsterdam   |
+| FronteersConf 2018 | October 4–5     | DeLaMar Theater, Amsterdam    |
 | FronteersConf 2017 | October 5–6     | Pathé Tuschinski, Amsterdam   | 566      |
 | FronteersConf 2016 | October 6–7     | Pathé Tuschinski, Amsterdam   | 549      |
 | Spring Conf 2016   | April 1         | EYE, Amsterdam                | 300      |

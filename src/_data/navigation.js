@@ -112,7 +112,33 @@ module.exports = {
         // },
         {
           url: "/nl/congres/",
-          title: "Dark Mode", 
+          title: "Dark Mode",
+        //   subnav: [
+        //     {
+        //       url: "/nl/congres#tickets",
+        //       title: "Tickets",
+        //     },
+        //     {
+        //       url: "/nl/congres#lokaties",
+        //       title: "Lokaties",
+        //     },
+        //     {
+        //       url: "/nl/congres#sprekers",
+        //       title: "Sprekers",
+        //     },
+        //     {
+        //       url: "/nl/congres#programma",
+        //       title: "Programma",
+        //     },
+        //     {
+        //       url: "/nl/congres#contact",
+        //       title: "Contact",
+        //     },
+        //     {
+        //       url: "/nl/congres#code-of-conduct",
+        //       title: "Code of Conduct",
+        //     },
+        //   ],
         },
       ],
       congresnavigatie: [
@@ -251,6 +277,32 @@ module.exports = {
         {
           url: "/en/conference/",
           title: "Dark Mode",
+        //   subnav: [
+        //     {
+        //       url: "/en/conference#tickets",
+        //       title: "Tickets",
+        //     },
+        //     {
+        //       url: "/en/conference#location",
+        //       title: "Venues",
+        //     },
+        //     {
+        //       url: "/en/conference#speakers",
+        //       title: "Speakers",
+        //     },
+        //     {
+        //       url: "/en/conference#schedule",
+        //       title: "Schedule",
+        //     },
+        //     {
+        //       url: "/en/conference#contact",
+        //       title: "Contact",
+        //     },
+        //     {
+        //       url: "/en/conference#code-of-conduct",
+        //       title: "Code of Conduct",
+        //     },
+        //   ],
         },
       ],
       congresnavigatie: [

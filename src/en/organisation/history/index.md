@@ -45,3 +45,7 @@ Due to special merits for the association, the board has appointed the following
 | --------------- | ------------------------------------------------------ |
 | Peter Paul Koch | Since 2012, upon stepping down as chairman             |
 | Krijn Hoetmer   | Since 2015, upon transfer of membership administration |
+
+## Conference history
+
+Since 2007, we have organised various conferences to share our love for webdevelopment. [Find out more about their history](/en/organisation/history/conference/)

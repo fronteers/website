@@ -1,32 +1,57 @@
 ---
-layout: DarkMode2026home.liquid
+layout: conference.liquid
 key: darkmode2026
 title: Fronteers Conference
 heroSlogan: ""
 
 # Announcer section
-announcerHeadline: "Friday night. Frontend. Fronteers Dark Mode!"
-announcerText: "Join us on Friday, October 2nd, 2025, at Cinema De Witt in Dordrecht for an intimate evening of frontend talks and community vibes – from 4PM to after midnight."
-
-# CTA section
-ctaHeadline: "Tickets available for just"
-ctaPrice: "€ 99"
-ctaDiscountText: "Fronteers members get a"
-ctaDiscountAmount: "€ 50"
-ctaDiscountSuffix: "discount!"
-ctaButtonText: "Get your tickets now!"
-ctaButtonUrl: "/tickets/"
-ctaSmallPrint: "Ticket prices are including VAT."
-
-# About section
-aboutHeadline: "About Fronteers Dark Mode"
-aboutText: "Fronteers Dark Mode is a cozy, single-track afterwork front-end conference by and for the community. Taking place on Friday, October 3rd, 2025 at the atmospheric Cinema De Witt in Dordrecht, it offers an evening of inspiring talks on accessibility, sustainability, HTML, CSS – and a nerdy late-night finale."
-
-# Hero image
-heroImageAvif: "/img/QruFK9wS1y-100.avif 100w, /img/QruFK9wS1y-200.avif 200w, /img/QruFK9wS1y-300.avif 300w, /img/QruFK9wS1y-400.avif 400w, /img/QruFK9wS1y-500.avif 500w, /img/QruFK9wS1y-600.avif 600w, /img/QruFK9wS1y-800.avif 800w, /img/QruFK9wS1y-1000.avif 1000w, /img/QruFK9wS1y-1200.avif 1200w, /img/QruFK9wS1y-1600.avif 1600w, /img/QruFK9wS1y-2000.avif 2000w"
-heroImageJpeg: "/img/QruFK9wS1y-100.jpeg 100w, /img/QruFK9wS1y-200.jpeg 200w, /img/QruFK9wS1y-300.jpeg 300w, /img/QruFK9wS1y-400.jpeg 400w, /img/QruFK9wS1y-500.jpeg 500w, /img/QruFK9wS1y-600.jpeg 600w, /img/QruFK9wS1y-800.jpeg 800w, /img/QruFK9wS1y-1000.jpeg 1000w, /img/QruFK9wS1y-1200.jpeg 1200w, /img/QruFK9wS1y-1600.jpeg 1600w, /img/QruFK9wS1y-2000.jpeg 2000w"
-heroImageSrc: "/img/QruFK9wS1y-100.jpeg"
-heroImageAlt: ""
-heroImageWidth: "2000"
-heroImageHeight: "1125"
+announcerHeadline: "Vrijdagavond. Frontend. Fronteers Dark Mode! Sluit je aan op vrijdag 2 oktober 2026 in Cinema De Witt in Dordrecht voor een intieme avond vol frontend talks en community vibes – van 16:00 tot na middernacht."
 ---
+
+## Over Fronteers Dark Mode
+
+Fronteers Dark Mode is een gezellige, single-track afterwork front-end conferentie door en voor de community. Op vrijdag 2 oktober 2026 in de sfeervolle Cinema De Witt in Dordrecht bieden we een avond vol inspirerende talks over onderwerpen als toegankelijkheid, duurzaamheid, HTML, CSS – met natuurlijk een nerdy late-night finale.
+
+## Tickets
+
+Tickets zijn binnenkort beschikbaar voor de vaste prijs van slechts **€99**. Tickets geven recht op toegang, een heerlijk 3-gangen diner en drankvouchers.
+
+**Fronteers leden betalen slechts €49!** Je kunt nog steeds [lid worden](/nl/word-lid/) ;-)
+
+De ticketverkoop begint in januari 2026 en zal worden aangekondigd via onze nieuwsbrief en social media. [Meld je aan voor onze nieuwsbrief](/nl/informatie/nieuwsbrief/) om op de hoogte gehouden te worden. Of volg ons op [Mastodon](https://front-end.social/@fronteers), [Bluesky](https://bsky.app/profile/fronteers.bsky.social) of [LinkedIn](https://www.linkedin.com/company/fronteers)!
+
+*Ticketprijzen zijn inclusief BTW.*
+
+## Lokatie
+
+Filmtheater De Witt - een sfeervolle bioscoop, brasserie en cultureel podium in het historische centrum van Dordrecht.
+
+Het filmtheater en brasserie zijn rolstoelvriendelijk. Er zijn geen opstapjes of andere obstakels in het pand. Tevens is er in het pand een lift aanwezig. Ook is er een invalidetoilet beschikbaar op de begane grond.
+
+{% googlemaps "Nieuwstraat 62, Dordrecht" %}
+<br />
+
+## Sprekers
+
+Informatie over onze sprekers volgt! Houd ons in de gaten.
+
+## Programma
+
+Het programma wordt definitief vastgesteld in de maand voorafgaand aan het congres.
+
+## Contact
+
+Neem contact op met het congresteam via [conference@fronteers.nl](mailto:conference@fronteers.nl)
+
+## Code of Conduct
+
+Fronteers Conference tolereert geen intimidatie van welke aard dan ook op onze locaties. Intimidatie omvat aanstootgevende opmerkingen met betrekking tot geslacht, leeftijd, seksuele geaardheid, handicap, fysieke verschijning, lichaamsgrootte, ras, religie, opzettelijke intimidatie, stalking, (fysiek) volgen, intimiderende fotografie of opnames, aanhoudende verstoring van talks of andere evenementen, ongepast fysiek contact en ongewenste (seksuele) aandacht.
+
+Neem contact op met het Fronteers team als je denkt dat je wordt geïntimideerd, als je ziet dat iemand anders wordt geïntimideerd, of als je andere gerelateerde zorgen hebt:
+
+* Zoek een crewlid in het echt (te herkennen aan een crew t-shirt met logo)
+* Stuur een e-mail naar [conference@fronteers.nl](mailto:conference@fronteers.nl)
+
+De Fronteers community heeft jaar na jaar bewezen een zeer gastvrije en open groep te zijn. Door je bij die groep aan te sluiten, word je geacht je aan diezelfde hoge standaard te houden.
+
+De organisatoren van Fronteers: Dark Mode behouden zich het recht voor om naleving van de Code of Conduct af te dwingen, met maatregelen tot en met verwijdering van onze evenementen.
