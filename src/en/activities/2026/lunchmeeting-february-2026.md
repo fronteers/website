@@ -1,9 +1,8 @@
 ---
-title: 'Fronteers Lunchmeeting - Early January 2026'
+title: 'Fronteers Lunchmeeting - February 6, 2026'
 summary: Details to follow
 date: 2025-12-13
-eventdate: 2026-01-08
-eventdateTentative: true
+eventdate: 2026-02-06
 location: Online
 categories:
   - Lunchmeetings

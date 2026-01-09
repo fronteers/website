@@ -1,9 +1,7 @@
 ---
-title: 'Fronteers Lunchmeeting - Begin februari 2026'
-summary: Details volgen
+title: 'Fronteers Lunchmeeting - 6 februari 2026'
 date: 2025-12-13
-eventdate: 2026-02-08
-eventdateTentative: true
+eventdate: 2026-02-06
 location: Online
 categories:
   - Lunchmeetings
@@ -15,4 +13,4 @@ We organiseren een Fronteers lunchmeeting begin januari 2026. De lunchmeeting is
 
 We zijn op zoek naar een **spreker** om te laten zien (en vertellen), of gewoon te spreken over een bepaald onderwerp, tijdens de lunch.
 
-Lijkt het je leuk iets te laten zien? [Neem dan contact met ons op](mailto:bestuur@fronteers.nl?subject=Fronteers%20Lunchmeeting%20-%20Begin%20januari%202026)!
+Lijkt het je leuk iets te laten zien? [Neem dan contact met ons op](mailto:bestuur@fronteers.nl?subject=Fronteers%20Lunchmeeting%20-%20Begin%februari%202026)!
