@@ -28,7 +28,7 @@ Filmtheater De Witt - an atmospheric cinema, brasserie and cultural stage in the
 
 The cinema and brasserie are wheelchair accessible. There are no steps or other obstacles in the building. There is also a lift in the building. There is also an accessible toilet available on the ground floor.
 
-{% googlemaps "Nieuwstraat 62, Dordrecht" %}
+{% googlemaps "De Witt, Nieuwstraat 62, Dordrecht" %}
 <br />
 
 ## Speakers

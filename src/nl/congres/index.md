@@ -28,12 +28,12 @@ Filmtheater De Witt - een sfeervolle bioscoop, brasserie en cultureel podium in 
 
 Het filmtheater en brasserie zijn rolstoelvriendelijk. Er zijn geen opstapjes of andere obstakels in het pand. Tevens is er in het pand een lift aanwezig. Ook is er een invalidetoilet beschikbaar op de begane grond.
 
-{% googlemaps "Nieuwstraat 62, Dordrecht" %}
+{% googlemaps "De Witt, Nieuwstraat 62, Dordrecht" %}
 <br />
 
 ## Sprekers
 
-Informatie over onze sprekers volgt! Houd ons in de gaten.
+Informatie over onze sprekers volgt! Houd deze pagina in de gaten. Of [meld je aan voor onze nieuwsbrief](/nl/informatie/nieuwsbrief/).
 
 ## Programma
 
