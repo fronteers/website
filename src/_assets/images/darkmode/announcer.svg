@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 403">
+  <defs>
+    <clipPath id="b">
+      <path fill="none" d="M0 385.2h256.4V0H0Z"/>
+    </clipPath>
+    <clipPath id="c">
+      <path fill="none" d="M0 0v321.4l.2 13.8s43.8 50 126.8 50c82.8 0 129.4-50 129.4-50V-.1Z"/>
+    </clipPath>
+    <clipPath id="d">
+      <path fill="#fe796a" d="M0 387.1h257V0H0Z"/>
+    </clipPath>
+    <clipPath id="e">
+      <path fill="none" d="M0 385.8h256.5V0H0Z"/>
+    </clipPath>
+    <clipPath id="a">
+      <path d="M0 0h1280v403H0z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#a)">
+    <g>
+      <g clip-path="url(#b)" transform="translate(-.8 .2)">
+        <g>
+          <path fill="#646ee0" d="M256.4 335.2s-46.6 50-129.4 50c-83 0-126.8-50-126.8-50L0 321.4V0h256.4v335.2Z"
+               />
+        </g>
+      </g>
+      <g clip-path="url(#c)" transform="translate(-.8 .2)">
+        <g>
+          <path fill="#fd796a" d="M0 0v385.2L256.4 0Z"/>
+        </g>
+      </g>
+    </g>
+    <g clip-path="url(#d)" transform="translate(767 .5)">
+      <g>
+        <path fill="#fe796a"
+              d="M0 0v336.5c0 20 15.6 30.1 38.3 30.1h56c7.7 0 24.6-.8 27.3 20.5h13.7c2.7-21.3 19.7-20.5 27.3-20.5h56c22.7 0 38.3-10.1 38.3-30V0Z"
+             />
+      </g>
+      <g>
+        <path fill="#ffce2e"
+              d="M127.8 192.7a63.4 63.4 0 0 0 63.4-63.4A63.4 63.4 0 0 0 127.8 66a63.4 63.4 0 0 0-63.4 63.4 63.4 63.4 0 0 0 63.4 63.4"
+             />
+      </g>
+    </g>
+    <g>
+      <g clip-path="url(#e)" transform="translate(511.2 .1)">
+        <g>
+          <path fill="#636ddf" d="M256.5 336s-46.7 49.9-129.4 49.9c-83.1 0-127-50-127-50L0 322V.6h256.5v335.3Z"
+               />
+        </g>
+        <g>
+          <path fill="#ffce2d"
+                d="M0 0v123.4c0 20 15.6 30 38.2 30h56c7.6 0 24.5-.8 27.2 20.5h13.7c2.7-21.3 19.6-20.4 27.3-20.4h55.9c22.6 0 38.2-10.1 38.2-30V0Z"
+               />
+        </g>
+      </g>
+    </g>
+    <g>
+      <path fill="#b7b7fc" d="M1023.9 387.6H1280V.4h-256.1Z"/>
+      <g>
+        <path fill="#636ddf" d="M1023.9.4v387.2l128-194.2Z"/>
+      </g>
+      <g>
+        <path fill="#636ddf" d="m1280 .4-128 193 128 194.2Z"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path fill="#fd796a" d="M511.4-.4V335l-127.5 50V-.4Z"/>
+      </g>
+      <g>
+        <path fill="#b7b7fd" d="M384-.4V385l-128.5-50V-.4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

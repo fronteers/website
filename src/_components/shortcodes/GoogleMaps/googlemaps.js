@@ -1,4 +1,5 @@
 exports.googlemaps = (address) => {
-// console.log(`https://www.google.com/maps/place/${address}/`);
-return `<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.openstreetmap.org/search?query=${address}" data-iframely-url="//cdn.iframe.ly/YcMNcy1"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>`;
+  // URL encode the address for use in the Google Maps embed URL
+  const encodedAddress = encodeURIComponent(address);
+  return `<iframe width="100%" height="320" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?q=${encodedAddress}&amp;ie=UTF8&amp;t=m&amp;z=15&amp;output=embed" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
 };

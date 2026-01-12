@@ -12,9 +12,8 @@ exports.pagehero = (
 <section class="hero-wrapper outer-wrapper outer-wrapper--${heroStyle}">
   <div class="hero hero--${heroStyle}">
     ${heroStyle == "aboutus" ? generateShield(shieldText) : ""}
-    ${heroStyle == "activities" ? heroImage : ""}
-    ${heroStyle == "blog" ? heroImage : ""}
-
+    ${heroStyle == "activities" ? "" : ""}
+    ${heroStyle == "blog" ? heroImage : ""} 
     <div class="hero-graphic">
       <div class="hero-content">
         ${

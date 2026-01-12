@@ -4,9 +4,9 @@
         {%- include partials/page-header/navigation-triggers -%}
 
         {%- if locale == "nl" -%}
-            {%- include partials/navigation nav_location: "header" nav_description: "Hoofdnavigatie" nav_selection: navigation.header.nl -%}
+            {%- include partials/navigation nav_location: "header" nav_description: "Hoofdnavigatie" nav_selection: navigation.header.nl.main -%}
         {%- elsif locale == "en" -%}
-            {%- include partials/navigation nav_location: "header" nav_description: "Main navigation" nav_selection: navigation.header.en -%}
+            {%- include partials/navigation nav_location: "header" nav_description: "Main navigation" nav_selection: navigation.header.en.main -%}
         {%- endif -%}
 
         {%- include partials/page-header/join-us -%}

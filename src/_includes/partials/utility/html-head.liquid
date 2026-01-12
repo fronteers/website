@@ -40,6 +40,12 @@
 
     <link rel="stylesheet" href="/assets/css/style.css?v={{ site.buildTime | date: "%s" }}">
 
+    {% if key contains "darkmode2025" %}
+    <link rel="stylesheet" href="/assets/css/darkmode-2025.css?v=">
+    {% elsif key == "darkmode2026" %}
+    <link rel="stylesheet" href="/assets/css/darkmode-2026.css?v=">
+    {% endif %}
+
     <link rel="preload" as="font" href="/assets/fonts/Fabrik-Bold.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/assets/fonts/Roboto-Regular.woff2" type="font/woff2" crossorigin="anonymous">
 
@@ -73,7 +79,7 @@
     {% if image and image contains 'http' %}
         <meta property="og:image" content="{{ image }}">
     {% elsif image %}
-        <meta property="og:image" content="https://fronteers.nl{{ image }}">
+        <meta property="og:image" content="{{ site.baseUrl }}{{ image }}">
     {% else %}
         {% assign frontmatterDate = collections.all | where: "inputPath", page.inputPath | map: "data" | map: "date" | first %}
         {% assign hasExplicitDate = frontmatterDate != nil %}
