@@ -12,13 +12,15 @@ locale: nl
 signupavailable: false
 externalUrl: 'https://smashingconf.com/amsterdam-2026/'
 externalEvent: true
-externalEventDiscount: false
+externalEventDiscount: true
 ---
 
-SmashingConf Amsterdam 2026 is een vriendelijke, inclusieve conferentie gericht op echte problemen en oplossingen. Het evenement duurt 4 dagen, met 1 pre-day, 2 workshopdagen met 6 praktische workshops, en 2 conferentiedagen. De conferentie heeft 1 track met 12 sprekers en 550 deelnemers.
+SmashingConf Amsterdam 2026 is een vriendelijke, inclusieve conferentie gericht op echte problemen en oplossingen. Het congres bestaat uit twee single-track conferentiedagen, met workshopdagen vóór en na het congres en diverse side-events. Onderwerpen zijn onder andere Modern CSS, Figma, Design Systems en UX writing, met sprekers als Kevin Powell, Nathan Curtis, Nadieh Bremer en Vitaly Friedman.
 
 **Data:** 13-16 april 2026  
 **Locatie:** Pathé Tuschinski, Amsterdam  
-**Tickets:** €599 excl. BTW (€725 incl. 21% NL BTW)
+**Tickets:** €599 excl. BTW (€725 incl. 21% NL btw). 
+
+**Fronteers-leden krijgen 20% korting. Neem contact op met het bestuur voor de benodigde informatie!**
 
 [Bezoek de website voor meer informatie en tickets](https://smashingconf.com/amsterdam-2026/)
