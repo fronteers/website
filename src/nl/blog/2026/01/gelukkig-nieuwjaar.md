@@ -11,7 +11,7 @@ We zijn alvast goed begonnen met een update van onze [activiteitenkalender](http
 
 Zo vieren we deze week op donderdag het nieuwe jaar met een [borrel](https://www.fronteers.nl/nl/activiteiten/#15-januari-2026-nieuwjaarsborrel-in-utrecht) in Utrecht. Om 18:00 komen we samen bij het Gegeven Paard in Utrecht (vlakbij het station), waar we samen een hapje eten en een toost uitbrengen op het nieuwe jaar. Meld je aan via [meetup.com](https://www.meetup.com/fronteers-nl/events/312421148/?slug=fronteers-nl) of via een e-mail naar [anneke@fronteers.nl](mailto:anneke@fronteers.nl)!
 
-Ook organiseren we dit jaar opnieuw Fronteers: Dark Mode, een knusse avond met topsprekers in Dordrecht. Vorig jaar werd dit evenement erg gewaardeerd om de bijzondere opzet en de kwaliteit van de presentaties. Tickets kosten 49 euro voor onze leden, 99 euro voor niet-leden, en zijn inclusief een driegangen diner en een aantal vouchers voor drankjes.
+Ook organiseren we dit jaar opnieuw Fronteers: Dark Mode, een knusse avond met topsprekers in Dordrecht. Vorig jaar werd dit evenement erg gewaardeerd om de bijzondere opzet en de kwaliteit van de presentaties. Tickets kosten 49 euro voor onze leden, 99 euro voor niet-leden, en zijn inclusief een twee gangen diner (hoofdgerecht plus keuze uit voor- of nagerecht) en een aantal vouchers voor drankjes.
 
 Wil je er dit jaar ook bij zijn? Zorg dan dat je aangemeld bent voor onze [nieuwsbrief](https://www.fronteers.nl/nl/informatie/nieuwsbrief/) zodat we je op de hoogte kunnen houden van het openen van de ticketverkoop later deze maand. Zie voor meer informatie onze pagina over [Dark Mode](https://www.fronteers.nl/nl/congres/).
 

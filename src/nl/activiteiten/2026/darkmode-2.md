@@ -2,7 +2,7 @@
 title: Fronteers Dark Mode 2
 date: 2025-12-13
 eventdate: 2026-10-02
-eventtime: '17:00'
+eventtime: '15:00'
 author: Anneke Sinnema
 summary: Een gezellige, single-track afterwork front-end conferentie door en voor de community
 categories:
@@ -10,12 +10,10 @@ categories:
 key: darkmode-2
 location: Dordrecht
 ---
-Koop je tickets op [https://fronteersconf.org/](https://fronteersconf.org/)!
+Fronteers Dark Mode 2 is een gezellige, single-track afterwork front-end conferentie door en voor de community. 
 
-Fronteers Dark Mode 2 is een gezellige, single-track afterwork front-end conferentie door en voor de community. Details worden binnenkort bekendgemaakt.
-
-**Datum:** 2 oktober 2026  
-**Locatie:** Wordt nog bekendgemaakt  
+**Datum:** 2 oktober 2026
+**Locatie:** Filmtheater De Witt, Dordrecht  
 **Sprekers:** Worden nog bekendgemaakt
 
-Meer informatie op [https://fronteersconf.org/](https://fronteersconf.org/).
+Zie [Fronteers: Dark Mode](/nl/congres) voor meer informatie!
