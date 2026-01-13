@@ -113,7 +113,7 @@ module.exports = {
     activity: "Event announcement",
     job: "Job opening",
     externalEvent: "Please note: This is an event that is not organised by Fronteers.",
-    externalEventDiscount: "A discount is available for Fronteers members. Please contact the board of Fronteers for more information through bestuur@fronteers.nl.",
+    externalEventDiscount: "A discount to this event is available exclusively for Fronteers members. Please contact the board of Fronteers for more information through bestuur@fronteers.nl.",
     of: "of",
     shown: "shown"
   },
@@ -231,7 +231,7 @@ module.exports = {
     activity: "Activiteit",
     job: "Vacature",
     externalEvent: "Let op: Dit betreft een activiteit die niet door Fronteers wordt georganiseerd.",
-    externalEventDiscount: "Er is een korting beschikbaar voor Fronteers leden. Neem contact op met het bestuur van Fronteers via bestuur@fronteers.nl.",
+    externalEventDiscount: "Er is een korting voor dit evenement beschikbaar, exclusief voor Fronteersleden. Neem contact op met het bestuur van Fronteers via bestuur@fronteers.nl.",
     of: "van",
     shown: "getoond"
   },

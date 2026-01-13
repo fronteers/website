@@ -12,13 +12,14 @@ locale: nl
 signupavailable: false
 externalUrl: 'https://cssday.nl/'
 externalEvent: true
-externalEventDiscount: false
+externalEventDiscount: true
 ---
+CSS Day is een jaarlijks terugkerend congres waar veertien sprekers praten over de stand van zaken van CSS voor een publiek van CSS designers, developers, spec writers en browser vendors. 
 
-CSS Day is een jaarlijks terugkerend congres waar veertien sprekers praten over de stand van zaken van CSS voor een publiek van CSS designers, developers, spec writers en browser vendors.
+De ticketverkoop zal worden aangekondigd in de nieuwsbrief. Hier kun je je op abonneren via https://cssday.nl/subscribe .
 
-**Data:** 11 en 12 juni 2026  
-**Locatie:** Amsterdam, exacte locatie wordt nog bekend gemaakt  
-**Sprekers:** Worden nog bekendgemaakt
+- **Data:** 11 en 12 juni 2026
+- **Locatie:** Amsterdam
+- **Website:** https://www.cssday.nl
 
-[Bezoek de website voor meer informatie en tickets](https://cssday.nl/)
+**Fronteers-leden krijgen €100 korting op de ticketprijs. We zijn nog in gesprek over de precieze voorwaarden. E-mail het bestuur als je hiervan gebruik wil maken! bestuur@fronteers.nl**
