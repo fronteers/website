@@ -11,7 +11,7 @@ We've already gotten off to a good start with an update to our [activities calen
 
 This week on Thursday, we're celebrating the new year with a [drinks event](https://www.fronteers.nl/en/activities/#15-january-2026-new-year-drinks-in-utrecht) in Utrecht. At 18:00 we'll gather at Het Gegeven Paard in Utrecht (near the station), where we'll have some food together and raise a toast to the new year. Sign up via [meetup.com](https://www.meetup.com/fronteers-nl/events/312421148/?slug=fronteers-nl) or by emailing [anneke@fronteers.nl](mailto:anneke@fronteers.nl)!
 
-We're also organizing Fronteers: Dark Mode again this year, a cozy evening with top speakers in Dordrecht. Last year, this event was highly appreciated for its unique setup and the quality of the presentations. Tickets cost only €49 for our members, €99 for non-members, and include a three-course dinner and a number of drink vouchers.
+We're also organizing Fronteers: Dark Mode again this year, a cozy evening with top speakers in Dordrecht. Last year, this event was highly appreciated for its unique setup and the quality of the presentations. Tickets cost only €49 for our members, €99 for non-members, and include a two course dinner (a main plus choice between a starter or a dessert) and a number of drink vouchers.
 
 Make sure you're signed up for our [newsletter](https://www.fronteers.nl/en/information/newsletter/) so we can keep you informed about the ticket sales opening later this month. For more information, see our page about [Dark Mode](https://www.fronteers.nl/en/conference/).
 

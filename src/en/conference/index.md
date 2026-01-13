@@ -2,7 +2,7 @@
 layout: conference.liquid
 key: darkmode2026
 title: Fronteers Dark Mode
-heroSlogan: "Friday night. Frontend. Fronteers Dark Mode! Join us on Friday, October 2nd, 2026, at Cinema De Witt in Dordrecht for an intimate evening of frontend talks and community vibes – from 4PM to after midnight."
+heroSlogan: "Friday night. Frontend. Fronteers Dark Mode! Join us on Friday, October 2nd, 2026, at Cinema De Witt in Dordrecht for an intimate evening of frontend talks and community vibes – from the afternoon to after midnight."
 image: /_img/congres/2026/dark-mode-og-image-en.png
 ---
 
@@ -12,7 +12,7 @@ Fronteers Dark Mode is a cozy, single-track afterwork front-end conference by an
 
 ## Tickets
 
-Tickets will be available soon for the fixed price of just **€99**. Tickets include entry, a delicious 3-course dinner and drink vouchers.
+Tickets will be available soon for the fixed price of just **€99**. Tickets include entry, a delicious two course dinner (a main plus choice between a starter or a dessert) and drink vouchers.
 
 **Fronteers members pay only €49!** You can still [become a member](/en/become-a-member/) ;-)
 
