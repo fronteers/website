@@ -24,7 +24,7 @@ Ticket sales will start in January 2026 and will be announced via our newsletter
 
 Filmtheater De Witt - an atmospheric cinema, brasserie and cultural stage in the historic center of Dordrecht.
 
-The cinema and brasserie are wheelchair accessible. There are no steps or other obstacles in the building. There is also a lift in the building. There is also an accessible toilet available on the ground floor.
+The cinema and brasserie are fully wheelchair accessible. The building has step-free access throughout, includes a lift, and offers an accessible toilet on the ground floor.
 
 {% googlemaps "De Witt, Nieuwstraat 62, Dordrecht" %}
 <br />
@@ -39,7 +39,7 @@ The program will be finalized in the month before the conference.
 
 ## Contact
 
-Contact the conference team via [conference@fronteers.nl](mailto:conference@fronteers.nl)
+Contact the conference team via [confere&#110;ce&#64;fro&#110;&#116;e&#101;rs&#46;nl](m&#97;&#105;lto&#58;&#99;on%66eren&#99;&#101;&#64;%6&#54;%72on%&#55;4%65e%&#55;2s%2&#69;n%&#54;&#67;)
 
 ## Code of Conduct
 
@@ -48,7 +48,7 @@ Fronteers Conference does not tolerate harassment of any sort at any of our loca
 Please contact the Fronteers staff if you feel you are being harassed, if you see someone being harassed, or if you have any related concerns:
 
 * Find a crew member IRL (identified by a branded crew t-shirt)
-* Email us at [conference@fronteers.nl](mailto:conference@fronteers.nl)
+* Email us at [confere&#110;ce&#64;fro&#110;&#116;e&#101;rs&#46;nl](m&#97;&#105;lto&#58;&#99;on%66eren&#99;&#101;&#64;%6&#54;%72on%&#55;4%65e%&#55;2s%2&#69;n%&#54;&#67;)
 
 The Fronteers community has proven year after year to be a very welcoming and open group. By joining that group, you will be held to that same high standard.
 
