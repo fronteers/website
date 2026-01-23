@@ -22,7 +22,7 @@
             {%- endfor -%}
 
             {%- if translatedUrl -%}
-                {% if language.code == 'nl' %}
+                {% if locale == 'nl' %}
                     {%- if canonical -%}
                         <link rel="canonical" href="{{ canonical }}">
                     {%- else -%}
@@ -35,6 +35,8 @@
     {%- else -%}
         {%- if canonical -%}
             <link rel="canonical" href="{{ canonical }}">
+        {%- elsif language.code == 'nl' -%}
+            <link rel="canonical" href="{{ site.baseUrl }}{{ page.url }}">
         {%- endif -%}
     {%- endif -%}
 
