@@ -10,9 +10,8 @@ categories:
 key: darkmode-2
 location: Dordrecht
 ---
-Fronteers Dark Mode 2026 is een gezellige, single-track afterwork front-end conferentie door en voor de community. 
 
-**Datum:** 2 oktober 2026  
+**Datum:** 2 oktober 2026
 **Locatie:** Filmtheater De Witt, Dordrecht  
 **Sprekers:** Worden nog bekendgemaakt
 

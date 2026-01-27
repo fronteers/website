@@ -13,8 +13,6 @@ locale: en
 meetupLink: https://www.meetup.com/fronteers-nl/events/312426923
 ---
 
-Join us for an online check-in during Fronteers' online drinks.
-
 Connect with fellow frontend developers from the comfort of your own home.  
 When? Wednesday September 9th, from 19:30 for an hour.
 

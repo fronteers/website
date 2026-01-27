@@ -15,7 +15,7 @@ externalEvent: true
 externalEventDiscount: false
 key: the-web-you-want-2
 ---
-A free two-day conference about the web, with time to reflect between the two days. On April 17, 2026 (the day after Smashing Conference Amsterdam), and June 10, 2026 (the day before CSSday).
+On April 17, 2026 (the day after Smashing Conference Amsterdam), and June 10, 2026 (the day before CSSday).
 
 What would the web be like if it was up to you?
 

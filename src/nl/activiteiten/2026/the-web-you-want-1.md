@@ -15,7 +15,7 @@ externalEvent: true
 externalEventDiscount: false
 key: the-web-you-want-1
 ---
-Een tweedaagse gratis conferentie over het web, met tijd om na te denken tussen de twee dagen. Op 17 april 2026 (de dag na Smashing Conference Amsterdam), en 10 juni 2026 (de dag voor CSSday).
+Op 17 april 2026 (de dag na Smashing Conference Amsterdam), en 10 juni 2026 (de dag voor CSSday).
 
 Hoe zou het web eruitzien als het aan jou lag?
 

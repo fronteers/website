@@ -103,6 +103,10 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
                 {%- endif -%}
             </dl>
 
+            {% if activity.data.summary %}
+                <p class="page-lead">{{ activity.data.summary }}</p>
+            {% endif %}
+
             {{ activity.templateContent }}
             
         </div>

@@ -15,8 +15,6 @@ signupmail: anneke@fronteers.nl
 meetuplink: https://www.meetup.com/fronteers-nl/events/312424800/
 ---
 
-Come and share a beverage during Fronteers' casual end of year drinks.
-
 In the cafe, you can recognise the group by the discussions. For example tabs, spaces or no indenting. You can gossip about upcoming browser features. Gain insights into the depths of devtools. Be accessible for inquiries about new accessibility regulations.
 
 Please [register or unregister as needed via meetup.com](https://www.meetup.com/nl-NL/fronteers-nl/events/), so we can confirm the headcount for the bar reservation. The first round is on Fronteers.
