@@ -1,5 +1,5 @@
 ---
-title: Fronteers Dark Mode 2
+title: Fronteers Dark Mode 2026
 date: 2025-12-13
 eventdate: 2026-10-02
 eventtime: '15:00'
@@ -10,9 +10,9 @@ categories:
 key: darkmode-2
 location: Dordrecht
 ---
-Fronteers Dark Mode 2 is een gezellige, single-track afterwork front-end conferentie door en voor de community. 
+Fronteers Dark Mode 2026 is een gezellige, single-track afterwork front-end conferentie door en voor de community. 
 
-**Datum:** 2 oktober 2026
+**Datum:** 2 oktober 2026  
 **Locatie:** Filmtheater De Witt, Dordrecht  
 **Sprekers:** Worden nog bekendgemaakt
 
