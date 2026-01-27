@@ -22,4 +22,4 @@ De ticketverkoop zal worden aangekondigd in de nieuwsbrief. Hier kun je je op ab
 - **Locatie:** Amsterdam
 - **Website:** https://www.cssday.nl
 
-**Fronteers-leden krijgen €100 korting op de reguliere ticketprijs (niet de Early Bird). Hiermee komt de prijs van een ticket voor Fronteersleden uit op €575 euro. E-mail het bestuur als je hiervan gebruik wil maken! bestuur@fronteers.nl**
+**Fronteers-leden krijgen €100 korting op de reguliere ticketprijs (niet de Early Bird). E-mail het bestuur als je hiervan gebruik wil maken! bestuur@fronteers.nl**
