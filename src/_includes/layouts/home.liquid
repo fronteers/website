@@ -10,14 +10,17 @@
             {%- include partials/homepage/upcoming-activities headerlvl:"h2" partialTitle:translations[locale].blockTitles.upcomingActivities -%}
         {%- endif -%}
  
-
+        {% if locale == "nl" %}
+            {%- include partials/homepage/banner-darkmode headerlvl:"h2" bannerTitle:"Kom naar Fronteers Dark Mode 2026" bannerDescription:"Fronteers Dark Mode is een gezellige, single-track afterwork front-end conferentie door en voor de community. Op vrijdag 2 oktober 2026 in de sfeervolle Cinema De Witt in Dordrecht bieden we een avond vol inspirerende talks over onderwerpen als toegankelijkheid, duurzaamheid, HTML, CSS – met natuurlijk een nerdy late-night finale." bannerLink:"/nl/congres"  bannerButtonText:"Zorg dat je het niet mist!" -%}
+        {% else %}
+            {%- include partials/homepage/banner-darkmode headerlvl:"h2" bannerTitle:"Join us for Fronteers Dark Mode 2026!" bannerDescription:"Fronteers Dark Mode is a cozy, single-track afterwork front-end conference by and for the community. On Friday, October 2, 2026 at the atmospheric Cinema De Witt in Dordrecht, we offer an evening full of inspiring talks on topics such as accessibility, sustainability, HTML, CSS – with of course a nerdy late-night finale." bannerLink:"/en/conference" bannerButtonText:"Make sure you don't miss it!" -%}
+        {% endif %}
+ 
         {%- if blogs.length != 0 -%}
             {%- include partials/homepage/latest-blogs headerlvl:"h2" partialTitle:translations[locale].blockTitles.latestBlogs -%}
         {%- endif -%}
  
-
         {%- include partials/homepage/banner-join-us headerlvl:"h2" partialTitle:translations[locale].blockTitles.joinUs partialContent:translations[locale].blockTitles.joinUsDescription -%}
- 
 
         {%- include partials/homepage/banner-conference headerlvl:"h2" type:"parentheses" partialTitle:translations[locale].blockTitles.conferenceBanner link:"https://vimeo.com/fronteers" image:"/assets/images/fronteers-conference.jpg" -%}
  

@@ -1,0 +1,101 @@
+.banner-darkmode__container {
+  background-image: url('/_img/congres/2026/fronteers-darkmode-banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner-darkmode__container::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-darkmode__content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 600px;
+    gap: var(--spacing);
+    color: white;
+    margin-inline: auto;
+    z-index: 2;
+}
+
+.banner-darkmode { 
+    text-align: center;
+    margin-block: var(--spacing-double);
+}
+
+.banner-darkmode__content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: var(--spacing);
+    color: white;
+    position: relative;
+}
+
+.banner-darkmode__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: none;
+    text-align: center;
+}
+
+.banner-darkmode__description {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner-darkmode__link {
+    max-width: max-content;
+    align-self: center; 
+    background-color: var(--yellow);
+    color: black;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+    }
+}
+
+.banner-darkmode .banner-darkmode__link {
+    color: black;
+    background-color: var(--yellow);
+    text-decoration: none;
+    transition: transform .15s ease-in;
+
+    @media (prefers-reduced-motion) {
+        transition: none;
+    }
+}
+
+.banner-darkmode__link:hover,
+.banner-darkmode__link:focus,
+.banner-darkmode__link:active {
+    color: var(--white);
+    background-color: var(--purple);
+    text-decoration: none;
+}
+
+.banner-darkmode__description {
+    text-wrap: balance;
+}
+
+@media all and (min-width: 60.125em) {
+    .banner-darkmode__description {
+        align-self: center;
+        width: 80%;
+    }
+}
