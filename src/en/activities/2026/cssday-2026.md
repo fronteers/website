@@ -22,4 +22,4 @@ Ticket sales will be announced in the CSS Day newsletter. You can subscribe to i
 - **Location:** Amsterdam
 - **Website:** https://www.cssday.nl
 
-**Fronteers members receive a €100 discount on the ticket price. We are still discussing the exact terms and conditions. Email the board if you would like to take advantage of this discount! bestuur@fronteers.nl**
+**Fronteers members receive a €100 discount on the normal ticket price after the Early Birds. E-mail the board if you would like to take advantage of this discount! bestuur@fronteers.nl**
