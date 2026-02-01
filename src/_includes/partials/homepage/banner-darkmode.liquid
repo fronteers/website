@@ -7,8 +7,8 @@
             <p class="banner-darkmode__description">
                 {{ bannerDescription }}
             </p>
-            <a class="banner-darkmode__link button button-parentheses" href="{{ bannerLink }}">
-                {{ bannerButtonText }}!
+            <a class="banner-darkmode__link button button-parentheses" href="{{ bannerLink }}" {%- if bannerLink contains "http" -%}rel='noopener noreferrer' target='_blank'{%- endif -%} hreflang="en">
+                {{ bannerButtonText }}
             </a>
         </div>
     </div>

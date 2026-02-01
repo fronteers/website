@@ -111,8 +111,9 @@ module.exports = {
         //   ],
         // },
         {
-          url: "/nl/congres/",
+          url: "https://fronteersconf.org/",
           title: "Dark Mode",
+          hreflang: "en",
         //   subnav: [
         //     {
         //       url: "/nl/congres#tickets",
@@ -141,32 +142,32 @@ module.exports = {
         //   ],
         },
       ],
-      congresnavigatie: [
-        {
-          url: "/nl/congres/tickets/",
-          title: "Tickets",
-        },
-        {
-          url: "/nl/congres/sprekers/",
-          title: "Sprekers",
-        },
-        {
-          url: "/nl/congres/programma/",
-          title: "Programma",
-        },
-        {
-          url: "/nl/congres/workshops/",
-          title: "Workshops",
-        },
-        {
-          url: "/nl/congres/lokaties/",
-          title: "Lokaties",
-        },
-        {
-          url: "/nl/congres/contact/",
-          title: "Contact",
-        },
-      ],
+    //   congresnavigatie: [
+    //     {
+    //       url: "/nl/congres/tickets/",
+    //       title: "Tickets",
+    //     },
+    //     {
+    //       url: "/nl/congres/sprekers/",
+    //       title: "Sprekers",
+    //     },
+    //     {
+    //       url: "/nl/congres/programma/",
+    //       title: "Programma",
+    //     },
+    //     {
+    //       url: "/nl/congres/workshops/",
+    //       title: "Workshops",
+    //     },
+    //     {
+    //       url: "/nl/congres/lokaties/",
+    //       title: "Lokaties",
+    //     },
+    //     {
+    //       url: "/nl/congres/contact/",
+    //       title: "Contact",
+    //     },
+    //   ],
     },
     en: {
       main: [
@@ -275,8 +276,9 @@ module.exports = {
         //   ],
         // },
         {
-          url: "/en/conference/",
+          url: "https://fronteersconf.org/",
           title: "Dark Mode",
+          hreflang: "en",
         //   subnav: [
         //     {
         //       url: "/en/conference#tickets",
@@ -305,32 +307,32 @@ module.exports = {
         //   ],
         },
       ],
-      congresnavigatie: [
-        {
-          url: "/en/conference/tickets.html",
-          title: "Tickets",
-        },
-        {
-          url: "/en/conference/speakers.html",
-          title: "Speakers",
-        },
-        {
-          url: "/en/conference/schedule.html",
-          title: "Schedule",
-        },
-        {
-          url: "/en/conference/workshops.html",
-          title: "Workshops",
-        },
-        {
-          url: "/en/conference/venues.html",
-          title: "Venues",
-        },
-        {
-          url: "/en/conference/contact.html",
-          title: "Contact",
-        },
-      ],
+    //   congresnavigatie: [
+    //     {
+    //       url: "/en/conference/tickets.html",
+    //       title: "Tickets",
+    //     },
+    //     {
+    //       url: "/en/conference/speakers.html",
+    //       title: "Speakers",
+    //     },
+    //     {
+    //       url: "/en/conference/schedule.html",
+    //       title: "Schedule",
+    //     },
+    //     {
+    //       url: "/en/conference/workshops.html",
+    //       title: "Workshops",
+    //     },
+    //     {
+    //       url: "/en/conference/venues.html",
+    //       title: "Venues",
+    //     },
+    //     {
+    //       url: "/en/conference/contact.html",
+    //       title: "Contact",
+    //     },
+    //   ],
     },
   },
   footer: {
