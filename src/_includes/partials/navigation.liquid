@@ -17,6 +17,12 @@
                     {%- if item.url == page.url or itemUrlWithSlash == page.url -%}
                         aria-current='page'
                     {%- endif -%}
+                    {%- if item.hreflang -%}
+                        hreflang='{{ item.hreflang }}'
+                    {%- endif -%}
+                    {%- if item.url contains "http" -%}
+                        rel='noopener noreferrer' target='_blank'
+                    {%- endif -%}
                 >
                     {{ item.title }}
                 </a>
@@ -38,6 +44,12 @@
                             href='{{ subitem.url }}'
                             {%- if subitem.url == page.url -%}
                                 aria-current='page'
+                            {%- endif -%}
+                            {%- if subitem.hreflang -%}
+                                hreflang='{{ subitem.hreflang }}'
+                            {%- endif -%}
+                            {%- if subitem.url contains "http" -%}
+                                rel='noopener noreferrer' target='_blank'
                             {%- endif -%}
                         >
                             {{ subitem.title }}
