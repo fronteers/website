@@ -20,7 +20,6 @@ State of the Browser is een jaarlijkse eendaagse, single-track conferentie met u
 **Datum:** 28 februari 2026  
 **Tijd:** 09:30 – 17:00 GMT  
 **Locatie:** The Barbican Centre, London, UK  
-**Ticketprijs:** Minimaal 80 pond (ongeveer 92 euro).
+**Ticketprijs:** Normale kaartjes zijn uitverkocht, maar je kunt online mee kijken!
 
-[Bezoek de website voor meer informatie en tickets](https://2026.stateofthebrowser.com/)
-
+Ben je geïnteresseerd in het op afstand bijwonen, dan kun je deze link gebruiken om de prijs van het ticket te halveren: [Krijg 50% korting op online tickets](https://ti.to/lws/sotb2026/discount/Status_van_de_Browser)
