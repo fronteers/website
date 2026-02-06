@@ -42,9 +42,10 @@ module.exports = {
             eventDate = DateTime.fromISO(String(event.data.eventdate));
           }
           
-          // Check if date is valid and in the future
+          // Check if date is valid and in the future (including today)
           if (eventDate.isValid) {
-            return eventDate >= currentDate;
+            // Compare only the date part (start of day) to include events happening today
+            return eventDate.startOf('day') >= currentDate.startOf('day');
           } else {
             console.warn(`[upcomingEvents] Invalid eventdate for "${event.data.title || 'unknown'}": ${event.data.eventdate}`);
             return false;
@@ -90,7 +91,8 @@ module.exports = {
           // Parse string date (YYYY-MM-DD format)
           eventDate = DateTime.fromISO(event.data.eventdate);
         }
-        return eventDate < currentDate;
+        // Compare only the date part (start of day) to exclude today's events
+        return eventDate.startOf('day') < currentDate.startOf('day');
       } else {
         return false;
       }
