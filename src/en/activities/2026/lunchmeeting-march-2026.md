@@ -1,9 +1,9 @@
 ---
-title: 'Fronteers Lunchmeeting - Late March 2026'
-summary: Details to follow
-date: 2025-12-13
-eventdate: 2026-03-27
-eventdateTentative: true
+title: 'Fronteers Lunchmeeting with Mark Teekman'
+summary: 'Mark Teekman will tell us about his Accessible Astro Starter!'
+date: 2026-02-26
+eventdate: 2026-03-24
+eventdateTentative: false
 location: Online
 categories:
   - Lunchmeetings
@@ -11,8 +11,6 @@ locale: en
 signupavailable: false
 ---
 
-We're organizing a Fronteers lunchmeeting in late March 2026. The lunchmeeting is an online meeting during lunch that you can follow from behind your desk (but also from your couch or in the park).
+Fronteers lunchmeetings are online meetings during lunch that you can follow from behind your desk (but also from your couch or in the park). Fronteers team member Edwin Martin is your host!
 
-We're currently looking for a **speaker** to show (and tell), or just speak on a certain subject, during lunch.
-
-If you can help, please [get in touch](mailto:bestuur@fronteers.nl?subject=Fronteers%20Lunchmeeting%20-%20Late%20March%202026)!
+This Fronteers lunchmeeting features Mark Teekman! Mark has built an accessible starter theme for the Astro framework ([Accessible Astro Starter](https://astro.build/themes/details/accessible-astro-starter/)).
