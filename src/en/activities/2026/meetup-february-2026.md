@@ -1,20 +1,13 @@
 ---
-title: 'Fronteers Meetup - Late February 2026'
-summary: Details to follow
+title: 'Fronteers Meetup - April 8, 2026'
+summary: Fronteers meetup at Abra in Utrecht
 date: 2025-12-13
-eventdate: 2026-02-25
-eventdateTentative: true
-location: TBD
+eventdate: 2026-04-08
+location: Abra, Utrecht
 categories:
     - meetup
 locale: en
 signupavailable: false
 ---
 
-We're organizing a Fronteers meetup in late February 2026. We're currently looking for:
-
-- A **location** to host the meetup
-- **Two speakers** to give talks
-- **Sponsors** for food and drinks
-
-If you can help with any of these, please [get in touch](mailto:bestuur@fronteers.nl?subject=Fronteers%20Meetup%20-%20Late%20February%202026)!
+We're organizing a Fronteers meetup on April 8, 2026 at Abra in Utrecht! We already have two speakers for this meetup, they will be announced soon.
