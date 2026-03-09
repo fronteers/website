@@ -1,7 +1,7 @@
 ---
 title: 'Escapekoffer Digitale Inclusie'
 summary: 'Play the Escapekoffer Digitale Inclusie during Escapekoffer Monday in the Week of Health Inequalities.'
-date: 2026-02-26
+date: 2026-03-09
 eventdate: 2026-03-16
 location: 'Digitaal Toegankelijk, Plompetorengracht 4, Utrecht'
 categories:

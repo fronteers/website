@@ -1,9 +1,8 @@
 ---
 title: 'Fronteers Lunchmeeting met Mark Teekman'
 summary: 'Mark Teekman komt vertellen over zijn Accessible Astro Starter!'
-date: 2026-02-26
+date: 2026-03-09
 eventdate: 2026-03-24
-eventdateTentative: true
 location: Online
 categories:
   - Lunchmeetings
