@@ -13,9 +13,5 @@ signupavailable: false
 
 Abra is welcoming us for the April meetup!
 
-We're still looking for this meetup:
-
-- **A speaker** to give a presentation. It would be great if it's around the theme of digital accessibility.
-- **Sponsors** for food and drinks
-
-Can you help with any of these? [Please get in touch](mailto:bestuur@fronteers.nl?subject=Fronteers%20Meetup%20-%20Early%20April%202026)!
+We already have two speakers for this meetup, they will be announced soon.
+If you'd like to sponsor this meetup in any way, [please get in touch](mailto:bestuur@fronteers.nl?subject=Fronteers%20Meetup%20-%20Early%20April%202026)!
