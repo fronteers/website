@@ -1,7 +1,7 @@
 ---
 title: 'WeCode - Women in IT'
 summary: 'Een meetup door WeCode (Women in IT) bij de Kamer van Koophandel (KvK) in Utrecht voor en door vrouwelijke ontwikkelaars.'
-date: 2026-02-26
+date: 2026-03-09
 eventdate: 2026-05-21
 location: 'Utrecht'
 categories:

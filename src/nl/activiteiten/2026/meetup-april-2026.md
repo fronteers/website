@@ -3,7 +3,6 @@ title: 'Fronteers Meetup bij Abra'
 summary: Details volgen
 date: 2025-12-13
 eventdate: 2026-04-08
-eventdateTentative: true
 location: Abra, Jaarbeursplein 6 6e verdieping (JIM, 3521 AL Utrecht
 categories:
     - bijeenkomsten
