@@ -1,16 +1,28 @@
 ---
 title: 'Fronteers Meetup at Abra'
-summary: Details to follow
+summary: 2 presentations on accessibility at Abra
 date: 2025-12-13
 eventdate: 2026-04-08
-location: Abra, Jaarbeursplein 6 6e verdieping (JIM, 3521 AL Utrecht
+location: Abra, Jaarbeursplein 6, 6e verdieping (JIM), 3521 AL Utrecht
 categories:
     - meetup
 locale: en
 signupavailable: false
+key: meetup-abra-2026
 ---
 
-Abra is welcoming us for the April meetup!
+Fronteers is guest at [Abra](https://abra.nl) in Utrecht. There will be two presentations in Dutch, dinner prior and brinks after.
 
-We already have two speakers for this meetup, they will be announced soon.
-If you'd like to sponsor this meetup in any way, [please get in touch](mailto:bestuur@fronteers.nl?subject=Fronteers%20Meetup%20-%20Early%20April%202026)!
+## Programme
+
+- 18:00 walk-in with dinner
+- 18:50 introduction Fronteers and Abra
+- 19:00 The forever quest for accessibility awareness by Darice de Cuba
+- 19:45 break
+- 20:00 Bruggen bouwen in de wereld van toegankelijkheid by Jan Jaap de Groot and Mike Slinkman
+- 20:45 drinks
+- 21:30 end
+
+## More information and sign-up
+
+See the [Dutch page for more information and sign-up](/nl/activiteiten/2026/meetup-april-2026)
