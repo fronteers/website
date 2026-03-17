@@ -11,7 +11,7 @@ signupavailable: false
 key: meetup-abra-2026
 ---
 
-Fronteers is guest at [Abra](https://abra.nl) in Utrecht. There will be two presentations in Dutch, dinner prior and brinks after.
+[Abra](https://abra.nl) in Utrecht hosts Fronteers for two presentations on accessibility (in Dutch), dinner prior and drinks after.
 
 ## Programme
 
