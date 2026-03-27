@@ -1,10 +1,18 @@
 <section data-partial="homepage/upcoming-activities" class="inner-wrapper upcoming-activities">
     {%- include partials/utility/dynamic-headerlevel level: headerlvl title: partialTitle -%}
     <ol class="activity-calendar-items">
-        {%- for activity in upcomingActivities limit: 5 -%}
-            <li class="list-item">
-                {%- include partials/activity-calendar-item headerlvl: "h3"  pastActivity: false -%}
-            </li>
+        {%- assign shownActivities = 0 -%}
+        {%- for activity in upcomingActivities -%}
+            {%- unless activity.data.eventdateTentative -%}
+                {%- assign loopIndex = shownActivities | plus: 1 -%}
+                <li class="list-item">
+                    {%- include partials/activity-calendar-item headerlvl: "h3" index: loopIndex pastActivity: false -%}
+                </li>
+                {%- assign shownActivities = shownActivities | plus: 1 -%}
+                {%- if shownActivities >= 5 -%}
+                    {%- break -%}
+                {%- endif -%}
+            {%- endunless -%}
         {%- endfor -%}
     </ol>
 
