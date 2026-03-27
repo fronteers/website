@@ -113,23 +113,11 @@
                 <p>{{ translations[locale].emptyStateActivities }}</p>
             {%- else -%}
                 <ol class="activity-calendar-items" data-activity-list>
-                    {%- assign index = 0 -%}
                     {%- for activity in allUpcomingActivities -%}
-                        {%- unless activity.data.eventdateTentative -%}
-                            {%- assign index = index | plus: 1 -%}
-                            <li class="list-item" data-activity-item {% for tag in activity.data.categories %}data-category-{{ tag | slugify }}="true" {% endfor %} {% if index == 1 %}open{% endif %}>
-                                {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
-                            </li>
-                        {%- endunless -%}
-                    {%- endfor -%}
-
-                    {%- for activity in allUpcomingActivities -%}
-                        {%- if activity.data.eventdateTentative -%}
-                            {%- assign index = index | plus: 1 -%}
-                            <li class="list-item" data-activity-item {% for tag in activity.data.categories %}data-category-{{ tag | slugify }}="true" {% endfor %} {% if index == 1 %}open{% endif %}>
-                                {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
-                            </li>
-                        {%- endif -%}
+                        {%- assign index = forloop.index -%}
+                        <li class="list-item" data-activity-item {% for tag in activity.data.categories %}data-category-{{ tag | slugify }}="true" {% endfor %} {% if index == 1 %}open{% endif %}>
+                            {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
+                        </li>
                     {%- endfor -%}
                 </ol>
             {%- endif -%}

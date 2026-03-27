@@ -59,7 +59,8 @@ module.exports = {
       }
     });
 
-    // Sort by eventdate in ascending order (earliest first)
+    // Sort by eventdate in ascending order (earliest first), but place
+    // tentative events at the end of their month.
     return filtered.sort((a, b) => {
       let dateA, dateB;
       
@@ -74,8 +75,11 @@ module.exports = {
       } else {
         dateB = DateTime.fromISO(b.data.eventdate);
       }
-      
-      return dateA - dateB;
+
+      const sortDateA = a.data.eventdateTentative ? dateA.endOf('month') : dateA.startOf('day');
+      const sortDateB = b.data.eventdateTentative ? dateB.endOf('month') : dateB.startOf('day');
+
+      return sortDateA.toMillis() - sortDateB.toMillis();
     });
   },
   

@@ -4,19 +4,17 @@ activity-calendar-item--{{ tag | slugify }} {% endfor %} {% if activity.data.ext
     <details class="activity-calendar-item__details" {% if firstItem %}open{% endif %}>
         <summary class="activity-calendar-item__summary">
             <h3 class="activity-calendar-item__title">
-                {%- if locale == "nl" -%}
-                    {% if activity.data.eventdate %}
-                        <time class="activity-calendar-item__time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
-                            {{ activity.data.eventdate | eventDate: 'nl', activity.data.eventdateTentative }}
-                        </time>
-                    {% endif %}
-                {%- elsif locale == "en" -%}
-                    {% if activity.data.eventdate %}
-                        <time class="activity-calendar-item__time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
-                            {{ activity.data.eventdate | eventDate: 'en', activity.data.eventdateTentative }}
-                        </time>
-                    {% endif %}
-                {%- endif -%}
+
+                {% if activity.data.eventdate %}  
+                    <time class="activity-calendar-item__time" datetime="{{ activity.data.eventdate | date: "%Y-%m-%d" }}">
+                        {% if activity.data.eventdateTentative %}
+                            {{ translations[locale].eventDateTentativePrefix }}
+                        {% endif %}
+                        
+                        {{ activity.data.eventdate | eventDate: locale, activity.data.eventdateTentative }}
+                    </time>
+                    
+                {% endif %} 
 
                 <span>{{ activity.data.title }}</span>
             </h3>
