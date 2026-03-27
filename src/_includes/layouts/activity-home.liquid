@@ -115,7 +115,7 @@
                 <ol class="activity-calendar-items" data-activity-list>
                     {%- for activity in allUpcomingActivities -%}
                         {%- assign index = forloop.index -%}
-                        <li class="list-item" data-activity-item {% for tag in activity.data.categories %}data-category-{{ tag | slugify }}="true" {% endfor %}>
+                        <li class="list-item" data-activity-item {% for tag in activity.data.categories %}data-category-{{ tag | slugify }}="true" {% endfor %} {% if index == 1 %}open{% endif %}>
                             {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
                         </li>
                     {%- endfor -%}

@@ -26,11 +26,23 @@
             <section class="inner-wrapper upcoming-activities">
                 <h2>{{ translations[locale].upcomingActivitiesTitle }} '{{ category.title }}'</h2>
                 <ol class="activity-calendar-items">
+                    {%- assign index = 0 -%}
                     {%- for activity in upcomingPosts -%}
-                        {%- assign index = forloop.index -%}
-                        <li class="list-item">
-                            {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
-                        </li>
+                        {%- unless activity.data.eventdateTentative -%}
+                            {%- assign index = index | plus: 1 -%}
+                            <li class="list-item">
+                                {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
+                            </li>
+                        {%- endunless -%}
+                    {%- endfor -%}
+
+                    {%- for activity in upcomingPosts -%}
+                        {%- if activity.data.eventdateTentative -%}
+                            {%- assign index = index | plus: 1 -%}
+                            <li class="list-item">
+                                {%- include partials/activity-calendar-item headerlvl:"h3" index:index -%}
+                            </li>
+                        {%- endif -%}
                     {%- endfor -%}
                 </ol>
             </section>
