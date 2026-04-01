@@ -162,7 +162,7 @@ module.exports = {
       joinUs: "Word lid",
       joinUsPath: "/nl/word-lid/",
       joinUsDescription:
-        "Word lid van de Fronteers community en draag hiermee bij aan de professionalisering van het front-end vak.",
+        "Word lid van de Fronteers community en steun ons in onze missie om developers samen te brengen en te ondersteunen!",
       activeVacancies: "Vacatures",
       viewAllEvents: "Bekijk alle activiteiten",
       viewOurBlogs: "Bekijk alle blogposts",

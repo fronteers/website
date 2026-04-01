@@ -28,7 +28,7 @@
     text-align: center;
 }
 
-.banner-darkmode { 
+.banner-darkmode-wrapper { 
     text-align: center;
     margin-block: var(--spacing-double);
 }

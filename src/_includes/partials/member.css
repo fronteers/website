@@ -25,20 +25,28 @@
     grid-column: 1 / 1;
     grid-row: 2 / 4;
     z-index: 1;
-    background-color: var(--yellow);
     padding-top: 75px;
+    text-decoration: none;
 }
 
-.member-header-1 .member-header-graphic {
+.member-name:hover {
+    text-decoration: underline;
+}
+
+.member-name:focus-visible {
+    background-color: var(--purple-wcag-darker);
+}
+
+.member-header-1:not(:hover,:focus-visible) .member-name {
     background-color: var(--red);
 }
 
-.member-header-2 .member-header-graphic {
-    background-color: var(--lilac);
+.member-header-2:not(:hover,:focus-visible) .member-name {
+    background-color: var(--yellow);
 }
 
-.member-header-3 .member-header-graphic {
-    background-color: var(--yellow);
+.member-header-3:not(:hover,:focus-visible) .member-name {
+    background-color: var(--lilac);
 }
 
 .member-content {
@@ -87,12 +95,13 @@
     }
 
     .member-content {
-        -webkit-clip-path: url(#parenthesis-down-small);
+        display: none;
+        /* -webkit-clip-path: url(#parenthesis-down-small);
         clip-path: url(#parenthesis-down-small);
         position: relative;
         top: -40px;
         padding: calc(var(--spacing) * 2) var(--spacing);
-        min-height: 200px;
+        min-height: 200px; */
     }
 
     .member:hover .member-content,
