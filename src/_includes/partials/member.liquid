@@ -3,28 +3,8 @@
         {%- if member.data.graphic -%}
             <img src="{{ member.data.graphic.src }}"alt="{%- if member.data.graphic.alt -%}{{ member.data.graphic.alt }}{%- endif -%}"class="member-graphic" />
         {%- endif -%}
-        <div class="member-name">
-            {%- include partials/utility/dynamic-headerlevel level: "h3" title: member.data.title link: member.url -%}
-        </div>
+        <a href="{{ member.url }}" class="member-name">
+            {%- include partials/utility/dynamic-headerlevel level: "h3" title: member.data.title -%}
+        </a>
     </header>
-    <div class="member-content">
-        {%- if member.data.summary -%}
-            <p class="member-summary">{{ member.data.summary }}</p>
-        {%- else -%}
-            <p class="member-summary">{{ member.templateContent | strip_html | truncate: 150 }}</p>
-        {%- endif -%}
-
-        {%- if member.data.specialties -%}
-            <p>
-                <strong>{{ translations[locale].specialties }}:</strong><br/>
-                <div class="member-specialties">
-                    {%- for specialty in member.data.specialties -%}
-                        {%- if specialty -%}
-                            {%- tag specialty -%}
-                        {%- endif -%}
-                    {%- endfor -%}
-                </div>
-            </p>
-        {%- endif -%}
-    </div>
 </div>

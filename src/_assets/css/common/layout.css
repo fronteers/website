@@ -61,7 +61,7 @@ main section > .h {
     text-align: center;
     font-family: var(--font-family-decoration);
     font-weight: bold;
-    font-size: var(--font-size-24);
+    font-size: var(--font-size-30);
     line-height: var(--line-spacing-30);
     margin-block-end: 1rem;
     margin-block-start: 0;

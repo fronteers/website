@@ -6,11 +6,11 @@ heroSlogan: ''
 
 | Rol            | Persoon            |
 | -------------- | ------------------ |
-| Voorzitter     | Claudia Reynders   |
+| Voorzitter     | Anneke Sinnema     |
 | Co-Secretaris  | Christian Schaefer |
 | Co-Secretaris  | Jewwy Qadri        |
 | Penningmeester | Wim van Iersel     |
-| Algemeen       | Anneke Sinnema     |
+| Algemeen       | Claudia Reynders   |
 
 De [notulen van de bestuursvergaderingen](/nl/vereniging/bestuur/notulen) zijn voor iedereen toegankelijk.
 
