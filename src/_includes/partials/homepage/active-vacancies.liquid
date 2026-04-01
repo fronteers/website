@@ -1,5 +1,8 @@
+{%- assign twoMonthsAgo = "now" | date: "%Y%m%d" | minus: 200 -%}
+{%- assign vacancyCount = 0 -%}
+
 {%- for job in jobs limit: 5 -%}
-    {%- assign jobDate = job.data.date | date: "%Y%m%d" | plus: 0 -%}
+    {%- assign jobDate = job.data.date | date: "%Y%m%d"  -%}
     {%- if jobDate >= twoMonthsAgo -%}
         {%- assign vacancyCount = vacancyCount | plus: 1 -%}
     {%- endif -%}
@@ -11,9 +14,6 @@
     {%- endif -%}
 
     <ul class="desktop-rows mobile-slider">
-        {%- assign today = "now" | date: "%Y%m%d" -%}
-        {%- assign twoMonthsAgo = "now" | date: "%Y%m%d" | minus: 200 -%} 
-
         {%- for job in jobs limit: 5 -%}
             {%- assign jobDate = job.data.date | date: "%Y%m%d" | plus: 0 -%}
             {%- if jobDate >= twoMonthsAgo -%}
@@ -27,7 +27,7 @@
         {%- endfor -%}
     </ul>
 
-    {%- if vacancyCount > 5 -%}
+    {%- if vacancyCount > 0 -%}
     <div class="button-wrapper">
         <a href="{{ translations[locale].blockTitles.jobsPath }}" class="button button-parentheses">
             {{ translations[locale].blockTitles.viewOurJobs }}
