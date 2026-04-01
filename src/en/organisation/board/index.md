@@ -6,11 +6,11 @@ heroSlogan: ''
 
 | Role         | Person             |
 | ------------ | ------------------ |
-| President    | Claudia Reynders   |
+| President    | Anneke Sinnema     |
 | Co-Secretary | Christian Schaefer |
 | Co-Secretary | Jewwy Qadri        |
 | Treasurer    | Wim van Iersel     |
-| General      | Anneke Sinnema     |
+| General      | Claudia Reynders   |
 
 The [minutes of the board meetings (in Dutch)](/en/association/board/minutes) are accessible to everyone.
 
