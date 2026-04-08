@@ -6,11 +6,11 @@ const puppeteer = require("puppeteer");
 const slugify = require("slugify");
 const path = require("node:path");
 
-const { default: pluginRss } = require("@11ty/eleventy-plugin-rss");
 const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
+  const { default: pluginRss } = await import("@11ty/eleventy-plugin-rss");
   const quick = Boolean(process.env.BUILD_QUICK);
   const isDev =
     process.env.ELEVENTY_ENV === "development" ||
