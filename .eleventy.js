@@ -120,27 +120,23 @@ module.exports = async function (eleventyConfig) {
   );
 
   /* Add id to heading elements (replaces @orchidjs/eleventy-plugin-ids which is incompatible with Eleventy v3) */
-  eleventyConfig.addTransform("ids", async (rawContent, outputPath) => {
+  eleventyConfig.addTransform("ids", (rawContent, outputPath) => {
     if (!outputPath || !outputPath.endsWith(".html")) {
       return rawContent;
     }
-    const { JSDOM } = await import("jsdom");
-    const dom = new JSDOM(rawContent);
-    ["h1", "h2", "h3", "h4", "h5", "h6"].forEach((selector) => {
-      dom.window.document.querySelectorAll(selector).forEach((element) => {
-        if (element.getAttribute("id") != null) {
-          return;
+    return rawContent.replace(
+      /<(h[1-6])(\s[^>]*)?>([^<]*)<\/h[1-6]>/gi,
+      (match, tag, attrs, text) => {
+        if (attrs && /\bid\s*=/.test(attrs)) {
+          return match;
         }
-        element.setAttribute(
-          "id",
-          slugify(element.textContent, {
-            lower: true,
-            remove: /[&,+()$~%.'":*?!<>{}]/g,
-          })
-        );
-      });
-    });
-    return dom.serialize();
+        const id = slugify(text, {
+          lower: true,
+          remove: /[&,+()$~%.'":*?!<>{}]/g,
+        });
+        return `<${tag}${attrs || ""} id="${id}">${text}</${tag}>`;
+      }
+    );
   });
 
   // Only run broken links plugin in production builds (it's very slow)
