@@ -2,20 +2,22 @@ const { exec } = require("child_process");
 const glob = require("fast-glob");
 const { DateTime } = require("luxon");
 const fs = require("node:fs");
-const puppeteer = require('puppeteer');
-const slugify = require('slugify');
-const path = require('node:path');
+const puppeteer = require("puppeteer");
+const slugify = require("slugify");
+const path = require("node:path");
 
-const pluginAddIdToHeadings = require("@orchidjs/eleventy-plugin-ids");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+const { default: pluginRss } = require("@11ty/eleventy-plugin-rss");
 const brokenLinksPlugin = require("eleventy-plugin-broken-links");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
   const quick = Boolean(process.env.BUILD_QUICK);
-  const isDev = process.env.ELEVENTY_ENV === "development" || process.argv.includes("--serve") || process.argv.includes("--watch");
+  const isDev =
+    process.env.ELEVENTY_ENV === "development" ||
+    process.argv.includes("--serve") ||
+    process.argv.includes("--watch");
   const now = new Date();
- // 
+  //
   /**
    * There is a quick build function (npm run start:quick) that only loads the
    * recent content (YTD and previous year), by excluding all year folders from
@@ -75,7 +77,9 @@ module.exports = function (eleventyConfig) {
           eleventyConfig.ignores.add(file);
         });
       });
-      console.debug(`[ignore] Applied ${ignorePatterns.length} ignore patterns from .eleventyignore`);
+      console.debug(
+        `[ignore] Applied ${ignorePatterns.length} ignore patterns from .eleventyignore`
+      );
     }
   }
 
@@ -88,32 +92,56 @@ module.exports = function (eleventyConfig) {
 
   // Event date filter that handles tentative dates (hides day if tentative)
   // Usage: {{ activity.data.eventdate | eventDate: locale, activity.data.eventdateTentative }}
-  eleventyConfig.addFilter("eventDate", function (dateObj, locale = "en", isTentative = false) {
-    const dateTime = DateTime.fromJSDate(dateObj).setLocale(locale);
-    
-    if (!dateTime.isValid) {
-      return String(dateObj);
-    }
-    
-    // If tentative, show only month and year
-    if (isTentative) {
+  eleventyConfig.addFilter(
+    "eventDate",
+    function (dateObj, locale = "en", isTentative = false) {
+      const dateTime = DateTime.fromJSDate(dateObj).setLocale(locale);
+
+      if (!dateTime.isValid) {
+        return String(dateObj);
+      }
+
+      // If tentative, show only month and year
+      if (isTentative) {
+        if (locale === "nl") {
+          return dateTime.toFormat("LLLL yyyy"); // "april 2026"
+        } else {
+          return dateTime.toFormat("LLLL yyyy"); // "April 2026"
+        }
+      }
+
+      // Otherwise show full date
       if (locale === "nl") {
-        return dateTime.toFormat("LLLL yyyy"); // "april 2026"
+        return dateTime.toFormat("d LLLL yyyy"); // "1 april 2026"
       } else {
-        return dateTime.toFormat("LLLL yyyy"); // "April 2026"
+        return dateTime.toFormat("LLLL d, yyyy"); // "April 1, 2026"
       }
     }
-    
-    // Otherwise show full date
-    if (locale === "nl") {
-      return dateTime.toFormat("d LLLL yyyy"); // "1 april 2026"
-    } else {
-      return dateTime.toFormat("LLLL d, yyyy"); // "April 1, 2026"
-    }
-  });
+  );
 
-  /* Add id to heading elements */
-  eleventyConfig.addPlugin(pluginAddIdToHeadings);
+  /* Add id to heading elements (replaces @orchidjs/eleventy-plugin-ids which is incompatible with Eleventy v3) */
+  eleventyConfig.addTransform("ids", async (rawContent, outputPath) => {
+    if (!outputPath || !outputPath.endsWith(".html")) {
+      return rawContent;
+    }
+    const { JSDOM } = require("jsdom");
+    const dom = new JSDOM(rawContent);
+    ["h1", "h2", "h3", "h4", "h5", "h6"].forEach((selector) => {
+      dom.window.document.querySelectorAll(selector).forEach((element) => {
+        if (element.getAttribute("id") != null) {
+          return;
+        }
+        element.setAttribute(
+          "id",
+          slugify(element.textContent, {
+            lower: true,
+            remove: /[&,+()$~%.'":*?!<>{}]/g,
+          })
+        );
+      });
+    });
+    return dom.serialize();
+  });
 
   // Only run broken links plugin in production builds (it's very slow)
   if (!isDev) {
@@ -132,7 +160,7 @@ module.exports = function (eleventyConfig) {
         "http://www.webdesignermagazine.nl/*",
         "http://meetup.com*",
         "https://github.com/fronteers/website*",
-        "https://www.w3.org/*"
+        "https://www.w3.org/*",
       ],
       excludeInputs: [],
       callback: null,
@@ -172,7 +200,7 @@ module.exports = function (eleventyConfig) {
     "src/_assets/fonts": "assets/fonts",
     "src/_assets/images": "assets/images",
     "src/_assets/js": "assets/js",
-    "_img/": "_img",
+    _img: "_img",
     "_redirects.conf": "_redirects",
   });
   eleventyConfig.addPassthroughCopy("src/{nl,en}/**/*.{pdf,zip}");
@@ -245,23 +273,25 @@ module.exports = function (eleventyConfig) {
       })
   );
 
-
   eleventyConfig.addFilter("readablePostDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
       zone: "Europe/Amsterdam",
-    }).setLocale('en').toLocaleString(DateTime.DATE_FULL);
+    })
+      .setLocale("en")
+      .toLocaleString(DateTime.DATE_FULL);
   });
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
       zone: "Europe/Amsterdam",
-    }).setLocale('en').toISODate();
+    })
+      .setLocale("en")
+      .toISODate();
   });
-  
-  eleventyConfig.addFilter('splitlines', function (input) {
-    const parts = input.split(' ');
-    const lines = parts.reduce(function (prev, current) {
 
+  eleventyConfig.addFilter("splitlines", function (input) {
+    const parts = input.split(" ");
+    const lines = parts.reduce(function (prev, current) {
       if (!prev.length) {
         return [current];
       }
@@ -272,7 +302,7 @@ module.exports = function (eleventyConfig) {
         return [...prev, current];
       }
 
-      prev[prev.length - 1] = lastOne + ' ' + current;
+      prev[prev.length - 1] = lastOne + " " + current;
 
       return prev;
     }, []);
@@ -282,7 +312,7 @@ module.exports = function (eleventyConfig) {
 
   // Only run SVG to JPEG conversion in production builds (puppeteer is slow)
   if (!isDev) {
-    eleventyConfig.on('afterBuild', async () => {
+    eleventyConfig.on("afterBuild", async () => {
       async function convertSvgToJpeg(inputDir, outputDir) {
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
@@ -293,10 +323,13 @@ module.exports = function (eleventyConfig) {
         for (const filename of files) {
           if (filename.endsWith(".svg")) {
             const inputPath = path.join(inputDir, filename);
-            const outputPath = path.join(outputDir, filename.replace('.svg', '.jpg'));
+            const outputPath = path.join(
+              outputDir,
+              filename.replace(".svg", ".jpg")
+            );
 
             // Read the SVG content
-            const svgContent = fs.readFileSync(inputPath, 'utf8');
+            const svgContent = fs.readFileSync(inputPath, "utf8");
 
             // Extract width and height from SVG (Optional: If SVG has explicit size)
             const matchWidth = svgContent.match(/width="([0-9]+)"/);
@@ -322,9 +355,9 @@ module.exports = function (eleventyConfig) {
             // Take a screenshot and save as JPEG
             await page.screenshot({
               path: outputPath,
-              type: 'jpeg',
+              type: "jpeg",
               quality: 100,
-              clip: { x: 0, y: 0, width, height } // Ensure clipping matches viewport
+              clip: { x: 0, y: 0, width, height }, // Ensure clipping matches viewport
             });
 
             console.log(`Converted: ${filename} -> ${outputPath}`);
@@ -335,8 +368,8 @@ module.exports = function (eleventyConfig) {
       }
 
       // Execute conversion
-      const inputDir = 'dist/assets/images/social-preview-images/';
-      const outputDir = 'dist/assets/images/social-preview-images/';
+      const inputDir = "dist/assets/images/social-preview-images/";
+      const outputDir = "dist/assets/images/social-preview-images/";
       await convertSvgToJpeg(inputDir, outputDir);
     });
   } else {
@@ -348,14 +381,14 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(data, null, "\t");
   });
 
-    eleventyConfig.addFilter("customSlug", function (value) {
-        if (!value) return "fallback-title"; // Fallback for empty titles
-        return slugify(value, {
-            lower: true,                 // Convert to lowercase
-            remove: /[^\w\s-]/g          // Remove all non-word characters except spaces and dashes
-        }).replace(/\s+/g, '-');       // Replace spaces with dashes (extra safety)
-    });
-  
+  eleventyConfig.addFilter("customSlug", function (value) {
+    if (!value) return "fallback-title"; // Fallback for empty titles
+    return slugify(value, {
+      lower: true, // Convert to lowercase
+      remove: /[^\w\s-]/g, // Remove all non-word characters except spaces and dashes
+    }).replace(/\s+/g, "-"); // Replace spaces with dashes (extra safety)
+  });
+
   // https://www.11ty.dev/docs/permalinks/#remove-trailing-slashes
   // Dropping these normalizes the URls between sitemap.xml and canonical, which is important for indexing.
   eleventyConfig.addUrlTransform((page) => {
