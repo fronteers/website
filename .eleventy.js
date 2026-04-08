@@ -124,7 +124,7 @@ module.exports = async function (eleventyConfig) {
     if (!outputPath || !outputPath.endsWith(".html")) {
       return rawContent;
     }
-    const { JSDOM } = require("jsdom");
+    const { JSDOM } = await import("jsdom");
     const dom = new JSDOM(rawContent);
     ["h1", "h2", "h3", "h4", "h5", "h6"].forEach((selector) => {
       dom.window.document.querySelectorAll(selector).forEach((element) => {
