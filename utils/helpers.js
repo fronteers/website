@@ -1,7 +1,6 @@
 const slugify = require("slugify");
-const lodash = require("lodash");
 
-module.exports = { 
+module.exports = {
   /**
    * Transform a string into a slug
    * Uses slugify package
@@ -32,7 +31,7 @@ module.exports = {
     });
 
     // flatten values array
-    allValues = lodash.flattenDeep(allValues);
+    allValues = allValues.flat(Infinity);
     // to lowercase
     allValues = allValues.map((post) => post.toLowerCase());
     // remove duplicates
@@ -44,4 +43,4 @@ module.exports = {
     // return
     return allValues;
   },
-}
+};
