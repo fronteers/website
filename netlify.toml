@@ -1,2 +1,2 @@
 [build]
-  command = "npx puppeteer browsers install chrome && npm run build"
+  command = "node node_modules/puppeteer/install.mjs && npm run build"
