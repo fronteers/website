@@ -1,2 +1,11 @@
 [build]
-  command = "npx puppeteer browsers install chrome && npm run build"
+  command = "node node_modules/@puppeteer/browsers/lib/cjs/main-cli.js install chrome@146.0.7680.153 --path $PWD/.cache/puppeteer && npm run build"
+
+[build.environment]
+  # Disable puppeteer's broken postinstall: install.mjs calls downloadBrowsers()
+  # without awaiting, so on Netlify the script exits 0 before the Chrome
+  # download finishes, leaving an empty chrome/linux-<version>/ directory that
+  # then blocks every subsequent install attempt ("folder exists but executable
+  # is missing"). We skip the postinstall and install Chrome explicitly via the
+  # @puppeteer/browsers CLI in the build command above.
+  PUPPETEER_SKIP_DOWNLOAD = "true"
