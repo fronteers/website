@@ -1,2 +1,4 @@
 [build]
-  command = "node node_modules/puppeteer/install.mjs && npm run build"
+  # Netlify sets PUPPETEER_SKIP_DOWNLOAD=true by default, which would cause
+  # install.mjs to silently skip the Chrome download. Unset it for this step.
+  command = "PUPPETEER_SKIP_DOWNLOAD=false node node_modules/puppeteer/install.mjs && npm run build"
