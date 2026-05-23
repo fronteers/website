@@ -1,2 +1,2 @@
 [build]
-  command = "rm -rf ~/.cache/puppeteer && npx puppeteer browsers install chrome && npm run build"
+  command = "npm run build"
