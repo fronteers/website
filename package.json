@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Fronteers website",
   "scripts": {
-    "prebuild": "npx puppeteer browsers install chrome",
+    "prebuild": "rm -rf ~/.cache/puppeteer && npx puppeteer browsers install chrome",
     "prepare": "husky",
     "start": "npm run clean && npx @11ty/eleventy --serve --incremental",
     "watch": "npx @11ty/eleventy --watch",
