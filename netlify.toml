@@ -1,4 +1,7 @@
 [build]
-  # Netlify sets PUPPETEER_SKIP_DOWNLOAD=true by default, which would cause
-  # install.mjs to silently skip the Chrome download. Unset it for this step.
-  command = "PUPPETEER_SKIP_DOWNLOAD=false node node_modules/puppeteer/install.mjs && npm run build"
+  # Install Chrome via @puppeteer/browsers directly. puppeteer's own install.mjs
+  # is unreliable on Netlify because (a) it respects PUPPETEER_SKIP_DOWNLOAD=true
+  # which Netlify sets by default, and (b) it calls downloadBrowsers() without
+  # awaiting, so failures get swallowed. We pin the cache dir explicitly and
+  # echo the result so the next failure is debuggable.
+  command = "node node_modules/@puppeteer/browsers/lib/cjs/main-cli.js install chrome@146.0.7680.153 --path $PWD/.cache/puppeteer && echo '--- .cache/puppeteer contents ---' && ls -la .cache/puppeteer && npm run build"
