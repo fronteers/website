@@ -1,4 +1,0 @@
-[build]
-  command = "npx puppeteer browsers install chrome && npm run build"
-[[plugins]]
-  package = "netlify-plugin-chromium"
