@@ -1,0 +1,12 @@
+{%- if post.data.eventdate %}
+    <eventdate>{{ post.data.eventdate | postDate }}</eventdate>
+{%- endif %}
+{%- if post.data.zapier_bluesky_and_mastodon_summary %}
+    <zapier_bluesky_and_mastodon_summary>{{ post.data.zapier_bluesky_and_mastodon_summary }}</zapier_bluesky_and_mastodon_summary>
+{%- endif %}
+{%- if post.data.zapier_linkedin_summary %}
+    <zapier_linkedin_summary>{{ post.data.zapier_linkedin_summary }}</zapier_linkedin_summary>
+{%- endif %}
+{%- if post.data.zapier_newsletter_summary %}
+    <zapier_newsletter_summary>{{ post.data.zapier_newsletter_summary }}</zapier_newsletter_summary>
+{%- endif %}
