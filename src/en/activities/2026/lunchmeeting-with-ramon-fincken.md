@@ -33,3 +33,8 @@ No specific prior knowledge is needed for this session. However, an active inter
 #### Learning objectives
 
 By the end of this presentation, the audience will have a solid understanding of (data) sovereignty and data portability. Additionally, participants will know which steps they can take for their own stack or hosting provider.
+
+### Sign up
+
+Sign up for the lunch meeting [on meetup.com](https://www.meetup.com/fronteers-nl/events/315165070/)
+or keep an eye on the #fronteers channel on the [Fronteers Slack](https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog).
