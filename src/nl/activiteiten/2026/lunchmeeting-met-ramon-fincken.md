@@ -33,3 +33,8 @@ Voor deze sessie is geen specifieke voorkennis nodig. Wel zal een actieve intere
 #### Leerdoelen
 
 Aan het einde van deze presentatie heeft het publiek een goed begrip van (data-)soevereiniteit en data-portabiliteit. Daarnaast weten deelnemers welke stappen zij kunnen nemen voor hun eigen stack of hostingprovider.
+
+### Aanmelden
+
+Meld je aan voor de lunchmeeting [op meetup.com](https://www.meetup.com/fronteers-nl/events/315165070/)
+of hou het #fronteers kanaal op de [Fronteers Slack](https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog) in de gaten.
