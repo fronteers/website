@@ -1,5 +1,5 @@
 ---
-title: Drinks in Utrecht
+title: Drinks in Utrecht (cancelled due to the hot weather)
 date: 2025-12-13
 eventdate: 2026-06-25
 author: Anneke Sinnema
@@ -14,6 +14,8 @@ locale: en
 signupmail: anneke@fronteers.nl
 meetuplink: https://www.meetup.com/fronteers-nl/events/312424788/
 ---
+
+This meetup has been cancelled due to the hot weather! We hope to see you at the next one.
 
 In the cafe, you can recognise the group by the discussions. For example tabs, spaces or no indenting. You can gossip about upcoming browser features. Gain insights into the depths of devtools. Be accessible for inquiries about new accessibility regulations.
 
