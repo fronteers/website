@@ -54,7 +54,7 @@ or if you think more discussion would be helpful [join us on Slack](https://fron
 
 The website is built using [Eleventy](https://www.11ty.dev/) (Static site generator) and hosted on [Netlify](https://www.netlify.com/).
 
-Every time a new pull-request is made, at the bottom of the pull-request detail page you'll see a link from Netlify where reviewers can see what everything looks like if the changes would be merged. 
+Every time a new pull-request is made, at the bottom of the pull-request detail page you'll see a link from Netlify where reviewers can see what everything looks like if the changes would be merged.
 
 In most issues, we mention a link to the design file. Our designers directly share [the design](https://xd.adobe.com/view/bd533314-bf05-4cbe-b634-499f8f25dbbc-e800/grid) with us through the AdobeXD platform.
 Most issues also have a checklist, so you can tick off any boxes when you've done some work that has been merged, or notice that it has been done. So the next person can see what is still left to do.
@@ -63,15 +63,15 @@ Want to get your hands dirty? Follow the steps below!
 
 > Don't understand one of these steps or want to have it explained differently? [Join us on Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`. We'll brainstorm with you on how best to get you up to speed!
 
-## Step 1: Fork the repository on GitHub  
+## Step 1: Fork the repository on GitHub
 
-Before cloning the repository, you'll need to create a fork. A fork is a personal copy of the repository that you can work on freely without affecting the original project. To do this, go to the [Fronteers GitHub repository](https://github.com/fronteers/website) and click the "Fork" button in the top-right corner. This will create a copy of the repository under your own GitHub account. 
+Before cloning the repository, you'll need to create a fork. A fork is a personal copy of the repository that you can work on freely without affecting the original project. To do this, go to the [Fronteers GitHub repository](https://github.com/fronteers/website) and click the "Fork" button in the top-right corner. This will create a copy of the repository under your own GitHub account.
 
-## Step 2: Clone the repository on your computer  
+## Step 2: Clone the repository on your computer
 
 Once you’ve forked the repository, you’re ready to clone it to your local machine. If you don’t have it installed yet, [download and install Git](https://git-scm.com/downloads) for your computer. Git is a version management tool. While coding, you create "save points" (called commits), which makes it really useful when coding with other people. They can see what you’ve done and why, because you’ll add a descriptive ‘commit message’. And if you both edited a file, it’ll help you make sure you don’t overwrite the other person’s code. This [This article on Git by Milu Franz is a great explanation](https://dev.to/milu_franz/git-explained-the-basics-igc). [Roger Dudler's git guide](https://rogerdudler.github.io/git-guide/) lists all the useful commands. Git articles and videos online can be a little intimidating. It can help to install a good [Git graphical user interface](https://git-scm.com/downloads/guis).
 
-Once you have Git, open a command line and go to a folder on your hard disk where you want to keep a copy of your forked Fronteers website code. 
+Once you have Git, open a command line and go to a folder on your hard disk where you want to keep a copy of your forked Fronteers website code.
 **For example:** Go to a folder like `your-username/github/`, and run the following command to clone your forked repository. It will then create the Fronteers website code in `your-username/github/website` :)
 
 ```bash
@@ -131,7 +131,7 @@ If you are working with files that trigger a full re-build, such as `.liquid` fi
 ### Just generating the site
 
 If you're not developing, but just want to have Eleventy generate a copy of the website, you can use the following command.
-You don't really need to do this, because we host the site on Netlify, and it does this for us by downloading the main GitHub branch and then running this. 
+You don't really need to do this, because we host the site on Netlify, and it does this for us by downloading the main GitHub branch and then running this.
 
 ```bash
 npm run build
@@ -149,3 +149,13 @@ Every issue that is open on the [issues page](https://github.com/fronteers/websi
 ## Creating components
 
 Right now, we don't make use of this functionality as much as we could, because we basically use liquid includes. But we have the option to make them true components. Come discuss in [our Slack](https://fronteers-slack.herokuapp.com/) in the channel `#nieuwe-website`!
+
+## Preview test
+
+There's one special branch besides the `main` branch and that's the `test` branch.
+When you push to this branch, you can, when the deploy is done, see the changes on the [test site](https://test--fronteers.netlify.app/).
+
+Warning: some links, like the Fronteers logo at the top of the page, link the the main site.
+
+Also make sure nobody else is working on the `test` branch.
+If the last recent push to `test` is by someone else, coordinate with this person or wait a while.
