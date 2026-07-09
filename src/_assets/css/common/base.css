@@ -81,7 +81,3 @@ code {
   padding: var(--spacing);
   margin-block-end: var(--spacing-double);
 }
-
-@view-transition {
-  navigation: auto;
-}
