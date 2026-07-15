@@ -15,7 +15,8 @@ p {
 }
 
 /* To prevent horzontal scrolling due to menu on right side of page */
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -56,13 +57,14 @@ li::before {
   inline-size: 1px;
 }
 
-img, picture {
+img,
+picture {
   display: block;
   max-width: 100%;
 }
 
 .pre-formatted {
-  white-space: preserve
+  white-space: preserve;
 }
 
 .pre-formatted p {
@@ -70,12 +72,12 @@ img, picture {
 }
 
 code {
-    font-size: 1rem;
-    background-color: #efefef;
+  font-size: 1rem;
+  background-color: #efefef;
 }
 
 .note {
-    border: 2px solid var(--lilac); 
-    padding: var(--spacing); 
-    margin-block-end: var(--spacing-double)
+  border: 2px solid var(--lilac);
+  padding: var(--spacing);
+  margin-block-end: var(--spacing-double);
 }
