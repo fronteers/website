@@ -25,6 +25,27 @@ Each member is subscribed to the Fronteers mailing list for members. This list i
 
 In addition, Fronteers organizes [workshops](/en/activities/workshops/), which can be visited by members at a discount.
 
+## Discounts we were able to get for you in 2026
+
+In 2026 we arranged member discounts as well as discounts for Dutch/Belgian front-enders more broadly. To use a member discount, e-mail [bestuur@fronteers.nl](mailto:bestuur@fronteers.nl). Conference discounts for members only apply if you were already a member when they were announced.
+
+### Exclusive membership discounts
+
+- **[SmashingConf Amsterdam](/en/activities/2026/smashingconf-amsterdam-2026)** (13–16 April) — 20% off tickets
+- **[CSS Day](/en/activities/2026/cssday-2026)** (11–12 June, Amsterdam) — €100 off the regular ticket price (not Early Bird)
+- **[SmashingConf Freiburg](/en/activities/2026/smashingconf-freiburg-2026)** (7–10 September) — 20% off tickets
+- **[Fronteers Dark Mode](/en/activities/2026/darkmode-2)** (2 October, Dordrecht) — €49 for members, €99 for non-members (including dinner)
+- **[Performance.now()](/en/activities/2026/performance-now-2026)** (19–20 November, Amsterdam) — €100 off tickets
+
+### General discounts
+
+These are discounts we've been able to get for our front-end community. You don't need to be a Fronteers member to use them.
+
+- **[State of the Browser](/en/activities/2026/state-of-the-browser-2026)** (28 February, London) — 50% off remote viewing tickets
+- **[JS Nation](/en/activities/2026/js-nation-2026)** (11 June, Amsterdam) — 10% off with promo code **JAVASCRIPT**
+- **[JS Nation / React Summit combo tickets](/en/activities/2026/syntax-amsterdam-2026)** — 15% off with promo code **SYNTAX**
+- **[NodeConf.eu](/en/activities/2026/nodeconf-eu-2026)** (29–30 September, Bologna) — 15% off (€372.28 instead of €437.98 incl. VAT) via our [community discount link](https://ti.to/apropos/nodeconf-eu-2026/discount/community_fronteers)
+
 You can register as a member via the [registration form](/en/join-us/sign-up/).
 
 ## Cancel membership
