@@ -18,7 +18,7 @@ Tickets will be available soon for the fixed price of just **€99**. Tickets in
 
 Ticket sales will start in January 2026 and will be announced via our newsletter and social media. [Subscribe to our newsletter](/en/information/newsletter/) to stay updated. Or follow us on [Mastodon](https://front-end.social/@fronteers), [Bluesky](https://bsky.app/profile/fronteers.bsky.social) or [LinkedIn](https://www.linkedin.com/company/fronteers)!
 
-*Ticket prices are including VAT.*
+_Ticket prices are including VAT._
 
 ## Location
 
@@ -31,15 +31,31 @@ The cinema and brasserie are fully wheelchair accessible. The building has step-
 
 ## Speakers
 
-Information about our speakers will follow! Stay tuned.
+- **Harry Roberts** — _Build for the web, build on the web, build with the web_
+- **Cyd Stumpel** — _You might not need JS_
+- **Barry Pollard** — _Declarative Partial Updates: Rethinking How the Web Streams HTML_
+- **Anjana Vakil** — _Making Waves with the Web: Audio Synthesis and Data Sonification with the WebAudio API_
+- **Heydon Pickering** — _Making HTML Make Music_
+- **Jake Archibald** — Master of Ceremonies
+
+See [fronteersconf.org/speakers](https://fronteersconf.org/speakers/) for more details.
 
 ## Program
 
-The program will be finalized in the month before the conference.
+| Time          |                             |
+| ------------- | --------------------------- |
+| 15:00 – 16:15 | Walk-in & registration      |
+| 16:15 – 16:30 | Welcome by Jake Archibald   |
+| 16:30 – 18:00 | Harry Roberts, Cyd Stumpel  |
+| 18:00 – 19:30 | Dinner break                |
+| 19:30 – 21:00 | Barry Pollard, Anjana Vakil |
+| 21:00 – 21:30 | Evening break               |
+| 21:30 – 22:15 | Heydon Pickering            |
+| 22:15 – 00:30 | Drinks & afterparty         |
 
 ## Contact
 
-Contact the conference team via [confere&#110;ce&#64;fro&#110;&#116;e&#101;rs&#46;nl](m&#97;&#105;lto&#58;&#99;on%66eren&#99;&#101;&#64;%6&#54;%72on%&#55;4%65e%&#55;2s%2&#69;n%&#54;&#67;)
+Contact the conference team via [confere&#110;ce&#64;fro&#110;&#116;e&#101;rs&#46;nl](mailto:con%66erence@%66%72on%74%65e%72s%2En%6C)
 
 ## Code of Conduct
 
@@ -47,8 +63,8 @@ Fronteers Conference does not tolerate harassment of any sort at any of our loca
 
 Please contact the Fronteers staff if you feel you are being harassed, if you see someone being harassed, or if you have any related concerns:
 
-* Find a crew member IRL (identified by a branded crew t-shirt)
-* Email us at [confere&#110;ce&#64;fro&#110;&#116;e&#101;rs&#46;nl](m&#97;&#105;lto&#58;&#99;on%66eren&#99;&#101;&#64;%6&#54;%72on%&#55;4%65e%&#55;2s%2&#69;n%&#54;&#67;)
+- Find a crew member IRL (identified by a branded crew t-shirt)
+- Email us at [confere&#110;ce&#64;fro&#110;&#116;e&#101;rs&#46;nl](mailto:con%66erence@%66%72on%74%65e%72s%2En%6C)
 
 The Fronteers community has proven year after year to be a very welcoming and open group. By joining that group, you will be held to that same high standard.
 
