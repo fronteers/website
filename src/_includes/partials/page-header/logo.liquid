@@ -1,7 +1,6 @@
-{%- assign language = site.languages | where: "code", locale | first -%}
 <div data-partial="page-header/logo" class="page-header-logo">
     <h1 id="page-title">
-        <a href="{{ language.baseUrl | url }}">
+        <a href="{% if locale == 'en' %}/en/{% else %}/{% endif %}">
             <span class="visually-hidden">
                 {% if title %}
                     {{ title }}
