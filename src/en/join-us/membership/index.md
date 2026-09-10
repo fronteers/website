@@ -15,13 +15,13 @@ The contribution for students at a higher educational institution is {{ general-
 
 ## Why join?
 
-First of all, by becoming a member you naturally support front-end web development itself as a discipline. The main goal of Fronteers is the professionalization of our profession. By becoming a member and making your voice heard, you put the front-end on the map. In particular [our vacancy database](/nl/werk-en-freelance/) shows that this works.
+First of all, by becoming a member you naturally support front-end web development itself as a discipline. The main goal of Fronteers is the professionalization of our profession and bringing developers together to help them share knowledge. We'd love for you to be a part of that!
 
-Fronteers, always in collaboration with a company or educational institution, organizes [regular meetings](/nl/activities/). These meetings take place all over the country. In the evening, two or three speakers will talk about subjects with which the speaker has a great deal of knowledge or experience. Not only very educational, but also a great opportunity to get in touch with fellow Fronteers. Being part of the network of professional front-enders is an important aspect of the association.
+Fronteers, always in collaboration with a company or educational institution, organizes [regular meetings](/en/activities/). These meetings take place all over the country. In the evening, two or three speakers will talk about subjects with which the speaker has a great deal of knowledge or experience. Not only very educational, but also a great opportunity to get in touch with fellow Fronteers. Being part of the network of professional front-enders is an important aspect of the organisation.
 
-Just like any other association, Fronteers is not only for members, but also by members. As a member you can develop initiatives that benefit our field, which will be supported by the association.
+Just like any other association, Fronteers is not only **for** members, but also **by** members. As a member, you can develop initiatives that benefit our field, which will be supported by the association. We'd welcome your initiative and encourage you to contact the [board](mailto:bestuur@fronteers.nl)!
 
-Each member is subscribed to the Fronteers mailing list for members. This list is used by the board to send an update to all members a few times a year, with the latest state of affairs and links to the latest Fronteers blog posts. Invitations for General Member Meetings, for example, are also sent to this list. A member cannot unsubscribe from this list.
+Each member is subscribed to the Fronteers mailing list for members. This list is used by the board to send an update to all members a few times a year, with the latest state of affairs and links to the latest Fronteers blog posts. Invitations for General Member Meetings, for example, are also sent to this list.
 
 In addition, Fronteers organizes [workshops](/en/activities/workshops/), which can be visited by members at a discount.
 
@@ -48,7 +48,7 @@ These are discounts we've been able to get for our front-end community. You don'
 
 You can register as a member via the [registration form](/en/join-us/sign-up/).
 
-## Cancel membership
+## Cancelling membership
 
 Membership is tacitly renewed. If a member wants to cancel his or her membership, this must be communicated to the member administration one month before the start of the new year.
 
