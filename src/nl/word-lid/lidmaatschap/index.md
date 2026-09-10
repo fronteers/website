@@ -26,6 +26,27 @@ Elk lid wordt ingeschreven op de Fronteers mailinglijst voor leden. Deze lijst w
 
 Daarnaast organiseert Fronteers [workshops](/nl/activiteiten/workshops/), welke door leden met korting kunnen worden bezocht.
 
+## Kortingen die we in 2026 voor jullie hebben kunnen regelen
+
+In 2026 hebben we zowel ledenkortingen geregeld als kortingen voor Nederlandse/Belgische front-enders in het algemeen. Voor een ledenkorting mail je [bestuur@fronteers.nl](mailto:bestuur@fronteers.nl). Congreskortingen voor leden gelden alleen als je al lid was op het moment dat ze werden aangekondigd.
+
+### Ledenkortingen
+
+- **[SmashingConf Amsterdam](/nl/activiteiten/2026/smashingconf-amsterdam-2026)** (13–16 april) — 20% korting op tickets
+- **[CSS Day](/nl/activiteiten/2026/cssday-2026)** (11–12 juni, Amsterdam) — €100 korting op de reguliere ticketprijs (niet Early Bird)
+- **[SmashingConf Freiburg](/nl/activiteiten/2026/smashingconf-freiburg-2026)** (7–10 september) — 20% korting op tickets
+- **[Fronteers Dark Mode](/nl/activiteiten/2026/darkmode-2)** (2 oktober, Dordrecht) — €49 voor leden, €99 voor niet-leden (inclusief diner)
+- **[Performance.now()](/nl/activiteiten/2026/performance-now-2026)** (19–20 november, Amsterdam) — €100 korting op tickets
+
+### Algemene kortingen
+
+Dit zijn kortingen die we hebben kunnen regelen voor Nederlandse/Belgische front-enders. Je hoeft geen Fronteerslid te zijn om ze te gebruiken.
+
+- **[State of the Browser](/nl/activiteiten/2026/state-of-the-browser-2026)** (28 februari, Londen) — 50% korting op online tickets
+- **[JS Nation](/nl/activiteiten/2026/js-nation-2026)** (11 juni, Amsterdam) — 10% korting met promocode **JAVASCRIPT**
+- **[JS Nation / React Summit-combitickets](/nl/activiteiten/2026/syntax-amsterdam-2026)** — 15% korting met promocode **SYNTAX**
+- **[NodeConf.eu](/nl/activiteiten/2026/nodeconf-eu-2026)** (29–30 september, Bologna) — 15% korting (€372,28 in plaats van €437,98 incl. btw) via onze [communitykortingslink](https://ti.to/apropos/nodeconf-eu-2026/discount/community_fronteers)
+
 Je kunt je aanmelden als lid via het [inschrijfformulier](/nl/word-lid/).
 
 ## Lidmaatschap opzeggen

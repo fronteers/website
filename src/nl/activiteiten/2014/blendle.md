@@ -302,11 +302,6 @@ Blendle is gevestigd in Media Plaza, Croeselaan 6, 3521 CA, Utrecht. Media Plaza
 <td></td>
 </tr>
 <tr>
-<td>Jasper Berghoef</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
 <td>Jasper Swart</td>
 <td>Utrecht, Lopend</td>
 <td></td>

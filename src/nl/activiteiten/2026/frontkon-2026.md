@@ -2,7 +2,7 @@
 title: 'FrontKon 2026'
 summary: 'De frontendconferentie van Praag keert terug voor haar vijfde editie met drie podia, internationale sprekers en een sterke community-sfeer.'
 date: 2026-06-07
-eventdate: 2026-10-05
+eventdate: 2026-10-06
 eventtime: '09:00'
 location: 'O2 Universum, Praag'
 categories:

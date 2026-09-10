@@ -55,4 +55,10 @@ Het W3C integreert accessibility, security en ethiek in webstandaarden. Geïnspi
 
 _[Dan Appelquist](https://mastodon.social/@torgo) is Open Source Strategist bij Samsung en huidig co-voorzitter van het W3C Advisory Board. Hij is immigrant en heeft de Amerikaanse en Britse nationaliteit; hij woont in Londen._
 
+### Tales from inside Big Accessibility — Cynthia Shelly
+
+Ergens eind vorige eeuw, liep iemand Cynthia's kamer (met deur) binnen met de net gepubliceerde WCAG 1.0 Recommendation (uitgeprint!) en vroeg haar om het te implementeren op MSN.com. Ook in 1999 was het niet mogelijk om netjes terug te vallen zonder CSS en JavaScript zonder niet je kansen te verkleinen in de “Portal Wars”: je moest sneller rendereren dan gebruikers op “Stop” konden klikken, en rekening houden met wat uitgevers en adverteerders nodig hadden. In deze talk hoor je verhalen vanuit Big Accessibility bij Microsoft, Starbucks, Google en W3C.
+
+_[Cynthia Shelly](https://www.linkedin.com/in/cynss/) runt Scaled Accessibility Consulting in Amsterdam, waar ze zich richt op enterprise-class accessibility programs voor bedrijven groot en klein. Ze heeft gewerkt als ontwikkelaar, program manager, strateeg en product manager bij Microsoft, Starbucks en Google, steeds gericht op andere aspecten van toegankelijkheid._
+
 De [W3C Code of Conduct](https://www.w3.org/policies/code-of-conduct/) is van toepassing op dit event.

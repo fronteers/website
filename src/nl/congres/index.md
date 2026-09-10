@@ -18,7 +18,7 @@ Tickets zijn binnenkort beschikbaar voor de vaste prijs van slechts **€99**. T
 
 De ticketverkoop begint in januari 2026 en zal worden aangekondigd via onze nieuwsbrief en social media. [Meld je aan voor onze nieuwsbrief](/nl/informatie/nieuwsbrief/) om op de hoogte gehouden te worden. Of volg ons op [Mastodon](https://front-end.social/@fronteers), [Bluesky](https://bsky.app/profile/fronteers.bsky.social) of [LinkedIn](https://www.linkedin.com/company/fronteers)!
 
-*Ticketprijzen zijn inclusief BTW.*
+_Ticketprijzen zijn inclusief BTW._
 
 ## Lokatie
 
@@ -31,15 +31,31 @@ Het filmtheater en de brasserie zijn volledig rolstoeltoegankelijk. Het gebouw i
 
 ## Sprekers
 
-Informatie over onze sprekers volgt! Houd deze pagina in de gaten. Of [meld je aan voor onze nieuwsbrief](/nl/informatie/nieuwsbrief/).
+- **Harry Roberts** — _Build for the web, build on the web, build with the web_
+- **Cyd Stumpel** — _You might not need JS_
+- **Barry Pollard** — _Declarative Partial Updates: Rethinking How the Web Streams HTML_
+- **Anjana Vakil** — _Making Waves with the Web: Audio Synthesis and Data Sonification with the WebAudio API_
+- **Heydon Pickering** — _Making HTML Make Music_
+- **Jake Archibald** — Master of Ceremonies
+
+Meer details op [fronteersconf.org/speakers](https://fronteersconf.org/speakers/).
 
 ## Programma
 
-Het programma wordt definitief vastgesteld in de maand voorafgaand aan het congres.
+| Tijd          |                             |
+| ------------- | --------------------------- |
+| 15:00 – 16:15 | Inloop & registratie        |
+| 16:15 – 16:30 | Welkom door Jake Archibald  |
+| 16:30 – 18:00 | Harry Roberts, Cyd Stumpel  |
+| 18:00 – 19:30 | Dinerpauze                  |
+| 19:30 – 21:00 | Barry Pollard, Anjana Vakil |
+| 21:00 – 21:30 | Avondpauze                  |
+| 21:30 – 22:15 | Heydon Pickering            |
+| 22:15 – 00:30 | Borrel & afterparty         |
 
 ## Contact
 
-Neem contact op met het congresteam via [confere&#110;ce&#64;fro&#110;&#116;e&#101;rs&#46;nl](m&#97;&#105;lto&#58;&#99;on%66eren&#99;&#101;&#64;%6&#54;%72on%&#55;4%65e%&#55;2s%2&#69;n%&#54;&#67;)
+Neem contact op met het congresteam via [confere&#110;ce&#64;fro&#110;&#116;e&#101;rs&#46;nl](mailto:con%66erence@%66%72on%74%65e%72s%2En%6C)
 
 ## Code of Conduct
 
@@ -47,8 +63,8 @@ Fronteers Conference tolereert geen intimidatie van welke aard dan ook op onze l
 
 Neem contact op met het Fronteers team als je denkt dat je wordt geïntimideerd, als je ziet dat iemand anders wordt geïntimideerd, of als je andere gerelateerde zorgen hebt:
 
-* Zoek een crewlid in het echt (te herkennen aan een crew t-shirt met logo)
-* Stuur een e-mail naar [confere&#110;ce&#64;fro&#110;&#116;e&#101;rs&#46;nl](m&#97;&#105;lto&#58;&#99;on%66eren&#99;&#101;&#64;%6&#54;%72on%&#55;4%65e%&#55;2s%2&#69;n%&#54;&#67;)
+- Zoek een crewlid in het echt (te herkennen aan een crew t-shirt met logo)
+- Stuur een e-mail naar [confere&#110;ce&#64;fro&#110;&#116;e&#101;rs&#46;nl](mailto:con%66erence@%66%72on%74%65e%72s%2En%6C)
 
 De Fronteers community heeft jaar na jaar bewezen een zeer gastvrije en open groep te zijn. Door je bij die groep aan te sluiten, word je geacht je aan diezelfde hoge standaard te houden.
 
