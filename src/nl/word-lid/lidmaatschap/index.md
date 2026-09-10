@@ -1,7 +1,7 @@
 ---
 key: membership
 title: Lidmaatschap
-heroSlogan: ''
+heroSlogan: ""
 ---
 
 Een lidmaatschap van Fronteers is _persoonlijk_, en staat dus los van een eventuele werkgever.
@@ -16,13 +16,13 @@ De contributie voor studenten bij een hogere onderwijsinstelling bedraagt {{ gen
 
 ## Waarom lid worden?
 
-Allereerst ondersteun je door lid te worden natuurlijk front-end web development zelf als discipline. Het voornaamste doel van Fronteers is de professionalisering van onze beroepsgroep. Door lid te worden en je stem te laten horen zet je de front-end op de kaart. Met name [onze vacaturebank](/nl/werk-en-freelance/) laat zien dat dit werkt.
+Allereerst ondersteun je door lid te worden natuurlijk front-end web development zelf als discipline. Het voornaamste doel van Fronteers is de professionalisering van onze beroepsgroep en het samenbrengen van developers om kennis te delen. We hopen dat je daar deel van uit wil maken!
 
 Fronteers organiseert, steeds in samenwerking met een bedrijf of onderwijsinstelling, regelmatig [bijeenkomsten](/nl/activiteiten/). Deze bijeenkomsten vinden plaats door het hele land. 's Avonds spreken dan twee of drie sprekers over onderwerpen waar de spreker veel kennis van of ervaring mee heeft. Niet alleen heel leerzaam, maar ook een mooie gelegenheid om in contact te komen met mede-Fronteers. Onderdeel zijn van het netwerk van professionele front-enders is een belangrijk aspect van de vereniging.
- 
-Net als elke andere vereniging is Fronteers niet alleen voor leden, maar ook door leden. Als lid kan je initiatieven ontplooien die ons vakgebied ten goede komen, welke door de vereniging ondersteund zullen worden.
 
-Elk lid wordt ingeschreven op de Fronteers mailinglijst voor leden. Deze lijst wordt door het bestuur gebruikt om een paar keer per jaar een update, met de laatste stand van zaken en links naar de laatste Fronteers blogposts, naar alle leden te sturen. Ook uitnodigingen voor bijvoorbeeld Algemene Leden Vergaderingen worden naar deze lijst verzonden. Van deze lijst kan een lid zich niet afmelden.
+Net als elke andere vereniging is Fronteers niet alleen **voor** leden, maar ook **door** leden. Als lid kan je initiatieven ontplooien die ons vakgebied ten goede komen, welke door de vereniging ondersteund kunnen worden. We verwelkomen je initiatief en moedigen je aan om contact op te nemen met het [bestuur](mailto:bestuur@fronteers.nl)!
+
+Elk lid wordt ingeschreven op de Fronteers mailinglijst voor leden. Deze lijst wordt door het bestuur gebruikt om een paar keer per jaar een update, met de laatste stand van zaken en links naar de laatste Fronteers blogposts, naar alle leden te sturen. Ook uitnodigingen voor bijvoorbeeld Algemene Leden Vergaderingen worden naar deze lijst verzonden.
 
 Daarnaast organiseert Fronteers [workshops](/nl/activiteiten/workshops/), welke door leden met korting kunnen worden bezocht.
 
