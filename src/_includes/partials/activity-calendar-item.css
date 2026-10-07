@@ -121,7 +121,6 @@
             background-color: var(--lilac-light);
         }
 
-        .activity-calendar-item__time,
         .activity-calendar-item__time {
             background-color: var(--lilac);
         }
@@ -150,7 +149,7 @@
         }
     }
 
-    .activity-calendar-item--organisation,
+    .activity-calendar-item--our-organisation,
     .activity-calendar-item--vereniging {
          .activity-calendar-item__summary:hover,
          .activity-calendar-item__summary:focus-visible {
