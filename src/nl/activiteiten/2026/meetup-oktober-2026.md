@@ -9,6 +9,7 @@ categories:
     - bijeenkomsten
 locale: nl
 signupavailable: false
+published: false
 ---
 
 We organiseren een Fronteers meetup eind oktober 2026. We zijn op zoek naar:

@@ -11,6 +11,7 @@ key: online-borrel-october
 location: online
 locale: en
 signupmail: anneke@fronteers.nl
+published: false
 ---
 
 Connect with fellow frontend developers from the comfort of your own home.  

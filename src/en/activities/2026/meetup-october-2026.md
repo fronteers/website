@@ -9,6 +9,7 @@ categories:
     - meetup
 locale: en
 signupavailable: false
+published: false
 ---
 
 We're organizing a Fronteers meetup in late October 2026. We're currently looking for:
