@@ -2,7 +2,6 @@ const { exec } = require("child_process");
 const glob = require("fast-glob");
 const { DateTime } = require("luxon");
 const fs = require("node:fs");
-const puppeteer = require("puppeteer");
 const slugify = require("slugify");
 const path = require("node:path");
 
@@ -310,6 +309,7 @@ module.exports = async function (eleventyConfig) {
   if (!isDev) {
     eleventyConfig.on("afterBuild", async () => {
       async function convertSvgToJpeg(inputDir, outputDir) {
+        const { default: puppeteer } = await import("puppeteer");
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
 
