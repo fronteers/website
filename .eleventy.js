@@ -198,6 +198,7 @@ module.exports = async function (eleventyConfig) {
     "src/_assets/js": "assets/js",
     _img: "_img",
     "_redirects.conf": "_redirects",
+    "_headers.conf": "_headers",
   });
   eleventyConfig.addPassthroughCopy("src/{nl,en}/**/*.{pdf,zip}");
 
