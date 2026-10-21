@@ -1,6 +1,6 @@
 ---
 title: "Fronteers Lunchmeeting met Erik Kroes"
-summary: Toegankelijkheidstesten: efficiënt en praktisch
+summary: "Toegankelijkheidstesten: efficiënt en praktisch"
 date: 2026-10-21
 eventdate: 2026-10-30
 location: Online

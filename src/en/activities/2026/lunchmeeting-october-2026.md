@@ -1,6 +1,6 @@
 ---
 title: "Fronteers Lunchmeeting with Erik Kroes"
-summary: Accessibility testing: lean and practical
+summary: "Accessibility testing: lean and practical"
 date: 2026-10-21
 eventdate: 2026-10-30
 location: Online
