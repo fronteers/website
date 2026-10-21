@@ -16,8 +16,6 @@ De lunchmeeting is een online bijeenkomst tijdens de lunchpauze, die je kunt bij
 
 Deze lunchmeeting wordt gepresenteerd door Erik Kroes.
 
-### Toegankelijkheidstesten: efficiënt en praktisch
-
 Ontdek hoe je toegankelijkheid snel maar grondig kunt testen, om zo de gebruiksvriendelijkheid voor iedereen te verbeteren.
 
 ### Aanmelden

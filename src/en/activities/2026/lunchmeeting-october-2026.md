@@ -16,8 +16,6 @@ The lunchmeeting is an online meeting during lunchtime that you can attend from 
 
 This lunch meeting is presented by Erik Kroes.
 
-### Accessibility testing: lean and practical
-
 Find out how to test accessibility fast but rigorous to improve usability for everybody.
 
 ### Sign up
