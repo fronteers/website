@@ -1,18 +1,24 @@
 ---
-title: 'Fronteers Lunchmeeting - Mid October 2026'
-summary: Details to follow
-date: 2025-12-13
-eventdate: 2026-10-17
-eventdateTentative: true
+title: "Fronteers Lunchmeeting with Erik Kroes"
+summary: "Accessibility testing: lean and practical"
+date: 2026-10-21
+eventdate: 2026-10-30
 location: Online
 categories:
   - Lunchmeetings
 locale: en
-signupavailable: false
+signupavailable: true
+signupmail: anneke@fronteers.nl
+key: 2026-lunchmeeting-kroes
 ---
 
-We're organizing a Fronteers lunchmeeting in mid October 2026. The lunchmeeting is an online meeting during lunch that you can follow from behind your desk (but also from your couch or in the park).
+The lunchmeeting is an online meeting during lunchtime that you can attend from behind your desk (though from your couch or in the park works too).
 
-We're currently looking for a **speaker** to show (and tell), or just speak on a certain subject, during lunch.
+This lunch meeting is presented by Erik Kroes.
 
-If you can help, please [get in touch](mailto:bestuur@fronteers.nl?subject=Fronteers%20Lunchmeeting%20-%20Mid%20October%202026)!
+Find out how to test accessibility fast but rigorous to improve usability for everybody.
+
+### Sign up
+
+Sign up for the lunch meeting [on meetup.com](https://www.meetup.com/fronteers-nl/events/317079388/)
+or keep an eye on the #fronteers channel on the [Fronteers Slack](https://join.slack.com/t/fronteersnl/shared_invite/zt-1m0mbjbkh-LyrZgCPr1JzWBeASuTcnog).
