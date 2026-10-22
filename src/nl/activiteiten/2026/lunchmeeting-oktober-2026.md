@@ -14,7 +14,7 @@ key: 2026-lunchmeeting-kroes
 
 De lunchmeeting is een online bijeenkomst tijdens de lunchpauze, die je kunt bijwonen vanaf je werkplek (al kan het natuurlijk ook vanaf de bank of in het park).
 
-Deze lunchmeeting wordt gepresenteerd door Erik Kroes.
+Deze lunchbijeenkomst wordt in het Engels gepresenteerd door Erik Kroes.
 
 Ontdek hoe je toegankelijkheid snel maar grondig kunt testen, om zo de gebruiksvriendelijkheid voor iedereen te verbeteren.
 
