@@ -14,7 +14,7 @@ key: 2026-lunchmeeting-kroes
 
 The lunchmeeting is an online meeting during lunchtime that you can attend from behind your desk (though from your couch or in the park works too).
 
-This lunch meeting is presented by Erik Kroes.
+This lunch meeting will be presented in English by Erik Kroes.
 
 Find out how to test accessibility fast but rigorous to improve usability for everybody.
 
