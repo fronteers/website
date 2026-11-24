@@ -1,6 +1,5 @@
 {
   "layout": "blog-single.liquid",
   "tags": "posts",
-  "key": "{{ page.fileSlug | slug }}",
   "locale": "nl"
 }
