@@ -19,7 +19,5 @@ Hieronder vind je een aantal commissies waarvoor we momenteel nog mensen zoeken.
 -   [Het bestuur zoekt versterking](/nl/vereniging/vrijwilliger-worden/bestuursleden)
 -   [Commissie Activiteiten](/nl/vereniging/vrijwilliger-worden/activiteiten)
 -   [Commissie Congres](/nl/vereniging/vrijwilliger-worden/congres)
--   [Commissie Website](/nl/vereniging/vrijwilliger-worden/vacature-commissie-website)
--   [Commissie Workshops](/nl/vereniging/vrijwilliger-worden/workshops)
 
 Indien je een van de bovenstaande rollen op je zou willen nemen of meer informatie wil, horen we graag van je via een e-mail naar [bestuur@fronteers.nl](mailto:bestuur@fronteers.nl)!
