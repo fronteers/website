@@ -55,4 +55,4 @@ Het lidmaatschap wordt stilzwijgend verlengd. Indien een lid zijn of haar lidmaa
 
 ## Contact met de ledenadministratie
 
-Heb je vragen of opmerkingen? Kies bij in het [contactformulier](/nl/informatie/contact/) bij onderwerp voor Ledenadministratie.
+Heb je vragen of opmerkingen? Op de [contactpagina](/nl/vereniging/contact/) vind je hoe je ons kunt bereiken.
